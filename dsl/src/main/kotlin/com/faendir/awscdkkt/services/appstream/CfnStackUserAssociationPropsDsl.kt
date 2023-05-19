@@ -1,0 +1,11 @@
+@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+
+package com.faendir.awscdkkt.services.appstream
+
+import javax.`annotation`.Generated
+import kotlin.Unit
+import software.amazon.awscdk.services.appstream.CfnStackUserAssociationProps
+
+public
+    fun cfnStackUserAssociationProps(initializer: CfnStackUserAssociationProps.Builder.() -> Unit):
+    CfnStackUserAssociationProps = CfnStackUserAssociationProps.builder().apply(initializer).build()

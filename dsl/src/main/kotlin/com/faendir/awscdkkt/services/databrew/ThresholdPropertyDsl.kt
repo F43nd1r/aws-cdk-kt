@@ -1,0 +1,10 @@
+@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+
+package com.faendir.awscdkkt.services.databrew
+
+import javax.`annotation`.Generated
+import kotlin.Unit
+import software.amazon.awscdk.services.databrew.CfnRuleset
+
+public fun thresholdProperty(initializer: CfnRuleset.ThresholdProperty.Builder.() -> Unit):
+    CfnRuleset.ThresholdProperty = CfnRuleset.ThresholdProperty.builder().apply(initializer).build()

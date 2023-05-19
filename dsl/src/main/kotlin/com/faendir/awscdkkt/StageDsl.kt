@@ -1,0 +1,19 @@
+@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+
+package com.faendir.awscdkkt
+
+import javax.`annotation`.Generated
+import kotlin.String
+import kotlin.Unit
+import software.amazon.awscdk.Stage
+import software.amazon.awscdk.StageProps
+import software.constructs.Construct
+
+public fun Construct.stage(id: String, initializer: Stage.() -> Unit = {}): Stage = Stage(this,
+    id).apply(initializer)
+
+public fun Construct.stage(
+  id: String,
+  props: StageProps,
+  initializer: Stage.() -> Unit = {},
+): Stage = Stage(this, id, props).apply(initializer)

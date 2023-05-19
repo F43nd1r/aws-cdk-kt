@@ -1,0 +1,12 @@
+@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+
+package com.faendir.awscdkkt.services.kinesisanalytics
+
+import javax.`annotation`.Generated
+import kotlin.Unit
+import software.amazon.awscdk.services.kinesisanalytics.CfnApplicationReferenceDataSourceV2
+
+public
+    fun referenceSchemaProperty(initializer: CfnApplicationReferenceDataSourceV2.ReferenceSchemaProperty.Builder.() -> Unit):
+    CfnApplicationReferenceDataSourceV2.ReferenceSchemaProperty =
+    CfnApplicationReferenceDataSourceV2.ReferenceSchemaProperty.builder().apply(initializer).build()

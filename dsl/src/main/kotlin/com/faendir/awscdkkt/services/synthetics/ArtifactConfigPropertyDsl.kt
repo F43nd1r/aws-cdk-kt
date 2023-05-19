@@ -1,0 +1,11 @@
+@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+
+package com.faendir.awscdkkt.services.synthetics
+
+import javax.`annotation`.Generated
+import kotlin.Unit
+import software.amazon.awscdk.services.synthetics.CfnCanary
+
+public fun artifactConfigProperty(initializer: CfnCanary.ArtifactConfigProperty.Builder.() -> Unit):
+    CfnCanary.ArtifactConfigProperty =
+    CfnCanary.ArtifactConfigProperty.builder().apply(initializer).build()

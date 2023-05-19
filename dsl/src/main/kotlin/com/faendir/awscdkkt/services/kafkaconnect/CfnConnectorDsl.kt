@@ -1,0 +1,16 @@
+@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+
+package com.faendir.awscdkkt.services.kafkaconnect
+
+import javax.`annotation`.Generated
+import kotlin.String
+import kotlin.Unit
+import software.amazon.awscdk.services.kafkaconnect.CfnConnector
+import software.amazon.awscdk.services.kafkaconnect.CfnConnectorProps
+import software.constructs.Construct
+
+public fun Construct.cfnConnector(
+  id: String,
+  props: CfnConnectorProps,
+  initializer: CfnConnector.() -> Unit = {},
+): CfnConnector = CfnConnector(this, id, props).apply(initializer)

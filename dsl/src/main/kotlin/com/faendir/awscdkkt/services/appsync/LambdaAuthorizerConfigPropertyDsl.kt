@@ -1,0 +1,12 @@
+@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+
+package com.faendir.awscdkkt.services.appsync
+
+import javax.`annotation`.Generated
+import kotlin.Unit
+import software.amazon.awscdk.services.appsync.CfnGraphQLApi
+
+public
+    fun lambdaAuthorizerConfigProperty(initializer: CfnGraphQLApi.LambdaAuthorizerConfigProperty.Builder.() -> Unit):
+    CfnGraphQLApi.LambdaAuthorizerConfigProperty =
+    CfnGraphQLApi.LambdaAuthorizerConfigProperty.builder().apply(initializer).build()

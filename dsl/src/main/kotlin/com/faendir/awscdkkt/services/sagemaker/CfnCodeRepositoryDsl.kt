@@ -1,0 +1,16 @@
+@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+
+package com.faendir.awscdkkt.services.sagemaker
+
+import javax.`annotation`.Generated
+import kotlin.String
+import kotlin.Unit
+import software.amazon.awscdk.services.sagemaker.CfnCodeRepository
+import software.amazon.awscdk.services.sagemaker.CfnCodeRepositoryProps
+import software.constructs.Construct
+
+public fun Construct.cfnCodeRepository(
+  id: String,
+  props: CfnCodeRepositoryProps,
+  initializer: CfnCodeRepository.() -> Unit = {},
+): CfnCodeRepository = CfnCodeRepository(this, id, props).apply(initializer)

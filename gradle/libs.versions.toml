@@ -1,0 +1,19 @@
+[versions]
+kotlin = "1.8.21"
+kotlinPoet = "1.13.2"
+kotlinBard = "0.4.1"
+cdk = "2.79.1"
+classgraph = "4.8.158"
+paranamer = "2.8"
+jgitver = "0.10.0-rc03"
+
+[plugins]
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+jgitver = { id = "fr.brouillard.oss.gradle.jgitver", version.ref = "jgitver" }
+
+[libraries]
+kotlinPoet = { module = "com.squareup:kotlinpoet", version.ref = "kotlinPoet" }
+kotlinBard = { module = "com.faendir:kotlinbard", version.ref = "kotlinBard" }
+cdk = { module = "software.amazon.awscdk:aws-cdk-lib", version.ref = "cdk" }
+classgraph = { module = "io.github.classgraph:classgraph", version.ref = "classgraph" }
+paranamer = { module = "com.thoughtworks.paranamer:paranamer", version.ref = "paranamer" }

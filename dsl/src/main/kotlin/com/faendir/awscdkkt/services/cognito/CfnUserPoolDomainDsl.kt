@@ -1,0 +1,16 @@
+@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+
+package com.faendir.awscdkkt.services.cognito
+
+import javax.`annotation`.Generated
+import kotlin.String
+import kotlin.Unit
+import software.amazon.awscdk.services.cognito.CfnUserPoolDomain
+import software.amazon.awscdk.services.cognito.CfnUserPoolDomainProps
+import software.constructs.Construct
+
+public fun Construct.cfnUserPoolDomain(
+  id: String,
+  props: CfnUserPoolDomainProps,
+  initializer: CfnUserPoolDomain.() -> Unit = {},
+): CfnUserPoolDomain = CfnUserPoolDomain(this, id, props).apply(initializer)

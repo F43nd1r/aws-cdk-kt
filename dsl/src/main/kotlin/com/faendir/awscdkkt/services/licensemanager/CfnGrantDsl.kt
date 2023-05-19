@@ -1,0 +1,19 @@
+@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+
+package com.faendir.awscdkkt.services.licensemanager
+
+import javax.`annotation`.Generated
+import kotlin.String
+import kotlin.Unit
+import software.amazon.awscdk.services.licensemanager.CfnGrant
+import software.amazon.awscdk.services.licensemanager.CfnGrantProps
+import software.constructs.Construct
+
+public fun Construct.cfnGrant(id: String, initializer: CfnGrant.() -> Unit = {}): CfnGrant =
+    CfnGrant(this, id).apply(initializer)
+
+public fun Construct.cfnGrant(
+  id: String,
+  props: CfnGrantProps,
+  initializer: CfnGrant.() -> Unit = {},
+): CfnGrant = CfnGrant(this, id, props).apply(initializer)

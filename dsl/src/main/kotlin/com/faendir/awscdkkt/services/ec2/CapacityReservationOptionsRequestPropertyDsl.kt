@@ -1,0 +1,12 @@
+@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+
+package com.faendir.awscdkkt.services.ec2
+
+import javax.`annotation`.Generated
+import kotlin.Unit
+import software.amazon.awscdk.services.ec2.CfnEC2Fleet
+
+public
+    fun capacityReservationOptionsRequestProperty(initializer: CfnEC2Fleet.CapacityReservationOptionsRequestProperty.Builder.() -> Unit):
+    CfnEC2Fleet.CapacityReservationOptionsRequestProperty =
+    CfnEC2Fleet.CapacityReservationOptionsRequestProperty.builder().apply(initializer).build()

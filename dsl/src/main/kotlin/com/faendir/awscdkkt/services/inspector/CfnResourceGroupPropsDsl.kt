@@ -1,0 +1,10 @@
+@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+
+package com.faendir.awscdkkt.services.inspector
+
+import javax.`annotation`.Generated
+import kotlin.Unit
+import software.amazon.awscdk.services.inspector.CfnResourceGroupProps
+
+public fun cfnResourceGroupProps(initializer: CfnResourceGroupProps.Builder.() -> Unit):
+    CfnResourceGroupProps = CfnResourceGroupProps.builder().apply(initializer).build()

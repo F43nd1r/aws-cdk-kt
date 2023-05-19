@@ -1,0 +1,12 @@
+@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+
+package com.faendir.awscdkkt.services.kinesisfirehose
+
+import javax.`annotation`.Generated
+import kotlin.Unit
+import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
+
+public
+    fun elasticsearchRetryOptionsProperty(initializer: CfnDeliveryStream.ElasticsearchRetryOptionsProperty.Builder.() -> Unit):
+    CfnDeliveryStream.ElasticsearchRetryOptionsProperty =
+    CfnDeliveryStream.ElasticsearchRetryOptionsProperty.builder().apply(initializer).build()

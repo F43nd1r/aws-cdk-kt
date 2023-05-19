@@ -1,0 +1,12 @@
+@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+
+package com.faendir.awscdkkt.services.signer
+
+import javax.`annotation`.Generated
+import kotlin.Unit
+import software.amazon.awscdk.services.signer.CfnSigningProfile
+
+public
+    fun signatureValidityPeriodProperty(initializer: CfnSigningProfile.SignatureValidityPeriodProperty.Builder.() -> Unit):
+    CfnSigningProfile.SignatureValidityPeriodProperty =
+    CfnSigningProfile.SignatureValidityPeriodProperty.builder().apply(initializer).build()

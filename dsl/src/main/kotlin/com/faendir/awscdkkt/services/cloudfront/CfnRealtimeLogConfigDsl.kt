@@ -1,0 +1,16 @@
+@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+
+package com.faendir.awscdkkt.services.cloudfront
+
+import javax.`annotation`.Generated
+import kotlin.String
+import kotlin.Unit
+import software.amazon.awscdk.services.cloudfront.CfnRealtimeLogConfig
+import software.amazon.awscdk.services.cloudfront.CfnRealtimeLogConfigProps
+import software.constructs.Construct
+
+public fun Construct.cfnRealtimeLogConfig(
+  id: String,
+  props: CfnRealtimeLogConfigProps,
+  initializer: CfnRealtimeLogConfig.() -> Unit = {},
+): CfnRealtimeLogConfig = CfnRealtimeLogConfig(this, id, props).apply(initializer)

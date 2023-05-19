@@ -1,0 +1,12 @@
+@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+
+package com.faendir.awscdkkt.services.guardduty
+
+import javax.`annotation`.Generated
+import kotlin.Unit
+import software.amazon.awscdk.services.guardduty.CfnDetector
+
+public
+    fun featureConfigurationsProperty(initializer: CfnDetector.FeatureConfigurationsProperty.Builder.() -> Unit):
+    CfnDetector.FeatureConfigurationsProperty =
+    CfnDetector.FeatureConfigurationsProperty.builder().apply(initializer).build()
