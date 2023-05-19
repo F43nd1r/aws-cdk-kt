@@ -2,7 +2,7 @@ plugins {
     alias(libs.plugins.kotlin)
 }
 
-version = "${libs.versions.cdk}-$version"
+version = "${libs.versions.cdk.get()}-$version"
 
 kotlin {
     jvmToolchain {
