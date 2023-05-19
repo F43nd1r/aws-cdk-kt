@@ -1,0 +1,42 @@
+# AWS CDK KT
+
+A generated Kotlin DSL for the [AWS CDK](https://aws.amazon.com/cdk/).
+
+# Usage
+
+## Gradle
+
+```kotlin
+dependencies {
+    implementation("com.faendir.awscdkkt:dsl:<latest version>")
+}
+```
+
+## Maven
+
+```xml
+
+<dependency>
+    <groupId>com.faendir.awscdkkt</groupId>
+    <artifactId>dsl</artifactId>
+    <version>VERSION</version>
+</dependency>
+```
+
+# Example
+
+```kotlin
+app {
+    stack("LambdaStack") {
+        function("HelloHandler", functionProps {
+            code(Code.fromInline("function handler() { console.log('Hello, CDK'); }"))
+            handler("index.handler")
+            runtime(Runtime.NODEJS_16_X)
+        })
+    }
+}.synth()
+```
+
+# Acknowledgements
+
+Parts of this project were created during [off-project-time](https://en.wikipedia.org/wiki/20%25_Project) graciously provided by [codecentric](https://codecentric.de/). Thank you!

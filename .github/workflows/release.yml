@@ -1,0 +1,35 @@
+name: release
+
+on:
+  push:
+
+jobs:
+  release:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '11'
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.ref }}
+      - name: Publish
+        uses: burrunan/gradle-cache-action@v1
+        with:
+          arguments: :example:run
+      - name: Publish
+        uses: burrunan/gradle-cache-action@v1
+        with:
+          arguments: :publish
+        env:
+          GITHUB_USER: github-action
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OSSRH_USER: ${{ secrets.OSSRH_USER }}
+          OSSRH_PASSWORD: ${{ secrets.OSSRH_PASSWORD }}
+          SIGNING_KEY: ${{ secrets.SIGNING_KEY }}
+          SIGNING_PASSWORD: ${{ secrets.SIGNING_PASSWORD }}
