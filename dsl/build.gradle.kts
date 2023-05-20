@@ -91,6 +91,10 @@ val isReleasedVersion: Boolean by lazy {
     metadata.contains("<version>$version</version>")
 }
 
-tasks.withType<PublishToMavenRepository> {
-    onlyIf { !isReleasedVersion }
+tasks.register("isNewRelease") {
+    doLast {
+        /*if(isReleasedVersion) {
+            throw GradleException("Version $version is already released")
+        }*/
+    }
 }

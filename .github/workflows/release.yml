@@ -23,8 +23,14 @@ jobs:
         uses: burrunan/gradle-cache-action@v1
         with:
           arguments: :example:run
+      - name: Is New Release
+        uses: burrunan/gradle-cache-action@v1
+        with:
+          arguments: isNewRelease
+        continue-on-error: true
       - name: Publish
         uses: burrunan/gradle-cache-action@v1
+        if: steps.isNewRelease.outcome == 'success'
         with:
           arguments: :publish
         env:
