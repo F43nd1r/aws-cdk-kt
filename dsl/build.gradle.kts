@@ -89,6 +89,7 @@ signing {
 
 val downloadReleaseMetadata by tasks.registering(Download::class) {
     src("https://maven.pkg.github.com/F43nd1r/aws-cdk-kt/com/faendir/awscdkkt/dsl/maven-metadata.xml")
+    dest(project.layout.buildDirectory.dir("release-metadata"))
     username(githubUser)
     password(githubPassword)
     preemptiveAuth(true)
