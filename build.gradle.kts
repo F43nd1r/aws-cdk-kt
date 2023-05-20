@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.jgitver)
     alias(libs.plugins.nexusPublish)
+    alias(libs.plugins.kotlin) apply false
     alias(libs.plugins.dokka)
 }
 
