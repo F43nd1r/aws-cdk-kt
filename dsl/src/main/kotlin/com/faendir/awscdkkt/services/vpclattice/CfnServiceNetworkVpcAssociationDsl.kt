@@ -1,4 +1,4 @@
-@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+@file:Generated(value = ["Generated 2023-05-20 based on CDK 2.79.1"])
 
 package com.faendir.awscdkkt.services.vpclattice
 
@@ -9,13 +9,13 @@ import software.amazon.awscdk.services.vpclattice.CfnServiceNetworkVpcAssociatio
 import software.amazon.awscdk.services.vpclattice.CfnServiceNetworkVpcAssociationProps
 import software.constructs.Construct
 
-public fun Construct.cfnServiceNetworkVpcAssociation(id: String,
-    initializer: CfnServiceNetworkVpcAssociation.() -> Unit = {}): CfnServiceNetworkVpcAssociation =
-    CfnServiceNetworkVpcAssociation(this, id).apply(initializer)
-
 public fun Construct.cfnServiceNetworkVpcAssociation(
   id: String,
   props: CfnServiceNetworkVpcAssociationProps,
   initializer: CfnServiceNetworkVpcAssociation.() -> Unit = {},
 ): CfnServiceNetworkVpcAssociation = CfnServiceNetworkVpcAssociation(this, id,
     props).apply(initializer)
+
+public fun Construct.cfnServiceNetworkVpcAssociation(id: String,
+    initializer: CfnServiceNetworkVpcAssociation.() -> Unit = {}): CfnServiceNetworkVpcAssociation =
+    CfnServiceNetworkVpcAssociation(this, id).apply(initializer)

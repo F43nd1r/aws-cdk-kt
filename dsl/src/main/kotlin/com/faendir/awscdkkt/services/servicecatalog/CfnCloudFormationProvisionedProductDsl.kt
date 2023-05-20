@@ -1,4 +1,4 @@
-@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+@file:Generated(value = ["Generated 2023-05-20 based on CDK 2.79.1"])
 
 package com.faendir.awscdkkt.services.servicecatalog
 
@@ -9,14 +9,14 @@ import software.amazon.awscdk.services.servicecatalog.CfnCloudFormationProvision
 import software.amazon.awscdk.services.servicecatalog.CfnCloudFormationProvisionedProductProps
 import software.constructs.Construct
 
-public fun Construct.cfnCloudFormationProvisionedProduct(id: String,
-    initializer: CfnCloudFormationProvisionedProduct.() -> Unit = {}):
-    CfnCloudFormationProvisionedProduct = CfnCloudFormationProvisionedProduct(this,
-    id).apply(initializer)
-
 public fun Construct.cfnCloudFormationProvisionedProduct(
   id: String,
   props: CfnCloudFormationProvisionedProductProps,
   initializer: CfnCloudFormationProvisionedProduct.() -> Unit = {},
 ): CfnCloudFormationProvisionedProduct = CfnCloudFormationProvisionedProduct(this, id,
     props).apply(initializer)
+
+public fun Construct.cfnCloudFormationProvisionedProduct(id: String,
+    initializer: CfnCloudFormationProvisionedProduct.() -> Unit = {}):
+    CfnCloudFormationProvisionedProduct = CfnCloudFormationProvisionedProduct(this,
+    id).apply(initializer)

@@ -1,4 +1,4 @@
-@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+@file:Generated(value = ["Generated 2023-05-20 based on CDK 2.79.1"])
 
 package com.faendir.awscdkkt.services.apigateway
 
@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.apigateway.CfnRestApi
 import software.amazon.awscdk.services.apigateway.CfnRestApiProps
 import software.constructs.Construct
 
-public fun Construct.cfnRestApi(id: String, initializer: CfnRestApi.() -> Unit = {}): CfnRestApi =
-    CfnRestApi(this, id).apply(initializer)
-
 public fun Construct.cfnRestApi(
   id: String,
   props: CfnRestApiProps,
   initializer: CfnRestApi.() -> Unit = {},
 ): CfnRestApi = CfnRestApi(this, id, props).apply(initializer)
+
+public fun Construct.cfnRestApi(id: String, initializer: CfnRestApi.() -> Unit = {}): CfnRestApi =
+    CfnRestApi(this, id).apply(initializer)

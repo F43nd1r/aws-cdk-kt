@@ -1,4 +1,4 @@
-@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+@file:Generated(value = ["Generated 2023-05-20 based on CDK 2.79.1"])
 
 package com.faendir.awscdkkt.services.stepfunctions
 
@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.stepfunctions.Map
 import software.amazon.awscdk.services.stepfunctions.MapProps
 import software.constructs.Construct
 
-public fun Construct.map(id: String, initializer: Map.() -> Unit = {}): Map = Map(this,
-    id).apply(initializer)
-
 public fun Construct.map(
   id: String,
   props: MapProps,
   initializer: Map.() -> Unit = {},
 ): Map = Map(this, id, props).apply(initializer)
+
+public fun Construct.map(id: String, initializer: Map.() -> Unit = {}): Map = Map(this,
+    id).apply(initializer)

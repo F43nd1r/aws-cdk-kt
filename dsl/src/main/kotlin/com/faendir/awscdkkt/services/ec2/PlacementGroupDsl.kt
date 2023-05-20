@@ -1,4 +1,4 @@
-@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+@file:Generated(value = ["Generated 2023-05-20 based on CDK 2.79.1"])
 
 package com.faendir.awscdkkt.services.ec2
 
@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.ec2.PlacementGroup
 import software.amazon.awscdk.services.ec2.PlacementGroupProps
 import software.constructs.Construct
 
-public fun Construct.placementGroup(id: String, initializer: PlacementGroup.() -> Unit = {}):
-    PlacementGroup = PlacementGroup(this, id).apply(initializer)
-
 public fun Construct.placementGroup(
   id: String,
   props: PlacementGroupProps,
   initializer: PlacementGroup.() -> Unit = {},
 ): PlacementGroup = PlacementGroup(this, id, props).apply(initializer)
+
+public fun Construct.placementGroup(id: String, initializer: PlacementGroup.() -> Unit = {}):
+    PlacementGroup = PlacementGroup(this, id).apply(initializer)

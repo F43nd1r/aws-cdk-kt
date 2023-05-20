@@ -1,4 +1,4 @@
-@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+@file:Generated(value = ["Generated 2023-05-20 based on CDK 2.79.1"])
 
 package com.faendir.awscdkkt.services.ecs
 
@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.ecs.Cluster
 import software.amazon.awscdk.services.ecs.ClusterProps
 import software.constructs.Construct
 
-public fun Construct.cluster(id: String, initializer: Cluster.() -> Unit = {}): Cluster =
-    Cluster(this, id).apply(initializer)
-
 public fun Construct.cluster(
   id: String,
   props: ClusterProps,
   initializer: Cluster.() -> Unit = {},
 ): Cluster = Cluster(this, id, props).apply(initializer)
+
+public fun Construct.cluster(id: String, initializer: Cluster.() -> Unit = {}): Cluster =
+    Cluster(this, id).apply(initializer)

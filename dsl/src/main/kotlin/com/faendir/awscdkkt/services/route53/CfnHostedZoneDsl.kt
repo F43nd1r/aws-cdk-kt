@@ -1,4 +1,4 @@
-@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+@file:Generated(value = ["Generated 2023-05-20 based on CDK 2.79.1"])
 
 package com.faendir.awscdkkt.services.route53
 
@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.route53.CfnHostedZone
 import software.amazon.awscdk.services.route53.CfnHostedZoneProps
 import software.constructs.Construct
 
-public fun Construct.cfnHostedZone(id: String, initializer: CfnHostedZone.() -> Unit = {}):
-    CfnHostedZone = CfnHostedZone(this, id).apply(initializer)
-
 public fun Construct.cfnHostedZone(
   id: String,
   props: CfnHostedZoneProps,
   initializer: CfnHostedZone.() -> Unit = {},
 ): CfnHostedZone = CfnHostedZone(this, id, props).apply(initializer)
+
+public fun Construct.cfnHostedZone(id: String, initializer: CfnHostedZone.() -> Unit = {}):
+    CfnHostedZone = CfnHostedZone(this, id).apply(initializer)

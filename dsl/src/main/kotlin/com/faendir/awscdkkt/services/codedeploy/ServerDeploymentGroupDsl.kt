@@ -1,4 +1,4 @@
-@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+@file:Generated(value = ["Generated 2023-05-20 based on CDK 2.79.1"])
 
 package com.faendir.awscdkkt.services.codedeploy
 
@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.codedeploy.ServerDeploymentGroup
 import software.amazon.awscdk.services.codedeploy.ServerDeploymentGroupProps
 import software.constructs.Construct
 
-public fun Construct.serverDeploymentGroup(id: String, initializer: ServerDeploymentGroup.() -> Unit
-    = {}): ServerDeploymentGroup = ServerDeploymentGroup(this, id).apply(initializer)
-
 public fun Construct.serverDeploymentGroup(
   id: String,
   props: ServerDeploymentGroupProps,
   initializer: ServerDeploymentGroup.() -> Unit = {},
 ): ServerDeploymentGroup = ServerDeploymentGroup(this, id, props).apply(initializer)
+
+public fun Construct.serverDeploymentGroup(id: String, initializer: ServerDeploymentGroup.() -> Unit
+    = {}): ServerDeploymentGroup = ServerDeploymentGroup(this, id).apply(initializer)

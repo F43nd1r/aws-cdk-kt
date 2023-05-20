@@ -1,4 +1,4 @@
-@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+@file:Generated(value = ["Generated 2023-05-20 based on CDK 2.79.1"])
 
 package com.faendir.awscdkkt.services.appstream
 
@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.appstream.CfnStack
 import software.amazon.awscdk.services.appstream.CfnStackProps
 import software.constructs.Construct
 
-public fun Construct.cfnStack(id: String, initializer: CfnStack.() -> Unit = {}): CfnStack =
-    CfnStack(this, id).apply(initializer)
-
 public fun Construct.cfnStack(
   id: String,
   props: CfnStackProps,
   initializer: CfnStack.() -> Unit = {},
 ): CfnStack = CfnStack(this, id, props).apply(initializer)
+
+public fun Construct.cfnStack(id: String, initializer: CfnStack.() -> Unit = {}): CfnStack =
+    CfnStack(this, id).apply(initializer)

@@ -1,4 +1,4 @@
-@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+@file:Generated(value = ["Generated 2023-05-20 based on CDK 2.79.1"])
 
 package com.faendir.awscdkkt.services.simspaceweaver
 
@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.simspaceweaver.CfnSimulation
 import software.amazon.awscdk.services.simspaceweaver.CfnSimulationProps
 import software.constructs.Construct
 
-public fun Construct.cfnSimulation(id: String, initializer: CfnSimulation.() -> Unit = {}):
-    CfnSimulation = CfnSimulation(this, id).apply(initializer)
-
 public fun Construct.cfnSimulation(
   id: String,
   props: CfnSimulationProps,
   initializer: CfnSimulation.() -> Unit = {},
 ): CfnSimulation = CfnSimulation(this, id, props).apply(initializer)
+
+public fun Construct.cfnSimulation(id: String, initializer: CfnSimulation.() -> Unit = {}):
+    CfnSimulation = CfnSimulation(this, id).apply(initializer)

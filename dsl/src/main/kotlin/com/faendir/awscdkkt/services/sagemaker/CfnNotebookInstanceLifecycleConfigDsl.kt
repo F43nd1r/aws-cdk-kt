@@ -1,4 +1,4 @@
-@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+@file:Generated(value = ["Generated 2023-05-20 based on CDK 2.79.1"])
 
 package com.faendir.awscdkkt.services.sagemaker
 
@@ -9,14 +9,14 @@ import software.amazon.awscdk.services.sagemaker.CfnNotebookInstanceLifecycleCon
 import software.amazon.awscdk.services.sagemaker.CfnNotebookInstanceLifecycleConfigProps
 import software.constructs.Construct
 
-public fun Construct.cfnNotebookInstanceLifecycleConfig(id: String,
-    initializer: CfnNotebookInstanceLifecycleConfig.() -> Unit = {}):
-    CfnNotebookInstanceLifecycleConfig = CfnNotebookInstanceLifecycleConfig(this,
-    id).apply(initializer)
-
 public fun Construct.cfnNotebookInstanceLifecycleConfig(
   id: String,
   props: CfnNotebookInstanceLifecycleConfigProps,
   initializer: CfnNotebookInstanceLifecycleConfig.() -> Unit = {},
 ): CfnNotebookInstanceLifecycleConfig = CfnNotebookInstanceLifecycleConfig(this, id,
     props).apply(initializer)
+
+public fun Construct.cfnNotebookInstanceLifecycleConfig(id: String,
+    initializer: CfnNotebookInstanceLifecycleConfig.() -> Unit = {}):
+    CfnNotebookInstanceLifecycleConfig = CfnNotebookInstanceLifecycleConfig(this,
+    id).apply(initializer)

@@ -1,4 +1,4 @@
-@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+@file:Generated(value = ["Generated 2023-05-20 based on CDK 2.79.1"])
 
 package com.faendir.awscdkkt.services.apigateway
 
@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.apigateway.ApiKey
 import software.amazon.awscdk.services.apigateway.ApiKeyProps
 import software.constructs.Construct
 
-public fun Construct.apiKey(id: String, initializer: ApiKey.() -> Unit = {}): ApiKey = ApiKey(this,
-    id).apply(initializer)
-
 public fun Construct.apiKey(
   id: String,
   props: ApiKeyProps,
   initializer: ApiKey.() -> Unit = {},
 ): ApiKey = ApiKey(this, id, props).apply(initializer)
+
+public fun Construct.apiKey(id: String, initializer: ApiKey.() -> Unit = {}): ApiKey = ApiKey(this,
+    id).apply(initializer)

@@ -1,4 +1,4 @@
-@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+@file:Generated(value = ["Generated 2023-05-20 based on CDK 2.79.1"])
 
 package com.faendir.awscdkkt.services.cloudtrail
 
@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.cloudtrail.CfnEventDataStore
 import software.amazon.awscdk.services.cloudtrail.CfnEventDataStoreProps
 import software.constructs.Construct
 
-public fun Construct.cfnEventDataStore(id: String, initializer: CfnEventDataStore.() -> Unit = {}):
-    CfnEventDataStore = CfnEventDataStore(this, id).apply(initializer)
-
 public fun Construct.cfnEventDataStore(
   id: String,
   props: CfnEventDataStoreProps,
   initializer: CfnEventDataStore.() -> Unit = {},
 ): CfnEventDataStore = CfnEventDataStore(this, id, props).apply(initializer)
+
+public fun Construct.cfnEventDataStore(id: String, initializer: CfnEventDataStore.() -> Unit = {}):
+    CfnEventDataStore = CfnEventDataStore(this, id).apply(initializer)

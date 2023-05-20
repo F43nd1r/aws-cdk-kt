@@ -1,4 +1,4 @@
-@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+@file:Generated(value = ["Generated 2023-05-20 based on CDK 2.79.1"])
 
 package com.faendir.awscdkkt.services.xray
 
@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.xray.CfnSamplingRule
 import software.amazon.awscdk.services.xray.CfnSamplingRuleProps
 import software.constructs.Construct
 
-public fun Construct.cfnSamplingRule(id: String, initializer: CfnSamplingRule.() -> Unit = {}):
-    CfnSamplingRule = CfnSamplingRule(this, id).apply(initializer)
-
 public fun Construct.cfnSamplingRule(
   id: String,
   props: CfnSamplingRuleProps,
   initializer: CfnSamplingRule.() -> Unit = {},
 ): CfnSamplingRule = CfnSamplingRule(this, id, props).apply(initializer)
+
+public fun Construct.cfnSamplingRule(id: String, initializer: CfnSamplingRule.() -> Unit = {}):
+    CfnSamplingRule = CfnSamplingRule(this, id).apply(initializer)

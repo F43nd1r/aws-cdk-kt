@@ -1,4 +1,4 @@
-@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+@file:Generated(value = ["Generated 2023-05-20 based on CDK 2.79.1"])
 
 package com.faendir.awscdkkt.services.route53resolver
 
@@ -9,14 +9,14 @@ import software.amazon.awscdk.services.route53resolver.CfnResolverQueryLoggingCo
 import software.amazon.awscdk.services.route53resolver.CfnResolverQueryLoggingConfigAssociationProps
 import software.constructs.Construct
 
-public fun Construct.cfnResolverQueryLoggingConfigAssociation(id: String,
-    initializer: CfnResolverQueryLoggingConfigAssociation.() -> Unit = {}):
-    CfnResolverQueryLoggingConfigAssociation = CfnResolverQueryLoggingConfigAssociation(this,
-    id).apply(initializer)
-
 public fun Construct.cfnResolverQueryLoggingConfigAssociation(
   id: String,
   props: CfnResolverQueryLoggingConfigAssociationProps,
   initializer: CfnResolverQueryLoggingConfigAssociation.() -> Unit = {},
 ): CfnResolverQueryLoggingConfigAssociation = CfnResolverQueryLoggingConfigAssociation(this, id,
     props).apply(initializer)
+
+public fun Construct.cfnResolverQueryLoggingConfigAssociation(id: String,
+    initializer: CfnResolverQueryLoggingConfigAssociation.() -> Unit = {}):
+    CfnResolverQueryLoggingConfigAssociation = CfnResolverQueryLoggingConfigAssociation(this,
+    id).apply(initializer)

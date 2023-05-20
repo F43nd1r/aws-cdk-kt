@@ -1,4 +1,4 @@
-@file:Generated(value = ["Generated 2023-05-19 based on CDK 2.79.1"])
+@file:Generated(value = ["Generated 2023-05-20 based on CDK 2.79.1"])
 
 package com.faendir.awscdkkt.services.stepfunctions
 
@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.stepfunctions.Choice
 import software.amazon.awscdk.services.stepfunctions.ChoiceProps
 import software.constructs.Construct
 
-public fun Construct.choice(id: String, initializer: Choice.() -> Unit = {}): Choice = Choice(this,
-    id).apply(initializer)
-
 public fun Construct.choice(
   id: String,
   props: ChoiceProps,
   initializer: Choice.() -> Unit = {},
 ): Choice = Choice(this, id, props).apply(initializer)
+
+public fun Construct.choice(id: String, initializer: Choice.() -> Unit = {}): Choice = Choice(this,
+    id).apply(initializer)
