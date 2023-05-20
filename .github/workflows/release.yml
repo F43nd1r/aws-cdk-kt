@@ -24,6 +24,7 @@ jobs:
         with:
           arguments: :example:run
       - name: Is New Release
+        id: isNewRelease
         uses: burrunan/gradle-cache-action@v1
         with:
           arguments: isNewRelease
