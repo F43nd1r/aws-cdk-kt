@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.elasticbeanstalk.CfnApplication
 import software.amazon.awscdk.services.elasticbeanstalk.CfnApplicationProps
 import software.constructs.Construct
 
+public fun Construct.cfnApplication(id: String, initializer: CfnApplication.() -> Unit = {}):
+    CfnApplication = CfnApplication(this, id).apply(initializer)
+
 public fun Construct.cfnApplication(
   id: String,
   props: CfnApplicationProps,
   initializer: CfnApplication.() -> Unit = {},
 ): CfnApplication = CfnApplication(this, id, props).apply(initializer)
-
-public fun Construct.cfnApplication(id: String, initializer: CfnApplication.() -> Unit = {}):
-    CfnApplication = CfnApplication(this, id).apply(initializer)

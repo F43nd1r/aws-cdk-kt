@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.apigateway.ApiKey
 import software.amazon.awscdk.services.apigateway.ApiKeyProps
 import software.constructs.Construct
 
+public fun Construct.apiKey(id: String, initializer: ApiKey.() -> Unit = {}): ApiKey = ApiKey(this,
+    id).apply(initializer)
+
 public fun Construct.apiKey(
   id: String,
   props: ApiKeyProps,
   initializer: ApiKey.() -> Unit = {},
 ): ApiKey = ApiKey(this, id, props).apply(initializer)
-
-public fun Construct.apiKey(id: String, initializer: ApiKey.() -> Unit = {}): ApiKey = ApiKey(this,
-    id).apply(initializer)

@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.xray.CfnGroup
 import software.amazon.awscdk.services.xray.CfnGroupProps
 import software.constructs.Construct
 
+public fun Construct.cfnGroup(id: String, initializer: CfnGroup.() -> Unit = {}): CfnGroup =
+    CfnGroup(this, id).apply(initializer)
+
 public fun Construct.cfnGroup(
   id: String,
   props: CfnGroupProps,
   initializer: CfnGroup.() -> Unit = {},
 ): CfnGroup = CfnGroup(this, id, props).apply(initializer)
-
-public fun Construct.cfnGroup(id: String, initializer: CfnGroup.() -> Unit = {}): CfnGroup =
-    CfnGroup(this, id).apply(initializer)

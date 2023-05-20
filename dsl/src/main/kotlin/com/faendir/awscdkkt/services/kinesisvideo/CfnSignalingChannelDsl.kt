@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.kinesisvideo.CfnSignalingChannel
 import software.amazon.awscdk.services.kinesisvideo.CfnSignalingChannelProps
 import software.constructs.Construct
 
+public fun Construct.cfnSignalingChannel(id: String, initializer: CfnSignalingChannel.() -> Unit =
+    {}): CfnSignalingChannel = CfnSignalingChannel(this, id).apply(initializer)
+
 public fun Construct.cfnSignalingChannel(
   id: String,
   props: CfnSignalingChannelProps,
   initializer: CfnSignalingChannel.() -> Unit = {},
 ): CfnSignalingChannel = CfnSignalingChannel(this, id, props).apply(initializer)
-
-public fun Construct.cfnSignalingChannel(id: String, initializer: CfnSignalingChannel.() -> Unit =
-    {}): CfnSignalingChannel = CfnSignalingChannel(this, id).apply(initializer)

@@ -9,12 +9,12 @@ import software.amazon.awscdk.services.iot.CfnTopicRuleDestination
 import software.amazon.awscdk.services.iot.CfnTopicRuleDestinationProps
 import software.constructs.Construct
 
+public fun Construct.cfnTopicRuleDestination(id: String,
+    initializer: CfnTopicRuleDestination.() -> Unit = {}): CfnTopicRuleDestination =
+    CfnTopicRuleDestination(this, id).apply(initializer)
+
 public fun Construct.cfnTopicRuleDestination(
   id: String,
   props: CfnTopicRuleDestinationProps,
   initializer: CfnTopicRuleDestination.() -> Unit = {},
 ): CfnTopicRuleDestination = CfnTopicRuleDestination(this, id, props).apply(initializer)
-
-public fun Construct.cfnTopicRuleDestination(id: String,
-    initializer: CfnTopicRuleDestination.() -> Unit = {}): CfnTopicRuleDestination =
-    CfnTopicRuleDestination(this, id).apply(initializer)

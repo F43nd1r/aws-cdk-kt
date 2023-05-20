@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.datasync.CfnAgent
 import software.amazon.awscdk.services.datasync.CfnAgentProps
 import software.constructs.Construct
 
+public fun Construct.cfnAgent(id: String, initializer: CfnAgent.() -> Unit = {}): CfnAgent =
+    CfnAgent(this, id).apply(initializer)
+
 public fun Construct.cfnAgent(
   id: String,
   props: CfnAgentProps,
   initializer: CfnAgent.() -> Unit = {},
 ): CfnAgent = CfnAgent(this, id, props).apply(initializer)
-
-public fun Construct.cfnAgent(id: String, initializer: CfnAgent.() -> Unit = {}): CfnAgent =
-    CfnAgent(this, id).apply(initializer)

@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.ses.CfnReceiptRuleSet
 import software.amazon.awscdk.services.ses.CfnReceiptRuleSetProps
 import software.constructs.Construct
 
+public fun Construct.cfnReceiptRuleSet(id: String, initializer: CfnReceiptRuleSet.() -> Unit = {}):
+    CfnReceiptRuleSet = CfnReceiptRuleSet(this, id).apply(initializer)
+
 public fun Construct.cfnReceiptRuleSet(
   id: String,
   props: CfnReceiptRuleSetProps,
   initializer: CfnReceiptRuleSet.() -> Unit = {},
 ): CfnReceiptRuleSet = CfnReceiptRuleSet(this, id, props).apply(initializer)
-
-public fun Construct.cfnReceiptRuleSet(id: String, initializer: CfnReceiptRuleSet.() -> Unit = {}):
-    CfnReceiptRuleSet = CfnReceiptRuleSet(this, id).apply(initializer)

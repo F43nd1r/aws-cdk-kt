@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.secretsmanager.Secret
 import software.amazon.awscdk.services.secretsmanager.SecretProps
 import software.constructs.Construct
 
+public fun Construct.secret(id: String, initializer: Secret.() -> Unit = {}): Secret = Secret(this,
+    id).apply(initializer)
+
 public fun Construct.secret(
   id: String,
   props: SecretProps,
   initializer: Secret.() -> Unit = {},
 ): Secret = Secret(this, id, props).apply(initializer)
-
-public fun Construct.secret(id: String, initializer: Secret.() -> Unit = {}): Secret = Secret(this,
-    id).apply(initializer)

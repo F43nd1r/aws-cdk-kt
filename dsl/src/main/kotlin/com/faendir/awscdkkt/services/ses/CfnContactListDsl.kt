@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.ses.CfnContactList
 import software.amazon.awscdk.services.ses.CfnContactListProps
 import software.constructs.Construct
 
+public fun Construct.cfnContactList(id: String, initializer: CfnContactList.() -> Unit = {}):
+    CfnContactList = CfnContactList(this, id).apply(initializer)
+
 public fun Construct.cfnContactList(
   id: String,
   props: CfnContactListProps,
   initializer: CfnContactList.() -> Unit = {},
 ): CfnContactList = CfnContactList(this, id, props).apply(initializer)
-
-public fun Construct.cfnContactList(id: String, initializer: CfnContactList.() -> Unit = {}):
-    CfnContactList = CfnContactList(this, id).apply(initializer)

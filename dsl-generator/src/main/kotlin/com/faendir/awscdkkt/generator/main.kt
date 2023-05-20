@@ -43,7 +43,9 @@ fun main(args: Array<String>) {
                 }
             } else if (classInfo.isStandardClass) {
                 if (!classInfo.isAbstract && classInfo.extendsSuperclass(Construct::class.java)) {
-                    val constructors = classInfo.loadClass().kotlin.constructors.filter { it.visibility == KVisibility.PUBLIC }
+                    val constructors = classInfo.loadClass().kotlin.constructors
+                        .filter { it.visibility == KVisibility.PUBLIC }
+                        .sortedBy { it.toString() }
                     if (constructors.isNotEmpty()) {
                         buildFile(classInfo.packageName.replace("software.amazon.awscdk", "com.faendir.awscdkkt"), classInfo.simpleName + "Dsl") {
                             addAnnotation(Generated::class) {

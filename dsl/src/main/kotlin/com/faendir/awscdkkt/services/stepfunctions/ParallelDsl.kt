@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.stepfunctions.Parallel
 import software.amazon.awscdk.services.stepfunctions.ParallelProps
 import software.constructs.Construct
 
+public fun Construct.parallel(id: String, initializer: Parallel.() -> Unit = {}): Parallel =
+    Parallel(this, id).apply(initializer)
+
 public fun Construct.parallel(
   id: String,
   props: ParallelProps,
   initializer: Parallel.() -> Unit = {},
 ): Parallel = Parallel(this, id, props).apply(initializer)
-
-public fun Construct.parallel(id: String, initializer: Parallel.() -> Unit = {}): Parallel =
-    Parallel(this, id).apply(initializer)

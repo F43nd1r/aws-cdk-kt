@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.route53recoveryreadiness.CfnReadinessChec
 import software.amazon.awscdk.services.route53recoveryreadiness.CfnReadinessCheckProps
 import software.constructs.Construct
 
+public fun Construct.cfnReadinessCheck(id: String, initializer: CfnReadinessCheck.() -> Unit = {}):
+    CfnReadinessCheck = CfnReadinessCheck(this, id).apply(initializer)
+
 public fun Construct.cfnReadinessCheck(
   id: String,
   props: CfnReadinessCheckProps,
   initializer: CfnReadinessCheck.() -> Unit = {},
 ): CfnReadinessCheck = CfnReadinessCheck(this, id, props).apply(initializer)
-
-public fun Construct.cfnReadinessCheck(id: String, initializer: CfnReadinessCheck.() -> Unit = {}):
-    CfnReadinessCheck = CfnReadinessCheck(this, id).apply(initializer)

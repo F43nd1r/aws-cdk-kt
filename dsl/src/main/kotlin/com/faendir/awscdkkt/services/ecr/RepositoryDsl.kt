@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.ecr.Repository
 import software.amazon.awscdk.services.ecr.RepositoryProps
 import software.constructs.Construct
 
+public fun Construct.repository(id: String, initializer: Repository.() -> Unit = {}): Repository =
+    Repository(this, id).apply(initializer)
+
 public fun Construct.repository(
   id: String,
   props: RepositoryProps,
   initializer: Repository.() -> Unit = {},
 ): Repository = Repository(this, id, props).apply(initializer)
-
-public fun Construct.repository(id: String, initializer: Repository.() -> Unit = {}): Repository =
-    Repository(this, id).apply(initializer)

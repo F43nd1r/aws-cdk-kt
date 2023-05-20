@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.apigateway.CfnUsagePlan
 import software.amazon.awscdk.services.apigateway.CfnUsagePlanProps
 import software.constructs.Construct
 
+public fun Construct.cfnUsagePlan(id: String, initializer: CfnUsagePlan.() -> Unit = {}):
+    CfnUsagePlan = CfnUsagePlan(this, id).apply(initializer)
+
 public fun Construct.cfnUsagePlan(
   id: String,
   props: CfnUsagePlanProps,
   initializer: CfnUsagePlan.() -> Unit = {},
 ): CfnUsagePlan = CfnUsagePlan(this, id, props).apply(initializer)
-
-public fun Construct.cfnUsagePlan(id: String, initializer: CfnUsagePlan.() -> Unit = {}):
-    CfnUsagePlan = CfnUsagePlan(this, id).apply(initializer)

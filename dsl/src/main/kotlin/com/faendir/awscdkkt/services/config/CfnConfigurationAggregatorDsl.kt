@@ -9,12 +9,12 @@ import software.amazon.awscdk.services.config.CfnConfigurationAggregator
 import software.amazon.awscdk.services.config.CfnConfigurationAggregatorProps
 import software.constructs.Construct
 
+public fun Construct.cfnConfigurationAggregator(id: String,
+    initializer: CfnConfigurationAggregator.() -> Unit = {}): CfnConfigurationAggregator =
+    CfnConfigurationAggregator(this, id).apply(initializer)
+
 public fun Construct.cfnConfigurationAggregator(
   id: String,
   props: CfnConfigurationAggregatorProps,
   initializer: CfnConfigurationAggregator.() -> Unit = {},
 ): CfnConfigurationAggregator = CfnConfigurationAggregator(this, id, props).apply(initializer)
-
-public fun Construct.cfnConfigurationAggregator(id: String,
-    initializer: CfnConfigurationAggregator.() -> Unit = {}): CfnConfigurationAggregator =
-    CfnConfigurationAggregator(this, id).apply(initializer)

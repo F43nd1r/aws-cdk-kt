@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.cloudwatch.Dashboard
 import software.amazon.awscdk.services.cloudwatch.DashboardProps
 import software.constructs.Construct
 
+public fun Construct.dashboard(id: String, initializer: Dashboard.() -> Unit = {}): Dashboard =
+    Dashboard(this, id).apply(initializer)
+
 public fun Construct.dashboard(
   id: String,
   props: DashboardProps,
   initializer: Dashboard.() -> Unit = {},
 ): Dashboard = Dashboard(this, id, props).apply(initializer)
-
-public fun Construct.dashboard(id: String, initializer: Dashboard.() -> Unit = {}): Dashboard =
-    Dashboard(this, id).apply(initializer)

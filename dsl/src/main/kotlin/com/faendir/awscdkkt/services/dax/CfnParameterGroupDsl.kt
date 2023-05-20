@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.dax.CfnParameterGroup
 import software.amazon.awscdk.services.dax.CfnParameterGroupProps
 import software.constructs.Construct
 
+public fun Construct.cfnParameterGroup(id: String, initializer: CfnParameterGroup.() -> Unit = {}):
+    CfnParameterGroup = CfnParameterGroup(this, id).apply(initializer)
+
 public fun Construct.cfnParameterGroup(
   id: String,
   props: CfnParameterGroupProps,
   initializer: CfnParameterGroup.() -> Unit = {},
 ): CfnParameterGroup = CfnParameterGroup(this, id, props).apply(initializer)
-
-public fun Construct.cfnParameterGroup(id: String, initializer: CfnParameterGroup.() -> Unit = {}):
-    CfnParameterGroup = CfnParameterGroup(this, id).apply(initializer)

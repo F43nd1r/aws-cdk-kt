@@ -9,11 +9,11 @@ import software.amazon.awscdk.CfnWaitCondition
 import software.amazon.awscdk.CfnWaitConditionProps
 import software.constructs.Construct
 
+public fun Construct.cfnWaitCondition(id: String, initializer: CfnWaitCondition.() -> Unit = {}):
+    CfnWaitCondition = CfnWaitCondition(this, id).apply(initializer)
+
 public fun Construct.cfnWaitCondition(
   id: String,
   props: CfnWaitConditionProps,
   initializer: CfnWaitCondition.() -> Unit = {},
 ): CfnWaitCondition = CfnWaitCondition(this, id, props).apply(initializer)
-
-public fun Construct.cfnWaitCondition(id: String, initializer: CfnWaitCondition.() -> Unit = {}):
-    CfnWaitCondition = CfnWaitCondition(this, id).apply(initializer)

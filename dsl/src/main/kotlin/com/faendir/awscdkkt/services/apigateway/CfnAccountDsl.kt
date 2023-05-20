@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.apigateway.CfnAccount
 import software.amazon.awscdk.services.apigateway.CfnAccountProps
 import software.constructs.Construct
 
+public fun Construct.cfnAccount(id: String, initializer: CfnAccount.() -> Unit = {}): CfnAccount =
+    CfnAccount(this, id).apply(initializer)
+
 public fun Construct.cfnAccount(
   id: String,
   props: CfnAccountProps,
   initializer: CfnAccount.() -> Unit = {},
 ): CfnAccount = CfnAccount(this, id, props).apply(initializer)
-
-public fun Construct.cfnAccount(id: String, initializer: CfnAccount.() -> Unit = {}): CfnAccount =
-    CfnAccount(this, id).apply(initializer)

@@ -9,12 +9,12 @@ import software.amazon.awscdk.services.route53resolver.CfnResolverQueryLoggingCo
 import software.amazon.awscdk.services.route53resolver.CfnResolverQueryLoggingConfigProps
 import software.constructs.Construct
 
+public fun Construct.cfnResolverQueryLoggingConfig(id: String,
+    initializer: CfnResolverQueryLoggingConfig.() -> Unit = {}): CfnResolverQueryLoggingConfig =
+    CfnResolverQueryLoggingConfig(this, id).apply(initializer)
+
 public fun Construct.cfnResolverQueryLoggingConfig(
   id: String,
   props: CfnResolverQueryLoggingConfigProps,
   initializer: CfnResolverQueryLoggingConfig.() -> Unit = {},
 ): CfnResolverQueryLoggingConfig = CfnResolverQueryLoggingConfig(this, id, props).apply(initializer)
-
-public fun Construct.cfnResolverQueryLoggingConfig(id: String,
-    initializer: CfnResolverQueryLoggingConfig.() -> Unit = {}): CfnResolverQueryLoggingConfig =
-    CfnResolverQueryLoggingConfig(this, id).apply(initializer)

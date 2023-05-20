@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.auditmanager.CfnAssessment
 import software.amazon.awscdk.services.auditmanager.CfnAssessmentProps
 import software.constructs.Construct
 
+public fun Construct.cfnAssessment(id: String, initializer: CfnAssessment.() -> Unit = {}):
+    CfnAssessment = CfnAssessment(this, id).apply(initializer)
+
 public fun Construct.cfnAssessment(
   id: String,
   props: CfnAssessmentProps,
   initializer: CfnAssessment.() -> Unit = {},
 ): CfnAssessment = CfnAssessment(this, id, props).apply(initializer)
-
-public fun Construct.cfnAssessment(id: String, initializer: CfnAssessment.() -> Unit = {}):
-    CfnAssessment = CfnAssessment(this, id).apply(initializer)

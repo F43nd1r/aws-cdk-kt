@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.iotfleetwise.CfnSignalCatalog
 import software.amazon.awscdk.services.iotfleetwise.CfnSignalCatalogProps
 import software.constructs.Construct
 
+public fun Construct.cfnSignalCatalog(id: String, initializer: CfnSignalCatalog.() -> Unit = {}):
+    CfnSignalCatalog = CfnSignalCatalog(this, id).apply(initializer)
+
 public fun Construct.cfnSignalCatalog(
   id: String,
   props: CfnSignalCatalogProps,
   initializer: CfnSignalCatalog.() -> Unit = {},
 ): CfnSignalCatalog = CfnSignalCatalog(this, id, props).apply(initializer)
-
-public fun Construct.cfnSignalCatalog(id: String, initializer: CfnSignalCatalog.() -> Unit = {}):
-    CfnSignalCatalog = CfnSignalCatalog(this, id).apply(initializer)

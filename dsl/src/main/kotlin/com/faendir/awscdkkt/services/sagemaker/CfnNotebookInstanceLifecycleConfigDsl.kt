@@ -9,14 +9,14 @@ import software.amazon.awscdk.services.sagemaker.CfnNotebookInstanceLifecycleCon
 import software.amazon.awscdk.services.sagemaker.CfnNotebookInstanceLifecycleConfigProps
 import software.constructs.Construct
 
+public fun Construct.cfnNotebookInstanceLifecycleConfig(id: String,
+    initializer: CfnNotebookInstanceLifecycleConfig.() -> Unit = {}):
+    CfnNotebookInstanceLifecycleConfig = CfnNotebookInstanceLifecycleConfig(this,
+    id).apply(initializer)
+
 public fun Construct.cfnNotebookInstanceLifecycleConfig(
   id: String,
   props: CfnNotebookInstanceLifecycleConfigProps,
   initializer: CfnNotebookInstanceLifecycleConfig.() -> Unit = {},
 ): CfnNotebookInstanceLifecycleConfig = CfnNotebookInstanceLifecycleConfig(this, id,
     props).apply(initializer)
-
-public fun Construct.cfnNotebookInstanceLifecycleConfig(id: String,
-    initializer: CfnNotebookInstanceLifecycleConfig.() -> Unit = {}):
-    CfnNotebookInstanceLifecycleConfig = CfnNotebookInstanceLifecycleConfig(this,
-    id).apply(initializer)

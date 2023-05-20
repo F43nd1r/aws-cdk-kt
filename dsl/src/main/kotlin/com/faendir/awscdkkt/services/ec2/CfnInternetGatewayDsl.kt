@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.ec2.CfnInternetGateway
 import software.amazon.awscdk.services.ec2.CfnInternetGatewayProps
 import software.constructs.Construct
 
+public fun Construct.cfnInternetGateway(id: String, initializer: CfnInternetGateway.() -> Unit =
+    {}): CfnInternetGateway = CfnInternetGateway(this, id).apply(initializer)
+
 public fun Construct.cfnInternetGateway(
   id: String,
   props: CfnInternetGatewayProps,
   initializer: CfnInternetGateway.() -> Unit = {},
 ): CfnInternetGateway = CfnInternetGateway(this, id, props).apply(initializer)
-
-public fun Construct.cfnInternetGateway(id: String, initializer: CfnInternetGateway.() -> Unit =
-    {}): CfnInternetGateway = CfnInternetGateway(this, id).apply(initializer)

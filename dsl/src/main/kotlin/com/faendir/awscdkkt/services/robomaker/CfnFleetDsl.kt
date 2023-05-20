@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.robomaker.CfnFleet
 import software.amazon.awscdk.services.robomaker.CfnFleetProps
 import software.constructs.Construct
 
+public fun Construct.cfnFleet(id: String, initializer: CfnFleet.() -> Unit = {}): CfnFleet =
+    CfnFleet(this, id).apply(initializer)
+
 public fun Construct.cfnFleet(
   id: String,
   props: CfnFleetProps,
   initializer: CfnFleet.() -> Unit = {},
 ): CfnFleet = CfnFleet(this, id, props).apply(initializer)
-
-public fun Construct.cfnFleet(id: String, initializer: CfnFleet.() -> Unit = {}): CfnFleet =
-    CfnFleet(this, id).apply(initializer)

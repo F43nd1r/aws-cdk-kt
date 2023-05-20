@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.appmesh.CfnMesh
 import software.amazon.awscdk.services.appmesh.CfnMeshProps
 import software.constructs.Construct
 
+public fun Construct.cfnMesh(id: String, initializer: CfnMesh.() -> Unit = {}): CfnMesh =
+    CfnMesh(this, id).apply(initializer)
+
 public fun Construct.cfnMesh(
   id: String,
   props: CfnMeshProps,
   initializer: CfnMesh.() -> Unit = {},
 ): CfnMesh = CfnMesh(this, id, props).apply(initializer)
-
-public fun Construct.cfnMesh(id: String, initializer: CfnMesh.() -> Unit = {}): CfnMesh =
-    CfnMesh(this, id).apply(initializer)

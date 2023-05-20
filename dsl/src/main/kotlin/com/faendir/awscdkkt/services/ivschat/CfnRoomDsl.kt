@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.ivschat.CfnRoom
 import software.amazon.awscdk.services.ivschat.CfnRoomProps
 import software.constructs.Construct
 
+public fun Construct.cfnRoom(id: String, initializer: CfnRoom.() -> Unit = {}): CfnRoom =
+    CfnRoom(this, id).apply(initializer)
+
 public fun Construct.cfnRoom(
   id: String,
   props: CfnRoomProps,
   initializer: CfnRoom.() -> Unit = {},
 ): CfnRoom = CfnRoom(this, id, props).apply(initializer)
-
-public fun Construct.cfnRoom(id: String, initializer: CfnRoom.() -> Unit = {}): CfnRoom =
-    CfnRoom(this, id).apply(initializer)

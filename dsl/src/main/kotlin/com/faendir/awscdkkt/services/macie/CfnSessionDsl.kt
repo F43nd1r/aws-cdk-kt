@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.macie.CfnSession
 import software.amazon.awscdk.services.macie.CfnSessionProps
 import software.constructs.Construct
 
+public fun Construct.cfnSession(id: String, initializer: CfnSession.() -> Unit = {}): CfnSession =
+    CfnSession(this, id).apply(initializer)
+
 public fun Construct.cfnSession(
   id: String,
   props: CfnSessionProps,
   initializer: CfnSession.() -> Unit = {},
 ): CfnSession = CfnSession(this, id, props).apply(initializer)
-
-public fun Construct.cfnSession(id: String, initializer: CfnSession.() -> Unit = {}): CfnSession =
-    CfnSession(this, id).apply(initializer)

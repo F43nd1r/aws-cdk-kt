@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.ses.ReceiptRuleSet
 import software.amazon.awscdk.services.ses.ReceiptRuleSetProps
 import software.constructs.Construct
 
+public fun Construct.receiptRuleSet(id: String, initializer: ReceiptRuleSet.() -> Unit = {}):
+    ReceiptRuleSet = ReceiptRuleSet(this, id).apply(initializer)
+
 public fun Construct.receiptRuleSet(
   id: String,
   props: ReceiptRuleSetProps,
   initializer: ReceiptRuleSet.() -> Unit = {},
 ): ReceiptRuleSet = ReceiptRuleSet(this, id, props).apply(initializer)
-
-public fun Construct.receiptRuleSet(id: String, initializer: ReceiptRuleSet.() -> Unit = {}):
-    ReceiptRuleSet = ReceiptRuleSet(this, id).apply(initializer)

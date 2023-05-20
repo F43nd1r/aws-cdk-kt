@@ -9,14 +9,14 @@ import software.amazon.awscdk.services.vpclattice.CfnServiceNetworkServiceAssoci
 import software.amazon.awscdk.services.vpclattice.CfnServiceNetworkServiceAssociationProps
 import software.constructs.Construct
 
+public fun Construct.cfnServiceNetworkServiceAssociation(id: String,
+    initializer: CfnServiceNetworkServiceAssociation.() -> Unit = {}):
+    CfnServiceNetworkServiceAssociation = CfnServiceNetworkServiceAssociation(this,
+    id).apply(initializer)
+
 public fun Construct.cfnServiceNetworkServiceAssociation(
   id: String,
   props: CfnServiceNetworkServiceAssociationProps,
   initializer: CfnServiceNetworkServiceAssociation.() -> Unit = {},
 ): CfnServiceNetworkServiceAssociation = CfnServiceNetworkServiceAssociation(this, id,
     props).apply(initializer)
-
-public fun Construct.cfnServiceNetworkServiceAssociation(id: String,
-    initializer: CfnServiceNetworkServiceAssociation.() -> Unit = {}):
-    CfnServiceNetworkServiceAssociation = CfnServiceNetworkServiceAssociation(this,
-    id).apply(initializer)

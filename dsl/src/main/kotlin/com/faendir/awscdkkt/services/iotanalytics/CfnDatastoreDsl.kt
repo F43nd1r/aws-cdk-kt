@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.iotanalytics.CfnDatastore
 import software.amazon.awscdk.services.iotanalytics.CfnDatastoreProps
 import software.constructs.Construct
 
+public fun Construct.cfnDatastore(id: String, initializer: CfnDatastore.() -> Unit = {}):
+    CfnDatastore = CfnDatastore(this, id).apply(initializer)
+
 public fun Construct.cfnDatastore(
   id: String,
   props: CfnDatastoreProps,
   initializer: CfnDatastore.() -> Unit = {},
 ): CfnDatastore = CfnDatastore(this, id, props).apply(initializer)
-
-public fun Construct.cfnDatastore(id: String, initializer: CfnDatastore.() -> Unit = {}):
-    CfnDatastore = CfnDatastore(this, id).apply(initializer)

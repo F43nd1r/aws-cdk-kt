@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.sagemaker.CfnWorkteam
 import software.amazon.awscdk.services.sagemaker.CfnWorkteamProps
 import software.constructs.Construct
 
+public fun Construct.cfnWorkteam(id: String, initializer: CfnWorkteam.() -> Unit = {}): CfnWorkteam
+    = CfnWorkteam(this, id).apply(initializer)
+
 public fun Construct.cfnWorkteam(
   id: String,
   props: CfnWorkteamProps,
   initializer: CfnWorkteam.() -> Unit = {},
 ): CfnWorkteam = CfnWorkteam(this, id, props).apply(initializer)
-
-public fun Construct.cfnWorkteam(id: String, initializer: CfnWorkteam.() -> Unit = {}): CfnWorkteam
-    = CfnWorkteam(this, id).apply(initializer)

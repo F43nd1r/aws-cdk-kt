@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.sns.Topic
 import software.amazon.awscdk.services.sns.TopicProps
 import software.constructs.Construct
 
+public fun Construct.topic(id: String, initializer: Topic.() -> Unit = {}): Topic = Topic(this,
+    id).apply(initializer)
+
 public fun Construct.topic(
   id: String,
   props: TopicProps,
   initializer: Topic.() -> Unit = {},
 ): Topic = Topic(this, id, props).apply(initializer)
-
-public fun Construct.topic(id: String, initializer: Topic.() -> Unit = {}): Topic = Topic(this,
-    id).apply(initializer)

@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.sam.CfnStateMachine
 import software.amazon.awscdk.services.sam.CfnStateMachineProps
 import software.constructs.Construct
 
+public fun Construct.cfnStateMachine(id: String, initializer: CfnStateMachine.() -> Unit = {}):
+    CfnStateMachine = CfnStateMachine(this, id).apply(initializer)
+
 public fun Construct.cfnStateMachine(
   id: String,
   props: CfnStateMachineProps,
   initializer: CfnStateMachine.() -> Unit = {},
 ): CfnStateMachine = CfnStateMachine(this, id, props).apply(initializer)
-
-public fun Construct.cfnStateMachine(id: String, initializer: CfnStateMachine.() -> Unit = {}):
-    CfnStateMachine = CfnStateMachine(this, id).apply(initializer)

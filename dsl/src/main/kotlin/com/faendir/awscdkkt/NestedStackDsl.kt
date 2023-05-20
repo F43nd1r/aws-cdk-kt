@@ -9,11 +9,11 @@ import software.amazon.awscdk.NestedStack
 import software.amazon.awscdk.NestedStackProps
 import software.constructs.Construct
 
+public fun Construct.nestedStack(id: String, initializer: NestedStack.() -> Unit = {}): NestedStack
+    = NestedStack(this, id).apply(initializer)
+
 public fun Construct.nestedStack(
   id: String,
   props: NestedStackProps,
   initializer: NestedStack.() -> Unit = {},
 ): NestedStack = NestedStack(this, id, props).apply(initializer)
-
-public fun Construct.nestedStack(id: String, initializer: NestedStack.() -> Unit = {}): NestedStack
-    = NestedStack(this, id).apply(initializer)

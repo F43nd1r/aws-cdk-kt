@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.codedeploy.CfnDeploymentConfig
 import software.amazon.awscdk.services.codedeploy.CfnDeploymentConfigProps
 import software.constructs.Construct
 
+public fun Construct.cfnDeploymentConfig(id: String, initializer: CfnDeploymentConfig.() -> Unit =
+    {}): CfnDeploymentConfig = CfnDeploymentConfig(this, id).apply(initializer)
+
 public fun Construct.cfnDeploymentConfig(
   id: String,
   props: CfnDeploymentConfigProps,
   initializer: CfnDeploymentConfig.() -> Unit = {},
 ): CfnDeploymentConfig = CfnDeploymentConfig(this, id, props).apply(initializer)
-
-public fun Construct.cfnDeploymentConfig(id: String, initializer: CfnDeploymentConfig.() -> Unit =
-    {}): CfnDeploymentConfig = CfnDeploymentConfig(this, id).apply(initializer)

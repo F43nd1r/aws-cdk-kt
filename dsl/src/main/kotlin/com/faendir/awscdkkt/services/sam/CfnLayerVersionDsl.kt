@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.sam.CfnLayerVersion
 import software.amazon.awscdk.services.sam.CfnLayerVersionProps
 import software.constructs.Construct
 
+public fun Construct.cfnLayerVersion(id: String, initializer: CfnLayerVersion.() -> Unit = {}):
+    CfnLayerVersion = CfnLayerVersion(this, id).apply(initializer)
+
 public fun Construct.cfnLayerVersion(
   id: String,
   props: CfnLayerVersionProps,
   initializer: CfnLayerVersion.() -> Unit = {},
 ): CfnLayerVersion = CfnLayerVersion(this, id, props).apply(initializer)
-
-public fun Construct.cfnLayerVersion(id: String, initializer: CfnLayerVersion.() -> Unit = {}):
-    CfnLayerVersion = CfnLayerVersion(this, id).apply(initializer)

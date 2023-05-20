@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.iam.User
 import software.amazon.awscdk.services.iam.UserProps
 import software.constructs.Construct
 
+public fun Construct.user(id: String, initializer: User.() -> Unit = {}): User = User(this,
+    id).apply(initializer)
+
 public fun Construct.user(
   id: String,
   props: UserProps,
   initializer: User.() -> Unit = {},
 ): User = User(this, id, props).apply(initializer)
-
-public fun Construct.user(id: String, initializer: User.() -> Unit = {}): User = User(this,
-    id).apply(initializer)

@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.backup.BackupVault
 import software.amazon.awscdk.services.backup.BackupVaultProps
 import software.constructs.Construct
 
+public fun Construct.backupVault(id: String, initializer: BackupVault.() -> Unit = {}): BackupVault
+    = BackupVault(this, id).apply(initializer)
+
 public fun Construct.backupVault(
   id: String,
   props: BackupVaultProps,
   initializer: BackupVault.() -> Unit = {},
 ): BackupVault = BackupVault(this, id, props).apply(initializer)
-
-public fun Construct.backupVault(id: String, initializer: BackupVault.() -> Unit = {}): BackupVault
-    = BackupVault(this, id).apply(initializer)

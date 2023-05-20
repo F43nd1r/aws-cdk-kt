@@ -9,12 +9,12 @@ import software.amazon.awscdk.CfnModuleDefaultVersion
 import software.amazon.awscdk.CfnModuleDefaultVersionProps
 import software.constructs.Construct
 
+public fun Construct.cfnModuleDefaultVersion(id: String,
+    initializer: CfnModuleDefaultVersion.() -> Unit = {}): CfnModuleDefaultVersion =
+    CfnModuleDefaultVersion(this, id).apply(initializer)
+
 public fun Construct.cfnModuleDefaultVersion(
   id: String,
   props: CfnModuleDefaultVersionProps,
   initializer: CfnModuleDefaultVersion.() -> Unit = {},
 ): CfnModuleDefaultVersion = CfnModuleDefaultVersion(this, id, props).apply(initializer)
-
-public fun Construct.cfnModuleDefaultVersion(id: String,
-    initializer: CfnModuleDefaultVersion.() -> Unit = {}): CfnModuleDefaultVersion =
-    CfnModuleDefaultVersion(this, id).apply(initializer)

@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.cognito.CfnUserPool
 import software.amazon.awscdk.services.cognito.CfnUserPoolProps
 import software.constructs.Construct
 
+public fun Construct.cfnUserPool(id: String, initializer: CfnUserPool.() -> Unit = {}): CfnUserPool
+    = CfnUserPool(this, id).apply(initializer)
+
 public fun Construct.cfnUserPool(
   id: String,
   props: CfnUserPoolProps,
   initializer: CfnUserPool.() -> Unit = {},
 ): CfnUserPool = CfnUserPool(this, id, props).apply(initializer)
-
-public fun Construct.cfnUserPool(id: String, initializer: CfnUserPool.() -> Unit = {}): CfnUserPool
-    = CfnUserPool(this, id).apply(initializer)

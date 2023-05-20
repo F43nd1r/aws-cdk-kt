@@ -9,11 +9,11 @@ import software.amazon.awscdk.CfnPublicTypeVersion
 import software.amazon.awscdk.CfnPublicTypeVersionProps
 import software.constructs.Construct
 
+public fun Construct.cfnPublicTypeVersion(id: String, initializer: CfnPublicTypeVersion.() -> Unit =
+    {}): CfnPublicTypeVersion = CfnPublicTypeVersion(this, id).apply(initializer)
+
 public fun Construct.cfnPublicTypeVersion(
   id: String,
   props: CfnPublicTypeVersionProps,
   initializer: CfnPublicTypeVersion.() -> Unit = {},
 ): CfnPublicTypeVersion = CfnPublicTypeVersion(this, id, props).apply(initializer)
-
-public fun Construct.cfnPublicTypeVersion(id: String, initializer: CfnPublicTypeVersion.() -> Unit =
-    {}): CfnPublicTypeVersion = CfnPublicTypeVersion(this, id).apply(initializer)

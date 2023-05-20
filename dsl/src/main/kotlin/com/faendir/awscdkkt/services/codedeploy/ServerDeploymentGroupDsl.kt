@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.codedeploy.ServerDeploymentGroup
 import software.amazon.awscdk.services.codedeploy.ServerDeploymentGroupProps
 import software.constructs.Construct
 
+public fun Construct.serverDeploymentGroup(id: String, initializer: ServerDeploymentGroup.() -> Unit
+    = {}): ServerDeploymentGroup = ServerDeploymentGroup(this, id).apply(initializer)
+
 public fun Construct.serverDeploymentGroup(
   id: String,
   props: ServerDeploymentGroupProps,
   initializer: ServerDeploymentGroup.() -> Unit = {},
 ): ServerDeploymentGroup = ServerDeploymentGroup(this, id, props).apply(initializer)
-
-public fun Construct.serverDeploymentGroup(id: String, initializer: ServerDeploymentGroup.() -> Unit
-    = {}): ServerDeploymentGroup = ServerDeploymentGroup(this, id).apply(initializer)

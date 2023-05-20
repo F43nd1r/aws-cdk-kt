@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.kinesis.Stream
 import software.amazon.awscdk.services.kinesis.StreamProps
 import software.constructs.Construct
 
+public fun Construct.stream(id: String, initializer: Stream.() -> Unit = {}): Stream = Stream(this,
+    id).apply(initializer)
+
 public fun Construct.stream(
   id: String,
   props: StreamProps,
   initializer: Stream.() -> Unit = {},
 ): Stream = Stream(this, id, props).apply(initializer)
-
-public fun Construct.stream(id: String, initializer: Stream.() -> Unit = {}): Stream = Stream(this,
-    id).apply(initializer)

@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.vpclattice.CfnServiceNetwork
 import software.amazon.awscdk.services.vpclattice.CfnServiceNetworkProps
 import software.constructs.Construct
 
+public fun Construct.cfnServiceNetwork(id: String, initializer: CfnServiceNetwork.() -> Unit = {}):
+    CfnServiceNetwork = CfnServiceNetwork(this, id).apply(initializer)
+
 public fun Construct.cfnServiceNetwork(
   id: String,
   props: CfnServiceNetworkProps,
   initializer: CfnServiceNetwork.() -> Unit = {},
 ): CfnServiceNetwork = CfnServiceNetwork(this, id, props).apply(initializer)
-
-public fun Construct.cfnServiceNetwork(id: String, initializer: CfnServiceNetwork.() -> Unit = {}):
-    CfnServiceNetwork = CfnServiceNetwork(this, id).apply(initializer)

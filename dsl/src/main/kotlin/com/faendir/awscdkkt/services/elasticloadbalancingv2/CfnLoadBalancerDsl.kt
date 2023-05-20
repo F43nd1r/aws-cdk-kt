@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.CfnLoadBalancer
 import software.amazon.awscdk.services.elasticloadbalancingv2.CfnLoadBalancerProps
 import software.constructs.Construct
 
+public fun Construct.cfnLoadBalancer(id: String, initializer: CfnLoadBalancer.() -> Unit = {}):
+    CfnLoadBalancer = CfnLoadBalancer(this, id).apply(initializer)
+
 public fun Construct.cfnLoadBalancer(
   id: String,
   props: CfnLoadBalancerProps,
   initializer: CfnLoadBalancer.() -> Unit = {},
 ): CfnLoadBalancer = CfnLoadBalancer(this, id, props).apply(initializer)
-
-public fun Construct.cfnLoadBalancer(id: String, initializer: CfnLoadBalancer.() -> Unit = {}):
-    CfnLoadBalancer = CfnLoadBalancer(this, id).apply(initializer)

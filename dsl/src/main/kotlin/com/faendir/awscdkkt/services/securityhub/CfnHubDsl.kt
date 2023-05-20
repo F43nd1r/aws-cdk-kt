@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.securityhub.CfnHub
 import software.amazon.awscdk.services.securityhub.CfnHubProps
 import software.constructs.Construct
 
+public fun Construct.cfnHub(id: String, initializer: CfnHub.() -> Unit = {}): CfnHub = CfnHub(this,
+    id).apply(initializer)
+
 public fun Construct.cfnHub(
   id: String,
   props: CfnHubProps,
   initializer: CfnHub.() -> Unit = {},
 ): CfnHub = CfnHub(this, id, props).apply(initializer)
-
-public fun Construct.cfnHub(id: String, initializer: CfnHub.() -> Unit = {}): CfnHub = CfnHub(this,
-    id).apply(initializer)

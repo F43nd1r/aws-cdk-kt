@@ -9,12 +9,12 @@ import software.amazon.awscdk.services.ec2.CfnVerifiedAccessInstance
 import software.amazon.awscdk.services.ec2.CfnVerifiedAccessInstanceProps
 import software.constructs.Construct
 
+public fun Construct.cfnVerifiedAccessInstance(id: String,
+    initializer: CfnVerifiedAccessInstance.() -> Unit = {}): CfnVerifiedAccessInstance =
+    CfnVerifiedAccessInstance(this, id).apply(initializer)
+
 public fun Construct.cfnVerifiedAccessInstance(
   id: String,
   props: CfnVerifiedAccessInstanceProps,
   initializer: CfnVerifiedAccessInstance.() -> Unit = {},
 ): CfnVerifiedAccessInstance = CfnVerifiedAccessInstance(this, id, props).apply(initializer)
-
-public fun Construct.cfnVerifiedAccessInstance(id: String,
-    initializer: CfnVerifiedAccessInstance.() -> Unit = {}): CfnVerifiedAccessInstance =
-    CfnVerifiedAccessInstance(this, id).apply(initializer)

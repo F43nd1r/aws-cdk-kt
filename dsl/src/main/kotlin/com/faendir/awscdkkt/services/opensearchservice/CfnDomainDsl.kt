@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.opensearchservice.CfnDomain
 import software.amazon.awscdk.services.opensearchservice.CfnDomainProps
 import software.constructs.Construct
 
+public fun Construct.cfnDomain(id: String, initializer: CfnDomain.() -> Unit = {}): CfnDomain =
+    CfnDomain(this, id).apply(initializer)
+
 public fun Construct.cfnDomain(
   id: String,
   props: CfnDomainProps,
   initializer: CfnDomain.() -> Unit = {},
 ): CfnDomain = CfnDomain(this, id, props).apply(initializer)
-
-public fun Construct.cfnDomain(id: String, initializer: CfnDomain.() -> Unit = {}): CfnDomain =
-    CfnDomain(this, id).apply(initializer)

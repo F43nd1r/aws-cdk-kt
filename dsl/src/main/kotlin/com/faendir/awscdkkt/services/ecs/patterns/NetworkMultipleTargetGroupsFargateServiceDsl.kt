@@ -9,14 +9,14 @@ import software.amazon.awscdk.services.ecs.patterns.NetworkMultipleTargetGroupsF
 import software.amazon.awscdk.services.ecs.patterns.NetworkMultipleTargetGroupsFargateServiceProps
 import software.constructs.Construct
 
+public fun Construct.networkMultipleTargetGroupsFargateService(id: String,
+    initializer: NetworkMultipleTargetGroupsFargateService.() -> Unit = {}):
+    NetworkMultipleTargetGroupsFargateService = NetworkMultipleTargetGroupsFargateService(this,
+    id).apply(initializer)
+
 public fun Construct.networkMultipleTargetGroupsFargateService(
   id: String,
   props: NetworkMultipleTargetGroupsFargateServiceProps,
   initializer: NetworkMultipleTargetGroupsFargateService.() -> Unit = {},
 ): NetworkMultipleTargetGroupsFargateService = NetworkMultipleTargetGroupsFargateService(this, id,
     props).apply(initializer)
-
-public fun Construct.networkMultipleTargetGroupsFargateService(id: String,
-    initializer: NetworkMultipleTargetGroupsFargateService.() -> Unit = {}):
-    NetworkMultipleTargetGroupsFargateService = NetworkMultipleTargetGroupsFargateService(this,
-    id).apply(initializer)

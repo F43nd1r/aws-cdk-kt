@@ -9,12 +9,12 @@ import software.amazon.awscdk.services.iot.CfnDomainConfiguration
 import software.amazon.awscdk.services.iot.CfnDomainConfigurationProps
 import software.constructs.Construct
 
+public fun Construct.cfnDomainConfiguration(id: String,
+    initializer: CfnDomainConfiguration.() -> Unit = {}): CfnDomainConfiguration =
+    CfnDomainConfiguration(this, id).apply(initializer)
+
 public fun Construct.cfnDomainConfiguration(
   id: String,
   props: CfnDomainConfigurationProps,
   initializer: CfnDomainConfiguration.() -> Unit = {},
 ): CfnDomainConfiguration = CfnDomainConfiguration(this, id, props).apply(initializer)
-
-public fun Construct.cfnDomainConfiguration(id: String,
-    initializer: CfnDomainConfiguration.() -> Unit = {}): CfnDomainConfiguration =
-    CfnDomainConfiguration(this, id).apply(initializer)

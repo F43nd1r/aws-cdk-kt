@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.events.EventBus
 import software.amazon.awscdk.services.events.EventBusProps
 import software.constructs.Construct
 
+public fun Construct.eventBus(id: String, initializer: EventBus.() -> Unit = {}): EventBus =
+    EventBus(this, id).apply(initializer)
+
 public fun Construct.eventBus(
   id: String,
   props: EventBusProps,
   initializer: EventBus.() -> Unit = {},
 ): EventBus = EventBus(this, id, props).apply(initializer)
-
-public fun Construct.eventBus(id: String, initializer: EventBus.() -> Unit = {}): EventBus =
-    EventBus(this, id).apply(initializer)

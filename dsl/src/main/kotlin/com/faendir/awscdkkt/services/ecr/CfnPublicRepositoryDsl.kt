@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.ecr.CfnPublicRepository
 import software.amazon.awscdk.services.ecr.CfnPublicRepositoryProps
 import software.constructs.Construct
 
+public fun Construct.cfnPublicRepository(id: String, initializer: CfnPublicRepository.() -> Unit =
+    {}): CfnPublicRepository = CfnPublicRepository(this, id).apply(initializer)
+
 public fun Construct.cfnPublicRepository(
   id: String,
   props: CfnPublicRepositoryProps,
   initializer: CfnPublicRepository.() -> Unit = {},
 ): CfnPublicRepository = CfnPublicRepository(this, id, props).apply(initializer)
-
-public fun Construct.cfnPublicRepository(id: String, initializer: CfnPublicRepository.() -> Unit =
-    {}): CfnPublicRepository = CfnPublicRepository(this, id).apply(initializer)

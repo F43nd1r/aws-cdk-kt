@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.cassandra.CfnKeyspace
 import software.amazon.awscdk.services.cassandra.CfnKeyspaceProps
 import software.constructs.Construct
 
+public fun Construct.cfnKeyspace(id: String, initializer: CfnKeyspace.() -> Unit = {}): CfnKeyspace
+    = CfnKeyspace(this, id).apply(initializer)
+
 public fun Construct.cfnKeyspace(
   id: String,
   props: CfnKeyspaceProps,
   initializer: CfnKeyspace.() -> Unit = {},
 ): CfnKeyspace = CfnKeyspace(this, id, props).apply(initializer)
-
-public fun Construct.cfnKeyspace(id: String, initializer: CfnKeyspace.() -> Unit = {}): CfnKeyspace
-    = CfnKeyspace(this, id).apply(initializer)

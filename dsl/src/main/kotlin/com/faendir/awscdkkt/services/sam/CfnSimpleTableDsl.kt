@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.sam.CfnSimpleTable
 import software.amazon.awscdk.services.sam.CfnSimpleTableProps
 import software.constructs.Construct
 
+public fun Construct.cfnSimpleTable(id: String, initializer: CfnSimpleTable.() -> Unit = {}):
+    CfnSimpleTable = CfnSimpleTable(this, id).apply(initializer)
+
 public fun Construct.cfnSimpleTable(
   id: String,
   props: CfnSimpleTableProps,
   initializer: CfnSimpleTable.() -> Unit = {},
 ): CfnSimpleTable = CfnSimpleTable(this, id, props).apply(initializer)
-
-public fun Construct.cfnSimpleTable(id: String, initializer: CfnSimpleTable.() -> Unit = {}):
-    CfnSimpleTable = CfnSimpleTable(this, id).apply(initializer)

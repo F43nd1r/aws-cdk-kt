@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.apigateway.VpcLink
 import software.amazon.awscdk.services.apigateway.VpcLinkProps
 import software.constructs.Construct
 
+public fun Construct.vpcLink(id: String, initializer: VpcLink.() -> Unit = {}): VpcLink =
+    VpcLink(this, id).apply(initializer)
+
 public fun Construct.vpcLink(
   id: String,
   props: VpcLinkProps,
   initializer: VpcLink.() -> Unit = {},
 ): VpcLink = VpcLink(this, id, props).apply(initializer)
-
-public fun Construct.vpcLink(id: String, initializer: VpcLink.() -> Unit = {}): VpcLink =
-    VpcLink(this, id).apply(initializer)

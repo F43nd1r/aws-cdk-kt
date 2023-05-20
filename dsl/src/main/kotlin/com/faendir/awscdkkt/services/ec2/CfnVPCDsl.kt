@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.ec2.CfnVPC
 import software.amazon.awscdk.services.ec2.CfnVPCProps
 import software.constructs.Construct
 
+public fun Construct.cfnVPC(id: String, initializer: CfnVPC.() -> Unit = {}): CfnVPC = CfnVPC(this,
+    id).apply(initializer)
+
 public fun Construct.cfnVPC(
   id: String,
   props: CfnVPCProps,
   initializer: CfnVPC.() -> Unit = {},
 ): CfnVPC = CfnVPC(this, id, props).apply(initializer)
-
-public fun Construct.cfnVPC(id: String, initializer: CfnVPC.() -> Unit = {}): CfnVPC = CfnVPC(this,
-    id).apply(initializer)

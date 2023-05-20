@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.ec2.CfnIPAM
 import software.amazon.awscdk.services.ec2.CfnIPAMProps
 import software.constructs.Construct
 
+public fun Construct.cfnIPAM(id: String, initializer: CfnIPAM.() -> Unit = {}): CfnIPAM =
+    CfnIPAM(this, id).apply(initializer)
+
 public fun Construct.cfnIPAM(
   id: String,
   props: CfnIPAMProps,
   initializer: CfnIPAM.() -> Unit = {},
 ): CfnIPAM = CfnIPAM(this, id, props).apply(initializer)
-
-public fun Construct.cfnIPAM(id: String, initializer: CfnIPAM.() -> Unit = {}): CfnIPAM =
-    CfnIPAM(this, id).apply(initializer)

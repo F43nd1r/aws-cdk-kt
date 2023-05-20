@@ -9,11 +9,11 @@ import software.amazon.awscdk.services.detective.CfnGraph
 import software.amazon.awscdk.services.detective.CfnGraphProps
 import software.constructs.Construct
 
+public fun Construct.cfnGraph(id: String, initializer: CfnGraph.() -> Unit = {}): CfnGraph =
+    CfnGraph(this, id).apply(initializer)
+
 public fun Construct.cfnGraph(
   id: String,
   props: CfnGraphProps,
   initializer: CfnGraph.() -> Unit = {},
 ): CfnGraph = CfnGraph(this, id, props).apply(initializer)
-
-public fun Construct.cfnGraph(id: String, initializer: CfnGraph.() -> Unit = {}): CfnGraph =
-    CfnGraph(this, id).apply(initializer)
