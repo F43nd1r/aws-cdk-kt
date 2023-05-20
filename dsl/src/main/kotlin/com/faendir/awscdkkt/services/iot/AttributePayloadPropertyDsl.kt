@@ -1,12 +1,12 @@
-@file:Generated(value = ["Generated based on CDK v2.79.1"])
+@file:Generated(value = ["Generated based on CDK v2.80.0"])
 
 package com.faendir.awscdkkt.services.iot
 
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.iot.CfnThing
+import software.amazon.awscdk.services.iot.CfnThingGroup
 
 public
-    fun attributePayloadProperty(initializer: CfnThing.AttributePayloadProperty.Builder.() -> Unit):
-    CfnThing.AttributePayloadProperty =
-    CfnThing.AttributePayloadProperty.builder().apply(initializer).build()
+    fun attributePayloadProperty(initializer: CfnThingGroup.AttributePayloadProperty.Builder.() -> Unit):
+    CfnThingGroup.AttributePayloadProperty =
+    CfnThingGroup.AttributePayloadProperty.builder().apply(initializer).build()
