@@ -17,7 +17,6 @@ fun main(args: Array<String>) {
     val outputDirectory = Path.of(args[0])
     val cdkVersion = args[1]
     val paranamer = BytecodeReadingParanamer()
-    val today = LocalDate.now()
     ClassGraph().enableAllInfo().acceptPackages("software.amazon.awscdk").scan().use { scanResult ->
         scanResult.getClassesWithAnnotation("software.amazon.jsii.Jsii").forEach { classInfo ->
             if (classInfo.isInterface) {
@@ -25,7 +24,7 @@ fun main(args: Array<String>) {
                     val builderMethod = classInfo.getMethodInfo("builder").first()
                     buildFile(classInfo.packageName.replace("software.amazon.awscdk", "com.faendir.awscdkkt"), classInfo.simpleName + "Dsl") {
                         addAnnotation(Generated::class) {
-                            addMember("value = [%S]", "Generated $today based on CDK $cdkVersion")
+                            addMember("value = [%S]", "Generated based on CDK v$cdkVersion")
                         }
                         addFunction(classInfo.simpleName.lowercaseFirst()) {
                             if(classInfo.hasAnnotation(Deprecated::class.java)) {
@@ -48,7 +47,7 @@ fun main(args: Array<String>) {
                     if (constructors.isNotEmpty()) {
                         buildFile(classInfo.packageName.replace("software.amazon.awscdk", "com.faendir.awscdkkt"), classInfo.simpleName + "Dsl") {
                             addAnnotation(Generated::class) {
-                                addMember("value = [%S]", "Generated $today based on CDK $cdkVersion")
+                                addMember("value = [%S]", "Generated based on CDK v$cdkVersion")
                             }
                             constructors.forEach { constructor ->
                                 val parameterNames = paranamer.lookupParameterNames(constructor.javaConstructor)
