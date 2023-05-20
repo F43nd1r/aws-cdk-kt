@@ -1,10 +1,11 @@
-import java.net.URL
+import de.undercouch.gradle.tasks.download.Download
 
 plugins {
     alias(libs.plugins.kotlin)
     `maven-publish`
     signing
     alias(libs.plugins.dokka)
+    alias(libs.plugins.download)
 }
 
 version = "${libs.versions.cdk.get()}-$version"
@@ -31,6 +32,8 @@ val sourcesJar = tasks.register<Jar>("sourcesJar") {
     archiveClassifier.set("sources")
 }
 
+val githubUser: String by lazy { project.findProperty("githubUser") as? String ?: System.getenv("GITHUB_USER") }
+val githubPassword: String by lazy { project.findProperty("githubPackageKey") as? String ?: System.getenv("GITHUB_TOKEN") }
 publishing {
     publications {
         create<MavenPublication>("maven") {
@@ -70,8 +73,8 @@ publishing {
             name = "GithubPackages"
             url = uri("https://maven.pkg.github.com/F43nd1r/aws-cdk-kt")
             credentials {
-                username = project.findProperty("githubUser") as? String ?: System.getenv("GITHUB_USER")
-                password = project.findProperty("githubPackageKey") as? String ?: System.getenv("GITHUB_TOKEN")
+                username = githubUser
+                password = githubPassword
             }
         }
     }
@@ -84,16 +87,19 @@ signing {
     sign(publishing.publications["maven"])
 }
 
-val isReleasedVersion: Boolean by lazy {
-    val version = project.version.toString()
-    val url = "https://maven.pkg.github.com/F43nd1r/aws-cdk-kt/com/faendir/awscdkkt/dsl/maven-metadata.xml"
-    val metadata = URL(url).openStream().use { it.bufferedReader().readText() }
-    metadata.contains("<version>$version</version>")
+val downloadReleaseMetadata by tasks.registering(Download::class) {
+    src("https://maven.pkg.github.com/F43nd1r/aws-cdk-kt/com/faendir/awscdkkt/dsl/maven-metadata.xml")
+    username(githubUser)
+    password(githubPassword)
+    preemptiveAuth(true)
 }
 
 tasks.register("isNewRelease") {
+    dependsOn(downloadReleaseMetadata)
     doLast {
-        if(isReleasedVersion) {
+        val metadata = downloadReleaseMetadata.get().outputFiles.single().readText()
+        val isReleasedVersion = metadata.contains("<version>$version</version>")
+        if (isReleasedVersion) {
             throw GradleException("Version $version is already released")
         }
     }
