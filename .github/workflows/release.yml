@@ -9,6 +9,7 @@ jobs:
   release:
     runs-on: ubuntu-latest
     permissions:
+      contents: write
       packages: write
 
     steps:
@@ -22,6 +23,19 @@ jobs:
         with:
           fetch-depth: 0
           ref: ${{ github.ref }}
+      - name: Generate DSL
+        uses: burrunan/gradle-cache-action@v1
+        with:
+          arguments: :dsl-generator:run
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: 'dsl/src/main/kotlin'
+          message: 'Update DSL'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: 'master'
+          author_name: github-actions
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
       - name: Test
         uses: burrunan/gradle-cache-action@v1
         with:
