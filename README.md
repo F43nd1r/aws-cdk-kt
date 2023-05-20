@@ -1,3 +1,5 @@
+[![Maven Central](https://img.shields.io/maven-central/v/com.faendir.awscdkkt/dsl?style=for-the-badge)](https://central.sonatype.com/artifact/com.faendir.awscdkkt/dsl)
+
 # AWS CDK KT
 
 A generated Kotlin DSL for the [AWS CDK](https://aws.amazon.com/cdk/).
