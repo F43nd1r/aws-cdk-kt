@@ -93,8 +93,8 @@ val isReleasedVersion: Boolean by lazy {
 
 tasks.register("isNewRelease") {
     doLast {
-        /*if(isReleasedVersion) {
+        if(isReleasedVersion) {
             throw GradleException("Version $version is already released")
-        }*/
+        }
     }
 }
