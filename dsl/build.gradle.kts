@@ -32,8 +32,8 @@ val sourcesJar = tasks.register<Jar>("sourcesJar") {
     archiveClassifier.set("sources")
 }
 
-val githubUser: String by lazy { project.findProperty("githubUser") as? String ?: System.getenv("GITHUB_USER") }
-val githubPassword: String by lazy { project.findProperty("githubPackageKey") as? String ?: System.getenv("GITHUB_TOKEN") }
+val githubUser: String by lazy { project.findProperty("githubUser") as? String ?: System.getenv("GITHUB_USER") ?: "" }
+val githubPassword: String by lazy { project.findProperty("githubPackageKey") as? String ?: System.getenv("GITHUB_TOKEN") ?: "" }
 publishing {
     publications {
         create<MavenPublication>("maven") {

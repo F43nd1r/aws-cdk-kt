@@ -29,6 +29,9 @@ jobs:
         uses: burrunan/gradle-cache-action@v1
         with:
           arguments: isNewRelease
+        env:
+          GITHUB_USER: github-action
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         continue-on-error: true
       - name: Publish
         uses: burrunan/gradle-cache-action@v1
