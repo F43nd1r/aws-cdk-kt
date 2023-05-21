@@ -33,7 +33,6 @@ jobs:
           add: 'dsl/src/main/kotlin'
           message: 'Update DSL'
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: 'master'
           author_name: github-actions
           author_email: 41898282+github-actions[bot]@users.noreply.github.com
       - name: Test
