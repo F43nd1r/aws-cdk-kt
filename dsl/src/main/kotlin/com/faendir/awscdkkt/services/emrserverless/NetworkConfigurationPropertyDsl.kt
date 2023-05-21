@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.emrserverless
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.emrserverless.CfnApplication
 
+@Generated
 public
-    fun networkConfigurationProperty(initializer: CfnApplication.NetworkConfigurationProperty.Builder.() -> Unit):
-    CfnApplication.NetworkConfigurationProperty =
+    fun networkConfigurationProperty(initializer: CfnApplication.NetworkConfigurationProperty.Builder.() -> Unit
+    = {}): CfnApplication.NetworkConfigurationProperty =
     CfnApplication.NetworkConfigurationProperty.builder().apply(initializer).build()

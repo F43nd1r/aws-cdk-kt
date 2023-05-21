@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.databrew
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.databrew.CfnSchedule
 import software.amazon.awscdk.services.databrew.CfnScheduleProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnSchedule(
   id: String,
   props: CfnScheduleProps,

@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.cloudwatch
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.cloudwatch.CompositeAlarm
 import software.amazon.awscdk.services.cloudwatch.CompositeAlarmProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.compositeAlarm(
   id: String,
   props: CompositeAlarmProps,

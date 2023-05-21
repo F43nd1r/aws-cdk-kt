@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.pipes
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
+@Generated
 public
-    fun selfManagedKafkaAccessConfigurationCredentialsProperty(initializer: CfnPipe.SelfManagedKafkaAccessConfigurationCredentialsProperty.Builder.() -> Unit):
-    CfnPipe.SelfManagedKafkaAccessConfigurationCredentialsProperty =
+    fun selfManagedKafkaAccessConfigurationCredentialsProperty(initializer: CfnPipe.SelfManagedKafkaAccessConfigurationCredentialsProperty.Builder.() -> Unit
+    = {}): CfnPipe.SelfManagedKafkaAccessConfigurationCredentialsProperty =
     CfnPipe.SelfManagedKafkaAccessConfigurationCredentialsProperty.builder().apply(initializer).build()

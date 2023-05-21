@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.sam
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.sam.CfnStateMachine
 import software.amazon.awscdk.services.sam.CfnStateMachineProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnStateMachine(id: String, initializer: CfnStateMachine.() -> Unit = {}):
     CfnStateMachine = CfnStateMachine(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnStateMachine(
   id: String,
   props: CfnStateMachineProps,

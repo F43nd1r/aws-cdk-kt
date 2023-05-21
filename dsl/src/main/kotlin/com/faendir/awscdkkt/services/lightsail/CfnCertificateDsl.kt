@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.lightsail
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.lightsail.CfnCertificate
 import software.amazon.awscdk.services.lightsail.CfnCertificateProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnCertificate(
   id: String,
   props: CfnCertificateProps,

@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.dynamodb
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.CfnTable
 
+@Generated
 public
-    fun inputFormatOptionsProperty(initializer: CfnTable.InputFormatOptionsProperty.Builder.() -> Unit):
-    CfnTable.InputFormatOptionsProperty =
+    fun inputFormatOptionsProperty(initializer: CfnTable.InputFormatOptionsProperty.Builder.() -> Unit
+    = {}): CfnTable.InputFormatOptionsProperty =
     CfnTable.InputFormatOptionsProperty.builder().apply(initializer).build()

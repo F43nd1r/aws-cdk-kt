@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.lex
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
+@Generated
 public
-    fun slotValueRegexFilterProperty(initializer: CfnBot.SlotValueRegexFilterProperty.Builder.() -> Unit):
-    CfnBot.SlotValueRegexFilterProperty =
+    fun slotValueRegexFilterProperty(initializer: CfnBot.SlotValueRegexFilterProperty.Builder.() -> Unit
+    = {}): CfnBot.SlotValueRegexFilterProperty =
     CfnBot.SlotValueRegexFilterProperty.builder().apply(initializer).build()

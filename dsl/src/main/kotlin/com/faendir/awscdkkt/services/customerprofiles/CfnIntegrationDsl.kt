@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.customerprofiles
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.customerprofiles.CfnIntegration
 import software.amazon.awscdk.services.customerprofiles.CfnIntegrationProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnIntegration(
   id: String,
   props: CfnIntegrationProps,

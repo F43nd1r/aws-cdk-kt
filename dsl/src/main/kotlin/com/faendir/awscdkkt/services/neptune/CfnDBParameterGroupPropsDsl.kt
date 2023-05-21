@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.neptune
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.neptune.CfnDBParameterGroupProps
 
-public fun cfnDBParameterGroupProps(initializer: CfnDBParameterGroupProps.Builder.() -> Unit):
+@Generated
+public fun cfnDBParameterGroupProps(initializer: CfnDBParameterGroupProps.Builder.() -> Unit = {}):
     CfnDBParameterGroupProps = CfnDBParameterGroupProps.builder().apply(initializer).build()

@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.wafv2
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnWebACL
 
+@Generated
 public
-    fun geoMatchStatementProperty(initializer: CfnWebACL.GeoMatchStatementProperty.Builder.() -> Unit):
-    CfnWebACL.GeoMatchStatementProperty =
+    fun geoMatchStatementProperty(initializer: CfnWebACL.GeoMatchStatementProperty.Builder.() -> Unit
+    = {}): CfnWebACL.GeoMatchStatementProperty =
     CfnWebACL.GeoMatchStatementProperty.builder().apply(initializer).build()

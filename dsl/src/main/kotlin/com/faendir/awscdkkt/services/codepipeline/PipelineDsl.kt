@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.codepipeline
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.codepipeline.Pipeline
 import software.amazon.awscdk.services.codepipeline.PipelineProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.pipeline(id: String, initializer: Pipeline.() -> Unit = {}): Pipeline =
     Pipeline(this, id).apply(initializer)
 
+@Generated
 public fun Construct.pipeline(
   id: String,
   props: PipelineProps,

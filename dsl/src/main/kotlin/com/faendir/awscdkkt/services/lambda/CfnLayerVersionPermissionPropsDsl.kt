@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.lambda
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.lambda.CfnLayerVersionPermissionProps
 
+@Generated
 public
-    fun cfnLayerVersionPermissionProps(initializer: CfnLayerVersionPermissionProps.Builder.() -> Unit):
-    CfnLayerVersionPermissionProps =
+    fun cfnLayerVersionPermissionProps(initializer: CfnLayerVersionPermissionProps.Builder.() -> Unit
+    = {}): CfnLayerVersionPermissionProps =
     CfnLayerVersionPermissionProps.builder().apply(initializer).build()

@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.cognito
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.cognito.CfnUserPool
 import software.amazon.awscdk.services.cognito.CfnUserPoolProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnUserPool(id: String, initializer: CfnUserPool.() -> Unit = {}): CfnUserPool
     = CfnUserPool(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnUserPool(
   id: String,
   props: CfnUserPoolProps,

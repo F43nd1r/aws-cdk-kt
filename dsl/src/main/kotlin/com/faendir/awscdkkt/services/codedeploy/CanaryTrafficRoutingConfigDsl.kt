@@ -1,10 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.codedeploy
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.codedeploy.CanaryTrafficRoutingConfig
 
-public fun canaryTrafficRoutingConfig(initializer: CanaryTrafficRoutingConfig.Builder.() -> Unit):
-    CanaryTrafficRoutingConfig = CanaryTrafficRoutingConfig.builder().apply(initializer).build()
+@Generated
+public fun canaryTrafficRoutingConfig(initializer: CanaryTrafficRoutingConfig.Builder.() -> Unit =
+    {}): CanaryTrafficRoutingConfig =
+    CanaryTrafficRoutingConfig.builder().apply(initializer).build()

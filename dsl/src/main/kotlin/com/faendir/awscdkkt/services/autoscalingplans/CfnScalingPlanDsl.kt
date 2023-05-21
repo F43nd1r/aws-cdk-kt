@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.autoscalingplans
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.autoscalingplans.CfnScalingPlan
 import software.amazon.awscdk.services.autoscalingplans.CfnScalingPlanProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnScalingPlan(
   id: String,
   props: CfnScalingPlanProps,

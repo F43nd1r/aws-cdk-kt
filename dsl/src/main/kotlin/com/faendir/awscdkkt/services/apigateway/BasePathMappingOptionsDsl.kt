@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.apigateway
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.BasePathMappingOptions
 
-public fun basePathMappingOptions(initializer: BasePathMappingOptions.Builder.() -> Unit):
+@Generated
+public fun basePathMappingOptions(initializer: BasePathMappingOptions.Builder.() -> Unit = {}):
     BasePathMappingOptions = BasePathMappingOptions.builder().apply(initializer).build()

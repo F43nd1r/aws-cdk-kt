@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.robomaker
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.robomaker.CfnFleet
 import software.amazon.awscdk.services.robomaker.CfnFleetProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnFleet(id: String, initializer: CfnFleet.() -> Unit = {}): CfnFleet =
     CfnFleet(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnFleet(
   id: String,
   props: CfnFleetProps,

@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.rum
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.rum.CfnAppMonitor
 import software.amazon.awscdk.services.rum.CfnAppMonitorProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnAppMonitor(
   id: String,
   props: CfnAppMonitorProps,

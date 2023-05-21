@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.greengrass
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.greengrass.CfnResourceDefinitionVersion
 
+@Generated
 public
-    fun secretsManagerSecretResourceDataProperty(initializer: CfnResourceDefinitionVersion.SecretsManagerSecretResourceDataProperty.Builder.() -> Unit):
-    CfnResourceDefinitionVersion.SecretsManagerSecretResourceDataProperty =
+    fun secretsManagerSecretResourceDataProperty(initializer: CfnResourceDefinitionVersion.SecretsManagerSecretResourceDataProperty.Builder.() -> Unit
+    = {}): CfnResourceDefinitionVersion.SecretsManagerSecretResourceDataProperty =
     CfnResourceDefinitionVersion.SecretsManagerSecretResourceDataProperty.builder().apply(initializer).build()

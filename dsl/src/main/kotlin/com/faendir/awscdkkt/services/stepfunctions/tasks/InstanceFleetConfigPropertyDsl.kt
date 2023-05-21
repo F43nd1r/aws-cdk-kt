@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.stepfunctions.tasks
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrCreateCluster
 
+@Generated
 public
-    fun instanceFleetConfigProperty(initializer: EmrCreateCluster.InstanceFleetConfigProperty.Builder.() -> Unit):
-    EmrCreateCluster.InstanceFleetConfigProperty =
+    fun instanceFleetConfigProperty(initializer: EmrCreateCluster.InstanceFleetConfigProperty.Builder.() -> Unit
+    = {}): EmrCreateCluster.InstanceFleetConfigProperty =
     EmrCreateCluster.InstanceFleetConfigProperty.builder().apply(initializer).build()

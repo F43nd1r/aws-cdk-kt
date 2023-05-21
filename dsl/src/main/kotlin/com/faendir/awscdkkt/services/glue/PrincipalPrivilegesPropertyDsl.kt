@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.glue
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnDatabase
 
+@Generated
 public
-    fun principalPrivilegesProperty(initializer: CfnDatabase.PrincipalPrivilegesProperty.Builder.() -> Unit):
-    CfnDatabase.PrincipalPrivilegesProperty =
+    fun principalPrivilegesProperty(initializer: CfnDatabase.PrincipalPrivilegesProperty.Builder.() -> Unit
+    = {}): CfnDatabase.PrincipalPrivilegesProperty =
     CfnDatabase.PrincipalPrivilegesProperty.builder().apply(initializer).build()

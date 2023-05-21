@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.athena
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.athena.CfnDataCatalog
 import software.amazon.awscdk.services.athena.CfnDataCatalogProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnDataCatalog(
   id: String,
   props: CfnDataCatalogProps,

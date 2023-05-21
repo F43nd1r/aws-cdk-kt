@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.greengrass
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.greengrass.CfnGroupVersionProps
 
-public fun cfnGroupVersionProps(initializer: CfnGroupVersionProps.Builder.() -> Unit):
+@Generated
+public fun cfnGroupVersionProps(initializer: CfnGroupVersionProps.Builder.() -> Unit = {}):
     CfnGroupVersionProps = CfnGroupVersionProps.builder().apply(initializer).build()

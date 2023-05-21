@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.CfnModuleVersionProps
 
-public fun cfnModuleVersionProps(initializer: CfnModuleVersionProps.Builder.() -> Unit):
+@Generated
+public fun cfnModuleVersionProps(initializer: CfnModuleVersionProps.Builder.() -> Unit = {}):
     CfnModuleVersionProps = CfnModuleVersionProps.builder().apply(initializer).build()

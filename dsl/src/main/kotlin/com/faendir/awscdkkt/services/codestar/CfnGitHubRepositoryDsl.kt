@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.codestar
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.codestar.CfnGitHubRepository
 import software.amazon.awscdk.services.codestar.CfnGitHubRepositoryProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnGitHubRepository(
   id: String,
   props: CfnGitHubRepositoryProps,

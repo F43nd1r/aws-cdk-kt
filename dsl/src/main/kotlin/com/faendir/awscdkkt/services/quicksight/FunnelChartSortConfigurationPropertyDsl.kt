@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.quicksight
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
+@Generated
 public
-    fun funnelChartSortConfigurationProperty(initializer: CfnTemplate.FunnelChartSortConfigurationProperty.Builder.() -> Unit):
-    CfnTemplate.FunnelChartSortConfigurationProperty =
+    fun funnelChartSortConfigurationProperty(initializer: CfnTemplate.FunnelChartSortConfigurationProperty.Builder.() -> Unit
+    = {}): CfnTemplate.FunnelChartSortConfigurationProperty =
     CfnTemplate.FunnelChartSortConfigurationProperty.builder().apply(initializer).build()

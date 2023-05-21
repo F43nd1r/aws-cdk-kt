@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.quicksight
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
+@Generated
 public
-    fun filledMapConditionalFormattingProperty(initializer: CfnTemplate.FilledMapConditionalFormattingProperty.Builder.() -> Unit):
-    CfnTemplate.FilledMapConditionalFormattingProperty =
+    fun filledMapConditionalFormattingProperty(initializer: CfnTemplate.FilledMapConditionalFormattingProperty.Builder.() -> Unit
+    = {}): CfnTemplate.FilledMapConditionalFormattingProperty =
     CfnTemplate.FilledMapConditionalFormattingProperty.builder().apply(initializer).build()

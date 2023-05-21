@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.healthlake
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.healthlake.CfnFHIRDatastore
 import software.amazon.awscdk.services.healthlake.CfnFHIRDatastoreProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnFHIRDatastore(
   id: String,
   props: CfnFHIRDatastoreProps,

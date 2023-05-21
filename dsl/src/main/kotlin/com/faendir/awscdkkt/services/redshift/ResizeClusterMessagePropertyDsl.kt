@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.redshift
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.redshift.CfnScheduledAction
 
+@Generated
 public
-    fun resizeClusterMessageProperty(initializer: CfnScheduledAction.ResizeClusterMessageProperty.Builder.() -> Unit):
-    CfnScheduledAction.ResizeClusterMessageProperty =
+    fun resizeClusterMessageProperty(initializer: CfnScheduledAction.ResizeClusterMessageProperty.Builder.() -> Unit
+    = {}): CfnScheduledAction.ResizeClusterMessageProperty =
     CfnScheduledAction.ResizeClusterMessageProperty.builder().apply(initializer).build()

@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.lakeformation
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.lakeformation.CfnDataLakeSettings
 import software.amazon.awscdk.services.lakeformation.CfnDataLakeSettingsProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnDataLakeSettings(id: String, initializer: CfnDataLakeSettings.() -> Unit =
     {}): CfnDataLakeSettings = CfnDataLakeSettings(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnDataLakeSettings(
   id: String,
   props: CfnDataLakeSettingsProps,

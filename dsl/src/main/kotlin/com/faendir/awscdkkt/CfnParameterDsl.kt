@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.CfnParameter
 import software.amazon.awscdk.CfnParameterProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnParameter(id: String, initializer: CfnParameter.() -> Unit = {}):
     CfnParameter = CfnParameter(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnParameter(
   id: String,
   props: CfnParameterProps,

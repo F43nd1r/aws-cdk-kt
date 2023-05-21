@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.glue
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnRegistryProps
 
-public fun cfnRegistryProps(initializer: CfnRegistryProps.Builder.() -> Unit): CfnRegistryProps =
-    CfnRegistryProps.builder().apply(initializer).build()
+@Generated
+public fun cfnRegistryProps(initializer: CfnRegistryProps.Builder.() -> Unit = {}): CfnRegistryProps
+    = CfnRegistryProps.builder().apply(initializer).build()

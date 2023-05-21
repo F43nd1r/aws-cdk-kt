@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.networkmanager
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.networkmanager.CfnGlobalNetworkProps
 
-public fun cfnGlobalNetworkProps(initializer: CfnGlobalNetworkProps.Builder.() -> Unit):
+@Generated
+public fun cfnGlobalNetworkProps(initializer: CfnGlobalNetworkProps.Builder.() -> Unit = {}):
     CfnGlobalNetworkProps = CfnGlobalNetworkProps.builder().apply(initializer).build()

@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.stepfunctions
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.stepfunctions.Parallel
 import software.amazon.awscdk.services.stepfunctions.ParallelProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.parallel(id: String, initializer: Parallel.() -> Unit = {}): Parallel =
     Parallel(this, id).apply(initializer)
 
+@Generated
 public fun Construct.parallel(
   id: String,
   props: ParallelProps,

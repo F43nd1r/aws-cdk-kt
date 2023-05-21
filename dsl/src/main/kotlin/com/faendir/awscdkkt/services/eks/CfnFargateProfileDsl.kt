@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.eks
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.eks.CfnFargateProfile
 import software.amazon.awscdk.services.eks.CfnFargateProfileProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnFargateProfile(
   id: String,
   props: CfnFargateProfileProps,

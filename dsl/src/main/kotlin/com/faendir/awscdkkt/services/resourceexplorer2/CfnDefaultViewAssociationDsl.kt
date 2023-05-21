@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.resourceexplorer2
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.resourceexplorer2.CfnDefaultViewAssociati
 import software.amazon.awscdk.services.resourceexplorer2.CfnDefaultViewAssociationProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnDefaultViewAssociation(
   id: String,
   props: CfnDefaultViewAssociationProps,

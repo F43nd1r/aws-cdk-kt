@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.quicksight
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
+@Generated
 public
-    fun pieChartAggregatedFieldWellsProperty(initializer: CfnTemplate.PieChartAggregatedFieldWellsProperty.Builder.() -> Unit):
-    CfnTemplate.PieChartAggregatedFieldWellsProperty =
+    fun pieChartAggregatedFieldWellsProperty(initializer: CfnTemplate.PieChartAggregatedFieldWellsProperty.Builder.() -> Unit
+    = {}): CfnTemplate.PieChartAggregatedFieldWellsProperty =
     CfnTemplate.PieChartAggregatedFieldWellsProperty.builder().apply(initializer).build()

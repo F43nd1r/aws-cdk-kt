@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.rds
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.rds.CfnEventSubscription
 import software.amazon.awscdk.services.rds.CfnEventSubscriptionProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnEventSubscription(
   id: String,
   props: CfnEventSubscriptionProps,

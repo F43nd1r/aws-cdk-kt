@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.iam
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.iam.CfnServerCertificate
 import software.amazon.awscdk.services.iam.CfnServerCertificateProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnServerCertificate(id: String, initializer: CfnServerCertificate.() -> Unit =
     {}): CfnServerCertificate = CfnServerCertificate(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnServerCertificate(
   id: String,
   props: CfnServerCertificateProps,

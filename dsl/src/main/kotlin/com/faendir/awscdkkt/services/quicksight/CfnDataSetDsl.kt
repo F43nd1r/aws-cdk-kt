@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.quicksight
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.quicksight.CfnDataSet
 import software.amazon.awscdk.services.quicksight.CfnDataSetProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnDataSet(id: String, initializer: CfnDataSet.() -> Unit = {}): CfnDataSet =
     CfnDataSet(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnDataSet(
   id: String,
   props: CfnDataSetProps,

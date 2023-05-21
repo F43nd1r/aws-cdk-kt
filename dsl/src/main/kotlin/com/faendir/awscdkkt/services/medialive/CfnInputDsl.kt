@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.medialive
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.medialive.CfnInput
 import software.amazon.awscdk.services.medialive.CfnInputProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnInput(id: String, initializer: CfnInput.() -> Unit = {}): CfnInput =
     CfnInput(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnInput(
   id: String,
   props: CfnInputProps,

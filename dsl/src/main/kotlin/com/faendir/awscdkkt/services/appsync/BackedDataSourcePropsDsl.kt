@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.appsync
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.appsync.BackedDataSourceProps
 
-public fun backedDataSourceProps(initializer: BackedDataSourceProps.Builder.() -> Unit):
+@Generated
+public fun backedDataSourceProps(initializer: BackedDataSourceProps.Builder.() -> Unit = {}):
     BackedDataSourceProps = BackedDataSourceProps.builder().apply(initializer).build()

@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.devicefarm
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.devicefarm.CfnVPCEConfigurationProps
 
-public fun cfnVPCEConfigurationProps(initializer: CfnVPCEConfigurationProps.Builder.() -> Unit):
-    CfnVPCEConfigurationProps = CfnVPCEConfigurationProps.builder().apply(initializer).build()
+@Generated
+public fun cfnVPCEConfigurationProps(initializer: CfnVPCEConfigurationProps.Builder.() -> Unit =
+    {}): CfnVPCEConfigurationProps = CfnVPCEConfigurationProps.builder().apply(initializer).build()

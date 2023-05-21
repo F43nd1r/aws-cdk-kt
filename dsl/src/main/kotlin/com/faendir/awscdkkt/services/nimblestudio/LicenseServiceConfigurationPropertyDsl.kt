@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.nimblestudio
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.nimblestudio.CfnStudioComponent
 
+@Generated
 public
-    fun licenseServiceConfigurationProperty(initializer: CfnStudioComponent.LicenseServiceConfigurationProperty.Builder.() -> Unit):
-    CfnStudioComponent.LicenseServiceConfigurationProperty =
+    fun licenseServiceConfigurationProperty(initializer: CfnStudioComponent.LicenseServiceConfigurationProperty.Builder.() -> Unit
+    = {}): CfnStudioComponent.LicenseServiceConfigurationProperty =
     CfnStudioComponent.LicenseServiceConfigurationProperty.builder().apply(initializer).build()

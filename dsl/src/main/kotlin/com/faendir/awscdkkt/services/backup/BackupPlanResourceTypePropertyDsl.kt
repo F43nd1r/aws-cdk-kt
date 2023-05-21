@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.backup
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.backup.CfnBackupPlan
 
+@Generated
 public
-    fun backupPlanResourceTypeProperty(initializer: CfnBackupPlan.BackupPlanResourceTypeProperty.Builder.() -> Unit):
-    CfnBackupPlan.BackupPlanResourceTypeProperty =
+    fun backupPlanResourceTypeProperty(initializer: CfnBackupPlan.BackupPlanResourceTypeProperty.Builder.() -> Unit
+    = {}): CfnBackupPlan.BackupPlanResourceTypeProperty =
     CfnBackupPlan.BackupPlanResourceTypeProperty.builder().apply(initializer).build()

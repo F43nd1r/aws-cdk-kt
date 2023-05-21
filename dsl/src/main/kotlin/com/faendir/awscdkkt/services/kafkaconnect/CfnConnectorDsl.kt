@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.kafkaconnect
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.kafkaconnect.CfnConnector
 import software.amazon.awscdk.services.kafkaconnect.CfnConnectorProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnConnector(
   id: String,
   props: CfnConnectorProps,

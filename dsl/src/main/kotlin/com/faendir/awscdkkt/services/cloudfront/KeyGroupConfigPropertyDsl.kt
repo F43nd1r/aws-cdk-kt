@@ -1,12 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.cloudfront
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnKeyGroup
 
-public
-    fun keyGroupConfigProperty(initializer: CfnKeyGroup.KeyGroupConfigProperty.Builder.() -> Unit):
-    CfnKeyGroup.KeyGroupConfigProperty =
+@Generated
+public fun keyGroupConfigProperty(initializer: CfnKeyGroup.KeyGroupConfigProperty.Builder.() -> Unit
+    = {}): CfnKeyGroup.KeyGroupConfigProperty =
     CfnKeyGroup.KeyGroupConfigProperty.builder().apply(initializer).build()

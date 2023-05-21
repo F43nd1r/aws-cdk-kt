@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.wafv2
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.wafv2.CfnIPSet
 import software.amazon.awscdk.services.wafv2.CfnIPSetProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnIPSet(
   id: String,
   props: CfnIPSetProps,

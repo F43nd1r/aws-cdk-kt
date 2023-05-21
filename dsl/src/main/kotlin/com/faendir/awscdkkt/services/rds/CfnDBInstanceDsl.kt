@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.rds
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.rds.CfnDBInstance
 import software.amazon.awscdk.services.rds.CfnDBInstanceProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnDBInstance(id: String, initializer: CfnDBInstance.() -> Unit = {}):
     CfnDBInstance = CfnDBInstance(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnDBInstance(
   id: String,
   props: CfnDBInstanceProps,

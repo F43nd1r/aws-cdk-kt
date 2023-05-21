@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.cognito
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnUserPool
 
+@Generated
 public
-    fun numberAttributeConstraintsProperty(initializer: CfnUserPool.NumberAttributeConstraintsProperty.Builder.() -> Unit):
-    CfnUserPool.NumberAttributeConstraintsProperty =
+    fun numberAttributeConstraintsProperty(initializer: CfnUserPool.NumberAttributeConstraintsProperty.Builder.() -> Unit
+    = {}): CfnUserPool.NumberAttributeConstraintsProperty =
     CfnUserPool.NumberAttributeConstraintsProperty.builder().apply(initializer).build()

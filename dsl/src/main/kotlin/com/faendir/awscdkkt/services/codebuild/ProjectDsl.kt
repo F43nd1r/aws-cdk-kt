@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.codebuild
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.codebuild.Project
 import software.amazon.awscdk.services.codebuild.ProjectProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.project(
   id: String,
   props: ProjectProps,

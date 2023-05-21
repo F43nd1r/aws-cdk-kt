@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.rds
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.rds.CfnGlobalCluster
 import software.amazon.awscdk.services.rds.CfnGlobalClusterProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnGlobalCluster(id: String, initializer: CfnGlobalCluster.() -> Unit = {}):
     CfnGlobalCluster = CfnGlobalCluster(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnGlobalCluster(
   id: String,
   props: CfnGlobalClusterProps,

@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ecs
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
+@Generated
 public
-    fun containerDefinitionProperty(initializer: CfnTaskDefinition.ContainerDefinitionProperty.Builder.() -> Unit):
-    CfnTaskDefinition.ContainerDefinitionProperty =
+    fun containerDefinitionProperty(initializer: CfnTaskDefinition.ContainerDefinitionProperty.Builder.() -> Unit
+    = {}): CfnTaskDefinition.ContainerDefinitionProperty =
     CfnTaskDefinition.ContainerDefinitionProperty.builder().apply(initializer).build()

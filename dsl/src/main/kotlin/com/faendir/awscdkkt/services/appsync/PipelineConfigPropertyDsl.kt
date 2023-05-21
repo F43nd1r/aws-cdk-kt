@@ -1,12 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.appsync
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.appsync.CfnResolver
 
-public
-    fun pipelineConfigProperty(initializer: CfnResolver.PipelineConfigProperty.Builder.() -> Unit):
-    CfnResolver.PipelineConfigProperty =
+@Generated
+public fun pipelineConfigProperty(initializer: CfnResolver.PipelineConfigProperty.Builder.() -> Unit
+    = {}): CfnResolver.PipelineConfigProperty =
     CfnResolver.PipelineConfigProperty.builder().apply(initializer).build()

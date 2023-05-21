@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.databrew
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.databrew.CfnRecipe
 
-public fun inputProperty(initializer: CfnRecipe.InputProperty.Builder.() -> Unit):
+@Generated
+public fun inputProperty(initializer: CfnRecipe.InputProperty.Builder.() -> Unit = {}):
     CfnRecipe.InputProperty = CfnRecipe.InputProperty.builder().apply(initializer).build()

@@ -1,11 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.omics
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.omics.CfnVariantStore
 
-public fun sseConfigProperty(initializer: CfnVariantStore.SseConfigProperty.Builder.() -> Unit):
-    CfnVariantStore.SseConfigProperty =
+@Generated
+public fun sseConfigProperty(initializer: CfnVariantStore.SseConfigProperty.Builder.() -> Unit =
+    {}): CfnVariantStore.SseConfigProperty =
     CfnVariantStore.SseConfigProperty.builder().apply(initializer).build()

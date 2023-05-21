@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.dynamodb
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.CfnTable
 
-public fun keySchemaProperty(initializer: CfnTable.KeySchemaProperty.Builder.() -> Unit):
+@Generated
+public fun keySchemaProperty(initializer: CfnTable.KeySchemaProperty.Builder.() -> Unit = {}):
     CfnTable.KeySchemaProperty = CfnTable.KeySchemaProperty.builder().apply(initializer).build()

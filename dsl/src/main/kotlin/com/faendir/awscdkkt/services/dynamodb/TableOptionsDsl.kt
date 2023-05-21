@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.dynamodb
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.TableOptions
 
-public fun tableOptions(initializer: TableOptions.Builder.() -> Unit): TableOptions =
+@Generated
+public fun tableOptions(initializer: TableOptions.Builder.() -> Unit = {}): TableOptions =
     TableOptions.builder().apply(initializer).build()

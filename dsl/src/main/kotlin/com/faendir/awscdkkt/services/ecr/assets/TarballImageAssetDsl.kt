@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ecr.assets
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.ecr.assets.TarballImageAsset
 import software.amazon.awscdk.services.ecr.assets.TarballImageAssetProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.tarballImageAsset(
   id: String,
   props: TarballImageAssetProps,

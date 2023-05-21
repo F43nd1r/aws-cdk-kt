@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.devicefarm
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.devicefarm.CfnNetworkProfileProps
 
-public fun cfnNetworkProfileProps(initializer: CfnNetworkProfileProps.Builder.() -> Unit):
+@Generated
+public fun cfnNetworkProfileProps(initializer: CfnNetworkProfileProps.Builder.() -> Unit = {}):
     CfnNetworkProfileProps = CfnNetworkProfileProps.builder().apply(initializer).build()

@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.backup
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.backup.BackupPlan
 import software.amazon.awscdk.services.backup.BackupPlanProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.backupPlan(id: String, initializer: BackupPlan.() -> Unit = {}): BackupPlan =
     BackupPlan(this, id).apply(initializer)
 
+@Generated
 public fun Construct.backupPlan(
   id: String,
   props: BackupPlanProps,

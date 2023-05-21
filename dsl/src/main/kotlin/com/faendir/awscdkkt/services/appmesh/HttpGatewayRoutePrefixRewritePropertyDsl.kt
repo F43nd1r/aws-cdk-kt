@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.appmesh
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnGatewayRoute
 
+@Generated
 public
-    fun httpGatewayRoutePrefixRewriteProperty(initializer: CfnGatewayRoute.HttpGatewayRoutePrefixRewriteProperty.Builder.() -> Unit):
-    CfnGatewayRoute.HttpGatewayRoutePrefixRewriteProperty =
+    fun httpGatewayRoutePrefixRewriteProperty(initializer: CfnGatewayRoute.HttpGatewayRoutePrefixRewriteProperty.Builder.() -> Unit
+    = {}): CfnGatewayRoute.HttpGatewayRoutePrefixRewriteProperty =
     CfnGatewayRoute.HttpGatewayRoutePrefixRewriteProperty.builder().apply(initializer).build()

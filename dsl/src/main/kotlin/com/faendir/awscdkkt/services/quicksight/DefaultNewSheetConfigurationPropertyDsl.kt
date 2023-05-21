@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.quicksight
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
+@Generated
 public
-    fun defaultNewSheetConfigurationProperty(initializer: CfnTemplate.DefaultNewSheetConfigurationProperty.Builder.() -> Unit):
-    CfnTemplate.DefaultNewSheetConfigurationProperty =
+    fun defaultNewSheetConfigurationProperty(initializer: CfnTemplate.DefaultNewSheetConfigurationProperty.Builder.() -> Unit
+    = {}): CfnTemplate.DefaultNewSheetConfigurationProperty =
     CfnTemplate.DefaultNewSheetConfigurationProperty.builder().apply(initializer).build()

@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.logs
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.logs.LogRetention
 import software.amazon.awscdk.services.logs.LogRetentionProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.logRetention(
   id: String,
   props: LogRetentionProps,

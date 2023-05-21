@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.appsync
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.appsync.RuntimeConfig
 
-public fun runtimeConfig(initializer: RuntimeConfig.Builder.() -> Unit): RuntimeConfig =
+@Generated
+public fun runtimeConfig(initializer: RuntimeConfig.Builder.() -> Unit = {}): RuntimeConfig =
     RuntimeConfig.builder().apply(initializer).build()

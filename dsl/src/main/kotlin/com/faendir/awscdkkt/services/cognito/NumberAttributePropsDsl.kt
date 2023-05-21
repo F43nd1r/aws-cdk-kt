@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.cognito
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.cognito.NumberAttributeProps
 
-public fun numberAttributeProps(initializer: NumberAttributeProps.Builder.() -> Unit):
+@Generated
+public fun numberAttributeProps(initializer: NumberAttributeProps.Builder.() -> Unit = {}):
     NumberAttributeProps = NumberAttributeProps.builder().apply(initializer).build()

@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.kms
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.kms.Alias
 import software.amazon.awscdk.services.kms.AliasProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.alias(
   id: String,
   props: AliasProps,

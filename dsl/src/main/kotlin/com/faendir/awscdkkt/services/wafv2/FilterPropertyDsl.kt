@@ -1,11 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.wafv2
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnLoggingConfiguration
 
-public fun filterProperty(initializer: CfnLoggingConfiguration.FilterProperty.Builder.() -> Unit):
-    CfnLoggingConfiguration.FilterProperty =
+@Generated
+public fun filterProperty(initializer: CfnLoggingConfiguration.FilterProperty.Builder.() -> Unit =
+    {}): CfnLoggingConfiguration.FilterProperty =
     CfnLoggingConfiguration.FilterProperty.builder().apply(initializer).build()

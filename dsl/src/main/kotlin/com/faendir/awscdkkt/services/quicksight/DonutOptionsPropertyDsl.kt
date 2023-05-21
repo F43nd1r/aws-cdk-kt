@@ -1,11 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.quicksight
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
-public fun donutOptionsProperty(initializer: CfnTemplate.DonutOptionsProperty.Builder.() -> Unit):
-    CfnTemplate.DonutOptionsProperty =
+@Generated
+public fun donutOptionsProperty(initializer: CfnTemplate.DonutOptionsProperty.Builder.() -> Unit =
+    {}): CfnTemplate.DonutOptionsProperty =
     CfnTemplate.DonutOptionsProperty.builder().apply(initializer).build()

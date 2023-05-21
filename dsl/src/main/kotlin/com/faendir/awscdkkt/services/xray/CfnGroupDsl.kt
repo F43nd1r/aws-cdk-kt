@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.xray
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.xray.CfnGroup
 import software.amazon.awscdk.services.xray.CfnGroupProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnGroup(id: String, initializer: CfnGroup.() -> Unit = {}): CfnGroup =
     CfnGroup(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnGroup(
   id: String,
   props: CfnGroupProps,

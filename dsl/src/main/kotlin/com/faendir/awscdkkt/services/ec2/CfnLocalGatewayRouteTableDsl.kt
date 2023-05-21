@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ec2
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.ec2.CfnLocalGatewayRouteTable
 import software.amazon.awscdk.services.ec2.CfnLocalGatewayRouteTableProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnLocalGatewayRouteTable(
   id: String,
   props: CfnLocalGatewayRouteTableProps,

@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.iotevents
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.iotevents.CfnDetectorModel
 
+@Generated
 public
-    fun assetPropertyVariantProperty(initializer: CfnDetectorModel.AssetPropertyVariantProperty.Builder.() -> Unit):
-    CfnDetectorModel.AssetPropertyVariantProperty =
+    fun assetPropertyVariantProperty(initializer: CfnDetectorModel.AssetPropertyVariantProperty.Builder.() -> Unit
+    = {}): CfnDetectorModel.AssetPropertyVariantProperty =
     CfnDetectorModel.AssetPropertyVariantProperty.builder().apply(initializer).build()

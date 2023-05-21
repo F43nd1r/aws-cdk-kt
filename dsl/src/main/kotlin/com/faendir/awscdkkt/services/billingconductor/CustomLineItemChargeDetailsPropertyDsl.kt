@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.billingconductor
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.billingconductor.CfnCustomLineItem
 
+@Generated
 public
-    fun customLineItemChargeDetailsProperty(initializer: CfnCustomLineItem.CustomLineItemChargeDetailsProperty.Builder.() -> Unit):
-    CfnCustomLineItem.CustomLineItemChargeDetailsProperty =
+    fun customLineItemChargeDetailsProperty(initializer: CfnCustomLineItem.CustomLineItemChargeDetailsProperty.Builder.() -> Unit
+    = {}): CfnCustomLineItem.CustomLineItemChargeDetailsProperty =
     CfnCustomLineItem.CustomLineItemChargeDetailsProperty.builder().apply(initializer).build()

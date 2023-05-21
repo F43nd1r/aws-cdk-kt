@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ecs.patterns
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.ecs.patterns.ApplicationLoadBalancedTaskImageProps
 
+@Generated
 public
-    fun applicationLoadBalancedTaskImageProps(initializer: ApplicationLoadBalancedTaskImageProps.Builder.() -> Unit):
-    ApplicationLoadBalancedTaskImageProps =
+    fun applicationLoadBalancedTaskImageProps(initializer: ApplicationLoadBalancedTaskImageProps.Builder.() -> Unit
+    = {}): ApplicationLoadBalancedTaskImageProps =
     ApplicationLoadBalancedTaskImageProps.builder().apply(initializer).build()

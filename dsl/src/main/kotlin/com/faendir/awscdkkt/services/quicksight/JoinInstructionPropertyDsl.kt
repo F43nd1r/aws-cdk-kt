@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.quicksight
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSet
 
+@Generated
 public
-    fun joinInstructionProperty(initializer: CfnDataSet.JoinInstructionProperty.Builder.() -> Unit):
-    CfnDataSet.JoinInstructionProperty =
+    fun joinInstructionProperty(initializer: CfnDataSet.JoinInstructionProperty.Builder.() -> Unit =
+    {}): CfnDataSet.JoinInstructionProperty =
     CfnDataSet.JoinInstructionProperty.builder().apply(initializer).build()

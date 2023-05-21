@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.CfnCodeDeployBlueGreenLifecycleEventHooks
 
+@Generated
 public
-    fun cfnCodeDeployBlueGreenLifecycleEventHooks(initializer: CfnCodeDeployBlueGreenLifecycleEventHooks.Builder.() -> Unit):
-    CfnCodeDeployBlueGreenLifecycleEventHooks =
+    fun cfnCodeDeployBlueGreenLifecycleEventHooks(initializer: CfnCodeDeployBlueGreenLifecycleEventHooks.Builder.() -> Unit
+    = {}): CfnCodeDeployBlueGreenLifecycleEventHooks =
     CfnCodeDeployBlueGreenLifecycleEventHooks.builder().apply(initializer).build()

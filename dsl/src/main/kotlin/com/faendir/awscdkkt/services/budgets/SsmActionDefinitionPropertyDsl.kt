@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.budgets
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.budgets.CfnBudgetsAction
 
+@Generated
 public
-    fun ssmActionDefinitionProperty(initializer: CfnBudgetsAction.SsmActionDefinitionProperty.Builder.() -> Unit):
-    CfnBudgetsAction.SsmActionDefinitionProperty =
+    fun ssmActionDefinitionProperty(initializer: CfnBudgetsAction.SsmActionDefinitionProperty.Builder.() -> Unit
+    = {}): CfnBudgetsAction.SsmActionDefinitionProperty =
     CfnBudgetsAction.SsmActionDefinitionProperty.builder().apply(initializer).build()

@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.kinesisanalytics
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.kinesisanalytics.CfnApplicationReferenceD
 import software.amazon.awscdk.services.kinesisanalytics.CfnApplicationReferenceDataSourceProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnApplicationReferenceDataSource(
   id: String,
   props: CfnApplicationReferenceDataSourceProps,

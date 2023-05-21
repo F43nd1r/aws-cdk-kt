@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.cloudtrail
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.cloudtrail.CfnEventDataStore
 
+@Generated
 public
-    fun advancedEventSelectorProperty(initializer: CfnEventDataStore.AdvancedEventSelectorProperty.Builder.() -> Unit):
-    CfnEventDataStore.AdvancedEventSelectorProperty =
+    fun advancedEventSelectorProperty(initializer: CfnEventDataStore.AdvancedEventSelectorProperty.Builder.() -> Unit
+    = {}): CfnEventDataStore.AdvancedEventSelectorProperty =
     CfnEventDataStore.AdvancedEventSelectorProperty.builder().apply(initializer).build()

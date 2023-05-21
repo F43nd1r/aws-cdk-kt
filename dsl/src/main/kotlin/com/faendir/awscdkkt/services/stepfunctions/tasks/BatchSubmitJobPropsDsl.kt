@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.stepfunctions.tasks
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.BatchSubmitJobProps
 
-public fun batchSubmitJobProps(initializer: BatchSubmitJobProps.Builder.() -> Unit):
+@Generated
+public fun batchSubmitJobProps(initializer: BatchSubmitJobProps.Builder.() -> Unit = {}):
     BatchSubmitJobProps = BatchSubmitJobProps.builder().apply(initializer).build()

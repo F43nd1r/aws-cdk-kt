@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.pinpoint
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.pinpoint.CfnEventStream
 import software.amazon.awscdk.services.pinpoint.CfnEventStreamProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnEventStream(
   id: String,
   props: CfnEventStreamProps,

@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.lightsail
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.lightsail.CfnBucket
 import software.amazon.awscdk.services.lightsail.CfnBucketProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnBucket(
   id: String,
   props: CfnBucketProps,

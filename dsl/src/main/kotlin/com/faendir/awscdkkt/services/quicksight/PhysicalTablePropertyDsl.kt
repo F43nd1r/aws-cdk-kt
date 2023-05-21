@@ -1,11 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.quicksight
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSet
 
-public fun physicalTableProperty(initializer: CfnDataSet.PhysicalTableProperty.Builder.() -> Unit):
-    CfnDataSet.PhysicalTableProperty =
+@Generated
+public fun physicalTableProperty(initializer: CfnDataSet.PhysicalTableProperty.Builder.() -> Unit =
+    {}): CfnDataSet.PhysicalTableProperty =
     CfnDataSet.PhysicalTableProperty.builder().apply(initializer).build()

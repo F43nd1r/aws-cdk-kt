@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.iot1click
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.iot1click.CfnDevice
 import software.amazon.awscdk.services.iot1click.CfnDeviceProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnDevice(
   id: String,
   props: CfnDeviceProps,

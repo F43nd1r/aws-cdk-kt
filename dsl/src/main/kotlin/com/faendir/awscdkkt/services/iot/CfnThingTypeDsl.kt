@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.iot
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.iot.CfnThingType
 import software.amazon.awscdk.services.iot.CfnThingTypeProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnThingType(id: String, initializer: CfnThingType.() -> Unit = {}):
     CfnThingType = CfnThingType(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnThingType(
   id: String,
   props: CfnThingTypeProps,

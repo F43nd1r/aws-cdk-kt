@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.quicksight
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
+@Generated
 public
-    fun tableFieldImageConfigurationProperty(initializer: CfnTemplate.TableFieldImageConfigurationProperty.Builder.() -> Unit):
-    CfnTemplate.TableFieldImageConfigurationProperty =
+    fun tableFieldImageConfigurationProperty(initializer: CfnTemplate.TableFieldImageConfigurationProperty.Builder.() -> Unit
+    = {}): CfnTemplate.TableFieldImageConfigurationProperty =
     CfnTemplate.TableFieldImageConfigurationProperty.builder().apply(initializer).build()

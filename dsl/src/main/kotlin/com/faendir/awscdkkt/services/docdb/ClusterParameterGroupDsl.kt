@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.docdb
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.docdb.ClusterParameterGroup
 import software.amazon.awscdk.services.docdb.ClusterParameterGroupProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.clusterParameterGroup(
   id: String,
   props: ClusterParameterGroupProps,

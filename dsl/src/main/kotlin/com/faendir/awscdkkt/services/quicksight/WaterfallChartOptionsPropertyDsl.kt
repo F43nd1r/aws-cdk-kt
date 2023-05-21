@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.quicksight
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
+@Generated
 public
-    fun waterfallChartOptionsProperty(initializer: CfnTemplate.WaterfallChartOptionsProperty.Builder.() -> Unit):
-    CfnTemplate.WaterfallChartOptionsProperty =
+    fun waterfallChartOptionsProperty(initializer: CfnTemplate.WaterfallChartOptionsProperty.Builder.() -> Unit
+    = {}): CfnTemplate.WaterfallChartOptionsProperty =
     CfnTemplate.WaterfallChartOptionsProperty.builder().apply(initializer).build()

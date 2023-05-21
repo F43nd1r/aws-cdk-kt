@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.pinpoint
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnCampaign
 
+@Generated
 public
-    fun inAppMessageButtonProperty(initializer: CfnCampaign.InAppMessageButtonProperty.Builder.() -> Unit):
-    CfnCampaign.InAppMessageButtonProperty =
+    fun inAppMessageButtonProperty(initializer: CfnCampaign.InAppMessageButtonProperty.Builder.() -> Unit
+    = {}): CfnCampaign.InAppMessageButtonProperty =
     CfnCampaign.InAppMessageButtonProperty.builder().apply(initializer).build()

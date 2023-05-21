@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.logs
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.logs.SubscriptionFilter
 import software.amazon.awscdk.services.logs.SubscriptionFilterProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.subscriptionFilter(
   id: String,
   props: SubscriptionFilterProps,

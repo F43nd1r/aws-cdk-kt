@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.autoscalingplans
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.autoscalingplans.CfnScalingPlan
 
+@Generated
 public
-    fun scalingInstructionProperty(initializer: CfnScalingPlan.ScalingInstructionProperty.Builder.() -> Unit):
-    CfnScalingPlan.ScalingInstructionProperty =
+    fun scalingInstructionProperty(initializer: CfnScalingPlan.ScalingInstructionProperty.Builder.() -> Unit
+    = {}): CfnScalingPlan.ScalingInstructionProperty =
     CfnScalingPlan.ScalingInstructionProperty.builder().apply(initializer).build()

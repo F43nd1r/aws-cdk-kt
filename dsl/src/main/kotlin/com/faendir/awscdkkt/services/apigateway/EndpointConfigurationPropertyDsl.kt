@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.apigateway
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.CfnRestApi
 
+@Generated
 public
-    fun endpointConfigurationProperty(initializer: CfnRestApi.EndpointConfigurationProperty.Builder.() -> Unit):
-    CfnRestApi.EndpointConfigurationProperty =
+    fun endpointConfigurationProperty(initializer: CfnRestApi.EndpointConfigurationProperty.Builder.() -> Unit
+    = {}): CfnRestApi.EndpointConfigurationProperty =
     CfnRestApi.EndpointConfigurationProperty.builder().apply(initializer).build()

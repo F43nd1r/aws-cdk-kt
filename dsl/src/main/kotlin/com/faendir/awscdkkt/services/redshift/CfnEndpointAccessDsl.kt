@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.redshift
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.redshift.CfnEndpointAccess
 import software.amazon.awscdk.services.redshift.CfnEndpointAccessProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnEndpointAccess(
   id: String,
   props: CfnEndpointAccessProps,

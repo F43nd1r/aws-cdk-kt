@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.waf
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.waf.CfnSizeConstraintSetProps
 
-public fun cfnSizeConstraintSetProps(initializer: CfnSizeConstraintSetProps.Builder.() -> Unit):
-    CfnSizeConstraintSetProps = CfnSizeConstraintSetProps.builder().apply(initializer).build()
+@Generated
+public fun cfnSizeConstraintSetProps(initializer: CfnSizeConstraintSetProps.Builder.() -> Unit =
+    {}): CfnSizeConstraintSetProps = CfnSizeConstraintSetProps.builder().apply(initializer).build()

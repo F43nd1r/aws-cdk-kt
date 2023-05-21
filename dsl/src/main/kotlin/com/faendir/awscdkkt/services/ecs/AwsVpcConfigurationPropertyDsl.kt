@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ecs
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnTaskSet
 
+@Generated
 public
-    fun awsVpcConfigurationProperty(initializer: CfnTaskSet.AwsVpcConfigurationProperty.Builder.() -> Unit):
-    CfnTaskSet.AwsVpcConfigurationProperty =
+    fun awsVpcConfigurationProperty(initializer: CfnTaskSet.AwsVpcConfigurationProperty.Builder.() -> Unit
+    = {}): CfnTaskSet.AwsVpcConfigurationProperty =
     CfnTaskSet.AwsVpcConfigurationProperty.builder().apply(initializer).build()

@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.kinesisanalytics
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.kinesisanalytics.CfnApplicationV2
 
+@Generated
 public
-    fun inputProcessingConfigurationProperty(initializer: CfnApplicationV2.InputProcessingConfigurationProperty.Builder.() -> Unit):
-    CfnApplicationV2.InputProcessingConfigurationProperty =
+    fun inputProcessingConfigurationProperty(initializer: CfnApplicationV2.InputProcessingConfigurationProperty.Builder.() -> Unit
+    = {}): CfnApplicationV2.InputProcessingConfigurationProperty =
     CfnApplicationV2.InputProcessingConfigurationProperty.builder().apply(initializer).build()

@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.cloudtrail
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.cloudtrail.CfnChannel
 import software.amazon.awscdk.services.cloudtrail.CfnChannelProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnChannel(id: String, initializer: CfnChannel.() -> Unit = {}): CfnChannel =
     CfnChannel(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnChannel(
   id: String,
   props: CfnChannelProps,

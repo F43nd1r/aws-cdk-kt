@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.cloudfront
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.cloudfront.CfnPublicKey
 import software.amazon.awscdk.services.cloudfront.CfnPublicKeyProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnPublicKey(
   id: String,
   props: CfnPublicKeyProps,

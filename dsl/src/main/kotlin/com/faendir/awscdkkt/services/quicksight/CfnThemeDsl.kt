@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.quicksight
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.quicksight.CfnTheme
 import software.amazon.awscdk.services.quicksight.CfnThemeProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnTheme(
   id: String,
   props: CfnThemeProps,

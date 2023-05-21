@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.oam
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.oam.CfnSink
 import software.amazon.awscdk.services.oam.CfnSinkProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnSink(
   id: String,
   props: CfnSinkProps,

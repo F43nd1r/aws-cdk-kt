@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.sagemaker
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnUserProfile
 
+@Generated
 public
-    fun kernelGatewayAppSettingsProperty(initializer: CfnUserProfile.KernelGatewayAppSettingsProperty.Builder.() -> Unit):
-    CfnUserProfile.KernelGatewayAppSettingsProperty =
+    fun kernelGatewayAppSettingsProperty(initializer: CfnUserProfile.KernelGatewayAppSettingsProperty.Builder.() -> Unit
+    = {}): CfnUserProfile.KernelGatewayAppSettingsProperty =
     CfnUserProfile.KernelGatewayAppSettingsProperty.builder().apply(initializer).build()

@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.iot
 
 import javax.`annotation`.Generated
@@ -9,10 +7,12 @@ import software.amazon.awscdk.services.iot.CfnTopicRuleDestination
 import software.amazon.awscdk.services.iot.CfnTopicRuleDestinationProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnTopicRuleDestination(id: String,
     initializer: CfnTopicRuleDestination.() -> Unit = {}): CfnTopicRuleDestination =
     CfnTopicRuleDestination(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnTopicRuleDestination(
   id: String,
   props: CfnTopicRuleDestinationProps,

@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.cloudassembly.schema
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.cloudassembly.schema.ContainerImageAssetCacheOption
 
+@Generated
 public
-    fun containerImageAssetCacheOption(initializer: ContainerImageAssetCacheOption.Builder.() -> Unit):
-    ContainerImageAssetCacheOption =
+    fun containerImageAssetCacheOption(initializer: ContainerImageAssetCacheOption.Builder.() -> Unit
+    = {}): ContainerImageAssetCacheOption =
     ContainerImageAssetCacheOption.builder().apply(initializer).build()

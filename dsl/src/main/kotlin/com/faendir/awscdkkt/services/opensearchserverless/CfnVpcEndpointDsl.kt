@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.opensearchserverless
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.opensearchserverless.CfnVpcEndpoint
 import software.amazon.awscdk.services.opensearchserverless.CfnVpcEndpointProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnVpcEndpoint(
   id: String,
   props: CfnVpcEndpointProps,

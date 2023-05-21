@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.licensemanager
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.licensemanager.CfnLicense
 
+@Generated
 public
-    fun consumptionConfigurationProperty(initializer: CfnLicense.ConsumptionConfigurationProperty.Builder.() -> Unit):
-    CfnLicense.ConsumptionConfigurationProperty =
+    fun consumptionConfigurationProperty(initializer: CfnLicense.ConsumptionConfigurationProperty.Builder.() -> Unit
+    = {}): CfnLicense.ConsumptionConfigurationProperty =
     CfnLicense.ConsumptionConfigurationProperty.builder().apply(initializer).build()

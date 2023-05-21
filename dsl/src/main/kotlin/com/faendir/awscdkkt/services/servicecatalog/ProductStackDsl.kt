@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.servicecatalog
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.servicecatalog.ProductStack
 import software.amazon.awscdk.services.servicecatalog.ProductStackProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.productStack(id: String, initializer: ProductStack.() -> Unit = {}):
     ProductStack = ProductStack(this, id).apply(initializer)
 
+@Generated
 public fun Construct.productStack(
   id: String,
   props: ProductStackProps,

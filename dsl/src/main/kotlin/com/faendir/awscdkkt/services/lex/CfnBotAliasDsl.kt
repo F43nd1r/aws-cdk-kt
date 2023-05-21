@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.lex
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.lex.CfnBotAlias
 import software.amazon.awscdk.services.lex.CfnBotAliasProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnBotAlias(
   id: String,
   props: CfnBotAliasProps,

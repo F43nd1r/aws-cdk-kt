@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.sam
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.sam.CfnApi
 
+@Generated
 public
-    fun corsConfigurationProperty(initializer: CfnApi.CorsConfigurationProperty.Builder.() -> Unit):
-    CfnApi.CorsConfigurationProperty =
+    fun corsConfigurationProperty(initializer: CfnApi.CorsConfigurationProperty.Builder.() -> Unit =
+    {}): CfnApi.CorsConfigurationProperty =
     CfnApi.CorsConfigurationProperty.builder().apply(initializer).build()

@@ -1,11 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ec2
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
-public fun monitoringProperty(initializer: CfnLaunchTemplate.MonitoringProperty.Builder.() -> Unit):
-    CfnLaunchTemplate.MonitoringProperty =
+@Generated
+public fun monitoringProperty(initializer: CfnLaunchTemplate.MonitoringProperty.Builder.() -> Unit =
+    {}): CfnLaunchTemplate.MonitoringProperty =
     CfnLaunchTemplate.MonitoringProperty.builder().apply(initializer).build()

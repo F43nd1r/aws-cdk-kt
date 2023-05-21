@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.appmesh
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.RouteProps
 
-public fun routeProps(initializer: RouteProps.Builder.() -> Unit): RouteProps =
+@Generated
+public fun routeProps(initializer: RouteProps.Builder.() -> Unit = {}): RouteProps =
     RouteProps.builder().apply(initializer).build()

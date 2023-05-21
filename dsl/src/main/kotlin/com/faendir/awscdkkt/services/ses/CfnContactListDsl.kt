@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ses
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.ses.CfnContactList
 import software.amazon.awscdk.services.ses.CfnContactListProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnContactList(id: String, initializer: CfnContactList.() -> Unit = {}):
     CfnContactList = CfnContactList(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnContactList(
   id: String,
   props: CfnContactListProps,

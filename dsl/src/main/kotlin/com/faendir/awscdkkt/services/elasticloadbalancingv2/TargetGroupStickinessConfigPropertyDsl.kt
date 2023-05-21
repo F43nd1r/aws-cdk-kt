@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.elasticloadbalancingv2
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.CfnListenerRule
 
+@Generated
 public
-    fun targetGroupStickinessConfigProperty(initializer: CfnListenerRule.TargetGroupStickinessConfigProperty.Builder.() -> Unit):
-    CfnListenerRule.TargetGroupStickinessConfigProperty =
+    fun targetGroupStickinessConfigProperty(initializer: CfnListenerRule.TargetGroupStickinessConfigProperty.Builder.() -> Unit
+    = {}): CfnListenerRule.TargetGroupStickinessConfigProperty =
     CfnListenerRule.TargetGroupStickinessConfigProperty.builder().apply(initializer).build()

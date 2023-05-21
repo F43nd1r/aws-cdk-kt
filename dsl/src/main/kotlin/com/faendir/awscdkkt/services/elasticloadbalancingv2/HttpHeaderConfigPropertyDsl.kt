@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.elasticloadbalancingv2
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.CfnListenerRule
 
+@Generated
 public
-    fun httpHeaderConfigProperty(initializer: CfnListenerRule.HttpHeaderConfigProperty.Builder.() -> Unit):
-    CfnListenerRule.HttpHeaderConfigProperty =
+    fun httpHeaderConfigProperty(initializer: CfnListenerRule.HttpHeaderConfigProperty.Builder.() -> Unit
+    = {}): CfnListenerRule.HttpHeaderConfigProperty =
     CfnListenerRule.HttpHeaderConfigProperty.builder().apply(initializer).build()

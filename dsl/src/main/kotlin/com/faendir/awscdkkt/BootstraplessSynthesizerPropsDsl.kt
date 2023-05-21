@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.BootstraplessSynthesizerProps
 
+@Generated
 public
-    fun bootstraplessSynthesizerProps(initializer: BootstraplessSynthesizerProps.Builder.() -> Unit):
-    BootstraplessSynthesizerProps =
+    fun bootstraplessSynthesizerProps(initializer: BootstraplessSynthesizerProps.Builder.() -> Unit
+    = {}): BootstraplessSynthesizerProps =
     BootstraplessSynthesizerProps.builder().apply(initializer).build()

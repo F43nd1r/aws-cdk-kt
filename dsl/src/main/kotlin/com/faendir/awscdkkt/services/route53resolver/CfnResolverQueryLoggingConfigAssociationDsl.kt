@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.route53resolver
 
 import javax.`annotation`.Generated
@@ -9,11 +7,13 @@ import software.amazon.awscdk.services.route53resolver.CfnResolverQueryLoggingCo
 import software.amazon.awscdk.services.route53resolver.CfnResolverQueryLoggingConfigAssociationProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnResolverQueryLoggingConfigAssociation(id: String,
     initializer: CfnResolverQueryLoggingConfigAssociation.() -> Unit = {}):
     CfnResolverQueryLoggingConfigAssociation = CfnResolverQueryLoggingConfigAssociation(this,
     id).apply(initializer)
 
+@Generated
 public fun Construct.cfnResolverQueryLoggingConfigAssociation(
   id: String,
   props: CfnResolverQueryLoggingConfigAssociationProps,

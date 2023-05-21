@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt
 
 import javax.`annotation`.Generated
@@ -9,10 +7,12 @@ import software.amazon.awscdk.CfnResourceDefaultVersion
 import software.amazon.awscdk.CfnResourceDefaultVersionProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnResourceDefaultVersion(id: String,
     initializer: CfnResourceDefaultVersion.() -> Unit = {}): CfnResourceDefaultVersion =
     CfnResourceDefaultVersion(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnResourceDefaultVersion(
   id: String,
   props: CfnResourceDefaultVersionProps,

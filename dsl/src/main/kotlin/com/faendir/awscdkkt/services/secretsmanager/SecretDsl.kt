@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.secretsmanager
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.secretsmanager.Secret
 import software.amazon.awscdk.services.secretsmanager.SecretProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.secret(id: String, initializer: Secret.() -> Unit = {}): Secret = Secret(this,
     id).apply(initializer)
 
+@Generated
 public fun Construct.secret(
   id: String,
   props: SecretProps,

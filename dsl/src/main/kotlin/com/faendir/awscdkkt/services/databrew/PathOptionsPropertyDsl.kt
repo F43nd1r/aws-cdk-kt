@@ -1,11 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.databrew
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.databrew.CfnDataset
 
-public fun pathOptionsProperty(initializer: CfnDataset.PathOptionsProperty.Builder.() -> Unit):
+@Generated
+public fun pathOptionsProperty(initializer: CfnDataset.PathOptionsProperty.Builder.() -> Unit = {}):
     CfnDataset.PathOptionsProperty =
     CfnDataset.PathOptionsProperty.builder().apply(initializer).build()

@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.eks
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.eks.CfnCluster
 
+@Generated
 public
-    fun controlPlanePlacementProperty(initializer: CfnCluster.ControlPlanePlacementProperty.Builder.() -> Unit):
-    CfnCluster.ControlPlanePlacementProperty =
+    fun controlPlanePlacementProperty(initializer: CfnCluster.ControlPlanePlacementProperty.Builder.() -> Unit
+    = {}): CfnCluster.ControlPlanePlacementProperty =
     CfnCluster.ControlPlanePlacementProperty.builder().apply(initializer).build()

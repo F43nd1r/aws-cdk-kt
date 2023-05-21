@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.databrew
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.databrew.CfnJob
 import software.amazon.awscdk.services.databrew.CfnJobProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnJob(
   id: String,
   props: CfnJobProps,

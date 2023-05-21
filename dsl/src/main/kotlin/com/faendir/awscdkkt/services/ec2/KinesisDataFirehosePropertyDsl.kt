@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ec2
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVerifiedAccessInstance
 
+@Generated
 public
-    fun kinesisDataFirehoseProperty(initializer: CfnVerifiedAccessInstance.KinesisDataFirehoseProperty.Builder.() -> Unit):
-    CfnVerifiedAccessInstance.KinesisDataFirehoseProperty =
+    fun kinesisDataFirehoseProperty(initializer: CfnVerifiedAccessInstance.KinesisDataFirehoseProperty.Builder.() -> Unit
+    = {}): CfnVerifiedAccessInstance.KinesisDataFirehoseProperty =
     CfnVerifiedAccessInstance.KinesisDataFirehoseProperty.builder().apply(initializer).build()

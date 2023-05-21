@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.logs.destinations
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.logs.destinations.KinesisDestinationProps
 
-public fun kinesisDestinationProps(initializer: KinesisDestinationProps.Builder.() -> Unit):
+@Generated
+public fun kinesisDestinationProps(initializer: KinesisDestinationProps.Builder.() -> Unit = {}):
     KinesisDestinationProps = KinesisDestinationProps.builder().apply(initializer).build()

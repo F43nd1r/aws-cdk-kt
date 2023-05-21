@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.servicecatalog
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.servicecatalog.TagOptionsProps
 
-public fun tagOptionsProps(initializer: TagOptionsProps.Builder.() -> Unit): TagOptionsProps =
+@Generated
+public fun tagOptionsProps(initializer: TagOptionsProps.Builder.() -> Unit = {}): TagOptionsProps =
     TagOptionsProps.builder().apply(initializer).build()

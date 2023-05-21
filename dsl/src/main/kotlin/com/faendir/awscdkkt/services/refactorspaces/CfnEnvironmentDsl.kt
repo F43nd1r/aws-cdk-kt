@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.refactorspaces
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.refactorspaces.CfnEnvironment
 import software.amazon.awscdk.services.refactorspaces.CfnEnvironmentProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnEnvironment(
   id: String,
   props: CfnEnvironmentProps,

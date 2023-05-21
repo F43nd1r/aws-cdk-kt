@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.quicksight
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
+@Generated
 public
-    fun filledMapSortConfigurationProperty(initializer: CfnTemplate.FilledMapSortConfigurationProperty.Builder.() -> Unit):
-    CfnTemplate.FilledMapSortConfigurationProperty =
+    fun filledMapSortConfigurationProperty(initializer: CfnTemplate.FilledMapSortConfigurationProperty.Builder.() -> Unit
+    = {}): CfnTemplate.FilledMapSortConfigurationProperty =
     CfnTemplate.FilledMapSortConfigurationProperty.builder().apply(initializer).build()

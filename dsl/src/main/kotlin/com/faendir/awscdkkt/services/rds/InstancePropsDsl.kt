@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.rds
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.rds.InstanceProps
 
-public fun instanceProps(initializer: InstanceProps.Builder.() -> Unit): InstanceProps =
+@Generated
+public fun instanceProps(initializer: InstanceProps.Builder.() -> Unit = {}): InstanceProps =
     InstanceProps.builder().apply(initializer).build()

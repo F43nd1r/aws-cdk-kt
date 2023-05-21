@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.iot
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnDomainConfiguration
 
+@Generated
 public
-    fun tlsConfigProperty(initializer: CfnDomainConfiguration.TlsConfigProperty.Builder.() -> Unit):
-    CfnDomainConfiguration.TlsConfigProperty =
+    fun tlsConfigProperty(initializer: CfnDomainConfiguration.TlsConfigProperty.Builder.() -> Unit =
+    {}): CfnDomainConfiguration.TlsConfigProperty =
     CfnDomainConfiguration.TlsConfigProperty.builder().apply(initializer).build()

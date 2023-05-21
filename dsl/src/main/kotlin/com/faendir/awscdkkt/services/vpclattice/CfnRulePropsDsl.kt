@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.vpclattice
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.vpclattice.CfnRuleProps
 
-public fun cfnRuleProps(initializer: CfnRuleProps.Builder.() -> Unit): CfnRuleProps =
+@Generated
+public fun cfnRuleProps(initializer: CfnRuleProps.Builder.() -> Unit = {}): CfnRuleProps =
     CfnRuleProps.builder().apply(initializer).build()

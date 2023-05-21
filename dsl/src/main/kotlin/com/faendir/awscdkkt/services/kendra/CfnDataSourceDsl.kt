@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.kendra
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.kendra.CfnDataSource
 import software.amazon.awscdk.services.kendra.CfnDataSourceProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnDataSource(
   id: String,
   props: CfnDataSourceProps,

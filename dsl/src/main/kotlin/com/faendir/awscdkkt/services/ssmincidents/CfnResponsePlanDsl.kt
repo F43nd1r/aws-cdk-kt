@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ssmincidents
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.ssmincidents.CfnResponsePlan
 import software.amazon.awscdk.services.ssmincidents.CfnResponsePlanProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnResponsePlan(
   id: String,
   props: CfnResponsePlanProps,

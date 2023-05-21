@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.iot
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnTopicRule
 
-public fun actionProperty(initializer: CfnTopicRule.ActionProperty.Builder.() -> Unit):
+@Generated
+public fun actionProperty(initializer: CfnTopicRule.ActionProperty.Builder.() -> Unit = {}):
     CfnTopicRule.ActionProperty = CfnTopicRule.ActionProperty.builder().apply(initializer).build()

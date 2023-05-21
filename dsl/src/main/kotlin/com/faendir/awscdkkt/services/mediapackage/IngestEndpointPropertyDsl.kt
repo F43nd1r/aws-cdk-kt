@@ -1,12 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.mediapackage
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.mediapackage.CfnChannel
 
-public
-    fun ingestEndpointProperty(initializer: CfnChannel.IngestEndpointProperty.Builder.() -> Unit):
-    CfnChannel.IngestEndpointProperty =
+@Generated
+public fun ingestEndpointProperty(initializer: CfnChannel.IngestEndpointProperty.Builder.() -> Unit
+    = {}): CfnChannel.IngestEndpointProperty =
     CfnChannel.IngestEndpointProperty.builder().apply(initializer).build()

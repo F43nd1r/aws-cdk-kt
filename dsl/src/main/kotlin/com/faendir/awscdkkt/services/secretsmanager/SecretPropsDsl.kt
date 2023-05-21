@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.secretsmanager
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.secretsmanager.SecretProps
 
-public fun secretProps(initializer: SecretProps.Builder.() -> Unit): SecretProps =
+@Generated
+public fun secretProps(initializer: SecretProps.Builder.() -> Unit = {}): SecretProps =
     SecretProps.builder().apply(initializer).build()

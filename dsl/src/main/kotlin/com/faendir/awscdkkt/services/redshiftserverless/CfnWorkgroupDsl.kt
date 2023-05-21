@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.redshiftserverless
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.redshiftserverless.CfnWorkgroup
 import software.amazon.awscdk.services.redshiftserverless.CfnWorkgroupProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnWorkgroup(
   id: String,
   props: CfnWorkgroupProps,

@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.vpclattice
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.vpclattice.CfnServiceNetwork
 import software.amazon.awscdk.services.vpclattice.CfnServiceNetworkProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnServiceNetwork(id: String, initializer: CfnServiceNetwork.() -> Unit = {}):
     CfnServiceNetwork = CfnServiceNetwork(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnServiceNetwork(
   id: String,
   props: CfnServiceNetworkProps,

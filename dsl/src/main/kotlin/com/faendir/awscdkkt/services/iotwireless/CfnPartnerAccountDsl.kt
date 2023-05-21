@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.iotwireless
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.iotwireless.CfnPartnerAccount
 import software.amazon.awscdk.services.iotwireless.CfnPartnerAccountProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnPartnerAccount(id: String, initializer: CfnPartnerAccount.() -> Unit = {}):
     CfnPartnerAccount = CfnPartnerAccount(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnPartnerAccount(
   id: String,
   props: CfnPartnerAccountProps,

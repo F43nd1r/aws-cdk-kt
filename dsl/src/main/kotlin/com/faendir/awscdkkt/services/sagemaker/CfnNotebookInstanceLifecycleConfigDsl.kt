@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.sagemaker
 
 import javax.`annotation`.Generated
@@ -9,11 +7,13 @@ import software.amazon.awscdk.services.sagemaker.CfnNotebookInstanceLifecycleCon
 import software.amazon.awscdk.services.sagemaker.CfnNotebookInstanceLifecycleConfigProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnNotebookInstanceLifecycleConfig(id: String,
     initializer: CfnNotebookInstanceLifecycleConfig.() -> Unit = {}):
     CfnNotebookInstanceLifecycleConfig = CfnNotebookInstanceLifecycleConfig(this,
     id).apply(initializer)
 
+@Generated
 public fun Construct.cfnNotebookInstanceLifecycleConfig(
   id: String,
   props: CfnNotebookInstanceLifecycleConfigProps,

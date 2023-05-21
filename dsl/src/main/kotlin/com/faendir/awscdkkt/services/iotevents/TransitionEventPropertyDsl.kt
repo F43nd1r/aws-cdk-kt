@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.iotevents
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.iotevents.CfnDetectorModel
 
+@Generated
 public
-    fun transitionEventProperty(initializer: CfnDetectorModel.TransitionEventProperty.Builder.() -> Unit):
-    CfnDetectorModel.TransitionEventProperty =
+    fun transitionEventProperty(initializer: CfnDetectorModel.TransitionEventProperty.Builder.() -> Unit
+    = {}): CfnDetectorModel.TransitionEventProperty =
     CfnDetectorModel.TransitionEventProperty.builder().apply(initializer).build()

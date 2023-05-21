@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.kinesisfirehose
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
+@Generated
 public
-    fun deliveryStreamEncryptionConfigurationInputProperty(initializer: CfnDeliveryStream.DeliveryStreamEncryptionConfigurationInputProperty.Builder.() -> Unit):
-    CfnDeliveryStream.DeliveryStreamEncryptionConfigurationInputProperty =
+    fun deliveryStreamEncryptionConfigurationInputProperty(initializer: CfnDeliveryStream.DeliveryStreamEncryptionConfigurationInputProperty.Builder.() -> Unit
+    = {}): CfnDeliveryStream.DeliveryStreamEncryptionConfigurationInputProperty =
     CfnDeliveryStream.DeliveryStreamEncryptionConfigurationInputProperty.builder().apply(initializer).build()

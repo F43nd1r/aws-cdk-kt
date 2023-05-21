@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.omics
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.omics.CfnVariantStore
 import software.amazon.awscdk.services.omics.CfnVariantStoreProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnVariantStore(
   id: String,
   props: CfnVariantStoreProps,

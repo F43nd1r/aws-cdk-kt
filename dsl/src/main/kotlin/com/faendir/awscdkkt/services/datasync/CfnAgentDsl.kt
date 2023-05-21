@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.datasync
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.datasync.CfnAgent
 import software.amazon.awscdk.services.datasync.CfnAgentProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnAgent(id: String, initializer: CfnAgent.() -> Unit = {}): CfnAgent =
     CfnAgent(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnAgent(
   id: String,
   props: CfnAgentProps,

@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.greengrass
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.greengrass.CfnConnectorDefinitionVersion
 import software.amazon.awscdk.services.greengrass.CfnConnectorDefinitionVersionProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnConnectorDefinitionVersion(
   id: String,
   props: CfnConnectorDefinitionVersionProps,

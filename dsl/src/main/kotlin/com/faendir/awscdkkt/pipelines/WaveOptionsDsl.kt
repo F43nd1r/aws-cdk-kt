@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.pipelines
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.pipelines.WaveOptions
 
-public fun waveOptions(initializer: WaveOptions.Builder.() -> Unit): WaveOptions =
+@Generated
+public fun waveOptions(initializer: WaveOptions.Builder.() -> Unit = {}): WaveOptions =
     WaveOptions.builder().apply(initializer).build()

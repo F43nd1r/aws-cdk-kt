@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ecs
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.ecs.ContainerDefinition
 import software.amazon.awscdk.services.ecs.ContainerDefinitionProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.containerDefinition(
   id: String,
   props: ContainerDefinitionProps,

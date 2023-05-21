@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.codepipeline.actions
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.GitHubSourceActionProps
 
-public fun gitHubSourceActionProps(initializer: GitHubSourceActionProps.Builder.() -> Unit):
+@Generated
+public fun gitHubSourceActionProps(initializer: GitHubSourceActionProps.Builder.() -> Unit = {}):
     GitHubSourceActionProps = GitHubSourceActionProps.builder().apply(initializer).build()

@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ses
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnConfigurationSet
 
+@Generated
 public
-    fun guardianOptionsProperty(initializer: CfnConfigurationSet.GuardianOptionsProperty.Builder.() -> Unit):
-    CfnConfigurationSet.GuardianOptionsProperty =
+    fun guardianOptionsProperty(initializer: CfnConfigurationSet.GuardianOptionsProperty.Builder.() -> Unit
+    = {}): CfnConfigurationSet.GuardianOptionsProperty =
     CfnConfigurationSet.GuardianOptionsProperty.builder().apply(initializer).build()

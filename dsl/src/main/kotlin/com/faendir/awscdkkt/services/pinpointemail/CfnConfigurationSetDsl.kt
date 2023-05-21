@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.pinpointemail
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.pinpointemail.CfnConfigurationSet
 import software.amazon.awscdk.services.pinpointemail.CfnConfigurationSetProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnConfigurationSet(
   id: String,
   props: CfnConfigurationSetProps,

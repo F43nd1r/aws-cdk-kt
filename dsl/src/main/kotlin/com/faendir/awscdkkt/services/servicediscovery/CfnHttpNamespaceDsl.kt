@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.servicediscovery
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.servicediscovery.CfnHttpNamespace
 import software.amazon.awscdk.services.servicediscovery.CfnHttpNamespaceProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnHttpNamespace(
   id: String,
   props: CfnHttpNamespaceProps,

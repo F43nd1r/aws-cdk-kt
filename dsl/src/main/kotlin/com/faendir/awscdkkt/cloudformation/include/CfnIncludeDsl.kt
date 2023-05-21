@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.cloudformation.include
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.cloudformation.include.CfnInclude
 import software.amazon.awscdk.cloudformation.include.CfnIncludeProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnInclude(
   id: String,
   props: CfnIncludeProps,

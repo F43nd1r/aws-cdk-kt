@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.CfnCondition
 import software.amazon.awscdk.CfnConditionProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnCondition(id: String, initializer: CfnCondition.() -> Unit = {}):
     CfnCondition = CfnCondition(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnCondition(
   id: String,
   props: CfnConditionProps,

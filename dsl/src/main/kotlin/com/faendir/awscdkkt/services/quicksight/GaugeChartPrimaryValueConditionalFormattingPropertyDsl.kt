@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.quicksight
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
+@Generated
 public
-    fun gaugeChartPrimaryValueConditionalFormattingProperty(initializer: CfnTemplate.GaugeChartPrimaryValueConditionalFormattingProperty.Builder.() -> Unit):
-    CfnTemplate.GaugeChartPrimaryValueConditionalFormattingProperty =
+    fun gaugeChartPrimaryValueConditionalFormattingProperty(initializer: CfnTemplate.GaugeChartPrimaryValueConditionalFormattingProperty.Builder.() -> Unit
+    = {}): CfnTemplate.GaugeChartPrimaryValueConditionalFormattingProperty =
     CfnTemplate.GaugeChartPrimaryValueConditionalFormattingProperty.builder().apply(initializer).build()

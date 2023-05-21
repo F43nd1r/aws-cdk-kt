@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.fms
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.fms.CfnNotificationChannel
 import software.amazon.awscdk.services.fms.CfnNotificationChannelProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnNotificationChannel(
   id: String,
   props: CfnNotificationChannelProps,

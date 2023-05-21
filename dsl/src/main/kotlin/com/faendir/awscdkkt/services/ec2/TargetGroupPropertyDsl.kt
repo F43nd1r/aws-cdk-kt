@@ -1,11 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ec2
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnSpotFleet
 
-public fun targetGroupProperty(initializer: CfnSpotFleet.TargetGroupProperty.Builder.() -> Unit):
-    CfnSpotFleet.TargetGroupProperty =
+@Generated
+public fun targetGroupProperty(initializer: CfnSpotFleet.TargetGroupProperty.Builder.() -> Unit =
+    {}): CfnSpotFleet.TargetGroupProperty =
     CfnSpotFleet.TargetGroupProperty.builder().apply(initializer).build()

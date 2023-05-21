@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.cognito
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnUserPoolUser
 
+@Generated
 public
-    fun attributeTypeProperty(initializer: CfnUserPoolUser.AttributeTypeProperty.Builder.() -> Unit):
-    CfnUserPoolUser.AttributeTypeProperty =
+    fun attributeTypeProperty(initializer: CfnUserPoolUser.AttributeTypeProperty.Builder.() -> Unit
+    = {}): CfnUserPoolUser.AttributeTypeProperty =
     CfnUserPoolUser.AttributeTypeProperty.builder().apply(initializer).build()

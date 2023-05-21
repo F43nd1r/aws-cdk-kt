@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.codebuild
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.CfnProject
 
+@Generated
 public
-    fun buildStatusConfigProperty(initializer: CfnProject.BuildStatusConfigProperty.Builder.() -> Unit):
-    CfnProject.BuildStatusConfigProperty =
+    fun buildStatusConfigProperty(initializer: CfnProject.BuildStatusConfigProperty.Builder.() -> Unit
+    = {}): CfnProject.BuildStatusConfigProperty =
     CfnProject.BuildStatusConfigProperty.builder().apply(initializer).build()

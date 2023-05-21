@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.apigateway
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.apigateway.UsagePlan
 import software.amazon.awscdk.services.apigateway.UsagePlanProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.usagePlan(id: String, initializer: UsagePlan.() -> Unit = {}): UsagePlan =
     UsagePlan(this, id).apply(initializer)
 
+@Generated
 public fun Construct.usagePlan(
   id: String,
   props: UsagePlanProps,

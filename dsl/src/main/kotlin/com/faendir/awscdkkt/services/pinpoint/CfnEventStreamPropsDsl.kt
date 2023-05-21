@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.pinpoint
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnEventStreamProps
 
-public fun cfnEventStreamProps(initializer: CfnEventStreamProps.Builder.() -> Unit):
+@Generated
+public fun cfnEventStreamProps(initializer: CfnEventStreamProps.Builder.() -> Unit = {}):
     CfnEventStreamProps = CfnEventStreamProps.builder().apply(initializer).build()

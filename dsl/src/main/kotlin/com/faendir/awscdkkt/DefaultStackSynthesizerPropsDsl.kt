@@ -1,11 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.DefaultStackSynthesizerProps
 
-public
-    fun defaultStackSynthesizerProps(initializer: DefaultStackSynthesizerProps.Builder.() -> Unit):
-    DefaultStackSynthesizerProps = DefaultStackSynthesizerProps.builder().apply(initializer).build()
+@Generated
+public fun defaultStackSynthesizerProps(initializer: DefaultStackSynthesizerProps.Builder.() -> Unit
+    = {}): DefaultStackSynthesizerProps =
+    DefaultStackSynthesizerProps.builder().apply(initializer).build()

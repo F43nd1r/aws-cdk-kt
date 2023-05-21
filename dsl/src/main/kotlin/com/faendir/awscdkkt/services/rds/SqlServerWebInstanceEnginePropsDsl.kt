@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.rds
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.rds.SqlServerWebInstanceEngineProps
 
+@Generated
 public
-    fun sqlServerWebInstanceEngineProps(initializer: SqlServerWebInstanceEngineProps.Builder.() -> Unit):
-    SqlServerWebInstanceEngineProps =
+    fun sqlServerWebInstanceEngineProps(initializer: SqlServerWebInstanceEngineProps.Builder.() -> Unit
+    = {}): SqlServerWebInstanceEngineProps =
     SqlServerWebInstanceEngineProps.builder().apply(initializer).build()

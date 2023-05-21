@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.apigateway
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.CfnDomainNameProps
 
-public fun cfnDomainNameProps(initializer: CfnDomainNameProps.Builder.() -> Unit):
+@Generated
+public fun cfnDomainNameProps(initializer: CfnDomainNameProps.Builder.() -> Unit = {}):
     CfnDomainNameProps = CfnDomainNameProps.builder().apply(initializer).build()

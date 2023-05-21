@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.opsworks
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.opsworks.CfnLayer
 
+@Generated
 public
-    fun lifecycleEventConfigurationProperty(initializer: CfnLayer.LifecycleEventConfigurationProperty.Builder.() -> Unit):
-    CfnLayer.LifecycleEventConfigurationProperty =
+    fun lifecycleEventConfigurationProperty(initializer: CfnLayer.LifecycleEventConfigurationProperty.Builder.() -> Unit
+    = {}): CfnLayer.LifecycleEventConfigurationProperty =
     CfnLayer.LifecycleEventConfigurationProperty.builder().apply(initializer).build()

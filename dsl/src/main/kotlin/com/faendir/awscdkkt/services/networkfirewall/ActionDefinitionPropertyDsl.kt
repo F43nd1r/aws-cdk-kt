@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.networkfirewall
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.networkfirewall.CfnRuleGroup
 
+@Generated
 public
-    fun actionDefinitionProperty(initializer: CfnRuleGroup.ActionDefinitionProperty.Builder.() -> Unit):
-    CfnRuleGroup.ActionDefinitionProperty =
+    fun actionDefinitionProperty(initializer: CfnRuleGroup.ActionDefinitionProperty.Builder.() -> Unit
+    = {}): CfnRuleGroup.ActionDefinitionProperty =
     CfnRuleGroup.ActionDefinitionProperty.builder().apply(initializer).build()

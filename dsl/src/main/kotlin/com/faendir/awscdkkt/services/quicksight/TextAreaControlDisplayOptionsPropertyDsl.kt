@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.quicksight
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
+@Generated
 public
-    fun textAreaControlDisplayOptionsProperty(initializer: CfnTemplate.TextAreaControlDisplayOptionsProperty.Builder.() -> Unit):
-    CfnTemplate.TextAreaControlDisplayOptionsProperty =
+    fun textAreaControlDisplayOptionsProperty(initializer: CfnTemplate.TextAreaControlDisplayOptionsProperty.Builder.() -> Unit
+    = {}): CfnTemplate.TextAreaControlDisplayOptionsProperty =
     CfnTemplate.TextAreaControlDisplayOptionsProperty.builder().apply(initializer).build()

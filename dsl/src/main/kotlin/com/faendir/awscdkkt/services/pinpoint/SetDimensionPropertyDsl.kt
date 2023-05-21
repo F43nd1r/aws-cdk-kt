@@ -1,11 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.pinpoint
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnSegment
 
-public fun setDimensionProperty(initializer: CfnSegment.SetDimensionProperty.Builder.() -> Unit):
-    CfnSegment.SetDimensionProperty =
+@Generated
+public fun setDimensionProperty(initializer: CfnSegment.SetDimensionProperty.Builder.() -> Unit =
+    {}): CfnSegment.SetDimensionProperty =
     CfnSegment.SetDimensionProperty.builder().apply(initializer).build()

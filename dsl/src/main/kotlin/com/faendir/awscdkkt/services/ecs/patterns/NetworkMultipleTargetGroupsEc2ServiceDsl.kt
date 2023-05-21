@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ecs.patterns
 
 import javax.`annotation`.Generated
@@ -9,11 +7,13 @@ import software.amazon.awscdk.services.ecs.patterns.NetworkMultipleTargetGroupsE
 import software.amazon.awscdk.services.ecs.patterns.NetworkMultipleTargetGroupsEc2ServiceProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.networkMultipleTargetGroupsEc2Service(id: String,
     initializer: NetworkMultipleTargetGroupsEc2Service.() -> Unit = {}):
     NetworkMultipleTargetGroupsEc2Service = NetworkMultipleTargetGroupsEc2Service(this,
     id).apply(initializer)
 
+@Generated
 public fun Construct.networkMultipleTargetGroupsEc2Service(
   id: String,
   props: NetworkMultipleTargetGroupsEc2ServiceProps,

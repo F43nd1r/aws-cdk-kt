@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.mediaconvert
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.mediaconvert.CfnJobTemplate
 import software.amazon.awscdk.services.mediaconvert.CfnJobTemplateProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnJobTemplate(
   id: String,
   props: CfnJobTemplateProps,

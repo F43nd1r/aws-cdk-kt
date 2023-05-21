@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.connect
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnRule
 
-public fun referenceProperty(initializer: CfnRule.ReferenceProperty.Builder.() -> Unit):
+@Generated
+public fun referenceProperty(initializer: CfnRule.ReferenceProperty.Builder.() -> Unit = {}):
     CfnRule.ReferenceProperty = CfnRule.ReferenceProperty.builder().apply(initializer).build()

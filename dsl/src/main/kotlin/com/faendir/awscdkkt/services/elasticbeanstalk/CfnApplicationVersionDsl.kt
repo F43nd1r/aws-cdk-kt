@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.elasticbeanstalk
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.elasticbeanstalk.CfnApplicationVersion
 import software.amazon.awscdk.services.elasticbeanstalk.CfnApplicationVersionProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnApplicationVersion(
   id: String,
   props: CfnApplicationVersionProps,

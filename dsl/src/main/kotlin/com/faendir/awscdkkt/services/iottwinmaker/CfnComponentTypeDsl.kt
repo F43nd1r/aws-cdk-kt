@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.iottwinmaker
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.iottwinmaker.CfnComponentType
 import software.amazon.awscdk.services.iottwinmaker.CfnComponentTypeProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnComponentType(
   id: String,
   props: CfnComponentTypeProps,

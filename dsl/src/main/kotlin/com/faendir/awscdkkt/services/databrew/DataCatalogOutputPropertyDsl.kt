@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.databrew
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.databrew.CfnJob
 
+@Generated
 public
-    fun dataCatalogOutputProperty(initializer: CfnJob.DataCatalogOutputProperty.Builder.() -> Unit):
-    CfnJob.DataCatalogOutputProperty =
+    fun dataCatalogOutputProperty(initializer: CfnJob.DataCatalogOutputProperty.Builder.() -> Unit =
+    {}): CfnJob.DataCatalogOutputProperty =
     CfnJob.DataCatalogOutputProperty.builder().apply(initializer).build()

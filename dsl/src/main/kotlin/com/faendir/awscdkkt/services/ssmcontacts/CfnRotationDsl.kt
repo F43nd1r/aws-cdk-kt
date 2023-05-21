@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ssmcontacts
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.ssmcontacts.CfnRotation
 import software.amazon.awscdk.services.ssmcontacts.CfnRotationProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnRotation(
   id: String,
   props: CfnRotationProps,

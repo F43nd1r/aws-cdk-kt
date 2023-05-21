@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.globalaccelerator
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.globalaccelerator.Accelerator
 import software.amazon.awscdk.services.globalaccelerator.AcceleratorProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.accelerator(id: String, initializer: Accelerator.() -> Unit = {}): Accelerator
     = Accelerator(this, id).apply(initializer)
 
+@Generated
 public fun Construct.accelerator(
   id: String,
   props: AcceleratorProps,

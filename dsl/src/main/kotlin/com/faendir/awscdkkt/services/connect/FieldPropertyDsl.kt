@@ -1,11 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.connect
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnTaskTemplate
 
-public fun fieldProperty(initializer: CfnTaskTemplate.FieldProperty.Builder.() -> Unit):
+@Generated
+public fun fieldProperty(initializer: CfnTaskTemplate.FieldProperty.Builder.() -> Unit = {}):
     CfnTaskTemplate.FieldProperty =
     CfnTaskTemplate.FieldProperty.builder().apply(initializer).build()

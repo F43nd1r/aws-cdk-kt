@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ecs
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.ecs.ExternalServiceProps
 
-public fun externalServiceProps(initializer: ExternalServiceProps.Builder.() -> Unit):
+@Generated
+public fun externalServiceProps(initializer: ExternalServiceProps.Builder.() -> Unit = {}):
     ExternalServiceProps = ExternalServiceProps.builder().apply(initializer).build()

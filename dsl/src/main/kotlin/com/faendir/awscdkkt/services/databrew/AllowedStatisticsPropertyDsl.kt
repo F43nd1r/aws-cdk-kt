@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.databrew
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.databrew.CfnJob
 
+@Generated
 public
-    fun allowedStatisticsProperty(initializer: CfnJob.AllowedStatisticsProperty.Builder.() -> Unit):
-    CfnJob.AllowedStatisticsProperty =
+    fun allowedStatisticsProperty(initializer: CfnJob.AllowedStatisticsProperty.Builder.() -> Unit =
+    {}): CfnJob.AllowedStatisticsProperty =
     CfnJob.AllowedStatisticsProperty.builder().apply(initializer).build()

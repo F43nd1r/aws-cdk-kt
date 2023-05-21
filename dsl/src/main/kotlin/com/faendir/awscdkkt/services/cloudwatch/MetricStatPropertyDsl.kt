@@ -1,12 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.cloudwatch
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.CfnAnomalyDetector
 
-public
-    fun metricStatProperty(initializer: CfnAnomalyDetector.MetricStatProperty.Builder.() -> Unit):
-    CfnAnomalyDetector.MetricStatProperty =
+@Generated
+public fun metricStatProperty(initializer: CfnAnomalyDetector.MetricStatProperty.Builder.() -> Unit
+    = {}): CfnAnomalyDetector.MetricStatProperty =
     CfnAnomalyDetector.MetricStatProperty.builder().apply(initializer).build()

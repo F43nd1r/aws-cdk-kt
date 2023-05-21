@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.config
 
 import javax.`annotation`.Generated
@@ -9,11 +7,13 @@ import software.amazon.awscdk.services.config.CloudFormationStackDriftDetectionC
 import software.amazon.awscdk.services.config.CloudFormationStackDriftDetectionCheckProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cloudFormationStackDriftDetectionCheck(id: String,
     initializer: CloudFormationStackDriftDetectionCheck.() -> Unit = {}):
     CloudFormationStackDriftDetectionCheck = CloudFormationStackDriftDetectionCheck(this,
     id).apply(initializer)
 
+@Generated
 public fun Construct.cloudFormationStackDriftDetectionCheck(
   id: String,
   props: CloudFormationStackDriftDetectionCheckProps,

@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.quicksight
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSource
 
+@Generated
 public
-    fun redshiftParametersProperty(initializer: CfnDataSource.RedshiftParametersProperty.Builder.() -> Unit):
-    CfnDataSource.RedshiftParametersProperty =
+    fun redshiftParametersProperty(initializer: CfnDataSource.RedshiftParametersProperty.Builder.() -> Unit
+    = {}): CfnDataSource.RedshiftParametersProperty =
     CfnDataSource.RedshiftParametersProperty.builder().apply(initializer).build()

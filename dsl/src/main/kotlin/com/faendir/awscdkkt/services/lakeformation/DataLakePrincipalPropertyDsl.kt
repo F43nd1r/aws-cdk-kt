@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.lakeformation
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.lakeformation.CfnPrincipalPermissions
 
+@Generated
 public
-    fun dataLakePrincipalProperty(initializer: CfnPrincipalPermissions.DataLakePrincipalProperty.Builder.() -> Unit):
-    CfnPrincipalPermissions.DataLakePrincipalProperty =
+    fun dataLakePrincipalProperty(initializer: CfnPrincipalPermissions.DataLakePrincipalProperty.Builder.() -> Unit
+    = {}): CfnPrincipalPermissions.DataLakePrincipalProperty =
     CfnPrincipalPermissions.DataLakePrincipalProperty.builder().apply(initializer).build()

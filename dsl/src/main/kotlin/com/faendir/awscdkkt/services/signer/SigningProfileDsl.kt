@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.signer
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.signer.SigningProfile
 import software.amazon.awscdk.services.signer.SigningProfileProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.signingProfile(
   id: String,
   props: SigningProfileProps,

@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.rolesanywhere
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.rolesanywhere.CfnCRL
 import software.amazon.awscdk.services.rolesanywhere.CfnCRLProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnCRL(
   id: String,
   props: CfnCRLProps,

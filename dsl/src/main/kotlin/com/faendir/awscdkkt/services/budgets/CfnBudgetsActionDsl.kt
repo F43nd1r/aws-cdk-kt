@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.budgets
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.budgets.CfnBudgetsAction
 import software.amazon.awscdk.services.budgets.CfnBudgetsActionProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnBudgetsAction(
   id: String,
   props: CfnBudgetsActionProps,

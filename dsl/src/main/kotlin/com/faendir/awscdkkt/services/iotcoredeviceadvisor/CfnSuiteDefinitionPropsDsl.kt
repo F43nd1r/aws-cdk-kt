@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.iotcoredeviceadvisor
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.iotcoredeviceadvisor.CfnSuiteDefinitionProps
 
-public fun cfnSuiteDefinitionProps(initializer: CfnSuiteDefinitionProps.Builder.() -> Unit):
+@Generated
+public fun cfnSuiteDefinitionProps(initializer: CfnSuiteDefinitionProps.Builder.() -> Unit = {}):
     CfnSuiteDefinitionProps = CfnSuiteDefinitionProps.builder().apply(initializer).build()

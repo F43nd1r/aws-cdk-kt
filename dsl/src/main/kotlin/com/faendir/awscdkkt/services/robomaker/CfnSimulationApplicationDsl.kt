@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.robomaker
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.robomaker.CfnSimulationApplication
 import software.amazon.awscdk.services.robomaker.CfnSimulationApplicationProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnSimulationApplication(
   id: String,
   props: CfnSimulationApplicationProps,

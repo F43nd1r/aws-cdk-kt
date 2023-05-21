@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.amplifyuibuilder
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.amplifyuibuilder.CfnForm
 import software.amazon.awscdk.services.amplifyuibuilder.CfnFormProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnForm(
   id: String,
   props: CfnFormProps,

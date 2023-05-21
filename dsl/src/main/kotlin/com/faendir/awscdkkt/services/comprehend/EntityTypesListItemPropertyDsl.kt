@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.comprehend
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.comprehend.CfnFlywheel
 
+@Generated
 public
-    fun entityTypesListItemProperty(initializer: CfnFlywheel.EntityTypesListItemProperty.Builder.() -> Unit):
-    CfnFlywheel.EntityTypesListItemProperty =
+    fun entityTypesListItemProperty(initializer: CfnFlywheel.EntityTypesListItemProperty.Builder.() -> Unit
+    = {}): CfnFlywheel.EntityTypesListItemProperty =
     CfnFlywheel.EntityTypesListItemProperty.builder().apply(initializer).build()

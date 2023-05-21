@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ecs
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.ecs.LinuxParameters
 import software.amazon.awscdk.services.ecs.LinuxParametersProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.linuxParameters(id: String, initializer: LinuxParameters.() -> Unit = {}):
     LinuxParameters = LinuxParameters(this, id).apply(initializer)
 
+@Generated
 public fun Construct.linuxParameters(
   id: String,
   props: LinuxParametersProps,

@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.route53recoveryreadiness
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.route53recoveryreadiness.CfnResourceSet
 import software.amazon.awscdk.services.route53recoveryreadiness.CfnResourceSetProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnResourceSet(
   id: String,
   props: CfnResourceSetProps,

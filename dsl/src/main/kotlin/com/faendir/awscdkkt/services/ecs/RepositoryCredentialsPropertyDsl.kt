@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ecs
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
+@Generated
 public
-    fun repositoryCredentialsProperty(initializer: CfnTaskDefinition.RepositoryCredentialsProperty.Builder.() -> Unit):
-    CfnTaskDefinition.RepositoryCredentialsProperty =
+    fun repositoryCredentialsProperty(initializer: CfnTaskDefinition.RepositoryCredentialsProperty.Builder.() -> Unit
+    = {}): CfnTaskDefinition.RepositoryCredentialsProperty =
     CfnTaskDefinition.RepositoryCredentialsProperty.builder().apply(initializer).build()

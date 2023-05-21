@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.pipes
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
+@Generated
 public
-    fun pipeTargetCloudWatchLogsParametersProperty(initializer: CfnPipe.PipeTargetCloudWatchLogsParametersProperty.Builder.() -> Unit):
-    CfnPipe.PipeTargetCloudWatchLogsParametersProperty =
+    fun pipeTargetCloudWatchLogsParametersProperty(initializer: CfnPipe.PipeTargetCloudWatchLogsParametersProperty.Builder.() -> Unit
+    = {}): CfnPipe.PipeTargetCloudWatchLogsParametersProperty =
     CfnPipe.PipeTargetCloudWatchLogsParametersProperty.builder().apply(initializer).build()

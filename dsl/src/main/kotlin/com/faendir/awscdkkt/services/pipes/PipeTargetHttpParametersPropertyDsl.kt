@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.pipes
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
+@Generated
 public
-    fun pipeTargetHttpParametersProperty(initializer: CfnPipe.PipeTargetHttpParametersProperty.Builder.() -> Unit):
-    CfnPipe.PipeTargetHttpParametersProperty =
+    fun pipeTargetHttpParametersProperty(initializer: CfnPipe.PipeTargetHttpParametersProperty.Builder.() -> Unit
+    = {}): CfnPipe.PipeTargetHttpParametersProperty =
     CfnPipe.PipeTargetHttpParametersProperty.builder().apply(initializer).build()

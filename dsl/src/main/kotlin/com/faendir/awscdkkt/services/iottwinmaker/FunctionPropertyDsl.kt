@@ -1,11 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.iottwinmaker
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.iottwinmaker.CfnComponentType
 
-public fun functionProperty(initializer: CfnComponentType.FunctionProperty.Builder.() -> Unit):
+@Generated
+public fun functionProperty(initializer: CfnComponentType.FunctionProperty.Builder.() -> Unit = {}):
     CfnComponentType.FunctionProperty =
     CfnComponentType.FunctionProperty.builder().apply(initializer).build()

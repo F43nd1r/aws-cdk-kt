@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.dlm
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.dlm.CfnLifecyclePolicy
 
+@Generated
 public
-    fun archiveRetainRuleProperty(initializer: CfnLifecyclePolicy.ArchiveRetainRuleProperty.Builder.() -> Unit):
-    CfnLifecyclePolicy.ArchiveRetainRuleProperty =
+    fun archiveRetainRuleProperty(initializer: CfnLifecyclePolicy.ArchiveRetainRuleProperty.Builder.() -> Unit
+    = {}): CfnLifecyclePolicy.ArchiveRetainRuleProperty =
     CfnLifecyclePolicy.ArchiveRetainRuleProperty.builder().apply(initializer).build()

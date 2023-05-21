@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ssmincidents
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.ssmincidents.CfnReplicationSet
 
+@Generated
 public
-    fun replicationRegionProperty(initializer: CfnReplicationSet.ReplicationRegionProperty.Builder.() -> Unit):
-    CfnReplicationSet.ReplicationRegionProperty =
+    fun replicationRegionProperty(initializer: CfnReplicationSet.ReplicationRegionProperty.Builder.() -> Unit
+    = {}): CfnReplicationSet.ReplicationRegionProperty =
     CfnReplicationSet.ReplicationRegionProperty.builder().apply(initializer).build()

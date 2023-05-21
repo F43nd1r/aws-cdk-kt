@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.autoscaling
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.CfnAutoScalingGroup
 
+@Generated
 public
-    fun instanceRequirementsProperty(initializer: CfnAutoScalingGroup.InstanceRequirementsProperty.Builder.() -> Unit):
-    CfnAutoScalingGroup.InstanceRequirementsProperty =
+    fun instanceRequirementsProperty(initializer: CfnAutoScalingGroup.InstanceRequirementsProperty.Builder.() -> Unit
+    = {}): CfnAutoScalingGroup.InstanceRequirementsProperty =
     CfnAutoScalingGroup.InstanceRequirementsProperty.builder().apply(initializer).build()

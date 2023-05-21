@@ -1,11 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ec2
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
-public fun memoryMiBProperty(initializer: CfnLaunchTemplate.MemoryMiBProperty.Builder.() -> Unit):
-    CfnLaunchTemplate.MemoryMiBProperty =
+@Generated
+public fun memoryMiBProperty(initializer: CfnLaunchTemplate.MemoryMiBProperty.Builder.() -> Unit =
+    {}): CfnLaunchTemplate.MemoryMiBProperty =
     CfnLaunchTemplate.MemoryMiBProperty.builder().apply(initializer).build()

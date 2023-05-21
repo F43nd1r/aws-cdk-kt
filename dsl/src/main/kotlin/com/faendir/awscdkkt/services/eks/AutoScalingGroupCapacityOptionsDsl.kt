@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.eks
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.eks.AutoScalingGroupCapacityOptions
 
+@Generated
 public
-    fun autoScalingGroupCapacityOptions(initializer: AutoScalingGroupCapacityOptions.Builder.() -> Unit):
-    AutoScalingGroupCapacityOptions =
+    fun autoScalingGroupCapacityOptions(initializer: AutoScalingGroupCapacityOptions.Builder.() -> Unit
+    = {}): AutoScalingGroupCapacityOptions =
     AutoScalingGroupCapacityOptions.builder().apply(initializer).build()

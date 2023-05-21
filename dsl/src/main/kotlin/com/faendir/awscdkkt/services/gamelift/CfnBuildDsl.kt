@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.gamelift
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.gamelift.CfnBuild
 import software.amazon.awscdk.services.gamelift.CfnBuildProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnBuild(id: String, initializer: CfnBuild.() -> Unit = {}): CfnBuild =
     CfnBuild(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnBuild(
   id: String,
   props: CfnBuildProps,

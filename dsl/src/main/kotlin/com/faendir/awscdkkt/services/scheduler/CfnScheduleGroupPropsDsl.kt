@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.scheduler
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.scheduler.CfnScheduleGroupProps
 
-public fun cfnScheduleGroupProps(initializer: CfnScheduleGroupProps.Builder.() -> Unit):
+@Generated
+public fun cfnScheduleGroupProps(initializer: CfnScheduleGroupProps.Builder.() -> Unit = {}):
     CfnScheduleGroupProps = CfnScheduleGroupProps.builder().apply(initializer).build()

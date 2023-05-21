@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.mediaconnect
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.mediaconnect.CfnFlowOutput
 import software.amazon.awscdk.services.mediaconnect.CfnFlowOutputProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnFlowOutput(
   id: String,
   props: CfnFlowOutputProps,

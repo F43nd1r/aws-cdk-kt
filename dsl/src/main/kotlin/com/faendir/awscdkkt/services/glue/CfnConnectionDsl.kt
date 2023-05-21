@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.glue
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.glue.CfnConnection
 import software.amazon.awscdk.services.glue.CfnConnectionProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnConnection(
   id: String,
   props: CfnConnectionProps,

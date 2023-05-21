@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ecs.patterns
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.ecs.patterns.ScheduledEc2Task
 import software.amazon.awscdk.services.ecs.patterns.ScheduledEc2TaskProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.scheduledEc2Task(
   id: String,
   props: ScheduledEc2TaskProps,

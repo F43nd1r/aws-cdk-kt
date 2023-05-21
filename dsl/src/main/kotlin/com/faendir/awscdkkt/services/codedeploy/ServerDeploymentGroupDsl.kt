@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.codedeploy
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.codedeploy.ServerDeploymentGroup
 import software.amazon.awscdk.services.codedeploy.ServerDeploymentGroupProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.serverDeploymentGroup(id: String, initializer: ServerDeploymentGroup.() -> Unit
     = {}): ServerDeploymentGroup = ServerDeploymentGroup(this, id).apply(initializer)
 
+@Generated
 public fun Construct.serverDeploymentGroup(
   id: String,
   props: ServerDeploymentGroupProps,

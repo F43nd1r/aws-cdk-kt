@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.servicecatalog
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.servicecatalog.CfnTagOption
 import software.amazon.awscdk.services.servicecatalog.CfnTagOptionProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnTagOption(
   id: String,
   props: CfnTagOptionProps,

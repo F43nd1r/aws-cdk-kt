@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.cognito
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.cognito.UserPoolClient
 import software.amazon.awscdk.services.cognito.UserPoolClientProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.userPoolClient(
   id: String,
   props: UserPoolClientProps,

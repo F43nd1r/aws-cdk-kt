@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.cloudwatch
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.cloudwatch.Dashboard
 import software.amazon.awscdk.services.cloudwatch.DashboardProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.dashboard(id: String, initializer: Dashboard.() -> Unit = {}): Dashboard =
     Dashboard(this, id).apply(initializer)
 
+@Generated
 public fun Construct.dashboard(
   id: String,
   props: DashboardProps,

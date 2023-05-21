@@ -1,12 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.waf
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.waf.CfnIPSet
 
-public
-    fun iPSetDescriptorProperty(initializer: CfnIPSet.IPSetDescriptorProperty.Builder.() -> Unit):
-    CfnIPSet.IPSetDescriptorProperty =
+@Generated
+public fun iPSetDescriptorProperty(initializer: CfnIPSet.IPSetDescriptorProperty.Builder.() -> Unit
+    = {}): CfnIPSet.IPSetDescriptorProperty =
     CfnIPSet.IPSetDescriptorProperty.builder().apply(initializer).build()

@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.iam
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.iam.AccessKeyProps
 
-public fun accessKeyProps(initializer: AccessKeyProps.Builder.() -> Unit): AccessKeyProps =
+@Generated
+public fun accessKeyProps(initializer: AccessKeyProps.Builder.() -> Unit = {}): AccessKeyProps =
     AccessKeyProps.builder().apply(initializer).build()

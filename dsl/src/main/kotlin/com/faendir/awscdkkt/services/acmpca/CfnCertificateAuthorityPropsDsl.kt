@@ -1,11 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.acmpca
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.acmpca.CfnCertificateAuthorityProps
 
-public
-    fun cfnCertificateAuthorityProps(initializer: CfnCertificateAuthorityProps.Builder.() -> Unit):
-    CfnCertificateAuthorityProps = CfnCertificateAuthorityProps.builder().apply(initializer).build()
+@Generated
+public fun cfnCertificateAuthorityProps(initializer: CfnCertificateAuthorityProps.Builder.() -> Unit
+    = {}): CfnCertificateAuthorityProps =
+    CfnCertificateAuthorityProps.builder().apply(initializer).build()

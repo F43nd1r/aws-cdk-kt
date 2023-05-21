@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.greengrass
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.greengrass.CfnLoggerDefinition
 
+@Generated
 public
-    fun loggerDefinitionVersionProperty(initializer: CfnLoggerDefinition.LoggerDefinitionVersionProperty.Builder.() -> Unit):
-    CfnLoggerDefinition.LoggerDefinitionVersionProperty =
+    fun loggerDefinitionVersionProperty(initializer: CfnLoggerDefinition.LoggerDefinitionVersionProperty.Builder.() -> Unit
+    = {}): CfnLoggerDefinition.LoggerDefinitionVersionProperty =
     CfnLoggerDefinition.LoggerDefinitionVersionProperty.builder().apply(initializer).build()

@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.vpclattice
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.vpclattice.CfnServiceNetworkServiceAssociation
 
+@Generated
 public
-    fun dnsEntryProperty(initializer: CfnServiceNetworkServiceAssociation.DnsEntryProperty.Builder.() -> Unit):
-    CfnServiceNetworkServiceAssociation.DnsEntryProperty =
+    fun dnsEntryProperty(initializer: CfnServiceNetworkServiceAssociation.DnsEntryProperty.Builder.() -> Unit
+    = {}): CfnServiceNetworkServiceAssociation.DnsEntryProperty =
     CfnServiceNetworkServiceAssociation.DnsEntryProperty.builder().apply(initializer).build()

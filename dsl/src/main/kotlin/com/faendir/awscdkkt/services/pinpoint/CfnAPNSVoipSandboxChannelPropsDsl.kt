@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.pinpoint
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnAPNSVoipSandboxChannelProps
 
+@Generated
 public
-    fun cfnAPNSVoipSandboxChannelProps(initializer: CfnAPNSVoipSandboxChannelProps.Builder.() -> Unit):
-    CfnAPNSVoipSandboxChannelProps =
+    fun cfnAPNSVoipSandboxChannelProps(initializer: CfnAPNSVoipSandboxChannelProps.Builder.() -> Unit
+    = {}): CfnAPNSVoipSandboxChannelProps =
     CfnAPNSVoipSandboxChannelProps.builder().apply(initializer).build()

@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.elasticache
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.elasticache.CfnUser
 import software.amazon.awscdk.services.elasticache.CfnUserProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnUser(
   id: String,
   props: CfnUserProps,

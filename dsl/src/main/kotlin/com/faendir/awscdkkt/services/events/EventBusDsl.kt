@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.events
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.events.EventBus
 import software.amazon.awscdk.services.events.EventBusProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.eventBus(id: String, initializer: EventBus.() -> Unit = {}): EventBus =
     EventBus(this, id).apply(initializer)
 
+@Generated
 public fun Construct.eventBus(
   id: String,
   props: EventBusProps,

@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.servicecatalogappregistry
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.servicecatalogappregistry.CfnAttributeGroupAssociationProps
 
+@Generated
 public
-    fun cfnAttributeGroupAssociationProps(initializer: CfnAttributeGroupAssociationProps.Builder.() -> Unit):
-    CfnAttributeGroupAssociationProps =
+    fun cfnAttributeGroupAssociationProps(initializer: CfnAttributeGroupAssociationProps.Builder.() -> Unit
+    = {}): CfnAttributeGroupAssociationProps =
     CfnAttributeGroupAssociationProps.builder().apply(initializer).build()

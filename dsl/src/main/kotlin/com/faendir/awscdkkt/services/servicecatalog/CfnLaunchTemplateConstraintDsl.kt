@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.servicecatalog
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.servicecatalog.CfnLaunchTemplateConstrain
 import software.amazon.awscdk.services.servicecatalog.CfnLaunchTemplateConstraintProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnLaunchTemplateConstraint(
   id: String,
   props: CfnLaunchTemplateConstraintProps,

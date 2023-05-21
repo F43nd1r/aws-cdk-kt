@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.kendra
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.kendra.CfnIndex
 
+@Generated
 public
-    fun jsonTokenTypeConfigurationProperty(initializer: CfnIndex.JsonTokenTypeConfigurationProperty.Builder.() -> Unit):
-    CfnIndex.JsonTokenTypeConfigurationProperty =
+    fun jsonTokenTypeConfigurationProperty(initializer: CfnIndex.JsonTokenTypeConfigurationProperty.Builder.() -> Unit
+    = {}): CfnIndex.JsonTokenTypeConfigurationProperty =
     CfnIndex.JsonTokenTypeConfigurationProperty.builder().apply(initializer).build()

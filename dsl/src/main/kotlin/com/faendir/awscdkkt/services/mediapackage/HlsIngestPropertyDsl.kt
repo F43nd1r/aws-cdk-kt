@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.mediapackage
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.mediapackage.CfnChannel
 
-public fun hlsIngestProperty(initializer: CfnChannel.HlsIngestProperty.Builder.() -> Unit):
+@Generated
+public fun hlsIngestProperty(initializer: CfnChannel.HlsIngestProperty.Builder.() -> Unit = {}):
     CfnChannel.HlsIngestProperty = CfnChannel.HlsIngestProperty.builder().apply(initializer).build()

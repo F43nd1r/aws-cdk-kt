@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.sagemaker
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnFeatureGroup
 
+@Generated
 public
-    fun dataCatalogConfigProperty(initializer: CfnFeatureGroup.DataCatalogConfigProperty.Builder.() -> Unit):
-    CfnFeatureGroup.DataCatalogConfigProperty =
+    fun dataCatalogConfigProperty(initializer: CfnFeatureGroup.DataCatalogConfigProperty.Builder.() -> Unit
+    = {}): CfnFeatureGroup.DataCatalogConfigProperty =
     CfnFeatureGroup.DataCatalogConfigProperty.builder().apply(initializer).build()

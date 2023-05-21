@@ -1,12 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.opsworks
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.opsworks.CfnApp
 
-public
-    fun sslConfigurationProperty(initializer: CfnApp.SslConfigurationProperty.Builder.() -> Unit):
-    CfnApp.SslConfigurationProperty =
+@Generated
+public fun sslConfigurationProperty(initializer: CfnApp.SslConfigurationProperty.Builder.() -> Unit
+    = {}): CfnApp.SslConfigurationProperty =
     CfnApp.SslConfigurationProperty.builder().apply(initializer).build()

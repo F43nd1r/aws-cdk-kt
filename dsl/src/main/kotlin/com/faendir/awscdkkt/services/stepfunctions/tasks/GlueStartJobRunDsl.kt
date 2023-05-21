@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.stepfunctions.tasks
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.stepfunctions.tasks.GlueStartJobRun
 import software.amazon.awscdk.services.stepfunctions.tasks.GlueStartJobRunProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.glueStartJobRun(
   id: String,
   props: GlueStartJobRunProps,

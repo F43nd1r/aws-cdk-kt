@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.stepfunctions.tasks
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrCreateCluster
 
+@Generated
 public
-    fun scalingActionProperty(initializer: EmrCreateCluster.ScalingActionProperty.Builder.() -> Unit):
-    EmrCreateCluster.ScalingActionProperty =
+    fun scalingActionProperty(initializer: EmrCreateCluster.ScalingActionProperty.Builder.() -> Unit
+    = {}): EmrCreateCluster.ScalingActionProperty =
     EmrCreateCluster.ScalingActionProperty.builder().apply(initializer).build()

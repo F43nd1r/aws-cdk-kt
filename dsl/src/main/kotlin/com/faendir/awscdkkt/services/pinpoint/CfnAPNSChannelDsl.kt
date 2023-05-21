@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.pinpoint
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.pinpoint.CfnAPNSChannel
 import software.amazon.awscdk.services.pinpoint.CfnAPNSChannelProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnAPNSChannel(
   id: String,
   props: CfnAPNSChannelProps,

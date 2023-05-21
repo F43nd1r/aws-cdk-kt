@@ -1,11 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.servicediscovery
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.servicediscovery.PublicDnsNamespaceAttributes
 
-public
-    fun publicDnsNamespaceAttributes(initializer: PublicDnsNamespaceAttributes.Builder.() -> Unit):
-    PublicDnsNamespaceAttributes = PublicDnsNamespaceAttributes.builder().apply(initializer).build()
+@Generated
+public fun publicDnsNamespaceAttributes(initializer: PublicDnsNamespaceAttributes.Builder.() -> Unit
+    = {}): PublicDnsNamespaceAttributes =
+    PublicDnsNamespaceAttributes.builder().apply(initializer).build()

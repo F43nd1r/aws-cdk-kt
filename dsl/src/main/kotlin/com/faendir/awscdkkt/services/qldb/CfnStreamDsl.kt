@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.qldb
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.qldb.CfnStream
 import software.amazon.awscdk.services.qldb.CfnStreamProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnStream(
   id: String,
   props: CfnStreamProps,

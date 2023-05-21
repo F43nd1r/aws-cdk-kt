@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.cloudwatch
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.cloudwatch.CfnAnomalyDetector
 import software.amazon.awscdk.services.cloudwatch.CfnAnomalyDetectorProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnAnomalyDetector(id: String, initializer: CfnAnomalyDetector.() -> Unit =
     {}): CfnAnomalyDetector = CfnAnomalyDetector(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnAnomalyDetector(
   id: String,
   props: CfnAnomalyDetectorProps,

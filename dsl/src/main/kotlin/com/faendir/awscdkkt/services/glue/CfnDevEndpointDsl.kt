@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.glue
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.glue.CfnDevEndpoint
 import software.amazon.awscdk.services.glue.CfnDevEndpointProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnDevEndpoint(
   id: String,
   props: CfnDevEndpointProps,

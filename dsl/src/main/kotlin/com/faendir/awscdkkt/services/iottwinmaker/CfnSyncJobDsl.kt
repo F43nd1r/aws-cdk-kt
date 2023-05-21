@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.iottwinmaker
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.iottwinmaker.CfnSyncJob
 import software.amazon.awscdk.services.iottwinmaker.CfnSyncJobProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnSyncJob(
   id: String,
   props: CfnSyncJobProps,

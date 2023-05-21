@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.cloudfront.experimental
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.cloudfront.experimental.EdgeFunction
 import software.amazon.awscdk.services.cloudfront.experimental.EdgeFunctionProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.edgeFunction(
   id: String,
   props: EdgeFunctionProps,

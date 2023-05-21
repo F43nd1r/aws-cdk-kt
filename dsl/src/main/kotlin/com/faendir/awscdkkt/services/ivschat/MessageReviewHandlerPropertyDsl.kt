@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ivschat
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.ivschat.CfnRoom
 
+@Generated
 public
-    fun messageReviewHandlerProperty(initializer: CfnRoom.MessageReviewHandlerProperty.Builder.() -> Unit):
-    CfnRoom.MessageReviewHandlerProperty =
+    fun messageReviewHandlerProperty(initializer: CfnRoom.MessageReviewHandlerProperty.Builder.() -> Unit
+    = {}): CfnRoom.MessageReviewHandlerProperty =
     CfnRoom.MessageReviewHandlerProperty.builder().apply(initializer).build()

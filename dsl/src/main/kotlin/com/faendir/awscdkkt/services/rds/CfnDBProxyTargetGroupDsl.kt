@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.rds
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.rds.CfnDBProxyTargetGroup
 import software.amazon.awscdk.services.rds.CfnDBProxyTargetGroupProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnDBProxyTargetGroup(
   id: String,
   props: CfnDBProxyTargetGroupProps,

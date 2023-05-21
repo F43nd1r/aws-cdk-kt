@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.iotanalytics
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.iotanalytics.CfnPipeline
 import software.amazon.awscdk.services.iotanalytics.CfnPipelineProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnPipeline(
   id: String,
   props: CfnPipelineProps,

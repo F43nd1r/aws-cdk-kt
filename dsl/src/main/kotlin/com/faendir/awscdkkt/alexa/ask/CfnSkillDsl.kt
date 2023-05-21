@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.alexa.ask
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.alexa.ask.CfnSkill
 import software.amazon.awscdk.alexa.ask.CfnSkillProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnSkill(
   id: String,
   props: CfnSkillProps,

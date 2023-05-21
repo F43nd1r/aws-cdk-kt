@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.iot
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnAccountAuditConfigurationProps
 
+@Generated
 public
-    fun cfnAccountAuditConfigurationProps(initializer: CfnAccountAuditConfigurationProps.Builder.() -> Unit):
-    CfnAccountAuditConfigurationProps =
+    fun cfnAccountAuditConfigurationProps(initializer: CfnAccountAuditConfigurationProps.Builder.() -> Unit
+    = {}): CfnAccountAuditConfigurationProps =
     CfnAccountAuditConfigurationProps.builder().apply(initializer).build()

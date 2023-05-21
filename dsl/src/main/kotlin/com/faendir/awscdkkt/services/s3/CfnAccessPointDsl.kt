@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.s3
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.s3.CfnAccessPoint
 import software.amazon.awscdk.services.s3.CfnAccessPointProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnAccessPoint(
   id: String,
   props: CfnAccessPointProps,

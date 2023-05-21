@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.groundstation
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.groundstation.CfnDataflowEndpointGroup
 
+@Generated
 public
-    fun socketAddressProperty(initializer: CfnDataflowEndpointGroup.SocketAddressProperty.Builder.() -> Unit):
-    CfnDataflowEndpointGroup.SocketAddressProperty =
+    fun socketAddressProperty(initializer: CfnDataflowEndpointGroup.SocketAddressProperty.Builder.() -> Unit
+    = {}): CfnDataflowEndpointGroup.SocketAddressProperty =
     CfnDataflowEndpointGroup.SocketAddressProperty.builder().apply(initializer).build()

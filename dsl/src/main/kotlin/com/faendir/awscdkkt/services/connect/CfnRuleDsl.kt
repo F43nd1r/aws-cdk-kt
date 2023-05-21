@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.connect
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.connect.CfnRule
 import software.amazon.awscdk.services.connect.CfnRuleProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnRule(
   id: String,
   props: CfnRuleProps,

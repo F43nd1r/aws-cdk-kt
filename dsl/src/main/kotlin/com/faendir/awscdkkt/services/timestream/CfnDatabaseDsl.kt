@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.timestream
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.timestream.CfnDatabase
 import software.amazon.awscdk.services.timestream.CfnDatabaseProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnDatabase(id: String, initializer: CfnDatabase.() -> Unit = {}): CfnDatabase
     = CfnDatabase(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnDatabase(
   id: String,
   props: CfnDatabaseProps,

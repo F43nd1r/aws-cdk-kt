@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.apprunner
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.apprunner.CfnVpcConnector
 import software.amazon.awscdk.services.apprunner.CfnVpcConnectorProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnVpcConnector(
   id: String,
   props: CfnVpcConnectorProps,

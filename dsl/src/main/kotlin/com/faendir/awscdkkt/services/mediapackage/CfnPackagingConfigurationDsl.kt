@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.mediapackage
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.mediapackage.CfnPackagingConfiguration
 import software.amazon.awscdk.services.mediapackage.CfnPackagingConfigurationProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnPackagingConfiguration(
   id: String,
   props: CfnPackagingConfigurationProps,

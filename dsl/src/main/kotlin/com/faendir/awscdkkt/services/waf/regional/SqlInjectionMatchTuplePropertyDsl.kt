@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.waf.regional
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.waf.regional.CfnSqlInjectionMatchSet
 
+@Generated
 public
-    fun sqlInjectionMatchTupleProperty(initializer: CfnSqlInjectionMatchSet.SqlInjectionMatchTupleProperty.Builder.() -> Unit):
-    CfnSqlInjectionMatchSet.SqlInjectionMatchTupleProperty =
+    fun sqlInjectionMatchTupleProperty(initializer: CfnSqlInjectionMatchSet.SqlInjectionMatchTupleProperty.Builder.() -> Unit
+    = {}): CfnSqlInjectionMatchSet.SqlInjectionMatchTupleProperty =
     CfnSqlInjectionMatchSet.SqlInjectionMatchTupleProperty.builder().apply(initializer).build()

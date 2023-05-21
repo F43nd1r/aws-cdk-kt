@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.codedeploy
 
 import javax.`annotation`.Generated
@@ -9,10 +7,12 @@ import software.amazon.awscdk.services.codedeploy.LambdaDeploymentConfig
 import software.amazon.awscdk.services.codedeploy.LambdaDeploymentConfigProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.lambdaDeploymentConfig(id: String,
     initializer: LambdaDeploymentConfig.() -> Unit = {}): LambdaDeploymentConfig =
     LambdaDeploymentConfig(this, id).apply(initializer)
 
+@Generated
 public fun Construct.lambdaDeploymentConfig(
   id: String,
   props: LambdaDeploymentConfigProps,

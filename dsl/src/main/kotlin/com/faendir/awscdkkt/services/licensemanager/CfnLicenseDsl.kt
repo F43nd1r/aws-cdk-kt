@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.licensemanager
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.licensemanager.CfnLicense
 import software.amazon.awscdk.services.licensemanager.CfnLicenseProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnLicense(
   id: String,
   props: CfnLicenseProps,

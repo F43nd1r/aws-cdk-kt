@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.connect
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnContactFlowProps
 
-public fun cfnContactFlowProps(initializer: CfnContactFlowProps.Builder.() -> Unit):
+@Generated
+public fun cfnContactFlowProps(initializer: CfnContactFlowProps.Builder.() -> Unit = {}):
     CfnContactFlowProps = CfnContactFlowProps.builder().apply(initializer).build()

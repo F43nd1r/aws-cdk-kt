@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.devicefarm
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.devicefarm.CfnNetworkProfile
 import software.amazon.awscdk.services.devicefarm.CfnNetworkProfileProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnNetworkProfile(
   id: String,
   props: CfnNetworkProfileProps,

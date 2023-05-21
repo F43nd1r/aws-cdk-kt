@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.docdb
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.docdb.DatabaseClusterProps
 
-public fun databaseClusterProps(initializer: DatabaseClusterProps.Builder.() -> Unit):
+@Generated
+public fun databaseClusterProps(initializer: DatabaseClusterProps.Builder.() -> Unit = {}):
     DatabaseClusterProps = DatabaseClusterProps.builder().apply(initializer).build()

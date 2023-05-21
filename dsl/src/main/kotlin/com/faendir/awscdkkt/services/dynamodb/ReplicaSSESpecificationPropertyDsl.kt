@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.dynamodb
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.CfnGlobalTable
 
+@Generated
 public
-    fun replicaSSESpecificationProperty(initializer: CfnGlobalTable.ReplicaSSESpecificationProperty.Builder.() -> Unit):
-    CfnGlobalTable.ReplicaSSESpecificationProperty =
+    fun replicaSSESpecificationProperty(initializer: CfnGlobalTable.ReplicaSSESpecificationProperty.Builder.() -> Unit
+    = {}): CfnGlobalTable.ReplicaSSESpecificationProperty =
     CfnGlobalTable.ReplicaSSESpecificationProperty.builder().apply(initializer).build()

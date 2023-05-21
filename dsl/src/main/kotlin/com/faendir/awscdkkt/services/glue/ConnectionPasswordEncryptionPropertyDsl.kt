@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.glue
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnDataCatalogEncryptionSettings
 
+@Generated
 public
-    fun connectionPasswordEncryptionProperty(initializer: CfnDataCatalogEncryptionSettings.ConnectionPasswordEncryptionProperty.Builder.() -> Unit):
-    CfnDataCatalogEncryptionSettings.ConnectionPasswordEncryptionProperty =
+    fun connectionPasswordEncryptionProperty(initializer: CfnDataCatalogEncryptionSettings.ConnectionPasswordEncryptionProperty.Builder.() -> Unit
+    = {}): CfnDataCatalogEncryptionSettings.ConnectionPasswordEncryptionProperty =
     CfnDataCatalogEncryptionSettings.ConnectionPasswordEncryptionProperty.builder().apply(initializer).build()

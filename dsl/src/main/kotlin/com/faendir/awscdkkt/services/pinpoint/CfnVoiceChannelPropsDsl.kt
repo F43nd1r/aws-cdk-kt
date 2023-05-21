@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.pinpoint
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnVoiceChannelProps
 
-public fun cfnVoiceChannelProps(initializer: CfnVoiceChannelProps.Builder.() -> Unit):
+@Generated
+public fun cfnVoiceChannelProps(initializer: CfnVoiceChannelProps.Builder.() -> Unit = {}):
     CfnVoiceChannelProps = CfnVoiceChannelProps.builder().apply(initializer).build()

@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.sagemaker
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.sagemaker.CfnDomain
 import software.amazon.awscdk.services.sagemaker.CfnDomainProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnDomain(
   id: String,
   props: CfnDomainProps,

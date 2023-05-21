@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ssm
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.ssm.CfnResourceDataSync
 
+@Generated
 public
-    fun s3DestinationProperty(initializer: CfnResourceDataSync.S3DestinationProperty.Builder.() -> Unit):
-    CfnResourceDataSync.S3DestinationProperty =
+    fun s3DestinationProperty(initializer: CfnResourceDataSync.S3DestinationProperty.Builder.() -> Unit
+    = {}): CfnResourceDataSync.S3DestinationProperty =
     CfnResourceDataSync.S3DestinationProperty.builder().apply(initializer).build()

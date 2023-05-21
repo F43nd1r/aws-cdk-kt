@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.omics
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.omics.CfnWorkflow
 import software.amazon.awscdk.services.omics.CfnWorkflowProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnWorkflow(id: String, initializer: CfnWorkflow.() -> Unit = {}): CfnWorkflow
     = CfnWorkflow(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnWorkflow(
   id: String,
   props: CfnWorkflowProps,

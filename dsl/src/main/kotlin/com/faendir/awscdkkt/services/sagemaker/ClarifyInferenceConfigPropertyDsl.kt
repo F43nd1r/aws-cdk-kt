@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.sagemaker
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnEndpointConfig
 
+@Generated
 public
-    fun clarifyInferenceConfigProperty(initializer: CfnEndpointConfig.ClarifyInferenceConfigProperty.Builder.() -> Unit):
-    CfnEndpointConfig.ClarifyInferenceConfigProperty =
+    fun clarifyInferenceConfigProperty(initializer: CfnEndpointConfig.ClarifyInferenceConfigProperty.Builder.() -> Unit
+    = {}): CfnEndpointConfig.ClarifyInferenceConfigProperty =
     CfnEndpointConfig.ClarifyInferenceConfigProperty.builder().apply(initializer).build()

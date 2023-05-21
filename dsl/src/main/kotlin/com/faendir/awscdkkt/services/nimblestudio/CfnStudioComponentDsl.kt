@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.nimblestudio
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.nimblestudio.CfnStudioComponent
 import software.amazon.awscdk.services.nimblestudio.CfnStudioComponentProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnStudioComponent(
   id: String,
   props: CfnStudioComponentProps,

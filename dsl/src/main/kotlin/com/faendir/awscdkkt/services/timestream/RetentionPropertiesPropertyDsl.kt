@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.timestream
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.timestream.CfnTable
 
+@Generated
 public
-    fun retentionPropertiesProperty(initializer: CfnTable.RetentionPropertiesProperty.Builder.() -> Unit):
-    CfnTable.RetentionPropertiesProperty =
+    fun retentionPropertiesProperty(initializer: CfnTable.RetentionPropertiesProperty.Builder.() -> Unit
+    = {}): CfnTable.RetentionPropertiesProperty =
     CfnTable.RetentionPropertiesProperty.builder().apply(initializer).build()

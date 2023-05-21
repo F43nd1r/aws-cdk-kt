@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.inspectorv2
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.inspectorv2.CfnFilter
 import software.amazon.awscdk.services.inspectorv2.CfnFilterProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnFilter(
   id: String,
   props: CfnFilterProps,

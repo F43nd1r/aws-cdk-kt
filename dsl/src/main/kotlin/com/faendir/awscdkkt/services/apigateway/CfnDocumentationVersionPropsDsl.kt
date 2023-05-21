@@ -1,11 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.apigateway
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.CfnDocumentationVersionProps
 
-public
-    fun cfnDocumentationVersionProps(initializer: CfnDocumentationVersionProps.Builder.() -> Unit):
-    CfnDocumentationVersionProps = CfnDocumentationVersionProps.builder().apply(initializer).build()
+@Generated
+public fun cfnDocumentationVersionProps(initializer: CfnDocumentationVersionProps.Builder.() -> Unit
+    = {}): CfnDocumentationVersionProps =
+    CfnDocumentationVersionProps.builder().apply(initializer).build()

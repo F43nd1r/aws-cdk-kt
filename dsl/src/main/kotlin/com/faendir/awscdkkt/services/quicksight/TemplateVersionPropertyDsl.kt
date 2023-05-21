@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.quicksight
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
+@Generated
 public
-    fun templateVersionProperty(initializer: CfnTemplate.TemplateVersionProperty.Builder.() -> Unit):
-    CfnTemplate.TemplateVersionProperty =
+    fun templateVersionProperty(initializer: CfnTemplate.TemplateVersionProperty.Builder.() -> Unit
+    = {}): CfnTemplate.TemplateVersionProperty =
     CfnTemplate.TemplateVersionProperty.builder().apply(initializer).build()

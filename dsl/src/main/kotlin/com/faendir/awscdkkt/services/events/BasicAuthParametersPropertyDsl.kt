@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.events
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.events.CfnConnection
 
+@Generated
 public
-    fun basicAuthParametersProperty(initializer: CfnConnection.BasicAuthParametersProperty.Builder.() -> Unit):
-    CfnConnection.BasicAuthParametersProperty =
+    fun basicAuthParametersProperty(initializer: CfnConnection.BasicAuthParametersProperty.Builder.() -> Unit
+    = {}): CfnConnection.BasicAuthParametersProperty =
     CfnConnection.BasicAuthParametersProperty.builder().apply(initializer).build()

@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.lex
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.lex.CfnResourcePolicy
 import software.amazon.awscdk.services.lex.CfnResourcePolicyProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnResourcePolicy(
   id: String,
   props: CfnResourcePolicyProps,

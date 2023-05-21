@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.autoscaling.common
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.common.ScalingInterval
 
-public fun scalingInterval(initializer: ScalingInterval.Builder.() -> Unit): ScalingInterval =
+@Generated
+public fun scalingInterval(initializer: ScalingInterval.Builder.() -> Unit = {}): ScalingInterval =
     ScalingInterval.builder().apply(initializer).build()

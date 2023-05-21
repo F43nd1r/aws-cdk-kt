@@ -1,12 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.elasticbeanstalk
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.elasticbeanstalk.CfnApplication
 
-public
-    fun maxCountRuleProperty(initializer: CfnApplication.MaxCountRuleProperty.Builder.() -> Unit):
-    CfnApplication.MaxCountRuleProperty =
+@Generated
+public fun maxCountRuleProperty(initializer: CfnApplication.MaxCountRuleProperty.Builder.() -> Unit
+    = {}): CfnApplication.MaxCountRuleProperty =
     CfnApplication.MaxCountRuleProperty.builder().apply(initializer).build()

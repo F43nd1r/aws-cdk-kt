@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.elasticloadbalancingv2
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.ApplicationLoadBal
 import software.amazon.awscdk.services.elasticloadbalancingv2.ApplicationLoadBalancerProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.applicationLoadBalancer(
   id: String,
   props: ApplicationLoadBalancerProps,

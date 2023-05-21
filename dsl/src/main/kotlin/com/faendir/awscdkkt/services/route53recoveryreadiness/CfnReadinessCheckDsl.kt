@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.route53recoveryreadiness
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.route53recoveryreadiness.CfnReadinessChec
 import software.amazon.awscdk.services.route53recoveryreadiness.CfnReadinessCheckProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnReadinessCheck(id: String, initializer: CfnReadinessCheck.() -> Unit = {}):
     CfnReadinessCheck = CfnReadinessCheck(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnReadinessCheck(
   id: String,
   props: CfnReadinessCheckProps,

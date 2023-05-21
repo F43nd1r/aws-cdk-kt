@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.imagebuilder
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.imagebuilder.CfnInfrastructureConfigurati
 import software.amazon.awscdk.services.imagebuilder.CfnInfrastructureConfigurationProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnInfrastructureConfiguration(
   id: String,
   props: CfnInfrastructureConfigurationProps,

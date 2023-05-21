@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.iam
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.iam.GroupProps
 
-public fun groupProps(initializer: GroupProps.Builder.() -> Unit): GroupProps =
+@Generated
+public fun groupProps(initializer: GroupProps.Builder.() -> Unit = {}): GroupProps =
     GroupProps.builder().apply(initializer).build()

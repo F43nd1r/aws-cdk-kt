@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.workspaces
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.workspaces.CfnWorkspace
 import software.amazon.awscdk.services.workspaces.CfnWorkspaceProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnWorkspace(
   id: String,
   props: CfnWorkspaceProps,

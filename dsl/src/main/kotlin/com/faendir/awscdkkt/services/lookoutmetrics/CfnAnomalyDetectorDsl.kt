@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.lookoutmetrics
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.lookoutmetrics.CfnAnomalyDetector
 import software.amazon.awscdk.services.lookoutmetrics.CfnAnomalyDetectorProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnAnomalyDetector(
   id: String,
   props: CfnAnomalyDetectorProps,

@@ -1,10 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.greengrass
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.greengrass.CfnConnectorDefinitionProps
 
-public fun cfnConnectorDefinitionProps(initializer: CfnConnectorDefinitionProps.Builder.() -> Unit):
-    CfnConnectorDefinitionProps = CfnConnectorDefinitionProps.builder().apply(initializer).build()
+@Generated
+public fun cfnConnectorDefinitionProps(initializer: CfnConnectorDefinitionProps.Builder.() -> Unit =
+    {}): CfnConnectorDefinitionProps =
+    CfnConnectorDefinitionProps.builder().apply(initializer).build()

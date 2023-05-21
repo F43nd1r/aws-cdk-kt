@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.opsworks
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.opsworks.CfnLayer
 import software.amazon.awscdk.services.opsworks.CfnLayerProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnLayer(
   id: String,
   props: CfnLayerProps,

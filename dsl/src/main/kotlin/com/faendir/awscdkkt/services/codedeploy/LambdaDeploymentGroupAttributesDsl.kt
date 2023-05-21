@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.codedeploy
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.codedeploy.LambdaDeploymentGroupAttributes
 
+@Generated
 public
-    fun lambdaDeploymentGroupAttributes(initializer: LambdaDeploymentGroupAttributes.Builder.() -> Unit):
-    LambdaDeploymentGroupAttributes =
+    fun lambdaDeploymentGroupAttributes(initializer: LambdaDeploymentGroupAttributes.Builder.() -> Unit
+    = {}): LambdaDeploymentGroupAttributes =
     LambdaDeploymentGroupAttributes.builder().apply(initializer).build()

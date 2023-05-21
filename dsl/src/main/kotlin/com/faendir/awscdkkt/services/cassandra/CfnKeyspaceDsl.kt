@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.cassandra
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.cassandra.CfnKeyspace
 import software.amazon.awscdk.services.cassandra.CfnKeyspaceProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnKeyspace(id: String, initializer: CfnKeyspace.() -> Unit = {}): CfnKeyspace
     = CfnKeyspace(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnKeyspace(
   id: String,
   props: CfnKeyspaceProps,

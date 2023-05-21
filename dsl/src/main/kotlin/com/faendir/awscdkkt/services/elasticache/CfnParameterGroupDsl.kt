@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.elasticache
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.elasticache.CfnParameterGroup
 import software.amazon.awscdk.services.elasticache.CfnParameterGroupProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnParameterGroup(
   id: String,
   props: CfnParameterGroupProps,

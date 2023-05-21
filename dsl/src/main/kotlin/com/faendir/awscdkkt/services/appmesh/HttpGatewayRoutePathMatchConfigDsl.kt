@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.appmesh
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.HttpGatewayRoutePathMatchConfig
 
+@Generated
 public
-    fun httpGatewayRoutePathMatchConfig(initializer: HttpGatewayRoutePathMatchConfig.Builder.() -> Unit):
-    HttpGatewayRoutePathMatchConfig =
+    fun httpGatewayRoutePathMatchConfig(initializer: HttpGatewayRoutePathMatchConfig.Builder.() -> Unit
+    = {}): HttpGatewayRoutePathMatchConfig =
     HttpGatewayRoutePathMatchConfig.builder().apply(initializer).build()

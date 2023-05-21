@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ecr
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.ecr.CfnReplicationConfiguration
 import software.amazon.awscdk.services.ecr.CfnReplicationConfigurationProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnReplicationConfiguration(
   id: String,
   props: CfnReplicationConfigurationProps,

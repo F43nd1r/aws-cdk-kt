@@ -1,12 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.appflow
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnFlow
 
-public
-    fun sourceFlowConfigProperty(initializer: CfnFlow.SourceFlowConfigProperty.Builder.() -> Unit):
-    CfnFlow.SourceFlowConfigProperty =
+@Generated
+public fun sourceFlowConfigProperty(initializer: CfnFlow.SourceFlowConfigProperty.Builder.() -> Unit
+    = {}): CfnFlow.SourceFlowConfigProperty =
     CfnFlow.SourceFlowConfigProperty.builder().apply(initializer).build()

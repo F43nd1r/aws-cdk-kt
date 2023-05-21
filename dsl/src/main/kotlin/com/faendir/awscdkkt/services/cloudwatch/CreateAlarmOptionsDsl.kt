@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.cloudwatch
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.CreateAlarmOptions
 
-public fun createAlarmOptions(initializer: CreateAlarmOptions.Builder.() -> Unit):
+@Generated
+public fun createAlarmOptions(initializer: CreateAlarmOptions.Builder.() -> Unit = {}):
     CreateAlarmOptions = CreateAlarmOptions.builder().apply(initializer).build()

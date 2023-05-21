@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.appsync
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.appsync.CfnApiCache
 import software.amazon.awscdk.services.appsync.CfnApiCacheProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnApiCache(
   id: String,
   props: CfnApiCacheProps,

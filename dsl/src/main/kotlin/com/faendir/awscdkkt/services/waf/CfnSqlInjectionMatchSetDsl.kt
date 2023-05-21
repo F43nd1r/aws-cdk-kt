@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.waf
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.waf.CfnSqlInjectionMatchSet
 import software.amazon.awscdk.services.waf.CfnSqlInjectionMatchSetProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnSqlInjectionMatchSet(
   id: String,
   props: CfnSqlInjectionMatchSetProps,

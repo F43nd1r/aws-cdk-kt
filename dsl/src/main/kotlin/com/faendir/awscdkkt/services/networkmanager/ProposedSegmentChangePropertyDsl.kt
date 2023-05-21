@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.networkmanager
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.networkmanager.CfnVpcAttachment
 
+@Generated
 public
-    fun proposedSegmentChangeProperty(initializer: CfnVpcAttachment.ProposedSegmentChangeProperty.Builder.() -> Unit):
-    CfnVpcAttachment.ProposedSegmentChangeProperty =
+    fun proposedSegmentChangeProperty(initializer: CfnVpcAttachment.ProposedSegmentChangeProperty.Builder.() -> Unit
+    = {}): CfnVpcAttachment.ProposedSegmentChangeProperty =
     CfnVpcAttachment.ProposedSegmentChangeProperty.builder().apply(initializer).build()

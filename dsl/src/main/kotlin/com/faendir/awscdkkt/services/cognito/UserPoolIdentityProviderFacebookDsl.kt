@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.cognito
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.cognito.UserPoolIdentityProviderFacebook
 import software.amazon.awscdk.services.cognito.UserPoolIdentityProviderFacebookProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.userPoolIdentityProviderFacebook(
   id: String,
   props: UserPoolIdentityProviderFacebookProps,

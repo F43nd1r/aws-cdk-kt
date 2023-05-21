@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.sns.subscriptions
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.sns.subscriptions.EmailSubscriptionProps
 
-public fun emailSubscriptionProps(initializer: EmailSubscriptionProps.Builder.() -> Unit):
+@Generated
+public fun emailSubscriptionProps(initializer: EmailSubscriptionProps.Builder.() -> Unit = {}):
     EmailSubscriptionProps = EmailSubscriptionProps.builder().apply(initializer).build()

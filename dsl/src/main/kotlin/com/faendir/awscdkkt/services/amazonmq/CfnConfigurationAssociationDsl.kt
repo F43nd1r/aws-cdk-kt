@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.amazonmq
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.amazonmq.CfnConfigurationAssociation
 import software.amazon.awscdk.services.amazonmq.CfnConfigurationAssociationProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnConfigurationAssociation(
   id: String,
   props: CfnConfigurationAssociationProps,

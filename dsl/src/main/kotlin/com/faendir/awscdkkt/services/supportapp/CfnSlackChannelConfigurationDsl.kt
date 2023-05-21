@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.supportapp
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.supportapp.CfnSlackChannelConfiguration
 import software.amazon.awscdk.services.supportapp.CfnSlackChannelConfigurationProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnSlackChannelConfiguration(
   id: String,
   props: CfnSlackChannelConfigurationProps,

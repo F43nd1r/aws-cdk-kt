@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.appsync
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.appsync.CfnResolverProps
 
-public fun cfnResolverProps(initializer: CfnResolverProps.Builder.() -> Unit): CfnResolverProps =
-    CfnResolverProps.builder().apply(initializer).build()
+@Generated
+public fun cfnResolverProps(initializer: CfnResolverProps.Builder.() -> Unit = {}): CfnResolverProps
+    = CfnResolverProps.builder().apply(initializer).build()

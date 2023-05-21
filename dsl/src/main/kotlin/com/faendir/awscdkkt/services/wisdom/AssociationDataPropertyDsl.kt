@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.wisdom
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnAssistantAssociation
 
+@Generated
 public
-    fun associationDataProperty(initializer: CfnAssistantAssociation.AssociationDataProperty.Builder.() -> Unit):
-    CfnAssistantAssociation.AssociationDataProperty =
+    fun associationDataProperty(initializer: CfnAssistantAssociation.AssociationDataProperty.Builder.() -> Unit
+    = {}): CfnAssistantAssociation.AssociationDataProperty =
     CfnAssistantAssociation.AssociationDataProperty.builder().apply(initializer).build()

@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.kendra
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.kendra.CfnFaqProps
 
-public fun cfnFaqProps(initializer: CfnFaqProps.Builder.() -> Unit): CfnFaqProps =
+@Generated
+public fun cfnFaqProps(initializer: CfnFaqProps.Builder.() -> Unit = {}): CfnFaqProps =
     CfnFaqProps.builder().apply(initializer).build()

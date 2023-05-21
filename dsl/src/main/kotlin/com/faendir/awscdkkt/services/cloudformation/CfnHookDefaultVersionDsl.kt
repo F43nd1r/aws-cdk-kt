@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.cloudformation
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.cloudformation.CfnHookDefaultVersion
 import software.amazon.awscdk.services.cloudformation.CfnHookDefaultVersionProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnHookDefaultVersion(id: String, initializer: CfnHookDefaultVersion.() -> Unit
     = {}): CfnHookDefaultVersion = CfnHookDefaultVersion(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnHookDefaultVersion(
   id: String,
   props: CfnHookDefaultVersionProps,

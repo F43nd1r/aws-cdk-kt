@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.lambda.nodejs
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.lambda.nodejs.NodejsFunction
 import software.amazon.awscdk.services.lambda.nodejs.NodejsFunctionProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.nodejsFunction(id: String, initializer: NodejsFunction.() -> Unit = {}):
     NodejsFunction = NodejsFunction(this, id).apply(initializer)
 
+@Generated
 public fun Construct.nodejsFunction(
   id: String,
   props: NodejsFunctionProps,

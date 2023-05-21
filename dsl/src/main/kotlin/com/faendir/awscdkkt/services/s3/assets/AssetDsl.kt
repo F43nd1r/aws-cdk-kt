@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.s3.assets
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.s3.assets.Asset
 import software.amazon.awscdk.services.s3.assets.AssetProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.asset(
   id: String,
   props: AssetProps,

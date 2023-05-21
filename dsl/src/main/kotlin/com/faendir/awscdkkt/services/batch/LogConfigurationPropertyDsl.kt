@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.batch
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.batch.CfnJobDefinition
 
+@Generated
 public
-    fun logConfigurationProperty(initializer: CfnJobDefinition.LogConfigurationProperty.Builder.() -> Unit):
-    CfnJobDefinition.LogConfigurationProperty =
+    fun logConfigurationProperty(initializer: CfnJobDefinition.LogConfigurationProperty.Builder.() -> Unit
+    = {}): CfnJobDefinition.LogConfigurationProperty =
     CfnJobDefinition.LogConfigurationProperty.builder().apply(initializer).build()

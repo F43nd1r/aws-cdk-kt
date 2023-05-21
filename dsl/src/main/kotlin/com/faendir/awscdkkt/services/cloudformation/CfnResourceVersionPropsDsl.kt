@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.cloudformation
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.cloudformation.CfnResourceVersionProps
 
-public fun cfnResourceVersionProps(initializer: CfnResourceVersionProps.Builder.() -> Unit):
+@Generated
+public fun cfnResourceVersionProps(initializer: CfnResourceVersionProps.Builder.() -> Unit = {}):
     CfnResourceVersionProps = CfnResourceVersionProps.builder().apply(initializer).build()

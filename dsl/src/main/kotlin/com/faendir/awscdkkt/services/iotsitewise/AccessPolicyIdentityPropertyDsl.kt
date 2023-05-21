@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.iotsitewise
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.iotsitewise.CfnAccessPolicy
 
+@Generated
 public
-    fun accessPolicyIdentityProperty(initializer: CfnAccessPolicy.AccessPolicyIdentityProperty.Builder.() -> Unit):
-    CfnAccessPolicy.AccessPolicyIdentityProperty =
+    fun accessPolicyIdentityProperty(initializer: CfnAccessPolicy.AccessPolicyIdentityProperty.Builder.() -> Unit
+    = {}): CfnAccessPolicy.AccessPolicyIdentityProperty =
     CfnAccessPolicy.AccessPolicyIdentityProperty.builder().apply(initializer).build()

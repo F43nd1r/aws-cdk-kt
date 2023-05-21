@@ -1,12 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.databrew
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.databrew.CfnRuleset
 
-public
-    fun columnSelectorProperty(initializer: CfnRuleset.ColumnSelectorProperty.Builder.() -> Unit):
-    CfnRuleset.ColumnSelectorProperty =
+@Generated
+public fun columnSelectorProperty(initializer: CfnRuleset.ColumnSelectorProperty.Builder.() -> Unit
+    = {}): CfnRuleset.ColumnSelectorProperty =
     CfnRuleset.ColumnSelectorProperty.builder().apply(initializer).build()

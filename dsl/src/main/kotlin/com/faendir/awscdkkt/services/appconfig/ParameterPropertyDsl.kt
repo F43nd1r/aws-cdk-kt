@@ -1,11 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.appconfig
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.appconfig.CfnExtension
 
-public fun parameterProperty(initializer: CfnExtension.ParameterProperty.Builder.() -> Unit):
+@Generated
+public fun parameterProperty(initializer: CfnExtension.ParameterProperty.Builder.() -> Unit = {}):
     CfnExtension.ParameterProperty =
     CfnExtension.ParameterProperty.builder().apply(initializer).build()

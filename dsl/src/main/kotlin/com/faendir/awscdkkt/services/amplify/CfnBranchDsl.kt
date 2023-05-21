@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.amplify
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.amplify.CfnBranch
 import software.amazon.awscdk.services.amplify.CfnBranchProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnBranch(
   id: String,
   props: CfnBranchProps,

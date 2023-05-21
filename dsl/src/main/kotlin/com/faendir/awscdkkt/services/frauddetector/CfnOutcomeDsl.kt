@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.frauddetector
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.frauddetector.CfnOutcome
 import software.amazon.awscdk.services.frauddetector.CfnOutcomeProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnOutcome(
   id: String,
   props: CfnOutcomeProps,

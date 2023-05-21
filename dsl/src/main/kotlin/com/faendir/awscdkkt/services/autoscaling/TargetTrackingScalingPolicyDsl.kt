@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.autoscaling
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.autoscaling.TargetTrackingScalingPolicy
 import software.amazon.awscdk.services.autoscaling.TargetTrackingScalingPolicyProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.targetTrackingScalingPolicy(
   id: String,
   props: TargetTrackingScalingPolicyProps,

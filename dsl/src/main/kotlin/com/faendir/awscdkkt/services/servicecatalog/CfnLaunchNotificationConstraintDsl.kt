@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.servicecatalog
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.servicecatalog.CfnLaunchNotificationConst
 import software.amazon.awscdk.services.servicecatalog.CfnLaunchNotificationConstraintProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnLaunchNotificationConstraint(
   id: String,
   props: CfnLaunchNotificationConstraintProps,

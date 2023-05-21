@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.CfnMappingProps
 
-public fun cfnMappingProps(initializer: CfnMappingProps.Builder.() -> Unit): CfnMappingProps =
+@Generated
+public fun cfnMappingProps(initializer: CfnMappingProps.Builder.() -> Unit = {}): CfnMappingProps =
     CfnMappingProps.builder().apply(initializer).build()

@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.CfnCodeDeployBlueGreenHook
 import software.amazon.awscdk.CfnCodeDeployBlueGreenHookProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnCodeDeployBlueGreenHook(
   id: String,
   props: CfnCodeDeployBlueGreenHookProps,

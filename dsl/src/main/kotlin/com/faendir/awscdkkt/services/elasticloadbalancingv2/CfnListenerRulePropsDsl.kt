@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.elasticloadbalancingv2
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.CfnListenerRuleProps
 
-public fun cfnListenerRuleProps(initializer: CfnListenerRuleProps.Builder.() -> Unit):
+@Generated
+public fun cfnListenerRuleProps(initializer: CfnListenerRuleProps.Builder.() -> Unit = {}):
     CfnListenerRuleProps = CfnListenerRuleProps.builder().apply(initializer).build()

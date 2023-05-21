@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.directoryservice
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.directoryservice.CfnMicrosoftAD
 import software.amazon.awscdk.services.directoryservice.CfnMicrosoftADProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnMicrosoftAD(
   id: String,
   props: CfnMicrosoftADProps,

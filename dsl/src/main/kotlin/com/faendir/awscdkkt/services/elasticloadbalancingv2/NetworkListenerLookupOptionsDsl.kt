@@ -1,11 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.elasticloadbalancingv2
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.NetworkListenerLookupOptions
 
-public
-    fun networkListenerLookupOptions(initializer: NetworkListenerLookupOptions.Builder.() -> Unit):
-    NetworkListenerLookupOptions = NetworkListenerLookupOptions.builder().apply(initializer).build()
+@Generated
+public fun networkListenerLookupOptions(initializer: NetworkListenerLookupOptions.Builder.() -> Unit
+    = {}): NetworkListenerLookupOptions =
+    NetworkListenerLookupOptions.builder().apply(initializer).build()

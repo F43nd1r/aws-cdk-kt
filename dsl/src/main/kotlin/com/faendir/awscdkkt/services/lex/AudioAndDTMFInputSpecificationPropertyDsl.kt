@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.lex
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
+@Generated
 public
-    fun audioAndDTMFInputSpecificationProperty(initializer: CfnBot.AudioAndDTMFInputSpecificationProperty.Builder.() -> Unit):
-    CfnBot.AudioAndDTMFInputSpecificationProperty =
+    fun audioAndDTMFInputSpecificationProperty(initializer: CfnBot.AudioAndDTMFInputSpecificationProperty.Builder.() -> Unit
+    = {}): CfnBot.AudioAndDTMFInputSpecificationProperty =
     CfnBot.AudioAndDTMFInputSpecificationProperty.builder().apply(initializer).build()

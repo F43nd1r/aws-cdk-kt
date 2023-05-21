@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ec2
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.ec2.ClientVpnRouteProps
 
-public fun clientVpnRouteProps(initializer: ClientVpnRouteProps.Builder.() -> Unit):
+@Generated
+public fun clientVpnRouteProps(initializer: ClientVpnRouteProps.Builder.() -> Unit = {}):
     ClientVpnRouteProps = ClientVpnRouteProps.builder().apply(initializer).build()

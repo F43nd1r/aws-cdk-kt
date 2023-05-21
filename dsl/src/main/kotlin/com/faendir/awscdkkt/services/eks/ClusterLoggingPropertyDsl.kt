@@ -1,12 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.eks
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.eks.CfnCluster
 
-public
-    fun clusterLoggingProperty(initializer: CfnCluster.ClusterLoggingProperty.Builder.() -> Unit):
-    CfnCluster.ClusterLoggingProperty =
+@Generated
+public fun clusterLoggingProperty(initializer: CfnCluster.ClusterLoggingProperty.Builder.() -> Unit
+    = {}): CfnCluster.ClusterLoggingProperty =
     CfnCluster.ClusterLoggingProperty.builder().apply(initializer).build()

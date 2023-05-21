@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.macie
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.macie.CfnSession
 import software.amazon.awscdk.services.macie.CfnSessionProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnSession(id: String, initializer: CfnSession.() -> Unit = {}): CfnSession =
     CfnSession(this, id).apply(initializer)
 
+@Generated
 public fun Construct.cfnSession(
   id: String,
   props: CfnSessionProps,

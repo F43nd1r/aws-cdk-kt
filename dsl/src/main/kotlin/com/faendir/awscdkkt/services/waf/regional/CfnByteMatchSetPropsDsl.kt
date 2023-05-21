@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.waf.regional
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.waf.regional.CfnByteMatchSetProps
 
-public fun cfnByteMatchSetProps(initializer: CfnByteMatchSetProps.Builder.() -> Unit):
+@Generated
+public fun cfnByteMatchSetProps(initializer: CfnByteMatchSetProps.Builder.() -> Unit = {}):
     CfnByteMatchSetProps = CfnByteMatchSetProps.builder().apply(initializer).build()

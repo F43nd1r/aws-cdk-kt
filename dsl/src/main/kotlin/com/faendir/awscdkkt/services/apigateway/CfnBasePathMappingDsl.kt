@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.apigateway
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.apigateway.CfnBasePathMapping
 import software.amazon.awscdk.services.apigateway.CfnBasePathMappingProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnBasePathMapping(
   id: String,
   props: CfnBasePathMappingProps,

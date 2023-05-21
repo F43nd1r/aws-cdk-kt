@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.codebuild
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.codebuild.BitBucketSourceCredentials
 import software.amazon.awscdk.services.codebuild.BitBucketSourceCredentialsProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.bitBucketSourceCredentials(
   id: String,
   props: BitBucketSourceCredentialsProps,

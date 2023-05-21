@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.elasticloadbalancingv2
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.NetworkLoadBalancerProps
 
-public fun networkLoadBalancerProps(initializer: NetworkLoadBalancerProps.Builder.() -> Unit):
+@Generated
+public fun networkLoadBalancerProps(initializer: NetworkLoadBalancerProps.Builder.() -> Unit = {}):
     NetworkLoadBalancerProps = NetworkLoadBalancerProps.builder().apply(initializer).build()

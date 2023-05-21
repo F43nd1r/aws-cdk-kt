@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.medialive
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
+@Generated
 public
-    fun inputLossBehaviorProperty(initializer: CfnChannel.InputLossBehaviorProperty.Builder.() -> Unit):
-    CfnChannel.InputLossBehaviorProperty =
+    fun inputLossBehaviorProperty(initializer: CfnChannel.InputLossBehaviorProperty.Builder.() -> Unit
+    = {}): CfnChannel.InputLossBehaviorProperty =
     CfnChannel.InputLossBehaviorProperty.builder().apply(initializer).build()

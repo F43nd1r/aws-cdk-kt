@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ecs.patterns
 
 import javax.`annotation`.Generated
@@ -9,10 +7,12 @@ import software.amazon.awscdk.services.ecs.patterns.NetworkLoadBalancedEc2Servic
 import software.amazon.awscdk.services.ecs.patterns.NetworkLoadBalancedEc2ServiceProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.networkLoadBalancedEc2Service(id: String,
     initializer: NetworkLoadBalancedEc2Service.() -> Unit = {}): NetworkLoadBalancedEc2Service =
     NetworkLoadBalancedEc2Service(this, id).apply(initializer)
 
+@Generated
 public fun Construct.networkLoadBalancedEc2Service(
   id: String,
   props: NetworkLoadBalancedEc2ServiceProps,

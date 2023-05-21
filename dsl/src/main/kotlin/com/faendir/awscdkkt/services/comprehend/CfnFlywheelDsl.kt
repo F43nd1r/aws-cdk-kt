@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.comprehend
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.comprehend.CfnFlywheel
 import software.amazon.awscdk.services.comprehend.CfnFlywheelProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnFlywheel(
   id: String,
   props: CfnFlywheelProps,

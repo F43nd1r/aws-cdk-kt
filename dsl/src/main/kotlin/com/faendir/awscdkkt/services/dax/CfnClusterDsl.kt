@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.dax
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.dax.CfnCluster
 import software.amazon.awscdk.services.dax.CfnClusterProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnCluster(
   id: String,
   props: CfnClusterProps,

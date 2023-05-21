@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.cognito
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnUserPool
 
+@Generated
 public
-    fun customEmailSenderProperty(initializer: CfnUserPool.CustomEmailSenderProperty.Builder.() -> Unit):
-    CfnUserPool.CustomEmailSenderProperty =
+    fun customEmailSenderProperty(initializer: CfnUserPool.CustomEmailSenderProperty.Builder.() -> Unit
+    = {}): CfnUserPool.CustomEmailSenderProperty =
     CfnUserPool.CustomEmailSenderProperty.builder().apply(initializer).build()

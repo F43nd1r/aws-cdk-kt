@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.cloudtrail
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.cloudtrail.Trail
 import software.amazon.awscdk.services.cloudtrail.TrailProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.trail(id: String, initializer: Trail.() -> Unit = {}): Trail = Trail(this,
     id).apply(initializer)
 
+@Generated
 public fun Construct.trail(
   id: String,
   props: TrailProps,

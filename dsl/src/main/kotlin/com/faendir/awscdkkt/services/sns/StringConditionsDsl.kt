@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.sns
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.sns.StringConditions
 
-public fun stringConditions(initializer: StringConditions.Builder.() -> Unit): StringConditions =
-    StringConditions.builder().apply(initializer).build()
+@Generated
+public fun stringConditions(initializer: StringConditions.Builder.() -> Unit = {}): StringConditions
+    = StringConditions.builder().apply(initializer).build()

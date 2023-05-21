@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.quicksight
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDashboard
 
+@Generated
 public
-    fun dataPointTooltipOptionProperty(initializer: CfnDashboard.DataPointTooltipOptionProperty.Builder.() -> Unit):
-    CfnDashboard.DataPointTooltipOptionProperty =
+    fun dataPointTooltipOptionProperty(initializer: CfnDashboard.DataPointTooltipOptionProperty.Builder.() -> Unit
+    = {}): CfnDashboard.DataPointTooltipOptionProperty =
     CfnDashboard.DataPointTooltipOptionProperty.builder().apply(initializer).build()

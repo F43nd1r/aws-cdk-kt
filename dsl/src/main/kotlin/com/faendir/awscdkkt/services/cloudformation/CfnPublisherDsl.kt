@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.cloudformation
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.cloudformation.CfnPublisher
 import software.amazon.awscdk.services.cloudformation.CfnPublisherProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnPublisher(
   id: String,
   props: CfnPublisherProps,

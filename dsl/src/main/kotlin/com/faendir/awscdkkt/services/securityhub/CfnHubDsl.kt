@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.securityhub
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.securityhub.CfnHub
 import software.amazon.awscdk.services.securityhub.CfnHubProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnHub(id: String, initializer: CfnHub.() -> Unit = {}): CfnHub = CfnHub(this,
     id).apply(initializer)
 
+@Generated
 public fun Construct.cfnHub(
   id: String,
   props: CfnHubProps,

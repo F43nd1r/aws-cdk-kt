@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.sam
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.sam.CfnStateMachineProps
 
-public fun cfnStateMachineProps(initializer: CfnStateMachineProps.Builder.() -> Unit):
+@Generated
+public fun cfnStateMachineProps(initializer: CfnStateMachineProps.Builder.() -> Unit = {}):
     CfnStateMachineProps = CfnStateMachineProps.builder().apply(initializer).build()

@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ecs.patterns
 
 import javax.`annotation`.Generated
@@ -9,11 +7,13 @@ import software.amazon.awscdk.services.ecs.patterns.ApplicationMultipleTargetGro
 import software.amazon.awscdk.services.ecs.patterns.ApplicationMultipleTargetGroupsFargateServiceProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.applicationMultipleTargetGroupsFargateService(id: String,
     initializer: ApplicationMultipleTargetGroupsFargateService.() -> Unit = {}):
     ApplicationMultipleTargetGroupsFargateService =
     ApplicationMultipleTargetGroupsFargateService(this, id).apply(initializer)
 
+@Generated
 public fun Construct.applicationMultipleTargetGroupsFargateService(
   id: String,
   props: ApplicationMultipleTargetGroupsFargateServiceProps,

@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.sagemaker
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnDataQualityJobDefinition
 
+@Generated
 public
-    fun dataQualityBaselineConfigProperty(initializer: CfnDataQualityJobDefinition.DataQualityBaselineConfigProperty.Builder.() -> Unit):
-    CfnDataQualityJobDefinition.DataQualityBaselineConfigProperty =
+    fun dataQualityBaselineConfigProperty(initializer: CfnDataQualityJobDefinition.DataQualityBaselineConfigProperty.Builder.() -> Unit
+    = {}): CfnDataQualityJobDefinition.DataQualityBaselineConfigProperty =
     CfnDataQualityJobDefinition.DataQualityBaselineConfigProperty.builder().apply(initializer).build()

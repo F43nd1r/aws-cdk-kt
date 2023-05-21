@@ -1,10 +1,9 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.groundstation
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.groundstation.CfnConfig
 
-public fun frequencyProperty(initializer: CfnConfig.FrequencyProperty.Builder.() -> Unit):
+@Generated
+public fun frequencyProperty(initializer: CfnConfig.FrequencyProperty.Builder.() -> Unit = {}):
     CfnConfig.FrequencyProperty = CfnConfig.FrequencyProperty.builder().apply(initializer).build()

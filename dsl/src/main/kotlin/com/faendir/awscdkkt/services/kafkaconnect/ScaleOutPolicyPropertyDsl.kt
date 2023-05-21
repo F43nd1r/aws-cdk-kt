@@ -1,12 +1,11 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.kafkaconnect
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.kafkaconnect.CfnConnector
 
+@Generated
 public
-    fun scaleOutPolicyProperty(initializer: CfnConnector.ScaleOutPolicyProperty.Builder.() -> Unit):
-    CfnConnector.ScaleOutPolicyProperty =
+    fun scaleOutPolicyProperty(initializer: CfnConnector.ScaleOutPolicyProperty.Builder.() -> Unit =
+    {}): CfnConnector.ScaleOutPolicyProperty =
     CfnConnector.ScaleOutPolicyProperty.builder().apply(initializer).build()

@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.globalaccelerator
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.globalaccelerator.CfnEndpointGroup
 import software.amazon.awscdk.services.globalaccelerator.CfnEndpointGroupProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnEndpointGroup(
   id: String,
   props: CfnEndpointGroupProps,

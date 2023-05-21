@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.logs
 
 import javax.`annotation`.Generated
@@ -9,9 +7,11 @@ import software.amazon.awscdk.services.logs.LogGroup
 import software.amazon.awscdk.services.logs.LogGroupProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.logGroup(id: String, initializer: LogGroup.() -> Unit = {}): LogGroup =
     LogGroup(this, id).apply(initializer)
 
+@Generated
 public fun Construct.logGroup(
   id: String,
   props: LogGroupProps,

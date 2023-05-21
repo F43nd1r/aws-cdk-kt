@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.imagebuilder
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.imagebuilder.CfnImagePipeline
 import software.amazon.awscdk.services.imagebuilder.CfnImagePipelineProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnImagePipeline(
   id: String,
   props: CfnImagePipelineProps,

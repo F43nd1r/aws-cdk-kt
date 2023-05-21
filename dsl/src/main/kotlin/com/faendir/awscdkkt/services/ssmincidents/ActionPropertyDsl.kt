@@ -1,11 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.ssmincidents
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.ssmincidents.CfnResponsePlan
 
-public fun actionProperty(initializer: CfnResponsePlan.ActionProperty.Builder.() -> Unit):
+@Generated
+public fun actionProperty(initializer: CfnResponsePlan.ActionProperty.Builder.() -> Unit = {}):
     CfnResponsePlan.ActionProperty =
     CfnResponsePlan.ActionProperty.builder().apply(initializer).build()

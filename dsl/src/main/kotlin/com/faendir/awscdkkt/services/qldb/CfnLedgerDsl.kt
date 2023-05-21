@@ -1,5 +1,3 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.qldb
 
 import javax.`annotation`.Generated
@@ -9,6 +7,7 @@ import software.amazon.awscdk.services.qldb.CfnLedger
 import software.amazon.awscdk.services.qldb.CfnLedgerProps
 import software.constructs.Construct
 
+@Generated
 public fun Construct.cfnLedger(
   id: String,
   props: CfnLedgerProps,

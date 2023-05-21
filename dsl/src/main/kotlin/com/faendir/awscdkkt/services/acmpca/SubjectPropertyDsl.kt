@@ -1,11 +1,10 @@
-@file:Generated(value = ["Generated based on CDK v2.80.0"])
-
 package com.faendir.awscdkkt.services.acmpca
 
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.acmpca.CfnCertificateAuthority
 
-public fun subjectProperty(initializer: CfnCertificateAuthority.SubjectProperty.Builder.() -> Unit):
-    CfnCertificateAuthority.SubjectProperty =
+@Generated
+public fun subjectProperty(initializer: CfnCertificateAuthority.SubjectProperty.Builder.() -> Unit =
+    {}): CfnCertificateAuthority.SubjectProperty =
     CfnCertificateAuthority.SubjectProperty.builder().apply(initializer).build()
