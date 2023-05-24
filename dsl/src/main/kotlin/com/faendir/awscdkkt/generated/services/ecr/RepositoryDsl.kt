@@ -9,13 +9,6 @@ import software.amazon.awscdk.services.ecr.RepositoryProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.repository(id: String): Repository = Repository(this, id)
-
-@Generated
-public fun Construct.repository(id: String, initializer: @AwsCdkDsl Repository.() -> Unit):
-    Repository = Repository(this, id).apply(initializer)
-
-@Generated
 public fun Construct.repository(id: String, props: RepositoryProps): Repository = Repository(this,
     id, props)
 
@@ -25,6 +18,13 @@ public fun Construct.repository(
   props: RepositoryProps,
   initializer: @AwsCdkDsl Repository.() -> Unit,
 ): Repository = Repository(this, id, props).apply(initializer)
+
+@Generated
+public fun Construct.repository(id: String): Repository = Repository(this, id)
+
+@Generated
+public fun Construct.repository(id: String, initializer: @AwsCdkDsl Repository.() -> Unit):
+    Repository = Repository(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildRepository(id: String, initializer: @AwsCdkDsl

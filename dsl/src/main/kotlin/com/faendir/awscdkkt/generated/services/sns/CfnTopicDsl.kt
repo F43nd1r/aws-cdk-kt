@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.sns.CfnTopicProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnTopic(id: String): CfnTopic = CfnTopic(this, id)
+
+@Generated
+public fun Construct.cfnTopic(id: String, initializer: @AwsCdkDsl CfnTopic.() -> Unit): CfnTopic =
+    CfnTopic(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnTopic(id: String, props: CfnTopicProps): CfnTopic = CfnTopic(this, id,
     props)
 
@@ -18,13 +25,6 @@ public fun Construct.cfnTopic(
   props: CfnTopicProps,
   initializer: @AwsCdkDsl CfnTopic.() -> Unit,
 ): CfnTopic = CfnTopic(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnTopic(id: String): CfnTopic = CfnTopic(this, id)
-
-@Generated
-public fun Construct.cfnTopic(id: String, initializer: @AwsCdkDsl CfnTopic.() -> Unit): CfnTopic =
-    CfnTopic(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnTopic(id: String, initializer: @AwsCdkDsl CfnTopic.Builder.() -> Unit):

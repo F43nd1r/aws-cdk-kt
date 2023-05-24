@@ -9,6 +9,15 @@ import software.amazon.awscdk.services.codedeploy.ServerDeploymentGroupProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.serverDeploymentGroup(id: String): ServerDeploymentGroup =
+    ServerDeploymentGroup(this, id)
+
+@Generated
+public fun Construct.serverDeploymentGroup(id: String, initializer: @AwsCdkDsl
+    ServerDeploymentGroup.() -> Unit): ServerDeploymentGroup = ServerDeploymentGroup(this,
+    id).apply(initializer)
+
+@Generated
 public fun Construct.serverDeploymentGroup(id: String, props: ServerDeploymentGroupProps):
     ServerDeploymentGroup = ServerDeploymentGroup(this, id, props)
 
@@ -18,15 +27,6 @@ public fun Construct.serverDeploymentGroup(
   props: ServerDeploymentGroupProps,
   initializer: @AwsCdkDsl ServerDeploymentGroup.() -> Unit,
 ): ServerDeploymentGroup = ServerDeploymentGroup(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.serverDeploymentGroup(id: String): ServerDeploymentGroup =
-    ServerDeploymentGroup(this, id)
-
-@Generated
-public fun Construct.serverDeploymentGroup(id: String, initializer: @AwsCdkDsl
-    ServerDeploymentGroup.() -> Unit): ServerDeploymentGroup = ServerDeploymentGroup(this,
-    id).apply(initializer)
 
 @Generated
 public fun Construct.buildServerDeploymentGroup(id: String, initializer: @AwsCdkDsl

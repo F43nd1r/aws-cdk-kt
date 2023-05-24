@@ -3,9 +3,9 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildComputationProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.ComputationProperty.Builder.() -> Unit): CfnAnalysis.ComputationProperty =
-    CfnAnalysis.ComputationProperty.Builder().apply(initializer).build()
+    CfnTemplate.ComputationProperty.Builder.() -> Unit): CfnTemplate.ComputationProperty =
+    CfnTemplate.ComputationProperty.Builder().apply(initializer).build()

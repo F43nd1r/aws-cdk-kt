@@ -9,6 +9,14 @@ import software.amazon.awscdk.services.route53recoveryreadiness.CfnReadinessChec
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnReadinessCheck(id: String): CfnReadinessCheck = CfnReadinessCheck(this, id)
+
+@Generated
+public fun Construct.cfnReadinessCheck(id: String, initializer: @AwsCdkDsl
+    CfnReadinessCheck.() -> Unit): CfnReadinessCheck = CfnReadinessCheck(this,
+    id).apply(initializer)
+
+@Generated
 public fun Construct.cfnReadinessCheck(id: String, props: CfnReadinessCheckProps): CfnReadinessCheck
     = CfnReadinessCheck(this, id, props)
 
@@ -18,14 +26,6 @@ public fun Construct.cfnReadinessCheck(
   props: CfnReadinessCheckProps,
   initializer: @AwsCdkDsl CfnReadinessCheck.() -> Unit,
 ): CfnReadinessCheck = CfnReadinessCheck(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnReadinessCheck(id: String): CfnReadinessCheck = CfnReadinessCheck(this, id)
-
-@Generated
-public fun Construct.cfnReadinessCheck(id: String, initializer: @AwsCdkDsl
-    CfnReadinessCheck.() -> Unit): CfnReadinessCheck = CfnReadinessCheck(this,
-    id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnReadinessCheck(id: String, initializer: @AwsCdkDsl

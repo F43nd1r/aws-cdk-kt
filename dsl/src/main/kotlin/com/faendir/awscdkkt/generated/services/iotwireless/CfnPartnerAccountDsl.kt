@@ -9,6 +9,14 @@ import software.amazon.awscdk.services.iotwireless.CfnPartnerAccountProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnPartnerAccount(id: String): CfnPartnerAccount = CfnPartnerAccount(this, id)
+
+@Generated
+public fun Construct.cfnPartnerAccount(id: String, initializer: @AwsCdkDsl
+    CfnPartnerAccount.() -> Unit): CfnPartnerAccount = CfnPartnerAccount(this,
+    id).apply(initializer)
+
+@Generated
 public fun Construct.cfnPartnerAccount(id: String, props: CfnPartnerAccountProps): CfnPartnerAccount
     = CfnPartnerAccount(this, id, props)
 
@@ -18,14 +26,6 @@ public fun Construct.cfnPartnerAccount(
   props: CfnPartnerAccountProps,
   initializer: @AwsCdkDsl CfnPartnerAccount.() -> Unit,
 ): CfnPartnerAccount = CfnPartnerAccount(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnPartnerAccount(id: String): CfnPartnerAccount = CfnPartnerAccount(this, id)
-
-@Generated
-public fun Construct.cfnPartnerAccount(id: String, initializer: @AwsCdkDsl
-    CfnPartnerAccount.() -> Unit): CfnPartnerAccount = CfnPartnerAccount(this,
-    id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnPartnerAccount(id: String, initializer: @AwsCdkDsl

@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
 public fun buildDataSetIdentifierDeclarationProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.DataSetIdentifierDeclarationProperty.Builder.() -> Unit):
-    CfnAnalysis.DataSetIdentifierDeclarationProperty =
-    CfnAnalysis.DataSetIdentifierDeclarationProperty.Builder().apply(initializer).build()
+    CfnDashboard.DataSetIdentifierDeclarationProperty.Builder.() -> Unit):
+    CfnDashboard.DataSetIdentifierDeclarationProperty =
+    CfnDashboard.DataSetIdentifierDeclarationProperty.Builder().apply(initializer).build()

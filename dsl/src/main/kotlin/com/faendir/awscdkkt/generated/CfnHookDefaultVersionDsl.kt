@@ -9,15 +9,6 @@ import software.amazon.awscdk.CfnHookDefaultVersionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnHookDefaultVersion(id: String): CfnHookDefaultVersion =
-    CfnHookDefaultVersion(this, id)
-
-@Generated
-public fun Construct.cfnHookDefaultVersion(id: String, initializer: @AwsCdkDsl
-    CfnHookDefaultVersion.() -> Unit): CfnHookDefaultVersion = CfnHookDefaultVersion(this,
-    id).apply(initializer)
-
-@Generated
 public fun Construct.cfnHookDefaultVersion(id: String, props: CfnHookDefaultVersionProps):
     CfnHookDefaultVersion = CfnHookDefaultVersion(this, id, props)
 
@@ -27,6 +18,15 @@ public fun Construct.cfnHookDefaultVersion(
   props: CfnHookDefaultVersionProps,
   initializer: @AwsCdkDsl CfnHookDefaultVersion.() -> Unit,
 ): CfnHookDefaultVersion = CfnHookDefaultVersion(this, id, props).apply(initializer)
+
+@Generated
+public fun Construct.cfnHookDefaultVersion(id: String): CfnHookDefaultVersion =
+    CfnHookDefaultVersion(this, id)
+
+@Generated
+public fun Construct.cfnHookDefaultVersion(id: String, initializer: @AwsCdkDsl
+    CfnHookDefaultVersion.() -> Unit): CfnHookDefaultVersion = CfnHookDefaultVersion(this,
+    id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnHookDefaultVersion(id: String, initializer: @AwsCdkDsl

@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.ses.ReceiptRuleSetProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.receiptRuleSet(id: String): ReceiptRuleSet = ReceiptRuleSet(this, id)
+
+@Generated
+public fun Construct.receiptRuleSet(id: String, initializer: @AwsCdkDsl ReceiptRuleSet.() -> Unit):
+    ReceiptRuleSet = ReceiptRuleSet(this, id).apply(initializer)
+
+@Generated
 public fun Construct.receiptRuleSet(id: String, props: ReceiptRuleSetProps): ReceiptRuleSet =
     ReceiptRuleSet(this, id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.receiptRuleSet(
   props: ReceiptRuleSetProps,
   initializer: @AwsCdkDsl ReceiptRuleSet.() -> Unit,
 ): ReceiptRuleSet = ReceiptRuleSet(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.receiptRuleSet(id: String): ReceiptRuleSet = ReceiptRuleSet(this, id)
-
-@Generated
-public fun Construct.receiptRuleSet(id: String, initializer: @AwsCdkDsl ReceiptRuleSet.() -> Unit):
-    ReceiptRuleSet = ReceiptRuleSet(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildReceiptRuleSet(id: String, initializer: @AwsCdkDsl

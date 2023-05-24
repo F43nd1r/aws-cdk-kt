@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildHeaderFooterSectionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.HeaderFooterSectionConfigurationProperty.Builder.() -> Unit):
-    CfnAnalysis.HeaderFooterSectionConfigurationProperty =
-    CfnAnalysis.HeaderFooterSectionConfigurationProperty.Builder().apply(initializer).build()
+    CfnTemplate.HeaderFooterSectionConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.HeaderFooterSectionConfigurationProperty =
+    CfnTemplate.HeaderFooterSectionConfigurationProperty.Builder().apply(initializer).build()

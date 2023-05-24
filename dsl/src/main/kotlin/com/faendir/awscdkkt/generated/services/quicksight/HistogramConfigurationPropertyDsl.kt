@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildHistogramConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.HistogramConfigurationProperty.Builder.() -> Unit):
-    CfnAnalysis.HistogramConfigurationProperty =
-    CfnAnalysis.HistogramConfigurationProperty.Builder().apply(initializer).build()
+    CfnTemplate.HistogramConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.HistogramConfigurationProperty =
+    CfnTemplate.HistogramConfigurationProperty.Builder().apply(initializer).build()

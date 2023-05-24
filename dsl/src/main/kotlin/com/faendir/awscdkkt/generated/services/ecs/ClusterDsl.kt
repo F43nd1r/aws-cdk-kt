@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.ecs.ClusterProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cluster(id: String): Cluster = Cluster(this, id)
+
+@Generated
+public fun Construct.cluster(id: String, initializer: @AwsCdkDsl Cluster.() -> Unit): Cluster =
+    Cluster(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cluster(id: String, props: ClusterProps): Cluster = Cluster(this, id, props)
 
 @Generated
@@ -17,13 +24,6 @@ public fun Construct.cluster(
   props: ClusterProps,
   initializer: @AwsCdkDsl Cluster.() -> Unit,
 ): Cluster = Cluster(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cluster(id: String): Cluster = Cluster(this, id)
-
-@Generated
-public fun Construct.cluster(id: String, initializer: @AwsCdkDsl Cluster.() -> Unit): Cluster =
-    Cluster(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCluster(id: String, initializer: @AwsCdkDsl Cluster.Builder.() -> Unit):

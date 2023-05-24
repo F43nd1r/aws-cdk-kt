@@ -9,6 +9,15 @@ import software.amazon.awscdk.services.sagemaker.CfnNotebookInstanceLifecycleCon
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnNotebookInstanceLifecycleConfig(id: String):
+    CfnNotebookInstanceLifecycleConfig = CfnNotebookInstanceLifecycleConfig(this, id)
+
+@Generated
+public fun Construct.cfnNotebookInstanceLifecycleConfig(id: String, initializer: @AwsCdkDsl
+    CfnNotebookInstanceLifecycleConfig.() -> Unit): CfnNotebookInstanceLifecycleConfig =
+    CfnNotebookInstanceLifecycleConfig(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnNotebookInstanceLifecycleConfig(id: String,
     props: CfnNotebookInstanceLifecycleConfigProps): CfnNotebookInstanceLifecycleConfig =
     CfnNotebookInstanceLifecycleConfig(this, id, props)
@@ -20,15 +29,6 @@ public fun Construct.cfnNotebookInstanceLifecycleConfig(
   initializer: @AwsCdkDsl CfnNotebookInstanceLifecycleConfig.() -> Unit,
 ): CfnNotebookInstanceLifecycleConfig = CfnNotebookInstanceLifecycleConfig(this, id,
     props).apply(initializer)
-
-@Generated
-public fun Construct.cfnNotebookInstanceLifecycleConfig(id: String):
-    CfnNotebookInstanceLifecycleConfig = CfnNotebookInstanceLifecycleConfig(this, id)
-
-@Generated
-public fun Construct.cfnNotebookInstanceLifecycleConfig(id: String, initializer: @AwsCdkDsl
-    CfnNotebookInstanceLifecycleConfig.() -> Unit): CfnNotebookInstanceLifecycleConfig =
-    CfnNotebookInstanceLifecycleConfig(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnNotebookInstanceLifecycleConfig(id: String, initializer: @AwsCdkDsl

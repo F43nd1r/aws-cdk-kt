@@ -8,10 +8,10 @@ import software.amazon.awscdk.services.lambda.AssetCode
 import software.amazon.awscdk.services.s3.assets.AssetOptions
 
 @Generated
-public fun assetCode(path: String, options: AssetOptions): AssetCode = AssetCode(path, options)
+public fun assetCode(path: String): AssetCode = AssetCode(path)
 
 @Generated
-public fun assetCode(path: String): AssetCode = AssetCode(path)
+public fun assetCode(path: String, options: AssetOptions): AssetCode = AssetCode(path, options)
 
 @Generated
 public fun buildAssetCode(path: String, initializer: @AwsCdkDsl AssetCode.Builder.() -> Unit):

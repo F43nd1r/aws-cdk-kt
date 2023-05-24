@@ -8,14 +8,14 @@ import software.amazon.awscdk.cxapi.CloudAssemblyBuilder
 import software.amazon.awscdk.cxapi.CloudAssemblyBuilderProps
 
 @Generated
+public fun cloudAssemblyBuilder(outdir: String, props: CloudAssemblyBuilderProps):
+    CloudAssemblyBuilder = CloudAssemblyBuilder(outdir, props)
+
+@Generated
 public fun cloudAssemblyBuilder(outdir: String): CloudAssemblyBuilder = CloudAssemblyBuilder(outdir)
 
 @Generated
 public fun cloudAssemblyBuilder(): CloudAssemblyBuilder = CloudAssemblyBuilder()
-
-@Generated
-public fun cloudAssemblyBuilder(outdir: String, props: CloudAssemblyBuilderProps):
-    CloudAssemblyBuilder = CloudAssemblyBuilder(outdir, props)
 
 @Generated
 public fun buildCloudAssemblyBuilder(outdir: String, initializer: @AwsCdkDsl

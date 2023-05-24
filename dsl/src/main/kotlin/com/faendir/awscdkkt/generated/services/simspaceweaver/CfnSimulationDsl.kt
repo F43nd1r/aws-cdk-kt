@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.simspaceweaver.CfnSimulationProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnSimulation(id: String): CfnSimulation = CfnSimulation(this, id)
+
+@Generated
+public fun Construct.cfnSimulation(id: String, initializer: @AwsCdkDsl CfnSimulation.() -> Unit):
+    CfnSimulation = CfnSimulation(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnSimulation(id: String, props: CfnSimulationProps): CfnSimulation =
     CfnSimulation(this, id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.cfnSimulation(
   props: CfnSimulationProps,
   initializer: @AwsCdkDsl CfnSimulation.() -> Unit,
 ): CfnSimulation = CfnSimulation(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnSimulation(id: String): CfnSimulation = CfnSimulation(this, id)
-
-@Generated
-public fun Construct.cfnSimulation(id: String, initializer: @AwsCdkDsl CfnSimulation.() -> Unit):
-    CfnSimulation = CfnSimulation(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnSimulation(id: String, initializer: @AwsCdkDsl

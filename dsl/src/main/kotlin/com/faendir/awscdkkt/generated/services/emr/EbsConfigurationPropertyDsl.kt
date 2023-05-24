@@ -3,9 +3,10 @@ package com.faendir.awscdkkt.generated.services.emr
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.emr.CfnCluster
+import software.amazon.awscdk.services.emr.CfnInstanceGroupConfig
 
 @Generated
 public fun buildEbsConfigurationProperty(initializer: @AwsCdkDsl
-    CfnCluster.EbsConfigurationProperty.Builder.() -> Unit): CfnCluster.EbsConfigurationProperty =
-    CfnCluster.EbsConfigurationProperty.Builder().apply(initializer).build()
+    CfnInstanceGroupConfig.EbsConfigurationProperty.Builder.() -> Unit):
+    CfnInstanceGroupConfig.EbsConfigurationProperty =
+    CfnInstanceGroupConfig.EbsConfigurationProperty.Builder().apply(initializer).build()

@@ -9,6 +9,15 @@ import software.amazon.awscdk.services.ec2.CfnIPAMResourceDiscoveryProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnIPAMResourceDiscovery(id: String): CfnIPAMResourceDiscovery =
+    CfnIPAMResourceDiscovery(this, id)
+
+@Generated
+public fun Construct.cfnIPAMResourceDiscovery(id: String, initializer: @AwsCdkDsl
+    CfnIPAMResourceDiscovery.() -> Unit): CfnIPAMResourceDiscovery = CfnIPAMResourceDiscovery(this,
+    id).apply(initializer)
+
+@Generated
 public fun Construct.cfnIPAMResourceDiscovery(id: String, props: CfnIPAMResourceDiscoveryProps):
     CfnIPAMResourceDiscovery = CfnIPAMResourceDiscovery(this, id, props)
 
@@ -18,15 +27,6 @@ public fun Construct.cfnIPAMResourceDiscovery(
   props: CfnIPAMResourceDiscoveryProps,
   initializer: @AwsCdkDsl CfnIPAMResourceDiscovery.() -> Unit,
 ): CfnIPAMResourceDiscovery = CfnIPAMResourceDiscovery(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnIPAMResourceDiscovery(id: String): CfnIPAMResourceDiscovery =
-    CfnIPAMResourceDiscovery(this, id)
-
-@Generated
-public fun Construct.cfnIPAMResourceDiscovery(id: String, initializer: @AwsCdkDsl
-    CfnIPAMResourceDiscovery.() -> Unit): CfnIPAMResourceDiscovery = CfnIPAMResourceDiscovery(this,
-    id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnIPAMResourceDiscovery(id: String, initializer: @AwsCdkDsl

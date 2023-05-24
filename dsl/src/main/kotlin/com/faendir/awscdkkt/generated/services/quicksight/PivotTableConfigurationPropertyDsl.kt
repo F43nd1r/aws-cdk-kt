@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildPivotTableConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.PivotTableConfigurationProperty.Builder.() -> Unit):
-    CfnAnalysis.PivotTableConfigurationProperty =
-    CfnAnalysis.PivotTableConfigurationProperty.Builder().apply(initializer).build()
+    CfnTemplate.PivotTableConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.PivotTableConfigurationProperty =
+    CfnTemplate.PivotTableConfigurationProperty.Builder().apply(initializer).build()

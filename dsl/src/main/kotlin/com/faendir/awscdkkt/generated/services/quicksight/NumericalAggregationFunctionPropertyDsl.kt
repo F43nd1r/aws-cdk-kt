@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildNumericalAggregationFunctionProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.NumericalAggregationFunctionProperty.Builder.() -> Unit):
-    CfnAnalysis.NumericalAggregationFunctionProperty =
-    CfnAnalysis.NumericalAggregationFunctionProperty.Builder().apply(initializer).build()
+    CfnTemplate.NumericalAggregationFunctionProperty.Builder.() -> Unit):
+    CfnTemplate.NumericalAggregationFunctionProperty =
+    CfnTemplate.NumericalAggregationFunctionProperty.Builder().apply(initializer).build()

@@ -9,6 +9,15 @@ import software.amazon.awscdk.services.iot.CfnSecurityProfileProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnSecurityProfile(id: String): CfnSecurityProfile = CfnSecurityProfile(this,
+    id)
+
+@Generated
+public fun Construct.cfnSecurityProfile(id: String, initializer: @AwsCdkDsl
+    CfnSecurityProfile.() -> Unit): CfnSecurityProfile = CfnSecurityProfile(this,
+    id).apply(initializer)
+
+@Generated
 public fun Construct.cfnSecurityProfile(id: String, props: CfnSecurityProfileProps):
     CfnSecurityProfile = CfnSecurityProfile(this, id, props)
 
@@ -18,15 +27,6 @@ public fun Construct.cfnSecurityProfile(
   props: CfnSecurityProfileProps,
   initializer: @AwsCdkDsl CfnSecurityProfile.() -> Unit,
 ): CfnSecurityProfile = CfnSecurityProfile(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnSecurityProfile(id: String): CfnSecurityProfile = CfnSecurityProfile(this,
-    id)
-
-@Generated
-public fun Construct.cfnSecurityProfile(id: String, initializer: @AwsCdkDsl
-    CfnSecurityProfile.() -> Unit): CfnSecurityProfile = CfnSecurityProfile(this,
-    id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnSecurityProfile(id: String, initializer: @AwsCdkDsl

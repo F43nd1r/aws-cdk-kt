@@ -3,10 +3,9 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnDataSource
+import software.amazon.awscdk.services.quicksight.CfnTheme
 
 @Generated
 public fun buildResourcePermissionProperty(initializer: @AwsCdkDsl
-    CfnDataSource.ResourcePermissionProperty.Builder.() -> Unit):
-    CfnDataSource.ResourcePermissionProperty =
-    CfnDataSource.ResourcePermissionProperty.Builder().apply(initializer).build()
+    CfnTheme.ResourcePermissionProperty.Builder.() -> Unit): CfnTheme.ResourcePermissionProperty =
+    CfnTheme.ResourcePermissionProperty.Builder().apply(initializer).build()

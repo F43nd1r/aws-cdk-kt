@@ -6,8 +6,8 @@ import kotlin.collections.List
 import software.amazon.awscdk.services.sns.SubscriptionFilter
 
 @Generated
-public fun subscriptionFilter(conditions: List<Any>): SubscriptionFilter =
-    SubscriptionFilter(conditions)
+public fun subscriptionFilter(): SubscriptionFilter = SubscriptionFilter()
 
 @Generated
-public fun subscriptionFilter(): SubscriptionFilter = SubscriptionFilter()
+public fun subscriptionFilter(conditions: List<Any>): SubscriptionFilter =
+    SubscriptionFilter(conditions)

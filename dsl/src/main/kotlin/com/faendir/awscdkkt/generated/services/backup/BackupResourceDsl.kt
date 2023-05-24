@@ -13,10 +13,10 @@ public fun Construct.backupResource(resource: String, tagCondition: TagCondition
     BackupResource(resource, tagCondition, this)
 
 @Generated
-public fun backupResource(resource: String): BackupResource = BackupResource(resource)
+public fun backupResource(): BackupResource = BackupResource()
 
 @Generated
-public fun backupResource(): BackupResource = BackupResource()
+public fun backupResource(resource: String): BackupResource = BackupResource(resource)
 
 @Generated
 public fun backupResource(resource: String, tagCondition: TagCondition): BackupResource =
@@ -28,10 +28,10 @@ public fun Construct.buildBackupResource(resource: String, initializer: @AwsCdkD
     this).apply(initializer).build()
 
 @Generated
+public fun buildBackupResource(initializer: @AwsCdkDsl BackupResource.Builder.() -> Unit):
+    BackupResource = BackupResource.Builder.create().apply(initializer).build()
+
+@Generated
 public fun buildBackupResource(resource: String, initializer: @AwsCdkDsl
     BackupResource.Builder.() -> Unit): BackupResource =
     BackupResource.Builder.create(resource).apply(initializer).build()
-
-@Generated
-public fun buildBackupResource(initializer: @AwsCdkDsl BackupResource.Builder.() -> Unit):
-    BackupResource = BackupResource.Builder.create().apply(initializer).build()

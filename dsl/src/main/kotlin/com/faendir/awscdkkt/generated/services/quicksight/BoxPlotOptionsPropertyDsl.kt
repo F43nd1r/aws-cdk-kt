@@ -3,9 +3,9 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildBoxPlotOptionsProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.BoxPlotOptionsProperty.Builder.() -> Unit): CfnAnalysis.BoxPlotOptionsProperty =
-    CfnAnalysis.BoxPlotOptionsProperty.Builder().apply(initializer).build()
+    CfnTemplate.BoxPlotOptionsProperty.Builder.() -> Unit): CfnTemplate.BoxPlotOptionsProperty =
+    CfnTemplate.BoxPlotOptionsProperty.Builder().apply(initializer).build()

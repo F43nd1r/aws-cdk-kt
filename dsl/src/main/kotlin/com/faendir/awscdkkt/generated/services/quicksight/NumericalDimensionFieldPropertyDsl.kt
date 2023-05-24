@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildNumericalDimensionFieldProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.NumericalDimensionFieldProperty.Builder.() -> Unit):
-    CfnAnalysis.NumericalDimensionFieldProperty =
-    CfnAnalysis.NumericalDimensionFieldProperty.Builder().apply(initializer).build()
+    CfnTemplate.NumericalDimensionFieldProperty.Builder.() -> Unit):
+    CfnTemplate.NumericalDimensionFieldProperty =
+    CfnTemplate.NumericalDimensionFieldProperty.Builder().apply(initializer).build()

@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildParameterSliderControlProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.ParameterSliderControlProperty.Builder.() -> Unit):
-    CfnAnalysis.ParameterSliderControlProperty =
-    CfnAnalysis.ParameterSliderControlProperty.Builder().apply(initializer).build()
+    CfnTemplate.ParameterSliderControlProperty.Builder.() -> Unit):
+    CfnTemplate.ParameterSliderControlProperty =
+    CfnTemplate.ParameterSliderControlProperty.Builder().apply(initializer).build()

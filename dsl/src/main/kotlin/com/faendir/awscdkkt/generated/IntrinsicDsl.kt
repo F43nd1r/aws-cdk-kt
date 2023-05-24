@@ -8,10 +8,10 @@ import software.amazon.awscdk.Intrinsic
 import software.amazon.awscdk.IntrinsicProps
 
 @Generated
-public fun intrinsic(`value`: Any, options: IntrinsicProps): Intrinsic = Intrinsic(value, options)
+public fun intrinsic(`value`: Any): Intrinsic = Intrinsic(value)
 
 @Generated
-public fun intrinsic(`value`: Any): Intrinsic = Intrinsic(value)
+public fun intrinsic(`value`: Any, options: IntrinsicProps): Intrinsic = Intrinsic(value, options)
 
 @Generated
 public fun buildIntrinsic(`value`: Any, initializer: @AwsCdkDsl Intrinsic.Builder.() -> Unit):

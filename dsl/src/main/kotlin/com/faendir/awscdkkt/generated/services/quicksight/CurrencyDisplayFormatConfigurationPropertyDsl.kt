@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildCurrencyDisplayFormatConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.CurrencyDisplayFormatConfigurationProperty.Builder.() -> Unit):
-    CfnAnalysis.CurrencyDisplayFormatConfigurationProperty =
-    CfnAnalysis.CurrencyDisplayFormatConfigurationProperty.Builder().apply(initializer).build()
+    CfnTemplate.CurrencyDisplayFormatConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.CurrencyDisplayFormatConfigurationProperty =
+    CfnTemplate.CurrencyDisplayFormatConfigurationProperty.Builder().apply(initializer).build()

@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.ses.CfnTemplateProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnTemplate(id: String): CfnTemplate = CfnTemplate(this, id)
+
+@Generated
+public fun Construct.cfnTemplate(id: String, initializer: @AwsCdkDsl CfnTemplate.() -> Unit):
+    CfnTemplate = CfnTemplate(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnTemplate(id: String, props: CfnTemplateProps): CfnTemplate =
     CfnTemplate(this, id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.cfnTemplate(
   props: CfnTemplateProps,
   initializer: @AwsCdkDsl CfnTemplate.() -> Unit,
 ): CfnTemplate = CfnTemplate(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnTemplate(id: String): CfnTemplate = CfnTemplate(this, id)
-
-@Generated
-public fun Construct.cfnTemplate(id: String, initializer: @AwsCdkDsl CfnTemplate.() -> Unit):
-    CfnTemplate = CfnTemplate(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnTemplate(id: String, initializer: @AwsCdkDsl

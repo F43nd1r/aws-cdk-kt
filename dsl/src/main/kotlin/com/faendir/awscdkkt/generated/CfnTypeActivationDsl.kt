@@ -9,6 +9,14 @@ import software.amazon.awscdk.CfnTypeActivationProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnTypeActivation(id: String): CfnTypeActivation = CfnTypeActivation(this, id)
+
+@Generated
+public fun Construct.cfnTypeActivation(id: String, initializer: @AwsCdkDsl
+    CfnTypeActivation.() -> Unit): CfnTypeActivation = CfnTypeActivation(this,
+    id).apply(initializer)
+
+@Generated
 public fun Construct.cfnTypeActivation(id: String, props: CfnTypeActivationProps): CfnTypeActivation
     = CfnTypeActivation(this, id, props)
 
@@ -18,14 +26,6 @@ public fun Construct.cfnTypeActivation(
   props: CfnTypeActivationProps,
   initializer: @AwsCdkDsl CfnTypeActivation.() -> Unit,
 ): CfnTypeActivation = CfnTypeActivation(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnTypeActivation(id: String): CfnTypeActivation = CfnTypeActivation(this, id)
-
-@Generated
-public fun Construct.cfnTypeActivation(id: String, initializer: @AwsCdkDsl
-    CfnTypeActivation.() -> Unit): CfnTypeActivation = CfnTypeActivation(this,
-    id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnTypeActivation(id: String, initializer: @AwsCdkDsl

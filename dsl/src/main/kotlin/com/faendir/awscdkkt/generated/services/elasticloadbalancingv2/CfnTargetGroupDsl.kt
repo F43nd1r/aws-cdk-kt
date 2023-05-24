@@ -9,13 +9,6 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.CfnTargetGroupProp
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnTargetGroup(id: String): CfnTargetGroup = CfnTargetGroup(this, id)
-
-@Generated
-public fun Construct.cfnTargetGroup(id: String, initializer: @AwsCdkDsl CfnTargetGroup.() -> Unit):
-    CfnTargetGroup = CfnTargetGroup(this, id).apply(initializer)
-
-@Generated
 public fun Construct.cfnTargetGroup(id: String, props: CfnTargetGroupProps): CfnTargetGroup =
     CfnTargetGroup(this, id, props)
 
@@ -25,6 +18,13 @@ public fun Construct.cfnTargetGroup(
   props: CfnTargetGroupProps,
   initializer: @AwsCdkDsl CfnTargetGroup.() -> Unit,
 ): CfnTargetGroup = CfnTargetGroup(this, id, props).apply(initializer)
+
+@Generated
+public fun Construct.cfnTargetGroup(id: String): CfnTargetGroup = CfnTargetGroup(this, id)
+
+@Generated
+public fun Construct.cfnTargetGroup(id: String, initializer: @AwsCdkDsl CfnTargetGroup.() -> Unit):
+    CfnTargetGroup = CfnTargetGroup(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnTargetGroup(id: String, initializer: @AwsCdkDsl

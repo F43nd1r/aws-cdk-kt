@@ -9,6 +9,15 @@ import software.amazon.awscdk.services.ivs.CfnPlaybackKeyPairProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnPlaybackKeyPair(id: String): CfnPlaybackKeyPair = CfnPlaybackKeyPair(this,
+    id)
+
+@Generated
+public fun Construct.cfnPlaybackKeyPair(id: String, initializer: @AwsCdkDsl
+    CfnPlaybackKeyPair.() -> Unit): CfnPlaybackKeyPair = CfnPlaybackKeyPair(this,
+    id).apply(initializer)
+
+@Generated
 public fun Construct.cfnPlaybackKeyPair(id: String, props: CfnPlaybackKeyPairProps):
     CfnPlaybackKeyPair = CfnPlaybackKeyPair(this, id, props)
 
@@ -18,15 +27,6 @@ public fun Construct.cfnPlaybackKeyPair(
   props: CfnPlaybackKeyPairProps,
   initializer: @AwsCdkDsl CfnPlaybackKeyPair.() -> Unit,
 ): CfnPlaybackKeyPair = CfnPlaybackKeyPair(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnPlaybackKeyPair(id: String): CfnPlaybackKeyPair = CfnPlaybackKeyPair(this,
-    id)
-
-@Generated
-public fun Construct.cfnPlaybackKeyPair(id: String, initializer: @AwsCdkDsl
-    CfnPlaybackKeyPair.() -> Unit): CfnPlaybackKeyPair = CfnPlaybackKeyPair(this,
-    id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnPlaybackKeyPair(id: String, initializer: @AwsCdkDsl

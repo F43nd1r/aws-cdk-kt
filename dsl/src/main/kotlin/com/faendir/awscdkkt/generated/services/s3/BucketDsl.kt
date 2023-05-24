@@ -9,13 +9,6 @@ import software.amazon.awscdk.services.s3.BucketProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.bucket(id: String): Bucket = Bucket(this, id)
-
-@Generated
-public fun Construct.bucket(id: String, initializer: @AwsCdkDsl Bucket.() -> Unit): Bucket =
-    Bucket(this, id).apply(initializer)
-
-@Generated
 public fun Construct.bucket(id: String, props: BucketProps): Bucket = Bucket(this, id, props)
 
 @Generated
@@ -24,6 +17,13 @@ public fun Construct.bucket(
   props: BucketProps,
   initializer: @AwsCdkDsl Bucket.() -> Unit,
 ): Bucket = Bucket(this, id, props).apply(initializer)
+
+@Generated
+public fun Construct.bucket(id: String): Bucket = Bucket(this, id)
+
+@Generated
+public fun Construct.bucket(id: String, initializer: @AwsCdkDsl Bucket.() -> Unit): Bucket =
+    Bucket(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildBucket(id: String, initializer: @AwsCdkDsl Bucket.Builder.() -> Unit):

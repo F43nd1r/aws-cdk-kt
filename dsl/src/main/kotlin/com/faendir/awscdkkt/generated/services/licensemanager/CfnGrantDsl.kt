@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.licensemanager.CfnGrantProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnGrant(id: String): CfnGrant = CfnGrant(this, id)
+
+@Generated
+public fun Construct.cfnGrant(id: String, initializer: @AwsCdkDsl CfnGrant.() -> Unit): CfnGrant =
+    CfnGrant(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnGrant(id: String, props: CfnGrantProps): CfnGrant = CfnGrant(this, id,
     props)
 
@@ -18,13 +25,6 @@ public fun Construct.cfnGrant(
   props: CfnGrantProps,
   initializer: @AwsCdkDsl CfnGrant.() -> Unit,
 ): CfnGrant = CfnGrant(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnGrant(id: String): CfnGrant = CfnGrant(this, id)
-
-@Generated
-public fun Construct.cfnGrant(id: String, initializer: @AwsCdkDsl CfnGrant.() -> Unit): CfnGrant =
-    CfnGrant(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnGrant(id: String, initializer: @AwsCdkDsl CfnGrant.Builder.() -> Unit):

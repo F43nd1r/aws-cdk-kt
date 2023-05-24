@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildListControlDisplayOptionsProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.ListControlDisplayOptionsProperty.Builder.() -> Unit):
-    CfnAnalysis.ListControlDisplayOptionsProperty =
-    CfnAnalysis.ListControlDisplayOptionsProperty.Builder().apply(initializer).build()
+    CfnTemplate.ListControlDisplayOptionsProperty.Builder.() -> Unit):
+    CfnTemplate.ListControlDisplayOptionsProperty =
+    CfnTemplate.ListControlDisplayOptionsProperty.Builder().apply(initializer).build()

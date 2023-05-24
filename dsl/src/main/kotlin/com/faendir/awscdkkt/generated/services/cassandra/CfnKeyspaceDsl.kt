@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.cassandra.CfnKeyspaceProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnKeyspace(id: String): CfnKeyspace = CfnKeyspace(this, id)
+
+@Generated
+public fun Construct.cfnKeyspace(id: String, initializer: @AwsCdkDsl CfnKeyspace.() -> Unit):
+    CfnKeyspace = CfnKeyspace(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnKeyspace(id: String, props: CfnKeyspaceProps): CfnKeyspace =
     CfnKeyspace(this, id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.cfnKeyspace(
   props: CfnKeyspaceProps,
   initializer: @AwsCdkDsl CfnKeyspace.() -> Unit,
 ): CfnKeyspace = CfnKeyspace(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnKeyspace(id: String): CfnKeyspace = CfnKeyspace(this, id)
-
-@Generated
-public fun Construct.cfnKeyspace(id: String, initializer: @AwsCdkDsl CfnKeyspace.() -> Unit):
-    CfnKeyspace = CfnKeyspace(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnKeyspace(id: String, initializer: @AwsCdkDsl

@@ -9,13 +9,6 @@ import software.amazon.awscdk.services.iam.ManagedPolicyProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.managedPolicy(id: String): ManagedPolicy = ManagedPolicy(this, id)
-
-@Generated
-public fun Construct.managedPolicy(id: String, initializer: @AwsCdkDsl ManagedPolicy.() -> Unit):
-    ManagedPolicy = ManagedPolicy(this, id).apply(initializer)
-
-@Generated
 public fun Construct.managedPolicy(id: String, props: ManagedPolicyProps): ManagedPolicy =
     ManagedPolicy(this, id, props)
 
@@ -25,6 +18,13 @@ public fun Construct.managedPolicy(
   props: ManagedPolicyProps,
   initializer: @AwsCdkDsl ManagedPolicy.() -> Unit,
 ): ManagedPolicy = ManagedPolicy(this, id, props).apply(initializer)
+
+@Generated
+public fun Construct.managedPolicy(id: String): ManagedPolicy = ManagedPolicy(this, id)
+
+@Generated
+public fun Construct.managedPolicy(id: String, initializer: @AwsCdkDsl ManagedPolicy.() -> Unit):
+    ManagedPolicy = ManagedPolicy(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildManagedPolicy(id: String, initializer: @AwsCdkDsl

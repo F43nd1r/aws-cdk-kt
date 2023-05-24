@@ -3,10 +3,9 @@ package com.faendir.awscdkkt.generated.services.emr
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.emr.CfnCluster
+import software.amazon.awscdk.services.emr.CfnStep
 
 @Generated
 public fun buildHadoopJarStepConfigProperty(initializer: @AwsCdkDsl
-    CfnCluster.HadoopJarStepConfigProperty.Builder.() -> Unit):
-    CfnCluster.HadoopJarStepConfigProperty =
-    CfnCluster.HadoopJarStepConfigProperty.Builder().apply(initializer).build()
+    CfnStep.HadoopJarStepConfigProperty.Builder.() -> Unit): CfnStep.HadoopJarStepConfigProperty =
+    CfnStep.HadoopJarStepConfigProperty.Builder().apply(initializer).build()

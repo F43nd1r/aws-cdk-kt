@@ -3,9 +3,9 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildComboChartVisualProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.ComboChartVisualProperty.Builder.() -> Unit): CfnAnalysis.ComboChartVisualProperty =
-    CfnAnalysis.ComboChartVisualProperty.Builder().apply(initializer).build()
+    CfnTemplate.ComboChartVisualProperty.Builder.() -> Unit): CfnTemplate.ComboChartVisualProperty =
+    CfnTemplate.ComboChartVisualProperty.Builder().apply(initializer).build()

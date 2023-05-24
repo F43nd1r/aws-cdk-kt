@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildContributionAnalysisDefaultProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.ContributionAnalysisDefaultProperty.Builder.() -> Unit):
-    CfnAnalysis.ContributionAnalysisDefaultProperty =
-    CfnAnalysis.ContributionAnalysisDefaultProperty.Builder().apply(initializer).build()
+    CfnTemplate.ContributionAnalysisDefaultProperty.Builder.() -> Unit):
+    CfnTemplate.ContributionAnalysisDefaultProperty =
+    CfnTemplate.ContributionAnalysisDefaultProperty.Builder().apply(initializer).build()

@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnDashboard
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildTimeRangeDrillDownFilterProperty(initializer: @AwsCdkDsl
-    CfnDashboard.TimeRangeDrillDownFilterProperty.Builder.() -> Unit):
-    CfnDashboard.TimeRangeDrillDownFilterProperty =
-    CfnDashboard.TimeRangeDrillDownFilterProperty.Builder().apply(initializer).build()
+    CfnTemplate.TimeRangeDrillDownFilterProperty.Builder.() -> Unit):
+    CfnTemplate.TimeRangeDrillDownFilterProperty =
+    CfnTemplate.TimeRangeDrillDownFilterProperty.Builder().apply(initializer).build()

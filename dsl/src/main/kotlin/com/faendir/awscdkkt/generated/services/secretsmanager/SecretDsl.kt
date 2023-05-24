@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.secretsmanager.SecretProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.secret(id: String): Secret = Secret(this, id)
+
+@Generated
+public fun Construct.secret(id: String, initializer: @AwsCdkDsl Secret.() -> Unit): Secret =
+    Secret(this, id).apply(initializer)
+
+@Generated
 public fun Construct.secret(id: String, props: SecretProps): Secret = Secret(this, id, props)
 
 @Generated
@@ -17,13 +24,6 @@ public fun Construct.secret(
   props: SecretProps,
   initializer: @AwsCdkDsl Secret.() -> Unit,
 ): Secret = Secret(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.secret(id: String): Secret = Secret(this, id)
-
-@Generated
-public fun Construct.secret(id: String, initializer: @AwsCdkDsl Secret.() -> Unit): Secret =
-    Secret(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildSecret(id: String, initializer: @AwsCdkDsl Secret.Builder.() -> Unit):

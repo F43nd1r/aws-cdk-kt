@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.route53recoveryreadiness.CfnRecoveryGroup
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnRecoveryGroup(id: String): CfnRecoveryGroup = CfnRecoveryGroup(this, id)
+
+@Generated
+public fun Construct.cfnRecoveryGroup(id: String, initializer: @AwsCdkDsl
+    CfnRecoveryGroup.() -> Unit): CfnRecoveryGroup = CfnRecoveryGroup(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnRecoveryGroup(id: String, props: CfnRecoveryGroupProps): CfnRecoveryGroup =
     CfnRecoveryGroup(this, id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.cfnRecoveryGroup(
   props: CfnRecoveryGroupProps,
   initializer: @AwsCdkDsl CfnRecoveryGroup.() -> Unit,
 ): CfnRecoveryGroup = CfnRecoveryGroup(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnRecoveryGroup(id: String): CfnRecoveryGroup = CfnRecoveryGroup(this, id)
-
-@Generated
-public fun Construct.cfnRecoveryGroup(id: String, initializer: @AwsCdkDsl
-    CfnRecoveryGroup.() -> Unit): CfnRecoveryGroup = CfnRecoveryGroup(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnRecoveryGroup(id: String, initializer: @AwsCdkDsl

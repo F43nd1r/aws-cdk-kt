@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildSankeyDiagramAggregatedFieldWellsProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.SankeyDiagramAggregatedFieldWellsProperty.Builder.() -> Unit):
-    CfnAnalysis.SankeyDiagramAggregatedFieldWellsProperty =
-    CfnAnalysis.SankeyDiagramAggregatedFieldWellsProperty.Builder().apply(initializer).build()
+    CfnTemplate.SankeyDiagramAggregatedFieldWellsProperty.Builder.() -> Unit):
+    CfnTemplate.SankeyDiagramAggregatedFieldWellsProperty =
+    CfnTemplate.SankeyDiagramAggregatedFieldWellsProperty.Builder().apply(initializer).build()

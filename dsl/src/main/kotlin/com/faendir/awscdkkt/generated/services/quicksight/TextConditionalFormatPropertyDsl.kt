@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnDashboard
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildTextConditionalFormatProperty(initializer: @AwsCdkDsl
-    CfnDashboard.TextConditionalFormatProperty.Builder.() -> Unit):
-    CfnDashboard.TextConditionalFormatProperty =
-    CfnDashboard.TextConditionalFormatProperty.Builder().apply(initializer).build()
+    CfnTemplate.TextConditionalFormatProperty.Builder.() -> Unit):
+    CfnTemplate.TextConditionalFormatProperty =
+    CfnTemplate.TextConditionalFormatProperty.Builder().apply(initializer).build()

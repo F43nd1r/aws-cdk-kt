@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.iotanalytics.CfnDatastoreProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnDatastore(id: String): CfnDatastore = CfnDatastore(this, id)
+
+@Generated
+public fun Construct.cfnDatastore(id: String, initializer: @AwsCdkDsl CfnDatastore.() -> Unit):
+    CfnDatastore = CfnDatastore(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnDatastore(id: String, props: CfnDatastoreProps): CfnDatastore =
     CfnDatastore(this, id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.cfnDatastore(
   props: CfnDatastoreProps,
   initializer: @AwsCdkDsl CfnDatastore.() -> Unit,
 ): CfnDatastore = CfnDatastore(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnDatastore(id: String): CfnDatastore = CfnDatastore(this, id)
-
-@Generated
-public fun Construct.cfnDatastore(id: String, initializer: @AwsCdkDsl CfnDatastore.() -> Unit):
-    CfnDatastore = CfnDatastore(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnDatastore(id: String, initializer: @AwsCdkDsl

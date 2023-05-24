@@ -7,11 +7,11 @@ import software.amazon.awscdk.services.lambda.CfnParametersCode
 import software.amazon.awscdk.services.lambda.CfnParametersCodeProps
 
 @Generated
-public fun cfnParametersCode(props: CfnParametersCodeProps): CfnParametersCode =
-    CfnParametersCode(props)
+public fun cfnParametersCode(): CfnParametersCode = CfnParametersCode()
 
 @Generated
-public fun cfnParametersCode(): CfnParametersCode = CfnParametersCode()
+public fun cfnParametersCode(props: CfnParametersCodeProps): CfnParametersCode =
+    CfnParametersCode(props)
 
 @Generated
 public fun buildCfnParametersCode(initializer: @AwsCdkDsl CfnParametersCode.Builder.() -> Unit):

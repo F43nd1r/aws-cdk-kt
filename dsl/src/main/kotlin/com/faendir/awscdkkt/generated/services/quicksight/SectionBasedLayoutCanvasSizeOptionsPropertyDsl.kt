@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnDashboard
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildSectionBasedLayoutCanvasSizeOptionsProperty(initializer: @AwsCdkDsl
-    CfnDashboard.SectionBasedLayoutCanvasSizeOptionsProperty.Builder.() -> Unit):
-    CfnDashboard.SectionBasedLayoutCanvasSizeOptionsProperty =
-    CfnDashboard.SectionBasedLayoutCanvasSizeOptionsProperty.Builder().apply(initializer).build()
+    CfnTemplate.SectionBasedLayoutCanvasSizeOptionsProperty.Builder.() -> Unit):
+    CfnTemplate.SectionBasedLayoutCanvasSizeOptionsProperty =
+    CfnTemplate.SectionBasedLayoutCanvasSizeOptionsProperty.Builder().apply(initializer).build()

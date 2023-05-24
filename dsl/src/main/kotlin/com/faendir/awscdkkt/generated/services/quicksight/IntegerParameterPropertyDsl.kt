@@ -3,9 +3,9 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
 public fun buildIntegerParameterProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.IntegerParameterProperty.Builder.() -> Unit): CfnAnalysis.IntegerParameterProperty =
-    CfnAnalysis.IntegerParameterProperty.Builder().apply(initializer).build()
+    CfnDashboard.IntegerParameterProperty.Builder.() -> Unit): CfnDashboard.IntegerParameterProperty
+    = CfnDashboard.IntegerParameterProperty.Builder().apply(initializer).build()

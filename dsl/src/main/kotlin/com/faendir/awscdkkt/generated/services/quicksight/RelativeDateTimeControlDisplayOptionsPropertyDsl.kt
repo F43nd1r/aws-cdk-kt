@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildRelativeDateTimeControlDisplayOptionsProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.RelativeDateTimeControlDisplayOptionsProperty.Builder.() -> Unit):
-    CfnAnalysis.RelativeDateTimeControlDisplayOptionsProperty =
-    CfnAnalysis.RelativeDateTimeControlDisplayOptionsProperty.Builder().apply(initializer).build()
+    CfnTemplate.RelativeDateTimeControlDisplayOptionsProperty.Builder.() -> Unit):
+    CfnTemplate.RelativeDateTimeControlDisplayOptionsProperty =
+    CfnTemplate.RelativeDateTimeControlDisplayOptionsProperty.Builder().apply(initializer).build()

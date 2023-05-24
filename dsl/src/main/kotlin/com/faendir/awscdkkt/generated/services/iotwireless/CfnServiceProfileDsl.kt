@@ -9,6 +9,14 @@ import software.amazon.awscdk.services.iotwireless.CfnServiceProfileProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnServiceProfile(id: String): CfnServiceProfile = CfnServiceProfile(this, id)
+
+@Generated
+public fun Construct.cfnServiceProfile(id: String, initializer: @AwsCdkDsl
+    CfnServiceProfile.() -> Unit): CfnServiceProfile = CfnServiceProfile(this,
+    id).apply(initializer)
+
+@Generated
 public fun Construct.cfnServiceProfile(id: String, props: CfnServiceProfileProps): CfnServiceProfile
     = CfnServiceProfile(this, id, props)
 
@@ -18,14 +26,6 @@ public fun Construct.cfnServiceProfile(
   props: CfnServiceProfileProps,
   initializer: @AwsCdkDsl CfnServiceProfile.() -> Unit,
 ): CfnServiceProfile = CfnServiceProfile(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnServiceProfile(id: String): CfnServiceProfile = CfnServiceProfile(this, id)
-
-@Generated
-public fun Construct.cfnServiceProfile(id: String, initializer: @AwsCdkDsl
-    CfnServiceProfile.() -> Unit): CfnServiceProfile = CfnServiceProfile(this,
-    id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnServiceProfile(id: String, initializer: @AwsCdkDsl

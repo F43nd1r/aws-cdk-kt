@@ -3,9 +3,9 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildFieldSortOptionsProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.FieldSortOptionsProperty.Builder.() -> Unit): CfnAnalysis.FieldSortOptionsProperty =
-    CfnAnalysis.FieldSortOptionsProperty.Builder().apply(initializer).build()
+    CfnTemplate.FieldSortOptionsProperty.Builder.() -> Unit): CfnTemplate.FieldSortOptionsProperty =
+    CfnTemplate.FieldSortOptionsProperty.Builder().apply(initializer).build()

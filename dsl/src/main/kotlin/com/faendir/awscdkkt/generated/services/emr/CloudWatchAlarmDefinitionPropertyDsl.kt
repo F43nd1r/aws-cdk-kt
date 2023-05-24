@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.emr
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.emr.CfnCluster
+import software.amazon.awscdk.services.emr.CfnInstanceGroupConfig
 
 @Generated
 public fun buildCloudWatchAlarmDefinitionProperty(initializer: @AwsCdkDsl
-    CfnCluster.CloudWatchAlarmDefinitionProperty.Builder.() -> Unit):
-    CfnCluster.CloudWatchAlarmDefinitionProperty =
-    CfnCluster.CloudWatchAlarmDefinitionProperty.Builder().apply(initializer).build()
+    CfnInstanceGroupConfig.CloudWatchAlarmDefinitionProperty.Builder.() -> Unit):
+    CfnInstanceGroupConfig.CloudWatchAlarmDefinitionProperty =
+    CfnInstanceGroupConfig.CloudWatchAlarmDefinitionProperty.Builder().apply(initializer).build()

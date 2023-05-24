@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.ivschat.CfnRoomProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnRoom(id: String): CfnRoom = CfnRoom(this, id)
+
+@Generated
+public fun Construct.cfnRoom(id: String, initializer: @AwsCdkDsl CfnRoom.() -> Unit): CfnRoom =
+    CfnRoom(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnRoom(id: String, props: CfnRoomProps): CfnRoom = CfnRoom(this, id, props)
 
 @Generated
@@ -17,13 +24,6 @@ public fun Construct.cfnRoom(
   props: CfnRoomProps,
   initializer: @AwsCdkDsl CfnRoom.() -> Unit,
 ): CfnRoom = CfnRoom(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnRoom(id: String): CfnRoom = CfnRoom(this, id)
-
-@Generated
-public fun Construct.cfnRoom(id: String, initializer: @AwsCdkDsl CfnRoom.() -> Unit): CfnRoom =
-    CfnRoom(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnRoom(id: String, initializer: @AwsCdkDsl CfnRoom.Builder.() -> Unit):

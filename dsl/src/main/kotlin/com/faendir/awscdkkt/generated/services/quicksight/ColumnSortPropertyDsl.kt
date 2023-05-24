@@ -3,9 +3,9 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildColumnSortProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.ColumnSortProperty.Builder.() -> Unit): CfnAnalysis.ColumnSortProperty =
-    CfnAnalysis.ColumnSortProperty.Builder().apply(initializer).build()
+    CfnTemplate.ColumnSortProperty.Builder.() -> Unit): CfnTemplate.ColumnSortProperty =
+    CfnTemplate.ColumnSortProperty.Builder().apply(initializer).build()

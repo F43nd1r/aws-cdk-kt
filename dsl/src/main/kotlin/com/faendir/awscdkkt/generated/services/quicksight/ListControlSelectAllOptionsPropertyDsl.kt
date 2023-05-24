@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildListControlSelectAllOptionsProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.ListControlSelectAllOptionsProperty.Builder.() -> Unit):
-    CfnAnalysis.ListControlSelectAllOptionsProperty =
-    CfnAnalysis.ListControlSelectAllOptionsProperty.Builder().apply(initializer).build()
+    CfnTemplate.ListControlSelectAllOptionsProperty.Builder.() -> Unit):
+    CfnTemplate.ListControlSelectAllOptionsProperty =
+    CfnTemplate.ListControlSelectAllOptionsProperty.Builder().apply(initializer).build()

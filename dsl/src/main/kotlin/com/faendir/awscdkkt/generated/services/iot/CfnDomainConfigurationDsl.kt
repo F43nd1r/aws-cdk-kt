@@ -9,6 +9,15 @@ import software.amazon.awscdk.services.iot.CfnDomainConfigurationProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnDomainConfiguration(id: String): CfnDomainConfiguration =
+    CfnDomainConfiguration(this, id)
+
+@Generated
+public fun Construct.cfnDomainConfiguration(id: String, initializer: @AwsCdkDsl
+    CfnDomainConfiguration.() -> Unit): CfnDomainConfiguration = CfnDomainConfiguration(this,
+    id).apply(initializer)
+
+@Generated
 public fun Construct.cfnDomainConfiguration(id: String, props: CfnDomainConfigurationProps):
     CfnDomainConfiguration = CfnDomainConfiguration(this, id, props)
 
@@ -18,15 +27,6 @@ public fun Construct.cfnDomainConfiguration(
   props: CfnDomainConfigurationProps,
   initializer: @AwsCdkDsl CfnDomainConfiguration.() -> Unit,
 ): CfnDomainConfiguration = CfnDomainConfiguration(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnDomainConfiguration(id: String): CfnDomainConfiguration =
-    CfnDomainConfiguration(this, id)
-
-@Generated
-public fun Construct.cfnDomainConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnDomainConfiguration.() -> Unit): CfnDomainConfiguration = CfnDomainConfiguration(this,
-    id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnDomainConfiguration(id: String, initializer: @AwsCdkDsl

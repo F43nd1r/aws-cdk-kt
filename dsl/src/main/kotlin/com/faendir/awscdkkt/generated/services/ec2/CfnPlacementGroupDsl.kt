@@ -9,6 +9,14 @@ import software.amazon.awscdk.services.ec2.CfnPlacementGroupProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnPlacementGroup(id: String): CfnPlacementGroup = CfnPlacementGroup(this, id)
+
+@Generated
+public fun Construct.cfnPlacementGroup(id: String, initializer: @AwsCdkDsl
+    CfnPlacementGroup.() -> Unit): CfnPlacementGroup = CfnPlacementGroup(this,
+    id).apply(initializer)
+
+@Generated
 public fun Construct.cfnPlacementGroup(id: String, props: CfnPlacementGroupProps): CfnPlacementGroup
     = CfnPlacementGroup(this, id, props)
 
@@ -18,14 +26,6 @@ public fun Construct.cfnPlacementGroup(
   props: CfnPlacementGroupProps,
   initializer: @AwsCdkDsl CfnPlacementGroup.() -> Unit,
 ): CfnPlacementGroup = CfnPlacementGroup(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnPlacementGroup(id: String): CfnPlacementGroup = CfnPlacementGroup(this, id)
-
-@Generated
-public fun Construct.cfnPlacementGroup(id: String, initializer: @AwsCdkDsl
-    CfnPlacementGroup.() -> Unit): CfnPlacementGroup = CfnPlacementGroup(this,
-    id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnPlacementGroup(id: String, initializer: @AwsCdkDsl

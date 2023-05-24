@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.ec2.CfnDHCPOptionsProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnDHCPOptions(id: String): CfnDHCPOptions = CfnDHCPOptions(this, id)
+
+@Generated
+public fun Construct.cfnDHCPOptions(id: String, initializer: @AwsCdkDsl CfnDHCPOptions.() -> Unit):
+    CfnDHCPOptions = CfnDHCPOptions(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnDHCPOptions(id: String, props: CfnDHCPOptionsProps): CfnDHCPOptions =
     CfnDHCPOptions(this, id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.cfnDHCPOptions(
   props: CfnDHCPOptionsProps,
   initializer: @AwsCdkDsl CfnDHCPOptions.() -> Unit,
 ): CfnDHCPOptions = CfnDHCPOptions(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnDHCPOptions(id: String): CfnDHCPOptions = CfnDHCPOptions(this, id)
-
-@Generated
-public fun Construct.cfnDHCPOptions(id: String, initializer: @AwsCdkDsl CfnDHCPOptions.() -> Unit):
-    CfnDHCPOptions = CfnDHCPOptions(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnDHCPOptions(id: String, initializer: @AwsCdkDsl

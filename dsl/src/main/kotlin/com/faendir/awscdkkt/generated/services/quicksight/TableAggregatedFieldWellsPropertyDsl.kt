@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnDashboard
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildTableAggregatedFieldWellsProperty(initializer: @AwsCdkDsl
-    CfnDashboard.TableAggregatedFieldWellsProperty.Builder.() -> Unit):
-    CfnDashboard.TableAggregatedFieldWellsProperty =
-    CfnDashboard.TableAggregatedFieldWellsProperty.Builder().apply(initializer).build()
+    CfnTemplate.TableAggregatedFieldWellsProperty.Builder.() -> Unit):
+    CfnTemplate.TableAggregatedFieldWellsProperty =
+    CfnTemplate.TableAggregatedFieldWellsProperty.Builder().apply(initializer).build()

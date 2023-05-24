@@ -9,6 +9,15 @@ import software.amazon.awscdk.services.ec2.CfnVerifiedAccessInstanceProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnVerifiedAccessInstance(id: String): CfnVerifiedAccessInstance =
+    CfnVerifiedAccessInstance(this, id)
+
+@Generated
+public fun Construct.cfnVerifiedAccessInstance(id: String, initializer: @AwsCdkDsl
+    CfnVerifiedAccessInstance.() -> Unit): CfnVerifiedAccessInstance =
+    CfnVerifiedAccessInstance(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnVerifiedAccessInstance(id: String, props: CfnVerifiedAccessInstanceProps):
     CfnVerifiedAccessInstance = CfnVerifiedAccessInstance(this, id, props)
 
@@ -18,15 +27,6 @@ public fun Construct.cfnVerifiedAccessInstance(
   props: CfnVerifiedAccessInstanceProps,
   initializer: @AwsCdkDsl CfnVerifiedAccessInstance.() -> Unit,
 ): CfnVerifiedAccessInstance = CfnVerifiedAccessInstance(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnVerifiedAccessInstance(id: String): CfnVerifiedAccessInstance =
-    CfnVerifiedAccessInstance(this, id)
-
-@Generated
-public fun Construct.cfnVerifiedAccessInstance(id: String, initializer: @AwsCdkDsl
-    CfnVerifiedAccessInstance.() -> Unit): CfnVerifiedAccessInstance =
-    CfnVerifiedAccessInstance(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnVerifiedAccessInstance(id: String, initializer: @AwsCdkDsl

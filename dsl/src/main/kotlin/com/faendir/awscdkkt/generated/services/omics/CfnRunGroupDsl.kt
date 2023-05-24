@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.omics.CfnRunGroupProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnRunGroup(id: String): CfnRunGroup = CfnRunGroup(this, id)
+
+@Generated
+public fun Construct.cfnRunGroup(id: String, initializer: @AwsCdkDsl CfnRunGroup.() -> Unit):
+    CfnRunGroup = CfnRunGroup(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnRunGroup(id: String, props: CfnRunGroupProps): CfnRunGroup =
     CfnRunGroup(this, id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.cfnRunGroup(
   props: CfnRunGroupProps,
   initializer: @AwsCdkDsl CfnRunGroup.() -> Unit,
 ): CfnRunGroup = CfnRunGroup(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnRunGroup(id: String): CfnRunGroup = CfnRunGroup(this, id)
-
-@Generated
-public fun Construct.cfnRunGroup(id: String, initializer: @AwsCdkDsl CfnRunGroup.() -> Unit):
-    CfnRunGroup = CfnRunGroup(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnRunGroup(id: String, initializer: @AwsCdkDsl

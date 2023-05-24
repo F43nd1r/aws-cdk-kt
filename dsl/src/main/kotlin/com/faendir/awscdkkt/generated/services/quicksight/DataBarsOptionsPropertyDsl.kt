@@ -3,9 +3,9 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildDataBarsOptionsProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.DataBarsOptionsProperty.Builder.() -> Unit): CfnAnalysis.DataBarsOptionsProperty =
-    CfnAnalysis.DataBarsOptionsProperty.Builder().apply(initializer).build()
+    CfnTemplate.DataBarsOptionsProperty.Builder.() -> Unit): CfnTemplate.DataBarsOptionsProperty =
+    CfnTemplate.DataBarsOptionsProperty.Builder().apply(initializer).build()

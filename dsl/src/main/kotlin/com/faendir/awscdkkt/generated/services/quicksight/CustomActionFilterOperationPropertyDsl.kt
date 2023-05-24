@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildCustomActionFilterOperationProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.CustomActionFilterOperationProperty.Builder.() -> Unit):
-    CfnAnalysis.CustomActionFilterOperationProperty =
-    CfnAnalysis.CustomActionFilterOperationProperty.Builder().apply(initializer).build()
+    CfnTemplate.CustomActionFilterOperationProperty.Builder.() -> Unit):
+    CfnTemplate.CustomActionFilterOperationProperty =
+    CfnTemplate.CustomActionFilterOperationProperty.Builder().apply(initializer).build()

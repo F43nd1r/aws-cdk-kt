@@ -3,9 +3,9 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildDateMeasureFieldProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.DateMeasureFieldProperty.Builder.() -> Unit): CfnAnalysis.DateMeasureFieldProperty =
-    CfnAnalysis.DateMeasureFieldProperty.Builder().apply(initializer).build()
+    CfnTemplate.DateMeasureFieldProperty.Builder.() -> Unit): CfnTemplate.DateMeasureFieldProperty =
+    CfnTemplate.DateMeasureFieldProperty.Builder().apply(initializer).build()

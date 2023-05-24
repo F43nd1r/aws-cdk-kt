@@ -8,11 +8,11 @@ import software.amazon.awscdk.cloudassembly.schema.LoadManifestOptions
 import software.amazon.awscdk.cxapi.CloudAssembly
 
 @Generated
-public fun cloudAssembly(directory: String, loadOptions: LoadManifestOptions): CloudAssembly =
-    CloudAssembly(directory, loadOptions)
+public fun cloudAssembly(directory: String): CloudAssembly = CloudAssembly(directory)
 
 @Generated
-public fun cloudAssembly(directory: String): CloudAssembly = CloudAssembly(directory)
+public fun cloudAssembly(directory: String, loadOptions: LoadManifestOptions): CloudAssembly =
+    CloudAssembly(directory, loadOptions)
 
 @Generated
 public fun buildCloudAssembly(directory: String, initializer: @AwsCdkDsl

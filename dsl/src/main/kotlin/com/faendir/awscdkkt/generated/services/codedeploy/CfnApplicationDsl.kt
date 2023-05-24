@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.codedeploy.CfnApplicationProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnApplication(id: String): CfnApplication = CfnApplication(this, id)
+
+@Generated
+public fun Construct.cfnApplication(id: String, initializer: @AwsCdkDsl CfnApplication.() -> Unit):
+    CfnApplication = CfnApplication(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnApplication(id: String, props: CfnApplicationProps): CfnApplication =
     CfnApplication(this, id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.cfnApplication(
   props: CfnApplicationProps,
   initializer: @AwsCdkDsl CfnApplication.() -> Unit,
 ): CfnApplication = CfnApplication(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnApplication(id: String): CfnApplication = CfnApplication(this, id)
-
-@Generated
-public fun Construct.cfnApplication(id: String, initializer: @AwsCdkDsl CfnApplication.() -> Unit):
-    CfnApplication = CfnApplication(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnApplication(id: String, initializer: @AwsCdkDsl

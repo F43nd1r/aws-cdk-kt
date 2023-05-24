@@ -3,9 +3,9 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildFontWeightProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.FontWeightProperty.Builder.() -> Unit): CfnAnalysis.FontWeightProperty =
-    CfnAnalysis.FontWeightProperty.Builder().apply(initializer).build()
+    CfnTemplate.FontWeightProperty.Builder.() -> Unit): CfnTemplate.FontWeightProperty =
+    CfnTemplate.FontWeightProperty.Builder().apply(initializer).build()

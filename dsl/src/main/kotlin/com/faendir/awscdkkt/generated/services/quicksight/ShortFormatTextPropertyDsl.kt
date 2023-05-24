@@ -3,9 +3,9 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnDashboard
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildShortFormatTextProperty(initializer: @AwsCdkDsl
-    CfnDashboard.ShortFormatTextProperty.Builder.() -> Unit): CfnDashboard.ShortFormatTextProperty =
-    CfnDashboard.ShortFormatTextProperty.Builder().apply(initializer).build()
+    CfnTemplate.ShortFormatTextProperty.Builder.() -> Unit): CfnTemplate.ShortFormatTextProperty =
+    CfnTemplate.ShortFormatTextProperty.Builder().apply(initializer).build()

@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildCategoryDrillDownFilterProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.CategoryDrillDownFilterProperty.Builder.() -> Unit):
-    CfnAnalysis.CategoryDrillDownFilterProperty =
-    CfnAnalysis.CategoryDrillDownFilterProperty.Builder().apply(initializer).build()
+    CfnTemplate.CategoryDrillDownFilterProperty.Builder.() -> Unit):
+    CfnTemplate.CategoryDrillDownFilterProperty =
+    CfnTemplate.CategoryDrillDownFilterProperty.Builder().apply(initializer).build()

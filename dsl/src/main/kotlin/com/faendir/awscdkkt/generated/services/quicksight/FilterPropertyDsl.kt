@@ -3,9 +3,9 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildFilterProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.FilterProperty.Builder.() -> Unit): CfnAnalysis.FilterProperty =
-    CfnAnalysis.FilterProperty.Builder().apply(initializer).build()
+    CfnTemplate.FilterProperty.Builder.() -> Unit): CfnTemplate.FilterProperty =
+    CfnTemplate.FilterProperty.Builder().apply(initializer).build()

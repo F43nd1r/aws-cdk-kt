@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildFilterOperationSelectedFieldsConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.FilterOperationSelectedFieldsConfigurationProperty.Builder.() -> Unit):
-    CfnAnalysis.FilterOperationSelectedFieldsConfigurationProperty =
-    CfnAnalysis.FilterOperationSelectedFieldsConfigurationProperty.Builder().apply(initializer).build()
+    CfnTemplate.FilterOperationSelectedFieldsConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.FilterOperationSelectedFieldsConfigurationProperty =
+    CfnTemplate.FilterOperationSelectedFieldsConfigurationProperty.Builder().apply(initializer).build()

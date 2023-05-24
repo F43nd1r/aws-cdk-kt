@@ -3,9 +3,10 @@ package com.faendir.awscdkkt.generated.services.lex
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.lex.CfnBot
+import software.amazon.awscdk.services.lex.CfnBotAlias
 
 @Generated
 public fun buildCodeHookSpecificationProperty(initializer: @AwsCdkDsl
-    CfnBot.CodeHookSpecificationProperty.Builder.() -> Unit): CfnBot.CodeHookSpecificationProperty =
-    CfnBot.CodeHookSpecificationProperty.Builder().apply(initializer).build()
+    CfnBotAlias.CodeHookSpecificationProperty.Builder.() -> Unit):
+    CfnBotAlias.CodeHookSpecificationProperty =
+    CfnBotAlias.CodeHookSpecificationProperty.Builder().apply(initializer).build()

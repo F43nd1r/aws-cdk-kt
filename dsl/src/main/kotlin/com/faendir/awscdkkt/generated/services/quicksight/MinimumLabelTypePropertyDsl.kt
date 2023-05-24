@@ -3,9 +3,9 @@ package com.faendir.awscdkkt.generated.services.quicksight
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.quicksight.CfnAnalysis
+import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildMinimumLabelTypeProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.MinimumLabelTypeProperty.Builder.() -> Unit): CfnAnalysis.MinimumLabelTypeProperty =
-    CfnAnalysis.MinimumLabelTypeProperty.Builder().apply(initializer).build()
+    CfnTemplate.MinimumLabelTypeProperty.Builder.() -> Unit): CfnTemplate.MinimumLabelTypeProperty =
+    CfnTemplate.MinimumLabelTypeProperty.Builder().apply(initializer).build()

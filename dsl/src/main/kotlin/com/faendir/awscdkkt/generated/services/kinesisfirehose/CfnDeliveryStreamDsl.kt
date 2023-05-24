@@ -9,6 +9,14 @@ import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStreamProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnDeliveryStream(id: String): CfnDeliveryStream = CfnDeliveryStream(this, id)
+
+@Generated
+public fun Construct.cfnDeliveryStream(id: String, initializer: @AwsCdkDsl
+    CfnDeliveryStream.() -> Unit): CfnDeliveryStream = CfnDeliveryStream(this,
+    id).apply(initializer)
+
+@Generated
 public fun Construct.cfnDeliveryStream(id: String, props: CfnDeliveryStreamProps): CfnDeliveryStream
     = CfnDeliveryStream(this, id, props)
 
@@ -18,14 +26,6 @@ public fun Construct.cfnDeliveryStream(
   props: CfnDeliveryStreamProps,
   initializer: @AwsCdkDsl CfnDeliveryStream.() -> Unit,
 ): CfnDeliveryStream = CfnDeliveryStream(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnDeliveryStream(id: String): CfnDeliveryStream = CfnDeliveryStream(this, id)
-
-@Generated
-public fun Construct.cfnDeliveryStream(id: String, initializer: @AwsCdkDsl
-    CfnDeliveryStream.() -> Unit): CfnDeliveryStream = CfnDeliveryStream(this,
-    id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnDeliveryStream(id: String, initializer: @AwsCdkDsl

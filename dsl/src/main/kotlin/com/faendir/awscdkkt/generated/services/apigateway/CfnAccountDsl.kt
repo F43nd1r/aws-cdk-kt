@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.apigateway.CfnAccountProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnAccount(id: String): CfnAccount = CfnAccount(this, id)
+
+@Generated
+public fun Construct.cfnAccount(id: String, initializer: @AwsCdkDsl CfnAccount.() -> Unit):
+    CfnAccount = CfnAccount(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnAccount(id: String, props: CfnAccountProps): CfnAccount = CfnAccount(this,
     id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.cfnAccount(
   props: CfnAccountProps,
   initializer: @AwsCdkDsl CfnAccount.() -> Unit,
 ): CfnAccount = CfnAccount(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnAccount(id: String): CfnAccount = CfnAccount(this, id)
-
-@Generated
-public fun Construct.cfnAccount(id: String, initializer: @AwsCdkDsl CfnAccount.() -> Unit):
-    CfnAccount = CfnAccount(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnAccount(id: String, initializer: @AwsCdkDsl

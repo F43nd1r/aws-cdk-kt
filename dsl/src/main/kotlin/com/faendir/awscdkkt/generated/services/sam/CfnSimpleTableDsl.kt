@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.sam.CfnSimpleTableProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnSimpleTable(id: String): CfnSimpleTable = CfnSimpleTable(this, id)
+
+@Generated
+public fun Construct.cfnSimpleTable(id: String, initializer: @AwsCdkDsl CfnSimpleTable.() -> Unit):
+    CfnSimpleTable = CfnSimpleTable(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnSimpleTable(id: String, props: CfnSimpleTableProps): CfnSimpleTable =
     CfnSimpleTable(this, id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.cfnSimpleTable(
   props: CfnSimpleTableProps,
   initializer: @AwsCdkDsl CfnSimpleTable.() -> Unit,
 ): CfnSimpleTable = CfnSimpleTable(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnSimpleTable(id: String): CfnSimpleTable = CfnSimpleTable(this, id)
-
-@Generated
-public fun Construct.cfnSimpleTable(id: String, initializer: @AwsCdkDsl CfnSimpleTable.() -> Unit):
-    CfnSimpleTable = CfnSimpleTable(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnSimpleTable(id: String, initializer: @AwsCdkDsl
