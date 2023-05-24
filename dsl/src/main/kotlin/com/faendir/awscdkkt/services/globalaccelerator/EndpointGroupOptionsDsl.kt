@@ -1,9 +1,0 @@
-package com.faendir.awscdkkt.services.globalaccelerator
-
-import javax.`annotation`.Generated
-import kotlin.Unit
-import software.amazon.awscdk.services.globalaccelerator.EndpointGroupOptions
-
-@Generated
-public fun endpointGroupOptions(initializer: EndpointGroupOptions.Builder.() -> Unit = {}):
-    EndpointGroupOptions = EndpointGroupOptions.builder().apply(initializer).build()

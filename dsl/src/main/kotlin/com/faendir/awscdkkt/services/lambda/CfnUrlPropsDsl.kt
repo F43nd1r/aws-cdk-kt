@@ -1,9 +1,0 @@
-package com.faendir.awscdkkt.services.lambda
-
-import javax.`annotation`.Generated
-import kotlin.Unit
-import software.amazon.awscdk.services.lambda.CfnUrlProps
-
-@Generated
-public fun cfnUrlProps(initializer: CfnUrlProps.Builder.() -> Unit = {}): CfnUrlProps =
-    CfnUrlProps.builder().apply(initializer).build()

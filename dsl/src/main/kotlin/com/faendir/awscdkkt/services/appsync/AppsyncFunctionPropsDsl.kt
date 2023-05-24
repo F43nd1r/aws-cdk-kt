@@ -1,9 +1,0 @@
-package com.faendir.awscdkkt.services.appsync
-
-import javax.`annotation`.Generated
-import kotlin.Unit
-import software.amazon.awscdk.services.appsync.AppsyncFunctionProps
-
-@Generated
-public fun appsyncFunctionProps(initializer: AppsyncFunctionProps.Builder.() -> Unit = {}):
-    AppsyncFunctionProps = AppsyncFunctionProps.builder().apply(initializer).build()

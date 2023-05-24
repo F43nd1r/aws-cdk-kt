@@ -1,9 +1,0 @@
-package com.faendir.awscdkkt.services.ecs
-
-import javax.`annotation`.Generated
-import kotlin.Unit
-import software.amazon.awscdk.services.ecs.LinuxParametersProps
-
-@Generated
-public fun linuxParametersProps(initializer: LinuxParametersProps.Builder.() -> Unit = {}):
-    LinuxParametersProps = LinuxParametersProps.builder().apply(initializer).build()

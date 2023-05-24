@@ -1,9 +1,0 @@
-package com.faendir.awscdkkt.services.waf.regional
-
-import javax.`annotation`.Generated
-import kotlin.Unit
-import software.amazon.awscdk.services.waf.regional.CfnWebACLAssociationProps
-
-@Generated
-public fun cfnWebACLAssociationProps(initializer: CfnWebACLAssociationProps.Builder.() -> Unit =
-    {}): CfnWebACLAssociationProps = CfnWebACLAssociationProps.builder().apply(initializer).build()

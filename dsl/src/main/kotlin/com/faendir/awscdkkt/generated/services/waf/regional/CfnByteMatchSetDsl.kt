@@ -1,0 +1,25 @@
+package com.faendir.awscdkkt.generated.services.waf.regional
+
+import com.faendir.awscdkkt.AwsCdkDsl
+import javax.`annotation`.Generated
+import kotlin.String
+import kotlin.Unit
+import software.amazon.awscdk.services.waf.regional.CfnByteMatchSet
+import software.amazon.awscdk.services.waf.regional.CfnByteMatchSetProps
+import software.constructs.Construct
+
+@Generated
+public fun Construct.cfnByteMatchSet(id: String, props: CfnByteMatchSetProps): CfnByteMatchSet =
+    CfnByteMatchSet(this, id, props)
+
+@Generated
+public fun Construct.cfnByteMatchSet(
+  id: String,
+  props: CfnByteMatchSetProps,
+  initializer: @AwsCdkDsl CfnByteMatchSet.() -> Unit,
+): CfnByteMatchSet = CfnByteMatchSet(this, id, props).apply(initializer)
+
+@Generated
+public fun Construct.buildCfnByteMatchSet(id: String, initializer: @AwsCdkDsl
+    CfnByteMatchSet.Builder.() -> Unit): CfnByteMatchSet = CfnByteMatchSet.Builder.create(this,
+    id).apply(initializer).build()

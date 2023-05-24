@@ -1,0 +1,11 @@
+package com.faendir.awscdkkt.generated.services.pinpoint
+
+import com.faendir.awscdkkt.AwsCdkDsl
+import javax.`annotation`.Generated
+import kotlin.Unit
+import software.amazon.awscdk.services.pinpoint.CfnSegment
+
+@Generated
+public fun buildBehaviorProperty(initializer: @AwsCdkDsl
+    CfnSegment.BehaviorProperty.Builder.() -> Unit): CfnSegment.BehaviorProperty =
+    CfnSegment.BehaviorProperty.Builder().apply(initializer).build()

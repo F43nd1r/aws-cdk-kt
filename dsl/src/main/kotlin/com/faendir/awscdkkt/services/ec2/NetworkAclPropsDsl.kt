@@ -1,9 +1,0 @@
-package com.faendir.awscdkkt.services.ec2
-
-import javax.`annotation`.Generated
-import kotlin.Unit
-import software.amazon.awscdk.services.ec2.NetworkAclProps
-
-@Generated
-public fun networkAclProps(initializer: NetworkAclProps.Builder.() -> Unit = {}): NetworkAclProps =
-    NetworkAclProps.builder().apply(initializer).build()

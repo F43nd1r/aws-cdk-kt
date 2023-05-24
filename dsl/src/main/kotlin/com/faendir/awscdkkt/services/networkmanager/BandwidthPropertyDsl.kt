@@ -1,9 +1,0 @@
-package com.faendir.awscdkkt.services.networkmanager
-
-import javax.`annotation`.Generated
-import kotlin.Unit
-import software.amazon.awscdk.services.networkmanager.CfnLink
-
-@Generated
-public fun bandwidthProperty(initializer: CfnLink.BandwidthProperty.Builder.() -> Unit = {}):
-    CfnLink.BandwidthProperty = CfnLink.BandwidthProperty.builder().apply(initializer).build()

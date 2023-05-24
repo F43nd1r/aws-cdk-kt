@@ -1,9 +1,0 @@
-package com.faendir.awscdkkt.services.appmesh
-
-import javax.`annotation`.Generated
-import kotlin.Unit
-import software.amazon.awscdk.services.appmesh.HeaderMatchConfig
-
-@Generated
-public fun headerMatchConfig(initializer: HeaderMatchConfig.Builder.() -> Unit = {}):
-    HeaderMatchConfig = HeaderMatchConfig.builder().apply(initializer).build()

@@ -1,9 +1,0 @@
-package com.faendir.awscdkkt.cloudassembly.schema
-
-import javax.`annotation`.Generated
-import kotlin.Unit
-import software.amazon.awscdk.cloudassembly.schema.AssetManifestOptions
-
-@Generated
-public fun assetManifestOptions(initializer: AssetManifestOptions.Builder.() -> Unit = {}):
-    AssetManifestOptions = AssetManifestOptions.builder().apply(initializer).build()

@@ -1,9 +1,0 @@
-package com.faendir.awscdkkt.services.stepfunctions.tasks
-
-import javax.`annotation`.Generated
-import kotlin.Unit
-import software.amazon.awscdk.services.stepfunctions.tasks.DataSource
-
-@Generated
-public fun dataSource(initializer: DataSource.Builder.() -> Unit = {}): DataSource =
-    DataSource.builder().apply(initializer).build()

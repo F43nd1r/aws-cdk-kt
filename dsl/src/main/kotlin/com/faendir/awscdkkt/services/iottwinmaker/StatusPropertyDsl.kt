@@ -1,9 +1,0 @@
-package com.faendir.awscdkkt.services.iottwinmaker
-
-import javax.`annotation`.Generated
-import kotlin.Unit
-import software.amazon.awscdk.services.iottwinmaker.CfnEntity
-
-@Generated
-public fun statusProperty(initializer: CfnEntity.StatusProperty.Builder.() -> Unit = {}):
-    CfnEntity.StatusProperty = CfnEntity.StatusProperty.builder().apply(initializer).build()
