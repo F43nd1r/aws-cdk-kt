@@ -4,14 +4,7 @@ import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.events.targets.SnsTopic
-import software.amazon.awscdk.services.events.targets.SnsTopicProps
 import software.amazon.awscdk.services.sns.ITopic
-
-@Generated
-public fun snsTopic(topic: ITopic): SnsTopic = SnsTopic(topic)
-
-@Generated
-public fun snsTopic(topic: ITopic, props: SnsTopicProps): SnsTopic = SnsTopic(topic, props)
 
 @Generated
 public fun buildSnsTopic(topic: ITopic, initializer: @AwsCdkDsl SnsTopic.Builder.() -> Unit):

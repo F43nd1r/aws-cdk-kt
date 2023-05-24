@@ -9,6 +9,17 @@ import software.amazon.awscdk.services.ecs.patterns.ApplicationMultipleTargetGro
 import software.constructs.Construct
 
 @Generated
+public fun Construct.applicationMultipleTargetGroupsFargateService(id: String):
+    ApplicationMultipleTargetGroupsFargateService =
+    ApplicationMultipleTargetGroupsFargateService(this, id)
+
+@Generated
+public fun Construct.applicationMultipleTargetGroupsFargateService(id: String,
+    initializer: @AwsCdkDsl ApplicationMultipleTargetGroupsFargateService.() -> Unit):
+    ApplicationMultipleTargetGroupsFargateService =
+    ApplicationMultipleTargetGroupsFargateService(this, id).apply(initializer)
+
+@Generated
 public fun Construct.applicationMultipleTargetGroupsFargateService(id: String,
     props: ApplicationMultipleTargetGroupsFargateServiceProps):
     ApplicationMultipleTargetGroupsFargateService =
@@ -21,17 +32,6 @@ public fun Construct.applicationMultipleTargetGroupsFargateService(
   initializer: @AwsCdkDsl ApplicationMultipleTargetGroupsFargateService.() -> Unit,
 ): ApplicationMultipleTargetGroupsFargateService =
     ApplicationMultipleTargetGroupsFargateService(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.applicationMultipleTargetGroupsFargateService(id: String):
-    ApplicationMultipleTargetGroupsFargateService =
-    ApplicationMultipleTargetGroupsFargateService(this, id)
-
-@Generated
-public fun Construct.applicationMultipleTargetGroupsFargateService(id: String,
-    initializer: @AwsCdkDsl ApplicationMultipleTargetGroupsFargateService.() -> Unit):
-    ApplicationMultipleTargetGroupsFargateService =
-    ApplicationMultipleTargetGroupsFargateService(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildApplicationMultipleTargetGroupsFargateService(id: String,

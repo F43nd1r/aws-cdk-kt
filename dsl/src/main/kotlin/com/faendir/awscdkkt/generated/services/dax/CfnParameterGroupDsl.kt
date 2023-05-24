@@ -9,6 +9,14 @@ import software.amazon.awscdk.services.dax.CfnParameterGroupProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnParameterGroup(id: String): CfnParameterGroup = CfnParameterGroup(this, id)
+
+@Generated
+public fun Construct.cfnParameterGroup(id: String, initializer: @AwsCdkDsl
+    CfnParameterGroup.() -> Unit): CfnParameterGroup = CfnParameterGroup(this,
+    id).apply(initializer)
+
+@Generated
 public fun Construct.cfnParameterGroup(id: String, props: CfnParameterGroupProps): CfnParameterGroup
     = CfnParameterGroup(this, id, props)
 
@@ -18,14 +26,6 @@ public fun Construct.cfnParameterGroup(
   props: CfnParameterGroupProps,
   initializer: @AwsCdkDsl CfnParameterGroup.() -> Unit,
 ): CfnParameterGroup = CfnParameterGroup(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnParameterGroup(id: String): CfnParameterGroup = CfnParameterGroup(this, id)
-
-@Generated
-public fun Construct.cfnParameterGroup(id: String, initializer: @AwsCdkDsl
-    CfnParameterGroup.() -> Unit): CfnParameterGroup = CfnParameterGroup(this,
-    id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnParameterGroup(id: String, initializer: @AwsCdkDsl

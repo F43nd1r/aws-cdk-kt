@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.timestream.CfnDatabaseProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnDatabase(id: String): CfnDatabase = CfnDatabase(this, id)
+
+@Generated
+public fun Construct.cfnDatabase(id: String, initializer: @AwsCdkDsl CfnDatabase.() -> Unit):
+    CfnDatabase = CfnDatabase(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnDatabase(id: String, props: CfnDatabaseProps): CfnDatabase =
     CfnDatabase(this, id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.cfnDatabase(
   props: CfnDatabaseProps,
   initializer: @AwsCdkDsl CfnDatabase.() -> Unit,
 ): CfnDatabase = CfnDatabase(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnDatabase(id: String): CfnDatabase = CfnDatabase(this, id)
-
-@Generated
-public fun Construct.cfnDatabase(id: String, initializer: @AwsCdkDsl CfnDatabase.() -> Unit):
-    CfnDatabase = CfnDatabase(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnDatabase(id: String, initializer: @AwsCdkDsl

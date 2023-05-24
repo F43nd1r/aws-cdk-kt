@@ -9,6 +9,15 @@ import software.amazon.awscdk.services.cloudformation.CfnModuleDefaultVersionPro
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnModuleDefaultVersion(id: String): CfnModuleDefaultVersion =
+    CfnModuleDefaultVersion(this, id)
+
+@Generated
+public fun Construct.cfnModuleDefaultVersion(id: String, initializer: @AwsCdkDsl
+    CfnModuleDefaultVersion.() -> Unit): CfnModuleDefaultVersion = CfnModuleDefaultVersion(this,
+    id).apply(initializer)
+
+@Generated
 public fun Construct.cfnModuleDefaultVersion(id: String, props: CfnModuleDefaultVersionProps):
     CfnModuleDefaultVersion = CfnModuleDefaultVersion(this, id, props)
 
@@ -18,15 +27,6 @@ public fun Construct.cfnModuleDefaultVersion(
   props: CfnModuleDefaultVersionProps,
   initializer: @AwsCdkDsl CfnModuleDefaultVersion.() -> Unit,
 ): CfnModuleDefaultVersion = CfnModuleDefaultVersion(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnModuleDefaultVersion(id: String): CfnModuleDefaultVersion =
-    CfnModuleDefaultVersion(this, id)
-
-@Generated
-public fun Construct.cfnModuleDefaultVersion(id: String, initializer: @AwsCdkDsl
-    CfnModuleDefaultVersion.() -> Unit): CfnModuleDefaultVersion = CfnModuleDefaultVersion(this,
-    id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnModuleDefaultVersion(id: String, initializer: @AwsCdkDsl

@@ -9,6 +9,15 @@ import software.amazon.awscdk.services.ecr.CfnPublicRepositoryProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnPublicRepository(id: String): CfnPublicRepository =
+    CfnPublicRepository(this, id)
+
+@Generated
+public fun Construct.cfnPublicRepository(id: String, initializer: @AwsCdkDsl
+    CfnPublicRepository.() -> Unit): CfnPublicRepository = CfnPublicRepository(this,
+    id).apply(initializer)
+
+@Generated
 public fun Construct.cfnPublicRepository(id: String, props: CfnPublicRepositoryProps):
     CfnPublicRepository = CfnPublicRepository(this, id, props)
 
@@ -18,15 +27,6 @@ public fun Construct.cfnPublicRepository(
   props: CfnPublicRepositoryProps,
   initializer: @AwsCdkDsl CfnPublicRepository.() -> Unit,
 ): CfnPublicRepository = CfnPublicRepository(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnPublicRepository(id: String): CfnPublicRepository =
-    CfnPublicRepository(this, id)
-
-@Generated
-public fun Construct.cfnPublicRepository(id: String, initializer: @AwsCdkDsl
-    CfnPublicRepository.() -> Unit): CfnPublicRepository = CfnPublicRepository(this,
-    id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnPublicRepository(id: String, initializer: @AwsCdkDsl

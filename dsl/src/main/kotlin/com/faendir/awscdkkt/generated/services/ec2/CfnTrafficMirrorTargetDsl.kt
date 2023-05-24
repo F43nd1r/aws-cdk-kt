@@ -9,6 +9,15 @@ import software.amazon.awscdk.services.ec2.CfnTrafficMirrorTargetProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnTrafficMirrorTarget(id: String): CfnTrafficMirrorTarget =
+    CfnTrafficMirrorTarget(this, id)
+
+@Generated
+public fun Construct.cfnTrafficMirrorTarget(id: String, initializer: @AwsCdkDsl
+    CfnTrafficMirrorTarget.() -> Unit): CfnTrafficMirrorTarget = CfnTrafficMirrorTarget(this,
+    id).apply(initializer)
+
+@Generated
 public fun Construct.cfnTrafficMirrorTarget(id: String, props: CfnTrafficMirrorTargetProps):
     CfnTrafficMirrorTarget = CfnTrafficMirrorTarget(this, id, props)
 
@@ -18,15 +27,6 @@ public fun Construct.cfnTrafficMirrorTarget(
   props: CfnTrafficMirrorTargetProps,
   initializer: @AwsCdkDsl CfnTrafficMirrorTarget.() -> Unit,
 ): CfnTrafficMirrorTarget = CfnTrafficMirrorTarget(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnTrafficMirrorTarget(id: String): CfnTrafficMirrorTarget =
-    CfnTrafficMirrorTarget(this, id)
-
-@Generated
-public fun Construct.cfnTrafficMirrorTarget(id: String, initializer: @AwsCdkDsl
-    CfnTrafficMirrorTarget.() -> Unit): CfnTrafficMirrorTarget = CfnTrafficMirrorTarget(this,
-    id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnTrafficMirrorTarget(id: String, initializer: @AwsCdkDsl

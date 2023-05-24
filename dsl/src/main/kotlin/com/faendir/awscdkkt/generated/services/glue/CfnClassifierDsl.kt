@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.glue.CfnClassifierProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnClassifier(id: String): CfnClassifier = CfnClassifier(this, id)
+
+@Generated
+public fun Construct.cfnClassifier(id: String, initializer: @AwsCdkDsl CfnClassifier.() -> Unit):
+    CfnClassifier = CfnClassifier(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnClassifier(id: String, props: CfnClassifierProps): CfnClassifier =
     CfnClassifier(this, id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.cfnClassifier(
   props: CfnClassifierProps,
   initializer: @AwsCdkDsl CfnClassifier.() -> Unit,
 ): CfnClassifier = CfnClassifier(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnClassifier(id: String): CfnClassifier = CfnClassifier(this, id)
-
-@Generated
-public fun Construct.cfnClassifier(id: String, initializer: @AwsCdkDsl CfnClassifier.() -> Unit):
-    CfnClassifier = CfnClassifier(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnClassifier(id: String, initializer: @AwsCdkDsl

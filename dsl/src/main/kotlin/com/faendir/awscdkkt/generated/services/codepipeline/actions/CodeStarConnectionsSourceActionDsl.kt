@@ -4,11 +4,6 @@ import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.CodeStarConnectionsSourceAction
-import software.amazon.awscdk.services.codepipeline.actions.CodeStarConnectionsSourceActionProps
-
-@Generated
-public fun codeStarConnectionsSourceAction(props: CodeStarConnectionsSourceActionProps):
-    CodeStarConnectionsSourceAction = CodeStarConnectionsSourceAction(props)
 
 @Generated
 public fun buildCodeStarConnectionsSourceAction(initializer: @AwsCdkDsl

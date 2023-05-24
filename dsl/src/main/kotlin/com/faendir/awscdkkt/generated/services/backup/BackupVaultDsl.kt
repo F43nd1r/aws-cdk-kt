@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.backup.BackupVaultProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.backupVault(id: String): BackupVault = BackupVault(this, id)
+
+@Generated
+public fun Construct.backupVault(id: String, initializer: @AwsCdkDsl BackupVault.() -> Unit):
+    BackupVault = BackupVault(this, id).apply(initializer)
+
+@Generated
 public fun Construct.backupVault(id: String, props: BackupVaultProps): BackupVault =
     BackupVault(this, id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.backupVault(
   props: BackupVaultProps,
   initializer: @AwsCdkDsl BackupVault.() -> Unit,
 ): BackupVault = BackupVault(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.backupVault(id: String): BackupVault = BackupVault(this, id)
-
-@Generated
-public fun Construct.backupVault(id: String, initializer: @AwsCdkDsl BackupVault.() -> Unit):
-    BackupVault = BackupVault(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildBackupVault(id: String, initializer: @AwsCdkDsl

@@ -4,11 +4,6 @@ import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.ecs.GenericLogDriver
-import software.amazon.awscdk.services.ecs.GenericLogDriverProps
-
-@Generated
-public fun genericLogDriver(props: GenericLogDriverProps): GenericLogDriver =
-    GenericLogDriver(props)
 
 @Generated
 public fun buildGenericLogDriver(initializer: @AwsCdkDsl GenericLogDriver.Builder.() -> Unit):

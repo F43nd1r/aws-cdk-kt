@@ -9,6 +9,15 @@ import software.amazon.awscdk.services.iam.CfnServerCertificateProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnServerCertificate(id: String): CfnServerCertificate =
+    CfnServerCertificate(this, id)
+
+@Generated
+public fun Construct.cfnServerCertificate(id: String, initializer: @AwsCdkDsl
+    CfnServerCertificate.() -> Unit): CfnServerCertificate = CfnServerCertificate(this,
+    id).apply(initializer)
+
+@Generated
 public fun Construct.cfnServerCertificate(id: String, props: CfnServerCertificateProps):
     CfnServerCertificate = CfnServerCertificate(this, id, props)
 
@@ -18,15 +27,6 @@ public fun Construct.cfnServerCertificate(
   props: CfnServerCertificateProps,
   initializer: @AwsCdkDsl CfnServerCertificate.() -> Unit,
 ): CfnServerCertificate = CfnServerCertificate(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnServerCertificate(id: String): CfnServerCertificate =
-    CfnServerCertificate(this, id)
-
-@Generated
-public fun Construct.cfnServerCertificate(id: String, initializer: @AwsCdkDsl
-    CfnServerCertificate.() -> Unit): CfnServerCertificate = CfnServerCertificate(this,
-    id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnServerCertificate(id: String, initializer: @AwsCdkDsl

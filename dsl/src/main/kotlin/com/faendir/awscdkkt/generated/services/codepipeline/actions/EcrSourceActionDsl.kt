@@ -4,10 +4,6 @@ import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.EcrSourceAction
-import software.amazon.awscdk.services.codepipeline.actions.EcrSourceActionProps
-
-@Generated
-public fun ecrSourceAction(props: EcrSourceActionProps): EcrSourceAction = EcrSourceAction(props)
 
 @Generated
 public fun buildEcrSourceAction(initializer: @AwsCdkDsl EcrSourceAction.Builder.() -> Unit):

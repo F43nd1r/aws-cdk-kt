@@ -9,6 +9,15 @@ import software.amazon.awscdk.services.greengrassv2.CfnComponentVersionProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnComponentVersion(id: String): CfnComponentVersion =
+    CfnComponentVersion(this, id)
+
+@Generated
+public fun Construct.cfnComponentVersion(id: String, initializer: @AwsCdkDsl
+    CfnComponentVersion.() -> Unit): CfnComponentVersion = CfnComponentVersion(this,
+    id).apply(initializer)
+
+@Generated
 public fun Construct.cfnComponentVersion(id: String, props: CfnComponentVersionProps):
     CfnComponentVersion = CfnComponentVersion(this, id, props)
 
@@ -18,15 +27,6 @@ public fun Construct.cfnComponentVersion(
   props: CfnComponentVersionProps,
   initializer: @AwsCdkDsl CfnComponentVersion.() -> Unit,
 ): CfnComponentVersion = CfnComponentVersion(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnComponentVersion(id: String): CfnComponentVersion =
-    CfnComponentVersion(this, id)
-
-@Generated
-public fun Construct.cfnComponentVersion(id: String, initializer: @AwsCdkDsl
-    CfnComponentVersion.() -> Unit): CfnComponentVersion = CfnComponentVersion(this,
-    id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnComponentVersion(id: String, initializer: @AwsCdkDsl

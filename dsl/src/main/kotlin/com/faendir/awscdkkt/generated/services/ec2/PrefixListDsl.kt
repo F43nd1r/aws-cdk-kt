@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.ec2.PrefixListProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.prefixList(id: String): PrefixList = PrefixList(this, id)
+
+@Generated
+public fun Construct.prefixList(id: String, initializer: @AwsCdkDsl PrefixList.() -> Unit):
+    PrefixList = PrefixList(this, id).apply(initializer)
+
+@Generated
 public fun Construct.prefixList(id: String, props: PrefixListProps): PrefixList = PrefixList(this,
     id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.prefixList(
   props: PrefixListProps,
   initializer: @AwsCdkDsl PrefixList.() -> Unit,
 ): PrefixList = PrefixList(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.prefixList(id: String): PrefixList = PrefixList(this, id)
-
-@Generated
-public fun Construct.prefixList(id: String, initializer: @AwsCdkDsl PrefixList.() -> Unit):
-    PrefixList = PrefixList(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildPrefixList(id: String, initializer: @AwsCdkDsl

@@ -9,6 +9,15 @@ import software.amazon.awscdk.services.inspector.CfnAssessmentTargetProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnAssessmentTarget(id: String): CfnAssessmentTarget =
+    CfnAssessmentTarget(this, id)
+
+@Generated
+public fun Construct.cfnAssessmentTarget(id: String, initializer: @AwsCdkDsl
+    CfnAssessmentTarget.() -> Unit): CfnAssessmentTarget = CfnAssessmentTarget(this,
+    id).apply(initializer)
+
+@Generated
 public fun Construct.cfnAssessmentTarget(id: String, props: CfnAssessmentTargetProps):
     CfnAssessmentTarget = CfnAssessmentTarget(this, id, props)
 
@@ -18,15 +27,6 @@ public fun Construct.cfnAssessmentTarget(
   props: CfnAssessmentTargetProps,
   initializer: @AwsCdkDsl CfnAssessmentTarget.() -> Unit,
 ): CfnAssessmentTarget = CfnAssessmentTarget(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnAssessmentTarget(id: String): CfnAssessmentTarget =
-    CfnAssessmentTarget(this, id)
-
-@Generated
-public fun Construct.cfnAssessmentTarget(id: String, initializer: @AwsCdkDsl
-    CfnAssessmentTarget.() -> Unit): CfnAssessmentTarget = CfnAssessmentTarget(this,
-    id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnAssessmentTarget(id: String, initializer: @AwsCdkDsl

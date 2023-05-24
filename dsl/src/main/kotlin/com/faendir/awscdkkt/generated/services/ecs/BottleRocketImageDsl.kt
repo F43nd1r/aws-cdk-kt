@@ -4,14 +4,6 @@ import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.ecs.BottleRocketImage
-import software.amazon.awscdk.services.ecs.BottleRocketImageProps
-
-@Generated
-public fun bottleRocketImage(): BottleRocketImage = BottleRocketImage()
-
-@Generated
-public fun bottleRocketImage(props: BottleRocketImageProps): BottleRocketImage =
-    BottleRocketImage(props)
 
 @Generated
 public fun buildBottleRocketImage(initializer: @AwsCdkDsl BottleRocketImage.Builder.() -> Unit):

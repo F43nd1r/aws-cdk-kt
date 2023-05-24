@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.medialive.CfnChannelProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnChannel(id: String): CfnChannel = CfnChannel(this, id)
+
+@Generated
+public fun Construct.cfnChannel(id: String, initializer: @AwsCdkDsl CfnChannel.() -> Unit):
+    CfnChannel = CfnChannel(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnChannel(id: String, props: CfnChannelProps): CfnChannel = CfnChannel(this,
     id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.cfnChannel(
   props: CfnChannelProps,
   initializer: @AwsCdkDsl CfnChannel.() -> Unit,
 ): CfnChannel = CfnChannel(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnChannel(id: String): CfnChannel = CfnChannel(this, id)
-
-@Generated
-public fun Construct.cfnChannel(id: String, initializer: @AwsCdkDsl CfnChannel.() -> Unit):
-    CfnChannel = CfnChannel(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnChannel(id: String, initializer: @AwsCdkDsl

@@ -9,6 +9,15 @@ import software.amazon.awscdk.services.ec2.CfnCapacityReservationFleetProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnCapacityReservationFleet(id: String): CfnCapacityReservationFleet =
+    CfnCapacityReservationFleet(this, id)
+
+@Generated
+public fun Construct.cfnCapacityReservationFleet(id: String, initializer: @AwsCdkDsl
+    CfnCapacityReservationFleet.() -> Unit): CfnCapacityReservationFleet =
+    CfnCapacityReservationFleet(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnCapacityReservationFleet(id: String,
     props: CfnCapacityReservationFleetProps): CfnCapacityReservationFleet =
     CfnCapacityReservationFleet(this, id, props)
@@ -19,15 +28,6 @@ public fun Construct.cfnCapacityReservationFleet(
   props: CfnCapacityReservationFleetProps,
   initializer: @AwsCdkDsl CfnCapacityReservationFleet.() -> Unit,
 ): CfnCapacityReservationFleet = CfnCapacityReservationFleet(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnCapacityReservationFleet(id: String): CfnCapacityReservationFleet =
-    CfnCapacityReservationFleet(this, id)
-
-@Generated
-public fun Construct.cfnCapacityReservationFleet(id: String, initializer: @AwsCdkDsl
-    CfnCapacityReservationFleet.() -> Unit): CfnCapacityReservationFleet =
-    CfnCapacityReservationFleet(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnCapacityReservationFleet(id: String, initializer: @AwsCdkDsl

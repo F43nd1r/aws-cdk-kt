@@ -9,6 +9,13 @@ import software.amazon.awscdk.NestedStackProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.nestedStack(id: String): NestedStack = NestedStack(this, id)
+
+@Generated
+public fun Construct.nestedStack(id: String, initializer: @AwsCdkDsl NestedStack.() -> Unit):
+    NestedStack = NestedStack(this, id).apply(initializer)
+
+@Generated
 public fun Construct.nestedStack(id: String, props: NestedStackProps): NestedStack =
     NestedStack(this, id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.nestedStack(
   props: NestedStackProps,
   initializer: @AwsCdkDsl NestedStack.() -> Unit,
 ): NestedStack = NestedStack(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.nestedStack(id: String): NestedStack = NestedStack(this, id)
-
-@Generated
-public fun Construct.nestedStack(id: String, initializer: @AwsCdkDsl NestedStack.() -> Unit):
-    NestedStack = NestedStack(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildNestedStack(id: String, initializer: @AwsCdkDsl

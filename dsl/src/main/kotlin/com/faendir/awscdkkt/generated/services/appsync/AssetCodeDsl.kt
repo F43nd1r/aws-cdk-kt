@@ -5,13 +5,6 @@ import javax.`annotation`.Generated
 import kotlin.String
 import kotlin.Unit
 import software.amazon.awscdk.services.appsync.AssetCode
-import software.amazon.awscdk.services.s3.assets.AssetOptions
-
-@Generated
-public fun assetCode(path: String): AssetCode = AssetCode(path)
-
-@Generated
-public fun assetCode(path: String, options: AssetOptions): AssetCode = AssetCode(path, options)
 
 @Generated
 public fun buildAssetCode(path: String, initializer: @AwsCdkDsl AssetCode.Builder.() -> Unit):

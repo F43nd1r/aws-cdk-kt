@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.ecs.LinuxParametersProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.linuxParameters(id: String): LinuxParameters = LinuxParameters(this, id)
+
+@Generated
+public fun Construct.linuxParameters(id: String, initializer: @AwsCdkDsl
+    LinuxParameters.() -> Unit): LinuxParameters = LinuxParameters(this, id).apply(initializer)
+
+@Generated
 public fun Construct.linuxParameters(id: String, props: LinuxParametersProps): LinuxParameters =
     LinuxParameters(this, id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.linuxParameters(
   props: LinuxParametersProps,
   initializer: @AwsCdkDsl LinuxParameters.() -> Unit,
 ): LinuxParameters = LinuxParameters(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.linuxParameters(id: String): LinuxParameters = LinuxParameters(this, id)
-
-@Generated
-public fun Construct.linuxParameters(id: String, initializer: @AwsCdkDsl
-    LinuxParameters.() -> Unit): LinuxParameters = LinuxParameters(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildLinuxParameters(id: String, initializer: @AwsCdkDsl

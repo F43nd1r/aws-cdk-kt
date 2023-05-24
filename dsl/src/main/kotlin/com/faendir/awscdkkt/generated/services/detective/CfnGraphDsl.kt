@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.detective.CfnGraphProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnGraph(id: String): CfnGraph = CfnGraph(this, id)
+
+@Generated
+public fun Construct.cfnGraph(id: String, initializer: @AwsCdkDsl CfnGraph.() -> Unit): CfnGraph =
+    CfnGraph(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnGraph(id: String, props: CfnGraphProps): CfnGraph = CfnGraph(this, id,
     props)
 
@@ -18,13 +25,6 @@ public fun Construct.cfnGraph(
   props: CfnGraphProps,
   initializer: @AwsCdkDsl CfnGraph.() -> Unit,
 ): CfnGraph = CfnGraph(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnGraph(id: String): CfnGraph = CfnGraph(this, id)
-
-@Generated
-public fun Construct.cfnGraph(id: String, initializer: @AwsCdkDsl CfnGraph.() -> Unit): CfnGraph =
-    CfnGraph(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnGraph(id: String, initializer: @AwsCdkDsl CfnGraph.Builder.() -> Unit):

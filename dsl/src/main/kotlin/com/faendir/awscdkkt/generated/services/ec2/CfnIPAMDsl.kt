@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.ec2.CfnIPAMProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnIPAM(id: String): CfnIPAM = CfnIPAM(this, id)
+
+@Generated
+public fun Construct.cfnIPAM(id: String, initializer: @AwsCdkDsl CfnIPAM.() -> Unit): CfnIPAM =
+    CfnIPAM(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnIPAM(id: String, props: CfnIPAMProps): CfnIPAM = CfnIPAM(this, id, props)
 
 @Generated
@@ -17,13 +24,6 @@ public fun Construct.cfnIPAM(
   props: CfnIPAMProps,
   initializer: @AwsCdkDsl CfnIPAM.() -> Unit,
 ): CfnIPAM = CfnIPAM(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnIPAM(id: String): CfnIPAM = CfnIPAM(this, id)
-
-@Generated
-public fun Construct.cfnIPAM(id: String, initializer: @AwsCdkDsl CfnIPAM.() -> Unit): CfnIPAM =
-    CfnIPAM(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnIPAM(id: String, initializer: @AwsCdkDsl CfnIPAM.Builder.() -> Unit):

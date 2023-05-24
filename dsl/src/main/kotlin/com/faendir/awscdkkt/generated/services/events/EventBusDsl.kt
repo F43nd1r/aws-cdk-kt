@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.events.EventBusProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.eventBus(id: String): EventBus = EventBus(this, id)
+
+@Generated
+public fun Construct.eventBus(id: String, initializer: @AwsCdkDsl EventBus.() -> Unit): EventBus =
+    EventBus(this, id).apply(initializer)
+
+@Generated
 public fun Construct.eventBus(id: String, props: EventBusProps): EventBus = EventBus(this, id,
     props)
 
@@ -18,13 +25,6 @@ public fun Construct.eventBus(
   props: EventBusProps,
   initializer: @AwsCdkDsl EventBus.() -> Unit,
 ): EventBus = EventBus(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.eventBus(id: String): EventBus = EventBus(this, id)
-
-@Generated
-public fun Construct.eventBus(id: String, initializer: @AwsCdkDsl EventBus.() -> Unit): EventBus =
-    EventBus(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildEventBus(id: String, initializer: @AwsCdkDsl EventBus.Builder.() -> Unit):

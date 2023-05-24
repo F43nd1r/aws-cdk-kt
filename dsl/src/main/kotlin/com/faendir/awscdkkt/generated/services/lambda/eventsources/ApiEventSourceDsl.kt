@@ -4,19 +4,7 @@ import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.String
 import kotlin.Unit
-import software.amazon.awscdk.services.apigateway.MethodOptions
 import software.amazon.awscdk.services.lambda.eventsources.ApiEventSource
-
-@Generated
-public fun apiEventSource(method: String, path: String): ApiEventSource = ApiEventSource(method,
-    path)
-
-@Generated
-public fun apiEventSource(
-  method: String,
-  path: String,
-  options: MethodOptions,
-): ApiEventSource = ApiEventSource(method, path, options)
 
 @Generated
 public fun buildApiEventSource(

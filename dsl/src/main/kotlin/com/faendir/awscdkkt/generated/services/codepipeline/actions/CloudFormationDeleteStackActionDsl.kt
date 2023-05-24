@@ -4,11 +4,6 @@ import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.CloudFormationDeleteStackAction
-import software.amazon.awscdk.services.codepipeline.actions.CloudFormationDeleteStackActionProps
-
-@Generated
-public fun cloudFormationDeleteStackAction(props: CloudFormationDeleteStackActionProps):
-    CloudFormationDeleteStackAction = CloudFormationDeleteStackAction(props)
 
 @Generated
 public fun buildCloudFormationDeleteStackAction(initializer: @AwsCdkDsl

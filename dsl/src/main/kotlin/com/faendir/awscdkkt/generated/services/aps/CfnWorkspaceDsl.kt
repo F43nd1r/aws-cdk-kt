@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.aps.CfnWorkspaceProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnWorkspace(id: String): CfnWorkspace = CfnWorkspace(this, id)
+
+@Generated
+public fun Construct.cfnWorkspace(id: String, initializer: @AwsCdkDsl CfnWorkspace.() -> Unit):
+    CfnWorkspace = CfnWorkspace(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnWorkspace(id: String, props: CfnWorkspaceProps): CfnWorkspace =
     CfnWorkspace(this, id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.cfnWorkspace(
   props: CfnWorkspaceProps,
   initializer: @AwsCdkDsl CfnWorkspace.() -> Unit,
 ): CfnWorkspace = CfnWorkspace(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnWorkspace(id: String): CfnWorkspace = CfnWorkspace(this, id)
-
-@Generated
-public fun Construct.cfnWorkspace(id: String, initializer: @AwsCdkDsl CfnWorkspace.() -> Unit):
-    CfnWorkspace = CfnWorkspace(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnWorkspace(id: String, initializer: @AwsCdkDsl

@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.omics.CfnWorkflowProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnWorkflow(id: String): CfnWorkflow = CfnWorkflow(this, id)
+
+@Generated
+public fun Construct.cfnWorkflow(id: String, initializer: @AwsCdkDsl CfnWorkflow.() -> Unit):
+    CfnWorkflow = CfnWorkflow(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnWorkflow(id: String, props: CfnWorkflowProps): CfnWorkflow =
     CfnWorkflow(this, id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.cfnWorkflow(
   props: CfnWorkflowProps,
   initializer: @AwsCdkDsl CfnWorkflow.() -> Unit,
 ): CfnWorkflow = CfnWorkflow(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnWorkflow(id: String): CfnWorkflow = CfnWorkflow(this, id)
-
-@Generated
-public fun Construct.cfnWorkflow(id: String, initializer: @AwsCdkDsl CfnWorkflow.() -> Unit):
-    CfnWorkflow = CfnWorkflow(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnWorkflow(id: String, initializer: @AwsCdkDsl

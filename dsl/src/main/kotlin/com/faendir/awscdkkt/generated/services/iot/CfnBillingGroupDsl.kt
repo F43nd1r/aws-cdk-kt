@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.iot.CfnBillingGroupProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnBillingGroup(id: String): CfnBillingGroup = CfnBillingGroup(this, id)
+
+@Generated
+public fun Construct.cfnBillingGroup(id: String, initializer: @AwsCdkDsl
+    CfnBillingGroup.() -> Unit): CfnBillingGroup = CfnBillingGroup(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnBillingGroup(id: String, props: CfnBillingGroupProps): CfnBillingGroup =
     CfnBillingGroup(this, id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.cfnBillingGroup(
   props: CfnBillingGroupProps,
   initializer: @AwsCdkDsl CfnBillingGroup.() -> Unit,
 ): CfnBillingGroup = CfnBillingGroup(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnBillingGroup(id: String): CfnBillingGroup = CfnBillingGroup(this, id)
-
-@Generated
-public fun Construct.cfnBillingGroup(id: String, initializer: @AwsCdkDsl
-    CfnBillingGroup.() -> Unit): CfnBillingGroup = CfnBillingGroup(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnBillingGroup(id: String, initializer: @AwsCdkDsl

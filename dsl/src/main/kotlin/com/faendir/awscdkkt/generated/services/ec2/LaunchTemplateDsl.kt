@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.ec2.LaunchTemplateProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.launchTemplate(id: String): LaunchTemplate = LaunchTemplate(this, id)
+
+@Generated
+public fun Construct.launchTemplate(id: String, initializer: @AwsCdkDsl LaunchTemplate.() -> Unit):
+    LaunchTemplate = LaunchTemplate(this, id).apply(initializer)
+
+@Generated
 public fun Construct.launchTemplate(id: String, props: LaunchTemplateProps): LaunchTemplate =
     LaunchTemplate(this, id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.launchTemplate(
   props: LaunchTemplateProps,
   initializer: @AwsCdkDsl LaunchTemplate.() -> Unit,
 ): LaunchTemplate = LaunchTemplate(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.launchTemplate(id: String): LaunchTemplate = LaunchTemplate(this, id)
-
-@Generated
-public fun Construct.launchTemplate(id: String, initializer: @AwsCdkDsl LaunchTemplate.() -> Unit):
-    LaunchTemplate = LaunchTemplate(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildLaunchTemplate(id: String, initializer: @AwsCdkDsl

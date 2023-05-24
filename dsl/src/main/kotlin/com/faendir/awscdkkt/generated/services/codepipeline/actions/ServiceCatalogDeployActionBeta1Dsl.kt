@@ -4,11 +4,6 @@ import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.ServiceCatalogDeployActionBeta1
-import software.amazon.awscdk.services.codepipeline.actions.ServiceCatalogDeployActionBeta1Props
-
-@Generated
-public fun serviceCatalogDeployActionBeta1(props: ServiceCatalogDeployActionBeta1Props):
-    ServiceCatalogDeployActionBeta1 = ServiceCatalogDeployActionBeta1(props)
 
 @Generated
 public fun buildServiceCatalogDeployActionBeta1(initializer: @AwsCdkDsl

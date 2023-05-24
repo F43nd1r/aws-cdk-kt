@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.xray.CfnSamplingRuleProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnSamplingRule(id: String): CfnSamplingRule = CfnSamplingRule(this, id)
+
+@Generated
+public fun Construct.cfnSamplingRule(id: String, initializer: @AwsCdkDsl
+    CfnSamplingRule.() -> Unit): CfnSamplingRule = CfnSamplingRule(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnSamplingRule(id: String, props: CfnSamplingRuleProps): CfnSamplingRule =
     CfnSamplingRule(this, id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.cfnSamplingRule(
   props: CfnSamplingRuleProps,
   initializer: @AwsCdkDsl CfnSamplingRule.() -> Unit,
 ): CfnSamplingRule = CfnSamplingRule(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnSamplingRule(id: String): CfnSamplingRule = CfnSamplingRule(this, id)
-
-@Generated
-public fun Construct.cfnSamplingRule(id: String, initializer: @AwsCdkDsl
-    CfnSamplingRule.() -> Unit): CfnSamplingRule = CfnSamplingRule(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnSamplingRule(id: String, initializer: @AwsCdkDsl

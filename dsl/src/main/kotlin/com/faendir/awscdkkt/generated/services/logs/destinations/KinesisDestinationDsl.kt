@@ -5,14 +5,6 @@ import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.kinesis.IStream
 import software.amazon.awscdk.services.logs.destinations.KinesisDestination
-import software.amazon.awscdk.services.logs.destinations.KinesisDestinationProps
-
-@Generated
-public fun kinesisDestination(stream: IStream): KinesisDestination = KinesisDestination(stream)
-
-@Generated
-public fun kinesisDestination(stream: IStream, props: KinesisDestinationProps): KinesisDestination =
-    KinesisDestination(stream, props)
 
 @Generated
 public fun buildKinesisDestination(stream: IStream, initializer: @AwsCdkDsl

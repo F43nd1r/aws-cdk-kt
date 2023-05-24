@@ -9,6 +9,15 @@ import software.amazon.awscdk.services.batch.CfnSchedulingPolicyProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnSchedulingPolicy(id: String): CfnSchedulingPolicy =
+    CfnSchedulingPolicy(this, id)
+
+@Generated
+public fun Construct.cfnSchedulingPolicy(id: String, initializer: @AwsCdkDsl
+    CfnSchedulingPolicy.() -> Unit): CfnSchedulingPolicy = CfnSchedulingPolicy(this,
+    id).apply(initializer)
+
+@Generated
 public fun Construct.cfnSchedulingPolicy(id: String, props: CfnSchedulingPolicyProps):
     CfnSchedulingPolicy = CfnSchedulingPolicy(this, id, props)
 
@@ -18,15 +27,6 @@ public fun Construct.cfnSchedulingPolicy(
   props: CfnSchedulingPolicyProps,
   initializer: @AwsCdkDsl CfnSchedulingPolicy.() -> Unit,
 ): CfnSchedulingPolicy = CfnSchedulingPolicy(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnSchedulingPolicy(id: String): CfnSchedulingPolicy =
-    CfnSchedulingPolicy(this, id)
-
-@Generated
-public fun Construct.cfnSchedulingPolicy(id: String, initializer: @AwsCdkDsl
-    CfnSchedulingPolicy.() -> Unit): CfnSchedulingPolicy = CfnSchedulingPolicy(this,
-    id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnSchedulingPolicy(id: String, initializer: @AwsCdkDsl

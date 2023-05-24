@@ -4,11 +4,6 @@ import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.GitHubSourceAction
-import software.amazon.awscdk.services.codepipeline.actions.GitHubSourceActionProps
-
-@Generated
-public fun gitHubSourceAction(props: GitHubSourceActionProps): GitHubSourceAction =
-    GitHubSourceAction(props)
 
 @Generated
 public fun buildGitHubSourceAction(initializer: @AwsCdkDsl GitHubSourceAction.Builder.() -> Unit):

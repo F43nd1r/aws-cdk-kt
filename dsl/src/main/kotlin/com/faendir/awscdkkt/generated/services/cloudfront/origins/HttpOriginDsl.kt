@@ -5,14 +5,6 @@ import javax.`annotation`.Generated
 import kotlin.String
 import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.origins.HttpOrigin
-import software.amazon.awscdk.services.cloudfront.origins.HttpOriginProps
-
-@Generated
-public fun httpOrigin(domainName: String): HttpOrigin = HttpOrigin(domainName)
-
-@Generated
-public fun httpOrigin(domainName: String, props: HttpOriginProps): HttpOrigin =
-    HttpOrigin(domainName, props)
 
 @Generated
 public fun buildHttpOrigin(domainName: String, initializer: @AwsCdkDsl

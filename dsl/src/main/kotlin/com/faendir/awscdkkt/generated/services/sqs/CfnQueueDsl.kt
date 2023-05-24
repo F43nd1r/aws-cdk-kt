@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.sqs.CfnQueueProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnQueue(id: String): CfnQueue = CfnQueue(this, id)
+
+@Generated
+public fun Construct.cfnQueue(id: String, initializer: @AwsCdkDsl CfnQueue.() -> Unit): CfnQueue =
+    CfnQueue(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnQueue(id: String, props: CfnQueueProps): CfnQueue = CfnQueue(this, id,
     props)
 
@@ -18,13 +25,6 @@ public fun Construct.cfnQueue(
   props: CfnQueueProps,
   initializer: @AwsCdkDsl CfnQueue.() -> Unit,
 ): CfnQueue = CfnQueue(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnQueue(id: String): CfnQueue = CfnQueue(this, id)
-
-@Generated
-public fun Construct.cfnQueue(id: String, initializer: @AwsCdkDsl CfnQueue.() -> Unit): CfnQueue =
-    CfnQueue(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnQueue(id: String, initializer: @AwsCdkDsl CfnQueue.Builder.() -> Unit):

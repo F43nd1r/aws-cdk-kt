@@ -5,13 +5,6 @@ import javax.`annotation`.Generated
 import kotlin.String
 import kotlin.Unit
 import software.amazon.awscdk.RemoveTag
-import software.amazon.awscdk.TagProps
-
-@Generated
-public fun removeTag(key: String): RemoveTag = RemoveTag(key)
-
-@Generated
-public fun removeTag(key: String, props: TagProps): RemoveTag = RemoveTag(key, props)
 
 @Generated
 public fun buildRemoveTag(key: String, initializer: @AwsCdkDsl RemoveTag.Builder.() -> Unit):

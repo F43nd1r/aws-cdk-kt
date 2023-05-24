@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.ec2.PlacementGroupProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.placementGroup(id: String): PlacementGroup = PlacementGroup(this, id)
+
+@Generated
+public fun Construct.placementGroup(id: String, initializer: @AwsCdkDsl PlacementGroup.() -> Unit):
+    PlacementGroup = PlacementGroup(this, id).apply(initializer)
+
+@Generated
 public fun Construct.placementGroup(id: String, props: PlacementGroupProps): PlacementGroup =
     PlacementGroup(this, id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.placementGroup(
   props: PlacementGroupProps,
   initializer: @AwsCdkDsl PlacementGroup.() -> Unit,
 ): PlacementGroup = PlacementGroup(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.placementGroup(id: String): PlacementGroup = PlacementGroup(this, id)
-
-@Generated
-public fun Construct.placementGroup(id: String, initializer: @AwsCdkDsl PlacementGroup.() -> Unit):
-    PlacementGroup = PlacementGroup(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildPlacementGroup(id: String, initializer: @AwsCdkDsl

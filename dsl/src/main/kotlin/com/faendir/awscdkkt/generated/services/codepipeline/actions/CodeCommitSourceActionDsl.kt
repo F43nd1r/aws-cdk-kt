@@ -4,11 +4,6 @@ import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.CodeCommitSourceAction
-import software.amazon.awscdk.services.codepipeline.actions.CodeCommitSourceActionProps
-
-@Generated
-public fun codeCommitSourceAction(props: CodeCommitSourceActionProps): CodeCommitSourceAction =
-    CodeCommitSourceAction(props)
 
 @Generated
 public fun buildCodeCommitSourceAction(initializer: @AwsCdkDsl

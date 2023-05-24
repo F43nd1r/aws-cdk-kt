@@ -9,6 +9,13 @@ import software.amazon.awscdk.services.iot.CfnThingGroupProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnThingGroup(id: String): CfnThingGroup = CfnThingGroup(this, id)
+
+@Generated
+public fun Construct.cfnThingGroup(id: String, initializer: @AwsCdkDsl CfnThingGroup.() -> Unit):
+    CfnThingGroup = CfnThingGroup(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnThingGroup(id: String, props: CfnThingGroupProps): CfnThingGroup =
     CfnThingGroup(this, id, props)
 
@@ -18,13 +25,6 @@ public fun Construct.cfnThingGroup(
   props: CfnThingGroupProps,
   initializer: @AwsCdkDsl CfnThingGroup.() -> Unit,
 ): CfnThingGroup = CfnThingGroup(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnThingGroup(id: String): CfnThingGroup = CfnThingGroup(this, id)
-
-@Generated
-public fun Construct.cfnThingGroup(id: String, initializer: @AwsCdkDsl CfnThingGroup.() -> Unit):
-    CfnThingGroup = CfnThingGroup(this, id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnThingGroup(id: String, initializer: @AwsCdkDsl

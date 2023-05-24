@@ -4,11 +4,6 @@ import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.lambda.eventsources.SelfManagedKafkaEventSource
-import software.amazon.awscdk.services.lambda.eventsources.SelfManagedKafkaEventSourceProps
-
-@Generated
-public fun selfManagedKafkaEventSource(props: SelfManagedKafkaEventSourceProps):
-    SelfManagedKafkaEventSource = SelfManagedKafkaEventSource(props)
 
 @Generated
 public fun buildSelfManagedKafkaEventSource(initializer: @AwsCdkDsl

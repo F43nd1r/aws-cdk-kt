@@ -9,6 +9,15 @@ import software.amazon.awscdk.services.ec2.CfnTrafficMirrorFilterProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnTrafficMirrorFilter(id: String): CfnTrafficMirrorFilter =
+    CfnTrafficMirrorFilter(this, id)
+
+@Generated
+public fun Construct.cfnTrafficMirrorFilter(id: String, initializer: @AwsCdkDsl
+    CfnTrafficMirrorFilter.() -> Unit): CfnTrafficMirrorFilter = CfnTrafficMirrorFilter(this,
+    id).apply(initializer)
+
+@Generated
 public fun Construct.cfnTrafficMirrorFilter(id: String, props: CfnTrafficMirrorFilterProps):
     CfnTrafficMirrorFilter = CfnTrafficMirrorFilter(this, id, props)
 
@@ -18,15 +27,6 @@ public fun Construct.cfnTrafficMirrorFilter(
   props: CfnTrafficMirrorFilterProps,
   initializer: @AwsCdkDsl CfnTrafficMirrorFilter.() -> Unit,
 ): CfnTrafficMirrorFilter = CfnTrafficMirrorFilter(this, id, props).apply(initializer)
-
-@Generated
-public fun Construct.cfnTrafficMirrorFilter(id: String): CfnTrafficMirrorFilter =
-    CfnTrafficMirrorFilter(this, id)
-
-@Generated
-public fun Construct.cfnTrafficMirrorFilter(id: String, initializer: @AwsCdkDsl
-    CfnTrafficMirrorFilter.() -> Unit): CfnTrafficMirrorFilter = CfnTrafficMirrorFilter(this,
-    id).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnTrafficMirrorFilter(id: String, initializer: @AwsCdkDsl

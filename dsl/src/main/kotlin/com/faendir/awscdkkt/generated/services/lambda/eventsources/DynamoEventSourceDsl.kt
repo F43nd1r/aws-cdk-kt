@@ -5,11 +5,6 @@ import javax.`annotation`.Generated
 import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.ITable
 import software.amazon.awscdk.services.lambda.eventsources.DynamoEventSource
-import software.amazon.awscdk.services.lambda.eventsources.DynamoEventSourceProps
-
-@Generated
-public fun dynamoEventSource(table: ITable, props: DynamoEventSourceProps): DynamoEventSource =
-    DynamoEventSource(table, props)
 
 @Generated
 public fun buildDynamoEventSource(table: ITable, initializer: @AwsCdkDsl
