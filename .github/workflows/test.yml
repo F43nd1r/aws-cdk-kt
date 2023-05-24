@@ -1,0 +1,26 @@
+name: test
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '11'
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.ref }}
+      - name: Generate DSL
+        uses: burrunan/gradle-cache-action@v1
+        with:
+          arguments: :dsl-generator:run
+      - name: Test
+        uses: burrunan/gradle-cache-action@v1
+        with:
+          arguments: :example:run
