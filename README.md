@@ -2,7 +2,7 @@
 
 # AWS CDK KT
 
-A generated Kotlin DSL for the [AWS CDK](https://aws.amazon.com/cdk/).
+A generated Kotlin DSL for [AWS CDK](https://aws.amazon.com/cdk/).
 
 # Usage
 
@@ -10,7 +10,7 @@ A generated Kotlin DSL for the [AWS CDK](https://aws.amazon.com/cdk/).
 
 ```kotlin
 dependencies {
-    implementation("com.faendir.awscdkkt:dsl:<latest version>")
+    implementation("com.faendir.awscdkkt:dsl:<version>")
 }
 ```
 
@@ -30,11 +30,11 @@ dependencies {
 ```kotlin
 app {
     stack("LambdaStack") {
-        function("HelloHandler", functionProps {
+        buildFunction("HelloHandler") {
             code(Code.fromInline("function handler() { console.log('Hello, CDK'); }"))
             handler("index.handler")
             runtime(Runtime.NODEJS_16_X)
-        })
+        }
     }
 }.synth()
 ```
