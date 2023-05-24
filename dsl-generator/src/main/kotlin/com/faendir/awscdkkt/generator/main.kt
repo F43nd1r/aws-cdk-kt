@@ -90,10 +90,10 @@ private fun FunSpecBuilder.addParametersFrom(function: KFunction<*>): CodeBlock 
 }
 
 private fun KClass<*>.findBuilderConstructors() = nestedClasses.find { it.simpleName == "Builder" }?.run {
-    constructors.filter { it.visibility == KVisibility.PUBLIC } + staticFunctions.filter { it.returnType.jvmErasure == this }
+    findConstructors() + staticFunctions.filter { it.returnType.jvmErasure == this }.sortedBy { it.toString() }
 } ?: emptyList()
 
-private fun KClass<*>.findConstructors() = constructors.filter { it.visibility == KVisibility.PUBLIC }
+private fun KClass<*>.findConstructors() = constructors.filter { it.visibility == KVisibility.PUBLIC }.sortedBy { it.toString() }
 
 private fun Path.writeDslFile(kClass: KClass<*>, config: FileSpecBuilder.() -> Unit) = buildFile(
     kClass.java.packageName.replace(CDK_PACKAGE, DSL_PACKAGE),
