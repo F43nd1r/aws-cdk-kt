@@ -32,7 +32,6 @@ fun main(args: Array<String>) {
     val cdkVersion = args[1]
     ClassGraph().enableAnnotationInfo().acceptPackages(CDK_PACKAGE).scan().use { scanResult ->
         scanResult.getClassesWithAnnotation(Jsii::class.java)
-            .parallelStream()
             .filter { it.packageName.startsWith(CDK_PACKAGE) }
             .map { it.loadClass().kotlin }
             .forEach { kClass ->
@@ -41,11 +40,11 @@ fun main(args: Array<String>) {
                 if (constructors.isNotEmpty() || builderConstructors.isNotEmpty()) {
                     outputDirectory.writeDslFile(kClass) {
                         constructors.forEach { constructor ->
-                            addDslFunction(kClass) {
-                                val parameters = addParametersFrom(constructor)
-                                addCode("return %T(%L)", kClass, parameters)
-                            }
                             if (!kClass.isAbstract && kClass.isSubclassOf(Construct::class)) {
+                                addDslFunction(kClass) {
+                                    val parameters = addParametersFrom(constructor)
+                                    addCode("return %T(%L)", kClass, parameters)
+                                }
                                 addDslFunction(kClass) {
                                     val parameters = addParametersFrom(constructor)
                                     addInitializerParameter(kClass.asTypeName())
@@ -83,17 +82,27 @@ private fun FunSpecBuilder.addParametersFrom(function: KFunction<*>): CodeBlock 
             receiver(parameter.type.asTypeName())
             codeBlock("this")
         } else {
-            addParameter(parameterNames[index], parameter.type.asTypeName())
-            codeBlock("%L", parameterNames[index])
+            if (parameter.isVararg) {
+                addParameter(ParameterSpec.builder(parameterNames[index], parameter.type.arguments[0].type!!.asTypeName()).addModifiers(KModifier.VARARG).build())
+                codeBlock("*%L", parameterNames[index])
+            } else {
+                addParameter(parameterNames[index], parameter.type.asTypeName())
+                codeBlock("%L", parameterNames[index])
+            }
         }
     }.joinToCode(", ")
 }
 
-private fun KClass<*>.findBuilderConstructors() = nestedClasses.find { it.simpleName == "Builder" }?.run {
-    findConstructors() + staticFunctions.filter { it.returnType.jvmErasure == this }.sortedBy { it.toString() }
-} ?: emptyList()
+private fun KClass<*>.findBuilderConstructors() = nestedClasses
+    .find { it.simpleName == "Builder" }
+    ?.run { findConstructors() + staticFunctions.filter { it.returnType.jvmErasure == this }.sortedBy { it.toString() } }
+    ?: emptyList()
 
-private fun KClass<*>.findConstructors() = constructors.filter { it.visibility == KVisibility.PUBLIC }.sortedBy { it.toString() }
+private fun KClass<*>.findConstructors() = takeIf { !isAbstract && isSubclassOf(Construct::class) }
+    ?.constructors
+    ?.filter { it.visibility == KVisibility.PUBLIC }
+    ?.sortedBy { it.toString() }
+    ?: emptyList()
 
 private fun Path.writeDslFile(kClass: KClass<*>, config: FileSpecBuilder.() -> Unit) = buildFile(
     kClass.java.packageName.replace(CDK_PACKAGE, DSL_PACKAGE),

@@ -26,7 +26,11 @@ application {
 
 tasks {
     run.configure {
-        args("${project.projects.dsl.dependencyProject.projectDir}/src/main/kotlin", libs.versions.cdk.get())
+        val dir = "${project.projects.dsl.dependencyProject.projectDir}/src/main/kotlin"
+        args(dir, libs.versions.cdk.get())
+        doFirst {
+            file("$dir/com/faendir/awscdkkt/generated").deleteRecursively()
+        }
     }
     withType<KotlinCompile> {
         kotlinOptions {
