@@ -35,7 +35,7 @@ fun main(args: Array<String>) {
             .filter { it.packageName.startsWith(CDK_PACKAGE) }
             .map { it.loadClass().kotlin }
             .forEach { kClass ->
-                val constructors = kClass.findConstructors()
+                val constructors = kClass.takeIf { !it.isAbstract && it.isSubclassOf(Construct::class) }?.findConstructors().orEmpty()
                 val builderConstructors = kClass.findBuilderConstructors()
                 if (constructors.isNotEmpty() || builderConstructors.isNotEmpty()) {
                     outputDirectory.writeDslFile(kClass) {
@@ -95,14 +95,12 @@ private fun FunSpecBuilder.addParametersFrom(function: KFunction<*>): CodeBlock 
 
 private fun KClass<*>.findBuilderConstructors() = nestedClasses
     .find { it.simpleName == "Builder" }
-    ?.run { findConstructors() + staticFunctions.filter { it.returnType.jvmErasure == this }.sortedBy { it.toString() } }
-    ?: emptyList()
+    ?.let { builderClass -> builderClass.findConstructors() + builderClass.staticFunctions.filter { it.returnType.jvmErasure == builderClass }.sortedBy { it.toString() } }
+    .orEmpty()
 
-private fun KClass<*>.findConstructors() = takeIf { !isAbstract && isSubclassOf(Construct::class) }
-    ?.constructors
-    ?.filter { it.visibility == KVisibility.PUBLIC }
-    ?.sortedBy { it.toString() }
-    ?: emptyList()
+private fun KClass<*>.findConstructors() = constructors
+    .filter { it.visibility == KVisibility.PUBLIC }
+    .sortedBy { it.toString() }
 
 private fun Path.writeDslFile(kClass: KClass<*>, config: FileSpecBuilder.() -> Unit) = buildFile(
     kClass.java.packageName.replace(CDK_PACKAGE, DSL_PACKAGE),
