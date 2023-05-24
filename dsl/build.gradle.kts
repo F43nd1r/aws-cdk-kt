@@ -106,9 +106,17 @@ tasks.register("isNewRelease") {
     }
 }
 
-val createReleaseTag by tasks.registering(Exec::class) {
-    workingDir(rootProject.projectDir)
-    commandLine("git tag -a \"v$version\" -m \"Create version $version\" && git push --tags")
+val createReleaseTag by tasks.registering {
+    doLast {
+        exec {
+            workingDir(rootProject.rootDir)
+            commandLine("git", "tag", "-a", "v$version", "-m", "Create version $version")
+        }
+        exec {
+            workingDir(rootProject.rootDir)
+            commandLine("git", "push", "--tags")
+        }
+    }
 }
 
 tasks.publish.configure {

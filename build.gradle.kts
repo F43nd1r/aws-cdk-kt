@@ -1,14 +1,7 @@
 plugins {
-    alias(libs.plugins.jgitver)
     alias(libs.plugins.nexusPublish)
     alias(libs.plugins.kotlin) apply false
     alias(libs.plugins.dokka)
-}
-
-jgitver {
-    regexVersionTag = "v([0-9]+(?:\\.[0-9]+){0,2}(?:-[a-zA-Z0-9\\-_]+)?)"
-    useDistance = false
-    autoIncrementPatch = false
 }
 
 tasks.register("build") {
