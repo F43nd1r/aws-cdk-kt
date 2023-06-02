@@ -9,13 +9,6 @@ import software.amazon.awscdk.services.xray.CfnGroupProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnGroup(id: String): CfnGroup = CfnGroup(this, id)
-
-@Generated
-public fun Construct.cfnGroup(id: String, initializer: @AwsCdkDsl CfnGroup.() -> Unit): CfnGroup =
-    CfnGroup(this, id).apply(initializer)
-
-@Generated
 public fun Construct.cfnGroup(id: String, props: CfnGroupProps): CfnGroup = CfnGroup(this, id,
     props)
 
