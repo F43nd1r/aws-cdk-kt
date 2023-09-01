@@ -48,6 +48,11 @@ jobs:
           GITHUB_USER: github-action
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         continue-on-error: true
+      - name: Setup git user
+        if: steps.isNewRelease.outcome == 'success'
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
       - name: Publish
         uses: burrunan/gradle-cache-action@v1
         if: steps.isNewRelease.outcome == 'success'
