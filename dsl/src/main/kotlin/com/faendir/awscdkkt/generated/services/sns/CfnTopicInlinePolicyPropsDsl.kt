@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sns.CfnTopicInlinePolicyProps
 
 @Generated
 public fun buildCfnTopicInlinePolicyProps(initializer: @AwsCdkDsl
-    CfnTopicInlinePolicyProps.Builder.() -> Unit): CfnTopicInlinePolicyProps =
+    CfnTopicInlinePolicyProps.Builder.() -> Unit = {}): CfnTopicInlinePolicyProps =
     CfnTopicInlinePolicyProps.Builder().apply(initializer).build()

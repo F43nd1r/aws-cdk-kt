@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildMinimumLabelTypeProperty(initializer: @AwsCdkDsl
-    CfnTemplate.MinimumLabelTypeProperty.Builder.() -> Unit): CfnTemplate.MinimumLabelTypeProperty =
+    CfnTemplate.MinimumLabelTypeProperty.Builder.() -> Unit = {}):
+    CfnTemplate.MinimumLabelTypeProperty =
     CfnTemplate.MinimumLabelTypeProperty.Builder().apply(initializer).build()

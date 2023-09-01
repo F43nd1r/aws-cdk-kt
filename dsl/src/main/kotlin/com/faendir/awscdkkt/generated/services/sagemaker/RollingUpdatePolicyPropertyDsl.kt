@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnEndpoint
 
 @Generated
 public fun buildRollingUpdatePolicyProperty(initializer: @AwsCdkDsl
-    CfnEndpoint.RollingUpdatePolicyProperty.Builder.() -> Unit):
+    CfnEndpoint.RollingUpdatePolicyProperty.Builder.() -> Unit = {}):
     CfnEndpoint.RollingUpdatePolicyProperty =
     CfnEndpoint.RollingUpdatePolicyProperty.Builder().apply(initializer).build()

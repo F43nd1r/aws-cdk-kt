@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lex.CfnBotAlias
 
 @Generated
 public fun buildTextLogDestinationProperty(initializer: @AwsCdkDsl
-    CfnBotAlias.TextLogDestinationProperty.Builder.() -> Unit):
+    CfnBotAlias.TextLogDestinationProperty.Builder.() -> Unit = {}):
     CfnBotAlias.TextLogDestinationProperty =
     CfnBotAlias.TextLogDestinationProperty.Builder().apply(initializer).build()

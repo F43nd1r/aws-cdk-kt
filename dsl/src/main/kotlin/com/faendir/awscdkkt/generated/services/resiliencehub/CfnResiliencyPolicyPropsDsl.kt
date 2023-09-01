@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.resiliencehub.CfnResiliencyPolicyProps
 
 @Generated
 public fun buildCfnResiliencyPolicyProps(initializer: @AwsCdkDsl
-    CfnResiliencyPolicyProps.Builder.() -> Unit): CfnResiliencyPolicyProps =
+    CfnResiliencyPolicyProps.Builder.() -> Unit = {}): CfnResiliencyPolicyProps =
     CfnResiliencyPolicyProps.Builder().apply(initializer).build()

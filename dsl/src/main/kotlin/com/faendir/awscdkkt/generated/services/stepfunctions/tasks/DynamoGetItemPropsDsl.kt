@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.DynamoGetItemProps
 
 @Generated
-public fun buildDynamoGetItemProps(initializer: @AwsCdkDsl DynamoGetItemProps.Builder.() -> Unit):
-    DynamoGetItemProps = DynamoGetItemProps.Builder().apply(initializer).build()
+public fun buildDynamoGetItemProps(initializer: @AwsCdkDsl DynamoGetItemProps.Builder.() -> Unit =
+    {}): DynamoGetItemProps = DynamoGetItemProps.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.cognito.UserPoolIdentityProviderGooglePro
 
 @Generated
 public fun buildUserPoolIdentityProviderGoogleProps(initializer: @AwsCdkDsl
-    UserPoolIdentityProviderGoogleProps.Builder.() -> Unit): UserPoolIdentityProviderGoogleProps =
+    UserPoolIdentityProviderGoogleProps.Builder.() -> Unit = {}):
+    UserPoolIdentityProviderGoogleProps =
     UserPoolIdentityProviderGoogleProps.Builder().apply(initializer).build()

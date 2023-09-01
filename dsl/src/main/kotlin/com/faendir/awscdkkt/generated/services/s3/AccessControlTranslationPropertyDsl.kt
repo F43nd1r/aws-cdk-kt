@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
 public fun buildAccessControlTranslationProperty(initializer: @AwsCdkDsl
-    CfnBucket.AccessControlTranslationProperty.Builder.() -> Unit):
+    CfnBucket.AccessControlTranslationProperty.Builder.() -> Unit = {}):
     CfnBucket.AccessControlTranslationProperty =
     CfnBucket.AccessControlTranslationProperty.Builder().apply(initializer).build()

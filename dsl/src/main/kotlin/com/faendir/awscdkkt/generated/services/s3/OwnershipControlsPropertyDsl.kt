@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
 public fun buildOwnershipControlsProperty(initializer: @AwsCdkDsl
-    CfnBucket.OwnershipControlsProperty.Builder.() -> Unit): CfnBucket.OwnershipControlsProperty =
+    CfnBucket.OwnershipControlsProperty.Builder.() -> Unit = {}):
+    CfnBucket.OwnershipControlsProperty =
     CfnBucket.OwnershipControlsProperty.Builder().apply(initializer).build()

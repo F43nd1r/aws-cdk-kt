@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnVPCEndpointConnectionNotificationP
 
 @Generated
 public fun buildCfnVPCEndpointConnectionNotificationProps(initializer: @AwsCdkDsl
-    CfnVPCEndpointConnectionNotificationProps.Builder.() -> Unit):
+    CfnVPCEndpointConnectionNotificationProps.Builder.() -> Unit = {}):
     CfnVPCEndpointConnectionNotificationProps =
     CfnVPCEndpointConnectionNotificationProps.Builder().apply(initializer).build()

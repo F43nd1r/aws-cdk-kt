@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelPackage
 
 @Generated
 public fun buildDriftCheckExplainabilityProperty(initializer: @AwsCdkDsl
-    CfnModelPackage.DriftCheckExplainabilityProperty.Builder.() -> Unit):
+    CfnModelPackage.DriftCheckExplainabilityProperty.Builder.() -> Unit = {}):
     CfnModelPackage.DriftCheckExplainabilityProperty =
     CfnModelPackage.DriftCheckExplainabilityProperty.Builder().apply(initializer).build()

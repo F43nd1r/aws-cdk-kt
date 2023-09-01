@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.CpuUtilizationScalingProps
 
 @Generated
 public fun buildCpuUtilizationScalingProps(initializer: @AwsCdkDsl
-    CpuUtilizationScalingProps.Builder.() -> Unit): CpuUtilizationScalingProps =
+    CpuUtilizationScalingProps.Builder.() -> Unit = {}): CpuUtilizationScalingProps =
     CpuUtilizationScalingProps.Builder().apply(initializer).build()

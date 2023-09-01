@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kendra.CfnDataSource
 
 @Generated
 public fun buildServiceNowKnowledgeArticleConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.ServiceNowKnowledgeArticleConfigurationProperty.Builder.() -> Unit):
+    CfnDataSource.ServiceNowKnowledgeArticleConfigurationProperty.Builder.() -> Unit = {}):
     CfnDataSource.ServiceNowKnowledgeArticleConfigurationProperty =
     CfnDataSource.ServiceNowKnowledgeArticleConfigurationProperty.Builder().apply(initializer).build()

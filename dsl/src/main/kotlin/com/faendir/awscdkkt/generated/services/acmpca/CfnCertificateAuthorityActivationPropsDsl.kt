@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.acmpca.CfnCertificateAuthorityActivationP
 
 @Generated
 public fun buildCfnCertificateAuthorityActivationProps(initializer: @AwsCdkDsl
-    CfnCertificateAuthorityActivationProps.Builder.() -> Unit):
+    CfnCertificateAuthorityActivationProps.Builder.() -> Unit = {}):
     CfnCertificateAuthorityActivationProps =
     CfnCertificateAuthorityActivationProps.Builder().apply(initializer).build()

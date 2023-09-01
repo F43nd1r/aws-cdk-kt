@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cloudfront.CfnStreamingDistribution
 
 @Generated
 public fun buildLoggingProperty(initializer: @AwsCdkDsl
-    CfnStreamingDistribution.LoggingProperty.Builder.() -> Unit):
+    CfnStreamingDistribution.LoggingProperty.Builder.() -> Unit = {}):
     CfnStreamingDistribution.LoggingProperty =
     CfnStreamingDistribution.LoggingProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelPackage
 
 @Generated
 public fun buildModelPackageStatusItemProperty(initializer: @AwsCdkDsl
-    CfnModelPackage.ModelPackageStatusItemProperty.Builder.() -> Unit):
+    CfnModelPackage.ModelPackageStatusItemProperty.Builder.() -> Unit = {}):
     CfnModelPackage.ModelPackageStatusItemProperty =
     CfnModelPackage.ModelPackageStatusItemProperty.Builder().apply(initializer).build()

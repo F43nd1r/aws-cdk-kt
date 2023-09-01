@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lightsail.CfnLoadBalancerTlsCertificatePr
 
 @Generated
 public fun buildCfnLoadBalancerTlsCertificateProps(initializer: @AwsCdkDsl
-    CfnLoadBalancerTlsCertificateProps.Builder.() -> Unit): CfnLoadBalancerTlsCertificateProps =
-    CfnLoadBalancerTlsCertificateProps.Builder().apply(initializer).build()
+    CfnLoadBalancerTlsCertificateProps.Builder.() -> Unit = {}): CfnLoadBalancerTlsCertificateProps
+    = CfnLoadBalancerTlsCertificateProps.Builder().apply(initializer).build()

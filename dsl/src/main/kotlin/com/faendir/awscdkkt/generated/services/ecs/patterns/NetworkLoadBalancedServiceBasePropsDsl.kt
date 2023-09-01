@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.ecs.patterns.NetworkLoadBalancedServiceBa
 
 @Generated
 public fun buildNetworkLoadBalancedServiceBaseProps(initializer: @AwsCdkDsl
-    NetworkLoadBalancedServiceBaseProps.Builder.() -> Unit): NetworkLoadBalancedServiceBaseProps =
+    NetworkLoadBalancedServiceBaseProps.Builder.() -> Unit = {}):
+    NetworkLoadBalancedServiceBaseProps =
     NetworkLoadBalancedServiceBaseProps.Builder().apply(initializer).build()

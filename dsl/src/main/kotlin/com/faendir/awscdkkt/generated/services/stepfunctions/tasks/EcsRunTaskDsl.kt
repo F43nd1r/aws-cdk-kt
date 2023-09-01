@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EcsRunTaskProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.ecsRunTask(id: String, props: EcsRunTaskProps): EcsRunTask = EcsRunTask(this,
-    id, props)
-
-@Generated
 public fun Construct.ecsRunTask(
   id: String,
   props: EcsRunTaskProps,
-  initializer: @AwsCdkDsl EcsRunTask.() -> Unit,
+  initializer: @AwsCdkDsl EcsRunTask.() -> Unit = {},
 ): EcsRunTask = EcsRunTask(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildEcsRunTask(id: String, initializer: @AwsCdkDsl
-    EcsRunTask.Builder.() -> Unit): EcsRunTask = EcsRunTask.Builder.create(this,
+    EcsRunTask.Builder.() -> Unit = {}): EcsRunTask = EcsRunTask.Builder.create(this,
     id).apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildTableConditionalFormattingProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TableConditionalFormattingProperty.Builder.() -> Unit):
+    CfnTemplate.TableConditionalFormattingProperty.Builder.() -> Unit = {}):
     CfnTemplate.TableConditionalFormattingProperty =
     CfnTemplate.TableConditionalFormattingProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildWavSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.WavSettingsProperty.Builder.() -> Unit): CfnChannel.WavSettingsProperty =
+    CfnChannel.WavSettingsProperty.Builder.() -> Unit = {}): CfnChannel.WavSettingsProperty =
     CfnChannel.WavSettingsProperty.Builder().apply(initializer).build()

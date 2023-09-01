@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.VpcLookupOptions
 
 @Generated
-public fun buildVpcLookupOptions(initializer: @AwsCdkDsl VpcLookupOptions.Builder.() -> Unit):
+public fun buildVpcLookupOptions(initializer: @AwsCdkDsl VpcLookupOptions.Builder.() -> Unit = {}):
     VpcLookupOptions = VpcLookupOptions.Builder().apply(initializer).build()

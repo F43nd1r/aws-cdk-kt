@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connectcampaigns.CfnCampaignProps
 
 @Generated
-public fun buildCfnCampaignProps(initializer: @AwsCdkDsl CfnCampaignProps.Builder.() -> Unit):
+public fun buildCfnCampaignProps(initializer: @AwsCdkDsl CfnCampaignProps.Builder.() -> Unit = {}):
     CfnCampaignProps = CfnCampaignProps.Builder().apply(initializer).build()

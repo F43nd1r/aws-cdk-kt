@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lambda.EventSourceMappingOptions
 
 @Generated
 public fun buildEventSourceMappingOptions(initializer: @AwsCdkDsl
-    EventSourceMappingOptions.Builder.() -> Unit): EventSourceMappingOptions =
+    EventSourceMappingOptions.Builder.() -> Unit = {}): EventSourceMappingOptions =
     EventSourceMappingOptions.Builder().apply(initializer).build()

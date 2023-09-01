@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.EcrSourceActionProps
 
 @Generated
-public fun buildEcrSourceActionProps(initializer: @AwsCdkDsl
-    EcrSourceActionProps.Builder.() -> Unit): EcrSourceActionProps =
-    EcrSourceActionProps.Builder().apply(initializer).build()
+public fun buildEcrSourceActionProps(initializer: @AwsCdkDsl EcrSourceActionProps.Builder.() -> Unit
+    = {}): EcrSourceActionProps = EcrSourceActionProps.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.msk.CfnClusterPolicyProps
 
 @Generated
 public fun buildCfnClusterPolicyProps(initializer: @AwsCdkDsl
-    CfnClusterPolicyProps.Builder.() -> Unit): CfnClusterPolicyProps =
+    CfnClusterPolicyProps.Builder.() -> Unit = {}): CfnClusterPolicyProps =
     CfnClusterPolicyProps.Builder().apply(initializer).build()

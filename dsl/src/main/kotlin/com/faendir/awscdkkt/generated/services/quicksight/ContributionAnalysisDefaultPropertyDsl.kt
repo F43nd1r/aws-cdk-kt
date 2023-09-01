@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildContributionAnalysisDefaultProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ContributionAnalysisDefaultProperty.Builder.() -> Unit):
+    CfnTemplate.ContributionAnalysisDefaultProperty.Builder.() -> Unit = {}):
     CfnTemplate.ContributionAnalysisDefaultProperty =
     CfnTemplate.ContributionAnalysisDefaultProperty.Builder().apply(initializer).build()

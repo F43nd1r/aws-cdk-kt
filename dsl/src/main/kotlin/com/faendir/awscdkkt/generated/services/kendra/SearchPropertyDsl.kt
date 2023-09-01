@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kendra.CfnIndex
 
 @Generated
-public fun buildSearchProperty(initializer: @AwsCdkDsl CfnIndex.SearchProperty.Builder.() -> Unit):
-    CfnIndex.SearchProperty = CfnIndex.SearchProperty.Builder().apply(initializer).build()
+public fun buildSearchProperty(initializer: @AwsCdkDsl CfnIndex.SearchProperty.Builder.() -> Unit =
+    {}): CfnIndex.SearchProperty = CfnIndex.SearchProperty.Builder().apply(initializer).build()

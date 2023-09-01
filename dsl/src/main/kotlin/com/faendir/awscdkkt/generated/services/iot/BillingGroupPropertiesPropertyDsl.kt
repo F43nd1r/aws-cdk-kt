@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iot.CfnBillingGroup
 
 @Generated
 public fun buildBillingGroupPropertiesProperty(initializer: @AwsCdkDsl
-    CfnBillingGroup.BillingGroupPropertiesProperty.Builder.() -> Unit):
+    CfnBillingGroup.BillingGroupPropertiesProperty.Builder.() -> Unit = {}):
     CfnBillingGroup.BillingGroupPropertiesProperty =
     CfnBillingGroup.BillingGroupPropertiesProperty.Builder().apply(initializer).build()

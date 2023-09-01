@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.secretsmanager.CfnSecretTargetAttachmentP
 
 @Generated
 public fun buildCfnSecretTargetAttachmentProps(initializer: @AwsCdkDsl
-    CfnSecretTargetAttachmentProps.Builder.() -> Unit): CfnSecretTargetAttachmentProps =
+    CfnSecretTargetAttachmentProps.Builder.() -> Unit = {}): CfnSecretTargetAttachmentProps =
     CfnSecretTargetAttachmentProps.Builder().apply(initializer).build()

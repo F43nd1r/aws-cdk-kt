@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.groundstation.CfnConfig
 
 @Generated
 public fun buildDataflowEndpointConfigProperty(initializer: @AwsCdkDsl
-    CfnConfig.DataflowEndpointConfigProperty.Builder.() -> Unit):
+    CfnConfig.DataflowEndpointConfigProperty.Builder.() -> Unit = {}):
     CfnConfig.DataflowEndpointConfigProperty =
     CfnConfig.DataflowEndpointConfigProperty.Builder().apply(initializer).build()

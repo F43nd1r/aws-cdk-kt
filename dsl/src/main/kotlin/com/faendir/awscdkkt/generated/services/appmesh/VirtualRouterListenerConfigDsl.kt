@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appmesh.VirtualRouterListenerConfig
 
 @Generated
 public fun buildVirtualRouterListenerConfig(initializer: @AwsCdkDsl
-    VirtualRouterListenerConfig.Builder.() -> Unit): VirtualRouterListenerConfig =
+    VirtualRouterListenerConfig.Builder.() -> Unit = {}): VirtualRouterListenerConfig =
     VirtualRouterListenerConfig.Builder().apply(initializer).build()

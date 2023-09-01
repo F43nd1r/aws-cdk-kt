@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDataSource
 
 @Generated
 public fun buildTeradataParametersProperty(initializer: @AwsCdkDsl
-    CfnDataSource.TeradataParametersProperty.Builder.() -> Unit):
+    CfnDataSource.TeradataParametersProperty.Builder.() -> Unit = {}):
     CfnDataSource.TeradataParametersProperty =
     CfnDataSource.TeradataParametersProperty.Builder().apply(initializer).build()

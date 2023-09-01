@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnMonitoringSchedule
 
 @Generated
 public fun buildBatchTransformInputProperty(initializer: @AwsCdkDsl
-    CfnMonitoringSchedule.BatchTransformInputProperty.Builder.() -> Unit):
+    CfnMonitoringSchedule.BatchTransformInputProperty.Builder.() -> Unit = {}):
     CfnMonitoringSchedule.BatchTransformInputProperty =
     CfnMonitoringSchedule.BatchTransformInputProperty.Builder().apply(initializer).build()

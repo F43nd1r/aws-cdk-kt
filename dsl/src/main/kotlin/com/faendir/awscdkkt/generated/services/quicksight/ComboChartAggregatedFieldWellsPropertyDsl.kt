@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildComboChartAggregatedFieldWellsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ComboChartAggregatedFieldWellsProperty.Builder.() -> Unit):
+    CfnTemplate.ComboChartAggregatedFieldWellsProperty.Builder.() -> Unit = {}):
     CfnTemplate.ComboChartAggregatedFieldWellsProperty =
     CfnTemplate.ComboChartAggregatedFieldWellsProperty.Builder().apply(initializer).build()

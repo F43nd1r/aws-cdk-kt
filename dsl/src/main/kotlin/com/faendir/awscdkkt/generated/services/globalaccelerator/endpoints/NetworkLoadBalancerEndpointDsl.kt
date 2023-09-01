@@ -8,6 +8,6 @@ import software.amazon.awscdk.services.globalaccelerator.endpoints.NetworkLoadBa
 
 @Generated
 public fun buildNetworkLoadBalancerEndpoint(loadBalancer: INetworkLoadBalancer,
-    initializer: @AwsCdkDsl NetworkLoadBalancerEndpoint.Builder.() -> Unit):
+    initializer: @AwsCdkDsl NetworkLoadBalancerEndpoint.Builder.() -> Unit = {}):
     NetworkLoadBalancerEndpoint =
     NetworkLoadBalancerEndpoint.Builder.create(loadBalancer).apply(initializer).build()

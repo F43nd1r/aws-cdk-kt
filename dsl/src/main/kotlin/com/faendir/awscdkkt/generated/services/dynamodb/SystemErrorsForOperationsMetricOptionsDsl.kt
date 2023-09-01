@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.dynamodb.SystemErrorsForOperationsMetricO
 
 @Generated
 public fun buildSystemErrorsForOperationsMetricOptions(initializer: @AwsCdkDsl
-    SystemErrorsForOperationsMetricOptions.Builder.() -> Unit):
+    SystemErrorsForOperationsMetricOptions.Builder.() -> Unit = {}):
     SystemErrorsForOperationsMetricOptions =
     SystemErrorsForOperationsMetricOptions.Builder().apply(initializer).build()

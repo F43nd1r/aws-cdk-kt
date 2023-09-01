@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.licensemanager.CfnLicense
 
 @Generated
 public fun buildMetadataProperty(initializer: @AwsCdkDsl
-    CfnLicense.MetadataProperty.Builder.() -> Unit): CfnLicense.MetadataProperty =
+    CfnLicense.MetadataProperty.Builder.() -> Unit = {}): CfnLicense.MetadataProperty =
     CfnLicense.MetadataProperty.Builder().apply(initializer).build()

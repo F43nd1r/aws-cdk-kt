@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.mediatailor.CfnChannelPolicyProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnChannelPolicy(id: String, props: CfnChannelPolicyProps): CfnChannelPolicy =
-    CfnChannelPolicy(this, id, props)
-
-@Generated
 public fun Construct.cfnChannelPolicy(
   id: String,
   props: CfnChannelPolicyProps,
-  initializer: @AwsCdkDsl CfnChannelPolicy.() -> Unit,
+  initializer: @AwsCdkDsl CfnChannelPolicy.() -> Unit = {},
 ): CfnChannelPolicy = CfnChannelPolicy(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnChannelPolicy(id: String, initializer: @AwsCdkDsl
-    CfnChannelPolicy.Builder.() -> Unit): CfnChannelPolicy = CfnChannelPolicy.Builder.create(this,
-    id).apply(initializer).build()
+    CfnChannelPolicy.Builder.() -> Unit = {}): CfnChannelPolicy =
+    CfnChannelPolicy.Builder.create(this, id).apply(initializer).build()

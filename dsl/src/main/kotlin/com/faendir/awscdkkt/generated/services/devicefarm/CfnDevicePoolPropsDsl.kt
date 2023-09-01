@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.devicefarm.CfnDevicePoolProps
 
 @Generated
-public fun buildCfnDevicePoolProps(initializer: @AwsCdkDsl CfnDevicePoolProps.Builder.() -> Unit):
-    CfnDevicePoolProps = CfnDevicePoolProps.Builder().apply(initializer).build()
+public fun buildCfnDevicePoolProps(initializer: @AwsCdkDsl CfnDevicePoolProps.Builder.() -> Unit =
+    {}): CfnDevicePoolProps = CfnDevicePoolProps.Builder().apply(initializer).build()

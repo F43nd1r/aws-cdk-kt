@@ -9,15 +9,12 @@ import software.amazon.awscdk.services.location.CfnMapProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnMap(id: String, props: CfnMapProps): CfnMap = CfnMap(this, id, props)
-
-@Generated
 public fun Construct.cfnMap(
   id: String,
   props: CfnMapProps,
-  initializer: @AwsCdkDsl CfnMap.() -> Unit,
+  initializer: @AwsCdkDsl CfnMap.() -> Unit = {},
 ): CfnMap = CfnMap(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMap(id: String, initializer: @AwsCdkDsl CfnMap.Builder.() -> Unit):
-    CfnMap = CfnMap.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMap(id: String, initializer: @AwsCdkDsl CfnMap.Builder.() -> Unit =
+    {}): CfnMap = CfnMap.Builder.create(this, id).apply(initializer).build()

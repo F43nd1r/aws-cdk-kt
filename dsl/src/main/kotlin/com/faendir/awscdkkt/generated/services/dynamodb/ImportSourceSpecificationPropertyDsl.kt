@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.dynamodb.CfnTable
 
 @Generated
 public fun buildImportSourceSpecificationProperty(initializer: @AwsCdkDsl
-    CfnTable.ImportSourceSpecificationProperty.Builder.() -> Unit):
+    CfnTable.ImportSourceSpecificationProperty.Builder.() -> Unit = {}):
     CfnTable.ImportSourceSpecificationProperty =
     CfnTable.ImportSourceSpecificationProperty.Builder().apply(initializer).build()

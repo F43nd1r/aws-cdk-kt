@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
 public fun buildRedshiftDestinationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.RedshiftDestinationConfigurationProperty.Builder.() -> Unit):
+    CfnDeliveryStream.RedshiftDestinationConfigurationProperty.Builder.() -> Unit = {}):
     CfnDeliveryStream.RedshiftDestinationConfigurationProperty =
     CfnDeliveryStream.RedshiftDestinationConfigurationProperty.Builder().apply(initializer).build()

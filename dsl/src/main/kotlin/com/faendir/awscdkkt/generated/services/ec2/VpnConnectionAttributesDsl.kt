@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.VpnConnectionAttributes
 
 @Generated
 public fun buildVpnConnectionAttributes(initializer: @AwsCdkDsl
-    VpnConnectionAttributes.Builder.() -> Unit): VpnConnectionAttributes =
+    VpnConnectionAttributes.Builder.() -> Unit = {}): VpnConnectionAttributes =
     VpnConnectionAttributes.Builder().apply(initializer).build()

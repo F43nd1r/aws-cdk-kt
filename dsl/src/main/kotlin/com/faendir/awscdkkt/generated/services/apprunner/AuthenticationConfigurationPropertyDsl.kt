@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.apprunner.CfnService
 
 @Generated
 public fun buildAuthenticationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnService.AuthenticationConfigurationProperty.Builder.() -> Unit):
+    CfnService.AuthenticationConfigurationProperty.Builder.() -> Unit = {}):
     CfnService.AuthenticationConfigurationProperty =
     CfnService.AuthenticationConfigurationProperty.Builder().apply(initializer).build()

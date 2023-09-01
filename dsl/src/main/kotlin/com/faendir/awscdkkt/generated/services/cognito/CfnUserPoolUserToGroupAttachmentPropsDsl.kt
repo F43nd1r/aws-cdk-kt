@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.cognito.CfnUserPoolUserToGroupAttachmentP
 
 @Generated
 public fun buildCfnUserPoolUserToGroupAttachmentProps(initializer: @AwsCdkDsl
-    CfnUserPoolUserToGroupAttachmentProps.Builder.() -> Unit): CfnUserPoolUserToGroupAttachmentProps
-    = CfnUserPoolUserToGroupAttachmentProps.Builder().apply(initializer).build()
+    CfnUserPoolUserToGroupAttachmentProps.Builder.() -> Unit = {}):
+    CfnUserPoolUserToGroupAttachmentProps =
+    CfnUserPoolUserToGroupAttachmentProps.Builder().apply(initializer).build()

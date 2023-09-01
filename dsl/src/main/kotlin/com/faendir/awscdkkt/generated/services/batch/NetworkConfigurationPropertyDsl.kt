@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
 public fun buildNetworkConfigurationProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.NetworkConfigurationProperty.Builder.() -> Unit):
+    CfnJobDefinition.NetworkConfigurationProperty.Builder.() -> Unit = {}):
     CfnJobDefinition.NetworkConfigurationProperty =
     CfnJobDefinition.NetworkConfigurationProperty.Builder().apply(initializer).build()

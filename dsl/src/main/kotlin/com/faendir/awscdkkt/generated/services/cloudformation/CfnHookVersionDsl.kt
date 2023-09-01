@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.cloudformation.CfnHookVersionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnHookVersion(id: String, props: CfnHookVersionProps): CfnHookVersion =
-    CfnHookVersion(this, id, props)
-
-@Generated
 public fun Construct.cfnHookVersion(
   id: String,
   props: CfnHookVersionProps,
-  initializer: @AwsCdkDsl CfnHookVersion.() -> Unit,
+  initializer: @AwsCdkDsl CfnHookVersion.() -> Unit = {},
 ): CfnHookVersion = CfnHookVersion(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnHookVersion(id: String, initializer: @AwsCdkDsl
-    CfnHookVersion.Builder.() -> Unit): CfnHookVersion = CfnHookVersion.Builder.create(this,
+    CfnHookVersion.Builder.() -> Unit = {}): CfnHookVersion = CfnHookVersion.Builder.create(this,
     id).apply(initializer).build()

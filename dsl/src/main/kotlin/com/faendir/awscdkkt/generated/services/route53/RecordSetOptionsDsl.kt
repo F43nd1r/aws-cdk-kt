@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.RecordSetOptions
 
 @Generated
-public fun buildRecordSetOptions(initializer: @AwsCdkDsl RecordSetOptions.Builder.() -> Unit):
+public fun buildRecordSetOptions(initializer: @AwsCdkDsl RecordSetOptions.Builder.() -> Unit = {}):
     RecordSetOptions = RecordSetOptions.Builder().apply(initializer).build()

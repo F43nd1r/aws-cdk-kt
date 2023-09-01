@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CustomOriginConfig
 
 @Generated
-public fun buildCustomOriginConfig(initializer: @AwsCdkDsl CustomOriginConfig.Builder.() -> Unit):
-    CustomOriginConfig = CustomOriginConfig.Builder().apply(initializer).build()
+public fun buildCustomOriginConfig(initializer: @AwsCdkDsl CustomOriginConfig.Builder.() -> Unit =
+    {}): CustomOriginConfig = CustomOriginConfig.Builder().apply(initializer).build()

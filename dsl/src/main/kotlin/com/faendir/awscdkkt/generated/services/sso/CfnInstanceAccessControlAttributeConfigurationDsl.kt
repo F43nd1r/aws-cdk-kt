@@ -9,22 +9,16 @@ import software.amazon.awscdk.services.sso.CfnInstanceAccessControlAttributeConf
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnInstanceAccessControlAttributeConfiguration(id: String,
-    props: CfnInstanceAccessControlAttributeConfigurationProps):
-    CfnInstanceAccessControlAttributeConfiguration =
-    CfnInstanceAccessControlAttributeConfiguration(this, id, props)
-
-@Generated
 public fun Construct.cfnInstanceAccessControlAttributeConfiguration(
   id: String,
   props: CfnInstanceAccessControlAttributeConfigurationProps,
-  initializer: @AwsCdkDsl CfnInstanceAccessControlAttributeConfiguration.() -> Unit,
+  initializer: @AwsCdkDsl CfnInstanceAccessControlAttributeConfiguration.() -> Unit = {},
 ): CfnInstanceAccessControlAttributeConfiguration =
     CfnInstanceAccessControlAttributeConfiguration(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnInstanceAccessControlAttributeConfiguration(id: String,
-    initializer: @AwsCdkDsl CfnInstanceAccessControlAttributeConfiguration.Builder.() -> Unit):
+    initializer: @AwsCdkDsl CfnInstanceAccessControlAttributeConfiguration.Builder.() -> Unit = {}):
     CfnInstanceAccessControlAttributeConfiguration =
     CfnInstanceAccessControlAttributeConfiguration.Builder.create(this,
     id).apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.athena.CfnCapacityReservation
 
 @Generated
 public fun buildCapacityAssignmentConfigurationProperty(initializer: @AwsCdkDsl
-    CfnCapacityReservation.CapacityAssignmentConfigurationProperty.Builder.() -> Unit):
+    CfnCapacityReservation.CapacityAssignmentConfigurationProperty.Builder.() -> Unit = {}):
     CfnCapacityReservation.CapacityAssignmentConfigurationProperty =
     CfnCapacityReservation.CapacityAssignmentConfigurationProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.DeploymentAlarmConfig
 
 @Generated
 public fun buildDeploymentAlarmConfig(initializer: @AwsCdkDsl
-    DeploymentAlarmConfig.Builder.() -> Unit): DeploymentAlarmConfig =
+    DeploymentAlarmConfig.Builder.() -> Unit = {}): DeploymentAlarmConfig =
     DeploymentAlarmConfig.Builder().apply(initializer).build()

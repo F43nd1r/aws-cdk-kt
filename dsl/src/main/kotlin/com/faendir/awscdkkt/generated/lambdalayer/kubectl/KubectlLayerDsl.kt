@@ -8,8 +8,5 @@ import software.amazon.awscdk.lambdalayer.kubectl.KubectlLayer
 import software.constructs.Construct
 
 @Generated
-public fun Construct.kubectlLayer(id: String): KubectlLayer = KubectlLayer(this, id)
-
-@Generated
-public fun Construct.kubectlLayer(id: String, initializer: @AwsCdkDsl KubectlLayer.() -> Unit):
+public fun Construct.kubectlLayer(id: String, initializer: @AwsCdkDsl KubectlLayer.() -> Unit = {}):
     KubectlLayer = KubectlLayer(this, id).apply(initializer)

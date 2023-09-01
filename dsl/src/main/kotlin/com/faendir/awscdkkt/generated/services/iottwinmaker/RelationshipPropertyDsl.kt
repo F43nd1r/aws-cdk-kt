@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iottwinmaker.CfnEntity
 
 @Generated
 public fun buildRelationshipProperty(initializer: @AwsCdkDsl
-    CfnEntity.RelationshipProperty.Builder.() -> Unit): CfnEntity.RelationshipProperty =
+    CfnEntity.RelationshipProperty.Builder.() -> Unit = {}): CfnEntity.RelationshipProperty =
     CfnEntity.RelationshipProperty.Builder().apply(initializer).build()

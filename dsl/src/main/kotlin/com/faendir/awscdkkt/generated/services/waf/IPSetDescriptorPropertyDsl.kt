@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.waf.CfnIPSet
 
 @Generated
 public fun buildIPSetDescriptorProperty(initializer: @AwsCdkDsl
-    CfnIPSet.IPSetDescriptorProperty.Builder.() -> Unit): CfnIPSet.IPSetDescriptorProperty =
+    CfnIPSet.IPSetDescriptorProperty.Builder.() -> Unit = {}): CfnIPSet.IPSetDescriptorProperty =
     CfnIPSet.IPSetDescriptorProperty.Builder().apply(initializer).build()

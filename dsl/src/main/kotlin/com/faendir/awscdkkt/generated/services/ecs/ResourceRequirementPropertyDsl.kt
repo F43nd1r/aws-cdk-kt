@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
 public fun buildResourceRequirementProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.ResourceRequirementProperty.Builder.() -> Unit):
+    CfnTaskDefinition.ResourceRequirementProperty.Builder.() -> Unit = {}):
     CfnTaskDefinition.ResourceRequirementProperty =
     CfnTaskDefinition.ResourceRequirementProperty.Builder().apply(initializer).build()

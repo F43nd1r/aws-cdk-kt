@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.macie.CfnSessionProps
 
 @Generated
-public fun buildCfnSessionProps(initializer: @AwsCdkDsl CfnSessionProps.Builder.() -> Unit):
+public fun buildCfnSessionProps(initializer: @AwsCdkDsl CfnSessionProps.Builder.() -> Unit = {}):
     CfnSessionProps = CfnSessionProps.Builder().apply(initializer).build()

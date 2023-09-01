@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EmrCreateCluster
 
 @Generated
 public fun buildScalingConstraintsProperty(initializer: @AwsCdkDsl
-    EmrCreateCluster.ScalingConstraintsProperty.Builder.() -> Unit):
+    EmrCreateCluster.ScalingConstraintsProperty.Builder.() -> Unit = {}):
     EmrCreateCluster.ScalingConstraintsProperty =
     EmrCreateCluster.ScalingConstraintsProperty.Builder().apply(initializer).build()

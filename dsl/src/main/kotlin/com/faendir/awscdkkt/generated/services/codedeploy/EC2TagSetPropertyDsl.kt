@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.codedeploy.CfnDeploymentGroup
 
 @Generated
 public fun buildEC2TagSetProperty(initializer: @AwsCdkDsl
-    CfnDeploymentGroup.EC2TagSetProperty.Builder.() -> Unit): CfnDeploymentGroup.EC2TagSetProperty =
+    CfnDeploymentGroup.EC2TagSetProperty.Builder.() -> Unit = {}):
+    CfnDeploymentGroup.EC2TagSetProperty =
     CfnDeploymentGroup.EC2TagSetProperty.Builder().apply(initializer).build()

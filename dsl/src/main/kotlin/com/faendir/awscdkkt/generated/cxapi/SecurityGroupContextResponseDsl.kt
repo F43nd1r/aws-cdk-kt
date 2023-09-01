@@ -7,5 +7,5 @@ import software.amazon.awscdk.cxapi.SecurityGroupContextResponse
 
 @Generated
 public fun buildSecurityGroupContextResponse(initializer: @AwsCdkDsl
-    SecurityGroupContextResponse.Builder.() -> Unit): SecurityGroupContextResponse =
+    SecurityGroupContextResponse.Builder.() -> Unit = {}): SecurityGroupContextResponse =
     SecurityGroupContextResponse.Builder().apply(initializer).build()

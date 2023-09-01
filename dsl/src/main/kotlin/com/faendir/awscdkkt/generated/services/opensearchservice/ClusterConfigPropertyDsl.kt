@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.opensearchservice.CfnDomain
 
 @Generated
 public fun buildClusterConfigProperty(initializer: @AwsCdkDsl
-    CfnDomain.ClusterConfigProperty.Builder.() -> Unit): CfnDomain.ClusterConfigProperty =
+    CfnDomain.ClusterConfigProperty.Builder.() -> Unit = {}): CfnDomain.ClusterConfigProperty =
     CfnDomain.ClusterConfigProperty.Builder().apply(initializer).build()

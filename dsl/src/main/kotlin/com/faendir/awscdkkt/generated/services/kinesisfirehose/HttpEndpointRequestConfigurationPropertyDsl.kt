@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
 public fun buildHttpEndpointRequestConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.HttpEndpointRequestConfigurationProperty.Builder.() -> Unit):
+    CfnDeliveryStream.HttpEndpointRequestConfigurationProperty.Builder.() -> Unit = {}):
     CfnDeliveryStream.HttpEndpointRequestConfigurationProperty =
     CfnDeliveryStream.HttpEndpointRequestConfigurationProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appmesh.CfnVirtualGateway
 
 @Generated
 public fun buildVirtualGatewayTlsValidationContextAcmTrustProperty(initializer: @AwsCdkDsl
-    CfnVirtualGateway.VirtualGatewayTlsValidationContextAcmTrustProperty.Builder.() -> Unit):
+    CfnVirtualGateway.VirtualGatewayTlsValidationContextAcmTrustProperty.Builder.() -> Unit = {}):
     CfnVirtualGateway.VirtualGatewayTlsValidationContextAcmTrustProperty =
     CfnVirtualGateway.VirtualGatewayTlsValidationContextAcmTrustProperty.Builder().apply(initializer).build()

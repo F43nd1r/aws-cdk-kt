@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.organizations.CfnOrganizationalUnitProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnOrganizationalUnit(id: String, props: CfnOrganizationalUnitProps):
-    CfnOrganizationalUnit = CfnOrganizationalUnit(this, id, props)
-
-@Generated
 public fun Construct.cfnOrganizationalUnit(
   id: String,
   props: CfnOrganizationalUnitProps,
-  initializer: @AwsCdkDsl CfnOrganizationalUnit.() -> Unit,
+  initializer: @AwsCdkDsl CfnOrganizationalUnit.() -> Unit = {},
 ): CfnOrganizationalUnit = CfnOrganizationalUnit(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnOrganizationalUnit(id: String, initializer: @AwsCdkDsl
-    CfnOrganizationalUnit.Builder.() -> Unit): CfnOrganizationalUnit =
+    CfnOrganizationalUnit.Builder.() -> Unit = {}): CfnOrganizationalUnit =
     CfnOrganizationalUnit.Builder.create(this, id).apply(initializer).build()

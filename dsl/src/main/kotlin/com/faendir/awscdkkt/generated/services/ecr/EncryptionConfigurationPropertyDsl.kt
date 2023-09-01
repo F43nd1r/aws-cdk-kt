@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecr.CfnRepository
 
 @Generated
 public fun buildEncryptionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnRepository.EncryptionConfigurationProperty.Builder.() -> Unit):
+    CfnRepository.EncryptionConfigurationProperty.Builder.() -> Unit = {}):
     CfnRepository.EncryptionConfigurationProperty =
     CfnRepository.EncryptionConfigurationProperty.Builder().apply(initializer).build()

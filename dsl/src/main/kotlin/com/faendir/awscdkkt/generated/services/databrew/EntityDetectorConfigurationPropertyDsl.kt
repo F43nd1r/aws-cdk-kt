@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.databrew.CfnJob
 
 @Generated
 public fun buildEntityDetectorConfigurationProperty(initializer: @AwsCdkDsl
-    CfnJob.EntityDetectorConfigurationProperty.Builder.() -> Unit):
+    CfnJob.EntityDetectorConfigurationProperty.Builder.() -> Unit = {}):
     CfnJob.EntityDetectorConfigurationProperty =
     CfnJob.EntityDetectorConfigurationProperty.Builder().apply(initializer).build()

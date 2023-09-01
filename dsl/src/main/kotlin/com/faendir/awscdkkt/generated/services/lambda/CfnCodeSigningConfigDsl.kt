@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.lambda.CfnCodeSigningConfigProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnCodeSigningConfig(id: String, props: CfnCodeSigningConfigProps):
-    CfnCodeSigningConfig = CfnCodeSigningConfig(this, id, props)
-
-@Generated
 public fun Construct.cfnCodeSigningConfig(
   id: String,
   props: CfnCodeSigningConfigProps,
-  initializer: @AwsCdkDsl CfnCodeSigningConfig.() -> Unit,
+  initializer: @AwsCdkDsl CfnCodeSigningConfig.() -> Unit = {},
 ): CfnCodeSigningConfig = CfnCodeSigningConfig(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnCodeSigningConfig(id: String, initializer: @AwsCdkDsl
-    CfnCodeSigningConfig.Builder.() -> Unit): CfnCodeSigningConfig =
+    CfnCodeSigningConfig.Builder.() -> Unit = {}): CfnCodeSigningConfig =
     CfnCodeSigningConfig.Builder.create(this, id).apply(initializer).build()

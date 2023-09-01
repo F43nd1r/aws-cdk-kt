@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
 public fun buildPipeTargetCloudWatchLogsParametersProperty(initializer: @AwsCdkDsl
-    CfnPipe.PipeTargetCloudWatchLogsParametersProperty.Builder.() -> Unit):
+    CfnPipe.PipeTargetCloudWatchLogsParametersProperty.Builder.() -> Unit = {}):
     CfnPipe.PipeTargetCloudWatchLogsParametersProperty =
     CfnPipe.PipeTargetCloudWatchLogsParametersProperty.Builder().apply(initializer).build()

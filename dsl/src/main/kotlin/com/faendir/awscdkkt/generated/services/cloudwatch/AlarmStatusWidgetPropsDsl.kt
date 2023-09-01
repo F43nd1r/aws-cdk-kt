@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cloudwatch.AlarmStatusWidgetProps
 
 @Generated
 public fun buildAlarmStatusWidgetProps(initializer: @AwsCdkDsl
-    AlarmStatusWidgetProps.Builder.() -> Unit): AlarmStatusWidgetProps =
+    AlarmStatusWidgetProps.Builder.() -> Unit = {}): AlarmStatusWidgetProps =
     AlarmStatusWidgetProps.Builder().apply(initializer).build()

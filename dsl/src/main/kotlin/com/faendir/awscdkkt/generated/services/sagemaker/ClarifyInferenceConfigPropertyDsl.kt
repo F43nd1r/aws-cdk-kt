@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnEndpointConfig
 
 @Generated
 public fun buildClarifyInferenceConfigProperty(initializer: @AwsCdkDsl
-    CfnEndpointConfig.ClarifyInferenceConfigProperty.Builder.() -> Unit):
+    CfnEndpointConfig.ClarifyInferenceConfigProperty.Builder.() -> Unit = {}):
     CfnEndpointConfig.ClarifyInferenceConfigProperty =
     CfnEndpointConfig.ClarifyInferenceConfigProperty.Builder().apply(initializer).build()

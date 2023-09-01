@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.groundstation.CfnConfig
 
 @Generated
 public fun buildAntennaDownlinkDemodDecodeConfigProperty(initializer: @AwsCdkDsl
-    CfnConfig.AntennaDownlinkDemodDecodeConfigProperty.Builder.() -> Unit):
+    CfnConfig.AntennaDownlinkDemodDecodeConfigProperty.Builder.() -> Unit = {}):
     CfnConfig.AntennaDownlinkDemodDecodeConfigProperty =
     CfnConfig.AntennaDownlinkDemodDecodeConfigProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import kotlin.Unit
 import software.amazon.awscdk.Intrinsic
 
 @Generated
-public fun buildIntrinsic(`value`: Any, initializer: @AwsCdkDsl Intrinsic.Builder.() -> Unit):
+public fun buildIntrinsic(`value`: Any, initializer: @AwsCdkDsl Intrinsic.Builder.() -> Unit = {}):
     Intrinsic = Intrinsic.Builder.create(value).apply(initializer).build()

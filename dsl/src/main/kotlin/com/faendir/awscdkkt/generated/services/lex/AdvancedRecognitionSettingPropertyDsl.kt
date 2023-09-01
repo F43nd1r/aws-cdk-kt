@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
 public fun buildAdvancedRecognitionSettingProperty(initializer: @AwsCdkDsl
-    CfnBot.AdvancedRecognitionSettingProperty.Builder.() -> Unit):
+    CfnBot.AdvancedRecognitionSettingProperty.Builder.() -> Unit = {}):
     CfnBot.AdvancedRecognitionSettingProperty =
     CfnBot.AdvancedRecognitionSettingProperty.Builder().apply(initializer).build()

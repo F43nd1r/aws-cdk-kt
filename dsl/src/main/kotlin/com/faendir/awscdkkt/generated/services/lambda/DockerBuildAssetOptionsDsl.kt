@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lambda.DockerBuildAssetOptions
 
 @Generated
 public fun buildDockerBuildAssetOptions(initializer: @AwsCdkDsl
-    DockerBuildAssetOptions.Builder.() -> Unit): DockerBuildAssetOptions =
+    DockerBuildAssetOptions.Builder.() -> Unit = {}): DockerBuildAssetOptions =
     DockerBuildAssetOptions.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
 public fun buildEmptyDirProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.EmptyDirProperty.Builder.() -> Unit): CfnJobDefinition.EmptyDirProperty =
+    CfnJobDefinition.EmptyDirProperty.Builder.() -> Unit = {}): CfnJobDefinition.EmptyDirProperty =
     CfnJobDefinition.EmptyDirProperty.Builder().apply(initializer).build()

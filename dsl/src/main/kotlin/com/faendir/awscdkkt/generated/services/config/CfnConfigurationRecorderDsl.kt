@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.config.CfnConfigurationRecorderProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnConfigurationRecorder(id: String, props: CfnConfigurationRecorderProps):
-    CfnConfigurationRecorder = CfnConfigurationRecorder(this, id, props)
-
-@Generated
 public fun Construct.cfnConfigurationRecorder(
   id: String,
   props: CfnConfigurationRecorderProps,
-  initializer: @AwsCdkDsl CfnConfigurationRecorder.() -> Unit,
+  initializer: @AwsCdkDsl CfnConfigurationRecorder.() -> Unit = {},
 ): CfnConfigurationRecorder = CfnConfigurationRecorder(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnConfigurationRecorder(id: String, initializer: @AwsCdkDsl
-    CfnConfigurationRecorder.Builder.() -> Unit): CfnConfigurationRecorder =
+    CfnConfigurationRecorder.Builder.() -> Unit = {}): CfnConfigurationRecorder =
     CfnConfigurationRecorder.Builder.create(this, id).apply(initializer).build()

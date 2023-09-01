@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codedeploy.LambdaApplicationProps
 
 @Generated
 public fun buildLambdaApplicationProps(initializer: @AwsCdkDsl
-    LambdaApplicationProps.Builder.() -> Unit): LambdaApplicationProps =
+    LambdaApplicationProps.Builder.() -> Unit = {}): LambdaApplicationProps =
     LambdaApplicationProps.Builder().apply(initializer).build()

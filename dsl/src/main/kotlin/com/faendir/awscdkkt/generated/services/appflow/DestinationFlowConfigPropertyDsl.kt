@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
 public fun buildDestinationFlowConfigProperty(initializer: @AwsCdkDsl
-    CfnFlow.DestinationFlowConfigProperty.Builder.() -> Unit): CfnFlow.DestinationFlowConfigProperty
-    = CfnFlow.DestinationFlowConfigProperty.Builder().apply(initializer).build()
+    CfnFlow.DestinationFlowConfigProperty.Builder.() -> Unit = {}):
+    CfnFlow.DestinationFlowConfigProperty =
+    CfnFlow.DestinationFlowConfigProperty.Builder().apply(initializer).build()

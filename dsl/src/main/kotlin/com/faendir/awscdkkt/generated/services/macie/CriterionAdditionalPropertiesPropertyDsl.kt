@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.macie.CfnFindingsFilter
 
 @Generated
 public fun buildCriterionAdditionalPropertiesProperty(initializer: @AwsCdkDsl
-    CfnFindingsFilter.CriterionAdditionalPropertiesProperty.Builder.() -> Unit):
+    CfnFindingsFilter.CriterionAdditionalPropertiesProperty.Builder.() -> Unit = {}):
     CfnFindingsFilter.CriterionAdditionalPropertiesProperty =
     CfnFindingsFilter.CriterionAdditionalPropertiesProperty.Builder().apply(initializer).build()

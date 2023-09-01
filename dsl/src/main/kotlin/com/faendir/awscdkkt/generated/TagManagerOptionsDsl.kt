@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.TagManagerOptions
 
 @Generated
-public fun buildTagManagerOptions(initializer: @AwsCdkDsl TagManagerOptions.Builder.() -> Unit):
-    TagManagerOptions = TagManagerOptions.Builder().apply(initializer).build()
+public fun buildTagManagerOptions(initializer: @AwsCdkDsl TagManagerOptions.Builder.() -> Unit =
+    {}): TagManagerOptions = TagManagerOptions.Builder().apply(initializer).build()

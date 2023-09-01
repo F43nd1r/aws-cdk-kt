@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.eks.NodegroupRemoteAccess
 
 @Generated
 public fun buildNodegroupRemoteAccess(initializer: @AwsCdkDsl
-    NodegroupRemoteAccess.Builder.() -> Unit): NodegroupRemoteAccess =
+    NodegroupRemoteAccess.Builder.() -> Unit = {}): NodegroupRemoteAccess =
     NodegroupRemoteAccess.Builder().apply(initializer).build()

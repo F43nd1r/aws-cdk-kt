@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.acmpca.CfnCertificateAuthority
 
 @Generated
 public fun buildKeyUsageProperty(initializer: @AwsCdkDsl
-    CfnCertificateAuthority.KeyUsageProperty.Builder.() -> Unit):
+    CfnCertificateAuthority.KeyUsageProperty.Builder.() -> Unit = {}):
     CfnCertificateAuthority.KeyUsageProperty =
     CfnCertificateAuthority.KeyUsageProperty.Builder().apply(initializer).build()

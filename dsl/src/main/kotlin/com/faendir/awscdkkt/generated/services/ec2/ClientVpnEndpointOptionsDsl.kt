@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.ClientVpnEndpointOptions
 
 @Generated
 public fun buildClientVpnEndpointOptions(initializer: @AwsCdkDsl
-    ClientVpnEndpointOptions.Builder.() -> Unit): ClientVpnEndpointOptions =
+    ClientVpnEndpointOptions.Builder.() -> Unit = {}): ClientVpnEndpointOptions =
     ClientVpnEndpointOptions.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecr.assets.TarballImageAssetProps
 
 @Generated
 public fun buildTarballImageAssetProps(initializer: @AwsCdkDsl
-    TarballImageAssetProps.Builder.() -> Unit): TarballImageAssetProps =
+    TarballImageAssetProps.Builder.() -> Unit = {}): TarballImageAssetProps =
     TarballImageAssetProps.Builder().apply(initializer).build()

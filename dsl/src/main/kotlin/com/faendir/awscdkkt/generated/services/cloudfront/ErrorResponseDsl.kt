@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.ErrorResponse
 
 @Generated
-public fun buildErrorResponse(initializer: @AwsCdkDsl ErrorResponse.Builder.() -> Unit):
+public fun buildErrorResponse(initializer: @AwsCdkDsl ErrorResponse.Builder.() -> Unit = {}):
     ErrorResponse = ErrorResponse.Builder().apply(initializer).build()

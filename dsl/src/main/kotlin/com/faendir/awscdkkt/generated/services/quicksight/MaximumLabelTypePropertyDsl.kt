@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildMaximumLabelTypeProperty(initializer: @AwsCdkDsl
-    CfnTemplate.MaximumLabelTypeProperty.Builder.() -> Unit): CfnTemplate.MaximumLabelTypeProperty =
+    CfnTemplate.MaximumLabelTypeProperty.Builder.() -> Unit = {}):
+    CfnTemplate.MaximumLabelTypeProperty =
     CfnTemplate.MaximumLabelTypeProperty.Builder().apply(initializer).build()

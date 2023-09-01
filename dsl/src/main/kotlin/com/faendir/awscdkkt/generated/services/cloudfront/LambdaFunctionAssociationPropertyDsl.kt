@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cloudfront.CfnDistribution
 
 @Generated
 public fun buildLambdaFunctionAssociationProperty(initializer: @AwsCdkDsl
-    CfnDistribution.LambdaFunctionAssociationProperty.Builder.() -> Unit):
+    CfnDistribution.LambdaFunctionAssociationProperty.Builder.() -> Unit = {}):
     CfnDistribution.LambdaFunctionAssociationProperty =
     CfnDistribution.LambdaFunctionAssociationProperty.Builder().apply(initializer).build()

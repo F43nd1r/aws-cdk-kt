@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.globalaccelerator.AcceleratorProps
 
 @Generated
-public fun buildAcceleratorProps(initializer: @AwsCdkDsl AcceleratorProps.Builder.() -> Unit):
+public fun buildAcceleratorProps(initializer: @AwsCdkDsl AcceleratorProps.Builder.() -> Unit = {}):
     AcceleratorProps = AcceleratorProps.Builder().apply(initializer).build()

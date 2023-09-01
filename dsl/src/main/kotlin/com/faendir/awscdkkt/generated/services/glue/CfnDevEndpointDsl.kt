@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.glue.CfnDevEndpointProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDevEndpoint(id: String, props: CfnDevEndpointProps): CfnDevEndpoint =
-    CfnDevEndpoint(this, id, props)
-
-@Generated
 public fun Construct.cfnDevEndpoint(
   id: String,
   props: CfnDevEndpointProps,
-  initializer: @AwsCdkDsl CfnDevEndpoint.() -> Unit,
+  initializer: @AwsCdkDsl CfnDevEndpoint.() -> Unit = {},
 ): CfnDevEndpoint = CfnDevEndpoint(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnDevEndpoint(id: String, initializer: @AwsCdkDsl
-    CfnDevEndpoint.Builder.() -> Unit): CfnDevEndpoint = CfnDevEndpoint.Builder.create(this,
+    CfnDevEndpoint.Builder.() -> Unit = {}): CfnDevEndpoint = CfnDevEndpoint.Builder.create(this,
     id).apply(initializer).build()

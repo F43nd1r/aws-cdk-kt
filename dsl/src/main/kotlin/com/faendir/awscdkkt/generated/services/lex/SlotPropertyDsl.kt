@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildSlotProperty(initializer: @AwsCdkDsl CfnBot.SlotProperty.Builder.() -> Unit):
+public fun buildSlotProperty(initializer: @AwsCdkDsl CfnBot.SlotProperty.Builder.() -> Unit = {}):
     CfnBot.SlotProperty = CfnBot.SlotProperty.Builder().apply(initializer).build()

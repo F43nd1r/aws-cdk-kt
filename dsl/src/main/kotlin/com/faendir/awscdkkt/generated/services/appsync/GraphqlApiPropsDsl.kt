@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.GraphqlApiProps
 
 @Generated
-public fun buildGraphqlApiProps(initializer: @AwsCdkDsl GraphqlApiProps.Builder.() -> Unit):
+public fun buildGraphqlApiProps(initializer: @AwsCdkDsl GraphqlApiProps.Builder.() -> Unit = {}):
     GraphqlApiProps = GraphqlApiProps.Builder().apply(initializer).build()

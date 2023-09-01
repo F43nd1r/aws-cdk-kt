@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnMonitoringSchedule
 
 @Generated
 public fun buildConstraintsResourceProperty(initializer: @AwsCdkDsl
-    CfnMonitoringSchedule.ConstraintsResourceProperty.Builder.() -> Unit):
+    CfnMonitoringSchedule.ConstraintsResourceProperty.Builder.() -> Unit = {}):
     CfnMonitoringSchedule.ConstraintsResourceProperty =
     CfnMonitoringSchedule.ConstraintsResourceProperty.Builder().apply(initializer).build()

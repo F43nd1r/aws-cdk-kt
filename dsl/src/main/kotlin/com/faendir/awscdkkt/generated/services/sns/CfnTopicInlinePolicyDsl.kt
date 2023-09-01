@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.sns.CfnTopicInlinePolicyProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnTopicInlinePolicy(id: String, props: CfnTopicInlinePolicyProps):
-    CfnTopicInlinePolicy = CfnTopicInlinePolicy(this, id, props)
-
-@Generated
 public fun Construct.cfnTopicInlinePolicy(
   id: String,
   props: CfnTopicInlinePolicyProps,
-  initializer: @AwsCdkDsl CfnTopicInlinePolicy.() -> Unit,
+  initializer: @AwsCdkDsl CfnTopicInlinePolicy.() -> Unit = {},
 ): CfnTopicInlinePolicy = CfnTopicInlinePolicy(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnTopicInlinePolicy(id: String, initializer: @AwsCdkDsl
-    CfnTopicInlinePolicy.Builder.() -> Unit): CfnTopicInlinePolicy =
+    CfnTopicInlinePolicy.Builder.() -> Unit = {}): CfnTopicInlinePolicy =
     CfnTopicInlinePolicy.Builder.create(this, id).apply(initializer).build()

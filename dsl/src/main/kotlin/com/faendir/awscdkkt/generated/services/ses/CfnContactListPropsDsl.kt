@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnContactListProps
 
 @Generated
-public fun buildCfnContactListProps(initializer: @AwsCdkDsl CfnContactListProps.Builder.() -> Unit):
-    CfnContactListProps = CfnContactListProps.Builder().apply(initializer).build()
+public fun buildCfnContactListProps(initializer: @AwsCdkDsl CfnContactListProps.Builder.() -> Unit =
+    {}): CfnContactListProps = CfnContactListProps.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.ExportValueOptions
 
 @Generated
-public fun buildExportValueOptions(initializer: @AwsCdkDsl ExportValueOptions.Builder.() -> Unit):
-    ExportValueOptions = ExportValueOptions.Builder().apply(initializer).build()
+public fun buildExportValueOptions(initializer: @AwsCdkDsl ExportValueOptions.Builder.() -> Unit =
+    {}): ExportValueOptions = ExportValueOptions.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.FirelensLogRouterDefinitionOptions
 
 @Generated
 public fun buildFirelensLogRouterDefinitionOptions(initializer: @AwsCdkDsl
-    FirelensLogRouterDefinitionOptions.Builder.() -> Unit): FirelensLogRouterDefinitionOptions =
-    FirelensLogRouterDefinitionOptions.Builder().apply(initializer).build()
+    FirelensLogRouterDefinitionOptions.Builder.() -> Unit = {}): FirelensLogRouterDefinitionOptions
+    = FirelensLogRouterDefinitionOptions.Builder().apply(initializer).build()

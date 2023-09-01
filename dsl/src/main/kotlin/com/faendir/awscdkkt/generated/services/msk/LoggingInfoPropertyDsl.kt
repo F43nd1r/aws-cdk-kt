@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.msk.CfnCluster
 
 @Generated
 public fun buildLoggingInfoProperty(initializer: @AwsCdkDsl
-    CfnCluster.LoggingInfoProperty.Builder.() -> Unit): CfnCluster.LoggingInfoProperty =
+    CfnCluster.LoggingInfoProperty.Builder.() -> Unit = {}): CfnCluster.LoggingInfoProperty =
     CfnCluster.LoggingInfoProperty.Builder().apply(initializer).build()

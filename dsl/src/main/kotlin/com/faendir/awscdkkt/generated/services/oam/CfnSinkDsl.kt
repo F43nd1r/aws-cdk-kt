@@ -9,15 +9,12 @@ import software.amazon.awscdk.services.oam.CfnSinkProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnSink(id: String, props: CfnSinkProps): CfnSink = CfnSink(this, id, props)
-
-@Generated
 public fun Construct.cfnSink(
   id: String,
   props: CfnSinkProps,
-  initializer: @AwsCdkDsl CfnSink.() -> Unit,
+  initializer: @AwsCdkDsl CfnSink.() -> Unit = {},
 ): CfnSink = CfnSink(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSink(id: String, initializer: @AwsCdkDsl CfnSink.Builder.() -> Unit):
-    CfnSink = CfnSink.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSink(id: String, initializer: @AwsCdkDsl CfnSink.Builder.() -> Unit =
+    {}): CfnSink = CfnSink.Builder.create(this, id).apply(initializer).build()

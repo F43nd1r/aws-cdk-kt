@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticache.CfnSubnetGroupProps
 
 @Generated
-public fun buildCfnSubnetGroupProps(initializer: @AwsCdkDsl CfnSubnetGroupProps.Builder.() -> Unit):
-    CfnSubnetGroupProps = CfnSubnetGroupProps.Builder().apply(initializer).build()
+public fun buildCfnSubnetGroupProps(initializer: @AwsCdkDsl CfnSubnetGroupProps.Builder.() -> Unit =
+    {}): CfnSubnetGroupProps = CfnSubnetGroupProps.Builder().apply(initializer).build()

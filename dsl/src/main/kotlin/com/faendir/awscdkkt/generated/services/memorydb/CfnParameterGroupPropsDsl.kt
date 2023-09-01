@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.memorydb.CfnParameterGroupProps
 
 @Generated
 public fun buildCfnParameterGroupProps(initializer: @AwsCdkDsl
-    CfnParameterGroupProps.Builder.() -> Unit): CfnParameterGroupProps =
+    CfnParameterGroupProps.Builder.() -> Unit = {}): CfnParameterGroupProps =
     CfnParameterGroupProps.Builder().apply(initializer).build()

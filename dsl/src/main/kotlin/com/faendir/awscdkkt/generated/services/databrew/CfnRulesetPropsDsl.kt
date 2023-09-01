@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.databrew.CfnRulesetProps
 
 @Generated
-public fun buildCfnRulesetProps(initializer: @AwsCdkDsl CfnRulesetProps.Builder.() -> Unit):
+public fun buildCfnRulesetProps(initializer: @AwsCdkDsl CfnRulesetProps.Builder.() -> Unit = {}):
     CfnRulesetProps = CfnRulesetProps.Builder().apply(initializer).build()

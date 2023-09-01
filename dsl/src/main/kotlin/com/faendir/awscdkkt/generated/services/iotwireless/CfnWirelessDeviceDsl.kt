@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.iotwireless.CfnWirelessDeviceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnWirelessDevice(id: String, props: CfnWirelessDeviceProps): CfnWirelessDevice
-    = CfnWirelessDevice(this, id, props)
-
-@Generated
 public fun Construct.cfnWirelessDevice(
   id: String,
   props: CfnWirelessDeviceProps,
-  initializer: @AwsCdkDsl CfnWirelessDevice.() -> Unit,
+  initializer: @AwsCdkDsl CfnWirelessDevice.() -> Unit = {},
 ): CfnWirelessDevice = CfnWirelessDevice(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnWirelessDevice(id: String, initializer: @AwsCdkDsl
-    CfnWirelessDevice.Builder.() -> Unit): CfnWirelessDevice =
+    CfnWirelessDevice.Builder.() -> Unit = {}): CfnWirelessDevice =
     CfnWirelessDevice.Builder.create(this, id).apply(initializer).build()

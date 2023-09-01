@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cloudfront.ResponseHeadersPolicyProps
 
 @Generated
 public fun buildResponseHeadersPolicyProps(initializer: @AwsCdkDsl
-    ResponseHeadersPolicyProps.Builder.() -> Unit): ResponseHeadersPolicyProps =
+    ResponseHeadersPolicyProps.Builder.() -> Unit = {}): ResponseHeadersPolicyProps =
     ResponseHeadersPolicyProps.Builder().apply(initializer).build()

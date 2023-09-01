@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.ecs.AppMeshProxyConfigurationConfigProps
 
 @Generated
 public fun buildAppMeshProxyConfigurationConfigProps(initializer: @AwsCdkDsl
-    AppMeshProxyConfigurationConfigProps.Builder.() -> Unit): AppMeshProxyConfigurationConfigProps =
+    AppMeshProxyConfigurationConfigProps.Builder.() -> Unit = {}):
+    AppMeshProxyConfigurationConfigProps =
     AppMeshProxyConfigurationConfigProps.Builder().apply(initializer).build()

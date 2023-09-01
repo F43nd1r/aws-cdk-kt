@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EmrModifyInstanceGrou
 
 @Generated
 public fun buildInstanceResizePolicyProperty(initializer: @AwsCdkDsl
-    EmrModifyInstanceGroupByName.InstanceResizePolicyProperty.Builder.() -> Unit):
+    EmrModifyInstanceGroupByName.InstanceResizePolicyProperty.Builder.() -> Unit = {}):
     EmrModifyInstanceGroupByName.InstanceResizePolicyProperty =
     EmrModifyInstanceGroupByName.InstanceResizePolicyProperty.Builder().apply(initializer).build()

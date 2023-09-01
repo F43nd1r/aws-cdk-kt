@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.msk.CfnCluster
 
 @Generated
 public fun buildEncryptionInTransitProperty(initializer: @AwsCdkDsl
-    CfnCluster.EncryptionInTransitProperty.Builder.() -> Unit):
+    CfnCluster.EncryptionInTransitProperty.Builder.() -> Unit = {}):
     CfnCluster.EncryptionInTransitProperty =
     CfnCluster.EncryptionInTransitProperty.Builder().apply(initializer).build()

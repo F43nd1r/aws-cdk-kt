@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.ClientVpnAuthorizationRuleOptions
 
 @Generated
 public fun buildClientVpnAuthorizationRuleOptions(initializer: @AwsCdkDsl
-    ClientVpnAuthorizationRuleOptions.Builder.() -> Unit): ClientVpnAuthorizationRuleOptions =
+    ClientVpnAuthorizationRuleOptions.Builder.() -> Unit = {}): ClientVpnAuthorizationRuleOptions =
     ClientVpnAuthorizationRuleOptions.Builder().apply(initializer).build()

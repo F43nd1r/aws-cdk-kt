@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
 public fun buildDynatraceSourcePropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.DynatraceSourcePropertiesProperty.Builder.() -> Unit):
+    CfnFlow.DynatraceSourcePropertiesProperty.Builder.() -> Unit = {}):
     CfnFlow.DynatraceSourcePropertiesProperty =
     CfnFlow.DynatraceSourcePropertiesProperty.Builder().apply(initializer).build()

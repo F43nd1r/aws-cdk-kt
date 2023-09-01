@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.connect.CfnQuickConnect
 
 @Generated
 public fun buildQuickConnectConfigProperty(initializer: @AwsCdkDsl
-    CfnQuickConnect.QuickConnectConfigProperty.Builder.() -> Unit):
+    CfnQuickConnect.QuickConnectConfigProperty.Builder.() -> Unit = {}):
     CfnQuickConnect.QuickConnectConfigProperty =
     CfnQuickConnect.QuickConnectConfigProperty.Builder().apply(initializer).build()

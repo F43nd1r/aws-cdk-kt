@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.databrew.CfnJob
 
 @Generated
 public fun buildOutputFormatOptionsProperty(initializer: @AwsCdkDsl
-    CfnJob.OutputFormatOptionsProperty.Builder.() -> Unit): CfnJob.OutputFormatOptionsProperty =
-    CfnJob.OutputFormatOptionsProperty.Builder().apply(initializer).build()
+    CfnJob.OutputFormatOptionsProperty.Builder.() -> Unit = {}): CfnJob.OutputFormatOptionsProperty
+    = CfnJob.OutputFormatOptionsProperty.Builder().apply(initializer).build()

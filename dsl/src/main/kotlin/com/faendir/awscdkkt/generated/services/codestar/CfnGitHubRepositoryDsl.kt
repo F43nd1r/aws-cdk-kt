@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.codestar.CfnGitHubRepositoryProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnGitHubRepository(id: String, props: CfnGitHubRepositoryProps):
-    CfnGitHubRepository = CfnGitHubRepository(this, id, props)
-
-@Generated
 public fun Construct.cfnGitHubRepository(
   id: String,
   props: CfnGitHubRepositoryProps,
-  initializer: @AwsCdkDsl CfnGitHubRepository.() -> Unit,
+  initializer: @AwsCdkDsl CfnGitHubRepository.() -> Unit = {},
 ): CfnGitHubRepository = CfnGitHubRepository(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnGitHubRepository(id: String, initializer: @AwsCdkDsl
-    CfnGitHubRepository.Builder.() -> Unit): CfnGitHubRepository =
+    CfnGitHubRepository.Builder.() -> Unit = {}): CfnGitHubRepository =
     CfnGitHubRepository.Builder.create(this, id).apply(initializer).build()

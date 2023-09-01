@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.billingconductor.CfnPricingRuleProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnPricingRule(id: String, props: CfnPricingRuleProps): CfnPricingRule =
-    CfnPricingRule(this, id, props)
-
-@Generated
 public fun Construct.cfnPricingRule(
   id: String,
   props: CfnPricingRuleProps,
-  initializer: @AwsCdkDsl CfnPricingRule.() -> Unit,
+  initializer: @AwsCdkDsl CfnPricingRule.() -> Unit = {},
 ): CfnPricingRule = CfnPricingRule(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnPricingRule(id: String, initializer: @AwsCdkDsl
-    CfnPricingRule.Builder.() -> Unit): CfnPricingRule = CfnPricingRule.Builder.create(this,
+    CfnPricingRule.Builder.() -> Unit = {}): CfnPricingRule = CfnPricingRule.Builder.create(this,
     id).apply(initializer).build()

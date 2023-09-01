@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.docdb.RotationMultiUserOptions
 
 @Generated
 public fun buildRotationMultiUserOptions(initializer: @AwsCdkDsl
-    RotationMultiUserOptions.Builder.() -> Unit): RotationMultiUserOptions =
+    RotationMultiUserOptions.Builder.() -> Unit = {}): RotationMultiUserOptions =
     RotationMultiUserOptions.Builder().apply(initializer).build()

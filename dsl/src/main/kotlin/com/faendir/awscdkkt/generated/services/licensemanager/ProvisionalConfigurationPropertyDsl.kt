@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.licensemanager.CfnLicense
 
 @Generated
 public fun buildProvisionalConfigurationProperty(initializer: @AwsCdkDsl
-    CfnLicense.ProvisionalConfigurationProperty.Builder.() -> Unit):
+    CfnLicense.ProvisionalConfigurationProperty.Builder.() -> Unit = {}):
     CfnLicense.ProvisionalConfigurationProperty =
     CfnLicense.ProvisionalConfigurationProperty.Builder().apply(initializer).build()

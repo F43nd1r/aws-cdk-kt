@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appstream.CfnAppBlockBuilderProps
 
 @Generated
 public fun buildCfnAppBlockBuilderProps(initializer: @AwsCdkDsl
-    CfnAppBlockBuilderProps.Builder.() -> Unit): CfnAppBlockBuilderProps =
+    CfnAppBlockBuilderProps.Builder.() -> Unit = {}): CfnAppBlockBuilderProps =
     CfnAppBlockBuilderProps.Builder().apply(initializer).build()

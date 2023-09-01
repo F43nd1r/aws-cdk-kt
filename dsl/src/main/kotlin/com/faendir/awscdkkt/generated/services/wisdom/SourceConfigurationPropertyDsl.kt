@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.wisdom.CfnKnowledgeBase
 
 @Generated
 public fun buildSourceConfigurationProperty(initializer: @AwsCdkDsl
-    CfnKnowledgeBase.SourceConfigurationProperty.Builder.() -> Unit):
+    CfnKnowledgeBase.SourceConfigurationProperty.Builder.() -> Unit = {}):
     CfnKnowledgeBase.SourceConfigurationProperty =
     CfnKnowledgeBase.SourceConfigurationProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.simspaceweaver.CfnSimulationProps
 
 @Generated
-public fun buildCfnSimulationProps(initializer: @AwsCdkDsl CfnSimulationProps.Builder.() -> Unit):
-    CfnSimulationProps = CfnSimulationProps.Builder().apply(initializer).build()
+public fun buildCfnSimulationProps(initializer: @AwsCdkDsl CfnSimulationProps.Builder.() -> Unit =
+    {}): CfnSimulationProps = CfnSimulationProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildSankeyDiagramChartConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.SankeyDiagramChartConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.SankeyDiagramChartConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.SankeyDiagramChartConfigurationProperty =
     CfnTemplate.SankeyDiagramChartConfigurationProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.RequestedSubnet
 
 @Generated
-public fun buildRequestedSubnet(initializer: @AwsCdkDsl RequestedSubnet.Builder.() -> Unit):
+public fun buildRequestedSubnet(initializer: @AwsCdkDsl RequestedSubnet.Builder.() -> Unit = {}):
     RequestedSubnet = RequestedSubnet.Builder().apply(initializer).build()

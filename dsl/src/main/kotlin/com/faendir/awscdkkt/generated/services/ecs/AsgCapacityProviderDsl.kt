@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ecs.AsgCapacityProviderProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.asgCapacityProvider(id: String, props: AsgCapacityProviderProps):
-    AsgCapacityProvider = AsgCapacityProvider(this, id, props)
-
-@Generated
 public fun Construct.asgCapacityProvider(
   id: String,
   props: AsgCapacityProviderProps,
-  initializer: @AwsCdkDsl AsgCapacityProvider.() -> Unit,
+  initializer: @AwsCdkDsl AsgCapacityProvider.() -> Unit = {},
 ): AsgCapacityProvider = AsgCapacityProvider(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildAsgCapacityProvider(id: String, initializer: @AwsCdkDsl
-    AsgCapacityProvider.Builder.() -> Unit): AsgCapacityProvider =
+    AsgCapacityProvider.Builder.() -> Unit = {}): AsgCapacityProvider =
     AsgCapacityProvider.Builder.create(this, id).apply(initializer).build()

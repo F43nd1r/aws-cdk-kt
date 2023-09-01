@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cloudfront.CfnResponseHeadersPolicy
 
 @Generated
 public fun buildXSSProtectionProperty(initializer: @AwsCdkDsl
-    CfnResponseHeadersPolicy.XSSProtectionProperty.Builder.() -> Unit):
+    CfnResponseHeadersPolicy.XSSProtectionProperty.Builder.() -> Unit = {}):
     CfnResponseHeadersPolicy.XSSProtectionProperty =
     CfnResponseHeadersPolicy.XSSProtectionProperty.Builder().apply(initializer).build()

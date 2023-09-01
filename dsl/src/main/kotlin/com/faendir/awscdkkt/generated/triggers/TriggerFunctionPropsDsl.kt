@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.triggers.TriggerFunctionProps
 
 @Generated
-public fun buildTriggerFunctionProps(initializer: @AwsCdkDsl
-    TriggerFunctionProps.Builder.() -> Unit): TriggerFunctionProps =
-    TriggerFunctionProps.Builder().apply(initializer).build()
+public fun buildTriggerFunctionProps(initializer: @AwsCdkDsl TriggerFunctionProps.Builder.() -> Unit
+    = {}): TriggerFunctionProps = TriggerFunctionProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.redshift.CfnScheduledAction
 
 @Generated
 public fun buildResumeClusterMessageProperty(initializer: @AwsCdkDsl
-    CfnScheduledAction.ResumeClusterMessageProperty.Builder.() -> Unit):
+    CfnScheduledAction.ResumeClusterMessageProperty.Builder.() -> Unit = {}):
     CfnScheduledAction.ResumeClusterMessageProperty =
     CfnScheduledAction.ResumeClusterMessageProperty.Builder().apply(initializer).build()

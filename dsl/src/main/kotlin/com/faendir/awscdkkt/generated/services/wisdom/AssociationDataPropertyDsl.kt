@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.wisdom.CfnAssistantAssociation
 
 @Generated
 public fun buildAssociationDataProperty(initializer: @AwsCdkDsl
-    CfnAssistantAssociation.AssociationDataProperty.Builder.() -> Unit):
+    CfnAssistantAssociation.AssociationDataProperty.Builder.() -> Unit = {}):
     CfnAssistantAssociation.AssociationDataProperty =
     CfnAssistantAssociation.AssociationDataProperty.Builder().apply(initializer).build()

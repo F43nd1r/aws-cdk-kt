@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnInstance
 
 @Generated
 public fun buildAssociationParameterProperty(initializer: @AwsCdkDsl
-    CfnInstance.AssociationParameterProperty.Builder.() -> Unit):
+    CfnInstance.AssociationParameterProperty.Builder.() -> Unit = {}):
     CfnInstance.AssociationParameterProperty =
     CfnInstance.AssociationParameterProperty.Builder().apply(initializer).build()

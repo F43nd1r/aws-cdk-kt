@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.CfnListenerRule
 
 @Generated
 public fun buildAuthenticateCognitoConfigProperty(initializer: @AwsCdkDsl
-    CfnListenerRule.AuthenticateCognitoConfigProperty.Builder.() -> Unit):
+    CfnListenerRule.AuthenticateCognitoConfigProperty.Builder.() -> Unit = {}):
     CfnListenerRule.AuthenticateCognitoConfigProperty =
     CfnListenerRule.AuthenticateCognitoConfigProperty.Builder().apply(initializer).build()

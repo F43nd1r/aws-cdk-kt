@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.msk.CfnCluster
 
 @Generated
 public fun buildBrokerNodeGroupInfoProperty(initializer: @AwsCdkDsl
-    CfnCluster.BrokerNodeGroupInfoProperty.Builder.() -> Unit):
+    CfnCluster.BrokerNodeGroupInfoProperty.Builder.() -> Unit = {}):
     CfnCluster.BrokerNodeGroupInfoProperty =
     CfnCluster.BrokerNodeGroupInfoProperty.Builder().apply(initializer).build()

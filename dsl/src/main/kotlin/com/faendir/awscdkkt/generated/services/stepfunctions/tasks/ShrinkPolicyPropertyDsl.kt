@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EmrModifyInstanceGrou
 
 @Generated
 public fun buildShrinkPolicyProperty(initializer: @AwsCdkDsl
-    EmrModifyInstanceGroupByName.ShrinkPolicyProperty.Builder.() -> Unit):
+    EmrModifyInstanceGroupByName.ShrinkPolicyProperty.Builder.() -> Unit = {}):
     EmrModifyInstanceGroupByName.ShrinkPolicyProperty =
     EmrModifyInstanceGroupByName.ShrinkPolicyProperty.Builder().apply(initializer).build()

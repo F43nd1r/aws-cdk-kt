@@ -7,5 +7,5 @@ import software.amazon.awscdk.cloudassembly.schema.NestedCloudAssemblyProperties
 
 @Generated
 public fun buildNestedCloudAssemblyProperties(initializer: @AwsCdkDsl
-    NestedCloudAssemblyProperties.Builder.() -> Unit): NestedCloudAssemblyProperties =
+    NestedCloudAssemblyProperties.Builder.() -> Unit = {}): NestedCloudAssemblyProperties =
     NestedCloudAssemblyProperties.Builder().apply(initializer).build()

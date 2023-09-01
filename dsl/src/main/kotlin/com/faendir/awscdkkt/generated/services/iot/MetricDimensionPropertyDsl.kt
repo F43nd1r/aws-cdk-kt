@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iot.CfnSecurityProfile
 
 @Generated
 public fun buildMetricDimensionProperty(initializer: @AwsCdkDsl
-    CfnSecurityProfile.MetricDimensionProperty.Builder.() -> Unit):
+    CfnSecurityProfile.MetricDimensionProperty.Builder.() -> Unit = {}):
     CfnSecurityProfile.MetricDimensionProperty =
     CfnSecurityProfile.MetricDimensionProperty.Builder().apply(initializer).build()

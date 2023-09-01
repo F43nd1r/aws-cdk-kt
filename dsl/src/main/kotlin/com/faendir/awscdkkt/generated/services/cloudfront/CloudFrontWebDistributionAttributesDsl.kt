@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.cloudfront.CloudFrontWebDistributionAttri
 
 @Generated
 public fun buildCloudFrontWebDistributionAttributes(initializer: @AwsCdkDsl
-    CloudFrontWebDistributionAttributes.Builder.() -> Unit): CloudFrontWebDistributionAttributes =
+    CloudFrontWebDistributionAttributes.Builder.() -> Unit = {}):
+    CloudFrontWebDistributionAttributes =
     CloudFrontWebDistributionAttributes.Builder().apply(initializer).build()

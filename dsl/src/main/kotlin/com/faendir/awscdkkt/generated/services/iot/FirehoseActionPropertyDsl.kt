@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.iot.CfnTopicRule
 
 @Generated
 public fun buildFirehoseActionProperty(initializer: @AwsCdkDsl
-    CfnTopicRule.FirehoseActionProperty.Builder.() -> Unit): CfnTopicRule.FirehoseActionProperty =
+    CfnTopicRule.FirehoseActionProperty.Builder.() -> Unit = {}):
+    CfnTopicRule.FirehoseActionProperty =
     CfnTopicRule.FirehoseActionProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sagemaker.CfnUserProfile
 
 @Generated
 public fun buildCustomImageProperty(initializer: @AwsCdkDsl
-    CfnUserProfile.CustomImageProperty.Builder.() -> Unit): CfnUserProfile.CustomImageProperty =
-    CfnUserProfile.CustomImageProperty.Builder().apply(initializer).build()
+    CfnUserProfile.CustomImageProperty.Builder.() -> Unit = {}): CfnUserProfile.CustomImageProperty
+    = CfnUserProfile.CustomImageProperty.Builder().apply(initializer).build()

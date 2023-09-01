@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnEC2Fleet
 
 @Generated
 public fun buildCapacityRebalanceProperty(initializer: @AwsCdkDsl
-    CfnEC2Fleet.CapacityRebalanceProperty.Builder.() -> Unit): CfnEC2Fleet.CapacityRebalanceProperty
-    = CfnEC2Fleet.CapacityRebalanceProperty.Builder().apply(initializer).build()
+    CfnEC2Fleet.CapacityRebalanceProperty.Builder.() -> Unit = {}):
+    CfnEC2Fleet.CapacityRebalanceProperty =
+    CfnEC2Fleet.CapacityRebalanceProperty.Builder().apply(initializer).build()

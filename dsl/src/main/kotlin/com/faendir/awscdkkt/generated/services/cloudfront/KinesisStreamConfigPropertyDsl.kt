@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cloudfront.CfnRealtimeLogConfig
 
 @Generated
 public fun buildKinesisStreamConfigProperty(initializer: @AwsCdkDsl
-    CfnRealtimeLogConfig.KinesisStreamConfigProperty.Builder.() -> Unit):
+    CfnRealtimeLogConfig.KinesisStreamConfigProperty.Builder.() -> Unit = {}):
     CfnRealtimeLogConfig.KinesisStreamConfigProperty =
     CfnRealtimeLogConfig.KinesisStreamConfigProperty.Builder().apply(initializer).build()

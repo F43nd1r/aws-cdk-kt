@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iotfleetwise.CfnDecoderManifest
 
 @Generated
 public fun buildObdNetworkInterfaceProperty(initializer: @AwsCdkDsl
-    CfnDecoderManifest.ObdNetworkInterfaceProperty.Builder.() -> Unit):
+    CfnDecoderManifest.ObdNetworkInterfaceProperty.Builder.() -> Unit = {}):
     CfnDecoderManifest.ObdNetworkInterfaceProperty =
     CfnDecoderManifest.ObdNetworkInterfaceProperty.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.pinpoint.CfnSegment
 
 @Generated
 public fun buildSegmentDimensionsProperty(initializer: @AwsCdkDsl
-    CfnSegment.SegmentDimensionsProperty.Builder.() -> Unit): CfnSegment.SegmentDimensionsProperty =
+    CfnSegment.SegmentDimensionsProperty.Builder.() -> Unit = {}):
+    CfnSegment.SegmentDimensionsProperty =
     CfnSegment.SegmentDimensionsProperty.Builder().apply(initializer).build()

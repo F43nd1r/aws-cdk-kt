@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
 public fun buildVpcConfigProperty(initializer: @AwsCdkDsl
-    CfnFunction.VpcConfigProperty.Builder.() -> Unit): CfnFunction.VpcConfigProperty =
+    CfnFunction.VpcConfigProperty.Builder.() -> Unit = {}): CfnFunction.VpcConfigProperty =
     CfnFunction.VpcConfigProperty.Builder().apply(initializer).build()

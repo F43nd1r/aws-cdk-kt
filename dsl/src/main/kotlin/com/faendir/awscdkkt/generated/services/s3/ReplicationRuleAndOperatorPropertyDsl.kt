@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
 public fun buildReplicationRuleAndOperatorProperty(initializer: @AwsCdkDsl
-    CfnBucket.ReplicationRuleAndOperatorProperty.Builder.() -> Unit):
+    CfnBucket.ReplicationRuleAndOperatorProperty.Builder.() -> Unit = {}):
     CfnBucket.ReplicationRuleAndOperatorProperty =
     CfnBucket.ReplicationRuleAndOperatorProperty.Builder().apply(initializer).build()

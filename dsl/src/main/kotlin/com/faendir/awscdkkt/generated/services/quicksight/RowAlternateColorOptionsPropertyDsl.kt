@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildRowAlternateColorOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.RowAlternateColorOptionsProperty.Builder.() -> Unit):
+    CfnTemplate.RowAlternateColorOptionsProperty.Builder.() -> Unit = {}):
     CfnTemplate.RowAlternateColorOptionsProperty =
     CfnTemplate.RowAlternateColorOptionsProperty.Builder().apply(initializer).build()

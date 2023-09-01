@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.lakeformation.CfnPrincipalPermissionsProp
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnPrincipalPermissions(id: String, props: CfnPrincipalPermissionsProps):
-    CfnPrincipalPermissions = CfnPrincipalPermissions(this, id, props)
-
-@Generated
 public fun Construct.cfnPrincipalPermissions(
   id: String,
   props: CfnPrincipalPermissionsProps,
-  initializer: @AwsCdkDsl CfnPrincipalPermissions.() -> Unit,
+  initializer: @AwsCdkDsl CfnPrincipalPermissions.() -> Unit = {},
 ): CfnPrincipalPermissions = CfnPrincipalPermissions(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnPrincipalPermissions(id: String, initializer: @AwsCdkDsl
-    CfnPrincipalPermissions.Builder.() -> Unit): CfnPrincipalPermissions =
+    CfnPrincipalPermissions.Builder.() -> Unit = {}): CfnPrincipalPermissions =
     CfnPrincipalPermissions.Builder.create(this, id).apply(initializer).build()

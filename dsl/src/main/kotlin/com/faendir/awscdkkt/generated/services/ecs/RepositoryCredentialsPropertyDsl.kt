@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
 public fun buildRepositoryCredentialsProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.RepositoryCredentialsProperty.Builder.() -> Unit):
+    CfnTaskDefinition.RepositoryCredentialsProperty.Builder.() -> Unit = {}):
     CfnTaskDefinition.RepositoryCredentialsProperty =
     CfnTaskDefinition.RepositoryCredentialsProperty.Builder().apply(initializer).build()

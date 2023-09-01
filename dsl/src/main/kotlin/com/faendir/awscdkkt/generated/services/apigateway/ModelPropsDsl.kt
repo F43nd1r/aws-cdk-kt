@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.ModelProps
 
 @Generated
-public fun buildModelProps(initializer: @AwsCdkDsl ModelProps.Builder.() -> Unit): ModelProps =
+public fun buildModelProps(initializer: @AwsCdkDsl ModelProps.Builder.() -> Unit = {}): ModelProps =
     ModelProps.Builder().apply(initializer).build()

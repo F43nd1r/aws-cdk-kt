@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.emrserverless.CfnApplication
 
 @Generated
 public fun buildWorkerTypeSpecificationInputProperty(initializer: @AwsCdkDsl
-    CfnApplication.WorkerTypeSpecificationInputProperty.Builder.() -> Unit):
+    CfnApplication.WorkerTypeSpecificationInputProperty.Builder.() -> Unit = {}):
     CfnApplication.WorkerTypeSpecificationInputProperty =
     CfnApplication.WorkerTypeSpecificationInputProperty.Builder().apply(initializer).build()

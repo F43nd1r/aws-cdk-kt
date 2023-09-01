@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.CfnSAMLProviderProps
 
 @Generated
-public fun buildCfnSAMLProviderProps(initializer: @AwsCdkDsl
-    CfnSAMLProviderProps.Builder.() -> Unit): CfnSAMLProviderProps =
-    CfnSAMLProviderProps.Builder().apply(initializer).build()
+public fun buildCfnSAMLProviderProps(initializer: @AwsCdkDsl CfnSAMLProviderProps.Builder.() -> Unit
+    = {}): CfnSAMLProviderProps = CfnSAMLProviderProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lakeformation.CfnDataLakeSettings
 
 @Generated
 public fun buildCreateDatabaseDefaultPermissionsProperty(initializer: @AwsCdkDsl
-    CfnDataLakeSettings.CreateDatabaseDefaultPermissionsProperty.Builder.() -> Unit):
+    CfnDataLakeSettings.CreateDatabaseDefaultPermissionsProperty.Builder.() -> Unit = {}):
     CfnDataLakeSettings.CreateDatabaseDefaultPermissionsProperty =
     CfnDataLakeSettings.CreateDatabaseDefaultPermissionsProperty.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelCard
 
 @Generated
 public fun buildEvaluationDetailProperty(initializer: @AwsCdkDsl
-    CfnModelCard.EvaluationDetailProperty.Builder.() -> Unit): CfnModelCard.EvaluationDetailProperty
-    = CfnModelCard.EvaluationDetailProperty.Builder().apply(initializer).build()
+    CfnModelCard.EvaluationDetailProperty.Builder.() -> Unit = {}):
+    CfnModelCard.EvaluationDetailProperty =
+    CfnModelCard.EvaluationDetailProperty.Builder().apply(initializer).build()

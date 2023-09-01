@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cognito.ResourceServerScopeProps
 
 @Generated
 public fun buildResourceServerScopeProps(initializer: @AwsCdkDsl
-    ResourceServerScopeProps.Builder.() -> Unit): ResourceServerScopeProps =
+    ResourceServerScopeProps.Builder.() -> Unit = {}): ResourceServerScopeProps =
     ResourceServerScopeProps.Builder().apply(initializer).build()

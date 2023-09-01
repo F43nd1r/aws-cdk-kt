@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.ConnectionsProps
 
 @Generated
-public fun buildConnectionsProps(initializer: @AwsCdkDsl ConnectionsProps.Builder.() -> Unit):
+public fun buildConnectionsProps(initializer: @AwsCdkDsl ConnectionsProps.Builder.() -> Unit = {}):
     ConnectionsProps = ConnectionsProps.Builder().apply(initializer).build()

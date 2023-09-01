@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.AwsIamConfig
 
 @Generated
-public fun buildAwsIamConfig(initializer: @AwsCdkDsl AwsIamConfig.Builder.() -> Unit): AwsIamConfig
-    = AwsIamConfig.Builder().apply(initializer).build()
+public fun buildAwsIamConfig(initializer: @AwsCdkDsl AwsIamConfig.Builder.() -> Unit = {}):
+    AwsIamConfig = AwsIamConfig.Builder().apply(initializer).build()

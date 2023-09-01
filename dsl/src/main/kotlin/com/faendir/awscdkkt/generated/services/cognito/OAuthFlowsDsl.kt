@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.OAuthFlows
 
 @Generated
-public fun buildOAuthFlows(initializer: @AwsCdkDsl OAuthFlows.Builder.() -> Unit): OAuthFlows =
+public fun buildOAuthFlows(initializer: @AwsCdkDsl OAuthFlows.Builder.() -> Unit = {}): OAuthFlows =
     OAuthFlows.Builder().apply(initializer).build()

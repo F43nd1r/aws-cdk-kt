@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appmesh.CfnVirtualNode
 
 @Generated
 public fun buildDurationProperty(initializer: @AwsCdkDsl
-    CfnVirtualNode.DurationProperty.Builder.() -> Unit): CfnVirtualNode.DurationProperty =
+    CfnVirtualNode.DurationProperty.Builder.() -> Unit = {}): CfnVirtualNode.DurationProperty =
     CfnVirtualNode.DurationProperty.Builder().apply(initializer).build()

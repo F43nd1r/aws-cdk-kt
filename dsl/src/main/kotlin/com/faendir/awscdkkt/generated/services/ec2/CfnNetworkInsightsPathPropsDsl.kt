@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.CfnNetworkInsightsPathProps
 
 @Generated
 public fun buildCfnNetworkInsightsPathProps(initializer: @AwsCdkDsl
-    CfnNetworkInsightsPathProps.Builder.() -> Unit): CfnNetworkInsightsPathProps =
+    CfnNetworkInsightsPathProps.Builder.() -> Unit = {}): CfnNetworkInsightsPathProps =
     CfnNetworkInsightsPathProps.Builder().apply(initializer).build()

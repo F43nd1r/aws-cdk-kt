@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.pipelines.StackAsset
 
 @Generated
-public fun buildStackAsset(initializer: @AwsCdkDsl StackAsset.Builder.() -> Unit): StackAsset =
+public fun buildStackAsset(initializer: @AwsCdkDsl StackAsset.Builder.() -> Unit = {}): StackAsset =
     StackAsset.Builder().apply(initializer).build()

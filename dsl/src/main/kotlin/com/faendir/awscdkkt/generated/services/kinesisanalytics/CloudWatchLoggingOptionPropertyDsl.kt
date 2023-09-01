@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kinesisanalytics.CfnApplicationCloudWatch
 
 @Generated
 public fun buildCloudWatchLoggingOptionProperty(initializer: @AwsCdkDsl
-    CfnApplicationCloudWatchLoggingOptionV2.CloudWatchLoggingOptionProperty.Builder.() -> Unit):
-    CfnApplicationCloudWatchLoggingOptionV2.CloudWatchLoggingOptionProperty =
+    CfnApplicationCloudWatchLoggingOptionV2.CloudWatchLoggingOptionProperty.Builder.() -> Unit =
+    {}): CfnApplicationCloudWatchLoggingOptionV2.CloudWatchLoggingOptionProperty =
     CfnApplicationCloudWatchLoggingOptionV2.CloudWatchLoggingOptionProperty.Builder().apply(initializer).build()

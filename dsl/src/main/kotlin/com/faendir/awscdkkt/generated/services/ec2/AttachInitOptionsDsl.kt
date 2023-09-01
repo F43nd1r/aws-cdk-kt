@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.AttachInitOptions
 
 @Generated
-public fun buildAttachInitOptions(initializer: @AwsCdkDsl AttachInitOptions.Builder.() -> Unit):
-    AttachInitOptions = AttachInitOptions.Builder().apply(initializer).build()
+public fun buildAttachInitOptions(initializer: @AwsCdkDsl AttachInitOptions.Builder.() -> Unit =
+    {}): AttachInitOptions = AttachInitOptions.Builder().apply(initializer).build()

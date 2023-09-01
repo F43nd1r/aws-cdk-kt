@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildColumnSortProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ColumnSortProperty.Builder.() -> Unit): CfnTemplate.ColumnSortProperty =
+    CfnTemplate.ColumnSortProperty.Builder.() -> Unit = {}): CfnTemplate.ColumnSortProperty =
     CfnTemplate.ColumnSortProperty.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildUnaggregatedFieldProperty(initializer: @AwsCdkDsl
-    CfnTemplate.UnaggregatedFieldProperty.Builder.() -> Unit): CfnTemplate.UnaggregatedFieldProperty
-    = CfnTemplate.UnaggregatedFieldProperty.Builder().apply(initializer).build()
+    CfnTemplate.UnaggregatedFieldProperty.Builder.() -> Unit = {}):
+    CfnTemplate.UnaggregatedFieldProperty =
+    CfnTemplate.UnaggregatedFieldProperty.Builder().apply(initializer).build()

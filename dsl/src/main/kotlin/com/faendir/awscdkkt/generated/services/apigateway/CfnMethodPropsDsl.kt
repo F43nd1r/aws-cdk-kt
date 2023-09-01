@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.CfnMethodProps
 
 @Generated
-public fun buildCfnMethodProps(initializer: @AwsCdkDsl CfnMethodProps.Builder.() -> Unit):
+public fun buildCfnMethodProps(initializer: @AwsCdkDsl CfnMethodProps.Builder.() -> Unit = {}):
     CfnMethodProps = CfnMethodProps.Builder().apply(initializer).build()

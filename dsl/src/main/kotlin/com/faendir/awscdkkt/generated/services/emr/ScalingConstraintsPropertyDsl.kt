@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.emr.CfnInstanceGroupConfig
 
 @Generated
 public fun buildScalingConstraintsProperty(initializer: @AwsCdkDsl
-    CfnInstanceGroupConfig.ScalingConstraintsProperty.Builder.() -> Unit):
+    CfnInstanceGroupConfig.ScalingConstraintsProperty.Builder.() -> Unit = {}):
     CfnInstanceGroupConfig.ScalingConstraintsProperty =
     CfnInstanceGroupConfig.ScalingConstraintsProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.mediatailor.CfnPlaybackConfiguration
 
 @Generated
 public fun buildCdnConfigurationProperty(initializer: @AwsCdkDsl
-    CfnPlaybackConfiguration.CdnConfigurationProperty.Builder.() -> Unit):
+    CfnPlaybackConfiguration.CdnConfigurationProperty.Builder.() -> Unit = {}):
     CfnPlaybackConfiguration.CdnConfigurationProperty =
     CfnPlaybackConfiguration.CdnConfigurationProperty.Builder().apply(initializer).build()

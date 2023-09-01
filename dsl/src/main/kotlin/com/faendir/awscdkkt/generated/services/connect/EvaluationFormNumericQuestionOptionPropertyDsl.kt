@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.connect.CfnEvaluationForm
 
 @Generated
 public fun buildEvaluationFormNumericQuestionOptionProperty(initializer: @AwsCdkDsl
-    CfnEvaluationForm.EvaluationFormNumericQuestionOptionProperty.Builder.() -> Unit):
+    CfnEvaluationForm.EvaluationFormNumericQuestionOptionProperty.Builder.() -> Unit = {}):
     CfnEvaluationForm.EvaluationFormNumericQuestionOptionProperty =
     CfnEvaluationForm.EvaluationFormNumericQuestionOptionProperty.Builder().apply(initializer).build()

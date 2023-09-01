@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildClusterMarkerConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ClusterMarkerConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.ClusterMarkerConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.ClusterMarkerConfigurationProperty =
     CfnTemplate.ClusterMarkerConfigurationProperty.Builder().apply(initializer).build()

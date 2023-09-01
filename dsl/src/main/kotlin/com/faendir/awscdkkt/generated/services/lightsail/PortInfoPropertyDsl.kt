@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lightsail.CfnContainer
 
 @Generated
 public fun buildPortInfoProperty(initializer: @AwsCdkDsl
-    CfnContainer.PortInfoProperty.Builder.() -> Unit): CfnContainer.PortInfoProperty =
+    CfnContainer.PortInfoProperty.Builder.() -> Unit = {}): CfnContainer.PortInfoProperty =
     CfnContainer.PortInfoProperty.Builder().apply(initializer).build()

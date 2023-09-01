@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appmesh.CfnVirtualGateway
 
 @Generated
 public fun buildVirtualGatewayHealthCheckPolicyProperty(initializer: @AwsCdkDsl
-    CfnVirtualGateway.VirtualGatewayHealthCheckPolicyProperty.Builder.() -> Unit):
+    CfnVirtualGateway.VirtualGatewayHealthCheckPolicyProperty.Builder.() -> Unit = {}):
     CfnVirtualGateway.VirtualGatewayHealthCheckPolicyProperty =
     CfnVirtualGateway.VirtualGatewayHealthCheckPolicyProperty.Builder().apply(initializer).build()

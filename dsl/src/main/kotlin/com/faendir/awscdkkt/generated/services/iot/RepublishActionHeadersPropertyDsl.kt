@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iot.CfnTopicRule
 
 @Generated
 public fun buildRepublishActionHeadersProperty(initializer: @AwsCdkDsl
-    CfnTopicRule.RepublishActionHeadersProperty.Builder.() -> Unit):
+    CfnTopicRule.RepublishActionHeadersProperty.Builder.() -> Unit = {}):
     CfnTopicRule.RepublishActionHeadersProperty =
     CfnTopicRule.RepublishActionHeadersProperty.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.cloudwatch.CfnInsightRuleProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnInsightRule(id: String, props: CfnInsightRuleProps): CfnInsightRule =
-    CfnInsightRule(this, id, props)
-
-@Generated
 public fun Construct.cfnInsightRule(
   id: String,
   props: CfnInsightRuleProps,
-  initializer: @AwsCdkDsl CfnInsightRule.() -> Unit,
+  initializer: @AwsCdkDsl CfnInsightRule.() -> Unit = {},
 ): CfnInsightRule = CfnInsightRule(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnInsightRule(id: String, initializer: @AwsCdkDsl
-    CfnInsightRule.Builder.() -> Unit): CfnInsightRule = CfnInsightRule.Builder.create(this,
+    CfnInsightRule.Builder.() -> Unit = {}): CfnInsightRule = CfnInsightRule.Builder.create(this,
     id).apply(initializer).build()

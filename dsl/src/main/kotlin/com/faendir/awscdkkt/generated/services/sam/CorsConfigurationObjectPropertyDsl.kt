@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sam.CfnHttpApi
 
 @Generated
 public fun buildCorsConfigurationObjectProperty(initializer: @AwsCdkDsl
-    CfnHttpApi.CorsConfigurationObjectProperty.Builder.() -> Unit):
+    CfnHttpApi.CorsConfigurationObjectProperty.Builder.() -> Unit = {}):
     CfnHttpApi.CorsConfigurationObjectProperty =
     CfnHttpApi.CorsConfigurationObjectProperty.Builder().apply(initializer).build()

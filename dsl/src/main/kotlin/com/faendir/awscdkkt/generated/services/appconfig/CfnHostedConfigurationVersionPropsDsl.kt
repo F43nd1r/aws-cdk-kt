@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appconfig.CfnHostedConfigurationVersionPr
 
 @Generated
 public fun buildCfnHostedConfigurationVersionProps(initializer: @AwsCdkDsl
-    CfnHostedConfigurationVersionProps.Builder.() -> Unit): CfnHostedConfigurationVersionProps =
-    CfnHostedConfigurationVersionProps.Builder().apply(initializer).build()
+    CfnHostedConfigurationVersionProps.Builder.() -> Unit = {}): CfnHostedConfigurationVersionProps
+    = CfnHostedConfigurationVersionProps.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.applicationautoscaling.TargetTrackingScal
 
 @Generated
 public fun buildTargetTrackingScalingPolicyProps(initializer: @AwsCdkDsl
-    TargetTrackingScalingPolicyProps.Builder.() -> Unit): TargetTrackingScalingPolicyProps =
+    TargetTrackingScalingPolicyProps.Builder.() -> Unit = {}): TargetTrackingScalingPolicyProps =
     TargetTrackingScalingPolicyProps.Builder().apply(initializer).build()

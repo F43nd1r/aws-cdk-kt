@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.budgets.CfnBudget
 
 @Generated
 public fun buildBudgetDataProperty(initializer: @AwsCdkDsl
-    CfnBudget.BudgetDataProperty.Builder.() -> Unit): CfnBudget.BudgetDataProperty =
+    CfnBudget.BudgetDataProperty.Builder.() -> Unit = {}): CfnBudget.BudgetDataProperty =
     CfnBudget.BudgetDataProperty.Builder().apply(initializer).build()

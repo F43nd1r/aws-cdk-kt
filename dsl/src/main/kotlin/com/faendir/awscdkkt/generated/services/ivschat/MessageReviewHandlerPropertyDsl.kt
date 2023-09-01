@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.ivschat.CfnRoom
 
 @Generated
 public fun buildMessageReviewHandlerProperty(initializer: @AwsCdkDsl
-    CfnRoom.MessageReviewHandlerProperty.Builder.() -> Unit): CfnRoom.MessageReviewHandlerProperty =
+    CfnRoom.MessageReviewHandlerProperty.Builder.() -> Unit = {}):
+    CfnRoom.MessageReviewHandlerProperty =
     CfnRoom.MessageReviewHandlerProperty.Builder().apply(initializer).build()

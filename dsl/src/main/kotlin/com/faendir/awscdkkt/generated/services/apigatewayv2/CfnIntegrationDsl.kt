@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.apigatewayv2.CfnIntegrationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnIntegration(id: String, props: CfnIntegrationProps): CfnIntegration =
-    CfnIntegration(this, id, props)
-
-@Generated
 public fun Construct.cfnIntegration(
   id: String,
   props: CfnIntegrationProps,
-  initializer: @AwsCdkDsl CfnIntegration.() -> Unit,
+  initializer: @AwsCdkDsl CfnIntegration.() -> Unit = {},
 ): CfnIntegration = CfnIntegration(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnIntegration(id: String, initializer: @AwsCdkDsl
-    CfnIntegration.Builder.() -> Unit): CfnIntegration = CfnIntegration.Builder.create(this,
+    CfnIntegration.Builder.() -> Unit = {}): CfnIntegration = CfnIntegration.Builder.create(this,
     id).apply(initializer).build()

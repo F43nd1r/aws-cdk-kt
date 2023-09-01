@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sns.BetweenCondition
 
 @Generated
-public fun buildBetweenCondition(initializer: @AwsCdkDsl BetweenCondition.Builder.() -> Unit):
+public fun buildBetweenCondition(initializer: @AwsCdkDsl BetweenCondition.Builder.() -> Unit = {}):
     BetweenCondition = BetweenCondition.Builder().apply(initializer).build()

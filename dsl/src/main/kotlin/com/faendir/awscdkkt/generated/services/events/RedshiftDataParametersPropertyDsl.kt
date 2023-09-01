@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.events.CfnRule
 
 @Generated
 public fun buildRedshiftDataParametersProperty(initializer: @AwsCdkDsl
-    CfnRule.RedshiftDataParametersProperty.Builder.() -> Unit):
+    CfnRule.RedshiftDataParametersProperty.Builder.() -> Unit = {}):
     CfnRule.RedshiftDataParametersProperty =
     CfnRule.RedshiftDataParametersProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.AddApplicationActi
 
 @Generated
 public fun buildAddApplicationActionProps(initializer: @AwsCdkDsl
-    AddApplicationActionProps.Builder.() -> Unit): AddApplicationActionProps =
+    AddApplicationActionProps.Builder.() -> Unit = {}): AddApplicationActionProps =
     AddApplicationActionProps.Builder().apply(initializer).build()

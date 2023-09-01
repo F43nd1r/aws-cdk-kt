@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.forecast.CfnDataset
 
 @Generated
 public fun buildTagsItemsProperty(initializer: @AwsCdkDsl
-    CfnDataset.TagsItemsProperty.Builder.() -> Unit): CfnDataset.TagsItemsProperty =
+    CfnDataset.TagsItemsProperty.Builder.() -> Unit = {}): CfnDataset.TagsItemsProperty =
     CfnDataset.TagsItemsProperty.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.certificatemanager.PrivateCertificateProp
 import software.constructs.Construct
 
 @Generated
-public fun Construct.privateCertificate(id: String, props: PrivateCertificateProps):
-    PrivateCertificate = PrivateCertificate(this, id, props)
-
-@Generated
 public fun Construct.privateCertificate(
   id: String,
   props: PrivateCertificateProps,
-  initializer: @AwsCdkDsl PrivateCertificate.() -> Unit,
+  initializer: @AwsCdkDsl PrivateCertificate.() -> Unit = {},
 ): PrivateCertificate = PrivateCertificate(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildPrivateCertificate(id: String, initializer: @AwsCdkDsl
-    PrivateCertificate.Builder.() -> Unit): PrivateCertificate =
+    PrivateCertificate.Builder.() -> Unit = {}): PrivateCertificate =
     PrivateCertificate.Builder.create(this, id).apply(initializer).build()

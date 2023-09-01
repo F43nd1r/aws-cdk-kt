@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.glue.CfnCrawler
 
 @Generated
 public fun buildIcebergTargetProperty(initializer: @AwsCdkDsl
-    CfnCrawler.IcebergTargetProperty.Builder.() -> Unit): CfnCrawler.IcebergTargetProperty =
+    CfnCrawler.IcebergTargetProperty.Builder.() -> Unit = {}): CfnCrawler.IcebergTargetProperty =
     CfnCrawler.IcebergTargetProperty.Builder().apply(initializer).build()

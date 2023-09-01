@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
 public fun buildRedshiftRetryOptionsProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.RedshiftRetryOptionsProperty.Builder.() -> Unit):
+    CfnDeliveryStream.RedshiftRetryOptionsProperty.Builder.() -> Unit = {}):
     CfnDeliveryStream.RedshiftRetryOptionsProperty =
     CfnDeliveryStream.RedshiftRetryOptionsProperty.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.networkmanager.CfnVpcAttachment
 
 @Generated
 public fun buildVpcOptionsProperty(initializer: @AwsCdkDsl
-    CfnVpcAttachment.VpcOptionsProperty.Builder.() -> Unit): CfnVpcAttachment.VpcOptionsProperty =
+    CfnVpcAttachment.VpcOptionsProperty.Builder.() -> Unit = {}):
+    CfnVpcAttachment.VpcOptionsProperty =
     CfnVpcAttachment.VpcOptionsProperty.Builder().apply(initializer).build()

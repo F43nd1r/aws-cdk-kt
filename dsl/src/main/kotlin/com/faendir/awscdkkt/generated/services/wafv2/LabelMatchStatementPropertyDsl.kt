@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
 public fun buildLabelMatchStatementProperty(initializer: @AwsCdkDsl
-    CfnWebACL.LabelMatchStatementProperty.Builder.() -> Unit): CfnWebACL.LabelMatchStatementProperty
-    = CfnWebACL.LabelMatchStatementProperty.Builder().apply(initializer).build()
+    CfnWebACL.LabelMatchStatementProperty.Builder.() -> Unit = {}):
+    CfnWebACL.LabelMatchStatementProperty =
+    CfnWebACL.LabelMatchStatementProperty.Builder().apply(initializer).build()

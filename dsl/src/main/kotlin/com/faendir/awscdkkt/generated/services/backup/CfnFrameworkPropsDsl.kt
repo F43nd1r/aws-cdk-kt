@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.backup.CfnFrameworkProps
 
 @Generated
-public fun buildCfnFrameworkProps(initializer: @AwsCdkDsl CfnFrameworkProps.Builder.() -> Unit):
-    CfnFrameworkProps = CfnFrameworkProps.Builder().apply(initializer).build()
+public fun buildCfnFrameworkProps(initializer: @AwsCdkDsl CfnFrameworkProps.Builder.() -> Unit =
+    {}): CfnFrameworkProps = CfnFrameworkProps.Builder().apply(initializer).build()

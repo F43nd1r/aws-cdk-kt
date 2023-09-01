@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.autoscaling.CfnLaunchConfigurationProps
 
 @Generated
 public fun buildCfnLaunchConfigurationProps(initializer: @AwsCdkDsl
-    CfnLaunchConfigurationProps.Builder.() -> Unit): CfnLaunchConfigurationProps =
+    CfnLaunchConfigurationProps.Builder.() -> Unit = {}): CfnLaunchConfigurationProps =
     CfnLaunchConfigurationProps.Builder().apply(initializer).build()

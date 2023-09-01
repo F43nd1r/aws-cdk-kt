@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.patterns.ApplicationMultipleTargetGro
 
 @Generated
 public fun buildApplicationMultipleTargetGroupsFargateServiceProps(initializer: @AwsCdkDsl
-    ApplicationMultipleTargetGroupsFargateServiceProps.Builder.() -> Unit):
+    ApplicationMultipleTargetGroupsFargateServiceProps.Builder.() -> Unit = {}):
     ApplicationMultipleTargetGroupsFargateServiceProps =
     ApplicationMultipleTargetGroupsFargateServiceProps.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.rds.ParameterGroupInstanceBindOptions
 
 @Generated
 public fun buildParameterGroupInstanceBindOptions(initializer: @AwsCdkDsl
-    ParameterGroupInstanceBindOptions.Builder.() -> Unit): ParameterGroupInstanceBindOptions =
+    ParameterGroupInstanceBindOptions.Builder.() -> Unit = {}): ParameterGroupInstanceBindOptions =
     ParameterGroupInstanceBindOptions.Builder().apply(initializer).build()

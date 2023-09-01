@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.ses.ConfigurationSetEventDestinationProps
 
 @Generated
 public fun buildConfigurationSetEventDestinationProps(initializer: @AwsCdkDsl
-    ConfigurationSetEventDestinationProps.Builder.() -> Unit): ConfigurationSetEventDestinationProps
-    = ConfigurationSetEventDestinationProps.Builder().apply(initializer).build()
+    ConfigurationSetEventDestinationProps.Builder.() -> Unit = {}):
+    ConfigurationSetEventDestinationProps =
+    ConfigurationSetEventDestinationProps.Builder().apply(initializer).build()

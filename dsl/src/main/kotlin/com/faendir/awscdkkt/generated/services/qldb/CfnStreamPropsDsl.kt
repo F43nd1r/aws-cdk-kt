@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qldb.CfnStreamProps
 
 @Generated
-public fun buildCfnStreamProps(initializer: @AwsCdkDsl CfnStreamProps.Builder.() -> Unit):
+public fun buildCfnStreamProps(initializer: @AwsCdkDsl CfnStreamProps.Builder.() -> Unit = {}):
     CfnStreamProps = CfnStreamProps.Builder().apply(initializer).build()

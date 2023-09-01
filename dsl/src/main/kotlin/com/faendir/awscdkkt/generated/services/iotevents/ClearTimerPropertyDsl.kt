@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.iotevents.CfnDetectorModel
 
 @Generated
 public fun buildClearTimerProperty(initializer: @AwsCdkDsl
-    CfnDetectorModel.ClearTimerProperty.Builder.() -> Unit): CfnDetectorModel.ClearTimerProperty =
+    CfnDetectorModel.ClearTimerProperty.Builder.() -> Unit = {}):
+    CfnDetectorModel.ClearTimerProperty =
     CfnDetectorModel.ClearTimerProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildWordCloudSortConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.WordCloudSortConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.WordCloudSortConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.WordCloudSortConfigurationProperty =
     CfnTemplate.WordCloudSortConfigurationProperty.Builder().apply(initializer).build()

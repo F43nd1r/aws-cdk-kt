@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.cloudfront.CfnPublicKey
 
 @Generated
 public fun buildPublicKeyConfigProperty(initializer: @AwsCdkDsl
-    CfnPublicKey.PublicKeyConfigProperty.Builder.() -> Unit): CfnPublicKey.PublicKeyConfigProperty =
+    CfnPublicKey.PublicKeyConfigProperty.Builder.() -> Unit = {}):
+    CfnPublicKey.PublicKeyConfigProperty =
     CfnPublicKey.PublicKeyConfigProperty.Builder().apply(initializer).build()

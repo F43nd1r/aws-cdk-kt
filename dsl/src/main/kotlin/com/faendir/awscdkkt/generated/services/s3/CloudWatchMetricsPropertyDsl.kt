@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.s3.CfnStorageLens
 
 @Generated
 public fun buildCloudWatchMetricsProperty(initializer: @AwsCdkDsl
-    CfnStorageLens.CloudWatchMetricsProperty.Builder.() -> Unit):
+    CfnStorageLens.CloudWatchMetricsProperty.Builder.() -> Unit = {}):
     CfnStorageLens.CloudWatchMetricsProperty =
     CfnStorageLens.CloudWatchMetricsProperty.Builder().apply(initializer).build()

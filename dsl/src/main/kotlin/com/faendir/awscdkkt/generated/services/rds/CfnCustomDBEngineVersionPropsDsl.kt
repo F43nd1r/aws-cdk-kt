@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.rds.CfnCustomDBEngineVersionProps
 
 @Generated
 public fun buildCfnCustomDBEngineVersionProps(initializer: @AwsCdkDsl
-    CfnCustomDBEngineVersionProps.Builder.() -> Unit): CfnCustomDBEngineVersionProps =
+    CfnCustomDBEngineVersionProps.Builder.() -> Unit = {}): CfnCustomDBEngineVersionProps =
     CfnCustomDBEngineVersionProps.Builder().apply(initializer).build()

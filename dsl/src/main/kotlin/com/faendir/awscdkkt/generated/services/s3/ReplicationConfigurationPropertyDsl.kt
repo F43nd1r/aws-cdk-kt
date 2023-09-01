@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
 public fun buildReplicationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnBucket.ReplicationConfigurationProperty.Builder.() -> Unit):
+    CfnBucket.ReplicationConfigurationProperty.Builder.() -> Unit = {}):
     CfnBucket.ReplicationConfigurationProperty =
     CfnBucket.ReplicationConfigurationProperty.Builder().apply(initializer).build()

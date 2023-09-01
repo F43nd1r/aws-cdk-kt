@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
 public fun buildPipeSourceKinesisStreamParametersProperty(initializer: @AwsCdkDsl
-    CfnPipe.PipeSourceKinesisStreamParametersProperty.Builder.() -> Unit):
+    CfnPipe.PipeSourceKinesisStreamParametersProperty.Builder.() -> Unit = {}):
     CfnPipe.PipeSourceKinesisStreamParametersProperty =
     CfnPipe.PipeSourceKinesisStreamParametersProperty.Builder().apply(initializer).build()

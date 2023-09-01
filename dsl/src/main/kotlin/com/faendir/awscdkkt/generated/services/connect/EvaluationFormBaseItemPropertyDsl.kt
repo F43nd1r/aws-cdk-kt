@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.connect.CfnEvaluationForm
 
 @Generated
 public fun buildEvaluationFormBaseItemProperty(initializer: @AwsCdkDsl
-    CfnEvaluationForm.EvaluationFormBaseItemProperty.Builder.() -> Unit):
+    CfnEvaluationForm.EvaluationFormBaseItemProperty.Builder.() -> Unit = {}):
     CfnEvaluationForm.EvaluationFormBaseItemProperty =
     CfnEvaluationForm.EvaluationFormBaseItemProperty.Builder().apply(initializer).build()

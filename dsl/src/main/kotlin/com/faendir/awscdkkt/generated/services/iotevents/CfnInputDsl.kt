@@ -9,16 +9,12 @@ import software.amazon.awscdk.services.iotevents.CfnInputProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnInput(id: String, props: CfnInputProps): CfnInput = CfnInput(this, id,
-    props)
-
-@Generated
 public fun Construct.cfnInput(
   id: String,
   props: CfnInputProps,
-  initializer: @AwsCdkDsl CfnInput.() -> Unit,
+  initializer: @AwsCdkDsl CfnInput.() -> Unit = {},
 ): CfnInput = CfnInput(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnInput(id: String, initializer: @AwsCdkDsl CfnInput.Builder.() -> Unit):
-    CfnInput = CfnInput.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnInput(id: String, initializer: @AwsCdkDsl CfnInput.Builder.() -> Unit =
+    {}): CfnInput = CfnInput.Builder.create(this, id).apply(initializer).build()

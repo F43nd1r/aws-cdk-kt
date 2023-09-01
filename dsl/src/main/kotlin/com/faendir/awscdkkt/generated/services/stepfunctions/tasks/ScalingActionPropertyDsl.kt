@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EmrCreateCluster
 
 @Generated
 public fun buildScalingActionProperty(initializer: @AwsCdkDsl
-    EmrCreateCluster.ScalingActionProperty.Builder.() -> Unit):
+    EmrCreateCluster.ScalingActionProperty.Builder.() -> Unit = {}):
     EmrCreateCluster.ScalingActionProperty =
     EmrCreateCluster.ScalingActionProperty.Builder().apply(initializer).build()

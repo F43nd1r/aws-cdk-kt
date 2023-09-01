@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.devopsguru.CfnResourceCollection
 
 @Generated
 public fun buildCloudFormationCollectionFilterProperty(initializer: @AwsCdkDsl
-    CfnResourceCollection.CloudFormationCollectionFilterProperty.Builder.() -> Unit):
+    CfnResourceCollection.CloudFormationCollectionFilterProperty.Builder.() -> Unit = {}):
     CfnResourceCollection.CloudFormationCollectionFilterProperty =
     CfnResourceCollection.CloudFormationCollectionFilterProperty.Builder().apply(initializer).build()

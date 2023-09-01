@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.s3.CfnMultiRegionAccessPointProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnMultiRegionAccessPoint(id: String, props: CfnMultiRegionAccessPointProps):
-    CfnMultiRegionAccessPoint = CfnMultiRegionAccessPoint(this, id, props)
-
-@Generated
 public fun Construct.cfnMultiRegionAccessPoint(
   id: String,
   props: CfnMultiRegionAccessPointProps,
-  initializer: @AwsCdkDsl CfnMultiRegionAccessPoint.() -> Unit,
+  initializer: @AwsCdkDsl CfnMultiRegionAccessPoint.() -> Unit = {},
 ): CfnMultiRegionAccessPoint = CfnMultiRegionAccessPoint(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnMultiRegionAccessPoint(id: String, initializer: @AwsCdkDsl
-    CfnMultiRegionAccessPoint.Builder.() -> Unit): CfnMultiRegionAccessPoint =
+    CfnMultiRegionAccessPoint.Builder.() -> Unit = {}): CfnMultiRegionAccessPoint =
     CfnMultiRegionAccessPoint.Builder.create(this, id).apply(initializer).build()

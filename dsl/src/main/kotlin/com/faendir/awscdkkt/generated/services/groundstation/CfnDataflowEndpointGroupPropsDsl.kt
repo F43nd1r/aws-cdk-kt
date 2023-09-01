@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.groundstation.CfnDataflowEndpointGroupPro
 
 @Generated
 public fun buildCfnDataflowEndpointGroupProps(initializer: @AwsCdkDsl
-    CfnDataflowEndpointGroupProps.Builder.() -> Unit): CfnDataflowEndpointGroupProps =
+    CfnDataflowEndpointGroupProps.Builder.() -> Unit = {}): CfnDataflowEndpointGroupProps =
     CfnDataflowEndpointGroupProps.Builder().apply(initializer).build()

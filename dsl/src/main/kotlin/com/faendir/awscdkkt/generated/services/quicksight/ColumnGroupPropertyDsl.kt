@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
 public fun buildColumnGroupProperty(initializer: @AwsCdkDsl
-    CfnDataSet.ColumnGroupProperty.Builder.() -> Unit): CfnDataSet.ColumnGroupProperty =
+    CfnDataSet.ColumnGroupProperty.Builder.() -> Unit = {}): CfnDataSet.ColumnGroupProperty =
     CfnDataSet.ColumnGroupProperty.Builder().apply(initializer).build()

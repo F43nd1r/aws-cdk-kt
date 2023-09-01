@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildHlsOutputSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.HlsOutputSettingsProperty.Builder.() -> Unit): CfnChannel.HlsOutputSettingsProperty =
+    CfnChannel.HlsOutputSettingsProperty.Builder.() -> Unit = {}):
+    CfnChannel.HlsOutputSettingsProperty =
     CfnChannel.HlsOutputSettingsProperty.Builder().apply(initializer).build()

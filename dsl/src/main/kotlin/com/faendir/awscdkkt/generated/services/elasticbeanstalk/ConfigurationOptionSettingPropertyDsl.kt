@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.elasticbeanstalk.CfnConfigurationTemplate
 
 @Generated
 public fun buildConfigurationOptionSettingProperty(initializer: @AwsCdkDsl
-    CfnConfigurationTemplate.ConfigurationOptionSettingProperty.Builder.() -> Unit):
+    CfnConfigurationTemplate.ConfigurationOptionSettingProperty.Builder.() -> Unit = {}):
     CfnConfigurationTemplate.ConfigurationOptionSettingProperty =
     CfnConfigurationTemplate.ConfigurationOptionSettingProperty.Builder().apply(initializer).build()

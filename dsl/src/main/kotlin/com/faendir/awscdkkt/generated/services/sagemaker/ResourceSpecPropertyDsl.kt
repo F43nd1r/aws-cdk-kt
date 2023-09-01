@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnUserProfile
 
 @Generated
 public fun buildResourceSpecProperty(initializer: @AwsCdkDsl
-    CfnUserProfile.ResourceSpecProperty.Builder.() -> Unit): CfnUserProfile.ResourceSpecProperty =
+    CfnUserProfile.ResourceSpecProperty.Builder.() -> Unit = {}):
+    CfnUserProfile.ResourceSpecProperty =
     CfnUserProfile.ResourceSpecProperty.Builder().apply(initializer).build()

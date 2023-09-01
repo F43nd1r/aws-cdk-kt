@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.resourcegroups.CfnGroup
 
 @Generated
-public fun buildQueryProperty(initializer: @AwsCdkDsl CfnGroup.QueryProperty.Builder.() -> Unit):
-    CfnGroup.QueryProperty = CfnGroup.QueryProperty.Builder().apply(initializer).build()
+public fun buildQueryProperty(initializer: @AwsCdkDsl CfnGroup.QueryProperty.Builder.() -> Unit =
+    {}): CfnGroup.QueryProperty = CfnGroup.QueryProperty.Builder().apply(initializer).build()

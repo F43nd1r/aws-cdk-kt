@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.connect.CfnIntegrationAssociationProps
 
 @Generated
 public fun buildCfnIntegrationAssociationProps(initializer: @AwsCdkDsl
-    CfnIntegrationAssociationProps.Builder.() -> Unit): CfnIntegrationAssociationProps =
+    CfnIntegrationAssociationProps.Builder.() -> Unit = {}): CfnIntegrationAssociationProps =
     CfnIntegrationAssociationProps.Builder().apply(initializer).build()

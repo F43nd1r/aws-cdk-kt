@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.iotfleetwise.CfnDecoderManifestProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDecoderManifest(id: String, props: CfnDecoderManifestProps):
-    CfnDecoderManifest = CfnDecoderManifest(this, id, props)
-
-@Generated
 public fun Construct.cfnDecoderManifest(
   id: String,
   props: CfnDecoderManifestProps,
-  initializer: @AwsCdkDsl CfnDecoderManifest.() -> Unit,
+  initializer: @AwsCdkDsl CfnDecoderManifest.() -> Unit = {},
 ): CfnDecoderManifest = CfnDecoderManifest(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnDecoderManifest(id: String, initializer: @AwsCdkDsl
-    CfnDecoderManifest.Builder.() -> Unit): CfnDecoderManifest =
+    CfnDecoderManifest.Builder.() -> Unit = {}): CfnDecoderManifest =
     CfnDecoderManifest.Builder.create(this, id).apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.route53recoverycontrol.CfnControlPanelPro
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnControlPanel(id: String, props: CfnControlPanelProps): CfnControlPanel =
-    CfnControlPanel(this, id, props)
-
-@Generated
 public fun Construct.cfnControlPanel(
   id: String,
   props: CfnControlPanelProps,
-  initializer: @AwsCdkDsl CfnControlPanel.() -> Unit,
+  initializer: @AwsCdkDsl CfnControlPanel.() -> Unit = {},
 ): CfnControlPanel = CfnControlPanel(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnControlPanel(id: String, initializer: @AwsCdkDsl
-    CfnControlPanel.Builder.() -> Unit): CfnControlPanel = CfnControlPanel.Builder.create(this,
+    CfnControlPanel.Builder.() -> Unit = {}): CfnControlPanel = CfnControlPanel.Builder.create(this,
     id).apply(initializer).build()

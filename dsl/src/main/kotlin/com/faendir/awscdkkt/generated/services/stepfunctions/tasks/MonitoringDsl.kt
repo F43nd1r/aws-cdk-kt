@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.Monitoring
 
 @Generated
-public fun buildMonitoring(initializer: @AwsCdkDsl Monitoring.Builder.() -> Unit): Monitoring =
+public fun buildMonitoring(initializer: @AwsCdkDsl Monitoring.Builder.() -> Unit = {}): Monitoring =
     Monitoring.Builder().apply(initializer).build()

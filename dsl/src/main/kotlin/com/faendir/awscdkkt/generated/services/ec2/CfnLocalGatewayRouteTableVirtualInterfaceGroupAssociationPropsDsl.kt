@@ -8,6 +8,6 @@ import software.amazon.awscdk.services.ec2.CfnLocalGatewayRouteTableVirtualInter
 @Generated
 public
     fun buildCfnLocalGatewayRouteTableVirtualInterfaceGroupAssociationProps(initializer: @AwsCdkDsl
-    CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociationProps.Builder.() -> Unit):
+    CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociationProps.Builder.() -> Unit = {}):
     CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociationProps =
     CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociationProps.Builder().apply(initializer).build()

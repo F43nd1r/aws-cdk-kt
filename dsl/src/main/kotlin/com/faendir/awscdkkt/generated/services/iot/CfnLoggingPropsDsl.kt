@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnLoggingProps
 
 @Generated
-public fun buildCfnLoggingProps(initializer: @AwsCdkDsl CfnLoggingProps.Builder.() -> Unit):
+public fun buildCfnLoggingProps(initializer: @AwsCdkDsl CfnLoggingProps.Builder.() -> Unit = {}):
     CfnLoggingProps = CfnLoggingProps.Builder().apply(initializer).build()

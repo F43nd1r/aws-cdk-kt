@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildWaterfallChartSortConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.WaterfallChartSortConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.WaterfallChartSortConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.WaterfallChartSortConfigurationProperty =
     CfnTemplate.WaterfallChartSortConfigurationProperty.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildTableFieldOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TableFieldOptionsProperty.Builder.() -> Unit): CfnTemplate.TableFieldOptionsProperty
-    = CfnTemplate.TableFieldOptionsProperty.Builder().apply(initializer).build()
+    CfnTemplate.TableFieldOptionsProperty.Builder.() -> Unit = {}):
+    CfnTemplate.TableFieldOptionsProperty =
+    CfnTemplate.TableFieldOptionsProperty.Builder().apply(initializer).build()

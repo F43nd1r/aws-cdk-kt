@@ -7,5 +7,5 @@ import software.amazon.awscdk.cloudassembly.schema.LoadBalancerListenerContextQu
 
 @Generated
 public fun buildLoadBalancerListenerContextQuery(initializer: @AwsCdkDsl
-    LoadBalancerListenerContextQuery.Builder.() -> Unit): LoadBalancerListenerContextQuery =
+    LoadBalancerListenerContextQuery.Builder.() -> Unit = {}): LoadBalancerListenerContextQuery =
     LoadBalancerListenerContextQuery.Builder().apply(initializer).build()

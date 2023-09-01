@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.customerprofiles.CfnIntegration
 
 @Generated
 public fun buildSourceConnectorPropertiesProperty(initializer: @AwsCdkDsl
-    CfnIntegration.SourceConnectorPropertiesProperty.Builder.() -> Unit):
+    CfnIntegration.SourceConnectorPropertiesProperty.Builder.() -> Unit = {}):
     CfnIntegration.SourceConnectorPropertiesProperty =
     CfnIntegration.SourceConnectorPropertiesProperty.Builder().apply(initializer).build()

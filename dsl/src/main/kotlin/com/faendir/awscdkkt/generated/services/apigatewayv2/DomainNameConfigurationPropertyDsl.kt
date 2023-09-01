@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.apigatewayv2.CfnDomainName
 
 @Generated
 public fun buildDomainNameConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDomainName.DomainNameConfigurationProperty.Builder.() -> Unit):
+    CfnDomainName.DomainNameConfigurationProperty.Builder.() -> Unit = {}):
     CfnDomainName.DomainNameConfigurationProperty =
     CfnDomainName.DomainNameConfigurationProperty.Builder().apply(initializer).build()

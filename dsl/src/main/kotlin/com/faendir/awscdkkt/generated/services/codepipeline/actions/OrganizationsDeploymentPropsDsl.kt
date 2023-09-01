@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codepipeline.actions.OrganizationsDeploym
 
 @Generated
 public fun buildOrganizationsDeploymentProps(initializer: @AwsCdkDsl
-    OrganizationsDeploymentProps.Builder.() -> Unit): OrganizationsDeploymentProps =
+    OrganizationsDeploymentProps.Builder.() -> Unit = {}): OrganizationsDeploymentProps =
     OrganizationsDeploymentProps.Builder().apply(initializer).build()

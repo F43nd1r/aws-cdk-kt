@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opensearchservice.CognitoOptions
 
 @Generated
-public fun buildCognitoOptions(initializer: @AwsCdkDsl CognitoOptions.Builder.() -> Unit):
+public fun buildCognitoOptions(initializer: @AwsCdkDsl CognitoOptions.Builder.() -> Unit = {}):
     CognitoOptions = CognitoOptions.Builder().apply(initializer).build()

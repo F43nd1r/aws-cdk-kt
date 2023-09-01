@@ -9,17 +9,12 @@ import software.amazon.awscdk.services.codeartifact.CfnDomainProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDomain(id: String, props: CfnDomainProps): CfnDomain = CfnDomain(this, id,
-    props)
-
-@Generated
 public fun Construct.cfnDomain(
   id: String,
   props: CfnDomainProps,
-  initializer: @AwsCdkDsl CfnDomain.() -> Unit,
+  initializer: @AwsCdkDsl CfnDomain.() -> Unit = {},
 ): CfnDomain = CfnDomain(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDomain(id: String, initializer: @AwsCdkDsl
-    CfnDomain.Builder.() -> Unit): CfnDomain = CfnDomain.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnDomain(id: String, initializer: @AwsCdkDsl CfnDomain.Builder.() -> Unit
+    = {}): CfnDomain = CfnDomain.Builder.create(this, id).apply(initializer).build()

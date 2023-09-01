@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kendra.CfnDataSource
 
 @Generated
 public fun buildWorkDocsConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.WorkDocsConfigurationProperty.Builder.() -> Unit):
+    CfnDataSource.WorkDocsConfigurationProperty.Builder.() -> Unit = {}):
     CfnDataSource.WorkDocsConfigurationProperty =
     CfnDataSource.WorkDocsConfigurationProperty.Builder().apply(initializer).build()

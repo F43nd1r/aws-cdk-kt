@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.autoscaling.CfnAutoScalingGroup
 
 @Generated
 public fun buildMemoryGiBPerVCpuRequestProperty(initializer: @AwsCdkDsl
-    CfnAutoScalingGroup.MemoryGiBPerVCpuRequestProperty.Builder.() -> Unit):
+    CfnAutoScalingGroup.MemoryGiBPerVCpuRequestProperty.Builder.() -> Unit = {}):
     CfnAutoScalingGroup.MemoryGiBPerVCpuRequestProperty =
     CfnAutoScalingGroup.MemoryGiBPerVCpuRequestProperty.Builder().apply(initializer).build()

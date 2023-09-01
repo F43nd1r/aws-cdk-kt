@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cloudfront.CfnOriginRequestPolicy
 
 @Generated
 public fun buildHeadersConfigProperty(initializer: @AwsCdkDsl
-    CfnOriginRequestPolicy.HeadersConfigProperty.Builder.() -> Unit):
+    CfnOriginRequestPolicy.HeadersConfigProperty.Builder.() -> Unit = {}):
     CfnOriginRequestPolicy.HeadersConfigProperty =
     CfnOriginRequestPolicy.HeadersConfigProperty.Builder().apply(initializer).build()

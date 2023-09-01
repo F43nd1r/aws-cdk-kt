@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.CfnResolverProps
 
 @Generated
-public fun buildCfnResolverProps(initializer: @AwsCdkDsl CfnResolverProps.Builder.() -> Unit):
+public fun buildCfnResolverProps(initializer: @AwsCdkDsl CfnResolverProps.Builder.() -> Unit = {}):
     CfnResolverProps = CfnResolverProps.Builder().apply(initializer).build()

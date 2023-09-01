@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.redshift.CfnClusterSecurityGroupIngressPr
 
 @Generated
 public fun buildCfnClusterSecurityGroupIngressProps(initializer: @AwsCdkDsl
-    CfnClusterSecurityGroupIngressProps.Builder.() -> Unit): CfnClusterSecurityGroupIngressProps =
+    CfnClusterSecurityGroupIngressProps.Builder.() -> Unit = {}):
+    CfnClusterSecurityGroupIngressProps =
     CfnClusterSecurityGroupIngressProps.Builder().apply(initializer).build()

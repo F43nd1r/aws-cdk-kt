@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.batch.CfnComputeEnvironmentProps
 
 @Generated
 public fun buildCfnComputeEnvironmentProps(initializer: @AwsCdkDsl
-    CfnComputeEnvironmentProps.Builder.() -> Unit): CfnComputeEnvironmentProps =
+    CfnComputeEnvironmentProps.Builder.() -> Unit = {}): CfnComputeEnvironmentProps =
     CfnComputeEnvironmentProps.Builder().apply(initializer).build()

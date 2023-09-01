@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpointemail.CfnIdentity
 
 @Generated
-public fun buildTagsProperty(initializer: @AwsCdkDsl CfnIdentity.TagsProperty.Builder.() -> Unit):
-    CfnIdentity.TagsProperty = CfnIdentity.TagsProperty.Builder().apply(initializer).build()
+public fun buildTagsProperty(initializer: @AwsCdkDsl CfnIdentity.TagsProperty.Builder.() -> Unit =
+    {}): CfnIdentity.TagsProperty = CfnIdentity.TagsProperty.Builder().apply(initializer).build()

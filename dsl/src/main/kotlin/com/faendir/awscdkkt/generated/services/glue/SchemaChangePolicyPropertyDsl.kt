@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.glue.CfnCrawler
 
 @Generated
 public fun buildSchemaChangePolicyProperty(initializer: @AwsCdkDsl
-    CfnCrawler.SchemaChangePolicyProperty.Builder.() -> Unit): CfnCrawler.SchemaChangePolicyProperty
-    = CfnCrawler.SchemaChangePolicyProperty.Builder().apply(initializer).build()
+    CfnCrawler.SchemaChangePolicyProperty.Builder.() -> Unit = {}):
+    CfnCrawler.SchemaChangePolicyProperty =
+    CfnCrawler.SchemaChangePolicyProperty.Builder().apply(initializer).build()

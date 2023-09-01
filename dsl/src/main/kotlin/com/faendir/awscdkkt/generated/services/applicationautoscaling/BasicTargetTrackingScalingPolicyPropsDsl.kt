@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.applicationautoscaling.BasicTargetTrackin
 
 @Generated
 public fun buildBasicTargetTrackingScalingPolicyProps(initializer: @AwsCdkDsl
-    BasicTargetTrackingScalingPolicyProps.Builder.() -> Unit): BasicTargetTrackingScalingPolicyProps
-    = BasicTargetTrackingScalingPolicyProps.Builder().apply(initializer).build()
+    BasicTargetTrackingScalingPolicyProps.Builder.() -> Unit = {}):
+    BasicTargetTrackingScalingPolicyProps =
+    BasicTargetTrackingScalingPolicyProps.Builder().apply(initializer).build()

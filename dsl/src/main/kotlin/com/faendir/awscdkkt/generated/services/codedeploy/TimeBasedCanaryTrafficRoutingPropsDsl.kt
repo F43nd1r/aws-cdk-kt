@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codedeploy.TimeBasedCanaryTrafficRoutingP
 
 @Generated
 public fun buildTimeBasedCanaryTrafficRoutingProps(initializer: @AwsCdkDsl
-    TimeBasedCanaryTrafficRoutingProps.Builder.() -> Unit): TimeBasedCanaryTrafficRoutingProps =
-    TimeBasedCanaryTrafficRoutingProps.Builder().apply(initializer).build()
+    TimeBasedCanaryTrafficRoutingProps.Builder.() -> Unit = {}): TimeBasedCanaryTrafficRoutingProps
+    = TimeBasedCanaryTrafficRoutingProps.Builder().apply(initializer).build()

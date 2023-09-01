@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnConnectorProfile
 
 @Generated
 public fun buildBasicAuthCredentialsProperty(initializer: @AwsCdkDsl
-    CfnConnectorProfile.BasicAuthCredentialsProperty.Builder.() -> Unit):
+    CfnConnectorProfile.BasicAuthCredentialsProperty.Builder.() -> Unit = {}):
     CfnConnectorProfile.BasicAuthCredentialsProperty =
     CfnConnectorProfile.BasicAuthCredentialsProperty.Builder().apply(initializer).build()

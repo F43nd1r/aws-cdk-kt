@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
 public fun buildSplunkDestinationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.SplunkDestinationConfigurationProperty.Builder.() -> Unit):
+    CfnDeliveryStream.SplunkDestinationConfigurationProperty.Builder.() -> Unit = {}):
     CfnDeliveryStream.SplunkDestinationConfigurationProperty =
     CfnDeliveryStream.SplunkDestinationConfigurationProperty.Builder().apply(initializer).build()

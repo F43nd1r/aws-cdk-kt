@@ -9,19 +9,14 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EmrContainersCreateVi
 import software.constructs.Construct
 
 @Generated
-public fun Construct.emrContainersCreateVirtualCluster(id: String,
-    props: EmrContainersCreateVirtualClusterProps): EmrContainersCreateVirtualCluster =
-    EmrContainersCreateVirtualCluster(this, id, props)
-
-@Generated
 public fun Construct.emrContainersCreateVirtualCluster(
   id: String,
   props: EmrContainersCreateVirtualClusterProps,
-  initializer: @AwsCdkDsl EmrContainersCreateVirtualCluster.() -> Unit,
+  initializer: @AwsCdkDsl EmrContainersCreateVirtualCluster.() -> Unit = {},
 ): EmrContainersCreateVirtualCluster = EmrContainersCreateVirtualCluster(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildEmrContainersCreateVirtualCluster(id: String, initializer: @AwsCdkDsl
-    EmrContainersCreateVirtualCluster.Builder.() -> Unit): EmrContainersCreateVirtualCluster =
+    EmrContainersCreateVirtualCluster.Builder.() -> Unit = {}): EmrContainersCreateVirtualCluster =
     EmrContainersCreateVirtualCluster.Builder.create(this, id).apply(initializer).build()

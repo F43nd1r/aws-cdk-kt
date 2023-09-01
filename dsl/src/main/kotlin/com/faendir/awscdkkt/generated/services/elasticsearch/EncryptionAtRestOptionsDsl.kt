@@ -13,5 +13,5 @@ import software.amazon.awscdk.services.elasticsearch.EncryptionAtRestOptions
     "software.amazon.awscdk.services.elasticsearch.EncryptionAtRestOptions is deprecated in CDK.")
 @Generated
 public fun buildEncryptionAtRestOptions(initializer: @AwsCdkDsl
-    EncryptionAtRestOptions.Builder.() -> Unit): EncryptionAtRestOptions =
+    EncryptionAtRestOptions.Builder.() -> Unit = {}): EncryptionAtRestOptions =
     EncryptionAtRestOptions.Builder().apply(initializer).build()

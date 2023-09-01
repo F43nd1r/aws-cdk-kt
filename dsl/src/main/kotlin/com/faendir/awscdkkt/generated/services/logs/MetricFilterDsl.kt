@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.logs.MetricFilterProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.metricFilter(id: String, props: MetricFilterProps): MetricFilter =
-    MetricFilter(this, id, props)
-
-@Generated
 public fun Construct.metricFilter(
   id: String,
   props: MetricFilterProps,
-  initializer: @AwsCdkDsl MetricFilter.() -> Unit,
+  initializer: @AwsCdkDsl MetricFilter.() -> Unit = {},
 ): MetricFilter = MetricFilter(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildMetricFilter(id: String, initializer: @AwsCdkDsl
-    MetricFilter.Builder.() -> Unit): MetricFilter = MetricFilter.Builder.create(this,
+    MetricFilter.Builder.() -> Unit = {}): MetricFilter = MetricFilter.Builder.create(this,
     id).apply(initializer).build()

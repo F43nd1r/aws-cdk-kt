@@ -9,19 +9,14 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EmrSetClusterTerminat
 import software.constructs.Construct
 
 @Generated
-public fun Construct.emrSetClusterTerminationProtection(id: String,
-    props: EmrSetClusterTerminationProtectionProps): EmrSetClusterTerminationProtection =
-    EmrSetClusterTerminationProtection(this, id, props)
-
-@Generated
 public fun Construct.emrSetClusterTerminationProtection(
   id: String,
   props: EmrSetClusterTerminationProtectionProps,
-  initializer: @AwsCdkDsl EmrSetClusterTerminationProtection.() -> Unit,
+  initializer: @AwsCdkDsl EmrSetClusterTerminationProtection.() -> Unit = {},
 ): EmrSetClusterTerminationProtection = EmrSetClusterTerminationProtection(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildEmrSetClusterTerminationProtection(id: String, initializer: @AwsCdkDsl
-    EmrSetClusterTerminationProtection.Builder.() -> Unit): EmrSetClusterTerminationProtection =
-    EmrSetClusterTerminationProtection.Builder.create(this, id).apply(initializer).build()
+    EmrSetClusterTerminationProtection.Builder.() -> Unit = {}): EmrSetClusterTerminationProtection
+    = EmrSetClusterTerminationProtection.Builder.create(this, id).apply(initializer).build()

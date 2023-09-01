@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.glue.CfnTrigger
 
 @Generated
 public fun buildPredicateProperty(initializer: @AwsCdkDsl
-    CfnTrigger.PredicateProperty.Builder.() -> Unit): CfnTrigger.PredicateProperty =
+    CfnTrigger.PredicateProperty.Builder.() -> Unit = {}): CfnTrigger.PredicateProperty =
     CfnTrigger.PredicateProperty.Builder().apply(initializer).build()

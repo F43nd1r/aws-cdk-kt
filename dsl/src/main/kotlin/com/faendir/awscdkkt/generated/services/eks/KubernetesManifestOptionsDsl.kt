@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.eks.KubernetesManifestOptions
 
 @Generated
 public fun buildKubernetesManifestOptions(initializer: @AwsCdkDsl
-    KubernetesManifestOptions.Builder.() -> Unit): KubernetesManifestOptions =
+    KubernetesManifestOptions.Builder.() -> Unit = {}): KubernetesManifestOptions =
     KubernetesManifestOptions.Builder().apply(initializer).build()

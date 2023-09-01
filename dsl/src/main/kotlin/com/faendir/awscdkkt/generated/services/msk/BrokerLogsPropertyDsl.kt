@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.msk.CfnCluster
 
 @Generated
 public fun buildBrokerLogsProperty(initializer: @AwsCdkDsl
-    CfnCluster.BrokerLogsProperty.Builder.() -> Unit): CfnCluster.BrokerLogsProperty =
+    CfnCluster.BrokerLogsProperty.Builder.() -> Unit = {}): CfnCluster.BrokerLogsProperty =
     CfnCluster.BrokerLogsProperty.Builder().apply(initializer).build()

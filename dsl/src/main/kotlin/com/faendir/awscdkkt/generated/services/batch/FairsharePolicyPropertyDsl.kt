@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.batch.CfnSchedulingPolicy
 
 @Generated
 public fun buildFairsharePolicyProperty(initializer: @AwsCdkDsl
-    CfnSchedulingPolicy.FairsharePolicyProperty.Builder.() -> Unit):
+    CfnSchedulingPolicy.FairsharePolicyProperty.Builder.() -> Unit = {}):
     CfnSchedulingPolicy.FairsharePolicyProperty =
     CfnSchedulingPolicy.FairsharePolicyProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.apprunner.CfnService
 
 @Generated
 public fun buildHealthCheckConfigurationProperty(initializer: @AwsCdkDsl
-    CfnService.HealthCheckConfigurationProperty.Builder.() -> Unit):
+    CfnService.HealthCheckConfigurationProperty.Builder.() -> Unit = {}):
     CfnService.HealthCheckConfigurationProperty =
     CfnService.HealthCheckConfigurationProperty.Builder().apply(initializer).build()

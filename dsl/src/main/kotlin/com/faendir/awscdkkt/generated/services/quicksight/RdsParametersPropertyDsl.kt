@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDataSource
 
 @Generated
 public fun buildRdsParametersProperty(initializer: @AwsCdkDsl
-    CfnDataSource.RdsParametersProperty.Builder.() -> Unit): CfnDataSource.RdsParametersProperty =
+    CfnDataSource.RdsParametersProperty.Builder.() -> Unit = {}):
+    CfnDataSource.RdsParametersProperty =
     CfnDataSource.RdsParametersProperty.Builder().apply(initializer).build()

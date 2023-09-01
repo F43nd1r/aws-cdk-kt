@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.Tmpfs
 
 @Generated
-public fun buildTmpfs(initializer: @AwsCdkDsl Tmpfs.Builder.() -> Unit): Tmpfs =
+public fun buildTmpfs(initializer: @AwsCdkDsl Tmpfs.Builder.() -> Unit = {}): Tmpfs =
     Tmpfs.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticache.CfnGlobalReplicationGroupProp
 
 @Generated
 public fun buildCfnGlobalReplicationGroupProps(initializer: @AwsCdkDsl
-    CfnGlobalReplicationGroupProps.Builder.() -> Unit): CfnGlobalReplicationGroupProps =
+    CfnGlobalReplicationGroupProps.Builder.() -> Unit = {}): CfnGlobalReplicationGroupProps =
     CfnGlobalReplicationGroupProps.Builder().apply(initializer).build()

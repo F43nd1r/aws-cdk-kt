@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.patterns.QueueProcessingServiceBasePr
 
 @Generated
 public fun buildQueueProcessingServiceBaseProps(initializer: @AwsCdkDsl
-    QueueProcessingServiceBaseProps.Builder.() -> Unit): QueueProcessingServiceBaseProps =
+    QueueProcessingServiceBaseProps.Builder.() -> Unit = {}): QueueProcessingServiceBaseProps =
     QueueProcessingServiceBaseProps.Builder().apply(initializer).build()

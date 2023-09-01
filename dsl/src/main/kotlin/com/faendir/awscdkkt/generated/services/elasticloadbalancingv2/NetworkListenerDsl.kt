@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.NetworkListenerPro
 import software.constructs.Construct
 
 @Generated
-public fun Construct.networkListener(id: String, props: NetworkListenerProps): NetworkListener =
-    NetworkListener(this, id, props)
-
-@Generated
 public fun Construct.networkListener(
   id: String,
   props: NetworkListenerProps,
-  initializer: @AwsCdkDsl NetworkListener.() -> Unit,
+  initializer: @AwsCdkDsl NetworkListener.() -> Unit = {},
 ): NetworkListener = NetworkListener(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildNetworkListener(id: String, initializer: @AwsCdkDsl
-    NetworkListener.Builder.() -> Unit): NetworkListener = NetworkListener.Builder.create(this,
+    NetworkListener.Builder.() -> Unit = {}): NetworkListener = NetworkListener.Builder.create(this,
     id).apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.route53.CrossAccountZoneDelegationRecordP
 
 @Generated
 public fun buildCrossAccountZoneDelegationRecordProps(initializer: @AwsCdkDsl
-    CrossAccountZoneDelegationRecordProps.Builder.() -> Unit): CrossAccountZoneDelegationRecordProps
-    = CrossAccountZoneDelegationRecordProps.Builder().apply(initializer).build()
+    CrossAccountZoneDelegationRecordProps.Builder.() -> Unit = {}):
+    CrossAccountZoneDelegationRecordProps =
+    CrossAccountZoneDelegationRecordProps.Builder().apply(initializer).build()

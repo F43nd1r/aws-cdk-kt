@@ -8,5 +8,5 @@ import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
 public fun buildKinesisFirehoseStream(stream: CfnDeliveryStream, initializer: @AwsCdkDsl
-    KinesisFirehoseStream.Builder.() -> Unit): KinesisFirehoseStream =
+    KinesisFirehoseStream.Builder.() -> Unit = {}): KinesisFirehoseStream =
     KinesisFirehoseStream.Builder.create(stream).apply(initializer).build()

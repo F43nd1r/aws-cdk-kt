@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.vpclattice.CfnTargetGroup
 
 @Generated
 public fun buildHealthCheckConfigProperty(initializer: @AwsCdkDsl
-    CfnTargetGroup.HealthCheckConfigProperty.Builder.() -> Unit):
+    CfnTargetGroup.HealthCheckConfigProperty.Builder.() -> Unit = {}):
     CfnTargetGroup.HealthCheckConfigProperty =
     CfnTargetGroup.HealthCheckConfigProperty.Builder().apply(initializer).build()

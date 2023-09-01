@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.resourcegroups.CfnGroup
 
 @Generated
 public fun buildConfigurationItemProperty(initializer: @AwsCdkDsl
-    CfnGroup.ConfigurationItemProperty.Builder.() -> Unit): CfnGroup.ConfigurationItemProperty =
-    CfnGroup.ConfigurationItemProperty.Builder().apply(initializer).build()
+    CfnGroup.ConfigurationItemProperty.Builder.() -> Unit = {}): CfnGroup.ConfigurationItemProperty
+    = CfnGroup.ConfigurationItemProperty.Builder().apply(initializer).build()

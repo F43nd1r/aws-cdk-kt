@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.aps.CfnRuleGroupsNamespaceProps
 
 @Generated
 public fun buildCfnRuleGroupsNamespaceProps(initializer: @AwsCdkDsl
-    CfnRuleGroupsNamespaceProps.Builder.() -> Unit): CfnRuleGroupsNamespaceProps =
+    CfnRuleGroupsNamespaceProps.Builder.() -> Unit = {}): CfnRuleGroupsNamespaceProps =
     CfnRuleGroupsNamespaceProps.Builder().apply(initializer).build()

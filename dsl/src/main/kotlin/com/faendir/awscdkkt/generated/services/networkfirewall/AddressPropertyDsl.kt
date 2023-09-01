@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.networkfirewall.CfnRuleGroup
 
 @Generated
 public fun buildAddressProperty(initializer: @AwsCdkDsl
-    CfnRuleGroup.AddressProperty.Builder.() -> Unit): CfnRuleGroup.AddressProperty =
+    CfnRuleGroup.AddressProperty.Builder.() -> Unit = {}): CfnRuleGroup.AddressProperty =
     CfnRuleGroup.AddressProperty.Builder().apply(initializer).build()

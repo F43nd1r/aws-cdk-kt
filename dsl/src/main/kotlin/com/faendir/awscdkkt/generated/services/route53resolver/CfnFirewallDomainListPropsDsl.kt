@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.route53resolver.CfnFirewallDomainListProp
 
 @Generated
 public fun buildCfnFirewallDomainListProps(initializer: @AwsCdkDsl
-    CfnFirewallDomainListProps.Builder.() -> Unit): CfnFirewallDomainListProps =
+    CfnFirewallDomainListProps.Builder.() -> Unit = {}): CfnFirewallDomainListProps =
     CfnFirewallDomainListProps.Builder().apply(initializer).build()

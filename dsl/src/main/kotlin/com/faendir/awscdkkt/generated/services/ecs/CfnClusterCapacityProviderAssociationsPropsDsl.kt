@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.CfnClusterCapacityProviderAssociation
 
 @Generated
 public fun buildCfnClusterCapacityProviderAssociationsProps(initializer: @AwsCdkDsl
-    CfnClusterCapacityProviderAssociationsProps.Builder.() -> Unit):
+    CfnClusterCapacityProviderAssociationsProps.Builder.() -> Unit = {}):
     CfnClusterCapacityProviderAssociationsProps =
     CfnClusterCapacityProviderAssociationsProps.Builder().apply(initializer).build()

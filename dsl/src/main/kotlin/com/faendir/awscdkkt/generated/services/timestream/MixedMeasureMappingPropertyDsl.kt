@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.timestream.CfnScheduledQuery
 
 @Generated
 public fun buildMixedMeasureMappingProperty(initializer: @AwsCdkDsl
-    CfnScheduledQuery.MixedMeasureMappingProperty.Builder.() -> Unit):
+    CfnScheduledQuery.MixedMeasureMappingProperty.Builder.() -> Unit = {}):
     CfnScheduledQuery.MixedMeasureMappingProperty =
     CfnScheduledQuery.MixedMeasureMappingProperty.Builder().apply(initializer).build()

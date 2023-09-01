@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.mediapackage.CfnOriginEndpointProps
 
 @Generated
 public fun buildCfnOriginEndpointProps(initializer: @AwsCdkDsl
-    CfnOriginEndpointProps.Builder.() -> Unit): CfnOriginEndpointProps =
+    CfnOriginEndpointProps.Builder.() -> Unit = {}): CfnOriginEndpointProps =
     CfnOriginEndpointProps.Builder().apply(initializer).build()

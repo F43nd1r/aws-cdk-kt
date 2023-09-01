@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicediscovery.ServiceAttributes
 
 @Generated
-public fun buildServiceAttributes(initializer: @AwsCdkDsl ServiceAttributes.Builder.() -> Unit):
-    ServiceAttributes = ServiceAttributes.Builder().apply(initializer).build()
+public fun buildServiceAttributes(initializer: @AwsCdkDsl ServiceAttributes.Builder.() -> Unit =
+    {}): ServiceAttributes = ServiceAttributes.Builder().apply(initializer).build()

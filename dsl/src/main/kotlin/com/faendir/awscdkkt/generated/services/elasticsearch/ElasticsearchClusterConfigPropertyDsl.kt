@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.elasticsearch.CfnDomain
 
 @Generated
 public fun buildElasticsearchClusterConfigProperty(initializer: @AwsCdkDsl
-    CfnDomain.ElasticsearchClusterConfigProperty.Builder.() -> Unit):
+    CfnDomain.ElasticsearchClusterConfigProperty.Builder.() -> Unit = {}):
     CfnDomain.ElasticsearchClusterConfigProperty =
     CfnDomain.ElasticsearchClusterConfigProperty.Builder().apply(initializer).build()

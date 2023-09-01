@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kendra.CfnDataSource
 
 @Generated
 public fun buildConfluencePageConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.ConfluencePageConfigurationProperty.Builder.() -> Unit):
+    CfnDataSource.ConfluencePageConfigurationProperty.Builder.() -> Unit = {}):
     CfnDataSource.ConfluencePageConfigurationProperty =
     CfnDataSource.ConfluencePageConfigurationProperty.Builder().apply(initializer).build()

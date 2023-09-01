@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.applicationautoscaling.CfnScalableTarget
 
 @Generated
 public fun buildSuspendedStateProperty(initializer: @AwsCdkDsl
-    CfnScalableTarget.SuspendedStateProperty.Builder.() -> Unit):
+    CfnScalableTarget.SuspendedStateProperty.Builder.() -> Unit = {}):
     CfnScalableTarget.SuspendedStateProperty =
     CfnScalableTarget.SuspendedStateProperty.Builder().apply(initializer).build()

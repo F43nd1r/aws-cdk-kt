@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cloudfront.CfnDistribution
 
 @Generated
 public fun buildDistributionConfigProperty(initializer: @AwsCdkDsl
-    CfnDistribution.DistributionConfigProperty.Builder.() -> Unit):
+    CfnDistribution.DistributionConfigProperty.Builder.() -> Unit = {}):
     CfnDistribution.DistributionConfigProperty =
     CfnDistribution.DistributionConfigProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.patterns.ApplicationLoadBalancedServi
 
 @Generated
 public fun buildApplicationLoadBalancedServiceBaseProps(initializer: @AwsCdkDsl
-    ApplicationLoadBalancedServiceBaseProps.Builder.() -> Unit):
+    ApplicationLoadBalancedServiceBaseProps.Builder.() -> Unit = {}):
     ApplicationLoadBalancedServiceBaseProps =
     ApplicationLoadBalancedServiceBaseProps.Builder().apply(initializer).build()

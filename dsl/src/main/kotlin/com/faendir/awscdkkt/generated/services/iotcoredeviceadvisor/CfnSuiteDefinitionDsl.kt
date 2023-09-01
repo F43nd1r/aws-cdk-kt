@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.iotcoredeviceadvisor.CfnSuiteDefinitionPr
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnSuiteDefinition(id: String, props: CfnSuiteDefinitionProps):
-    CfnSuiteDefinition = CfnSuiteDefinition(this, id, props)
-
-@Generated
 public fun Construct.cfnSuiteDefinition(
   id: String,
   props: CfnSuiteDefinitionProps,
-  initializer: @AwsCdkDsl CfnSuiteDefinition.() -> Unit,
+  initializer: @AwsCdkDsl CfnSuiteDefinition.() -> Unit = {},
 ): CfnSuiteDefinition = CfnSuiteDefinition(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnSuiteDefinition(id: String, initializer: @AwsCdkDsl
-    CfnSuiteDefinition.Builder.() -> Unit): CfnSuiteDefinition =
+    CfnSuiteDefinition.Builder.() -> Unit = {}): CfnSuiteDefinition =
     CfnSuiteDefinition.Builder.create(this, id).apply(initializer).build()

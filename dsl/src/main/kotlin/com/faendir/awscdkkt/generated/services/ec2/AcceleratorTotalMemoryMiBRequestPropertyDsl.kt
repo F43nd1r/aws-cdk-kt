@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnSpotFleet
 
 @Generated
 public fun buildAcceleratorTotalMemoryMiBRequestProperty(initializer: @AwsCdkDsl
-    CfnSpotFleet.AcceleratorTotalMemoryMiBRequestProperty.Builder.() -> Unit):
+    CfnSpotFleet.AcceleratorTotalMemoryMiBRequestProperty.Builder.() -> Unit = {}):
     CfnSpotFleet.AcceleratorTotalMemoryMiBRequestProperty =
     CfnSpotFleet.AcceleratorTotalMemoryMiBRequestProperty.Builder().apply(initializer).build()

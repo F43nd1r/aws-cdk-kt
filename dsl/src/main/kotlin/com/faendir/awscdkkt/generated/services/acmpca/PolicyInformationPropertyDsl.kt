@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.acmpca.CfnCertificate
 
 @Generated
 public fun buildPolicyInformationProperty(initializer: @AwsCdkDsl
-    CfnCertificate.PolicyInformationProperty.Builder.() -> Unit):
+    CfnCertificate.PolicyInformationProperty.Builder.() -> Unit = {}):
     CfnCertificate.PolicyInformationProperty =
     CfnCertificate.PolicyInformationProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.JenkinsAction
 
 @Generated
-public fun buildJenkinsAction(initializer: @AwsCdkDsl JenkinsAction.Builder.() -> Unit):
+public fun buildJenkinsAction(initializer: @AwsCdkDsl JenkinsAction.Builder.() -> Unit = {}):
     JenkinsAction = JenkinsAction.Builder.create().apply(initializer).build()

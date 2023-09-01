@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lambda.CfnVersion
 
 @Generated
 public fun buildProvisionedConcurrencyConfigurationProperty(initializer: @AwsCdkDsl
-    CfnVersion.ProvisionedConcurrencyConfigurationProperty.Builder.() -> Unit):
+    CfnVersion.ProvisionedConcurrencyConfigurationProperty.Builder.() -> Unit = {}):
     CfnVersion.ProvisionedConcurrencyConfigurationProperty =
     CfnVersion.ProvisionedConcurrencyConfigurationProperty.Builder().apply(initializer).build()

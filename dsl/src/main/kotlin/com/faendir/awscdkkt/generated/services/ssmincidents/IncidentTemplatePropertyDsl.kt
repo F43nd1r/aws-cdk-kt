@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ssmincidents.CfnResponsePlan
 
 @Generated
 public fun buildIncidentTemplateProperty(initializer: @AwsCdkDsl
-    CfnResponsePlan.IncidentTemplateProperty.Builder.() -> Unit):
+    CfnResponsePlan.IncidentTemplateProperty.Builder.() -> Unit = {}):
     CfnResponsePlan.IncidentTemplateProperty =
     CfnResponsePlan.IncidentTemplateProperty.Builder().apply(initializer).build()

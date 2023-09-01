@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnTransitGatewayMulticastDomainAssoc
 
 @Generated
 public fun buildCfnTransitGatewayMulticastDomainAssociationProps(initializer: @AwsCdkDsl
-    CfnTransitGatewayMulticastDomainAssociationProps.Builder.() -> Unit):
+    CfnTransitGatewayMulticastDomainAssociationProps.Builder.() -> Unit = {}):
     CfnTransitGatewayMulticastDomainAssociationProps =
     CfnTransitGatewayMulticastDomainAssociationProps.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.TransformInput
 
 @Generated
-public fun buildTransformInput(initializer: @AwsCdkDsl TransformInput.Builder.() -> Unit):
+public fun buildTransformInput(initializer: @AwsCdkDsl TransformInput.Builder.() -> Unit = {}):
     TransformInput = TransformInput.Builder().apply(initializer).build()

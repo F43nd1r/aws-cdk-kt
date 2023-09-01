@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnNetworkInsightsAccessScope
 
 @Generated
 public fun buildThroughResourcesStatementRequestProperty(initializer: @AwsCdkDsl
-    CfnNetworkInsightsAccessScope.ThroughResourcesStatementRequestProperty.Builder.() -> Unit):
+    CfnNetworkInsightsAccessScope.ThroughResourcesStatementRequestProperty.Builder.() -> Unit = {}):
     CfnNetworkInsightsAccessScope.ThroughResourcesStatementRequestProperty =
     CfnNetworkInsightsAccessScope.ThroughResourcesStatementRequestProperty.Builder().apply(initializer).build()

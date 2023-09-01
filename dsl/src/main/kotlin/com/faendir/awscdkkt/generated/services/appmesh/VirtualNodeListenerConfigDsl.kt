@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appmesh.VirtualNodeListenerConfig
 
 @Generated
 public fun buildVirtualNodeListenerConfig(initializer: @AwsCdkDsl
-    VirtualNodeListenerConfig.Builder.() -> Unit): VirtualNodeListenerConfig =
+    VirtualNodeListenerConfig.Builder.() -> Unit = {}): VirtualNodeListenerConfig =
     VirtualNodeListenerConfig.Builder().apply(initializer).build()

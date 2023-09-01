@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildAxisLabelReferenceOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.AxisLabelReferenceOptionsProperty.Builder.() -> Unit):
+    CfnTemplate.AxisLabelReferenceOptionsProperty.Builder.() -> Unit = {}):
     CfnTemplate.AxisLabelReferenceOptionsProperty =
     CfnTemplate.AxisLabelReferenceOptionsProperty.Builder().apply(initializer).build()

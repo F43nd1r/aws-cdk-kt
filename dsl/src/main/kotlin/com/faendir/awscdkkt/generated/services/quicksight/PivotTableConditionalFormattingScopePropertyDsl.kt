@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildPivotTableConditionalFormattingScopeProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PivotTableConditionalFormattingScopeProperty.Builder.() -> Unit):
+    CfnTemplate.PivotTableConditionalFormattingScopeProperty.Builder.() -> Unit = {}):
     CfnTemplate.PivotTableConditionalFormattingScopeProperty =
     CfnTemplate.PivotTableConditionalFormattingScopeProperty.Builder().apply(initializer).build()

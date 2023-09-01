@@ -9,19 +9,14 @@ import software.amazon.awscdk.services.imagebuilder.CfnInfrastructureConfigurati
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnInfrastructureConfiguration(id: String,
-    props: CfnInfrastructureConfigurationProps): CfnInfrastructureConfiguration =
-    CfnInfrastructureConfiguration(this, id, props)
-
-@Generated
 public fun Construct.cfnInfrastructureConfiguration(
   id: String,
   props: CfnInfrastructureConfigurationProps,
-  initializer: @AwsCdkDsl CfnInfrastructureConfiguration.() -> Unit,
+  initializer: @AwsCdkDsl CfnInfrastructureConfiguration.() -> Unit = {},
 ): CfnInfrastructureConfiguration = CfnInfrastructureConfiguration(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnInfrastructureConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnInfrastructureConfiguration.Builder.() -> Unit): CfnInfrastructureConfiguration =
+    CfnInfrastructureConfiguration.Builder.() -> Unit = {}): CfnInfrastructureConfiguration =
     CfnInfrastructureConfiguration.Builder.create(this, id).apply(initializer).build()

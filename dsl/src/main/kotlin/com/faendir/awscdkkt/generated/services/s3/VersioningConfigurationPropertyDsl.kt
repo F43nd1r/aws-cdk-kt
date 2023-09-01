@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
 public fun buildVersioningConfigurationProperty(initializer: @AwsCdkDsl
-    CfnBucket.VersioningConfigurationProperty.Builder.() -> Unit):
+    CfnBucket.VersioningConfigurationProperty.Builder.() -> Unit = {}):
     CfnBucket.VersioningConfigurationProperty =
     CfnBucket.VersioningConfigurationProperty.Builder().apply(initializer).build()

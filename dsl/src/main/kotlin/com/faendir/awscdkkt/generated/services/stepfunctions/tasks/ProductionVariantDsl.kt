@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.ProductionVariant
 
 @Generated
-public fun buildProductionVariant(initializer: @AwsCdkDsl ProductionVariant.Builder.() -> Unit):
-    ProductionVariant = ProductionVariant.Builder().apply(initializer).build()
+public fun buildProductionVariant(initializer: @AwsCdkDsl ProductionVariant.Builder.() -> Unit =
+    {}): ProductionVariant = ProductionVariant.Builder().apply(initializer).build()

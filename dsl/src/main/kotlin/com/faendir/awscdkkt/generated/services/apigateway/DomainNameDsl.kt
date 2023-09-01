@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.apigateway.DomainNameProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.domainName(id: String, props: DomainNameProps): DomainName = DomainName(this,
-    id, props)
-
-@Generated
 public fun Construct.domainName(
   id: String,
   props: DomainNameProps,
-  initializer: @AwsCdkDsl DomainName.() -> Unit,
+  initializer: @AwsCdkDsl DomainName.() -> Unit = {},
 ): DomainName = DomainName(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildDomainName(id: String, initializer: @AwsCdkDsl
-    DomainName.Builder.() -> Unit): DomainName = DomainName.Builder.create(this,
+    DomainName.Builder.() -> Unit = {}): DomainName = DomainName.Builder.create(this,
     id).apply(initializer).build()

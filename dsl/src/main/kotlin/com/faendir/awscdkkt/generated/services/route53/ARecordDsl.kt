@@ -9,15 +9,12 @@ import software.amazon.awscdk.services.route53.ARecordProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.aRecord(id: String, props: ARecordProps): ARecord = ARecord(this, id, props)
-
-@Generated
 public fun Construct.aRecord(
   id: String,
   props: ARecordProps,
-  initializer: @AwsCdkDsl ARecord.() -> Unit,
+  initializer: @AwsCdkDsl ARecord.() -> Unit = {},
 ): ARecord = ARecord(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildARecord(id: String, initializer: @AwsCdkDsl ARecord.Builder.() -> Unit):
-    ARecord = ARecord.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildARecord(id: String, initializer: @AwsCdkDsl ARecord.Builder.() -> Unit =
+    {}): ARecord = ARecord.Builder.create(this, id).apply(initializer).build()

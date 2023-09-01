@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.CfnStageProps
 
 @Generated
-public fun buildCfnStageProps(initializer: @AwsCdkDsl CfnStageProps.Builder.() -> Unit):
+public fun buildCfnStageProps(initializer: @AwsCdkDsl CfnStageProps.Builder.() -> Unit = {}):
     CfnStageProps = CfnStageProps.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.config.CfnConfigRule
 
 @Generated
 public fun buildComplianceProperty(initializer: @AwsCdkDsl
-    CfnConfigRule.ComplianceProperty.Builder.() -> Unit): CfnConfigRule.ComplianceProperty =
+    CfnConfigRule.ComplianceProperty.Builder.() -> Unit = {}): CfnConfigRule.ComplianceProperty =
     CfnConfigRule.ComplianceProperty.Builder().apply(initializer).build()

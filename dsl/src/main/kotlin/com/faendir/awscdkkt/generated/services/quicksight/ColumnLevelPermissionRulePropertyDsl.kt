@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
 public fun buildColumnLevelPermissionRuleProperty(initializer: @AwsCdkDsl
-    CfnDataSet.ColumnLevelPermissionRuleProperty.Builder.() -> Unit):
+    CfnDataSet.ColumnLevelPermissionRuleProperty.Builder.() -> Unit = {}):
     CfnDataSet.ColumnLevelPermissionRuleProperty =
     CfnDataSet.ColumnLevelPermissionRuleProperty.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ce.CfnCostCategoryProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnCostCategory(id: String, props: CfnCostCategoryProps): CfnCostCategory =
-    CfnCostCategory(this, id, props)
-
-@Generated
 public fun Construct.cfnCostCategory(
   id: String,
   props: CfnCostCategoryProps,
-  initializer: @AwsCdkDsl CfnCostCategory.() -> Unit,
+  initializer: @AwsCdkDsl CfnCostCategory.() -> Unit = {},
 ): CfnCostCategory = CfnCostCategory(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnCostCategory(id: String, initializer: @AwsCdkDsl
-    CfnCostCategory.Builder.() -> Unit): CfnCostCategory = CfnCostCategory.Builder.create(this,
+    CfnCostCategory.Builder.() -> Unit = {}): CfnCostCategory = CfnCostCategory.Builder.create(this,
     id).apply(initializer).build()

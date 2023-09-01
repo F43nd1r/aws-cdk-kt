@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.timestream.CfnDatabaseProps
 
 @Generated
-public fun buildCfnDatabaseProps(initializer: @AwsCdkDsl CfnDatabaseProps.Builder.() -> Unit):
+public fun buildCfnDatabaseProps(initializer: @AwsCdkDsl CfnDatabaseProps.Builder.() -> Unit = {}):
     CfnDatabaseProps = CfnDatabaseProps.Builder().apply(initializer).build()

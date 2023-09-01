@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildDataColorProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DataColorProperty.Builder.() -> Unit): CfnTemplate.DataColorProperty =
+    CfnTemplate.DataColorProperty.Builder.() -> Unit = {}): CfnTemplate.DataColorProperty =
     CfnTemplate.DataColorProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.LaunchTargetBindOptio
 
 @Generated
 public fun buildLaunchTargetBindOptions(initializer: @AwsCdkDsl
-    LaunchTargetBindOptions.Builder.() -> Unit): LaunchTargetBindOptions =
+    LaunchTargetBindOptions.Builder.() -> Unit = {}): LaunchTargetBindOptions =
     LaunchTargetBindOptions.Builder().apply(initializer).build()

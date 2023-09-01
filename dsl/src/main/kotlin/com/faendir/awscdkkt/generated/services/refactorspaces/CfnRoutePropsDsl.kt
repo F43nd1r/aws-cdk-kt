@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.refactorspaces.CfnRouteProps
 
 @Generated
-public fun buildCfnRouteProps(initializer: @AwsCdkDsl CfnRouteProps.Builder.() -> Unit):
+public fun buildCfnRouteProps(initializer: @AwsCdkDsl CfnRouteProps.Builder.() -> Unit = {}):
     CfnRouteProps = CfnRouteProps.Builder().apply(initializer).build()

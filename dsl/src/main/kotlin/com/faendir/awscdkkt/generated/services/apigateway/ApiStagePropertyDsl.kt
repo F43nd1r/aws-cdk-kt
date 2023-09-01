@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.apigateway.CfnUsagePlan
 
 @Generated
 public fun buildApiStageProperty(initializer: @AwsCdkDsl
-    CfnUsagePlan.ApiStageProperty.Builder.() -> Unit): CfnUsagePlan.ApiStageProperty =
+    CfnUsagePlan.ApiStageProperty.Builder.() -> Unit = {}): CfnUsagePlan.ApiStageProperty =
     CfnUsagePlan.ApiStageProperty.Builder().apply(initializer).build()

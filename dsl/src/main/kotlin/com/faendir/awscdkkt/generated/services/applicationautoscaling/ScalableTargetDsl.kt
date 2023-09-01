@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.applicationautoscaling.ScalableTargetProp
 import software.constructs.Construct
 
 @Generated
-public fun Construct.scalableTarget(id: String, props: ScalableTargetProps): ScalableTarget =
-    ScalableTarget(this, id, props)
-
-@Generated
 public fun Construct.scalableTarget(
   id: String,
   props: ScalableTargetProps,
-  initializer: @AwsCdkDsl ScalableTarget.() -> Unit,
+  initializer: @AwsCdkDsl ScalableTarget.() -> Unit = {},
 ): ScalableTarget = ScalableTarget(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildScalableTarget(id: String, initializer: @AwsCdkDsl
-    ScalableTarget.Builder.() -> Unit): ScalableTarget = ScalableTarget.Builder.create(this,
+    ScalableTarget.Builder.() -> Unit = {}): ScalableTarget = ScalableTarget.Builder.create(this,
     id).apply(initializer).build()

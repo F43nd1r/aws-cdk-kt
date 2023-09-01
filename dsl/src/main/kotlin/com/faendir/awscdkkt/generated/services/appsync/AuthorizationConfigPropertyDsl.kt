@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appsync.CfnDataSource
 
 @Generated
 public fun buildAuthorizationConfigProperty(initializer: @AwsCdkDsl
-    CfnDataSource.AuthorizationConfigProperty.Builder.() -> Unit):
+    CfnDataSource.AuthorizationConfigProperty.Builder.() -> Unit = {}):
     CfnDataSource.AuthorizationConfigProperty =
     CfnDataSource.AuthorizationConfigProperty.Builder().apply(initializer).build()

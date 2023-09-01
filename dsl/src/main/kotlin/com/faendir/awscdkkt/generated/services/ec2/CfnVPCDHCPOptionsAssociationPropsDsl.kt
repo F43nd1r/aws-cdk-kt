@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.CfnVPCDHCPOptionsAssociationProps
 
 @Generated
 public fun buildCfnVPCDHCPOptionsAssociationProps(initializer: @AwsCdkDsl
-    CfnVPCDHCPOptionsAssociationProps.Builder.() -> Unit): CfnVPCDHCPOptionsAssociationProps =
+    CfnVPCDHCPOptionsAssociationProps.Builder.() -> Unit = {}): CfnVPCDHCPOptionsAssociationProps =
     CfnVPCDHCPOptionsAssociationProps.Builder().apply(initializer).build()

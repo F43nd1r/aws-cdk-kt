@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.dlm.CfnLifecyclePolicy
 
 @Generated
 public fun buildParametersProperty(initializer: @AwsCdkDsl
-    CfnLifecyclePolicy.ParametersProperty.Builder.() -> Unit): CfnLifecyclePolicy.ParametersProperty
-    = CfnLifecyclePolicy.ParametersProperty.Builder().apply(initializer).build()
+    CfnLifecyclePolicy.ParametersProperty.Builder.() -> Unit = {}):
+    CfnLifecyclePolicy.ParametersProperty =
+    CfnLifecyclePolicy.ParametersProperty.Builder().apply(initializer).build()

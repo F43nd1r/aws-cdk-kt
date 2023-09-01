@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.logs.SubscriptionFilterOptions
 
 @Generated
 public fun buildSubscriptionFilterOptions(initializer: @AwsCdkDsl
-    SubscriptionFilterOptions.Builder.() -> Unit): SubscriptionFilterOptions =
+    SubscriptionFilterOptions.Builder.() -> Unit = {}): SubscriptionFilterOptions =
     SubscriptionFilterOptions.Builder().apply(initializer).build()

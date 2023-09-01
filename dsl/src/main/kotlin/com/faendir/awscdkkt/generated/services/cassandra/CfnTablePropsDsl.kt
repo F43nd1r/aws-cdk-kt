@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cassandra.CfnTableProps
 
 @Generated
-public fun buildCfnTableProps(initializer: @AwsCdkDsl CfnTableProps.Builder.() -> Unit):
+public fun buildCfnTableProps(initializer: @AwsCdkDsl CfnTableProps.Builder.() -> Unit = {}):
     CfnTableProps = CfnTableProps.Builder().apply(initializer).build()

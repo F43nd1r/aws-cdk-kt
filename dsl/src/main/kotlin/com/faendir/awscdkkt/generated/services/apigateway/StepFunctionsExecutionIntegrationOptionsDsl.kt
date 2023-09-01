@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.apigateway.StepFunctionsExecutionIntegrat
 
 @Generated
 public fun buildStepFunctionsExecutionIntegrationOptions(initializer: @AwsCdkDsl
-    StepFunctionsExecutionIntegrationOptions.Builder.() -> Unit):
+    StepFunctionsExecutionIntegrationOptions.Builder.() -> Unit = {}):
     StepFunctionsExecutionIntegrationOptions =
     StepFunctionsExecutionIntegrationOptions.Builder().apply(initializer).build()

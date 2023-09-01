@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.s3outposts.CfnAccessPointProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnAccessPoint(id: String, props: CfnAccessPointProps): CfnAccessPoint =
-    CfnAccessPoint(this, id, props)
-
-@Generated
 public fun Construct.cfnAccessPoint(
   id: String,
   props: CfnAccessPointProps,
-  initializer: @AwsCdkDsl CfnAccessPoint.() -> Unit,
+  initializer: @AwsCdkDsl CfnAccessPoint.() -> Unit = {},
 ): CfnAccessPoint = CfnAccessPoint(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnAccessPoint(id: String, initializer: @AwsCdkDsl
-    CfnAccessPoint.Builder.() -> Unit): CfnAccessPoint = CfnAccessPoint.Builder.create(this,
+    CfnAccessPoint.Builder.() -> Unit = {}): CfnAccessPoint = CfnAccessPoint.Builder.create(this,
     id).apply(initializer).build()

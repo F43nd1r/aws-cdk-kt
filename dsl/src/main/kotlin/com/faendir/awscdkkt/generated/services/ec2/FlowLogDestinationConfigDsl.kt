@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.FlowLogDestinationConfig
 
 @Generated
 public fun buildFlowLogDestinationConfig(initializer: @AwsCdkDsl
-    FlowLogDestinationConfig.Builder.() -> Unit): FlowLogDestinationConfig =
+    FlowLogDestinationConfig.Builder.() -> Unit = {}): FlowLogDestinationConfig =
     FlowLogDestinationConfig.Builder().apply(initializer).build()

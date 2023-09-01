@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.greengrass.CfnDeviceDefinitionVersionProp
 
 @Generated
 public fun buildCfnDeviceDefinitionVersionProps(initializer: @AwsCdkDsl
-    CfnDeviceDefinitionVersionProps.Builder.() -> Unit): CfnDeviceDefinitionVersionProps =
+    CfnDeviceDefinitionVersionProps.Builder.() -> Unit = {}): CfnDeviceDefinitionVersionProps =
     CfnDeviceDefinitionVersionProps.Builder().apply(initializer).build()

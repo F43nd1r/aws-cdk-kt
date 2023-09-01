@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.OptionGroupProps
 
 @Generated
-public fun buildOptionGroupProps(initializer: @AwsCdkDsl OptionGroupProps.Builder.() -> Unit):
+public fun buildOptionGroupProps(initializer: @AwsCdkDsl OptionGroupProps.Builder.() -> Unit = {}):
     OptionGroupProps = OptionGroupProps.Builder().apply(initializer).build()

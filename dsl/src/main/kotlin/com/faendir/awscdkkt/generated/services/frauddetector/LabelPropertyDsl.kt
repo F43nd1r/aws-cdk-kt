@@ -6,6 +6,6 @@ import kotlin.Unit
 import software.amazon.awscdk.services.frauddetector.CfnEventType
 
 @Generated
-public fun buildLabelProperty(initializer: @AwsCdkDsl
-    CfnEventType.LabelProperty.Builder.() -> Unit): CfnEventType.LabelProperty =
+public fun buildLabelProperty(initializer: @AwsCdkDsl CfnEventType.LabelProperty.Builder.() -> Unit
+    = {}): CfnEventType.LabelProperty =
     CfnEventType.LabelProperty.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ec2.CfnPrefixListProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnPrefixList(id: String, props: CfnPrefixListProps): CfnPrefixList =
-    CfnPrefixList(this, id, props)
-
-@Generated
 public fun Construct.cfnPrefixList(
   id: String,
   props: CfnPrefixListProps,
-  initializer: @AwsCdkDsl CfnPrefixList.() -> Unit,
+  initializer: @AwsCdkDsl CfnPrefixList.() -> Unit = {},
 ): CfnPrefixList = CfnPrefixList(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnPrefixList(id: String, initializer: @AwsCdkDsl
-    CfnPrefixList.Builder.() -> Unit): CfnPrefixList = CfnPrefixList.Builder.create(this,
+    CfnPrefixList.Builder.() -> Unit = {}): CfnPrefixList = CfnPrefixList.Builder.create(this,
     id).apply(initializer).build()

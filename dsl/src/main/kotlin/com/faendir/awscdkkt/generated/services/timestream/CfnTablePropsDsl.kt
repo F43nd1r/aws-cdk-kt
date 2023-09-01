@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.timestream.CfnTableProps
 
 @Generated
-public fun buildCfnTableProps(initializer: @AwsCdkDsl CfnTableProps.Builder.() -> Unit):
+public fun buildCfnTableProps(initializer: @AwsCdkDsl CfnTableProps.Builder.() -> Unit = {}):
     CfnTableProps = CfnTableProps.Builder().apply(initializer).build()

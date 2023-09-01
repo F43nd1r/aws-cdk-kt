@@ -9,15 +9,12 @@ import software.amazon.awscdk.services.servicediscovery.ServiceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.service(id: String, props: ServiceProps): Service = Service(this, id, props)
-
-@Generated
 public fun Construct.service(
   id: String,
   props: ServiceProps,
-  initializer: @AwsCdkDsl Service.() -> Unit,
+  initializer: @AwsCdkDsl Service.() -> Unit = {},
 ): Service = Service(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildService(id: String, initializer: @AwsCdkDsl Service.Builder.() -> Unit):
-    Service = Service.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildService(id: String, initializer: @AwsCdkDsl Service.Builder.() -> Unit =
+    {}): Service = Service.Builder.create(this, id).apply(initializer).build()

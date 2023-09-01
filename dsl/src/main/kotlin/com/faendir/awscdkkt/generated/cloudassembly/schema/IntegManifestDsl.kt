@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.cloudassembly.schema.IntegManifest
 
 @Generated
-public fun buildIntegManifest(initializer: @AwsCdkDsl IntegManifest.Builder.() -> Unit):
+public fun buildIntegManifest(initializer: @AwsCdkDsl IntegManifest.Builder.() -> Unit = {}):
     IntegManifest = IntegManifest.Builder().apply(initializer).build()

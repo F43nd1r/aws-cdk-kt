@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ecs.ContainerDefinitionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.containerDefinition(id: String, props: ContainerDefinitionProps):
-    ContainerDefinition = ContainerDefinition(this, id, props)
-
-@Generated
 public fun Construct.containerDefinition(
   id: String,
   props: ContainerDefinitionProps,
-  initializer: @AwsCdkDsl ContainerDefinition.() -> Unit,
+  initializer: @AwsCdkDsl ContainerDefinition.() -> Unit = {},
 ): ContainerDefinition = ContainerDefinition(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildContainerDefinition(id: String, initializer: @AwsCdkDsl
-    ContainerDefinition.Builder.() -> Unit): ContainerDefinition =
+    ContainerDefinition.Builder.() -> Unit = {}): ContainerDefinition =
     ContainerDefinition.Builder.create(this, id).apply(initializer).build()

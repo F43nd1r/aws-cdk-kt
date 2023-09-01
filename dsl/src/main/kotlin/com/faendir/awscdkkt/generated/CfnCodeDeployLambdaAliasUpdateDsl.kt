@@ -7,5 +7,5 @@ import software.amazon.awscdk.CfnCodeDeployLambdaAliasUpdate
 
 @Generated
 public fun buildCfnCodeDeployLambdaAliasUpdate(initializer: @AwsCdkDsl
-    CfnCodeDeployLambdaAliasUpdate.Builder.() -> Unit): CfnCodeDeployLambdaAliasUpdate =
+    CfnCodeDeployLambdaAliasUpdate.Builder.() -> Unit = {}): CfnCodeDeployLambdaAliasUpdate =
     CfnCodeDeployLambdaAliasUpdate.Builder().apply(initializer).build()

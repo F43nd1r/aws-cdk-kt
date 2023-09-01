@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.AlbControllerOptions
 
 @Generated
-public fun buildAlbControllerOptions(initializer: @AwsCdkDsl
-    AlbControllerOptions.Builder.() -> Unit): AlbControllerOptions =
-    AlbControllerOptions.Builder().apply(initializer).build()
+public fun buildAlbControllerOptions(initializer: @AwsCdkDsl AlbControllerOptions.Builder.() -> Unit
+    = {}): AlbControllerOptions = AlbControllerOptions.Builder().apply(initializer).build()

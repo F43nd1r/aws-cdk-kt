@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.triggers.TriggerOptions
 
 @Generated
-public fun buildTriggerOptions(initializer: @AwsCdkDsl TriggerOptions.Builder.() -> Unit):
+public fun buildTriggerOptions(initializer: @AwsCdkDsl TriggerOptions.Builder.() -> Unit = {}):
     TriggerOptions = TriggerOptions.Builder().apply(initializer).build()

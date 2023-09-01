@@ -8,10 +8,6 @@ import software.amazon.awscdk.lambda.layer.node.proxy.agent.NodeProxyAgentLayer
 import software.constructs.Construct
 
 @Generated
-public fun Construct.nodeProxyAgentLayer(id: String): NodeProxyAgentLayer =
-    NodeProxyAgentLayer(this, id)
-
-@Generated
 public fun Construct.nodeProxyAgentLayer(id: String, initializer: @AwsCdkDsl
-    NodeProxyAgentLayer.() -> Unit): NodeProxyAgentLayer = NodeProxyAgentLayer(this,
+    NodeProxyAgentLayer.() -> Unit = {}): NodeProxyAgentLayer = NodeProxyAgentLayer(this,
     id).apply(initializer)

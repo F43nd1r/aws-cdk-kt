@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
 public fun buildDeliveryStreamEncryptionConfigurationInputProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.DeliveryStreamEncryptionConfigurationInputProperty.Builder.() -> Unit):
+    CfnDeliveryStream.DeliveryStreamEncryptionConfigurationInputProperty.Builder.() -> Unit = {}):
     CfnDeliveryStream.DeliveryStreamEncryptionConfigurationInputProperty =
     CfnDeliveryStream.DeliveryStreamEncryptionConfigurationInputProperty.Builder().apply(initializer).build()

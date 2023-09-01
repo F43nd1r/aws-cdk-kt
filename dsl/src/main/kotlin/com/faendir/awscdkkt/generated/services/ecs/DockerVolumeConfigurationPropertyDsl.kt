@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
 public fun buildDockerVolumeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.DockerVolumeConfigurationProperty.Builder.() -> Unit):
+    CfnTaskDefinition.DockerVolumeConfigurationProperty.Builder.() -> Unit = {}):
     CfnTaskDefinition.DockerVolumeConfigurationProperty =
     CfnTaskDefinition.DockerVolumeConfigurationProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.AclCidrConfig
 
 @Generated
-public fun buildAclCidrConfig(initializer: @AwsCdkDsl AclCidrConfig.Builder.() -> Unit):
+public fun buildAclCidrConfig(initializer: @AwsCdkDsl AclCidrConfig.Builder.() -> Unit = {}):
     AclCidrConfig = AclCidrConfig.Builder().apply(initializer).build()

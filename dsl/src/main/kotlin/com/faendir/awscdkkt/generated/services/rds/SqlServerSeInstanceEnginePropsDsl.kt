@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.rds.SqlServerSeInstanceEngineProps
 
 @Generated
 public fun buildSqlServerSeInstanceEngineProps(initializer: @AwsCdkDsl
-    SqlServerSeInstanceEngineProps.Builder.() -> Unit): SqlServerSeInstanceEngineProps =
+    SqlServerSeInstanceEngineProps.Builder.() -> Unit = {}): SqlServerSeInstanceEngineProps =
     SqlServerSeInstanceEngineProps.Builder().apply(initializer).build()

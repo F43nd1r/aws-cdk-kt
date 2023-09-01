@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildHeatMapSortConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.HeatMapSortConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.HeatMapSortConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.HeatMapSortConfigurationProperty =
     CfnTemplate.HeatMapSortConfigurationProperty.Builder().apply(initializer).build()

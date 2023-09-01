@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildRadarChartConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.RadarChartConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.RadarChartConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.RadarChartConfigurationProperty =
     CfnTemplate.RadarChartConfigurationProperty.Builder().apply(initializer).build()

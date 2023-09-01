@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
 public fun buildServerSideEncryptionRuleProperty(initializer: @AwsCdkDsl
-    CfnBucket.ServerSideEncryptionRuleProperty.Builder.() -> Unit):
+    CfnBucket.ServerSideEncryptionRuleProperty.Builder.() -> Unit = {}):
     CfnBucket.ServerSideEncryptionRuleProperty =
     CfnBucket.ServerSideEncryptionRuleProperty.Builder().apply(initializer).build()

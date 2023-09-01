@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ssm.CommonStringParameterAttributes
 
 @Generated
 public fun buildCommonStringParameterAttributes(initializer: @AwsCdkDsl
-    CommonStringParameterAttributes.Builder.() -> Unit): CommonStringParameterAttributes =
+    CommonStringParameterAttributes.Builder.() -> Unit = {}): CommonStringParameterAttributes =
     CommonStringParameterAttributes.Builder().apply(initializer).build()

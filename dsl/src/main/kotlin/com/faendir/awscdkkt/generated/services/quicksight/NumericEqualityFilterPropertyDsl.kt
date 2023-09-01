@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildNumericEqualityFilterProperty(initializer: @AwsCdkDsl
-    CfnTemplate.NumericEqualityFilterProperty.Builder.() -> Unit):
+    CfnTemplate.NumericEqualityFilterProperty.Builder.() -> Unit = {}):
     CfnTemplate.NumericEqualityFilterProperty =
     CfnTemplate.NumericEqualityFilterProperty.Builder().apply(initializer).build()

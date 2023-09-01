@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lookoutmetrics.CfnAnomalyDetector
 
 @Generated
 public fun buildCloudwatchConfigProperty(initializer: @AwsCdkDsl
-    CfnAnomalyDetector.CloudwatchConfigProperty.Builder.() -> Unit):
+    CfnAnomalyDetector.CloudwatchConfigProperty.Builder.() -> Unit = {}):
     CfnAnomalyDetector.CloudwatchConfigProperty =
     CfnAnomalyDetector.CloudwatchConfigProperty.Builder().apply(initializer).build()

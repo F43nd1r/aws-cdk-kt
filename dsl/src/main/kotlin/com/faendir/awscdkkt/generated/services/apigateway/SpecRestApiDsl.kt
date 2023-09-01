@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.apigateway.SpecRestApiProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.specRestApi(id: String, props: SpecRestApiProps): SpecRestApi =
-    SpecRestApi(this, id, props)
-
-@Generated
 public fun Construct.specRestApi(
   id: String,
   props: SpecRestApiProps,
-  initializer: @AwsCdkDsl SpecRestApi.() -> Unit,
+  initializer: @AwsCdkDsl SpecRestApi.() -> Unit = {},
 ): SpecRestApi = SpecRestApi(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildSpecRestApi(id: String, initializer: @AwsCdkDsl
-    SpecRestApi.Builder.() -> Unit): SpecRestApi = SpecRestApi.Builder.create(this,
+    SpecRestApi.Builder.() -> Unit = {}): SpecRestApi = SpecRestApi.Builder.create(this,
     id).apply(initializer).build()

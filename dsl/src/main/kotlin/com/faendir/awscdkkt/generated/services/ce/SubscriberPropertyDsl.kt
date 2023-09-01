@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ce.CfnAnomalySubscription
 
 @Generated
 public fun buildSubscriberProperty(initializer: @AwsCdkDsl
-    CfnAnomalySubscription.SubscriberProperty.Builder.() -> Unit):
+    CfnAnomalySubscription.SubscriberProperty.Builder.() -> Unit = {}):
     CfnAnomalySubscription.SubscriberProperty =
     CfnAnomalySubscription.SubscriberProperty.Builder().apply(initializer).build()

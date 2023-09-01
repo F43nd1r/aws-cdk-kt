@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.config.CfnOrganizationConformancePack
 
 @Generated
 public fun buildConformancePackInputParameterProperty(initializer: @AwsCdkDsl
-    CfnOrganizationConformancePack.ConformancePackInputParameterProperty.Builder.() -> Unit):
+    CfnOrganizationConformancePack.ConformancePackInputParameterProperty.Builder.() -> Unit = {}):
     CfnOrganizationConformancePack.ConformancePackInputParameterProperty =
     CfnOrganizationConformancePack.ConformancePackInputParameterProperty.Builder().apply(initializer).build()

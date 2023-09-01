@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.CfnCustomerGatewayProps
 
 @Generated
 public fun buildCfnCustomerGatewayProps(initializer: @AwsCdkDsl
-    CfnCustomerGatewayProps.Builder.() -> Unit): CfnCustomerGatewayProps =
+    CfnCustomerGatewayProps.Builder.() -> Unit = {}): CfnCustomerGatewayProps =
     CfnCustomerGatewayProps.Builder().apply(initializer).build()

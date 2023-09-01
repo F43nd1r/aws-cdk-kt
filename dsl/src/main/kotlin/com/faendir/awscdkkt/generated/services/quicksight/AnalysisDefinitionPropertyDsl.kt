@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnAnalysis
 
 @Generated
 public fun buildAnalysisDefinitionProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.AnalysisDefinitionProperty.Builder.() -> Unit):
+    CfnAnalysis.AnalysisDefinitionProperty.Builder.() -> Unit = {}):
     CfnAnalysis.AnalysisDefinitionProperty =
     CfnAnalysis.AnalysisDefinitionProperty.Builder().apply(initializer).build()

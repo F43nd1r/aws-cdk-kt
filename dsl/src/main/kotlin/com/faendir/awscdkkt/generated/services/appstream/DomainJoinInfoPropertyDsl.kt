@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appstream.CfnImageBuilder
 
 @Generated
 public fun buildDomainJoinInfoProperty(initializer: @AwsCdkDsl
-    CfnImageBuilder.DomainJoinInfoProperty.Builder.() -> Unit):
+    CfnImageBuilder.DomainJoinInfoProperty.Builder.() -> Unit = {}):
     CfnImageBuilder.DomainJoinInfoProperty =
     CfnImageBuilder.DomainJoinInfoProperty.Builder().apply(initializer).build()

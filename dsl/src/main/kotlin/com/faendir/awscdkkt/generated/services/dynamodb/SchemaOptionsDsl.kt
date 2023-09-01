@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.SchemaOptions
 
 @Generated
-public fun buildSchemaOptions(initializer: @AwsCdkDsl SchemaOptions.Builder.() -> Unit):
+public fun buildSchemaOptions(initializer: @AwsCdkDsl SchemaOptions.Builder.() -> Unit = {}):
     SchemaOptions = SchemaOptions.Builder().apply(initializer).build()

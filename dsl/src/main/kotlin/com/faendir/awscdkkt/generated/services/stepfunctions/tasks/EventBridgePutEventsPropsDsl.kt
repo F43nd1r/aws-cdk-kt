@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EventBridgePutEventsP
 
 @Generated
 public fun buildEventBridgePutEventsProps(initializer: @AwsCdkDsl
-    EventBridgePutEventsProps.Builder.() -> Unit): EventBridgePutEventsProps =
+    EventBridgePutEventsProps.Builder.() -> Unit = {}): EventBridgePutEventsProps =
     EventBridgePutEventsProps.Builder().apply(initializer).build()

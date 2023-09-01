@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.ecs.patterns.NetworkLoadBalancedTaskImage
 
 @Generated
 public fun buildNetworkLoadBalancedTaskImageOptions(initializer: @AwsCdkDsl
-    NetworkLoadBalancedTaskImageOptions.Builder.() -> Unit): NetworkLoadBalancedTaskImageOptions =
+    NetworkLoadBalancedTaskImageOptions.Builder.() -> Unit = {}):
+    NetworkLoadBalancedTaskImageOptions =
     NetworkLoadBalancedTaskImageOptions.Builder().apply(initializer).build()

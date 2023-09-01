@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.quicksight.CfnTheme
 
 @Generated
 public fun buildBorderStyleProperty(initializer: @AwsCdkDsl
-    CfnTheme.BorderStyleProperty.Builder.() -> Unit): CfnTheme.BorderStyleProperty =
+    CfnTheme.BorderStyleProperty.Builder.() -> Unit = {}): CfnTheme.BorderStyleProperty =
     CfnTheme.BorderStyleProperty.Builder().apply(initializer).build()

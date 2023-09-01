@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.kinesisanalyticsv2.CfnApplicationOutputPr
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnApplicationOutput(id: String, props: CfnApplicationOutputProps):
-    CfnApplicationOutput = CfnApplicationOutput(this, id, props)
-
-@Generated
 public fun Construct.cfnApplicationOutput(
   id: String,
   props: CfnApplicationOutputProps,
-  initializer: @AwsCdkDsl CfnApplicationOutput.() -> Unit,
+  initializer: @AwsCdkDsl CfnApplicationOutput.() -> Unit = {},
 ): CfnApplicationOutput = CfnApplicationOutput(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnApplicationOutput(id: String, initializer: @AwsCdkDsl
-    CfnApplicationOutput.Builder.() -> Unit): CfnApplicationOutput =
+    CfnApplicationOutput.Builder.() -> Unit = {}): CfnApplicationOutput =
     CfnApplicationOutput.Builder.create(this, id).apply(initializer).build()

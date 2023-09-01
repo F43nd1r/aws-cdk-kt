@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.gamelift.CfnGameSessionQueue
 
 @Generated
 public fun buildPlayerLatencyPolicyProperty(initializer: @AwsCdkDsl
-    CfnGameSessionQueue.PlayerLatencyPolicyProperty.Builder.() -> Unit):
+    CfnGameSessionQueue.PlayerLatencyPolicyProperty.Builder.() -> Unit = {}):
     CfnGameSessionQueue.PlayerLatencyPolicyProperty =
     CfnGameSessionQueue.PlayerLatencyPolicyProperty.Builder().apply(initializer).build()

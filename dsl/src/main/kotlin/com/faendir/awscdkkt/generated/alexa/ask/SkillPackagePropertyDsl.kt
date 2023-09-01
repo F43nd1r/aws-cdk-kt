@@ -7,5 +7,5 @@ import software.amazon.awscdk.alexa.ask.CfnSkill
 
 @Generated
 public fun buildSkillPackageProperty(initializer: @AwsCdkDsl
-    CfnSkill.SkillPackageProperty.Builder.() -> Unit): CfnSkill.SkillPackageProperty =
+    CfnSkill.SkillPackageProperty.Builder.() -> Unit = {}): CfnSkill.SkillPackageProperty =
     CfnSkill.SkillPackageProperty.Builder().apply(initializer).build()

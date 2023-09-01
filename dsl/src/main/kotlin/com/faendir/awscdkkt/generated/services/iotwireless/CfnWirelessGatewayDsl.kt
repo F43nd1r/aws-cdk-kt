@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.iotwireless.CfnWirelessGatewayProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnWirelessGateway(id: String, props: CfnWirelessGatewayProps):
-    CfnWirelessGateway = CfnWirelessGateway(this, id, props)
-
-@Generated
 public fun Construct.cfnWirelessGateway(
   id: String,
   props: CfnWirelessGatewayProps,
-  initializer: @AwsCdkDsl CfnWirelessGateway.() -> Unit,
+  initializer: @AwsCdkDsl CfnWirelessGateway.() -> Unit = {},
 ): CfnWirelessGateway = CfnWirelessGateway(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnWirelessGateway(id: String, initializer: @AwsCdkDsl
-    CfnWirelessGateway.Builder.() -> Unit): CfnWirelessGateway =
+    CfnWirelessGateway.Builder.() -> Unit = {}): CfnWirelessGateway =
     CfnWirelessGateway.Builder.create(this, id).apply(initializer).build()

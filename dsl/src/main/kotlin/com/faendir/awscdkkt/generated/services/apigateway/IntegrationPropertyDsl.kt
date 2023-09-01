@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.apigateway.CfnMethod
 
 @Generated
 public fun buildIntegrationProperty(initializer: @AwsCdkDsl
-    CfnMethod.IntegrationProperty.Builder.() -> Unit): CfnMethod.IntegrationProperty =
+    CfnMethod.IntegrationProperty.Builder.() -> Unit = {}): CfnMethod.IntegrationProperty =
     CfnMethod.IntegrationProperty.Builder().apply(initializer).build()

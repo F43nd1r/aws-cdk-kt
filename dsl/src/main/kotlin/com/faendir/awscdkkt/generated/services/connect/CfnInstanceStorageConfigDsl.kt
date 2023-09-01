@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.connect.CfnInstanceStorageConfigProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnInstanceStorageConfig(id: String, props: CfnInstanceStorageConfigProps):
-    CfnInstanceStorageConfig = CfnInstanceStorageConfig(this, id, props)
-
-@Generated
 public fun Construct.cfnInstanceStorageConfig(
   id: String,
   props: CfnInstanceStorageConfigProps,
-  initializer: @AwsCdkDsl CfnInstanceStorageConfig.() -> Unit,
+  initializer: @AwsCdkDsl CfnInstanceStorageConfig.() -> Unit = {},
 ): CfnInstanceStorageConfig = CfnInstanceStorageConfig(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnInstanceStorageConfig(id: String, initializer: @AwsCdkDsl
-    CfnInstanceStorageConfig.Builder.() -> Unit): CfnInstanceStorageConfig =
+    CfnInstanceStorageConfig.Builder.() -> Unit = {}): CfnInstanceStorageConfig =
     CfnInstanceStorageConfig.Builder.create(this, id).apply(initializer).build()

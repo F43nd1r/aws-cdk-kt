@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildRadarChartVisualProperty(initializer: @AwsCdkDsl
-    CfnTemplate.RadarChartVisualProperty.Builder.() -> Unit): CfnTemplate.RadarChartVisualProperty =
+    CfnTemplate.RadarChartVisualProperty.Builder.() -> Unit = {}):
+    CfnTemplate.RadarChartVisualProperty =
     CfnTemplate.RadarChartVisualProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codedeploy.BaseDeploymentConfigOptions
 
 @Generated
 public fun buildBaseDeploymentConfigOptions(initializer: @AwsCdkDsl
-    BaseDeploymentConfigOptions.Builder.() -> Unit): BaseDeploymentConfigOptions =
+    BaseDeploymentConfigOptions.Builder.() -> Unit = {}): BaseDeploymentConfigOptions =
     BaseDeploymentConfigOptions.Builder().apply(initializer).build()

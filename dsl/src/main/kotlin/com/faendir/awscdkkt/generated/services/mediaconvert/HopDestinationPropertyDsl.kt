@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.mediaconvert.CfnJobTemplate
 
 @Generated
 public fun buildHopDestinationProperty(initializer: @AwsCdkDsl
-    CfnJobTemplate.HopDestinationProperty.Builder.() -> Unit): CfnJobTemplate.HopDestinationProperty
-    = CfnJobTemplate.HopDestinationProperty.Builder().apply(initializer).build()
+    CfnJobTemplate.HopDestinationProperty.Builder.() -> Unit = {}):
+    CfnJobTemplate.HopDestinationProperty =
+    CfnJobTemplate.HopDestinationProperty.Builder().apply(initializer).build()

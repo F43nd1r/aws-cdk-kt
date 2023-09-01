@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildDataSetConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DataSetConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.DataSetConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.DataSetConfigurationProperty =
     CfnTemplate.DataSetConfigurationProperty.Builder().apply(initializer).build()

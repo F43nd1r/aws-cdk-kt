@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.supportapp.CfnSlackWorkspaceConfiguration
 
 @Generated
 public fun buildCfnSlackWorkspaceConfigurationProps(initializer: @AwsCdkDsl
-    CfnSlackWorkspaceConfigurationProps.Builder.() -> Unit): CfnSlackWorkspaceConfigurationProps =
+    CfnSlackWorkspaceConfigurationProps.Builder.() -> Unit = {}):
+    CfnSlackWorkspaceConfigurationProps =
     CfnSlackWorkspaceConfigurationProps.Builder().apply(initializer).build()

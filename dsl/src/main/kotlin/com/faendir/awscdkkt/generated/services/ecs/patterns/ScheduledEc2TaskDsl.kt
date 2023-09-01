@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ecs.patterns.ScheduledEc2TaskProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.scheduledEc2Task(id: String, props: ScheduledEc2TaskProps): ScheduledEc2Task =
-    ScheduledEc2Task(this, id, props)
-
-@Generated
 public fun Construct.scheduledEc2Task(
   id: String,
   props: ScheduledEc2TaskProps,
-  initializer: @AwsCdkDsl ScheduledEc2Task.() -> Unit,
+  initializer: @AwsCdkDsl ScheduledEc2Task.() -> Unit = {},
 ): ScheduledEc2Task = ScheduledEc2Task(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildScheduledEc2Task(id: String, initializer: @AwsCdkDsl
-    ScheduledEc2Task.Builder.() -> Unit): ScheduledEc2Task = ScheduledEc2Task.Builder.create(this,
-    id).apply(initializer).build()
+    ScheduledEc2Task.Builder.() -> Unit = {}): ScheduledEc2Task =
+    ScheduledEc2Task.Builder.create(this, id).apply(initializer).build()

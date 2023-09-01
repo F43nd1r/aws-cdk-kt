@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ec2.CfnNetworkInterfaceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnNetworkInterface(id: String, props: CfnNetworkInterfaceProps):
-    CfnNetworkInterface = CfnNetworkInterface(this, id, props)
-
-@Generated
 public fun Construct.cfnNetworkInterface(
   id: String,
   props: CfnNetworkInterfaceProps,
-  initializer: @AwsCdkDsl CfnNetworkInterface.() -> Unit,
+  initializer: @AwsCdkDsl CfnNetworkInterface.() -> Unit = {},
 ): CfnNetworkInterface = CfnNetworkInterface(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnNetworkInterface(id: String, initializer: @AwsCdkDsl
-    CfnNetworkInterface.Builder.() -> Unit): CfnNetworkInterface =
+    CfnNetworkInterface.Builder.() -> Unit = {}): CfnNetworkInterface =
     CfnNetworkInterface.Builder.create(this, id).apply(initializer).build()

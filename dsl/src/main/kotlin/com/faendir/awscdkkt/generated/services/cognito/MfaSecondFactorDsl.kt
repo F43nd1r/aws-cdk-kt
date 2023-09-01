@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.MfaSecondFactor
 
 @Generated
-public fun buildMfaSecondFactor(initializer: @AwsCdkDsl MfaSecondFactor.Builder.() -> Unit):
+public fun buildMfaSecondFactor(initializer: @AwsCdkDsl MfaSecondFactor.Builder.() -> Unit = {}):
     MfaSecondFactor = MfaSecondFactor.Builder().apply(initializer).build()

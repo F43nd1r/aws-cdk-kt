@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelPackage
 
 @Generated
 public fun buildSourceAlgorithmProperty(initializer: @AwsCdkDsl
-    CfnModelPackage.SourceAlgorithmProperty.Builder.() -> Unit):
+    CfnModelPackage.SourceAlgorithmProperty.Builder.() -> Unit = {}):
     CfnModelPackage.SourceAlgorithmProperty =
     CfnModelPackage.SourceAlgorithmProperty.Builder().apply(initializer).build()

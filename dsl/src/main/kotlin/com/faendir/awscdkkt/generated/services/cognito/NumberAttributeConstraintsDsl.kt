@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cognito.NumberAttributeConstraints
 
 @Generated
 public fun buildNumberAttributeConstraints(initializer: @AwsCdkDsl
-    NumberAttributeConstraints.Builder.() -> Unit): NumberAttributeConstraints =
+    NumberAttributeConstraints.Builder.() -> Unit = {}): NumberAttributeConstraints =
     NumberAttributeConstraints.Builder().apply(initializer).build()

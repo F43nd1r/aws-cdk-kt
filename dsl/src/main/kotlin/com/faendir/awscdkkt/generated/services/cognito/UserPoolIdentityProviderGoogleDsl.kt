@@ -9,19 +9,14 @@ import software.amazon.awscdk.services.cognito.UserPoolIdentityProviderGooglePro
 import software.constructs.Construct
 
 @Generated
-public fun Construct.userPoolIdentityProviderGoogle(id: String,
-    props: UserPoolIdentityProviderGoogleProps): UserPoolIdentityProviderGoogle =
-    UserPoolIdentityProviderGoogle(this, id, props)
-
-@Generated
 public fun Construct.userPoolIdentityProviderGoogle(
   id: String,
   props: UserPoolIdentityProviderGoogleProps,
-  initializer: @AwsCdkDsl UserPoolIdentityProviderGoogle.() -> Unit,
+  initializer: @AwsCdkDsl UserPoolIdentityProviderGoogle.() -> Unit = {},
 ): UserPoolIdentityProviderGoogle = UserPoolIdentityProviderGoogle(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildUserPoolIdentityProviderGoogle(id: String, initializer: @AwsCdkDsl
-    UserPoolIdentityProviderGoogle.Builder.() -> Unit): UserPoolIdentityProviderGoogle =
+    UserPoolIdentityProviderGoogle.Builder.() -> Unit = {}): UserPoolIdentityProviderGoogle =
     UserPoolIdentityProviderGoogle.Builder.create(this, id).apply(initializer).build()

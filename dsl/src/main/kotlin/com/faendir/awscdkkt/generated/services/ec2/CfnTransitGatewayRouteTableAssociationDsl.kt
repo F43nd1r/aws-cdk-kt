@@ -9,20 +9,15 @@ import software.amazon.awscdk.services.ec2.CfnTransitGatewayRouteTableAssociatio
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnTransitGatewayRouteTableAssociation(id: String,
-    props: CfnTransitGatewayRouteTableAssociationProps): CfnTransitGatewayRouteTableAssociation =
-    CfnTransitGatewayRouteTableAssociation(this, id, props)
-
-@Generated
 public fun Construct.cfnTransitGatewayRouteTableAssociation(
   id: String,
   props: CfnTransitGatewayRouteTableAssociationProps,
-  initializer: @AwsCdkDsl CfnTransitGatewayRouteTableAssociation.() -> Unit,
+  initializer: @AwsCdkDsl CfnTransitGatewayRouteTableAssociation.() -> Unit = {},
 ): CfnTransitGatewayRouteTableAssociation = CfnTransitGatewayRouteTableAssociation(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnTransitGatewayRouteTableAssociation(id: String, initializer: @AwsCdkDsl
-    CfnTransitGatewayRouteTableAssociation.Builder.() -> Unit):
+    CfnTransitGatewayRouteTableAssociation.Builder.() -> Unit = {}):
     CfnTransitGatewayRouteTableAssociation =
     CfnTransitGatewayRouteTableAssociation.Builder.create(this, id).apply(initializer).build()

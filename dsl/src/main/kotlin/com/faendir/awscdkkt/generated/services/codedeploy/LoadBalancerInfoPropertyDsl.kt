@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.codedeploy.CfnDeploymentGroup
 
 @Generated
 public fun buildLoadBalancerInfoProperty(initializer: @AwsCdkDsl
-    CfnDeploymentGroup.LoadBalancerInfoProperty.Builder.() -> Unit):
+    CfnDeploymentGroup.LoadBalancerInfoProperty.Builder.() -> Unit = {}):
     CfnDeploymentGroup.LoadBalancerInfoProperty =
     CfnDeploymentGroup.LoadBalancerInfoProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnClientVpnEndpoint
 
 @Generated
 public fun buildDirectoryServiceAuthenticationRequestProperty(initializer: @AwsCdkDsl
-    CfnClientVpnEndpoint.DirectoryServiceAuthenticationRequestProperty.Builder.() -> Unit):
+    CfnClientVpnEndpoint.DirectoryServiceAuthenticationRequestProperty.Builder.() -> Unit = {}):
     CfnClientVpnEndpoint.DirectoryServiceAuthenticationRequestProperty =
     CfnClientVpnEndpoint.DirectoryServiceAuthenticationRequestProperty.Builder().apply(initializer).build()

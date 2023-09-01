@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codepipeline.actions.JenkinsProviderAttri
 
 @Generated
 public fun buildJenkinsProviderAttributes(initializer: @AwsCdkDsl
-    JenkinsProviderAttributes.Builder.() -> Unit): JenkinsProviderAttributes =
+    JenkinsProviderAttributes.Builder.() -> Unit = {}): JenkinsProviderAttributes =
     JenkinsProviderAttributes.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.patterns.QueueProcessingEc2ServicePro
 
 @Generated
 public fun buildQueueProcessingEc2ServiceProps(initializer: @AwsCdkDsl
-    QueueProcessingEc2ServiceProps.Builder.() -> Unit): QueueProcessingEc2ServiceProps =
+    QueueProcessingEc2ServiceProps.Builder.() -> Unit = {}): QueueProcessingEc2ServiceProps =
     QueueProcessingEc2ServiceProps.Builder().apply(initializer).build()

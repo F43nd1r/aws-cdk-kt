@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
 public fun buildIoTRuleEventProperty(initializer: @AwsCdkDsl
-    CfnFunction.IoTRuleEventProperty.Builder.() -> Unit): CfnFunction.IoTRuleEventProperty =
+    CfnFunction.IoTRuleEventProperty.Builder.() -> Unit = {}): CfnFunction.IoTRuleEventProperty =
     CfnFunction.IoTRuleEventProperty.Builder().apply(initializer).build()

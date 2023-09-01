@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildLineChartFieldWellsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.LineChartFieldWellsProperty.Builder.() -> Unit):
+    CfnTemplate.LineChartFieldWellsProperty.Builder.() -> Unit = {}):
     CfnTemplate.LineChartFieldWellsProperty =
     CfnTemplate.LineChartFieldWellsProperty.Builder().apply(initializer).build()

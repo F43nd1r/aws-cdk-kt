@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iotfleetwise.CfnDecoderManifest
 
 @Generated
 public fun buildCanInterfaceProperty(initializer: @AwsCdkDsl
-    CfnDecoderManifest.CanInterfaceProperty.Builder.() -> Unit):
+    CfnDecoderManifest.CanInterfaceProperty.Builder.() -> Unit = {}):
     CfnDecoderManifest.CanInterfaceProperty =
     CfnDecoderManifest.CanInterfaceProperty.Builder().apply(initializer).build()

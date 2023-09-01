@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lex.CfnBotAlias
 
 @Generated
 public fun buildCodeHookSpecificationProperty(initializer: @AwsCdkDsl
-    CfnBotAlias.CodeHookSpecificationProperty.Builder.() -> Unit):
+    CfnBotAlias.CodeHookSpecificationProperty.Builder.() -> Unit = {}):
     CfnBotAlias.CodeHookSpecificationProperty =
     CfnBotAlias.CodeHookSpecificationProperty.Builder().apply(initializer).build()

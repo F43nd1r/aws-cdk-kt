@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.secretsmanager.SecretRotationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.secretRotation(id: String, props: SecretRotationProps): SecretRotation =
-    SecretRotation(this, id, props)
-
-@Generated
 public fun Construct.secretRotation(
   id: String,
   props: SecretRotationProps,
-  initializer: @AwsCdkDsl SecretRotation.() -> Unit,
+  initializer: @AwsCdkDsl SecretRotation.() -> Unit = {},
 ): SecretRotation = SecretRotation(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildSecretRotation(id: String, initializer: @AwsCdkDsl
-    SecretRotation.Builder.() -> Unit): SecretRotation = SecretRotation.Builder.create(this,
+    SecretRotation.Builder.() -> Unit = {}): SecretRotation = SecretRotation.Builder.create(this,
     id).apply(initializer).build()

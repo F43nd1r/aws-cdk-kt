@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
 public fun buildFilterCriteriaProperty(initializer: @AwsCdkDsl
-    CfnPipe.FilterCriteriaProperty.Builder.() -> Unit): CfnPipe.FilterCriteriaProperty =
+    CfnPipe.FilterCriteriaProperty.Builder.() -> Unit = {}): CfnPipe.FilterCriteriaProperty =
     CfnPipe.FilterCriteriaProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.LambdaRuntimeProps
 
 @Generated
-public fun buildLambdaRuntimeProps(initializer: @AwsCdkDsl LambdaRuntimeProps.Builder.() -> Unit):
-    LambdaRuntimeProps = LambdaRuntimeProps.Builder().apply(initializer).build()
+public fun buildLambdaRuntimeProps(initializer: @AwsCdkDsl LambdaRuntimeProps.Builder.() -> Unit =
+    {}): LambdaRuntimeProps = LambdaRuntimeProps.Builder().apply(initializer).build()

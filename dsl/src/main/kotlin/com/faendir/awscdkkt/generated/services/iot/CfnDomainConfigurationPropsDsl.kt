@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iot.CfnDomainConfigurationProps
 
 @Generated
 public fun buildCfnDomainConfigurationProps(initializer: @AwsCdkDsl
-    CfnDomainConfigurationProps.Builder.() -> Unit): CfnDomainConfigurationProps =
+    CfnDomainConfigurationProps.Builder.() -> Unit = {}): CfnDomainConfigurationProps =
     CfnDomainConfigurationProps.Builder().apply(initializer).build()

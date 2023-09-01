@@ -7,5 +7,5 @@ import software.amazon.awscdk.alexa.ask.CfnSkill
 
 @Generated
 public fun buildOverridesProperty(initializer: @AwsCdkDsl
-    CfnSkill.OverridesProperty.Builder.() -> Unit): CfnSkill.OverridesProperty =
+    CfnSkill.OverridesProperty.Builder.() -> Unit = {}): CfnSkill.OverridesProperty =
     CfnSkill.OverridesProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.CfnListenerCertifi
 
 @Generated
 public fun buildCertificateProperty(initializer: @AwsCdkDsl
-    CfnListenerCertificate.CertificateProperty.Builder.() -> Unit):
+    CfnListenerCertificate.CertificateProperty.Builder.() -> Unit = {}):
     CfnListenerCertificate.CertificateProperty =
     CfnListenerCertificate.CertificateProperty.Builder().apply(initializer).build()

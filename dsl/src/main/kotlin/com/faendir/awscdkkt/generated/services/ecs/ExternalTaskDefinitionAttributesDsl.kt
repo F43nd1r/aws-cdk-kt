@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.ExternalTaskDefinitionAttributes
 
 @Generated
 public fun buildExternalTaskDefinitionAttributes(initializer: @AwsCdkDsl
-    ExternalTaskDefinitionAttributes.Builder.() -> Unit): ExternalTaskDefinitionAttributes =
+    ExternalTaskDefinitionAttributes.Builder.() -> Unit = {}): ExternalTaskDefinitionAttributes =
     ExternalTaskDefinitionAttributes.Builder().apply(initializer).build()

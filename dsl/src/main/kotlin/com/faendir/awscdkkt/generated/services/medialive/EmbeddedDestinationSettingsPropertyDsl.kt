@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildEmbeddedDestinationSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.EmbeddedDestinationSettingsProperty.Builder.() -> Unit):
+    CfnChannel.EmbeddedDestinationSettingsProperty.Builder.() -> Unit = {}):
     CfnChannel.EmbeddedDestinationSettingsProperty =
     CfnChannel.EmbeddedDestinationSettingsProperty.Builder().apply(initializer).build()

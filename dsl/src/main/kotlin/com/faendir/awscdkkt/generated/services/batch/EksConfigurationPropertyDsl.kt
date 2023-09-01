@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.batch.CfnComputeEnvironment
 
 @Generated
 public fun buildEksConfigurationProperty(initializer: @AwsCdkDsl
-    CfnComputeEnvironment.EksConfigurationProperty.Builder.() -> Unit):
+    CfnComputeEnvironment.EksConfigurationProperty.Builder.() -> Unit = {}):
     CfnComputeEnvironment.EksConfigurationProperty =
     CfnComputeEnvironment.EksConfigurationProperty.Builder().apply(initializer).build()

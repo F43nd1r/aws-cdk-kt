@@ -6,6 +6,6 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnModelPackage
 
 @Generated
-public fun buildBiasProperty(initializer: @AwsCdkDsl
-    CfnModelPackage.BiasProperty.Builder.() -> Unit): CfnModelPackage.BiasProperty =
+public fun buildBiasProperty(initializer: @AwsCdkDsl CfnModelPackage.BiasProperty.Builder.() -> Unit
+    = {}): CfnModelPackage.BiasProperty =
     CfnModelPackage.BiasProperty.Builder().apply(initializer).build()

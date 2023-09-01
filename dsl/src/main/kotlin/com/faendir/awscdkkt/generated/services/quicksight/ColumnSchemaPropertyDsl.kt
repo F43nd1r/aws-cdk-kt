@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildColumnSchemaProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ColumnSchemaProperty.Builder.() -> Unit): CfnTemplate.ColumnSchemaProperty =
+    CfnTemplate.ColumnSchemaProperty.Builder.() -> Unit = {}): CfnTemplate.ColumnSchemaProperty =
     CfnTemplate.ColumnSchemaProperty.Builder().apply(initializer).build()

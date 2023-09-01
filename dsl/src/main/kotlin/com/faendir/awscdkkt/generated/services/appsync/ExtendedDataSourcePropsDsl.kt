@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appsync.ExtendedDataSourceProps
 
 @Generated
 public fun buildExtendedDataSourceProps(initializer: @AwsCdkDsl
-    ExtendedDataSourceProps.Builder.() -> Unit): ExtendedDataSourceProps =
+    ExtendedDataSourceProps.Builder.() -> Unit = {}): ExtendedDataSourceProps =
     ExtendedDataSourceProps.Builder().apply(initializer).build()

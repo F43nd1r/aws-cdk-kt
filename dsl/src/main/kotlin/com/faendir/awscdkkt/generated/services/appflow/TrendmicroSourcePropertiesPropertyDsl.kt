@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
 public fun buildTrendmicroSourcePropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.TrendmicroSourcePropertiesProperty.Builder.() -> Unit):
+    CfnFlow.TrendmicroSourcePropertiesProperty.Builder.() -> Unit = {}):
     CfnFlow.TrendmicroSourcePropertiesProperty =
     CfnFlow.TrendmicroSourcePropertiesProperty.Builder().apply(initializer).build()

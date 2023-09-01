@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.inspector.CfnAssessmentTemplateProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnAssessmentTemplate(id: String, props: CfnAssessmentTemplateProps):
-    CfnAssessmentTemplate = CfnAssessmentTemplate(this, id, props)
-
-@Generated
 public fun Construct.cfnAssessmentTemplate(
   id: String,
   props: CfnAssessmentTemplateProps,
-  initializer: @AwsCdkDsl CfnAssessmentTemplate.() -> Unit,
+  initializer: @AwsCdkDsl CfnAssessmentTemplate.() -> Unit = {},
 ): CfnAssessmentTemplate = CfnAssessmentTemplate(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnAssessmentTemplate(id: String, initializer: @AwsCdkDsl
-    CfnAssessmentTemplate.Builder.() -> Unit): CfnAssessmentTemplate =
+    CfnAssessmentTemplate.Builder.() -> Unit = {}): CfnAssessmentTemplate =
     CfnAssessmentTemplate.Builder.create(this, id).apply(initializer).build()

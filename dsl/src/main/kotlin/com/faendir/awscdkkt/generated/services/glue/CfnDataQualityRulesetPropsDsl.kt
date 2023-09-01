@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.glue.CfnDataQualityRulesetProps
 
 @Generated
 public fun buildCfnDataQualityRulesetProps(initializer: @AwsCdkDsl
-    CfnDataQualityRulesetProps.Builder.() -> Unit): CfnDataQualityRulesetProps =
+    CfnDataQualityRulesetProps.Builder.() -> Unit = {}): CfnDataQualityRulesetProps =
     CfnDataQualityRulesetProps.Builder().apply(initializer).build()

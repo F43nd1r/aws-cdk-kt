@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.config.CfnRemediationConfiguration
 
 @Generated
 public fun buildExecutionControlsProperty(initializer: @AwsCdkDsl
-    CfnRemediationConfiguration.ExecutionControlsProperty.Builder.() -> Unit):
+    CfnRemediationConfiguration.ExecutionControlsProperty.Builder.() -> Unit = {}):
     CfnRemediationConfiguration.ExecutionControlsProperty =
     CfnRemediationConfiguration.ExecutionControlsProperty.Builder().apply(initializer).build()

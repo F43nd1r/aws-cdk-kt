@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.imagebuilder.CfnInfrastructureConfigurati
 
 @Generated
 public fun buildCfnInfrastructureConfigurationProps(initializer: @AwsCdkDsl
-    CfnInfrastructureConfigurationProps.Builder.() -> Unit): CfnInfrastructureConfigurationProps =
+    CfnInfrastructureConfigurationProps.Builder.() -> Unit = {}):
+    CfnInfrastructureConfigurationProps =
     CfnInfrastructureConfigurationProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appmesh.CfnVirtualGateway
 
 @Generated
 public fun buildVirtualGatewayListenerTlsSdsCertificateProperty(initializer: @AwsCdkDsl
-    CfnVirtualGateway.VirtualGatewayListenerTlsSdsCertificateProperty.Builder.() -> Unit):
+    CfnVirtualGateway.VirtualGatewayListenerTlsSdsCertificateProperty.Builder.() -> Unit = {}):
     CfnVirtualGateway.VirtualGatewayListenerTlsSdsCertificateProperty =
     CfnVirtualGateway.VirtualGatewayListenerTlsSdsCertificateProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.nimblestudio.CfnLaunchProfile
 
 @Generated
 public fun buildVolumeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnLaunchProfile.VolumeConfigurationProperty.Builder.() -> Unit):
+    CfnLaunchProfile.VolumeConfigurationProperty.Builder.() -> Unit = {}):
     CfnLaunchProfile.VolumeConfigurationProperty =
     CfnLaunchProfile.VolumeConfigurationProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sagemaker.CfnDataQualityJobDefinitionProp
 
 @Generated
 public fun buildCfnDataQualityJobDefinitionProps(initializer: @AwsCdkDsl
-    CfnDataQualityJobDefinitionProps.Builder.() -> Unit): CfnDataQualityJobDefinitionProps =
+    CfnDataQualityJobDefinitionProps.Builder.() -> Unit = {}): CfnDataQualityJobDefinitionProps =
     CfnDataQualityJobDefinitionProps.Builder().apply(initializer).build()

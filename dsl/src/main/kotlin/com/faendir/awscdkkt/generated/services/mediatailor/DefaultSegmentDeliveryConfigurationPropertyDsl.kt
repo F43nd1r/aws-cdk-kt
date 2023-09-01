@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.mediatailor.CfnSourceLocation
 
 @Generated
 public fun buildDefaultSegmentDeliveryConfigurationProperty(initializer: @AwsCdkDsl
-    CfnSourceLocation.DefaultSegmentDeliveryConfigurationProperty.Builder.() -> Unit):
+    CfnSourceLocation.DefaultSegmentDeliveryConfigurationProperty.Builder.() -> Unit = {}):
     CfnSourceLocation.DefaultSegmentDeliveryConfigurationProperty =
     CfnSourceLocation.DefaultSegmentDeliveryConfigurationProperty.Builder().apply(initializer).build()

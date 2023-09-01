@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.amplify.CfnAppProps
 
 @Generated
-public fun buildCfnAppProps(initializer: @AwsCdkDsl CfnAppProps.Builder.() -> Unit): CfnAppProps =
-    CfnAppProps.Builder().apply(initializer).build()
+public fun buildCfnAppProps(initializer: @AwsCdkDsl CfnAppProps.Builder.() -> Unit = {}):
+    CfnAppProps = CfnAppProps.Builder().apply(initializer).build()

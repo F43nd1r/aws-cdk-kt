@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildLongFormatTextProperty(initializer: @AwsCdkDsl
-    CfnTemplate.LongFormatTextProperty.Builder.() -> Unit): CfnTemplate.LongFormatTextProperty =
-    CfnTemplate.LongFormatTextProperty.Builder().apply(initializer).build()
+    CfnTemplate.LongFormatTextProperty.Builder.() -> Unit = {}): CfnTemplate.LongFormatTextProperty
+    = CfnTemplate.LongFormatTextProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.kafkaconnect.CfnConnector
 
 @Generated
 public fun buildCustomPluginProperty(initializer: @AwsCdkDsl
-    CfnConnector.CustomPluginProperty.Builder.() -> Unit): CfnConnector.CustomPluginProperty =
+    CfnConnector.CustomPluginProperty.Builder.() -> Unit = {}): CfnConnector.CustomPluginProperty =
     CfnConnector.CustomPluginProperty.Builder().apply(initializer).build()

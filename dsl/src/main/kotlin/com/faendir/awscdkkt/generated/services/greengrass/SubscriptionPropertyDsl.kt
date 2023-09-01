@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.greengrass.CfnSubscriptionDefinitionVersi
 
 @Generated
 public fun buildSubscriptionProperty(initializer: @AwsCdkDsl
-    CfnSubscriptionDefinitionVersion.SubscriptionProperty.Builder.() -> Unit):
+    CfnSubscriptionDefinitionVersion.SubscriptionProperty.Builder.() -> Unit = {}):
     CfnSubscriptionDefinitionVersion.SubscriptionProperty =
     CfnSubscriptionDefinitionVersion.SubscriptionProperty.Builder().apply(initializer).build()

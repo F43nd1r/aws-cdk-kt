@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
 public fun buildAdHocFilteringOptionProperty(initializer: @AwsCdkDsl
-    CfnDashboard.AdHocFilteringOptionProperty.Builder.() -> Unit):
+    CfnDashboard.AdHocFilteringOptionProperty.Builder.() -> Unit = {}):
     CfnDashboard.AdHocFilteringOptionProperty =
     CfnDashboard.AdHocFilteringOptionProperty.Builder().apply(initializer).build()

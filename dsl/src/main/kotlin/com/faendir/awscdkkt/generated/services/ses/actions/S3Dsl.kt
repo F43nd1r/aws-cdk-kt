@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.actions.S3
 
 @Generated
-public fun buildS3(initializer: @AwsCdkDsl S3.Builder.() -> Unit): S3 =
+public fun buildS3(initializer: @AwsCdkDsl S3.Builder.() -> Unit = {}): S3 =
     S3.Builder.create().apply(initializer).build()

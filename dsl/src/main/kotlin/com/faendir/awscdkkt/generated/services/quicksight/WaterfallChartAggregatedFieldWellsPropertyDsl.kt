@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildWaterfallChartAggregatedFieldWellsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.WaterfallChartAggregatedFieldWellsProperty.Builder.() -> Unit):
+    CfnTemplate.WaterfallChartAggregatedFieldWellsProperty.Builder.() -> Unit = {}):
     CfnTemplate.WaterfallChartAggregatedFieldWellsProperty =
     CfnTemplate.WaterfallChartAggregatedFieldWellsProperty.Builder().apply(initializer).build()

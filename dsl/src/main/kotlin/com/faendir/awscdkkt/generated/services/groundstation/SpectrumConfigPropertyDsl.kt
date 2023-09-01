@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.groundstation.CfnConfig
 
 @Generated
 public fun buildSpectrumConfigProperty(initializer: @AwsCdkDsl
-    CfnConfig.SpectrumConfigProperty.Builder.() -> Unit): CfnConfig.SpectrumConfigProperty =
+    CfnConfig.SpectrumConfigProperty.Builder.() -> Unit = {}): CfnConfig.SpectrumConfigProperty =
     CfnConfig.SpectrumConfigProperty.Builder().apply(initializer).build()

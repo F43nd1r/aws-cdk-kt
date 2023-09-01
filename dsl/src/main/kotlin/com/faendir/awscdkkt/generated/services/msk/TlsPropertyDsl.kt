@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.msk.CfnCluster
 
 @Generated
-public fun buildTlsProperty(initializer: @AwsCdkDsl CfnCluster.TlsProperty.Builder.() -> Unit):
+public fun buildTlsProperty(initializer: @AwsCdkDsl CfnCluster.TlsProperty.Builder.() -> Unit = {}):
     CfnCluster.TlsProperty = CfnCluster.TlsProperty.Builder().apply(initializer).build()

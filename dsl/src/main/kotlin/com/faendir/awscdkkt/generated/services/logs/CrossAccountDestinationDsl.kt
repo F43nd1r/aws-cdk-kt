@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.logs.CrossAccountDestinationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.crossAccountDestination(id: String, props: CrossAccountDestinationProps):
-    CrossAccountDestination = CrossAccountDestination(this, id, props)
-
-@Generated
 public fun Construct.crossAccountDestination(
   id: String,
   props: CrossAccountDestinationProps,
-  initializer: @AwsCdkDsl CrossAccountDestination.() -> Unit,
+  initializer: @AwsCdkDsl CrossAccountDestination.() -> Unit = {},
 ): CrossAccountDestination = CrossAccountDestination(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCrossAccountDestination(id: String, initializer: @AwsCdkDsl
-    CrossAccountDestination.Builder.() -> Unit): CrossAccountDestination =
+    CrossAccountDestination.Builder.() -> Unit = {}): CrossAccountDestination =
     CrossAccountDestination.Builder.create(this, id).apply(initializer).build()

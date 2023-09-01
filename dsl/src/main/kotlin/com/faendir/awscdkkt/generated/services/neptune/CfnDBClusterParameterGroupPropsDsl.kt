@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.neptune.CfnDBClusterParameterGroupProps
 
 @Generated
 public fun buildCfnDBClusterParameterGroupProps(initializer: @AwsCdkDsl
-    CfnDBClusterParameterGroupProps.Builder.() -> Unit): CfnDBClusterParameterGroupProps =
+    CfnDBClusterParameterGroupProps.Builder.() -> Unit = {}): CfnDBClusterParameterGroupProps =
     CfnDBClusterParameterGroupProps.Builder().apply(initializer).build()

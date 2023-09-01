@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.RequestContext
 
 @Generated
-public fun buildRequestContext(initializer: @AwsCdkDsl RequestContext.Builder.() -> Unit):
+public fun buildRequestContext(initializer: @AwsCdkDsl RequestContext.Builder.() -> Unit = {}):
     RequestContext = RequestContext.Builder().apply(initializer).build()

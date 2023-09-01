@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.MachineImageConfig
 
 @Generated
-public fun buildMachineImageConfig(initializer: @AwsCdkDsl MachineImageConfig.Builder.() -> Unit):
-    MachineImageConfig = MachineImageConfig.Builder().apply(initializer).build()
+public fun buildMachineImageConfig(initializer: @AwsCdkDsl MachineImageConfig.Builder.() -> Unit =
+    {}): MachineImageConfig = MachineImageConfig.Builder().apply(initializer).build()

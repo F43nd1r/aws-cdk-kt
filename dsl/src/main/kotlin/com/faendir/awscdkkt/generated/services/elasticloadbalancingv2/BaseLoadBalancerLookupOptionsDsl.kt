@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.BaseLoadBalancerLo
 
 @Generated
 public fun buildBaseLoadBalancerLookupOptions(initializer: @AwsCdkDsl
-    BaseLoadBalancerLookupOptions.Builder.() -> Unit): BaseLoadBalancerLookupOptions =
+    BaseLoadBalancerLookupOptions.Builder.() -> Unit = {}): BaseLoadBalancerLookupOptions =
     BaseLoadBalancerLookupOptions.Builder().apply(initializer).build()

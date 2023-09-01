@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.CrossRegionSupport
 
 @Generated
-public fun buildCrossRegionSupport(initializer: @AwsCdkDsl CrossRegionSupport.Builder.() -> Unit):
-    CrossRegionSupport = CrossRegionSupport.Builder().apply(initializer).build()
+public fun buildCrossRegionSupport(initializer: @AwsCdkDsl CrossRegionSupport.Builder.() -> Unit =
+    {}): CrossRegionSupport = CrossRegionSupport.Builder().apply(initializer).build()

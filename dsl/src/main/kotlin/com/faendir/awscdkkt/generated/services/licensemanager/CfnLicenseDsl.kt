@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.licensemanager.CfnLicenseProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnLicense(id: String, props: CfnLicenseProps): CfnLicense = CfnLicense(this,
-    id, props)
-
-@Generated
 public fun Construct.cfnLicense(
   id: String,
   props: CfnLicenseProps,
-  initializer: @AwsCdkDsl CfnLicense.() -> Unit,
+  initializer: @AwsCdkDsl CfnLicense.() -> Unit = {},
 ): CfnLicense = CfnLicense(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnLicense(id: String, initializer: @AwsCdkDsl
-    CfnLicense.Builder.() -> Unit): CfnLicense = CfnLicense.Builder.create(this,
+    CfnLicense.Builder.() -> Unit = {}): CfnLicense = CfnLicense.Builder.create(this,
     id).apply(initializer).build()

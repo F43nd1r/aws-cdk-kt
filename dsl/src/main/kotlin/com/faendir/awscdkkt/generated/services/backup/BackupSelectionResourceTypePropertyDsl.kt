@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.backup.CfnBackupSelection
 
 @Generated
 public fun buildBackupSelectionResourceTypeProperty(initializer: @AwsCdkDsl
-    CfnBackupSelection.BackupSelectionResourceTypeProperty.Builder.() -> Unit):
+    CfnBackupSelection.BackupSelectionResourceTypeProperty.Builder.() -> Unit = {}):
     CfnBackupSelection.BackupSelectionResourceTypeProperty =
     CfnBackupSelection.BackupSelectionResourceTypeProperty.Builder().apply(initializer).build()

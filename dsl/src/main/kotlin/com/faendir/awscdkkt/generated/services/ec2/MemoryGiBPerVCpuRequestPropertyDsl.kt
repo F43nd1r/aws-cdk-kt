@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnSpotFleet
 
 @Generated
 public fun buildMemoryGiBPerVCpuRequestProperty(initializer: @AwsCdkDsl
-    CfnSpotFleet.MemoryGiBPerVCpuRequestProperty.Builder.() -> Unit):
+    CfnSpotFleet.MemoryGiBPerVCpuRequestProperty.Builder.() -> Unit = {}):
     CfnSpotFleet.MemoryGiBPerVCpuRequestProperty =
     CfnSpotFleet.MemoryGiBPerVCpuRequestProperty.Builder().apply(initializer).build()

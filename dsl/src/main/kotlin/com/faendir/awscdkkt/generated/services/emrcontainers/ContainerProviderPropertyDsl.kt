@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.emrcontainers.CfnVirtualCluster
 
 @Generated
 public fun buildContainerProviderProperty(initializer: @AwsCdkDsl
-    CfnVirtualCluster.ContainerProviderProperty.Builder.() -> Unit):
+    CfnVirtualCluster.ContainerProviderProperty.Builder.() -> Unit = {}):
     CfnVirtualCluster.ContainerProviderProperty =
     CfnVirtualCluster.ContainerProviderProperty.Builder().apply(initializer).build()

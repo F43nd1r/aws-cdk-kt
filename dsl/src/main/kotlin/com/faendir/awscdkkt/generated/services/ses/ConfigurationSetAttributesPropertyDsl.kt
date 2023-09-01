@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ses.CfnEmailIdentity
 
 @Generated
 public fun buildConfigurationSetAttributesProperty(initializer: @AwsCdkDsl
-    CfnEmailIdentity.ConfigurationSetAttributesProperty.Builder.() -> Unit):
+    CfnEmailIdentity.ConfigurationSetAttributesProperty.Builder.() -> Unit = {}):
     CfnEmailIdentity.ConfigurationSetAttributesProperty =
     CfnEmailIdentity.ConfigurationSetAttributesProperty.Builder().apply(initializer).build()

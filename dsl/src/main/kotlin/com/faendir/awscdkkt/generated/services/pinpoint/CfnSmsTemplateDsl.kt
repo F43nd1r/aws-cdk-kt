@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.pinpoint.CfnSmsTemplateProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnSmsTemplate(id: String, props: CfnSmsTemplateProps): CfnSmsTemplate =
-    CfnSmsTemplate(this, id, props)
-
-@Generated
 public fun Construct.cfnSmsTemplate(
   id: String,
   props: CfnSmsTemplateProps,
-  initializer: @AwsCdkDsl CfnSmsTemplate.() -> Unit,
+  initializer: @AwsCdkDsl CfnSmsTemplate.() -> Unit = {},
 ): CfnSmsTemplate = CfnSmsTemplate(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnSmsTemplate(id: String, initializer: @AwsCdkDsl
-    CfnSmsTemplate.Builder.() -> Unit): CfnSmsTemplate = CfnSmsTemplate.Builder.create(this,
+    CfnSmsTemplate.Builder.() -> Unit = {}): CfnSmsTemplate = CfnSmsTemplate.Builder.create(this,
     id).apply(initializer).build()

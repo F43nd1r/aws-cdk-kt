@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.TaskDefinitionAttributes
 
 @Generated
 public fun buildTaskDefinitionAttributes(initializer: @AwsCdkDsl
-    TaskDefinitionAttributes.Builder.() -> Unit): TaskDefinitionAttributes =
+    TaskDefinitionAttributes.Builder.() -> Unit = {}): TaskDefinitionAttributes =
     TaskDefinitionAttributes.Builder().apply(initializer).build()

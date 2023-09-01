@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.neptune.CfnDBSubnetGroupProps
 
 @Generated
 public fun buildCfnDBSubnetGroupProps(initializer: @AwsCdkDsl
-    CfnDBSubnetGroupProps.Builder.() -> Unit): CfnDBSubnetGroupProps =
+    CfnDBSubnetGroupProps.Builder.() -> Unit = {}): CfnDBSubnetGroupProps =
     CfnDBSubnetGroupProps.Builder().apply(initializer).build()

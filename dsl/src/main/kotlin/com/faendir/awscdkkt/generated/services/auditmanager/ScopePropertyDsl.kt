@@ -6,6 +6,6 @@ import kotlin.Unit
 import software.amazon.awscdk.services.auditmanager.CfnAssessment
 
 @Generated
-public fun buildScopeProperty(initializer: @AwsCdkDsl
-    CfnAssessment.ScopeProperty.Builder.() -> Unit): CfnAssessment.ScopeProperty =
+public fun buildScopeProperty(initializer: @AwsCdkDsl CfnAssessment.ScopeProperty.Builder.() -> Unit
+    = {}): CfnAssessment.ScopeProperty =
     CfnAssessment.ScopeProperty.Builder().apply(initializer).build()

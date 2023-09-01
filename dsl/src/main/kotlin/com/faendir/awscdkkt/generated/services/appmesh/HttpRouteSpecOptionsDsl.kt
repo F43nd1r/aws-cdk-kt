@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.HttpRouteSpecOptions
 
 @Generated
-public fun buildHttpRouteSpecOptions(initializer: @AwsCdkDsl
-    HttpRouteSpecOptions.Builder.() -> Unit): HttpRouteSpecOptions =
-    HttpRouteSpecOptions.Builder().apply(initializer).build()
+public fun buildHttpRouteSpecOptions(initializer: @AwsCdkDsl HttpRouteSpecOptions.Builder.() -> Unit
+    = {}): HttpRouteSpecOptions = HttpRouteSpecOptions.Builder().apply(initializer).build()

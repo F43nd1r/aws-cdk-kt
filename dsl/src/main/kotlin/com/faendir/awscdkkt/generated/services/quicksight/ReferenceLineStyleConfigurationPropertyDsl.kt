@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildReferenceLineStyleConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ReferenceLineStyleConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.ReferenceLineStyleConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.ReferenceLineStyleConfigurationProperty =
     CfnTemplate.ReferenceLineStyleConfigurationProperty.Builder().apply(initializer).build()

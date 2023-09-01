@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.waf.CfnByteMatchSetProps
 
 @Generated
-public fun buildCfnByteMatchSetProps(initializer: @AwsCdkDsl
-    CfnByteMatchSetProps.Builder.() -> Unit): CfnByteMatchSetProps =
-    CfnByteMatchSetProps.Builder().apply(initializer).build()
+public fun buildCfnByteMatchSetProps(initializer: @AwsCdkDsl CfnByteMatchSetProps.Builder.() -> Unit
+    = {}): CfnByteMatchSetProps = CfnByteMatchSetProps.Builder().apply(initializer).build()

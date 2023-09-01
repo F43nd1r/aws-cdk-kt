@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.quicksight.CfnTopic
 
 @Generated
 public fun buildNegativeFormatProperty(initializer: @AwsCdkDsl
-    CfnTopic.NegativeFormatProperty.Builder.() -> Unit): CfnTopic.NegativeFormatProperty =
+    CfnTopic.NegativeFormatProperty.Builder.() -> Unit = {}): CfnTopic.NegativeFormatProperty =
     CfnTopic.NegativeFormatProperty.Builder().apply(initializer).build()

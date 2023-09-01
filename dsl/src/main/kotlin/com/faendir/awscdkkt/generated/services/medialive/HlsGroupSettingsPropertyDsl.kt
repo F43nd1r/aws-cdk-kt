@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildHlsGroupSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.HlsGroupSettingsProperty.Builder.() -> Unit): CfnChannel.HlsGroupSettingsProperty =
+    CfnChannel.HlsGroupSettingsProperty.Builder.() -> Unit = {}):
+    CfnChannel.HlsGroupSettingsProperty =
     CfnChannel.HlsGroupSettingsProperty.Builder().apply(initializer).build()

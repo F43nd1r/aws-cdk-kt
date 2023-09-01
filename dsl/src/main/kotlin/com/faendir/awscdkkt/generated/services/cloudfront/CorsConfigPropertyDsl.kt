@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cloudfront.CfnResponseHeadersPolicy
 
 @Generated
 public fun buildCorsConfigProperty(initializer: @AwsCdkDsl
-    CfnResponseHeadersPolicy.CorsConfigProperty.Builder.() -> Unit):
+    CfnResponseHeadersPolicy.CorsConfigProperty.Builder.() -> Unit = {}):
     CfnResponseHeadersPolicy.CorsConfigProperty =
     CfnResponseHeadersPolicy.CorsConfigProperty.Builder().apply(initializer).build()

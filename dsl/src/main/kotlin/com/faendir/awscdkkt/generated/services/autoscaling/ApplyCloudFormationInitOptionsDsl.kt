@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.autoscaling.ApplyCloudFormationInitOption
 
 @Generated
 public fun buildApplyCloudFormationInitOptions(initializer: @AwsCdkDsl
-    ApplyCloudFormationInitOptions.Builder.() -> Unit): ApplyCloudFormationInitOptions =
+    ApplyCloudFormationInitOptions.Builder.() -> Unit = {}): ApplyCloudFormationInitOptions =
     ApplyCloudFormationInitOptions.Builder().apply(initializer).build()

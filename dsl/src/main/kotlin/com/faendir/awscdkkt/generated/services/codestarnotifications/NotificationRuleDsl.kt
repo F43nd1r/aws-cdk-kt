@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.codestarnotifications.NotificationRulePro
 import software.constructs.Construct
 
 @Generated
-public fun Construct.notificationRule(id: String, props: NotificationRuleProps): NotificationRule =
-    NotificationRule(this, id, props)
-
-@Generated
 public fun Construct.notificationRule(
   id: String,
   props: NotificationRuleProps,
-  initializer: @AwsCdkDsl NotificationRule.() -> Unit,
+  initializer: @AwsCdkDsl NotificationRule.() -> Unit = {},
 ): NotificationRule = NotificationRule(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildNotificationRule(id: String, initializer: @AwsCdkDsl
-    NotificationRule.Builder.() -> Unit): NotificationRule = NotificationRule.Builder.create(this,
-    id).apply(initializer).build()
+    NotificationRule.Builder.() -> Unit = {}): NotificationRule =
+    NotificationRule.Builder.create(this, id).apply(initializer).build()

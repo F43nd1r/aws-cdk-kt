@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.autoscaling.CfnScalingPolicy
 
 @Generated
 public fun buildMetricDataQueryProperty(initializer: @AwsCdkDsl
-    CfnScalingPolicy.MetricDataQueryProperty.Builder.() -> Unit):
+    CfnScalingPolicy.MetricDataQueryProperty.Builder.() -> Unit = {}):
     CfnScalingPolicy.MetricDataQueryProperty =
     CfnScalingPolicy.MetricDataQueryProperty.Builder().apply(initializer).build()

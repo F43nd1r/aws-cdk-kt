@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnInput
 
 @Generated
 public fun buildInputSourceRequestProperty(initializer: @AwsCdkDsl
-    CfnInput.InputSourceRequestProperty.Builder.() -> Unit): CfnInput.InputSourceRequestProperty =
+    CfnInput.InputSourceRequestProperty.Builder.() -> Unit = {}):
+    CfnInput.InputSourceRequestProperty =
     CfnInput.InputSourceRequestProperty.Builder().apply(initializer).build()

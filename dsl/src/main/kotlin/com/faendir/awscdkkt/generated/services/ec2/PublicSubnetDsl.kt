@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ec2.PublicSubnetProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.publicSubnet(id: String, props: PublicSubnetProps): PublicSubnet =
-    PublicSubnet(this, id, props)
-
-@Generated
 public fun Construct.publicSubnet(
   id: String,
   props: PublicSubnetProps,
-  initializer: @AwsCdkDsl PublicSubnet.() -> Unit,
+  initializer: @AwsCdkDsl PublicSubnet.() -> Unit = {},
 ): PublicSubnet = PublicSubnet(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildPublicSubnet(id: String, initializer: @AwsCdkDsl
-    PublicSubnet.Builder.() -> Unit): PublicSubnet = PublicSubnet.Builder.create(this,
+    PublicSubnet.Builder.() -> Unit = {}): PublicSubnet = PublicSubnet.Builder.create(this,
     id).apply(initializer).build()

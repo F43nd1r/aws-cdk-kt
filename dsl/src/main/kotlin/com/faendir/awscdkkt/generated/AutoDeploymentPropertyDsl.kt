@@ -7,5 +7,5 @@ import software.amazon.awscdk.CfnStackSet
 
 @Generated
 public fun buildAutoDeploymentProperty(initializer: @AwsCdkDsl
-    CfnStackSet.AutoDeploymentProperty.Builder.() -> Unit): CfnStackSet.AutoDeploymentProperty =
-    CfnStackSet.AutoDeploymentProperty.Builder().apply(initializer).build()
+    CfnStackSet.AutoDeploymentProperty.Builder.() -> Unit = {}): CfnStackSet.AutoDeploymentProperty
+    = CfnStackSet.AutoDeploymentProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.fms.CfnPolicy
 
 @Generated
 public fun buildPolicyOptionProperty(initializer: @AwsCdkDsl
-    CfnPolicy.PolicyOptionProperty.Builder.() -> Unit): CfnPolicy.PolicyOptionProperty =
+    CfnPolicy.PolicyOptionProperty.Builder.() -> Unit = {}): CfnPolicy.PolicyOptionProperty =
     CfnPolicy.PolicyOptionProperty.Builder().apply(initializer).build()

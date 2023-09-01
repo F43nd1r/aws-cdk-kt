@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkmanager.CfnSiteProps
 
 @Generated
-public fun buildCfnSiteProps(initializer: @AwsCdkDsl CfnSiteProps.Builder.() -> Unit): CfnSiteProps
-    = CfnSiteProps.Builder().apply(initializer).build()
+public fun buildCfnSiteProps(initializer: @AwsCdkDsl CfnSiteProps.Builder.() -> Unit = {}):
+    CfnSiteProps = CfnSiteProps.Builder().apply(initializer).build()

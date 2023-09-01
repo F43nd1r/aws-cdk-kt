@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.autoscaling.CfnScalingPolicy
 
 @Generated
 public fun buildPredictiveScalingConfigurationProperty(initializer: @AwsCdkDsl
-    CfnScalingPolicy.PredictiveScalingConfigurationProperty.Builder.() -> Unit):
+    CfnScalingPolicy.PredictiveScalingConfigurationProperty.Builder.() -> Unit = {}):
     CfnScalingPolicy.PredictiveScalingConfigurationProperty =
     CfnScalingPolicy.PredictiveScalingConfigurationProperty.Builder().apply(initializer).build()

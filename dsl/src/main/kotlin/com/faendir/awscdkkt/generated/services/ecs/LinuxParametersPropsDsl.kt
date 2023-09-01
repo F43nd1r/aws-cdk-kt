@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.LinuxParametersProps
 
 @Generated
-public fun buildLinuxParametersProps(initializer: @AwsCdkDsl
-    LinuxParametersProps.Builder.() -> Unit): LinuxParametersProps =
-    LinuxParametersProps.Builder().apply(initializer).build()
+public fun buildLinuxParametersProps(initializer: @AwsCdkDsl LinuxParametersProps.Builder.() -> Unit
+    = {}): LinuxParametersProps = LinuxParametersProps.Builder().apply(initializer).build()

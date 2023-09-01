@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lambda.eventsources.DynamoEventSourceProp
 
 @Generated
 public fun buildDynamoEventSourceProps(initializer: @AwsCdkDsl
-    DynamoEventSourceProps.Builder.() -> Unit): DynamoEventSourceProps =
+    DynamoEventSourceProps.Builder.() -> Unit = {}): DynamoEventSourceProps =
     DynamoEventSourceProps.Builder().apply(initializer).build()

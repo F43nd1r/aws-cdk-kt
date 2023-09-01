@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.stepfunctions.CfnStateMachine
 
 @Generated
 public fun buildLoggingConfigurationProperty(initializer: @AwsCdkDsl
-    CfnStateMachine.LoggingConfigurationProperty.Builder.() -> Unit):
+    CfnStateMachine.LoggingConfigurationProperty.Builder.() -> Unit = {}):
     CfnStateMachine.LoggingConfigurationProperty =
     CfnStateMachine.LoggingConfigurationProperty.Builder().apply(initializer).build()

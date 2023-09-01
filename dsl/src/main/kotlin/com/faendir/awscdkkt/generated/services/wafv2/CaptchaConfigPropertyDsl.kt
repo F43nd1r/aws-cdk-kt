@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
 public fun buildCaptchaConfigProperty(initializer: @AwsCdkDsl
-    CfnWebACL.CaptchaConfigProperty.Builder.() -> Unit): CfnWebACL.CaptchaConfigProperty =
+    CfnWebACL.CaptchaConfigProperty.Builder.() -> Unit = {}): CfnWebACL.CaptchaConfigProperty =
     CfnWebACL.CaptchaConfigProperty.Builder().apply(initializer).build()

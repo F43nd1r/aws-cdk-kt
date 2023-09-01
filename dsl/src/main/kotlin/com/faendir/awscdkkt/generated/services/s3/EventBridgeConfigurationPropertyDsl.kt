@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
 public fun buildEventBridgeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnBucket.EventBridgeConfigurationProperty.Builder.() -> Unit):
+    CfnBucket.EventBridgeConfigurationProperty.Builder.() -> Unit = {}):
     CfnBucket.EventBridgeConfigurationProperty =
     CfnBucket.EventBridgeConfigurationProperty.Builder().apply(initializer).build()

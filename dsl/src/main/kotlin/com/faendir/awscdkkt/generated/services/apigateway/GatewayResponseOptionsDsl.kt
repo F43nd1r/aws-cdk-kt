@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.apigateway.GatewayResponseOptions
 
 @Generated
 public fun buildGatewayResponseOptions(initializer: @AwsCdkDsl
-    GatewayResponseOptions.Builder.() -> Unit): GatewayResponseOptions =
+    GatewayResponseOptions.Builder.() -> Unit = {}): GatewayResponseOptions =
     GatewayResponseOptions.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.networkmanager.CfnConnectAttachmentProps
 
 @Generated
 public fun buildCfnConnectAttachmentProps(initializer: @AwsCdkDsl
-    CfnConnectAttachmentProps.Builder.() -> Unit): CfnConnectAttachmentProps =
+    CfnConnectAttachmentProps.Builder.() -> Unit = {}): CfnConnectAttachmentProps =
     CfnConnectAttachmentProps.Builder().apply(initializer).build()

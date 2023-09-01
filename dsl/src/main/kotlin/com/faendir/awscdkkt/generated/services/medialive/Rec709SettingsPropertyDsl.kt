@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildRec709SettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.Rec709SettingsProperty.Builder.() -> Unit): CfnChannel.Rec709SettingsProperty =
+    CfnChannel.Rec709SettingsProperty.Builder.() -> Unit = {}): CfnChannel.Rec709SettingsProperty =
     CfnChannel.Rec709SettingsProperty.Builder().apply(initializer).build()

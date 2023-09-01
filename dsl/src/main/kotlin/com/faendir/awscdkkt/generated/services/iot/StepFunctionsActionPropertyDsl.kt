@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iot.CfnTopicRule
 
 @Generated
 public fun buildStepFunctionsActionProperty(initializer: @AwsCdkDsl
-    CfnTopicRule.StepFunctionsActionProperty.Builder.() -> Unit):
+    CfnTopicRule.StepFunctionsActionProperty.Builder.() -> Unit = {}):
     CfnTopicRule.StepFunctionsActionProperty =
     CfnTopicRule.StepFunctionsActionProperty.Builder().apply(initializer).build()

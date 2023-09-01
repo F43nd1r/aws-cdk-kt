@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.servicediscovery.PrivateDnsNamespaceAttri
 
 @Generated
 public fun buildPrivateDnsNamespaceAttributes(initializer: @AwsCdkDsl
-    PrivateDnsNamespaceAttributes.Builder.() -> Unit): PrivateDnsNamespaceAttributes =
+    PrivateDnsNamespaceAttributes.Builder.() -> Unit = {}): PrivateDnsNamespaceAttributes =
     PrivateDnsNamespaceAttributes.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sam.CfnStateMachine
 
 @Generated
 public fun buildCloudWatchEventEventProperty(initializer: @AwsCdkDsl
-    CfnStateMachine.CloudWatchEventEventProperty.Builder.() -> Unit):
+    CfnStateMachine.CloudWatchEventEventProperty.Builder.() -> Unit = {}):
     CfnStateMachine.CloudWatchEventEventProperty =
     CfnStateMachine.CloudWatchEventEventProperty.Builder().apply(initializer).build()

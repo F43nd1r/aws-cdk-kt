@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnMetricFilterProps
 
 @Generated
-public fun buildCfnMetricFilterProps(initializer: @AwsCdkDsl
-    CfnMetricFilterProps.Builder.() -> Unit): CfnMetricFilterProps =
-    CfnMetricFilterProps.Builder().apply(initializer).build()
+public fun buildCfnMetricFilterProps(initializer: @AwsCdkDsl CfnMetricFilterProps.Builder.() -> Unit
+    = {}): CfnMetricFilterProps = CfnMetricFilterProps.Builder().apply(initializer).build()

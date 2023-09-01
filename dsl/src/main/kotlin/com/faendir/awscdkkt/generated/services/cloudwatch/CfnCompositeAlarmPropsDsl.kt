@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cloudwatch.CfnCompositeAlarmProps
 
 @Generated
 public fun buildCfnCompositeAlarmProps(initializer: @AwsCdkDsl
-    CfnCompositeAlarmProps.Builder.() -> Unit): CfnCompositeAlarmProps =
+    CfnCompositeAlarmProps.Builder.() -> Unit = {}): CfnCompositeAlarmProps =
     CfnCompositeAlarmProps.Builder().apply(initializer).build()

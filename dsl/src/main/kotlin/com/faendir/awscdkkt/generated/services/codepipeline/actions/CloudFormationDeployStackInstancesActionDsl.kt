@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.codepipeline.actions.CloudFormationDeploy
 
 @Generated
 public fun buildCloudFormationDeployStackInstancesAction(initializer: @AwsCdkDsl
-    CloudFormationDeployStackInstancesAction.Builder.() -> Unit):
+    CloudFormationDeployStackInstancesAction.Builder.() -> Unit = {}):
     CloudFormationDeployStackInstancesAction =
     CloudFormationDeployStackInstancesAction.Builder.create().apply(initializer).build()

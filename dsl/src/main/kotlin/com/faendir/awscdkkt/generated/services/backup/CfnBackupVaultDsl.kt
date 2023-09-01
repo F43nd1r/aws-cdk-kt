@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.backup.CfnBackupVaultProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnBackupVault(id: String, props: CfnBackupVaultProps): CfnBackupVault =
-    CfnBackupVault(this, id, props)
-
-@Generated
 public fun Construct.cfnBackupVault(
   id: String,
   props: CfnBackupVaultProps,
-  initializer: @AwsCdkDsl CfnBackupVault.() -> Unit,
+  initializer: @AwsCdkDsl CfnBackupVault.() -> Unit = {},
 ): CfnBackupVault = CfnBackupVault(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnBackupVault(id: String, initializer: @AwsCdkDsl
-    CfnBackupVault.Builder.() -> Unit): CfnBackupVault = CfnBackupVault.Builder.create(this,
+    CfnBackupVault.Builder.() -> Unit = {}): CfnBackupVault = CfnBackupVault.Builder.create(this,
     id).apply(initializer).build()

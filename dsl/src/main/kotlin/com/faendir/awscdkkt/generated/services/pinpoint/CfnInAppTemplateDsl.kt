@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.pinpoint.CfnInAppTemplateProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnInAppTemplate(id: String, props: CfnInAppTemplateProps): CfnInAppTemplate =
-    CfnInAppTemplate(this, id, props)
-
-@Generated
 public fun Construct.cfnInAppTemplate(
   id: String,
   props: CfnInAppTemplateProps,
-  initializer: @AwsCdkDsl CfnInAppTemplate.() -> Unit,
+  initializer: @AwsCdkDsl CfnInAppTemplate.() -> Unit = {},
 ): CfnInAppTemplate = CfnInAppTemplate(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnInAppTemplate(id: String, initializer: @AwsCdkDsl
-    CfnInAppTemplate.Builder.() -> Unit): CfnInAppTemplate = CfnInAppTemplate.Builder.create(this,
-    id).apply(initializer).build()
+    CfnInAppTemplate.Builder.() -> Unit = {}): CfnInAppTemplate =
+    CfnInAppTemplate.Builder.create(this, id).apply(initializer).build()

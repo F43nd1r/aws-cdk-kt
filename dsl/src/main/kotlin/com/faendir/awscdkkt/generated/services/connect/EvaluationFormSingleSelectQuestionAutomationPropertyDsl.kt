@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.connect.CfnEvaluationForm
 
 @Generated
 public fun buildEvaluationFormSingleSelectQuestionAutomationProperty(initializer: @AwsCdkDsl
-    CfnEvaluationForm.EvaluationFormSingleSelectQuestionAutomationProperty.Builder.() -> Unit):
+    CfnEvaluationForm.EvaluationFormSingleSelectQuestionAutomationProperty.Builder.() -> Unit = {}):
     CfnEvaluationForm.EvaluationFormSingleSelectQuestionAutomationProperty =
     CfnEvaluationForm.EvaluationFormSingleSelectQuestionAutomationProperty.Builder().apply(initializer).build()

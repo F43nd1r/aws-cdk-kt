@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.opensearchservice.CfnDomain
 
 @Generated
 public fun buildZoneAwarenessConfigProperty(initializer: @AwsCdkDsl
-    CfnDomain.ZoneAwarenessConfigProperty.Builder.() -> Unit): CfnDomain.ZoneAwarenessConfigProperty
-    = CfnDomain.ZoneAwarenessConfigProperty.Builder().apply(initializer).build()
+    CfnDomain.ZoneAwarenessConfigProperty.Builder.() -> Unit = {}):
+    CfnDomain.ZoneAwarenessConfigProperty =
+    CfnDomain.ZoneAwarenessConfigProperty.Builder().apply(initializer).build()

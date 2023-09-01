@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.EbsDeviceOptionsBase
 
 @Generated
-public fun buildEbsDeviceOptionsBase(initializer: @AwsCdkDsl
-    EbsDeviceOptionsBase.Builder.() -> Unit): EbsDeviceOptionsBase =
-    EbsDeviceOptionsBase.Builder().apply(initializer).build()
+public fun buildEbsDeviceOptionsBase(initializer: @AwsCdkDsl EbsDeviceOptionsBase.Builder.() -> Unit
+    = {}): EbsDeviceOptionsBase = EbsDeviceOptionsBase.Builder().apply(initializer).build()

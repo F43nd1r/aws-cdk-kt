@@ -9,19 +9,15 @@ import software.amazon.awscdk.services.ec2.CfnClientVpnTargetNetworkAssociationP
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnClientVpnTargetNetworkAssociation(id: String,
-    props: CfnClientVpnTargetNetworkAssociationProps): CfnClientVpnTargetNetworkAssociation =
-    CfnClientVpnTargetNetworkAssociation(this, id, props)
-
-@Generated
 public fun Construct.cfnClientVpnTargetNetworkAssociation(
   id: String,
   props: CfnClientVpnTargetNetworkAssociationProps,
-  initializer: @AwsCdkDsl CfnClientVpnTargetNetworkAssociation.() -> Unit,
+  initializer: @AwsCdkDsl CfnClientVpnTargetNetworkAssociation.() -> Unit = {},
 ): CfnClientVpnTargetNetworkAssociation = CfnClientVpnTargetNetworkAssociation(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnClientVpnTargetNetworkAssociation(id: String, initializer: @AwsCdkDsl
-    CfnClientVpnTargetNetworkAssociation.Builder.() -> Unit): CfnClientVpnTargetNetworkAssociation =
-    CfnClientVpnTargetNetworkAssociation.Builder.create(this, id).apply(initializer).build()
+    CfnClientVpnTargetNetworkAssociation.Builder.() -> Unit = {}):
+    CfnClientVpnTargetNetworkAssociation = CfnClientVpnTargetNetworkAssociation.Builder.create(this,
+    id).apply(initializer).build()

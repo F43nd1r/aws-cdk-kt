@@ -7,5 +7,5 @@ import software.amazon.awscdk.pipelines.EcrDockerCredentialOptions
 
 @Generated
 public fun buildEcrDockerCredentialOptions(initializer: @AwsCdkDsl
-    EcrDockerCredentialOptions.Builder.() -> Unit): EcrDockerCredentialOptions =
+    EcrDockerCredentialOptions.Builder.() -> Unit = {}): EcrDockerCredentialOptions =
     EcrDockerCredentialOptions.Builder().apply(initializer).build()

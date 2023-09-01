@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.forecast.CfnDataset
 
 @Generated
 public fun buildEncryptionConfigProperty(initializer: @AwsCdkDsl
-    CfnDataset.EncryptionConfigProperty.Builder.() -> Unit): CfnDataset.EncryptionConfigProperty =
+    CfnDataset.EncryptionConfigProperty.Builder.() -> Unit = {}):
+    CfnDataset.EncryptionConfigProperty =
     CfnDataset.EncryptionConfigProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.customerprofiles.CfnObjectTypeProps
 
 @Generated
-public fun buildCfnObjectTypeProps(initializer: @AwsCdkDsl CfnObjectTypeProps.Builder.() -> Unit):
-    CfnObjectTypeProps = CfnObjectTypeProps.Builder().apply(initializer).build()
+public fun buildCfnObjectTypeProps(initializer: @AwsCdkDsl CfnObjectTypeProps.Builder.() -> Unit =
+    {}): CfnObjectTypeProps = CfnObjectTypeProps.Builder().apply(initializer).build()

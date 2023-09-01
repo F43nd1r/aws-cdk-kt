@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.pipelines.CodeBuildStepProps
 
 @Generated
-public fun buildCodeBuildStepProps(initializer: @AwsCdkDsl CodeBuildStepProps.Builder.() -> Unit):
-    CodeBuildStepProps = CodeBuildStepProps.Builder().apply(initializer).build()
+public fun buildCodeBuildStepProps(initializer: @AwsCdkDsl CodeBuildStepProps.Builder.() -> Unit =
+    {}): CodeBuildStepProps = CodeBuildStepProps.Builder().apply(initializer).build()

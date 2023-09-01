@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.imagebuilder.CfnDistributionConfiguration
 
 @Generated
 public fun buildTargetContainerRepositoryProperty(initializer: @AwsCdkDsl
-    CfnDistributionConfiguration.TargetContainerRepositoryProperty.Builder.() -> Unit):
+    CfnDistributionConfiguration.TargetContainerRepositoryProperty.Builder.() -> Unit = {}):
     CfnDistributionConfiguration.TargetContainerRepositoryProperty =
     CfnDistributionConfiguration.TargetContainerRepositoryProperty.Builder().apply(initializer).build()

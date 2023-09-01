@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.certificatemanager.DnsValidatedCertificat
 
 @Generated
 public fun buildDnsValidatedCertificateProps(initializer: @AwsCdkDsl
-    DnsValidatedCertificateProps.Builder.() -> Unit): DnsValidatedCertificateProps =
+    DnsValidatedCertificateProps.Builder.() -> Unit = {}): DnsValidatedCertificateProps =
     DnsValidatedCertificateProps.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.healthlake.CfnFHIRDatastoreProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnFHIRDatastore(id: String, props: CfnFHIRDatastoreProps): CfnFHIRDatastore =
-    CfnFHIRDatastore(this, id, props)
-
-@Generated
 public fun Construct.cfnFHIRDatastore(
   id: String,
   props: CfnFHIRDatastoreProps,
-  initializer: @AwsCdkDsl CfnFHIRDatastore.() -> Unit,
+  initializer: @AwsCdkDsl CfnFHIRDatastore.() -> Unit = {},
 ): CfnFHIRDatastore = CfnFHIRDatastore(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnFHIRDatastore(id: String, initializer: @AwsCdkDsl
-    CfnFHIRDatastore.Builder.() -> Unit): CfnFHIRDatastore = CfnFHIRDatastore.Builder.create(this,
-    id).apply(initializer).build()
+    CfnFHIRDatastore.Builder.() -> Unit = {}): CfnFHIRDatastore =
+    CfnFHIRDatastore.Builder.create(this, id).apply(initializer).build()

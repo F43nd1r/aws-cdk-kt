@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.FlowLogOptions
 
 @Generated
-public fun buildFlowLogOptions(initializer: @AwsCdkDsl FlowLogOptions.Builder.() -> Unit):
+public fun buildFlowLogOptions(initializer: @AwsCdkDsl FlowLogOptions.Builder.() -> Unit = {}):
     FlowLogOptions = FlowLogOptions.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildColumnTooltipItemProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ColumnTooltipItemProperty.Builder.() -> Unit): CfnTemplate.ColumnTooltipItemProperty
-    = CfnTemplate.ColumnTooltipItemProperty.Builder().apply(initializer).build()
+    CfnTemplate.ColumnTooltipItemProperty.Builder.() -> Unit = {}):
+    CfnTemplate.ColumnTooltipItemProperty =
+    CfnTemplate.ColumnTooltipItemProperty.Builder().apply(initializer).build()

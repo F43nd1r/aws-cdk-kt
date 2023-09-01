@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lookoutequipment.CfnInferenceScheduler
 
 @Generated
 public fun buildDataOutputConfigurationProperty(initializer: @AwsCdkDsl
-    CfnInferenceScheduler.DataOutputConfigurationProperty.Builder.() -> Unit):
+    CfnInferenceScheduler.DataOutputConfigurationProperty.Builder.() -> Unit = {}):
     CfnInferenceScheduler.DataOutputConfigurationProperty =
     CfnInferenceScheduler.DataOutputConfigurationProperty.Builder().apply(initializer).build()

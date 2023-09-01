@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.cognito.UserPoolResourceServerProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.userPoolResourceServer(id: String, props: UserPoolResourceServerProps):
-    UserPoolResourceServer = UserPoolResourceServer(this, id, props)
-
-@Generated
 public fun Construct.userPoolResourceServer(
   id: String,
   props: UserPoolResourceServerProps,
-  initializer: @AwsCdkDsl UserPoolResourceServer.() -> Unit,
+  initializer: @AwsCdkDsl UserPoolResourceServer.() -> Unit = {},
 ): UserPoolResourceServer = UserPoolResourceServer(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildUserPoolResourceServer(id: String, initializer: @AwsCdkDsl
-    UserPoolResourceServer.Builder.() -> Unit): UserPoolResourceServer =
+    UserPoolResourceServer.Builder.() -> Unit = {}): UserPoolResourceServer =
     UserPoolResourceServer.Builder.create(this, id).apply(initializer).build()

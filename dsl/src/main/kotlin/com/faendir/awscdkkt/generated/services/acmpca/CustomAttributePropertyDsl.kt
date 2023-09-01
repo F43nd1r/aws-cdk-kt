@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.acmpca.CfnCertificateAuthority
 
 @Generated
 public fun buildCustomAttributeProperty(initializer: @AwsCdkDsl
-    CfnCertificateAuthority.CustomAttributeProperty.Builder.() -> Unit):
+    CfnCertificateAuthority.CustomAttributeProperty.Builder.() -> Unit = {}):
     CfnCertificateAuthority.CustomAttributeProperty =
     CfnCertificateAuthority.CustomAttributeProperty.Builder().apply(initializer).build()

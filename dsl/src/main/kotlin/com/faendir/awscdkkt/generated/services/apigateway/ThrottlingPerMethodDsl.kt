@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.ThrottlingPerMethod
 
 @Generated
-public fun buildThrottlingPerMethod(initializer: @AwsCdkDsl ThrottlingPerMethod.Builder.() -> Unit):
-    ThrottlingPerMethod = ThrottlingPerMethod.Builder().apply(initializer).build()
+public fun buildThrottlingPerMethod(initializer: @AwsCdkDsl ThrottlingPerMethod.Builder.() -> Unit =
+    {}): ThrottlingPerMethod = ThrottlingPerMethod.Builder().apply(initializer).build()

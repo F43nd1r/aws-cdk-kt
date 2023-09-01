@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.glue.CfnDatabase
 
 @Generated
 public fun buildDataLakePrincipalProperty(initializer: @AwsCdkDsl
-    CfnDatabase.DataLakePrincipalProperty.Builder.() -> Unit): CfnDatabase.DataLakePrincipalProperty
-    = CfnDatabase.DataLakePrincipalProperty.Builder().apply(initializer).build()
+    CfnDatabase.DataLakePrincipalProperty.Builder.() -> Unit = {}):
+    CfnDatabase.DataLakePrincipalProperty =
+    CfnDatabase.DataLakePrincipalProperty.Builder().apply(initializer).build()

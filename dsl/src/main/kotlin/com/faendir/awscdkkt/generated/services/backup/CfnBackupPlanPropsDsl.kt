@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.backup.CfnBackupPlanProps
 
 @Generated
-public fun buildCfnBackupPlanProps(initializer: @AwsCdkDsl CfnBackupPlanProps.Builder.() -> Unit):
-    CfnBackupPlanProps = CfnBackupPlanProps.Builder().apply(initializer).build()
+public fun buildCfnBackupPlanProps(initializer: @AwsCdkDsl CfnBackupPlanProps.Builder.() -> Unit =
+    {}): CfnBackupPlanProps = CfnBackupPlanProps.Builder().apply(initializer).build()

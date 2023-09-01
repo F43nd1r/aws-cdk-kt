@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.autoscalingplans.CfnScalingPlan
 
 @Generated
 public fun buildPredefinedScalingMetricSpecificationProperty(initializer: @AwsCdkDsl
-    CfnScalingPlan.PredefinedScalingMetricSpecificationProperty.Builder.() -> Unit):
+    CfnScalingPlan.PredefinedScalingMetricSpecificationProperty.Builder.() -> Unit = {}):
     CfnScalingPlan.PredefinedScalingMetricSpecificationProperty =
     CfnScalingPlan.PredefinedScalingMetricSpecificationProperty.Builder().apply(initializer).build()

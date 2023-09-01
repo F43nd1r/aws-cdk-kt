@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
 public fun buildHostPathProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.HostPathProperty.Builder.() -> Unit): CfnJobDefinition.HostPathProperty =
+    CfnJobDefinition.HostPathProperty.Builder.() -> Unit = {}): CfnJobDefinition.HostPathProperty =
     CfnJobDefinition.HostPathProperty.Builder().apply(initializer).build()

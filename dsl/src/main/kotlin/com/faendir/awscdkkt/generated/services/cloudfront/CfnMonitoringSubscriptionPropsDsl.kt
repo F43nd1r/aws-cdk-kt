@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cloudfront.CfnMonitoringSubscriptionProps
 
 @Generated
 public fun buildCfnMonitoringSubscriptionProps(initializer: @AwsCdkDsl
-    CfnMonitoringSubscriptionProps.Builder.() -> Unit): CfnMonitoringSubscriptionProps =
+    CfnMonitoringSubscriptionProps.Builder.() -> Unit = {}): CfnMonitoringSubscriptionProps =
     CfnMonitoringSubscriptionProps.Builder().apply(initializer).build()

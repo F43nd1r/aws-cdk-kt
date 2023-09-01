@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.backup.CfnFrameworkProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnFramework(id: String, props: CfnFrameworkProps): CfnFramework =
-    CfnFramework(this, id, props)
-
-@Generated
 public fun Construct.cfnFramework(
   id: String,
   props: CfnFrameworkProps,
-  initializer: @AwsCdkDsl CfnFramework.() -> Unit,
+  initializer: @AwsCdkDsl CfnFramework.() -> Unit = {},
 ): CfnFramework = CfnFramework(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnFramework(id: String, initializer: @AwsCdkDsl
-    CfnFramework.Builder.() -> Unit): CfnFramework = CfnFramework.Builder.create(this,
+    CfnFramework.Builder.() -> Unit = {}): CfnFramework = CfnFramework.Builder.create(this,
     id).apply(initializer).build()

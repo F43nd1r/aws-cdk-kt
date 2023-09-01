@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
 public fun buildEksContainerProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.EksContainerProperty.Builder.() -> Unit): CfnJobDefinition.EksContainerProperty
-    = CfnJobDefinition.EksContainerProperty.Builder().apply(initializer).build()
+    CfnJobDefinition.EksContainerProperty.Builder.() -> Unit = {}):
+    CfnJobDefinition.EksContainerProperty =
+    CfnJobDefinition.EksContainerProperty.Builder().apply(initializer).build()

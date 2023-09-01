@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.billingconductor.CfnCustomLineItem
 
 @Generated
 public fun buildCustomLineItemFlatChargeDetailsProperty(initializer: @AwsCdkDsl
-    CfnCustomLineItem.CustomLineItemFlatChargeDetailsProperty.Builder.() -> Unit):
+    CfnCustomLineItem.CustomLineItemFlatChargeDetailsProperty.Builder.() -> Unit = {}):
     CfnCustomLineItem.CustomLineItemFlatChargeDetailsProperty =
     CfnCustomLineItem.CustomLineItemFlatChargeDetailsProperty.Builder().apply(initializer).build()

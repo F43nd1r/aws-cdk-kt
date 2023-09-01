@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iot.CfnTopicRule
 
 @Generated
 public fun buildSigV4AuthorizationProperty(initializer: @AwsCdkDsl
-    CfnTopicRule.SigV4AuthorizationProperty.Builder.() -> Unit):
+    CfnTopicRule.SigV4AuthorizationProperty.Builder.() -> Unit = {}):
     CfnTopicRule.SigV4AuthorizationProperty =
     CfnTopicRule.SigV4AuthorizationProperty.Builder().apply(initializer).build()

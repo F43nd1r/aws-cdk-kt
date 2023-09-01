@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.SageMakerCreateEndpoi
 
 @Generated
 public fun buildSageMakerCreateEndpointProps(initializer: @AwsCdkDsl
-    SageMakerCreateEndpointProps.Builder.() -> Unit): SageMakerCreateEndpointProps =
+    SageMakerCreateEndpointProps.Builder.() -> Unit = {}): SageMakerCreateEndpointProps =
     SageMakerCreateEndpointProps.Builder().apply(initializer).build()

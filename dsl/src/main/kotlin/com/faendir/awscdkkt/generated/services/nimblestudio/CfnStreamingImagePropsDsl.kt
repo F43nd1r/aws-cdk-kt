@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.nimblestudio.CfnStreamingImageProps
 
 @Generated
 public fun buildCfnStreamingImageProps(initializer: @AwsCdkDsl
-    CfnStreamingImageProps.Builder.() -> Unit): CfnStreamingImageProps =
+    CfnStreamingImageProps.Builder.() -> Unit = {}): CfnStreamingImageProps =
     CfnStreamingImageProps.Builder().apply(initializer).build()

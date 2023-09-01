@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.eks.ServiceAccountProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.serviceAccount(id: String, props: ServiceAccountProps): ServiceAccount =
-    ServiceAccount(this, id, props)
-
-@Generated
 public fun Construct.serviceAccount(
   id: String,
   props: ServiceAccountProps,
-  initializer: @AwsCdkDsl ServiceAccount.() -> Unit,
+  initializer: @AwsCdkDsl ServiceAccount.() -> Unit = {},
 ): ServiceAccount = ServiceAccount(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildServiceAccount(id: String, initializer: @AwsCdkDsl
-    ServiceAccount.Builder.() -> Unit): ServiceAccount = ServiceAccount.Builder.create(this,
+    ServiceAccount.Builder.() -> Unit = {}): ServiceAccount = ServiceAccount.Builder.create(this,
     id).apply(initializer).build()

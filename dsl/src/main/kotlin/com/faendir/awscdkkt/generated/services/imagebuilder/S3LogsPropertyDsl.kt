@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.imagebuilder.CfnInfrastructureConfigurati
 
 @Generated
 public fun buildS3LogsProperty(initializer: @AwsCdkDsl
-    CfnInfrastructureConfiguration.S3LogsProperty.Builder.() -> Unit):
+    CfnInfrastructureConfiguration.S3LogsProperty.Builder.() -> Unit = {}):
     CfnInfrastructureConfiguration.S3LogsProperty =
     CfnInfrastructureConfiguration.S3LogsProperty.Builder().apply(initializer).build()

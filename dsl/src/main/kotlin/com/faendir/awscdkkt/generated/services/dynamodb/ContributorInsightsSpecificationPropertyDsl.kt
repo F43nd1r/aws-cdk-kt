@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.dynamodb.CfnTable
 
 @Generated
 public fun buildContributorInsightsSpecificationProperty(initializer: @AwsCdkDsl
-    CfnTable.ContributorInsightsSpecificationProperty.Builder.() -> Unit):
+    CfnTable.ContributorInsightsSpecificationProperty.Builder.() -> Unit = {}):
     CfnTable.ContributorInsightsSpecificationProperty =
     CfnTable.ContributorInsightsSpecificationProperty.Builder().apply(initializer).build()

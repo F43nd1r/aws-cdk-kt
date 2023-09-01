@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.vpclattice.CfnServiceNetworkServiceAssoci
 
 @Generated
 public fun buildDnsEntryProperty(initializer: @AwsCdkDsl
-    CfnServiceNetworkServiceAssociation.DnsEntryProperty.Builder.() -> Unit):
+    CfnServiceNetworkServiceAssociation.DnsEntryProperty.Builder.() -> Unit = {}):
     CfnServiceNetworkServiceAssociation.DnsEntryProperty =
     CfnServiceNetworkServiceAssociation.DnsEntryProperty.Builder().apply(initializer).build()

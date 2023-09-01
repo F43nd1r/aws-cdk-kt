@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.ActionArtifactBounds
 
 @Generated
-public fun buildActionArtifactBounds(initializer: @AwsCdkDsl
-    ActionArtifactBounds.Builder.() -> Unit): ActionArtifactBounds =
-    ActionArtifactBounds.Builder().apply(initializer).build()
+public fun buildActionArtifactBounds(initializer: @AwsCdkDsl ActionArtifactBounds.Builder.() -> Unit
+    = {}): ActionArtifactBounds = ActionArtifactBounds.Builder().apply(initializer).build()

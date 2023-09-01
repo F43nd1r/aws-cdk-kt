@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.HostedZoneProps
 
 @Generated
-public fun buildHostedZoneProps(initializer: @AwsCdkDsl HostedZoneProps.Builder.() -> Unit):
+public fun buildHostedZoneProps(initializer: @AwsCdkDsl HostedZoneProps.Builder.() -> Unit = {}):
     HostedZoneProps = HostedZoneProps.Builder().apply(initializer).build()

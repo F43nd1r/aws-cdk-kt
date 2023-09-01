@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.events.CfnConnection
 
 @Generated
 public fun buildApiKeyAuthParametersProperty(initializer: @AwsCdkDsl
-    CfnConnection.ApiKeyAuthParametersProperty.Builder.() -> Unit):
+    CfnConnection.ApiKeyAuthParametersProperty.Builder.() -> Unit = {}):
     CfnConnection.ApiKeyAuthParametersProperty =
     CfnConnection.ApiKeyAuthParametersProperty.Builder().apply(initializer).build()

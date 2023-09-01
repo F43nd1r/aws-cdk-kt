@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.apprunner.CfnVpcIngressConnectionProps
 
 @Generated
 public fun buildCfnVpcIngressConnectionProps(initializer: @AwsCdkDsl
-    CfnVpcIngressConnectionProps.Builder.() -> Unit): CfnVpcIngressConnectionProps =
+    CfnVpcIngressConnectionProps.Builder.() -> Unit = {}): CfnVpcIngressConnectionProps =
     CfnVpcIngressConnectionProps.Builder().apply(initializer).build()

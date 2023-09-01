@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.s3.CfnMultiRegionAccessPointPolicy
 
 @Generated
 public fun buildPolicyStatusProperty(initializer: @AwsCdkDsl
-    CfnMultiRegionAccessPointPolicy.PolicyStatusProperty.Builder.() -> Unit):
+    CfnMultiRegionAccessPointPolicy.PolicyStatusProperty.Builder.() -> Unit = {}):
     CfnMultiRegionAccessPointPolicy.PolicyStatusProperty =
     CfnMultiRegionAccessPointPolicy.PolicyStatusProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.CfnMappingProps
 
 @Generated
-public fun buildCfnMappingProps(initializer: @AwsCdkDsl CfnMappingProps.Builder.() -> Unit):
+public fun buildCfnMappingProps(initializer: @AwsCdkDsl CfnMappingProps.Builder.() -> Unit = {}):
     CfnMappingProps = CfnMappingProps.Builder().apply(initializer).build()

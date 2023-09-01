@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.datasync.CfnLocationFSxOpenZFSProps
 
 @Generated
 public fun buildCfnLocationFSxOpenZFSProps(initializer: @AwsCdkDsl
-    CfnLocationFSxOpenZFSProps.Builder.() -> Unit): CfnLocationFSxOpenZFSProps =
+    CfnLocationFSxOpenZFSProps.Builder.() -> Unit = {}): CfnLocationFSxOpenZFSProps =
     CfnLocationFSxOpenZFSProps.Builder().apply(initializer).build()

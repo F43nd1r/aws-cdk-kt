@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.dynamodb.CfnTable
 
 @Generated
 public fun buildKinesisStreamSpecificationProperty(initializer: @AwsCdkDsl
-    CfnTable.KinesisStreamSpecificationProperty.Builder.() -> Unit):
+    CfnTable.KinesisStreamSpecificationProperty.Builder.() -> Unit = {}):
     CfnTable.KinesisStreamSpecificationProperty =
     CfnTable.KinesisStreamSpecificationProperty.Builder().apply(initializer).build()

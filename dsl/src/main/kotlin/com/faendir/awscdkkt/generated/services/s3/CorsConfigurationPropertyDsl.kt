@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
 public fun buildCorsConfigurationProperty(initializer: @AwsCdkDsl
-    CfnBucket.CorsConfigurationProperty.Builder.() -> Unit): CfnBucket.CorsConfigurationProperty =
+    CfnBucket.CorsConfigurationProperty.Builder.() -> Unit = {}):
+    CfnBucket.CorsConfigurationProperty =
     CfnBucket.CorsConfigurationProperty.Builder().apply(initializer).build()

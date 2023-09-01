@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iottwinmaker.CfnEntity
 
 @Generated
-public fun buildErrorProperty(initializer: @AwsCdkDsl CfnEntity.ErrorProperty.Builder.() -> Unit):
-    CfnEntity.ErrorProperty = CfnEntity.ErrorProperty.Builder().apply(initializer).build()
+public fun buildErrorProperty(initializer: @AwsCdkDsl CfnEntity.ErrorProperty.Builder.() -> Unit =
+    {}): CfnEntity.ErrorProperty = CfnEntity.ErrorProperty.Builder().apply(initializer).build()

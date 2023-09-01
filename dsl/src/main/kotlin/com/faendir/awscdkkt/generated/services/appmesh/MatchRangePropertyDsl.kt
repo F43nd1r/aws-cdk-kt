@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appmesh.CfnRoute
 
 @Generated
 public fun buildMatchRangeProperty(initializer: @AwsCdkDsl
-    CfnRoute.MatchRangeProperty.Builder.() -> Unit): CfnRoute.MatchRangeProperty =
+    CfnRoute.MatchRangeProperty.Builder.() -> Unit = {}): CfnRoute.MatchRangeProperty =
     CfnRoute.MatchRangeProperty.Builder().apply(initializer).build()

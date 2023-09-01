@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnConnector
 
 @Generated
 public fun buildConnectorProvisioningConfigProperty(initializer: @AwsCdkDsl
-    CfnConnector.ConnectorProvisioningConfigProperty.Builder.() -> Unit):
+    CfnConnector.ConnectorProvisioningConfigProperty.Builder.() -> Unit = {}):
     CfnConnector.ConnectorProvisioningConfigProperty =
     CfnConnector.ConnectorProvisioningConfigProperty.Builder().apply(initializer).build()

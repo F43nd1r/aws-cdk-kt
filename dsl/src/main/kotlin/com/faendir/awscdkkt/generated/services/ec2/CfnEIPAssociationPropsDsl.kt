@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.CfnEIPAssociationProps
 
 @Generated
 public fun buildCfnEIPAssociationProps(initializer: @AwsCdkDsl
-    CfnEIPAssociationProps.Builder.() -> Unit): CfnEIPAssociationProps =
+    CfnEIPAssociationProps.Builder.() -> Unit = {}): CfnEIPAssociationProps =
     CfnEIPAssociationProps.Builder().apply(initializer).build()

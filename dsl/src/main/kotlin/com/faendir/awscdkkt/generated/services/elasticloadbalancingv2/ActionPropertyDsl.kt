@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.CfnListenerRule
 
 @Generated
 public fun buildActionProperty(initializer: @AwsCdkDsl
-    CfnListenerRule.ActionProperty.Builder.() -> Unit): CfnListenerRule.ActionProperty =
+    CfnListenerRule.ActionProperty.Builder.() -> Unit = {}): CfnListenerRule.ActionProperty =
     CfnListenerRule.ActionProperty.Builder().apply(initializer).build()

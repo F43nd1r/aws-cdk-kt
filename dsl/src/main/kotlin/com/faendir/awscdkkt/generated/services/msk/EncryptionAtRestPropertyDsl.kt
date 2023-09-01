@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.msk.CfnCluster
 
 @Generated
 public fun buildEncryptionAtRestProperty(initializer: @AwsCdkDsl
-    CfnCluster.EncryptionAtRestProperty.Builder.() -> Unit): CfnCluster.EncryptionAtRestProperty =
+    CfnCluster.EncryptionAtRestProperty.Builder.() -> Unit = {}):
+    CfnCluster.EncryptionAtRestProperty =
     CfnCluster.EncryptionAtRestProperty.Builder().apply(initializer).build()

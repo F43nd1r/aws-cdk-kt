@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
 public fun buildSuccessResponseHandlingConfigProperty(initializer: @AwsCdkDsl
-    CfnFlow.SuccessResponseHandlingConfigProperty.Builder.() -> Unit):
+    CfnFlow.SuccessResponseHandlingConfigProperty.Builder.() -> Unit = {}):
     CfnFlow.SuccessResponseHandlingConfigProperty =
     CfnFlow.SuccessResponseHandlingConfigProperty.Builder().apply(initializer).build()

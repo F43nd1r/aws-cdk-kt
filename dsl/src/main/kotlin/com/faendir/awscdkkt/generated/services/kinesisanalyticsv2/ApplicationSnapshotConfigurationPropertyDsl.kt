@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kinesisanalyticsv2.CfnApplication
 
 @Generated
 public fun buildApplicationSnapshotConfigurationProperty(initializer: @AwsCdkDsl
-    CfnApplication.ApplicationSnapshotConfigurationProperty.Builder.() -> Unit):
+    CfnApplication.ApplicationSnapshotConfigurationProperty.Builder.() -> Unit = {}):
     CfnApplication.ApplicationSnapshotConfigurationProperty =
     CfnApplication.ApplicationSnapshotConfigurationProperty.Builder().apply(initializer).build()

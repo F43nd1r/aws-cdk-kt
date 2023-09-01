@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.ssmincidents.CfnResponsePlan
 
 @Generated
 public fun buildSsmParameterProperty(initializer: @AwsCdkDsl
-    CfnResponsePlan.SsmParameterProperty.Builder.() -> Unit): CfnResponsePlan.SsmParameterProperty =
+    CfnResponsePlan.SsmParameterProperty.Builder.() -> Unit = {}):
+    CfnResponsePlan.SsmParameterProperty =
     CfnResponsePlan.SsmParameterProperty.Builder().apply(initializer).build()

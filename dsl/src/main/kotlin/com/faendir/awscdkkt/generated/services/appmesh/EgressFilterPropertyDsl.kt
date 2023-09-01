@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appmesh.CfnMesh
 
 @Generated
 public fun buildEgressFilterProperty(initializer: @AwsCdkDsl
-    CfnMesh.EgressFilterProperty.Builder.() -> Unit): CfnMesh.EgressFilterProperty =
+    CfnMesh.EgressFilterProperty.Builder.() -> Unit = {}): CfnMesh.EgressFilterProperty =
     CfnMesh.EgressFilterProperty.Builder().apply(initializer).build()

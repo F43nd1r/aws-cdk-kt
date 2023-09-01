@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.devopsguru.CfnResourceCollectionProps
 
 @Generated
 public fun buildCfnResourceCollectionProps(initializer: @AwsCdkDsl
-    CfnResourceCollectionProps.Builder.() -> Unit): CfnResourceCollectionProps =
+    CfnResourceCollectionProps.Builder.() -> Unit = {}): CfnResourceCollectionProps =
     CfnResourceCollectionProps.Builder().apply(initializer).build()

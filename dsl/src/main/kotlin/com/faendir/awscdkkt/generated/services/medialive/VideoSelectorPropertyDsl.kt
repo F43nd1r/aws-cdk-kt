@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildVideoSelectorProperty(initializer: @AwsCdkDsl
-    CfnChannel.VideoSelectorProperty.Builder.() -> Unit): CfnChannel.VideoSelectorProperty =
+    CfnChannel.VideoSelectorProperty.Builder.() -> Unit = {}): CfnChannel.VideoSelectorProperty =
     CfnChannel.VideoSelectorProperty.Builder().apply(initializer).build()

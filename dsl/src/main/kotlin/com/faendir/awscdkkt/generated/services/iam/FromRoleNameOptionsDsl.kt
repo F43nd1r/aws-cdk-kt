@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.FromRoleNameOptions
 
 @Generated
-public fun buildFromRoleNameOptions(initializer: @AwsCdkDsl FromRoleNameOptions.Builder.() -> Unit):
-    FromRoleNameOptions = FromRoleNameOptions.Builder().apply(initializer).build()
+public fun buildFromRoleNameOptions(initializer: @AwsCdkDsl FromRoleNameOptions.Builder.() -> Unit =
+    {}): FromRoleNameOptions = FromRoleNameOptions.Builder().apply(initializer).build()

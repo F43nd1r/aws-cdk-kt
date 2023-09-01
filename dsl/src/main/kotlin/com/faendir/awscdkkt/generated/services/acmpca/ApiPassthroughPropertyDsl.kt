@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.acmpca.CfnCertificate
 
 @Generated
 public fun buildApiPassthroughProperty(initializer: @AwsCdkDsl
-    CfnCertificate.ApiPassthroughProperty.Builder.() -> Unit): CfnCertificate.ApiPassthroughProperty
-    = CfnCertificate.ApiPassthroughProperty.Builder().apply(initializer).build()
+    CfnCertificate.ApiPassthroughProperty.Builder.() -> Unit = {}):
+    CfnCertificate.ApiPassthroughProperty =
+    CfnCertificate.ApiPassthroughProperty.Builder().apply(initializer).build()

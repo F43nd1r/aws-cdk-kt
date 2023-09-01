@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appmesh.CfnVirtualNode
 
 @Generated
 public fun buildDnsServiceDiscoveryProperty(initializer: @AwsCdkDsl
-    CfnVirtualNode.DnsServiceDiscoveryProperty.Builder.() -> Unit):
+    CfnVirtualNode.DnsServiceDiscoveryProperty.Builder.() -> Unit = {}):
     CfnVirtualNode.DnsServiceDiscoveryProperty =
     CfnVirtualNode.DnsServiceDiscoveryProperty.Builder().apply(initializer).build()

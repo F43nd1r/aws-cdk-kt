@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildPivotTableSortConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PivotTableSortConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.PivotTableSortConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.PivotTableSortConfigurationProperty =
     CfnTemplate.PivotTableSortConfigurationProperty.Builder().apply(initializer).build()

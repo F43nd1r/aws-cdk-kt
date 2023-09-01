@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildEmptyVisualProperty(initializer: @AwsCdkDsl
-    CfnTemplate.EmptyVisualProperty.Builder.() -> Unit): CfnTemplate.EmptyVisualProperty =
+    CfnTemplate.EmptyVisualProperty.Builder.() -> Unit = {}): CfnTemplate.EmptyVisualProperty =
     CfnTemplate.EmptyVisualProperty.Builder().apply(initializer).build()

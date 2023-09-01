@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codebuild.CodeCommitSourceProps
 
 @Generated
 public fun buildCodeCommitSourceProps(initializer: @AwsCdkDsl
-    CodeCommitSourceProps.Builder.() -> Unit): CodeCommitSourceProps =
+    CodeCommitSourceProps.Builder.() -> Unit = {}): CodeCommitSourceProps =
     CodeCommitSourceProps.Builder().apply(initializer).build()

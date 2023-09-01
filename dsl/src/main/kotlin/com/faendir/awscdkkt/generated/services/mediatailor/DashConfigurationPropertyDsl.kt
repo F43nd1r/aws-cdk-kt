@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.mediatailor.CfnPlaybackConfiguration
 
 @Generated
 public fun buildDashConfigurationProperty(initializer: @AwsCdkDsl
-    CfnPlaybackConfiguration.DashConfigurationProperty.Builder.() -> Unit):
+    CfnPlaybackConfiguration.DashConfigurationProperty.Builder.() -> Unit = {}):
     CfnPlaybackConfiguration.DashConfigurationProperty =
     CfnPlaybackConfiguration.DashConfigurationProperty.Builder().apply(initializer).build()

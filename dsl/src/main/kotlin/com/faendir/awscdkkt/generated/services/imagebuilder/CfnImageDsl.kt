@@ -9,16 +9,12 @@ import software.amazon.awscdk.services.imagebuilder.CfnImageProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnImage(id: String, props: CfnImageProps): CfnImage = CfnImage(this, id,
-    props)
-
-@Generated
 public fun Construct.cfnImage(
   id: String,
   props: CfnImageProps,
-  initializer: @AwsCdkDsl CfnImage.() -> Unit,
+  initializer: @AwsCdkDsl CfnImage.() -> Unit = {},
 ): CfnImage = CfnImage(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnImage(id: String, initializer: @AwsCdkDsl CfnImage.Builder.() -> Unit):
-    CfnImage = CfnImage.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnImage(id: String, initializer: @AwsCdkDsl CfnImage.Builder.() -> Unit =
+    {}): CfnImage = CfnImage.Builder.create(this, id).apply(initializer).build()

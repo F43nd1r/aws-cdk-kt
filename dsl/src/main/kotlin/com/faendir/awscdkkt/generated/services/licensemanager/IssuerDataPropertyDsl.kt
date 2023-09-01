@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.licensemanager.CfnLicense
 
 @Generated
 public fun buildIssuerDataProperty(initializer: @AwsCdkDsl
-    CfnLicense.IssuerDataProperty.Builder.() -> Unit): CfnLicense.IssuerDataProperty =
+    CfnLicense.IssuerDataProperty.Builder.() -> Unit = {}): CfnLicense.IssuerDataProperty =
     CfnLicense.IssuerDataProperty.Builder().apply(initializer).build()

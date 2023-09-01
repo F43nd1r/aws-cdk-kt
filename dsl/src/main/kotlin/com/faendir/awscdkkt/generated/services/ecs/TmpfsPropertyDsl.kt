@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
 public fun buildTmpfsProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.TmpfsProperty.Builder.() -> Unit): CfnTaskDefinition.TmpfsProperty =
+    CfnTaskDefinition.TmpfsProperty.Builder.() -> Unit = {}): CfnTaskDefinition.TmpfsProperty =
     CfnTaskDefinition.TmpfsProperty.Builder().apply(initializer).build()

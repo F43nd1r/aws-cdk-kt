@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iam.GrantOnPrincipalOptions
 
 @Generated
 public fun buildGrantOnPrincipalOptions(initializer: @AwsCdkDsl
-    GrantOnPrincipalOptions.Builder.() -> Unit): GrantOnPrincipalOptions =
+    GrantOnPrincipalOptions.Builder.() -> Unit = {}): GrantOnPrincipalOptions =
     GrantOnPrincipalOptions.Builder().apply(initializer).build()

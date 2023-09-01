@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kendra.CfnDataSource
 
 @Generated
 public fun buildDataSourceToIndexFieldMappingProperty(initializer: @AwsCdkDsl
-    CfnDataSource.DataSourceToIndexFieldMappingProperty.Builder.() -> Unit):
+    CfnDataSource.DataSourceToIndexFieldMappingProperty.Builder.() -> Unit = {}):
     CfnDataSource.DataSourceToIndexFieldMappingProperty =
     CfnDataSource.DataSourceToIndexFieldMappingProperty.Builder().apply(initializer).build()

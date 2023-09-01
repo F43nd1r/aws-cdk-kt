@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.ForwardOptions
 
 @Generated
-public fun buildForwardOptions(initializer: @AwsCdkDsl ForwardOptions.Builder.() -> Unit):
+public fun buildForwardOptions(initializer: @AwsCdkDsl ForwardOptions.Builder.() -> Unit = {}):
     ForwardOptions = ForwardOptions.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ec2.CfnVPNConnectionRouteProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnVPNConnectionRoute(id: String, props: CfnVPNConnectionRouteProps):
-    CfnVPNConnectionRoute = CfnVPNConnectionRoute(this, id, props)
-
-@Generated
 public fun Construct.cfnVPNConnectionRoute(
   id: String,
   props: CfnVPNConnectionRouteProps,
-  initializer: @AwsCdkDsl CfnVPNConnectionRoute.() -> Unit,
+  initializer: @AwsCdkDsl CfnVPNConnectionRoute.() -> Unit = {},
 ): CfnVPNConnectionRoute = CfnVPNConnectionRoute(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnVPNConnectionRoute(id: String, initializer: @AwsCdkDsl
-    CfnVPNConnectionRoute.Builder.() -> Unit): CfnVPNConnectionRoute =
+    CfnVPNConnectionRoute.Builder.() -> Unit = {}): CfnVPNConnectionRoute =
     CfnVPNConnectionRoute.Builder.create(this, id).apply(initializer).build()

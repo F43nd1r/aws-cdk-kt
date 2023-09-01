@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.ClientVpnRouteProps
 
 @Generated
-public fun buildClientVpnRouteProps(initializer: @AwsCdkDsl ClientVpnRouteProps.Builder.() -> Unit):
-    ClientVpnRouteProps = ClientVpnRouteProps.Builder().apply(initializer).build()
+public fun buildClientVpnRouteProps(initializer: @AwsCdkDsl ClientVpnRouteProps.Builder.() -> Unit =
+    {}): ClientVpnRouteProps = ClientVpnRouteProps.Builder().apply(initializer).build()

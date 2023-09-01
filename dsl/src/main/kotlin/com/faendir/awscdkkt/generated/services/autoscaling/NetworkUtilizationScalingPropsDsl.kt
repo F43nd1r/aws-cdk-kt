@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.autoscaling.NetworkUtilizationScalingProp
 
 @Generated
 public fun buildNetworkUtilizationScalingProps(initializer: @AwsCdkDsl
-    NetworkUtilizationScalingProps.Builder.() -> Unit): NetworkUtilizationScalingProps =
+    NetworkUtilizationScalingProps.Builder.() -> Unit = {}): NetworkUtilizationScalingProps =
     NetworkUtilizationScalingProps.Builder().apply(initializer).build()

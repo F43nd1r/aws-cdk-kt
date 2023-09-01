@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.iotfleetwise.CfnDecoderManifest
 
 @Generated
 public fun buildCanSignalProperty(initializer: @AwsCdkDsl
-    CfnDecoderManifest.CanSignalProperty.Builder.() -> Unit): CfnDecoderManifest.CanSignalProperty =
+    CfnDecoderManifest.CanSignalProperty.Builder.() -> Unit = {}):
+    CfnDecoderManifest.CanSignalProperty =
     CfnDecoderManifest.CanSignalProperty.Builder().apply(initializer).build()

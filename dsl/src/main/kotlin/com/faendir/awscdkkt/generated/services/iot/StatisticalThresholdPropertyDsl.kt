@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iot.CfnSecurityProfile
 
 @Generated
 public fun buildStatisticalThresholdProperty(initializer: @AwsCdkDsl
-    CfnSecurityProfile.StatisticalThresholdProperty.Builder.() -> Unit):
+    CfnSecurityProfile.StatisticalThresholdProperty.Builder.() -> Unit = {}):
     CfnSecurityProfile.StatisticalThresholdProperty =
     CfnSecurityProfile.StatisticalThresholdProperty.Builder().apply(initializer).build()

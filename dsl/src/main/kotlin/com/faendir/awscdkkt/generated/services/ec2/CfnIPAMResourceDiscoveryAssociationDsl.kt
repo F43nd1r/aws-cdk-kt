@@ -9,19 +9,15 @@ import software.amazon.awscdk.services.ec2.CfnIPAMResourceDiscoveryAssociationPr
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnIPAMResourceDiscoveryAssociation(id: String,
-    props: CfnIPAMResourceDiscoveryAssociationProps): CfnIPAMResourceDiscoveryAssociation =
-    CfnIPAMResourceDiscoveryAssociation(this, id, props)
-
-@Generated
 public fun Construct.cfnIPAMResourceDiscoveryAssociation(
   id: String,
   props: CfnIPAMResourceDiscoveryAssociationProps,
-  initializer: @AwsCdkDsl CfnIPAMResourceDiscoveryAssociation.() -> Unit,
+  initializer: @AwsCdkDsl CfnIPAMResourceDiscoveryAssociation.() -> Unit = {},
 ): CfnIPAMResourceDiscoveryAssociation = CfnIPAMResourceDiscoveryAssociation(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnIPAMResourceDiscoveryAssociation(id: String, initializer: @AwsCdkDsl
-    CfnIPAMResourceDiscoveryAssociation.Builder.() -> Unit): CfnIPAMResourceDiscoveryAssociation =
-    CfnIPAMResourceDiscoveryAssociation.Builder.create(this, id).apply(initializer).build()
+    CfnIPAMResourceDiscoveryAssociation.Builder.() -> Unit = {}):
+    CfnIPAMResourceDiscoveryAssociation = CfnIPAMResourceDiscoveryAssociation.Builder.create(this,
+    id).apply(initializer).build()

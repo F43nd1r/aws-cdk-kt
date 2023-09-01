@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.route53recoveryreadiness.CfnResourceSet
 
 @Generated
 public fun buildTargetResourceProperty(initializer: @AwsCdkDsl
-    CfnResourceSet.TargetResourceProperty.Builder.() -> Unit): CfnResourceSet.TargetResourceProperty
-    = CfnResourceSet.TargetResourceProperty.Builder().apply(initializer).build()
+    CfnResourceSet.TargetResourceProperty.Builder.() -> Unit = {}):
+    CfnResourceSet.TargetResourceProperty =
+    CfnResourceSet.TargetResourceProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.mediaconnect.CfnFlowSource
 
 @Generated
 public fun buildGatewayBridgeSourceProperty(initializer: @AwsCdkDsl
-    CfnFlowSource.GatewayBridgeSourceProperty.Builder.() -> Unit):
+    CfnFlowSource.GatewayBridgeSourceProperty.Builder.() -> Unit = {}):
     CfnFlowSource.GatewayBridgeSourceProperty =
     CfnFlowSource.GatewayBridgeSourceProperty.Builder().apply(initializer).build()

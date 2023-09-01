@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.globalaccelerator.CfnEndpointGroup
 
 @Generated
 public fun buildEndpointConfigurationProperty(initializer: @AwsCdkDsl
-    CfnEndpointGroup.EndpointConfigurationProperty.Builder.() -> Unit):
+    CfnEndpointGroup.EndpointConfigurationProperty.Builder.() -> Unit = {}):
     CfnEndpointGroup.EndpointConfigurationProperty =
     CfnEndpointGroup.EndpointConfigurationProperty.Builder().apply(initializer).build()

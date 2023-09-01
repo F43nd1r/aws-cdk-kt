@@ -9,17 +9,12 @@ import software.amazon.awscdk.services.s3outposts.CfnBucketProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnBucket(id: String, props: CfnBucketProps): CfnBucket = CfnBucket(this, id,
-    props)
-
-@Generated
 public fun Construct.cfnBucket(
   id: String,
   props: CfnBucketProps,
-  initializer: @AwsCdkDsl CfnBucket.() -> Unit,
+  initializer: @AwsCdkDsl CfnBucket.() -> Unit = {},
 ): CfnBucket = CfnBucket(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnBucket(id: String, initializer: @AwsCdkDsl
-    CfnBucket.Builder.() -> Unit): CfnBucket = CfnBucket.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnBucket(id: String, initializer: @AwsCdkDsl CfnBucket.Builder.() -> Unit
+    = {}): CfnBucket = CfnBucket.Builder.create(this, id).apply(initializer).build()

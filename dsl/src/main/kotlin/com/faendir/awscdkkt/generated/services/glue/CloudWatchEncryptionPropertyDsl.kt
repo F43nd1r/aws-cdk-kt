@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.glue.CfnSecurityConfiguration
 
 @Generated
 public fun buildCloudWatchEncryptionProperty(initializer: @AwsCdkDsl
-    CfnSecurityConfiguration.CloudWatchEncryptionProperty.Builder.() -> Unit):
+    CfnSecurityConfiguration.CloudWatchEncryptionProperty.Builder.() -> Unit = {}):
     CfnSecurityConfiguration.CloudWatchEncryptionProperty =
     CfnSecurityConfiguration.CloudWatchEncryptionProperty.Builder().apply(initializer).build()

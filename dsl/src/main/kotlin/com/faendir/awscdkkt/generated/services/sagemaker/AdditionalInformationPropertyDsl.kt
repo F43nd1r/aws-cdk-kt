@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelCard
 
 @Generated
 public fun buildAdditionalInformationProperty(initializer: @AwsCdkDsl
-    CfnModelCard.AdditionalInformationProperty.Builder.() -> Unit):
+    CfnModelCard.AdditionalInformationProperty.Builder.() -> Unit = {}):
     CfnModelCard.AdditionalInformationProperty =
     CfnModelCard.AdditionalInformationProperty.Builder().apply(initializer).build()

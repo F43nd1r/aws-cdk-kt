@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnPartitionProps
 
 @Generated
-public fun buildCfnPartitionProps(initializer: @AwsCdkDsl CfnPartitionProps.Builder.() -> Unit):
-    CfnPartitionProps = CfnPartitionProps.Builder().apply(initializer).build()
+public fun buildCfnPartitionProps(initializer: @AwsCdkDsl CfnPartitionProps.Builder.() -> Unit =
+    {}): CfnPartitionProps = CfnPartitionProps.Builder().apply(initializer).build()

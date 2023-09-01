@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ivschat.CfnRoomProps
 
 @Generated
-public fun buildCfnRoomProps(initializer: @AwsCdkDsl CfnRoomProps.Builder.() -> Unit): CfnRoomProps
-    = CfnRoomProps.Builder().apply(initializer).build()
+public fun buildCfnRoomProps(initializer: @AwsCdkDsl CfnRoomProps.Builder.() -> Unit = {}):
+    CfnRoomProps = CfnRoomProps.Builder().apply(initializer).build()

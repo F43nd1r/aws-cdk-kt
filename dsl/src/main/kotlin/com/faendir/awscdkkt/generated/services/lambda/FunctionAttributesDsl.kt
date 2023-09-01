@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.FunctionAttributes
 
 @Generated
-public fun buildFunctionAttributes(initializer: @AwsCdkDsl FunctionAttributes.Builder.() -> Unit):
-    FunctionAttributes = FunctionAttributes.Builder().apply(initializer).build()
+public fun buildFunctionAttributes(initializer: @AwsCdkDsl FunctionAttributes.Builder.() -> Unit =
+    {}): FunctionAttributes = FunctionAttributes.Builder().apply(initializer).build()

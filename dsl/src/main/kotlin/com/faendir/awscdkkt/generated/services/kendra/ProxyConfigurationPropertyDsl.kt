@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kendra.CfnDataSource
 
 @Generated
 public fun buildProxyConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.ProxyConfigurationProperty.Builder.() -> Unit):
+    CfnDataSource.ProxyConfigurationProperty.Builder.() -> Unit = {}):
     CfnDataSource.ProxyConfigurationProperty =
     CfnDataSource.ProxyConfigurationProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.rds.CfnGlobalClusterProps
 
 @Generated
 public fun buildCfnGlobalClusterProps(initializer: @AwsCdkDsl
-    CfnGlobalClusterProps.Builder.() -> Unit): CfnGlobalClusterProps =
+    CfnGlobalClusterProps.Builder.() -> Unit = {}): CfnGlobalClusterProps =
     CfnGlobalClusterProps.Builder().apply(initializer).build()

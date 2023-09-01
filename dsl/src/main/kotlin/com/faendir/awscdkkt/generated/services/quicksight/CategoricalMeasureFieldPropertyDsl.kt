@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildCategoricalMeasureFieldProperty(initializer: @AwsCdkDsl
-    CfnTemplate.CategoricalMeasureFieldProperty.Builder.() -> Unit):
+    CfnTemplate.CategoricalMeasureFieldProperty.Builder.() -> Unit = {}):
     CfnTemplate.CategoricalMeasureFieldProperty =
     CfnTemplate.CategoricalMeasureFieldProperty.Builder().apply(initializer).build()

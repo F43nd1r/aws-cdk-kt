@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildGeospatialMapStyleOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.GeospatialMapStyleOptionsProperty.Builder.() -> Unit):
+    CfnTemplate.GeospatialMapStyleOptionsProperty.Builder.() -> Unit = {}):
     CfnTemplate.GeospatialMapStyleOptionsProperty =
     CfnTemplate.GeospatialMapStyleOptionsProperty.Builder().apply(initializer).build()

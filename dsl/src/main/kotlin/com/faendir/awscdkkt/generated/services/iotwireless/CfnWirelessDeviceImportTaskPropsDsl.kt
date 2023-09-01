@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iotwireless.CfnWirelessDeviceImportTaskPr
 
 @Generated
 public fun buildCfnWirelessDeviceImportTaskProps(initializer: @AwsCdkDsl
-    CfnWirelessDeviceImportTaskProps.Builder.() -> Unit): CfnWirelessDeviceImportTaskProps =
+    CfnWirelessDeviceImportTaskProps.Builder.() -> Unit = {}): CfnWirelessDeviceImportTaskProps =
     CfnWirelessDeviceImportTaskProps.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.opensearchserverless.CfnCollectionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnCollection(id: String, props: CfnCollectionProps): CfnCollection =
-    CfnCollection(this, id, props)
-
-@Generated
 public fun Construct.cfnCollection(
   id: String,
   props: CfnCollectionProps,
-  initializer: @AwsCdkDsl CfnCollection.() -> Unit,
+  initializer: @AwsCdkDsl CfnCollection.() -> Unit = {},
 ): CfnCollection = CfnCollection(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnCollection(id: String, initializer: @AwsCdkDsl
-    CfnCollection.Builder.() -> Unit): CfnCollection = CfnCollection.Builder.create(this,
+    CfnCollection.Builder.() -> Unit = {}): CfnCollection = CfnCollection.Builder.create(this,
     id).apply(initializer).build()

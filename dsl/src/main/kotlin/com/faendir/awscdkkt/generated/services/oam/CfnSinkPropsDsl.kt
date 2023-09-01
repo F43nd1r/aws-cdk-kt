@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.oam.CfnSinkProps
 
 @Generated
-public fun buildCfnSinkProps(initializer: @AwsCdkDsl CfnSinkProps.Builder.() -> Unit): CfnSinkProps
-    = CfnSinkProps.Builder().apply(initializer).build()
+public fun buildCfnSinkProps(initializer: @AwsCdkDsl CfnSinkProps.Builder.() -> Unit = {}):
+    CfnSinkProps = CfnSinkProps.Builder().apply(initializer).build()

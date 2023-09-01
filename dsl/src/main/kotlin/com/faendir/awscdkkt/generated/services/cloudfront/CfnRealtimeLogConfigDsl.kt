@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.cloudfront.CfnRealtimeLogConfigProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnRealtimeLogConfig(id: String, props: CfnRealtimeLogConfigProps):
-    CfnRealtimeLogConfig = CfnRealtimeLogConfig(this, id, props)
-
-@Generated
 public fun Construct.cfnRealtimeLogConfig(
   id: String,
   props: CfnRealtimeLogConfigProps,
-  initializer: @AwsCdkDsl CfnRealtimeLogConfig.() -> Unit,
+  initializer: @AwsCdkDsl CfnRealtimeLogConfig.() -> Unit = {},
 ): CfnRealtimeLogConfig = CfnRealtimeLogConfig(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnRealtimeLogConfig(id: String, initializer: @AwsCdkDsl
-    CfnRealtimeLogConfig.Builder.() -> Unit): CfnRealtimeLogConfig =
+    CfnRealtimeLogConfig.Builder.() -> Unit = {}): CfnRealtimeLogConfig =
     CfnRealtimeLogConfig.Builder.create(this, id).apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ce.CfnAnomalyMonitorProps
 
 @Generated
 public fun buildCfnAnomalyMonitorProps(initializer: @AwsCdkDsl
-    CfnAnomalyMonitorProps.Builder.() -> Unit): CfnAnomalyMonitorProps =
+    CfnAnomalyMonitorProps.Builder.() -> Unit = {}): CfnAnomalyMonitorProps =
     CfnAnomalyMonitorProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.timestream.CfnScheduledQuery
 
 @Generated
 public fun buildScheduleConfigurationProperty(initializer: @AwsCdkDsl
-    CfnScheduledQuery.ScheduleConfigurationProperty.Builder.() -> Unit):
+    CfnScheduledQuery.ScheduleConfigurationProperty.Builder.() -> Unit = {}):
     CfnScheduledQuery.ScheduleConfigurationProperty =
     CfnScheduledQuery.ScheduleConfigurationProperty.Builder().apply(initializer).build()

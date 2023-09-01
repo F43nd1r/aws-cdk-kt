@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
 public fun buildProcessorParameterProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.ProcessorParameterProperty.Builder.() -> Unit):
+    CfnDeliveryStream.ProcessorParameterProperty.Builder.() -> Unit = {}):
     CfnDeliveryStream.ProcessorParameterProperty =
     CfnDeliveryStream.ProcessorParameterProperty.Builder().apply(initializer).build()

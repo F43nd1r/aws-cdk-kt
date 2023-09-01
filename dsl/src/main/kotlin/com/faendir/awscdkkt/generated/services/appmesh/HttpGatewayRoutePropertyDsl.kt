@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appmesh.CfnGatewayRoute
 
 @Generated
 public fun buildHttpGatewayRouteProperty(initializer: @AwsCdkDsl
-    CfnGatewayRoute.HttpGatewayRouteProperty.Builder.() -> Unit):
+    CfnGatewayRoute.HttpGatewayRouteProperty.Builder.() -> Unit = {}):
     CfnGatewayRoute.HttpGatewayRouteProperty =
     CfnGatewayRoute.HttpGatewayRouteProperty.Builder().apply(initializer).build()

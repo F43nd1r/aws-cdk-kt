@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildCustomContentVisualProperty(initializer: @AwsCdkDsl
-    CfnTemplate.CustomContentVisualProperty.Builder.() -> Unit):
+    CfnTemplate.CustomContentVisualProperty.Builder.() -> Unit = {}):
     CfnTemplate.CustomContentVisualProperty =
     CfnTemplate.CustomContentVisualProperty.Builder().apply(initializer).build()

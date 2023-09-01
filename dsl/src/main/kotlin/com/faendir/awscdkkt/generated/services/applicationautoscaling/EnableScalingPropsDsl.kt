@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.applicationautoscaling.EnableScalingProps
 
 @Generated
-public fun buildEnableScalingProps(initializer: @AwsCdkDsl EnableScalingProps.Builder.() -> Unit):
-    EnableScalingProps = EnableScalingProps.Builder().apply(initializer).build()
+public fun buildEnableScalingProps(initializer: @AwsCdkDsl EnableScalingProps.Builder.() -> Unit =
+    {}): EnableScalingProps = EnableScalingProps.Builder().apply(initializer).build()

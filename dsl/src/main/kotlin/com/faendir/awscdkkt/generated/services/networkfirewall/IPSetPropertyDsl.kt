@@ -6,6 +6,6 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkfirewall.CfnRuleGroup
 
 @Generated
-public fun buildIPSetProperty(initializer: @AwsCdkDsl
-    CfnRuleGroup.IPSetProperty.Builder.() -> Unit): CfnRuleGroup.IPSetProperty =
+public fun buildIPSetProperty(initializer: @AwsCdkDsl CfnRuleGroup.IPSetProperty.Builder.() -> Unit
+    = {}): CfnRuleGroup.IPSetProperty =
     CfnRuleGroup.IPSetProperty.Builder().apply(initializer).build()

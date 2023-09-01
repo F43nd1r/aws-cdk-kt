@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.appconfig.CfnDeploymentStrategyProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDeploymentStrategy(id: String, props: CfnDeploymentStrategyProps):
-    CfnDeploymentStrategy = CfnDeploymentStrategy(this, id, props)
-
-@Generated
 public fun Construct.cfnDeploymentStrategy(
   id: String,
   props: CfnDeploymentStrategyProps,
-  initializer: @AwsCdkDsl CfnDeploymentStrategy.() -> Unit,
+  initializer: @AwsCdkDsl CfnDeploymentStrategy.() -> Unit = {},
 ): CfnDeploymentStrategy = CfnDeploymentStrategy(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnDeploymentStrategy(id: String, initializer: @AwsCdkDsl
-    CfnDeploymentStrategy.Builder.() -> Unit): CfnDeploymentStrategy =
+    CfnDeploymentStrategy.Builder.() -> Unit = {}): CfnDeploymentStrategy =
     CfnDeploymentStrategy.Builder.create(this, id).apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.fsx.CfnFileSystem
 
 @Generated
 public fun buildAuditLogConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFileSystem.AuditLogConfigurationProperty.Builder.() -> Unit):
+    CfnFileSystem.AuditLogConfigurationProperty.Builder.() -> Unit = {}):
     CfnFileSystem.AuditLogConfigurationProperty =
     CfnFileSystem.AuditLogConfigurationProperty.Builder().apply(initializer).build()

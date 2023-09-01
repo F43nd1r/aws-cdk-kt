@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.dlm.CfnLifecyclePolicy
 
 @Generated
 public fun buildCreateRuleProperty(initializer: @AwsCdkDsl
-    CfnLifecyclePolicy.CreateRuleProperty.Builder.() -> Unit): CfnLifecyclePolicy.CreateRuleProperty
-    = CfnLifecyclePolicy.CreateRuleProperty.Builder().apply(initializer).build()
+    CfnLifecyclePolicy.CreateRuleProperty.Builder.() -> Unit = {}):
+    CfnLifecyclePolicy.CreateRuleProperty =
+    CfnLifecyclePolicy.CreateRuleProperty.Builder().apply(initializer).build()

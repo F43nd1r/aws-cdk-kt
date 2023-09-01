@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.ActivityProps
 
 @Generated
-public fun buildActivityProps(initializer: @AwsCdkDsl ActivityProps.Builder.() -> Unit):
+public fun buildActivityProps(initializer: @AwsCdkDsl ActivityProps.Builder.() -> Unit = {}):
     ActivityProps = ActivityProps.Builder().apply(initializer).build()

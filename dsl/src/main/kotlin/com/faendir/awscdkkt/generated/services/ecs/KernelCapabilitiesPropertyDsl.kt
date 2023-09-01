@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
 public fun buildKernelCapabilitiesProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.KernelCapabilitiesProperty.Builder.() -> Unit):
+    CfnTaskDefinition.KernelCapabilitiesProperty.Builder.() -> Unit = {}):
     CfnTaskDefinition.KernelCapabilitiesProperty =
     CfnTaskDefinition.KernelCapabilitiesProperty.Builder().apply(initializer).build()

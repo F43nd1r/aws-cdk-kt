@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.servicediscovery.CfnService
 
 @Generated
 public fun buildHealthCheckCustomConfigProperty(initializer: @AwsCdkDsl
-    CfnService.HealthCheckCustomConfigProperty.Builder.() -> Unit):
+    CfnService.HealthCheckCustomConfigProperty.Builder.() -> Unit = {}):
     CfnService.HealthCheckCustomConfigProperty =
     CfnService.HealthCheckCustomConfigProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.pinpointemail.CfnConfigurationSetEventDes
 
 @Generated
 public fun buildPinpointDestinationProperty(initializer: @AwsCdkDsl
-    CfnConfigurationSetEventDestination.PinpointDestinationProperty.Builder.() -> Unit):
+    CfnConfigurationSetEventDestination.PinpointDestinationProperty.Builder.() -> Unit = {}):
     CfnConfigurationSetEventDestination.PinpointDestinationProperty =
     CfnConfigurationSetEventDestination.PinpointDestinationProperty.Builder().apply(initializer).build()

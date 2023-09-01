@@ -9,15 +9,12 @@ import software.amazon.awscdk.services.lakeformation.CfnTagProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnTag(id: String, props: CfnTagProps): CfnTag = CfnTag(this, id, props)
-
-@Generated
 public fun Construct.cfnTag(
   id: String,
   props: CfnTagProps,
-  initializer: @AwsCdkDsl CfnTag.() -> Unit,
+  initializer: @AwsCdkDsl CfnTag.() -> Unit = {},
 ): CfnTag = CfnTag(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTag(id: String, initializer: @AwsCdkDsl CfnTag.Builder.() -> Unit):
-    CfnTag = CfnTag.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTag(id: String, initializer: @AwsCdkDsl CfnTag.Builder.() -> Unit =
+    {}): CfnTag = CfnTag.Builder.create(this, id).apply(initializer).build()

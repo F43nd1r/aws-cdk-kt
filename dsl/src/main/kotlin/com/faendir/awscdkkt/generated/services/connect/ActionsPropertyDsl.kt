@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnRule
 
 @Generated
-public fun buildActionsProperty(initializer: @AwsCdkDsl CfnRule.ActionsProperty.Builder.() -> Unit):
-    CfnRule.ActionsProperty = CfnRule.ActionsProperty.Builder().apply(initializer).build()
+public fun buildActionsProperty(initializer: @AwsCdkDsl CfnRule.ActionsProperty.Builder.() -> Unit =
+    {}): CfnRule.ActionsProperty = CfnRule.ActionsProperty.Builder().apply(initializer).build()

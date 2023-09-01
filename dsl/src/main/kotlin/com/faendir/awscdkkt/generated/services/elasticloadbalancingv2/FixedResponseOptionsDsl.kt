@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.FixedResponseOptions
 
 @Generated
-public fun buildFixedResponseOptions(initializer: @AwsCdkDsl
-    FixedResponseOptions.Builder.() -> Unit): FixedResponseOptions =
-    FixedResponseOptions.Builder().apply(initializer).build()
+public fun buildFixedResponseOptions(initializer: @AwsCdkDsl FixedResponseOptions.Builder.() -> Unit
+    = {}): FixedResponseOptions = FixedResponseOptions.Builder().apply(initializer).build()

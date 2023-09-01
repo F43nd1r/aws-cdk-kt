@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.budgets.CfnBudgetsAction
 
 @Generated
 public fun buildSsmActionDefinitionProperty(initializer: @AwsCdkDsl
-    CfnBudgetsAction.SsmActionDefinitionProperty.Builder.() -> Unit):
+    CfnBudgetsAction.SsmActionDefinitionProperty.Builder.() -> Unit = {}):
     CfnBudgetsAction.SsmActionDefinitionProperty =
     CfnBudgetsAction.SsmActionDefinitionProperty.Builder().apply(initializer).build()

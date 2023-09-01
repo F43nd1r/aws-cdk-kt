@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.devicefarm.CfnDevicePoolProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDevicePool(id: String, props: CfnDevicePoolProps): CfnDevicePool =
-    CfnDevicePool(this, id, props)
-
-@Generated
 public fun Construct.cfnDevicePool(
   id: String,
   props: CfnDevicePoolProps,
-  initializer: @AwsCdkDsl CfnDevicePool.() -> Unit,
+  initializer: @AwsCdkDsl CfnDevicePool.() -> Unit = {},
 ): CfnDevicePool = CfnDevicePool(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnDevicePool(id: String, initializer: @AwsCdkDsl
-    CfnDevicePool.Builder.() -> Unit): CfnDevicePool = CfnDevicePool.Builder.create(this,
+    CfnDevicePool.Builder.() -> Unit = {}): CfnDevicePool = CfnDevicePool.Builder.create(this,
     id).apply(initializer).build()

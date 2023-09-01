@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.omics.CfnWorkflow
 
 @Generated
 public fun buildWorkflowParameterProperty(initializer: @AwsCdkDsl
-    CfnWorkflow.WorkflowParameterProperty.Builder.() -> Unit): CfnWorkflow.WorkflowParameterProperty
-    = CfnWorkflow.WorkflowParameterProperty.Builder().apply(initializer).build()
+    CfnWorkflow.WorkflowParameterProperty.Builder.() -> Unit = {}):
+    CfnWorkflow.WorkflowParameterProperty =
+    CfnWorkflow.WorkflowParameterProperty.Builder().apply(initializer).build()

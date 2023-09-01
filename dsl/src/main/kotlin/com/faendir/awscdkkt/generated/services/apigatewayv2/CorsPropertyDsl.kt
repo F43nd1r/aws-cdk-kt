@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.CfnApi
 
 @Generated
-public fun buildCorsProperty(initializer: @AwsCdkDsl CfnApi.CorsProperty.Builder.() -> Unit):
+public fun buildCorsProperty(initializer: @AwsCdkDsl CfnApi.CorsProperty.Builder.() -> Unit = {}):
     CfnApi.CorsProperty = CfnApi.CorsProperty.Builder().apply(initializer).build()

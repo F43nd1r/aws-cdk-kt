@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.inspector.CfnAssessmentTemplateProps
 
 @Generated
 public fun buildCfnAssessmentTemplateProps(initializer: @AwsCdkDsl
-    CfnAssessmentTemplateProps.Builder.() -> Unit): CfnAssessmentTemplateProps =
+    CfnAssessmentTemplateProps.Builder.() -> Unit = {}): CfnAssessmentTemplateProps =
     CfnAssessmentTemplateProps.Builder().apply(initializer).build()

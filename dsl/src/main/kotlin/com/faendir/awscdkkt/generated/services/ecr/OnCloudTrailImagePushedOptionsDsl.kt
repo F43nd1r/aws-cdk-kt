@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecr.OnCloudTrailImagePushedOptions
 
 @Generated
 public fun buildOnCloudTrailImagePushedOptions(initializer: @AwsCdkDsl
-    OnCloudTrailImagePushedOptions.Builder.() -> Unit): OnCloudTrailImagePushedOptions =
+    OnCloudTrailImagePushedOptions.Builder.() -> Unit = {}): OnCloudTrailImagePushedOptions =
     OnCloudTrailImagePushedOptions.Builder().apply(initializer).build()

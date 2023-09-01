@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildFilterGroupProperty(initializer: @AwsCdkDsl
-    CfnTemplate.FilterGroupProperty.Builder.() -> Unit): CfnTemplate.FilterGroupProperty =
+    CfnTemplate.FilterGroupProperty.Builder.() -> Unit = {}): CfnTemplate.FilterGroupProperty =
     CfnTemplate.FilterGroupProperty.Builder().apply(initializer).build()

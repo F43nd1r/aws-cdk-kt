@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicediscovery.BaseInstanceProps
 
 @Generated
-public fun buildBaseInstanceProps(initializer: @AwsCdkDsl BaseInstanceProps.Builder.() -> Unit):
-    BaseInstanceProps = BaseInstanceProps.Builder().apply(initializer).build()
+public fun buildBaseInstanceProps(initializer: @AwsCdkDsl BaseInstanceProps.Builder.() -> Unit =
+    {}): BaseInstanceProps = BaseInstanceProps.Builder().apply(initializer).build()

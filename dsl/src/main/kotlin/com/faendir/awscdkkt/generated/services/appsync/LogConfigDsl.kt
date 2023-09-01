@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.LogConfig
 
 @Generated
-public fun buildLogConfig(initializer: @AwsCdkDsl LogConfig.Builder.() -> Unit): LogConfig =
+public fun buildLogConfig(initializer: @AwsCdkDsl LogConfig.Builder.() -> Unit = {}): LogConfig =
     LogConfig.Builder().apply(initializer).build()

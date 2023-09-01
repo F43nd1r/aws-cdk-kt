@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opensearchservice.ZoneAwarenessConfig
 
 @Generated
-public fun buildZoneAwarenessConfig(initializer: @AwsCdkDsl ZoneAwarenessConfig.Builder.() -> Unit):
-    ZoneAwarenessConfig = ZoneAwarenessConfig.Builder().apply(initializer).build()
+public fun buildZoneAwarenessConfig(initializer: @AwsCdkDsl ZoneAwarenessConfig.Builder.() -> Unit =
+    {}): ZoneAwarenessConfig = ZoneAwarenessConfig.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ec2.CfnNetworkAclEntryProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnNetworkAclEntry(id: String, props: CfnNetworkAclEntryProps):
-    CfnNetworkAclEntry = CfnNetworkAclEntry(this, id, props)
-
-@Generated
 public fun Construct.cfnNetworkAclEntry(
   id: String,
   props: CfnNetworkAclEntryProps,
-  initializer: @AwsCdkDsl CfnNetworkAclEntry.() -> Unit,
+  initializer: @AwsCdkDsl CfnNetworkAclEntry.() -> Unit = {},
 ): CfnNetworkAclEntry = CfnNetworkAclEntry(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnNetworkAclEntry(id: String, initializer: @AwsCdkDsl
-    CfnNetworkAclEntry.Builder.() -> Unit): CfnNetworkAclEntry =
+    CfnNetworkAclEntry.Builder.() -> Unit = {}): CfnNetworkAclEntry =
     CfnNetworkAclEntry.Builder.create(this, id).apply(initializer).build()

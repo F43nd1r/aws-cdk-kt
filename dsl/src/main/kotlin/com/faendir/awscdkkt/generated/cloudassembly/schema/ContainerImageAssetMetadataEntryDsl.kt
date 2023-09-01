@@ -7,5 +7,5 @@ import software.amazon.awscdk.cloudassembly.schema.ContainerImageAssetMetadataEn
 
 @Generated
 public fun buildContainerImageAssetMetadataEntry(initializer: @AwsCdkDsl
-    ContainerImageAssetMetadataEntry.Builder.() -> Unit): ContainerImageAssetMetadataEntry =
+    ContainerImageAssetMetadataEntry.Builder.() -> Unit = {}): ContainerImageAssetMetadataEntry =
     ContainerImageAssetMetadataEntry.Builder().apply(initializer).build()

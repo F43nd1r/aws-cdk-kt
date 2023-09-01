@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildWaterfallVisualProperty(initializer: @AwsCdkDsl
-    CfnTemplate.WaterfallVisualProperty.Builder.() -> Unit): CfnTemplate.WaterfallVisualProperty =
+    CfnTemplate.WaterfallVisualProperty.Builder.() -> Unit = {}):
+    CfnTemplate.WaterfallVisualProperty =
     CfnTemplate.WaterfallVisualProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.resourcegroups.CfnGroup
 
 @Generated
 public fun buildTagFilterProperty(initializer: @AwsCdkDsl
-    CfnGroup.TagFilterProperty.Builder.() -> Unit): CfnGroup.TagFilterProperty =
+    CfnGroup.TagFilterProperty.Builder.() -> Unit = {}): CfnGroup.TagFilterProperty =
     CfnGroup.TagFilterProperty.Builder().apply(initializer).build()

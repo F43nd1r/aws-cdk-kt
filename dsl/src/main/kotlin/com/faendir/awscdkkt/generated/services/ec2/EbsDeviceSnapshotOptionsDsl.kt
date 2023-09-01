@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.EbsDeviceSnapshotOptions
 
 @Generated
 public fun buildEbsDeviceSnapshotOptions(initializer: @AwsCdkDsl
-    EbsDeviceSnapshotOptions.Builder.() -> Unit): EbsDeviceSnapshotOptions =
+    EbsDeviceSnapshotOptions.Builder.() -> Unit = {}): EbsDeviceSnapshotOptions =
     EbsDeviceSnapshotOptions.Builder().apply(initializer).build()

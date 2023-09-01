@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildPeriodToDateComputationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PeriodToDateComputationProperty.Builder.() -> Unit):
+    CfnTemplate.PeriodToDateComputationProperty.Builder.() -> Unit = {}):
     CfnTemplate.PeriodToDateComputationProperty =
     CfnTemplate.PeriodToDateComputationProperty.Builder().apply(initializer).build()

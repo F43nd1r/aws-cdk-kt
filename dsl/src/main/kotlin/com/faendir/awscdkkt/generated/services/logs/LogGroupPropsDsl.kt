@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.LogGroupProps
 
 @Generated
-public fun buildLogGroupProps(initializer: @AwsCdkDsl LogGroupProps.Builder.() -> Unit):
+public fun buildLogGroupProps(initializer: @AwsCdkDsl LogGroupProps.Builder.() -> Unit = {}):
     LogGroupProps = LogGroupProps.Builder().apply(initializer).build()

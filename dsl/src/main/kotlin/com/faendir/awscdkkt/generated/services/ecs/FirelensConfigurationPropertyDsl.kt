@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
 public fun buildFirelensConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.FirelensConfigurationProperty.Builder.() -> Unit):
+    CfnTaskDefinition.FirelensConfigurationProperty.Builder.() -> Unit = {}):
     CfnTaskDefinition.FirelensConfigurationProperty =
     CfnTaskDefinition.FirelensConfigurationProperty.Builder().apply(initializer).build()

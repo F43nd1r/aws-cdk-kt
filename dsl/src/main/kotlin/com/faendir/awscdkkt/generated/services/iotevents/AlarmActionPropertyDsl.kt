@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iotevents.CfnAlarmModel
 
 @Generated
 public fun buildAlarmActionProperty(initializer: @AwsCdkDsl
-    CfnAlarmModel.AlarmActionProperty.Builder.() -> Unit): CfnAlarmModel.AlarmActionProperty =
+    CfnAlarmModel.AlarmActionProperty.Builder.() -> Unit = {}): CfnAlarmModel.AlarmActionProperty =
     CfnAlarmModel.AlarmActionProperty.Builder().apply(initializer).build()

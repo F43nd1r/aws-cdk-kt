@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnAssistantProps
 
 @Generated
-public fun buildCfnAssistantProps(initializer: @AwsCdkDsl CfnAssistantProps.Builder.() -> Unit):
-    CfnAssistantProps = CfnAssistantProps.Builder().apply(initializer).build()
+public fun buildCfnAssistantProps(initializer: @AwsCdkDsl CfnAssistantProps.Builder.() -> Unit =
+    {}): CfnAssistantProps = CfnAssistantProps.Builder().apply(initializer).build()

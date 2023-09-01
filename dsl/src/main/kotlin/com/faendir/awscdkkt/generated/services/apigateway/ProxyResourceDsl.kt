@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.apigateway.ProxyResourceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.proxyResource(id: String, props: ProxyResourceProps): ProxyResource =
-    ProxyResource(this, id, props)
-
-@Generated
 public fun Construct.proxyResource(
   id: String,
   props: ProxyResourceProps,
-  initializer: @AwsCdkDsl ProxyResource.() -> Unit,
+  initializer: @AwsCdkDsl ProxyResource.() -> Unit = {},
 ): ProxyResource = ProxyResource(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildProxyResource(id: String, initializer: @AwsCdkDsl
-    ProxyResource.Builder.() -> Unit): ProxyResource = ProxyResource.Builder.create(this,
+    ProxyResource.Builder.() -> Unit = {}): ProxyResource = ProxyResource.Builder.create(this,
     id).apply(initializer).build()

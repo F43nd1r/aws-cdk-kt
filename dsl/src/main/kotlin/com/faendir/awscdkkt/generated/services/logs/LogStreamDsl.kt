@@ -9,17 +9,12 @@ import software.amazon.awscdk.services.logs.LogStreamProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.logStream(id: String, props: LogStreamProps): LogStream = LogStream(this, id,
-    props)
-
-@Generated
 public fun Construct.logStream(
   id: String,
   props: LogStreamProps,
-  initializer: @AwsCdkDsl LogStream.() -> Unit,
+  initializer: @AwsCdkDsl LogStream.() -> Unit = {},
 ): LogStream = LogStream(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildLogStream(id: String, initializer: @AwsCdkDsl
-    LogStream.Builder.() -> Unit): LogStream = LogStream.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildLogStream(id: String, initializer: @AwsCdkDsl LogStream.Builder.() -> Unit
+    = {}): LogStream = LogStream.Builder.create(this, id).apply(initializer).build()

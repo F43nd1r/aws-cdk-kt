@@ -9,16 +9,12 @@ import software.amazon.awscdk.services.globalaccelerator.ListenerProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.listener(id: String, props: ListenerProps): Listener = Listener(this, id,
-    props)
-
-@Generated
 public fun Construct.listener(
   id: String,
   props: ListenerProps,
-  initializer: @AwsCdkDsl Listener.() -> Unit,
+  initializer: @AwsCdkDsl Listener.() -> Unit = {},
 ): Listener = Listener(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildListener(id: String, initializer: @AwsCdkDsl Listener.Builder.() -> Unit):
-    Listener = Listener.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildListener(id: String, initializer: @AwsCdkDsl Listener.Builder.() -> Unit =
+    {}): Listener = Listener.Builder.create(this, id).apply(initializer).build()

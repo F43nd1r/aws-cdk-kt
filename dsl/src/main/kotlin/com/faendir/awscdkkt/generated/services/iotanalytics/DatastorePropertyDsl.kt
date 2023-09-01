@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iotanalytics.CfnPipeline
 
 @Generated
 public fun buildDatastoreProperty(initializer: @AwsCdkDsl
-    CfnPipeline.DatastoreProperty.Builder.() -> Unit): CfnPipeline.DatastoreProperty =
+    CfnPipeline.DatastoreProperty.Builder.() -> Unit = {}): CfnPipeline.DatastoreProperty =
     CfnPipeline.DatastoreProperty.Builder().apply(initializer).build()

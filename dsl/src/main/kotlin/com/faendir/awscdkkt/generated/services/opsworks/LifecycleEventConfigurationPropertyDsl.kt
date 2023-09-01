@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.opsworks.CfnLayer
 
 @Generated
 public fun buildLifecycleEventConfigurationProperty(initializer: @AwsCdkDsl
-    CfnLayer.LifecycleEventConfigurationProperty.Builder.() -> Unit):
+    CfnLayer.LifecycleEventConfigurationProperty.Builder.() -> Unit = {}):
     CfnLayer.LifecycleEventConfigurationProperty =
     CfnLayer.LifecycleEventConfigurationProperty.Builder().apply(initializer).build()

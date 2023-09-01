@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.rds.DatabaseInstanceSourceProps
 
 @Generated
 public fun buildDatabaseInstanceSourceProps(initializer: @AwsCdkDsl
-    DatabaseInstanceSourceProps.Builder.() -> Unit): DatabaseInstanceSourceProps =
+    DatabaseInstanceSourceProps.Builder.() -> Unit = {}): DatabaseInstanceSourceProps =
     DatabaseInstanceSourceProps.Builder().apply(initializer).build()

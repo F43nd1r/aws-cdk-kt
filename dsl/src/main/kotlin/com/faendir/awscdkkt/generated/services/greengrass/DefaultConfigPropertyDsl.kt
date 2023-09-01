@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.greengrass.CfnFunctionDefinitionVersion
 
 @Generated
 public fun buildDefaultConfigProperty(initializer: @AwsCdkDsl
-    CfnFunctionDefinitionVersion.DefaultConfigProperty.Builder.() -> Unit):
+    CfnFunctionDefinitionVersion.DefaultConfigProperty.Builder.() -> Unit = {}):
     CfnFunctionDefinitionVersion.DefaultConfigProperty =
     CfnFunctionDefinitionVersion.DefaultConfigProperty.Builder().apply(initializer).build()

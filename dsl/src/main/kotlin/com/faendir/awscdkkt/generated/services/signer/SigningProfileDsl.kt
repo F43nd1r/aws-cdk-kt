@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.signer.SigningProfileProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.signingProfile(id: String, props: SigningProfileProps): SigningProfile =
-    SigningProfile(this, id, props)
-
-@Generated
 public fun Construct.signingProfile(
   id: String,
   props: SigningProfileProps,
-  initializer: @AwsCdkDsl SigningProfile.() -> Unit,
+  initializer: @AwsCdkDsl SigningProfile.() -> Unit = {},
 ): SigningProfile = SigningProfile(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildSigningProfile(id: String, initializer: @AwsCdkDsl
-    SigningProfile.Builder.() -> Unit): SigningProfile = SigningProfile.Builder.create(this,
+    SigningProfile.Builder.() -> Unit = {}): SigningProfile = SigningProfile.Builder.create(this,
     id).apply(initializer).build()

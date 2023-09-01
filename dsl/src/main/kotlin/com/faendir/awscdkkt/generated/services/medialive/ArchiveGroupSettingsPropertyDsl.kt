@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildArchiveGroupSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.ArchiveGroupSettingsProperty.Builder.() -> Unit):
+    CfnChannel.ArchiveGroupSettingsProperty.Builder.() -> Unit = {}):
     CfnChannel.ArchiveGroupSettingsProperty =
     CfnChannel.ArchiveGroupSettingsProperty.Builder().apply(initializer).build()

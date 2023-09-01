@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sagemaker.CfnInferenceExperimentProps
 
 @Generated
 public fun buildCfnInferenceExperimentProps(initializer: @AwsCdkDsl
-    CfnInferenceExperimentProps.Builder.() -> Unit): CfnInferenceExperimentProps =
+    CfnInferenceExperimentProps.Builder.() -> Unit = {}): CfnInferenceExperimentProps =
     CfnInferenceExperimentProps.Builder().apply(initializer).build()

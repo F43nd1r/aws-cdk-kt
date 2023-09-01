@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
 public fun buildInforNexusSourcePropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.InforNexusSourcePropertiesProperty.Builder.() -> Unit):
+    CfnFlow.InforNexusSourcePropertiesProperty.Builder.() -> Unit = {}):
     CfnFlow.InforNexusSourcePropertiesProperty =
     CfnFlow.InforNexusSourcePropertiesProperty.Builder().apply(initializer).build()

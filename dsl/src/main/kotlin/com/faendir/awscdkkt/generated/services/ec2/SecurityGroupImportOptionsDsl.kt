@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.SecurityGroupImportOptions
 
 @Generated
 public fun buildSecurityGroupImportOptions(initializer: @AwsCdkDsl
-    SecurityGroupImportOptions.Builder.() -> Unit): SecurityGroupImportOptions =
+    SecurityGroupImportOptions.Builder.() -> Unit = {}): SecurityGroupImportOptions =
     SecurityGroupImportOptions.Builder().apply(initializer).build()

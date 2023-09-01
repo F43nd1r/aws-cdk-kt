@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.cognito.CfnUserPool
 
 @Generated
 public fun buildCustomEmailSenderProperty(initializer: @AwsCdkDsl
-    CfnUserPool.CustomEmailSenderProperty.Builder.() -> Unit): CfnUserPool.CustomEmailSenderProperty
-    = CfnUserPool.CustomEmailSenderProperty.Builder().apply(initializer).build()
+    CfnUserPool.CustomEmailSenderProperty.Builder.() -> Unit = {}):
+    CfnUserPool.CustomEmailSenderProperty =
+    CfnUserPool.CustomEmailSenderProperty.Builder().apply(initializer).build()

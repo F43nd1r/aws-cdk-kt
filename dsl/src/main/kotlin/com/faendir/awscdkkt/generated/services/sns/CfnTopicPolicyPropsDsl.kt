@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sns.CfnTopicPolicyProps
 
 @Generated
-public fun buildCfnTopicPolicyProps(initializer: @AwsCdkDsl CfnTopicPolicyProps.Builder.() -> Unit):
-    CfnTopicPolicyProps = CfnTopicPolicyProps.Builder().apply(initializer).build()
+public fun buildCfnTopicPolicyProps(initializer: @AwsCdkDsl CfnTopicPolicyProps.Builder.() -> Unit =
+    {}): CfnTopicPolicyProps = CfnTopicPolicyProps.Builder().apply(initializer).build()

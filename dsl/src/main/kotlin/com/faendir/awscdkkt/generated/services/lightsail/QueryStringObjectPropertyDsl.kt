@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lightsail.CfnDistribution
 
 @Generated
 public fun buildQueryStringObjectProperty(initializer: @AwsCdkDsl
-    CfnDistribution.QueryStringObjectProperty.Builder.() -> Unit):
+    CfnDistribution.QueryStringObjectProperty.Builder.() -> Unit = {}):
     CfnDistribution.QueryStringObjectProperty =
     CfnDistribution.QueryStringObjectProperty.Builder().apply(initializer).build()

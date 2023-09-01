@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.greengrass.CfnSubscriptionDefinitionVersi
 
 @Generated
 public fun buildCfnSubscriptionDefinitionVersionProps(initializer: @AwsCdkDsl
-    CfnSubscriptionDefinitionVersionProps.Builder.() -> Unit): CfnSubscriptionDefinitionVersionProps
-    = CfnSubscriptionDefinitionVersionProps.Builder().apply(initializer).build()
+    CfnSubscriptionDefinitionVersionProps.Builder.() -> Unit = {}):
+    CfnSubscriptionDefinitionVersionProps =
+    CfnSubscriptionDefinitionVersionProps.Builder().apply(initializer).build()

@@ -9,17 +9,12 @@ import software.amazon.awscdk.services.opsworks.CfnVolumeProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnVolume(id: String, props: CfnVolumeProps): CfnVolume = CfnVolume(this, id,
-    props)
-
-@Generated
 public fun Construct.cfnVolume(
   id: String,
   props: CfnVolumeProps,
-  initializer: @AwsCdkDsl CfnVolume.() -> Unit,
+  initializer: @AwsCdkDsl CfnVolume.() -> Unit = {},
 ): CfnVolume = CfnVolume(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVolume(id: String, initializer: @AwsCdkDsl
-    CfnVolume.Builder.() -> Unit): CfnVolume = CfnVolume.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnVolume(id: String, initializer: @AwsCdkDsl CfnVolume.Builder.() -> Unit
+    = {}): CfnVolume = CfnVolume.Builder.create(this, id).apply(initializer).build()

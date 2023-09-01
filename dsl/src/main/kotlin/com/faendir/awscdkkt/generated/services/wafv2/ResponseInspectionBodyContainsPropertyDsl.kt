@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
 public fun buildResponseInspectionBodyContainsProperty(initializer: @AwsCdkDsl
-    CfnWebACL.ResponseInspectionBodyContainsProperty.Builder.() -> Unit):
+    CfnWebACL.ResponseInspectionBodyContainsProperty.Builder.() -> Unit = {}):
     CfnWebACL.ResponseInspectionBodyContainsProperty =
     CfnWebACL.ResponseInspectionBodyContainsProperty.Builder().apply(initializer).build()

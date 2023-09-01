@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.gamelift.CfnGameServerGroup
 
 @Generated
 public fun buildInstanceDefinitionProperty(initializer: @AwsCdkDsl
-    CfnGameServerGroup.InstanceDefinitionProperty.Builder.() -> Unit):
+    CfnGameServerGroup.InstanceDefinitionProperty.Builder.() -> Unit = {}):
     CfnGameServerGroup.InstanceDefinitionProperty =
     CfnGameServerGroup.InstanceDefinitionProperty.Builder().apply(initializer).build()

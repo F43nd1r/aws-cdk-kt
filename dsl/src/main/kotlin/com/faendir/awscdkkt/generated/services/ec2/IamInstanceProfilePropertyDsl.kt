@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
 public fun buildIamInstanceProfileProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.IamInstanceProfileProperty.Builder.() -> Unit):
+    CfnLaunchTemplate.IamInstanceProfileProperty.Builder.() -> Unit = {}):
     CfnLaunchTemplate.IamInstanceProfileProperty =
     CfnLaunchTemplate.IamInstanceProfileProperty.Builder().apply(initializer).build()

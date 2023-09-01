@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnEndpoint
 
 @Generated
-public fun buildAlarmProperty(initializer: @AwsCdkDsl CfnEndpoint.AlarmProperty.Builder.() -> Unit):
-    CfnEndpoint.AlarmProperty = CfnEndpoint.AlarmProperty.Builder().apply(initializer).build()
+public fun buildAlarmProperty(initializer: @AwsCdkDsl CfnEndpoint.AlarmProperty.Builder.() -> Unit =
+    {}): CfnEndpoint.AlarmProperty = CfnEndpoint.AlarmProperty.Builder().apply(initializer).build()

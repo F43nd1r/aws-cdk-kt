@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.eks.CfnFargateProfile
 
 @Generated
 public fun buildSelectorProperty(initializer: @AwsCdkDsl
-    CfnFargateProfile.SelectorProperty.Builder.() -> Unit): CfnFargateProfile.SelectorProperty =
-    CfnFargateProfile.SelectorProperty.Builder().apply(initializer).build()
+    CfnFargateProfile.SelectorProperty.Builder.() -> Unit = {}): CfnFargateProfile.SelectorProperty
+    = CfnFargateProfile.SelectorProperty.Builder().apply(initializer).build()

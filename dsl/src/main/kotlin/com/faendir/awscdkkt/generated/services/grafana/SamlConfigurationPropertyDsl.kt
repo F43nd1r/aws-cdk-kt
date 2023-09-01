@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.grafana.CfnWorkspace
 
 @Generated
 public fun buildSamlConfigurationProperty(initializer: @AwsCdkDsl
-    CfnWorkspace.SamlConfigurationProperty.Builder.() -> Unit):
+    CfnWorkspace.SamlConfigurationProperty.Builder.() -> Unit = {}):
     CfnWorkspace.SamlConfigurationProperty =
     CfnWorkspace.SamlConfigurationProperty.Builder().apply(initializer).build()

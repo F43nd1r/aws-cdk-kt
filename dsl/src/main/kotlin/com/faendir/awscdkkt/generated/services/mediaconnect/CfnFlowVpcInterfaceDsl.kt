@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.mediaconnect.CfnFlowVpcInterfaceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnFlowVpcInterface(id: String, props: CfnFlowVpcInterfaceProps):
-    CfnFlowVpcInterface = CfnFlowVpcInterface(this, id, props)
-
-@Generated
 public fun Construct.cfnFlowVpcInterface(
   id: String,
   props: CfnFlowVpcInterfaceProps,
-  initializer: @AwsCdkDsl CfnFlowVpcInterface.() -> Unit,
+  initializer: @AwsCdkDsl CfnFlowVpcInterface.() -> Unit = {},
 ): CfnFlowVpcInterface = CfnFlowVpcInterface(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnFlowVpcInterface(id: String, initializer: @AwsCdkDsl
-    CfnFlowVpcInterface.Builder.() -> Unit): CfnFlowVpcInterface =
+    CfnFlowVpcInterface.Builder.() -> Unit = {}): CfnFlowVpcInterface =
     CfnFlowVpcInterface.Builder.create(this, id).apply(initializer).build()

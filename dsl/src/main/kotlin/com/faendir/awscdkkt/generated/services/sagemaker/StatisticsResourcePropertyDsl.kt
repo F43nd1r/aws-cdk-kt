@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnMonitoringSchedule
 
 @Generated
 public fun buildStatisticsResourceProperty(initializer: @AwsCdkDsl
-    CfnMonitoringSchedule.StatisticsResourceProperty.Builder.() -> Unit):
+    CfnMonitoringSchedule.StatisticsResourceProperty.Builder.() -> Unit = {}):
     CfnMonitoringSchedule.StatisticsResourceProperty =
     CfnMonitoringSchedule.StatisticsResourceProperty.Builder().apply(initializer).build()

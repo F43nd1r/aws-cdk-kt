@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.emr.CfnInstanceGroupConfig
 
 @Generated
 public fun buildScalingRuleProperty(initializer: @AwsCdkDsl
-    CfnInstanceGroupConfig.ScalingRuleProperty.Builder.() -> Unit):
+    CfnInstanceGroupConfig.ScalingRuleProperty.Builder.() -> Unit = {}):
     CfnInstanceGroupConfig.ScalingRuleProperty =
     CfnInstanceGroupConfig.ScalingRuleProperty.Builder().apply(initializer).build()

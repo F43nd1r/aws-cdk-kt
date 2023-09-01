@@ -9,19 +9,14 @@ import software.amazon.awscdk.services.iotwireless.CfnNetworkAnalyzerConfigurati
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnNetworkAnalyzerConfiguration(id: String,
-    props: CfnNetworkAnalyzerConfigurationProps): CfnNetworkAnalyzerConfiguration =
-    CfnNetworkAnalyzerConfiguration(this, id, props)
-
-@Generated
 public fun Construct.cfnNetworkAnalyzerConfiguration(
   id: String,
   props: CfnNetworkAnalyzerConfigurationProps,
-  initializer: @AwsCdkDsl CfnNetworkAnalyzerConfiguration.() -> Unit,
+  initializer: @AwsCdkDsl CfnNetworkAnalyzerConfiguration.() -> Unit = {},
 ): CfnNetworkAnalyzerConfiguration = CfnNetworkAnalyzerConfiguration(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnNetworkAnalyzerConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnNetworkAnalyzerConfiguration.Builder.() -> Unit): CfnNetworkAnalyzerConfiguration =
+    CfnNetworkAnalyzerConfiguration.Builder.() -> Unit = {}): CfnNetworkAnalyzerConfiguration =
     CfnNetworkAnalyzerConfiguration.Builder.create(this, id).apply(initializer).build()

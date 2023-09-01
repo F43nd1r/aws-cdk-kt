@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.CfnClusterCapacityProviderAssociation
 
 @Generated
 public fun buildCapacityProviderStrategyProperty(initializer: @AwsCdkDsl
-    CfnClusterCapacityProviderAssociations.CapacityProviderStrategyProperty.Builder.() -> Unit):
-    CfnClusterCapacityProviderAssociations.CapacityProviderStrategyProperty =
+    CfnClusterCapacityProviderAssociations.CapacityProviderStrategyProperty.Builder.() -> Unit =
+    {}): CfnClusterCapacityProviderAssociations.CapacityProviderStrategyProperty =
     CfnClusterCapacityProviderAssociations.CapacityProviderStrategyProperty.Builder().apply(initializer).build()

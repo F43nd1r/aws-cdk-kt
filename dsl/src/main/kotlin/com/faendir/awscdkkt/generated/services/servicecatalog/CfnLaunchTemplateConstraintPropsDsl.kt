@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.servicecatalog.CfnLaunchTemplateConstrain
 
 @Generated
 public fun buildCfnLaunchTemplateConstraintProps(initializer: @AwsCdkDsl
-    CfnLaunchTemplateConstraintProps.Builder.() -> Unit): CfnLaunchTemplateConstraintProps =
+    CfnLaunchTemplateConstraintProps.Builder.() -> Unit = {}): CfnLaunchTemplateConstraintProps =
     CfnLaunchTemplateConstraintProps.Builder().apply(initializer).build()

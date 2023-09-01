@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDashboardProps
 
 @Generated
-public fun buildCfnDashboardProps(initializer: @AwsCdkDsl CfnDashboardProps.Builder.() -> Unit):
-    CfnDashboardProps = CfnDashboardProps.Builder().apply(initializer).build()
+public fun buildCfnDashboardProps(initializer: @AwsCdkDsl CfnDashboardProps.Builder.() -> Unit =
+    {}): CfnDashboardProps = CfnDashboardProps.Builder().apply(initializer).build()

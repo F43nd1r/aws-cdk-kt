@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codepipeline.actions.CodeStarSourceVariab
 
 @Generated
 public fun buildCodeStarSourceVariables(initializer: @AwsCdkDsl
-    CodeStarSourceVariables.Builder.() -> Unit): CodeStarSourceVariables =
+    CodeStarSourceVariables.Builder.() -> Unit = {}): CodeStarSourceVariables =
     CodeStarSourceVariables.Builder().apply(initializer).build()

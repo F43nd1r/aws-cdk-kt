@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.msk.CfnServerlessClusterProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnServerlessCluster(id: String, props: CfnServerlessClusterProps):
-    CfnServerlessCluster = CfnServerlessCluster(this, id, props)
-
-@Generated
 public fun Construct.cfnServerlessCluster(
   id: String,
   props: CfnServerlessClusterProps,
-  initializer: @AwsCdkDsl CfnServerlessCluster.() -> Unit,
+  initializer: @AwsCdkDsl CfnServerlessCluster.() -> Unit = {},
 ): CfnServerlessCluster = CfnServerlessCluster(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnServerlessCluster(id: String, initializer: @AwsCdkDsl
-    CfnServerlessCluster.Builder.() -> Unit): CfnServerlessCluster =
+    CfnServerlessCluster.Builder.() -> Unit = {}): CfnServerlessCluster =
     CfnServerlessCluster.Builder.create(this, id).apply(initializer).build()

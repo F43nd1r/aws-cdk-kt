@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnConnectorProfile
 
 @Generated
 public fun buildVeevaConnectorProfileCredentialsProperty(initializer: @AwsCdkDsl
-    CfnConnectorProfile.VeevaConnectorProfileCredentialsProperty.Builder.() -> Unit):
+    CfnConnectorProfile.VeevaConnectorProfileCredentialsProperty.Builder.() -> Unit = {}):
     CfnConnectorProfile.VeevaConnectorProfileCredentialsProperty =
     CfnConnectorProfile.VeevaConnectorProfileCredentialsProperty.Builder().apply(initializer).build()

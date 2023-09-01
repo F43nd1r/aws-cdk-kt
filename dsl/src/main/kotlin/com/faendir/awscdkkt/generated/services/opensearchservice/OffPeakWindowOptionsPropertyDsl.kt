@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.opensearchservice.CfnDomain
 
 @Generated
 public fun buildOffPeakWindowOptionsProperty(initializer: @AwsCdkDsl
-    CfnDomain.OffPeakWindowOptionsProperty.Builder.() -> Unit):
+    CfnDomain.OffPeakWindowOptionsProperty.Builder.() -> Unit = {}):
     CfnDomain.OffPeakWindowOptionsProperty =
     CfnDomain.OffPeakWindowOptionsProperty.Builder().apply(initializer).build()

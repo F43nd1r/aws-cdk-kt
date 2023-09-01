@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.FileAssetLocation
 
 @Generated
-public fun buildFileAssetLocation(initializer: @AwsCdkDsl FileAssetLocation.Builder.() -> Unit):
-    FileAssetLocation = FileAssetLocation.Builder().apply(initializer).build()
+public fun buildFileAssetLocation(initializer: @AwsCdkDsl FileAssetLocation.Builder.() -> Unit =
+    {}): FileAssetLocation = FileAssetLocation.Builder().apply(initializer).build()

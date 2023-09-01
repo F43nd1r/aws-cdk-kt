@@ -7,5 +7,5 @@ import software.amazon.awscdk.cxapi.LoadBalancerContextResponse
 
 @Generated
 public fun buildLoadBalancerContextResponse(initializer: @AwsCdkDsl
-    LoadBalancerContextResponse.Builder.() -> Unit): LoadBalancerContextResponse =
+    LoadBalancerContextResponse.Builder.() -> Unit = {}): LoadBalancerContextResponse =
     LoadBalancerContextResponse.Builder().apply(initializer).build()

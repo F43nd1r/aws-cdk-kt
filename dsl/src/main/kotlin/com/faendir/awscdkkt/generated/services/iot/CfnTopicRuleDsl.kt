@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.iot.CfnTopicRuleProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnTopicRule(id: String, props: CfnTopicRuleProps): CfnTopicRule =
-    CfnTopicRule(this, id, props)
-
-@Generated
 public fun Construct.cfnTopicRule(
   id: String,
   props: CfnTopicRuleProps,
-  initializer: @AwsCdkDsl CfnTopicRule.() -> Unit,
+  initializer: @AwsCdkDsl CfnTopicRule.() -> Unit = {},
 ): CfnTopicRule = CfnTopicRule(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnTopicRule(id: String, initializer: @AwsCdkDsl
-    CfnTopicRule.Builder.() -> Unit): CfnTopicRule = CfnTopicRule.Builder.create(this,
+    CfnTopicRule.Builder.() -> Unit = {}): CfnTopicRule = CfnTopicRule.Builder.create(this,
     id).apply(initializer).build()

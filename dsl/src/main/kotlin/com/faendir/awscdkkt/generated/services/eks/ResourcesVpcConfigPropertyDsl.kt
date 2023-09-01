@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.eks.CfnCluster
 
 @Generated
 public fun buildResourcesVpcConfigProperty(initializer: @AwsCdkDsl
-    CfnCluster.ResourcesVpcConfigProperty.Builder.() -> Unit): CfnCluster.ResourcesVpcConfigProperty
-    = CfnCluster.ResourcesVpcConfigProperty.Builder().apply(initializer).build()
+    CfnCluster.ResourcesVpcConfigProperty.Builder.() -> Unit = {}):
+    CfnCluster.ResourcesVpcConfigProperty =
+    CfnCluster.ResourcesVpcConfigProperty.Builder().apply(initializer).build()

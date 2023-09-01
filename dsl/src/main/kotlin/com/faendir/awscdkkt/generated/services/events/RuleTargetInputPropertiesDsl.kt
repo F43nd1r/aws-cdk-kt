@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.events.RuleTargetInputProperties
 
 @Generated
 public fun buildRuleTargetInputProperties(initializer: @AwsCdkDsl
-    RuleTargetInputProperties.Builder.() -> Unit): RuleTargetInputProperties =
+    RuleTargetInputProperties.Builder.() -> Unit = {}): RuleTargetInputProperties =
     RuleTargetInputProperties.Builder().apply(initializer).build()

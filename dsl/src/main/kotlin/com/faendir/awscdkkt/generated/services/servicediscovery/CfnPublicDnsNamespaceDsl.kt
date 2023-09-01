@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.servicediscovery.CfnPublicDnsNamespacePro
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnPublicDnsNamespace(id: String, props: CfnPublicDnsNamespaceProps):
-    CfnPublicDnsNamespace = CfnPublicDnsNamespace(this, id, props)
-
-@Generated
 public fun Construct.cfnPublicDnsNamespace(
   id: String,
   props: CfnPublicDnsNamespaceProps,
-  initializer: @AwsCdkDsl CfnPublicDnsNamespace.() -> Unit,
+  initializer: @AwsCdkDsl CfnPublicDnsNamespace.() -> Unit = {},
 ): CfnPublicDnsNamespace = CfnPublicDnsNamespace(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnPublicDnsNamespace(id: String, initializer: @AwsCdkDsl
-    CfnPublicDnsNamespace.Builder.() -> Unit): CfnPublicDnsNamespace =
+    CfnPublicDnsNamespace.Builder.() -> Unit = {}): CfnPublicDnsNamespace =
     CfnPublicDnsNamespace.Builder.create(this, id).apply(initializer).build()

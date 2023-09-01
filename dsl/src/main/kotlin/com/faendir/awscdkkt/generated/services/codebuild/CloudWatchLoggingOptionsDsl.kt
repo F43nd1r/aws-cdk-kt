@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codebuild.CloudWatchLoggingOptions
 
 @Generated
 public fun buildCloudWatchLoggingOptions(initializer: @AwsCdkDsl
-    CloudWatchLoggingOptions.Builder.() -> Unit): CloudWatchLoggingOptions =
+    CloudWatchLoggingOptions.Builder.() -> Unit = {}): CloudWatchLoggingOptions =
     CloudWatchLoggingOptions.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.UserPoolTriggers
 
 @Generated
-public fun buildUserPoolTriggers(initializer: @AwsCdkDsl UserPoolTriggers.Builder.() -> Unit):
+public fun buildUserPoolTriggers(initializer: @AwsCdkDsl UserPoolTriggers.Builder.() -> Unit = {}):
     UserPoolTriggers = UserPoolTriggers.Builder().apply(initializer).build()

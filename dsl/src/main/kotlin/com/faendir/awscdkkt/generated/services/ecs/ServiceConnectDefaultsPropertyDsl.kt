@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.CfnCluster
 
 @Generated
 public fun buildServiceConnectDefaultsProperty(initializer: @AwsCdkDsl
-    CfnCluster.ServiceConnectDefaultsProperty.Builder.() -> Unit):
+    CfnCluster.ServiceConnectDefaultsProperty.Builder.() -> Unit = {}):
     CfnCluster.ServiceConnectDefaultsProperty =
     CfnCluster.ServiceConnectDefaultsProperty.Builder().apply(initializer).build()

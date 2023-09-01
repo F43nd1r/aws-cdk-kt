@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.servicecatalog.CfnLaunchRoleConstraintPro
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnLaunchRoleConstraint(id: String, props: CfnLaunchRoleConstraintProps):
-    CfnLaunchRoleConstraint = CfnLaunchRoleConstraint(this, id, props)
-
-@Generated
 public fun Construct.cfnLaunchRoleConstraint(
   id: String,
   props: CfnLaunchRoleConstraintProps,
-  initializer: @AwsCdkDsl CfnLaunchRoleConstraint.() -> Unit,
+  initializer: @AwsCdkDsl CfnLaunchRoleConstraint.() -> Unit = {},
 ): CfnLaunchRoleConstraint = CfnLaunchRoleConstraint(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnLaunchRoleConstraint(id: String, initializer: @AwsCdkDsl
-    CfnLaunchRoleConstraint.Builder.() -> Unit): CfnLaunchRoleConstraint =
+    CfnLaunchRoleConstraint.Builder.() -> Unit = {}): CfnLaunchRoleConstraint =
     CfnLaunchRoleConstraint.Builder.create(this, id).apply(initializer).build()

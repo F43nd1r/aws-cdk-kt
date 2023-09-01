@@ -8,5 +8,5 @@ import software.amazon.awscdk.services.logs.ILogGroup
 
 @Generated
 public fun buildCloudWatchLogGroup(logGroup: ILogGroup, initializer: @AwsCdkDsl
-    CloudWatchLogGroup.Builder.() -> Unit): CloudWatchLogGroup =
+    CloudWatchLogGroup.Builder.() -> Unit = {}): CloudWatchLogGroup =
     CloudWatchLogGroup.Builder.create(logGroup).apply(initializer).build()

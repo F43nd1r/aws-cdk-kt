@@ -7,5 +7,5 @@ import software.amazon.awscdk.CfnTrafficRoutingTimeBasedCanary
 
 @Generated
 public fun buildCfnTrafficRoutingTimeBasedCanary(initializer: @AwsCdkDsl
-    CfnTrafficRoutingTimeBasedCanary.Builder.() -> Unit): CfnTrafficRoutingTimeBasedCanary =
+    CfnTrafficRoutingTimeBasedCanary.Builder.() -> Unit = {}): CfnTrafficRoutingTimeBasedCanary =
     CfnTrafficRoutingTimeBasedCanary.Builder().apply(initializer).build()

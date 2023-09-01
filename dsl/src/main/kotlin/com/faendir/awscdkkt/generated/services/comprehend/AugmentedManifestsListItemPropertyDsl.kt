@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.comprehend.CfnDocumentClassifier
 
 @Generated
 public fun buildAugmentedManifestsListItemProperty(initializer: @AwsCdkDsl
-    CfnDocumentClassifier.AugmentedManifestsListItemProperty.Builder.() -> Unit):
+    CfnDocumentClassifier.AugmentedManifestsListItemProperty.Builder.() -> Unit = {}):
     CfnDocumentClassifier.AugmentedManifestsListItemProperty =
     CfnDocumentClassifier.AugmentedManifestsListItemProperty.Builder().apply(initializer).build()

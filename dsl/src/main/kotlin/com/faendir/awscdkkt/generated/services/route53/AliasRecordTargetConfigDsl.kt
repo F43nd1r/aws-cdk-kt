@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.route53.AliasRecordTargetConfig
 
 @Generated
 public fun buildAliasRecordTargetConfig(initializer: @AwsCdkDsl
-    AliasRecordTargetConfig.Builder.() -> Unit): AliasRecordTargetConfig =
+    AliasRecordTargetConfig.Builder.() -> Unit = {}): AliasRecordTargetConfig =
     AliasRecordTargetConfig.Builder().apply(initializer).build()

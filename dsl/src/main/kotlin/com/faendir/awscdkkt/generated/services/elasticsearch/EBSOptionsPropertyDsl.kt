@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticsearch.CfnDomain
 
 @Generated
 public fun buildEBSOptionsProperty(initializer: @AwsCdkDsl
-    CfnDomain.EBSOptionsProperty.Builder.() -> Unit): CfnDomain.EBSOptionsProperty =
+    CfnDomain.EBSOptionsProperty.Builder.() -> Unit = {}): CfnDomain.EBSOptionsProperty =
     CfnDomain.EBSOptionsProperty.Builder().apply(initializer).build()

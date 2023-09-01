@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kinesisanalyticsv2.CfnApplication
 
 @Generated
 public fun buildInputProcessingConfigurationProperty(initializer: @AwsCdkDsl
-    CfnApplication.InputProcessingConfigurationProperty.Builder.() -> Unit):
+    CfnApplication.InputProcessingConfigurationProperty.Builder.() -> Unit = {}):
     CfnApplication.InputProcessingConfigurationProperty =
     CfnApplication.InputProcessingConfigurationProperty.Builder().apply(initializer).build()

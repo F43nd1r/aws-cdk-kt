@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.EcrImageCodeProps
 
 @Generated
-public fun buildEcrImageCodeProps(initializer: @AwsCdkDsl EcrImageCodeProps.Builder.() -> Unit):
-    EcrImageCodeProps = EcrImageCodeProps.Builder().apply(initializer).build()
+public fun buildEcrImageCodeProps(initializer: @AwsCdkDsl EcrImageCodeProps.Builder.() -> Unit =
+    {}): EcrImageCodeProps = EcrImageCodeProps.Builder().apply(initializer).build()

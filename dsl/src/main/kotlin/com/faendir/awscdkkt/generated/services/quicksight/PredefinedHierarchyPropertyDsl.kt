@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildPredefinedHierarchyProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PredefinedHierarchyProperty.Builder.() -> Unit):
+    CfnTemplate.PredefinedHierarchyProperty.Builder.() -> Unit = {}):
     CfnTemplate.PredefinedHierarchyProperty =
     CfnTemplate.PredefinedHierarchyProperty.Builder().apply(initializer).build()

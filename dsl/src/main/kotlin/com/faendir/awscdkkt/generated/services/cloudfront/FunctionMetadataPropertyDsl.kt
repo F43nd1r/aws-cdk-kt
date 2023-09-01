@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.cloudfront.CfnFunction
 
 @Generated
 public fun buildFunctionMetadataProperty(initializer: @AwsCdkDsl
-    CfnFunction.FunctionMetadataProperty.Builder.() -> Unit): CfnFunction.FunctionMetadataProperty =
+    CfnFunction.FunctionMetadataProperty.Builder.() -> Unit = {}):
+    CfnFunction.FunctionMetadataProperty =
     CfnFunction.FunctionMetadataProperty.Builder().apply(initializer).build()

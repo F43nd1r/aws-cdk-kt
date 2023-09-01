@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.iot.CfnMitigationActionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnMitigationAction(id: String, props: CfnMitigationActionProps):
-    CfnMitigationAction = CfnMitigationAction(this, id, props)
-
-@Generated
 public fun Construct.cfnMitigationAction(
   id: String,
   props: CfnMitigationActionProps,
-  initializer: @AwsCdkDsl CfnMitigationAction.() -> Unit,
+  initializer: @AwsCdkDsl CfnMitigationAction.() -> Unit = {},
 ): CfnMitigationAction = CfnMitigationAction(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnMitigationAction(id: String, initializer: @AwsCdkDsl
-    CfnMitigationAction.Builder.() -> Unit): CfnMitigationAction =
+    CfnMitigationAction.Builder.() -> Unit = {}): CfnMitigationAction =
     CfnMitigationAction.Builder.create(this, id).apply(initializer).build()

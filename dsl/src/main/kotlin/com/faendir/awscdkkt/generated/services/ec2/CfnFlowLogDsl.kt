@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ec2.CfnFlowLogProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnFlowLog(id: String, props: CfnFlowLogProps): CfnFlowLog = CfnFlowLog(this,
-    id, props)
-
-@Generated
 public fun Construct.cfnFlowLog(
   id: String,
   props: CfnFlowLogProps,
-  initializer: @AwsCdkDsl CfnFlowLog.() -> Unit,
+  initializer: @AwsCdkDsl CfnFlowLog.() -> Unit = {},
 ): CfnFlowLog = CfnFlowLog(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnFlowLog(id: String, initializer: @AwsCdkDsl
-    CfnFlowLog.Builder.() -> Unit): CfnFlowLog = CfnFlowLog.Builder.create(this,
+    CfnFlowLog.Builder.() -> Unit = {}): CfnFlowLog = CfnFlowLog.Builder.create(this,
     id).apply(initializer).build()

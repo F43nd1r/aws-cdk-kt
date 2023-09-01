@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.servicediscovery.AliasTargetInstanceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.aliasTargetInstance(id: String, props: AliasTargetInstanceProps):
-    AliasTargetInstance = AliasTargetInstance(this, id, props)
-
-@Generated
 public fun Construct.aliasTargetInstance(
   id: String,
   props: AliasTargetInstanceProps,
-  initializer: @AwsCdkDsl AliasTargetInstance.() -> Unit,
+  initializer: @AwsCdkDsl AliasTargetInstance.() -> Unit = {},
 ): AliasTargetInstance = AliasTargetInstance(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildAliasTargetInstance(id: String, initializer: @AwsCdkDsl
-    AliasTargetInstance.Builder.() -> Unit): AliasTargetInstance =
+    AliasTargetInstance.Builder.() -> Unit = {}): AliasTargetInstance =
     AliasTargetInstance.Builder.create(this, id).apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
 public fun buildDialogActionProperty(initializer: @AwsCdkDsl
-    CfnBot.DialogActionProperty.Builder.() -> Unit): CfnBot.DialogActionProperty =
+    CfnBot.DialogActionProperty.Builder.() -> Unit = {}): CfnBot.DialogActionProperty =
     CfnBot.DialogActionProperty.Builder().apply(initializer).build()

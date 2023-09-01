@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cloudfront.CfnCloudFrontOriginAccessIdent
 
 @Generated
 public fun buildCfnCloudFrontOriginAccessIdentityProps(initializer: @AwsCdkDsl
-    CfnCloudFrontOriginAccessIdentityProps.Builder.() -> Unit):
+    CfnCloudFrontOriginAccessIdentityProps.Builder.() -> Unit = {}):
     CfnCloudFrontOriginAccessIdentityProps =
     CfnCloudFrontOriginAccessIdentityProps.Builder().apply(initializer).build()

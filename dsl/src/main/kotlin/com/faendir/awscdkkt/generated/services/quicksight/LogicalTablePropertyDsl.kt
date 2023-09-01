@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
 public fun buildLogicalTableProperty(initializer: @AwsCdkDsl
-    CfnDataSet.LogicalTableProperty.Builder.() -> Unit): CfnDataSet.LogicalTableProperty =
+    CfnDataSet.LogicalTableProperty.Builder.() -> Unit = {}): CfnDataSet.LogicalTableProperty =
     CfnDataSet.LogicalTableProperty.Builder().apply(initializer).build()

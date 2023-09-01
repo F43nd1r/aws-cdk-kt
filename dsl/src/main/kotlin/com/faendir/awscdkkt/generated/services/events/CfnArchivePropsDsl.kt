@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.CfnArchiveProps
 
 @Generated
-public fun buildCfnArchiveProps(initializer: @AwsCdkDsl CfnArchiveProps.Builder.() -> Unit):
+public fun buildCfnArchiveProps(initializer: @AwsCdkDsl CfnArchiveProps.Builder.() -> Unit = {}):
     CfnArchiveProps = CfnArchiveProps.Builder().apply(initializer).build()

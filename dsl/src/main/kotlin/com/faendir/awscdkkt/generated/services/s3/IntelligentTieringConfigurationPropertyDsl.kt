@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
 public fun buildIntelligentTieringConfigurationProperty(initializer: @AwsCdkDsl
-    CfnBucket.IntelligentTieringConfigurationProperty.Builder.() -> Unit):
+    CfnBucket.IntelligentTieringConfigurationProperty.Builder.() -> Unit = {}):
     CfnBucket.IntelligentTieringConfigurationProperty =
     CfnBucket.IntelligentTieringConfigurationProperty.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ec2.ClientVpnRouteProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.clientVpnRoute(id: String, props: ClientVpnRouteProps): ClientVpnRoute =
-    ClientVpnRoute(this, id, props)
-
-@Generated
 public fun Construct.clientVpnRoute(
   id: String,
   props: ClientVpnRouteProps,
-  initializer: @AwsCdkDsl ClientVpnRoute.() -> Unit,
+  initializer: @AwsCdkDsl ClientVpnRoute.() -> Unit = {},
 ): ClientVpnRoute = ClientVpnRoute(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildClientVpnRoute(id: String, initializer: @AwsCdkDsl
-    ClientVpnRoute.Builder.() -> Unit): ClientVpnRoute = ClientVpnRoute.Builder.create(this,
+    ClientVpnRoute.Builder.() -> Unit = {}): ClientVpnRoute = ClientVpnRoute.Builder.create(this,
     id).apply(initializer).build()

@@ -7,7 +7,8 @@ import software.amazon.awscdk.services.sso.CfnInstanceAccessControlAttributeConf
 
 @Generated
 public fun buildInstanceAccessControlAttributeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnInstanceAccessControlAttributeConfiguration.InstanceAccessControlAttributeConfigurationProperty.Builder.() -> Unit):
+    CfnInstanceAccessControlAttributeConfiguration.InstanceAccessControlAttributeConfigurationProperty.Builder.() -> Unit
+    = {}):
     CfnInstanceAccessControlAttributeConfiguration.InstanceAccessControlAttributeConfigurationProperty
     =
     CfnInstanceAccessControlAttributeConfiguration.InstanceAccessControlAttributeConfigurationProperty.Builder().apply(initializer).build()

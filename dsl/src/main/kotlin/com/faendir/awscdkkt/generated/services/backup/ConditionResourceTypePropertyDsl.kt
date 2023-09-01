@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.backup.CfnBackupSelection
 
 @Generated
 public fun buildConditionResourceTypeProperty(initializer: @AwsCdkDsl
-    CfnBackupSelection.ConditionResourceTypeProperty.Builder.() -> Unit):
+    CfnBackupSelection.ConditionResourceTypeProperty.Builder.() -> Unit = {}):
     CfnBackupSelection.ConditionResourceTypeProperty =
     CfnBackupSelection.ConditionResourceTypeProperty.Builder().apply(initializer).build()

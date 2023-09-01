@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.ApplicationListene
 
 @Generated
 public fun buildApplicationListenerAttributes(initializer: @AwsCdkDsl
-    ApplicationListenerAttributes.Builder.() -> Unit): ApplicationListenerAttributes =
+    ApplicationListenerAttributes.Builder.() -> Unit = {}): ApplicationListenerAttributes =
     ApplicationListenerAttributes.Builder().apply(initializer).build()

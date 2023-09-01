@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.autoscaling.InstancesDistribution
 
 @Generated
 public fun buildInstancesDistribution(initializer: @AwsCdkDsl
-    InstancesDistribution.Builder.() -> Unit): InstancesDistribution =
+    InstancesDistribution.Builder.() -> Unit = {}): InstancesDistribution =
     InstancesDistribution.Builder().apply(initializer).build()

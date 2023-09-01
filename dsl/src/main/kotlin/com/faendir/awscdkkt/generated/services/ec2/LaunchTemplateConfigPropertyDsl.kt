@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnSpotFleet
 
 @Generated
 public fun buildLaunchTemplateConfigProperty(initializer: @AwsCdkDsl
-    CfnSpotFleet.LaunchTemplateConfigProperty.Builder.() -> Unit):
+    CfnSpotFleet.LaunchTemplateConfigProperty.Builder.() -> Unit = {}):
     CfnSpotFleet.LaunchTemplateConfigProperty =
     CfnSpotFleet.LaunchTemplateConfigProperty.Builder().apply(initializer).build()

@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.TokenAuthorizerProps
 
 @Generated
-public fun buildTokenAuthorizerProps(initializer: @AwsCdkDsl
-    TokenAuthorizerProps.Builder.() -> Unit): TokenAuthorizerProps =
-    TokenAuthorizerProps.Builder().apply(initializer).build()
+public fun buildTokenAuthorizerProps(initializer: @AwsCdkDsl TokenAuthorizerProps.Builder.() -> Unit
+    = {}): TokenAuthorizerProps = TokenAuthorizerProps.Builder().apply(initializer).build()

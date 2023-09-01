@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.ses.CfnReceiptRule
 
 @Generated
 public fun buildWorkmailActionProperty(initializer: @AwsCdkDsl
-    CfnReceiptRule.WorkmailActionProperty.Builder.() -> Unit): CfnReceiptRule.WorkmailActionProperty
-    = CfnReceiptRule.WorkmailActionProperty.Builder().apply(initializer).build()
+    CfnReceiptRule.WorkmailActionProperty.Builder.() -> Unit = {}):
+    CfnReceiptRule.WorkmailActionProperty =
+    CfnReceiptRule.WorkmailActionProperty.Builder().apply(initializer).build()

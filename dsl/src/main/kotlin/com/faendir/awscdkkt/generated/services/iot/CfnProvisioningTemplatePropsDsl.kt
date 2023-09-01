@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iot.CfnProvisioningTemplateProps
 
 @Generated
 public fun buildCfnProvisioningTemplateProps(initializer: @AwsCdkDsl
-    CfnProvisioningTemplateProps.Builder.() -> Unit): CfnProvisioningTemplateProps =
+    CfnProvisioningTemplateProps.Builder.() -> Unit = {}): CfnProvisioningTemplateProps =
     CfnProvisioningTemplateProps.Builder().apply(initializer).build()

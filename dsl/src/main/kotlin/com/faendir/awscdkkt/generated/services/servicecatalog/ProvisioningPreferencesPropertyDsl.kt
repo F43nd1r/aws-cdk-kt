@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.servicecatalog.CfnCloudFormationProvision
 
 @Generated
 public fun buildProvisioningPreferencesProperty(initializer: @AwsCdkDsl
-    CfnCloudFormationProvisionedProduct.ProvisioningPreferencesProperty.Builder.() -> Unit):
+    CfnCloudFormationProvisionedProduct.ProvisioningPreferencesProperty.Builder.() -> Unit = {}):
     CfnCloudFormationProvisionedProduct.ProvisioningPreferencesProperty =
     CfnCloudFormationProvisionedProduct.ProvisioningPreferencesProperty.Builder().apply(initializer).build()

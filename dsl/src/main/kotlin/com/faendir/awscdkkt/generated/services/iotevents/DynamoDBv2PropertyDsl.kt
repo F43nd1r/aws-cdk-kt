@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.iotevents.CfnDetectorModel
 
 @Generated
 public fun buildDynamoDBv2Property(initializer: @AwsCdkDsl
-    CfnDetectorModel.DynamoDBv2Property.Builder.() -> Unit): CfnDetectorModel.DynamoDBv2Property =
+    CfnDetectorModel.DynamoDBv2Property.Builder.() -> Unit = {}):
+    CfnDetectorModel.DynamoDBv2Property =
     CfnDetectorModel.DynamoDBv2Property.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.msk.CfnServerlessCluster
 
 @Generated
 public fun buildIamProperty(initializer: @AwsCdkDsl
-    CfnServerlessCluster.IamProperty.Builder.() -> Unit): CfnServerlessCluster.IamProperty =
+    CfnServerlessCluster.IamProperty.Builder.() -> Unit = {}): CfnServerlessCluster.IamProperty =
     CfnServerlessCluster.IamProperty.Builder().apply(initializer).build()

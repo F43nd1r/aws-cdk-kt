@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iot.CfnTopicRuleDestinationProps
 
 @Generated
 public fun buildCfnTopicRuleDestinationProps(initializer: @AwsCdkDsl
-    CfnTopicRuleDestinationProps.Builder.() -> Unit): CfnTopicRuleDestinationProps =
+    CfnTopicRuleDestinationProps.Builder.() -> Unit = {}): CfnTopicRuleDestinationProps =
     CfnTopicRuleDestinationProps.Builder().apply(initializer).build()

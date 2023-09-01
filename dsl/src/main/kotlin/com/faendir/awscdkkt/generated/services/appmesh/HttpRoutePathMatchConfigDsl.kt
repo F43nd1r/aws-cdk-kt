@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appmesh.HttpRoutePathMatchConfig
 
 @Generated
 public fun buildHttpRoutePathMatchConfig(initializer: @AwsCdkDsl
-    HttpRoutePathMatchConfig.Builder.() -> Unit): HttpRoutePathMatchConfig =
+    HttpRoutePathMatchConfig.Builder.() -> Unit = {}): HttpRoutePathMatchConfig =
     HttpRoutePathMatchConfig.Builder().apply(initializer).build()

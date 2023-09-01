@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.applicationautoscaling.ScalableTargetProps
 
 @Generated
-public fun buildScalableTargetProps(initializer: @AwsCdkDsl ScalableTargetProps.Builder.() -> Unit):
-    ScalableTargetProps = ScalableTargetProps.Builder().apply(initializer).build()
+public fun buildScalableTargetProps(initializer: @AwsCdkDsl ScalableTargetProps.Builder.() -> Unit =
+    {}): ScalableTargetProps = ScalableTargetProps.Builder().apply(initializer).build()

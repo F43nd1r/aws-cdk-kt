@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.ContainerDefinitionProps
 
 @Generated
 public fun buildContainerDefinitionProps(initializer: @AwsCdkDsl
-    ContainerDefinitionProps.Builder.() -> Unit): ContainerDefinitionProps =
+    ContainerDefinitionProps.Builder.() -> Unit = {}): ContainerDefinitionProps =
     ContainerDefinitionProps.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rolesanywhere.CfnProfileProps
 
 @Generated
-public fun buildCfnProfileProps(initializer: @AwsCdkDsl CfnProfileProps.Builder.() -> Unit):
+public fun buildCfnProfileProps(initializer: @AwsCdkDsl CfnProfileProps.Builder.() -> Unit = {}):
     CfnProfileProps = CfnProfileProps.Builder().apply(initializer).build()

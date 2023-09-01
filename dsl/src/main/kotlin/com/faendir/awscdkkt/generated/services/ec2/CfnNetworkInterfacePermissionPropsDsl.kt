@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.CfnNetworkInterfacePermissionProps
 
 @Generated
 public fun buildCfnNetworkInterfacePermissionProps(initializer: @AwsCdkDsl
-    CfnNetworkInterfacePermissionProps.Builder.() -> Unit): CfnNetworkInterfacePermissionProps =
-    CfnNetworkInterfacePermissionProps.Builder().apply(initializer).build()
+    CfnNetworkInterfacePermissionProps.Builder.() -> Unit = {}): CfnNetworkInterfacePermissionProps
+    = CfnNetworkInterfacePermissionProps.Builder().apply(initializer).build()

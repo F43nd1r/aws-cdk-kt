@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnNetworkInsightsAnalysis
 
 @Generated
 public fun buildPortRangeProperty(initializer: @AwsCdkDsl
-    CfnNetworkInsightsAnalysis.PortRangeProperty.Builder.() -> Unit):
+    CfnNetworkInsightsAnalysis.PortRangeProperty.Builder.() -> Unit = {}):
     CfnNetworkInsightsAnalysis.PortRangeProperty =
     CfnNetworkInsightsAnalysis.PortRangeProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cloudfront.ViewerCertificateOptions
 
 @Generated
 public fun buildViewerCertificateOptions(initializer: @AwsCdkDsl
-    ViewerCertificateOptions.Builder.() -> Unit): ViewerCertificateOptions =
+    ViewerCertificateOptions.Builder.() -> Unit = {}): ViewerCertificateOptions =
     ViewerCertificateOptions.Builder().apply(initializer).build()

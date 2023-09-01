@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssm.ParameterOptions
 
 @Generated
-public fun buildParameterOptions(initializer: @AwsCdkDsl ParameterOptions.Builder.() -> Unit):
+public fun buildParameterOptions(initializer: @AwsCdkDsl ParameterOptions.Builder.() -> Unit = {}):
     ParameterOptions = ParameterOptions.Builder().apply(initializer).build()

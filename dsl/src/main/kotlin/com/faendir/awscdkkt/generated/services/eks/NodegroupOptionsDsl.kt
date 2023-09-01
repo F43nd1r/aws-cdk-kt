@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.NodegroupOptions
 
 @Generated
-public fun buildNodegroupOptions(initializer: @AwsCdkDsl NodegroupOptions.Builder.() -> Unit):
+public fun buildNodegroupOptions(initializer: @AwsCdkDsl NodegroupOptions.Builder.() -> Unit = {}):
     NodegroupOptions = NodegroupOptions.Builder().apply(initializer).build()

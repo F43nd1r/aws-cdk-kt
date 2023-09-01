@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildTooltipItemProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TooltipItemProperty.Builder.() -> Unit): CfnTemplate.TooltipItemProperty =
+    CfnTemplate.TooltipItemProperty.Builder.() -> Unit = {}): CfnTemplate.TooltipItemProperty =
     CfnTemplate.TooltipItemProperty.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.rum.CfnAppMonitorProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnAppMonitor(id: String, props: CfnAppMonitorProps): CfnAppMonitor =
-    CfnAppMonitor(this, id, props)
-
-@Generated
 public fun Construct.cfnAppMonitor(
   id: String,
   props: CfnAppMonitorProps,
-  initializer: @AwsCdkDsl CfnAppMonitor.() -> Unit,
+  initializer: @AwsCdkDsl CfnAppMonitor.() -> Unit = {},
 ): CfnAppMonitor = CfnAppMonitor(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnAppMonitor(id: String, initializer: @AwsCdkDsl
-    CfnAppMonitor.Builder.() -> Unit): CfnAppMonitor = CfnAppMonitor.Builder.create(this,
+    CfnAppMonitor.Builder.() -> Unit = {}): CfnAppMonitor = CfnAppMonitor.Builder.create(this,
     id).apply(initializer).build()

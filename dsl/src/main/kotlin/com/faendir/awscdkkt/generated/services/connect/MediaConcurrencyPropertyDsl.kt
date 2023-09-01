@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.connect.CfnRoutingProfile
 
 @Generated
 public fun buildMediaConcurrencyProperty(initializer: @AwsCdkDsl
-    CfnRoutingProfile.MediaConcurrencyProperty.Builder.() -> Unit):
+    CfnRoutingProfile.MediaConcurrencyProperty.Builder.() -> Unit = {}):
     CfnRoutingProfile.MediaConcurrencyProperty =
     CfnRoutingProfile.MediaConcurrencyProperty.Builder().apply(initializer).build()

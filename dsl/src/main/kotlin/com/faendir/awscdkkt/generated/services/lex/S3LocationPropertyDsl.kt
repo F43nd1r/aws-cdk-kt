@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
 public fun buildS3LocationProperty(initializer: @AwsCdkDsl
-    CfnBot.S3LocationProperty.Builder.() -> Unit): CfnBot.S3LocationProperty =
+    CfnBot.S3LocationProperty.Builder.() -> Unit = {}): CfnBot.S3LocationProperty =
     CfnBot.S3LocationProperty.Builder().apply(initializer).build()

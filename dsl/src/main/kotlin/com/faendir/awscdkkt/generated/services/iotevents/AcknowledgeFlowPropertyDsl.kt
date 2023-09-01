@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.iotevents.CfnAlarmModel
 
 @Generated
 public fun buildAcknowledgeFlowProperty(initializer: @AwsCdkDsl
-    CfnAlarmModel.AcknowledgeFlowProperty.Builder.() -> Unit): CfnAlarmModel.AcknowledgeFlowProperty
-    = CfnAlarmModel.AcknowledgeFlowProperty.Builder().apply(initializer).build()
+    CfnAlarmModel.AcknowledgeFlowProperty.Builder.() -> Unit = {}):
+    CfnAlarmModel.AcknowledgeFlowProperty =
+    CfnAlarmModel.AcknowledgeFlowProperty.Builder().apply(initializer).build()

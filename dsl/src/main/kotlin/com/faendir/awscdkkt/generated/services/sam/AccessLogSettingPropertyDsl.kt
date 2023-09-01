@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.sam.CfnHttpApi
 
 @Generated
 public fun buildAccessLogSettingProperty(initializer: @AwsCdkDsl
-    CfnHttpApi.AccessLogSettingProperty.Builder.() -> Unit): CfnHttpApi.AccessLogSettingProperty =
+    CfnHttpApi.AccessLogSettingProperty.Builder.() -> Unit = {}):
+    CfnHttpApi.AccessLogSettingProperty =
     CfnHttpApi.AccessLogSettingProperty.Builder().apply(initializer).build()

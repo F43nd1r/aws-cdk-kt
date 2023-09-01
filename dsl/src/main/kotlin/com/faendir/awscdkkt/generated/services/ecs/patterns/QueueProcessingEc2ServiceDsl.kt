@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ecs.patterns.QueueProcessingEc2ServicePro
 import software.constructs.Construct
 
 @Generated
-public fun Construct.queueProcessingEc2Service(id: String, props: QueueProcessingEc2ServiceProps):
-    QueueProcessingEc2Service = QueueProcessingEc2Service(this, id, props)
-
-@Generated
 public fun Construct.queueProcessingEc2Service(
   id: String,
   props: QueueProcessingEc2ServiceProps,
-  initializer: @AwsCdkDsl QueueProcessingEc2Service.() -> Unit,
+  initializer: @AwsCdkDsl QueueProcessingEc2Service.() -> Unit = {},
 ): QueueProcessingEc2Service = QueueProcessingEc2Service(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildQueueProcessingEc2Service(id: String, initializer: @AwsCdkDsl
-    QueueProcessingEc2Service.Builder.() -> Unit): QueueProcessingEc2Service =
+    QueueProcessingEc2Service.Builder.() -> Unit = {}): QueueProcessingEc2Service =
     QueueProcessingEc2Service.Builder.create(this, id).apply(initializer).build()

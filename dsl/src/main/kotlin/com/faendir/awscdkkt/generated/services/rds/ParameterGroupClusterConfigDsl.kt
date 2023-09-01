@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.rds.ParameterGroupClusterConfig
 
 @Generated
 public fun buildParameterGroupClusterConfig(initializer: @AwsCdkDsl
-    ParameterGroupClusterConfig.Builder.() -> Unit): ParameterGroupClusterConfig =
+    ParameterGroupClusterConfig.Builder.() -> Unit = {}): ParameterGroupClusterConfig =
     ParameterGroupClusterConfig.Builder().apply(initializer).build()

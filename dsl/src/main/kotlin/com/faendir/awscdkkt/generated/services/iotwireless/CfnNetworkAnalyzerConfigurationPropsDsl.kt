@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.iotwireless.CfnNetworkAnalyzerConfigurati
 
 @Generated
 public fun buildCfnNetworkAnalyzerConfigurationProps(initializer: @AwsCdkDsl
-    CfnNetworkAnalyzerConfigurationProps.Builder.() -> Unit): CfnNetworkAnalyzerConfigurationProps =
+    CfnNetworkAnalyzerConfigurationProps.Builder.() -> Unit = {}):
+    CfnNetworkAnalyzerConfigurationProps =
     CfnNetworkAnalyzerConfigurationProps.Builder().apply(initializer).build()

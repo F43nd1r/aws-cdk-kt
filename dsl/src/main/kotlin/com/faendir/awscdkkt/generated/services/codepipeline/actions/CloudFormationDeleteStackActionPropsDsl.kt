@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.codepipeline.actions.CloudFormationDelete
 
 @Generated
 public fun buildCloudFormationDeleteStackActionProps(initializer: @AwsCdkDsl
-    CloudFormationDeleteStackActionProps.Builder.() -> Unit): CloudFormationDeleteStackActionProps =
+    CloudFormationDeleteStackActionProps.Builder.() -> Unit = {}):
+    CloudFormationDeleteStackActionProps =
     CloudFormationDeleteStackActionProps.Builder().apply(initializer).build()

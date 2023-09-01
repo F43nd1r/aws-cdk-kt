@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.timestream.CfnTable
 
 @Generated
 public fun buildMagneticStoreRejectedDataLocationProperty(initializer: @AwsCdkDsl
-    CfnTable.MagneticStoreRejectedDataLocationProperty.Builder.() -> Unit):
+    CfnTable.MagneticStoreRejectedDataLocationProperty.Builder.() -> Unit = {}):
     CfnTable.MagneticStoreRejectedDataLocationProperty =
     CfnTable.MagneticStoreRejectedDataLocationProperty.Builder().apply(initializer).build()

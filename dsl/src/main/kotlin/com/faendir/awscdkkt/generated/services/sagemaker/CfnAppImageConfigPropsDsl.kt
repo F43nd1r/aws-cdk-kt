@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sagemaker.CfnAppImageConfigProps
 
 @Generated
 public fun buildCfnAppImageConfigProps(initializer: @AwsCdkDsl
-    CfnAppImageConfigProps.Builder.() -> Unit): CfnAppImageConfigProps =
+    CfnAppImageConfigProps.Builder.() -> Unit = {}): CfnAppImageConfigProps =
     CfnAppImageConfigProps.Builder().apply(initializer).build()

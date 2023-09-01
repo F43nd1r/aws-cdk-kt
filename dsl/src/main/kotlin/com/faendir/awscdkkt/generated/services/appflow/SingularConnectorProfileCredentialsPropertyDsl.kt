@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnConnectorProfile
 
 @Generated
 public fun buildSingularConnectorProfileCredentialsProperty(initializer: @AwsCdkDsl
-    CfnConnectorProfile.SingularConnectorProfileCredentialsProperty.Builder.() -> Unit):
+    CfnConnectorProfile.SingularConnectorProfileCredentialsProperty.Builder.() -> Unit = {}):
     CfnConnectorProfile.SingularConnectorProfileCredentialsProperty =
     CfnConnectorProfile.SingularConnectorProfileCredentialsProperty.Builder().apply(initializer).build()

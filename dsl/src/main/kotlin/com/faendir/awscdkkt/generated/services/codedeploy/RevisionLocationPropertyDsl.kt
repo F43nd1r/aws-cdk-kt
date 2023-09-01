@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.codedeploy.CfnDeploymentGroup
 
 @Generated
 public fun buildRevisionLocationProperty(initializer: @AwsCdkDsl
-    CfnDeploymentGroup.RevisionLocationProperty.Builder.() -> Unit):
+    CfnDeploymentGroup.RevisionLocationProperty.Builder.() -> Unit = {}):
     CfnDeploymentGroup.RevisionLocationProperty =
     CfnDeploymentGroup.RevisionLocationProperty.Builder().apply(initializer).build()

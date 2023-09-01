@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.CfnService
 
 @Generated
 public fun buildCapacityProviderStrategyItemProperty(initializer: @AwsCdkDsl
-    CfnService.CapacityProviderStrategyItemProperty.Builder.() -> Unit):
+    CfnService.CapacityProviderStrategyItemProperty.Builder.() -> Unit = {}):
     CfnService.CapacityProviderStrategyItemProperty =
     CfnService.CapacityProviderStrategyItemProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildGaugeChartConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.GaugeChartConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.GaugeChartConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.GaugeChartConfigurationProperty =
     CfnTemplate.GaugeChartConfigurationProperty.Builder().apply(initializer).build()

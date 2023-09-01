@@ -9,17 +9,12 @@ import software.amazon.awscdk.services.iotsitewise.CfnPortalProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnPortal(id: String, props: CfnPortalProps): CfnPortal = CfnPortal(this, id,
-    props)
-
-@Generated
 public fun Construct.cfnPortal(
   id: String,
   props: CfnPortalProps,
-  initializer: @AwsCdkDsl CfnPortal.() -> Unit,
+  initializer: @AwsCdkDsl CfnPortal.() -> Unit = {},
 ): CfnPortal = CfnPortal(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPortal(id: String, initializer: @AwsCdkDsl
-    CfnPortal.Builder.() -> Unit): CfnPortal = CfnPortal.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnPortal(id: String, initializer: @AwsCdkDsl CfnPortal.Builder.() -> Unit
+    = {}): CfnPortal = CfnPortal.Builder.create(this, id).apply(initializer).build()

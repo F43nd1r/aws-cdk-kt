@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
 public fun buildReplicaModificationsProperty(initializer: @AwsCdkDsl
-    CfnBucket.ReplicaModificationsProperty.Builder.() -> Unit):
+    CfnBucket.ReplicaModificationsProperty.Builder.() -> Unit = {}):
     CfnBucket.ReplicaModificationsProperty =
     CfnBucket.ReplicaModificationsProperty.Builder().apply(initializer).build()

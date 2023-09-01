@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iottwinmaker.CfnComponentTypeProps
 
 @Generated
 public fun buildCfnComponentTypeProps(initializer: @AwsCdkDsl
-    CfnComponentTypeProps.Builder.() -> Unit): CfnComponentTypeProps =
+    CfnComponentTypeProps.Builder.() -> Unit = {}): CfnComponentTypeProps =
     CfnComponentTypeProps.Builder().apply(initializer).build()

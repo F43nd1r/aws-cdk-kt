@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnTransitGatewayMulticastGroupSource
 
 @Generated
 public fun buildCfnTransitGatewayMulticastGroupSourceProps(initializer: @AwsCdkDsl
-    CfnTransitGatewayMulticastGroupSourceProps.Builder.() -> Unit):
+    CfnTransitGatewayMulticastGroupSourceProps.Builder.() -> Unit = {}):
     CfnTransitGatewayMulticastGroupSourceProps =
     CfnTransitGatewayMulticastGroupSourceProps.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.refactorspaces.CfnService
 
 @Generated
 public fun buildUrlEndpointInputProperty(initializer: @AwsCdkDsl
-    CfnService.UrlEndpointInputProperty.Builder.() -> Unit): CfnService.UrlEndpointInputProperty =
+    CfnService.UrlEndpointInputProperty.Builder.() -> Unit = {}):
+    CfnService.UrlEndpointInputProperty =
     CfnService.UrlEndpointInputProperty.Builder().apply(initializer).build()

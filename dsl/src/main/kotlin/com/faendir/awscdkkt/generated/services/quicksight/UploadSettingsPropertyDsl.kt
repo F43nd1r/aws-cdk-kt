@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
 public fun buildUploadSettingsProperty(initializer: @AwsCdkDsl
-    CfnDataSet.UploadSettingsProperty.Builder.() -> Unit): CfnDataSet.UploadSettingsProperty =
+    CfnDataSet.UploadSettingsProperty.Builder.() -> Unit = {}): CfnDataSet.UploadSettingsProperty =
     CfnDataSet.UploadSettingsProperty.Builder().apply(initializer).build()

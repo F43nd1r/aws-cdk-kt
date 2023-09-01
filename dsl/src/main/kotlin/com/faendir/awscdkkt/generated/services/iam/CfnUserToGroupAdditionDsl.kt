@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.iam.CfnUserToGroupAdditionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnUserToGroupAddition(id: String, props: CfnUserToGroupAdditionProps):
-    CfnUserToGroupAddition = CfnUserToGroupAddition(this, id, props)
-
-@Generated
 public fun Construct.cfnUserToGroupAddition(
   id: String,
   props: CfnUserToGroupAdditionProps,
-  initializer: @AwsCdkDsl CfnUserToGroupAddition.() -> Unit,
+  initializer: @AwsCdkDsl CfnUserToGroupAddition.() -> Unit = {},
 ): CfnUserToGroupAddition = CfnUserToGroupAddition(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnUserToGroupAddition(id: String, initializer: @AwsCdkDsl
-    CfnUserToGroupAddition.Builder.() -> Unit): CfnUserToGroupAddition =
+    CfnUserToGroupAddition.Builder.() -> Unit = {}): CfnUserToGroupAddition =
     CfnUserToGroupAddition.Builder.create(this, id).apply(initializer).build()

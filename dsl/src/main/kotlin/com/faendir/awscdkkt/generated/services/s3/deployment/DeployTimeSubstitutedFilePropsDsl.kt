@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.s3.deployment.DeployTimeSubstitutedFilePr
 
 @Generated
 public fun buildDeployTimeSubstitutedFileProps(initializer: @AwsCdkDsl
-    DeployTimeSubstitutedFileProps.Builder.() -> Unit): DeployTimeSubstitutedFileProps =
+    DeployTimeSubstitutedFileProps.Builder.() -> Unit = {}): DeployTimeSubstitutedFileProps =
     DeployTimeSubstitutedFileProps.Builder().apply(initializer).build()

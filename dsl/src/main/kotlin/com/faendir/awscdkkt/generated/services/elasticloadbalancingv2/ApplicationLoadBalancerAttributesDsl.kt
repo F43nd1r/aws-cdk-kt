@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.ApplicationLoadBal
 
 @Generated
 public fun buildApplicationLoadBalancerAttributes(initializer: @AwsCdkDsl
-    ApplicationLoadBalancerAttributes.Builder.() -> Unit): ApplicationLoadBalancerAttributes =
+    ApplicationLoadBalancerAttributes.Builder.() -> Unit = {}): ApplicationLoadBalancerAttributes =
     ApplicationLoadBalancerAttributes.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.cloudfront.ResponseHeadersContentSecurity
 
 @Generated
 public fun buildResponseHeadersContentSecurityPolicy(initializer: @AwsCdkDsl
-    ResponseHeadersContentSecurityPolicy.Builder.() -> Unit): ResponseHeadersContentSecurityPolicy =
+    ResponseHeadersContentSecurityPolicy.Builder.() -> Unit = {}):
+    ResponseHeadersContentSecurityPolicy =
     ResponseHeadersContentSecurityPolicy.Builder().apply(initializer).build()

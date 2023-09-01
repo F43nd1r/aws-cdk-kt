@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.ClusterOptions
 
 @Generated
-public fun buildClusterOptions(initializer: @AwsCdkDsl ClusterOptions.Builder.() -> Unit):
+public fun buildClusterOptions(initializer: @AwsCdkDsl ClusterOptions.Builder.() -> Unit = {}):
     ClusterOptions = ClusterOptions.Builder().apply(initializer).build()

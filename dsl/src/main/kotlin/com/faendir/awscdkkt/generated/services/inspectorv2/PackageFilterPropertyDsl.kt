@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.inspectorv2.CfnFilter
 
 @Generated
 public fun buildPackageFilterProperty(initializer: @AwsCdkDsl
-    CfnFilter.PackageFilterProperty.Builder.() -> Unit): CfnFilter.PackageFilterProperty =
+    CfnFilter.PackageFilterProperty.Builder.() -> Unit = {}): CfnFilter.PackageFilterProperty =
     CfnFilter.PackageFilterProperty.Builder().apply(initializer).build()

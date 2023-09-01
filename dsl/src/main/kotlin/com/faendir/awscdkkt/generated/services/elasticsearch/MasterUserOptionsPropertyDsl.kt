@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.elasticsearch.CfnDomain
 
 @Generated
 public fun buildMasterUserOptionsProperty(initializer: @AwsCdkDsl
-    CfnDomain.MasterUserOptionsProperty.Builder.() -> Unit): CfnDomain.MasterUserOptionsProperty =
+    CfnDomain.MasterUserOptionsProperty.Builder.() -> Unit = {}):
+    CfnDomain.MasterUserOptionsProperty =
     CfnDomain.MasterUserOptionsProperty.Builder().apply(initializer).build()

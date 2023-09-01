@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.autoscaling.CfnAutoScalingGroup
 
 @Generated
 public fun buildVCpuCountRequestProperty(initializer: @AwsCdkDsl
-    CfnAutoScalingGroup.VCpuCountRequestProperty.Builder.() -> Unit):
+    CfnAutoScalingGroup.VCpuCountRequestProperty.Builder.() -> Unit = {}):
     CfnAutoScalingGroup.VCpuCountRequestProperty =
     CfnAutoScalingGroup.VCpuCountRequestProperty.Builder().apply(initializer).build()

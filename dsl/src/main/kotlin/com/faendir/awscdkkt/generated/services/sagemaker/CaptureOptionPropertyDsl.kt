@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnEndpointConfig
 
 @Generated
 public fun buildCaptureOptionProperty(initializer: @AwsCdkDsl
-    CfnEndpointConfig.CaptureOptionProperty.Builder.() -> Unit):
+    CfnEndpointConfig.CaptureOptionProperty.Builder.() -> Unit = {}):
     CfnEndpointConfig.CaptureOptionProperty =
     CfnEndpointConfig.CaptureOptionProperty.Builder().apply(initializer).build()

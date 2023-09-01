@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnMonitoringSchedule
 
 @Generated
 public fun buildDatasetFormatProperty(initializer: @AwsCdkDsl
-    CfnMonitoringSchedule.DatasetFormatProperty.Builder.() -> Unit):
+    CfnMonitoringSchedule.DatasetFormatProperty.Builder.() -> Unit = {}):
     CfnMonitoringSchedule.DatasetFormatProperty =
     CfnMonitoringSchedule.DatasetFormatProperty.Builder().apply(initializer).build()

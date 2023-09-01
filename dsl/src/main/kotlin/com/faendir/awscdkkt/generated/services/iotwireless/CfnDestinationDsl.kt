@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.iotwireless.CfnDestinationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDestination(id: String, props: CfnDestinationProps): CfnDestination =
-    CfnDestination(this, id, props)
-
-@Generated
 public fun Construct.cfnDestination(
   id: String,
   props: CfnDestinationProps,
-  initializer: @AwsCdkDsl CfnDestination.() -> Unit,
+  initializer: @AwsCdkDsl CfnDestination.() -> Unit = {},
 ): CfnDestination = CfnDestination(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnDestination(id: String, initializer: @AwsCdkDsl
-    CfnDestination.Builder.() -> Unit): CfnDestination = CfnDestination.Builder.create(this,
+    CfnDestination.Builder.() -> Unit = {}): CfnDestination = CfnDestination.Builder.create(this,
     id).apply(initializer).build()

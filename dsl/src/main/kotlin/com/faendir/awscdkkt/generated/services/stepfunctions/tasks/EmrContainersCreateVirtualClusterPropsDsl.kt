@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EmrContainersCreateVi
 
 @Generated
 public fun buildEmrContainersCreateVirtualClusterProps(initializer: @AwsCdkDsl
-    EmrContainersCreateVirtualClusterProps.Builder.() -> Unit):
+    EmrContainersCreateVirtualClusterProps.Builder.() -> Unit = {}):
     EmrContainersCreateVirtualClusterProps =
     EmrContainersCreateVirtualClusterProps.Builder().apply(initializer).build()

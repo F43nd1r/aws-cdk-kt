@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.kinesisanalyticsv2.CfnApplication
 
 @Generated
 public fun buildInputProperty(initializer: @AwsCdkDsl
-    CfnApplication.InputProperty.Builder.() -> Unit): CfnApplication.InputProperty =
+    CfnApplication.InputProperty.Builder.() -> Unit = {}): CfnApplication.InputProperty =
     CfnApplication.InputProperty.Builder().apply(initializer).build()

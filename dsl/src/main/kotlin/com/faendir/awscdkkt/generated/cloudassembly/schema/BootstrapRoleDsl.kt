@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.cloudassembly.schema.BootstrapRole
 
 @Generated
-public fun buildBootstrapRole(initializer: @AwsCdkDsl BootstrapRole.Builder.() -> Unit):
+public fun buildBootstrapRole(initializer: @AwsCdkDsl BootstrapRole.Builder.() -> Unit = {}):
     BootstrapRole = BootstrapRole.Builder().apply(initializer).build()

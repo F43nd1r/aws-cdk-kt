@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.config.CustomPolicyProps
 
 @Generated
-public fun buildCustomPolicyProps(initializer: @AwsCdkDsl CustomPolicyProps.Builder.() -> Unit):
-    CustomPolicyProps = CustomPolicyProps.Builder().apply(initializer).build()
+public fun buildCustomPolicyProps(initializer: @AwsCdkDsl CustomPolicyProps.Builder.() -> Unit =
+    {}): CustomPolicyProps = CustomPolicyProps.Builder().apply(initializer).build()

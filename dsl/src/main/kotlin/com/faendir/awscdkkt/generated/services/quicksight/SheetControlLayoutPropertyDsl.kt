@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildSheetControlLayoutProperty(initializer: @AwsCdkDsl
-    CfnTemplate.SheetControlLayoutProperty.Builder.() -> Unit):
+    CfnTemplate.SheetControlLayoutProperty.Builder.() -> Unit = {}):
     CfnTemplate.SheetControlLayoutProperty =
     CfnTemplate.SheetControlLayoutProperty.Builder().apply(initializer).build()

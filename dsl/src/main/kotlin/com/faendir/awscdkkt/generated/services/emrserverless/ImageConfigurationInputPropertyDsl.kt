@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.emrserverless.CfnApplication
 
 @Generated
 public fun buildImageConfigurationInputProperty(initializer: @AwsCdkDsl
-    CfnApplication.ImageConfigurationInputProperty.Builder.() -> Unit):
+    CfnApplication.ImageConfigurationInputProperty.Builder.() -> Unit = {}):
     CfnApplication.ImageConfigurationInputProperty =
     CfnApplication.ImageConfigurationInputProperty.Builder().apply(initializer).build()

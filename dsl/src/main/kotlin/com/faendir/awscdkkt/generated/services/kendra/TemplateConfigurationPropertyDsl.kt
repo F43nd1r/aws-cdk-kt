@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kendra.CfnDataSource
 
 @Generated
 public fun buildTemplateConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.TemplateConfigurationProperty.Builder.() -> Unit):
+    CfnDataSource.TemplateConfigurationProperty.Builder.() -> Unit = {}):
     CfnDataSource.TemplateConfigurationProperty =
     CfnDataSource.TemplateConfigurationProperty.Builder().apply(initializer).build()

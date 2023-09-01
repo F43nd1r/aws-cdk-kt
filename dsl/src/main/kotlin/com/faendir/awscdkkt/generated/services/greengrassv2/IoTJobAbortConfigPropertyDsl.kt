@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.greengrassv2.CfnDeployment
 
 @Generated
 public fun buildIoTJobAbortConfigProperty(initializer: @AwsCdkDsl
-    CfnDeployment.IoTJobAbortConfigProperty.Builder.() -> Unit):
+    CfnDeployment.IoTJobAbortConfigProperty.Builder.() -> Unit = {}):
     CfnDeployment.IoTJobAbortConfigProperty =
     CfnDeployment.IoTJobAbortConfigProperty.Builder().apply(initializer).build()

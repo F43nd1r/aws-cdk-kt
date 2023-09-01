@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lambda.CfnEventSourceMapping
 
 @Generated
 public fun buildSelfManagedEventSourceProperty(initializer: @AwsCdkDsl
-    CfnEventSourceMapping.SelfManagedEventSourceProperty.Builder.() -> Unit):
+    CfnEventSourceMapping.SelfManagedEventSourceProperty.Builder.() -> Unit = {}):
     CfnEventSourceMapping.SelfManagedEventSourceProperty =
     CfnEventSourceMapping.SelfManagedEventSourceProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.glue.CfnCrawler
 
 @Generated
 public fun buildJdbcTargetProperty(initializer: @AwsCdkDsl
-    CfnCrawler.JdbcTargetProperty.Builder.() -> Unit): CfnCrawler.JdbcTargetProperty =
+    CfnCrawler.JdbcTargetProperty.Builder.() -> Unit = {}): CfnCrawler.JdbcTargetProperty =
     CfnCrawler.JdbcTargetProperty.Builder().apply(initializer).build()

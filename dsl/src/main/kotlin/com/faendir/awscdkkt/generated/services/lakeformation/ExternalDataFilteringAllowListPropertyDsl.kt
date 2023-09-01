@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lakeformation.CfnDataLakeSettings
 
 @Generated
 public fun buildExternalDataFilteringAllowListProperty(initializer: @AwsCdkDsl
-    CfnDataLakeSettings.ExternalDataFilteringAllowListProperty.Builder.() -> Unit):
+    CfnDataLakeSettings.ExternalDataFilteringAllowListProperty.Builder.() -> Unit = {}):
     CfnDataLakeSettings.ExternalDataFilteringAllowListProperty =
     CfnDataLakeSettings.ExternalDataFilteringAllowListProperty.Builder().apply(initializer).build()

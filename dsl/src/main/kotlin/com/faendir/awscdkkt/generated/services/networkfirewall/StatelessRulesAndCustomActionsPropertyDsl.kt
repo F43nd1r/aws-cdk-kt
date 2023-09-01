@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.networkfirewall.CfnRuleGroup
 
 @Generated
 public fun buildStatelessRulesAndCustomActionsProperty(initializer: @AwsCdkDsl
-    CfnRuleGroup.StatelessRulesAndCustomActionsProperty.Builder.() -> Unit):
+    CfnRuleGroup.StatelessRulesAndCustomActionsProperty.Builder.() -> Unit = {}):
     CfnRuleGroup.StatelessRulesAndCustomActionsProperty =
     CfnRuleGroup.StatelessRulesAndCustomActionsProperty.Builder().apply(initializer).build()

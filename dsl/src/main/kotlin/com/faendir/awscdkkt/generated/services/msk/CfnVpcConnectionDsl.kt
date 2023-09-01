@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.msk.CfnVpcConnectionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnVpcConnection(id: String, props: CfnVpcConnectionProps): CfnVpcConnection =
-    CfnVpcConnection(this, id, props)
-
-@Generated
 public fun Construct.cfnVpcConnection(
   id: String,
   props: CfnVpcConnectionProps,
-  initializer: @AwsCdkDsl CfnVpcConnection.() -> Unit,
+  initializer: @AwsCdkDsl CfnVpcConnection.() -> Unit = {},
 ): CfnVpcConnection = CfnVpcConnection(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnVpcConnection(id: String, initializer: @AwsCdkDsl
-    CfnVpcConnection.Builder.() -> Unit): CfnVpcConnection = CfnVpcConnection.Builder.create(this,
-    id).apply(initializer).build()
+    CfnVpcConnection.Builder.() -> Unit = {}): CfnVpcConnection =
+    CfnVpcConnection.Builder.create(this, id).apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.opsworks.CfnInstance
 
 @Generated
 public fun buildEbsBlockDeviceProperty(initializer: @AwsCdkDsl
-    CfnInstance.EbsBlockDeviceProperty.Builder.() -> Unit): CfnInstance.EbsBlockDeviceProperty =
-    CfnInstance.EbsBlockDeviceProperty.Builder().apply(initializer).build()
+    CfnInstance.EbsBlockDeviceProperty.Builder.() -> Unit = {}): CfnInstance.EbsBlockDeviceProperty
+    = CfnInstance.EbsBlockDeviceProperty.Builder().apply(initializer).build()

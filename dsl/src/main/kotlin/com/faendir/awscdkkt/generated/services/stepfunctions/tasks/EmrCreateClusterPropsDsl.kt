@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EmrCreateClusterProps
 
 @Generated
 public fun buildEmrCreateClusterProps(initializer: @AwsCdkDsl
-    EmrCreateClusterProps.Builder.() -> Unit): EmrCreateClusterProps =
+    EmrCreateClusterProps.Builder.() -> Unit = {}): EmrCreateClusterProps =
     EmrCreateClusterProps.Builder().apply(initializer).build()

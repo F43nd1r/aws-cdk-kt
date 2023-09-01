@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lakeformation.CfnDataCellsFilterProps
 
 @Generated
 public fun buildCfnDataCellsFilterProps(initializer: @AwsCdkDsl
-    CfnDataCellsFilterProps.Builder.() -> Unit): CfnDataCellsFilterProps =
+    CfnDataCellsFilterProps.Builder.() -> Unit = {}): CfnDataCellsFilterProps =
     CfnDataCellsFilterProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnSpotFleet
 
 @Generated
 public fun buildNetworkBandwidthGbpsRequestProperty(initializer: @AwsCdkDsl
-    CfnSpotFleet.NetworkBandwidthGbpsRequestProperty.Builder.() -> Unit):
+    CfnSpotFleet.NetworkBandwidthGbpsRequestProperty.Builder.() -> Unit = {}):
     CfnSpotFleet.NetworkBandwidthGbpsRequestProperty =
     CfnSpotFleet.NetworkBandwidthGbpsRequestProperty.Builder().apply(initializer).build()

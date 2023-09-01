@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnDomain
 
 @Generated
 public fun buildRStudioServerProDomainSettingsProperty(initializer: @AwsCdkDsl
-    CfnDomain.RStudioServerProDomainSettingsProperty.Builder.() -> Unit):
+    CfnDomain.RStudioServerProDomainSettingsProperty.Builder.() -> Unit = {}):
     CfnDomain.RStudioServerProDomainSettingsProperty =
     CfnDomain.RStudioServerProDomainSettingsProperty.Builder().apply(initializer).build()

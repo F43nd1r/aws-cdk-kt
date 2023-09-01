@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.AfterwardsOptions
 
 @Generated
-public fun buildAfterwardsOptions(initializer: @AwsCdkDsl AfterwardsOptions.Builder.() -> Unit):
-    AfterwardsOptions = AfterwardsOptions.Builder().apply(initializer).build()
+public fun buildAfterwardsOptions(initializer: @AwsCdkDsl AfterwardsOptions.Builder.() -> Unit =
+    {}): AfterwardsOptions = AfterwardsOptions.Builder().apply(initializer).build()

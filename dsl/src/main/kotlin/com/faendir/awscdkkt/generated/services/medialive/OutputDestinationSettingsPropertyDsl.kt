@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildOutputDestinationSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.OutputDestinationSettingsProperty.Builder.() -> Unit):
+    CfnChannel.OutputDestinationSettingsProperty.Builder.() -> Unit = {}):
     CfnChannel.OutputDestinationSettingsProperty =
     CfnChannel.OutputDestinationSettingsProperty.Builder().apply(initializer).build()

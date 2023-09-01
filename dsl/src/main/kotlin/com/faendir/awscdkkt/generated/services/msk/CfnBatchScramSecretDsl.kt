@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.msk.CfnBatchScramSecretProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnBatchScramSecret(id: String, props: CfnBatchScramSecretProps):
-    CfnBatchScramSecret = CfnBatchScramSecret(this, id, props)
-
-@Generated
 public fun Construct.cfnBatchScramSecret(
   id: String,
   props: CfnBatchScramSecretProps,
-  initializer: @AwsCdkDsl CfnBatchScramSecret.() -> Unit,
+  initializer: @AwsCdkDsl CfnBatchScramSecret.() -> Unit = {},
 ): CfnBatchScramSecret = CfnBatchScramSecret(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnBatchScramSecret(id: String, initializer: @AwsCdkDsl
-    CfnBatchScramSecret.Builder.() -> Unit): CfnBatchScramSecret =
+    CfnBatchScramSecret.Builder.() -> Unit = {}): CfnBatchScramSecret =
     CfnBatchScramSecret.Builder.create(this, id).apply(initializer).build()

@@ -15,22 +15,15 @@ import software.constructs.Construct
 @Deprecated(message =
     "software.amazon.awscdk.services.codedeploy.CustomLambdaDeploymentConfig is deprecated in CDK.")
 @Generated
-public fun Construct.customLambdaDeploymentConfig(id: String,
-    props: CustomLambdaDeploymentConfigProps): CustomLambdaDeploymentConfig =
-    CustomLambdaDeploymentConfig(this, id, props)
-
-@Deprecated(message =
-    "software.amazon.awscdk.services.codedeploy.CustomLambdaDeploymentConfig is deprecated in CDK.")
-@Generated
 public fun Construct.customLambdaDeploymentConfig(
   id: String,
   props: CustomLambdaDeploymentConfigProps,
-  initializer: @AwsCdkDsl CustomLambdaDeploymentConfig.() -> Unit,
+  initializer: @AwsCdkDsl CustomLambdaDeploymentConfig.() -> Unit = {},
 ): CustomLambdaDeploymentConfig = CustomLambdaDeploymentConfig(this, id, props).apply(initializer)
 
 @Deprecated(message =
     "software.amazon.awscdk.services.codedeploy.CustomLambdaDeploymentConfig is deprecated in CDK.")
 @Generated
 public fun Construct.buildCustomLambdaDeploymentConfig(id: String, initializer: @AwsCdkDsl
-    CustomLambdaDeploymentConfig.Builder.() -> Unit): CustomLambdaDeploymentConfig =
+    CustomLambdaDeploymentConfig.Builder.() -> Unit = {}): CustomLambdaDeploymentConfig =
     CustomLambdaDeploymentConfig.Builder.create(this, id).apply(initializer).build()

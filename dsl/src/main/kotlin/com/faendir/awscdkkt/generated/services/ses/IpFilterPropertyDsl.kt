@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ses.CfnReceiptFilter
 
 @Generated
 public fun buildIpFilterProperty(initializer: @AwsCdkDsl
-    CfnReceiptFilter.IpFilterProperty.Builder.() -> Unit): CfnReceiptFilter.IpFilterProperty =
+    CfnReceiptFilter.IpFilterProperty.Builder.() -> Unit = {}): CfnReceiptFilter.IpFilterProperty =
     CfnReceiptFilter.IpFilterProperty.Builder().apply(initializer).build()

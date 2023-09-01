@@ -9,24 +9,17 @@ import software.amazon.awscdk.services.ecr.CfnRepositoryProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnRepository(id: String): CfnRepository = CfnRepository(this, id)
-
-@Generated
-public fun Construct.cfnRepository(id: String, initializer: @AwsCdkDsl CfnRepository.() -> Unit):
-    CfnRepository = CfnRepository(this, id).apply(initializer)
-
-@Generated
-public fun Construct.cfnRepository(id: String, props: CfnRepositoryProps): CfnRepository =
-    CfnRepository(this, id, props)
+public fun Construct.cfnRepository(id: String, initializer: @AwsCdkDsl CfnRepository.() -> Unit =
+    {}): CfnRepository = CfnRepository(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnRepository(
   id: String,
   props: CfnRepositoryProps,
-  initializer: @AwsCdkDsl CfnRepository.() -> Unit,
+  initializer: @AwsCdkDsl CfnRepository.() -> Unit = {},
 ): CfnRepository = CfnRepository(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnRepository(id: String, initializer: @AwsCdkDsl
-    CfnRepository.Builder.() -> Unit): CfnRepository = CfnRepository.Builder.create(this,
+    CfnRepository.Builder.() -> Unit = {}): CfnRepository = CfnRepository.Builder.create(this,
     id).apply(initializer).build()

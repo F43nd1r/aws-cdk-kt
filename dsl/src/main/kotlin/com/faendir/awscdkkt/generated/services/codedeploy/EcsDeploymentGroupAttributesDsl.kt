@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codedeploy.EcsDeploymentGroupAttributes
 
 @Generated
 public fun buildEcsDeploymentGroupAttributes(initializer: @AwsCdkDsl
-    EcsDeploymentGroupAttributes.Builder.() -> Unit): EcsDeploymentGroupAttributes =
+    EcsDeploymentGroupAttributes.Builder.() -> Unit = {}): EcsDeploymentGroupAttributes =
     EcsDeploymentGroupAttributes.Builder().apply(initializer).build()

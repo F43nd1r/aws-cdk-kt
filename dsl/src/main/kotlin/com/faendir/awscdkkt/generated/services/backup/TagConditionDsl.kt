@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.backup.TagCondition
 
 @Generated
-public fun buildTagCondition(initializer: @AwsCdkDsl TagCondition.Builder.() -> Unit): TagCondition
-    = TagCondition.Builder().apply(initializer).build()
+public fun buildTagCondition(initializer: @AwsCdkDsl TagCondition.Builder.() -> Unit = {}):
+    TagCondition = TagCondition.Builder().apply(initializer).build()

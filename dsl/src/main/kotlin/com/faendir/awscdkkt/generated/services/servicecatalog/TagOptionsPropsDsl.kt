@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicecatalog.TagOptionsProps
 
 @Generated
-public fun buildTagOptionsProps(initializer: @AwsCdkDsl TagOptionsProps.Builder.() -> Unit):
+public fun buildTagOptionsProps(initializer: @AwsCdkDsl TagOptionsProps.Builder.() -> Unit = {}):
     TagOptionsProps = TagOptionsProps.Builder().apply(initializer).build()

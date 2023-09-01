@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cognito.CfnUserPool
 
 @Generated
 public fun buildPoliciesProperty(initializer: @AwsCdkDsl
-    CfnUserPool.PoliciesProperty.Builder.() -> Unit): CfnUserPool.PoliciesProperty =
+    CfnUserPool.PoliciesProperty.Builder.() -> Unit = {}): CfnUserPool.PoliciesProperty =
     CfnUserPool.PoliciesProperty.Builder().apply(initializer).build()

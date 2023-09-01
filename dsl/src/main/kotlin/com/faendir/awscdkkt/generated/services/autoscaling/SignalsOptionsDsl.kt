@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.SignalsOptions
 
 @Generated
-public fun buildSignalsOptions(initializer: @AwsCdkDsl SignalsOptions.Builder.() -> Unit):
+public fun buildSignalsOptions(initializer: @AwsCdkDsl SignalsOptions.Builder.() -> Unit = {}):
     SignalsOptions = SignalsOptions.Builder().apply(initializer).build()

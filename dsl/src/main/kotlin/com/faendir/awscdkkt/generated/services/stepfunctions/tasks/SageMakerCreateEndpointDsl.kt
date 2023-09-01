@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.stepfunctions.tasks.SageMakerCreateEndpoi
 import software.constructs.Construct
 
 @Generated
-public fun Construct.sageMakerCreateEndpoint(id: String, props: SageMakerCreateEndpointProps):
-    SageMakerCreateEndpoint = SageMakerCreateEndpoint(this, id, props)
-
-@Generated
 public fun Construct.sageMakerCreateEndpoint(
   id: String,
   props: SageMakerCreateEndpointProps,
-  initializer: @AwsCdkDsl SageMakerCreateEndpoint.() -> Unit,
+  initializer: @AwsCdkDsl SageMakerCreateEndpoint.() -> Unit = {},
 ): SageMakerCreateEndpoint = SageMakerCreateEndpoint(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildSageMakerCreateEndpoint(id: String, initializer: @AwsCdkDsl
-    SageMakerCreateEndpoint.Builder.() -> Unit): SageMakerCreateEndpoint =
+    SageMakerCreateEndpoint.Builder.() -> Unit = {}): SageMakerCreateEndpoint =
     SageMakerCreateEndpoint.Builder.create(this, id).apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.codedeploy.CfnDeploymentGroup
 
 @Generated
 public fun buildDeploymentStyleProperty(initializer: @AwsCdkDsl
-    CfnDeploymentGroup.DeploymentStyleProperty.Builder.() -> Unit):
+    CfnDeploymentGroup.DeploymentStyleProperty.Builder.() -> Unit = {}):
     CfnDeploymentGroup.DeploymentStyleProperty =
     CfnDeploymentGroup.DeploymentStyleProperty.Builder().apply(initializer).build()

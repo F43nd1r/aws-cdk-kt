@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.imagebuilder.CfnImagePipeline
 
 @Generated
 public fun buildImageScanningConfigurationProperty(initializer: @AwsCdkDsl
-    CfnImagePipeline.ImageScanningConfigurationProperty.Builder.() -> Unit):
+    CfnImagePipeline.ImageScanningConfigurationProperty.Builder.() -> Unit = {}):
     CfnImagePipeline.ImageScanningConfigurationProperty =
     CfnImagePipeline.ImageScanningConfigurationProperty.Builder().apply(initializer).build()

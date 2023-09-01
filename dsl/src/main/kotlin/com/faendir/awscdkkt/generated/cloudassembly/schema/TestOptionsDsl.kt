@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.cloudassembly.schema.TestOptions
 
 @Generated
-public fun buildTestOptions(initializer: @AwsCdkDsl TestOptions.Builder.() -> Unit): TestOptions =
-    TestOptions.Builder().apply(initializer).build()
+public fun buildTestOptions(initializer: @AwsCdkDsl TestOptions.Builder.() -> Unit = {}):
+    TestOptions = TestOptions.Builder().apply(initializer).build()

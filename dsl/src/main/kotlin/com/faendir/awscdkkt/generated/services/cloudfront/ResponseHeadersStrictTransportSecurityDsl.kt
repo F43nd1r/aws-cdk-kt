@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cloudfront.ResponseHeadersStrictTransport
 
 @Generated
 public fun buildResponseHeadersStrictTransportSecurity(initializer: @AwsCdkDsl
-    ResponseHeadersStrictTransportSecurity.Builder.() -> Unit):
+    ResponseHeadersStrictTransportSecurity.Builder.() -> Unit = {}):
     ResponseHeadersStrictTransportSecurity =
     ResponseHeadersStrictTransportSecurity.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.ecr.assets.DockerImageAssetInvalidationOp
 
 @Generated
 public fun buildDockerImageAssetInvalidationOptions(initializer: @AwsCdkDsl
-    DockerImageAssetInvalidationOptions.Builder.() -> Unit): DockerImageAssetInvalidationOptions =
+    DockerImageAssetInvalidationOptions.Builder.() -> Unit = {}):
+    DockerImageAssetInvalidationOptions =
     DockerImageAssetInvalidationOptions.Builder().apply(initializer).build()

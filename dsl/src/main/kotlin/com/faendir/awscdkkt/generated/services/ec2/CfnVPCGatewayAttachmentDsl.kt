@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ec2.CfnVPCGatewayAttachmentProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnVPCGatewayAttachment(id: String, props: CfnVPCGatewayAttachmentProps):
-    CfnVPCGatewayAttachment = CfnVPCGatewayAttachment(this, id, props)
-
-@Generated
 public fun Construct.cfnVPCGatewayAttachment(
   id: String,
   props: CfnVPCGatewayAttachmentProps,
-  initializer: @AwsCdkDsl CfnVPCGatewayAttachment.() -> Unit,
+  initializer: @AwsCdkDsl CfnVPCGatewayAttachment.() -> Unit = {},
 ): CfnVPCGatewayAttachment = CfnVPCGatewayAttachment(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnVPCGatewayAttachment(id: String, initializer: @AwsCdkDsl
-    CfnVPCGatewayAttachment.Builder.() -> Unit): CfnVPCGatewayAttachment =
+    CfnVPCGatewayAttachment.Builder.() -> Unit = {}): CfnVPCGatewayAttachment =
     CfnVPCGatewayAttachment.Builder.create(this, id).apply(initializer).build()

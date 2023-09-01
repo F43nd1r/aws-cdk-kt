@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildFunnelChartDataLabelOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.FunnelChartDataLabelOptionsProperty.Builder.() -> Unit):
+    CfnTemplate.FunnelChartDataLabelOptionsProperty.Builder.() -> Unit = {}):
     CfnTemplate.FunnelChartDataLabelOptionsProperty =
     CfnTemplate.FunnelChartDataLabelOptionsProperty.Builder().apply(initializer).build()

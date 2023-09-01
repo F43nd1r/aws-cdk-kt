@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.apigateway.CfnMethod
 
 @Generated
 public fun buildIntegrationResponseProperty(initializer: @AwsCdkDsl
-    CfnMethod.IntegrationResponseProperty.Builder.() -> Unit): CfnMethod.IntegrationResponseProperty
-    = CfnMethod.IntegrationResponseProperty.Builder().apply(initializer).build()
+    CfnMethod.IntegrationResponseProperty.Builder.() -> Unit = {}):
+    CfnMethod.IntegrationResponseProperty =
+    CfnMethod.IntegrationResponseProperty.Builder().apply(initializer).build()

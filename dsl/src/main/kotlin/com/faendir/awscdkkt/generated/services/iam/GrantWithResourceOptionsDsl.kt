@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iam.GrantWithResourceOptions
 
 @Generated
 public fun buildGrantWithResourceOptions(initializer: @AwsCdkDsl
-    GrantWithResourceOptions.Builder.() -> Unit): GrantWithResourceOptions =
+    GrantWithResourceOptions.Builder.() -> Unit = {}): GrantWithResourceOptions =
     GrantWithResourceOptions.Builder().apply(initializer).build()

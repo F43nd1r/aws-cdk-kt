@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.BaseServiceProps
 
 @Generated
-public fun buildBaseServiceProps(initializer: @AwsCdkDsl BaseServiceProps.Builder.() -> Unit):
+public fun buildBaseServiceProps(initializer: @AwsCdkDsl BaseServiceProps.Builder.() -> Unit = {}):
     BaseServiceProps = BaseServiceProps.Builder().apply(initializer).build()

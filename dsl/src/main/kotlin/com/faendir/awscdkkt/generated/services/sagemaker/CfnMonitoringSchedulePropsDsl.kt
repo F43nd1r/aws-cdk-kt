@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sagemaker.CfnMonitoringScheduleProps
 
 @Generated
 public fun buildCfnMonitoringScheduleProps(initializer: @AwsCdkDsl
-    CfnMonitoringScheduleProps.Builder.() -> Unit): CfnMonitoringScheduleProps =
+    CfnMonitoringScheduleProps.Builder.() -> Unit = {}): CfnMonitoringScheduleProps =
     CfnMonitoringScheduleProps.Builder().apply(initializer).build()

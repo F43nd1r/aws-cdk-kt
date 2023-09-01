@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.config.CfnOrganizationConfigRule
 
 @Generated
 public fun buildOrganizationCustomPolicyRuleMetadataProperty(initializer: @AwsCdkDsl
-    CfnOrganizationConfigRule.OrganizationCustomPolicyRuleMetadataProperty.Builder.() -> Unit):
+    CfnOrganizationConfigRule.OrganizationCustomPolicyRuleMetadataProperty.Builder.() -> Unit = {}):
     CfnOrganizationConfigRule.OrganizationCustomPolicyRuleMetadataProperty =
     CfnOrganizationConfigRule.OrganizationCustomPolicyRuleMetadataProperty.Builder().apply(initializer).build()

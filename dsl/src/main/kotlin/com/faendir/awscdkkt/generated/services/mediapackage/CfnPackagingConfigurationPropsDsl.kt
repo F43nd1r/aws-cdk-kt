@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.mediapackage.CfnPackagingConfigurationPro
 
 @Generated
 public fun buildCfnPackagingConfigurationProps(initializer: @AwsCdkDsl
-    CfnPackagingConfigurationProps.Builder.() -> Unit): CfnPackagingConfigurationProps =
+    CfnPackagingConfigurationProps.Builder.() -> Unit = {}): CfnPackagingConfigurationProps =
     CfnPackagingConfigurationProps.Builder().apply(initializer).build()

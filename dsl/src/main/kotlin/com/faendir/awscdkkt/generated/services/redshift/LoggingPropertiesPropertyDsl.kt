@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.redshift.CfnCluster
 
 @Generated
 public fun buildLoggingPropertiesProperty(initializer: @AwsCdkDsl
-    CfnCluster.LoggingPropertiesProperty.Builder.() -> Unit): CfnCluster.LoggingPropertiesProperty =
+    CfnCluster.LoggingPropertiesProperty.Builder.() -> Unit = {}):
+    CfnCluster.LoggingPropertiesProperty =
     CfnCluster.LoggingPropertiesProperty.Builder().apply(initializer).build()

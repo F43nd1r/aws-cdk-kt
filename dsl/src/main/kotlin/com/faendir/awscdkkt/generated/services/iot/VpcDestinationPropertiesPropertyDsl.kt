@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iot.CfnTopicRuleDestination
 
 @Generated
 public fun buildVpcDestinationPropertiesProperty(initializer: @AwsCdkDsl
-    CfnTopicRuleDestination.VpcDestinationPropertiesProperty.Builder.() -> Unit):
+    CfnTopicRuleDestination.VpcDestinationPropertiesProperty.Builder.() -> Unit = {}):
     CfnTopicRuleDestination.VpcDestinationPropertiesProperty =
     CfnTopicRuleDestination.VpcDestinationPropertiesProperty.Builder().apply(initializer).build()

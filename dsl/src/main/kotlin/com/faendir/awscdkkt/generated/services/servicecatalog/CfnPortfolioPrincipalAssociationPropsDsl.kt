@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.servicecatalog.CfnPortfolioPrincipalAssoc
 
 @Generated
 public fun buildCfnPortfolioPrincipalAssociationProps(initializer: @AwsCdkDsl
-    CfnPortfolioPrincipalAssociationProps.Builder.() -> Unit): CfnPortfolioPrincipalAssociationProps
-    = CfnPortfolioPrincipalAssociationProps.Builder().apply(initializer).build()
+    CfnPortfolioPrincipalAssociationProps.Builder.() -> Unit = {}):
+    CfnPortfolioPrincipalAssociationProps =
+    CfnPortfolioPrincipalAssociationProps.Builder().apply(initializer).build()

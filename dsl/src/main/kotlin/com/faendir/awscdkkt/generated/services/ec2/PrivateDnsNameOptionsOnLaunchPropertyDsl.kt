@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnSubnet
 
 @Generated
 public fun buildPrivateDnsNameOptionsOnLaunchProperty(initializer: @AwsCdkDsl
-    CfnSubnet.PrivateDnsNameOptionsOnLaunchProperty.Builder.() -> Unit):
+    CfnSubnet.PrivateDnsNameOptionsOnLaunchProperty.Builder.() -> Unit = {}):
     CfnSubnet.PrivateDnsNameOptionsOnLaunchProperty =
     CfnSubnet.PrivateDnsNameOptionsOnLaunchProperty.Builder().apply(initializer).build()

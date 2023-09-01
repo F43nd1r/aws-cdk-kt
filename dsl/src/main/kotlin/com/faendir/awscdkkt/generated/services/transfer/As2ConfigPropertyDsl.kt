@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.transfer.CfnConnector
 
 @Generated
 public fun buildAs2ConfigProperty(initializer: @AwsCdkDsl
-    CfnConnector.As2ConfigProperty.Builder.() -> Unit): CfnConnector.As2ConfigProperty =
+    CfnConnector.As2ConfigProperty.Builder.() -> Unit = {}): CfnConnector.As2ConfigProperty =
     CfnConnector.As2ConfigProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnPipelineProps
 
 @Generated
-public fun buildCfnPipelineProps(initializer: @AwsCdkDsl CfnPipelineProps.Builder.() -> Unit):
+public fun buildCfnPipelineProps(initializer: @AwsCdkDsl CfnPipelineProps.Builder.() -> Unit = {}):
     CfnPipelineProps = CfnPipelineProps.Builder().apply(initializer).build()

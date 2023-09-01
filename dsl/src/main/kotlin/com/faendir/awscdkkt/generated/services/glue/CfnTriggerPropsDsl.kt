@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnTriggerProps
 
 @Generated
-public fun buildCfnTriggerProps(initializer: @AwsCdkDsl CfnTriggerProps.Builder.() -> Unit):
+public fun buildCfnTriggerProps(initializer: @AwsCdkDsl CfnTriggerProps.Builder.() -> Unit = {}):
     CfnTriggerProps = CfnTriggerProps.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.transfer.CfnWorkflow
 
 @Generated
 public fun buildTagStepDetailsProperty(initializer: @AwsCdkDsl
-    CfnWorkflow.TagStepDetailsProperty.Builder.() -> Unit): CfnWorkflow.TagStepDetailsProperty =
-    CfnWorkflow.TagStepDetailsProperty.Builder().apply(initializer).build()
+    CfnWorkflow.TagStepDetailsProperty.Builder.() -> Unit = {}): CfnWorkflow.TagStepDetailsProperty
+    = CfnWorkflow.TagStepDetailsProperty.Builder().apply(initializer).build()

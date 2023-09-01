@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.emr.CfnInstanceGroupConfigProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnInstanceGroupConfig(id: String, props: CfnInstanceGroupConfigProps):
-    CfnInstanceGroupConfig = CfnInstanceGroupConfig(this, id, props)
-
-@Generated
 public fun Construct.cfnInstanceGroupConfig(
   id: String,
   props: CfnInstanceGroupConfigProps,
-  initializer: @AwsCdkDsl CfnInstanceGroupConfig.() -> Unit,
+  initializer: @AwsCdkDsl CfnInstanceGroupConfig.() -> Unit = {},
 ): CfnInstanceGroupConfig = CfnInstanceGroupConfig(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnInstanceGroupConfig(id: String, initializer: @AwsCdkDsl
-    CfnInstanceGroupConfig.Builder.() -> Unit): CfnInstanceGroupConfig =
+    CfnInstanceGroupConfig.Builder.() -> Unit = {}): CfnInstanceGroupConfig =
     CfnInstanceGroupConfig.Builder.create(this, id).apply(initializer).build()

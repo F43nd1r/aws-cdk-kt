@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.waf.regional.CfnByteMatchSetProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnByteMatchSet(id: String, props: CfnByteMatchSetProps): CfnByteMatchSet =
-    CfnByteMatchSet(this, id, props)
-
-@Generated
 public fun Construct.cfnByteMatchSet(
   id: String,
   props: CfnByteMatchSetProps,
-  initializer: @AwsCdkDsl CfnByteMatchSet.() -> Unit,
+  initializer: @AwsCdkDsl CfnByteMatchSet.() -> Unit = {},
 ): CfnByteMatchSet = CfnByteMatchSet(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnByteMatchSet(id: String, initializer: @AwsCdkDsl
-    CfnByteMatchSet.Builder.() -> Unit): CfnByteMatchSet = CfnByteMatchSet.Builder.create(this,
+    CfnByteMatchSet.Builder.() -> Unit = {}): CfnByteMatchSet = CfnByteMatchSet.Builder.create(this,
     id).apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.servicecatalog.CfnServiceAction
 
 @Generated
 public fun buildDefinitionParameterProperty(initializer: @AwsCdkDsl
-    CfnServiceAction.DefinitionParameterProperty.Builder.() -> Unit):
+    CfnServiceAction.DefinitionParameterProperty.Builder.() -> Unit = {}):
     CfnServiceAction.DefinitionParameterProperty =
     CfnServiceAction.DefinitionParameterProperty.Builder().apply(initializer).build()

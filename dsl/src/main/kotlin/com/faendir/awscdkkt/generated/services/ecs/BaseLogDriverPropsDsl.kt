@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.BaseLogDriverProps
 
 @Generated
-public fun buildBaseLogDriverProps(initializer: @AwsCdkDsl BaseLogDriverProps.Builder.() -> Unit):
-    BaseLogDriverProps = BaseLogDriverProps.Builder().apply(initializer).build()
+public fun buildBaseLogDriverProps(initializer: @AwsCdkDsl BaseLogDriverProps.Builder.() -> Unit =
+    {}): BaseLogDriverProps = BaseLogDriverProps.Builder().apply(initializer).build()

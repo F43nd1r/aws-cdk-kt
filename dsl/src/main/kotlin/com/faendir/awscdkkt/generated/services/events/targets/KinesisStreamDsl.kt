@@ -8,5 +8,5 @@ import software.amazon.awscdk.services.kinesis.IStream
 
 @Generated
 public fun buildKinesisStream(stream: IStream, initializer: @AwsCdkDsl
-    KinesisStream.Builder.() -> Unit): KinesisStream =
+    KinesisStream.Builder.() -> Unit = {}): KinesisStream =
     KinesisStream.Builder.create(stream).apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildTableFieldCustomTextContentProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TableFieldCustomTextContentProperty.Builder.() -> Unit):
+    CfnTemplate.TableFieldCustomTextContentProperty.Builder.() -> Unit = {}):
     CfnTemplate.TableFieldCustomTextContentProperty =
     CfnTemplate.TableFieldCustomTextContentProperty.Builder().apply(initializer).build()

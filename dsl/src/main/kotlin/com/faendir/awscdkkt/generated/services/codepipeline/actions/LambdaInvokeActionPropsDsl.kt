@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codepipeline.actions.LambdaInvokeActionPr
 
 @Generated
 public fun buildLambdaInvokeActionProps(initializer: @AwsCdkDsl
-    LambdaInvokeActionProps.Builder.() -> Unit): LambdaInvokeActionProps =
+    LambdaInvokeActionProps.Builder.() -> Unit = {}): LambdaInvokeActionProps =
     LambdaInvokeActionProps.Builder().apply(initializer).build()

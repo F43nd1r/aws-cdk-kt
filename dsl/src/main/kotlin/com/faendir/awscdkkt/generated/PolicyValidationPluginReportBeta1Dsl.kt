@@ -7,5 +7,5 @@ import software.amazon.awscdk.PolicyValidationPluginReportBeta1
 
 @Generated
 public fun buildPolicyValidationPluginReportBeta1(initializer: @AwsCdkDsl
-    PolicyValidationPluginReportBeta1.Builder.() -> Unit): PolicyValidationPluginReportBeta1 =
+    PolicyValidationPluginReportBeta1.Builder.() -> Unit = {}): PolicyValidationPluginReportBeta1 =
     PolicyValidationPluginReportBeta1.Builder().apply(initializer).build()

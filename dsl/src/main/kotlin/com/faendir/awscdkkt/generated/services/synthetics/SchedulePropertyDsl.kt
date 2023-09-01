@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.synthetics.CfnCanary
 
 @Generated
 public fun buildScheduleProperty(initializer: @AwsCdkDsl
-    CfnCanary.ScheduleProperty.Builder.() -> Unit): CfnCanary.ScheduleProperty =
+    CfnCanary.ScheduleProperty.Builder.() -> Unit = {}): CfnCanary.ScheduleProperty =
     CfnCanary.ScheduleProperty.Builder().apply(initializer).build()

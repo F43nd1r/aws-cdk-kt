@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.timestream.CfnScheduledQuery
 
 @Generated
 public fun buildMultiMeasureAttributeMappingProperty(initializer: @AwsCdkDsl
-    CfnScheduledQuery.MultiMeasureAttributeMappingProperty.Builder.() -> Unit):
+    CfnScheduledQuery.MultiMeasureAttributeMappingProperty.Builder.() -> Unit = {}):
     CfnScheduledQuery.MultiMeasureAttributeMappingProperty =
     CfnScheduledQuery.MultiMeasureAttributeMappingProperty.Builder().apply(initializer).build()

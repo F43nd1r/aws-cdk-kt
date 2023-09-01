@@ -6,6 +6,6 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.CfnNodegroup
 
 @Generated
-public fun buildTaintProperty(initializer: @AwsCdkDsl
-    CfnNodegroup.TaintProperty.Builder.() -> Unit): CfnNodegroup.TaintProperty =
+public fun buildTaintProperty(initializer: @AwsCdkDsl CfnNodegroup.TaintProperty.Builder.() -> Unit
+    = {}): CfnNodegroup.TaintProperty =
     CfnNodegroup.TaintProperty.Builder().apply(initializer).build()

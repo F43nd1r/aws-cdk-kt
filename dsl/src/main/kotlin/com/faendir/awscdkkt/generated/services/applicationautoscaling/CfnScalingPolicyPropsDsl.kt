@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.applicationautoscaling.CfnScalingPolicyPr
 
 @Generated
 public fun buildCfnScalingPolicyProps(initializer: @AwsCdkDsl
-    CfnScalingPolicyProps.Builder.() -> Unit): CfnScalingPolicyProps =
+    CfnScalingPolicyProps.Builder.() -> Unit = {}): CfnScalingPolicyProps =
     CfnScalingPolicyProps.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.autoscalingplans.CfnScalingPlanProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnScalingPlan(id: String, props: CfnScalingPlanProps): CfnScalingPlan =
-    CfnScalingPlan(this, id, props)
-
-@Generated
 public fun Construct.cfnScalingPlan(
   id: String,
   props: CfnScalingPlanProps,
-  initializer: @AwsCdkDsl CfnScalingPlan.() -> Unit,
+  initializer: @AwsCdkDsl CfnScalingPlan.() -> Unit = {},
 ): CfnScalingPlan = CfnScalingPlan(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnScalingPlan(id: String, initializer: @AwsCdkDsl
-    CfnScalingPlan.Builder.() -> Unit): CfnScalingPlan = CfnScalingPlan.Builder.create(this,
+    CfnScalingPlan.Builder.() -> Unit = {}): CfnScalingPlan = CfnScalingPlan.Builder.create(this,
     id).apply(initializer).build()

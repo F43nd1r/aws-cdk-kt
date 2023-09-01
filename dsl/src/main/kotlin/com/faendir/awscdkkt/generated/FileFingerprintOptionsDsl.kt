@@ -7,5 +7,5 @@ import software.amazon.awscdk.FileFingerprintOptions
 
 @Generated
 public fun buildFileFingerprintOptions(initializer: @AwsCdkDsl
-    FileFingerprintOptions.Builder.() -> Unit): FileFingerprintOptions =
+    FileFingerprintOptions.Builder.() -> Unit = {}): FileFingerprintOptions =
     FileFingerprintOptions.Builder().apply(initializer).build()

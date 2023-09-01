@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelPackage
 
 @Generated
 public fun buildTransformOutputProperty(initializer: @AwsCdkDsl
-    CfnModelPackage.TransformOutputProperty.Builder.() -> Unit):
+    CfnModelPackage.TransformOutputProperty.Builder.() -> Unit = {}):
     CfnModelPackage.TransformOutputProperty =
     CfnModelPackage.TransformOutputProperty.Builder().apply(initializer).build()

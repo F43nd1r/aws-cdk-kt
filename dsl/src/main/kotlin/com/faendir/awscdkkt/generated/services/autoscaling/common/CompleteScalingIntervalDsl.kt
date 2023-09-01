@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.autoscaling.common.CompleteScalingInterva
 
 @Generated
 public fun buildCompleteScalingInterval(initializer: @AwsCdkDsl
-    CompleteScalingInterval.Builder.() -> Unit): CompleteScalingInterval =
+    CompleteScalingInterval.Builder.() -> Unit = {}): CompleteScalingInterval =
     CompleteScalingInterval.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.mediapackage.CfnPackagingGroupProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnPackagingGroup(id: String, props: CfnPackagingGroupProps): CfnPackagingGroup
-    = CfnPackagingGroup(this, id, props)
-
-@Generated
 public fun Construct.cfnPackagingGroup(
   id: String,
   props: CfnPackagingGroupProps,
-  initializer: @AwsCdkDsl CfnPackagingGroup.() -> Unit,
+  initializer: @AwsCdkDsl CfnPackagingGroup.() -> Unit = {},
 ): CfnPackagingGroup = CfnPackagingGroup(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnPackagingGroup(id: String, initializer: @AwsCdkDsl
-    CfnPackagingGroup.Builder.() -> Unit): CfnPackagingGroup =
+    CfnPackagingGroup.Builder.() -> Unit = {}): CfnPackagingGroup =
     CfnPackagingGroup.Builder.create(this, id).apply(initializer).build()

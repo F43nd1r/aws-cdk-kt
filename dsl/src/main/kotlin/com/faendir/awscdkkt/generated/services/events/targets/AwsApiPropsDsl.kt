@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.targets.AwsApiProps
 
 @Generated
-public fun buildAwsApiProps(initializer: @AwsCdkDsl AwsApiProps.Builder.() -> Unit): AwsApiProps =
-    AwsApiProps.Builder().apply(initializer).build()
+public fun buildAwsApiProps(initializer: @AwsCdkDsl AwsApiProps.Builder.() -> Unit = {}):
+    AwsApiProps = AwsApiProps.Builder().apply(initializer).build()

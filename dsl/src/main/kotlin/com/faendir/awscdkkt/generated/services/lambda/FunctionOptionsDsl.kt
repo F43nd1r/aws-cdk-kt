@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.FunctionOptions
 
 @Generated
-public fun buildFunctionOptions(initializer: @AwsCdkDsl FunctionOptions.Builder.() -> Unit):
+public fun buildFunctionOptions(initializer: @AwsCdkDsl FunctionOptions.Builder.() -> Unit = {}):
     FunctionOptions = FunctionOptions.Builder().apply(initializer).build()

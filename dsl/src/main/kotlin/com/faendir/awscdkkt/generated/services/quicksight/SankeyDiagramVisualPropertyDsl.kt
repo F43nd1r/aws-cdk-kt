@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildSankeyDiagramVisualProperty(initializer: @AwsCdkDsl
-    CfnTemplate.SankeyDiagramVisualProperty.Builder.() -> Unit):
+    CfnTemplate.SankeyDiagramVisualProperty.Builder.() -> Unit = {}):
     CfnTemplate.SankeyDiagramVisualProperty =
     CfnTemplate.SankeyDiagramVisualProperty.Builder().apply(initializer).build()

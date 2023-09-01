@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.elasticloadbalancing.CfnLoadBalancer
 
 @Generated
 public fun buildHealthCheckProperty(initializer: @AwsCdkDsl
-    CfnLoadBalancer.HealthCheckProperty.Builder.() -> Unit): CfnLoadBalancer.HealthCheckProperty =
+    CfnLoadBalancer.HealthCheckProperty.Builder.() -> Unit = {}):
+    CfnLoadBalancer.HealthCheckProperty =
     CfnLoadBalancer.HealthCheckProperty.Builder().apply(initializer).build()

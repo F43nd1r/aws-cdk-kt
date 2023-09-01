@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildNumericalAggregationFunctionProperty(initializer: @AwsCdkDsl
-    CfnTemplate.NumericalAggregationFunctionProperty.Builder.() -> Unit):
+    CfnTemplate.NumericalAggregationFunctionProperty.Builder.() -> Unit = {}):
     CfnTemplate.NumericalAggregationFunctionProperty =
     CfnTemplate.NumericalAggregationFunctionProperty.Builder().apply(initializer).build()

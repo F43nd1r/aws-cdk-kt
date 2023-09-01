@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildAudioSilenceFailoverSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.AudioSilenceFailoverSettingsProperty.Builder.() -> Unit):
+    CfnChannel.AudioSilenceFailoverSettingsProperty.Builder.() -> Unit = {}):
     CfnChannel.AudioSilenceFailoverSettingsProperty =
     CfnChannel.AudioSilenceFailoverSettingsProperty.Builder().apply(initializer).build()

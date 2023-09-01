@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.imagebuilder.CfnImagePipeline
 
 @Generated
 public fun buildScheduleProperty(initializer: @AwsCdkDsl
-    CfnImagePipeline.ScheduleProperty.Builder.() -> Unit): CfnImagePipeline.ScheduleProperty =
+    CfnImagePipeline.ScheduleProperty.Builder.() -> Unit = {}): CfnImagePipeline.ScheduleProperty =
     CfnImagePipeline.ScheduleProperty.Builder().apply(initializer).build()

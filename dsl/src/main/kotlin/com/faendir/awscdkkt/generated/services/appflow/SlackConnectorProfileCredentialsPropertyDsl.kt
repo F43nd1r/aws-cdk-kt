@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnConnectorProfile
 
 @Generated
 public fun buildSlackConnectorProfileCredentialsProperty(initializer: @AwsCdkDsl
-    CfnConnectorProfile.SlackConnectorProfileCredentialsProperty.Builder.() -> Unit):
+    CfnConnectorProfile.SlackConnectorProfileCredentialsProperty.Builder.() -> Unit = {}):
     CfnConnectorProfile.SlackConnectorProfileCredentialsProperty =
     CfnConnectorProfile.SlackConnectorProfileCredentialsProperty.Builder().apply(initializer).build()

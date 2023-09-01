@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.patterns.ScheduledFargateTaskImageOpt
 
 @Generated
 public fun buildScheduledFargateTaskImageOptions(initializer: @AwsCdkDsl
-    ScheduledFargateTaskImageOptions.Builder.() -> Unit): ScheduledFargateTaskImageOptions =
+    ScheduledFargateTaskImageOptions.Builder.() -> Unit = {}): ScheduledFargateTaskImageOptions =
     ScheduledFargateTaskImageOptions.Builder().apply(initializer).build()

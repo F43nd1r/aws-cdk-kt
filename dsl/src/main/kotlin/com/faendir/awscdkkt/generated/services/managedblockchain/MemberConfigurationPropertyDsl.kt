@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.managedblockchain.CfnMember
 
 @Generated
 public fun buildMemberConfigurationProperty(initializer: @AwsCdkDsl
-    CfnMember.MemberConfigurationProperty.Builder.() -> Unit): CfnMember.MemberConfigurationProperty
-    = CfnMember.MemberConfigurationProperty.Builder().apply(initializer).build()
+    CfnMember.MemberConfigurationProperty.Builder.() -> Unit = {}):
+    CfnMember.MemberConfigurationProperty =
+    CfnMember.MemberConfigurationProperty.Builder().apply(initializer).build()

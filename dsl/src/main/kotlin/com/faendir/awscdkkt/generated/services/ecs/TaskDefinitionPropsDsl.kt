@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.TaskDefinitionProps
 
 @Generated
-public fun buildTaskDefinitionProps(initializer: @AwsCdkDsl TaskDefinitionProps.Builder.() -> Unit):
-    TaskDefinitionProps = TaskDefinitionProps.Builder().apply(initializer).build()
+public fun buildTaskDefinitionProps(initializer: @AwsCdkDsl TaskDefinitionProps.Builder.() -> Unit =
+    {}): TaskDefinitionProps = TaskDefinitionProps.Builder().apply(initializer).build()

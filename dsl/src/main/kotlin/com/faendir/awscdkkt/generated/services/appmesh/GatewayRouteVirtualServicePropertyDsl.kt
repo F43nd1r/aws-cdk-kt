@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appmesh.CfnGatewayRoute
 
 @Generated
 public fun buildGatewayRouteVirtualServiceProperty(initializer: @AwsCdkDsl
-    CfnGatewayRoute.GatewayRouteVirtualServiceProperty.Builder.() -> Unit):
+    CfnGatewayRoute.GatewayRouteVirtualServiceProperty.Builder.() -> Unit = {}):
     CfnGatewayRoute.GatewayRouteVirtualServiceProperty =
     CfnGatewayRoute.GatewayRouteVirtualServiceProperty.Builder().apply(initializer).build()

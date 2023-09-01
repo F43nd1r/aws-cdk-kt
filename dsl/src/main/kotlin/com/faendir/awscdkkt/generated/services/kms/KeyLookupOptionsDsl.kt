@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kms.KeyLookupOptions
 
 @Generated
-public fun buildKeyLookupOptions(initializer: @AwsCdkDsl KeyLookupOptions.Builder.() -> Unit):
+public fun buildKeyLookupOptions(initializer: @AwsCdkDsl KeyLookupOptions.Builder.() -> Unit = {}):
     KeyLookupOptions = KeyLookupOptions.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.redshift.CfnScheduledActionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnScheduledAction(id: String, props: CfnScheduledActionProps):
-    CfnScheduledAction = CfnScheduledAction(this, id, props)
-
-@Generated
 public fun Construct.cfnScheduledAction(
   id: String,
   props: CfnScheduledActionProps,
-  initializer: @AwsCdkDsl CfnScheduledAction.() -> Unit,
+  initializer: @AwsCdkDsl CfnScheduledAction.() -> Unit = {},
 ): CfnScheduledAction = CfnScheduledAction(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnScheduledAction(id: String, initializer: @AwsCdkDsl
-    CfnScheduledAction.Builder.() -> Unit): CfnScheduledAction =
+    CfnScheduledAction.Builder.() -> Unit = {}): CfnScheduledAction =
     CfnScheduledAction.Builder.create(this, id).apply(initializer).build()

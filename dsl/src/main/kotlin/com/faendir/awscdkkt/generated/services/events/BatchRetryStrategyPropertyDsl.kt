@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.events.CfnRule
 
 @Generated
 public fun buildBatchRetryStrategyProperty(initializer: @AwsCdkDsl
-    CfnRule.BatchRetryStrategyProperty.Builder.() -> Unit): CfnRule.BatchRetryStrategyProperty =
-    CfnRule.BatchRetryStrategyProperty.Builder().apply(initializer).build()
+    CfnRule.BatchRetryStrategyProperty.Builder.() -> Unit = {}): CfnRule.BatchRetryStrategyProperty
+    = CfnRule.BatchRetryStrategyProperty.Builder().apply(initializer).build()

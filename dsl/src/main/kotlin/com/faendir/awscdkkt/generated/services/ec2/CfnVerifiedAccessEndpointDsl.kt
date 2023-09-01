@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ec2.CfnVerifiedAccessEndpointProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnVerifiedAccessEndpoint(id: String, props: CfnVerifiedAccessEndpointProps):
-    CfnVerifiedAccessEndpoint = CfnVerifiedAccessEndpoint(this, id, props)
-
-@Generated
 public fun Construct.cfnVerifiedAccessEndpoint(
   id: String,
   props: CfnVerifiedAccessEndpointProps,
-  initializer: @AwsCdkDsl CfnVerifiedAccessEndpoint.() -> Unit,
+  initializer: @AwsCdkDsl CfnVerifiedAccessEndpoint.() -> Unit = {},
 ): CfnVerifiedAccessEndpoint = CfnVerifiedAccessEndpoint(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnVerifiedAccessEndpoint(id: String, initializer: @AwsCdkDsl
-    CfnVerifiedAccessEndpoint.Builder.() -> Unit): CfnVerifiedAccessEndpoint =
+    CfnVerifiedAccessEndpoint.Builder.() -> Unit = {}): CfnVerifiedAccessEndpoint =
     CfnVerifiedAccessEndpoint.Builder.create(this, id).apply(initializer).build()

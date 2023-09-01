@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appmesh.CfnRoute
 
 @Generated
 public fun buildRouteSpecProperty(initializer: @AwsCdkDsl
-    CfnRoute.RouteSpecProperty.Builder.() -> Unit): CfnRoute.RouteSpecProperty =
+    CfnRoute.RouteSpecProperty.Builder.() -> Unit = {}): CfnRoute.RouteSpecProperty =
     CfnRoute.RouteSpecProperty.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.CustomResourceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.customResource(id: String, props: CustomResourceProps): CustomResource =
-    CustomResource(this, id, props)
-
-@Generated
 public fun Construct.customResource(
   id: String,
   props: CustomResourceProps,
-  initializer: @AwsCdkDsl CustomResource.() -> Unit,
+  initializer: @AwsCdkDsl CustomResource.() -> Unit = {},
 ): CustomResource = CustomResource(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCustomResource(id: String, initializer: @AwsCdkDsl
-    CustomResource.Builder.() -> Unit): CustomResource = CustomResource.Builder.create(this,
+    CustomResource.Builder.() -> Unit = {}): CustomResource = CustomResource.Builder.create(this,
     id).apply(initializer).build()

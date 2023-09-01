@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.route53.CfnHealthCheckProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnHealthCheck(id: String, props: CfnHealthCheckProps): CfnHealthCheck =
-    CfnHealthCheck(this, id, props)
-
-@Generated
 public fun Construct.cfnHealthCheck(
   id: String,
   props: CfnHealthCheckProps,
-  initializer: @AwsCdkDsl CfnHealthCheck.() -> Unit,
+  initializer: @AwsCdkDsl CfnHealthCheck.() -> Unit = {},
 ): CfnHealthCheck = CfnHealthCheck(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnHealthCheck(id: String, initializer: @AwsCdkDsl
-    CfnHealthCheck.Builder.() -> Unit): CfnHealthCheck = CfnHealthCheck.Builder.create(this,
+    CfnHealthCheck.Builder.() -> Unit = {}): CfnHealthCheck = CfnHealthCheck.Builder.create(this,
     id).apply(initializer).build()

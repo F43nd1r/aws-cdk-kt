@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appmesh.HttpGatewayRouteSpecOptions
 
 @Generated
 public fun buildHttpGatewayRouteSpecOptions(initializer: @AwsCdkDsl
-    HttpGatewayRouteSpecOptions.Builder.() -> Unit): HttpGatewayRouteSpecOptions =
+    HttpGatewayRouteSpecOptions.Builder.() -> Unit = {}): HttpGatewayRouteSpecOptions =
     HttpGatewayRouteSpecOptions.Builder().apply(initializer).build()

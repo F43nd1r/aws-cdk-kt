@@ -9,28 +9,20 @@ import software.amazon.awscdk.services.servicecatalog.CfnCloudFormationProvision
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnCloudFormationProvisionedProduct(id: String):
-    CfnCloudFormationProvisionedProduct = CfnCloudFormationProvisionedProduct(this, id)
-
-@Generated
 public fun Construct.cfnCloudFormationProvisionedProduct(id: String, initializer: @AwsCdkDsl
-    CfnCloudFormationProvisionedProduct.() -> Unit): CfnCloudFormationProvisionedProduct =
+    CfnCloudFormationProvisionedProduct.() -> Unit = {}): CfnCloudFormationProvisionedProduct =
     CfnCloudFormationProvisionedProduct(this, id).apply(initializer)
-
-@Generated
-public fun Construct.cfnCloudFormationProvisionedProduct(id: String,
-    props: CfnCloudFormationProvisionedProductProps): CfnCloudFormationProvisionedProduct =
-    CfnCloudFormationProvisionedProduct(this, id, props)
 
 @Generated
 public fun Construct.cfnCloudFormationProvisionedProduct(
   id: String,
   props: CfnCloudFormationProvisionedProductProps,
-  initializer: @AwsCdkDsl CfnCloudFormationProvisionedProduct.() -> Unit,
+  initializer: @AwsCdkDsl CfnCloudFormationProvisionedProduct.() -> Unit = {},
 ): CfnCloudFormationProvisionedProduct = CfnCloudFormationProvisionedProduct(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnCloudFormationProvisionedProduct(id: String, initializer: @AwsCdkDsl
-    CfnCloudFormationProvisionedProduct.Builder.() -> Unit): CfnCloudFormationProvisionedProduct =
-    CfnCloudFormationProvisionedProduct.Builder.create(this, id).apply(initializer).build()
+    CfnCloudFormationProvisionedProduct.Builder.() -> Unit = {}):
+    CfnCloudFormationProvisionedProduct = CfnCloudFormationProvisionedProduct.Builder.create(this,
+    id).apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.alexa.ask.CfnSkill
 
 @Generated
 public fun buildAuthenticationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnSkill.AuthenticationConfigurationProperty.Builder.() -> Unit):
+    CfnSkill.AuthenticationConfigurationProperty.Builder.() -> Unit = {}):
     CfnSkill.AuthenticationConfigurationProperty =
     CfnSkill.AuthenticationConfigurationProperty.Builder().apply(initializer).build()

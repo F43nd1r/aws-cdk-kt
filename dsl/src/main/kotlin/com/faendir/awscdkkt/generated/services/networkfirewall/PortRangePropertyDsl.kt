@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.networkfirewall.CfnRuleGroup
 
 @Generated
 public fun buildPortRangeProperty(initializer: @AwsCdkDsl
-    CfnRuleGroup.PortRangeProperty.Builder.() -> Unit): CfnRuleGroup.PortRangeProperty =
+    CfnRuleGroup.PortRangeProperty.Builder.() -> Unit = {}): CfnRuleGroup.PortRangeProperty =
     CfnRuleGroup.PortRangeProperty.Builder().apply(initializer).build()

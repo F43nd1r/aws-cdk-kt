@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iot.CfnJobTemplate
 
 @Generated
 public fun buildMaintenanceWindowProperty(initializer: @AwsCdkDsl
-    CfnJobTemplate.MaintenanceWindowProperty.Builder.() -> Unit):
+    CfnJobTemplate.MaintenanceWindowProperty.Builder.() -> Unit = {}):
     CfnJobTemplate.MaintenanceWindowProperty =
     CfnJobTemplate.MaintenanceWindowProperty.Builder().apply(initializer).build()

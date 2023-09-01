@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDataSource
 
 @Generated
 public fun buildSslPropertiesProperty(initializer: @AwsCdkDsl
-    CfnDataSource.SslPropertiesProperty.Builder.() -> Unit): CfnDataSource.SslPropertiesProperty =
+    CfnDataSource.SslPropertiesProperty.Builder.() -> Unit = {}):
+    CfnDataSource.SslPropertiesProperty =
     CfnDataSource.SslPropertiesProperty.Builder().apply(initializer).build()

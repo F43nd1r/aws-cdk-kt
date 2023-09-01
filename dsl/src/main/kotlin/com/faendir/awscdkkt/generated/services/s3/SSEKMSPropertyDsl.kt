@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.s3.CfnStorageLens
 
 @Generated
 public fun buildSSEKMSProperty(initializer: @AwsCdkDsl
-    CfnStorageLens.SSEKMSProperty.Builder.() -> Unit): CfnStorageLens.SSEKMSProperty =
+    CfnStorageLens.SSEKMSProperty.Builder.() -> Unit = {}): CfnStorageLens.SSEKMSProperty =
     CfnStorageLens.SSEKMSProperty.Builder().apply(initializer).build()

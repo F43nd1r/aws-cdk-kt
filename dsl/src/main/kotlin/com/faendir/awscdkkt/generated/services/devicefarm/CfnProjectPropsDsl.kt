@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.devicefarm.CfnProjectProps
 
 @Generated
-public fun buildCfnProjectProps(initializer: @AwsCdkDsl CfnProjectProps.Builder.() -> Unit):
+public fun buildCfnProjectProps(initializer: @AwsCdkDsl CfnProjectProps.Builder.() -> Unit = {}):
     CfnProjectProps = CfnProjectProps.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.CfnStackSet
 
 @Generated
 public fun buildManagedExecutionProperty(initializer: @AwsCdkDsl
-    CfnStackSet.ManagedExecutionProperty.Builder.() -> Unit): CfnStackSet.ManagedExecutionProperty =
+    CfnStackSet.ManagedExecutionProperty.Builder.() -> Unit = {}):
+    CfnStackSet.ManagedExecutionProperty =
     CfnStackSet.ManagedExecutionProperty.Builder().apply(initializer).build()

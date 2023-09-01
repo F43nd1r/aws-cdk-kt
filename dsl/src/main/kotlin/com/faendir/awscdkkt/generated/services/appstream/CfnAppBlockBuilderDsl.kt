@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.appstream.CfnAppBlockBuilderProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnAppBlockBuilder(id: String, props: CfnAppBlockBuilderProps):
-    CfnAppBlockBuilder = CfnAppBlockBuilder(this, id, props)
-
-@Generated
 public fun Construct.cfnAppBlockBuilder(
   id: String,
   props: CfnAppBlockBuilderProps,
-  initializer: @AwsCdkDsl CfnAppBlockBuilder.() -> Unit,
+  initializer: @AwsCdkDsl CfnAppBlockBuilder.() -> Unit = {},
 ): CfnAppBlockBuilder = CfnAppBlockBuilder(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnAppBlockBuilder(id: String, initializer: @AwsCdkDsl
-    CfnAppBlockBuilder.Builder.() -> Unit): CfnAppBlockBuilder =
+    CfnAppBlockBuilder.Builder.() -> Unit = {}): CfnAppBlockBuilder =
     CfnAppBlockBuilder.Builder.create(this, id).apply(initializer).build()

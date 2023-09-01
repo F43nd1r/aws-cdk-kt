@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotthingsgraph.CfnFlowTemplateProps
 
 @Generated
-public fun buildCfnFlowTemplateProps(initializer: @AwsCdkDsl
-    CfnFlowTemplateProps.Builder.() -> Unit): CfnFlowTemplateProps =
-    CfnFlowTemplateProps.Builder().apply(initializer).build()
+public fun buildCfnFlowTemplateProps(initializer: @AwsCdkDsl CfnFlowTemplateProps.Builder.() -> Unit
+    = {}): CfnFlowTemplateProps = CfnFlowTemplateProps.Builder().apply(initializer).build()

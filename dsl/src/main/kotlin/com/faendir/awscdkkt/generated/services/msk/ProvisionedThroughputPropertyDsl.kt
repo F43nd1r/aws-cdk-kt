@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.msk.CfnCluster
 
 @Generated
 public fun buildProvisionedThroughputProperty(initializer: @AwsCdkDsl
-    CfnCluster.ProvisionedThroughputProperty.Builder.() -> Unit):
+    CfnCluster.ProvisionedThroughputProperty.Builder.() -> Unit = {}):
     CfnCluster.ProvisionedThroughputProperty =
     CfnCluster.ProvisionedThroughputProperty.Builder().apply(initializer).build()

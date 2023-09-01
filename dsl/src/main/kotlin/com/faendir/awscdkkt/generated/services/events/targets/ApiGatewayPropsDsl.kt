@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.targets.ApiGatewayProps
 
 @Generated
-public fun buildApiGatewayProps(initializer: @AwsCdkDsl ApiGatewayProps.Builder.() -> Unit):
+public fun buildApiGatewayProps(initializer: @AwsCdkDsl ApiGatewayProps.Builder.() -> Unit = {}):
     ApiGatewayProps = ApiGatewayProps.Builder().apply(initializer).build()

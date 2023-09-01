@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.ReverseOptions
 
 @Generated
-public fun buildReverseOptions(initializer: @AwsCdkDsl ReverseOptions.Builder.() -> Unit):
+public fun buildReverseOptions(initializer: @AwsCdkDsl ReverseOptions.Builder.() -> Unit = {}):
     ReverseOptions = ReverseOptions.Builder().apply(initializer).build()

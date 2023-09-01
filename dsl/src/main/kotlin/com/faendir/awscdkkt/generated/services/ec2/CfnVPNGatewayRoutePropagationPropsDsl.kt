@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.CfnVPNGatewayRoutePropagationProps
 
 @Generated
 public fun buildCfnVPNGatewayRoutePropagationProps(initializer: @AwsCdkDsl
-    CfnVPNGatewayRoutePropagationProps.Builder.() -> Unit): CfnVPNGatewayRoutePropagationProps =
-    CfnVPNGatewayRoutePropagationProps.Builder().apply(initializer).build()
+    CfnVPNGatewayRoutePropagationProps.Builder.() -> Unit = {}): CfnVPNGatewayRoutePropagationProps
+    = CfnVPNGatewayRoutePropagationProps.Builder().apply(initializer).build()

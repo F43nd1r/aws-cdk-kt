@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelCard
 
 @Generated
 public fun buildSecurityConfigProperty(initializer: @AwsCdkDsl
-    CfnModelCard.SecurityConfigProperty.Builder.() -> Unit): CfnModelCard.SecurityConfigProperty =
+    CfnModelCard.SecurityConfigProperty.Builder.() -> Unit = {}):
+    CfnModelCard.SecurityConfigProperty =
     CfnModelCard.SecurityConfigProperty.Builder().apply(initializer).build()

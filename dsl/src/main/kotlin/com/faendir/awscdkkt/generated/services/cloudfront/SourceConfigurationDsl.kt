@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.SourceConfiguration
 
 @Generated
-public fun buildSourceConfiguration(initializer: @AwsCdkDsl SourceConfiguration.Builder.() -> Unit):
-    SourceConfiguration = SourceConfiguration.Builder().apply(initializer).build()
+public fun buildSourceConfiguration(initializer: @AwsCdkDsl SourceConfiguration.Builder.() -> Unit =
+    {}): SourceConfiguration = SourceConfiguration.Builder().apply(initializer).build()

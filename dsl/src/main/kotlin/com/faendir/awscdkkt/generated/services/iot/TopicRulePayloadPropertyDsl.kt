@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.iot.CfnTopicRule
 
 @Generated
 public fun buildTopicRulePayloadProperty(initializer: @AwsCdkDsl
-    CfnTopicRule.TopicRulePayloadProperty.Builder.() -> Unit): CfnTopicRule.TopicRulePayloadProperty
-    = CfnTopicRule.TopicRulePayloadProperty.Builder().apply(initializer).build()
+    CfnTopicRule.TopicRulePayloadProperty.Builder.() -> Unit = {}):
+    CfnTopicRule.TopicRulePayloadProperty =
+    CfnTopicRule.TopicRulePayloadProperty.Builder().apply(initializer).build()

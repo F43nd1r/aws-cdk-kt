@@ -6,6 +6,6 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildLayoutProperty(initializer: @AwsCdkDsl
-    CfnTemplate.LayoutProperty.Builder.() -> Unit): CfnTemplate.LayoutProperty =
+public fun buildLayoutProperty(initializer: @AwsCdkDsl CfnTemplate.LayoutProperty.Builder.() -> Unit
+    = {}): CfnTemplate.LayoutProperty =
     CfnTemplate.LayoutProperty.Builder().apply(initializer).build()

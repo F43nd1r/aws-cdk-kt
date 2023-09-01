@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.customerprofiles.CfnIntegration
 
 @Generated
 public fun buildScheduledTriggerPropertiesProperty(initializer: @AwsCdkDsl
-    CfnIntegration.ScheduledTriggerPropertiesProperty.Builder.() -> Unit):
+    CfnIntegration.ScheduledTriggerPropertiesProperty.Builder.() -> Unit = {}):
     CfnIntegration.ScheduledTriggerPropertiesProperty =
     CfnIntegration.ScheduledTriggerPropertiesProperty.Builder().apply(initializer).build()

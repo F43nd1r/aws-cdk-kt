@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.servicecatalog.StackSetsConstraintOptions
 
 @Generated
 public fun buildStackSetsConstraintOptions(initializer: @AwsCdkDsl
-    StackSetsConstraintOptions.Builder.() -> Unit): StackSetsConstraintOptions =
+    StackSetsConstraintOptions.Builder.() -> Unit = {}): StackSetsConstraintOptions =
     StackSetsConstraintOptions.Builder().apply(initializer).build()

@@ -8,5 +8,5 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.ILoadBalancerV2
 
 @Generated
 public fun buildLoadBalancerV2Origin(loadBalancer: ILoadBalancerV2, initializer: @AwsCdkDsl
-    LoadBalancerV2Origin.Builder.() -> Unit): LoadBalancerV2Origin =
+    LoadBalancerV2Origin.Builder.() -> Unit = {}): LoadBalancerV2Origin =
     LoadBalancerV2Origin.Builder.create(loadBalancer).apply(initializer).build()

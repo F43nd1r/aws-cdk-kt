@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.networkmanager.CfnVpcAttachmentProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnVpcAttachment(id: String, props: CfnVpcAttachmentProps): CfnVpcAttachment =
-    CfnVpcAttachment(this, id, props)
-
-@Generated
 public fun Construct.cfnVpcAttachment(
   id: String,
   props: CfnVpcAttachmentProps,
-  initializer: @AwsCdkDsl CfnVpcAttachment.() -> Unit,
+  initializer: @AwsCdkDsl CfnVpcAttachment.() -> Unit = {},
 ): CfnVpcAttachment = CfnVpcAttachment(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnVpcAttachment(id: String, initializer: @AwsCdkDsl
-    CfnVpcAttachment.Builder.() -> Unit): CfnVpcAttachment = CfnVpcAttachment.Builder.create(this,
-    id).apply(initializer).build()
+    CfnVpcAttachment.Builder.() -> Unit = {}): CfnVpcAttachment =
+    CfnVpcAttachment.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnBuildProps
 
 @Generated
-public fun buildCfnBuildProps(initializer: @AwsCdkDsl CfnBuildProps.Builder.() -> Unit):
+public fun buildCfnBuildProps(initializer: @AwsCdkDsl CfnBuildProps.Builder.() -> Unit = {}):
     CfnBuildProps = CfnBuildProps.Builder().apply(initializer).build()

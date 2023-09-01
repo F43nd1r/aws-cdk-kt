@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
 public fun buildKeySAMPTProperty(initializer: @AwsCdkDsl
-    CfnFunction.KeySAMPTProperty.Builder.() -> Unit): CfnFunction.KeySAMPTProperty =
+    CfnFunction.KeySAMPTProperty.Builder.() -> Unit = {}): CfnFunction.KeySAMPTProperty =
     CfnFunction.KeySAMPTProperty.Builder().apply(initializer).build()

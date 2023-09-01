@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.s3.CfnStorageLens
 
 @Generated
 public fun buildAwsOrgProperty(initializer: @AwsCdkDsl
-    CfnStorageLens.AwsOrgProperty.Builder.() -> Unit): CfnStorageLens.AwsOrgProperty =
+    CfnStorageLens.AwsOrgProperty.Builder.() -> Unit = {}): CfnStorageLens.AwsOrgProperty =
     CfnStorageLens.AwsOrgProperty.Builder().apply(initializer).build()

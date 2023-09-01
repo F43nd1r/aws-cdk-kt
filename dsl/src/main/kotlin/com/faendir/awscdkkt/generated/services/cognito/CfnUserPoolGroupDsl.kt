@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.cognito.CfnUserPoolGroupProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnUserPoolGroup(id: String, props: CfnUserPoolGroupProps): CfnUserPoolGroup =
-    CfnUserPoolGroup(this, id, props)
-
-@Generated
 public fun Construct.cfnUserPoolGroup(
   id: String,
   props: CfnUserPoolGroupProps,
-  initializer: @AwsCdkDsl CfnUserPoolGroup.() -> Unit,
+  initializer: @AwsCdkDsl CfnUserPoolGroup.() -> Unit = {},
 ): CfnUserPoolGroup = CfnUserPoolGroup(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnUserPoolGroup(id: String, initializer: @AwsCdkDsl
-    CfnUserPoolGroup.Builder.() -> Unit): CfnUserPoolGroup = CfnUserPoolGroup.Builder.create(this,
-    id).apply(initializer).build()
+    CfnUserPoolGroup.Builder.() -> Unit = {}): CfnUserPoolGroup =
+    CfnUserPoolGroup.Builder.create(this, id).apply(initializer).build()

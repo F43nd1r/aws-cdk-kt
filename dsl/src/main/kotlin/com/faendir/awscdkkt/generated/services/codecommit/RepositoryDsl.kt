@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.codecommit.RepositoryProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.repository(id: String, props: RepositoryProps): Repository = Repository(this,
-    id, props)
-
-@Generated
 public fun Construct.repository(
   id: String,
   props: RepositoryProps,
-  initializer: @AwsCdkDsl Repository.() -> Unit,
+  initializer: @AwsCdkDsl Repository.() -> Unit = {},
 ): Repository = Repository(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildRepository(id: String, initializer: @AwsCdkDsl
-    Repository.Builder.() -> Unit): Repository = Repository.Builder.create(this,
+    Repository.Builder.() -> Unit = {}): Repository = Repository.Builder.create(this,
     id).apply(initializer).build()

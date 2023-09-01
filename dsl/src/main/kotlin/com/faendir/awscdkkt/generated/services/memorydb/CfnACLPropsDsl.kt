@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.memorydb.CfnACLProps
 
 @Generated
-public fun buildCfnACLProps(initializer: @AwsCdkDsl CfnACLProps.Builder.() -> Unit): CfnACLProps =
-    CfnACLProps.Builder().apply(initializer).build()
+public fun buildCfnACLProps(initializer: @AwsCdkDsl CfnACLProps.Builder.() -> Unit = {}):
+    CfnACLProps = CfnACLProps.Builder().apply(initializer).build()

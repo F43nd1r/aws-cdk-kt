@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.LazyAnyValueOptions
 
 @Generated
-public fun buildLazyAnyValueOptions(initializer: @AwsCdkDsl LazyAnyValueOptions.Builder.() -> Unit):
-    LazyAnyValueOptions = LazyAnyValueOptions.Builder().apply(initializer).build()
+public fun buildLazyAnyValueOptions(initializer: @AwsCdkDsl LazyAnyValueOptions.Builder.() -> Unit =
+    {}): LazyAnyValueOptions = LazyAnyValueOptions.Builder().apply(initializer).build()

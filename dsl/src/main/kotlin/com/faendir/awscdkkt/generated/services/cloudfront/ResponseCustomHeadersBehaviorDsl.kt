@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cloudfront.ResponseCustomHeadersBehavior
 
 @Generated
 public fun buildResponseCustomHeadersBehavior(initializer: @AwsCdkDsl
-    ResponseCustomHeadersBehavior.Builder.() -> Unit): ResponseCustomHeadersBehavior =
+    ResponseCustomHeadersBehavior.Builder.() -> Unit = {}): ResponseCustomHeadersBehavior =
     ResponseCustomHeadersBehavior.Builder().apply(initializer).build()

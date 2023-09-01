@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.VdmAttributesProps
 
 @Generated
-public fun buildVdmAttributesProps(initializer: @AwsCdkDsl VdmAttributesProps.Builder.() -> Unit):
-    VdmAttributesProps = VdmAttributesProps.Builder().apply(initializer).build()
+public fun buildVdmAttributesProps(initializer: @AwsCdkDsl VdmAttributesProps.Builder.() -> Unit =
+    {}): VdmAttributesProps = VdmAttributesProps.Builder().apply(initializer).build()

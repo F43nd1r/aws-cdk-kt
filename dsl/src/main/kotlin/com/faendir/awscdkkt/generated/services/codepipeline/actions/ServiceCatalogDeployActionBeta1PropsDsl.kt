@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.codepipeline.actions.ServiceCatalogDeploy
 
 @Generated
 public fun buildServiceCatalogDeployActionBeta1Props(initializer: @AwsCdkDsl
-    ServiceCatalogDeployActionBeta1Props.Builder.() -> Unit): ServiceCatalogDeployActionBeta1Props =
+    ServiceCatalogDeployActionBeta1Props.Builder.() -> Unit = {}):
+    ServiceCatalogDeployActionBeta1Props =
     ServiceCatalogDeployActionBeta1Props.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sagemaker.CfnEndpointConfigProps
 
 @Generated
 public fun buildCfnEndpointConfigProps(initializer: @AwsCdkDsl
-    CfnEndpointConfigProps.Builder.() -> Unit): CfnEndpointConfigProps =
+    CfnEndpointConfigProps.Builder.() -> Unit = {}): CfnEndpointConfigProps =
     CfnEndpointConfigProps.Builder().apply(initializer).build()

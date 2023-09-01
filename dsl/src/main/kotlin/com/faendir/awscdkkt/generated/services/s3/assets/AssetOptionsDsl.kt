@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.assets.AssetOptions
 
 @Generated
-public fun buildAssetOptions(initializer: @AwsCdkDsl AssetOptions.Builder.() -> Unit): AssetOptions
-    = AssetOptions.Builder().apply(initializer).build()
+public fun buildAssetOptions(initializer: @AwsCdkDsl AssetOptions.Builder.() -> Unit = {}):
+    AssetOptions = AssetOptions.Builder().apply(initializer).build()

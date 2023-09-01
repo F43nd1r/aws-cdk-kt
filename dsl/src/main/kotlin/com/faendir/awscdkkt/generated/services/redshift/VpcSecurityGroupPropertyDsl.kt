@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.redshift.CfnEndpointAccess
 
 @Generated
 public fun buildVpcSecurityGroupProperty(initializer: @AwsCdkDsl
-    CfnEndpointAccess.VpcSecurityGroupProperty.Builder.() -> Unit):
+    CfnEndpointAccess.VpcSecurityGroupProperty.Builder.() -> Unit = {}):
     CfnEndpointAccess.VpcSecurityGroupProperty =
     CfnEndpointAccess.VpcSecurityGroupProperty.Builder().apply(initializer).build()

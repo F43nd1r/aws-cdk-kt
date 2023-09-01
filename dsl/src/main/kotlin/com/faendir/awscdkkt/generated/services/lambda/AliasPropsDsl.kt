@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.AliasProps
 
 @Generated
-public fun buildAliasProps(initializer: @AwsCdkDsl AliasProps.Builder.() -> Unit): AliasProps =
+public fun buildAliasProps(initializer: @AwsCdkDsl AliasProps.Builder.() -> Unit = {}): AliasProps =
     AliasProps.Builder().apply(initializer).build()

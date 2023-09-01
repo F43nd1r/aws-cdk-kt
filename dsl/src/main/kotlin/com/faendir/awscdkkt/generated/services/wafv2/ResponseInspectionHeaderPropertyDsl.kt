@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
 public fun buildResponseInspectionHeaderProperty(initializer: @AwsCdkDsl
-    CfnWebACL.ResponseInspectionHeaderProperty.Builder.() -> Unit):
+    CfnWebACL.ResponseInspectionHeaderProperty.Builder.() -> Unit = {}):
     CfnWebACL.ResponseInspectionHeaderProperty =
     CfnWebACL.ResponseInspectionHeaderProperty.Builder().apply(initializer).build()

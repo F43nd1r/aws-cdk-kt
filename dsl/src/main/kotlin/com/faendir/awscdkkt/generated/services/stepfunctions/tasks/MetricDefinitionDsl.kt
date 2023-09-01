@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.MetricDefinition
 
 @Generated
-public fun buildMetricDefinition(initializer: @AwsCdkDsl MetricDefinition.Builder.() -> Unit):
+public fun buildMetricDefinition(initializer: @AwsCdkDsl MetricDefinition.Builder.() -> Unit = {}):
     MetricDefinition = MetricDefinition.Builder().apply(initializer).build()

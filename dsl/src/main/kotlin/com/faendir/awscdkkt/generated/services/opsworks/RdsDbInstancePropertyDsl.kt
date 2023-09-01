@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.opsworks.CfnStack
 
 @Generated
 public fun buildRdsDbInstanceProperty(initializer: @AwsCdkDsl
-    CfnStack.RdsDbInstanceProperty.Builder.() -> Unit): CfnStack.RdsDbInstanceProperty =
+    CfnStack.RdsDbInstanceProperty.Builder.() -> Unit = {}): CfnStack.RdsDbInstanceProperty =
     CfnStack.RdsDbInstanceProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.rekognition.CfnStreamProcessor
 
 @Generated
 public fun buildPointProperty(initializer: @AwsCdkDsl
-    CfnStreamProcessor.PointProperty.Builder.() -> Unit): CfnStreamProcessor.PointProperty =
+    CfnStreamProcessor.PointProperty.Builder.() -> Unit = {}): CfnStreamProcessor.PointProperty =
     CfnStreamProcessor.PointProperty.Builder().apply(initializer).build()

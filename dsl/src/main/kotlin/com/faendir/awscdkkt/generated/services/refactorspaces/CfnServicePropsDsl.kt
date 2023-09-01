@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.refactorspaces.CfnServiceProps
 
 @Generated
-public fun buildCfnServiceProps(initializer: @AwsCdkDsl CfnServiceProps.Builder.() -> Unit):
+public fun buildCfnServiceProps(initializer: @AwsCdkDsl CfnServiceProps.Builder.() -> Unit = {}):
     CfnServiceProps = CfnServiceProps.Builder().apply(initializer).build()

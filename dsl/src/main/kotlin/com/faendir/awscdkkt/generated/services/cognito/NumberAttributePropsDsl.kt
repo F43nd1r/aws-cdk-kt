@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.NumberAttributeProps
 
 @Generated
-public fun buildNumberAttributeProps(initializer: @AwsCdkDsl
-    NumberAttributeProps.Builder.() -> Unit): NumberAttributeProps =
-    NumberAttributeProps.Builder().apply(initializer).build()
+public fun buildNumberAttributeProps(initializer: @AwsCdkDsl NumberAttributeProps.Builder.() -> Unit
+    = {}): NumberAttributeProps = NumberAttributeProps.Builder().apply(initializer).build()

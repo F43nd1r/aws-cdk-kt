@@ -9,17 +9,12 @@ import software.amazon.awscdk.services.ec2.CfnSubnetProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnSubnet(id: String, props: CfnSubnetProps): CfnSubnet = CfnSubnet(this, id,
-    props)
-
-@Generated
 public fun Construct.cfnSubnet(
   id: String,
   props: CfnSubnetProps,
-  initializer: @AwsCdkDsl CfnSubnet.() -> Unit,
+  initializer: @AwsCdkDsl CfnSubnet.() -> Unit = {},
 ): CfnSubnet = CfnSubnet(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSubnet(id: String, initializer: @AwsCdkDsl
-    CfnSubnet.Builder.() -> Unit): CfnSubnet = CfnSubnet.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnSubnet(id: String, initializer: @AwsCdkDsl CfnSubnet.Builder.() -> Unit
+    = {}): CfnSubnet = CfnSubnet.Builder.create(this, id).apply(initializer).build()

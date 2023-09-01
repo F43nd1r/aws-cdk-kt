@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.backup.CfnBackupVault
 
 @Generated
 public fun buildNotificationObjectTypeProperty(initializer: @AwsCdkDsl
-    CfnBackupVault.NotificationObjectTypeProperty.Builder.() -> Unit):
+    CfnBackupVault.NotificationObjectTypeProperty.Builder.() -> Unit = {}):
     CfnBackupVault.NotificationObjectTypeProperty =
     CfnBackupVault.NotificationObjectTypeProperty.Builder().apply(initializer).build()

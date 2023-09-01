@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.customerprofiles.CfnCalculatedAttributeDe
 
 @Generated
 public fun buildCfnCalculatedAttributeDefinitionProps(initializer: @AwsCdkDsl
-    CfnCalculatedAttributeDefinitionProps.Builder.() -> Unit): CfnCalculatedAttributeDefinitionProps
-    = CfnCalculatedAttributeDefinitionProps.Builder().apply(initializer).build()
+    CfnCalculatedAttributeDefinitionProps.Builder.() -> Unit = {}):
+    CfnCalculatedAttributeDefinitionProps =
+    CfnCalculatedAttributeDefinitionProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.emr.CfnCluster
 
 @Generated
 public fun buildJobFlowInstancesConfigProperty(initializer: @AwsCdkDsl
-    CfnCluster.JobFlowInstancesConfigProperty.Builder.() -> Unit):
+    CfnCluster.JobFlowInstancesConfigProperty.Builder.() -> Unit = {}):
     CfnCluster.JobFlowInstancesConfigProperty =
     CfnCluster.JobFlowInstancesConfigProperty.Builder().apply(initializer).build()

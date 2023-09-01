@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
 public fun buildContainerDefinitionProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.ContainerDefinitionProperty.Builder.() -> Unit):
+    CfnTaskDefinition.ContainerDefinitionProperty.Builder.() -> Unit = {}):
     CfnTaskDefinition.ContainerDefinitionProperty =
     CfnTaskDefinition.ContainerDefinitionProperty.Builder().apply(initializer).build()

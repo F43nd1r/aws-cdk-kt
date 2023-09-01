@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cognito.CfnUserPoolGroupProps
 
 @Generated
 public fun buildCfnUserPoolGroupProps(initializer: @AwsCdkDsl
-    CfnUserPoolGroupProps.Builder.() -> Unit): CfnUserPoolGroupProps =
+    CfnUserPoolGroupProps.Builder.() -> Unit = {}): CfnUserPoolGroupProps =
     CfnUserPoolGroupProps.Builder().apply(initializer).build()

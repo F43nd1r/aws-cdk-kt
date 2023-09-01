@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.RetryProps
 
 @Generated
-public fun buildRetryProps(initializer: @AwsCdkDsl RetryProps.Builder.() -> Unit): RetryProps =
+public fun buildRetryProps(initializer: @AwsCdkDsl RetryProps.Builder.() -> Unit = {}): RetryProps =
     RetryProps.Builder().apply(initializer).build()

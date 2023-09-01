@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelPackage
 
 @Generated
 public fun buildS3DataSourceProperty(initializer: @AwsCdkDsl
-    CfnModelPackage.S3DataSourceProperty.Builder.() -> Unit): CfnModelPackage.S3DataSourceProperty =
+    CfnModelPackage.S3DataSourceProperty.Builder.() -> Unit = {}):
+    CfnModelPackage.S3DataSourceProperty =
     CfnModelPackage.S3DataSourceProperty.Builder().apply(initializer).build()

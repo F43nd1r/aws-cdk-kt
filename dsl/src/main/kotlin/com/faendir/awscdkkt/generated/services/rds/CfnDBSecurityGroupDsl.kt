@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.rds.CfnDBSecurityGroupProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDBSecurityGroup(id: String, props: CfnDBSecurityGroupProps):
-    CfnDBSecurityGroup = CfnDBSecurityGroup(this, id, props)
-
-@Generated
 public fun Construct.cfnDBSecurityGroup(
   id: String,
   props: CfnDBSecurityGroupProps,
-  initializer: @AwsCdkDsl CfnDBSecurityGroup.() -> Unit,
+  initializer: @AwsCdkDsl CfnDBSecurityGroup.() -> Unit = {},
 ): CfnDBSecurityGroup = CfnDBSecurityGroup(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnDBSecurityGroup(id: String, initializer: @AwsCdkDsl
-    CfnDBSecurityGroup.Builder.() -> Unit): CfnDBSecurityGroup =
+    CfnDBSecurityGroup.Builder.() -> Unit = {}): CfnDBSecurityGroup =
     CfnDBSecurityGroup.Builder.create(this, id).apply(initializer).build()

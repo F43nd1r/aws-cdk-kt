@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.CfnTable
 
 @Generated
-public fun buildCsvProperty(initializer: @AwsCdkDsl CfnTable.CsvProperty.Builder.() -> Unit):
+public fun buildCsvProperty(initializer: @AwsCdkDsl CfnTable.CsvProperty.Builder.() -> Unit = {}):
     CfnTable.CsvProperty = CfnTable.CsvProperty.Builder().apply(initializer).build()

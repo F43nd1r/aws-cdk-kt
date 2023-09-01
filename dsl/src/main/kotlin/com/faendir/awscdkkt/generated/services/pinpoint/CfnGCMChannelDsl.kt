@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.pinpoint.CfnGCMChannelProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnGCMChannel(id: String, props: CfnGCMChannelProps): CfnGCMChannel =
-    CfnGCMChannel(this, id, props)
-
-@Generated
 public fun Construct.cfnGCMChannel(
   id: String,
   props: CfnGCMChannelProps,
-  initializer: @AwsCdkDsl CfnGCMChannel.() -> Unit,
+  initializer: @AwsCdkDsl CfnGCMChannel.() -> Unit = {},
 ): CfnGCMChannel = CfnGCMChannel(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnGCMChannel(id: String, initializer: @AwsCdkDsl
-    CfnGCMChannel.Builder.() -> Unit): CfnGCMChannel = CfnGCMChannel.Builder.create(this,
+    CfnGCMChannel.Builder.() -> Unit = {}): CfnGCMChannel = CfnGCMChannel.Builder.create(this,
     id).apply(initializer).build()

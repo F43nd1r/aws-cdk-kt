@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codepipeline.actions.GitHubSourceVariable
 
 @Generated
 public fun buildGitHubSourceVariables(initializer: @AwsCdkDsl
-    GitHubSourceVariables.Builder.() -> Unit): GitHubSourceVariables =
+    GitHubSourceVariables.Builder.() -> Unit = {}): GitHubSourceVariables =
     GitHubSourceVariables.Builder().apply(initializer).build()

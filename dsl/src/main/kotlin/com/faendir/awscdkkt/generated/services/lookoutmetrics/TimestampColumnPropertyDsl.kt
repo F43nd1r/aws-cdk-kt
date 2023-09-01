@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lookoutmetrics.CfnAnomalyDetector
 
 @Generated
 public fun buildTimestampColumnProperty(initializer: @AwsCdkDsl
-    CfnAnomalyDetector.TimestampColumnProperty.Builder.() -> Unit):
+    CfnAnomalyDetector.TimestampColumnProperty.Builder.() -> Unit = {}):
     CfnAnomalyDetector.TimestampColumnProperty =
     CfnAnomalyDetector.TimestampColumnProperty.Builder().apply(initializer).build()

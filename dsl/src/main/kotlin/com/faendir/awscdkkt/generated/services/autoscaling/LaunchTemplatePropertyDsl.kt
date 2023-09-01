@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.autoscaling.CfnAutoScalingGroup
 
 @Generated
 public fun buildLaunchTemplateProperty(initializer: @AwsCdkDsl
-    CfnAutoScalingGroup.LaunchTemplateProperty.Builder.() -> Unit):
+    CfnAutoScalingGroup.LaunchTemplateProperty.Builder.() -> Unit = {}):
     CfnAutoScalingGroup.LaunchTemplateProperty =
     CfnAutoScalingGroup.LaunchTemplateProperty.Builder().apply(initializer).build()

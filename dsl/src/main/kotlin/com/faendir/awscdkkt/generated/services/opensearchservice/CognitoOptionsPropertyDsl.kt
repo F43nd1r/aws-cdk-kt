@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.opensearchservice.CfnDomain
 
 @Generated
 public fun buildCognitoOptionsProperty(initializer: @AwsCdkDsl
-    CfnDomain.CognitoOptionsProperty.Builder.() -> Unit): CfnDomain.CognitoOptionsProperty =
+    CfnDomain.CognitoOptionsProperty.Builder.() -> Unit = {}): CfnDomain.CognitoOptionsProperty =
     CfnDomain.CognitoOptionsProperty.Builder().apply(initializer).build()

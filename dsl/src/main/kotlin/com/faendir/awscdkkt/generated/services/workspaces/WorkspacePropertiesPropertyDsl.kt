@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.workspaces.CfnWorkspace
 
 @Generated
 public fun buildWorkspacePropertiesProperty(initializer: @AwsCdkDsl
-    CfnWorkspace.WorkspacePropertiesProperty.Builder.() -> Unit):
+    CfnWorkspace.WorkspacePropertiesProperty.Builder.() -> Unit = {}):
     CfnWorkspace.WorkspacePropertiesProperty =
     CfnWorkspace.WorkspacePropertiesProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildFreeFormLayoutElementBorderStyleProperty(initializer: @AwsCdkDsl
-    CfnTemplate.FreeFormLayoutElementBorderStyleProperty.Builder.() -> Unit):
+    CfnTemplate.FreeFormLayoutElementBorderStyleProperty.Builder.() -> Unit = {}):
     CfnTemplate.FreeFormLayoutElementBorderStyleProperty =
     CfnTemplate.FreeFormLayoutElementBorderStyleProperty.Builder().apply(initializer).build()

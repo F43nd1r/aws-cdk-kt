@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ssm.CfnMaintenanceWindowTargetProps
 
 @Generated
 public fun buildCfnMaintenanceWindowTargetProps(initializer: @AwsCdkDsl
-    CfnMaintenanceWindowTargetProps.Builder.() -> Unit): CfnMaintenanceWindowTargetProps =
+    CfnMaintenanceWindowTargetProps.Builder.() -> Unit = {}): CfnMaintenanceWindowTargetProps =
     CfnMaintenanceWindowTargetProps.Builder().apply(initializer).build()

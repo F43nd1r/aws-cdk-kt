@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
 public fun buildZendeskSourcePropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.ZendeskSourcePropertiesProperty.Builder.() -> Unit):
+    CfnFlow.ZendeskSourcePropertiesProperty.Builder.() -> Unit = {}):
     CfnFlow.ZendeskSourcePropertiesProperty =
     CfnFlow.ZendeskSourcePropertiesProperty.Builder().apply(initializer).build()

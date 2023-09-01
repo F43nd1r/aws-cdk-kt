@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appstream.CfnApplicationEntitlementAssoci
 
 @Generated
 public fun buildCfnApplicationEntitlementAssociationProps(initializer: @AwsCdkDsl
-    CfnApplicationEntitlementAssociationProps.Builder.() -> Unit):
+    CfnApplicationEntitlementAssociationProps.Builder.() -> Unit = {}):
     CfnApplicationEntitlementAssociationProps =
     CfnApplicationEntitlementAssociationProps.Builder().apply(initializer).build()

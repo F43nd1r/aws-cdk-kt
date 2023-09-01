@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.events.CfnEndpoint
 
 @Generated
 public fun buildFailoverConfigProperty(initializer: @AwsCdkDsl
-    CfnEndpoint.FailoverConfigProperty.Builder.() -> Unit): CfnEndpoint.FailoverConfigProperty =
-    CfnEndpoint.FailoverConfigProperty.Builder().apply(initializer).build()
+    CfnEndpoint.FailoverConfigProperty.Builder.() -> Unit = {}): CfnEndpoint.FailoverConfigProperty
+    = CfnEndpoint.FailoverConfigProperty.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.billingconductor.CfnPricingPlanProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnPricingPlan(id: String, props: CfnPricingPlanProps): CfnPricingPlan =
-    CfnPricingPlan(this, id, props)
-
-@Generated
 public fun Construct.cfnPricingPlan(
   id: String,
   props: CfnPricingPlanProps,
-  initializer: @AwsCdkDsl CfnPricingPlan.() -> Unit,
+  initializer: @AwsCdkDsl CfnPricingPlan.() -> Unit = {},
 ): CfnPricingPlan = CfnPricingPlan(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnPricingPlan(id: String, initializer: @AwsCdkDsl
-    CfnPricingPlan.Builder.() -> Unit): CfnPricingPlan = CfnPricingPlan.Builder.create(this,
+    CfnPricingPlan.Builder.() -> Unit = {}): CfnPricingPlan = CfnPricingPlan.Builder.create(this,
     id).apply(initializer).build()

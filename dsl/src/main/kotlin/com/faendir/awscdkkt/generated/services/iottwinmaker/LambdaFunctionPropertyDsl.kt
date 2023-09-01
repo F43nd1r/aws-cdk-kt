@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iottwinmaker.CfnComponentType
 
 @Generated
 public fun buildLambdaFunctionProperty(initializer: @AwsCdkDsl
-    CfnComponentType.LambdaFunctionProperty.Builder.() -> Unit):
+    CfnComponentType.LambdaFunctionProperty.Builder.() -> Unit = {}):
     CfnComponentType.LambdaFunctionProperty =
     CfnComponentType.LambdaFunctionProperty.Builder().apply(initializer).build()

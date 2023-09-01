@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.cloudassembly.schema.LoadManifestOptions
 
 @Generated
-public fun buildLoadManifestOptions(initializer: @AwsCdkDsl LoadManifestOptions.Builder.() -> Unit):
-    LoadManifestOptions = LoadManifestOptions.Builder().apply(initializer).build()
+public fun buildLoadManifestOptions(initializer: @AwsCdkDsl LoadManifestOptions.Builder.() -> Unit =
+    {}): LoadManifestOptions = LoadManifestOptions.Builder().apply(initializer).build()

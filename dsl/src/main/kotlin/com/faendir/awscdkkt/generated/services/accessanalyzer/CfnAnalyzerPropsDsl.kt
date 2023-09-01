@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.accessanalyzer.CfnAnalyzerProps
 
 @Generated
-public fun buildCfnAnalyzerProps(initializer: @AwsCdkDsl CfnAnalyzerProps.Builder.() -> Unit):
+public fun buildCfnAnalyzerProps(initializer: @AwsCdkDsl CfnAnalyzerProps.Builder.() -> Unit = {}):
     CfnAnalyzerProps = CfnAnalyzerProps.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.appmesh.VirtualRouterProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.virtualRouter(id: String, props: VirtualRouterProps): VirtualRouter =
-    VirtualRouter(this, id, props)
-
-@Generated
 public fun Construct.virtualRouter(
   id: String,
   props: VirtualRouterProps,
-  initializer: @AwsCdkDsl VirtualRouter.() -> Unit,
+  initializer: @AwsCdkDsl VirtualRouter.() -> Unit = {},
 ): VirtualRouter = VirtualRouter(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildVirtualRouter(id: String, initializer: @AwsCdkDsl
-    VirtualRouter.Builder.() -> Unit): VirtualRouter = VirtualRouter.Builder.create(this,
+    VirtualRouter.Builder.() -> Unit = {}): VirtualRouter = VirtualRouter.Builder.create(this,
     id).apply(initializer).build()

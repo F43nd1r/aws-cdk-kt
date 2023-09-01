@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecr.CfnPullThroughCacheRuleProps
 
 @Generated
 public fun buildCfnPullThroughCacheRuleProps(initializer: @AwsCdkDsl
-    CfnPullThroughCacheRuleProps.Builder.() -> Unit): CfnPullThroughCacheRuleProps =
+    CfnPullThroughCacheRuleProps.Builder.() -> Unit = {}): CfnPullThroughCacheRuleProps =
     CfnPullThroughCacheRuleProps.Builder().apply(initializer).build()

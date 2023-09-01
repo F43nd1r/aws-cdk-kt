@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.datasync.CfnLocationNFS
 
 @Generated
 public fun buildOnPremConfigProperty(initializer: @AwsCdkDsl
-    CfnLocationNFS.OnPremConfigProperty.Builder.() -> Unit): CfnLocationNFS.OnPremConfigProperty =
+    CfnLocationNFS.OnPremConfigProperty.Builder.() -> Unit = {}):
+    CfnLocationNFS.OnPremConfigProperty =
     CfnLocationNFS.OnPremConfigProperty.Builder().apply(initializer).build()

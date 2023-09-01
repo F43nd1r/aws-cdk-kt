@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnDataQualityJobDefinition
 
 @Generated
 public fun buildDataQualityBaselineConfigProperty(initializer: @AwsCdkDsl
-    CfnDataQualityJobDefinition.DataQualityBaselineConfigProperty.Builder.() -> Unit):
+    CfnDataQualityJobDefinition.DataQualityBaselineConfigProperty.Builder.() -> Unit = {}):
     CfnDataQualityJobDefinition.DataQualityBaselineConfigProperty =
     CfnDataQualityJobDefinition.DataQualityBaselineConfigProperty.Builder().apply(initializer).build()

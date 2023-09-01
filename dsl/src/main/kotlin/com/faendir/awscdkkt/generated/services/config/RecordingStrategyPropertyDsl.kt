@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.config.CfnConfigurationRecorder
 
 @Generated
 public fun buildRecordingStrategyProperty(initializer: @AwsCdkDsl
-    CfnConfigurationRecorder.RecordingStrategyProperty.Builder.() -> Unit):
+    CfnConfigurationRecorder.RecordingStrategyProperty.Builder.() -> Unit = {}):
     CfnConfigurationRecorder.RecordingStrategyProperty =
     CfnConfigurationRecorder.RecordingStrategyProperty.Builder().apply(initializer).build()

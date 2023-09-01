@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.TlsValidation
 
 @Generated
-public fun buildTlsValidation(initializer: @AwsCdkDsl TlsValidation.Builder.() -> Unit):
+public fun buildTlsValidation(initializer: @AwsCdkDsl TlsValidation.Builder.() -> Unit = {}):
     TlsValidation = TlsValidation.Builder().apply(initializer).build()

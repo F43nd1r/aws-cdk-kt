@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.secretsmanager.CfnResourcePolicyProps
 
 @Generated
 public fun buildCfnResourcePolicyProps(initializer: @AwsCdkDsl
-    CfnResourcePolicyProps.Builder.() -> Unit): CfnResourcePolicyProps =
+    CfnResourcePolicyProps.Builder.() -> Unit = {}): CfnResourcePolicyProps =
     CfnResourcePolicyProps.Builder().apply(initializer).build()

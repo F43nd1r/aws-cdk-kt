@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnVerifiedAccessTrustProviderProps
 
 @Generated
 public fun buildCfnVerifiedAccessTrustProviderProps(initializer: @AwsCdkDsl
-    CfnVerifiedAccessTrustProviderProps.Builder.() -> Unit): CfnVerifiedAccessTrustProviderProps =
+    CfnVerifiedAccessTrustProviderProps.Builder.() -> Unit = {}):
+    CfnVerifiedAccessTrustProviderProps =
     CfnVerifiedAccessTrustProviderProps.Builder().apply(initializer).build()

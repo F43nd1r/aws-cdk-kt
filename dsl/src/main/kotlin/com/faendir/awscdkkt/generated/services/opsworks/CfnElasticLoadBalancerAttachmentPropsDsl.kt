@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.opsworks.CfnElasticLoadBalancerAttachment
 
 @Generated
 public fun buildCfnElasticLoadBalancerAttachmentProps(initializer: @AwsCdkDsl
-    CfnElasticLoadBalancerAttachmentProps.Builder.() -> Unit): CfnElasticLoadBalancerAttachmentProps
-    = CfnElasticLoadBalancerAttachmentProps.Builder().apply(initializer).build()
+    CfnElasticLoadBalancerAttachmentProps.Builder.() -> Unit = {}):
+    CfnElasticLoadBalancerAttachmentProps =
+    CfnElasticLoadBalancerAttachmentProps.Builder().apply(initializer).build()

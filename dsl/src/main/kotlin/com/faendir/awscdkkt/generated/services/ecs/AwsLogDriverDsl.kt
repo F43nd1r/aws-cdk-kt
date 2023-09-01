@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.AwsLogDriver
 
 @Generated
-public fun buildAwsLogDriver(initializer: @AwsCdkDsl AwsLogDriver.Builder.() -> Unit): AwsLogDriver
-    = AwsLogDriver.Builder.create().apply(initializer).build()
+public fun buildAwsLogDriver(initializer: @AwsCdkDsl AwsLogDriver.Builder.() -> Unit = {}):
+    AwsLogDriver = AwsLogDriver.Builder.create().apply(initializer).build()

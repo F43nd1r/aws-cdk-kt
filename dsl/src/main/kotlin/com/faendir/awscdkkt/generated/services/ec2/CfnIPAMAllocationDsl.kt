@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ec2.CfnIPAMAllocationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnIPAMAllocation(id: String, props: CfnIPAMAllocationProps): CfnIPAMAllocation
-    = CfnIPAMAllocation(this, id, props)
-
-@Generated
 public fun Construct.cfnIPAMAllocation(
   id: String,
   props: CfnIPAMAllocationProps,
-  initializer: @AwsCdkDsl CfnIPAMAllocation.() -> Unit,
+  initializer: @AwsCdkDsl CfnIPAMAllocation.() -> Unit = {},
 ): CfnIPAMAllocation = CfnIPAMAllocation(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnIPAMAllocation(id: String, initializer: @AwsCdkDsl
-    CfnIPAMAllocation.Builder.() -> Unit): CfnIPAMAllocation =
+    CfnIPAMAllocation.Builder.() -> Unit = {}): CfnIPAMAllocation =
     CfnIPAMAllocation.Builder.create(this, id).apply(initializer).build()

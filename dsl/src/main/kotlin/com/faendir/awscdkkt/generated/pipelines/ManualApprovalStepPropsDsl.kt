@@ -7,5 +7,5 @@ import software.amazon.awscdk.pipelines.ManualApprovalStepProps
 
 @Generated
 public fun buildManualApprovalStepProps(initializer: @AwsCdkDsl
-    ManualApprovalStepProps.Builder.() -> Unit): ManualApprovalStepProps =
+    ManualApprovalStepProps.Builder.() -> Unit = {}): ManualApprovalStepProps =
     ManualApprovalStepProps.Builder().apply(initializer).build()

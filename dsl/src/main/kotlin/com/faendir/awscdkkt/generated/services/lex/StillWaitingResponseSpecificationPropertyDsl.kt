@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
 public fun buildStillWaitingResponseSpecificationProperty(initializer: @AwsCdkDsl
-    CfnBot.StillWaitingResponseSpecificationProperty.Builder.() -> Unit):
+    CfnBot.StillWaitingResponseSpecificationProperty.Builder.() -> Unit = {}):
     CfnBot.StillWaitingResponseSpecificationProperty =
     CfnBot.StillWaitingResponseSpecificationProperty.Builder().apply(initializer).build()

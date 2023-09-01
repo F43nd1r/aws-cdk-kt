@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ses.CfnConfigurationSetEventDestinationPr
 
 @Generated
 public fun buildCfnConfigurationSetEventDestinationProps(initializer: @AwsCdkDsl
-    CfnConfigurationSetEventDestinationProps.Builder.() -> Unit):
+    CfnConfigurationSetEventDestinationProps.Builder.() -> Unit = {}):
     CfnConfigurationSetEventDestinationProps =
     CfnConfigurationSetEventDestinationProps.Builder().apply(initializer).build()

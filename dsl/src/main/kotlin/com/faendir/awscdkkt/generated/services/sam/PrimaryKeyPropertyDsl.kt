@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sam.CfnSimpleTable
 
 @Generated
 public fun buildPrimaryKeyProperty(initializer: @AwsCdkDsl
-    CfnSimpleTable.PrimaryKeyProperty.Builder.() -> Unit): CfnSimpleTable.PrimaryKeyProperty =
+    CfnSimpleTable.PrimaryKeyProperty.Builder.() -> Unit = {}): CfnSimpleTable.PrimaryKeyProperty =
     CfnSimpleTable.PrimaryKeyProperty.Builder().apply(initializer).build()

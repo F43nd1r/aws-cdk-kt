@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.msk.CfnServerlessCluster
 
 @Generated
 public fun buildSaslProperty(initializer: @AwsCdkDsl
-    CfnServerlessCluster.SaslProperty.Builder.() -> Unit): CfnServerlessCluster.SaslProperty =
+    CfnServerlessCluster.SaslProperty.Builder.() -> Unit = {}): CfnServerlessCluster.SaslProperty =
     CfnServerlessCluster.SaslProperty.Builder().apply(initializer).build()

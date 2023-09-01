@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.CfnSubnetCidrBlockProps
 
 @Generated
 public fun buildCfnSubnetCidrBlockProps(initializer: @AwsCdkDsl
-    CfnSubnetCidrBlockProps.Builder.() -> Unit): CfnSubnetCidrBlockProps =
+    CfnSubnetCidrBlockProps.Builder.() -> Unit = {}): CfnSubnetCidrBlockProps =
     CfnSubnetCidrBlockProps.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.ExecuteCommandConfiguration
 
 @Generated
 public fun buildExecuteCommandConfiguration(initializer: @AwsCdkDsl
-    ExecuteCommandConfiguration.Builder.() -> Unit): ExecuteCommandConfiguration =
+    ExecuteCommandConfiguration.Builder.() -> Unit = {}): ExecuteCommandConfiguration =
     ExecuteCommandConfiguration.Builder().apply(initializer).build()

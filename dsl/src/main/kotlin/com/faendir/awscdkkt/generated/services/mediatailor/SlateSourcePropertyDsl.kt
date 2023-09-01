@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.mediatailor.CfnChannel
 
 @Generated
 public fun buildSlateSourceProperty(initializer: @AwsCdkDsl
-    CfnChannel.SlateSourceProperty.Builder.() -> Unit): CfnChannel.SlateSourceProperty =
+    CfnChannel.SlateSourceProperty.Builder.() -> Unit = {}): CfnChannel.SlateSourceProperty =
     CfnChannel.SlateSourceProperty.Builder().apply(initializer).build()

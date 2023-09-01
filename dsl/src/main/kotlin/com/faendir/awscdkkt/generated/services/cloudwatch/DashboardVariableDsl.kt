@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.DashboardVariable
 
 @Generated
-public fun buildDashboardVariable(initializer: @AwsCdkDsl DashboardVariable.Builder.() -> Unit):
-    DashboardVariable = DashboardVariable.Builder.create().apply(initializer).build()
+public fun buildDashboardVariable(initializer: @AwsCdkDsl DashboardVariable.Builder.() -> Unit =
+    {}): DashboardVariable = DashboardVariable.Builder.create().apply(initializer).build()

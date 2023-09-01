@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.gamelift.CfnLocationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnLocation(id: String, props: CfnLocationProps): CfnLocation =
-    CfnLocation(this, id, props)
-
-@Generated
 public fun Construct.cfnLocation(
   id: String,
   props: CfnLocationProps,
-  initializer: @AwsCdkDsl CfnLocation.() -> Unit,
+  initializer: @AwsCdkDsl CfnLocation.() -> Unit = {},
 ): CfnLocation = CfnLocation(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnLocation(id: String, initializer: @AwsCdkDsl
-    CfnLocation.Builder.() -> Unit): CfnLocation = CfnLocation.Builder.create(this,
+    CfnLocation.Builder.() -> Unit = {}): CfnLocation = CfnLocation.Builder.create(this,
     id).apply(initializer).build()

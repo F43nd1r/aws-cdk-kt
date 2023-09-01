@@ -9,15 +9,12 @@ import software.amazon.awscdk.services.apigateway.StageProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.stage(id: String, props: StageProps): Stage = Stage(this, id, props)
-
-@Generated
 public fun Construct.stage(
   id: String,
   props: StageProps,
-  initializer: @AwsCdkDsl Stage.() -> Unit,
+  initializer: @AwsCdkDsl Stage.() -> Unit = {},
 ): Stage = Stage(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildStage(id: String, initializer: @AwsCdkDsl Stage.Builder.() -> Unit): Stage
-    = Stage.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildStage(id: String, initializer: @AwsCdkDsl Stage.Builder.() -> Unit = {}):
+    Stage = Stage.Builder.create(this, id).apply(initializer).build()

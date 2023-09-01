@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.BaseUrlOptions
 
 @Generated
-public fun buildBaseUrlOptions(initializer: @AwsCdkDsl BaseUrlOptions.Builder.() -> Unit):
+public fun buildBaseUrlOptions(initializer: @AwsCdkDsl BaseUrlOptions.Builder.() -> Unit = {}):
     BaseUrlOptions = BaseUrlOptions.Builder().apply(initializer).build()

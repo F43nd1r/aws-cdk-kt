@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.ClusterEngineConfig
 
 @Generated
-public fun buildClusterEngineConfig(initializer: @AwsCdkDsl ClusterEngineConfig.Builder.() -> Unit):
-    ClusterEngineConfig = ClusterEngineConfig.Builder().apply(initializer).build()
+public fun buildClusterEngineConfig(initializer: @AwsCdkDsl ClusterEngineConfig.Builder.() -> Unit =
+    {}): ClusterEngineConfig = ClusterEngineConfig.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnClientVpnEndpoint
 
 @Generated
 public fun buildConnectionLogOptionsProperty(initializer: @AwsCdkDsl
-    CfnClientVpnEndpoint.ConnectionLogOptionsProperty.Builder.() -> Unit):
+    CfnClientVpnEndpoint.ConnectionLogOptionsProperty.Builder.() -> Unit = {}):
     CfnClientVpnEndpoint.ConnectionLogOptionsProperty =
     CfnClientVpnEndpoint.ConnectionLogOptionsProperty.Builder().apply(initializer).build()

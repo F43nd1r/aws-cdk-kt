@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelPackage
 
 @Generated
 public fun buildMetricsSourceProperty(initializer: @AwsCdkDsl
-    CfnModelPackage.MetricsSourceProperty.Builder.() -> Unit): CfnModelPackage.MetricsSourceProperty
-    = CfnModelPackage.MetricsSourceProperty.Builder().apply(initializer).build()
+    CfnModelPackage.MetricsSourceProperty.Builder.() -> Unit = {}):
+    CfnModelPackage.MetricsSourceProperty =
+    CfnModelPackage.MetricsSourceProperty.Builder().apply(initializer).build()

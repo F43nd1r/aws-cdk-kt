@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.inspectorv2.CfnFilter
 
 @Generated
 public fun buildDateFilterProperty(initializer: @AwsCdkDsl
-    CfnFilter.DateFilterProperty.Builder.() -> Unit): CfnFilter.DateFilterProperty =
+    CfnFilter.DateFilterProperty.Builder.() -> Unit = {}): CfnFilter.DateFilterProperty =
     CfnFilter.DateFilterProperty.Builder().apply(initializer).build()

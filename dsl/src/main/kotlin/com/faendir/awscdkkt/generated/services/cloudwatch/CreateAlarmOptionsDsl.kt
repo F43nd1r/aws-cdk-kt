@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.CreateAlarmOptions
 
 @Generated
-public fun buildCreateAlarmOptions(initializer: @AwsCdkDsl CreateAlarmOptions.Builder.() -> Unit):
-    CreateAlarmOptions = CreateAlarmOptions.Builder().apply(initializer).build()
+public fun buildCreateAlarmOptions(initializer: @AwsCdkDsl CreateAlarmOptions.Builder.() -> Unit =
+    {}): CreateAlarmOptions = CreateAlarmOptions.Builder().apply(initializer).build()

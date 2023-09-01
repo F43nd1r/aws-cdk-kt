@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lightsail.CfnContainer
 
 @Generated
 public fun buildHealthCheckConfigProperty(initializer: @AwsCdkDsl
-    CfnContainer.HealthCheckConfigProperty.Builder.() -> Unit):
+    CfnContainer.HealthCheckConfigProperty.Builder.() -> Unit = {}):
     CfnContainer.HealthCheckConfigProperty =
     CfnContainer.HealthCheckConfigProperty.Builder().apply(initializer).build()

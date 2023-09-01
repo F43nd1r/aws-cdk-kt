@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnWorkteamProps
 
 @Generated
-public fun buildCfnWorkteamProps(initializer: @AwsCdkDsl CfnWorkteamProps.Builder.() -> Unit):
+public fun buildCfnWorkteamProps(initializer: @AwsCdkDsl CfnWorkteamProps.Builder.() -> Unit = {}):
     CfnWorkteamProps = CfnWorkteamProps.Builder().apply(initializer).build()

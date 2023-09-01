@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.certificatemanager.CertificationValidatio
 
 @Generated
 public fun buildCertificationValidationProps(initializer: @AwsCdkDsl
-    CertificationValidationProps.Builder.() -> Unit): CertificationValidationProps =
+    CertificationValidationProps.Builder.() -> Unit = {}): CertificationValidationProps =
     CertificationValidationProps.Builder().apply(initializer).build()

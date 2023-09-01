@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.glue.CfnClassifier
 
 @Generated
 public fun buildJsonClassifierProperty(initializer: @AwsCdkDsl
-    CfnClassifier.JsonClassifierProperty.Builder.() -> Unit): CfnClassifier.JsonClassifierProperty =
+    CfnClassifier.JsonClassifierProperty.Builder.() -> Unit = {}):
+    CfnClassifier.JsonClassifierProperty =
     CfnClassifier.JsonClassifierProperty.Builder().apply(initializer).build()

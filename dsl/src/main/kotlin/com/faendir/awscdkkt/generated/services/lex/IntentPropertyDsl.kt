@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildIntentProperty(initializer: @AwsCdkDsl CfnBot.IntentProperty.Builder.() -> Unit):
-    CfnBot.IntentProperty = CfnBot.IntentProperty.Builder().apply(initializer).build()
+public fun buildIntentProperty(initializer: @AwsCdkDsl CfnBot.IntentProperty.Builder.() -> Unit =
+    {}): CfnBot.IntentProperty = CfnBot.IntentProperty.Builder().apply(initializer).build()

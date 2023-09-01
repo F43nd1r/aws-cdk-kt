@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.InterfaceVpcEndpointOptions
 
 @Generated
 public fun buildInterfaceVpcEndpointOptions(initializer: @AwsCdkDsl
-    InterfaceVpcEndpointOptions.Builder.() -> Unit): InterfaceVpcEndpointOptions =
+    InterfaceVpcEndpointOptions.Builder.() -> Unit = {}): InterfaceVpcEndpointOptions =
     InterfaceVpcEndpointOptions.Builder().apply(initializer).build()

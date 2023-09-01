@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iot.CfnAccountAuditConfigurationProps
 
 @Generated
 public fun buildCfnAccountAuditConfigurationProps(initializer: @AwsCdkDsl
-    CfnAccountAuditConfigurationProps.Builder.() -> Unit): CfnAccountAuditConfigurationProps =
+    CfnAccountAuditConfigurationProps.Builder.() -> Unit = {}): CfnAccountAuditConfigurationProps =
     CfnAccountAuditConfigurationProps.Builder().apply(initializer).build()

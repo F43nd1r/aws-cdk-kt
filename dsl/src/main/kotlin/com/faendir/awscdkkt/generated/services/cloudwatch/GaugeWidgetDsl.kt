@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.GaugeWidget
 
 @Generated
-public fun buildGaugeWidget(initializer: @AwsCdkDsl GaugeWidget.Builder.() -> Unit): GaugeWidget =
-    GaugeWidget.Builder.create().apply(initializer).build()
+public fun buildGaugeWidget(initializer: @AwsCdkDsl GaugeWidget.Builder.() -> Unit = {}):
+    GaugeWidget = GaugeWidget.Builder.create().apply(initializer).build()

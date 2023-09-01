@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.fsx.CfnFileSystem
 
 @Generated
 public fun buildRootVolumeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFileSystem.RootVolumeConfigurationProperty.Builder.() -> Unit):
+    CfnFileSystem.RootVolumeConfigurationProperty.Builder.() -> Unit = {}):
     CfnFileSystem.RootVolumeConfigurationProperty =
     CfnFileSystem.RootVolumeConfigurationProperty.Builder().apply(initializer).build()

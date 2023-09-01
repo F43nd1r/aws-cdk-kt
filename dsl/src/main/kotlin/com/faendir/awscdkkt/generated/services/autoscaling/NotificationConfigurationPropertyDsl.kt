@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.autoscaling.CfnAutoScalingGroup
 
 @Generated
 public fun buildNotificationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAutoScalingGroup.NotificationConfigurationProperty.Builder.() -> Unit):
+    CfnAutoScalingGroup.NotificationConfigurationProperty.Builder.() -> Unit = {}):
     CfnAutoScalingGroup.NotificationConfigurationProperty =
     CfnAutoScalingGroup.NotificationConfigurationProperty.Builder().apply(initializer).build()

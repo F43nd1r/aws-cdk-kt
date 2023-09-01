@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.groundstation.CfnConfigProps
 
 @Generated
-public fun buildCfnConfigProps(initializer: @AwsCdkDsl CfnConfigProps.Builder.() -> Unit):
+public fun buildCfnConfigProps(initializer: @AwsCdkDsl CfnConfigProps.Builder.() -> Unit = {}):
     CfnConfigProps = CfnConfigProps.Builder().apply(initializer).build()

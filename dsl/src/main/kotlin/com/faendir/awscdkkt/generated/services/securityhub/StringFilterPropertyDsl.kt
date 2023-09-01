@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.securityhub.CfnAutomationRule
 
 @Generated
 public fun buildStringFilterProperty(initializer: @AwsCdkDsl
-    CfnAutomationRule.StringFilterProperty.Builder.() -> Unit):
+    CfnAutomationRule.StringFilterProperty.Builder.() -> Unit = {}):
     CfnAutomationRule.StringFilterProperty =
     CfnAutomationRule.StringFilterProperty.Builder().apply(initializer).build()

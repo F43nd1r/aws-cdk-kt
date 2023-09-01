@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.events.CfnEventBusPolicyProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnEventBusPolicy(id: String, props: CfnEventBusPolicyProps): CfnEventBusPolicy
-    = CfnEventBusPolicy(this, id, props)
-
-@Generated
 public fun Construct.cfnEventBusPolicy(
   id: String,
   props: CfnEventBusPolicyProps,
-  initializer: @AwsCdkDsl CfnEventBusPolicy.() -> Unit,
+  initializer: @AwsCdkDsl CfnEventBusPolicy.() -> Unit = {},
 ): CfnEventBusPolicy = CfnEventBusPolicy(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnEventBusPolicy(id: String, initializer: @AwsCdkDsl
-    CfnEventBusPolicy.Builder.() -> Unit): CfnEventBusPolicy =
+    CfnEventBusPolicy.Builder.() -> Unit = {}): CfnEventBusPolicy =
     CfnEventBusPolicy.Builder.create(this, id).apply(initializer).build()

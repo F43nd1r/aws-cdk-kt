@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.appmesh.CfnVirtualRouter
 
 @Generated
 public fun buildPortMappingProperty(initializer: @AwsCdkDsl
-    CfnVirtualRouter.PortMappingProperty.Builder.() -> Unit): CfnVirtualRouter.PortMappingProperty =
+    CfnVirtualRouter.PortMappingProperty.Builder.() -> Unit = {}):
+    CfnVirtualRouter.PortMappingProperty =
     CfnVirtualRouter.PortMappingProperty.Builder().apply(initializer).build()

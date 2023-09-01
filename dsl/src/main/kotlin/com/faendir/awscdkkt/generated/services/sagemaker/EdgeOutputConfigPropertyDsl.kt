@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnDeviceFleet
 
 @Generated
 public fun buildEdgeOutputConfigProperty(initializer: @AwsCdkDsl
-    CfnDeviceFleet.EdgeOutputConfigProperty.Builder.() -> Unit):
+    CfnDeviceFleet.EdgeOutputConfigProperty.Builder.() -> Unit = {}):
     CfnDeviceFleet.EdgeOutputConfigProperty =
     CfnDeviceFleet.EdgeOutputConfigProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.route53resolver.CfnResolverRuleAssociatio
 
 @Generated
 public fun buildCfnResolverRuleAssociationProps(initializer: @AwsCdkDsl
-    CfnResolverRuleAssociationProps.Builder.() -> Unit): CfnResolverRuleAssociationProps =
+    CfnResolverRuleAssociationProps.Builder.() -> Unit = {}): CfnResolverRuleAssociationProps =
     CfnResolverRuleAssociationProps.Builder().apply(initializer).build()

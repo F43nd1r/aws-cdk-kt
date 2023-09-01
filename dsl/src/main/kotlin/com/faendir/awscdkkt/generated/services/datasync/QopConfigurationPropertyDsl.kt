@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.datasync.CfnLocationHDFS
 
 @Generated
 public fun buildQopConfigurationProperty(initializer: @AwsCdkDsl
-    CfnLocationHDFS.QopConfigurationProperty.Builder.() -> Unit):
+    CfnLocationHDFS.QopConfigurationProperty.Builder.() -> Unit = {}):
     CfnLocationHDFS.QopConfigurationProperty =
     CfnLocationHDFS.QopConfigurationProperty.Builder().apply(initializer).build()

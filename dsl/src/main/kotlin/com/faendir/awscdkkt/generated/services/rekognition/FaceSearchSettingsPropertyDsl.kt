@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.rekognition.CfnStreamProcessor
 
 @Generated
 public fun buildFaceSearchSettingsProperty(initializer: @AwsCdkDsl
-    CfnStreamProcessor.FaceSearchSettingsProperty.Builder.() -> Unit):
+    CfnStreamProcessor.FaceSearchSettingsProperty.Builder.() -> Unit = {}):
     CfnStreamProcessor.FaceSearchSettingsProperty =
     CfnStreamProcessor.FaceSearchSettingsProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.CfnVolumeAttachmentProps
 
 @Generated
 public fun buildCfnVolumeAttachmentProps(initializer: @AwsCdkDsl
-    CfnVolumeAttachmentProps.Builder.() -> Unit): CfnVolumeAttachmentProps =
+    CfnVolumeAttachmentProps.Builder.() -> Unit = {}): CfnVolumeAttachmentProps =
     CfnVolumeAttachmentProps.Builder().apply(initializer).build()

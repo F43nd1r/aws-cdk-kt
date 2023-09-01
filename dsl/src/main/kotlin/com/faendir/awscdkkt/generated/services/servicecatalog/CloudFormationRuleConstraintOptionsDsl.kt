@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.servicecatalog.CloudFormationRuleConstrai
 
 @Generated
 public fun buildCloudFormationRuleConstraintOptions(initializer: @AwsCdkDsl
-    CloudFormationRuleConstraintOptions.Builder.() -> Unit): CloudFormationRuleConstraintOptions =
+    CloudFormationRuleConstraintOptions.Builder.() -> Unit = {}):
+    CloudFormationRuleConstraintOptions =
     CloudFormationRuleConstraintOptions.Builder().apply(initializer).build()

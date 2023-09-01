@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.S3LoggingOptions
 
 @Generated
-public fun buildS3LoggingOptions(initializer: @AwsCdkDsl S3LoggingOptions.Builder.() -> Unit):
+public fun buildS3LoggingOptions(initializer: @AwsCdkDsl S3LoggingOptions.Builder.() -> Unit = {}):
     S3LoggingOptions = S3LoggingOptions.Builder().apply(initializer).build()

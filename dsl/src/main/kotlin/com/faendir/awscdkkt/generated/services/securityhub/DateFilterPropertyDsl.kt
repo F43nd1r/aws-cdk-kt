@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.securityhub.CfnAutomationRule
 
 @Generated
 public fun buildDateFilterProperty(initializer: @AwsCdkDsl
-    CfnAutomationRule.DateFilterProperty.Builder.() -> Unit): CfnAutomationRule.DateFilterProperty =
+    CfnAutomationRule.DateFilterProperty.Builder.() -> Unit = {}):
+    CfnAutomationRule.DateFilterProperty =
     CfnAutomationRule.DateFilterProperty.Builder().apply(initializer).build()

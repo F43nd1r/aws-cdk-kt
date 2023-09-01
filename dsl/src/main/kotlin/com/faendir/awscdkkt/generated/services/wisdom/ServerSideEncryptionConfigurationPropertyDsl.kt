@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.wisdom.CfnKnowledgeBase
 
 @Generated
 public fun buildServerSideEncryptionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnKnowledgeBase.ServerSideEncryptionConfigurationProperty.Builder.() -> Unit):
+    CfnKnowledgeBase.ServerSideEncryptionConfigurationProperty.Builder.() -> Unit = {}):
     CfnKnowledgeBase.ServerSideEncryptionConfigurationProperty =
     CfnKnowledgeBase.ServerSideEncryptionConfigurationProperty.Builder().apply(initializer).build()

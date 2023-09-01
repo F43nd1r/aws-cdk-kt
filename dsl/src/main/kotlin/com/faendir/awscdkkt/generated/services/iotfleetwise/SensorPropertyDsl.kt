@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iotfleetwise.CfnSignalCatalog
 
 @Generated
 public fun buildSensorProperty(initializer: @AwsCdkDsl
-    CfnSignalCatalog.SensorProperty.Builder.() -> Unit): CfnSignalCatalog.SensorProperty =
+    CfnSignalCatalog.SensorProperty.Builder.() -> Unit = {}): CfnSignalCatalog.SensorProperty =
     CfnSignalCatalog.SensorProperty.Builder().apply(initializer).build()

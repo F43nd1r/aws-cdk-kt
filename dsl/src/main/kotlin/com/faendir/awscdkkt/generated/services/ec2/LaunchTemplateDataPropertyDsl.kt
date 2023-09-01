@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
 public fun buildLaunchTemplateDataProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.LaunchTemplateDataProperty.Builder.() -> Unit):
+    CfnLaunchTemplate.LaunchTemplateDataProperty.Builder.() -> Unit = {}):
     CfnLaunchTemplate.LaunchTemplateDataProperty =
     CfnLaunchTemplate.LaunchTemplateDataProperty.Builder().apply(initializer).build()

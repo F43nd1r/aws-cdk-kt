@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTopic
 
 @Generated
 public fun buildNamedEntityDefinitionMetricProperty(initializer: @AwsCdkDsl
-    CfnTopic.NamedEntityDefinitionMetricProperty.Builder.() -> Unit):
+    CfnTopic.NamedEntityDefinitionMetricProperty.Builder.() -> Unit = {}):
     CfnTopic.NamedEntityDefinitionMetricProperty =
     CfnTopic.NamedEntityDefinitionMetricProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.evidently.CfnLaunchProps
 
 @Generated
-public fun buildCfnLaunchProps(initializer: @AwsCdkDsl CfnLaunchProps.Builder.() -> Unit):
+public fun buildCfnLaunchProps(initializer: @AwsCdkDsl CfnLaunchProps.Builder.() -> Unit = {}):
     CfnLaunchProps = CfnLaunchProps.Builder().apply(initializer).build()

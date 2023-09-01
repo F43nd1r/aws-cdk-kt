@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.secretsmanager.SecretRotationApplicationO
 
 @Generated
 public fun buildSecretRotationApplicationOptions(initializer: @AwsCdkDsl
-    SecretRotationApplicationOptions.Builder.() -> Unit): SecretRotationApplicationOptions =
+    SecretRotationApplicationOptions.Builder.() -> Unit = {}): SecretRotationApplicationOptions =
     SecretRotationApplicationOptions.Builder().apply(initializer).build()

@@ -9,26 +9,18 @@ import software.amazon.awscdk.services.cloudfront.OriginAccessIdentityProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.originAccessIdentity(id: String): OriginAccessIdentity =
-    OriginAccessIdentity(this, id)
-
-@Generated
 public fun Construct.originAccessIdentity(id: String, initializer: @AwsCdkDsl
-    OriginAccessIdentity.() -> Unit): OriginAccessIdentity = OriginAccessIdentity(this,
+    OriginAccessIdentity.() -> Unit = {}): OriginAccessIdentity = OriginAccessIdentity(this,
     id).apply(initializer)
-
-@Generated
-public fun Construct.originAccessIdentity(id: String, props: OriginAccessIdentityProps):
-    OriginAccessIdentity = OriginAccessIdentity(this, id, props)
 
 @Generated
 public fun Construct.originAccessIdentity(
   id: String,
   props: OriginAccessIdentityProps,
-  initializer: @AwsCdkDsl OriginAccessIdentity.() -> Unit,
+  initializer: @AwsCdkDsl OriginAccessIdentity.() -> Unit = {},
 ): OriginAccessIdentity = OriginAccessIdentity(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildOriginAccessIdentity(id: String, initializer: @AwsCdkDsl
-    OriginAccessIdentity.Builder.() -> Unit): OriginAccessIdentity =
+    OriginAccessIdentity.Builder.() -> Unit = {}): OriginAccessIdentity =
     OriginAccessIdentity.Builder.create(this, id).apply(initializer).build()

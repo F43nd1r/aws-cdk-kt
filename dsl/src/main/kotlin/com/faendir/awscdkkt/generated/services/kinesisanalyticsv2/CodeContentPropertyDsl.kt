@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.kinesisanalyticsv2.CfnApplication
 
 @Generated
 public fun buildCodeContentProperty(initializer: @AwsCdkDsl
-    CfnApplication.CodeContentProperty.Builder.() -> Unit): CfnApplication.CodeContentProperty =
-    CfnApplication.CodeContentProperty.Builder().apply(initializer).build()
+    CfnApplication.CodeContentProperty.Builder.() -> Unit = {}): CfnApplication.CodeContentProperty
+    = CfnApplication.CodeContentProperty.Builder().apply(initializer).build()

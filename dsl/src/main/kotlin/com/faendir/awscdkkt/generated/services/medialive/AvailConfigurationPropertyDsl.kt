@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildAvailConfigurationProperty(initializer: @AwsCdkDsl
-    CfnChannel.AvailConfigurationProperty.Builder.() -> Unit): CfnChannel.AvailConfigurationProperty
-    = CfnChannel.AvailConfigurationProperty.Builder().apply(initializer).build()
+    CfnChannel.AvailConfigurationProperty.Builder.() -> Unit = {}):
+    CfnChannel.AvailConfigurationProperty =
+    CfnChannel.AvailConfigurationProperty.Builder().apply(initializer).build()

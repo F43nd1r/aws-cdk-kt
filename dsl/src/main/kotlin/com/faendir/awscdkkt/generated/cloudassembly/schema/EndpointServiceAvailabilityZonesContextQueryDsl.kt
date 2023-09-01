@@ -7,6 +7,6 @@ import software.amazon.awscdk.cloudassembly.schema.EndpointServiceAvailabilityZo
 
 @Generated
 public fun buildEndpointServiceAvailabilityZonesContextQuery(initializer: @AwsCdkDsl
-    EndpointServiceAvailabilityZonesContextQuery.Builder.() -> Unit):
+    EndpointServiceAvailabilityZonesContextQuery.Builder.() -> Unit = {}):
     EndpointServiceAvailabilityZonesContextQuery =
     EndpointServiceAvailabilityZonesContextQuery.Builder().apply(initializer).build()

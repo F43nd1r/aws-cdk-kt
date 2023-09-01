@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.accessanalyzer.CfnAnalyzer
 
 @Generated
 public fun buildArchiveRuleProperty(initializer: @AwsCdkDsl
-    CfnAnalyzer.ArchiveRuleProperty.Builder.() -> Unit): CfnAnalyzer.ArchiveRuleProperty =
+    CfnAnalyzer.ArchiveRuleProperty.Builder.() -> Unit = {}): CfnAnalyzer.ArchiveRuleProperty =
     CfnAnalyzer.ArchiveRuleProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.servicecatalog.CfnCloudFormationProvision
 
 @Generated
 public fun buildCfnCloudFormationProvisionedProductProps(initializer: @AwsCdkDsl
-    CfnCloudFormationProvisionedProductProps.Builder.() -> Unit):
+    CfnCloudFormationProvisionedProductProps.Builder.() -> Unit = {}):
     CfnCloudFormationProvisionedProductProps =
     CfnCloudFormationProvisionedProductProps.Builder().apply(initializer).build()

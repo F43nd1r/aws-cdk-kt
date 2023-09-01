@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnLogGroupProps
 
 @Generated
-public fun buildCfnLogGroupProps(initializer: @AwsCdkDsl CfnLogGroupProps.Builder.() -> Unit):
+public fun buildCfnLogGroupProps(initializer: @AwsCdkDsl CfnLogGroupProps.Builder.() -> Unit = {}):
     CfnLogGroupProps = CfnLogGroupProps.Builder().apply(initializer).build()

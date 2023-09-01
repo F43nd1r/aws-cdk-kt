@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.memorydb.CfnUserProps
 
 @Generated
-public fun buildCfnUserProps(initializer: @AwsCdkDsl CfnUserProps.Builder.() -> Unit): CfnUserProps
-    = CfnUserProps.Builder().apply(initializer).build()
+public fun buildCfnUserProps(initializer: @AwsCdkDsl CfnUserProps.Builder.() -> Unit = {}):
+    CfnUserProps = CfnUserProps.Builder().apply(initializer).build()

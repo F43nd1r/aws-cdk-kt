@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codepipeline.CfnPipeline
 
 @Generated
 public fun buildArtifactStoreProperty(initializer: @AwsCdkDsl
-    CfnPipeline.ArtifactStoreProperty.Builder.() -> Unit): CfnPipeline.ArtifactStoreProperty =
+    CfnPipeline.ArtifactStoreProperty.Builder.() -> Unit = {}): CfnPipeline.ArtifactStoreProperty =
     CfnPipeline.ArtifactStoreProperty.Builder().apply(initializer).build()

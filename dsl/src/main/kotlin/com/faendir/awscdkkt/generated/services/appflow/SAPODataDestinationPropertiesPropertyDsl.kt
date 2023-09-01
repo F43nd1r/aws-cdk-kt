@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
 public fun buildSAPODataDestinationPropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.SAPODataDestinationPropertiesProperty.Builder.() -> Unit):
+    CfnFlow.SAPODataDestinationPropertiesProperty.Builder.() -> Unit = {}):
     CfnFlow.SAPODataDestinationPropertiesProperty =
     CfnFlow.SAPODataDestinationPropertiesProperty.Builder().apply(initializer).build()

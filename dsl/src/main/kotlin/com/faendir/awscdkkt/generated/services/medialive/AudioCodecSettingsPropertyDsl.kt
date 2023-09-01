@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildAudioCodecSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.AudioCodecSettingsProperty.Builder.() -> Unit): CfnChannel.AudioCodecSettingsProperty
-    = CfnChannel.AudioCodecSettingsProperty.Builder().apply(initializer).build()
+    CfnChannel.AudioCodecSettingsProperty.Builder.() -> Unit = {}):
+    CfnChannel.AudioCodecSettingsProperty =
+    CfnChannel.AudioCodecSettingsProperty.Builder().apply(initializer).build()

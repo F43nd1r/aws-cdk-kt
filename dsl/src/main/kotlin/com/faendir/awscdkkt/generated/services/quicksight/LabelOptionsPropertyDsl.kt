@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildLabelOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.LabelOptionsProperty.Builder.() -> Unit): CfnTemplate.LabelOptionsProperty =
+    CfnTemplate.LabelOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.LabelOptionsProperty =
     CfnTemplate.LabelOptionsProperty.Builder().apply(initializer).build()

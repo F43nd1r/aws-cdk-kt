@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codepipeline.CfnCustomActionTypeProps
 
 @Generated
 public fun buildCfnCustomActionTypeProps(initializer: @AwsCdkDsl
-    CfnCustomActionTypeProps.Builder.() -> Unit): CfnCustomActionTypeProps =
+    CfnCustomActionTypeProps.Builder.() -> Unit = {}): CfnCustomActionTypeProps =
     CfnCustomActionTypeProps.Builder().apply(initializer).build()

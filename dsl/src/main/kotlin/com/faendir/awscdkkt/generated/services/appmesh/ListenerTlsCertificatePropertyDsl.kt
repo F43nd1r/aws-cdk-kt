@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appmesh.CfnVirtualNode
 
 @Generated
 public fun buildListenerTlsCertificateProperty(initializer: @AwsCdkDsl
-    CfnVirtualNode.ListenerTlsCertificateProperty.Builder.() -> Unit):
+    CfnVirtualNode.ListenerTlsCertificateProperty.Builder.() -> Unit = {}):
     CfnVirtualNode.ListenerTlsCertificateProperty =
     CfnVirtualNode.ListenerTlsCertificateProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.databrew.CfnJob
 
 @Generated
 public fun buildCsvOutputOptionsProperty(initializer: @AwsCdkDsl
-    CfnJob.CsvOutputOptionsProperty.Builder.() -> Unit): CfnJob.CsvOutputOptionsProperty =
+    CfnJob.CsvOutputOptionsProperty.Builder.() -> Unit = {}): CfnJob.CsvOutputOptionsProperty =
     CfnJob.CsvOutputOptionsProperty.Builder().apply(initializer).build()

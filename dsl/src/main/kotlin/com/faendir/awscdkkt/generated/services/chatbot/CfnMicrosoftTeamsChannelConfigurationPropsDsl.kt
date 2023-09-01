@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.chatbot.CfnMicrosoftTeamsChannelConfigura
 
 @Generated
 public fun buildCfnMicrosoftTeamsChannelConfigurationProps(initializer: @AwsCdkDsl
-    CfnMicrosoftTeamsChannelConfigurationProps.Builder.() -> Unit):
+    CfnMicrosoftTeamsChannelConfigurationProps.Builder.() -> Unit = {}):
     CfnMicrosoftTeamsChannelConfigurationProps =
     CfnMicrosoftTeamsChannelConfigurationProps.Builder().apply(initializer).build()

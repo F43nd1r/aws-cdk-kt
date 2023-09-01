@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.kendra.CfnDataSource
 
 @Generated
 public fun buildWebCrawlerUrlsProperty(initializer: @AwsCdkDsl
-    CfnDataSource.WebCrawlerUrlsProperty.Builder.() -> Unit): CfnDataSource.WebCrawlerUrlsProperty =
+    CfnDataSource.WebCrawlerUrlsProperty.Builder.() -> Unit = {}):
+    CfnDataSource.WebCrawlerUrlsProperty =
     CfnDataSource.WebCrawlerUrlsProperty.Builder().apply(initializer).build()

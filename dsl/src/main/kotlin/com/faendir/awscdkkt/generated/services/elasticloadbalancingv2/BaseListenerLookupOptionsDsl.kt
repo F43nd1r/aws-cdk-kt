@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.BaseListenerLookup
 
 @Generated
 public fun buildBaseListenerLookupOptions(initializer: @AwsCdkDsl
-    BaseListenerLookupOptions.Builder.() -> Unit): BaseListenerLookupOptions =
+    BaseListenerLookupOptions.Builder.() -> Unit = {}): BaseListenerLookupOptions =
     BaseListenerLookupOptions.Builder().apply(initializer).build()

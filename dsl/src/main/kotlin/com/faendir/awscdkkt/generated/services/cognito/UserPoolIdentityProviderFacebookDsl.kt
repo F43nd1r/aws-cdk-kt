@@ -9,19 +9,14 @@ import software.amazon.awscdk.services.cognito.UserPoolIdentityProviderFacebookP
 import software.constructs.Construct
 
 @Generated
-public fun Construct.userPoolIdentityProviderFacebook(id: String,
-    props: UserPoolIdentityProviderFacebookProps): UserPoolIdentityProviderFacebook =
-    UserPoolIdentityProviderFacebook(this, id, props)
-
-@Generated
 public fun Construct.userPoolIdentityProviderFacebook(
   id: String,
   props: UserPoolIdentityProviderFacebookProps,
-  initializer: @AwsCdkDsl UserPoolIdentityProviderFacebook.() -> Unit,
+  initializer: @AwsCdkDsl UserPoolIdentityProviderFacebook.() -> Unit = {},
 ): UserPoolIdentityProviderFacebook = UserPoolIdentityProviderFacebook(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildUserPoolIdentityProviderFacebook(id: String, initializer: @AwsCdkDsl
-    UserPoolIdentityProviderFacebook.Builder.() -> Unit): UserPoolIdentityProviderFacebook =
+    UserPoolIdentityProviderFacebook.Builder.() -> Unit = {}): UserPoolIdentityProviderFacebook =
     UserPoolIdentityProviderFacebook.Builder.create(this, id).apply(initializer).build()

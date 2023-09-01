@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ivschat.CfnLoggingConfiguration
 
 @Generated
 public fun buildCloudWatchLogsDestinationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnLoggingConfiguration.CloudWatchLogsDestinationConfigurationProperty.Builder.() -> Unit):
+    CfnLoggingConfiguration.CloudWatchLogsDestinationConfigurationProperty.Builder.() -> Unit = {}):
     CfnLoggingConfiguration.CloudWatchLogsDestinationConfigurationProperty =
     CfnLoggingConfiguration.CloudWatchLogsDestinationConfigurationProperty.Builder().apply(initializer).build()

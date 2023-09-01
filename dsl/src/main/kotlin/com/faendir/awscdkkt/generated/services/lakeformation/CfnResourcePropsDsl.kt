@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lakeformation.CfnResourceProps
 
 @Generated
-public fun buildCfnResourceProps(initializer: @AwsCdkDsl CfnResourceProps.Builder.() -> Unit):
+public fun buildCfnResourceProps(initializer: @AwsCdkDsl CfnResourceProps.Builder.() -> Unit = {}):
     CfnResourceProps = CfnResourceProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelPackage
 
 @Generated
 public fun buildMetadataPropertiesProperty(initializer: @AwsCdkDsl
-    CfnModelPackage.MetadataPropertiesProperty.Builder.() -> Unit):
+    CfnModelPackage.MetadataPropertiesProperty.Builder.() -> Unit = {}):
     CfnModelPackage.MetadataPropertiesProperty =
     CfnModelPackage.MetadataPropertiesProperty.Builder().apply(initializer).build()

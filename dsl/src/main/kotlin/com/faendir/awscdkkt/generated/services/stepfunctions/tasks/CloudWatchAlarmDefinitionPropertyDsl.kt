@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EmrCreateCluster
 
 @Generated
 public fun buildCloudWatchAlarmDefinitionProperty(initializer: @AwsCdkDsl
-    EmrCreateCluster.CloudWatchAlarmDefinitionProperty.Builder.() -> Unit):
+    EmrCreateCluster.CloudWatchAlarmDefinitionProperty.Builder.() -> Unit = {}):
     EmrCreateCluster.CloudWatchAlarmDefinitionProperty =
     EmrCreateCluster.CloudWatchAlarmDefinitionProperty.Builder().apply(initializer).build()

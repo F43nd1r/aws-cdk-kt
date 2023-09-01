@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.comprehend.CfnFlywheel
 
 @Generated
 public fun buildEntityTypesListItemProperty(initializer: @AwsCdkDsl
-    CfnFlywheel.EntityTypesListItemProperty.Builder.() -> Unit):
+    CfnFlywheel.EntityTypesListItemProperty.Builder.() -> Unit = {}):
     CfnFlywheel.EntityTypesListItemProperty =
     CfnFlywheel.EntityTypesListItemProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.glue.CfnTable
 
 @Generated
 public fun buildSchemaIdProperty(initializer: @AwsCdkDsl
-    CfnTable.SchemaIdProperty.Builder.() -> Unit): CfnTable.SchemaIdProperty =
+    CfnTable.SchemaIdProperty.Builder.() -> Unit = {}): CfnTable.SchemaIdProperty =
     CfnTable.SchemaIdProperty.Builder().apply(initializer).build()

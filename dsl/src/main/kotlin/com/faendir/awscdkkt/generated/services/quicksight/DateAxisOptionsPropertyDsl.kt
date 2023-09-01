@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildDateAxisOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DateAxisOptionsProperty.Builder.() -> Unit): CfnTemplate.DateAxisOptionsProperty =
+    CfnTemplate.DateAxisOptionsProperty.Builder.() -> Unit = {}):
+    CfnTemplate.DateAxisOptionsProperty =
     CfnTemplate.DateAxisOptionsProperty.Builder().apply(initializer).build()

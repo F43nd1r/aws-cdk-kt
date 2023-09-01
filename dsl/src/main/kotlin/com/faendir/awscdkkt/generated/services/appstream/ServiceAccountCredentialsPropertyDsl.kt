@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appstream.CfnDirectoryConfig
 
 @Generated
 public fun buildServiceAccountCredentialsProperty(initializer: @AwsCdkDsl
-    CfnDirectoryConfig.ServiceAccountCredentialsProperty.Builder.() -> Unit):
+    CfnDirectoryConfig.ServiceAccountCredentialsProperty.Builder.() -> Unit = {}):
     CfnDirectoryConfig.ServiceAccountCredentialsProperty =
     CfnDirectoryConfig.ServiceAccountCredentialsProperty.Builder().apply(initializer).build()

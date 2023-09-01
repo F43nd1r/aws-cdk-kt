@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelQualityJobDefinition
 
 @Generated
 public fun buildModelQualityAppSpecificationProperty(initializer: @AwsCdkDsl
-    CfnModelQualityJobDefinition.ModelQualityAppSpecificationProperty.Builder.() -> Unit):
+    CfnModelQualityJobDefinition.ModelQualityAppSpecificationProperty.Builder.() -> Unit = {}):
     CfnModelQualityJobDefinition.ModelQualityAppSpecificationProperty =
     CfnModelQualityJobDefinition.ModelQualityAppSpecificationProperty.Builder().apply(initializer).build()

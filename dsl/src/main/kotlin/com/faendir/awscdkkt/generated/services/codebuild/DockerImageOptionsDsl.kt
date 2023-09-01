@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.DockerImageOptions
 
 @Generated
-public fun buildDockerImageOptions(initializer: @AwsCdkDsl DockerImageOptions.Builder.() -> Unit):
-    DockerImageOptions = DockerImageOptions.Builder().apply(initializer).build()
+public fun buildDockerImageOptions(initializer: @AwsCdkDsl DockerImageOptions.Builder.() -> Unit =
+    {}): DockerImageOptions = DockerImageOptions.Builder().apply(initializer).build()

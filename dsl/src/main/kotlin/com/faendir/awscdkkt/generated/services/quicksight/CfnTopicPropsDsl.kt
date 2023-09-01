@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTopicProps
 
 @Generated
-public fun buildCfnTopicProps(initializer: @AwsCdkDsl CfnTopicProps.Builder.() -> Unit):
+public fun buildCfnTopicProps(initializer: @AwsCdkDsl CfnTopicProps.Builder.() -> Unit = {}):
     CfnTopicProps = CfnTopicProps.Builder().apply(initializer).build()

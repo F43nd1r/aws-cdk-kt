@@ -9,18 +9,13 @@ import software.amazon.awscdk.services.appsync.CfnDomainNameApiAssociationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDomainNameApiAssociation(id: String,
-    props: CfnDomainNameApiAssociationProps): CfnDomainNameApiAssociation =
-    CfnDomainNameApiAssociation(this, id, props)
-
-@Generated
 public fun Construct.cfnDomainNameApiAssociation(
   id: String,
   props: CfnDomainNameApiAssociationProps,
-  initializer: @AwsCdkDsl CfnDomainNameApiAssociation.() -> Unit,
+  initializer: @AwsCdkDsl CfnDomainNameApiAssociation.() -> Unit = {},
 ): CfnDomainNameApiAssociation = CfnDomainNameApiAssociation(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnDomainNameApiAssociation(id: String, initializer: @AwsCdkDsl
-    CfnDomainNameApiAssociation.Builder.() -> Unit): CfnDomainNameApiAssociation =
+    CfnDomainNameApiAssociation.Builder.() -> Unit = {}): CfnDomainNameApiAssociation =
     CfnDomainNameApiAssociation.Builder.create(this, id).apply(initializer).build()

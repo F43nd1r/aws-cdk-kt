@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.networkfirewall.CfnRuleGroup
 
 @Generated
 public fun buildPublishMetricActionProperty(initializer: @AwsCdkDsl
-    CfnRuleGroup.PublishMetricActionProperty.Builder.() -> Unit):
+    CfnRuleGroup.PublishMetricActionProperty.Builder.() -> Unit = {}):
     CfnRuleGroup.PublishMetricActionProperty =
     CfnRuleGroup.PublishMetricActionProperty.Builder().apply(initializer).build()

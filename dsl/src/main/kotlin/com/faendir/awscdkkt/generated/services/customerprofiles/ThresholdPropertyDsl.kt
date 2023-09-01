@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.customerprofiles.CfnCalculatedAttributeDe
 
 @Generated
 public fun buildThresholdProperty(initializer: @AwsCdkDsl
-    CfnCalculatedAttributeDefinition.ThresholdProperty.Builder.() -> Unit):
+    CfnCalculatedAttributeDefinition.ThresholdProperty.Builder.() -> Unit = {}):
     CfnCalculatedAttributeDefinition.ThresholdProperty =
     CfnCalculatedAttributeDefinition.ThresholdProperty.Builder().apply(initializer).build()

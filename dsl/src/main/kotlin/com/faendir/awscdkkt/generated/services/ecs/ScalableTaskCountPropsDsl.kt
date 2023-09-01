@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.ScalableTaskCountProps
 
 @Generated
 public fun buildScalableTaskCountProps(initializer: @AwsCdkDsl
-    ScalableTaskCountProps.Builder.() -> Unit): ScalableTaskCountProps =
+    ScalableTaskCountProps.Builder.() -> Unit = {}): ScalableTaskCountProps =
     ScalableTaskCountProps.Builder().apply(initializer).build()

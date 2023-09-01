@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.BottleRocketImageProps
 
 @Generated
 public fun buildBottleRocketImageProps(initializer: @AwsCdkDsl
-    BottleRocketImageProps.Builder.() -> Unit): BottleRocketImageProps =
+    BottleRocketImageProps.Builder.() -> Unit = {}): BottleRocketImageProps =
     BottleRocketImageProps.Builder().apply(initializer).build()

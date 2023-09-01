@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudformation.CfnHookVersionProps
 
 @Generated
-public fun buildCfnHookVersionProps(initializer: @AwsCdkDsl CfnHookVersionProps.Builder.() -> Unit):
-    CfnHookVersionProps = CfnHookVersionProps.Builder().apply(initializer).build()
+public fun buildCfnHookVersionProps(initializer: @AwsCdkDsl CfnHookVersionProps.Builder.() -> Unit =
+    {}): CfnHookVersionProps = CfnHookVersionProps.Builder().apply(initializer).build()

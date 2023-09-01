@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.fsx.CfnDataRepositoryAssociation
 
 @Generated
 public fun buildAutoExportPolicyProperty(initializer: @AwsCdkDsl
-    CfnDataRepositoryAssociation.AutoExportPolicyProperty.Builder.() -> Unit):
+    CfnDataRepositoryAssociation.AutoExportPolicyProperty.Builder.() -> Unit = {}):
     CfnDataRepositoryAssociation.AutoExportPolicyProperty =
     CfnDataRepositoryAssociation.AutoExportPolicyProperty.Builder().apply(initializer).build()

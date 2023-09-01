@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.rds.DatabaseClusterFromSnapshotProps
 
 @Generated
 public fun buildDatabaseClusterFromSnapshotProps(initializer: @AwsCdkDsl
-    DatabaseClusterFromSnapshotProps.Builder.() -> Unit): DatabaseClusterFromSnapshotProps =
+    DatabaseClusterFromSnapshotProps.Builder.() -> Unit = {}): DatabaseClusterFromSnapshotProps =
     DatabaseClusterFromSnapshotProps.Builder().apply(initializer).build()

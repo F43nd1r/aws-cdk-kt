@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.greengrass.CfnLoggerDefinitionVersionProp
 
 @Generated
 public fun buildCfnLoggerDefinitionVersionProps(initializer: @AwsCdkDsl
-    CfnLoggerDefinitionVersionProps.Builder.() -> Unit): CfnLoggerDefinitionVersionProps =
+    CfnLoggerDefinitionVersionProps.Builder.() -> Unit = {}): CfnLoggerDefinitionVersionProps =
     CfnLoggerDefinitionVersionProps.Builder().apply(initializer).build()

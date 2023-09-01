@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.greengrass.CfnDeviceDefinitionVersionProp
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDeviceDefinitionVersion(id: String, props: CfnDeviceDefinitionVersionProps):
-    CfnDeviceDefinitionVersion = CfnDeviceDefinitionVersion(this, id, props)
-
-@Generated
 public fun Construct.cfnDeviceDefinitionVersion(
   id: String,
   props: CfnDeviceDefinitionVersionProps,
-  initializer: @AwsCdkDsl CfnDeviceDefinitionVersion.() -> Unit,
+  initializer: @AwsCdkDsl CfnDeviceDefinitionVersion.() -> Unit = {},
 ): CfnDeviceDefinitionVersion = CfnDeviceDefinitionVersion(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnDeviceDefinitionVersion(id: String, initializer: @AwsCdkDsl
-    CfnDeviceDefinitionVersion.Builder.() -> Unit): CfnDeviceDefinitionVersion =
+    CfnDeviceDefinitionVersion.Builder.() -> Unit = {}): CfnDeviceDefinitionVersion =
     CfnDeviceDefinitionVersion.Builder.create(this, id).apply(initializer).build()

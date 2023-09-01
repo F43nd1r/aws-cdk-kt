@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.BatchSubmitJobProps
 
 @Generated
-public fun buildBatchSubmitJobProps(initializer: @AwsCdkDsl BatchSubmitJobProps.Builder.() -> Unit):
-    BatchSubmitJobProps = BatchSubmitJobProps.Builder().apply(initializer).build()
+public fun buildBatchSubmitJobProps(initializer: @AwsCdkDsl BatchSubmitJobProps.Builder.() -> Unit =
+    {}): BatchSubmitJobProps = BatchSubmitJobProps.Builder().apply(initializer).build()

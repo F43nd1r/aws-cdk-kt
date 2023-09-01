@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lightsail.CfnLoadBalancerProps
 
 @Generated
-public fun buildCfnLoadBalancerProps(initializer: @AwsCdkDsl
-    CfnLoadBalancerProps.Builder.() -> Unit): CfnLoadBalancerProps =
-    CfnLoadBalancerProps.Builder().apply(initializer).build()
+public fun buildCfnLoadBalancerProps(initializer: @AwsCdkDsl CfnLoadBalancerProps.Builder.() -> Unit
+    = {}): CfnLoadBalancerProps = CfnLoadBalancerProps.Builder().apply(initializer).build()

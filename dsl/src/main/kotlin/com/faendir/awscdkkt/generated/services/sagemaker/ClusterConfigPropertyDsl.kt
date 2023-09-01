@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnMonitoringSchedule
 
 @Generated
 public fun buildClusterConfigProperty(initializer: @AwsCdkDsl
-    CfnMonitoringSchedule.ClusterConfigProperty.Builder.() -> Unit):
+    CfnMonitoringSchedule.ClusterConfigProperty.Builder.() -> Unit = {}):
     CfnMonitoringSchedule.ClusterConfigProperty =
     CfnMonitoringSchedule.ClusterConfigProperty.Builder().apply(initializer).build()

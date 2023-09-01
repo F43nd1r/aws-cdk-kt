@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sam.CfnStateMachine
 
 @Generated
 public fun buildSAMPolicyTemplateProperty(initializer: @AwsCdkDsl
-    CfnStateMachine.SAMPolicyTemplateProperty.Builder.() -> Unit):
+    CfnStateMachine.SAMPolicyTemplateProperty.Builder.() -> Unit = {}):
     CfnStateMachine.SAMPolicyTemplateProperty =
     CfnStateMachine.SAMPolicyTemplateProperty.Builder().apply(initializer).build()

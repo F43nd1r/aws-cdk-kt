@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lambda.CfnLayerVersion
 
 @Generated
 public fun buildContentProperty(initializer: @AwsCdkDsl
-    CfnLayerVersion.ContentProperty.Builder.() -> Unit): CfnLayerVersion.ContentProperty =
+    CfnLayerVersion.ContentProperty.Builder.() -> Unit = {}): CfnLayerVersion.ContentProperty =
     CfnLayerVersion.ContentProperty.Builder().apply(initializer).build()

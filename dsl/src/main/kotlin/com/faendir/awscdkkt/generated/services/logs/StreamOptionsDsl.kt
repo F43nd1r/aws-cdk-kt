@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.StreamOptions
 
 @Generated
-public fun buildStreamOptions(initializer: @AwsCdkDsl StreamOptions.Builder.() -> Unit):
+public fun buildStreamOptions(initializer: @AwsCdkDsl StreamOptions.Builder.() -> Unit = {}):
     StreamOptions = StreamOptions.Builder().apply(initializer).build()

@@ -11,6 +11,6 @@ import software.amazon.awscdk.cxapi.CloudAssembly
 public fun buildAssetManifestArtifact(
   assembly: CloudAssembly,
   name: String,
-  initializer: @AwsCdkDsl AssetManifestArtifact.Builder.() -> Unit,
+  initializer: @AwsCdkDsl AssetManifestArtifact.Builder.() -> Unit = {},
 ): AssetManifestArtifact = AssetManifestArtifact.Builder.create(assembly,
     name).apply(initializer).build()

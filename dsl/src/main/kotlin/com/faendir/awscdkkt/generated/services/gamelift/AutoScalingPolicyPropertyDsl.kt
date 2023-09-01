@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.gamelift.CfnGameServerGroup
 
 @Generated
 public fun buildAutoScalingPolicyProperty(initializer: @AwsCdkDsl
-    CfnGameServerGroup.AutoScalingPolicyProperty.Builder.() -> Unit):
+    CfnGameServerGroup.AutoScalingPolicyProperty.Builder.() -> Unit = {}):
     CfnGameServerGroup.AutoScalingPolicyProperty =
     CfnGameServerGroup.AutoScalingPolicyProperty.Builder().apply(initializer).build()

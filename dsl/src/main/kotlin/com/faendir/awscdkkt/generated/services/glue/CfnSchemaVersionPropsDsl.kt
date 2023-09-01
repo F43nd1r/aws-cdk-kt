@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.glue.CfnSchemaVersionProps
 
 @Generated
 public fun buildCfnSchemaVersionProps(initializer: @AwsCdkDsl
-    CfnSchemaVersionProps.Builder.() -> Unit): CfnSchemaVersionProps =
+    CfnSchemaVersionProps.Builder.() -> Unit = {}): CfnSchemaVersionProps =
     CfnSchemaVersionProps.Builder().apply(initializer).build()

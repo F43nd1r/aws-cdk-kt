@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
 public fun buildBatchJobDependencyProperty(initializer: @AwsCdkDsl
-    CfnPipe.BatchJobDependencyProperty.Builder.() -> Unit): CfnPipe.BatchJobDependencyProperty =
-    CfnPipe.BatchJobDependencyProperty.Builder().apply(initializer).build()
+    CfnPipe.BatchJobDependencyProperty.Builder.() -> Unit = {}): CfnPipe.BatchJobDependencyProperty
+    = CfnPipe.BatchJobDependencyProperty.Builder().apply(initializer).build()

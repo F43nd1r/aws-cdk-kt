@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.servicecatalog.CfnServiceActionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnServiceAction(id: String, props: CfnServiceActionProps): CfnServiceAction =
-    CfnServiceAction(this, id, props)
-
-@Generated
 public fun Construct.cfnServiceAction(
   id: String,
   props: CfnServiceActionProps,
-  initializer: @AwsCdkDsl CfnServiceAction.() -> Unit,
+  initializer: @AwsCdkDsl CfnServiceAction.() -> Unit = {},
 ): CfnServiceAction = CfnServiceAction(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnServiceAction(id: String, initializer: @AwsCdkDsl
-    CfnServiceAction.Builder.() -> Unit): CfnServiceAction = CfnServiceAction.Builder.create(this,
-    id).apply(initializer).build()
+    CfnServiceAction.Builder.() -> Unit = {}): CfnServiceAction =
+    CfnServiceAction.Builder.create(this, id).apply(initializer).build()

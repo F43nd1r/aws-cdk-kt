@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.events.ConnectionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.connection(id: String, props: ConnectionProps): Connection = Connection(this,
-    id, props)
-
-@Generated
 public fun Construct.connection(
   id: String,
   props: ConnectionProps,
-  initializer: @AwsCdkDsl Connection.() -> Unit,
+  initializer: @AwsCdkDsl Connection.() -> Unit = {},
 ): Connection = Connection(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildConnection(id: String, initializer: @AwsCdkDsl
-    Connection.Builder.() -> Unit): Connection = Connection.Builder.create(this,
+    Connection.Builder.() -> Unit = {}): Connection = Connection.Builder.create(this,
     id).apply(initializer).build()

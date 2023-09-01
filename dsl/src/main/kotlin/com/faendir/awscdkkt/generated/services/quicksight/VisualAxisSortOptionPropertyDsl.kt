@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
 public fun buildVisualAxisSortOptionProperty(initializer: @AwsCdkDsl
-    CfnDashboard.VisualAxisSortOptionProperty.Builder.() -> Unit):
+    CfnDashboard.VisualAxisSortOptionProperty.Builder.() -> Unit = {}):
     CfnDashboard.VisualAxisSortOptionProperty =
     CfnDashboard.VisualAxisSortOptionProperty.Builder().apply(initializer).build()

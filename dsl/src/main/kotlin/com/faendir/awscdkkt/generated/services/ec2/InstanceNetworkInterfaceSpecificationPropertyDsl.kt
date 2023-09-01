@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnSpotFleet
 
 @Generated
 public fun buildInstanceNetworkInterfaceSpecificationProperty(initializer: @AwsCdkDsl
-    CfnSpotFleet.InstanceNetworkInterfaceSpecificationProperty.Builder.() -> Unit):
+    CfnSpotFleet.InstanceNetworkInterfaceSpecificationProperty.Builder.() -> Unit = {}):
     CfnSpotFleet.InstanceNetworkInterfaceSpecificationProperty =
     CfnSpotFleet.InstanceNetworkInterfaceSpecificationProperty.Builder().apply(initializer).build()

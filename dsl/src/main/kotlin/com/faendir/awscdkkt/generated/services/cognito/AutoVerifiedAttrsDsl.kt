@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.AutoVerifiedAttrs
 
 @Generated
-public fun buildAutoVerifiedAttrs(initializer: @AwsCdkDsl AutoVerifiedAttrs.Builder.() -> Unit):
-    AutoVerifiedAttrs = AutoVerifiedAttrs.Builder().apply(initializer).build()
+public fun buildAutoVerifiedAttrs(initializer: @AwsCdkDsl AutoVerifiedAttrs.Builder.() -> Unit =
+    {}): AutoVerifiedAttrs = AutoVerifiedAttrs.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.waf.regional.CfnGeoMatchSetProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnGeoMatchSet(id: String, props: CfnGeoMatchSetProps): CfnGeoMatchSet =
-    CfnGeoMatchSet(this, id, props)
-
-@Generated
 public fun Construct.cfnGeoMatchSet(
   id: String,
   props: CfnGeoMatchSetProps,
-  initializer: @AwsCdkDsl CfnGeoMatchSet.() -> Unit,
+  initializer: @AwsCdkDsl CfnGeoMatchSet.() -> Unit = {},
 ): CfnGeoMatchSet = CfnGeoMatchSet(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnGeoMatchSet(id: String, initializer: @AwsCdkDsl
-    CfnGeoMatchSet.Builder.() -> Unit): CfnGeoMatchSet = CfnGeoMatchSet.Builder.create(this,
+    CfnGeoMatchSet.Builder.() -> Unit = {}): CfnGeoMatchSet = CfnGeoMatchSet.Builder.create(this,
     id).apply(initializer).build()

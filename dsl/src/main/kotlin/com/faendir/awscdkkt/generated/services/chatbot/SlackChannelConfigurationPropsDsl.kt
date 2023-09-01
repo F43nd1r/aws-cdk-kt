@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.chatbot.SlackChannelConfigurationProps
 
 @Generated
 public fun buildSlackChannelConfigurationProps(initializer: @AwsCdkDsl
-    SlackChannelConfigurationProps.Builder.() -> Unit): SlackChannelConfigurationProps =
+    SlackChannelConfigurationProps.Builder.() -> Unit = {}): SlackChannelConfigurationProps =
     SlackChannelConfigurationProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.pinpoint.CfnCampaign
 
 @Generated
 public fun buildCampaignSmsMessageProperty(initializer: @AwsCdkDsl
-    CfnCampaign.CampaignSmsMessageProperty.Builder.() -> Unit):
+    CfnCampaign.CampaignSmsMessageProperty.Builder.() -> Unit = {}):
     CfnCampaign.CampaignSmsMessageProperty =
     CfnCampaign.CampaignSmsMessageProperty.Builder().apply(initializer).build()

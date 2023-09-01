@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EmrContainersDeleteVi
 
 @Generated
 public fun buildEmrContainersDeleteVirtualClusterProps(initializer: @AwsCdkDsl
-    EmrContainersDeleteVirtualClusterProps.Builder.() -> Unit):
+    EmrContainersDeleteVirtualClusterProps.Builder.() -> Unit = {}):
     EmrContainersDeleteVirtualClusterProps =
     EmrContainersDeleteVirtualClusterProps.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.cloudassembly.schema.HostedZoneContextQuery
 
 @Generated
 public fun buildHostedZoneContextQuery(initializer: @AwsCdkDsl
-    HostedZoneContextQuery.Builder.() -> Unit): HostedZoneContextQuery =
+    HostedZoneContextQuery.Builder.() -> Unit = {}): HostedZoneContextQuery =
     HostedZoneContextQuery.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.databrew.CfnRecipe
 
 @Generated
-public fun buildInputProperty(initializer: @AwsCdkDsl CfnRecipe.InputProperty.Builder.() -> Unit):
-    CfnRecipe.InputProperty = CfnRecipe.InputProperty.Builder().apply(initializer).build()
+public fun buildInputProperty(initializer: @AwsCdkDsl CfnRecipe.InputProperty.Builder.() -> Unit =
+    {}): CfnRecipe.InputProperty = CfnRecipe.InputProperty.Builder().apply(initializer).build()

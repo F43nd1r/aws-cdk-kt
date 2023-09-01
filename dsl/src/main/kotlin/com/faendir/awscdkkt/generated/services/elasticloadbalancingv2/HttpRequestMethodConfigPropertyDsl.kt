@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.CfnListenerRule
 
 @Generated
 public fun buildHttpRequestMethodConfigProperty(initializer: @AwsCdkDsl
-    CfnListenerRule.HttpRequestMethodConfigProperty.Builder.() -> Unit):
+    CfnListenerRule.HttpRequestMethodConfigProperty.Builder.() -> Unit = {}):
     CfnListenerRule.HttpRequestMethodConfigProperty =
     CfnListenerRule.HttpRequestMethodConfigProperty.Builder().apply(initializer).build()

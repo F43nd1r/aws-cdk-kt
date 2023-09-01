@@ -8,5 +8,5 @@ import software.amazon.awscdk.services.events.targets.ApiDestination
 
 @Generated
 public fun buildApiDestination(apiDestination: IApiDestination, initializer: @AwsCdkDsl
-    ApiDestination.Builder.() -> Unit): ApiDestination =
+    ApiDestination.Builder.() -> Unit = {}): ApiDestination =
     ApiDestination.Builder.create(apiDestination).apply(initializer).build()

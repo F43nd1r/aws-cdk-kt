@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cognito.CfnUserPoolRiskConfigurationAttac
 
 @Generated
 public fun buildCfnUserPoolRiskConfigurationAttachmentProps(initializer: @AwsCdkDsl
-    CfnUserPoolRiskConfigurationAttachmentProps.Builder.() -> Unit):
+    CfnUserPoolRiskConfigurationAttachmentProps.Builder.() -> Unit = {}):
     CfnUserPoolRiskConfigurationAttachmentProps =
     CfnUserPoolRiskConfigurationAttachmentProps.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.mediatailor.CfnChannelPolicyProps
 
 @Generated
 public fun buildCfnChannelPolicyProps(initializer: @AwsCdkDsl
-    CfnChannelPolicyProps.Builder.() -> Unit): CfnChannelPolicyProps =
+    CfnChannelPolicyProps.Builder.() -> Unit = {}): CfnChannelPolicyProps =
     CfnChannelPolicyProps.Builder().apply(initializer).build()

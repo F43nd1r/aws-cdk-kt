@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnEnclaveCertificateIamRoleAssociati
 
 @Generated
 public fun buildCfnEnclaveCertificateIamRoleAssociationProps(initializer: @AwsCdkDsl
-    CfnEnclaveCertificateIamRoleAssociationProps.Builder.() -> Unit):
+    CfnEnclaveCertificateIamRoleAssociationProps.Builder.() -> Unit = {}):
     CfnEnclaveCertificateIamRoleAssociationProps =
     CfnEnclaveCertificateIamRoleAssociationProps.Builder().apply(initializer).build()

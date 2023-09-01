@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kinesisanalyticsv2.CfnApplicationOutput
 
 @Generated
 public fun buildDestinationSchemaProperty(initializer: @AwsCdkDsl
-    CfnApplicationOutput.DestinationSchemaProperty.Builder.() -> Unit):
+    CfnApplicationOutput.DestinationSchemaProperty.Builder.() -> Unit = {}):
     CfnApplicationOutput.DestinationSchemaProperty =
     CfnApplicationOutput.DestinationSchemaProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.apprunner.CfnService
 
 @Generated
 public fun buildCodeConfigurationValuesProperty(initializer: @AwsCdkDsl
-    CfnService.CodeConfigurationValuesProperty.Builder.() -> Unit):
+    CfnService.CodeConfigurationValuesProperty.Builder.() -> Unit = {}):
     CfnService.CodeConfigurationValuesProperty =
     CfnService.CodeConfigurationValuesProperty.Builder().apply(initializer).build()

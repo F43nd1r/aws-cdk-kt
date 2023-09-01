@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sam.CfnHttpApi
 
 @Generated
 public fun buildHttpApiAuthProperty(initializer: @AwsCdkDsl
-    CfnHttpApi.HttpApiAuthProperty.Builder.() -> Unit): CfnHttpApi.HttpApiAuthProperty =
+    CfnHttpApi.HttpApiAuthProperty.Builder.() -> Unit = {}): CfnHttpApi.HttpApiAuthProperty =
     CfnHttpApi.HttpApiAuthProperty.Builder().apply(initializer).build()

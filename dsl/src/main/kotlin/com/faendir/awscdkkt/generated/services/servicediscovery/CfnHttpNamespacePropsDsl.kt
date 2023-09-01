@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.servicediscovery.CfnHttpNamespaceProps
 
 @Generated
 public fun buildCfnHttpNamespaceProps(initializer: @AwsCdkDsl
-    CfnHttpNamespaceProps.Builder.() -> Unit): CfnHttpNamespaceProps =
+    CfnHttpNamespaceProps.Builder.() -> Unit = {}): CfnHttpNamespaceProps =
     CfnHttpNamespaceProps.Builder().apply(initializer).build()

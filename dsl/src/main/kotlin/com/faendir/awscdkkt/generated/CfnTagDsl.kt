@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.CfnTag
 
 @Generated
-public fun buildCfnTag(initializer: @AwsCdkDsl CfnTag.Builder.() -> Unit): CfnTag =
+public fun buildCfnTag(initializer: @AwsCdkDsl CfnTag.Builder.() -> Unit = {}): CfnTag =
     CfnTag.Builder().apply(initializer).build()

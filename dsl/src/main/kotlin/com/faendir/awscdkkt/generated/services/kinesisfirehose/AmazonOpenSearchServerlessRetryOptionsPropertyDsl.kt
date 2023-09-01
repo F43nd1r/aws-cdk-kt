@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
 public fun buildAmazonOpenSearchServerlessRetryOptionsProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.AmazonOpenSearchServerlessRetryOptionsProperty.Builder.() -> Unit):
+    CfnDeliveryStream.AmazonOpenSearchServerlessRetryOptionsProperty.Builder.() -> Unit = {}):
     CfnDeliveryStream.AmazonOpenSearchServerlessRetryOptionsProperty =
     CfnDeliveryStream.AmazonOpenSearchServerlessRetryOptionsProperty.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTopic
 
 @Generated
 public fun buildTopicDateRangeFilterProperty(initializer: @AwsCdkDsl
-    CfnTopic.TopicDateRangeFilterProperty.Builder.() -> Unit): CfnTopic.TopicDateRangeFilterProperty
-    = CfnTopic.TopicDateRangeFilterProperty.Builder().apply(initializer).build()
+    CfnTopic.TopicDateRangeFilterProperty.Builder.() -> Unit = {}):
+    CfnTopic.TopicDateRangeFilterProperty =
+    CfnTopic.TopicDateRangeFilterProperty.Builder().apply(initializer).build()

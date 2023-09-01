@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.gamelift.CfnGameSessionQueueProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnGameSessionQueue(id: String, props: CfnGameSessionQueueProps):
-    CfnGameSessionQueue = CfnGameSessionQueue(this, id, props)
-
-@Generated
 public fun Construct.cfnGameSessionQueue(
   id: String,
   props: CfnGameSessionQueueProps,
-  initializer: @AwsCdkDsl CfnGameSessionQueue.() -> Unit,
+  initializer: @AwsCdkDsl CfnGameSessionQueue.() -> Unit = {},
 ): CfnGameSessionQueue = CfnGameSessionQueue(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnGameSessionQueue(id: String, initializer: @AwsCdkDsl
-    CfnGameSessionQueue.Builder.() -> Unit): CfnGameSessionQueue =
+    CfnGameSessionQueue.Builder.() -> Unit = {}): CfnGameSessionQueue =
     CfnGameSessionQueue.Builder.create(this, id).apply(initializer).build()

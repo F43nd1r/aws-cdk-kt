@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sagemaker.CfnModelBiasJobDefinitionProps
 
 @Generated
 public fun buildCfnModelBiasJobDefinitionProps(initializer: @AwsCdkDsl
-    CfnModelBiasJobDefinitionProps.Builder.() -> Unit): CfnModelBiasJobDefinitionProps =
+    CfnModelBiasJobDefinitionProps.Builder.() -> Unit = {}): CfnModelBiasJobDefinitionProps =
     CfnModelBiasJobDefinitionProps.Builder().apply(initializer).build()

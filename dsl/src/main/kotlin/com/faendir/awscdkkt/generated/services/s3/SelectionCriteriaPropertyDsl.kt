@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.s3.CfnStorageLens
 
 @Generated
 public fun buildSelectionCriteriaProperty(initializer: @AwsCdkDsl
-    CfnStorageLens.SelectionCriteriaProperty.Builder.() -> Unit):
+    CfnStorageLens.SelectionCriteriaProperty.Builder.() -> Unit = {}):
     CfnStorageLens.SelectionCriteriaProperty =
     CfnStorageLens.SelectionCriteriaProperty.Builder().apply(initializer).build()

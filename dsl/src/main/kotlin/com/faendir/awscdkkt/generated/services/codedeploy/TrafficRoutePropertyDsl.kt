@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.codedeploy.CfnDeploymentGroup
 
 @Generated
 public fun buildTrafficRouteProperty(initializer: @AwsCdkDsl
-    CfnDeploymentGroup.TrafficRouteProperty.Builder.() -> Unit):
+    CfnDeploymentGroup.TrafficRouteProperty.Builder.() -> Unit = {}):
     CfnDeploymentGroup.TrafficRouteProperty =
     CfnDeploymentGroup.TrafficRouteProperty.Builder().apply(initializer).build()

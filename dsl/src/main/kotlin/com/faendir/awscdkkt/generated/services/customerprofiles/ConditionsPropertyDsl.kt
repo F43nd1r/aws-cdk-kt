@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.customerprofiles.CfnCalculatedAttributeDe
 
 @Generated
 public fun buildConditionsProperty(initializer: @AwsCdkDsl
-    CfnCalculatedAttributeDefinition.ConditionsProperty.Builder.() -> Unit):
+    CfnCalculatedAttributeDefinition.ConditionsProperty.Builder.() -> Unit = {}):
     CfnCalculatedAttributeDefinition.ConditionsProperty =
     CfnCalculatedAttributeDefinition.ConditionsProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildLineSeriesAxisDisplayOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.LineSeriesAxisDisplayOptionsProperty.Builder.() -> Unit):
+    CfnTemplate.LineSeriesAxisDisplayOptionsProperty.Builder.() -> Unit = {}):
     CfnTemplate.LineSeriesAxisDisplayOptionsProperty =
     CfnTemplate.LineSeriesAxisDisplayOptionsProperty.Builder().apply(initializer).build()

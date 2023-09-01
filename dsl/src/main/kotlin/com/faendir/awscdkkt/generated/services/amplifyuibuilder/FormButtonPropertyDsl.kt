@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.amplifyuibuilder.CfnForm
 
 @Generated
 public fun buildFormButtonProperty(initializer: @AwsCdkDsl
-    CfnForm.FormButtonProperty.Builder.() -> Unit): CfnForm.FormButtonProperty =
+    CfnForm.FormButtonProperty.Builder.() -> Unit = {}): CfnForm.FormButtonProperty =
     CfnForm.FormButtonProperty.Builder().apply(initializer).build()

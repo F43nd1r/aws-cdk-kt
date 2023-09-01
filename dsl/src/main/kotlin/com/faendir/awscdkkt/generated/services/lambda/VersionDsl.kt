@@ -9,15 +9,12 @@ import software.amazon.awscdk.services.lambda.VersionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.version(id: String, props: VersionProps): Version = Version(this, id, props)
-
-@Generated
 public fun Construct.version(
   id: String,
   props: VersionProps,
-  initializer: @AwsCdkDsl Version.() -> Unit,
+  initializer: @AwsCdkDsl Version.() -> Unit = {},
 ): Version = Version(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildVersion(id: String, initializer: @AwsCdkDsl Version.Builder.() -> Unit):
-    Version = Version.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildVersion(id: String, initializer: @AwsCdkDsl Version.Builder.() -> Unit =
+    {}): Version = Version.Builder.create(this, id).apply(initializer).build()

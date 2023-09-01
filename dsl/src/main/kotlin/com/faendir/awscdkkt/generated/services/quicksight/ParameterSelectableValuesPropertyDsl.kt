@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildParameterSelectableValuesProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ParameterSelectableValuesProperty.Builder.() -> Unit):
+    CfnTemplate.ParameterSelectableValuesProperty.Builder.() -> Unit = {}):
     CfnTemplate.ParameterSelectableValuesProperty =
     CfnTemplate.ParameterSelectableValuesProperty.Builder().apply(initializer).build()

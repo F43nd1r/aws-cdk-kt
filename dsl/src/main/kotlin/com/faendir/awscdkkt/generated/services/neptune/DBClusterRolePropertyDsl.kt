@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.neptune.CfnDBCluster
 
 @Generated
 public fun buildDBClusterRoleProperty(initializer: @AwsCdkDsl
-    CfnDBCluster.DBClusterRoleProperty.Builder.() -> Unit): CfnDBCluster.DBClusterRoleProperty =
-    CfnDBCluster.DBClusterRoleProperty.Builder().apply(initializer).build()
+    CfnDBCluster.DBClusterRoleProperty.Builder.() -> Unit = {}): CfnDBCluster.DBClusterRoleProperty
+    = CfnDBCluster.DBClusterRoleProperty.Builder().apply(initializer).build()

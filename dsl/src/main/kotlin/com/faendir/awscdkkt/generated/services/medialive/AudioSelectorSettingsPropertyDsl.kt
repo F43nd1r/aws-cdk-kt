@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildAudioSelectorSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.AudioSelectorSettingsProperty.Builder.() -> Unit):
+    CfnChannel.AudioSelectorSettingsProperty.Builder.() -> Unit = {}):
     CfnChannel.AudioSelectorSettingsProperty =
     CfnChannel.AudioSelectorSettingsProperty.Builder().apply(initializer).build()

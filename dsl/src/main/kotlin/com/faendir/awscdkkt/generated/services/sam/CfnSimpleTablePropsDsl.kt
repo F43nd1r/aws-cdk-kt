@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sam.CfnSimpleTableProps
 
 @Generated
-public fun buildCfnSimpleTableProps(initializer: @AwsCdkDsl CfnSimpleTableProps.Builder.() -> Unit):
-    CfnSimpleTableProps = CfnSimpleTableProps.Builder().apply(initializer).build()
+public fun buildCfnSimpleTableProps(initializer: @AwsCdkDsl CfnSimpleTableProps.Builder.() -> Unit =
+    {}): CfnSimpleTableProps = CfnSimpleTableProps.Builder().apply(initializer).build()

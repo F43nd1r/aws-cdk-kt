@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.apigateway.CognitoUserPoolsAuthorizerProp
 
 @Generated
 public fun buildCognitoUserPoolsAuthorizerProps(initializer: @AwsCdkDsl
-    CognitoUserPoolsAuthorizerProps.Builder.() -> Unit): CognitoUserPoolsAuthorizerProps =
+    CognitoUserPoolsAuthorizerProps.Builder.() -> Unit = {}): CognitoUserPoolsAuthorizerProps =
     CognitoUserPoolsAuthorizerProps.Builder().apply(initializer).build()

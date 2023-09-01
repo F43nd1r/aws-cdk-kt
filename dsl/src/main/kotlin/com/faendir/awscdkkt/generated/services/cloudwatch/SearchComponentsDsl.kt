@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.SearchComponents
 
 @Generated
-public fun buildSearchComponents(initializer: @AwsCdkDsl SearchComponents.Builder.() -> Unit):
+public fun buildSearchComponents(initializer: @AwsCdkDsl SearchComponents.Builder.() -> Unit = {}):
     SearchComponents = SearchComponents.Builder().apply(initializer).build()

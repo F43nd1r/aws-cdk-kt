@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.autoscaling.CfnLaunchConfigurationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnLaunchConfiguration(id: String, props: CfnLaunchConfigurationProps):
-    CfnLaunchConfiguration = CfnLaunchConfiguration(this, id, props)
-
-@Generated
 public fun Construct.cfnLaunchConfiguration(
   id: String,
   props: CfnLaunchConfigurationProps,
-  initializer: @AwsCdkDsl CfnLaunchConfiguration.() -> Unit,
+  initializer: @AwsCdkDsl CfnLaunchConfiguration.() -> Unit = {},
 ): CfnLaunchConfiguration = CfnLaunchConfiguration(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnLaunchConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnLaunchConfiguration.Builder.() -> Unit): CfnLaunchConfiguration =
+    CfnLaunchConfiguration.Builder.() -> Unit = {}): CfnLaunchConfiguration =
     CfnLaunchConfiguration.Builder.create(this, id).apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appsync.CfnGraphQLSchemaProps
 
 @Generated
 public fun buildCfnGraphQLSchemaProps(initializer: @AwsCdkDsl
-    CfnGraphQLSchemaProps.Builder.() -> Unit): CfnGraphQLSchemaProps =
+    CfnGraphQLSchemaProps.Builder.() -> Unit = {}): CfnGraphQLSchemaProps =
     CfnGraphQLSchemaProps.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.iotfleetwise.CfnVehicleProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnVehicle(id: String, props: CfnVehicleProps): CfnVehicle = CfnVehicle(this,
-    id, props)
-
-@Generated
 public fun Construct.cfnVehicle(
   id: String,
   props: CfnVehicleProps,
-  initializer: @AwsCdkDsl CfnVehicle.() -> Unit,
+  initializer: @AwsCdkDsl CfnVehicle.() -> Unit = {},
 ): CfnVehicle = CfnVehicle(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnVehicle(id: String, initializer: @AwsCdkDsl
-    CfnVehicle.Builder.() -> Unit): CfnVehicle = CfnVehicle.Builder.create(this,
+    CfnVehicle.Builder.() -> Unit = {}): CfnVehicle = CfnVehicle.Builder.create(this,
     id).apply(initializer).build()

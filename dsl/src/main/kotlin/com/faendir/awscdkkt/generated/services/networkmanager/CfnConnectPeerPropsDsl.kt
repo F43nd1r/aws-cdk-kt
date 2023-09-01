@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkmanager.CfnConnectPeerProps
 
 @Generated
-public fun buildCfnConnectPeerProps(initializer: @AwsCdkDsl CfnConnectPeerProps.Builder.() -> Unit):
-    CfnConnectPeerProps = CfnConnectPeerProps.Builder().apply(initializer).build()
+public fun buildCfnConnectPeerProps(initializer: @AwsCdkDsl CfnConnectPeerProps.Builder.() -> Unit =
+    {}): CfnConnectPeerProps = CfnConnectPeerProps.Builder().apply(initializer).build()

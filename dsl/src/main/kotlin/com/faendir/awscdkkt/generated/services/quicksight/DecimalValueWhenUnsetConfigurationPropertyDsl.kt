@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildDecimalValueWhenUnsetConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DecimalValueWhenUnsetConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.DecimalValueWhenUnsetConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.DecimalValueWhenUnsetConfigurationProperty =
     CfnTemplate.DecimalValueWhenUnsetConfigurationProperty.Builder().apply(initializer).build()

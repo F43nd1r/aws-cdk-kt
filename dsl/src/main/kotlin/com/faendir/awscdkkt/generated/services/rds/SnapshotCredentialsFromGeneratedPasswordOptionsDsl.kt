@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.rds.SnapshotCredentialsFromGeneratedPassw
 
 @Generated
 public fun buildSnapshotCredentialsFromGeneratedPasswordOptions(initializer: @AwsCdkDsl
-    SnapshotCredentialsFromGeneratedPasswordOptions.Builder.() -> Unit):
+    SnapshotCredentialsFromGeneratedPasswordOptions.Builder.() -> Unit = {}):
     SnapshotCredentialsFromGeneratedPasswordOptions =
     SnapshotCredentialsFromGeneratedPasswordOptions.Builder().apply(initializer).build()

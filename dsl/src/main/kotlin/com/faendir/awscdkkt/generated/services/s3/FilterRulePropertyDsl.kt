@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
 public fun buildFilterRuleProperty(initializer: @AwsCdkDsl
-    CfnBucket.FilterRuleProperty.Builder.() -> Unit): CfnBucket.FilterRuleProperty =
+    CfnBucket.FilterRuleProperty.Builder.() -> Unit = {}): CfnBucket.FilterRuleProperty =
     CfnBucket.FilterRuleProperty.Builder().apply(initializer).build()

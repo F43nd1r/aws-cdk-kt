@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDataSource
 
 @Generated
 public fun buildRedshiftParametersProperty(initializer: @AwsCdkDsl
-    CfnDataSource.RedshiftParametersProperty.Builder.() -> Unit):
+    CfnDataSource.RedshiftParametersProperty.Builder.() -> Unit = {}):
     CfnDataSource.RedshiftParametersProperty =
     CfnDataSource.RedshiftParametersProperty.Builder().apply(initializer).build()

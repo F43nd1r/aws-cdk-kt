@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cognito.CfnUserPool
 
 @Generated
 public fun buildDeviceConfigurationProperty(initializer: @AwsCdkDsl
-    CfnUserPool.DeviceConfigurationProperty.Builder.() -> Unit):
+    CfnUserPool.DeviceConfigurationProperty.Builder.() -> Unit = {}):
     CfnUserPool.DeviceConfigurationProperty =
     CfnUserPool.DeviceConfigurationProperty.Builder().apply(initializer).build()

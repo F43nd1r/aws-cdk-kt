@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.HelmChartProps
 
 @Generated
-public fun buildHelmChartProps(initializer: @AwsCdkDsl HelmChartProps.Builder.() -> Unit):
+public fun buildHelmChartProps(initializer: @AwsCdkDsl HelmChartProps.Builder.() -> Unit = {}):
     HelmChartProps = HelmChartProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appmesh.CfnVirtualGateway
 
 @Generated
 public fun buildVirtualGatewayPortMappingProperty(initializer: @AwsCdkDsl
-    CfnVirtualGateway.VirtualGatewayPortMappingProperty.Builder.() -> Unit):
+    CfnVirtualGateway.VirtualGatewayPortMappingProperty.Builder.() -> Unit = {}):
     CfnVirtualGateway.VirtualGatewayPortMappingProperty =
     CfnVirtualGateway.VirtualGatewayPortMappingProperty.Builder().apply(initializer).build()

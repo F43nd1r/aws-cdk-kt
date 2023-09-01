@@ -9,17 +9,12 @@ import software.amazon.awscdk.services.budgets.CfnBudgetProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnBudget(id: String, props: CfnBudgetProps): CfnBudget = CfnBudget(this, id,
-    props)
-
-@Generated
 public fun Construct.cfnBudget(
   id: String,
   props: CfnBudgetProps,
-  initializer: @AwsCdkDsl CfnBudget.() -> Unit,
+  initializer: @AwsCdkDsl CfnBudget.() -> Unit = {},
 ): CfnBudget = CfnBudget(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnBudget(id: String, initializer: @AwsCdkDsl
-    CfnBudget.Builder.() -> Unit): CfnBudget = CfnBudget.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnBudget(id: String, initializer: @AwsCdkDsl CfnBudget.Builder.() -> Unit
+    = {}): CfnBudget = CfnBudget.Builder.create(this, id).apply(initializer).build()

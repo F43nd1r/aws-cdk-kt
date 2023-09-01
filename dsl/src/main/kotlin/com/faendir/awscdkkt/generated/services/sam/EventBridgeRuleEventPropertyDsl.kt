@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sam.CfnStateMachine
 
 @Generated
 public fun buildEventBridgeRuleEventProperty(initializer: @AwsCdkDsl
-    CfnStateMachine.EventBridgeRuleEventProperty.Builder.() -> Unit):
+    CfnStateMachine.EventBridgeRuleEventProperty.Builder.() -> Unit = {}):
     CfnStateMachine.EventBridgeRuleEventProperty =
     CfnStateMachine.EventBridgeRuleEventProperty.Builder().apply(initializer).build()

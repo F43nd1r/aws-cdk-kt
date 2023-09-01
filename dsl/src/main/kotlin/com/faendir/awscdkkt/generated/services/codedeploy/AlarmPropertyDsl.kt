@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codedeploy.CfnDeploymentGroup
 
 @Generated
 public fun buildAlarmProperty(initializer: @AwsCdkDsl
-    CfnDeploymentGroup.AlarmProperty.Builder.() -> Unit): CfnDeploymentGroup.AlarmProperty =
+    CfnDeploymentGroup.AlarmProperty.Builder.() -> Unit = {}): CfnDeploymentGroup.AlarmProperty =
     CfnDeploymentGroup.AlarmProperty.Builder().apply(initializer).build()

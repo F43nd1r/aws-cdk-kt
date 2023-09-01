@@ -7,11 +7,10 @@ import kotlin.Unit
 import software.amazon.awscdk.cxapi.CloudAssemblyBuilder
 
 @Generated
-public fun buildCloudAssemblyBuilder(initializer: @AwsCdkDsl
-    CloudAssemblyBuilder.Builder.() -> Unit): CloudAssemblyBuilder =
-    CloudAssemblyBuilder.Builder.create().apply(initializer).build()
+public fun buildCloudAssemblyBuilder(initializer: @AwsCdkDsl CloudAssemblyBuilder.Builder.() -> Unit
+    = {}): CloudAssemblyBuilder = CloudAssemblyBuilder.Builder.create().apply(initializer).build()
 
 @Generated
 public fun buildCloudAssemblyBuilder(outdir: String, initializer: @AwsCdkDsl
-    CloudAssemblyBuilder.Builder.() -> Unit): CloudAssemblyBuilder =
+    CloudAssemblyBuilder.Builder.() -> Unit = {}): CloudAssemblyBuilder =
     CloudAssemblyBuilder.Builder.create(outdir).apply(initializer).build()

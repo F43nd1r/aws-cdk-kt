@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.apigateway.CfnVpcLinkProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnVpcLink(id: String, props: CfnVpcLinkProps): CfnVpcLink = CfnVpcLink(this,
-    id, props)
-
-@Generated
 public fun Construct.cfnVpcLink(
   id: String,
   props: CfnVpcLinkProps,
-  initializer: @AwsCdkDsl CfnVpcLink.() -> Unit,
+  initializer: @AwsCdkDsl CfnVpcLink.() -> Unit = {},
 ): CfnVpcLink = CfnVpcLink(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnVpcLink(id: String, initializer: @AwsCdkDsl
-    CfnVpcLink.Builder.() -> Unit): CfnVpcLink = CfnVpcLink.Builder.create(this,
+    CfnVpcLink.Builder.() -> Unit = {}): CfnVpcLink = CfnVpcLink.Builder.create(this,
     id).apply(initializer).build()

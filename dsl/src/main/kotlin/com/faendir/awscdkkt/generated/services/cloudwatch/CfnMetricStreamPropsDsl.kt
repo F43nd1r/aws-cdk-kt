@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.CfnMetricStreamProps
 
 @Generated
-public fun buildCfnMetricStreamProps(initializer: @AwsCdkDsl
-    CfnMetricStreamProps.Builder.() -> Unit): CfnMetricStreamProps =
-    CfnMetricStreamProps.Builder().apply(initializer).build()
+public fun buildCfnMetricStreamProps(initializer: @AwsCdkDsl CfnMetricStreamProps.Builder.() -> Unit
+    = {}): CfnMetricStreamProps = CfnMetricStreamProps.Builder().apply(initializer).build()

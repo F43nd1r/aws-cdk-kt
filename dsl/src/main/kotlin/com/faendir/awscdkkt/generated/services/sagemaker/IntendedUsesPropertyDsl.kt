@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sagemaker.CfnModelCard
 
 @Generated
 public fun buildIntendedUsesProperty(initializer: @AwsCdkDsl
-    CfnModelCard.IntendedUsesProperty.Builder.() -> Unit): CfnModelCard.IntendedUsesProperty =
+    CfnModelCard.IntendedUsesProperty.Builder.() -> Unit = {}): CfnModelCard.IntendedUsesProperty =
     CfnModelCard.IntendedUsesProperty.Builder().apply(initializer).build()

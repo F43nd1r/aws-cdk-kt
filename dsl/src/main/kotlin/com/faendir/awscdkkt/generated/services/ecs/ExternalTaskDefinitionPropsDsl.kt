@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.ExternalTaskDefinitionProps
 
 @Generated
 public fun buildExternalTaskDefinitionProps(initializer: @AwsCdkDsl
-    ExternalTaskDefinitionProps.Builder.() -> Unit): ExternalTaskDefinitionProps =
+    ExternalTaskDefinitionProps.Builder.() -> Unit = {}): ExternalTaskDefinitionProps =
     ExternalTaskDefinitionProps.Builder().apply(initializer).build()

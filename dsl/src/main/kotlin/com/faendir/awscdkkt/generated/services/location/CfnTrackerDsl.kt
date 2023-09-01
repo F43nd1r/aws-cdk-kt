@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.location.CfnTrackerProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnTracker(id: String, props: CfnTrackerProps): CfnTracker = CfnTracker(this,
-    id, props)
-
-@Generated
 public fun Construct.cfnTracker(
   id: String,
   props: CfnTrackerProps,
-  initializer: @AwsCdkDsl CfnTracker.() -> Unit,
+  initializer: @AwsCdkDsl CfnTracker.() -> Unit = {},
 ): CfnTracker = CfnTracker(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnTracker(id: String, initializer: @AwsCdkDsl
-    CfnTracker.Builder.() -> Unit): CfnTracker = CfnTracker.Builder.create(this,
+    CfnTracker.Builder.() -> Unit = {}): CfnTracker = CfnTracker.Builder.create(this,
     id).apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.MessageAttribute
 
 @Generated
-public fun buildMessageAttribute(initializer: @AwsCdkDsl MessageAttribute.Builder.() -> Unit):
+public fun buildMessageAttribute(initializer: @AwsCdkDsl MessageAttribute.Builder.() -> Unit = {}):
     MessageAttribute = MessageAttribute.Builder().apply(initializer).build()

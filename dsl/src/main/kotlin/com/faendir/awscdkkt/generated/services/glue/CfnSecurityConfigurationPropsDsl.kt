@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.glue.CfnSecurityConfigurationProps
 
 @Generated
 public fun buildCfnSecurityConfigurationProps(initializer: @AwsCdkDsl
-    CfnSecurityConfigurationProps.Builder.() -> Unit): CfnSecurityConfigurationProps =
+    CfnSecurityConfigurationProps.Builder.() -> Unit = {}): CfnSecurityConfigurationProps =
     CfnSecurityConfigurationProps.Builder().apply(initializer).build()

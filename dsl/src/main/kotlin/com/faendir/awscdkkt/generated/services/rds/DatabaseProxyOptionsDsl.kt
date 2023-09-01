@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.DatabaseProxyOptions
 
 @Generated
-public fun buildDatabaseProxyOptions(initializer: @AwsCdkDsl
-    DatabaseProxyOptions.Builder.() -> Unit): DatabaseProxyOptions =
-    DatabaseProxyOptions.Builder().apply(initializer).build()
+public fun buildDatabaseProxyOptions(initializer: @AwsCdkDsl DatabaseProxyOptions.Builder.() -> Unit
+    = {}): DatabaseProxyOptions = DatabaseProxyOptions.Builder().apply(initializer).build()

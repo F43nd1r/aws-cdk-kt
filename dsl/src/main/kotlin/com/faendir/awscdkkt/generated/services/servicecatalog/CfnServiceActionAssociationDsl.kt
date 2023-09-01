@@ -9,18 +9,13 @@ import software.amazon.awscdk.services.servicecatalog.CfnServiceActionAssociatio
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnServiceActionAssociation(id: String,
-    props: CfnServiceActionAssociationProps): CfnServiceActionAssociation =
-    CfnServiceActionAssociation(this, id, props)
-
-@Generated
 public fun Construct.cfnServiceActionAssociation(
   id: String,
   props: CfnServiceActionAssociationProps,
-  initializer: @AwsCdkDsl CfnServiceActionAssociation.() -> Unit,
+  initializer: @AwsCdkDsl CfnServiceActionAssociation.() -> Unit = {},
 ): CfnServiceActionAssociation = CfnServiceActionAssociation(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnServiceActionAssociation(id: String, initializer: @AwsCdkDsl
-    CfnServiceActionAssociation.Builder.() -> Unit): CfnServiceActionAssociation =
+    CfnServiceActionAssociation.Builder.() -> Unit = {}): CfnServiceActionAssociation =
     CfnServiceActionAssociation.Builder.create(this, id).apply(initializer).build()

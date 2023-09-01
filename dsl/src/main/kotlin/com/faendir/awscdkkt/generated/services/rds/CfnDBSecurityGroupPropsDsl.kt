@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.rds.CfnDBSecurityGroupProps
 
 @Generated
 public fun buildCfnDBSecurityGroupProps(initializer: @AwsCdkDsl
-    CfnDBSecurityGroupProps.Builder.() -> Unit): CfnDBSecurityGroupProps =
+    CfnDBSecurityGroupProps.Builder.() -> Unit = {}): CfnDBSecurityGroupProps =
     CfnDBSecurityGroupProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.customerprofiles.CfnIntegration
 
 @Generated
 public fun buildObjectTypeMappingProperty(initializer: @AwsCdkDsl
-    CfnIntegration.ObjectTypeMappingProperty.Builder.() -> Unit):
+    CfnIntegration.ObjectTypeMappingProperty.Builder.() -> Unit = {}):
     CfnIntegration.ObjectTypeMappingProperty =
     CfnIntegration.ObjectTypeMappingProperty.Builder().apply(initializer).build()

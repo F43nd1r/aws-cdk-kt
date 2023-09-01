@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.CfnListenerRule
 
 @Generated
 public fun buildForwardConfigProperty(initializer: @AwsCdkDsl
-    CfnListenerRule.ForwardConfigProperty.Builder.() -> Unit): CfnListenerRule.ForwardConfigProperty
-    = CfnListenerRule.ForwardConfigProperty.Builder().apply(initializer).build()
+    CfnListenerRule.ForwardConfigProperty.Builder.() -> Unit = {}):
+    CfnListenerRule.ForwardConfigProperty =
+    CfnListenerRule.ForwardConfigProperty.Builder().apply(initializer).build()

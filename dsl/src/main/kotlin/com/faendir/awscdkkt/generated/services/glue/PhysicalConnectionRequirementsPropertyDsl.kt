@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.glue.CfnConnection
 
 @Generated
 public fun buildPhysicalConnectionRequirementsProperty(initializer: @AwsCdkDsl
-    CfnConnection.PhysicalConnectionRequirementsProperty.Builder.() -> Unit):
+    CfnConnection.PhysicalConnectionRequirementsProperty.Builder.() -> Unit = {}):
     CfnConnection.PhysicalConnectionRequirementsProperty =
     CfnConnection.PhysicalConnectionRequirementsProperty.Builder().apply(initializer).build()

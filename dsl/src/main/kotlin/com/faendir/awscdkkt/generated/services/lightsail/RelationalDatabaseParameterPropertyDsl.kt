@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lightsail.CfnDatabase
 
 @Generated
 public fun buildRelationalDatabaseParameterProperty(initializer: @AwsCdkDsl
-    CfnDatabase.RelationalDatabaseParameterProperty.Builder.() -> Unit):
+    CfnDatabase.RelationalDatabaseParameterProperty.Builder.() -> Unit = {}):
     CfnDatabase.RelationalDatabaseParameterProperty =
     CfnDatabase.RelationalDatabaseParameterProperty.Builder().apply(initializer).build()

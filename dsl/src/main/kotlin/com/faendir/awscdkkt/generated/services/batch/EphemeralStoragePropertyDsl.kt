@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
 public fun buildEphemeralStorageProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.EphemeralStorageProperty.Builder.() -> Unit):
+    CfnJobDefinition.EphemeralStorageProperty.Builder.() -> Unit = {}):
     CfnJobDefinition.EphemeralStorageProperty =
     CfnJobDefinition.EphemeralStorageProperty.Builder().apply(initializer).build()

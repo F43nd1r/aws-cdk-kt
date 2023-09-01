@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.RoleOptions
 
 @Generated
-public fun buildRoleOptions(initializer: @AwsCdkDsl RoleOptions.Builder.() -> Unit): RoleOptions =
-    RoleOptions.Builder().apply(initializer).build()
+public fun buildRoleOptions(initializer: @AwsCdkDsl RoleOptions.Builder.() -> Unit = {}):
+    RoleOptions = RoleOptions.Builder().apply(initializer).build()

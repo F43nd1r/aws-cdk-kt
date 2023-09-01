@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.Device
 
 @Generated
-public fun buildDevice(initializer: @AwsCdkDsl Device.Builder.() -> Unit): Device =
+public fun buildDevice(initializer: @AwsCdkDsl Device.Builder.() -> Unit = {}): Device =
     Device.Builder().apply(initializer).build()

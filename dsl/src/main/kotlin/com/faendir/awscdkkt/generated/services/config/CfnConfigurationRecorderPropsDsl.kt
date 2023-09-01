@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.config.CfnConfigurationRecorderProps
 
 @Generated
 public fun buildCfnConfigurationRecorderProps(initializer: @AwsCdkDsl
-    CfnConfigurationRecorderProps.Builder.() -> Unit): CfnConfigurationRecorderProps =
+    CfnConfigurationRecorderProps.Builder.() -> Unit = {}): CfnConfigurationRecorderProps =
     CfnConfigurationRecorderProps.Builder().apply(initializer).build()

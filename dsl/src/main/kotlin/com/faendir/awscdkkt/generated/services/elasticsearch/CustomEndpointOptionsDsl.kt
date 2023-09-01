@@ -13,5 +13,5 @@ import software.amazon.awscdk.services.elasticsearch.CustomEndpointOptions
     "software.amazon.awscdk.services.elasticsearch.CustomEndpointOptions is deprecated in CDK.")
 @Generated
 public fun buildCustomEndpointOptions(initializer: @AwsCdkDsl
-    CustomEndpointOptions.Builder.() -> Unit): CustomEndpointOptions =
+    CustomEndpointOptions.Builder.() -> Unit = {}): CustomEndpointOptions =
     CustomEndpointOptions.Builder().apply(initializer).build()

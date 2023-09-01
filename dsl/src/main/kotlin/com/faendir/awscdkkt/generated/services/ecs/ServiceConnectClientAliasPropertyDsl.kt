@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.CfnService
 
 @Generated
 public fun buildServiceConnectClientAliasProperty(initializer: @AwsCdkDsl
-    CfnService.ServiceConnectClientAliasProperty.Builder.() -> Unit):
+    CfnService.ServiceConnectClientAliasProperty.Builder.() -> Unit = {}):
     CfnService.ServiceConnectClientAliasProperty =
     CfnService.ServiceConnectClientAliasProperty.Builder().apply(initializer).build()

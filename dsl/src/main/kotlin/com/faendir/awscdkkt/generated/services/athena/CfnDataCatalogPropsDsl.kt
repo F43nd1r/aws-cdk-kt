@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.athena.CfnDataCatalogProps
 
 @Generated
-public fun buildCfnDataCatalogProps(initializer: @AwsCdkDsl CfnDataCatalogProps.Builder.() -> Unit):
-    CfnDataCatalogProps = CfnDataCatalogProps.Builder().apply(initializer).build()
+public fun buildCfnDataCatalogProps(initializer: @AwsCdkDsl CfnDataCatalogProps.Builder.() -> Unit =
+    {}): CfnDataCatalogProps = CfnDataCatalogProps.Builder().apply(initializer).build()

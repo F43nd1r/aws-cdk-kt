@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.nimblestudio.CfnLaunchProfileProps
 
 @Generated
 public fun buildCfnLaunchProfileProps(initializer: @AwsCdkDsl
-    CfnLaunchProfileProps.Builder.() -> Unit): CfnLaunchProfileProps =
+    CfnLaunchProfileProps.Builder.() -> Unit = {}): CfnLaunchProfileProps =
     CfnLaunchProfileProps.Builder().apply(initializer).build()

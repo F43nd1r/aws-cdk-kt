@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cloudtrail.CfnTrail
 
 @Generated
 public fun buildDataResourceProperty(initializer: @AwsCdkDsl
-    CfnTrail.DataResourceProperty.Builder.() -> Unit): CfnTrail.DataResourceProperty =
+    CfnTrail.DataResourceProperty.Builder.() -> Unit = {}): CfnTrail.DataResourceProperty =
     CfnTrail.DataResourceProperty.Builder().apply(initializer).build()

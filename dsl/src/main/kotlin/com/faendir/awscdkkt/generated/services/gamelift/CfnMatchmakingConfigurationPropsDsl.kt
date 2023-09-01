@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.gamelift.CfnMatchmakingConfigurationProps
 
 @Generated
 public fun buildCfnMatchmakingConfigurationProps(initializer: @AwsCdkDsl
-    CfnMatchmakingConfigurationProps.Builder.() -> Unit): CfnMatchmakingConfigurationProps =
+    CfnMatchmakingConfigurationProps.Builder.() -> Unit = {}): CfnMatchmakingConfigurationProps =
     CfnMatchmakingConfigurationProps.Builder().apply(initializer).build()

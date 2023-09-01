@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EmrCreateCluster
 
 @Generated
 public fun buildKerberosAttributesProperty(initializer: @AwsCdkDsl
-    EmrCreateCluster.KerberosAttributesProperty.Builder.() -> Unit):
+    EmrCreateCluster.KerberosAttributesProperty.Builder.() -> Unit = {}):
     EmrCreateCluster.KerberosAttributesProperty =
     EmrCreateCluster.KerberosAttributesProperty.Builder().apply(initializer).build()

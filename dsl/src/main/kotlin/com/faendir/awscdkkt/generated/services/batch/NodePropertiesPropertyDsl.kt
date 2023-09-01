@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
 public fun buildNodePropertiesProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.NodePropertiesProperty.Builder.() -> Unit):
+    CfnJobDefinition.NodePropertiesProperty.Builder.() -> Unit = {}):
     CfnJobDefinition.NodePropertiesProperty =
     CfnJobDefinition.NodePropertiesProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildGrowthRateComputationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.GrowthRateComputationProperty.Builder.() -> Unit):
+    CfnTemplate.GrowthRateComputationProperty.Builder.() -> Unit = {}):
     CfnTemplate.GrowthRateComputationProperty =
     CfnTemplate.GrowthRateComputationProperty.Builder().apply(initializer).build()

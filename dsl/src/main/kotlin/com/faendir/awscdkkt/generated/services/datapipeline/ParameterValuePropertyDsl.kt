@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.datapipeline.CfnPipeline
 
 @Generated
 public fun buildParameterValueProperty(initializer: @AwsCdkDsl
-    CfnPipeline.ParameterValueProperty.Builder.() -> Unit): CfnPipeline.ParameterValueProperty =
-    CfnPipeline.ParameterValueProperty.Builder().apply(initializer).build()
+    CfnPipeline.ParameterValueProperty.Builder.() -> Unit = {}): CfnPipeline.ParameterValueProperty
+    = CfnPipeline.ParameterValueProperty.Builder().apply(initializer).build()

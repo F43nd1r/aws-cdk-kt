@@ -9,18 +9,13 @@ import software.amazon.awscdk.services.rds.DatabaseClusterFromSnapshotProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.databaseClusterFromSnapshot(id: String,
-    props: DatabaseClusterFromSnapshotProps): DatabaseClusterFromSnapshot =
-    DatabaseClusterFromSnapshot(this, id, props)
-
-@Generated
 public fun Construct.databaseClusterFromSnapshot(
   id: String,
   props: DatabaseClusterFromSnapshotProps,
-  initializer: @AwsCdkDsl DatabaseClusterFromSnapshot.() -> Unit,
+  initializer: @AwsCdkDsl DatabaseClusterFromSnapshot.() -> Unit = {},
 ): DatabaseClusterFromSnapshot = DatabaseClusterFromSnapshot(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildDatabaseClusterFromSnapshot(id: String, initializer: @AwsCdkDsl
-    DatabaseClusterFromSnapshot.Builder.() -> Unit): DatabaseClusterFromSnapshot =
+    DatabaseClusterFromSnapshot.Builder.() -> Unit = {}): DatabaseClusterFromSnapshot =
     DatabaseClusterFromSnapshot.Builder.create(this, id).apply(initializer).build()

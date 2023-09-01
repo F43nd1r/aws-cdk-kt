@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.auditmanager.CfnAssessment
 
 @Generated
 public fun buildDelegationProperty(initializer: @AwsCdkDsl
-    CfnAssessment.DelegationProperty.Builder.() -> Unit): CfnAssessment.DelegationProperty =
+    CfnAssessment.DelegationProperty.Builder.() -> Unit = {}): CfnAssessment.DelegationProperty =
     CfnAssessment.DelegationProperty.Builder().apply(initializer).build()

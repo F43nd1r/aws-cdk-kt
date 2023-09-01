@@ -9,19 +9,15 @@ import software.amazon.awscdk.services.ec2.CfnVPCEndpointConnectionNotificationP
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnVPCEndpointConnectionNotification(id: String,
-    props: CfnVPCEndpointConnectionNotificationProps): CfnVPCEndpointConnectionNotification =
-    CfnVPCEndpointConnectionNotification(this, id, props)
-
-@Generated
 public fun Construct.cfnVPCEndpointConnectionNotification(
   id: String,
   props: CfnVPCEndpointConnectionNotificationProps,
-  initializer: @AwsCdkDsl CfnVPCEndpointConnectionNotification.() -> Unit,
+  initializer: @AwsCdkDsl CfnVPCEndpointConnectionNotification.() -> Unit = {},
 ): CfnVPCEndpointConnectionNotification = CfnVPCEndpointConnectionNotification(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnVPCEndpointConnectionNotification(id: String, initializer: @AwsCdkDsl
-    CfnVPCEndpointConnectionNotification.Builder.() -> Unit): CfnVPCEndpointConnectionNotification =
-    CfnVPCEndpointConnectionNotification.Builder.create(this, id).apply(initializer).build()
+    CfnVPCEndpointConnectionNotification.Builder.() -> Unit = {}):
+    CfnVPCEndpointConnectionNotification = CfnVPCEndpointConnectionNotification.Builder.create(this,
+    id).apply(initializer).build()

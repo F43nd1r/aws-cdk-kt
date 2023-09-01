@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildTextFieldControlDisplayOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TextFieldControlDisplayOptionsProperty.Builder.() -> Unit):
+    CfnTemplate.TextFieldControlDisplayOptionsProperty.Builder.() -> Unit = {}):
     CfnTemplate.TextFieldControlDisplayOptionsProperty =
     CfnTemplate.TextFieldControlDisplayOptionsProperty.Builder().apply(initializer).build()

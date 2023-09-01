@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.events.CfnRule
 
 @Generated
 public fun buildBatchParametersProperty(initializer: @AwsCdkDsl
-    CfnRule.BatchParametersProperty.Builder.() -> Unit): CfnRule.BatchParametersProperty =
+    CfnRule.BatchParametersProperty.Builder.() -> Unit = {}): CfnRule.BatchParametersProperty =
     CfnRule.BatchParametersProperty.Builder().apply(initializer).build()

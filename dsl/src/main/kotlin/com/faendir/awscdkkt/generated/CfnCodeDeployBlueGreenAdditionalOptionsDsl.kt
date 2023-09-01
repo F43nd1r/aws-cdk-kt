@@ -7,6 +7,6 @@ import software.amazon.awscdk.CfnCodeDeployBlueGreenAdditionalOptions
 
 @Generated
 public fun buildCfnCodeDeployBlueGreenAdditionalOptions(initializer: @AwsCdkDsl
-    CfnCodeDeployBlueGreenAdditionalOptions.Builder.() -> Unit):
+    CfnCodeDeployBlueGreenAdditionalOptions.Builder.() -> Unit = {}):
     CfnCodeDeployBlueGreenAdditionalOptions =
     CfnCodeDeployBlueGreenAdditionalOptions.Builder().apply(initializer).build()

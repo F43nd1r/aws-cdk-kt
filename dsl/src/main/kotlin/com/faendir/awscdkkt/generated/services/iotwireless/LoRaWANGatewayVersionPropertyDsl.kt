@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iotwireless.CfnTaskDefinition
 
 @Generated
 public fun buildLoRaWANGatewayVersionProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.LoRaWANGatewayVersionProperty.Builder.() -> Unit):
+    CfnTaskDefinition.LoRaWANGatewayVersionProperty.Builder.() -> Unit = {}):
     CfnTaskDefinition.LoRaWANGatewayVersionProperty =
     CfnTaskDefinition.LoRaWANGatewayVersionProperty.Builder().apply(initializer).build()

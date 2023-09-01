@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ecs.FargateServiceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.fargateService(id: String, props: FargateServiceProps): FargateService =
-    FargateService(this, id, props)
-
-@Generated
 public fun Construct.fargateService(
   id: String,
   props: FargateServiceProps,
-  initializer: @AwsCdkDsl FargateService.() -> Unit,
+  initializer: @AwsCdkDsl FargateService.() -> Unit = {},
 ): FargateService = FargateService(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildFargateService(id: String, initializer: @AwsCdkDsl
-    FargateService.Builder.() -> Unit): FargateService = FargateService.Builder.create(this,
+    FargateService.Builder.() -> Unit = {}): FargateService = FargateService.Builder.create(this,
     id).apply(initializer).build()

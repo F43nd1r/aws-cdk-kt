@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kinesisanalytics.CfnApplicationV2
 
 @Generated
 public fun buildEnvironmentPropertiesProperty(initializer: @AwsCdkDsl
-    CfnApplicationV2.EnvironmentPropertiesProperty.Builder.() -> Unit):
+    CfnApplicationV2.EnvironmentPropertiesProperty.Builder.() -> Unit = {}):
     CfnApplicationV2.EnvironmentPropertiesProperty =
     CfnApplicationV2.EnvironmentPropertiesProperty.Builder().apply(initializer).build()

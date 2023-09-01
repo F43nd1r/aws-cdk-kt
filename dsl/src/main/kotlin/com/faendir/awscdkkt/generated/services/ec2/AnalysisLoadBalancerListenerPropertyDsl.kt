@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnNetworkInsightsAnalysis
 
 @Generated
 public fun buildAnalysisLoadBalancerListenerProperty(initializer: @AwsCdkDsl
-    CfnNetworkInsightsAnalysis.AnalysisLoadBalancerListenerProperty.Builder.() -> Unit):
+    CfnNetworkInsightsAnalysis.AnalysisLoadBalancerListenerProperty.Builder.() -> Unit = {}):
     CfnNetworkInsightsAnalysis.AnalysisLoadBalancerListenerProperty =
     CfnNetworkInsightsAnalysis.AnalysisLoadBalancerListenerProperty.Builder().apply(initializer).build()

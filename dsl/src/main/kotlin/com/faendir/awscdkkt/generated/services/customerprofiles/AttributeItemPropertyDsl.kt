@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.customerprofiles.CfnCalculatedAttributeDe
 
 @Generated
 public fun buildAttributeItemProperty(initializer: @AwsCdkDsl
-    CfnCalculatedAttributeDefinition.AttributeItemProperty.Builder.() -> Unit):
+    CfnCalculatedAttributeDefinition.AttributeItemProperty.Builder.() -> Unit = {}):
     CfnCalculatedAttributeDefinition.AttributeItemProperty =
     CfnCalculatedAttributeDefinition.AttributeItemProperty.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.supportapp.CfnAccountAliasProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnAccountAlias(id: String, props: CfnAccountAliasProps): CfnAccountAlias =
-    CfnAccountAlias(this, id, props)
-
-@Generated
 public fun Construct.cfnAccountAlias(
   id: String,
   props: CfnAccountAliasProps,
-  initializer: @AwsCdkDsl CfnAccountAlias.() -> Unit,
+  initializer: @AwsCdkDsl CfnAccountAlias.() -> Unit = {},
 ): CfnAccountAlias = CfnAccountAlias(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnAccountAlias(id: String, initializer: @AwsCdkDsl
-    CfnAccountAlias.Builder.() -> Unit): CfnAccountAlias = CfnAccountAlias.Builder.create(this,
+    CfnAccountAlias.Builder.() -> Unit = {}): CfnAccountAlias = CfnAccountAlias.Builder.create(this,
     id).apply(initializer).build()

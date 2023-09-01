@@ -9,20 +9,15 @@ import software.amazon.awscdk.services.ec2.CfnLocalGatewayRouteTableVPCAssociati
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnLocalGatewayRouteTableVPCAssociation(id: String,
-    props: CfnLocalGatewayRouteTableVPCAssociationProps): CfnLocalGatewayRouteTableVPCAssociation =
-    CfnLocalGatewayRouteTableVPCAssociation(this, id, props)
-
-@Generated
 public fun Construct.cfnLocalGatewayRouteTableVPCAssociation(
   id: String,
   props: CfnLocalGatewayRouteTableVPCAssociationProps,
-  initializer: @AwsCdkDsl CfnLocalGatewayRouteTableVPCAssociation.() -> Unit,
+  initializer: @AwsCdkDsl CfnLocalGatewayRouteTableVPCAssociation.() -> Unit = {},
 ): CfnLocalGatewayRouteTableVPCAssociation = CfnLocalGatewayRouteTableVPCAssociation(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnLocalGatewayRouteTableVPCAssociation(id: String,
-    initializer: @AwsCdkDsl CfnLocalGatewayRouteTableVPCAssociation.Builder.() -> Unit):
+    initializer: @AwsCdkDsl CfnLocalGatewayRouteTableVPCAssociation.Builder.() -> Unit = {}):
     CfnLocalGatewayRouteTableVPCAssociation =
     CfnLocalGatewayRouteTableVPCAssociation.Builder.create(this, id).apply(initializer).build()

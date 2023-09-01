@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.autoscaling.BindHookTargetOptions
 
 @Generated
 public fun buildBindHookTargetOptions(initializer: @AwsCdkDsl
-    BindHookTargetOptions.Builder.() -> Unit): BindHookTargetOptions =
+    BindHookTargetOptions.Builder.() -> Unit = {}): BindHookTargetOptions =
     BindHookTargetOptions.Builder().apply(initializer).build()

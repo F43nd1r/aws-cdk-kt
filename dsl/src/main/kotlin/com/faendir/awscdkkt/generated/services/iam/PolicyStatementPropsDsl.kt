@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.PolicyStatementProps
 
 @Generated
-public fun buildPolicyStatementProps(initializer: @AwsCdkDsl
-    PolicyStatementProps.Builder.() -> Unit): PolicyStatementProps =
-    PolicyStatementProps.Builder().apply(initializer).build()
+public fun buildPolicyStatementProps(initializer: @AwsCdkDsl PolicyStatementProps.Builder.() -> Unit
+    = {}): PolicyStatementProps = PolicyStatementProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
 public fun buildDatadogSourcePropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.DatadogSourcePropertiesProperty.Builder.() -> Unit):
+    CfnFlow.DatadogSourcePropertiesProperty.Builder.() -> Unit = {}):
     CfnFlow.DatadogSourcePropertiesProperty =
     CfnFlow.DatadogSourcePropertiesProperty.Builder().apply(initializer).build()

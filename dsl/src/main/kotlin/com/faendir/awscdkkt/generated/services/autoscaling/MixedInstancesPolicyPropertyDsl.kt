@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.autoscaling.CfnAutoScalingGroup
 
 @Generated
 public fun buildMixedInstancesPolicyProperty(initializer: @AwsCdkDsl
-    CfnAutoScalingGroup.MixedInstancesPolicyProperty.Builder.() -> Unit):
+    CfnAutoScalingGroup.MixedInstancesPolicyProperty.Builder.() -> Unit = {}):
     CfnAutoScalingGroup.MixedInstancesPolicyProperty =
     CfnAutoScalingGroup.MixedInstancesPolicyProperty.Builder().apply(initializer).build()

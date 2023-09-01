@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cloudfront.CfnStreamingDistributionProps
 
 @Generated
 public fun buildCfnStreamingDistributionProps(initializer: @AwsCdkDsl
-    CfnStreamingDistributionProps.Builder.() -> Unit): CfnStreamingDistributionProps =
+    CfnStreamingDistributionProps.Builder.() -> Unit = {}): CfnStreamingDistributionProps =
     CfnStreamingDistributionProps.Builder().apply(initializer).build()

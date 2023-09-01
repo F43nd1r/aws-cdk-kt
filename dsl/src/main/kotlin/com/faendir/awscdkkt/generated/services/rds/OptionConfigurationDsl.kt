@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.OptionConfiguration
 
 @Generated
-public fun buildOptionConfiguration(initializer: @AwsCdkDsl OptionConfiguration.Builder.() -> Unit):
-    OptionConfiguration = OptionConfiguration.Builder().apply(initializer).build()
+public fun buildOptionConfiguration(initializer: @AwsCdkDsl OptionConfiguration.Builder.() -> Unit =
+    {}): OptionConfiguration = OptionConfiguration.Builder().apply(initializer).build()

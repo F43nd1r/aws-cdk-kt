@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kendra.CfnDataSource
 
 @Generated
 public fun buildSalesforceStandardObjectAttachmentConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.SalesforceStandardObjectAttachmentConfigurationProperty.Builder.() -> Unit):
+    CfnDataSource.SalesforceStandardObjectAttachmentConfigurationProperty.Builder.() -> Unit = {}):
     CfnDataSource.SalesforceStandardObjectAttachmentConfigurationProperty =
     CfnDataSource.SalesforceStandardObjectAttachmentConfigurationProperty.Builder().apply(initializer).build()

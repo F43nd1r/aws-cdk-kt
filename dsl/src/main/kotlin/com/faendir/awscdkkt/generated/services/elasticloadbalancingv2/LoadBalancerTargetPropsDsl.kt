@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.LoadBalancerTarget
 
 @Generated
 public fun buildLoadBalancerTargetProps(initializer: @AwsCdkDsl
-    LoadBalancerTargetProps.Builder.() -> Unit): LoadBalancerTargetProps =
+    LoadBalancerTargetProps.Builder.() -> Unit = {}): LoadBalancerTargetProps =
     LoadBalancerTargetProps.Builder().apply(initializer).build()

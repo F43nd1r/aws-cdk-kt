@@ -9,19 +9,15 @@ import software.amazon.awscdk.services.ec2.CfnTransitGatewayMulticastGroupMember
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnTransitGatewayMulticastGroupMember(id: String,
-    props: CfnTransitGatewayMulticastGroupMemberProps): CfnTransitGatewayMulticastGroupMember =
-    CfnTransitGatewayMulticastGroupMember(this, id, props)
-
-@Generated
 public fun Construct.cfnTransitGatewayMulticastGroupMember(
   id: String,
   props: CfnTransitGatewayMulticastGroupMemberProps,
-  initializer: @AwsCdkDsl CfnTransitGatewayMulticastGroupMember.() -> Unit,
+  initializer: @AwsCdkDsl CfnTransitGatewayMulticastGroupMember.() -> Unit = {},
 ): CfnTransitGatewayMulticastGroupMember = CfnTransitGatewayMulticastGroupMember(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnTransitGatewayMulticastGroupMember(id: String, initializer: @AwsCdkDsl
-    CfnTransitGatewayMulticastGroupMember.Builder.() -> Unit): CfnTransitGatewayMulticastGroupMember
-    = CfnTransitGatewayMulticastGroupMember.Builder.create(this, id).apply(initializer).build()
+    CfnTransitGatewayMulticastGroupMember.Builder.() -> Unit = {}):
+    CfnTransitGatewayMulticastGroupMember =
+    CfnTransitGatewayMulticastGroupMember.Builder.create(this, id).apply(initializer).build()

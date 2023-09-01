@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
 public fun buildMonitoringProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.MonitoringProperty.Builder.() -> Unit): CfnLaunchTemplate.MonitoringProperty =
+    CfnLaunchTemplate.MonitoringProperty.Builder.() -> Unit = {}):
+    CfnLaunchTemplate.MonitoringProperty =
     CfnLaunchTemplate.MonitoringProperty.Builder().apply(initializer).build()

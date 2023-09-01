@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iotwireless.CfnDeviceProfile
 
 @Generated
 public fun buildLoRaWANDeviceProfileProperty(initializer: @AwsCdkDsl
-    CfnDeviceProfile.LoRaWANDeviceProfileProperty.Builder.() -> Unit):
+    CfnDeviceProfile.LoRaWANDeviceProfileProperty.Builder.() -> Unit = {}):
     CfnDeviceProfile.LoRaWANDeviceProfileProperty =
     CfnDeviceProfile.LoRaWANDeviceProfileProperty.Builder().apply(initializer).build()

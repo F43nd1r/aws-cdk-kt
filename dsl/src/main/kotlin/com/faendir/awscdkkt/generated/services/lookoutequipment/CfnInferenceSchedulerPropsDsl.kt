@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lookoutequipment.CfnInferenceSchedulerPro
 
 @Generated
 public fun buildCfnInferenceSchedulerProps(initializer: @AwsCdkDsl
-    CfnInferenceSchedulerProps.Builder.() -> Unit): CfnInferenceSchedulerProps =
+    CfnInferenceSchedulerProps.Builder.() -> Unit = {}): CfnInferenceSchedulerProps =
     CfnInferenceSchedulerProps.Builder().apply(initializer).build()

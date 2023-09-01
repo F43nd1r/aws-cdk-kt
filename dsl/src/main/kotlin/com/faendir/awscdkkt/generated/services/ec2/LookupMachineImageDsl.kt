@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.LookupMachineImage
 
 @Generated
-public fun buildLookupMachineImage(initializer: @AwsCdkDsl LookupMachineImage.Builder.() -> Unit):
-    LookupMachineImage = LookupMachineImage.Builder.create().apply(initializer).build()
+public fun buildLookupMachineImage(initializer: @AwsCdkDsl LookupMachineImage.Builder.() -> Unit =
+    {}): LookupMachineImage = LookupMachineImage.Builder.create().apply(initializer).build()

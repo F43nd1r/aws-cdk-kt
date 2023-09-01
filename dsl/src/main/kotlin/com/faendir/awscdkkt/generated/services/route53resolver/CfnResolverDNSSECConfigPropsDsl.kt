@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.route53resolver.CfnResolverDNSSECConfigPr
 
 @Generated
 public fun buildCfnResolverDNSSECConfigProps(initializer: @AwsCdkDsl
-    CfnResolverDNSSECConfigProps.Builder.() -> Unit): CfnResolverDNSSECConfigProps =
+    CfnResolverDNSSECConfigProps.Builder.() -> Unit = {}): CfnResolverDNSSECConfigProps =
     CfnResolverDNSSECConfigProps.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.customerprofiles.CfnObjectType
 
 @Generated
 public fun buildObjectTypeKeyProperty(initializer: @AwsCdkDsl
-    CfnObjectType.ObjectTypeKeyProperty.Builder.() -> Unit): CfnObjectType.ObjectTypeKeyProperty =
+    CfnObjectType.ObjectTypeKeyProperty.Builder.() -> Unit = {}):
+    CfnObjectType.ObjectTypeKeyProperty =
     CfnObjectType.ObjectTypeKeyProperty.Builder().apply(initializer).build()

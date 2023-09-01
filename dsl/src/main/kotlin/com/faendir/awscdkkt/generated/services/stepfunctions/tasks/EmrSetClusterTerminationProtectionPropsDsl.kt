@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EmrSetClusterTerminat
 
 @Generated
 public fun buildEmrSetClusterTerminationProtectionProps(initializer: @AwsCdkDsl
-    EmrSetClusterTerminationProtectionProps.Builder.() -> Unit):
+    EmrSetClusterTerminationProtectionProps.Builder.() -> Unit = {}):
     EmrSetClusterTerminationProtectionProps =
     EmrSetClusterTerminationProtectionProps.Builder().apply(initializer).build()

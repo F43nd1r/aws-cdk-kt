@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.rds.DatabaseInstanceFromSnapshotProps
 
 @Generated
 public fun buildDatabaseInstanceFromSnapshotProps(initializer: @AwsCdkDsl
-    DatabaseInstanceFromSnapshotProps.Builder.() -> Unit): DatabaseInstanceFromSnapshotProps =
+    DatabaseInstanceFromSnapshotProps.Builder.() -> Unit = {}): DatabaseInstanceFromSnapshotProps =
     DatabaseInstanceFromSnapshotProps.Builder().apply(initializer).build()

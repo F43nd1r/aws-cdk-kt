@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.internetmonitor.CfnMonitor
 
 @Generated
 public fun buildS3ConfigProperty(initializer: @AwsCdkDsl
-    CfnMonitor.S3ConfigProperty.Builder.() -> Unit): CfnMonitor.S3ConfigProperty =
+    CfnMonitor.S3ConfigProperty.Builder.() -> Unit = {}): CfnMonitor.S3ConfigProperty =
     CfnMonitor.S3ConfigProperty.Builder().apply(initializer).build()

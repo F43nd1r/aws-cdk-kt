@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.LifecycleHookProps
 
 @Generated
-public fun buildLifecycleHookProps(initializer: @AwsCdkDsl LifecycleHookProps.Builder.() -> Unit):
-    LifecycleHookProps = LifecycleHookProps.Builder().apply(initializer).build()
+public fun buildLifecycleHookProps(initializer: @AwsCdkDsl LifecycleHookProps.Builder.() -> Unit =
+    {}): LifecycleHookProps = LifecycleHookProps.Builder().apply(initializer).build()

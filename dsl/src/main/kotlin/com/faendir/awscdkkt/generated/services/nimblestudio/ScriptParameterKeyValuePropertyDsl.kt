@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.nimblestudio.CfnStudioComponent
 
 @Generated
 public fun buildScriptParameterKeyValueProperty(initializer: @AwsCdkDsl
-    CfnStudioComponent.ScriptParameterKeyValueProperty.Builder.() -> Unit):
+    CfnStudioComponent.ScriptParameterKeyValueProperty.Builder.() -> Unit = {}):
     CfnStudioComponent.ScriptParameterKeyValueProperty =
     CfnStudioComponent.ScriptParameterKeyValueProperty.Builder().apply(initializer).build()

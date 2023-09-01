@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnSpotFleet
 
 @Generated
 public fun buildClassicLoadBalancerProperty(initializer: @AwsCdkDsl
-    CfnSpotFleet.ClassicLoadBalancerProperty.Builder.() -> Unit):
+    CfnSpotFleet.ClassicLoadBalancerProperty.Builder.() -> Unit = {}):
     CfnSpotFleet.ClassicLoadBalancerProperty =
     CfnSpotFleet.ClassicLoadBalancerProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.CfnConditionProps
 
 @Generated
-public fun buildCfnConditionProps(initializer: @AwsCdkDsl CfnConditionProps.Builder.() -> Unit):
-    CfnConditionProps = CfnConditionProps.Builder().apply(initializer).build()
+public fun buildCfnConditionProps(initializer: @AwsCdkDsl CfnConditionProps.Builder.() -> Unit =
+    {}): CfnConditionProps = CfnConditionProps.Builder().apply(initializer).build()

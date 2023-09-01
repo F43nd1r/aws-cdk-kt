@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.mediapackage.CfnPackagingGroup
 
 @Generated
 public fun buildAuthorizationProperty(initializer: @AwsCdkDsl
-    CfnPackagingGroup.AuthorizationProperty.Builder.() -> Unit):
+    CfnPackagingGroup.AuthorizationProperty.Builder.() -> Unit = {}):
     CfnPackagingGroup.AuthorizationProperty =
     CfnPackagingGroup.AuthorizationProperty.Builder().apply(initializer).build()

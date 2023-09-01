@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ses.AddHeaderActionConfig
 
 @Generated
 public fun buildAddHeaderActionConfig(initializer: @AwsCdkDsl
-    AddHeaderActionConfig.Builder.() -> Unit): AddHeaderActionConfig =
+    AddHeaderActionConfig.Builder.() -> Unit = {}): AddHeaderActionConfig =
     AddHeaderActionConfig.Builder().apply(initializer).build()

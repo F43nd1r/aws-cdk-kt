@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelCard
 
 @Generated
 public fun buildModelPackageCreatorProperty(initializer: @AwsCdkDsl
-    CfnModelCard.ModelPackageCreatorProperty.Builder.() -> Unit):
+    CfnModelCard.ModelPackageCreatorProperty.Builder.() -> Unit = {}):
     CfnModelCard.ModelPackageCreatorProperty =
     CfnModelCard.ModelPackageCreatorProperty.Builder().apply(initializer).build()

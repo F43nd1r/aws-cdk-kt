@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildTableCellStyleProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TableCellStyleProperty.Builder.() -> Unit): CfnTemplate.TableCellStyleProperty =
-    CfnTemplate.TableCellStyleProperty.Builder().apply(initializer).build()
+    CfnTemplate.TableCellStyleProperty.Builder.() -> Unit = {}): CfnTemplate.TableCellStyleProperty
+    = CfnTemplate.TableCellStyleProperty.Builder().apply(initializer).build()

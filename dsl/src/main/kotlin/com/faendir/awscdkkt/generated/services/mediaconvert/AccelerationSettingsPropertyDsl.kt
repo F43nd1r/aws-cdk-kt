@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.mediaconvert.CfnJobTemplate
 
 @Generated
 public fun buildAccelerationSettingsProperty(initializer: @AwsCdkDsl
-    CfnJobTemplate.AccelerationSettingsProperty.Builder.() -> Unit):
+    CfnJobTemplate.AccelerationSettingsProperty.Builder.() -> Unit = {}):
     CfnJobTemplate.AccelerationSettingsProperty =
     CfnJobTemplate.AccelerationSettingsProperty.Builder().apply(initializer).build()

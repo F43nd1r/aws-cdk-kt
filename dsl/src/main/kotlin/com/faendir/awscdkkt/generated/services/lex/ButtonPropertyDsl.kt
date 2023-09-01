@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildButtonProperty(initializer: @AwsCdkDsl CfnBot.ButtonProperty.Builder.() -> Unit):
-    CfnBot.ButtonProperty = CfnBot.ButtonProperty.Builder().apply(initializer).build()
+public fun buildButtonProperty(initializer: @AwsCdkDsl CfnBot.ButtonProperty.Builder.() -> Unit =
+    {}): CfnBot.ButtonProperty = CfnBot.ButtonProperty.Builder().apply(initializer).build()

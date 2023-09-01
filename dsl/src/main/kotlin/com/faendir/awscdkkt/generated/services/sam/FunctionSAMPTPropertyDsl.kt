@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.sam.CfnStateMachine
 
 @Generated
 public fun buildFunctionSAMPTProperty(initializer: @AwsCdkDsl
-    CfnStateMachine.FunctionSAMPTProperty.Builder.() -> Unit): CfnStateMachine.FunctionSAMPTProperty
-    = CfnStateMachine.FunctionSAMPTProperty.Builder().apply(initializer).build()
+    CfnStateMachine.FunctionSAMPTProperty.Builder.() -> Unit = {}):
+    CfnStateMachine.FunctionSAMPTProperty =
+    CfnStateMachine.FunctionSAMPTProperty.Builder().apply(initializer).build()

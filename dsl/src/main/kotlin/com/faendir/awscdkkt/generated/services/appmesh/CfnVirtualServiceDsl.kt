@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.appmesh.CfnVirtualServiceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnVirtualService(id: String, props: CfnVirtualServiceProps): CfnVirtualService
-    = CfnVirtualService(this, id, props)
-
-@Generated
 public fun Construct.cfnVirtualService(
   id: String,
   props: CfnVirtualServiceProps,
-  initializer: @AwsCdkDsl CfnVirtualService.() -> Unit,
+  initializer: @AwsCdkDsl CfnVirtualService.() -> Unit = {},
 ): CfnVirtualService = CfnVirtualService(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnVirtualService(id: String, initializer: @AwsCdkDsl
-    CfnVirtualService.Builder.() -> Unit): CfnVirtualService =
+    CfnVirtualService.Builder.() -> Unit = {}): CfnVirtualService =
     CfnVirtualService.Builder.create(this, id).apply(initializer).build()

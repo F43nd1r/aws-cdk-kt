@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
 public fun buildS3KeyFilterRuleProperty(initializer: @AwsCdkDsl
-    CfnFunction.S3KeyFilterRuleProperty.Builder.() -> Unit): CfnFunction.S3KeyFilterRuleProperty =
+    CfnFunction.S3KeyFilterRuleProperty.Builder.() -> Unit = {}):
+    CfnFunction.S3KeyFilterRuleProperty =
     CfnFunction.S3KeyFilterRuleProperty.Builder().apply(initializer).build()

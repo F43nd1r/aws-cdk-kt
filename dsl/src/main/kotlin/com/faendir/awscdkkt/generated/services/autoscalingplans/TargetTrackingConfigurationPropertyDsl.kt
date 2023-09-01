@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.autoscalingplans.CfnScalingPlan
 
 @Generated
 public fun buildTargetTrackingConfigurationProperty(initializer: @AwsCdkDsl
-    CfnScalingPlan.TargetTrackingConfigurationProperty.Builder.() -> Unit):
+    CfnScalingPlan.TargetTrackingConfigurationProperty.Builder.() -> Unit = {}):
     CfnScalingPlan.TargetTrackingConfigurationProperty =
     CfnScalingPlan.TargetTrackingConfigurationProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.eks.KubernetesObjectValueProps
 
 @Generated
 public fun buildKubernetesObjectValueProps(initializer: @AwsCdkDsl
-    KubernetesObjectValueProps.Builder.() -> Unit): KubernetesObjectValueProps =
+    KubernetesObjectValueProps.Builder.() -> Unit = {}): KubernetesObjectValueProps =
     KubernetesObjectValueProps.Builder().apply(initializer).build()

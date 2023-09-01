@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.StringAttribute
 
 @Generated
-public fun buildStringAttribute(initializer: @AwsCdkDsl StringAttribute.Builder.() -> Unit):
+public fun buildStringAttribute(initializer: @AwsCdkDsl StringAttribute.Builder.() -> Unit = {}):
     StringAttribute = StringAttribute.Builder.create().apply(initializer).build()

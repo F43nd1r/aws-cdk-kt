@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.rds.DatabaseInstanceAttributes
 
 @Generated
 public fun buildDatabaseInstanceAttributes(initializer: @AwsCdkDsl
-    DatabaseInstanceAttributes.Builder.() -> Unit): DatabaseInstanceAttributes =
+    DatabaseInstanceAttributes.Builder.() -> Unit = {}): DatabaseInstanceAttributes =
     DatabaseInstanceAttributes.Builder().apply(initializer).build()

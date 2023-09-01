@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.codepipeline.actions.CloudFormationExecut
 
 @Generated
 public fun buildCloudFormationExecuteChangeSetAction(initializer: @AwsCdkDsl
-    CloudFormationExecuteChangeSetAction.Builder.() -> Unit): CloudFormationExecuteChangeSetAction =
+    CloudFormationExecuteChangeSetAction.Builder.() -> Unit = {}):
+    CloudFormationExecuteChangeSetAction =
     CloudFormationExecuteChangeSetAction.Builder.create().apply(initializer).build()

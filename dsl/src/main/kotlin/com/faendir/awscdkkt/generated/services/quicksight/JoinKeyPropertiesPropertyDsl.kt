@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
 public fun buildJoinKeyPropertiesProperty(initializer: @AwsCdkDsl
-    CfnDataSet.JoinKeyPropertiesProperty.Builder.() -> Unit): CfnDataSet.JoinKeyPropertiesProperty =
+    CfnDataSet.JoinKeyPropertiesProperty.Builder.() -> Unit = {}):
+    CfnDataSet.JoinKeyPropertiesProperty =
     CfnDataSet.JoinKeyPropertiesProperty.Builder().apply(initializer).build()

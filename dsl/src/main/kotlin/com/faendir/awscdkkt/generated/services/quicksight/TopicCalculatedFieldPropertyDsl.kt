@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTopic
 
 @Generated
 public fun buildTopicCalculatedFieldProperty(initializer: @AwsCdkDsl
-    CfnTopic.TopicCalculatedFieldProperty.Builder.() -> Unit): CfnTopic.TopicCalculatedFieldProperty
-    = CfnTopic.TopicCalculatedFieldProperty.Builder().apply(initializer).build()
+    CfnTopic.TopicCalculatedFieldProperty.Builder.() -> Unit = {}):
+    CfnTopic.TopicCalculatedFieldProperty =
+    CfnTopic.TopicCalculatedFieldProperty.Builder().apply(initializer).build()

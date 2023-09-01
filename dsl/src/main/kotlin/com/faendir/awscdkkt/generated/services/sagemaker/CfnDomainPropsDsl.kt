@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnDomainProps
 
 @Generated
-public fun buildCfnDomainProps(initializer: @AwsCdkDsl CfnDomainProps.Builder.() -> Unit):
+public fun buildCfnDomainProps(initializer: @AwsCdkDsl CfnDomainProps.Builder.() -> Unit = {}):
     CfnDomainProps = CfnDomainProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecr.CfnRepository
 
 @Generated
 public fun buildImageScanningConfigurationProperty(initializer: @AwsCdkDsl
-    CfnRepository.ImageScanningConfigurationProperty.Builder.() -> Unit):
+    CfnRepository.ImageScanningConfigurationProperty.Builder.() -> Unit = {}):
     CfnRepository.ImageScanningConfigurationProperty =
     CfnRepository.ImageScanningConfigurationProperty.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.sagemaker.CfnModelCardProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnModelCard(id: String, props: CfnModelCardProps): CfnModelCard =
-    CfnModelCard(this, id, props)
-
-@Generated
 public fun Construct.cfnModelCard(
   id: String,
   props: CfnModelCardProps,
-  initializer: @AwsCdkDsl CfnModelCard.() -> Unit,
+  initializer: @AwsCdkDsl CfnModelCard.() -> Unit = {},
 ): CfnModelCard = CfnModelCard(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnModelCard(id: String, initializer: @AwsCdkDsl
-    CfnModelCard.Builder.() -> Unit): CfnModelCard = CfnModelCard.Builder.create(this,
+    CfnModelCard.Builder.() -> Unit = {}): CfnModelCard = CfnModelCard.Builder.create(this,
     id).apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.connect.CfnApprovedOriginProps
 
 @Generated
 public fun buildCfnApprovedOriginProps(initializer: @AwsCdkDsl
-    CfnApprovedOriginProps.Builder.() -> Unit): CfnApprovedOriginProps =
+    CfnApprovedOriginProps.Builder.() -> Unit = {}): CfnApprovedOriginProps =
     CfnApprovedOriginProps.Builder().apply(initializer).build()

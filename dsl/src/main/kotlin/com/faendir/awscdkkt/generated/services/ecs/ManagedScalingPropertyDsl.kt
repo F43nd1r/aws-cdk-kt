@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.CfnCapacityProvider
 
 @Generated
 public fun buildManagedScalingProperty(initializer: @AwsCdkDsl
-    CfnCapacityProvider.ManagedScalingProperty.Builder.() -> Unit):
+    CfnCapacityProvider.ManagedScalingProperty.Builder.() -> Unit = {}):
     CfnCapacityProvider.ManagedScalingProperty =
     CfnCapacityProvider.ManagedScalingProperty.Builder().apply(initializer).build()

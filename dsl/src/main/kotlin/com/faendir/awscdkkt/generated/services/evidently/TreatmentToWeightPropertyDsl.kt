@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.evidently.CfnExperiment
 
 @Generated
 public fun buildTreatmentToWeightProperty(initializer: @AwsCdkDsl
-    CfnExperiment.TreatmentToWeightProperty.Builder.() -> Unit):
+    CfnExperiment.TreatmentToWeightProperty.Builder.() -> Unit = {}):
     CfnExperiment.TreatmentToWeightProperty =
     CfnExperiment.TreatmentToWeightProperty.Builder().apply(initializer).build()

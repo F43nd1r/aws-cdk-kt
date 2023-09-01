@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.groundstation.CfnConfig
 
 @Generated
 public fun buildS3RecordingConfigProperty(initializer: @AwsCdkDsl
-    CfnConfig.S3RecordingConfigProperty.Builder.() -> Unit): CfnConfig.S3RecordingConfigProperty =
+    CfnConfig.S3RecordingConfigProperty.Builder.() -> Unit = {}):
+    CfnConfig.S3RecordingConfigProperty =
     CfnConfig.S3RecordingConfigProperty.Builder().apply(initializer).build()

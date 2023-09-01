@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.datasync.CfnStorageSystemProps
 
 @Generated
 public fun buildCfnStorageSystemProps(initializer: @AwsCdkDsl
-    CfnStorageSystemProps.Builder.() -> Unit): CfnStorageSystemProps =
+    CfnStorageSystemProps.Builder.() -> Unit = {}): CfnStorageSystemProps =
     CfnStorageSystemProps.Builder().apply(initializer).build()

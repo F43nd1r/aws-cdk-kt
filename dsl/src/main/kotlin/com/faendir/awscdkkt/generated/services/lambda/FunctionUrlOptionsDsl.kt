@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.FunctionUrlOptions
 
 @Generated
-public fun buildFunctionUrlOptions(initializer: @AwsCdkDsl FunctionUrlOptions.Builder.() -> Unit):
-    FunctionUrlOptions = FunctionUrlOptions.Builder().apply(initializer).build()
+public fun buildFunctionUrlOptions(initializer: @AwsCdkDsl FunctionUrlOptions.Builder.() -> Unit =
+    {}): FunctionUrlOptions = FunctionUrlOptions.Builder().apply(initializer).build()

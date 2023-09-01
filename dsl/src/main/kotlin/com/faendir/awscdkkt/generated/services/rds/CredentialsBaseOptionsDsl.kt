@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.rds.CredentialsBaseOptions
 
 @Generated
 public fun buildCredentialsBaseOptions(initializer: @AwsCdkDsl
-    CredentialsBaseOptions.Builder.() -> Unit): CredentialsBaseOptions =
+    CredentialsBaseOptions.Builder.() -> Unit = {}): CredentialsBaseOptions =
     CredentialsBaseOptions.Builder().apply(initializer).build()

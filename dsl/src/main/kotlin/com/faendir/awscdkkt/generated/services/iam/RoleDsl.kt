@@ -9,15 +9,12 @@ import software.amazon.awscdk.services.iam.RoleProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.role(id: String, props: RoleProps): Role = Role(this, id, props)
-
-@Generated
 public fun Construct.role(
   id: String,
   props: RoleProps,
-  initializer: @AwsCdkDsl Role.() -> Unit,
+  initializer: @AwsCdkDsl Role.() -> Unit = {},
 ): Role = Role(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildRole(id: String, initializer: @AwsCdkDsl Role.Builder.() -> Unit): Role =
-    Role.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildRole(id: String, initializer: @AwsCdkDsl Role.Builder.() -> Unit = {}):
+    Role = Role.Builder.create(this, id).apply(initializer).build()

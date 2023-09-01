@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.CustomWidgetProps
 
 @Generated
-public fun buildCustomWidgetProps(initializer: @AwsCdkDsl CustomWidgetProps.Builder.() -> Unit):
-    CustomWidgetProps = CustomWidgetProps.Builder().apply(initializer).build()
+public fun buildCustomWidgetProps(initializer: @AwsCdkDsl CustomWidgetProps.Builder.() -> Unit =
+    {}): CustomWidgetProps = CustomWidgetProps.Builder().apply(initializer).build()

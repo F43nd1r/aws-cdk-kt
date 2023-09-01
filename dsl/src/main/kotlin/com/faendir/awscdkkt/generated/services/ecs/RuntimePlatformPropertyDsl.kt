@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
 public fun buildRuntimePlatformProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.RuntimePlatformProperty.Builder.() -> Unit):
+    CfnTaskDefinition.RuntimePlatformProperty.Builder.() -> Unit = {}):
     CfnTaskDefinition.RuntimePlatformProperty =
     CfnTaskDefinition.RuntimePlatformProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.stepfunctions.CfnStateMachineAlias
 
 @Generated
 public fun buildDeploymentPreferenceProperty(initializer: @AwsCdkDsl
-    CfnStateMachineAlias.DeploymentPreferenceProperty.Builder.() -> Unit):
+    CfnStateMachineAlias.DeploymentPreferenceProperty.Builder.() -> Unit = {}):
     CfnStateMachineAlias.DeploymentPreferenceProperty =
     CfnStateMachineAlias.DeploymentPreferenceProperty.Builder().apply(initializer).build()

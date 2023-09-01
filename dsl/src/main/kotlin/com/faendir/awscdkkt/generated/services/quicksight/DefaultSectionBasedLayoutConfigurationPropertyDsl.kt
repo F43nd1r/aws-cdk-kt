@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildDefaultSectionBasedLayoutConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DefaultSectionBasedLayoutConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.DefaultSectionBasedLayoutConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.DefaultSectionBasedLayoutConfigurationProperty =
     CfnTemplate.DefaultSectionBasedLayoutConfigurationProperty.Builder().apply(initializer).build()

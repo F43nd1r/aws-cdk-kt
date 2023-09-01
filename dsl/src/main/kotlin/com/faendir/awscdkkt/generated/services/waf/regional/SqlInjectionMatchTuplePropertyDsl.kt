@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.waf.regional.CfnSqlInjectionMatchSet
 
 @Generated
 public fun buildSqlInjectionMatchTupleProperty(initializer: @AwsCdkDsl
-    CfnSqlInjectionMatchSet.SqlInjectionMatchTupleProperty.Builder.() -> Unit):
+    CfnSqlInjectionMatchSet.SqlInjectionMatchTupleProperty.Builder.() -> Unit = {}):
     CfnSqlInjectionMatchSet.SqlInjectionMatchTupleProperty =
     CfnSqlInjectionMatchSet.SqlInjectionMatchTupleProperty.Builder().apply(initializer).build()

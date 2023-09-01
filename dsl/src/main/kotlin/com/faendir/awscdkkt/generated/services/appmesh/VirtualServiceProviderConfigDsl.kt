@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appmesh.VirtualServiceProviderConfig
 
 @Generated
 public fun buildVirtualServiceProviderConfig(initializer: @AwsCdkDsl
-    VirtualServiceProviderConfig.Builder.() -> Unit): VirtualServiceProviderConfig =
+    VirtualServiceProviderConfig.Builder.() -> Unit = {}): VirtualServiceProviderConfig =
     VirtualServiceProviderConfig.Builder().apply(initializer).build()

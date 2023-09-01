@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.groundstation.CfnConfig
 
 @Generated
 public fun buildAntennaDownlinkConfigProperty(initializer: @AwsCdkDsl
-    CfnConfig.AntennaDownlinkConfigProperty.Builder.() -> Unit):
+    CfnConfig.AntennaDownlinkConfigProperty.Builder.() -> Unit = {}):
     CfnConfig.AntennaDownlinkConfigProperty =
     CfnConfig.AntennaDownlinkConfigProperty.Builder().apply(initializer).build()

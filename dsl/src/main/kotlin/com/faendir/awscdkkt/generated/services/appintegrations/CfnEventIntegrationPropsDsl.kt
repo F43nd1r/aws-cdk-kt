@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appintegrations.CfnEventIntegrationProps
 
 @Generated
 public fun buildCfnEventIntegrationProps(initializer: @AwsCdkDsl
-    CfnEventIntegrationProps.Builder.() -> Unit): CfnEventIntegrationProps =
+    CfnEventIntegrationProps.Builder.() -> Unit = {}): CfnEventIntegrationProps =
     CfnEventIntegrationProps.Builder().apply(initializer).build()

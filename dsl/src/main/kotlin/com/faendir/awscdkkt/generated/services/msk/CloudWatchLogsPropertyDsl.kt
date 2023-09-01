@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.msk.CfnCluster
 
 @Generated
 public fun buildCloudWatchLogsProperty(initializer: @AwsCdkDsl
-    CfnCluster.CloudWatchLogsProperty.Builder.() -> Unit): CfnCluster.CloudWatchLogsProperty =
+    CfnCluster.CloudWatchLogsProperty.Builder.() -> Unit = {}): CfnCluster.CloudWatchLogsProperty =
     CfnCluster.CloudWatchLogsProperty.Builder().apply(initializer).build()

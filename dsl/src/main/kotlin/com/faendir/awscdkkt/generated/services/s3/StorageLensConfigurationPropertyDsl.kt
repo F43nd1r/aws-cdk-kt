@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.s3.CfnStorageLens
 
 @Generated
 public fun buildStorageLensConfigurationProperty(initializer: @AwsCdkDsl
-    CfnStorageLens.StorageLensConfigurationProperty.Builder.() -> Unit):
+    CfnStorageLens.StorageLensConfigurationProperty.Builder.() -> Unit = {}):
     CfnStorageLens.StorageLensConfigurationProperty =
     CfnStorageLens.StorageLensConfigurationProperty.Builder().apply(initializer).build()

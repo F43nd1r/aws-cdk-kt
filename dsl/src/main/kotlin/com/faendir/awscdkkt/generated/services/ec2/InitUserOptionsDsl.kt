@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.InitUserOptions
 
 @Generated
-public fun buildInitUserOptions(initializer: @AwsCdkDsl InitUserOptions.Builder.() -> Unit):
+public fun buildInitUserOptions(initializer: @AwsCdkDsl InitUserOptions.Builder.() -> Unit = {}):
     InitUserOptions = InitUserOptions.Builder().apply(initializer).build()

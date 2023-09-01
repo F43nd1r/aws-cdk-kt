@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sagemaker.CfnModelPackage
 
 @Generated
 public fun buildDataSourceProperty(initializer: @AwsCdkDsl
-    CfnModelPackage.DataSourceProperty.Builder.() -> Unit): CfnModelPackage.DataSourceProperty =
-    CfnModelPackage.DataSourceProperty.Builder().apply(initializer).build()
+    CfnModelPackage.DataSourceProperty.Builder.() -> Unit = {}): CfnModelPackage.DataSourceProperty
+    = CfnModelPackage.DataSourceProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.applicationinsights.CfnApplication
 
 @Generated
 public fun buildCustomComponentProperty(initializer: @AwsCdkDsl
-    CfnApplication.CustomComponentProperty.Builder.() -> Unit):
+    CfnApplication.CustomComponentProperty.Builder.() -> Unit = {}):
     CfnApplication.CustomComponentProperty =
     CfnApplication.CustomComponentProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.transfer.CfnServer
 
 @Generated
 public fun buildIdentityProviderDetailsProperty(initializer: @AwsCdkDsl
-    CfnServer.IdentityProviderDetailsProperty.Builder.() -> Unit):
+    CfnServer.IdentityProviderDetailsProperty.Builder.() -> Unit = {}):
     CfnServer.IdentityProviderDetailsProperty =
     CfnServer.IdentityProviderDetailsProperty.Builder().apply(initializer).build()

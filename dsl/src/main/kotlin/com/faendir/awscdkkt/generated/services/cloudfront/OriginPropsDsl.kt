@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.OriginProps
 
 @Generated
-public fun buildOriginProps(initializer: @AwsCdkDsl OriginProps.Builder.() -> Unit): OriginProps =
-    OriginProps.Builder().apply(initializer).build()
+public fun buildOriginProps(initializer: @AwsCdkDsl OriginProps.Builder.() -> Unit = {}):
+    OriginProps = OriginProps.Builder().apply(initializer).build()

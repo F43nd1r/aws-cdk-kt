@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.memorydb.CfnUser
 
 @Generated
 public fun buildAuthenticationModeProperty(initializer: @AwsCdkDsl
-    CfnUser.AuthenticationModeProperty.Builder.() -> Unit): CfnUser.AuthenticationModeProperty =
-    CfnUser.AuthenticationModeProperty.Builder().apply(initializer).build()
+    CfnUser.AuthenticationModeProperty.Builder.() -> Unit = {}): CfnUser.AuthenticationModeProperty
+    = CfnUser.AuthenticationModeProperty.Builder().apply(initializer).build()

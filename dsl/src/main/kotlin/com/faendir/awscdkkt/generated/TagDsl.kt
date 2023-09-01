@@ -10,5 +10,5 @@ import software.amazon.awscdk.Tag
 public fun buildTag(
   key: String,
   `value`: String,
-  initializer: @AwsCdkDsl Tag.Builder.() -> Unit,
+  initializer: @AwsCdkDsl Tag.Builder.() -> Unit = {},
 ): Tag = Tag.Builder.create(key, value).apply(initializer).build()

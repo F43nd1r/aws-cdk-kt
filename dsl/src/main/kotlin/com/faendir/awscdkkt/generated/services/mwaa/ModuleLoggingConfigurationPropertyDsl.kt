@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.mwaa.CfnEnvironment
 
 @Generated
 public fun buildModuleLoggingConfigurationProperty(initializer: @AwsCdkDsl
-    CfnEnvironment.ModuleLoggingConfigurationProperty.Builder.() -> Unit):
+    CfnEnvironment.ModuleLoggingConfigurationProperty.Builder.() -> Unit = {}):
     CfnEnvironment.ModuleLoggingConfigurationProperty =
     CfnEnvironment.ModuleLoggingConfigurationProperty.Builder().apply(initializer).build()

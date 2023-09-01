@@ -9,18 +9,13 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EmrModifyInstanceFlee
 import software.constructs.Construct
 
 @Generated
-public fun Construct.emrModifyInstanceFleetByName(id: String,
-    props: EmrModifyInstanceFleetByNameProps): EmrModifyInstanceFleetByName =
-    EmrModifyInstanceFleetByName(this, id, props)
-
-@Generated
 public fun Construct.emrModifyInstanceFleetByName(
   id: String,
   props: EmrModifyInstanceFleetByNameProps,
-  initializer: @AwsCdkDsl EmrModifyInstanceFleetByName.() -> Unit,
+  initializer: @AwsCdkDsl EmrModifyInstanceFleetByName.() -> Unit = {},
 ): EmrModifyInstanceFleetByName = EmrModifyInstanceFleetByName(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildEmrModifyInstanceFleetByName(id: String, initializer: @AwsCdkDsl
-    EmrModifyInstanceFleetByName.Builder.() -> Unit): EmrModifyInstanceFleetByName =
+    EmrModifyInstanceFleetByName.Builder.() -> Unit = {}): EmrModifyInstanceFleetByName =
     EmrModifyInstanceFleetByName.Builder.create(this, id).apply(initializer).build()

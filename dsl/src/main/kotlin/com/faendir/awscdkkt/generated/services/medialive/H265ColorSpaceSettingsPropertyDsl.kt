@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildH265ColorSpaceSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.H265ColorSpaceSettingsProperty.Builder.() -> Unit):
+    CfnChannel.H265ColorSpaceSettingsProperty.Builder.() -> Unit = {}):
     CfnChannel.H265ColorSpaceSettingsProperty =
     CfnChannel.H265ColorSpaceSettingsProperty.Builder().apply(initializer).build()

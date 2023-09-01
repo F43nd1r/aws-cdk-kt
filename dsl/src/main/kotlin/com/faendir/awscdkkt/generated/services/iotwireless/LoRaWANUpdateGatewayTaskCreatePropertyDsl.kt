@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iotwireless.CfnTaskDefinition
 
 @Generated
 public fun buildLoRaWANUpdateGatewayTaskCreateProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.LoRaWANUpdateGatewayTaskCreateProperty.Builder.() -> Unit):
+    CfnTaskDefinition.LoRaWANUpdateGatewayTaskCreateProperty.Builder.() -> Unit = {}):
     CfnTaskDefinition.LoRaWANUpdateGatewayTaskCreateProperty =
     CfnTaskDefinition.LoRaWANUpdateGatewayTaskCreateProperty.Builder().apply(initializer).build()

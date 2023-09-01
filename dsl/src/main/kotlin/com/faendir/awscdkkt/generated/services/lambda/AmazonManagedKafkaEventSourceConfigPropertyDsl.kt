@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lambda.CfnEventSourceMapping
 
 @Generated
 public fun buildAmazonManagedKafkaEventSourceConfigProperty(initializer: @AwsCdkDsl
-    CfnEventSourceMapping.AmazonManagedKafkaEventSourceConfigProperty.Builder.() -> Unit):
+    CfnEventSourceMapping.AmazonManagedKafkaEventSourceConfigProperty.Builder.() -> Unit = {}):
     CfnEventSourceMapping.AmazonManagedKafkaEventSourceConfigProperty =
     CfnEventSourceMapping.AmazonManagedKafkaEventSourceConfigProperty.Builder().apply(initializer).build()

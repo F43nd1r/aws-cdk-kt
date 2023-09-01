@@ -9,17 +9,12 @@ import software.amazon.awscdk.services.mediaconnect.CfnBridgeProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnBridge(id: String, props: CfnBridgeProps): CfnBridge = CfnBridge(this, id,
-    props)
-
-@Generated
 public fun Construct.cfnBridge(
   id: String,
   props: CfnBridgeProps,
-  initializer: @AwsCdkDsl CfnBridge.() -> Unit,
+  initializer: @AwsCdkDsl CfnBridge.() -> Unit = {},
 ): CfnBridge = CfnBridge(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnBridge(id: String, initializer: @AwsCdkDsl
-    CfnBridge.Builder.() -> Unit): CfnBridge = CfnBridge.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnBridge(id: String, initializer: @AwsCdkDsl CfnBridge.Builder.() -> Unit
+    = {}): CfnBridge = CfnBridge.Builder.create(this, id).apply(initializer).build()

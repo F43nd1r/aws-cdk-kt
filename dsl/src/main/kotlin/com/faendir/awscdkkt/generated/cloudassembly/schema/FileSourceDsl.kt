@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.cloudassembly.schema.FileSource
 
 @Generated
-public fun buildFileSource(initializer: @AwsCdkDsl FileSource.Builder.() -> Unit): FileSource =
+public fun buildFileSource(initializer: @AwsCdkDsl FileSource.Builder.() -> Unit = {}): FileSource =
     FileSource.Builder().apply(initializer).build()

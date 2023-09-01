@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.BasePathMappingProps
 
 @Generated
-public fun buildBasePathMappingProps(initializer: @AwsCdkDsl
-    BasePathMappingProps.Builder.() -> Unit): BasePathMappingProps =
-    BasePathMappingProps.Builder().apply(initializer).build()
+public fun buildBasePathMappingProps(initializer: @AwsCdkDsl BasePathMappingProps.Builder.() -> Unit
+    = {}): BasePathMappingProps = BasePathMappingProps.Builder().apply(initializer).build()

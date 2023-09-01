@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.SpecRestApiProps
 
 @Generated
-public fun buildSpecRestApiProps(initializer: @AwsCdkDsl SpecRestApiProps.Builder.() -> Unit):
+public fun buildSpecRestApiProps(initializer: @AwsCdkDsl SpecRestApiProps.Builder.() -> Unit = {}):
     SpecRestApiProps = SpecRestApiProps.Builder().apply(initializer).build()

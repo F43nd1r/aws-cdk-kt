@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.CfnLoadBalancer
 
 @Generated
 public fun buildLoadBalancerAttributeProperty(initializer: @AwsCdkDsl
-    CfnLoadBalancer.LoadBalancerAttributeProperty.Builder.() -> Unit):
+    CfnLoadBalancer.LoadBalancerAttributeProperty.Builder.() -> Unit = {}):
     CfnLoadBalancer.LoadBalancerAttributeProperty =
     CfnLoadBalancer.LoadBalancerAttributeProperty.Builder().apply(initializer).build()

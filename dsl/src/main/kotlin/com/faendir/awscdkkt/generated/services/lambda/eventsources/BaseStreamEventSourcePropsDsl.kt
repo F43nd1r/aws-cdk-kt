@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lambda.eventsources.BaseStreamEventSource
 
 @Generated
 public fun buildBaseStreamEventSourceProps(initializer: @AwsCdkDsl
-    BaseStreamEventSourceProps.Builder.() -> Unit): BaseStreamEventSourceProps =
+    BaseStreamEventSourceProps.Builder.() -> Unit = {}): BaseStreamEventSourceProps =
     BaseStreamEventSourceProps.Builder().apply(initializer).build()

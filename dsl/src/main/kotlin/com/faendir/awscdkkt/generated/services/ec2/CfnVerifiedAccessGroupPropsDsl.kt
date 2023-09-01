@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.CfnVerifiedAccessGroupProps
 
 @Generated
 public fun buildCfnVerifiedAccessGroupProps(initializer: @AwsCdkDsl
-    CfnVerifiedAccessGroupProps.Builder.() -> Unit): CfnVerifiedAccessGroupProps =
+    CfnVerifiedAccessGroupProps.Builder.() -> Unit = {}): CfnVerifiedAccessGroupProps =
     CfnVerifiedAccessGroupProps.Builder().apply(initializer).build()

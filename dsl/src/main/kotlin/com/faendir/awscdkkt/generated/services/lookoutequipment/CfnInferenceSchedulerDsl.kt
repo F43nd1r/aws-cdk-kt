@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.lookoutequipment.CfnInferenceSchedulerPro
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnInferenceScheduler(id: String, props: CfnInferenceSchedulerProps):
-    CfnInferenceScheduler = CfnInferenceScheduler(this, id, props)
-
-@Generated
 public fun Construct.cfnInferenceScheduler(
   id: String,
   props: CfnInferenceSchedulerProps,
-  initializer: @AwsCdkDsl CfnInferenceScheduler.() -> Unit,
+  initializer: @AwsCdkDsl CfnInferenceScheduler.() -> Unit = {},
 ): CfnInferenceScheduler = CfnInferenceScheduler(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnInferenceScheduler(id: String, initializer: @AwsCdkDsl
-    CfnInferenceScheduler.Builder.() -> Unit): CfnInferenceScheduler =
+    CfnInferenceScheduler.Builder.() -> Unit = {}): CfnInferenceScheduler =
     CfnInferenceScheduler.Builder.create(this, id).apply(initializer).build()

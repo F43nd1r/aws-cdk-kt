@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
 public fun buildVisualMenuOptionProperty(initializer: @AwsCdkDsl
-    CfnDashboard.VisualMenuOptionProperty.Builder.() -> Unit): CfnDashboard.VisualMenuOptionProperty
-    = CfnDashboard.VisualMenuOptionProperty.Builder().apply(initializer).build()
+    CfnDashboard.VisualMenuOptionProperty.Builder.() -> Unit = {}):
+    CfnDashboard.VisualMenuOptionProperty =
+    CfnDashboard.VisualMenuOptionProperty.Builder().apply(initializer).build()

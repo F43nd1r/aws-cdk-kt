@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecr.CfnReplicationConfiguration
 
 @Generated
 public fun buildReplicationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnReplicationConfiguration.ReplicationConfigurationProperty.Builder.() -> Unit):
+    CfnReplicationConfiguration.ReplicationConfigurationProperty.Builder.() -> Unit = {}):
     CfnReplicationConfiguration.ReplicationConfigurationProperty =
     CfnReplicationConfiguration.ReplicationConfigurationProperty.Builder().apply(initializer).build()

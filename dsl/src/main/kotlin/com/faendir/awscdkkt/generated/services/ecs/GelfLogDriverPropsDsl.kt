@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.GelfLogDriverProps
 
 @Generated
-public fun buildGelfLogDriverProps(initializer: @AwsCdkDsl GelfLogDriverProps.Builder.() -> Unit):
-    GelfLogDriverProps = GelfLogDriverProps.Builder().apply(initializer).build()
+public fun buildGelfLogDriverProps(initializer: @AwsCdkDsl GelfLogDriverProps.Builder.() -> Unit =
+    {}): GelfLogDriverProps = GelfLogDriverProps.Builder().apply(initializer).build()

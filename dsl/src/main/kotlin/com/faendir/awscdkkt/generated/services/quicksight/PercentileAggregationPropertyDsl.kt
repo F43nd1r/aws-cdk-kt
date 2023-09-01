@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildPercentileAggregationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PercentileAggregationProperty.Builder.() -> Unit):
+    CfnTemplate.PercentileAggregationProperty.Builder.() -> Unit = {}):
     CfnTemplate.PercentileAggregationProperty =
     CfnTemplate.PercentileAggregationProperty.Builder().apply(initializer).build()

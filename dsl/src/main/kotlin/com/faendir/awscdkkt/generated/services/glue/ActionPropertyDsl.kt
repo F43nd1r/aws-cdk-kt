@@ -6,6 +6,6 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnTrigger
 
 @Generated
-public fun buildActionProperty(initializer: @AwsCdkDsl
-    CfnTrigger.ActionProperty.Builder.() -> Unit): CfnTrigger.ActionProperty =
+public fun buildActionProperty(initializer: @AwsCdkDsl CfnTrigger.ActionProperty.Builder.() -> Unit
+    = {}): CfnTrigger.ActionProperty =
     CfnTrigger.ActionProperty.Builder().apply(initializer).build()

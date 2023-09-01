@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.AclPortRange
 
 @Generated
-public fun buildAclPortRange(initializer: @AwsCdkDsl AclPortRange.Builder.() -> Unit): AclPortRange
-    = AclPortRange.Builder().apply(initializer).build()
+public fun buildAclPortRange(initializer: @AwsCdkDsl AclPortRange.Builder.() -> Unit = {}):
+    AclPortRange = AclPortRange.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.cloudfront.CfnDistribution
 
 @Generated
 public fun buildCacheBehaviorProperty(initializer: @AwsCdkDsl
-    CfnDistribution.CacheBehaviorProperty.Builder.() -> Unit): CfnDistribution.CacheBehaviorProperty
-    = CfnDistribution.CacheBehaviorProperty.Builder().apply(initializer).build()
+    CfnDistribution.CacheBehaviorProperty.Builder.() -> Unit = {}):
+    CfnDistribution.CacheBehaviorProperty =
+    CfnDistribution.CacheBehaviorProperty.Builder().apply(initializer).build()

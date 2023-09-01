@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
 public fun buildRedirectAllRequestsToProperty(initializer: @AwsCdkDsl
-    CfnBucket.RedirectAllRequestsToProperty.Builder.() -> Unit):
+    CfnBucket.RedirectAllRequestsToProperty.Builder.() -> Unit = {}):
     CfnBucket.RedirectAllRequestsToProperty =
     CfnBucket.RedirectAllRequestsToProperty.Builder().apply(initializer).build()

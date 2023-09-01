@@ -7,5 +7,5 @@ import software.amazon.awscdk.cloudassembly.schema.AssetManifestProperties
 
 @Generated
 public fun buildAssetManifestProperties(initializer: @AwsCdkDsl
-    AssetManifestProperties.Builder.() -> Unit): AssetManifestProperties =
+    AssetManifestProperties.Builder.() -> Unit = {}): AssetManifestProperties =
     AssetManifestProperties.Builder().apply(initializer).build()

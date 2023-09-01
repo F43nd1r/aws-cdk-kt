@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.ApplicationLoadBal
 
 @Generated
 public fun buildApplicationLoadBalancerLookupOptions(initializer: @AwsCdkDsl
-    ApplicationLoadBalancerLookupOptions.Builder.() -> Unit): ApplicationLoadBalancerLookupOptions =
+    ApplicationLoadBalancerLookupOptions.Builder.() -> Unit = {}):
+    ApplicationLoadBalancerLookupOptions =
     ApplicationLoadBalancerLookupOptions.Builder().apply(initializer).build()

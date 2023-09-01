@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnFeatureGroup
 
 @Generated
 public fun buildS3StorageConfigProperty(initializer: @AwsCdkDsl
-    CfnFeatureGroup.S3StorageConfigProperty.Builder.() -> Unit):
+    CfnFeatureGroup.S3StorageConfigProperty.Builder.() -> Unit = {}):
     CfnFeatureGroup.S3StorageConfigProperty =
     CfnFeatureGroup.S3StorageConfigProperty.Builder().apply(initializer).build()

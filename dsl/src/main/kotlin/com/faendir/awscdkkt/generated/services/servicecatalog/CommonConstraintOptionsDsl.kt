@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.servicecatalog.CommonConstraintOptions
 
 @Generated
 public fun buildCommonConstraintOptions(initializer: @AwsCdkDsl
-    CommonConstraintOptions.Builder.() -> Unit): CommonConstraintOptions =
+    CommonConstraintOptions.Builder.() -> Unit = {}): CommonConstraintOptions =
     CommonConstraintOptions.Builder().apply(initializer).build()

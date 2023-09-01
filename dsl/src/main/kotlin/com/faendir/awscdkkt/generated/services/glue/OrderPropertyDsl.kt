@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnTable
 
 @Generated
-public fun buildOrderProperty(initializer: @AwsCdkDsl CfnTable.OrderProperty.Builder.() -> Unit):
-    CfnTable.OrderProperty = CfnTable.OrderProperty.Builder().apply(initializer).build()
+public fun buildOrderProperty(initializer: @AwsCdkDsl CfnTable.OrderProperty.Builder.() -> Unit =
+    {}): CfnTable.OrderProperty = CfnTable.OrderProperty.Builder().apply(initializer).build()

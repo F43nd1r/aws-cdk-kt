@@ -8,5 +8,5 @@ import software.amazon.awscdk.services.stepfunctions.FileDefinitionBody
 
 @Generated
 public fun buildFileDefinitionBody(path: String, initializer: @AwsCdkDsl
-    FileDefinitionBody.Builder.() -> Unit): FileDefinitionBody =
+    FileDefinitionBody.Builder.() -> Unit = {}): FileDefinitionBody =
     FileDefinitionBody.Builder.create(path).apply(initializer).build()

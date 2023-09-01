@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ses.ConfigurationSetEventDestinationOptio
 
 @Generated
 public fun buildConfigurationSetEventDestinationOptions(initializer: @AwsCdkDsl
-    ConfigurationSetEventDestinationOptions.Builder.() -> Unit):
+    ConfigurationSetEventDestinationOptions.Builder.() -> Unit = {}):
     ConfigurationSetEventDestinationOptions =
     ConfigurationSetEventDestinationOptions.Builder().apply(initializer).build()

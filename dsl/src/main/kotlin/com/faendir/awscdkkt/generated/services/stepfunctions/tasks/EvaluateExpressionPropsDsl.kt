@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EvaluateExpressionPro
 
 @Generated
 public fun buildEvaluateExpressionProps(initializer: @AwsCdkDsl
-    EvaluateExpressionProps.Builder.() -> Unit): EvaluateExpressionProps =
+    EvaluateExpressionProps.Builder.() -> Unit = {}): EvaluateExpressionProps =
     EvaluateExpressionProps.Builder().apply(initializer).build()

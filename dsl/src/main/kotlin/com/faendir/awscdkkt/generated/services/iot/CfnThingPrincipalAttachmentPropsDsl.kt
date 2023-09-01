@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iot.CfnThingPrincipalAttachmentProps
 
 @Generated
 public fun buildCfnThingPrincipalAttachmentProps(initializer: @AwsCdkDsl
-    CfnThingPrincipalAttachmentProps.Builder.() -> Unit): CfnThingPrincipalAttachmentProps =
+    CfnThingPrincipalAttachmentProps.Builder.() -> Unit = {}): CfnThingPrincipalAttachmentProps =
     CfnThingPrincipalAttachmentProps.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
 public fun buildTableStreamSAMPTProperty(initializer: @AwsCdkDsl
-    CfnFunction.TableStreamSAMPTProperty.Builder.() -> Unit): CfnFunction.TableStreamSAMPTProperty =
+    CfnFunction.TableStreamSAMPTProperty.Builder.() -> Unit = {}):
+    CfnFunction.TableStreamSAMPTProperty =
     CfnFunction.TableStreamSAMPTProperty.Builder().apply(initializer).build()

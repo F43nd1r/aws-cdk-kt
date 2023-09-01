@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.InventoryDestination
 
 @Generated
-public fun buildInventoryDestination(initializer: @AwsCdkDsl
-    InventoryDestination.Builder.() -> Unit): InventoryDestination =
-    InventoryDestination.Builder().apply(initializer).build()
+public fun buildInventoryDestination(initializer: @AwsCdkDsl InventoryDestination.Builder.() -> Unit
+    = {}): InventoryDestination = InventoryDestination.Builder().apply(initializer).build()

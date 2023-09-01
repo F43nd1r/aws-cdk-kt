@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.redshift.CfnEndpointAccessProps
 
 @Generated
 public fun buildCfnEndpointAccessProps(initializer: @AwsCdkDsl
-    CfnEndpointAccessProps.Builder.() -> Unit): CfnEndpointAccessProps =
+    CfnEndpointAccessProps.Builder.() -> Unit = {}): CfnEndpointAccessProps =
     CfnEndpointAccessProps.Builder().apply(initializer).build()

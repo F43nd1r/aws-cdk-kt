@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnConnectorProfile
 
 @Generated
 public fun buildConnectorProfileConfigProperty(initializer: @AwsCdkDsl
-    CfnConnectorProfile.ConnectorProfileConfigProperty.Builder.() -> Unit):
+    CfnConnectorProfile.ConnectorProfileConfigProperty.Builder.() -> Unit = {}):
     CfnConnectorProfile.ConnectorProfileConfigProperty =
     CfnConnectorProfile.ConnectorProfileConfigProperty.Builder().apply(initializer).build()

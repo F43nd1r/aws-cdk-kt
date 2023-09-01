@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.iot.CfnRoleAliasProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnRoleAlias(id: String, props: CfnRoleAliasProps): CfnRoleAlias =
-    CfnRoleAlias(this, id, props)
-
-@Generated
 public fun Construct.cfnRoleAlias(
   id: String,
   props: CfnRoleAliasProps,
-  initializer: @AwsCdkDsl CfnRoleAlias.() -> Unit,
+  initializer: @AwsCdkDsl CfnRoleAlias.() -> Unit = {},
 ): CfnRoleAlias = CfnRoleAlias(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnRoleAlias(id: String, initializer: @AwsCdkDsl
-    CfnRoleAlias.Builder.() -> Unit): CfnRoleAlias = CfnRoleAlias.Builder.create(this,
+    CfnRoleAlias.Builder.() -> Unit = {}): CfnRoleAlias = CfnRoleAlias.Builder.create(this,
     id).apply(initializer).build()

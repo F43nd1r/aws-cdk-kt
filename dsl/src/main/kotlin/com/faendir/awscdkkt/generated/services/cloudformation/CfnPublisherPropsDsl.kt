@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudformation.CfnPublisherProps
 
 @Generated
-public fun buildCfnPublisherProps(initializer: @AwsCdkDsl CfnPublisherProps.Builder.() -> Unit):
-    CfnPublisherProps = CfnPublisherProps.Builder().apply(initializer).build()
+public fun buildCfnPublisherProps(initializer: @AwsCdkDsl CfnPublisherProps.Builder.() -> Unit =
+    {}): CfnPublisherProps = CfnPublisherProps.Builder().apply(initializer).build()

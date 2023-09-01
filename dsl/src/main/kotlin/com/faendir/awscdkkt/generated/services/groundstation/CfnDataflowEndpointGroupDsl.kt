@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.groundstation.CfnDataflowEndpointGroupPro
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDataflowEndpointGroup(id: String, props: CfnDataflowEndpointGroupProps):
-    CfnDataflowEndpointGroup = CfnDataflowEndpointGroup(this, id, props)
-
-@Generated
 public fun Construct.cfnDataflowEndpointGroup(
   id: String,
   props: CfnDataflowEndpointGroupProps,
-  initializer: @AwsCdkDsl CfnDataflowEndpointGroup.() -> Unit,
+  initializer: @AwsCdkDsl CfnDataflowEndpointGroup.() -> Unit = {},
 ): CfnDataflowEndpointGroup = CfnDataflowEndpointGroup(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnDataflowEndpointGroup(id: String, initializer: @AwsCdkDsl
-    CfnDataflowEndpointGroup.Builder.() -> Unit): CfnDataflowEndpointGroup =
+    CfnDataflowEndpointGroup.Builder.() -> Unit = {}): CfnDataflowEndpointGroup =
     CfnDataflowEndpointGroup.Builder.create(this, id).apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ivs.CfnRecordingConfiguration
 
 @Generated
 public fun buildRenditionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnRecordingConfiguration.RenditionConfigurationProperty.Builder.() -> Unit):
+    CfnRecordingConfiguration.RenditionConfigurationProperty.Builder.() -> Unit = {}):
     CfnRecordingConfiguration.RenditionConfigurationProperty =
     CfnRecordingConfiguration.RenditionConfigurationProperty.Builder().apply(initializer).build()

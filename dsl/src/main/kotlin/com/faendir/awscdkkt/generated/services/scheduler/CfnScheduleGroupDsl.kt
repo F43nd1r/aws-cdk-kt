@@ -9,24 +9,18 @@ import software.amazon.awscdk.services.scheduler.CfnScheduleGroupProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnScheduleGroup(id: String): CfnScheduleGroup = CfnScheduleGroup(this, id)
-
-@Generated
 public fun Construct.cfnScheduleGroup(id: String, initializer: @AwsCdkDsl
-    CfnScheduleGroup.() -> Unit): CfnScheduleGroup = CfnScheduleGroup(this, id).apply(initializer)
-
-@Generated
-public fun Construct.cfnScheduleGroup(id: String, props: CfnScheduleGroupProps): CfnScheduleGroup =
-    CfnScheduleGroup(this, id, props)
+    CfnScheduleGroup.() -> Unit = {}): CfnScheduleGroup = CfnScheduleGroup(this,
+    id).apply(initializer)
 
 @Generated
 public fun Construct.cfnScheduleGroup(
   id: String,
   props: CfnScheduleGroupProps,
-  initializer: @AwsCdkDsl CfnScheduleGroup.() -> Unit,
+  initializer: @AwsCdkDsl CfnScheduleGroup.() -> Unit = {},
 ): CfnScheduleGroup = CfnScheduleGroup(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnScheduleGroup(id: String, initializer: @AwsCdkDsl
-    CfnScheduleGroup.Builder.() -> Unit): CfnScheduleGroup = CfnScheduleGroup.Builder.create(this,
-    id).apply(initializer).build()
+    CfnScheduleGroup.Builder.() -> Unit = {}): CfnScheduleGroup =
+    CfnScheduleGroup.Builder.create(this, id).apply(initializer).build()

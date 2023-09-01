@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.groundstation.CfnConfig
 
 @Generated
 public fun buildFrequencyProperty(initializer: @AwsCdkDsl
-    CfnConfig.FrequencyProperty.Builder.() -> Unit): CfnConfig.FrequencyProperty =
+    CfnConfig.FrequencyProperty.Builder.() -> Unit = {}): CfnConfig.FrequencyProperty =
     CfnConfig.FrequencyProperty.Builder().apply(initializer).build()

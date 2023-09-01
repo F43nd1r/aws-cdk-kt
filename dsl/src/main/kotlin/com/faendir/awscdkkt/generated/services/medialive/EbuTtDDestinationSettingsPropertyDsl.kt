@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildEbuTtDDestinationSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.EbuTtDDestinationSettingsProperty.Builder.() -> Unit):
+    CfnChannel.EbuTtDDestinationSettingsProperty.Builder.() -> Unit = {}):
     CfnChannel.EbuTtDDestinationSettingsProperty =
     CfnChannel.EbuTtDDestinationSettingsProperty.Builder().apply(initializer).build()

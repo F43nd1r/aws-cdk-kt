@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iotanalytics.CfnPipeline
 
 @Generated
 public fun buildDeviceRegistryEnrichProperty(initializer: @AwsCdkDsl
-    CfnPipeline.DeviceRegistryEnrichProperty.Builder.() -> Unit):
+    CfnPipeline.DeviceRegistryEnrichProperty.Builder.() -> Unit = {}):
     CfnPipeline.DeviceRegistryEnrichProperty =
     CfnPipeline.DeviceRegistryEnrichProperty.Builder().apply(initializer).build()

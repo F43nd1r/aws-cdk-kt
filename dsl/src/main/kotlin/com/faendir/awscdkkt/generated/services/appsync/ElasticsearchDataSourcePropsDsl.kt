@@ -13,5 +13,5 @@ import software.amazon.awscdk.services.appsync.ElasticsearchDataSourceProps
     "software.amazon.awscdk.services.appsync.ElasticsearchDataSourceProps is deprecated in CDK.")
 @Generated
 public fun buildElasticsearchDataSourceProps(initializer: @AwsCdkDsl
-    ElasticsearchDataSourceProps.Builder.() -> Unit): ElasticsearchDataSourceProps =
+    ElasticsearchDataSourceProps.Builder.() -> Unit = {}): ElasticsearchDataSourceProps =
     ElasticsearchDataSourceProps.Builder().apply(initializer).build()

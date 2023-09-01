@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.evidently.CfnExperiment
 
 @Generated
 public fun buildMetricGoalObjectProperty(initializer: @AwsCdkDsl
-    CfnExperiment.MetricGoalObjectProperty.Builder.() -> Unit):
+    CfnExperiment.MetricGoalObjectProperty.Builder.() -> Unit = {}):
     CfnExperiment.MetricGoalObjectProperty =
     CfnExperiment.MetricGoalObjectProperty.Builder().apply(initializer).build()

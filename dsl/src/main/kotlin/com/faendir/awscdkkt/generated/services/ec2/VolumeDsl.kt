@@ -9,15 +9,12 @@ import software.amazon.awscdk.services.ec2.VolumeProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.volume(id: String, props: VolumeProps): Volume = Volume(this, id, props)
-
-@Generated
 public fun Construct.volume(
   id: String,
   props: VolumeProps,
-  initializer: @AwsCdkDsl Volume.() -> Unit,
+  initializer: @AwsCdkDsl Volume.() -> Unit = {},
 ): Volume = Volume(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildVolume(id: String, initializer: @AwsCdkDsl Volume.Builder.() -> Unit):
-    Volume = Volume.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildVolume(id: String, initializer: @AwsCdkDsl Volume.Builder.() -> Unit =
+    {}): Volume = Volume.Builder.create(this, id).apply(initializer).build()

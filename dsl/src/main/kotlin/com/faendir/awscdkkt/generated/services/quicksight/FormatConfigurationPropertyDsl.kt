@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildFormatConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.FormatConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.FormatConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.FormatConfigurationProperty =
     CfnTemplate.FormatConfigurationProperty.Builder().apply(initializer).build()

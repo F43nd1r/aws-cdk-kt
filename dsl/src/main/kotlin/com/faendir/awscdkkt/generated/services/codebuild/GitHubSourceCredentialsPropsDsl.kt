@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codebuild.GitHubSourceCredentialsProps
 
 @Generated
 public fun buildGitHubSourceCredentialsProps(initializer: @AwsCdkDsl
-    GitHubSourceCredentialsProps.Builder.() -> Unit): GitHubSourceCredentialsProps =
+    GitHubSourceCredentialsProps.Builder.() -> Unit = {}): GitHubSourceCredentialsProps =
     GitHubSourceCredentialsProps.Builder().apply(initializer).build()

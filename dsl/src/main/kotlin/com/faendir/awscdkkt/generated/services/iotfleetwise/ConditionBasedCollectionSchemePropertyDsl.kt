@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iotfleetwise.CfnCampaign
 
 @Generated
 public fun buildConditionBasedCollectionSchemeProperty(initializer: @AwsCdkDsl
-    CfnCampaign.ConditionBasedCollectionSchemeProperty.Builder.() -> Unit):
+    CfnCampaign.ConditionBasedCollectionSchemeProperty.Builder.() -> Unit = {}):
     CfnCampaign.ConditionBasedCollectionSchemeProperty =
     CfnCampaign.ConditionBasedCollectionSchemeProperty.Builder().apply(initializer).build()

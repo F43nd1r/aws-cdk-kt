@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.CfnRuleAssertion
 
 @Generated
-public fun buildCfnRuleAssertion(initializer: @AwsCdkDsl CfnRuleAssertion.Builder.() -> Unit):
+public fun buildCfnRuleAssertion(initializer: @AwsCdkDsl CfnRuleAssertion.Builder.() -> Unit = {}):
     CfnRuleAssertion = CfnRuleAssertion.Builder().apply(initializer).build()

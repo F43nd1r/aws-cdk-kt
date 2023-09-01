@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
 public fun buildEcsEphemeralStorageProperty(initializer: @AwsCdkDsl
-    CfnPipe.EcsEphemeralStorageProperty.Builder.() -> Unit): CfnPipe.EcsEphemeralStorageProperty =
+    CfnPipe.EcsEphemeralStorageProperty.Builder.() -> Unit = {}):
+    CfnPipe.EcsEphemeralStorageProperty =
     CfnPipe.EcsEphemeralStorageProperty.Builder().apply(initializer).build()

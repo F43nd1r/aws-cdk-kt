@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.apigateway.LambdaRestApiProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.lambdaRestApi(id: String, props: LambdaRestApiProps): LambdaRestApi =
-    LambdaRestApi(this, id, props)
-
-@Generated
 public fun Construct.lambdaRestApi(
   id: String,
   props: LambdaRestApiProps,
-  initializer: @AwsCdkDsl LambdaRestApi.() -> Unit,
+  initializer: @AwsCdkDsl LambdaRestApi.() -> Unit = {},
 ): LambdaRestApi = LambdaRestApi(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildLambdaRestApi(id: String, initializer: @AwsCdkDsl
-    LambdaRestApi.Builder.() -> Unit): LambdaRestApi = LambdaRestApi.Builder.create(this,
+    LambdaRestApi.Builder.() -> Unit = {}): LambdaRestApi = LambdaRestApi.Builder.create(this,
     id).apply(initializer).build()

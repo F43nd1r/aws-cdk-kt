@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildAutomaticInputFailoverSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.AutomaticInputFailoverSettingsProperty.Builder.() -> Unit):
+    CfnChannel.AutomaticInputFailoverSettingsProperty.Builder.() -> Unit = {}):
     CfnChannel.AutomaticInputFailoverSettingsProperty =
     CfnChannel.AutomaticInputFailoverSettingsProperty.Builder().apply(initializer).build()

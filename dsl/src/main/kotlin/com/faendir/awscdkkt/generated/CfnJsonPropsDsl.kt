@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.CfnJsonProps
 
 @Generated
-public fun buildCfnJsonProps(initializer: @AwsCdkDsl CfnJsonProps.Builder.() -> Unit): CfnJsonProps
-    = CfnJsonProps.Builder().apply(initializer).build()
+public fun buildCfnJsonProps(initializer: @AwsCdkDsl CfnJsonProps.Builder.() -> Unit = {}):
+    CfnJsonProps = CfnJsonProps.Builder().apply(initializer).build()

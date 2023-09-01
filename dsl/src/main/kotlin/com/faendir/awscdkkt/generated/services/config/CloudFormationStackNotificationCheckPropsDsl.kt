@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.config.CloudFormationStackNotificationChe
 
 @Generated
 public fun buildCloudFormationStackNotificationCheckProps(initializer: @AwsCdkDsl
-    CloudFormationStackNotificationCheckProps.Builder.() -> Unit):
+    CloudFormationStackNotificationCheckProps.Builder.() -> Unit = {}):
     CloudFormationStackNotificationCheckProps =
     CloudFormationStackNotificationCheckProps.Builder().apply(initializer).build()

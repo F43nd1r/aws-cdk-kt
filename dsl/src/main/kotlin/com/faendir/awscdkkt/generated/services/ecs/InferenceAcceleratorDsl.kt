@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.InferenceAccelerator
 
 @Generated
-public fun buildInferenceAccelerator(initializer: @AwsCdkDsl
-    InferenceAccelerator.Builder.() -> Unit): InferenceAccelerator =
-    InferenceAccelerator.Builder().apply(initializer).build()
+public fun buildInferenceAccelerator(initializer: @AwsCdkDsl InferenceAccelerator.Builder.() -> Unit
+    = {}): InferenceAccelerator = InferenceAccelerator.Builder().apply(initializer).build()

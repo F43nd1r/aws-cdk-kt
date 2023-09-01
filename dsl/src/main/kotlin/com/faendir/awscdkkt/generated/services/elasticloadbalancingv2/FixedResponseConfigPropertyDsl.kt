@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.CfnListenerRule
 
 @Generated
 public fun buildFixedResponseConfigProperty(initializer: @AwsCdkDsl
-    CfnListenerRule.FixedResponseConfigProperty.Builder.() -> Unit):
+    CfnListenerRule.FixedResponseConfigProperty.Builder.() -> Unit = {}):
     CfnListenerRule.FixedResponseConfigProperty =
     CfnListenerRule.FixedResponseConfigProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.pinpoint.CfnSegment
 
 @Generated
 public fun buildGPSPointProperty(initializer: @AwsCdkDsl
-    CfnSegment.GPSPointProperty.Builder.() -> Unit): CfnSegment.GPSPointProperty =
+    CfnSegment.GPSPointProperty.Builder.() -> Unit = {}): CfnSegment.GPSPointProperty =
     CfnSegment.GPSPointProperty.Builder().apply(initializer).build()

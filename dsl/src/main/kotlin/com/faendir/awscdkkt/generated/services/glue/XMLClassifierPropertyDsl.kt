@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.glue.CfnClassifier
 
 @Generated
 public fun buildXMLClassifierProperty(initializer: @AwsCdkDsl
-    CfnClassifier.XMLClassifierProperty.Builder.() -> Unit): CfnClassifier.XMLClassifierProperty =
+    CfnClassifier.XMLClassifierProperty.Builder.() -> Unit = {}):
+    CfnClassifier.XMLClassifierProperty =
     CfnClassifier.XMLClassifierProperty.Builder().apply(initializer).build()

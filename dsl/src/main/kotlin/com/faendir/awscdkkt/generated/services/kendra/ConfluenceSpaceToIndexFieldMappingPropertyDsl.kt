@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kendra.CfnDataSource
 
 @Generated
 public fun buildConfluenceSpaceToIndexFieldMappingProperty(initializer: @AwsCdkDsl
-    CfnDataSource.ConfluenceSpaceToIndexFieldMappingProperty.Builder.() -> Unit):
+    CfnDataSource.ConfluenceSpaceToIndexFieldMappingProperty.Builder.() -> Unit = {}):
     CfnDataSource.ConfluenceSpaceToIndexFieldMappingProperty =
     CfnDataSource.ConfluenceSpaceToIndexFieldMappingProperty.Builder().apply(initializer).build()

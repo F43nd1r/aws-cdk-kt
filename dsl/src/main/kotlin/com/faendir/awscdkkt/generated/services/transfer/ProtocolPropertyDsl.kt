@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.transfer.CfnServer
 
 @Generated
 public fun buildProtocolProperty(initializer: @AwsCdkDsl
-    CfnServer.ProtocolProperty.Builder.() -> Unit): CfnServer.ProtocolProperty =
+    CfnServer.ProtocolProperty.Builder.() -> Unit = {}): CfnServer.ProtocolProperty =
     CfnServer.ProtocolProperty.Builder().apply(initializer).build()

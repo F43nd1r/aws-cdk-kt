@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.BuildImageConfig
 
 @Generated
-public fun buildBuildImageConfig(initializer: @AwsCdkDsl BuildImageConfig.Builder.() -> Unit):
+public fun buildBuildImageConfig(initializer: @AwsCdkDsl BuildImageConfig.Builder.() -> Unit = {}):
     BuildImageConfig = BuildImageConfig.Builder().apply(initializer).build()

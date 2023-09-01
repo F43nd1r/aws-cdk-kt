@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.imagebuilder.CfnInfrastructureConfigurati
 
 @Generated
 public fun buildInstanceMetadataOptionsProperty(initializer: @AwsCdkDsl
-    CfnInfrastructureConfiguration.InstanceMetadataOptionsProperty.Builder.() -> Unit):
+    CfnInfrastructureConfiguration.InstanceMetadataOptionsProperty.Builder.() -> Unit = {}):
     CfnInfrastructureConfiguration.InstanceMetadataOptionsProperty =
     CfnInfrastructureConfiguration.InstanceMetadataOptionsProperty.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ssm.CfnPatchBaselineProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnPatchBaseline(id: String, props: CfnPatchBaselineProps): CfnPatchBaseline =
-    CfnPatchBaseline(this, id, props)
-
-@Generated
 public fun Construct.cfnPatchBaseline(
   id: String,
   props: CfnPatchBaselineProps,
-  initializer: @AwsCdkDsl CfnPatchBaseline.() -> Unit,
+  initializer: @AwsCdkDsl CfnPatchBaseline.() -> Unit = {},
 ): CfnPatchBaseline = CfnPatchBaseline(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnPatchBaseline(id: String, initializer: @AwsCdkDsl
-    CfnPatchBaseline.Builder.() -> Unit): CfnPatchBaseline = CfnPatchBaseline.Builder.create(this,
-    id).apply(initializer).build()
+    CfnPatchBaseline.Builder.() -> Unit = {}): CfnPatchBaseline =
+    CfnPatchBaseline.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticache.CfnCacheClusterProps
 
 @Generated
-public fun buildCfnCacheClusterProps(initializer: @AwsCdkDsl
-    CfnCacheClusterProps.Builder.() -> Unit): CfnCacheClusterProps =
-    CfnCacheClusterProps.Builder().apply(initializer).build()
+public fun buildCfnCacheClusterProps(initializer: @AwsCdkDsl CfnCacheClusterProps.Builder.() -> Unit
+    = {}): CfnCacheClusterProps = CfnCacheClusterProps.Builder().apply(initializer).build()

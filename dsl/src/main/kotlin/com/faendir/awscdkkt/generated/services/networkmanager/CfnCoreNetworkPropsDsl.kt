@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkmanager.CfnCoreNetworkProps
 
 @Generated
-public fun buildCfnCoreNetworkProps(initializer: @AwsCdkDsl CfnCoreNetworkProps.Builder.() -> Unit):
-    CfnCoreNetworkProps = CfnCoreNetworkProps.Builder().apply(initializer).build()
+public fun buildCfnCoreNetworkProps(initializer: @AwsCdkDsl CfnCoreNetworkProps.Builder.() -> Unit =
+    {}): CfnCoreNetworkProps = CfnCoreNetworkProps.Builder().apply(initializer).build()

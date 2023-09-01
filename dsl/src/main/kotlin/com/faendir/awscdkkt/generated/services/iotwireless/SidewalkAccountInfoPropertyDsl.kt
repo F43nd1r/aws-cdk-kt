@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iotwireless.CfnPartnerAccount
 
 @Generated
 public fun buildSidewalkAccountInfoProperty(initializer: @AwsCdkDsl
-    CfnPartnerAccount.SidewalkAccountInfoProperty.Builder.() -> Unit):
+    CfnPartnerAccount.SidewalkAccountInfoProperty.Builder.() -> Unit = {}):
     CfnPartnerAccount.SidewalkAccountInfoProperty =
     CfnPartnerAccount.SidewalkAccountInfoProperty.Builder().apply(initializer).build()

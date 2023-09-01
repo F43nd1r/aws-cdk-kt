@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.stepfunctions.tasks.AthenaGetQueryExecuti
 import software.constructs.Construct
 
 @Generated
-public fun Construct.athenaGetQueryExecution(id: String, props: AthenaGetQueryExecutionProps):
-    AthenaGetQueryExecution = AthenaGetQueryExecution(this, id, props)
-
-@Generated
 public fun Construct.athenaGetQueryExecution(
   id: String,
   props: AthenaGetQueryExecutionProps,
-  initializer: @AwsCdkDsl AthenaGetQueryExecution.() -> Unit,
+  initializer: @AwsCdkDsl AthenaGetQueryExecution.() -> Unit = {},
 ): AthenaGetQueryExecution = AthenaGetQueryExecution(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildAthenaGetQueryExecution(id: String, initializer: @AwsCdkDsl
-    AthenaGetQueryExecution.Builder.() -> Unit): AthenaGetQueryExecution =
+    AthenaGetQueryExecution.Builder.() -> Unit = {}): AthenaGetQueryExecution =
     AthenaGetQueryExecution.Builder.create(this, id).apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.route53recoveryreadiness.CfnReadinessChec
 
 @Generated
 public fun buildCfnReadinessCheckProps(initializer: @AwsCdkDsl
-    CfnReadinessCheckProps.Builder.() -> Unit): CfnReadinessCheckProps =
+    CfnReadinessCheckProps.Builder.() -> Unit = {}): CfnReadinessCheckProps =
     CfnReadinessCheckProps.Builder().apply(initializer).build()

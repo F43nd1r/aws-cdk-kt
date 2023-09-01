@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.greengrassv2.CfnDeployment
 
 @Generated
 public fun buildComponentDeploymentSpecificationProperty(initializer: @AwsCdkDsl
-    CfnDeployment.ComponentDeploymentSpecificationProperty.Builder.() -> Unit):
+    CfnDeployment.ComponentDeploymentSpecificationProperty.Builder.() -> Unit = {}):
     CfnDeployment.ComponentDeploymentSpecificationProperty =
     CfnDeployment.ComponentDeploymentSpecificationProperty.Builder().apply(initializer).build()

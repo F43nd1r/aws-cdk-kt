@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EmrCreateCluster
 
 @Generated
 public fun buildInstanceFleetProvisioningSpecificationsProperty(initializer: @AwsCdkDsl
-    EmrCreateCluster.InstanceFleetProvisioningSpecificationsProperty.Builder.() -> Unit):
+    EmrCreateCluster.InstanceFleetProvisioningSpecificationsProperty.Builder.() -> Unit = {}):
     EmrCreateCluster.InstanceFleetProvisioningSpecificationsProperty =
     EmrCreateCluster.InstanceFleetProvisioningSpecificationsProperty.Builder().apply(initializer).build()

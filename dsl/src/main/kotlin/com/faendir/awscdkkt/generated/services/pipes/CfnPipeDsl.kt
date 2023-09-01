@@ -9,15 +9,12 @@ import software.amazon.awscdk.services.pipes.CfnPipeProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnPipe(id: String, props: CfnPipeProps): CfnPipe = CfnPipe(this, id, props)
-
-@Generated
 public fun Construct.cfnPipe(
   id: String,
   props: CfnPipeProps,
-  initializer: @AwsCdkDsl CfnPipe.() -> Unit,
+  initializer: @AwsCdkDsl CfnPipe.() -> Unit = {},
 ): CfnPipe = CfnPipe(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPipe(id: String, initializer: @AwsCdkDsl CfnPipe.Builder.() -> Unit):
-    CfnPipe = CfnPipe.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPipe(id: String, initializer: @AwsCdkDsl CfnPipe.Builder.() -> Unit =
+    {}): CfnPipe = CfnPipe.Builder.create(this, id).apply(initializer).build()

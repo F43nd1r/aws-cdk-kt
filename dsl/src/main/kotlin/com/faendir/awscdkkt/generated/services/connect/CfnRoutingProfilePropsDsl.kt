@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.connect.CfnRoutingProfileProps
 
 @Generated
 public fun buildCfnRoutingProfileProps(initializer: @AwsCdkDsl
-    CfnRoutingProfileProps.Builder.() -> Unit): CfnRoutingProfileProps =
+    CfnRoutingProfileProps.Builder.() -> Unit = {}): CfnRoutingProfileProps =
     CfnRoutingProfileProps.Builder().apply(initializer).build()

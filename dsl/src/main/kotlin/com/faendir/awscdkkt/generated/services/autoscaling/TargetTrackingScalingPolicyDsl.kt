@@ -9,18 +9,13 @@ import software.amazon.awscdk.services.autoscaling.TargetTrackingScalingPolicyPr
 import software.constructs.Construct
 
 @Generated
-public fun Construct.targetTrackingScalingPolicy(id: String,
-    props: TargetTrackingScalingPolicyProps): TargetTrackingScalingPolicy =
-    TargetTrackingScalingPolicy(this, id, props)
-
-@Generated
 public fun Construct.targetTrackingScalingPolicy(
   id: String,
   props: TargetTrackingScalingPolicyProps,
-  initializer: @AwsCdkDsl TargetTrackingScalingPolicy.() -> Unit,
+  initializer: @AwsCdkDsl TargetTrackingScalingPolicy.() -> Unit = {},
 ): TargetTrackingScalingPolicy = TargetTrackingScalingPolicy(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildTargetTrackingScalingPolicy(id: String, initializer: @AwsCdkDsl
-    TargetTrackingScalingPolicy.Builder.() -> Unit): TargetTrackingScalingPolicy =
+    TargetTrackingScalingPolicy.Builder.() -> Unit = {}): TargetTrackingScalingPolicy =
     TargetTrackingScalingPolicy.Builder.create(this, id).apply(initializer).build()

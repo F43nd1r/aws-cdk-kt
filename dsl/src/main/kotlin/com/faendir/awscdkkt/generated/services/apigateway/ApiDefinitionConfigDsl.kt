@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.ApiDefinitionConfig
 
 @Generated
-public fun buildApiDefinitionConfig(initializer: @AwsCdkDsl ApiDefinitionConfig.Builder.() -> Unit):
-    ApiDefinitionConfig = ApiDefinitionConfig.Builder().apply(initializer).build()
+public fun buildApiDefinitionConfig(initializer: @AwsCdkDsl ApiDefinitionConfig.Builder.() -> Unit =
+    {}): ApiDefinitionConfig = ApiDefinitionConfig.Builder().apply(initializer).build()

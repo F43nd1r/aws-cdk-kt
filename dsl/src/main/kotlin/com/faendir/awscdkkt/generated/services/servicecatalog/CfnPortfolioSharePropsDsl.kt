@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.servicecatalog.CfnPortfolioShareProps
 
 @Generated
 public fun buildCfnPortfolioShareProps(initializer: @AwsCdkDsl
-    CfnPortfolioShareProps.Builder.() -> Unit): CfnPortfolioShareProps =
+    CfnPortfolioShareProps.Builder.() -> Unit = {}): CfnPortfolioShareProps =
     CfnPortfolioShareProps.Builder().apply(initializer).build()

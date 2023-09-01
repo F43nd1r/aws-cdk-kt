@@ -7,5 +7,5 @@ import software.amazon.awscdk.AssetManifestFileDestination
 
 @Generated
 public fun buildAssetManifestFileDestination(initializer: @AwsCdkDsl
-    AssetManifestFileDestination.Builder.() -> Unit): AssetManifestFileDestination =
+    AssetManifestFileDestination.Builder.() -> Unit = {}): AssetManifestFileDestination =
     AssetManifestFileDestination.Builder().apply(initializer).build()

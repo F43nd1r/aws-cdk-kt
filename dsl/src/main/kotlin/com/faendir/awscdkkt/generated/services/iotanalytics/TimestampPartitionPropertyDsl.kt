@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iotanalytics.CfnDatastore
 
 @Generated
 public fun buildTimestampPartitionProperty(initializer: @AwsCdkDsl
-    CfnDatastore.TimestampPartitionProperty.Builder.() -> Unit):
+    CfnDatastore.TimestampPartitionProperty.Builder.() -> Unit = {}):
     CfnDatastore.TimestampPartitionProperty =
     CfnDatastore.TimestampPartitionProperty.Builder().apply(initializer).build()

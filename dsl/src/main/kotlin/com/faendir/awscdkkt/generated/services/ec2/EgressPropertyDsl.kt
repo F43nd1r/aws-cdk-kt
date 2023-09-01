@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.CfnSecurityGroup
 
 @Generated
 public fun buildEgressProperty(initializer: @AwsCdkDsl
-    CfnSecurityGroup.EgressProperty.Builder.() -> Unit): CfnSecurityGroup.EgressProperty =
+    CfnSecurityGroup.EgressProperty.Builder.() -> Unit = {}): CfnSecurityGroup.EgressProperty =
     CfnSecurityGroup.EgressProperty.Builder().apply(initializer).build()

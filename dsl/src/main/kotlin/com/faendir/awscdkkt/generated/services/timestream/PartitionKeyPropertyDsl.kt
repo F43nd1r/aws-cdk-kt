@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.timestream.CfnTable
 
 @Generated
 public fun buildPartitionKeyProperty(initializer: @AwsCdkDsl
-    CfnTable.PartitionKeyProperty.Builder.() -> Unit): CfnTable.PartitionKeyProperty =
+    CfnTable.PartitionKeyProperty.Builder.() -> Unit = {}): CfnTable.PartitionKeyProperty =
     CfnTable.PartitionKeyProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appmesh.CfnGatewayRoute
 
 @Generated
 public fun buildHttpGatewayRouteMatchProperty(initializer: @AwsCdkDsl
-    CfnGatewayRoute.HttpGatewayRouteMatchProperty.Builder.() -> Unit):
+    CfnGatewayRoute.HttpGatewayRouteMatchProperty.Builder.() -> Unit = {}):
     CfnGatewayRoute.HttpGatewayRouteMatchProperty =
     CfnGatewayRoute.HttpGatewayRouteMatchProperty.Builder().apply(initializer).build()

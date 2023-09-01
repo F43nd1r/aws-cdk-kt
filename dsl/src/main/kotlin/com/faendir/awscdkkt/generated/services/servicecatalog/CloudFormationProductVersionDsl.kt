@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.servicecatalog.CloudFormationProductVersi
 
 @Generated
 public fun buildCloudFormationProductVersion(initializer: @AwsCdkDsl
-    CloudFormationProductVersion.Builder.() -> Unit): CloudFormationProductVersion =
+    CloudFormationProductVersion.Builder.() -> Unit = {}): CloudFormationProductVersion =
     CloudFormationProductVersion.Builder().apply(initializer).build()

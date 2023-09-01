@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ec2.CfnIPAMScopeProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnIPAMScope(id: String, props: CfnIPAMScopeProps): CfnIPAMScope =
-    CfnIPAMScope(this, id, props)
-
-@Generated
 public fun Construct.cfnIPAMScope(
   id: String,
   props: CfnIPAMScopeProps,
-  initializer: @AwsCdkDsl CfnIPAMScope.() -> Unit,
+  initializer: @AwsCdkDsl CfnIPAMScope.() -> Unit = {},
 ): CfnIPAMScope = CfnIPAMScope(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnIPAMScope(id: String, initializer: @AwsCdkDsl
-    CfnIPAMScope.Builder.() -> Unit): CfnIPAMScope = CfnIPAMScope.Builder.create(this,
+    CfnIPAMScope.Builder.() -> Unit = {}): CfnIPAMScope = CfnIPAMScope.Builder.create(this,
     id).apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnInferenceExperiment
 
 @Generated
 public fun buildCaptureContentTypeHeaderProperty(initializer: @AwsCdkDsl
-    CfnInferenceExperiment.CaptureContentTypeHeaderProperty.Builder.() -> Unit):
+    CfnInferenceExperiment.CaptureContentTypeHeaderProperty.Builder.() -> Unit = {}):
     CfnInferenceExperiment.CaptureContentTypeHeaderProperty =
     CfnInferenceExperiment.CaptureContentTypeHeaderProperty.Builder().apply(initializer).build()

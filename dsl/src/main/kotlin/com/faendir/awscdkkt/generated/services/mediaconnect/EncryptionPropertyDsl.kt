@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.mediaconnect.CfnFlowSource
 
 @Generated
 public fun buildEncryptionProperty(initializer: @AwsCdkDsl
-    CfnFlowSource.EncryptionProperty.Builder.() -> Unit): CfnFlowSource.EncryptionProperty =
+    CfnFlowSource.EncryptionProperty.Builder.() -> Unit = {}): CfnFlowSource.EncryptionProperty =
     CfnFlowSource.EncryptionProperty.Builder().apply(initializer).build()

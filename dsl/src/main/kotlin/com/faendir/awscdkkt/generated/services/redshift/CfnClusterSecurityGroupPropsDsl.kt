@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.redshift.CfnClusterSecurityGroupProps
 
 @Generated
 public fun buildCfnClusterSecurityGroupProps(initializer: @AwsCdkDsl
-    CfnClusterSecurityGroupProps.Builder.() -> Unit): CfnClusterSecurityGroupProps =
+    CfnClusterSecurityGroupProps.Builder.() -> Unit = {}): CfnClusterSecurityGroupProps =
     CfnClusterSecurityGroupProps.Builder().apply(initializer).build()

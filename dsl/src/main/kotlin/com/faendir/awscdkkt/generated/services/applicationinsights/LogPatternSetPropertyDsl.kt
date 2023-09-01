@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.applicationinsights.CfnApplication
 
 @Generated
 public fun buildLogPatternSetProperty(initializer: @AwsCdkDsl
-    CfnApplication.LogPatternSetProperty.Builder.() -> Unit): CfnApplication.LogPatternSetProperty =
+    CfnApplication.LogPatternSetProperty.Builder.() -> Unit = {}):
+    CfnApplication.LogPatternSetProperty =
     CfnApplication.LogPatternSetProperty.Builder().apply(initializer).build()

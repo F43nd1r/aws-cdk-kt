@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.S3SourceProps
 
 @Generated
-public fun buildS3SourceProps(initializer: @AwsCdkDsl S3SourceProps.Builder.() -> Unit):
+public fun buildS3SourceProps(initializer: @AwsCdkDsl S3SourceProps.Builder.() -> Unit = {}):
     S3SourceProps = S3SourceProps.Builder().apply(initializer).build()

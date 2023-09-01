@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ec2.VpnConnectionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.vpnConnection(id: String, props: VpnConnectionProps): VpnConnection =
-    VpnConnection(this, id, props)
-
-@Generated
 public fun Construct.vpnConnection(
   id: String,
   props: VpnConnectionProps,
-  initializer: @AwsCdkDsl VpnConnection.() -> Unit,
+  initializer: @AwsCdkDsl VpnConnection.() -> Unit = {},
 ): VpnConnection = VpnConnection(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildVpnConnection(id: String, initializer: @AwsCdkDsl
-    VpnConnection.Builder.() -> Unit): VpnConnection = VpnConnection.Builder.create(this,
+    VpnConnection.Builder.() -> Unit = {}): VpnConnection = VpnConnection.Builder.create(this,
     id).apply(initializer).build()

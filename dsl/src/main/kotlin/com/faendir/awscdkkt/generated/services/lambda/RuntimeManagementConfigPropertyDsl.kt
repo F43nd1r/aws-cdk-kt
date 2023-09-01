@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lambda.CfnFunction
 
 @Generated
 public fun buildRuntimeManagementConfigProperty(initializer: @AwsCdkDsl
-    CfnFunction.RuntimeManagementConfigProperty.Builder.() -> Unit):
+    CfnFunction.RuntimeManagementConfigProperty.Builder.() -> Unit = {}):
     CfnFunction.RuntimeManagementConfigProperty =
     CfnFunction.RuntimeManagementConfigProperty.Builder().apply(initializer).build()

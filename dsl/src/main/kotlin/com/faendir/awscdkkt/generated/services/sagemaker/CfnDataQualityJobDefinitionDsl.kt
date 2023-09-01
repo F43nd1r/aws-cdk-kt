@@ -9,18 +9,13 @@ import software.amazon.awscdk.services.sagemaker.CfnDataQualityJobDefinitionProp
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDataQualityJobDefinition(id: String,
-    props: CfnDataQualityJobDefinitionProps): CfnDataQualityJobDefinition =
-    CfnDataQualityJobDefinition(this, id, props)
-
-@Generated
 public fun Construct.cfnDataQualityJobDefinition(
   id: String,
   props: CfnDataQualityJobDefinitionProps,
-  initializer: @AwsCdkDsl CfnDataQualityJobDefinition.() -> Unit,
+  initializer: @AwsCdkDsl CfnDataQualityJobDefinition.() -> Unit = {},
 ): CfnDataQualityJobDefinition = CfnDataQualityJobDefinition(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnDataQualityJobDefinition(id: String, initializer: @AwsCdkDsl
-    CfnDataQualityJobDefinition.Builder.() -> Unit): CfnDataQualityJobDefinition =
+    CfnDataQualityJobDefinition.Builder.() -> Unit = {}): CfnDataQualityJobDefinition =
     CfnDataQualityJobDefinition.Builder.create(this, id).apply(initializer).build()

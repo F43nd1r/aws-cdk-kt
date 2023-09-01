@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.MethodResponse
 
 @Generated
-public fun buildMethodResponse(initializer: @AwsCdkDsl MethodResponse.Builder.() -> Unit):
+public fun buildMethodResponse(initializer: @AwsCdkDsl MethodResponse.Builder.() -> Unit = {}):
     MethodResponse = MethodResponse.Builder().apply(initializer).build()

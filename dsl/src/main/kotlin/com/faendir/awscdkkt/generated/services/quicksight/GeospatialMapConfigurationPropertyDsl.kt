@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildGeospatialMapConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.GeospatialMapConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.GeospatialMapConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.GeospatialMapConfigurationProperty =
     CfnTemplate.GeospatialMapConfigurationProperty.Builder().apply(initializer).build()

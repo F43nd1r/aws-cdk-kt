@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.NestedStackProps
 
 @Generated
-public fun buildNestedStackProps(initializer: @AwsCdkDsl NestedStackProps.Builder.() -> Unit):
+public fun buildNestedStackProps(initializer: @AwsCdkDsl NestedStackProps.Builder.() -> Unit = {}):
     NestedStackProps = NestedStackProps.Builder().apply(initializer).build()

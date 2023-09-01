@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.HeaderMatchConfig
 
 @Generated
-public fun buildHeaderMatchConfig(initializer: @AwsCdkDsl HeaderMatchConfig.Builder.() -> Unit):
-    HeaderMatchConfig = HeaderMatchConfig.Builder().apply(initializer).build()
+public fun buildHeaderMatchConfig(initializer: @AwsCdkDsl HeaderMatchConfig.Builder.() -> Unit =
+    {}): HeaderMatchConfig = HeaderMatchConfig.Builder().apply(initializer).build()

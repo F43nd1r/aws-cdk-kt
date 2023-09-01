@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.nimblestudio.CfnStudio
 
 @Generated
 public fun buildStudioEncryptionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnStudio.StudioEncryptionConfigurationProperty.Builder.() -> Unit):
+    CfnStudio.StudioEncryptionConfigurationProperty.Builder.() -> Unit = {}):
     CfnStudio.StudioEncryptionConfigurationProperty =
     CfnStudio.StudioEncryptionConfigurationProperty.Builder().apply(initializer).build()

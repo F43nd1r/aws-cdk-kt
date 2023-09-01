@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildDvbSubSourceSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.DvbSubSourceSettingsProperty.Builder.() -> Unit):
+    CfnChannel.DvbSubSourceSettingsProperty.Builder.() -> Unit = {}):
     CfnChannel.DvbSubSourceSettingsProperty =
     CfnChannel.DvbSubSourceSettingsProperty.Builder().apply(initializer).build()

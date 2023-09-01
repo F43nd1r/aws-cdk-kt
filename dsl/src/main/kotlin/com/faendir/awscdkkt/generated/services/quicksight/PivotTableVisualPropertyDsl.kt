@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildPivotTableVisualProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PivotTableVisualProperty.Builder.() -> Unit): CfnTemplate.PivotTableVisualProperty =
+    CfnTemplate.PivotTableVisualProperty.Builder.() -> Unit = {}):
+    CfnTemplate.PivotTableVisualProperty =
     CfnTemplate.PivotTableVisualProperty.Builder().apply(initializer).build()

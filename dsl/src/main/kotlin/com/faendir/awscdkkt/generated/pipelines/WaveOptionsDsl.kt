@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.pipelines.WaveOptions
 
 @Generated
-public fun buildWaveOptions(initializer: @AwsCdkDsl WaveOptions.Builder.() -> Unit): WaveOptions =
-    WaveOptions.Builder().apply(initializer).build()
+public fun buildWaveOptions(initializer: @AwsCdkDsl WaveOptions.Builder.() -> Unit = {}):
+    WaveOptions = WaveOptions.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.stepfunctions.tasks.CodeBuildStartBuildPr
 import software.constructs.Construct
 
 @Generated
-public fun Construct.codeBuildStartBuild(id: String, props: CodeBuildStartBuildProps):
-    CodeBuildStartBuild = CodeBuildStartBuild(this, id, props)
-
-@Generated
 public fun Construct.codeBuildStartBuild(
   id: String,
   props: CodeBuildStartBuildProps,
-  initializer: @AwsCdkDsl CodeBuildStartBuild.() -> Unit,
+  initializer: @AwsCdkDsl CodeBuildStartBuild.() -> Unit = {},
 ): CodeBuildStartBuild = CodeBuildStartBuild(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCodeBuildStartBuild(id: String, initializer: @AwsCdkDsl
-    CodeBuildStartBuild.Builder.() -> Unit): CodeBuildStartBuild =
+    CodeBuildStartBuild.Builder.() -> Unit = {}): CodeBuildStartBuild =
     CodeBuildStartBuild.Builder.create(this, id).apply(initializer).build()

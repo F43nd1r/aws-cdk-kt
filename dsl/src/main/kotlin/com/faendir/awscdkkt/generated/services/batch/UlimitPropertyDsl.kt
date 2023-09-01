@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
 public fun buildUlimitProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.UlimitProperty.Builder.() -> Unit): CfnJobDefinition.UlimitProperty =
+    CfnJobDefinition.UlimitProperty.Builder.() -> Unit = {}): CfnJobDefinition.UlimitProperty =
     CfnJobDefinition.UlimitProperty.Builder().apply(initializer).build()

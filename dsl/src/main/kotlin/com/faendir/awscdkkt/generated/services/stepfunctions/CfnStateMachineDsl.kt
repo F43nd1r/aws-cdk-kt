@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.stepfunctions.CfnStateMachineProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnStateMachine(id: String, props: CfnStateMachineProps): CfnStateMachine =
-    CfnStateMachine(this, id, props)
-
-@Generated
 public fun Construct.cfnStateMachine(
   id: String,
   props: CfnStateMachineProps,
-  initializer: @AwsCdkDsl CfnStateMachine.() -> Unit,
+  initializer: @AwsCdkDsl CfnStateMachine.() -> Unit = {},
 ): CfnStateMachine = CfnStateMachine(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnStateMachine(id: String, initializer: @AwsCdkDsl
-    CfnStateMachine.Builder.() -> Unit): CfnStateMachine = CfnStateMachine.Builder.create(this,
+    CfnStateMachine.Builder.() -> Unit = {}): CfnStateMachine = CfnStateMachine.Builder.create(this,
     id).apply(initializer).build()

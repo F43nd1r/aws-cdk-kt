@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
 public fun buildPlainTextMessageProperty(initializer: @AwsCdkDsl
-    CfnBot.PlainTextMessageProperty.Builder.() -> Unit): CfnBot.PlainTextMessageProperty =
+    CfnBot.PlainTextMessageProperty.Builder.() -> Unit = {}): CfnBot.PlainTextMessageProperty =
     CfnBot.PlainTextMessageProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.efs.PosixUser
 
 @Generated
-public fun buildPosixUser(initializer: @AwsCdkDsl PosixUser.Builder.() -> Unit): PosixUser =
+public fun buildPosixUser(initializer: @AwsCdkDsl PosixUser.Builder.() -> Unit = {}): PosixUser =
     PosixUser.Builder().apply(initializer).build()

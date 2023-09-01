@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.redshift.CfnClusterSubnetGroupProps
 
 @Generated
 public fun buildCfnClusterSubnetGroupProps(initializer: @AwsCdkDsl
-    CfnClusterSubnetGroupProps.Builder.() -> Unit): CfnClusterSubnetGroupProps =
+    CfnClusterSubnetGroupProps.Builder.() -> Unit = {}): CfnClusterSubnetGroupProps =
     CfnClusterSubnetGroupProps.Builder().apply(initializer).build()

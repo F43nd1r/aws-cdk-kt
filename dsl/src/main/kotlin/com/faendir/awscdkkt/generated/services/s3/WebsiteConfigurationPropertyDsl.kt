@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
 public fun buildWebsiteConfigurationProperty(initializer: @AwsCdkDsl
-    CfnBucket.WebsiteConfigurationProperty.Builder.() -> Unit):
+    CfnBucket.WebsiteConfigurationProperty.Builder.() -> Unit = {}):
     CfnBucket.WebsiteConfigurationProperty =
     CfnBucket.WebsiteConfigurationProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVPCProps
 
 @Generated
-public fun buildCfnVPCProps(initializer: @AwsCdkDsl CfnVPCProps.Builder.() -> Unit): CfnVPCProps =
-    CfnVPCProps.Builder().apply(initializer).build()
+public fun buildCfnVPCProps(initializer: @AwsCdkDsl CfnVPCProps.Builder.() -> Unit = {}):
+    CfnVPCProps = CfnVPCProps.Builder().apply(initializer).build()

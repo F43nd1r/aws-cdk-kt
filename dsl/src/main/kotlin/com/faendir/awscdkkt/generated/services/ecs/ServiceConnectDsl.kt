@@ -8,5 +8,5 @@ import software.amazon.awscdk.services.ecs.ServiceConnect
 
 @Generated
 public fun buildServiceConnect(networkmode: NetworkMode, initializer: @AwsCdkDsl
-    ServiceConnect.Builder.() -> Unit): ServiceConnect =
+    ServiceConnect.Builder.() -> Unit = {}): ServiceConnect =
     ServiceConnect.Builder.create(networkmode).apply(initializer).build()

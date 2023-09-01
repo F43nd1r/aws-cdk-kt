@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.autoscaling.MetricTargetTrackingProps
 
 @Generated
 public fun buildMetricTargetTrackingProps(initializer: @AwsCdkDsl
-    MetricTargetTrackingProps.Builder.() -> Unit): MetricTargetTrackingProps =
+    MetricTargetTrackingProps.Builder.() -> Unit = {}): MetricTargetTrackingProps =
     MetricTargetTrackingProps.Builder().apply(initializer).build()

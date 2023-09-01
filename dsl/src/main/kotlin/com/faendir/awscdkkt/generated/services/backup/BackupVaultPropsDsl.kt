@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.backup.BackupVaultProps
 
 @Generated
-public fun buildBackupVaultProps(initializer: @AwsCdkDsl BackupVaultProps.Builder.() -> Unit):
+public fun buildBackupVaultProps(initializer: @AwsCdkDsl BackupVaultProps.Builder.() -> Unit = {}):
     BackupVaultProps = BackupVaultProps.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.certificatemanager.PrivateCertificateProp
 
 @Generated
 public fun buildPrivateCertificateProps(initializer: @AwsCdkDsl
-    PrivateCertificateProps.Builder.() -> Unit): PrivateCertificateProps =
+    PrivateCertificateProps.Builder.() -> Unit = {}): PrivateCertificateProps =
     PrivateCertificateProps.Builder().apply(initializer).build()

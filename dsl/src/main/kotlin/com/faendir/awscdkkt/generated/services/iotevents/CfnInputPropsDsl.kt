@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotevents.CfnInputProps
 
 @Generated
-public fun buildCfnInputProps(initializer: @AwsCdkDsl CfnInputProps.Builder.() -> Unit):
+public fun buildCfnInputProps(initializer: @AwsCdkDsl CfnInputProps.Builder.() -> Unit = {}):
     CfnInputProps = CfnInputProps.Builder().apply(initializer).build()

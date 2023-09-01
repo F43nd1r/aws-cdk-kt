@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.CustomActionProperty
 
 @Generated
-public fun buildCustomActionProperty(initializer: @AwsCdkDsl
-    CustomActionProperty.Builder.() -> Unit): CustomActionProperty =
-    CustomActionProperty.Builder().apply(initializer).build()
+public fun buildCustomActionProperty(initializer: @AwsCdkDsl CustomActionProperty.Builder.() -> Unit
+    = {}): CustomActionProperty = CustomActionProperty.Builder().apply(initializer).build()

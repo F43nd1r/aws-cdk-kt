@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
 public fun buildEcsTaskOverrideProperty(initializer: @AwsCdkDsl
-    CfnPipe.EcsTaskOverrideProperty.Builder.() -> Unit): CfnPipe.EcsTaskOverrideProperty =
+    CfnPipe.EcsTaskOverrideProperty.Builder.() -> Unit = {}): CfnPipe.EcsTaskOverrideProperty =
     CfnPipe.EcsTaskOverrideProperty.Builder().apply(initializer).build()

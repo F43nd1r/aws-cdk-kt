@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.servicecatalog.CfnCloudFormationProduct
 
 @Generated
 public fun buildCodeStarParametersProperty(initializer: @AwsCdkDsl
-    CfnCloudFormationProduct.CodeStarParametersProperty.Builder.() -> Unit):
+    CfnCloudFormationProduct.CodeStarParametersProperty.Builder.() -> Unit = {}):
     CfnCloudFormationProduct.CodeStarParametersProperty =
     CfnCloudFormationProduct.CodeStarParametersProperty.Builder().apply(initializer).build()

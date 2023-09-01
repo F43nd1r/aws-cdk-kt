@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kendra.CfnDataSource
 
 @Generated
 public fun buildGoogleDriveConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.GoogleDriveConfigurationProperty.Builder.() -> Unit):
+    CfnDataSource.GoogleDriveConfigurationProperty.Builder.() -> Unit = {}):
     CfnDataSource.GoogleDriveConfigurationProperty =
     CfnDataSource.GoogleDriveConfigurationProperty.Builder().apply(initializer).build()

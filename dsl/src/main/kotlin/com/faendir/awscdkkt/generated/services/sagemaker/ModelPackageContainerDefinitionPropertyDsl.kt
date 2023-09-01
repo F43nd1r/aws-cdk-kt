@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelPackage
 
 @Generated
 public fun buildModelPackageContainerDefinitionProperty(initializer: @AwsCdkDsl
-    CfnModelPackage.ModelPackageContainerDefinitionProperty.Builder.() -> Unit):
+    CfnModelPackage.ModelPackageContainerDefinitionProperty.Builder.() -> Unit = {}):
     CfnModelPackage.ModelPackageContainerDefinitionProperty =
     CfnModelPackage.ModelPackageContainerDefinitionProperty.Builder().apply(initializer).build()

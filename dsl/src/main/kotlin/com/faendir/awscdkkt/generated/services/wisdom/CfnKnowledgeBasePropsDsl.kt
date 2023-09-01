@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.wisdom.CfnKnowledgeBaseProps
 
 @Generated
 public fun buildCfnKnowledgeBaseProps(initializer: @AwsCdkDsl
-    CfnKnowledgeBaseProps.Builder.() -> Unit): CfnKnowledgeBaseProps =
+    CfnKnowledgeBaseProps.Builder.() -> Unit = {}): CfnKnowledgeBaseProps =
     CfnKnowledgeBaseProps.Builder().apply(initializer).build()

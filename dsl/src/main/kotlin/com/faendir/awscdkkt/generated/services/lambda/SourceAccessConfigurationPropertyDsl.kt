@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lambda.CfnEventSourceMapping
 
 @Generated
 public fun buildSourceAccessConfigurationProperty(initializer: @AwsCdkDsl
-    CfnEventSourceMapping.SourceAccessConfigurationProperty.Builder.() -> Unit):
+    CfnEventSourceMapping.SourceAccessConfigurationProperty.Builder.() -> Unit = {}):
     CfnEventSourceMapping.SourceAccessConfigurationProperty =
     CfnEventSourceMapping.SourceAccessConfigurationProperty.Builder().apply(initializer).build()

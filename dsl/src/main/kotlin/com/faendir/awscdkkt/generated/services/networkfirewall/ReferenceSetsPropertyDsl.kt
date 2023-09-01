@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.networkfirewall.CfnRuleGroup
 
 @Generated
 public fun buildReferenceSetsProperty(initializer: @AwsCdkDsl
-    CfnRuleGroup.ReferenceSetsProperty.Builder.() -> Unit): CfnRuleGroup.ReferenceSetsProperty =
-    CfnRuleGroup.ReferenceSetsProperty.Builder().apply(initializer).build()
+    CfnRuleGroup.ReferenceSetsProperty.Builder.() -> Unit = {}): CfnRuleGroup.ReferenceSetsProperty
+    = CfnRuleGroup.ReferenceSetsProperty.Builder().apply(initializer).build()

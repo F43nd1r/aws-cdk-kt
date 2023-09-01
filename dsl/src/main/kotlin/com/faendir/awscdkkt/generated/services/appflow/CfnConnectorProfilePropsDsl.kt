@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appflow.CfnConnectorProfileProps
 
 @Generated
 public fun buildCfnConnectorProfileProps(initializer: @AwsCdkDsl
-    CfnConnectorProfileProps.Builder.() -> Unit): CfnConnectorProfileProps =
+    CfnConnectorProfileProps.Builder.() -> Unit = {}): CfnConnectorProfileProps =
     CfnConnectorProfileProps.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.cloudwatch.CfnAnomalyDetector
 
 @Generated
 public fun buildDimensionProperty(initializer: @AwsCdkDsl
-    CfnAnomalyDetector.DimensionProperty.Builder.() -> Unit): CfnAnomalyDetector.DimensionProperty =
+    CfnAnomalyDetector.DimensionProperty.Builder.() -> Unit = {}):
+    CfnAnomalyDetector.DimensionProperty =
     CfnAnomalyDetector.DimensionProperty.Builder().apply(initializer).build()

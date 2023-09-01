@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.groundstation.CfnMissionProfile
 
 @Generated
 public fun buildDataflowEdgeProperty(initializer: @AwsCdkDsl
-    CfnMissionProfile.DataflowEdgeProperty.Builder.() -> Unit):
+    CfnMissionProfile.DataflowEdgeProperty.Builder.() -> Unit = {}):
     CfnMissionProfile.DataflowEdgeProperty =
     CfnMissionProfile.DataflowEdgeProperty.Builder().apply(initializer).build()

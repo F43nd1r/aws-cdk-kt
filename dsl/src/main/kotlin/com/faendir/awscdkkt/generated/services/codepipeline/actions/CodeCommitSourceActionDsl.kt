@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codepipeline.actions.CodeCommitSourceActi
 
 @Generated
 public fun buildCodeCommitSourceAction(initializer: @AwsCdkDsl
-    CodeCommitSourceAction.Builder.() -> Unit): CodeCommitSourceAction =
+    CodeCommitSourceAction.Builder.() -> Unit = {}): CodeCommitSourceAction =
     CodeCommitSourceAction.Builder.create().apply(initializer).build()

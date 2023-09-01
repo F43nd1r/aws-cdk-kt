@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.CfnListenerRule
 
 @Generated
 public fun buildHttpHeaderConfigProperty(initializer: @AwsCdkDsl
-    CfnListenerRule.HttpHeaderConfigProperty.Builder.() -> Unit):
+    CfnListenerRule.HttpHeaderConfigProperty.Builder.() -> Unit = {}):
     CfnListenerRule.HttpHeaderConfigProperty =
     CfnListenerRule.HttpHeaderConfigProperty.Builder().apply(initializer).build()

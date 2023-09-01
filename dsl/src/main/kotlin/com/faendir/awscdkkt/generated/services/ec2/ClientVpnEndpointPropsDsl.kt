@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.ClientVpnEndpointProps
 
 @Generated
 public fun buildClientVpnEndpointProps(initializer: @AwsCdkDsl
-    ClientVpnEndpointProps.Builder.() -> Unit): ClientVpnEndpointProps =
+    ClientVpnEndpointProps.Builder.() -> Unit = {}): ClientVpnEndpointProps =
     ClientVpnEndpointProps.Builder().apply(initializer).build()

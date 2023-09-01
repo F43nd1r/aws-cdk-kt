@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.pinpoint.CfnInAppTemplate
 
 @Generated
 public fun buildOverrideButtonConfigurationProperty(initializer: @AwsCdkDsl
-    CfnInAppTemplate.OverrideButtonConfigurationProperty.Builder.() -> Unit):
+    CfnInAppTemplate.OverrideButtonConfigurationProperty.Builder.() -> Unit = {}):
     CfnInAppTemplate.OverrideButtonConfigurationProperty =
     CfnInAppTemplate.OverrideButtonConfigurationProperty.Builder().apply(initializer).build()

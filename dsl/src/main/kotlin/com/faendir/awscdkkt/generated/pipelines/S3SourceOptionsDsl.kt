@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.pipelines.S3SourceOptions
 
 @Generated
-public fun buildS3SourceOptions(initializer: @AwsCdkDsl S3SourceOptions.Builder.() -> Unit):
+public fun buildS3SourceOptions(initializer: @AwsCdkDsl S3SourceOptions.Builder.() -> Unit = {}):
     S3SourceOptions = S3SourceOptions.Builder().apply(initializer).build()

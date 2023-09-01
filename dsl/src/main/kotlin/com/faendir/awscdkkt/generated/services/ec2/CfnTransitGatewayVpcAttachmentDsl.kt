@@ -9,19 +9,14 @@ import software.amazon.awscdk.services.ec2.CfnTransitGatewayVpcAttachmentProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnTransitGatewayVpcAttachment(id: String,
-    props: CfnTransitGatewayVpcAttachmentProps): CfnTransitGatewayVpcAttachment =
-    CfnTransitGatewayVpcAttachment(this, id, props)
-
-@Generated
 public fun Construct.cfnTransitGatewayVpcAttachment(
   id: String,
   props: CfnTransitGatewayVpcAttachmentProps,
-  initializer: @AwsCdkDsl CfnTransitGatewayVpcAttachment.() -> Unit,
+  initializer: @AwsCdkDsl CfnTransitGatewayVpcAttachment.() -> Unit = {},
 ): CfnTransitGatewayVpcAttachment = CfnTransitGatewayVpcAttachment(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnTransitGatewayVpcAttachment(id: String, initializer: @AwsCdkDsl
-    CfnTransitGatewayVpcAttachment.Builder.() -> Unit): CfnTransitGatewayVpcAttachment =
+    CfnTransitGatewayVpcAttachment.Builder.() -> Unit = {}): CfnTransitGatewayVpcAttachment =
     CfnTransitGatewayVpcAttachment.Builder.create(this, id).apply(initializer).build()

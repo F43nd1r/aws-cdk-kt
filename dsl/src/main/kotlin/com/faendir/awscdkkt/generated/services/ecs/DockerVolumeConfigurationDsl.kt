@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.DockerVolumeConfiguration
 
 @Generated
 public fun buildDockerVolumeConfiguration(initializer: @AwsCdkDsl
-    DockerVolumeConfiguration.Builder.() -> Unit): DockerVolumeConfiguration =
+    DockerVolumeConfiguration.Builder.() -> Unit = {}): DockerVolumeConfiguration =
     DockerVolumeConfiguration.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.greengrass.CfnFunctionDefinitionVersion
 
 @Generated
 public fun buildEnvironmentProperty(initializer: @AwsCdkDsl
-    CfnFunctionDefinitionVersion.EnvironmentProperty.Builder.() -> Unit):
+    CfnFunctionDefinitionVersion.EnvironmentProperty.Builder.() -> Unit = {}):
     CfnFunctionDefinitionVersion.EnvironmentProperty =
     CfnFunctionDefinitionVersion.EnvironmentProperty.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildFontConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.FontConfigurationProperty.Builder.() -> Unit): CfnTemplate.FontConfigurationProperty
-    = CfnTemplate.FontConfigurationProperty.Builder().apply(initializer).build()
+    CfnTemplate.FontConfigurationProperty.Builder.() -> Unit = {}):
+    CfnTemplate.FontConfigurationProperty =
+    CfnTemplate.FontConfigurationProperty.Builder().apply(initializer).build()

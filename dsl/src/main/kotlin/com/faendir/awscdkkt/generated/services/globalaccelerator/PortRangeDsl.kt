@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.globalaccelerator.PortRange
 
 @Generated
-public fun buildPortRange(initializer: @AwsCdkDsl PortRange.Builder.() -> Unit): PortRange =
+public fun buildPortRange(initializer: @AwsCdkDsl PortRange.Builder.() -> Unit = {}): PortRange =
     PortRange.Builder().apply(initializer).build()

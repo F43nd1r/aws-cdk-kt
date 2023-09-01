@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.opensearchservice.CfnDomain
 
 @Generated
 public fun buildWindowStartTimeProperty(initializer: @AwsCdkDsl
-    CfnDomain.WindowStartTimeProperty.Builder.() -> Unit): CfnDomain.WindowStartTimeProperty =
+    CfnDomain.WindowStartTimeProperty.Builder.() -> Unit = {}): CfnDomain.WindowStartTimeProperty =
     CfnDomain.WindowStartTimeProperty.Builder().apply(initializer).build()

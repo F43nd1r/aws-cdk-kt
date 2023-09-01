@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ce.CfnAnomalySubscriptionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnAnomalySubscription(id: String, props: CfnAnomalySubscriptionProps):
-    CfnAnomalySubscription = CfnAnomalySubscription(this, id, props)
-
-@Generated
 public fun Construct.cfnAnomalySubscription(
   id: String,
   props: CfnAnomalySubscriptionProps,
-  initializer: @AwsCdkDsl CfnAnomalySubscription.() -> Unit,
+  initializer: @AwsCdkDsl CfnAnomalySubscription.() -> Unit = {},
 ): CfnAnomalySubscription = CfnAnomalySubscription(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnAnomalySubscription(id: String, initializer: @AwsCdkDsl
-    CfnAnomalySubscription.Builder.() -> Unit): CfnAnomalySubscription =
+    CfnAnomalySubscription.Builder.() -> Unit = {}): CfnAnomalySubscription =
     CfnAnomalySubscription.Builder.create(this, id).apply(initializer).build()

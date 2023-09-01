@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnNetworkInsightsAnalysis
 
 @Generated
 public fun buildAlternatePathHintProperty(initializer: @AwsCdkDsl
-    CfnNetworkInsightsAnalysis.AlternatePathHintProperty.Builder.() -> Unit):
+    CfnNetworkInsightsAnalysis.AlternatePathHintProperty.Builder.() -> Unit = {}):
     CfnNetworkInsightsAnalysis.AlternatePathHintProperty =
     CfnNetworkInsightsAnalysis.AlternatePathHintProperty.Builder().apply(initializer).build()

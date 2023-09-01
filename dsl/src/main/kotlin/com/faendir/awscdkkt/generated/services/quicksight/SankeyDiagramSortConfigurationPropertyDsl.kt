@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildSankeyDiagramSortConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.SankeyDiagramSortConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.SankeyDiagramSortConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.SankeyDiagramSortConfigurationProperty =
     CfnTemplate.SankeyDiagramSortConfigurationProperty.Builder().apply(initializer).build()

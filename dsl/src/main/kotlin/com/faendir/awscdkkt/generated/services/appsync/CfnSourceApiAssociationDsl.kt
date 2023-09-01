@@ -9,26 +9,18 @@ import software.amazon.awscdk.services.appsync.CfnSourceApiAssociationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnSourceApiAssociation(id: String): CfnSourceApiAssociation =
-    CfnSourceApiAssociation(this, id)
-
-@Generated
 public fun Construct.cfnSourceApiAssociation(id: String, initializer: @AwsCdkDsl
-    CfnSourceApiAssociation.() -> Unit): CfnSourceApiAssociation = CfnSourceApiAssociation(this,
-    id).apply(initializer)
-
-@Generated
-public fun Construct.cfnSourceApiAssociation(id: String, props: CfnSourceApiAssociationProps):
-    CfnSourceApiAssociation = CfnSourceApiAssociation(this, id, props)
+    CfnSourceApiAssociation.() -> Unit = {}): CfnSourceApiAssociation =
+    CfnSourceApiAssociation(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnSourceApiAssociation(
   id: String,
   props: CfnSourceApiAssociationProps,
-  initializer: @AwsCdkDsl CfnSourceApiAssociation.() -> Unit,
+  initializer: @AwsCdkDsl CfnSourceApiAssociation.() -> Unit = {},
 ): CfnSourceApiAssociation = CfnSourceApiAssociation(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnSourceApiAssociation(id: String, initializer: @AwsCdkDsl
-    CfnSourceApiAssociation.Builder.() -> Unit): CfnSourceApiAssociation =
+    CfnSourceApiAssociation.Builder.() -> Unit = {}): CfnSourceApiAssociation =
     CfnSourceApiAssociation.Builder.create(this, id).apply(initializer).build()

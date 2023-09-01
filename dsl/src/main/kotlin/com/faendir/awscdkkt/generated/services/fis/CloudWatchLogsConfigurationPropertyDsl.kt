@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.fis.CfnExperimentTemplate
 
 @Generated
 public fun buildCloudWatchLogsConfigurationProperty(initializer: @AwsCdkDsl
-    CfnExperimentTemplate.CloudWatchLogsConfigurationProperty.Builder.() -> Unit):
+    CfnExperimentTemplate.CloudWatchLogsConfigurationProperty.Builder.() -> Unit = {}):
     CfnExperimentTemplate.CloudWatchLogsConfigurationProperty =
     CfnExperimentTemplate.CloudWatchLogsConfigurationProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
 public fun buildCapacityReservationSpecificationProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.CapacityReservationSpecificationProperty.Builder.() -> Unit):
+    CfnLaunchTemplate.CapacityReservationSpecificationProperty.Builder.() -> Unit = {}):
     CfnLaunchTemplate.CapacityReservationSpecificationProperty =
     CfnLaunchTemplate.CapacityReservationSpecificationProperty.Builder().apply(initializer).build()

@@ -9,16 +9,12 @@ import software.amazon.awscdk.services.opsworks.CfnLayerProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnLayer(id: String, props: CfnLayerProps): CfnLayer = CfnLayer(this, id,
-    props)
-
-@Generated
 public fun Construct.cfnLayer(
   id: String,
   props: CfnLayerProps,
-  initializer: @AwsCdkDsl CfnLayer.() -> Unit,
+  initializer: @AwsCdkDsl CfnLayer.() -> Unit = {},
 ): CfnLayer = CfnLayer(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLayer(id: String, initializer: @AwsCdkDsl CfnLayer.Builder.() -> Unit):
-    CfnLayer = CfnLayer.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLayer(id: String, initializer: @AwsCdkDsl CfnLayer.Builder.() -> Unit =
+    {}): CfnLayer = CfnLayer.Builder.create(this, id).apply(initializer).build()

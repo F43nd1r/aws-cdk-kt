@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.iotfleetwise.CfnCampaign
 
 @Generated
 public fun buildSignalInformationProperty(initializer: @AwsCdkDsl
-    CfnCampaign.SignalInformationProperty.Builder.() -> Unit): CfnCampaign.SignalInformationProperty
-    = CfnCampaign.SignalInformationProperty.Builder().apply(initializer).build()
+    CfnCampaign.SignalInformationProperty.Builder.() -> Unit = {}):
+    CfnCampaign.SignalInformationProperty =
+    CfnCampaign.SignalInformationProperty.Builder().apply(initializer).build()

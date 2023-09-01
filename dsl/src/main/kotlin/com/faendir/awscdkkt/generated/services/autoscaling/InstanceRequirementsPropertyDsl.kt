@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.autoscaling.CfnAutoScalingGroup
 
 @Generated
 public fun buildInstanceRequirementsProperty(initializer: @AwsCdkDsl
-    CfnAutoScalingGroup.InstanceRequirementsProperty.Builder.() -> Unit):
+    CfnAutoScalingGroup.InstanceRequirementsProperty.Builder.() -> Unit = {}):
     CfnAutoScalingGroup.InstanceRequirementsProperty =
     CfnAutoScalingGroup.InstanceRequirementsProperty.Builder().apply(initializer).build()

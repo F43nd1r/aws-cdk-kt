@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.applicationautoscaling.CfnScalableTarget
 
 @Generated
 public fun buildScheduledActionProperty(initializer: @AwsCdkDsl
-    CfnScalableTarget.ScheduledActionProperty.Builder.() -> Unit):
+    CfnScalableTarget.ScheduledActionProperty.Builder.() -> Unit = {}):
     CfnScalableTarget.ScheduledActionProperty =
     CfnScalableTarget.ScheduledActionProperty.Builder().apply(initializer).build()

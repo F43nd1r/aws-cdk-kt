@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildFunnelChartVisualProperty(initializer: @AwsCdkDsl
-    CfnTemplate.FunnelChartVisualProperty.Builder.() -> Unit): CfnTemplate.FunnelChartVisualProperty
-    = CfnTemplate.FunnelChartVisualProperty.Builder().apply(initializer).build()
+    CfnTemplate.FunnelChartVisualProperty.Builder.() -> Unit = {}):
+    CfnTemplate.FunnelChartVisualProperty =
+    CfnTemplate.FunnelChartVisualProperty.Builder().apply(initializer).build()

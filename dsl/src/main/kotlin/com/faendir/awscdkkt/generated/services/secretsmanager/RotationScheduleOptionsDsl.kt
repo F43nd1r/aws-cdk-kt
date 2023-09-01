@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.secretsmanager.RotationScheduleOptions
 
 @Generated
 public fun buildRotationScheduleOptions(initializer: @AwsCdkDsl
-    RotationScheduleOptions.Builder.() -> Unit): RotationScheduleOptions =
+    RotationScheduleOptions.Builder.() -> Unit = {}): RotationScheduleOptions =
     RotationScheduleOptions.Builder().apply(initializer).build()

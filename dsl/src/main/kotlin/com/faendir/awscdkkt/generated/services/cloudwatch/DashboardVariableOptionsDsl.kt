@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cloudwatch.DashboardVariableOptions
 
 @Generated
 public fun buildDashboardVariableOptions(initializer: @AwsCdkDsl
-    DashboardVariableOptions.Builder.() -> Unit): DashboardVariableOptions =
+    DashboardVariableOptions.Builder.() -> Unit = {}): DashboardVariableOptions =
     DashboardVariableOptions.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iot.CfnJobTemplate
 
 @Generated
 public fun buildRateIncreaseCriteriaProperty(initializer: @AwsCdkDsl
-    CfnJobTemplate.RateIncreaseCriteriaProperty.Builder.() -> Unit):
+    CfnJobTemplate.RateIncreaseCriteriaProperty.Builder.() -> Unit = {}):
     CfnJobTemplate.RateIncreaseCriteriaProperty =
     CfnJobTemplate.RateIncreaseCriteriaProperty.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.networkfirewall.CfnRuleGroup
 
 @Generated
 public fun buildActionDefinitionProperty(initializer: @AwsCdkDsl
-    CfnRuleGroup.ActionDefinitionProperty.Builder.() -> Unit): CfnRuleGroup.ActionDefinitionProperty
-    = CfnRuleGroup.ActionDefinitionProperty.Builder().apply(initializer).build()
+    CfnRuleGroup.ActionDefinitionProperty.Builder.() -> Unit = {}):
+    CfnRuleGroup.ActionDefinitionProperty =
+    CfnRuleGroup.ActionDefinitionProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.CfnVPNConnectionProps
 
 @Generated
 public fun buildCfnVPNConnectionProps(initializer: @AwsCdkDsl
-    CfnVPNConnectionProps.Builder.() -> Unit): CfnVPNConnectionProps =
+    CfnVPNConnectionProps.Builder.() -> Unit = {}): CfnVPNConnectionProps =
     CfnVPNConnectionProps.Builder().apply(initializer).build()

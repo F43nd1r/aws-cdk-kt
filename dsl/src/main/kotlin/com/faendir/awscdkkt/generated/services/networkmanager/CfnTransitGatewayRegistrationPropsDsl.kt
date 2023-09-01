@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.networkmanager.CfnTransitGatewayRegistrat
 
 @Generated
 public fun buildCfnTransitGatewayRegistrationProps(initializer: @AwsCdkDsl
-    CfnTransitGatewayRegistrationProps.Builder.() -> Unit): CfnTransitGatewayRegistrationProps =
-    CfnTransitGatewayRegistrationProps.Builder().apply(initializer).build()
+    CfnTransitGatewayRegistrationProps.Builder.() -> Unit = {}): CfnTransitGatewayRegistrationProps
+    = CfnTransitGatewayRegistrationProps.Builder().apply(initializer).build()

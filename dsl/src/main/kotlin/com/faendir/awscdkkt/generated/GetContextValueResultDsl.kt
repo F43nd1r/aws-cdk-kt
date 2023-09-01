@@ -7,5 +7,5 @@ import software.amazon.awscdk.GetContextValueResult
 
 @Generated
 public fun buildGetContextValueResult(initializer: @AwsCdkDsl
-    GetContextValueResult.Builder.() -> Unit): GetContextValueResult =
+    GetContextValueResult.Builder.() -> Unit = {}): GetContextValueResult =
     GetContextValueResult.Builder().apply(initializer).build()

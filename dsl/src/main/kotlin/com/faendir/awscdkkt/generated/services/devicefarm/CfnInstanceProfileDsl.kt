@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.devicefarm.CfnInstanceProfileProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnInstanceProfile(id: String, props: CfnInstanceProfileProps):
-    CfnInstanceProfile = CfnInstanceProfile(this, id, props)
-
-@Generated
 public fun Construct.cfnInstanceProfile(
   id: String,
   props: CfnInstanceProfileProps,
-  initializer: @AwsCdkDsl CfnInstanceProfile.() -> Unit,
+  initializer: @AwsCdkDsl CfnInstanceProfile.() -> Unit = {},
 ): CfnInstanceProfile = CfnInstanceProfile(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnInstanceProfile(id: String, initializer: @AwsCdkDsl
-    CfnInstanceProfile.Builder.() -> Unit): CfnInstanceProfile =
+    CfnInstanceProfile.Builder.() -> Unit = {}): CfnInstanceProfile =
     CfnInstanceProfile.Builder.create(this, id).apply(initializer).build()

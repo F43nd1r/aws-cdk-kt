@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.mediatailor.CfnChannel
 
 @Generated
 public fun buildHlsPlaylistSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.HlsPlaylistSettingsProperty.Builder.() -> Unit):
+    CfnChannel.HlsPlaylistSettingsProperty.Builder.() -> Unit = {}):
     CfnChannel.HlsPlaylistSettingsProperty =
     CfnChannel.HlsPlaylistSettingsProperty.Builder().apply(initializer).build()

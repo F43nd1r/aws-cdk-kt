@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.fsx.CfnVolume
 
 @Generated
 public fun buildNfsExportsProperty(initializer: @AwsCdkDsl
-    CfnVolume.NfsExportsProperty.Builder.() -> Unit): CfnVolume.NfsExportsProperty =
+    CfnVolume.NfsExportsProperty.Builder.() -> Unit = {}): CfnVolume.NfsExportsProperty =
     CfnVolume.NfsExportsProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildOutputGroupProperty(initializer: @AwsCdkDsl
-    CfnChannel.OutputGroupProperty.Builder.() -> Unit): CfnChannel.OutputGroupProperty =
+    CfnChannel.OutputGroupProperty.Builder.() -> Unit = {}): CfnChannel.OutputGroupProperty =
     CfnChannel.OutputGroupProperty.Builder().apply(initializer).build()

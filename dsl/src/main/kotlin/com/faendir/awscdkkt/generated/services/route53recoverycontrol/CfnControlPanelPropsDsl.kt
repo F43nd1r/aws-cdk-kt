@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53recoverycontrol.CfnControlPanelProps
 
 @Generated
-public fun buildCfnControlPanelProps(initializer: @AwsCdkDsl
-    CfnControlPanelProps.Builder.() -> Unit): CfnControlPanelProps =
-    CfnControlPanelProps.Builder().apply(initializer).build()
+public fun buildCfnControlPanelProps(initializer: @AwsCdkDsl CfnControlPanelProps.Builder.() -> Unit
+    = {}): CfnControlPanelProps = CfnControlPanelProps.Builder().apply(initializer).build()

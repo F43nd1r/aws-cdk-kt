@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opensearchserverless.CfnAccessPolicyProps
 
 @Generated
-public fun buildCfnAccessPolicyProps(initializer: @AwsCdkDsl
-    CfnAccessPolicyProps.Builder.() -> Unit): CfnAccessPolicyProps =
-    CfnAccessPolicyProps.Builder().apply(initializer).build()
+public fun buildCfnAccessPolicyProps(initializer: @AwsCdkDsl CfnAccessPolicyProps.Builder.() -> Unit
+    = {}): CfnAccessPolicyProps = CfnAccessPolicyProps.Builder().apply(initializer).build()

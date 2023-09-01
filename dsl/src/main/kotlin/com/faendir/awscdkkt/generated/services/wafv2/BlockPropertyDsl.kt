@@ -6,6 +6,6 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnRuleGroup
 
 @Generated
-public fun buildBlockProperty(initializer: @AwsCdkDsl
-    CfnRuleGroup.BlockProperty.Builder.() -> Unit): CfnRuleGroup.BlockProperty =
+public fun buildBlockProperty(initializer: @AwsCdkDsl CfnRuleGroup.BlockProperty.Builder.() -> Unit
+    = {}): CfnRuleGroup.BlockProperty =
     CfnRuleGroup.BlockProperty.Builder().apply(initializer).build()

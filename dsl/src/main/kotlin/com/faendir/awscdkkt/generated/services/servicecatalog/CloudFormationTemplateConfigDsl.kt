@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.servicecatalog.CloudFormationTemplateConf
 
 @Generated
 public fun buildCloudFormationTemplateConfig(initializer: @AwsCdkDsl
-    CloudFormationTemplateConfig.Builder.() -> Unit): CloudFormationTemplateConfig =
+    CloudFormationTemplateConfig.Builder.() -> Unit = {}): CloudFormationTemplateConfig =
     CloudFormationTemplateConfig.Builder().apply(initializer).build()

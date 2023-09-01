@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
 public fun buildInstanceMarketOptionsProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.InstanceMarketOptionsProperty.Builder.() -> Unit):
+    CfnLaunchTemplate.InstanceMarketOptionsProperty.Builder.() -> Unit = {}):
     CfnLaunchTemplate.InstanceMarketOptionsProperty =
     CfnLaunchTemplate.InstanceMarketOptionsProperty.Builder().apply(initializer).build()

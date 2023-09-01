@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.mediaconnect.CfnGateway
 
 @Generated
 public fun buildGatewayNetworkProperty(initializer: @AwsCdkDsl
-    CfnGateway.GatewayNetworkProperty.Builder.() -> Unit): CfnGateway.GatewayNetworkProperty =
+    CfnGateway.GatewayNetworkProperty.Builder.() -> Unit = {}): CfnGateway.GatewayNetworkProperty =
     CfnGateway.GatewayNetworkProperty.Builder().apply(initializer).build()

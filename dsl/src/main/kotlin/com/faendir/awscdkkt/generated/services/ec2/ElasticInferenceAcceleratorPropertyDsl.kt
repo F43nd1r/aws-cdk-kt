@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnInstance
 
 @Generated
 public fun buildElasticInferenceAcceleratorProperty(initializer: @AwsCdkDsl
-    CfnInstance.ElasticInferenceAcceleratorProperty.Builder.() -> Unit):
+    CfnInstance.ElasticInferenceAcceleratorProperty.Builder.() -> Unit = {}):
     CfnInstance.ElasticInferenceAcceleratorProperty =
     CfnInstance.ElasticInferenceAcceleratorProperty.Builder().apply(initializer).build()

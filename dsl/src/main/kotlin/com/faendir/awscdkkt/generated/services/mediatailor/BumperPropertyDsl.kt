@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.mediatailor.CfnPlaybackConfiguration
 
 @Generated
 public fun buildBumperProperty(initializer: @AwsCdkDsl
-    CfnPlaybackConfiguration.BumperProperty.Builder.() -> Unit):
+    CfnPlaybackConfiguration.BumperProperty.Builder.() -> Unit = {}):
     CfnPlaybackConfiguration.BumperProperty =
     CfnPlaybackConfiguration.BumperProperty.Builder().apply(initializer).build()

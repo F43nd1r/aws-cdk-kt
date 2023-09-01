@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.BackendConfig
 
 @Generated
-public fun buildBackendConfig(initializer: @AwsCdkDsl BackendConfig.Builder.() -> Unit):
+public fun buildBackendConfig(initializer: @AwsCdkDsl BackendConfig.Builder.() -> Unit = {}):
     BackendConfig = BackendConfig.Builder().apply(initializer).build()

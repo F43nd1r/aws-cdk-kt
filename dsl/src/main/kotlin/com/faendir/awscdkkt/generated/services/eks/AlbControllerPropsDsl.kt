@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.AlbControllerProps
 
 @Generated
-public fun buildAlbControllerProps(initializer: @AwsCdkDsl AlbControllerProps.Builder.() -> Unit):
-    AlbControllerProps = AlbControllerProps.Builder().apply(initializer).build()
+public fun buildAlbControllerProps(initializer: @AwsCdkDsl AlbControllerProps.Builder.() -> Unit =
+    {}): AlbControllerProps = AlbControllerProps.Builder().apply(initializer).build()

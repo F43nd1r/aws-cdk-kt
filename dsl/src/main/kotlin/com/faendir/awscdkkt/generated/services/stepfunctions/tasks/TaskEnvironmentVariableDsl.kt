@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.TaskEnvironmentVariab
 
 @Generated
 public fun buildTaskEnvironmentVariable(initializer: @AwsCdkDsl
-    TaskEnvironmentVariable.Builder.() -> Unit): TaskEnvironmentVariable =
+    TaskEnvironmentVariable.Builder.() -> Unit = {}): TaskEnvironmentVariable =
     TaskEnvironmentVariable.Builder().apply(initializer).build()

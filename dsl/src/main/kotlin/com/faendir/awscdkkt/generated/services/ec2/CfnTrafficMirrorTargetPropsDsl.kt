@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.CfnTrafficMirrorTargetProps
 
 @Generated
 public fun buildCfnTrafficMirrorTargetProps(initializer: @AwsCdkDsl
-    CfnTrafficMirrorTargetProps.Builder.() -> Unit): CfnTrafficMirrorTargetProps =
+    CfnTrafficMirrorTargetProps.Builder.() -> Unit = {}): CfnTrafficMirrorTargetProps =
     CfnTrafficMirrorTargetProps.Builder().apply(initializer).build()

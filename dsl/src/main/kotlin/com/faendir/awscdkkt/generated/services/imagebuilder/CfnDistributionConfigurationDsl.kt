@@ -9,18 +9,13 @@ import software.amazon.awscdk.services.imagebuilder.CfnDistributionConfiguration
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDistributionConfiguration(id: String,
-    props: CfnDistributionConfigurationProps): CfnDistributionConfiguration =
-    CfnDistributionConfiguration(this, id, props)
-
-@Generated
 public fun Construct.cfnDistributionConfiguration(
   id: String,
   props: CfnDistributionConfigurationProps,
-  initializer: @AwsCdkDsl CfnDistributionConfiguration.() -> Unit,
+  initializer: @AwsCdkDsl CfnDistributionConfiguration.() -> Unit = {},
 ): CfnDistributionConfiguration = CfnDistributionConfiguration(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnDistributionConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnDistributionConfiguration.Builder.() -> Unit): CfnDistributionConfiguration =
+    CfnDistributionConfiguration.Builder.() -> Unit = {}): CfnDistributionConfiguration =
     CfnDistributionConfiguration.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lightsail.CfnInstanceProps
 
 @Generated
-public fun buildCfnInstanceProps(initializer: @AwsCdkDsl CfnInstanceProps.Builder.() -> Unit):
+public fun buildCfnInstanceProps(initializer: @AwsCdkDsl CfnInstanceProps.Builder.() -> Unit = {}):
     CfnInstanceProps = CfnInstanceProps.Builder().apply(initializer).build()

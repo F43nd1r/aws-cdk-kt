@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.connect.CfnRoutingProfileProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnRoutingProfile(id: String, props: CfnRoutingProfileProps): CfnRoutingProfile
-    = CfnRoutingProfile(this, id, props)
-
-@Generated
 public fun Construct.cfnRoutingProfile(
   id: String,
   props: CfnRoutingProfileProps,
-  initializer: @AwsCdkDsl CfnRoutingProfile.() -> Unit,
+  initializer: @AwsCdkDsl CfnRoutingProfile.() -> Unit = {},
 ): CfnRoutingProfile = CfnRoutingProfile(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnRoutingProfile(id: String, initializer: @AwsCdkDsl
-    CfnRoutingProfile.Builder.() -> Unit): CfnRoutingProfile =
+    CfnRoutingProfile.Builder.() -> Unit = {}): CfnRoutingProfile =
     CfnRoutingProfile.Builder.create(this, id).apply(initializer).build()

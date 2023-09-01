@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.CfnWebhookProps
 
 @Generated
-public fun buildCfnWebhookProps(initializer: @AwsCdkDsl CfnWebhookProps.Builder.() -> Unit):
+public fun buildCfnWebhookProps(initializer: @AwsCdkDsl CfnWebhookProps.Builder.() -> Unit = {}):
     CfnWebhookProps = CfnWebhookProps.Builder().apply(initializer).build()

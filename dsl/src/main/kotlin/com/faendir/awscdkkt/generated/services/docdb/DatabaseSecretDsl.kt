@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.docdb.DatabaseSecretProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.databaseSecret(id: String, props: DatabaseSecretProps): DatabaseSecret =
-    DatabaseSecret(this, id, props)
-
-@Generated
 public fun Construct.databaseSecret(
   id: String,
   props: DatabaseSecretProps,
-  initializer: @AwsCdkDsl DatabaseSecret.() -> Unit,
+  initializer: @AwsCdkDsl DatabaseSecret.() -> Unit = {},
 ): DatabaseSecret = DatabaseSecret(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildDatabaseSecret(id: String, initializer: @AwsCdkDsl
-    DatabaseSecret.Builder.() -> Unit): DatabaseSecret = DatabaseSecret.Builder.create(this,
+    DatabaseSecret.Builder.() -> Unit = {}): DatabaseSecret = DatabaseSecret.Builder.create(this,
     id).apply(initializer).build()

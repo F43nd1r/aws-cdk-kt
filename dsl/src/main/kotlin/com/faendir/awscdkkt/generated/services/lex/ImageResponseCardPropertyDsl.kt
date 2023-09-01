@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
 public fun buildImageResponseCardProperty(initializer: @AwsCdkDsl
-    CfnBot.ImageResponseCardProperty.Builder.() -> Unit): CfnBot.ImageResponseCardProperty =
+    CfnBot.ImageResponseCardProperty.Builder.() -> Unit = {}): CfnBot.ImageResponseCardProperty =
     CfnBot.ImageResponseCardProperty.Builder().apply(initializer).build()

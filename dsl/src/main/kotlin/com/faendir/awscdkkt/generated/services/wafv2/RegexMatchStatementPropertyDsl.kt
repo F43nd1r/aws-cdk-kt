@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
 public fun buildRegexMatchStatementProperty(initializer: @AwsCdkDsl
-    CfnWebACL.RegexMatchStatementProperty.Builder.() -> Unit): CfnWebACL.RegexMatchStatementProperty
-    = CfnWebACL.RegexMatchStatementProperty.Builder().apply(initializer).build()
+    CfnWebACL.RegexMatchStatementProperty.Builder.() -> Unit = {}):
+    CfnWebACL.RegexMatchStatementProperty =
+    CfnWebACL.RegexMatchStatementProperty.Builder().apply(initializer).build()

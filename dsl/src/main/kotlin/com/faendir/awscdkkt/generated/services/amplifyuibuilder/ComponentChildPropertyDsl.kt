@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.amplifyuibuilder.CfnComponent
 
 @Generated
 public fun buildComponentChildProperty(initializer: @AwsCdkDsl
-    CfnComponent.ComponentChildProperty.Builder.() -> Unit): CfnComponent.ComponentChildProperty =
+    CfnComponent.ComponentChildProperty.Builder.() -> Unit = {}):
+    CfnComponent.ComponentChildProperty =
     CfnComponent.ComponentChildProperty.Builder().apply(initializer).build()

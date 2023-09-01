@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appmesh.HttpGatewayListenerOptions
 
 @Generated
 public fun buildHttpGatewayListenerOptions(initializer: @AwsCdkDsl
-    HttpGatewayListenerOptions.Builder.() -> Unit): HttpGatewayListenerOptions =
+    HttpGatewayListenerOptions.Builder.() -> Unit = {}): HttpGatewayListenerOptions =
     HttpGatewayListenerOptions.Builder().apply(initializer).build()

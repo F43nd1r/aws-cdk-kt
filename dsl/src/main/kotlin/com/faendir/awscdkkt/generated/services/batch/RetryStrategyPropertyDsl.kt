@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
 public fun buildRetryStrategyProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.RetryStrategyProperty.Builder.() -> Unit):
+    CfnJobDefinition.RetryStrategyProperty.Builder.() -> Unit = {}):
     CfnJobDefinition.RetryStrategyProperty =
     CfnJobDefinition.RetryStrategyProperty.Builder().apply(initializer).build()

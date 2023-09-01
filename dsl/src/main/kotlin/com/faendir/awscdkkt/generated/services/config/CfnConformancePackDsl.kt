@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.config.CfnConformancePackProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnConformancePack(id: String, props: CfnConformancePackProps):
-    CfnConformancePack = CfnConformancePack(this, id, props)
-
-@Generated
 public fun Construct.cfnConformancePack(
   id: String,
   props: CfnConformancePackProps,
-  initializer: @AwsCdkDsl CfnConformancePack.() -> Unit,
+  initializer: @AwsCdkDsl CfnConformancePack.() -> Unit = {},
 ): CfnConformancePack = CfnConformancePack(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnConformancePack(id: String, initializer: @AwsCdkDsl
-    CfnConformancePack.Builder.() -> Unit): CfnConformancePack =
+    CfnConformancePack.Builder.() -> Unit = {}): CfnConformancePack =
     CfnConformancePack.Builder.create(this, id).apply(initializer).build()

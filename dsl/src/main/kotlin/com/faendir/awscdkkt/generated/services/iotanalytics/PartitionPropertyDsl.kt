@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iotanalytics.CfnDatastore
 
 @Generated
 public fun buildPartitionProperty(initializer: @AwsCdkDsl
-    CfnDatastore.PartitionProperty.Builder.() -> Unit): CfnDatastore.PartitionProperty =
+    CfnDatastore.PartitionProperty.Builder.() -> Unit = {}): CfnDatastore.PartitionProperty =
     CfnDatastore.PartitionProperty.Builder().apply(initializer).build()

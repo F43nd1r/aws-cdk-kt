@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnConnectorProfile
 
 @Generated
 public fun buildRedshiftConnectorProfileCredentialsProperty(initializer: @AwsCdkDsl
-    CfnConnectorProfile.RedshiftConnectorProfileCredentialsProperty.Builder.() -> Unit):
+    CfnConnectorProfile.RedshiftConnectorProfileCredentialsProperty.Builder.() -> Unit = {}):
     CfnConnectorProfile.RedshiftConnectorProfileCredentialsProperty =
     CfnConnectorProfile.RedshiftConnectorProfileCredentialsProperty.Builder().apply(initializer).build()

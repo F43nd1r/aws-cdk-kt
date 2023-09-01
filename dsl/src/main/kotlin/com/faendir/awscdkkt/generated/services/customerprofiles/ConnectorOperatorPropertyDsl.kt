@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.customerprofiles.CfnIntegration
 
 @Generated
 public fun buildConnectorOperatorProperty(initializer: @AwsCdkDsl
-    CfnIntegration.ConnectorOperatorProperty.Builder.() -> Unit):
+    CfnIntegration.ConnectorOperatorProperty.Builder.() -> Unit = {}):
     CfnIntegration.ConnectorOperatorProperty =
     CfnIntegration.ConnectorOperatorProperty.Builder().apply(initializer).build()

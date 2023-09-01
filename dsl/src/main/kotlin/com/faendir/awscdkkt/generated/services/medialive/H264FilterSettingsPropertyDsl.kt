@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildH264FilterSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.H264FilterSettingsProperty.Builder.() -> Unit): CfnChannel.H264FilterSettingsProperty
-    = CfnChannel.H264FilterSettingsProperty.Builder().apply(initializer).build()
+    CfnChannel.H264FilterSettingsProperty.Builder.() -> Unit = {}):
+    CfnChannel.H264FilterSettingsProperty =
+    CfnChannel.H264FilterSettingsProperty.Builder().apply(initializer).build()

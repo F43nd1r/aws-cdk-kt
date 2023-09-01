@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cognito.CfnUserPool
 
 @Generated
 public fun buildRecoveryOptionProperty(initializer: @AwsCdkDsl
-    CfnUserPool.RecoveryOptionProperty.Builder.() -> Unit): CfnUserPool.RecoveryOptionProperty =
-    CfnUserPool.RecoveryOptionProperty.Builder().apply(initializer).build()
+    CfnUserPool.RecoveryOptionProperty.Builder.() -> Unit = {}): CfnUserPool.RecoveryOptionProperty
+    = CfnUserPool.RecoveryOptionProperty.Builder().apply(initializer).build()

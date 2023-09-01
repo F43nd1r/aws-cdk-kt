@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.cognito.CfnUserPool
 
 @Generated
 public fun buildCustomSMSSenderProperty(initializer: @AwsCdkDsl
-    CfnUserPool.CustomSMSSenderProperty.Builder.() -> Unit): CfnUserPool.CustomSMSSenderProperty =
+    CfnUserPool.CustomSMSSenderProperty.Builder.() -> Unit = {}):
+    CfnUserPool.CustomSMSSenderProperty =
     CfnUserPool.CustomSMSSenderProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.dynamodb.CfnTable
 
 @Generated
 public fun buildTimeToLiveSpecificationProperty(initializer: @AwsCdkDsl
-    CfnTable.TimeToLiveSpecificationProperty.Builder.() -> Unit):
+    CfnTable.TimeToLiveSpecificationProperty.Builder.() -> Unit = {}):
     CfnTable.TimeToLiveSpecificationProperty =
     CfnTable.TimeToLiveSpecificationProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.SageMakerCreateTraini
 
 @Generated
 public fun buildSageMakerCreateTrainingJobProps(initializer: @AwsCdkDsl
-    SageMakerCreateTrainingJobProps.Builder.() -> Unit): SageMakerCreateTrainingJobProps =
+    SageMakerCreateTrainingJobProps.Builder.() -> Unit = {}): SageMakerCreateTrainingJobProps =
     SageMakerCreateTrainingJobProps.Builder().apply(initializer).build()

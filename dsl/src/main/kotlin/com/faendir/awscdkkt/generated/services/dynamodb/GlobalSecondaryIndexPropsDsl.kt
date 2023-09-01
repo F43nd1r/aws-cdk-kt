@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.dynamodb.GlobalSecondaryIndexProps
 
 @Generated
 public fun buildGlobalSecondaryIndexProps(initializer: @AwsCdkDsl
-    GlobalSecondaryIndexProps.Builder.() -> Unit): GlobalSecondaryIndexProps =
+    GlobalSecondaryIndexProps.Builder.() -> Unit = {}): GlobalSecondaryIndexProps =
     GlobalSecondaryIndexProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appmesh.CfnVirtualService
 
 @Generated
 public fun buildVirtualRouterServiceProviderProperty(initializer: @AwsCdkDsl
-    CfnVirtualService.VirtualRouterServiceProviderProperty.Builder.() -> Unit):
+    CfnVirtualService.VirtualRouterServiceProviderProperty.Builder.() -> Unit = {}):
     CfnVirtualService.VirtualRouterServiceProviderProperty =
     CfnVirtualService.VirtualRouterServiceProviderProperty.Builder().apply(initializer).build()

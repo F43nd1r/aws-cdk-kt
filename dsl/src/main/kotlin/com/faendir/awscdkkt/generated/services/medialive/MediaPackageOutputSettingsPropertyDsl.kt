@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildMediaPackageOutputSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.MediaPackageOutputSettingsProperty.Builder.() -> Unit):
+    CfnChannel.MediaPackageOutputSettingsProperty.Builder.() -> Unit = {}):
     CfnChannel.MediaPackageOutputSettingsProperty =
     CfnChannel.MediaPackageOutputSettingsProperty.Builder().apply(initializer).build()

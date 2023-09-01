@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.omics.CfnReferenceStoreProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnReferenceStore(id: String, props: CfnReferenceStoreProps): CfnReferenceStore
-    = CfnReferenceStore(this, id, props)
-
-@Generated
 public fun Construct.cfnReferenceStore(
   id: String,
   props: CfnReferenceStoreProps,
-  initializer: @AwsCdkDsl CfnReferenceStore.() -> Unit,
+  initializer: @AwsCdkDsl CfnReferenceStore.() -> Unit = {},
 ): CfnReferenceStore = CfnReferenceStore(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnReferenceStore(id: String, initializer: @AwsCdkDsl
-    CfnReferenceStore.Builder.() -> Unit): CfnReferenceStore =
+    CfnReferenceStore.Builder.() -> Unit = {}): CfnReferenceStore =
     CfnReferenceStore.Builder.create(this, id).apply(initializer).build()

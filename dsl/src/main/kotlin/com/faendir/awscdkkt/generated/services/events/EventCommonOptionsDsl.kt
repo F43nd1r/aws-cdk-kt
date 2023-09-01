@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.EventCommonOptions
 
 @Generated
-public fun buildEventCommonOptions(initializer: @AwsCdkDsl EventCommonOptions.Builder.() -> Unit):
-    EventCommonOptions = EventCommonOptions.Builder().apply(initializer).build()
+public fun buildEventCommonOptions(initializer: @AwsCdkDsl EventCommonOptions.Builder.() -> Unit =
+    {}): EventCommonOptions = EventCommonOptions.Builder().apply(initializer).build()

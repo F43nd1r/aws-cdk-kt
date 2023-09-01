@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kinesisanalyticsv2.CfnApplicationReferenc
 
 @Generated
 public fun buildRecordFormatProperty(initializer: @AwsCdkDsl
-    CfnApplicationReferenceDataSource.RecordFormatProperty.Builder.() -> Unit):
+    CfnApplicationReferenceDataSource.RecordFormatProperty.Builder.() -> Unit = {}):
     CfnApplicationReferenceDataSource.RecordFormatProperty =
     CfnApplicationReferenceDataSource.RecordFormatProperty.Builder().apply(initializer).build()

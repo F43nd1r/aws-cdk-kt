@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kinesisanalyticsv2.CfnApplication
 
 @Generated
 public fun buildFlinkApplicationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnApplication.FlinkApplicationConfigurationProperty.Builder.() -> Unit):
+    CfnApplication.FlinkApplicationConfigurationProperty.Builder.() -> Unit = {}):
     CfnApplication.FlinkApplicationConfigurationProperty =
     CfnApplication.FlinkApplicationConfigurationProperty.Builder().apply(initializer).build()

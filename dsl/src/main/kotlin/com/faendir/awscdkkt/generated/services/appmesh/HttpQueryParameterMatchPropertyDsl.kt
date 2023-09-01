@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appmesh.CfnRoute
 
 @Generated
 public fun buildHttpQueryParameterMatchProperty(initializer: @AwsCdkDsl
-    CfnRoute.HttpQueryParameterMatchProperty.Builder.() -> Unit):
+    CfnRoute.HttpQueryParameterMatchProperty.Builder.() -> Unit = {}):
     CfnRoute.HttpQueryParameterMatchProperty =
     CfnRoute.HttpQueryParameterMatchProperty.Builder().apply(initializer).build()

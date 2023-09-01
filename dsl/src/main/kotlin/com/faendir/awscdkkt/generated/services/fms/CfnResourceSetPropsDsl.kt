@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fms.CfnResourceSetProps
 
 @Generated
-public fun buildCfnResourceSetProps(initializer: @AwsCdkDsl CfnResourceSetProps.Builder.() -> Unit):
-    CfnResourceSetProps = CfnResourceSetProps.Builder().apply(initializer).build()
+public fun buildCfnResourceSetProps(initializer: @AwsCdkDsl CfnResourceSetProps.Builder.() -> Unit =
+    {}): CfnResourceSetProps = CfnResourceSetProps.Builder().apply(initializer).build()

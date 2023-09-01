@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelCard
 
 @Generated
 public fun buildTrainingJobDetailsProperty(initializer: @AwsCdkDsl
-    CfnModelCard.TrainingJobDetailsProperty.Builder.() -> Unit):
+    CfnModelCard.TrainingJobDetailsProperty.Builder.() -> Unit = {}):
     CfnModelCard.TrainingJobDetailsProperty =
     CfnModelCard.TrainingJobDetailsProperty.Builder().apply(initializer).build()

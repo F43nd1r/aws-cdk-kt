@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.imagebuilder.CfnDistributionConfiguration
 
 @Generated
 public fun buildCfnDistributionConfigurationProps(initializer: @AwsCdkDsl
-    CfnDistributionConfigurationProps.Builder.() -> Unit): CfnDistributionConfigurationProps =
+    CfnDistributionConfigurationProps.Builder.() -> Unit = {}): CfnDistributionConfigurationProps =
     CfnDistributionConfigurationProps.Builder().apply(initializer).build()

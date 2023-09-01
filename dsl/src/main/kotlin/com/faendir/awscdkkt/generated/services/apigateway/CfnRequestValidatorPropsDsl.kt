@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.apigateway.CfnRequestValidatorProps
 
 @Generated
 public fun buildCfnRequestValidatorProps(initializer: @AwsCdkDsl
-    CfnRequestValidatorProps.Builder.() -> Unit): CfnRequestValidatorProps =
+    CfnRequestValidatorProps.Builder.() -> Unit = {}): CfnRequestValidatorProps =
     CfnRequestValidatorProps.Builder().apply(initializer).build()

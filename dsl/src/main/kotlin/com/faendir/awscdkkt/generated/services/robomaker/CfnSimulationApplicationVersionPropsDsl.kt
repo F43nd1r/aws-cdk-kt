@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.robomaker.CfnSimulationApplicationVersion
 
 @Generated
 public fun buildCfnSimulationApplicationVersionProps(initializer: @AwsCdkDsl
-    CfnSimulationApplicationVersionProps.Builder.() -> Unit): CfnSimulationApplicationVersionProps =
+    CfnSimulationApplicationVersionProps.Builder.() -> Unit = {}):
+    CfnSimulationApplicationVersionProps =
     CfnSimulationApplicationVersionProps.Builder().apply(initializer).build()

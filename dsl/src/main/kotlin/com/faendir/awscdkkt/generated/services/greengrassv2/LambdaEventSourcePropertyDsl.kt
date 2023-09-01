@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.greengrassv2.CfnComponentVersion
 
 @Generated
 public fun buildLambdaEventSourceProperty(initializer: @AwsCdkDsl
-    CfnComponentVersion.LambdaEventSourceProperty.Builder.() -> Unit):
+    CfnComponentVersion.LambdaEventSourceProperty.Builder.() -> Unit = {}):
     CfnComponentVersion.LambdaEventSourceProperty =
     CfnComponentVersion.LambdaEventSourceProperty.Builder().apply(initializer).build()

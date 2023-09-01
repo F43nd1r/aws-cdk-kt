@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.grafana.CfnWorkspace
 
 @Generated
 public fun buildAssertionAttributesProperty(initializer: @AwsCdkDsl
-    CfnWorkspace.AssertionAttributesProperty.Builder.() -> Unit):
+    CfnWorkspace.AssertionAttributesProperty.Builder.() -> Unit = {}):
     CfnWorkspace.AssertionAttributesProperty =
     CfnWorkspace.AssertionAttributesProperty.Builder().apply(initializer).build()

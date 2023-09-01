@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.servicediscovery.HttpNamespaceAttributes
 
 @Generated
 public fun buildHttpNamespaceAttributes(initializer: @AwsCdkDsl
-    HttpNamespaceAttributes.Builder.() -> Unit): HttpNamespaceAttributes =
+    HttpNamespaceAttributes.Builder.() -> Unit = {}): HttpNamespaceAttributes =
     HttpNamespaceAttributes.Builder().apply(initializer).build()

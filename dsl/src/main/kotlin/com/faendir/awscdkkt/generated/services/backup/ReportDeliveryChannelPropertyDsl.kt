@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.backup.CfnReportPlan
 
 @Generated
 public fun buildReportDeliveryChannelProperty(initializer: @AwsCdkDsl
-    CfnReportPlan.ReportDeliveryChannelProperty.Builder.() -> Unit):
+    CfnReportPlan.ReportDeliveryChannelProperty.Builder.() -> Unit = {}):
     CfnReportPlan.ReportDeliveryChannelProperty =
     CfnReportPlan.ReportDeliveryChannelProperty.Builder().apply(initializer).build()

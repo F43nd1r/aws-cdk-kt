@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.cloudassembly.schema.DestroyCommand
 
 @Generated
-public fun buildDestroyCommand(initializer: @AwsCdkDsl DestroyCommand.Builder.() -> Unit):
+public fun buildDestroyCommand(initializer: @AwsCdkDsl DestroyCommand.Builder.() -> Unit = {}):
     DestroyCommand = DestroyCommand.Builder().apply(initializer).build()

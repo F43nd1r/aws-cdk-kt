@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.gamelift.CfnFleet
 
 @Generated
 public fun buildCertificateConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFleet.CertificateConfigurationProperty.Builder.() -> Unit):
+    CfnFleet.CertificateConfigurationProperty.Builder.() -> Unit = {}):
     CfnFleet.CertificateConfigurationProperty =
     CfnFleet.CertificateConfigurationProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.CloudMapNamespaceOptions
 
 @Generated
 public fun buildCloudMapNamespaceOptions(initializer: @AwsCdkDsl
-    CloudMapNamespaceOptions.Builder.() -> Unit): CloudMapNamespaceOptions =
+    CloudMapNamespaceOptions.Builder.() -> Unit = {}): CloudMapNamespaceOptions =
     CloudMapNamespaceOptions.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appconfig.CfnEnvironment
 
 @Generated
 public fun buildMonitorsProperty(initializer: @AwsCdkDsl
-    CfnEnvironment.MonitorsProperty.Builder.() -> Unit): CfnEnvironment.MonitorsProperty =
+    CfnEnvironment.MonitorsProperty.Builder.() -> Unit = {}): CfnEnvironment.MonitorsProperty =
     CfnEnvironment.MonitorsProperty.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.redshift.CfnClusterSecurityGroupProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnClusterSecurityGroup(id: String, props: CfnClusterSecurityGroupProps):
-    CfnClusterSecurityGroup = CfnClusterSecurityGroup(this, id, props)
-
-@Generated
 public fun Construct.cfnClusterSecurityGroup(
   id: String,
   props: CfnClusterSecurityGroupProps,
-  initializer: @AwsCdkDsl CfnClusterSecurityGroup.() -> Unit,
+  initializer: @AwsCdkDsl CfnClusterSecurityGroup.() -> Unit = {},
 ): CfnClusterSecurityGroup = CfnClusterSecurityGroup(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnClusterSecurityGroup(id: String, initializer: @AwsCdkDsl
-    CfnClusterSecurityGroup.Builder.() -> Unit): CfnClusterSecurityGroup =
+    CfnClusterSecurityGroup.Builder.() -> Unit = {}): CfnClusterSecurityGroup =
     CfnClusterSecurityGroup.Builder.create(this, id).apply(initializer).build()

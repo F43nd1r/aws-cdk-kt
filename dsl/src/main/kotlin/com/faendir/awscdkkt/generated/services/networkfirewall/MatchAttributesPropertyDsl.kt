@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.networkfirewall.CfnRuleGroup
 
 @Generated
 public fun buildMatchAttributesProperty(initializer: @AwsCdkDsl
-    CfnRuleGroup.MatchAttributesProperty.Builder.() -> Unit): CfnRuleGroup.MatchAttributesProperty =
+    CfnRuleGroup.MatchAttributesProperty.Builder.() -> Unit = {}):
+    CfnRuleGroup.MatchAttributesProperty =
     CfnRuleGroup.MatchAttributesProperty.Builder().apply(initializer).build()

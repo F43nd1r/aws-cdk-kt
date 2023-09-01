@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.QueryExecutionContext
 
 @Generated
 public fun buildQueryExecutionContext(initializer: @AwsCdkDsl
-    QueryExecutionContext.Builder.() -> Unit): QueryExecutionContext =
+    QueryExecutionContext.Builder.() -> Unit = {}): QueryExecutionContext =
     QueryExecutionContext.Builder().apply(initializer).build()

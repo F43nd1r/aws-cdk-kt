@@ -9,18 +9,13 @@ import software.amazon.awscdk.services.stepfunctions.tasks.CallApiGatewayRestApi
 import software.constructs.Construct
 
 @Generated
-public fun Construct.callApiGatewayRestApiEndpoint(id: String,
-    props: CallApiGatewayRestApiEndpointProps): CallApiGatewayRestApiEndpoint =
-    CallApiGatewayRestApiEndpoint(this, id, props)
-
-@Generated
 public fun Construct.callApiGatewayRestApiEndpoint(
   id: String,
   props: CallApiGatewayRestApiEndpointProps,
-  initializer: @AwsCdkDsl CallApiGatewayRestApiEndpoint.() -> Unit,
+  initializer: @AwsCdkDsl CallApiGatewayRestApiEndpoint.() -> Unit = {},
 ): CallApiGatewayRestApiEndpoint = CallApiGatewayRestApiEndpoint(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCallApiGatewayRestApiEndpoint(id: String, initializer: @AwsCdkDsl
-    CallApiGatewayRestApiEndpoint.Builder.() -> Unit): CallApiGatewayRestApiEndpoint =
+    CallApiGatewayRestApiEndpoint.Builder.() -> Unit = {}): CallApiGatewayRestApiEndpoint =
     CallApiGatewayRestApiEndpoint.Builder.create(this, id).apply(initializer).build()

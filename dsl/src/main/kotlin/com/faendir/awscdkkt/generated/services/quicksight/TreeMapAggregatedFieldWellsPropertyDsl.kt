@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildTreeMapAggregatedFieldWellsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TreeMapAggregatedFieldWellsProperty.Builder.() -> Unit):
+    CfnTemplate.TreeMapAggregatedFieldWellsProperty.Builder.() -> Unit = {}):
     CfnTemplate.TreeMapAggregatedFieldWellsProperty =
     CfnTemplate.TreeMapAggregatedFieldWellsProperty.Builder().apply(initializer).build()

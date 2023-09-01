@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.secretsmanager.MultiUserHostedRotationOpt
 
 @Generated
 public fun buildMultiUserHostedRotationOptions(initializer: @AwsCdkDsl
-    MultiUserHostedRotationOptions.Builder.() -> Unit): MultiUserHostedRotationOptions =
+    MultiUserHostedRotationOptions.Builder.() -> Unit = {}): MultiUserHostedRotationOptions =
     MultiUserHostedRotationOptions.Builder().apply(initializer).build()

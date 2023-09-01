@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.cloudassembly.schema.KeyContextQuery
 
 @Generated
-public fun buildKeyContextQuery(initializer: @AwsCdkDsl KeyContextQuery.Builder.() -> Unit):
+public fun buildKeyContextQuery(initializer: @AwsCdkDsl KeyContextQuery.Builder.() -> Unit = {}):
     KeyContextQuery = KeyContextQuery.Builder().apply(initializer).build()

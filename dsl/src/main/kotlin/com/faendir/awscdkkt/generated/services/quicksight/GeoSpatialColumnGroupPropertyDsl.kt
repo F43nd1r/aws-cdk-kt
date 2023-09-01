@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
 public fun buildGeoSpatialColumnGroupProperty(initializer: @AwsCdkDsl
-    CfnDataSet.GeoSpatialColumnGroupProperty.Builder.() -> Unit):
+    CfnDataSet.GeoSpatialColumnGroupProperty.Builder.() -> Unit = {}):
     CfnDataSet.GeoSpatialColumnGroupProperty =
     CfnDataSet.GeoSpatialColumnGroupProperty.Builder().apply(initializer).build()

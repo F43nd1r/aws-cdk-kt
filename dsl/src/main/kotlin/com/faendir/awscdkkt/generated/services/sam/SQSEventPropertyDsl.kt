@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
 public fun buildSQSEventProperty(initializer: @AwsCdkDsl
-    CfnFunction.SQSEventProperty.Builder.() -> Unit): CfnFunction.SQSEventProperty =
+    CfnFunction.SQSEventProperty.Builder.() -> Unit = {}): CfnFunction.SQSEventProperty =
     CfnFunction.SQSEventProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iot.CfnTopicRule
 
 @Generated
 public fun buildKafkaActionProperty(initializer: @AwsCdkDsl
-    CfnTopicRule.KafkaActionProperty.Builder.() -> Unit): CfnTopicRule.KafkaActionProperty =
+    CfnTopicRule.KafkaActionProperty.Builder.() -> Unit = {}): CfnTopicRule.KafkaActionProperty =
     CfnTopicRule.KafkaActionProperty.Builder().apply(initializer).build()

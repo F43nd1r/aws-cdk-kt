@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.servicecatalog.CfnLaunchRoleConstraintPro
 
 @Generated
 public fun buildCfnLaunchRoleConstraintProps(initializer: @AwsCdkDsl
-    CfnLaunchRoleConstraintProps.Builder.() -> Unit): CfnLaunchRoleConstraintProps =
+    CfnLaunchRoleConstraintProps.Builder.() -> Unit = {}): CfnLaunchRoleConstraintProps =
     CfnLaunchRoleConstraintProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelExplainabilityJobDefini
 
 @Generated
 public fun buildModelExplainabilityBaselineConfigProperty(initializer: @AwsCdkDsl
-    CfnModelExplainabilityJobDefinition.ModelExplainabilityBaselineConfigProperty.Builder.() -> Unit):
-    CfnModelExplainabilityJobDefinition.ModelExplainabilityBaselineConfigProperty =
+    CfnModelExplainabilityJobDefinition.ModelExplainabilityBaselineConfigProperty.Builder.() -> Unit
+    = {}): CfnModelExplainabilityJobDefinition.ModelExplainabilityBaselineConfigProperty =
     CfnModelExplainabilityJobDefinition.ModelExplainabilityBaselineConfigProperty.Builder().apply(initializer).build()

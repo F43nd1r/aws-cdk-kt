@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.greengrassv2.CfnComponentVersion
 
 @Generated
 public fun buildLambdaVolumeMountProperty(initializer: @AwsCdkDsl
-    CfnComponentVersion.LambdaVolumeMountProperty.Builder.() -> Unit):
+    CfnComponentVersion.LambdaVolumeMountProperty.Builder.() -> Unit = {}):
     CfnComponentVersion.LambdaVolumeMountProperty =
     CfnComponentVersion.LambdaVolumeMountProperty.Builder().apply(initializer).build()

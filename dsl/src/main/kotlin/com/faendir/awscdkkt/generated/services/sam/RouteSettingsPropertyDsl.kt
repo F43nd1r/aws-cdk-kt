@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sam.CfnHttpApi
 
 @Generated
 public fun buildRouteSettingsProperty(initializer: @AwsCdkDsl
-    CfnHttpApi.RouteSettingsProperty.Builder.() -> Unit): CfnHttpApi.RouteSettingsProperty =
+    CfnHttpApi.RouteSettingsProperty.Builder.() -> Unit = {}): CfnHttpApi.RouteSettingsProperty =
     CfnHttpApi.RouteSettingsProperty.Builder().apply(initializer).build()

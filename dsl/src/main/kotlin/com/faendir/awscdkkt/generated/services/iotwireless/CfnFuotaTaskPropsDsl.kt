@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotwireless.CfnFuotaTaskProps
 
 @Generated
-public fun buildCfnFuotaTaskProps(initializer: @AwsCdkDsl CfnFuotaTaskProps.Builder.() -> Unit):
-    CfnFuotaTaskProps = CfnFuotaTaskProps.Builder().apply(initializer).build()
+public fun buildCfnFuotaTaskProps(initializer: @AwsCdkDsl CfnFuotaTaskProps.Builder.() -> Unit =
+    {}): CfnFuotaTaskProps = CfnFuotaTaskProps.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.mediapackage.CfnPackagingConfigurationPro
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnPackagingConfiguration(id: String, props: CfnPackagingConfigurationProps):
-    CfnPackagingConfiguration = CfnPackagingConfiguration(this, id, props)
-
-@Generated
 public fun Construct.cfnPackagingConfiguration(
   id: String,
   props: CfnPackagingConfigurationProps,
-  initializer: @AwsCdkDsl CfnPackagingConfiguration.() -> Unit,
+  initializer: @AwsCdkDsl CfnPackagingConfiguration.() -> Unit = {},
 ): CfnPackagingConfiguration = CfnPackagingConfiguration(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnPackagingConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnPackagingConfiguration.Builder.() -> Unit): CfnPackagingConfiguration =
+    CfnPackagingConfiguration.Builder.() -> Unit = {}): CfnPackagingConfiguration =
     CfnPackagingConfiguration.Builder.create(this, id).apply(initializer).build()

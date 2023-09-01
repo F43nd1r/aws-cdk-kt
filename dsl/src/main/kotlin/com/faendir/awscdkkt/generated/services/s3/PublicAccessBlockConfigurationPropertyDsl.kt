@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.s3.CfnMultiRegionAccessPoint
 
 @Generated
 public fun buildPublicAccessBlockConfigurationProperty(initializer: @AwsCdkDsl
-    CfnMultiRegionAccessPoint.PublicAccessBlockConfigurationProperty.Builder.() -> Unit):
+    CfnMultiRegionAccessPoint.PublicAccessBlockConfigurationProperty.Builder.() -> Unit = {}):
     CfnMultiRegionAccessPoint.PublicAccessBlockConfigurationProperty =
     CfnMultiRegionAccessPoint.PublicAccessBlockConfigurationProperty.Builder().apply(initializer).build()

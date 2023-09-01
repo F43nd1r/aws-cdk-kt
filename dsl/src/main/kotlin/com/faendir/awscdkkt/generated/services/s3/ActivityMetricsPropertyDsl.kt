@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.s3.CfnStorageLens
 
 @Generated
 public fun buildActivityMetricsProperty(initializer: @AwsCdkDsl
-    CfnStorageLens.ActivityMetricsProperty.Builder.() -> Unit):
+    CfnStorageLens.ActivityMetricsProperty.Builder.() -> Unit = {}):
     CfnStorageLens.ActivityMetricsProperty =
     CfnStorageLens.ActivityMetricsProperty.Builder().apply(initializer).build()

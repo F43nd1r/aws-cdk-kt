@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildOutputLocationRefProperty(initializer: @AwsCdkDsl
-    CfnChannel.OutputLocationRefProperty.Builder.() -> Unit): CfnChannel.OutputLocationRefProperty =
+    CfnChannel.OutputLocationRefProperty.Builder.() -> Unit = {}):
+    CfnChannel.OutputLocationRefProperty =
     CfnChannel.OutputLocationRefProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.EcrSourceAction
 
 @Generated
-public fun buildEcrSourceAction(initializer: @AwsCdkDsl EcrSourceAction.Builder.() -> Unit):
+public fun buildEcrSourceAction(initializer: @AwsCdkDsl EcrSourceAction.Builder.() -> Unit = {}):
     EcrSourceAction = EcrSourceAction.Builder.create().apply(initializer).build()

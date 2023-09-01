@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnSpotFleet
 
 @Generated
 public fun buildVCpuCountRangeRequestProperty(initializer: @AwsCdkDsl
-    CfnSpotFleet.VCpuCountRangeRequestProperty.Builder.() -> Unit):
+    CfnSpotFleet.VCpuCountRangeRequestProperty.Builder.() -> Unit = {}):
     CfnSpotFleet.VCpuCountRangeRequestProperty =
     CfnSpotFleet.VCpuCountRangeRequestProperty.Builder().apply(initializer).build()

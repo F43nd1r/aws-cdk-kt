@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lambda.LogRetentionRetryOptions
 
 @Generated
 public fun buildLogRetentionRetryOptions(initializer: @AwsCdkDsl
-    LogRetentionRetryOptions.Builder.() -> Unit): LogRetentionRetryOptions =
+    LogRetentionRetryOptions.Builder.() -> Unit = {}): LogRetentionRetryOptions =
     LogRetentionRetryOptions.Builder().apply(initializer).build()

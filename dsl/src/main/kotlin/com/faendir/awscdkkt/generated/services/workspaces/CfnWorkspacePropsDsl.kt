@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.workspaces.CfnWorkspaceProps
 
 @Generated
-public fun buildCfnWorkspaceProps(initializer: @AwsCdkDsl CfnWorkspaceProps.Builder.() -> Unit):
-    CfnWorkspaceProps = CfnWorkspaceProps.Builder().apply(initializer).build()
+public fun buildCfnWorkspaceProps(initializer: @AwsCdkDsl CfnWorkspaceProps.Builder.() -> Unit =
+    {}): CfnWorkspaceProps = CfnWorkspaceProps.Builder().apply(initializer).build()

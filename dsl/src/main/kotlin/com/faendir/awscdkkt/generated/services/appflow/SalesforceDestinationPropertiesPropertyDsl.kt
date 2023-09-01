@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
 public fun buildSalesforceDestinationPropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.SalesforceDestinationPropertiesProperty.Builder.() -> Unit):
+    CfnFlow.SalesforceDestinationPropertiesProperty.Builder.() -> Unit = {}):
     CfnFlow.SalesforceDestinationPropertiesProperty =
     CfnFlow.SalesforceDestinationPropertiesProperty.Builder().apply(initializer).build()

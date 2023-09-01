@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.grafana.CfnWorkspaceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnWorkspace(id: String, props: CfnWorkspaceProps): CfnWorkspace =
-    CfnWorkspace(this, id, props)
-
-@Generated
 public fun Construct.cfnWorkspace(
   id: String,
   props: CfnWorkspaceProps,
-  initializer: @AwsCdkDsl CfnWorkspace.() -> Unit,
+  initializer: @AwsCdkDsl CfnWorkspace.() -> Unit = {},
 ): CfnWorkspace = CfnWorkspace(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnWorkspace(id: String, initializer: @AwsCdkDsl
-    CfnWorkspace.Builder.() -> Unit): CfnWorkspace = CfnWorkspace.Builder.create(this,
+    CfnWorkspace.Builder.() -> Unit = {}): CfnWorkspace = CfnWorkspace.Builder.create(this,
     id).apply(initializer).build()

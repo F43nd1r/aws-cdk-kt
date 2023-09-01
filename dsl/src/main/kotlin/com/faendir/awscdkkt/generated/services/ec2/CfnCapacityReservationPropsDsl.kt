@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.CfnCapacityReservationProps
 
 @Generated
 public fun buildCfnCapacityReservationProps(initializer: @AwsCdkDsl
-    CfnCapacityReservationProps.Builder.() -> Unit): CfnCapacityReservationProps =
+    CfnCapacityReservationProps.Builder.() -> Unit = {}): CfnCapacityReservationProps =
     CfnCapacityReservationProps.Builder().apply(initializer).build()

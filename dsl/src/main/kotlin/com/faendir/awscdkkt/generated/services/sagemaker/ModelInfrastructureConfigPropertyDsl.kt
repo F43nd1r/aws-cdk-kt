@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnInferenceExperiment
 
 @Generated
 public fun buildModelInfrastructureConfigProperty(initializer: @AwsCdkDsl
-    CfnInferenceExperiment.ModelInfrastructureConfigProperty.Builder.() -> Unit):
+    CfnInferenceExperiment.ModelInfrastructureConfigProperty.Builder.() -> Unit = {}):
     CfnInferenceExperiment.ModelInfrastructureConfigProperty =
     CfnInferenceExperiment.ModelInfrastructureConfigProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.evidently.CfnLaunch
 
 @Generated
 public fun buildSegmentOverrideProperty(initializer: @AwsCdkDsl
-    CfnLaunch.SegmentOverrideProperty.Builder.() -> Unit): CfnLaunch.SegmentOverrideProperty =
+    CfnLaunch.SegmentOverrideProperty.Builder.() -> Unit = {}): CfnLaunch.SegmentOverrideProperty =
     CfnLaunch.SegmentOverrideProperty.Builder().apply(initializer).build()

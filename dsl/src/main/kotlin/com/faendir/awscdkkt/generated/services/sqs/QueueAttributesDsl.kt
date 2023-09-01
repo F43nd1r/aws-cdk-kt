@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sqs.QueueAttributes
 
 @Generated
-public fun buildQueueAttributes(initializer: @AwsCdkDsl QueueAttributes.Builder.() -> Unit):
+public fun buildQueueAttributes(initializer: @AwsCdkDsl QueueAttributes.Builder.() -> Unit = {}):
     QueueAttributes = QueueAttributes.Builder().apply(initializer).build()

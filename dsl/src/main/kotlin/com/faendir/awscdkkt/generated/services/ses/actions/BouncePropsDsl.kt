@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.actions.BounceProps
 
 @Generated
-public fun buildBounceProps(initializer: @AwsCdkDsl BounceProps.Builder.() -> Unit): BounceProps =
-    BounceProps.Builder().apply(initializer).build()
+public fun buildBounceProps(initializer: @AwsCdkDsl BounceProps.Builder.() -> Unit = {}):
+    BounceProps = BounceProps.Builder().apply(initializer).build()

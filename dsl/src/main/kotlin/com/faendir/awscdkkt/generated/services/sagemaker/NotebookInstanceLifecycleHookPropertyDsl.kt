@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnNotebookInstanceLifecycleCon
 
 @Generated
 public fun buildNotebookInstanceLifecycleHookProperty(initializer: @AwsCdkDsl
-    CfnNotebookInstanceLifecycleConfig.NotebookInstanceLifecycleHookProperty.Builder.() -> Unit):
-    CfnNotebookInstanceLifecycleConfig.NotebookInstanceLifecycleHookProperty =
+    CfnNotebookInstanceLifecycleConfig.NotebookInstanceLifecycleHookProperty.Builder.() -> Unit =
+    {}): CfnNotebookInstanceLifecycleConfig.NotebookInstanceLifecycleHookProperty =
     CfnNotebookInstanceLifecycleConfig.NotebookInstanceLifecycleHookProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.ParameterGroupProps
 
 @Generated
-public fun buildParameterGroupProps(initializer: @AwsCdkDsl ParameterGroupProps.Builder.() -> Unit):
-    ParameterGroupProps = ParameterGroupProps.Builder().apply(initializer).build()
+public fun buildParameterGroupProps(initializer: @AwsCdkDsl ParameterGroupProps.Builder.() -> Unit =
+    {}): ParameterGroupProps = ParameterGroupProps.Builder().apply(initializer).build()

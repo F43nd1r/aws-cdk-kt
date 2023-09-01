@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnPhoneNumberProps
 
 @Generated
-public fun buildCfnPhoneNumberProps(initializer: @AwsCdkDsl CfnPhoneNumberProps.Builder.() -> Unit):
-    CfnPhoneNumberProps = CfnPhoneNumberProps.Builder().apply(initializer).build()
+public fun buildCfnPhoneNumberProps(initializer: @AwsCdkDsl CfnPhoneNumberProps.Builder.() -> Unit =
+    {}): CfnPhoneNumberProps = CfnPhoneNumberProps.Builder().apply(initializer).build()

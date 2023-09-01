@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.eks.CfnCluster
 
 @Generated
 public fun buildEncryptionConfigProperty(initializer: @AwsCdkDsl
-    CfnCluster.EncryptionConfigProperty.Builder.() -> Unit): CfnCluster.EncryptionConfigProperty =
+    CfnCluster.EncryptionConfigProperty.Builder.() -> Unit = {}):
+    CfnCluster.EncryptionConfigProperty =
     CfnCluster.EncryptionConfigProperty.Builder().apply(initializer).build()

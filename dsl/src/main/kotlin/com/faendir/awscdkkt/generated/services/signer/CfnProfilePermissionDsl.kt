@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.signer.CfnProfilePermissionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnProfilePermission(id: String, props: CfnProfilePermissionProps):
-    CfnProfilePermission = CfnProfilePermission(this, id, props)
-
-@Generated
 public fun Construct.cfnProfilePermission(
   id: String,
   props: CfnProfilePermissionProps,
-  initializer: @AwsCdkDsl CfnProfilePermission.() -> Unit,
+  initializer: @AwsCdkDsl CfnProfilePermission.() -> Unit = {},
 ): CfnProfilePermission = CfnProfilePermission(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnProfilePermission(id: String, initializer: @AwsCdkDsl
-    CfnProfilePermission.Builder.() -> Unit): CfnProfilePermission =
+    CfnProfilePermission.Builder.() -> Unit = {}): CfnProfilePermission =
     CfnProfilePermission.Builder.create(this, id).apply(initializer).build()

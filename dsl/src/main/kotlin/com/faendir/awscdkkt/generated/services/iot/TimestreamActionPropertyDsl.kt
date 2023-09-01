@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.iot.CfnTopicRule
 
 @Generated
 public fun buildTimestreamActionProperty(initializer: @AwsCdkDsl
-    CfnTopicRule.TimestreamActionProperty.Builder.() -> Unit): CfnTopicRule.TimestreamActionProperty
-    = CfnTopicRule.TimestreamActionProperty.Builder().apply(initializer).build()
+    CfnTopicRule.TimestreamActionProperty.Builder.() -> Unit = {}):
+    CfnTopicRule.TimestreamActionProperty =
+    CfnTopicRule.TimestreamActionProperty.Builder().apply(initializer).build()

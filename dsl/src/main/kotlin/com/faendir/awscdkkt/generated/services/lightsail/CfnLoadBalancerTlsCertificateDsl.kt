@@ -9,18 +9,13 @@ import software.amazon.awscdk.services.lightsail.CfnLoadBalancerTlsCertificatePr
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnLoadBalancerTlsCertificate(id: String,
-    props: CfnLoadBalancerTlsCertificateProps): CfnLoadBalancerTlsCertificate =
-    CfnLoadBalancerTlsCertificate(this, id, props)
-
-@Generated
 public fun Construct.cfnLoadBalancerTlsCertificate(
   id: String,
   props: CfnLoadBalancerTlsCertificateProps,
-  initializer: @AwsCdkDsl CfnLoadBalancerTlsCertificate.() -> Unit,
+  initializer: @AwsCdkDsl CfnLoadBalancerTlsCertificate.() -> Unit = {},
 ): CfnLoadBalancerTlsCertificate = CfnLoadBalancerTlsCertificate(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnLoadBalancerTlsCertificate(id: String, initializer: @AwsCdkDsl
-    CfnLoadBalancerTlsCertificate.Builder.() -> Unit): CfnLoadBalancerTlsCertificate =
+    CfnLoadBalancerTlsCertificate.Builder.() -> Unit = {}): CfnLoadBalancerTlsCertificate =
     CfnLoadBalancerTlsCertificate.Builder.create(this, id).apply(initializer).build()

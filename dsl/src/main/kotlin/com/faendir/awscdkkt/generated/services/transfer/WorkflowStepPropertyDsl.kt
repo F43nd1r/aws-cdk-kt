@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.transfer.CfnWorkflow
 
 @Generated
 public fun buildWorkflowStepProperty(initializer: @AwsCdkDsl
-    CfnWorkflow.WorkflowStepProperty.Builder.() -> Unit): CfnWorkflow.WorkflowStepProperty =
+    CfnWorkflow.WorkflowStepProperty.Builder.() -> Unit = {}): CfnWorkflow.WorkflowStepProperty =
     CfnWorkflow.WorkflowStepProperty.Builder().apply(initializer).build()

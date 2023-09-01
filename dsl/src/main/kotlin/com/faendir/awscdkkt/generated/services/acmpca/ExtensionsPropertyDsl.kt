@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.acmpca.CfnCertificate
 
 @Generated
 public fun buildExtensionsProperty(initializer: @AwsCdkDsl
-    CfnCertificate.ExtensionsProperty.Builder.() -> Unit): CfnCertificate.ExtensionsProperty =
+    CfnCertificate.ExtensionsProperty.Builder.() -> Unit = {}): CfnCertificate.ExtensionsProperty =
     CfnCertificate.ExtensionsProperty.Builder().apply(initializer).build()

@@ -9,43 +9,31 @@ import software.amazon.awscdk.StackProps
 import software.constructs.Construct
 
 @Generated
-public fun stack(): Stack = Stack()
+public fun stack(initializer: @AwsCdkDsl Stack.() -> Unit = {}): Stack = Stack().apply(initializer)
 
 @Generated
-public fun stack(initializer: @AwsCdkDsl Stack.() -> Unit): Stack = Stack().apply(initializer)
-
-@Generated
-public fun Construct.stack(): Stack = Stack(this)
-
-@Generated
-public fun Construct.stack(initializer: @AwsCdkDsl Stack.() -> Unit): Stack =
+public fun Construct.stack(initializer: @AwsCdkDsl Stack.() -> Unit = {}): Stack =
     Stack(this).apply(initializer)
 
 @Generated
-public fun Construct.stack(id: String): Stack = Stack(this, id)
-
-@Generated
-public fun Construct.stack(id: String, initializer: @AwsCdkDsl Stack.() -> Unit): Stack =
+public fun Construct.stack(id: String, initializer: @AwsCdkDsl Stack.() -> Unit = {}): Stack =
     Stack(this, id).apply(initializer)
-
-@Generated
-public fun Construct.stack(id: String, props: StackProps): Stack = Stack(this, id, props)
 
 @Generated
 public fun Construct.stack(
   id: String,
   props: StackProps,
-  initializer: @AwsCdkDsl Stack.() -> Unit,
+  initializer: @AwsCdkDsl Stack.() -> Unit = {},
 ): Stack = Stack(this, id, props).apply(initializer)
 
 @Generated
-public fun buildStack(initializer: @AwsCdkDsl Stack.Builder.() -> Unit): Stack =
+public fun buildStack(initializer: @AwsCdkDsl Stack.Builder.() -> Unit = {}): Stack =
     Stack.Builder.create().apply(initializer).build()
 
 @Generated
-public fun Construct.buildStack(initializer: @AwsCdkDsl Stack.Builder.() -> Unit): Stack =
+public fun Construct.buildStack(initializer: @AwsCdkDsl Stack.Builder.() -> Unit = {}): Stack =
     Stack.Builder.create(this).apply(initializer).build()
 
 @Generated
-public fun Construct.buildStack(id: String, initializer: @AwsCdkDsl Stack.Builder.() -> Unit): Stack
-    = Stack.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildStack(id: String, initializer: @AwsCdkDsl Stack.Builder.() -> Unit = {}):
+    Stack = Stack.Builder.create(this, id).apply(initializer).build()

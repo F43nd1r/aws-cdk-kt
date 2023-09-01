@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.patterns.ApplicationLoadBalancedFarga
 
 @Generated
 public fun buildApplicationLoadBalancedFargateServiceProps(initializer: @AwsCdkDsl
-    ApplicationLoadBalancedFargateServiceProps.Builder.() -> Unit):
+    ApplicationLoadBalancedFargateServiceProps.Builder.() -> Unit = {}):
     ApplicationLoadBalancedFargateServiceProps =
     ApplicationLoadBalancedFargateServiceProps.Builder().apply(initializer).build()

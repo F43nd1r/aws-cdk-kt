@@ -9,19 +9,14 @@ import software.amazon.awscdk.services.ec2.CfnVPCEndpointServicePermissionsProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnVPCEndpointServicePermissions(id: String,
-    props: CfnVPCEndpointServicePermissionsProps): CfnVPCEndpointServicePermissions =
-    CfnVPCEndpointServicePermissions(this, id, props)
-
-@Generated
 public fun Construct.cfnVPCEndpointServicePermissions(
   id: String,
   props: CfnVPCEndpointServicePermissionsProps,
-  initializer: @AwsCdkDsl CfnVPCEndpointServicePermissions.() -> Unit,
+  initializer: @AwsCdkDsl CfnVPCEndpointServicePermissions.() -> Unit = {},
 ): CfnVPCEndpointServicePermissions = CfnVPCEndpointServicePermissions(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnVPCEndpointServicePermissions(id: String, initializer: @AwsCdkDsl
-    CfnVPCEndpointServicePermissions.Builder.() -> Unit): CfnVPCEndpointServicePermissions =
+    CfnVPCEndpointServicePermissions.Builder.() -> Unit = {}): CfnVPCEndpointServicePermissions =
     CfnVPCEndpointServicePermissions.Builder.create(this, id).apply(initializer).build()

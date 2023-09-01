@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.CfnVPCEndpointServiceProps
 
 @Generated
 public fun buildCfnVPCEndpointServiceProps(initializer: @AwsCdkDsl
-    CfnVPCEndpointServiceProps.Builder.() -> Unit): CfnVPCEndpointServiceProps =
+    CfnVPCEndpointServiceProps.Builder.() -> Unit = {}): CfnVPCEndpointServiceProps =
     CfnVPCEndpointServiceProps.Builder().apply(initializer).build()

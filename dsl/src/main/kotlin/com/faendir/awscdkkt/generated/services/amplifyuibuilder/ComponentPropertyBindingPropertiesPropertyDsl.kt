@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.amplifyuibuilder.CfnComponent
 
 @Generated
 public fun buildComponentPropertyBindingPropertiesProperty(initializer: @AwsCdkDsl
-    CfnComponent.ComponentPropertyBindingPropertiesProperty.Builder.() -> Unit):
+    CfnComponent.ComponentPropertyBindingPropertiesProperty.Builder.() -> Unit = {}):
     CfnComponent.ComponentPropertyBindingPropertiesProperty =
     CfnComponent.ComponentPropertyBindingPropertiesProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnConnectorProfile
 
 @Generated
 public fun buildInforNexusConnectorProfilePropertiesProperty(initializer: @AwsCdkDsl
-    CfnConnectorProfile.InforNexusConnectorProfilePropertiesProperty.Builder.() -> Unit):
+    CfnConnectorProfile.InforNexusConnectorProfilePropertiesProperty.Builder.() -> Unit = {}):
     CfnConnectorProfile.InforNexusConnectorProfilePropertiesProperty =
     CfnConnectorProfile.InforNexusConnectorProfilePropertiesProperty.Builder().apply(initializer).build()

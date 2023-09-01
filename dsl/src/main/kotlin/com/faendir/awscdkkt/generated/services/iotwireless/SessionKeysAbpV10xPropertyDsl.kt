@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iotwireless.CfnWirelessDevice
 
 @Generated
 public fun buildSessionKeysAbpV10xProperty(initializer: @AwsCdkDsl
-    CfnWirelessDevice.SessionKeysAbpV10xProperty.Builder.() -> Unit):
+    CfnWirelessDevice.SessionKeysAbpV10xProperty.Builder.() -> Unit = {}):
     CfnWirelessDevice.SessionKeysAbpV10xProperty =
     CfnWirelessDevice.SessionKeysAbpV10xProperty.Builder().apply(initializer).build()

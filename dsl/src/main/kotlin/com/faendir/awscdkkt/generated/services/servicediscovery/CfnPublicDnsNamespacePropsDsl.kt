@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.servicediscovery.CfnPublicDnsNamespacePro
 
 @Generated
 public fun buildCfnPublicDnsNamespaceProps(initializer: @AwsCdkDsl
-    CfnPublicDnsNamespaceProps.Builder.() -> Unit): CfnPublicDnsNamespaceProps =
+    CfnPublicDnsNamespaceProps.Builder.() -> Unit = {}): CfnPublicDnsNamespaceProps =
     CfnPublicDnsNamespaceProps.Builder().apply(initializer).build()

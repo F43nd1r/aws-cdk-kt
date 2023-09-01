@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.NetworkLoadBalance
 
 @Generated
 public fun buildNetworkLoadBalancerLookupOptions(initializer: @AwsCdkDsl
-    NetworkLoadBalancerLookupOptions.Builder.() -> Unit): NetworkLoadBalancerLookupOptions =
+    NetworkLoadBalancerLookupOptions.Builder.() -> Unit = {}): NetworkLoadBalancerLookupOptions =
     NetworkLoadBalancerLookupOptions.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.CfnStateMachine
 
 @Generated
 public fun buildDefinitionProperty(initializer: @AwsCdkDsl
-    CfnStateMachine.DefinitionProperty.Builder.() -> Unit): CfnStateMachine.DefinitionProperty =
-    CfnStateMachine.DefinitionProperty.Builder().apply(initializer).build()
+    CfnStateMachine.DefinitionProperty.Builder.() -> Unit = {}): CfnStateMachine.DefinitionProperty
+    = CfnStateMachine.DefinitionProperty.Builder().apply(initializer).build()

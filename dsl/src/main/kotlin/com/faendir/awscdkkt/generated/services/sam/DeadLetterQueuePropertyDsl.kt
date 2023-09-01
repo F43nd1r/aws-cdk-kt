@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
 public fun buildDeadLetterQueueProperty(initializer: @AwsCdkDsl
-    CfnFunction.DeadLetterQueueProperty.Builder.() -> Unit): CfnFunction.DeadLetterQueueProperty =
+    CfnFunction.DeadLetterQueueProperty.Builder.() -> Unit = {}):
+    CfnFunction.DeadLetterQueueProperty =
     CfnFunction.DeadLetterQueueProperty.Builder().apply(initializer).build()

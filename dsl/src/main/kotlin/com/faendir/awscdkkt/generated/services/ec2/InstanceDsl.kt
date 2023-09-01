@@ -9,16 +9,12 @@ import software.amazon.awscdk.services.ec2.InstanceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.instance(id: String, props: InstanceProps): Instance = Instance(this, id,
-    props)
-
-@Generated
 public fun Construct.instance(
   id: String,
   props: InstanceProps,
-  initializer: @AwsCdkDsl Instance.() -> Unit,
+  initializer: @AwsCdkDsl Instance.() -> Unit = {},
 ): Instance = Instance(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildInstance(id: String, initializer: @AwsCdkDsl Instance.Builder.() -> Unit):
-    Instance = Instance.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildInstance(id: String, initializer: @AwsCdkDsl Instance.Builder.() -> Unit =
+    {}): Instance = Instance.Builder.create(this, id).apply(initializer).build()

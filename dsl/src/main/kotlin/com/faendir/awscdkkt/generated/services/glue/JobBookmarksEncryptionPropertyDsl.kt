@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.glue.CfnSecurityConfiguration
 
 @Generated
 public fun buildJobBookmarksEncryptionProperty(initializer: @AwsCdkDsl
-    CfnSecurityConfiguration.JobBookmarksEncryptionProperty.Builder.() -> Unit):
+    CfnSecurityConfiguration.JobBookmarksEncryptionProperty.Builder.() -> Unit = {}):
     CfnSecurityConfiguration.JobBookmarksEncryptionProperty =
     CfnSecurityConfiguration.JobBookmarksEncryptionProperty.Builder().apply(initializer).build()

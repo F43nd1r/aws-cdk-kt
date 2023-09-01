@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildScte27SourceSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.Scte27SourceSettingsProperty.Builder.() -> Unit):
+    CfnChannel.Scte27SourceSettingsProperty.Builder.() -> Unit = {}):
     CfnChannel.Scte27SourceSettingsProperty =
     CfnChannel.Scte27SourceSettingsProperty.Builder().apply(initializer).build()

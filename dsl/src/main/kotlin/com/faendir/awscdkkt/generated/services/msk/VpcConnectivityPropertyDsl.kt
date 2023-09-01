@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.msk.CfnCluster
 
 @Generated
 public fun buildVpcConnectivityProperty(initializer: @AwsCdkDsl
-    CfnCluster.VpcConnectivityProperty.Builder.() -> Unit): CfnCluster.VpcConnectivityProperty =
-    CfnCluster.VpcConnectivityProperty.Builder().apply(initializer).build()
+    CfnCluster.VpcConnectivityProperty.Builder.() -> Unit = {}): CfnCluster.VpcConnectivityProperty
+    = CfnCluster.VpcConnectivityProperty.Builder().apply(initializer).build()

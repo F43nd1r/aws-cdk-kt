@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iotsitewise.CfnAccessPolicy
 
 @Generated
 public fun buildProjectProperty(initializer: @AwsCdkDsl
-    CfnAccessPolicy.ProjectProperty.Builder.() -> Unit): CfnAccessPolicy.ProjectProperty =
+    CfnAccessPolicy.ProjectProperty.Builder.() -> Unit = {}): CfnAccessPolicy.ProjectProperty =
     CfnAccessPolicy.ProjectProperty.Builder().apply(initializer).build()

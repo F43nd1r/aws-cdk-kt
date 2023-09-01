@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildFilledMapConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.FilledMapConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.FilledMapConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.FilledMapConfigurationProperty =
     CfnTemplate.FilledMapConfigurationProperty.Builder().apply(initializer).build()

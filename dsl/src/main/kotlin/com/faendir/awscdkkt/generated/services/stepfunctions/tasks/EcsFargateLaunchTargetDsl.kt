@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EcsFargateLaunchTarge
 
 @Generated
 public fun buildEcsFargateLaunchTarget(initializer: @AwsCdkDsl
-    EcsFargateLaunchTarget.Builder.() -> Unit): EcsFargateLaunchTarget =
+    EcsFargateLaunchTarget.Builder.() -> Unit = {}): EcsFargateLaunchTarget =
     EcsFargateLaunchTarget.Builder.create().apply(initializer).build()

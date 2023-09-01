@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.emr.CfnInstanceFleetConfigProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnInstanceFleetConfig(id: String, props: CfnInstanceFleetConfigProps):
-    CfnInstanceFleetConfig = CfnInstanceFleetConfig(this, id, props)
-
-@Generated
 public fun Construct.cfnInstanceFleetConfig(
   id: String,
   props: CfnInstanceFleetConfigProps,
-  initializer: @AwsCdkDsl CfnInstanceFleetConfig.() -> Unit,
+  initializer: @AwsCdkDsl CfnInstanceFleetConfig.() -> Unit = {},
 ): CfnInstanceFleetConfig = CfnInstanceFleetConfig(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnInstanceFleetConfig(id: String, initializer: @AwsCdkDsl
-    CfnInstanceFleetConfig.Builder.() -> Unit): CfnInstanceFleetConfig =
+    CfnInstanceFleetConfig.Builder.() -> Unit = {}): CfnInstanceFleetConfig =
     CfnInstanceFleetConfig.Builder.create(this, id).apply(initializer).build()

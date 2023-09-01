@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildTableAggregatedFieldWellsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TableAggregatedFieldWellsProperty.Builder.() -> Unit):
+    CfnTemplate.TableAggregatedFieldWellsProperty.Builder.() -> Unit = {}):
     CfnTemplate.TableAggregatedFieldWellsProperty =
     CfnTemplate.TableAggregatedFieldWellsProperty.Builder().apply(initializer).build()

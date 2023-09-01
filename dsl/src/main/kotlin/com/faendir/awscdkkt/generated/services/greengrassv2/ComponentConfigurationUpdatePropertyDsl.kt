@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.greengrassv2.CfnDeployment
 
 @Generated
 public fun buildComponentConfigurationUpdateProperty(initializer: @AwsCdkDsl
-    CfnDeployment.ComponentConfigurationUpdateProperty.Builder.() -> Unit):
+    CfnDeployment.ComponentConfigurationUpdateProperty.Builder.() -> Unit = {}):
     CfnDeployment.ComponentConfigurationUpdateProperty =
     CfnDeployment.ComponentConfigurationUpdateProperty.Builder().apply(initializer).build()

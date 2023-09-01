@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.efs.CfnFileSystem
 
 @Generated
 public fun buildLifecyclePolicyProperty(initializer: @AwsCdkDsl
-    CfnFileSystem.LifecyclePolicyProperty.Builder.() -> Unit): CfnFileSystem.LifecyclePolicyProperty
-    = CfnFileSystem.LifecyclePolicyProperty.Builder().apply(initializer).build()
+    CfnFileSystem.LifecyclePolicyProperty.Builder.() -> Unit = {}):
+    CfnFileSystem.LifecyclePolicyProperty =
+    CfnFileSystem.LifecyclePolicyProperty.Builder().apply(initializer).build()

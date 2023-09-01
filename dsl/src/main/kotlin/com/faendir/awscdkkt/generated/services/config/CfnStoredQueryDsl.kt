@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.config.CfnStoredQueryProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnStoredQuery(id: String, props: CfnStoredQueryProps): CfnStoredQuery =
-    CfnStoredQuery(this, id, props)
-
-@Generated
 public fun Construct.cfnStoredQuery(
   id: String,
   props: CfnStoredQueryProps,
-  initializer: @AwsCdkDsl CfnStoredQuery.() -> Unit,
+  initializer: @AwsCdkDsl CfnStoredQuery.() -> Unit = {},
 ): CfnStoredQuery = CfnStoredQuery(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnStoredQuery(id: String, initializer: @AwsCdkDsl
-    CfnStoredQuery.Builder.() -> Unit): CfnStoredQuery = CfnStoredQuery.Builder.create(this,
+    CfnStoredQuery.Builder.() -> Unit = {}): CfnStoredQuery = CfnStoredQuery.Builder.create(this,
     id).apply(initializer).build()

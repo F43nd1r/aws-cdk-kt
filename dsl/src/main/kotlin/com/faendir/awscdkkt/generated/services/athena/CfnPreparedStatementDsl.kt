@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.athena.CfnPreparedStatementProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnPreparedStatement(id: String, props: CfnPreparedStatementProps):
-    CfnPreparedStatement = CfnPreparedStatement(this, id, props)
-
-@Generated
 public fun Construct.cfnPreparedStatement(
   id: String,
   props: CfnPreparedStatementProps,
-  initializer: @AwsCdkDsl CfnPreparedStatement.() -> Unit,
+  initializer: @AwsCdkDsl CfnPreparedStatement.() -> Unit = {},
 ): CfnPreparedStatement = CfnPreparedStatement(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnPreparedStatement(id: String, initializer: @AwsCdkDsl
-    CfnPreparedStatement.Builder.() -> Unit): CfnPreparedStatement =
+    CfnPreparedStatement.Builder.() -> Unit = {}): CfnPreparedStatement =
     CfnPreparedStatement.Builder.create(this, id).apply(initializer).build()

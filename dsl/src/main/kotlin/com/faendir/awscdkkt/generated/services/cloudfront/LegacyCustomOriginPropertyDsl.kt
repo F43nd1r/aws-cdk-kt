@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cloudfront.CfnDistribution
 
 @Generated
 public fun buildLegacyCustomOriginProperty(initializer: @AwsCdkDsl
-    CfnDistribution.LegacyCustomOriginProperty.Builder.() -> Unit):
+    CfnDistribution.LegacyCustomOriginProperty.Builder.() -> Unit = {}):
     CfnDistribution.LegacyCustomOriginProperty =
     CfnDistribution.LegacyCustomOriginProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnEndpointConfig
 
 @Generated
 public fun buildClarifyShapBaselineConfigProperty(initializer: @AwsCdkDsl
-    CfnEndpointConfig.ClarifyShapBaselineConfigProperty.Builder.() -> Unit):
+    CfnEndpointConfig.ClarifyShapBaselineConfigProperty.Builder.() -> Unit = {}):
     CfnEndpointConfig.ClarifyShapBaselineConfigProperty =
     CfnEndpointConfig.ClarifyShapBaselineConfigProperty.Builder().apply(initializer).build()

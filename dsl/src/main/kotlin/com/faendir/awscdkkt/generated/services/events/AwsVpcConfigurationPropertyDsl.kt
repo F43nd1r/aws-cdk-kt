@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.events.CfnRule
 
 @Generated
 public fun buildAwsVpcConfigurationProperty(initializer: @AwsCdkDsl
-    CfnRule.AwsVpcConfigurationProperty.Builder.() -> Unit): CfnRule.AwsVpcConfigurationProperty =
+    CfnRule.AwsVpcConfigurationProperty.Builder.() -> Unit = {}):
+    CfnRule.AwsVpcConfigurationProperty =
     CfnRule.AwsVpcConfigurationProperty.Builder().apply(initializer).build()

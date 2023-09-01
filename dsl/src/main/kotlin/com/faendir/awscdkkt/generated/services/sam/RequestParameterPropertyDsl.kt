@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
 public fun buildRequestParameterProperty(initializer: @AwsCdkDsl
-    CfnFunction.RequestParameterProperty.Builder.() -> Unit): CfnFunction.RequestParameterProperty =
+    CfnFunction.RequestParameterProperty.Builder.() -> Unit = {}):
+    CfnFunction.RequestParameterProperty =
     CfnFunction.RequestParameterProperty.Builder().apply(initializer).build()

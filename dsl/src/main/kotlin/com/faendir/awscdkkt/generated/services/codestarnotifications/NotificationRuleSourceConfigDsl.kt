@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codestarnotifications.NotificationRuleSou
 
 @Generated
 public fun buildNotificationRuleSourceConfig(initializer: @AwsCdkDsl
-    NotificationRuleSourceConfig.Builder.() -> Unit): NotificationRuleSourceConfig =
+    NotificationRuleSourceConfig.Builder.() -> Unit = {}): NotificationRuleSourceConfig =
     NotificationRuleSourceConfig.Builder().apply(initializer).build()

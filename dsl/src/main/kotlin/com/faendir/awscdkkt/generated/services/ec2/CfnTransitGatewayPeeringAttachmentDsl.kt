@@ -9,19 +9,14 @@ import software.amazon.awscdk.services.ec2.CfnTransitGatewayPeeringAttachmentPro
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnTransitGatewayPeeringAttachment(id: String,
-    props: CfnTransitGatewayPeeringAttachmentProps): CfnTransitGatewayPeeringAttachment =
-    CfnTransitGatewayPeeringAttachment(this, id, props)
-
-@Generated
 public fun Construct.cfnTransitGatewayPeeringAttachment(
   id: String,
   props: CfnTransitGatewayPeeringAttachmentProps,
-  initializer: @AwsCdkDsl CfnTransitGatewayPeeringAttachment.() -> Unit,
+  initializer: @AwsCdkDsl CfnTransitGatewayPeeringAttachment.() -> Unit = {},
 ): CfnTransitGatewayPeeringAttachment = CfnTransitGatewayPeeringAttachment(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnTransitGatewayPeeringAttachment(id: String, initializer: @AwsCdkDsl
-    CfnTransitGatewayPeeringAttachment.Builder.() -> Unit): CfnTransitGatewayPeeringAttachment =
-    CfnTransitGatewayPeeringAttachment.Builder.create(this, id).apply(initializer).build()
+    CfnTransitGatewayPeeringAttachment.Builder.() -> Unit = {}): CfnTransitGatewayPeeringAttachment
+    = CfnTransitGatewayPeeringAttachment.Builder.create(this, id).apply(initializer).build()

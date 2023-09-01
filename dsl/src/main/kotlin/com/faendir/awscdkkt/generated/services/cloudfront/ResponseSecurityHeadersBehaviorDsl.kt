@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cloudfront.ResponseSecurityHeadersBehavio
 
 @Generated
 public fun buildResponseSecurityHeadersBehavior(initializer: @AwsCdkDsl
-    ResponseSecurityHeadersBehavior.Builder.() -> Unit): ResponseSecurityHeadersBehavior =
+    ResponseSecurityHeadersBehavior.Builder.() -> Unit = {}): ResponseSecurityHeadersBehavior =
     ResponseSecurityHeadersBehavior.Builder().apply(initializer).build()

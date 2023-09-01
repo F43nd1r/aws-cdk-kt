@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.kinesis.CfnStream
 
 @Generated
 public fun buildStreamModeDetailsProperty(initializer: @AwsCdkDsl
-    CfnStream.StreamModeDetailsProperty.Builder.() -> Unit): CfnStream.StreamModeDetailsProperty =
+    CfnStream.StreamModeDetailsProperty.Builder.() -> Unit = {}):
+    CfnStream.StreamModeDetailsProperty =
     CfnStream.StreamModeDetailsProperty.Builder().apply(initializer).build()

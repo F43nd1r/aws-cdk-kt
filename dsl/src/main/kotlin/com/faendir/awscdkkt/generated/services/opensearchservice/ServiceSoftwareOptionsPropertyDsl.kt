@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.opensearchservice.CfnDomain
 
 @Generated
 public fun buildServiceSoftwareOptionsProperty(initializer: @AwsCdkDsl
-    CfnDomain.ServiceSoftwareOptionsProperty.Builder.() -> Unit):
+    CfnDomain.ServiceSoftwareOptionsProperty.Builder.() -> Unit = {}):
     CfnDomain.ServiceSoftwareOptionsProperty =
     CfnDomain.ServiceSoftwareOptionsProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.CallApiGatewayRestApi
 
 @Generated
 public fun buildCallApiGatewayRestApiEndpointProps(initializer: @AwsCdkDsl
-    CallApiGatewayRestApiEndpointProps.Builder.() -> Unit): CallApiGatewayRestApiEndpointProps =
-    CallApiGatewayRestApiEndpointProps.Builder().apply(initializer).build()
+    CallApiGatewayRestApiEndpointProps.Builder.() -> Unit = {}): CallApiGatewayRestApiEndpointProps
+    = CallApiGatewayRestApiEndpointProps.Builder().apply(initializer).build()

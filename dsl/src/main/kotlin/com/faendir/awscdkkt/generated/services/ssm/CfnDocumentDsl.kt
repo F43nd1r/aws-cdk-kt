@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ssm.CfnDocumentProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDocument(id: String, props: CfnDocumentProps): CfnDocument =
-    CfnDocument(this, id, props)
-
-@Generated
 public fun Construct.cfnDocument(
   id: String,
   props: CfnDocumentProps,
-  initializer: @AwsCdkDsl CfnDocument.() -> Unit,
+  initializer: @AwsCdkDsl CfnDocument.() -> Unit = {},
 ): CfnDocument = CfnDocument(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnDocument(id: String, initializer: @AwsCdkDsl
-    CfnDocument.Builder.() -> Unit): CfnDocument = CfnDocument.Builder.create(this,
+    CfnDocument.Builder.() -> Unit = {}): CfnDocument = CfnDocument.Builder.create(this,
     id).apply(initializer).build()

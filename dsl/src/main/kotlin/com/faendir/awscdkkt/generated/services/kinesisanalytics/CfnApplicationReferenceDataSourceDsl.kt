@@ -9,19 +9,14 @@ import software.amazon.awscdk.services.kinesisanalytics.CfnApplicationReferenceD
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnApplicationReferenceDataSource(id: String,
-    props: CfnApplicationReferenceDataSourceProps): CfnApplicationReferenceDataSource =
-    CfnApplicationReferenceDataSource(this, id, props)
-
-@Generated
 public fun Construct.cfnApplicationReferenceDataSource(
   id: String,
   props: CfnApplicationReferenceDataSourceProps,
-  initializer: @AwsCdkDsl CfnApplicationReferenceDataSource.() -> Unit,
+  initializer: @AwsCdkDsl CfnApplicationReferenceDataSource.() -> Unit = {},
 ): CfnApplicationReferenceDataSource = CfnApplicationReferenceDataSource(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnApplicationReferenceDataSource(id: String, initializer: @AwsCdkDsl
-    CfnApplicationReferenceDataSource.Builder.() -> Unit): CfnApplicationReferenceDataSource =
+    CfnApplicationReferenceDataSource.Builder.() -> Unit = {}): CfnApplicationReferenceDataSource =
     CfnApplicationReferenceDataSource.Builder.create(this, id).apply(initializer).build()

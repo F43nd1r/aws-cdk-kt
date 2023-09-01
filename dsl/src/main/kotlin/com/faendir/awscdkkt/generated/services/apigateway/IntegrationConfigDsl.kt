@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.IntegrationConfig
 
 @Generated
-public fun buildIntegrationConfig(initializer: @AwsCdkDsl IntegrationConfig.Builder.() -> Unit):
-    IntegrationConfig = IntegrationConfig.Builder().apply(initializer).build()
+public fun buildIntegrationConfig(initializer: @AwsCdkDsl IntegrationConfig.Builder.() -> Unit =
+    {}): IntegrationConfig = IntegrationConfig.Builder().apply(initializer).build()

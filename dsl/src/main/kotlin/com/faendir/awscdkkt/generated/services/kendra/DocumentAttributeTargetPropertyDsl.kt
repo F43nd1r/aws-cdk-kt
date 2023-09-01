@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kendra.CfnDataSource
 
 @Generated
 public fun buildDocumentAttributeTargetProperty(initializer: @AwsCdkDsl
-    CfnDataSource.DocumentAttributeTargetProperty.Builder.() -> Unit):
+    CfnDataSource.DocumentAttributeTargetProperty.Builder.() -> Unit = {}):
     CfnDataSource.DocumentAttributeTargetProperty =
     CfnDataSource.DocumentAttributeTargetProperty.Builder().apply(initializer).build()

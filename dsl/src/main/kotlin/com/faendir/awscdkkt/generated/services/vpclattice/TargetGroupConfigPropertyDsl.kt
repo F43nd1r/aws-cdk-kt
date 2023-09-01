@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.vpclattice.CfnTargetGroup
 
 @Generated
 public fun buildTargetGroupConfigProperty(initializer: @AwsCdkDsl
-    CfnTargetGroup.TargetGroupConfigProperty.Builder.() -> Unit):
+    CfnTargetGroup.TargetGroupConfigProperty.Builder.() -> Unit = {}):
     CfnTargetGroup.TargetGroupConfigProperty =
     CfnTargetGroup.TargetGroupConfigProperty.Builder().apply(initializer).build()

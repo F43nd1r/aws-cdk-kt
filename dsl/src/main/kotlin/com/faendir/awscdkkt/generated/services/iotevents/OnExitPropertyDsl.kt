@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iotevents.CfnDetectorModel
 
 @Generated
 public fun buildOnExitProperty(initializer: @AwsCdkDsl
-    CfnDetectorModel.OnExitProperty.Builder.() -> Unit): CfnDetectorModel.OnExitProperty =
+    CfnDetectorModel.OnExitProperty.Builder.() -> Unit = {}): CfnDetectorModel.OnExitProperty =
     CfnDetectorModel.OnExitProperty.Builder().apply(initializer).build()

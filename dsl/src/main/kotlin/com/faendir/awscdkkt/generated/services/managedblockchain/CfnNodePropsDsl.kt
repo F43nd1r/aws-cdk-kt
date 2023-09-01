@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.managedblockchain.CfnNodeProps
 
 @Generated
-public fun buildCfnNodeProps(initializer: @AwsCdkDsl CfnNodeProps.Builder.() -> Unit): CfnNodeProps
-    = CfnNodeProps.Builder().apply(initializer).build()
+public fun buildCfnNodeProps(initializer: @AwsCdkDsl CfnNodeProps.Builder.() -> Unit = {}):
+    CfnNodeProps = CfnNodeProps.Builder().apply(initializer).build()

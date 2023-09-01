@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appmesh.VirtualGatewayListenerConfig
 
 @Generated
 public fun buildVirtualGatewayListenerConfig(initializer: @AwsCdkDsl
-    VirtualGatewayListenerConfig.Builder.() -> Unit): VirtualGatewayListenerConfig =
+    VirtualGatewayListenerConfig.Builder.() -> Unit = {}): VirtualGatewayListenerConfig =
     VirtualGatewayListenerConfig.Builder().apply(initializer).build()

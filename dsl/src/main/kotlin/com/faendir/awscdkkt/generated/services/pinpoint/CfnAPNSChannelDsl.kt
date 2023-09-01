@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.pinpoint.CfnAPNSChannelProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnAPNSChannel(id: String, props: CfnAPNSChannelProps): CfnAPNSChannel =
-    CfnAPNSChannel(this, id, props)
-
-@Generated
 public fun Construct.cfnAPNSChannel(
   id: String,
   props: CfnAPNSChannelProps,
-  initializer: @AwsCdkDsl CfnAPNSChannel.() -> Unit,
+  initializer: @AwsCdkDsl CfnAPNSChannel.() -> Unit = {},
 ): CfnAPNSChannel = CfnAPNSChannel(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnAPNSChannel(id: String, initializer: @AwsCdkDsl
-    CfnAPNSChannel.Builder.() -> Unit): CfnAPNSChannel = CfnAPNSChannel.Builder.create(this,
+    CfnAPNSChannel.Builder.() -> Unit = {}): CfnAPNSChannel = CfnAPNSChannel.Builder.create(this,
     id).apply(initializer).build()

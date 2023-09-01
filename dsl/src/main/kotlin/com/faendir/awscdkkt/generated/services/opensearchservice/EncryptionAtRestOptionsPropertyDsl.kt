@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.opensearchservice.CfnDomain
 
 @Generated
 public fun buildEncryptionAtRestOptionsProperty(initializer: @AwsCdkDsl
-    CfnDomain.EncryptionAtRestOptionsProperty.Builder.() -> Unit):
+    CfnDomain.EncryptionAtRestOptionsProperty.Builder.() -> Unit = {}):
     CfnDomain.EncryptionAtRestOptionsProperty =
     CfnDomain.EncryptionAtRestOptionsProperty.Builder().apply(initializer).build()

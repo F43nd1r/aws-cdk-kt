@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildWaterfallChartOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.WaterfallChartOptionsProperty.Builder.() -> Unit):
+    CfnTemplate.WaterfallChartOptionsProperty.Builder.() -> Unit = {}):
     CfnTemplate.WaterfallChartOptionsProperty =
     CfnTemplate.WaterfallChartOptionsProperty.Builder().apply(initializer).build()

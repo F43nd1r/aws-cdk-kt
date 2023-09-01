@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildDateTimeDefaultValuesProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DateTimeDefaultValuesProperty.Builder.() -> Unit):
+    CfnTemplate.DateTimeDefaultValuesProperty.Builder.() -> Unit = {}):
     CfnTemplate.DateTimeDefaultValuesProperty =
     CfnTemplate.DateTimeDefaultValuesProperty.Builder().apply(initializer).build()

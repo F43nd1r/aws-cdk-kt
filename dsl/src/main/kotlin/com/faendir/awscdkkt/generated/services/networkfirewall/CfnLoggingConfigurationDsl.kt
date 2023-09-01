@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.networkfirewall.CfnLoggingConfigurationPr
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnLoggingConfiguration(id: String, props: CfnLoggingConfigurationProps):
-    CfnLoggingConfiguration = CfnLoggingConfiguration(this, id, props)
-
-@Generated
 public fun Construct.cfnLoggingConfiguration(
   id: String,
   props: CfnLoggingConfigurationProps,
-  initializer: @AwsCdkDsl CfnLoggingConfiguration.() -> Unit,
+  initializer: @AwsCdkDsl CfnLoggingConfiguration.() -> Unit = {},
 ): CfnLoggingConfiguration = CfnLoggingConfiguration(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnLoggingConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnLoggingConfiguration.Builder.() -> Unit): CfnLoggingConfiguration =
+    CfnLoggingConfiguration.Builder.() -> Unit = {}): CfnLoggingConfiguration =
     CfnLoggingConfiguration.Builder.create(this, id).apply(initializer).build()

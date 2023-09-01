@@ -7,5 +7,5 @@ import software.amazon.awscdk.CfnDynamicReferenceProps
 
 @Generated
 public fun buildCfnDynamicReferenceProps(initializer: @AwsCdkDsl
-    CfnDynamicReferenceProps.Builder.() -> Unit): CfnDynamicReferenceProps =
+    CfnDynamicReferenceProps.Builder.() -> Unit = {}): CfnDynamicReferenceProps =
     CfnDynamicReferenceProps.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.emr.CfnStepProps
 
 @Generated
-public fun buildCfnStepProps(initializer: @AwsCdkDsl CfnStepProps.Builder.() -> Unit): CfnStepProps
-    = CfnStepProps.Builder().apply(initializer).build()
+public fun buildCfnStepProps(initializer: @AwsCdkDsl CfnStepProps.Builder.() -> Unit = {}):
+    CfnStepProps = CfnStepProps.Builder().apply(initializer).build()

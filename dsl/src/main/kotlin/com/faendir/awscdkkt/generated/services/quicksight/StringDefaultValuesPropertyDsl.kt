@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildStringDefaultValuesProperty(initializer: @AwsCdkDsl
-    CfnTemplate.StringDefaultValuesProperty.Builder.() -> Unit):
+    CfnTemplate.StringDefaultValuesProperty.Builder.() -> Unit = {}):
     CfnTemplate.StringDefaultValuesProperty =
     CfnTemplate.StringDefaultValuesProperty.Builder().apply(initializer).build()

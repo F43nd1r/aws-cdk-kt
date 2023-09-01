@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.S3DestinationOptions
 
 @Generated
-public fun buildS3DestinationOptions(initializer: @AwsCdkDsl
-    S3DestinationOptions.Builder.() -> Unit): S3DestinationOptions =
-    S3DestinationOptions.Builder().apply(initializer).build()
+public fun buildS3DestinationOptions(initializer: @AwsCdkDsl S3DestinationOptions.Builder.() -> Unit
+    = {}): S3DestinationOptions = S3DestinationOptions.Builder().apply(initializer).build()

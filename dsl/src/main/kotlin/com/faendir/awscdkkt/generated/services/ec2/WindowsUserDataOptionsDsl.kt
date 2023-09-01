@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.WindowsUserDataOptions
 
 @Generated
 public fun buildWindowsUserDataOptions(initializer: @AwsCdkDsl
-    WindowsUserDataOptions.Builder.() -> Unit): WindowsUserDataOptions =
+    WindowsUserDataOptions.Builder.() -> Unit = {}): WindowsUserDataOptions =
     WindowsUserDataOptions.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.connectcampaigns.CfnCampaign
 
 @Generated
 public fun buildDialerConfigProperty(initializer: @AwsCdkDsl
-    CfnCampaign.DialerConfigProperty.Builder.() -> Unit): CfnCampaign.DialerConfigProperty =
+    CfnCampaign.DialerConfigProperty.Builder.() -> Unit = {}): CfnCampaign.DialerConfigProperty =
     CfnCampaign.DialerConfigProperty.Builder().apply(initializer).build()

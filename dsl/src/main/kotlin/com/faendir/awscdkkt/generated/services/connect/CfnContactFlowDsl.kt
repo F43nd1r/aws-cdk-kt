@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.connect.CfnContactFlowProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnContactFlow(id: String, props: CfnContactFlowProps): CfnContactFlow =
-    CfnContactFlow(this, id, props)
-
-@Generated
 public fun Construct.cfnContactFlow(
   id: String,
   props: CfnContactFlowProps,
-  initializer: @AwsCdkDsl CfnContactFlow.() -> Unit,
+  initializer: @AwsCdkDsl CfnContactFlow.() -> Unit = {},
 ): CfnContactFlow = CfnContactFlow(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnContactFlow(id: String, initializer: @AwsCdkDsl
-    CfnContactFlow.Builder.() -> Unit): CfnContactFlow = CfnContactFlow.Builder.create(this,
+    CfnContactFlow.Builder.() -> Unit = {}): CfnContactFlow = CfnContactFlow.Builder.create(this,
     id).apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.s3.CfnMultiRegionAccessPointProps
 
 @Generated
 public fun buildCfnMultiRegionAccessPointProps(initializer: @AwsCdkDsl
-    CfnMultiRegionAccessPointProps.Builder.() -> Unit): CfnMultiRegionAccessPointProps =
+    CfnMultiRegionAccessPointProps.Builder.() -> Unit = {}): CfnMultiRegionAccessPointProps =
     CfnMultiRegionAccessPointProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.connect.CfnRule
 
 @Generated
 public fun buildSendNotificationActionProperty(initializer: @AwsCdkDsl
-    CfnRule.SendNotificationActionProperty.Builder.() -> Unit):
+    CfnRule.SendNotificationActionProperty.Builder.() -> Unit = {}):
     CfnRule.SendNotificationActionProperty =
     CfnRule.SendNotificationActionProperty.Builder().apply(initializer).build()

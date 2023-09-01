@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codepipeline.actions.StepFunctionInvokeAc
 
 @Generated
 public fun buildStepFunctionInvokeAction(initializer: @AwsCdkDsl
-    StepFunctionInvokeAction.Builder.() -> Unit): StepFunctionInvokeAction =
+    StepFunctionInvokeAction.Builder.() -> Unit = {}): StepFunctionInvokeAction =
     StepFunctionInvokeAction.Builder.create().apply(initializer).build()

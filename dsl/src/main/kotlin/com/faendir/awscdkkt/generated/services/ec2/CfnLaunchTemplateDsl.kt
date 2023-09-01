@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ec2.CfnLaunchTemplateProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnLaunchTemplate(id: String, props: CfnLaunchTemplateProps): CfnLaunchTemplate
-    = CfnLaunchTemplate(this, id, props)
-
-@Generated
 public fun Construct.cfnLaunchTemplate(
   id: String,
   props: CfnLaunchTemplateProps,
-  initializer: @AwsCdkDsl CfnLaunchTemplate.() -> Unit,
+  initializer: @AwsCdkDsl CfnLaunchTemplate.() -> Unit = {},
 ): CfnLaunchTemplate = CfnLaunchTemplate(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnLaunchTemplate(id: String, initializer: @AwsCdkDsl
-    CfnLaunchTemplate.Builder.() -> Unit): CfnLaunchTemplate =
+    CfnLaunchTemplate.Builder.() -> Unit = {}): CfnLaunchTemplate =
     CfnLaunchTemplate.Builder.create(this, id).apply(initializer).build()

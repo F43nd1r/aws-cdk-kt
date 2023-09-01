@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iotanalytics.CfnDataset
 
 @Generated
 public fun buildResourceConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataset.ResourceConfigurationProperty.Builder.() -> Unit):
+    CfnDataset.ResourceConfigurationProperty.Builder.() -> Unit = {}):
     CfnDataset.ResourceConfigurationProperty =
     CfnDataset.ResourceConfigurationProperty.Builder().apply(initializer).build()

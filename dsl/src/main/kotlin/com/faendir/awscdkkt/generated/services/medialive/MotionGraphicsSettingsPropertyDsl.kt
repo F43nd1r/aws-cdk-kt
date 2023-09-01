@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildMotionGraphicsSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.MotionGraphicsSettingsProperty.Builder.() -> Unit):
+    CfnChannel.MotionGraphicsSettingsProperty.Builder.() -> Unit = {}):
     CfnChannel.MotionGraphicsSettingsProperty =
     CfnChannel.MotionGraphicsSettingsProperty.Builder().apply(initializer).build()

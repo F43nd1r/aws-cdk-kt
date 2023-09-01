@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.VersionWeight
 
 @Generated
-public fun buildVersionWeight(initializer: @AwsCdkDsl VersionWeight.Builder.() -> Unit):
+public fun buildVersionWeight(initializer: @AwsCdkDsl VersionWeight.Builder.() -> Unit = {}):
     VersionWeight = VersionWeight.Builder().apply(initializer).build()

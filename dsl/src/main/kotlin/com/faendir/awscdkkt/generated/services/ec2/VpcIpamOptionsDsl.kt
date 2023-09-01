@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.VpcIpamOptions
 
 @Generated
-public fun buildVpcIpamOptions(initializer: @AwsCdkDsl VpcIpamOptions.Builder.() -> Unit):
+public fun buildVpcIpamOptions(initializer: @AwsCdkDsl VpcIpamOptions.Builder.() -> Unit = {}):
     VpcIpamOptions = VpcIpamOptions.Builder().apply(initializer).build()

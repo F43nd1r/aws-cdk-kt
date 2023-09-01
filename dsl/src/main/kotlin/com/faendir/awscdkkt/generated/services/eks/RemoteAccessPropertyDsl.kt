@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.eks.CfnNodegroup
 
 @Generated
 public fun buildRemoteAccessProperty(initializer: @AwsCdkDsl
-    CfnNodegroup.RemoteAccessProperty.Builder.() -> Unit): CfnNodegroup.RemoteAccessProperty =
+    CfnNodegroup.RemoteAccessProperty.Builder.() -> Unit = {}): CfnNodegroup.RemoteAccessProperty =
     CfnNodegroup.RemoteAccessProperty.Builder().apply(initializer).build()

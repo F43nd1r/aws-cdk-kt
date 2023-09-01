@@ -7,5 +7,5 @@ import software.amazon.awscdk.DefaultStackSynthesizer
 
 @Generated
 public fun buildDefaultStackSynthesizer(initializer: @AwsCdkDsl
-    DefaultStackSynthesizer.Builder.() -> Unit): DefaultStackSynthesizer =
+    DefaultStackSynthesizer.Builder.() -> Unit = {}): DefaultStackSynthesizer =
     DefaultStackSynthesizer.Builder.create().apply(initializer).build()

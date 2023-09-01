@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.customerprofiles.CfnIntegration
 
 @Generated
 public fun buildFlowDefinitionProperty(initializer: @AwsCdkDsl
-    CfnIntegration.FlowDefinitionProperty.Builder.() -> Unit): CfnIntegration.FlowDefinitionProperty
-    = CfnIntegration.FlowDefinitionProperty.Builder().apply(initializer).build()
+    CfnIntegration.FlowDefinitionProperty.Builder.() -> Unit = {}):
+    CfnIntegration.FlowDefinitionProperty =
+    CfnIntegration.FlowDefinitionProperty.Builder().apply(initializer).build()

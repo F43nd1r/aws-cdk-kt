@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.applicationautoscaling.CfnScalingPolicy
 
 @Generated
 public fun buildStepScalingPolicyConfigurationProperty(initializer: @AwsCdkDsl
-    CfnScalingPolicy.StepScalingPolicyConfigurationProperty.Builder.() -> Unit):
+    CfnScalingPolicy.StepScalingPolicyConfigurationProperty.Builder.() -> Unit = {}):
     CfnScalingPolicy.StepScalingPolicyConfigurationProperty =
     CfnScalingPolicy.StepScalingPolicyConfigurationProperty.Builder().apply(initializer).build()

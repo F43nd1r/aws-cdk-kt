@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecr.CfnPublicRepositoryProps
 
 @Generated
 public fun buildCfnPublicRepositoryProps(initializer: @AwsCdkDsl
-    CfnPublicRepositoryProps.Builder.() -> Unit): CfnPublicRepositoryProps =
+    CfnPublicRepositoryProps.Builder.() -> Unit = {}): CfnPublicRepositoryProps =
     CfnPublicRepositoryProps.Builder().apply(initializer).build()

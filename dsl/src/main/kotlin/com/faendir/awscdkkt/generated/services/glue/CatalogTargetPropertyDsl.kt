@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.glue.CfnCrawler
 
 @Generated
 public fun buildCatalogTargetProperty(initializer: @AwsCdkDsl
-    CfnCrawler.CatalogTargetProperty.Builder.() -> Unit): CfnCrawler.CatalogTargetProperty =
+    CfnCrawler.CatalogTargetProperty.Builder.() -> Unit = {}): CfnCrawler.CatalogTargetProperty =
     CfnCrawler.CatalogTargetProperty.Builder().apply(initializer).build()

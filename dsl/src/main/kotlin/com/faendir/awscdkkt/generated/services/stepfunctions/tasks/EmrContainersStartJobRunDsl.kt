@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EmrContainersStartJob
 import software.constructs.Construct
 
 @Generated
-public fun Construct.emrContainersStartJobRun(id: String, props: EmrContainersStartJobRunProps):
-    EmrContainersStartJobRun = EmrContainersStartJobRun(this, id, props)
-
-@Generated
 public fun Construct.emrContainersStartJobRun(
   id: String,
   props: EmrContainersStartJobRunProps,
-  initializer: @AwsCdkDsl EmrContainersStartJobRun.() -> Unit,
+  initializer: @AwsCdkDsl EmrContainersStartJobRun.() -> Unit = {},
 ): EmrContainersStartJobRun = EmrContainersStartJobRun(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildEmrContainersStartJobRun(id: String, initializer: @AwsCdkDsl
-    EmrContainersStartJobRun.Builder.() -> Unit): EmrContainersStartJobRun =
+    EmrContainersStartJobRun.Builder.() -> Unit = {}): EmrContainersStartJobRun =
     EmrContainersStartJobRun.Builder.create(this, id).apply(initializer).build()

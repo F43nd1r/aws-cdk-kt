@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.s3.IntelligentTieringConfiguration
 
 @Generated
 public fun buildIntelligentTieringConfiguration(initializer: @AwsCdkDsl
-    IntelligentTieringConfiguration.Builder.() -> Unit): IntelligentTieringConfiguration =
+    IntelligentTieringConfiguration.Builder.() -> Unit = {}): IntelligentTieringConfiguration =
     IntelligentTieringConfiguration.Builder().apply(initializer).build()

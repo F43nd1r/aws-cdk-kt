@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.BaseLoadBalancerPr
 
 @Generated
 public fun buildBaseLoadBalancerProps(initializer: @AwsCdkDsl
-    BaseLoadBalancerProps.Builder.() -> Unit): BaseLoadBalancerProps =
+    BaseLoadBalancerProps.Builder.() -> Unit = {}): BaseLoadBalancerProps =
     BaseLoadBalancerProps.Builder().apply(initializer).build()

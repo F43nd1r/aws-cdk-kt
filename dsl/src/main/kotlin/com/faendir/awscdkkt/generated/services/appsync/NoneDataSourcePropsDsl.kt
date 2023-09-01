@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.NoneDataSourceProps
 
 @Generated
-public fun buildNoneDataSourceProps(initializer: @AwsCdkDsl NoneDataSourceProps.Builder.() -> Unit):
-    NoneDataSourceProps = NoneDataSourceProps.Builder().apply(initializer).build()
+public fun buildNoneDataSourceProps(initializer: @AwsCdkDsl NoneDataSourceProps.Builder.() -> Unit =
+    {}): NoneDataSourceProps = NoneDataSourceProps.Builder().apply(initializer).build()

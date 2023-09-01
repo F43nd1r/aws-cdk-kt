@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.mediapackage.CfnChannelProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnChannel(id: String, props: CfnChannelProps): CfnChannel = CfnChannel(this,
-    id, props)
-
-@Generated
 public fun Construct.cfnChannel(
   id: String,
   props: CfnChannelProps,
-  initializer: @AwsCdkDsl CfnChannel.() -> Unit,
+  initializer: @AwsCdkDsl CfnChannel.() -> Unit = {},
 ): CfnChannel = CfnChannel(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnChannel(id: String, initializer: @AwsCdkDsl
-    CfnChannel.Builder.() -> Unit): CfnChannel = CfnChannel.Builder.create(this,
+    CfnChannel.Builder.() -> Unit = {}): CfnChannel = CfnChannel.Builder.create(this,
     id).apply(initializer).build()

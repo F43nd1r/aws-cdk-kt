@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.codepipeline.CfnWebhook
 
 @Generated
 public fun buildWebhookAuthConfigurationProperty(initializer: @AwsCdkDsl
-    CfnWebhook.WebhookAuthConfigurationProperty.Builder.() -> Unit):
+    CfnWebhook.WebhookAuthConfigurationProperty.Builder.() -> Unit = {}):
     CfnWebhook.WebhookAuthConfigurationProperty =
     CfnWebhook.WebhookAuthConfigurationProperty.Builder().apply(initializer).build()

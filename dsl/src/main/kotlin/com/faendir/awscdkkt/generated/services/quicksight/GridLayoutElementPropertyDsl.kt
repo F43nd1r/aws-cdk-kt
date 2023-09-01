@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildGridLayoutElementProperty(initializer: @AwsCdkDsl
-    CfnTemplate.GridLayoutElementProperty.Builder.() -> Unit): CfnTemplate.GridLayoutElementProperty
-    = CfnTemplate.GridLayoutElementProperty.Builder().apply(initializer).build()
+    CfnTemplate.GridLayoutElementProperty.Builder.() -> Unit = {}):
+    CfnTemplate.GridLayoutElementProperty =
+    CfnTemplate.GridLayoutElementProperty.Builder().apply(initializer).build()

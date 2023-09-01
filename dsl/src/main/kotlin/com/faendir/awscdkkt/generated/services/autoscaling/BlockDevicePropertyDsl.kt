@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.autoscaling.CfnLaunchConfiguration
 
 @Generated
 public fun buildBlockDeviceProperty(initializer: @AwsCdkDsl
-    CfnLaunchConfiguration.BlockDeviceProperty.Builder.() -> Unit):
+    CfnLaunchConfiguration.BlockDeviceProperty.Builder.() -> Unit = {}):
     CfnLaunchConfiguration.BlockDeviceProperty =
     CfnLaunchConfiguration.BlockDeviceProperty.Builder().apply(initializer).build()

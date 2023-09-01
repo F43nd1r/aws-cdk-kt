@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.events.CfnEventBus
 
 @Generated
 public fun buildTagEntryProperty(initializer: @AwsCdkDsl
-    CfnEventBus.TagEntryProperty.Builder.() -> Unit): CfnEventBus.TagEntryProperty =
+    CfnEventBus.TagEntryProperty.Builder.() -> Unit = {}): CfnEventBus.TagEntryProperty =
     CfnEventBus.TagEntryProperty.Builder().apply(initializer).build()

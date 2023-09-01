@@ -9,19 +9,15 @@ import software.amazon.awscdk.services.networkmanager.CfnTransitGatewayRouteTabl
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnTransitGatewayRouteTableAttachment(id: String,
-    props: CfnTransitGatewayRouteTableAttachmentProps): CfnTransitGatewayRouteTableAttachment =
-    CfnTransitGatewayRouteTableAttachment(this, id, props)
-
-@Generated
 public fun Construct.cfnTransitGatewayRouteTableAttachment(
   id: String,
   props: CfnTransitGatewayRouteTableAttachmentProps,
-  initializer: @AwsCdkDsl CfnTransitGatewayRouteTableAttachment.() -> Unit,
+  initializer: @AwsCdkDsl CfnTransitGatewayRouteTableAttachment.() -> Unit = {},
 ): CfnTransitGatewayRouteTableAttachment = CfnTransitGatewayRouteTableAttachment(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnTransitGatewayRouteTableAttachment(id: String, initializer: @AwsCdkDsl
-    CfnTransitGatewayRouteTableAttachment.Builder.() -> Unit): CfnTransitGatewayRouteTableAttachment
-    = CfnTransitGatewayRouteTableAttachment.Builder.create(this, id).apply(initializer).build()
+    CfnTransitGatewayRouteTableAttachment.Builder.() -> Unit = {}):
+    CfnTransitGatewayRouteTableAttachment =
+    CfnTransitGatewayRouteTableAttachment.Builder.create(this, id).apply(initializer).build()

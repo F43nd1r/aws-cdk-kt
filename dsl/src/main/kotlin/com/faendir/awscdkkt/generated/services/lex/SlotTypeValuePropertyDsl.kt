@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
 public fun buildSlotTypeValueProperty(initializer: @AwsCdkDsl
-    CfnBot.SlotTypeValueProperty.Builder.() -> Unit): CfnBot.SlotTypeValueProperty =
+    CfnBot.SlotTypeValueProperty.Builder.() -> Unit = {}): CfnBot.SlotTypeValueProperty =
     CfnBot.SlotTypeValueProperty.Builder().apply(initializer).build()

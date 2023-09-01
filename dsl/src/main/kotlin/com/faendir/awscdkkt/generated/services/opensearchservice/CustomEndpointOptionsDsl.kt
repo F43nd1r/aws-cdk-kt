@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.opensearchservice.CustomEndpointOptions
 
 @Generated
 public fun buildCustomEndpointOptions(initializer: @AwsCdkDsl
-    CustomEndpointOptions.Builder.() -> Unit): CustomEndpointOptions =
+    CustomEndpointOptions.Builder.() -> Unit = {}): CustomEndpointOptions =
     CustomEndpointOptions.Builder().apply(initializer).build()

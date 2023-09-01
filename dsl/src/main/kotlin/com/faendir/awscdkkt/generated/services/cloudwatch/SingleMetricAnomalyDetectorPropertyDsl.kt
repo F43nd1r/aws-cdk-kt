@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cloudwatch.CfnAnomalyDetector
 
 @Generated
 public fun buildSingleMetricAnomalyDetectorProperty(initializer: @AwsCdkDsl
-    CfnAnomalyDetector.SingleMetricAnomalyDetectorProperty.Builder.() -> Unit):
+    CfnAnomalyDetector.SingleMetricAnomalyDetectorProperty.Builder.() -> Unit = {}):
     CfnAnomalyDetector.SingleMetricAnomalyDetectorProperty =
     CfnAnomalyDetector.SingleMetricAnomalyDetectorProperty.Builder().apply(initializer).build()

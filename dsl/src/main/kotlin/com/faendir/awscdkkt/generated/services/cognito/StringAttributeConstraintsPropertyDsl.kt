@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cognito.CfnUserPool
 
 @Generated
 public fun buildStringAttributeConstraintsProperty(initializer: @AwsCdkDsl
-    CfnUserPool.StringAttributeConstraintsProperty.Builder.() -> Unit):
+    CfnUserPool.StringAttributeConstraintsProperty.Builder.() -> Unit = {}):
     CfnUserPool.StringAttributeConstraintsProperty =
     CfnUserPool.StringAttributeConstraintsProperty.Builder().apply(initializer).build()

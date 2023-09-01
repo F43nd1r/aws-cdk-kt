@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnNetworkInsightsAnalysis
 
 @Generated
 public fun buildExplanationProperty(initializer: @AwsCdkDsl
-    CfnNetworkInsightsAnalysis.ExplanationProperty.Builder.() -> Unit):
+    CfnNetworkInsightsAnalysis.ExplanationProperty.Builder.() -> Unit = {}):
     CfnNetworkInsightsAnalysis.ExplanationProperty =
     CfnNetworkInsightsAnalysis.ExplanationProperty.Builder().apply(initializer).build()

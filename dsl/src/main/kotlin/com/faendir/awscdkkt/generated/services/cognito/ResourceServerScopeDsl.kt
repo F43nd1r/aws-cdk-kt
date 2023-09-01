@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.ResourceServerScope
 
 @Generated
-public fun buildResourceServerScope(initializer: @AwsCdkDsl ResourceServerScope.Builder.() -> Unit):
-    ResourceServerScope = ResourceServerScope.Builder.create().apply(initializer).build()
+public fun buildResourceServerScope(initializer: @AwsCdkDsl ResourceServerScope.Builder.() -> Unit =
+    {}): ResourceServerScope = ResourceServerScope.Builder.create().apply(initializer).build()

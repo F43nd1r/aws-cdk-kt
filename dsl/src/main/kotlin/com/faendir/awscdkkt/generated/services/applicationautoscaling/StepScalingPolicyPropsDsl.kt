@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.applicationautoscaling.StepScalingPolicyP
 
 @Generated
 public fun buildStepScalingPolicyProps(initializer: @AwsCdkDsl
-    StepScalingPolicyProps.Builder.() -> Unit): StepScalingPolicyProps =
+    StepScalingPolicyProps.Builder.() -> Unit = {}): StepScalingPolicyProps =
     StepScalingPolicyProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appmesh.CfnVirtualNode
 
 @Generated
 public fun buildAwsCloudMapInstanceAttributeProperty(initializer: @AwsCdkDsl
-    CfnVirtualNode.AwsCloudMapInstanceAttributeProperty.Builder.() -> Unit):
+    CfnVirtualNode.AwsCloudMapInstanceAttributeProperty.Builder.() -> Unit = {}):
     CfnVirtualNode.AwsCloudMapInstanceAttributeProperty =
     CfnVirtualNode.AwsCloudMapInstanceAttributeProperty.Builder().apply(initializer).build()

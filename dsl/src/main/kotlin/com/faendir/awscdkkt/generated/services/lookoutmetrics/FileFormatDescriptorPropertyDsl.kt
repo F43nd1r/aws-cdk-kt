@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lookoutmetrics.CfnAnomalyDetector
 
 @Generated
 public fun buildFileFormatDescriptorProperty(initializer: @AwsCdkDsl
-    CfnAnomalyDetector.FileFormatDescriptorProperty.Builder.() -> Unit):
+    CfnAnomalyDetector.FileFormatDescriptorProperty.Builder.() -> Unit = {}):
     CfnAnomalyDetector.FileFormatDescriptorProperty =
     CfnAnomalyDetector.FileFormatDescriptorProperty.Builder().apply(initializer).build()

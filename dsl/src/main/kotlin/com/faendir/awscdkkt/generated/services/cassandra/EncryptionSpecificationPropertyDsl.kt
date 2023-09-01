@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cassandra.CfnTable
 
 @Generated
 public fun buildEncryptionSpecificationProperty(initializer: @AwsCdkDsl
-    CfnTable.EncryptionSpecificationProperty.Builder.() -> Unit):
+    CfnTable.EncryptionSpecificationProperty.Builder.() -> Unit = {}):
     CfnTable.EncryptionSpecificationProperty =
     CfnTable.EncryptionSpecificationProperty.Builder().apply(initializer).build()

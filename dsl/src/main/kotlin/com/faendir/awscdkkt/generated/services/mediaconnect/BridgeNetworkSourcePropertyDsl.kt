@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.mediaconnect.CfnBridgeSource
 
 @Generated
 public fun buildBridgeNetworkSourceProperty(initializer: @AwsCdkDsl
-    CfnBridgeSource.BridgeNetworkSourceProperty.Builder.() -> Unit):
+    CfnBridgeSource.BridgeNetworkSourceProperty.Builder.() -> Unit = {}):
     CfnBridgeSource.BridgeNetworkSourceProperty =
     CfnBridgeSource.BridgeNetworkSourceProperty.Builder().apply(initializer).build()

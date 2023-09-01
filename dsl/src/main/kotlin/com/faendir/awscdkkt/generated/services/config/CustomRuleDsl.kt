@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.config.CustomRuleProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.customRule(id: String, props: CustomRuleProps): CustomRule = CustomRule(this,
-    id, props)
-
-@Generated
 public fun Construct.customRule(
   id: String,
   props: CustomRuleProps,
-  initializer: @AwsCdkDsl CustomRule.() -> Unit,
+  initializer: @AwsCdkDsl CustomRule.() -> Unit = {},
 ): CustomRule = CustomRule(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCustomRule(id: String, initializer: @AwsCdkDsl
-    CustomRule.Builder.() -> Unit): CustomRule = CustomRule.Builder.create(this,
+    CustomRule.Builder.() -> Unit = {}): CustomRule = CustomRule.Builder.create(this,
     id).apply(initializer).build()

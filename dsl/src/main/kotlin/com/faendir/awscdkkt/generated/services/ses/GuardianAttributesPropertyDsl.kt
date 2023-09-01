@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ses.CfnVdmAttributes
 
 @Generated
 public fun buildGuardianAttributesProperty(initializer: @AwsCdkDsl
-    CfnVdmAttributes.GuardianAttributesProperty.Builder.() -> Unit):
+    CfnVdmAttributes.GuardianAttributesProperty.Builder.() -> Unit = {}):
     CfnVdmAttributes.GuardianAttributesProperty =
     CfnVdmAttributes.GuardianAttributesProperty.Builder().apply(initializer).build()

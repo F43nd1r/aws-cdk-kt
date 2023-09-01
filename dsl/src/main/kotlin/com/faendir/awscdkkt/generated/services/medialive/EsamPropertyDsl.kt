@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildEsamProperty(initializer: @AwsCdkDsl CfnChannel.EsamProperty.Builder.() -> Unit):
-    CfnChannel.EsamProperty = CfnChannel.EsamProperty.Builder().apply(initializer).build()
+public fun buildEsamProperty(initializer: @AwsCdkDsl CfnChannel.EsamProperty.Builder.() -> Unit =
+    {}): CfnChannel.EsamProperty = CfnChannel.EsamProperty.Builder().apply(initializer).build()

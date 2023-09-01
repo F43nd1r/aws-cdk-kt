@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildPivotTableFieldOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PivotTableFieldOptionsProperty.Builder.() -> Unit):
+    CfnTemplate.PivotTableFieldOptionsProperty.Builder.() -> Unit = {}):
     CfnTemplate.PivotTableFieldOptionsProperty =
     CfnTemplate.PivotTableFieldOptionsProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.mediaconnect.CfnFlow
 
 @Generated
 public fun buildFailoverConfigProperty(initializer: @AwsCdkDsl
-    CfnFlow.FailoverConfigProperty.Builder.() -> Unit): CfnFlow.FailoverConfigProperty =
+    CfnFlow.FailoverConfigProperty.Builder.() -> Unit = {}): CfnFlow.FailoverConfigProperty =
     CfnFlow.FailoverConfigProperty.Builder().apply(initializer).build()

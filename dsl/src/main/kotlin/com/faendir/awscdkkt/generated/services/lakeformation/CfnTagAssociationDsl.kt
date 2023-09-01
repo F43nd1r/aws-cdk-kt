@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.lakeformation.CfnTagAssociationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnTagAssociation(id: String, props: CfnTagAssociationProps): CfnTagAssociation
-    = CfnTagAssociation(this, id, props)
-
-@Generated
 public fun Construct.cfnTagAssociation(
   id: String,
   props: CfnTagAssociationProps,
-  initializer: @AwsCdkDsl CfnTagAssociation.() -> Unit,
+  initializer: @AwsCdkDsl CfnTagAssociation.() -> Unit = {},
 ): CfnTagAssociation = CfnTagAssociation(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnTagAssociation(id: String, initializer: @AwsCdkDsl
-    CfnTagAssociation.Builder.() -> Unit): CfnTagAssociation =
+    CfnTagAssociation.Builder.() -> Unit = {}): CfnTagAssociation =
     CfnTagAssociation.Builder.create(this, id).apply(initializer).build()

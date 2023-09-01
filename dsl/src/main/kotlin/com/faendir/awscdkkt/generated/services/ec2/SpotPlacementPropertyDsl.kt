@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.CfnSpotFleet
 
 @Generated
 public fun buildSpotPlacementProperty(initializer: @AwsCdkDsl
-    CfnSpotFleet.SpotPlacementProperty.Builder.() -> Unit): CfnSpotFleet.SpotPlacementProperty =
-    CfnSpotFleet.SpotPlacementProperty.Builder().apply(initializer).build()
+    CfnSpotFleet.SpotPlacementProperty.Builder.() -> Unit = {}): CfnSpotFleet.SpotPlacementProperty
+    = CfnSpotFleet.SpotPlacementProperty.Builder().apply(initializer).build()

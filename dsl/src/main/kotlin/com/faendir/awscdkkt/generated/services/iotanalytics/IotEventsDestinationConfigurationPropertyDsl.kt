@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iotanalytics.CfnDataset
 
 @Generated
 public fun buildIotEventsDestinationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataset.IotEventsDestinationConfigurationProperty.Builder.() -> Unit):
+    CfnDataset.IotEventsDestinationConfigurationProperty.Builder.() -> Unit = {}):
     CfnDataset.IotEventsDestinationConfigurationProperty =
     CfnDataset.IotEventsDestinationConfigurationProperty.Builder().apply(initializer).build()

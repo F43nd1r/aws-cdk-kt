@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildCaptionDescriptionProperty(initializer: @AwsCdkDsl
-    CfnChannel.CaptionDescriptionProperty.Builder.() -> Unit): CfnChannel.CaptionDescriptionProperty
-    = CfnChannel.CaptionDescriptionProperty.Builder().apply(initializer).build()
+    CfnChannel.CaptionDescriptionProperty.Builder.() -> Unit = {}):
+    CfnChannel.CaptionDescriptionProperty =
+    CfnChannel.CaptionDescriptionProperty.Builder().apply(initializer).build()

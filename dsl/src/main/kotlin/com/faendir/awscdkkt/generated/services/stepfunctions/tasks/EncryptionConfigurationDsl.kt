@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EncryptionConfigurati
 
 @Generated
 public fun buildEncryptionConfiguration(initializer: @AwsCdkDsl
-    EncryptionConfiguration.Builder.() -> Unit): EncryptionConfiguration =
+    EncryptionConfiguration.Builder.() -> Unit = {}): EncryptionConfiguration =
     EncryptionConfiguration.Builder().apply(initializer).build()

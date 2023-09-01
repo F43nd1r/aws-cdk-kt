@@ -9,19 +9,14 @@ import software.amazon.awscdk.services.ec2.CfnSubnetRouteTableAssociationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnSubnetRouteTableAssociation(id: String,
-    props: CfnSubnetRouteTableAssociationProps): CfnSubnetRouteTableAssociation =
-    CfnSubnetRouteTableAssociation(this, id, props)
-
-@Generated
 public fun Construct.cfnSubnetRouteTableAssociation(
   id: String,
   props: CfnSubnetRouteTableAssociationProps,
-  initializer: @AwsCdkDsl CfnSubnetRouteTableAssociation.() -> Unit,
+  initializer: @AwsCdkDsl CfnSubnetRouteTableAssociation.() -> Unit = {},
 ): CfnSubnetRouteTableAssociation = CfnSubnetRouteTableAssociation(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnSubnetRouteTableAssociation(id: String, initializer: @AwsCdkDsl
-    CfnSubnetRouteTableAssociation.Builder.() -> Unit): CfnSubnetRouteTableAssociation =
+    CfnSubnetRouteTableAssociation.Builder.() -> Unit = {}): CfnSubnetRouteTableAssociation =
     CfnSubnetRouteTableAssociation.Builder.create(this, id).apply(initializer).build()

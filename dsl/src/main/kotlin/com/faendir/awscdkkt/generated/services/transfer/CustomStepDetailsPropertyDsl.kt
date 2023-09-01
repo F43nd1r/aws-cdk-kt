@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.transfer.CfnWorkflow
 
 @Generated
 public fun buildCustomStepDetailsProperty(initializer: @AwsCdkDsl
-    CfnWorkflow.CustomStepDetailsProperty.Builder.() -> Unit): CfnWorkflow.CustomStepDetailsProperty
-    = CfnWorkflow.CustomStepDetailsProperty.Builder().apply(initializer).build()
+    CfnWorkflow.CustomStepDetailsProperty.Builder.() -> Unit = {}):
+    CfnWorkflow.CustomStepDetailsProperty =
+    CfnWorkflow.CustomStepDetailsProperty.Builder().apply(initializer).build()

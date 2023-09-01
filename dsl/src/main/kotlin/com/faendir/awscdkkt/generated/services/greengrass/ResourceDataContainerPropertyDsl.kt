@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.greengrass.CfnResourceDefinitionVersion
 
 @Generated
 public fun buildResourceDataContainerProperty(initializer: @AwsCdkDsl
-    CfnResourceDefinitionVersion.ResourceDataContainerProperty.Builder.() -> Unit):
+    CfnResourceDefinitionVersion.ResourceDataContainerProperty.Builder.() -> Unit = {}):
     CfnResourceDefinitionVersion.ResourceDataContainerProperty =
     CfnResourceDefinitionVersion.ResourceDataContainerProperty.Builder().apply(initializer).build()

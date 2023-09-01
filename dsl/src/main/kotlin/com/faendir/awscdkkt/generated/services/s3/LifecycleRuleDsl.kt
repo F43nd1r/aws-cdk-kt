@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.LifecycleRule
 
 @Generated
-public fun buildLifecycleRule(initializer: @AwsCdkDsl LifecycleRule.Builder.() -> Unit):
+public fun buildLifecycleRule(initializer: @AwsCdkDsl LifecycleRule.Builder.() -> Unit = {}):
     LifecycleRule = LifecycleRule.Builder().apply(initializer).build()

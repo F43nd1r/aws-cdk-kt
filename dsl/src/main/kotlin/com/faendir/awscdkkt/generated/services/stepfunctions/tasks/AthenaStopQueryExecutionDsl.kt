@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.stepfunctions.tasks.AthenaStopQueryExecut
 import software.constructs.Construct
 
 @Generated
-public fun Construct.athenaStopQueryExecution(id: String, props: AthenaStopQueryExecutionProps):
-    AthenaStopQueryExecution = AthenaStopQueryExecution(this, id, props)
-
-@Generated
 public fun Construct.athenaStopQueryExecution(
   id: String,
   props: AthenaStopQueryExecutionProps,
-  initializer: @AwsCdkDsl AthenaStopQueryExecution.() -> Unit,
+  initializer: @AwsCdkDsl AthenaStopQueryExecution.() -> Unit = {},
 ): AthenaStopQueryExecution = AthenaStopQueryExecution(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildAthenaStopQueryExecution(id: String, initializer: @AwsCdkDsl
-    AthenaStopQueryExecution.Builder.() -> Unit): AthenaStopQueryExecution =
+    AthenaStopQueryExecution.Builder.() -> Unit = {}): AthenaStopQueryExecution =
     AthenaStopQueryExecution.Builder.create(this, id).apply(initializer).build()

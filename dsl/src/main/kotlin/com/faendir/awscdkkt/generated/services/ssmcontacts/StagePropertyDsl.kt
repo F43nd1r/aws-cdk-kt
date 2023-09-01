@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssmcontacts.CfnPlan
 
 @Generated
-public fun buildStageProperty(initializer: @AwsCdkDsl CfnPlan.StageProperty.Builder.() -> Unit):
-    CfnPlan.StageProperty = CfnPlan.StageProperty.Builder().apply(initializer).build()
+public fun buildStageProperty(initializer: @AwsCdkDsl CfnPlan.StageProperty.Builder.() -> Unit =
+    {}): CfnPlan.StageProperty = CfnPlan.StageProperty.Builder().apply(initializer).build()

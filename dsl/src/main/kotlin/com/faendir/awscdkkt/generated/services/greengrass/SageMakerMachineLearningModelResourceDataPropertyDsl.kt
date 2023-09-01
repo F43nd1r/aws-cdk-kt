@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.greengrass.CfnResourceDefinitionVersion
 
 @Generated
 public fun buildSageMakerMachineLearningModelResourceDataProperty(initializer: @AwsCdkDsl
-    CfnResourceDefinitionVersion.SageMakerMachineLearningModelResourceDataProperty.Builder.() -> Unit):
-    CfnResourceDefinitionVersion.SageMakerMachineLearningModelResourceDataProperty =
+    CfnResourceDefinitionVersion.SageMakerMachineLearningModelResourceDataProperty.Builder.() -> Unit
+    = {}): CfnResourceDefinitionVersion.SageMakerMachineLearningModelResourceDataProperty =
     CfnResourceDefinitionVersion.SageMakerMachineLearningModelResourceDataProperty.Builder().apply(initializer).build()

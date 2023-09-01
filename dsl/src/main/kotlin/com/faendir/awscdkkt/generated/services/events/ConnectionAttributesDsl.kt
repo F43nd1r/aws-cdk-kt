@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.ConnectionAttributes
 
 @Generated
-public fun buildConnectionAttributes(initializer: @AwsCdkDsl
-    ConnectionAttributes.Builder.() -> Unit): ConnectionAttributes =
-    ConnectionAttributes.Builder().apply(initializer).build()
+public fun buildConnectionAttributes(initializer: @AwsCdkDsl ConnectionAttributes.Builder.() -> Unit
+    = {}): ConnectionAttributes = ConnectionAttributes.Builder().apply(initializer).build()

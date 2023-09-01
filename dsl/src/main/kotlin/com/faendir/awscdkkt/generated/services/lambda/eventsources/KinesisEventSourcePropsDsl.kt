@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lambda.eventsources.KinesisEventSourcePro
 
 @Generated
 public fun buildKinesisEventSourceProps(initializer: @AwsCdkDsl
-    KinesisEventSourceProps.Builder.() -> Unit): KinesisEventSourceProps =
+    KinesisEventSourceProps.Builder.() -> Unit = {}): KinesisEventSourceProps =
     KinesisEventSourceProps.Builder().apply(initializer).build()

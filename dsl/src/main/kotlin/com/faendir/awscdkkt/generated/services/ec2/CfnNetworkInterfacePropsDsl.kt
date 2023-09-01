@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.CfnNetworkInterfaceProps
 
 @Generated
 public fun buildCfnNetworkInterfaceProps(initializer: @AwsCdkDsl
-    CfnNetworkInterfaceProps.Builder.() -> Unit): CfnNetworkInterfaceProps =
+    CfnNetworkInterfaceProps.Builder.() -> Unit = {}): CfnNetworkInterfaceProps =
     CfnNetworkInterfaceProps.Builder().apply(initializer).build()

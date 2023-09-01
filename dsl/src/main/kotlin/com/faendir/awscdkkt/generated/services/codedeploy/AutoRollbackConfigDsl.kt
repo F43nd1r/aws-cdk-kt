@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codedeploy.AutoRollbackConfig
 
 @Generated
-public fun buildAutoRollbackConfig(initializer: @AwsCdkDsl AutoRollbackConfig.Builder.() -> Unit):
-    AutoRollbackConfig = AutoRollbackConfig.Builder().apply(initializer).build()
+public fun buildAutoRollbackConfig(initializer: @AwsCdkDsl AutoRollbackConfig.Builder.() -> Unit =
+    {}): AutoRollbackConfig = AutoRollbackConfig.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.efs.CfnAccessPoint
 
 @Generated
 public fun buildAccessPointTagProperty(initializer: @AwsCdkDsl
-    CfnAccessPoint.AccessPointTagProperty.Builder.() -> Unit): CfnAccessPoint.AccessPointTagProperty
-    = CfnAccessPoint.AccessPointTagProperty.Builder().apply(initializer).build()
+    CfnAccessPoint.AccessPointTagProperty.Builder.() -> Unit = {}):
+    CfnAccessPoint.AccessPointTagProperty =
+    CfnAccessPoint.AccessPointTagProperty.Builder().apply(initializer).build()

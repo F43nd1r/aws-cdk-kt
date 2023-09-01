@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iotevents.CfnDetectorModel
 
 @Generated
 public fun buildEventProperty(initializer: @AwsCdkDsl
-    CfnDetectorModel.EventProperty.Builder.() -> Unit): CfnDetectorModel.EventProperty =
+    CfnDetectorModel.EventProperty.Builder.() -> Unit = {}): CfnDetectorModel.EventProperty =
     CfnDetectorModel.EventProperty.Builder().apply(initializer).build()

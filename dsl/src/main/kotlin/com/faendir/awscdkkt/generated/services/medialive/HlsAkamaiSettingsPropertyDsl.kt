@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildHlsAkamaiSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.HlsAkamaiSettingsProperty.Builder.() -> Unit): CfnChannel.HlsAkamaiSettingsProperty =
+    CfnChannel.HlsAkamaiSettingsProperty.Builder.() -> Unit = {}):
+    CfnChannel.HlsAkamaiSettingsProperty =
     CfnChannel.HlsAkamaiSettingsProperty.Builder().apply(initializer).build()

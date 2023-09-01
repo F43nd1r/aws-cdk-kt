@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.networkfirewall.CfnFirewall
 
 @Generated
 public fun buildSubnetMappingProperty(initializer: @AwsCdkDsl
-    CfnFirewall.SubnetMappingProperty.Builder.() -> Unit): CfnFirewall.SubnetMappingProperty =
+    CfnFirewall.SubnetMappingProperty.Builder.() -> Unit = {}): CfnFirewall.SubnetMappingProperty =
     CfnFirewall.SubnetMappingProperty.Builder().apply(initializer).build()

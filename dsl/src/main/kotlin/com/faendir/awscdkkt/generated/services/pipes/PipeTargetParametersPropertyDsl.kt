@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
 public fun buildPipeTargetParametersProperty(initializer: @AwsCdkDsl
-    CfnPipe.PipeTargetParametersProperty.Builder.() -> Unit): CfnPipe.PipeTargetParametersProperty =
+    CfnPipe.PipeTargetParametersProperty.Builder.() -> Unit = {}):
+    CfnPipe.PipeTargetParametersProperty =
     CfnPipe.PipeTargetParametersProperty.Builder().apply(initializer).build()

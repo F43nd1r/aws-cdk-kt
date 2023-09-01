@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.autoscaling.ScheduledActionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.scheduledAction(id: String, props: ScheduledActionProps): ScheduledAction =
-    ScheduledAction(this, id, props)
-
-@Generated
 public fun Construct.scheduledAction(
   id: String,
   props: ScheduledActionProps,
-  initializer: @AwsCdkDsl ScheduledAction.() -> Unit,
+  initializer: @AwsCdkDsl ScheduledAction.() -> Unit = {},
 ): ScheduledAction = ScheduledAction(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildScheduledAction(id: String, initializer: @AwsCdkDsl
-    ScheduledAction.Builder.() -> Unit): ScheduledAction = ScheduledAction.Builder.create(this,
+    ScheduledAction.Builder.() -> Unit = {}): ScheduledAction = ScheduledAction.Builder.create(this,
     id).apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.databrew.CfnJob
 
 @Generated
 public fun buildJobSampleProperty(initializer: @AwsCdkDsl
-    CfnJob.JobSampleProperty.Builder.() -> Unit): CfnJob.JobSampleProperty =
+    CfnJob.JobSampleProperty.Builder.() -> Unit = {}): CfnJob.JobSampleProperty =
     CfnJob.JobSampleProperty.Builder().apply(initializer).build()

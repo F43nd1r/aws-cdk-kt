@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.networkmanager.CfnLinkAssociationProps
 
 @Generated
 public fun buildCfnLinkAssociationProps(initializer: @AwsCdkDsl
-    CfnLinkAssociationProps.Builder.() -> Unit): CfnLinkAssociationProps =
+    CfnLinkAssociationProps.Builder.() -> Unit = {}): CfnLinkAssociationProps =
     CfnLinkAssociationProps.Builder().apply(initializer).build()

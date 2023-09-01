@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.kinesisanalyticsv2.CfnApplication
 
 @Generated
 public fun buildPropertyGroupProperty(initializer: @AwsCdkDsl
-    CfnApplication.PropertyGroupProperty.Builder.() -> Unit): CfnApplication.PropertyGroupProperty =
+    CfnApplication.PropertyGroupProperty.Builder.() -> Unit = {}):
+    CfnApplication.PropertyGroupProperty =
     CfnApplication.PropertyGroupProperty.Builder().apply(initializer).build()

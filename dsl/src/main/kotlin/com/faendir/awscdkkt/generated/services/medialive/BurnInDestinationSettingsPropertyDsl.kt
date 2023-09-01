@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildBurnInDestinationSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.BurnInDestinationSettingsProperty.Builder.() -> Unit):
+    CfnChannel.BurnInDestinationSettingsProperty.Builder.() -> Unit = {}):
     CfnChannel.BurnInDestinationSettingsProperty =
     CfnChannel.BurnInDestinationSettingsProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.targets.SnsTopicProps
 
 @Generated
-public fun buildSnsTopicProps(initializer: @AwsCdkDsl SnsTopicProps.Builder.() -> Unit):
+public fun buildSnsTopicProps(initializer: @AwsCdkDsl SnsTopicProps.Builder.() -> Unit = {}):
     SnsTopicProps = SnsTopicProps.Builder().apply(initializer).build()

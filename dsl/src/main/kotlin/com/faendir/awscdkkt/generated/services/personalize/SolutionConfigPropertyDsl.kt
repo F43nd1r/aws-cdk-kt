@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.personalize.CfnSolution
 
 @Generated
 public fun buildSolutionConfigProperty(initializer: @AwsCdkDsl
-    CfnSolution.SolutionConfigProperty.Builder.() -> Unit): CfnSolution.SolutionConfigProperty =
-    CfnSolution.SolutionConfigProperty.Builder().apply(initializer).build()
+    CfnSolution.SolutionConfigProperty.Builder.() -> Unit = {}): CfnSolution.SolutionConfigProperty
+    = CfnSolution.SolutionConfigProperty.Builder().apply(initializer).build()

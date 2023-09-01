@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.apigateway.CfnDeployment
 
 @Generated
 public fun buildDeploymentCanarySettingsProperty(initializer: @AwsCdkDsl
-    CfnDeployment.DeploymentCanarySettingsProperty.Builder.() -> Unit):
+    CfnDeployment.DeploymentCanarySettingsProperty.Builder.() -> Unit = {}):
     CfnDeployment.DeploymentCanarySettingsProperty =
     CfnDeployment.DeploymentCanarySettingsProperty.Builder().apply(initializer).build()

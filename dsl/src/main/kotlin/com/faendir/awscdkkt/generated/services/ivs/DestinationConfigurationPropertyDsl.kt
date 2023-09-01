@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ivs.CfnRecordingConfiguration
 
 @Generated
 public fun buildDestinationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnRecordingConfiguration.DestinationConfigurationProperty.Builder.() -> Unit):
+    CfnRecordingConfiguration.DestinationConfigurationProperty.Builder.() -> Unit = {}):
     CfnRecordingConfiguration.DestinationConfigurationProperty =
     CfnRecordingConfiguration.DestinationConfigurationProperty.Builder().apply(initializer).build()

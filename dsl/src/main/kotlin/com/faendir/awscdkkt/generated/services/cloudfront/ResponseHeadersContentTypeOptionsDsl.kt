@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cloudfront.ResponseHeadersContentTypeOpti
 
 @Generated
 public fun buildResponseHeadersContentTypeOptions(initializer: @AwsCdkDsl
-    ResponseHeadersContentTypeOptions.Builder.() -> Unit): ResponseHeadersContentTypeOptions =
+    ResponseHeadersContentTypeOptions.Builder.() -> Unit = {}): ResponseHeadersContentTypeOptions =
     ResponseHeadersContentTypeOptions.Builder().apply(initializer).build()

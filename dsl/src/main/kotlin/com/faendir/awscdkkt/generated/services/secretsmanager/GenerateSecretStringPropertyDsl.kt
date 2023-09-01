@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.secretsmanager.CfnSecret
 
 @Generated
 public fun buildGenerateSecretStringProperty(initializer: @AwsCdkDsl
-    CfnSecret.GenerateSecretStringProperty.Builder.() -> Unit):
+    CfnSecret.GenerateSecretStringProperty.Builder.() -> Unit = {}):
     CfnSecret.GenerateSecretStringProperty =
     CfnSecret.GenerateSecretStringProperty.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.cloudfront.CfnDistribution
 
 @Generated
 public fun buildOriginShieldProperty(initializer: @AwsCdkDsl
-    CfnDistribution.OriginShieldProperty.Builder.() -> Unit): CfnDistribution.OriginShieldProperty =
+    CfnDistribution.OriginShieldProperty.Builder.() -> Unit = {}):
+    CfnDistribution.OriginShieldProperty =
     CfnDistribution.OriginShieldProperty.Builder().apply(initializer).build()

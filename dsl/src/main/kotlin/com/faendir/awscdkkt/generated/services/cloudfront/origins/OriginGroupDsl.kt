@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.origins.OriginGroup
 
 @Generated
-public fun buildOriginGroup(initializer: @AwsCdkDsl OriginGroup.Builder.() -> Unit): OriginGroup =
-    OriginGroup.Builder.create().apply(initializer).build()
+public fun buildOriginGroup(initializer: @AwsCdkDsl OriginGroup.Builder.() -> Unit = {}):
+    OriginGroup = OriginGroup.Builder.create().apply(initializer).build()

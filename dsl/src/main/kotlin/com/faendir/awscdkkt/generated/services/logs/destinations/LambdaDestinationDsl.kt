@@ -8,5 +8,5 @@ import software.amazon.awscdk.services.logs.destinations.LambdaDestination
 
 @Generated
 public fun buildLambdaDestination(fn: IFunction, initializer: @AwsCdkDsl
-    LambdaDestination.Builder.() -> Unit): LambdaDestination =
+    LambdaDestination.Builder.() -> Unit = {}): LambdaDestination =
     LambdaDestination.Builder.create(fn).apply(initializer).build()

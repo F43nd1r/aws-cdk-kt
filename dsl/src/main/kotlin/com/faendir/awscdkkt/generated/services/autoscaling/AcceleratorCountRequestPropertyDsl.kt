@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.autoscaling.CfnAutoScalingGroup
 
 @Generated
 public fun buildAcceleratorCountRequestProperty(initializer: @AwsCdkDsl
-    CfnAutoScalingGroup.AcceleratorCountRequestProperty.Builder.() -> Unit):
+    CfnAutoScalingGroup.AcceleratorCountRequestProperty.Builder.() -> Unit = {}):
     CfnAutoScalingGroup.AcceleratorCountRequestProperty =
     CfnAutoScalingGroup.AcceleratorCountRequestProperty.Builder().apply(initializer).build()

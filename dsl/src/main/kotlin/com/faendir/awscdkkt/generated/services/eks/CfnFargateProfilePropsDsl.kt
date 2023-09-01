@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.eks.CfnFargateProfileProps
 
 @Generated
 public fun buildCfnFargateProfileProps(initializer: @AwsCdkDsl
-    CfnFargateProfileProps.Builder.() -> Unit): CfnFargateProfileProps =
+    CfnFargateProfileProps.Builder.() -> Unit = {}): CfnFargateProfileProps =
     CfnFargateProfileProps.Builder().apply(initializer).build()

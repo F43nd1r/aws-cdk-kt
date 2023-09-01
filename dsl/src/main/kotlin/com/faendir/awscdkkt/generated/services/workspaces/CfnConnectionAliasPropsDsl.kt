@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.workspaces.CfnConnectionAliasProps
 
 @Generated
 public fun buildCfnConnectionAliasProps(initializer: @AwsCdkDsl
-    CfnConnectionAliasProps.Builder.() -> Unit): CfnConnectionAliasProps =
+    CfnConnectionAliasProps.Builder.() -> Unit = {}): CfnConnectionAliasProps =
     CfnConnectionAliasProps.Builder().apply(initializer).build()

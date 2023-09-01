@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.servicecatalog.CfnPortfolioProductAssocia
 
 @Generated
 public fun buildCfnPortfolioProductAssociationProps(initializer: @AwsCdkDsl
-    CfnPortfolioProductAssociationProps.Builder.() -> Unit): CfnPortfolioProductAssociationProps =
+    CfnPortfolioProductAssociationProps.Builder.() -> Unit = {}):
+    CfnPortfolioProductAssociationProps =
     CfnPortfolioProductAssociationProps.Builder().apply(initializer).build()

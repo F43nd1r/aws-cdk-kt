@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.s3.VirtualHostedStyleUrlOptions
 
 @Generated
 public fun buildVirtualHostedStyleUrlOptions(initializer: @AwsCdkDsl
-    VirtualHostedStyleUrlOptions.Builder.() -> Unit): VirtualHostedStyleUrlOptions =
+    VirtualHostedStyleUrlOptions.Builder.() -> Unit = {}): VirtualHostedStyleUrlOptions =
     VirtualHostedStyleUrlOptions.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildRadarChartAggregatedFieldWellsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.RadarChartAggregatedFieldWellsProperty.Builder.() -> Unit):
+    CfnTemplate.RadarChartAggregatedFieldWellsProperty.Builder.() -> Unit = {}):
     CfnTemplate.RadarChartAggregatedFieldWellsProperty =
     CfnTemplate.RadarChartAggregatedFieldWellsProperty.Builder().apply(initializer).build()

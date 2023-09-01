@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appmesh.TlsValidationTrustConfig
 
 @Generated
 public fun buildTlsValidationTrustConfig(initializer: @AwsCdkDsl
-    TlsValidationTrustConfig.Builder.() -> Unit): TlsValidationTrustConfig =
+    TlsValidationTrustConfig.Builder.() -> Unit = {}): TlsValidationTrustConfig =
     TlsValidationTrustConfig.Builder().apply(initializer).build()

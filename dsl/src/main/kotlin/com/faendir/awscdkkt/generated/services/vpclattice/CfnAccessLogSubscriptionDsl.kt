@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.vpclattice.CfnAccessLogSubscriptionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnAccessLogSubscription(id: String, props: CfnAccessLogSubscriptionProps):
-    CfnAccessLogSubscription = CfnAccessLogSubscription(this, id, props)
-
-@Generated
 public fun Construct.cfnAccessLogSubscription(
   id: String,
   props: CfnAccessLogSubscriptionProps,
-  initializer: @AwsCdkDsl CfnAccessLogSubscription.() -> Unit,
+  initializer: @AwsCdkDsl CfnAccessLogSubscription.() -> Unit = {},
 ): CfnAccessLogSubscription = CfnAccessLogSubscription(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnAccessLogSubscription(id: String, initializer: @AwsCdkDsl
-    CfnAccessLogSubscription.Builder.() -> Unit): CfnAccessLogSubscription =
+    CfnAccessLogSubscription.Builder.() -> Unit = {}): CfnAccessLogSubscription =
     CfnAccessLogSubscription.Builder.create(this, id).apply(initializer).build()

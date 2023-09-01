@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.Location
 
 @Generated
-public fun buildLocation(initializer: @AwsCdkDsl Location.Builder.() -> Unit): Location =
+public fun buildLocation(initializer: @AwsCdkDsl Location.Builder.() -> Unit = {}): Location =
     Location.Builder().apply(initializer).build()

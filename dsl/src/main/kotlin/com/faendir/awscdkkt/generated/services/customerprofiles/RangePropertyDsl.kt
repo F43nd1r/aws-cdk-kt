@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.customerprofiles.CfnCalculatedAttributeDe
 
 @Generated
 public fun buildRangeProperty(initializer: @AwsCdkDsl
-    CfnCalculatedAttributeDefinition.RangeProperty.Builder.() -> Unit):
+    CfnCalculatedAttributeDefinition.RangeProperty.Builder.() -> Unit = {}):
     CfnCalculatedAttributeDefinition.RangeProperty =
     CfnCalculatedAttributeDefinition.RangeProperty.Builder().apply(initializer).build()

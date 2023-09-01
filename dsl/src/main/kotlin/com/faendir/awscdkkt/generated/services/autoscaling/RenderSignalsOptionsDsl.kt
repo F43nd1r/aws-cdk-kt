@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.RenderSignalsOptions
 
 @Generated
-public fun buildRenderSignalsOptions(initializer: @AwsCdkDsl
-    RenderSignalsOptions.Builder.() -> Unit): RenderSignalsOptions =
-    RenderSignalsOptions.Builder().apply(initializer).build()
+public fun buildRenderSignalsOptions(initializer: @AwsCdkDsl RenderSignalsOptions.Builder.() -> Unit
+    = {}): RenderSignalsOptions = RenderSignalsOptions.Builder().apply(initializer).build()

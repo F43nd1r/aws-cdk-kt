@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.databrew.CfnJob
 
 @Generated
 public fun buildDataCatalogOutputProperty(initializer: @AwsCdkDsl
-    CfnJob.DataCatalogOutputProperty.Builder.() -> Unit): CfnJob.DataCatalogOutputProperty =
+    CfnJob.DataCatalogOutputProperty.Builder.() -> Unit = {}): CfnJob.DataCatalogOutputProperty =
     CfnJob.DataCatalogOutputProperty.Builder().apply(initializer).build()

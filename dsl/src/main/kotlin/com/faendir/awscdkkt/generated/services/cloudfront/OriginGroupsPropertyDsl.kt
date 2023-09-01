@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.cloudfront.CfnDistribution
 
 @Generated
 public fun buildOriginGroupsProperty(initializer: @AwsCdkDsl
-    CfnDistribution.OriginGroupsProperty.Builder.() -> Unit): CfnDistribution.OriginGroupsProperty =
+    CfnDistribution.OriginGroupsProperty.Builder.() -> Unit = {}):
+    CfnDistribution.OriginGroupsProperty =
     CfnDistribution.OriginGroupsProperty.Builder().apply(initializer).build()

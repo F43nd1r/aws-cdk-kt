@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codepipeline.CustomActionRegistrationProp
 
 @Generated
 public fun buildCustomActionRegistrationProps(initializer: @AwsCdkDsl
-    CustomActionRegistrationProps.Builder.() -> Unit): CustomActionRegistrationProps =
+    CustomActionRegistrationProps.Builder.() -> Unit = {}): CustomActionRegistrationProps =
     CustomActionRegistrationProps.Builder().apply(initializer).build()

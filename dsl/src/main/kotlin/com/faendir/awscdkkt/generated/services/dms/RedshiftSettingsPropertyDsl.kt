@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.dms.CfnEndpoint
 
 @Generated
 public fun buildRedshiftSettingsProperty(initializer: @AwsCdkDsl
-    CfnEndpoint.RedshiftSettingsProperty.Builder.() -> Unit): CfnEndpoint.RedshiftSettingsProperty =
+    CfnEndpoint.RedshiftSettingsProperty.Builder.() -> Unit = {}):
+    CfnEndpoint.RedshiftSettingsProperty =
     CfnEndpoint.RedshiftSettingsProperty.Builder().apply(initializer).build()

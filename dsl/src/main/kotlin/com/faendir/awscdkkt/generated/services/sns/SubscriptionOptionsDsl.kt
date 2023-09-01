@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sns.SubscriptionOptions
 
 @Generated
-public fun buildSubscriptionOptions(initializer: @AwsCdkDsl SubscriptionOptions.Builder.() -> Unit):
-    SubscriptionOptions = SubscriptionOptions.Builder().apply(initializer).build()
+public fun buildSubscriptionOptions(initializer: @AwsCdkDsl SubscriptionOptions.Builder.() -> Unit =
+    {}): SubscriptionOptions = SubscriptionOptions.Builder().apply(initializer).build()

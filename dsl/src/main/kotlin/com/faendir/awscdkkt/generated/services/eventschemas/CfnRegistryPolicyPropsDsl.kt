@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.eventschemas.CfnRegistryPolicyProps
 
 @Generated
 public fun buildCfnRegistryPolicyProps(initializer: @AwsCdkDsl
-    CfnRegistryPolicyProps.Builder.() -> Unit): CfnRegistryPolicyProps =
+    CfnRegistryPolicyProps.Builder.() -> Unit = {}): CfnRegistryPolicyProps =
     CfnRegistryPolicyProps.Builder().apply(initializer).build()

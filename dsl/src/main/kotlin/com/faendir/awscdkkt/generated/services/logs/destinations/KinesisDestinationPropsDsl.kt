@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.logs.destinations.KinesisDestinationProps
 
 @Generated
 public fun buildKinesisDestinationProps(initializer: @AwsCdkDsl
-    KinesisDestinationProps.Builder.() -> Unit): KinesisDestinationProps =
+    KinesisDestinationProps.Builder.() -> Unit = {}): KinesisDestinationProps =
     KinesisDestinationProps.Builder().apply(initializer).build()

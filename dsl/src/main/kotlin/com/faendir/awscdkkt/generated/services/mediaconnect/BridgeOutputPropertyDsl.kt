@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.mediaconnect.CfnBridge
 
 @Generated
 public fun buildBridgeOutputProperty(initializer: @AwsCdkDsl
-    CfnBridge.BridgeOutputProperty.Builder.() -> Unit): CfnBridge.BridgeOutputProperty =
+    CfnBridge.BridgeOutputProperty.Builder.() -> Unit = {}): CfnBridge.BridgeOutputProperty =
     CfnBridge.BridgeOutputProperty.Builder().apply(initializer).build()

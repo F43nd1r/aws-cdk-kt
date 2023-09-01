@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.msk.CfnCluster
 
 @Generated
 public fun buildStorageInfoProperty(initializer: @AwsCdkDsl
-    CfnCluster.StorageInfoProperty.Builder.() -> Unit): CfnCluster.StorageInfoProperty =
+    CfnCluster.StorageInfoProperty.Builder.() -> Unit = {}): CfnCluster.StorageInfoProperty =
     CfnCluster.StorageInfoProperty.Builder().apply(initializer).build()

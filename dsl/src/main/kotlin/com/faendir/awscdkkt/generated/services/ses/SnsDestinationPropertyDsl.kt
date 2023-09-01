@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ses.CfnConfigurationSetEventDestination
 
 @Generated
 public fun buildSnsDestinationProperty(initializer: @AwsCdkDsl
-    CfnConfigurationSetEventDestination.SnsDestinationProperty.Builder.() -> Unit):
+    CfnConfigurationSetEventDestination.SnsDestinationProperty.Builder.() -> Unit = {}):
     CfnConfigurationSetEventDestination.SnsDestinationProperty =
     CfnConfigurationSetEventDestination.SnsDestinationProperty.Builder().apply(initializer).build()

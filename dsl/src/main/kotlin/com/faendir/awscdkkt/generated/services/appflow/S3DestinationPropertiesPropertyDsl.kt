@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
 public fun buildS3DestinationPropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.S3DestinationPropertiesProperty.Builder.() -> Unit):
+    CfnFlow.S3DestinationPropertiesProperty.Builder.() -> Unit = {}):
     CfnFlow.S3DestinationPropertiesProperty =
     CfnFlow.S3DestinationPropertiesProperty.Builder().apply(initializer).build()

@@ -9,15 +9,12 @@ import software.amazon.awscdk.services.memorydb.CfnACLProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnACL(id: String, props: CfnACLProps): CfnACL = CfnACL(this, id, props)
-
-@Generated
 public fun Construct.cfnACL(
   id: String,
   props: CfnACLProps,
-  initializer: @AwsCdkDsl CfnACL.() -> Unit,
+  initializer: @AwsCdkDsl CfnACL.() -> Unit = {},
 ): CfnACL = CfnACL(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnACL(id: String, initializer: @AwsCdkDsl CfnACL.Builder.() -> Unit):
-    CfnACL = CfnACL.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnACL(id: String, initializer: @AwsCdkDsl CfnACL.Builder.() -> Unit =
+    {}): CfnACL = CfnACL.Builder.create(this, id).apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.glue.CfnJob
 
 @Generated
 public fun buildJobCommandProperty(initializer: @AwsCdkDsl
-    CfnJob.JobCommandProperty.Builder.() -> Unit): CfnJob.JobCommandProperty =
+    CfnJob.JobCommandProperty.Builder.() -> Unit = {}): CfnJob.JobCommandProperty =
     CfnJob.JobCommandProperty.Builder().apply(initializer).build()

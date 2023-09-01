@@ -7,5 +7,5 @@ import software.amazon.awscdk.pipelines.CodePipelineActionFactoryResult
 
 @Generated
 public fun buildCodePipelineActionFactoryResult(initializer: @AwsCdkDsl
-    CodePipelineActionFactoryResult.Builder.() -> Unit): CodePipelineActionFactoryResult =
+    CodePipelineActionFactoryResult.Builder.() -> Unit = {}): CodePipelineActionFactoryResult =
     CodePipelineActionFactoryResult.Builder().apply(initializer).build()

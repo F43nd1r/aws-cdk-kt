@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.CatchProps
 
 @Generated
-public fun buildCatchProps(initializer: @AwsCdkDsl CatchProps.Builder.() -> Unit): CatchProps =
+public fun buildCatchProps(initializer: @AwsCdkDsl CatchProps.Builder.() -> Unit = {}): CatchProps =
     CatchProps.Builder().apply(initializer).build()

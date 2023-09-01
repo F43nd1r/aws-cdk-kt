@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.securityhub.CfnStandard
 
 @Generated
 public fun buildStandardsControlProperty(initializer: @AwsCdkDsl
-    CfnStandard.StandardsControlProperty.Builder.() -> Unit): CfnStandard.StandardsControlProperty =
+    CfnStandard.StandardsControlProperty.Builder.() -> Unit = {}):
+    CfnStandard.StandardsControlProperty =
     CfnStandard.StandardsControlProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
 public fun buildDeleteMarkerReplicationProperty(initializer: @AwsCdkDsl
-    CfnBucket.DeleteMarkerReplicationProperty.Builder.() -> Unit):
+    CfnBucket.DeleteMarkerReplicationProperty.Builder.() -> Unit = {}):
     CfnBucket.DeleteMarkerReplicationProperty =
     CfnBucket.DeleteMarkerReplicationProperty.Builder().apply(initializer).build()

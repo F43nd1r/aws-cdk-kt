@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.redshift.CfnEndpointAccess
 
 @Generated
 public fun buildNetworkInterfaceProperty(initializer: @AwsCdkDsl
-    CfnEndpointAccess.NetworkInterfaceProperty.Builder.() -> Unit):
+    CfnEndpointAccess.NetworkInterfaceProperty.Builder.() -> Unit = {}):
     CfnEndpointAccess.NetworkInterfaceProperty =
     CfnEndpointAccess.NetworkInterfaceProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.rds.AuroraPostgresClusterEngineProps
 
 @Generated
 public fun buildAuroraPostgresClusterEngineProps(initializer: @AwsCdkDsl
-    AuroraPostgresClusterEngineProps.Builder.() -> Unit): AuroraPostgresClusterEngineProps =
+    AuroraPostgresClusterEngineProps.Builder.() -> Unit = {}): AuroraPostgresClusterEngineProps =
     AuroraPostgresClusterEngineProps.Builder().apply(initializer).build()

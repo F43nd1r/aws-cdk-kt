@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sam.CfnSimpleTable
 
 @Generated
 public fun buildProvisionedThroughputProperty(initializer: @AwsCdkDsl
-    CfnSimpleTable.ProvisionedThroughputProperty.Builder.() -> Unit):
+    CfnSimpleTable.ProvisionedThroughputProperty.Builder.() -> Unit = {}):
     CfnSimpleTable.ProvisionedThroughputProperty =
     CfnSimpleTable.ProvisionedThroughputProperty.Builder().apply(initializer).build()

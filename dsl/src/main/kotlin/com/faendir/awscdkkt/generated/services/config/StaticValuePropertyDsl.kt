@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.config.CfnRemediationConfiguration
 
 @Generated
 public fun buildStaticValueProperty(initializer: @AwsCdkDsl
-    CfnRemediationConfiguration.StaticValueProperty.Builder.() -> Unit):
+    CfnRemediationConfiguration.StaticValueProperty.Builder.() -> Unit = {}):
     CfnRemediationConfiguration.StaticValueProperty =
     CfnRemediationConfiguration.StaticValueProperty.Builder().apply(initializer).build()

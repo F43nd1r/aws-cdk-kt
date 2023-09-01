@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.ScratchSpace
 
 @Generated
-public fun buildScratchSpace(initializer: @AwsCdkDsl ScratchSpace.Builder.() -> Unit): ScratchSpace
-    = ScratchSpace.Builder().apply(initializer).build()
+public fun buildScratchSpace(initializer: @AwsCdkDsl ScratchSpace.Builder.() -> Unit = {}):
+    ScratchSpace = ScratchSpace.Builder().apply(initializer).build()

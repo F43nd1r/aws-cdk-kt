@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.comprehend.CfnFlywheel
 
 @Generated
 public fun buildDataSecurityConfigProperty(initializer: @AwsCdkDsl
-    CfnFlywheel.DataSecurityConfigProperty.Builder.() -> Unit):
+    CfnFlywheel.DataSecurityConfigProperty.Builder.() -> Unit = {}):
     CfnFlywheel.DataSecurityConfigProperty =
     CfnFlywheel.DataSecurityConfigProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnSpotFleet
 
 @Generated
 public fun buildTargetGroupsConfigProperty(initializer: @AwsCdkDsl
-    CfnSpotFleet.TargetGroupsConfigProperty.Builder.() -> Unit):
+    CfnSpotFleet.TargetGroupsConfigProperty.Builder.() -> Unit = {}):
     CfnSpotFleet.TargetGroupsConfigProperty =
     CfnSpotFleet.TargetGroupsConfigProperty.Builder().apply(initializer).build()

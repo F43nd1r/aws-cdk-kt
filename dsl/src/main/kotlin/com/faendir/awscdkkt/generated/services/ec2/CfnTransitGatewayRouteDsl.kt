@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ec2.CfnTransitGatewayRouteProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnTransitGatewayRoute(id: String, props: CfnTransitGatewayRouteProps):
-    CfnTransitGatewayRoute = CfnTransitGatewayRoute(this, id, props)
-
-@Generated
 public fun Construct.cfnTransitGatewayRoute(
   id: String,
   props: CfnTransitGatewayRouteProps,
-  initializer: @AwsCdkDsl CfnTransitGatewayRoute.() -> Unit,
+  initializer: @AwsCdkDsl CfnTransitGatewayRoute.() -> Unit = {},
 ): CfnTransitGatewayRoute = CfnTransitGatewayRoute(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnTransitGatewayRoute(id: String, initializer: @AwsCdkDsl
-    CfnTransitGatewayRoute.Builder.() -> Unit): CfnTransitGatewayRoute =
+    CfnTransitGatewayRoute.Builder.() -> Unit = {}): CfnTransitGatewayRoute =
     CfnTransitGatewayRoute.Builder.create(this, id).apply(initializer).build()

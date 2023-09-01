@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
 public fun buildDecimalParameterProperty(initializer: @AwsCdkDsl
-    CfnDashboard.DecimalParameterProperty.Builder.() -> Unit): CfnDashboard.DecimalParameterProperty
-    = CfnDashboard.DecimalParameterProperty.Builder().apply(initializer).build()
+    CfnDashboard.DecimalParameterProperty.Builder.() -> Unit = {}):
+    CfnDashboard.DecimalParameterProperty =
+    CfnDashboard.DecimalParameterProperty.Builder().apply(initializer).build()

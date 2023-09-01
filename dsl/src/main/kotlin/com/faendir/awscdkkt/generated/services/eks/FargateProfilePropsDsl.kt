@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.FargateProfileProps
 
 @Generated
-public fun buildFargateProfileProps(initializer: @AwsCdkDsl FargateProfileProps.Builder.() -> Unit):
-    FargateProfileProps = FargateProfileProps.Builder().apply(initializer).build()
+public fun buildFargateProfileProps(initializer: @AwsCdkDsl FargateProfileProps.Builder.() -> Unit =
+    {}): FargateProfileProps = FargateProfileProps.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.HttpTimeout
 
 @Generated
-public fun buildHttpTimeout(initializer: @AwsCdkDsl HttpTimeout.Builder.() -> Unit): HttpTimeout =
-    HttpTimeout.Builder().apply(initializer).build()
+public fun buildHttpTimeout(initializer: @AwsCdkDsl HttpTimeout.Builder.() -> Unit = {}):
+    HttpTimeout = HttpTimeout.Builder().apply(initializer).build()

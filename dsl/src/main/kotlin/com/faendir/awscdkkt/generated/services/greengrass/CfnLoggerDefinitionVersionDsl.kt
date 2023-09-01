@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.greengrass.CfnLoggerDefinitionVersionProp
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnLoggerDefinitionVersion(id: String, props: CfnLoggerDefinitionVersionProps):
-    CfnLoggerDefinitionVersion = CfnLoggerDefinitionVersion(this, id, props)
-
-@Generated
 public fun Construct.cfnLoggerDefinitionVersion(
   id: String,
   props: CfnLoggerDefinitionVersionProps,
-  initializer: @AwsCdkDsl CfnLoggerDefinitionVersion.() -> Unit,
+  initializer: @AwsCdkDsl CfnLoggerDefinitionVersion.() -> Unit = {},
 ): CfnLoggerDefinitionVersion = CfnLoggerDefinitionVersion(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnLoggerDefinitionVersion(id: String, initializer: @AwsCdkDsl
-    CfnLoggerDefinitionVersion.Builder.() -> Unit): CfnLoggerDefinitionVersion =
+    CfnLoggerDefinitionVersion.Builder.() -> Unit = {}): CfnLoggerDefinitionVersion =
     CfnLoggerDefinitionVersion.Builder.create(this, id).apply(initializer).build()

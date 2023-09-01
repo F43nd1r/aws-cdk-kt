@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.ecs.patterns.ApplicationLoadBalancedTaskI
 
 @Generated
 public fun buildApplicationLoadBalancedTaskImageProps(initializer: @AwsCdkDsl
-    ApplicationLoadBalancedTaskImageProps.Builder.() -> Unit): ApplicationLoadBalancedTaskImageProps
-    = ApplicationLoadBalancedTaskImageProps.Builder().apply(initializer).build()
+    ApplicationLoadBalancedTaskImageProps.Builder.() -> Unit = {}):
+    ApplicationLoadBalancedTaskImageProps =
+    ApplicationLoadBalancedTaskImageProps.Builder().apply(initializer).build()

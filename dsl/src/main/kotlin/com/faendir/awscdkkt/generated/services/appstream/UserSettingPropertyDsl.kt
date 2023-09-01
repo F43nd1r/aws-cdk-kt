@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appstream.CfnStack
 
 @Generated
 public fun buildUserSettingProperty(initializer: @AwsCdkDsl
-    CfnStack.UserSettingProperty.Builder.() -> Unit): CfnStack.UserSettingProperty =
+    CfnStack.UserSettingProperty.Builder.() -> Unit = {}): CfnStack.UserSettingProperty =
     CfnStack.UserSettingProperty.Builder().apply(initializer).build()

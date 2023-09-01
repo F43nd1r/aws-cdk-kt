@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.synthetics.CfnCanary
 
 @Generated
 public fun buildVisualReferenceProperty(initializer: @AwsCdkDsl
-    CfnCanary.VisualReferenceProperty.Builder.() -> Unit): CfnCanary.VisualReferenceProperty =
+    CfnCanary.VisualReferenceProperty.Builder.() -> Unit = {}): CfnCanary.VisualReferenceProperty =
     CfnCanary.VisualReferenceProperty.Builder().apply(initializer).build()

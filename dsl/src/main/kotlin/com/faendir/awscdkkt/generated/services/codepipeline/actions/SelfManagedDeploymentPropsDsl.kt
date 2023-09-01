@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codepipeline.actions.SelfManagedDeploymen
 
 @Generated
 public fun buildSelfManagedDeploymentProps(initializer: @AwsCdkDsl
-    SelfManagedDeploymentProps.Builder.() -> Unit): SelfManagedDeploymentProps =
+    SelfManagedDeploymentProps.Builder.() -> Unit = {}): SelfManagedDeploymentProps =
     SelfManagedDeploymentProps.Builder().apply(initializer).build()

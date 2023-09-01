@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.internetmonitor.CfnMonitor
 
 @Generated
 public fun buildHealthEventsConfigProperty(initializer: @AwsCdkDsl
-    CfnMonitor.HealthEventsConfigProperty.Builder.() -> Unit): CfnMonitor.HealthEventsConfigProperty
-    = CfnMonitor.HealthEventsConfigProperty.Builder().apply(initializer).build()
+    CfnMonitor.HealthEventsConfigProperty.Builder.() -> Unit = {}):
+    CfnMonitor.HealthEventsConfigProperty =
+    CfnMonitor.HealthEventsConfigProperty.Builder().apply(initializer).build()

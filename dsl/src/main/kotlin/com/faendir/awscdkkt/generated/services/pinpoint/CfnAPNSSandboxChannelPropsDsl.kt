@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.pinpoint.CfnAPNSSandboxChannelProps
 
 @Generated
 public fun buildCfnAPNSSandboxChannelProps(initializer: @AwsCdkDsl
-    CfnAPNSSandboxChannelProps.Builder.() -> Unit): CfnAPNSSandboxChannelProps =
+    CfnAPNSSandboxChannelProps.Builder.() -> Unit = {}): CfnAPNSSandboxChannelProps =
     CfnAPNSSandboxChannelProps.Builder().apply(initializer).build()

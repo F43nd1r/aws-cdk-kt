@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.CfnCapacityProviderProps
 
 @Generated
 public fun buildCfnCapacityProviderProps(initializer: @AwsCdkDsl
-    CfnCapacityProviderProps.Builder.() -> Unit): CfnCapacityProviderProps =
+    CfnCapacityProviderProps.Builder.() -> Unit = {}): CfnCapacityProviderProps =
     CfnCapacityProviderProps.Builder().apply(initializer).build()

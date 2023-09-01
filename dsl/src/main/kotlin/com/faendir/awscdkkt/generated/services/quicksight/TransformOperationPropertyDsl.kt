@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
 public fun buildTransformOperationProperty(initializer: @AwsCdkDsl
-    CfnDataSet.TransformOperationProperty.Builder.() -> Unit): CfnDataSet.TransformOperationProperty
-    = CfnDataSet.TransformOperationProperty.Builder().apply(initializer).build()
+    CfnDataSet.TransformOperationProperty.Builder.() -> Unit = {}):
+    CfnDataSet.TransformOperationProperty =
+    CfnDataSet.TransformOperationProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.ReportGroupProps
 
 @Generated
-public fun buildReportGroupProps(initializer: @AwsCdkDsl ReportGroupProps.Builder.() -> Unit):
+public fun buildReportGroupProps(initializer: @AwsCdkDsl ReportGroupProps.Builder.() -> Unit = {}):
     ReportGroupProps = ReportGroupProps.Builder().apply(initializer).build()

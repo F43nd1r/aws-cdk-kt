@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnNetworkInsightsAnalysis
 
 @Generated
 public fun buildAnalysisAclRuleProperty(initializer: @AwsCdkDsl
-    CfnNetworkInsightsAnalysis.AnalysisAclRuleProperty.Builder.() -> Unit):
+    CfnNetworkInsightsAnalysis.AnalysisAclRuleProperty.Builder.() -> Unit = {}):
     CfnNetworkInsightsAnalysis.AnalysisAclRuleProperty =
     CfnNetworkInsightsAnalysis.AnalysisAclRuleProperty.Builder().apply(initializer).build()

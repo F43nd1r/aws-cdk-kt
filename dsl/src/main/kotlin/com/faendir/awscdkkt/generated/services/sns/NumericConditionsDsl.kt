@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sns.NumericConditions
 
 @Generated
-public fun buildNumericConditions(initializer: @AwsCdkDsl NumericConditions.Builder.() -> Unit):
-    NumericConditions = NumericConditions.Builder().apply(initializer).build()
+public fun buildNumericConditions(initializer: @AwsCdkDsl NumericConditions.Builder.() -> Unit =
+    {}): NumericConditions = NumericConditions.Builder().apply(initializer).build()

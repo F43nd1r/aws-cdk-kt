@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.iot.CfnFleetMetricProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnFleetMetric(id: String, props: CfnFleetMetricProps): CfnFleetMetric =
-    CfnFleetMetric(this, id, props)
-
-@Generated
 public fun Construct.cfnFleetMetric(
   id: String,
   props: CfnFleetMetricProps,
-  initializer: @AwsCdkDsl CfnFleetMetric.() -> Unit,
+  initializer: @AwsCdkDsl CfnFleetMetric.() -> Unit = {},
 ): CfnFleetMetric = CfnFleetMetric(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnFleetMetric(id: String, initializer: @AwsCdkDsl
-    CfnFleetMetric.Builder.() -> Unit): CfnFleetMetric = CfnFleetMetric.Builder.create(this,
+    CfnFleetMetric.Builder.() -> Unit = {}): CfnFleetMetric = CfnFleetMetric.Builder.create(this,
     id).apply(initializer).build()

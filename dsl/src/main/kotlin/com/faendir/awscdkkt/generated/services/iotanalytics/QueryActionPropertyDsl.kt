@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iotanalytics.CfnDataset
 
 @Generated
 public fun buildQueryActionProperty(initializer: @AwsCdkDsl
-    CfnDataset.QueryActionProperty.Builder.() -> Unit): CfnDataset.QueryActionProperty =
+    CfnDataset.QueryActionProperty.Builder.() -> Unit = {}): CfnDataset.QueryActionProperty =
     CfnDataset.QueryActionProperty.Builder().apply(initializer).build()

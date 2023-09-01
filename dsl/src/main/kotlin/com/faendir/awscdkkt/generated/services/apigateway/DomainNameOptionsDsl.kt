@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.DomainNameOptions
 
 @Generated
-public fun buildDomainNameOptions(initializer: @AwsCdkDsl DomainNameOptions.Builder.() -> Unit):
-    DomainNameOptions = DomainNameOptions.Builder().apply(initializer).build()
+public fun buildDomainNameOptions(initializer: @AwsCdkDsl DomainNameOptions.Builder.() -> Unit =
+    {}): DomainNameOptions = DomainNameOptions.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnTaskSet
 
 @Generated
-public fun buildScaleProperty(initializer: @AwsCdkDsl CfnTaskSet.ScaleProperty.Builder.() -> Unit):
-    CfnTaskSet.ScaleProperty = CfnTaskSet.ScaleProperty.Builder().apply(initializer).build()
+public fun buildScaleProperty(initializer: @AwsCdkDsl CfnTaskSet.ScaleProperty.Builder.() -> Unit =
+    {}): CfnTaskSet.ScaleProperty = CfnTaskSet.ScaleProperty.Builder().apply(initializer).build()

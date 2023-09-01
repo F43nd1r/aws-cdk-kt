@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.evidently.CfnLaunch
 
 @Generated
 public fun buildMetricDefinitionObjectProperty(initializer: @AwsCdkDsl
-    CfnLaunch.MetricDefinitionObjectProperty.Builder.() -> Unit):
+    CfnLaunch.MetricDefinitionObjectProperty.Builder.() -> Unit = {}):
     CfnLaunch.MetricDefinitionObjectProperty =
     CfnLaunch.MetricDefinitionObjectProperty.Builder().apply(initializer).build()

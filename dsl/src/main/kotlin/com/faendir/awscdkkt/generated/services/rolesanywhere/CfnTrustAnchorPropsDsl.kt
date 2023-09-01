@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rolesanywhere.CfnTrustAnchorProps
 
 @Generated
-public fun buildCfnTrustAnchorProps(initializer: @AwsCdkDsl CfnTrustAnchorProps.Builder.() -> Unit):
-    CfnTrustAnchorProps = CfnTrustAnchorProps.Builder().apply(initializer).build()
+public fun buildCfnTrustAnchorProps(initializer: @AwsCdkDsl CfnTrustAnchorProps.Builder.() -> Unit =
+    {}): CfnTrustAnchorProps = CfnTrustAnchorProps.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.OAuthSettings
 
 @Generated
-public fun buildOAuthSettings(initializer: @AwsCdkDsl OAuthSettings.Builder.() -> Unit):
+public fun buildOAuthSettings(initializer: @AwsCdkDsl OAuthSettings.Builder.() -> Unit = {}):
     OAuthSettings = OAuthSettings.Builder().apply(initializer).build()

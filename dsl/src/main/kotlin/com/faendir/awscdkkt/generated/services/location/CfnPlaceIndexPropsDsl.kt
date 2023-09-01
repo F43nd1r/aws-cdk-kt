@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.location.CfnPlaceIndexProps
 
 @Generated
-public fun buildCfnPlaceIndexProps(initializer: @AwsCdkDsl CfnPlaceIndexProps.Builder.() -> Unit):
-    CfnPlaceIndexProps = CfnPlaceIndexProps.Builder().apply(initializer).build()
+public fun buildCfnPlaceIndexProps(initializer: @AwsCdkDsl CfnPlaceIndexProps.Builder.() -> Unit =
+    {}): CfnPlaceIndexProps = CfnPlaceIndexProps.Builder().apply(initializer).build()

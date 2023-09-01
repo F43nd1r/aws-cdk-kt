@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.cloudassembly.schema.VpcContextQuery
 
 @Generated
-public fun buildVpcContextQuery(initializer: @AwsCdkDsl VpcContextQuery.Builder.() -> Unit):
+public fun buildVpcContextQuery(initializer: @AwsCdkDsl VpcContextQuery.Builder.() -> Unit = {}):
     VpcContextQuery = VpcContextQuery.Builder().apply(initializer).build()

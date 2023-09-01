@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.events.CfnConnection
 
 @Generated
 public fun buildConnectionHttpParametersProperty(initializer: @AwsCdkDsl
-    CfnConnection.ConnectionHttpParametersProperty.Builder.() -> Unit):
+    CfnConnection.ConnectionHttpParametersProperty.Builder.() -> Unit = {}):
     CfnConnection.ConnectionHttpParametersProperty =
     CfnConnection.ConnectionHttpParametersProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cognito.CfnUserPool
 
 @Generated
 public fun buildNumberAttributeConstraintsProperty(initializer: @AwsCdkDsl
-    CfnUserPool.NumberAttributeConstraintsProperty.Builder.() -> Unit):
+    CfnUserPool.NumberAttributeConstraintsProperty.Builder.() -> Unit = {}):
     CfnUserPool.NumberAttributeConstraintsProperty =
     CfnUserPool.NumberAttributeConstraintsProperty.Builder().apply(initializer).build()

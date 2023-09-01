@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildTeletextDestinationSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.TeletextDestinationSettingsProperty.Builder.() -> Unit):
+    CfnChannel.TeletextDestinationSettingsProperty.Builder.() -> Unit = {}):
     CfnChannel.TeletextDestinationSettingsProperty =
     CfnChannel.TeletextDestinationSettingsProperty.Builder().apply(initializer).build()

@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.RepositoryImageProps
 
 @Generated
-public fun buildRepositoryImageProps(initializer: @AwsCdkDsl
-    RepositoryImageProps.Builder.() -> Unit): RepositoryImageProps =
-    RepositoryImageProps.Builder().apply(initializer).build()
+public fun buildRepositoryImageProps(initializer: @AwsCdkDsl RepositoryImageProps.Builder.() -> Unit
+    = {}): RepositoryImageProps = RepositoryImageProps.Builder().apply(initializer).build()

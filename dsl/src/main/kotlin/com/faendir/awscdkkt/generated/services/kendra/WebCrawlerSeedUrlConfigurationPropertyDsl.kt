@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kendra.CfnDataSource
 
 @Generated
 public fun buildWebCrawlerSeedUrlConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.WebCrawlerSeedUrlConfigurationProperty.Builder.() -> Unit):
+    CfnDataSource.WebCrawlerSeedUrlConfigurationProperty.Builder.() -> Unit = {}):
     CfnDataSource.WebCrawlerSeedUrlConfigurationProperty =
     CfnDataSource.WebCrawlerSeedUrlConfigurationProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
 public fun buildRedshiftDestinationPropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.RedshiftDestinationPropertiesProperty.Builder.() -> Unit):
+    CfnFlow.RedshiftDestinationPropertiesProperty.Builder.() -> Unit = {}):
     CfnFlow.RedshiftDestinationPropertiesProperty =
     CfnFlow.RedshiftDestinationPropertiesProperty.Builder().apply(initializer).build()

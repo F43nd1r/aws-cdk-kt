@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appmesh.VirtualRouterBaseProps
 
 @Generated
 public fun buildVirtualRouterBaseProps(initializer: @AwsCdkDsl
-    VirtualRouterBaseProps.Builder.() -> Unit): VirtualRouterBaseProps =
+    VirtualRouterBaseProps.Builder.() -> Unit = {}): VirtualRouterBaseProps =
     VirtualRouterBaseProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelPackage
 
 @Generated
 public fun buildModelDataQualityProperty(initializer: @AwsCdkDsl
-    CfnModelPackage.ModelDataQualityProperty.Builder.() -> Unit):
+    CfnModelPackage.ModelDataQualityProperty.Builder.() -> Unit = {}):
     CfnModelPackage.ModelDataQualityProperty =
     CfnModelPackage.ModelDataQualityProperty.Builder().apply(initializer).build()

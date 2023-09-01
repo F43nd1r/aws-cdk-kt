@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.appmesh.CfnVirtualNode
 
 @Generated
 public fun buildLoggingFormatProperty(initializer: @AwsCdkDsl
-    CfnVirtualNode.LoggingFormatProperty.Builder.() -> Unit): CfnVirtualNode.LoggingFormatProperty =
+    CfnVirtualNode.LoggingFormatProperty.Builder.() -> Unit = {}):
+    CfnVirtualNode.LoggingFormatProperty =
     CfnVirtualNode.LoggingFormatProperty.Builder().apply(initializer).build()

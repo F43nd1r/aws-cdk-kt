@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.opsworkscm.CfnServer
 
 @Generated
 public fun buildEngineAttributeProperty(initializer: @AwsCdkDsl
-    CfnServer.EngineAttributeProperty.Builder.() -> Unit): CfnServer.EngineAttributeProperty =
+    CfnServer.EngineAttributeProperty.Builder.() -> Unit = {}): CfnServer.EngineAttributeProperty =
     CfnServer.EngineAttributeProperty.Builder().apply(initializer).build()

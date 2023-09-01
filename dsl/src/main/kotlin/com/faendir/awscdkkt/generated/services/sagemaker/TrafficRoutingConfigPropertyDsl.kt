@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnEndpoint
 
 @Generated
 public fun buildTrafficRoutingConfigProperty(initializer: @AwsCdkDsl
-    CfnEndpoint.TrafficRoutingConfigProperty.Builder.() -> Unit):
+    CfnEndpoint.TrafficRoutingConfigProperty.Builder.() -> Unit = {}):
     CfnEndpoint.TrafficRoutingConfigProperty =
     CfnEndpoint.TrafficRoutingConfigProperty.Builder().apply(initializer).build()

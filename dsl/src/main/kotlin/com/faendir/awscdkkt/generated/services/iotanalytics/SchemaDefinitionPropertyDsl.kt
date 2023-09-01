@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.iotanalytics.CfnDatastore
 
 @Generated
 public fun buildSchemaDefinitionProperty(initializer: @AwsCdkDsl
-    CfnDatastore.SchemaDefinitionProperty.Builder.() -> Unit): CfnDatastore.SchemaDefinitionProperty
-    = CfnDatastore.SchemaDefinitionProperty.Builder().apply(initializer).build()
+    CfnDatastore.SchemaDefinitionProperty.Builder.() -> Unit = {}):
+    CfnDatastore.SchemaDefinitionProperty =
+    CfnDatastore.SchemaDefinitionProperty.Builder().apply(initializer).build()

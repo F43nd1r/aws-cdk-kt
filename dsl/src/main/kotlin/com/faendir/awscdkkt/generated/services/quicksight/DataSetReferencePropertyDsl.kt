@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildDataSetReferenceProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DataSetReferenceProperty.Builder.() -> Unit): CfnTemplate.DataSetReferenceProperty =
+    CfnTemplate.DataSetReferenceProperty.Builder.() -> Unit = {}):
+    CfnTemplate.DataSetReferenceProperty =
     CfnTemplate.DataSetReferenceProperty.Builder().apply(initializer).build()

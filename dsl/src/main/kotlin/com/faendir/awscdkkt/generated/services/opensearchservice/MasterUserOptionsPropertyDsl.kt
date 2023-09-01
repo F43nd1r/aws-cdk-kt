@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.opensearchservice.CfnDomain
 
 @Generated
 public fun buildMasterUserOptionsProperty(initializer: @AwsCdkDsl
-    CfnDomain.MasterUserOptionsProperty.Builder.() -> Unit): CfnDomain.MasterUserOptionsProperty =
+    CfnDomain.MasterUserOptionsProperty.Builder.() -> Unit = {}):
+    CfnDomain.MasterUserOptionsProperty =
     CfnDomain.MasterUserOptionsProperty.Builder().apply(initializer).build()

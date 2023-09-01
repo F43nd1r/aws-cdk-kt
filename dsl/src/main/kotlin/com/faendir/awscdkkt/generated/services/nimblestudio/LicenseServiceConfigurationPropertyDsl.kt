@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.nimblestudio.CfnStudioComponent
 
 @Generated
 public fun buildLicenseServiceConfigurationProperty(initializer: @AwsCdkDsl
-    CfnStudioComponent.LicenseServiceConfigurationProperty.Builder.() -> Unit):
+    CfnStudioComponent.LicenseServiceConfigurationProperty.Builder.() -> Unit = {}):
     CfnStudioComponent.LicenseServiceConfigurationProperty =
     CfnStudioComponent.LicenseServiceConfigurationProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.apigatewayv2.CfnIntegration
 
 @Generated
 public fun buildTlsConfigProperty(initializer: @AwsCdkDsl
-    CfnIntegration.TlsConfigProperty.Builder.() -> Unit): CfnIntegration.TlsConfigProperty =
+    CfnIntegration.TlsConfigProperty.Builder.() -> Unit = {}): CfnIntegration.TlsConfigProperty =
     CfnIntegration.TlsConfigProperty.Builder().apply(initializer).build()

@@ -9,16 +9,12 @@ import software.amazon.awscdk.services.cassandra.CfnTableProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnTable(id: String, props: CfnTableProps): CfnTable = CfnTable(this, id,
-    props)
-
-@Generated
 public fun Construct.cfnTable(
   id: String,
   props: CfnTableProps,
-  initializer: @AwsCdkDsl CfnTable.() -> Unit,
+  initializer: @AwsCdkDsl CfnTable.() -> Unit = {},
 ): CfnTable = CfnTable(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTable(id: String, initializer: @AwsCdkDsl CfnTable.Builder.() -> Unit):
-    CfnTable = CfnTable.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTable(id: String, initializer: @AwsCdkDsl CfnTable.Builder.() -> Unit =
+    {}): CfnTable = CfnTable.Builder.create(this, id).apply(initializer).build()

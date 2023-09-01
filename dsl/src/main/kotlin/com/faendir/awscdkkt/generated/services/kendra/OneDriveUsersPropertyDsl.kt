@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.kendra.CfnDataSource
 
 @Generated
 public fun buildOneDriveUsersProperty(initializer: @AwsCdkDsl
-    CfnDataSource.OneDriveUsersProperty.Builder.() -> Unit): CfnDataSource.OneDriveUsersProperty =
+    CfnDataSource.OneDriveUsersProperty.Builder.() -> Unit = {}):
+    CfnDataSource.OneDriveUsersProperty =
     CfnDataSource.OneDriveUsersProperty.Builder().apply(initializer).build()

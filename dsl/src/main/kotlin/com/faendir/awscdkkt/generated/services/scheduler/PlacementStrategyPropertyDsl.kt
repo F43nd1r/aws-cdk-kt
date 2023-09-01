@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.scheduler.CfnSchedule
 
 @Generated
 public fun buildPlacementStrategyProperty(initializer: @AwsCdkDsl
-    CfnSchedule.PlacementStrategyProperty.Builder.() -> Unit): CfnSchedule.PlacementStrategyProperty
-    = CfnSchedule.PlacementStrategyProperty.Builder().apply(initializer).build()
+    CfnSchedule.PlacementStrategyProperty.Builder.() -> Unit = {}):
+    CfnSchedule.PlacementStrategyProperty =
+    CfnSchedule.PlacementStrategyProperty.Builder().apply(initializer).build()

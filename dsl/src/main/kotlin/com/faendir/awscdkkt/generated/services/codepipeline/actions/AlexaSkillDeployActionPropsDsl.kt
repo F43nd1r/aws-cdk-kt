@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codepipeline.actions.AlexaSkillDeployActi
 
 @Generated
 public fun buildAlexaSkillDeployActionProps(initializer: @AwsCdkDsl
-    AlexaSkillDeployActionProps.Builder.() -> Unit): AlexaSkillDeployActionProps =
+    AlexaSkillDeployActionProps.Builder.() -> Unit = {}): AlexaSkillDeployActionProps =
     AlexaSkillDeployActionProps.Builder().apply(initializer).build()

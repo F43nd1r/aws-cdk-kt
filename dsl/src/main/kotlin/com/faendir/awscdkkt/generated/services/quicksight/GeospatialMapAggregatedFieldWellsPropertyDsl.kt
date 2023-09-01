@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildGeospatialMapAggregatedFieldWellsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.GeospatialMapAggregatedFieldWellsProperty.Builder.() -> Unit):
+    CfnTemplate.GeospatialMapAggregatedFieldWellsProperty.Builder.() -> Unit = {}):
     CfnTemplate.GeospatialMapAggregatedFieldWellsProperty =
     CfnTemplate.GeospatialMapAggregatedFieldWellsProperty.Builder().apply(initializer).build()

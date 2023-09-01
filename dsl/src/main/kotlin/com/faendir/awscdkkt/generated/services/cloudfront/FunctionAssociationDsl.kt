@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.FunctionAssociation
 
 @Generated
-public fun buildFunctionAssociation(initializer: @AwsCdkDsl FunctionAssociation.Builder.() -> Unit):
-    FunctionAssociation = FunctionAssociation.Builder().apply(initializer).build()
+public fun buildFunctionAssociation(initializer: @AwsCdkDsl FunctionAssociation.Builder.() -> Unit =
+    {}): FunctionAssociation = FunctionAssociation.Builder().apply(initializer).build()

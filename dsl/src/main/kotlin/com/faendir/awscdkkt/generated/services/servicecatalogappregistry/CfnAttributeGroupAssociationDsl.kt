@@ -9,18 +9,13 @@ import software.amazon.awscdk.services.servicecatalogappregistry.CfnAttributeGro
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnAttributeGroupAssociation(id: String,
-    props: CfnAttributeGroupAssociationProps): CfnAttributeGroupAssociation =
-    CfnAttributeGroupAssociation(this, id, props)
-
-@Generated
 public fun Construct.cfnAttributeGroupAssociation(
   id: String,
   props: CfnAttributeGroupAssociationProps,
-  initializer: @AwsCdkDsl CfnAttributeGroupAssociation.() -> Unit,
+  initializer: @AwsCdkDsl CfnAttributeGroupAssociation.() -> Unit = {},
 ): CfnAttributeGroupAssociation = CfnAttributeGroupAssociation(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnAttributeGroupAssociation(id: String, initializer: @AwsCdkDsl
-    CfnAttributeGroupAssociation.Builder.() -> Unit): CfnAttributeGroupAssociation =
+    CfnAttributeGroupAssociation.Builder.() -> Unit = {}): CfnAttributeGroupAssociation =
     CfnAttributeGroupAssociation.Builder.create(this, id).apply(initializer).build()

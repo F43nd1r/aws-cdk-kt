@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.rds.CfnDBProxyProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDBProxy(id: String, props: CfnDBProxyProps): CfnDBProxy = CfnDBProxy(this,
-    id, props)
-
-@Generated
 public fun Construct.cfnDBProxy(
   id: String,
   props: CfnDBProxyProps,
-  initializer: @AwsCdkDsl CfnDBProxy.() -> Unit,
+  initializer: @AwsCdkDsl CfnDBProxy.() -> Unit = {},
 ): CfnDBProxy = CfnDBProxy(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnDBProxy(id: String, initializer: @AwsCdkDsl
-    CfnDBProxy.Builder.() -> Unit): CfnDBProxy = CfnDBProxy.Builder.create(this,
+    CfnDBProxy.Builder.() -> Unit = {}): CfnDBProxy = CfnDBProxy.Builder.create(this,
     id).apply(initializer).build()

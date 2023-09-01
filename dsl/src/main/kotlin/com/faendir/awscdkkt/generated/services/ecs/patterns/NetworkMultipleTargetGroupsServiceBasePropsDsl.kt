@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.patterns.NetworkMultipleTargetGroupsS
 
 @Generated
 public fun buildNetworkMultipleTargetGroupsServiceBaseProps(initializer: @AwsCdkDsl
-    NetworkMultipleTargetGroupsServiceBaseProps.Builder.() -> Unit):
+    NetworkMultipleTargetGroupsServiceBaseProps.Builder.() -> Unit = {}):
     NetworkMultipleTargetGroupsServiceBaseProps =
     NetworkMultipleTargetGroupsServiceBaseProps.Builder().apply(initializer).build()

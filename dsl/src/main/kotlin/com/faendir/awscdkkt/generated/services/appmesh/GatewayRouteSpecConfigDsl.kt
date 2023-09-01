@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appmesh.GatewayRouteSpecConfig
 
 @Generated
 public fun buildGatewayRouteSpecConfig(initializer: @AwsCdkDsl
-    GatewayRouteSpecConfig.Builder.() -> Unit): GatewayRouteSpecConfig =
+    GatewayRouteSpecConfig.Builder.() -> Unit = {}): GatewayRouteSpecConfig =
     GatewayRouteSpecConfig.Builder().apply(initializer).build()

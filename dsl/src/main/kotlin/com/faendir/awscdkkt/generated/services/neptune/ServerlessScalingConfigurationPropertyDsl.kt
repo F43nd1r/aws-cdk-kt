@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.neptune.CfnDBCluster
 
 @Generated
 public fun buildServerlessScalingConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDBCluster.ServerlessScalingConfigurationProperty.Builder.() -> Unit):
+    CfnDBCluster.ServerlessScalingConfigurationProperty.Builder.() -> Unit = {}):
     CfnDBCluster.ServerlessScalingConfigurationProperty =
     CfnDBCluster.ServerlessScalingConfigurationProperty.Builder().apply(initializer).build()

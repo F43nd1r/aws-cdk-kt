@@ -9,15 +9,12 @@ import software.amazon.awscdk.services.lex.CfnBotProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnBot(id: String, props: CfnBotProps): CfnBot = CfnBot(this, id, props)
-
-@Generated
 public fun Construct.cfnBot(
   id: String,
   props: CfnBotProps,
-  initializer: @AwsCdkDsl CfnBot.() -> Unit,
+  initializer: @AwsCdkDsl CfnBot.() -> Unit = {},
 ): CfnBot = CfnBot(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnBot(id: String, initializer: @AwsCdkDsl CfnBot.Builder.() -> Unit):
-    CfnBot = CfnBot.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnBot(id: String, initializer: @AwsCdkDsl CfnBot.Builder.() -> Unit =
+    {}): CfnBot = CfnBot.Builder.create(this, id).apply(initializer).build()

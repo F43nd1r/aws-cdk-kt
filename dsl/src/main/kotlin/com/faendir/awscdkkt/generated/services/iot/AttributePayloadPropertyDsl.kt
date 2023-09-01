@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iot.CfnThingGroup
 
 @Generated
 public fun buildAttributePayloadProperty(initializer: @AwsCdkDsl
-    CfnThingGroup.AttributePayloadProperty.Builder.() -> Unit):
+    CfnThingGroup.AttributePayloadProperty.Builder.() -> Unit = {}):
     CfnThingGroup.AttributePayloadProperty =
     CfnThingGroup.AttributePayloadProperty.Builder().apply(initializer).build()

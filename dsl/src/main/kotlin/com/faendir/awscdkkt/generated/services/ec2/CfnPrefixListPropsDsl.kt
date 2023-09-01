@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnPrefixListProps
 
 @Generated
-public fun buildCfnPrefixListProps(initializer: @AwsCdkDsl CfnPrefixListProps.Builder.() -> Unit):
-    CfnPrefixListProps = CfnPrefixListProps.Builder().apply(initializer).build()
+public fun buildCfnPrefixListProps(initializer: @AwsCdkDsl CfnPrefixListProps.Builder.() -> Unit =
+    {}): CfnPrefixListProps = CfnPrefixListProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildNegativeValueConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.NegativeValueConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.NegativeValueConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.NegativeValueConfigurationProperty =
     CfnTemplate.NegativeValueConfigurationProperty.Builder().apply(initializer).build()

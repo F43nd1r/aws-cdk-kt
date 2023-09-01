@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.globalaccelerator.AcceleratorAttributes
 
 @Generated
 public fun buildAcceleratorAttributes(initializer: @AwsCdkDsl
-    AcceleratorAttributes.Builder.() -> Unit): AcceleratorAttributes =
+    AcceleratorAttributes.Builder.() -> Unit = {}): AcceleratorAttributes =
     AcceleratorAttributes.Builder().apply(initializer).build()

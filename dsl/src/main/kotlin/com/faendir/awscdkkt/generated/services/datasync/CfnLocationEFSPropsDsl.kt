@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datasync.CfnLocationEFSProps
 
 @Generated
-public fun buildCfnLocationEFSProps(initializer: @AwsCdkDsl CfnLocationEFSProps.Builder.() -> Unit):
-    CfnLocationEFSProps = CfnLocationEFSProps.Builder().apply(initializer).build()
+public fun buildCfnLocationEFSProps(initializer: @AwsCdkDsl CfnLocationEFSProps.Builder.() -> Unit =
+    {}): CfnLocationEFSProps = CfnLocationEFSProps.Builder().apply(initializer).build()

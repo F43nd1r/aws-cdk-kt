@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.events.CfnRule
 
 @Generated
 public fun buildRunCommandParametersProperty(initializer: @AwsCdkDsl
-    CfnRule.RunCommandParametersProperty.Builder.() -> Unit): CfnRule.RunCommandParametersProperty =
+    CfnRule.RunCommandParametersProperty.Builder.() -> Unit = {}):
+    CfnRule.RunCommandParametersProperty =
     CfnRule.RunCommandParametersProperty.Builder().apply(initializer).build()

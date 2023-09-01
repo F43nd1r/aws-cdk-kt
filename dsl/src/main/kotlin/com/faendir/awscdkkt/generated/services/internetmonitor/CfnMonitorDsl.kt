@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.internetmonitor.CfnMonitorProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnMonitor(id: String, props: CfnMonitorProps): CfnMonitor = CfnMonitor(this,
-    id, props)
-
-@Generated
 public fun Construct.cfnMonitor(
   id: String,
   props: CfnMonitorProps,
-  initializer: @AwsCdkDsl CfnMonitor.() -> Unit,
+  initializer: @AwsCdkDsl CfnMonitor.() -> Unit = {},
 ): CfnMonitor = CfnMonitor(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnMonitor(id: String, initializer: @AwsCdkDsl
-    CfnMonitor.Builder.() -> Unit): CfnMonitor = CfnMonitor.Builder.create(this,
+    CfnMonitor.Builder.() -> Unit = {}): CfnMonitor = CfnMonitor.Builder.create(this,
     id).apply(initializer).build()

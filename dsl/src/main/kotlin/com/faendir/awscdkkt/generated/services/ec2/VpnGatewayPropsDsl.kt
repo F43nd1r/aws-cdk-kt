@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.VpnGatewayProps
 
 @Generated
-public fun buildVpnGatewayProps(initializer: @AwsCdkDsl VpnGatewayProps.Builder.() -> Unit):
+public fun buildVpnGatewayProps(initializer: @AwsCdkDsl VpnGatewayProps.Builder.() -> Unit = {}):
     VpnGatewayProps = VpnGatewayProps.Builder().apply(initializer).build()

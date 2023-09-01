@@ -9,22 +9,16 @@ import software.amazon.awscdk.services.stepfunctions.ChoiceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.choice(id: String): Choice = Choice(this, id)
-
-@Generated
-public fun Construct.choice(id: String, initializer: @AwsCdkDsl Choice.() -> Unit): Choice =
+public fun Construct.choice(id: String, initializer: @AwsCdkDsl Choice.() -> Unit = {}): Choice =
     Choice(this, id).apply(initializer)
-
-@Generated
-public fun Construct.choice(id: String, props: ChoiceProps): Choice = Choice(this, id, props)
 
 @Generated
 public fun Construct.choice(
   id: String,
   props: ChoiceProps,
-  initializer: @AwsCdkDsl Choice.() -> Unit,
+  initializer: @AwsCdkDsl Choice.() -> Unit = {},
 ): Choice = Choice(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildChoice(id: String, initializer: @AwsCdkDsl Choice.Builder.() -> Unit):
-    Choice = Choice.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildChoice(id: String, initializer: @AwsCdkDsl Choice.Builder.() -> Unit =
+    {}): Choice = Choice.Builder.create(this, id).apply(initializer).build()

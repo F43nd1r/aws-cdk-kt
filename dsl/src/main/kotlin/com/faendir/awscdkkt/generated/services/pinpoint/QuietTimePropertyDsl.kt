@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.pinpoint.CfnCampaign
 
 @Generated
 public fun buildQuietTimeProperty(initializer: @AwsCdkDsl
-    CfnCampaign.QuietTimeProperty.Builder.() -> Unit): CfnCampaign.QuietTimeProperty =
+    CfnCampaign.QuietTimeProperty.Builder.() -> Unit = {}): CfnCampaign.QuietTimeProperty =
     CfnCampaign.QuietTimeProperty.Builder().apply(initializer).build()

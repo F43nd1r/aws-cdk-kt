@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildPieChartVisualProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PieChartVisualProperty.Builder.() -> Unit): CfnTemplate.PieChartVisualProperty =
-    CfnTemplate.PieChartVisualProperty.Builder().apply(initializer).build()
+    CfnTemplate.PieChartVisualProperty.Builder.() -> Unit = {}): CfnTemplate.PieChartVisualProperty
+    = CfnTemplate.PieChartVisualProperty.Builder().apply(initializer).build()

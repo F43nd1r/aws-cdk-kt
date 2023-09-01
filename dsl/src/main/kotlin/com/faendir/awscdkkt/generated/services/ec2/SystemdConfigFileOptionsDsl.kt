@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.SystemdConfigFileOptions
 
 @Generated
 public fun buildSystemdConfigFileOptions(initializer: @AwsCdkDsl
-    SystemdConfigFileOptions.Builder.() -> Unit): SystemdConfigFileOptions =
+    SystemdConfigFileOptions.Builder.() -> Unit = {}): SystemdConfigFileOptions =
     SystemdConfigFileOptions.Builder().apply(initializer).build()

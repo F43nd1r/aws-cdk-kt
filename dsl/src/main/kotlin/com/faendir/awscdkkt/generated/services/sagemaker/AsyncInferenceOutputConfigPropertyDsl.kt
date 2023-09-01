@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnEndpointConfig
 
 @Generated
 public fun buildAsyncInferenceOutputConfigProperty(initializer: @AwsCdkDsl
-    CfnEndpointConfig.AsyncInferenceOutputConfigProperty.Builder.() -> Unit):
+    CfnEndpointConfig.AsyncInferenceOutputConfigProperty.Builder.() -> Unit = {}):
     CfnEndpointConfig.AsyncInferenceOutputConfigProperty =
     CfnEndpointConfig.AsyncInferenceOutputConfigProperty.Builder().apply(initializer).build()

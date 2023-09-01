@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.databrew.CfnRuleset
 
 @Generated
 public fun buildThresholdProperty(initializer: @AwsCdkDsl
-    CfnRuleset.ThresholdProperty.Builder.() -> Unit): CfnRuleset.ThresholdProperty =
+    CfnRuleset.ThresholdProperty.Builder.() -> Unit = {}): CfnRuleset.ThresholdProperty =
     CfnRuleset.ThresholdProperty.Builder().apply(initializer).build()

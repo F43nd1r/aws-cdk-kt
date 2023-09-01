@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cloudtrail.AddEventSelectorOptions
 
 @Generated
 public fun buildAddEventSelectorOptions(initializer: @AwsCdkDsl
-    AddEventSelectorOptions.Builder.() -> Unit): AddEventSelectorOptions =
+    AddEventSelectorOptions.Builder.() -> Unit = {}): AddEventSelectorOptions =
     AddEventSelectorOptions.Builder().apply(initializer).build()

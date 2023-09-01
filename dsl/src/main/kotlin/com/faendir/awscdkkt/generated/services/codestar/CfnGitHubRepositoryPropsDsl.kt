@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codestar.CfnGitHubRepositoryProps
 
 @Generated
 public fun buildCfnGitHubRepositoryProps(initializer: @AwsCdkDsl
-    CfnGitHubRepositoryProps.Builder.() -> Unit): CfnGitHubRepositoryProps =
+    CfnGitHubRepositoryProps.Builder.() -> Unit = {}): CfnGitHubRepositoryProps =
     CfnGitHubRepositoryProps.Builder().apply(initializer).build()

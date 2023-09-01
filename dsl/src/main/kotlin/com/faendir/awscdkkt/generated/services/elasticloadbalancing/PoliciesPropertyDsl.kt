@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticloadbalancing.CfnLoadBalancer
 
 @Generated
 public fun buildPoliciesProperty(initializer: @AwsCdkDsl
-    CfnLoadBalancer.PoliciesProperty.Builder.() -> Unit): CfnLoadBalancer.PoliciesProperty =
+    CfnLoadBalancer.PoliciesProperty.Builder.() -> Unit = {}): CfnLoadBalancer.PoliciesProperty =
     CfnLoadBalancer.PoliciesProperty.Builder().apply(initializer).build()

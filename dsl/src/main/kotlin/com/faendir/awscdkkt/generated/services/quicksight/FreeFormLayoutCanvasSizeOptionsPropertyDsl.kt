@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildFreeFormLayoutCanvasSizeOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.FreeFormLayoutCanvasSizeOptionsProperty.Builder.() -> Unit):
+    CfnTemplate.FreeFormLayoutCanvasSizeOptionsProperty.Builder.() -> Unit = {}):
     CfnTemplate.FreeFormLayoutCanvasSizeOptionsProperty =
     CfnTemplate.FreeFormLayoutCanvasSizeOptionsProperty.Builder().apply(initializer).build()

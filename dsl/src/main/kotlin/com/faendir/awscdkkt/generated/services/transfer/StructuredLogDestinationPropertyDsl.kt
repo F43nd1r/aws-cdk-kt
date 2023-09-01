@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.transfer.CfnServer
 
 @Generated
 public fun buildStructuredLogDestinationProperty(initializer: @AwsCdkDsl
-    CfnServer.StructuredLogDestinationProperty.Builder.() -> Unit):
+    CfnServer.StructuredLogDestinationProperty.Builder.() -> Unit = {}):
     CfnServer.StructuredLogDestinationProperty =
     CfnServer.StructuredLogDestinationProperty.Builder().apply(initializer).build()

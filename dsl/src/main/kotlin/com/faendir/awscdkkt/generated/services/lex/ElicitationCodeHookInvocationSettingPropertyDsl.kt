@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
 public fun buildElicitationCodeHookInvocationSettingProperty(initializer: @AwsCdkDsl
-    CfnBot.ElicitationCodeHookInvocationSettingProperty.Builder.() -> Unit):
+    CfnBot.ElicitationCodeHookInvocationSettingProperty.Builder.() -> Unit = {}):
     CfnBot.ElicitationCodeHookInvocationSettingProperty =
     CfnBot.ElicitationCodeHookInvocationSettingProperty.Builder().apply(initializer).build()

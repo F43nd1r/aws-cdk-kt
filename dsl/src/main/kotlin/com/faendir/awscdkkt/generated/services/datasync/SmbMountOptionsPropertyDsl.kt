@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.datasync.CfnLocationFSxONTAP
 
 @Generated
 public fun buildSmbMountOptionsProperty(initializer: @AwsCdkDsl
-    CfnLocationFSxONTAP.SmbMountOptionsProperty.Builder.() -> Unit):
+    CfnLocationFSxONTAP.SmbMountOptionsProperty.Builder.() -> Unit = {}):
     CfnLocationFSxONTAP.SmbMountOptionsProperty =
     CfnLocationFSxONTAP.SmbMountOptionsProperty.Builder().apply(initializer).build()

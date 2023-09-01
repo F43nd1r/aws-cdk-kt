@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.pinpointemail.CfnConfigurationSetEventDes
 
 @Generated
 public fun buildKinesisFirehoseDestinationProperty(initializer: @AwsCdkDsl
-    CfnConfigurationSetEventDestination.KinesisFirehoseDestinationProperty.Builder.() -> Unit):
+    CfnConfigurationSetEventDestination.KinesisFirehoseDestinationProperty.Builder.() -> Unit = {}):
     CfnConfigurationSetEventDestination.KinesisFirehoseDestinationProperty =
     CfnConfigurationSetEventDestination.KinesisFirehoseDestinationProperty.Builder().apply(initializer).build()

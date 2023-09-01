@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.quicksight.CfnTopic
 
 @Generated
 public fun buildTopicColumnProperty(initializer: @AwsCdkDsl
-    CfnTopic.TopicColumnProperty.Builder.() -> Unit): CfnTopic.TopicColumnProperty =
+    CfnTopic.TopicColumnProperty.Builder.() -> Unit = {}): CfnTopic.TopicColumnProperty =
     CfnTopic.TopicColumnProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.GrpcRetryPolicy
 
 @Generated
-public fun buildGrpcRetryPolicy(initializer: @AwsCdkDsl GrpcRetryPolicy.Builder.() -> Unit):
+public fun buildGrpcRetryPolicy(initializer: @AwsCdkDsl GrpcRetryPolicy.Builder.() -> Unit = {}):
     GrpcRetryPolicy = GrpcRetryPolicy.Builder().apply(initializer).build()

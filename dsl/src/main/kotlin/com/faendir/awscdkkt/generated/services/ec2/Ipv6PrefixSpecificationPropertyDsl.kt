@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnNetworkInterface
 
 @Generated
 public fun buildIpv6PrefixSpecificationProperty(initializer: @AwsCdkDsl
-    CfnNetworkInterface.Ipv6PrefixSpecificationProperty.Builder.() -> Unit):
+    CfnNetworkInterface.Ipv6PrefixSpecificationProperty.Builder.() -> Unit = {}):
     CfnNetworkInterface.Ipv6PrefixSpecificationProperty =
     CfnNetworkInterface.Ipv6PrefixSpecificationProperty.Builder().apply(initializer).build()

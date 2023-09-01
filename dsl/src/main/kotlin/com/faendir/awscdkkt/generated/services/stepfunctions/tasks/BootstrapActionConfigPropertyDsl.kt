@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EmrCreateCluster
 
 @Generated
 public fun buildBootstrapActionConfigProperty(initializer: @AwsCdkDsl
-    EmrCreateCluster.BootstrapActionConfigProperty.Builder.() -> Unit):
+    EmrCreateCluster.BootstrapActionConfigProperty.Builder.() -> Unit = {}):
     EmrCreateCluster.BootstrapActionConfigProperty =
     EmrCreateCluster.BootstrapActionConfigProperty.Builder().apply(initializer).build()

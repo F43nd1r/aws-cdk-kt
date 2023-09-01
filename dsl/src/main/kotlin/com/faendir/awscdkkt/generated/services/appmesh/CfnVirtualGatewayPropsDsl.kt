@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appmesh.CfnVirtualGatewayProps
 
 @Generated
 public fun buildCfnVirtualGatewayProps(initializer: @AwsCdkDsl
-    CfnVirtualGatewayProps.Builder.() -> Unit): CfnVirtualGatewayProps =
+    CfnVirtualGatewayProps.Builder.() -> Unit = {}): CfnVirtualGatewayProps =
     CfnVirtualGatewayProps.Builder().apply(initializer).build()

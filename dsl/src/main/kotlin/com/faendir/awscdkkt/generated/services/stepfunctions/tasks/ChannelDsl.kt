@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.Channel
 
 @Generated
-public fun buildChannel(initializer: @AwsCdkDsl Channel.Builder.() -> Unit): Channel =
+public fun buildChannel(initializer: @AwsCdkDsl Channel.Builder.() -> Unit = {}): Channel =
     Channel.Builder().apply(initializer).build()

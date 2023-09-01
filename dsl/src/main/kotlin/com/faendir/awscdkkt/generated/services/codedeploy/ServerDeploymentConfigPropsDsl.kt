@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codedeploy.ServerDeploymentConfigProps
 
 @Generated
 public fun buildServerDeploymentConfigProps(initializer: @AwsCdkDsl
-    ServerDeploymentConfigProps.Builder.() -> Unit): ServerDeploymentConfigProps =
+    ServerDeploymentConfigProps.Builder.() -> Unit = {}): ServerDeploymentConfigProps =
     ServerDeploymentConfigProps.Builder().apply(initializer).build()

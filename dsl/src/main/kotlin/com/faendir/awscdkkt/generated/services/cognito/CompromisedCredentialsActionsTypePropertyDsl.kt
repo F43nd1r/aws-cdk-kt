@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cognito.CfnUserPoolRiskConfigurationAttac
 
 @Generated
 public fun buildCompromisedCredentialsActionsTypeProperty(initializer: @AwsCdkDsl
-    CfnUserPoolRiskConfigurationAttachment.CompromisedCredentialsActionsTypeProperty.Builder.() -> Unit):
-    CfnUserPoolRiskConfigurationAttachment.CompromisedCredentialsActionsTypeProperty =
+    CfnUserPoolRiskConfigurationAttachment.CompromisedCredentialsActionsTypeProperty.Builder.() -> Unit
+    = {}): CfnUserPoolRiskConfigurationAttachment.CompromisedCredentialsActionsTypeProperty =
     CfnUserPoolRiskConfigurationAttachment.CompromisedCredentialsActionsTypeProperty.Builder().apply(initializer).build()

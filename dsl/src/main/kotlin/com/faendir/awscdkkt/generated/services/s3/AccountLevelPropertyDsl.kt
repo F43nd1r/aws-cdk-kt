@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.s3.CfnStorageLens
 
 @Generated
 public fun buildAccountLevelProperty(initializer: @AwsCdkDsl
-    CfnStorageLens.AccountLevelProperty.Builder.() -> Unit): CfnStorageLens.AccountLevelProperty =
+    CfnStorageLens.AccountLevelProperty.Builder.() -> Unit = {}):
+    CfnStorageLens.AccountLevelProperty =
     CfnStorageLens.AccountLevelProperty.Builder().apply(initializer).build()

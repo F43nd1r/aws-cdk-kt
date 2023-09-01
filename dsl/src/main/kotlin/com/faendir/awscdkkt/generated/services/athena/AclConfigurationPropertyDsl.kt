@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.athena.CfnWorkGroup
 
 @Generated
 public fun buildAclConfigurationProperty(initializer: @AwsCdkDsl
-    CfnWorkGroup.AclConfigurationProperty.Builder.() -> Unit): CfnWorkGroup.AclConfigurationProperty
-    = CfnWorkGroup.AclConfigurationProperty.Builder().apply(initializer).build()
+    CfnWorkGroup.AclConfigurationProperty.Builder.() -> Unit = {}):
+    CfnWorkGroup.AclConfigurationProperty =
+    CfnWorkGroup.AclConfigurationProperty.Builder().apply(initializer).build()

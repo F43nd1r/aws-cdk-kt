@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.devopsguru.CfnLogAnomalyDetectionIntegrat
 
 @Generated
 public fun buildCfnLogAnomalyDetectionIntegrationProps(initializer: @AwsCdkDsl
-    CfnLogAnomalyDetectionIntegrationProps.Builder.() -> Unit):
+    CfnLogAnomalyDetectionIntegrationProps.Builder.() -> Unit = {}):
     CfnLogAnomalyDetectionIntegrationProps =
     CfnLogAnomalyDetectionIntegrationProps.Builder().apply(initializer).build()

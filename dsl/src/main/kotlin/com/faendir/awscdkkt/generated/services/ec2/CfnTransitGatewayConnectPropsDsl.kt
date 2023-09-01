@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.CfnTransitGatewayConnectProps
 
 @Generated
 public fun buildCfnTransitGatewayConnectProps(initializer: @AwsCdkDsl
-    CfnTransitGatewayConnectProps.Builder.() -> Unit): CfnTransitGatewayConnectProps =
+    CfnTransitGatewayConnectProps.Builder.() -> Unit = {}): CfnTransitGatewayConnectProps =
     CfnTransitGatewayConnectProps.Builder().apply(initializer).build()

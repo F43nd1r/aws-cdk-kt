@@ -9,22 +9,16 @@ import software.amazon.awscdk.services.sns.TopicProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.topic(id: String): Topic = Topic(this, id)
-
-@Generated
-public fun Construct.topic(id: String, initializer: @AwsCdkDsl Topic.() -> Unit): Topic =
+public fun Construct.topic(id: String, initializer: @AwsCdkDsl Topic.() -> Unit = {}): Topic =
     Topic(this, id).apply(initializer)
-
-@Generated
-public fun Construct.topic(id: String, props: TopicProps): Topic = Topic(this, id, props)
 
 @Generated
 public fun Construct.topic(
   id: String,
   props: TopicProps,
-  initializer: @AwsCdkDsl Topic.() -> Unit,
+  initializer: @AwsCdkDsl Topic.() -> Unit = {},
 ): Topic = Topic(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildTopic(id: String, initializer: @AwsCdkDsl Topic.Builder.() -> Unit): Topic
-    = Topic.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildTopic(id: String, initializer: @AwsCdkDsl Topic.Builder.() -> Unit = {}):
+    Topic = Topic.Builder.create(this, id).apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
 public fun buildBucketEncryptionProperty(initializer: @AwsCdkDsl
-    CfnBucket.BucketEncryptionProperty.Builder.() -> Unit): CfnBucket.BucketEncryptionProperty =
-    CfnBucket.BucketEncryptionProperty.Builder().apply(initializer).build()
+    CfnBucket.BucketEncryptionProperty.Builder.() -> Unit = {}): CfnBucket.BucketEncryptionProperty
+    = CfnBucket.BucketEncryptionProperty.Builder().apply(initializer).build()

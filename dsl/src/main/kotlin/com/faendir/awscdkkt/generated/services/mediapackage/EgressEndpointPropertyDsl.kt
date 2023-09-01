@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.mediapackage.CfnAsset
 
 @Generated
 public fun buildEgressEndpointProperty(initializer: @AwsCdkDsl
-    CfnAsset.EgressEndpointProperty.Builder.() -> Unit): CfnAsset.EgressEndpointProperty =
+    CfnAsset.EgressEndpointProperty.Builder.() -> Unit = {}): CfnAsset.EgressEndpointProperty =
     CfnAsset.EgressEndpointProperty.Builder().apply(initializer).build()

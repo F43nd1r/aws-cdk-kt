@@ -8,5 +8,5 @@ import software.amazon.awscdk.services.sqs.IQueue
 
 @Generated
 public fun buildSqsEventSource(queue: IQueue, initializer: @AwsCdkDsl
-    SqsEventSource.Builder.() -> Unit): SqsEventSource =
+    SqsEventSource.Builder.() -> Unit = {}): SqsEventSource =
     SqsEventSource.Builder.create(queue).apply(initializer).build()

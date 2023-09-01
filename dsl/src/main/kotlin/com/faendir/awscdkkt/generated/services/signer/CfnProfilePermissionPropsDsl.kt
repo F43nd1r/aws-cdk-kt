@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.signer.CfnProfilePermissionProps
 
 @Generated
 public fun buildCfnProfilePermissionProps(initializer: @AwsCdkDsl
-    CfnProfilePermissionProps.Builder.() -> Unit): CfnProfilePermissionProps =
+    CfnProfilePermissionProps.Builder.() -> Unit = {}): CfnProfilePermissionProps =
     CfnProfilePermissionProps.Builder().apply(initializer).build()

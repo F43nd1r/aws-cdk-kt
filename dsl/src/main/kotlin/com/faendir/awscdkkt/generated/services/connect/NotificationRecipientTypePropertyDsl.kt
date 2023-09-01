@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.connect.CfnRule
 
 @Generated
 public fun buildNotificationRecipientTypeProperty(initializer: @AwsCdkDsl
-    CfnRule.NotificationRecipientTypeProperty.Builder.() -> Unit):
+    CfnRule.NotificationRecipientTypeProperty.Builder.() -> Unit = {}):
     CfnRule.NotificationRecipientTypeProperty =
     CfnRule.NotificationRecipientTypeProperty.Builder().apply(initializer).build()

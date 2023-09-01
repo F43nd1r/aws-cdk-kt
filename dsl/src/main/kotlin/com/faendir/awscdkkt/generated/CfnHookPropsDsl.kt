@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.CfnHookProps
 
 @Generated
-public fun buildCfnHookProps(initializer: @AwsCdkDsl CfnHookProps.Builder.() -> Unit): CfnHookProps
-    = CfnHookProps.Builder().apply(initializer).build()
+public fun buildCfnHookProps(initializer: @AwsCdkDsl CfnHookProps.Builder.() -> Unit = {}):
+    CfnHookProps = CfnHookProps.Builder().apply(initializer).build()

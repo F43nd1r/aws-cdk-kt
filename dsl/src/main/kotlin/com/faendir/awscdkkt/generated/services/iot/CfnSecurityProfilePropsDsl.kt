@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iot.CfnSecurityProfileProps
 
 @Generated
 public fun buildCfnSecurityProfileProps(initializer: @AwsCdkDsl
-    CfnSecurityProfileProps.Builder.() -> Unit): CfnSecurityProfileProps =
+    CfnSecurityProfileProps.Builder.() -> Unit = {}): CfnSecurityProfileProps =
     CfnSecurityProfileProps.Builder().apply(initializer).build()

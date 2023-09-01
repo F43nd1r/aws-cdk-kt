@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.opensearchserverless.CfnSecurityConfig
 
 @Generated
 public fun buildSamlConfigOptionsProperty(initializer: @AwsCdkDsl
-    CfnSecurityConfig.SamlConfigOptionsProperty.Builder.() -> Unit):
+    CfnSecurityConfig.SamlConfigOptionsProperty.Builder.() -> Unit = {}):
     CfnSecurityConfig.SamlConfigOptionsProperty =
     CfnSecurityConfig.SamlConfigOptionsProperty.Builder().apply(initializer).build()

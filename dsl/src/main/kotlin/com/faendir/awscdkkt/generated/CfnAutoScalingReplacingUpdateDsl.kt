@@ -7,5 +7,5 @@ import software.amazon.awscdk.CfnAutoScalingReplacingUpdate
 
 @Generated
 public fun buildCfnAutoScalingReplacingUpdate(initializer: @AwsCdkDsl
-    CfnAutoScalingReplacingUpdate.Builder.() -> Unit): CfnAutoScalingReplacingUpdate =
+    CfnAutoScalingReplacingUpdate.Builder.() -> Unit = {}): CfnAutoScalingReplacingUpdate =
     CfnAutoScalingReplacingUpdate.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.servicecatalogappregistry.CfnResourceAsso
 
 @Generated
 public fun buildCfnResourceAssociationProps(initializer: @AwsCdkDsl
-    CfnResourceAssociationProps.Builder.() -> Unit): CfnResourceAssociationProps =
+    CfnResourceAssociationProps.Builder.() -> Unit = {}): CfnResourceAssociationProps =
     CfnResourceAssociationProps.Builder().apply(initializer).build()

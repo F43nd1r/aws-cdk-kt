@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.events.targets.CodePipelineTargetOptions
 
 @Generated
 public fun buildCodePipelineTargetOptions(initializer: @AwsCdkDsl
-    CodePipelineTargetOptions.Builder.() -> Unit): CodePipelineTargetOptions =
+    CodePipelineTargetOptions.Builder.() -> Unit = {}): CodePipelineTargetOptions =
     CodePipelineTargetOptions.Builder().apply(initializer).build()

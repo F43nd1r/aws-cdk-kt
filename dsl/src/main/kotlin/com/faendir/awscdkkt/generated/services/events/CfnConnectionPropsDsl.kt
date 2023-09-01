@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.CfnConnectionProps
 
 @Generated
-public fun buildCfnConnectionProps(initializer: @AwsCdkDsl CfnConnectionProps.Builder.() -> Unit):
-    CfnConnectionProps = CfnConnectionProps.Builder().apply(initializer).build()
+public fun buildCfnConnectionProps(initializer: @AwsCdkDsl CfnConnectionProps.Builder.() -> Unit =
+    {}): CfnConnectionProps = CfnConnectionProps.Builder().apply(initializer).build()

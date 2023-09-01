@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.secretsmanager.SecretAttributes
 
 @Generated
-public fun buildSecretAttributes(initializer: @AwsCdkDsl SecretAttributes.Builder.() -> Unit):
+public fun buildSecretAttributes(initializer: @AwsCdkDsl SecretAttributes.Builder.() -> Unit = {}):
     SecretAttributes = SecretAttributes.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildUdpOutputSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.UdpOutputSettingsProperty.Builder.() -> Unit): CfnChannel.UdpOutputSettingsProperty =
+    CfnChannel.UdpOutputSettingsProperty.Builder.() -> Unit = {}):
+    CfnChannel.UdpOutputSettingsProperty =
     CfnChannel.UdpOutputSettingsProperty.Builder().apply(initializer).build()

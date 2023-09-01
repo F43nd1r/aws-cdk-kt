@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.personalize.CfnSolutionProps
 
 @Generated
-public fun buildCfnSolutionProps(initializer: @AwsCdkDsl CfnSolutionProps.Builder.() -> Unit):
+public fun buildCfnSolutionProps(initializer: @AwsCdkDsl CfnSolutionProps.Builder.() -> Unit = {}):
     CfnSolutionProps = CfnSolutionProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lakeformation.CfnTagAssociation
 
 @Generated
 public fun buildDatabaseResourceProperty(initializer: @AwsCdkDsl
-    CfnTagAssociation.DatabaseResourceProperty.Builder.() -> Unit):
+    CfnTagAssociation.DatabaseResourceProperty.Builder.() -> Unit = {}):
     CfnTagAssociation.DatabaseResourceProperty =
     CfnTagAssociation.DatabaseResourceProperty.Builder().apply(initializer).build()

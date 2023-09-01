@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.vpclattice.CfnServiceNetworkServiceAssoci
 
 @Generated
 public fun buildCfnServiceNetworkServiceAssociationProps(initializer: @AwsCdkDsl
-    CfnServiceNetworkServiceAssociationProps.Builder.() -> Unit):
+    CfnServiceNetworkServiceAssociationProps.Builder.() -> Unit = {}):
     CfnServiceNetworkServiceAssociationProps =
     CfnServiceNetworkServiceAssociationProps.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.SignInUrlOptions
 
 @Generated
-public fun buildSignInUrlOptions(initializer: @AwsCdkDsl SignInUrlOptions.Builder.() -> Unit):
+public fun buildSignInUrlOptions(initializer: @AwsCdkDsl SignInUrlOptions.Builder.() -> Unit = {}):
     SignInUrlOptions = SignInUrlOptions.Builder().apply(initializer).build()

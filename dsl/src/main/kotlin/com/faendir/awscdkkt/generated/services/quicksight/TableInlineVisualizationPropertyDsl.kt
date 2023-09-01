@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildTableInlineVisualizationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TableInlineVisualizationProperty.Builder.() -> Unit):
+    CfnTemplate.TableInlineVisualizationProperty.Builder.() -> Unit = {}):
     CfnTemplate.TableInlineVisualizationProperty =
     CfnTemplate.TableInlineVisualizationProperty.Builder().apply(initializer).build()

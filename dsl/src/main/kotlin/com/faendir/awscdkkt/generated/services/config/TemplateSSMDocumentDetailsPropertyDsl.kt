@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.config.CfnConformancePack
 
 @Generated
 public fun buildTemplateSSMDocumentDetailsProperty(initializer: @AwsCdkDsl
-    CfnConformancePack.TemplateSSMDocumentDetailsProperty.Builder.() -> Unit):
+    CfnConformancePack.TemplateSSMDocumentDetailsProperty.Builder.() -> Unit = {}):
     CfnConformancePack.TemplateSSMDocumentDetailsProperty =
     CfnConformancePack.TemplateSSMDocumentDetailsProperty.Builder().apply(initializer).build()

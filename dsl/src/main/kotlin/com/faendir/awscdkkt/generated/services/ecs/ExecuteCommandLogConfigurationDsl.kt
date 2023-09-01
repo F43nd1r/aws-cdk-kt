@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.ExecuteCommandLogConfiguration
 
 @Generated
 public fun buildExecuteCommandLogConfiguration(initializer: @AwsCdkDsl
-    ExecuteCommandLogConfiguration.Builder.() -> Unit): ExecuteCommandLogConfiguration =
+    ExecuteCommandLogConfiguration.Builder.() -> Unit = {}): ExecuteCommandLogConfiguration =
     ExecuteCommandLogConfiguration.Builder().apply(initializer).build()

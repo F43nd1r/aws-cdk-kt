@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.vpclattice.CfnTargetGroup
 
 @Generated
 public fun buildMatcherProperty(initializer: @AwsCdkDsl
-    CfnTargetGroup.MatcherProperty.Builder.() -> Unit): CfnTargetGroup.MatcherProperty =
+    CfnTargetGroup.MatcherProperty.Builder.() -> Unit = {}): CfnTargetGroup.MatcherProperty =
     CfnTargetGroup.MatcherProperty.Builder().apply(initializer).build()

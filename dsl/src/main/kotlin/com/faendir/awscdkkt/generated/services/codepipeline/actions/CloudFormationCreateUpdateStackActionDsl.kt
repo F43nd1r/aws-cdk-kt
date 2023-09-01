@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.codepipeline.actions.CloudFormationCreate
 
 @Generated
 public fun buildCloudFormationCreateUpdateStackAction(initializer: @AwsCdkDsl
-    CloudFormationCreateUpdateStackAction.Builder.() -> Unit): CloudFormationCreateUpdateStackAction
-    = CloudFormationCreateUpdateStackAction.Builder.create().apply(initializer).build()
+    CloudFormationCreateUpdateStackAction.Builder.() -> Unit = {}):
+    CloudFormationCreateUpdateStackAction =
+    CloudFormationCreateUpdateStackAction.Builder.create().apply(initializer).build()

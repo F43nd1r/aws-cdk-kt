@@ -9,19 +9,14 @@ import software.amazon.awscdk.services.appstream.CfnApplicationFleetAssociationP
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnApplicationFleetAssociation(id: String,
-    props: CfnApplicationFleetAssociationProps): CfnApplicationFleetAssociation =
-    CfnApplicationFleetAssociation(this, id, props)
-
-@Generated
 public fun Construct.cfnApplicationFleetAssociation(
   id: String,
   props: CfnApplicationFleetAssociationProps,
-  initializer: @AwsCdkDsl CfnApplicationFleetAssociation.() -> Unit,
+  initializer: @AwsCdkDsl CfnApplicationFleetAssociation.() -> Unit = {},
 ): CfnApplicationFleetAssociation = CfnApplicationFleetAssociation(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnApplicationFleetAssociation(id: String, initializer: @AwsCdkDsl
-    CfnApplicationFleetAssociation.Builder.() -> Unit): CfnApplicationFleetAssociation =
+    CfnApplicationFleetAssociation.Builder.() -> Unit = {}): CfnApplicationFleetAssociation =
     CfnApplicationFleetAssociation.Builder.create(this, id).apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.codepipeline.actions.JenkinsProviderProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.jenkinsProvider(id: String, props: JenkinsProviderProps): JenkinsProvider =
-    JenkinsProvider(this, id, props)
-
-@Generated
 public fun Construct.jenkinsProvider(
   id: String,
   props: JenkinsProviderProps,
-  initializer: @AwsCdkDsl JenkinsProvider.() -> Unit,
+  initializer: @AwsCdkDsl JenkinsProvider.() -> Unit = {},
 ): JenkinsProvider = JenkinsProvider(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildJenkinsProvider(id: String, initializer: @AwsCdkDsl
-    JenkinsProvider.Builder.() -> Unit): JenkinsProvider = JenkinsProvider.Builder.create(this,
+    JenkinsProvider.Builder.() -> Unit = {}): JenkinsProvider = JenkinsProvider.Builder.create(this,
     id).apply(initializer).build()

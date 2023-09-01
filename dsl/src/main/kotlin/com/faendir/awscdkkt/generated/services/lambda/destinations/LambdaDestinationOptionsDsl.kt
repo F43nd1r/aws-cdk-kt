@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lambda.destinations.LambdaDestinationOpti
 
 @Generated
 public fun buildLambdaDestinationOptions(initializer: @AwsCdkDsl
-    LambdaDestinationOptions.Builder.() -> Unit): LambdaDestinationOptions =
+    LambdaDestinationOptions.Builder.() -> Unit = {}): LambdaDestinationOptions =
     LambdaDestinationOptions.Builder().apply(initializer).build()

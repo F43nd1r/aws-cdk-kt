@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.BatchContainerOverrid
 
 @Generated
 public fun buildBatchContainerOverrides(initializer: @AwsCdkDsl
-    BatchContainerOverrides.Builder.() -> Unit): BatchContainerOverrides =
+    BatchContainerOverrides.Builder.() -> Unit = {}): BatchContainerOverrides =
     BatchContainerOverrides.Builder().apply(initializer).build()

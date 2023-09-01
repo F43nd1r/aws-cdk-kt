@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.eks.IngressLoadBalancerAddressOptions
 
 @Generated
 public fun buildIngressLoadBalancerAddressOptions(initializer: @AwsCdkDsl
-    IngressLoadBalancerAddressOptions.Builder.() -> Unit): IngressLoadBalancerAddressOptions =
+    IngressLoadBalancerAddressOptions.Builder.() -> Unit = {}): IngressLoadBalancerAddressOptions =
     IngressLoadBalancerAddressOptions.Builder().apply(initializer).build()

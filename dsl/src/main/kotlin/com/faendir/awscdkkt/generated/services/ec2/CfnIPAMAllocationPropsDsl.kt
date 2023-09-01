@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.CfnIPAMAllocationProps
 
 @Generated
 public fun buildCfnIPAMAllocationProps(initializer: @AwsCdkDsl
-    CfnIPAMAllocationProps.Builder.() -> Unit): CfnIPAMAllocationProps =
+    CfnIPAMAllocationProps.Builder.() -> Unit = {}): CfnIPAMAllocationProps =
     CfnIPAMAllocationProps.Builder().apply(initializer).build()

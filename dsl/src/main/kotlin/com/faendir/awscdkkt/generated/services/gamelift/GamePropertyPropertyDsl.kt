@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.gamelift.CfnMatchmakingConfiguration
 
 @Generated
 public fun buildGamePropertyProperty(initializer: @AwsCdkDsl
-    CfnMatchmakingConfiguration.GamePropertyProperty.Builder.() -> Unit):
+    CfnMatchmakingConfiguration.GamePropertyProperty.Builder.() -> Unit = {}):
     CfnMatchmakingConfiguration.GamePropertyProperty =
     CfnMatchmakingConfiguration.GamePropertyProperty.Builder().apply(initializer).build()

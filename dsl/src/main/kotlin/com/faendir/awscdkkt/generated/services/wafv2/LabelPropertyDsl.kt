@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
-public fun buildLabelProperty(initializer: @AwsCdkDsl CfnWebACL.LabelProperty.Builder.() -> Unit):
-    CfnWebACL.LabelProperty = CfnWebACL.LabelProperty.Builder().apply(initializer).build()
+public fun buildLabelProperty(initializer: @AwsCdkDsl CfnWebACL.LabelProperty.Builder.() -> Unit =
+    {}): CfnWebACL.LabelProperty = CfnWebACL.LabelProperty.Builder().apply(initializer).build()

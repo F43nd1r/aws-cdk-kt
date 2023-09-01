@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
 public fun buildLogGroupSAMPTProperty(initializer: @AwsCdkDsl
-    CfnFunction.LogGroupSAMPTProperty.Builder.() -> Unit): CfnFunction.LogGroupSAMPTProperty =
+    CfnFunction.LogGroupSAMPTProperty.Builder.() -> Unit = {}): CfnFunction.LogGroupSAMPTProperty =
     CfnFunction.LogGroupSAMPTProperty.Builder().apply(initializer).build()

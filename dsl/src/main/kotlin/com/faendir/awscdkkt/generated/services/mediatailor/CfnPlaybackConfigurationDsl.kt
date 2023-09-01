@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.mediatailor.CfnPlaybackConfigurationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnPlaybackConfiguration(id: String, props: CfnPlaybackConfigurationProps):
-    CfnPlaybackConfiguration = CfnPlaybackConfiguration(this, id, props)
-
-@Generated
 public fun Construct.cfnPlaybackConfiguration(
   id: String,
   props: CfnPlaybackConfigurationProps,
-  initializer: @AwsCdkDsl CfnPlaybackConfiguration.() -> Unit,
+  initializer: @AwsCdkDsl CfnPlaybackConfiguration.() -> Unit = {},
 ): CfnPlaybackConfiguration = CfnPlaybackConfiguration(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnPlaybackConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnPlaybackConfiguration.Builder.() -> Unit): CfnPlaybackConfiguration =
+    CfnPlaybackConfiguration.Builder.() -> Unit = {}): CfnPlaybackConfiguration =
     CfnPlaybackConfiguration.Builder.create(this, id).apply(initializer).build()

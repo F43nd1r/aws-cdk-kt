@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnNetworkInsightsAccessScopeAnalysis
 
 @Generated
 public fun buildCfnNetworkInsightsAccessScopeAnalysisProps(initializer: @AwsCdkDsl
-    CfnNetworkInsightsAccessScopeAnalysisProps.Builder.() -> Unit):
+    CfnNetworkInsightsAccessScopeAnalysisProps.Builder.() -> Unit = {}):
     CfnNetworkInsightsAccessScopeAnalysisProps =
     CfnNetworkInsightsAccessScopeAnalysisProps.Builder().apply(initializer).build()

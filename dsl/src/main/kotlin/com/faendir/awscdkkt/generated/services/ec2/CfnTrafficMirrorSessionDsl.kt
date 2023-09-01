@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ec2.CfnTrafficMirrorSessionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnTrafficMirrorSession(id: String, props: CfnTrafficMirrorSessionProps):
-    CfnTrafficMirrorSession = CfnTrafficMirrorSession(this, id, props)
-
-@Generated
 public fun Construct.cfnTrafficMirrorSession(
   id: String,
   props: CfnTrafficMirrorSessionProps,
-  initializer: @AwsCdkDsl CfnTrafficMirrorSession.() -> Unit,
+  initializer: @AwsCdkDsl CfnTrafficMirrorSession.() -> Unit = {},
 ): CfnTrafficMirrorSession = CfnTrafficMirrorSession(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnTrafficMirrorSession(id: String, initializer: @AwsCdkDsl
-    CfnTrafficMirrorSession.Builder.() -> Unit): CfnTrafficMirrorSession =
+    CfnTrafficMirrorSession.Builder.() -> Unit = {}): CfnTrafficMirrorSession =
     CfnTrafficMirrorSession.Builder.create(this, id).apply(initializer).build()

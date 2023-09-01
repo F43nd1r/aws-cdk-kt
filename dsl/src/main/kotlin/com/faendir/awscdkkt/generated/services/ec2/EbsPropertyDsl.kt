@@ -6,6 +6,6 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
-public fun buildEbsProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.EbsProperty.Builder.() -> Unit): CfnLaunchTemplate.EbsProperty =
+public fun buildEbsProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.EbsProperty.Builder.() -> Unit
+    = {}): CfnLaunchTemplate.EbsProperty =
     CfnLaunchTemplate.EbsProperty.Builder().apply(initializer).build()

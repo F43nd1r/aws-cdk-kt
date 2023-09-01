@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildFontWeightProperty(initializer: @AwsCdkDsl
-    CfnTemplate.FontWeightProperty.Builder.() -> Unit): CfnTemplate.FontWeightProperty =
+    CfnTemplate.FontWeightProperty.Builder.() -> Unit = {}): CfnTemplate.FontWeightProperty =
     CfnTemplate.FontWeightProperty.Builder().apply(initializer).build()

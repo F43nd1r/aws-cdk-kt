@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.databrew.CfnRuleset
 
 @Generated
 public fun buildColumnSelectorProperty(initializer: @AwsCdkDsl
-    CfnRuleset.ColumnSelectorProperty.Builder.() -> Unit): CfnRuleset.ColumnSelectorProperty =
+    CfnRuleset.ColumnSelectorProperty.Builder.() -> Unit = {}): CfnRuleset.ColumnSelectorProperty =
     CfnRuleset.ColumnSelectorProperty.Builder().apply(initializer).build()

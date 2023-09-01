@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.datasync.CfnLocationObjectStorageProps
 
 @Generated
 public fun buildCfnLocationObjectStorageProps(initializer: @AwsCdkDsl
-    CfnLocationObjectStorageProps.Builder.() -> Unit): CfnLocationObjectStorageProps =
+    CfnLocationObjectStorageProps.Builder.() -> Unit = {}): CfnLocationObjectStorageProps =
     CfnLocationObjectStorageProps.Builder().apply(initializer).build()

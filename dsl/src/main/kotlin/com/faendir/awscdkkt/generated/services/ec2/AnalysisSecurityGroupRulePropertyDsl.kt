@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnNetworkInsightsAnalysis
 
 @Generated
 public fun buildAnalysisSecurityGroupRuleProperty(initializer: @AwsCdkDsl
-    CfnNetworkInsightsAnalysis.AnalysisSecurityGroupRuleProperty.Builder.() -> Unit):
+    CfnNetworkInsightsAnalysis.AnalysisSecurityGroupRuleProperty.Builder.() -> Unit = {}):
     CfnNetworkInsightsAnalysis.AnalysisSecurityGroupRuleProperty =
     CfnNetworkInsightsAnalysis.AnalysisSecurityGroupRuleProperty.Builder().apply(initializer).build()

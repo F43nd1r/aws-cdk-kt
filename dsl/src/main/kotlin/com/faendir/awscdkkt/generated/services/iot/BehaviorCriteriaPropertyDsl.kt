@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iot.CfnSecurityProfile
 
 @Generated
 public fun buildBehaviorCriteriaProperty(initializer: @AwsCdkDsl
-    CfnSecurityProfile.BehaviorCriteriaProperty.Builder.() -> Unit):
+    CfnSecurityProfile.BehaviorCriteriaProperty.Builder.() -> Unit = {}):
     CfnSecurityProfile.BehaviorCriteriaProperty =
     CfnSecurityProfile.BehaviorCriteriaProperty.Builder().apply(initializer).build()

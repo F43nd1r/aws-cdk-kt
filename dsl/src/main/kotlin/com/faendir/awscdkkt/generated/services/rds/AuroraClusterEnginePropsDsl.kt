@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.rds.AuroraClusterEngineProps
 
 @Generated
 public fun buildAuroraClusterEngineProps(initializer: @AwsCdkDsl
-    AuroraClusterEngineProps.Builder.() -> Unit): AuroraClusterEngineProps =
+    AuroraClusterEngineProps.Builder.() -> Unit = {}): AuroraClusterEngineProps =
     AuroraClusterEngineProps.Builder().apply(initializer).build()

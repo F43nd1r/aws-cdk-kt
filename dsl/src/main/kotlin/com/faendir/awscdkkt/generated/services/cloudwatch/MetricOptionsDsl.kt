@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.MetricOptions
 
 @Generated
-public fun buildMetricOptions(initializer: @AwsCdkDsl MetricOptions.Builder.() -> Unit):
+public fun buildMetricOptions(initializer: @AwsCdkDsl MetricOptions.Builder.() -> Unit = {}):
     MetricOptions = MetricOptions.Builder().apply(initializer).build()

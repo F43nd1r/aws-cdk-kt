@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.networkmanager.CfnTransitGatewayPeeringPr
 
 @Generated
 public fun buildCfnTransitGatewayPeeringProps(initializer: @AwsCdkDsl
-    CfnTransitGatewayPeeringProps.Builder.() -> Unit): CfnTransitGatewayPeeringProps =
+    CfnTransitGatewayPeeringProps.Builder.() -> Unit = {}): CfnTransitGatewayPeeringProps =
     CfnTransitGatewayPeeringProps.Builder().apply(initializer).build()

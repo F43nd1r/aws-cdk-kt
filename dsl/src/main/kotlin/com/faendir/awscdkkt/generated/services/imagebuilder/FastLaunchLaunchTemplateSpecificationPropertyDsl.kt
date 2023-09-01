@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.imagebuilder.CfnDistributionConfiguration
 
 @Generated
 public fun buildFastLaunchLaunchTemplateSpecificationProperty(initializer: @AwsCdkDsl
-    CfnDistributionConfiguration.FastLaunchLaunchTemplateSpecificationProperty.Builder.() -> Unit):
-    CfnDistributionConfiguration.FastLaunchLaunchTemplateSpecificationProperty =
+    CfnDistributionConfiguration.FastLaunchLaunchTemplateSpecificationProperty.Builder.() -> Unit =
+    {}): CfnDistributionConfiguration.FastLaunchLaunchTemplateSpecificationProperty =
     CfnDistributionConfiguration.FastLaunchLaunchTemplateSpecificationProperty.Builder().apply(initializer).build()

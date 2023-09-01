@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.pinpoint.CfnCampaign
 
 @Generated
 public fun buildWriteTreatmentResourceProperty(initializer: @AwsCdkDsl
-    CfnCampaign.WriteTreatmentResourceProperty.Builder.() -> Unit):
+    CfnCampaign.WriteTreatmentResourceProperty.Builder.() -> Unit = {}):
     CfnCampaign.WriteTreatmentResourceProperty =
     CfnCampaign.WriteTreatmentResourceProperty.Builder().apply(initializer).build()

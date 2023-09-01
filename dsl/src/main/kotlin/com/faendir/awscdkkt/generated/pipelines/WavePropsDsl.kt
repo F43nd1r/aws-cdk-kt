@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.pipelines.WaveProps
 
 @Generated
-public fun buildWaveProps(initializer: @AwsCdkDsl WaveProps.Builder.() -> Unit): WaveProps =
+public fun buildWaveProps(initializer: @AwsCdkDsl WaveProps.Builder.() -> Unit = {}): WaveProps =
     WaveProps.Builder().apply(initializer).build()

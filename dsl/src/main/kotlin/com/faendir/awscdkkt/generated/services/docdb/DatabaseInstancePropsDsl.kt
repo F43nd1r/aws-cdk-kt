@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.docdb.DatabaseInstanceProps
 
 @Generated
 public fun buildDatabaseInstanceProps(initializer: @AwsCdkDsl
-    DatabaseInstanceProps.Builder.() -> Unit): DatabaseInstanceProps =
+    DatabaseInstanceProps.Builder.() -> Unit = {}): DatabaseInstanceProps =
     DatabaseInstanceProps.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.kinesisanalyticsv2.CfnApplicationOutput
 
 @Generated
 public fun buildOutputProperty(initializer: @AwsCdkDsl
-    CfnApplicationOutput.OutputProperty.Builder.() -> Unit): CfnApplicationOutput.OutputProperty =
+    CfnApplicationOutput.OutputProperty.Builder.() -> Unit = {}):
+    CfnApplicationOutput.OutputProperty =
     CfnApplicationOutput.OutputProperty.Builder().apply(initializer).build()

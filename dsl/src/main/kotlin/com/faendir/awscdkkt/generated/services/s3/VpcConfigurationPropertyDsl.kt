@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.s3.CfnAccessPoint
 
 @Generated
 public fun buildVpcConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAccessPoint.VpcConfigurationProperty.Builder.() -> Unit):
+    CfnAccessPoint.VpcConfigurationProperty.Builder.() -> Unit = {}):
     CfnAccessPoint.VpcConfigurationProperty =
     CfnAccessPoint.VpcConfigurationProperty.Builder().apply(initializer).build()

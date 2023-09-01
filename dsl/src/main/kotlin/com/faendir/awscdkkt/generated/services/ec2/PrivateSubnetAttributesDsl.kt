@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.PrivateSubnetAttributes
 
 @Generated
 public fun buildPrivateSubnetAttributes(initializer: @AwsCdkDsl
-    PrivateSubnetAttributes.Builder.() -> Unit): PrivateSubnetAttributes =
+    PrivateSubnetAttributes.Builder.() -> Unit = {}): PrivateSubnetAttributes =
     PrivateSubnetAttributes.Builder().apply(initializer).build()

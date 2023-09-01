@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.dynamodb.CfnGlobalTable
 
 @Generated
 public fun buildReadProvisionedThroughputSettingsProperty(initializer: @AwsCdkDsl
-    CfnGlobalTable.ReadProvisionedThroughputSettingsProperty.Builder.() -> Unit):
+    CfnGlobalTable.ReadProvisionedThroughputSettingsProperty.Builder.() -> Unit = {}):
     CfnGlobalTable.ReadProvisionedThroughputSettingsProperty =
     CfnGlobalTable.ReadProvisionedThroughputSettingsProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.managedblockchain.CfnMember
 
 @Generated
 public fun buildNetworkFabricConfigurationProperty(initializer: @AwsCdkDsl
-    CfnMember.NetworkFabricConfigurationProperty.Builder.() -> Unit):
+    CfnMember.NetworkFabricConfigurationProperty.Builder.() -> Unit = {}):
     CfnMember.NetworkFabricConfigurationProperty =
     CfnMember.NetworkFabricConfigurationProperty.Builder().apply(initializer).build()

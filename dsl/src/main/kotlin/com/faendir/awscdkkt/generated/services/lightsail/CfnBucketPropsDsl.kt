@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lightsail.CfnBucketProps
 
 @Generated
-public fun buildCfnBucketProps(initializer: @AwsCdkDsl CfnBucketProps.Builder.() -> Unit):
+public fun buildCfnBucketProps(initializer: @AwsCdkDsl CfnBucketProps.Builder.() -> Unit = {}):
     CfnBucketProps = CfnBucketProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cloudfront.CfnResponseHeadersPolicy
 
 @Generated
 public fun buildCustomHeaderProperty(initializer: @AwsCdkDsl
-    CfnResponseHeadersPolicy.CustomHeaderProperty.Builder.() -> Unit):
+    CfnResponseHeadersPolicy.CustomHeaderProperty.Builder.() -> Unit = {}):
     CfnResponseHeadersPolicy.CustomHeaderProperty =
     CfnResponseHeadersPolicy.CustomHeaderProperty.Builder().apply(initializer).build()

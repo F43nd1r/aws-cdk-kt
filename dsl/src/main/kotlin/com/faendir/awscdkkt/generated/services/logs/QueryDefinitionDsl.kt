@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.logs.QueryDefinitionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.queryDefinition(id: String, props: QueryDefinitionProps): QueryDefinition =
-    QueryDefinition(this, id, props)
-
-@Generated
 public fun Construct.queryDefinition(
   id: String,
   props: QueryDefinitionProps,
-  initializer: @AwsCdkDsl QueryDefinition.() -> Unit,
+  initializer: @AwsCdkDsl QueryDefinition.() -> Unit = {},
 ): QueryDefinition = QueryDefinition(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildQueryDefinition(id: String, initializer: @AwsCdkDsl
-    QueryDefinition.Builder.() -> Unit): QueryDefinition = QueryDefinition.Builder.create(this,
+    QueryDefinition.Builder.() -> Unit = {}): QueryDefinition = QueryDefinition.Builder.create(this,
     id).apply(initializer).build()

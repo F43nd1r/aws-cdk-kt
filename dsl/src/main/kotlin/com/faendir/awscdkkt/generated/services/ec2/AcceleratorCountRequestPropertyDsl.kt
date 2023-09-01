@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnSpotFleet
 
 @Generated
 public fun buildAcceleratorCountRequestProperty(initializer: @AwsCdkDsl
-    CfnSpotFleet.AcceleratorCountRequestProperty.Builder.() -> Unit):
+    CfnSpotFleet.AcceleratorCountRequestProperty.Builder.() -> Unit = {}):
     CfnSpotFleet.AcceleratorCountRequestProperty =
     CfnSpotFleet.AcceleratorCountRequestProperty.Builder().apply(initializer).build()

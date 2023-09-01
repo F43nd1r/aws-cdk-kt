@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.secretsmanager.CfnSecretTargetAttachmentP
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnSecretTargetAttachment(id: String, props: CfnSecretTargetAttachmentProps):
-    CfnSecretTargetAttachment = CfnSecretTargetAttachment(this, id, props)
-
-@Generated
 public fun Construct.cfnSecretTargetAttachment(
   id: String,
   props: CfnSecretTargetAttachmentProps,
-  initializer: @AwsCdkDsl CfnSecretTargetAttachment.() -> Unit,
+  initializer: @AwsCdkDsl CfnSecretTargetAttachment.() -> Unit = {},
 ): CfnSecretTargetAttachment = CfnSecretTargetAttachment(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnSecretTargetAttachment(id: String, initializer: @AwsCdkDsl
-    CfnSecretTargetAttachment.Builder.() -> Unit): CfnSecretTargetAttachment =
+    CfnSecretTargetAttachment.Builder.() -> Unit = {}): CfnSecretTargetAttachment =
     CfnSecretTargetAttachment.Builder.create(this, id).apply(initializer).build()

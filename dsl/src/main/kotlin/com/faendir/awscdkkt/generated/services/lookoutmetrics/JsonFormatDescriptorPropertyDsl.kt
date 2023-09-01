@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lookoutmetrics.CfnAnomalyDetector
 
 @Generated
 public fun buildJsonFormatDescriptorProperty(initializer: @AwsCdkDsl
-    CfnAnomalyDetector.JsonFormatDescriptorProperty.Builder.() -> Unit):
+    CfnAnomalyDetector.JsonFormatDescriptorProperty.Builder.() -> Unit = {}):
     CfnAnomalyDetector.JsonFormatDescriptorProperty =
     CfnAnomalyDetector.JsonFormatDescriptorProperty.Builder().apply(initializer).build()

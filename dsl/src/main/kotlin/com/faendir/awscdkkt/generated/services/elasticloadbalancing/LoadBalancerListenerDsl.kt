@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancing.LoadBalancerListener
 
 @Generated
-public fun buildLoadBalancerListener(initializer: @AwsCdkDsl
-    LoadBalancerListener.Builder.() -> Unit): LoadBalancerListener =
-    LoadBalancerListener.Builder().apply(initializer).build()
+public fun buildLoadBalancerListener(initializer: @AwsCdkDsl LoadBalancerListener.Builder.() -> Unit
+    = {}): LoadBalancerListener = LoadBalancerListener.Builder().apply(initializer).build()

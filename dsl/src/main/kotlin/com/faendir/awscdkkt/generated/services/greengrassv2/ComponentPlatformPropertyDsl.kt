@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.greengrassv2.CfnComponentVersion
 
 @Generated
 public fun buildComponentPlatformProperty(initializer: @AwsCdkDsl
-    CfnComponentVersion.ComponentPlatformProperty.Builder.() -> Unit):
+    CfnComponentVersion.ComponentPlatformProperty.Builder.() -> Unit = {}):
     CfnComponentVersion.ComponentPlatformProperty =
     CfnComponentVersion.ComponentPlatformProperty.Builder().apply(initializer).build()

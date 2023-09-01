@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.redshift.CfnEndpointAccess
 
 @Generated
 public fun buildVpcEndpointProperty(initializer: @AwsCdkDsl
-    CfnEndpointAccess.VpcEndpointProperty.Builder.() -> Unit): CfnEndpointAccess.VpcEndpointProperty
-    = CfnEndpointAccess.VpcEndpointProperty.Builder().apply(initializer).build()
+    CfnEndpointAccess.VpcEndpointProperty.Builder.() -> Unit = {}):
+    CfnEndpointAccess.VpcEndpointProperty =
+    CfnEndpointAccess.VpcEndpointProperty.Builder().apply(initializer).build()

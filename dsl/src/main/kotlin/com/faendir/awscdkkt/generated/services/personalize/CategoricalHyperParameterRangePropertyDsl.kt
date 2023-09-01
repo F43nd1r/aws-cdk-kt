@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.personalize.CfnSolution
 
 @Generated
 public fun buildCategoricalHyperParameterRangeProperty(initializer: @AwsCdkDsl
-    CfnSolution.CategoricalHyperParameterRangeProperty.Builder.() -> Unit):
+    CfnSolution.CategoricalHyperParameterRangeProperty.Builder.() -> Unit = {}):
     CfnSolution.CategoricalHyperParameterRangeProperty =
     CfnSolution.CategoricalHyperParameterRangeProperty.Builder().apply(initializer).build()

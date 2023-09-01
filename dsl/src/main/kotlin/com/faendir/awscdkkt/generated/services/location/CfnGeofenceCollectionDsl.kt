@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.location.CfnGeofenceCollectionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnGeofenceCollection(id: String, props: CfnGeofenceCollectionProps):
-    CfnGeofenceCollection = CfnGeofenceCollection(this, id, props)
-
-@Generated
 public fun Construct.cfnGeofenceCollection(
   id: String,
   props: CfnGeofenceCollectionProps,
-  initializer: @AwsCdkDsl CfnGeofenceCollection.() -> Unit,
+  initializer: @AwsCdkDsl CfnGeofenceCollection.() -> Unit = {},
 ): CfnGeofenceCollection = CfnGeofenceCollection(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnGeofenceCollection(id: String, initializer: @AwsCdkDsl
-    CfnGeofenceCollection.Builder.() -> Unit): CfnGeofenceCollection =
+    CfnGeofenceCollection.Builder.() -> Unit = {}): CfnGeofenceCollection =
     CfnGeofenceCollection.Builder.create(this, id).apply(initializer).build()

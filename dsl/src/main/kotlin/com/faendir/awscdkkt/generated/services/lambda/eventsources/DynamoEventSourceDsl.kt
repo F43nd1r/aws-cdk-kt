@@ -8,5 +8,5 @@ import software.amazon.awscdk.services.lambda.eventsources.DynamoEventSource
 
 @Generated
 public fun buildDynamoEventSource(table: ITable, initializer: @AwsCdkDsl
-    DynamoEventSource.Builder.() -> Unit): DynamoEventSource =
+    DynamoEventSource.Builder.() -> Unit = {}): DynamoEventSource =
     DynamoEventSource.Builder.create(table).apply(initializer).build()

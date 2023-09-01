@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.CfnService
 
 @Generated
 public fun buildPlacementConstraintProperty(initializer: @AwsCdkDsl
-    CfnService.PlacementConstraintProperty.Builder.() -> Unit):
+    CfnService.PlacementConstraintProperty.Builder.() -> Unit = {}):
     CfnService.PlacementConstraintProperty =
     CfnService.PlacementConstraintProperty.Builder().apply(initializer).build()

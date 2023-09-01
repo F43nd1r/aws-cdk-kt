@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.managedblockchain.CfnMember
 
 @Generated
 public fun buildApprovalThresholdPolicyProperty(initializer: @AwsCdkDsl
-    CfnMember.ApprovalThresholdPolicyProperty.Builder.() -> Unit):
+    CfnMember.ApprovalThresholdPolicyProperty.Builder.() -> Unit = {}):
     CfnMember.ApprovalThresholdPolicyProperty =
     CfnMember.ApprovalThresholdPolicyProperty.Builder().apply(initializer).build()

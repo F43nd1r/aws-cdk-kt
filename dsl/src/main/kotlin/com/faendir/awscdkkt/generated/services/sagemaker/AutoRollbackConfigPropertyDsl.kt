@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnEndpoint
 
 @Generated
 public fun buildAutoRollbackConfigProperty(initializer: @AwsCdkDsl
-    CfnEndpoint.AutoRollbackConfigProperty.Builder.() -> Unit):
+    CfnEndpoint.AutoRollbackConfigProperty.Builder.() -> Unit = {}):
     CfnEndpoint.AutoRollbackConfigProperty =
     CfnEndpoint.AutoRollbackConfigProperty.Builder().apply(initializer).build()

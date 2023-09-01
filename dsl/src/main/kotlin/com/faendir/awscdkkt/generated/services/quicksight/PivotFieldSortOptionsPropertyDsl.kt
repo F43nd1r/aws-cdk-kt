@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildPivotFieldSortOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PivotFieldSortOptionsProperty.Builder.() -> Unit):
+    CfnTemplate.PivotFieldSortOptionsProperty.Builder.() -> Unit = {}):
     CfnTemplate.PivotFieldSortOptionsProperty =
     CfnTemplate.PivotFieldSortOptionsProperty.Builder().apply(initializer).build()

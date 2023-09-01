@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediaconvert.CfnJobTemplateProps
 
 @Generated
-public fun buildCfnJobTemplateProps(initializer: @AwsCdkDsl CfnJobTemplateProps.Builder.() -> Unit):
-    CfnJobTemplateProps = CfnJobTemplateProps.Builder().apply(initializer).build()
+public fun buildCfnJobTemplateProps(initializer: @AwsCdkDsl CfnJobTemplateProps.Builder.() -> Unit =
+    {}): CfnJobTemplateProps = CfnJobTemplateProps.Builder().apply(initializer).build()

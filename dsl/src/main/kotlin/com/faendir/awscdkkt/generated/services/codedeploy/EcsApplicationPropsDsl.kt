@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codedeploy.EcsApplicationProps
 
 @Generated
-public fun buildEcsApplicationProps(initializer: @AwsCdkDsl EcsApplicationProps.Builder.() -> Unit):
-    EcsApplicationProps = EcsApplicationProps.Builder().apply(initializer).build()
+public fun buildEcsApplicationProps(initializer: @AwsCdkDsl EcsApplicationProps.Builder.() -> Unit =
+    {}): EcsApplicationProps = EcsApplicationProps.Builder().apply(initializer).build()

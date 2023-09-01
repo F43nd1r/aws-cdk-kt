@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.autoscaling.AutoScalingGroupProps
 
 @Generated
 public fun buildAutoScalingGroupProps(initializer: @AwsCdkDsl
-    AutoScalingGroupProps.Builder.() -> Unit): AutoScalingGroupProps =
+    AutoScalingGroupProps.Builder.() -> Unit = {}): AutoScalingGroupProps =
     AutoScalingGroupProps.Builder().apply(initializer).build()

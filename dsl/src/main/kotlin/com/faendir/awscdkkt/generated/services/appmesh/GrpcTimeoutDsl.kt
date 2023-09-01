@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.GrpcTimeout
 
 @Generated
-public fun buildGrpcTimeout(initializer: @AwsCdkDsl GrpcTimeout.Builder.() -> Unit): GrpcTimeout =
-    GrpcTimeout.Builder().apply(initializer).build()
+public fun buildGrpcTimeout(initializer: @AwsCdkDsl GrpcTimeout.Builder.() -> Unit = {}):
+    GrpcTimeout = GrpcTimeout.Builder().apply(initializer).build()

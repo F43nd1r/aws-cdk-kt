@@ -7,6 +7,5 @@ import software.amazon.awscdk.services.ecs.NetworkMode
 import software.amazon.awscdk.services.ecs.PortMap
 
 @Generated
-public fun buildPortMap(networkmode: NetworkMode, initializer: @AwsCdkDsl
-    PortMap.Builder.() -> Unit): PortMap =
-    PortMap.Builder.create(networkmode).apply(initializer).build()
+public fun buildPortMap(networkmode: NetworkMode, initializer: @AwsCdkDsl PortMap.Builder.() -> Unit
+    = {}): PortMap = PortMap.Builder.create(networkmode).apply(initializer).build()

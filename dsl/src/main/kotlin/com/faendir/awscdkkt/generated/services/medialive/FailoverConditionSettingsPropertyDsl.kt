@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildFailoverConditionSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.FailoverConditionSettingsProperty.Builder.() -> Unit):
+    CfnChannel.FailoverConditionSettingsProperty.Builder.() -> Unit = {}):
     CfnChannel.FailoverConditionSettingsProperty =
     CfnChannel.FailoverConditionSettingsProperty.Builder().apply(initializer).build()

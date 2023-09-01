@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.inspector.CfnAssessmentTargetProps
 
 @Generated
 public fun buildCfnAssessmentTargetProps(initializer: @AwsCdkDsl
-    CfnAssessmentTargetProps.Builder.() -> Unit): CfnAssessmentTargetProps =
+    CfnAssessmentTargetProps.Builder.() -> Unit = {}): CfnAssessmentTargetProps =
     CfnAssessmentTargetProps.Builder().apply(initializer).build()

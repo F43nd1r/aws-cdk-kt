@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.ResourceOptions
 
 @Generated
-public fun buildResourceOptions(initializer: @AwsCdkDsl ResourceOptions.Builder.() -> Unit):
+public fun buildResourceOptions(initializer: @AwsCdkDsl ResourceOptions.Builder.() -> Unit = {}):
     ResourceOptions = ResourceOptions.Builder().apply(initializer).build()

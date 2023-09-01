@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.comprehend.CfnFlywheel
 
 @Generated
 public fun buildDocumentClassificationConfigProperty(initializer: @AwsCdkDsl
-    CfnFlywheel.DocumentClassificationConfigProperty.Builder.() -> Unit):
+    CfnFlywheel.DocumentClassificationConfigProperty.Builder.() -> Unit = {}):
     CfnFlywheel.DocumentClassificationConfigProperty =
     CfnFlywheel.DocumentClassificationConfigProperty.Builder().apply(initializer).build()

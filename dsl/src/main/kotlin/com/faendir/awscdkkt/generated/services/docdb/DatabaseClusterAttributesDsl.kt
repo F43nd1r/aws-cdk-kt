@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.docdb.DatabaseClusterAttributes
 
 @Generated
 public fun buildDatabaseClusterAttributes(initializer: @AwsCdkDsl
-    DatabaseClusterAttributes.Builder.() -> Unit): DatabaseClusterAttributes =
+    DatabaseClusterAttributes.Builder.() -> Unit = {}): DatabaseClusterAttributes =
     DatabaseClusterAttributes.Builder().apply(initializer).build()

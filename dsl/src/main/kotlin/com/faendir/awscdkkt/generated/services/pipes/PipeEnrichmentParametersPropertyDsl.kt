@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
 public fun buildPipeEnrichmentParametersProperty(initializer: @AwsCdkDsl
-    CfnPipe.PipeEnrichmentParametersProperty.Builder.() -> Unit):
+    CfnPipe.PipeEnrichmentParametersProperty.Builder.() -> Unit = {}):
     CfnPipe.PipeEnrichmentParametersProperty =
     CfnPipe.PipeEnrichmentParametersProperty.Builder().apply(initializer).build()

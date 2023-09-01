@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
 public fun buildCopyCommandProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.CopyCommandProperty.Builder.() -> Unit): CfnDeliveryStream.CopyCommandProperty
-    = CfnDeliveryStream.CopyCommandProperty.Builder().apply(initializer).build()
+    CfnDeliveryStream.CopyCommandProperty.Builder.() -> Unit = {}):
+    CfnDeliveryStream.CopyCommandProperty =
+    CfnDeliveryStream.CopyCommandProperty.Builder().apply(initializer).build()

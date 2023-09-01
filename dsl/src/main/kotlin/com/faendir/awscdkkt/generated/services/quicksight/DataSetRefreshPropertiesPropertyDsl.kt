@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
 public fun buildDataSetRefreshPropertiesProperty(initializer: @AwsCdkDsl
-    CfnDataSet.DataSetRefreshPropertiesProperty.Builder.() -> Unit):
+    CfnDataSet.DataSetRefreshPropertiesProperty.Builder.() -> Unit = {}):
     CfnDataSet.DataSetRefreshPropertiesProperty =
     CfnDataSet.DataSetRefreshPropertiesProperty.Builder().apply(initializer).build()

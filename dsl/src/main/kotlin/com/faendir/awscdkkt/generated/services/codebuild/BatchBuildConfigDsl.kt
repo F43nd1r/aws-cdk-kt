@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.BatchBuildConfig
 
 @Generated
-public fun buildBatchBuildConfig(initializer: @AwsCdkDsl BatchBuildConfig.Builder.() -> Unit):
+public fun buildBatchBuildConfig(initializer: @AwsCdkDsl BatchBuildConfig.Builder.() -> Unit = {}):
     BatchBuildConfig = BatchBuildConfig.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.BastionHostLinuxProps
 
 @Generated
 public fun buildBastionHostLinuxProps(initializer: @AwsCdkDsl
-    BastionHostLinuxProps.Builder.() -> Unit): BastionHostLinuxProps =
+    BastionHostLinuxProps.Builder.() -> Unit = {}): BastionHostLinuxProps =
     BastionHostLinuxProps.Builder().apply(initializer).build()

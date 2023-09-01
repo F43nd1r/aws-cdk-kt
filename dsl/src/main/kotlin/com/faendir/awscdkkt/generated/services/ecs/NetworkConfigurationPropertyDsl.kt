@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.CfnTaskSet
 
 @Generated
 public fun buildNetworkConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTaskSet.NetworkConfigurationProperty.Builder.() -> Unit):
+    CfnTaskSet.NetworkConfigurationProperty.Builder.() -> Unit = {}):
     CfnTaskSet.NetworkConfigurationProperty =
     CfnTaskSet.NetworkConfigurationProperty.Builder().apply(initializer).build()

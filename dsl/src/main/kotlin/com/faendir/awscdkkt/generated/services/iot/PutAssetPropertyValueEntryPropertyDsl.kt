@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iot.CfnTopicRule
 
 @Generated
 public fun buildPutAssetPropertyValueEntryProperty(initializer: @AwsCdkDsl
-    CfnTopicRule.PutAssetPropertyValueEntryProperty.Builder.() -> Unit):
+    CfnTopicRule.PutAssetPropertyValueEntryProperty.Builder.() -> Unit = {}):
     CfnTopicRule.PutAssetPropertyValueEntryProperty =
     CfnTopicRule.PutAssetPropertyValueEntryProperty.Builder().apply(initializer).build()

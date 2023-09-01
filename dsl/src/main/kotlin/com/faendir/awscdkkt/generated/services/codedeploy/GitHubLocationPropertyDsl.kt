@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.codedeploy.CfnDeploymentGroup
 
 @Generated
 public fun buildGitHubLocationProperty(initializer: @AwsCdkDsl
-    CfnDeploymentGroup.GitHubLocationProperty.Builder.() -> Unit):
+    CfnDeploymentGroup.GitHubLocationProperty.Builder.() -> Unit = {}):
     CfnDeploymentGroup.GitHubLocationProperty =
     CfnDeploymentGroup.GitHubLocationProperty.Builder().apply(initializer).build()

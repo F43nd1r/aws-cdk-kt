@@ -6,6 +6,6 @@ import kotlin.Unit
 import software.amazon.awscdk.services.accessanalyzer.CfnAnalyzer
 
 @Generated
-public fun buildFilterProperty(initializer: @AwsCdkDsl
-    CfnAnalyzer.FilterProperty.Builder.() -> Unit): CfnAnalyzer.FilterProperty =
+public fun buildFilterProperty(initializer: @AwsCdkDsl CfnAnalyzer.FilterProperty.Builder.() -> Unit
+    = {}): CfnAnalyzer.FilterProperty =
     CfnAnalyzer.FilterProperty.Builder().apply(initializer).build()

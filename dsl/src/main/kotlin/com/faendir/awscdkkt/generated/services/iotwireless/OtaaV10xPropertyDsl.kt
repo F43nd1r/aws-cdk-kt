@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iotwireless.CfnWirelessDevice
 
 @Generated
 public fun buildOtaaV10xProperty(initializer: @AwsCdkDsl
-    CfnWirelessDevice.OtaaV10xProperty.Builder.() -> Unit): CfnWirelessDevice.OtaaV10xProperty =
-    CfnWirelessDevice.OtaaV10xProperty.Builder().apply(initializer).build()
+    CfnWirelessDevice.OtaaV10xProperty.Builder.() -> Unit = {}): CfnWirelessDevice.OtaaV10xProperty
+    = CfnWirelessDevice.OtaaV10xProperty.Builder().apply(initializer).build()

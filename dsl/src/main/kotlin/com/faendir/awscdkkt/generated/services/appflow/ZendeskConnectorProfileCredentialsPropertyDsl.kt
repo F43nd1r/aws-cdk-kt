@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnConnectorProfile
 
 @Generated
 public fun buildZendeskConnectorProfileCredentialsProperty(initializer: @AwsCdkDsl
-    CfnConnectorProfile.ZendeskConnectorProfileCredentialsProperty.Builder.() -> Unit):
+    CfnConnectorProfile.ZendeskConnectorProfileCredentialsProperty.Builder.() -> Unit = {}):
     CfnConnectorProfile.ZendeskConnectorProfileCredentialsProperty =
     CfnConnectorProfile.ZendeskConnectorProfileCredentialsProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.DynamoDeleteItemProps
 
 @Generated
 public fun buildDynamoDeleteItemProps(initializer: @AwsCdkDsl
-    DynamoDeleteItemProps.Builder.() -> Unit): DynamoDeleteItemProps =
+    DynamoDeleteItemProps.Builder.() -> Unit = {}): DynamoDeleteItemProps =
     DynamoDeleteItemProps.Builder().apply(initializer).build()

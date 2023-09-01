@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
 public fun buildBucketSAMPTProperty(initializer: @AwsCdkDsl
-    CfnFunction.BucketSAMPTProperty.Builder.() -> Unit): CfnFunction.BucketSAMPTProperty =
+    CfnFunction.BucketSAMPTProperty.Builder.() -> Unit = {}): CfnFunction.BucketSAMPTProperty =
     CfnFunction.BucketSAMPTProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
 public fun buildDeploymentPreferenceProperty(initializer: @AwsCdkDsl
-    CfnFunction.DeploymentPreferenceProperty.Builder.() -> Unit):
+    CfnFunction.DeploymentPreferenceProperty.Builder.() -> Unit = {}):
     CfnFunction.DeploymentPreferenceProperty =
     CfnFunction.DeploymentPreferenceProperty.Builder().apply(initializer).build()

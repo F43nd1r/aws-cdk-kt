@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codedeploy.ServerDeploymentGroupProps
 
 @Generated
 public fun buildServerDeploymentGroupProps(initializer: @AwsCdkDsl
-    ServerDeploymentGroupProps.Builder.() -> Unit): ServerDeploymentGroupProps =
+    ServerDeploymentGroupProps.Builder.() -> Unit = {}): ServerDeploymentGroupProps =
     ServerDeploymentGroupProps.Builder().apply(initializer).build()

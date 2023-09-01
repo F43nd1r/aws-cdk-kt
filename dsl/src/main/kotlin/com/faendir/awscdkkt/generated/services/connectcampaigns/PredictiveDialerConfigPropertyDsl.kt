@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.connectcampaigns.CfnCampaign
 
 @Generated
 public fun buildPredictiveDialerConfigProperty(initializer: @AwsCdkDsl
-    CfnCampaign.PredictiveDialerConfigProperty.Builder.() -> Unit):
+    CfnCampaign.PredictiveDialerConfigProperty.Builder.() -> Unit = {}):
     CfnCampaign.PredictiveDialerConfigProperty =
     CfnCampaign.PredictiveDialerConfigProperty.Builder().apply(initializer).build()

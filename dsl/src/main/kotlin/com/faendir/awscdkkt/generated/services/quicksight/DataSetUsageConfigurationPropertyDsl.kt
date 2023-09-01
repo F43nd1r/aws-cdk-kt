@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
 public fun buildDataSetUsageConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSet.DataSetUsageConfigurationProperty.Builder.() -> Unit):
+    CfnDataSet.DataSetUsageConfigurationProperty.Builder.() -> Unit = {}):
     CfnDataSet.DataSetUsageConfigurationProperty =
     CfnDataSet.DataSetUsageConfigurationProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
 public fun buildDataPointTooltipOptionProperty(initializer: @AwsCdkDsl
-    CfnDashboard.DataPointTooltipOptionProperty.Builder.() -> Unit):
+    CfnDashboard.DataPointTooltipOptionProperty.Builder.() -> Unit = {}):
     CfnDashboard.DataPointTooltipOptionProperty =
     CfnDashboard.DataPointTooltipOptionProperty.Builder().apply(initializer).build()

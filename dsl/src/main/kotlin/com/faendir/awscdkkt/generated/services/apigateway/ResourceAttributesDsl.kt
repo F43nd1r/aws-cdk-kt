@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.ResourceAttributes
 
 @Generated
-public fun buildResourceAttributes(initializer: @AwsCdkDsl ResourceAttributes.Builder.() -> Unit):
-    ResourceAttributes = ResourceAttributes.Builder().apply(initializer).build()
+public fun buildResourceAttributes(initializer: @AwsCdkDsl ResourceAttributes.Builder.() -> Unit =
+    {}): ResourceAttributes = ResourceAttributes.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
 public fun buildObjectLockRuleProperty(initializer: @AwsCdkDsl
-    CfnBucket.ObjectLockRuleProperty.Builder.() -> Unit): CfnBucket.ObjectLockRuleProperty =
+    CfnBucket.ObjectLockRuleProperty.Builder.() -> Unit = {}): CfnBucket.ObjectLockRuleProperty =
     CfnBucket.ObjectLockRuleProperty.Builder().apply(initializer).build()

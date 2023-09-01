@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.logs.LogRetentionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.logRetention(id: String, props: LogRetentionProps): LogRetention =
-    LogRetention(this, id, props)
-
-@Generated
 public fun Construct.logRetention(
   id: String,
   props: LogRetentionProps,
-  initializer: @AwsCdkDsl LogRetention.() -> Unit,
+  initializer: @AwsCdkDsl LogRetention.() -> Unit = {},
 ): LogRetention = LogRetention(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildLogRetention(id: String, initializer: @AwsCdkDsl
-    LogRetention.Builder.() -> Unit): LogRetention = LogRetention.Builder.create(this,
+    LogRetention.Builder.() -> Unit = {}): LogRetention = LogRetention.Builder.create(this,
     id).apply(initializer).build()

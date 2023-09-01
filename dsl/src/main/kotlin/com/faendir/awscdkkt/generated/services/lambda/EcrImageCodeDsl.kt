@@ -8,5 +8,5 @@ import software.amazon.awscdk.services.lambda.EcrImageCode
 
 @Generated
 public fun buildEcrImageCode(repository: IRepository, initializer: @AwsCdkDsl
-    EcrImageCode.Builder.() -> Unit): EcrImageCode =
+    EcrImageCode.Builder.() -> Unit = {}): EcrImageCode =
     EcrImageCode.Builder.create(repository).apply(initializer).build()

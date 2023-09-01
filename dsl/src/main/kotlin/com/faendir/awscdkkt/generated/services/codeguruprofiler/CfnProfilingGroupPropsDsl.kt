@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codeguruprofiler.CfnProfilingGroupProps
 
 @Generated
 public fun buildCfnProfilingGroupProps(initializer: @AwsCdkDsl
-    CfnProfilingGroupProps.Builder.() -> Unit): CfnProfilingGroupProps =
+    CfnProfilingGroupProps.Builder.() -> Unit = {}): CfnProfilingGroupProps =
     CfnProfilingGroupProps.Builder().apply(initializer).build()

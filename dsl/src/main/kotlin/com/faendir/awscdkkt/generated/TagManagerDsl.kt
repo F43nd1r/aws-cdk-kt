@@ -12,7 +12,7 @@ import software.amazon.awscdk.TagType
 public fun buildTagManager(
   tagType: TagType,
   resourceTypeName: String,
-  initializer: @AwsCdkDsl TagManager.Builder.() -> Unit,
+  initializer: @AwsCdkDsl TagManager.Builder.() -> Unit = {},
 ): TagManager = TagManager.Builder.create(tagType, resourceTypeName).apply(initializer).build()
 
 @Generated
@@ -20,6 +20,6 @@ public fun buildTagManager(
   tagType: TagType,
   resourceTypeName: String,
   initialTags: Any,
-  initializer: @AwsCdkDsl TagManager.Builder.() -> Unit,
+  initializer: @AwsCdkDsl TagManager.Builder.() -> Unit = {},
 ): TagManager = TagManager.Builder.create(tagType, resourceTypeName,
     initialTags).apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.VirtualGatewayProps
 
 @Generated
-public fun buildVirtualGatewayProps(initializer: @AwsCdkDsl VirtualGatewayProps.Builder.() -> Unit):
-    VirtualGatewayProps = VirtualGatewayProps.Builder().apply(initializer).build()
+public fun buildVirtualGatewayProps(initializer: @AwsCdkDsl VirtualGatewayProps.Builder.() -> Unit =
+    {}): VirtualGatewayProps = VirtualGatewayProps.Builder().apply(initializer).build()

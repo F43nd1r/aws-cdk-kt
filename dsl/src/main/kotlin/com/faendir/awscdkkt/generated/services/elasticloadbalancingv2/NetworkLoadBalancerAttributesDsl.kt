@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.NetworkLoadBalance
 
 @Generated
 public fun buildNetworkLoadBalancerAttributes(initializer: @AwsCdkDsl
-    NetworkLoadBalancerAttributes.Builder.() -> Unit): NetworkLoadBalancerAttributes =
+    NetworkLoadBalancerAttributes.Builder.() -> Unit = {}): NetworkLoadBalancerAttributes =
     NetworkLoadBalancerAttributes.Builder().apply(initializer).build()

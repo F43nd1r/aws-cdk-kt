@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
 public fun buildKeyValuePairProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.KeyValuePairProperty.Builder.() -> Unit):
+    CfnTaskDefinition.KeyValuePairProperty.Builder.() -> Unit = {}):
     CfnTaskDefinition.KeyValuePairProperty =
     CfnTaskDefinition.KeyValuePairProperty.Builder().apply(initializer).build()

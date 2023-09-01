@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.elasticache.CfnGlobalReplicationGroupProp
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnGlobalReplicationGroup(id: String, props: CfnGlobalReplicationGroupProps):
-    CfnGlobalReplicationGroup = CfnGlobalReplicationGroup(this, id, props)
-
-@Generated
 public fun Construct.cfnGlobalReplicationGroup(
   id: String,
   props: CfnGlobalReplicationGroupProps,
-  initializer: @AwsCdkDsl CfnGlobalReplicationGroup.() -> Unit,
+  initializer: @AwsCdkDsl CfnGlobalReplicationGroup.() -> Unit = {},
 ): CfnGlobalReplicationGroup = CfnGlobalReplicationGroup(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnGlobalReplicationGroup(id: String, initializer: @AwsCdkDsl
-    CfnGlobalReplicationGroup.Builder.() -> Unit): CfnGlobalReplicationGroup =
+    CfnGlobalReplicationGroup.Builder.() -> Unit = {}): CfnGlobalReplicationGroup =
     CfnGlobalReplicationGroup.Builder.create(this, id).apply(initializer).build()

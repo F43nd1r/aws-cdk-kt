@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lakeformation.CfnPrincipalPermissionsProp
 
 @Generated
 public fun buildCfnPrincipalPermissionsProps(initializer: @AwsCdkDsl
-    CfnPrincipalPermissionsProps.Builder.() -> Unit): CfnPrincipalPermissionsProps =
+    CfnPrincipalPermissionsProps.Builder.() -> Unit = {}): CfnPrincipalPermissionsProps =
     CfnPrincipalPermissionsProps.Builder().apply(initializer).build()

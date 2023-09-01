@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.MultipartUserDataOptions
 
 @Generated
 public fun buildMultipartUserDataOptions(initializer: @AwsCdkDsl
-    MultipartUserDataOptions.Builder.() -> Unit): MultipartUserDataOptions =
+    MultipartUserDataOptions.Builder.() -> Unit = {}): MultipartUserDataOptions =
     MultipartUserDataOptions.Builder().apply(initializer).build()

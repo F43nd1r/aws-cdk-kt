@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sagemaker.CfnModelCard
 
 @Generated
 public fun buildModelOverviewProperty(initializer: @AwsCdkDsl
-    CfnModelCard.ModelOverviewProperty.Builder.() -> Unit): CfnModelCard.ModelOverviewProperty =
-    CfnModelCard.ModelOverviewProperty.Builder().apply(initializer).build()
+    CfnModelCard.ModelOverviewProperty.Builder.() -> Unit = {}): CfnModelCard.ModelOverviewProperty
+    = CfnModelCard.ModelOverviewProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnFeatureGroup
 
 @Generated
 public fun buildOnlineStoreConfigProperty(initializer: @AwsCdkDsl
-    CfnFeatureGroup.OnlineStoreConfigProperty.Builder.() -> Unit):
+    CfnFeatureGroup.OnlineStoreConfigProperty.Builder.() -> Unit = {}):
     CfnFeatureGroup.OnlineStoreConfigProperty =
     CfnFeatureGroup.OnlineStoreConfigProperty.Builder().apply(initializer).build()

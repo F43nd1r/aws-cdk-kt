@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.datasync.CfnLocationFSxWindowsProps
 
 @Generated
 public fun buildCfnLocationFSxWindowsProps(initializer: @AwsCdkDsl
-    CfnLocationFSxWindowsProps.Builder.() -> Unit): CfnLocationFSxWindowsProps =
+    CfnLocationFSxWindowsProps.Builder.() -> Unit = {}): CfnLocationFSxWindowsProps =
     CfnLocationFSxWindowsProps.Builder().apply(initializer).build()

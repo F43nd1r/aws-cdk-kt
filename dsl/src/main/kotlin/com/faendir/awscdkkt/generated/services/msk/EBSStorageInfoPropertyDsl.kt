@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.msk.CfnCluster
 
 @Generated
 public fun buildEBSStorageInfoProperty(initializer: @AwsCdkDsl
-    CfnCluster.EBSStorageInfoProperty.Builder.() -> Unit): CfnCluster.EBSStorageInfoProperty =
+    CfnCluster.EBSStorageInfoProperty.Builder.() -> Unit = {}): CfnCluster.EBSStorageInfoProperty =
     CfnCluster.EBSStorageInfoProperty.Builder().apply(initializer).build()

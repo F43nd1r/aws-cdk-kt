@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.amplifyuibuilder.CfnForm
 
 @Generated
 public fun buildFormInputValuePropertyProperty(initializer: @AwsCdkDsl
-    CfnForm.FormInputValuePropertyProperty.Builder.() -> Unit):
+    CfnForm.FormInputValuePropertyProperty.Builder.() -> Unit = {}):
     CfnForm.FormInputValuePropertyProperty =
     CfnForm.FormInputValuePropertyProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildIntegerValueWhenUnsetConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.IntegerValueWhenUnsetConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.IntegerValueWhenUnsetConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.IntegerValueWhenUnsetConfigurationProperty =
     CfnTemplate.IntegerValueWhenUnsetConfigurationProperty.Builder().apply(initializer).build()

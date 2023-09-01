@@ -9,18 +9,13 @@ import software.amazon.awscdk.services.stepfunctions.tasks.CallApiGatewayHttpApi
 import software.constructs.Construct
 
 @Generated
-public fun Construct.callApiGatewayHttpApiEndpoint(id: String,
-    props: CallApiGatewayHttpApiEndpointProps): CallApiGatewayHttpApiEndpoint =
-    CallApiGatewayHttpApiEndpoint(this, id, props)
-
-@Generated
 public fun Construct.callApiGatewayHttpApiEndpoint(
   id: String,
   props: CallApiGatewayHttpApiEndpointProps,
-  initializer: @AwsCdkDsl CallApiGatewayHttpApiEndpoint.() -> Unit,
+  initializer: @AwsCdkDsl CallApiGatewayHttpApiEndpoint.() -> Unit = {},
 ): CallApiGatewayHttpApiEndpoint = CallApiGatewayHttpApiEndpoint(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCallApiGatewayHttpApiEndpoint(id: String, initializer: @AwsCdkDsl
-    CallApiGatewayHttpApiEndpoint.Builder.() -> Unit): CallApiGatewayHttpApiEndpoint =
+    CallApiGatewayHttpApiEndpoint.Builder.() -> Unit = {}): CallApiGatewayHttpApiEndpoint =
     CallApiGatewayHttpApiEndpoint.Builder.create(this, id).apply(initializer).build()

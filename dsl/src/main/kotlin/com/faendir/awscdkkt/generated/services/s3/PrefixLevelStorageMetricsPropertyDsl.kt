@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.s3.CfnStorageLens
 
 @Generated
 public fun buildPrefixLevelStorageMetricsProperty(initializer: @AwsCdkDsl
-    CfnStorageLens.PrefixLevelStorageMetricsProperty.Builder.() -> Unit):
+    CfnStorageLens.PrefixLevelStorageMetricsProperty.Builder.() -> Unit = {}):
     CfnStorageLens.PrefixLevelStorageMetricsProperty =
     CfnStorageLens.PrefixLevelStorageMetricsProperty.Builder().apply(initializer).build()

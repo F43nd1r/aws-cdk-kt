@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.devopsguru.CfnResourceCollection
 
 @Generated
 public fun buildTagCollectionProperty(initializer: @AwsCdkDsl
-    CfnResourceCollection.TagCollectionProperty.Builder.() -> Unit):
+    CfnResourceCollection.TagCollectionProperty.Builder.() -> Unit = {}):
     CfnResourceCollection.TagCollectionProperty =
     CfnResourceCollection.TagCollectionProperty.Builder().apply(initializer).build()

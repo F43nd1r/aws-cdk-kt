@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.rum.CfnAppMonitor
 
 @Generated
 public fun buildCustomEventsProperty(initializer: @AwsCdkDsl
-    CfnAppMonitor.CustomEventsProperty.Builder.() -> Unit): CfnAppMonitor.CustomEventsProperty =
-    CfnAppMonitor.CustomEventsProperty.Builder().apply(initializer).build()
+    CfnAppMonitor.CustomEventsProperty.Builder.() -> Unit = {}): CfnAppMonitor.CustomEventsProperty
+    = CfnAppMonitor.CustomEventsProperty.Builder().apply(initializer).build()

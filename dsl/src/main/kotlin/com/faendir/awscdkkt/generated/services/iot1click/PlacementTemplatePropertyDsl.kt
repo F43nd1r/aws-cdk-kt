@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.iot1click.CfnProject
 
 @Generated
 public fun buildPlacementTemplateProperty(initializer: @AwsCdkDsl
-    CfnProject.PlacementTemplateProperty.Builder.() -> Unit): CfnProject.PlacementTemplateProperty =
+    CfnProject.PlacementTemplateProperty.Builder.() -> Unit = {}):
+    CfnProject.PlacementTemplateProperty =
     CfnProject.PlacementTemplateProperty.Builder().apply(initializer).build()

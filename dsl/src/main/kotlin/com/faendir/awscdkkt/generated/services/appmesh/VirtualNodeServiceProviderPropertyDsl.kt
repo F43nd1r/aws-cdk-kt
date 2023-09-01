@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appmesh.CfnVirtualService
 
 @Generated
 public fun buildVirtualNodeServiceProviderProperty(initializer: @AwsCdkDsl
-    CfnVirtualService.VirtualNodeServiceProviderProperty.Builder.() -> Unit):
+    CfnVirtualService.VirtualNodeServiceProviderProperty.Builder.() -> Unit = {}):
     CfnVirtualService.VirtualNodeServiceProviderProperty =
     CfnVirtualService.VirtualNodeServiceProviderProperty.Builder().apply(initializer).build()

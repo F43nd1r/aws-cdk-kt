@@ -7,5 +7,5 @@ import software.amazon.awscdk.cloudassembly.schema.ContainerImageAssetCacheOptio
 
 @Generated
 public fun buildContainerImageAssetCacheOption(initializer: @AwsCdkDsl
-    ContainerImageAssetCacheOption.Builder.() -> Unit): ContainerImageAssetCacheOption =
+    ContainerImageAssetCacheOption.Builder.() -> Unit = {}): ContainerImageAssetCacheOption =
     ContainerImageAssetCacheOption.Builder().apply(initializer).build()

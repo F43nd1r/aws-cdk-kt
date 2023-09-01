@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
 public fun buildEcsEnvironmentVariableProperty(initializer: @AwsCdkDsl
-    CfnPipe.EcsEnvironmentVariableProperty.Builder.() -> Unit):
+    CfnPipe.EcsEnvironmentVariableProperty.Builder.() -> Unit = {}):
     CfnPipe.EcsEnvironmentVariableProperty =
     CfnPipe.EcsEnvironmentVariableProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.autoscaling.CfnScheduledActionProps
 
 @Generated
 public fun buildCfnScheduledActionProps(initializer: @AwsCdkDsl
-    CfnScheduledActionProps.Builder.() -> Unit): CfnScheduledActionProps =
+    CfnScheduledActionProps.Builder.() -> Unit = {}): CfnScheduledActionProps =
     CfnScheduledActionProps.Builder().apply(initializer).build()

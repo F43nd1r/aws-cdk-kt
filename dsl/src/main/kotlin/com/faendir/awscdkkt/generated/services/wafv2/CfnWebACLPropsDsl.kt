@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnWebACLProps
 
 @Generated
-public fun buildCfnWebACLProps(initializer: @AwsCdkDsl CfnWebACLProps.Builder.() -> Unit):
+public fun buildCfnWebACLProps(initializer: @AwsCdkDsl CfnWebACLProps.Builder.() -> Unit = {}):
     CfnWebACLProps = CfnWebACLProps.Builder().apply(initializer).build()

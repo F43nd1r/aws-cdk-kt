@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
 public fun buildEphemeralStorageProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.EphemeralStorageProperty.Builder.() -> Unit):
+    CfnTaskDefinition.EphemeralStorageProperty.Builder.() -> Unit = {}):
     CfnTaskDefinition.EphemeralStorageProperty =
     CfnTaskDefinition.EphemeralStorageProperty.Builder().apply(initializer).build()

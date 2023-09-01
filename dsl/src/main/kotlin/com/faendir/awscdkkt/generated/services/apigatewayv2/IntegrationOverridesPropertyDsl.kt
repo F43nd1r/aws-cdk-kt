@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.apigatewayv2.CfnApiGatewayManagedOverride
 
 @Generated
 public fun buildIntegrationOverridesProperty(initializer: @AwsCdkDsl
-    CfnApiGatewayManagedOverrides.IntegrationOverridesProperty.Builder.() -> Unit):
+    CfnApiGatewayManagedOverrides.IntegrationOverridesProperty.Builder.() -> Unit = {}):
     CfnApiGatewayManagedOverrides.IntegrationOverridesProperty =
     CfnApiGatewayManagedOverrides.IntegrationOverridesProperty.Builder().apply(initializer).build()

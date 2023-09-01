@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.AlarmStatusWidget
 
 @Generated
-public fun buildAlarmStatusWidget(initializer: @AwsCdkDsl AlarmStatusWidget.Builder.() -> Unit):
-    AlarmStatusWidget = AlarmStatusWidget.Builder.create().apply(initializer).build()
+public fun buildAlarmStatusWidget(initializer: @AwsCdkDsl AlarmStatusWidget.Builder.() -> Unit =
+    {}): AlarmStatusWidget = AlarmStatusWidget.Builder.create().apply(initializer).build()

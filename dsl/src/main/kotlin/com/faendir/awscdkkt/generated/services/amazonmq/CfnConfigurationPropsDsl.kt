@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.amazonmq.CfnConfigurationProps
 
 @Generated
 public fun buildCfnConfigurationProps(initializer: @AwsCdkDsl
-    CfnConfigurationProps.Builder.() -> Unit): CfnConfigurationProps =
+    CfnConfigurationProps.Builder.() -> Unit = {}): CfnConfigurationProps =
     CfnConfigurationProps.Builder().apply(initializer).build()

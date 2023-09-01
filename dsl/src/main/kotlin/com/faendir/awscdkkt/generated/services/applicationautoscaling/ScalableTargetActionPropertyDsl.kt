@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.applicationautoscaling.CfnScalableTarget
 
 @Generated
 public fun buildScalableTargetActionProperty(initializer: @AwsCdkDsl
-    CfnScalableTarget.ScalableTargetActionProperty.Builder.() -> Unit):
+    CfnScalableTarget.ScalableTargetActionProperty.Builder.() -> Unit = {}):
     CfnScalableTarget.ScalableTargetActionProperty =
     CfnScalableTarget.ScalableTargetActionProperty.Builder().apply(initializer).build()

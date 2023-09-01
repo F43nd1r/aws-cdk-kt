@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
 public fun buildDateTimeParameterProperty(initializer: @AwsCdkDsl
-    CfnDashboard.DateTimeParameterProperty.Builder.() -> Unit):
+    CfnDashboard.DateTimeParameterProperty.Builder.() -> Unit = {}):
     CfnDashboard.DateTimeParameterProperty =
     CfnDashboard.DateTimeParameterProperty.Builder().apply(initializer).build()

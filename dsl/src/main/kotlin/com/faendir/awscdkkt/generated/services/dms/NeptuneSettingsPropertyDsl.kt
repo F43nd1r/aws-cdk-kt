@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.dms.CfnEndpoint
 
 @Generated
 public fun buildNeptuneSettingsProperty(initializer: @AwsCdkDsl
-    CfnEndpoint.NeptuneSettingsProperty.Builder.() -> Unit): CfnEndpoint.NeptuneSettingsProperty =
+    CfnEndpoint.NeptuneSettingsProperty.Builder.() -> Unit = {}):
+    CfnEndpoint.NeptuneSettingsProperty =
     CfnEndpoint.NeptuneSettingsProperty.Builder().apply(initializer).build()

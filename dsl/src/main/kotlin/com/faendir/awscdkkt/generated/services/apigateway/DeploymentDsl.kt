@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.apigateway.DeploymentProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.deployment(id: String, props: DeploymentProps): Deployment = Deployment(this,
-    id, props)
-
-@Generated
 public fun Construct.deployment(
   id: String,
   props: DeploymentProps,
-  initializer: @AwsCdkDsl Deployment.() -> Unit,
+  initializer: @AwsCdkDsl Deployment.() -> Unit = {},
 ): Deployment = Deployment(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildDeployment(id: String, initializer: @AwsCdkDsl
-    Deployment.Builder.() -> Unit): Deployment = Deployment.Builder.create(this,
+    Deployment.Builder.() -> Unit = {}): Deployment = Deployment.Builder.create(this,
     id).apply(initializer).build()

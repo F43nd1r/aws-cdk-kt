@@ -8,5 +8,5 @@ import software.amazon.awscdk.pipelines.ManualApprovalStep
 
 @Generated
 public fun buildManualApprovalStep(id: String, initializer: @AwsCdkDsl
-    ManualApprovalStep.Builder.() -> Unit): ManualApprovalStep =
+    ManualApprovalStep.Builder.() -> Unit = {}): ManualApprovalStep =
     ManualApprovalStep.Builder.create(id).apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplateProps
 
 @Generated
-public fun buildCfnTemplateProps(initializer: @AwsCdkDsl CfnTemplateProps.Builder.() -> Unit):
+public fun buildCfnTemplateProps(initializer: @AwsCdkDsl CfnTemplateProps.Builder.() -> Unit = {}):
     CfnTemplateProps = CfnTemplateProps.Builder().apply(initializer).build()

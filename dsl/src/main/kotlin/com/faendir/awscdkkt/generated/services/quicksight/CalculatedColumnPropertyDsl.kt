@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
 public fun buildCalculatedColumnProperty(initializer: @AwsCdkDsl
-    CfnDataSet.CalculatedColumnProperty.Builder.() -> Unit): CfnDataSet.CalculatedColumnProperty =
+    CfnDataSet.CalculatedColumnProperty.Builder.() -> Unit = {}):
+    CfnDataSet.CalculatedColumnProperty =
     CfnDataSet.CalculatedColumnProperty.Builder().apply(initializer).build()

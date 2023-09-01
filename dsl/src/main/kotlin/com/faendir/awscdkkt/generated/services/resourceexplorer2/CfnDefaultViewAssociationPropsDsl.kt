@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.resourceexplorer2.CfnDefaultViewAssociati
 
 @Generated
 public fun buildCfnDefaultViewAssociationProps(initializer: @AwsCdkDsl
-    CfnDefaultViewAssociationProps.Builder.() -> Unit): CfnDefaultViewAssociationProps =
+    CfnDefaultViewAssociationProps.Builder.() -> Unit = {}): CfnDefaultViewAssociationProps =
     CfnDefaultViewAssociationProps.Builder().apply(initializer).build()

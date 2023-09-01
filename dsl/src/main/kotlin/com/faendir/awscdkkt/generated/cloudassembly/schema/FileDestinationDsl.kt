@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.cloudassembly.schema.FileDestination
 
 @Generated
-public fun buildFileDestination(initializer: @AwsCdkDsl FileDestination.Builder.() -> Unit):
+public fun buildFileDestination(initializer: @AwsCdkDsl FileDestination.Builder.() -> Unit = {}):
     FileDestination = FileDestination.Builder().apply(initializer).build()

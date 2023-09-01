@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.route53recoveryreadiness.CfnRecoveryGroup
 
 @Generated
 public fun buildCfnRecoveryGroupProps(initializer: @AwsCdkDsl
-    CfnRecoveryGroupProps.Builder.() -> Unit): CfnRecoveryGroupProps =
+    CfnRecoveryGroupProps.Builder.() -> Unit = {}): CfnRecoveryGroupProps =
     CfnRecoveryGroupProps.Builder().apply(initializer).build()

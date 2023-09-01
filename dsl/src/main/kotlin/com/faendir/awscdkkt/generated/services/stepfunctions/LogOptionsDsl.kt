@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.LogOptions
 
 @Generated
-public fun buildLogOptions(initializer: @AwsCdkDsl LogOptions.Builder.() -> Unit): LogOptions =
+public fun buildLogOptions(initializer: @AwsCdkDsl LogOptions.Builder.() -> Unit = {}): LogOptions =
     LogOptions.Builder().apply(initializer).build()

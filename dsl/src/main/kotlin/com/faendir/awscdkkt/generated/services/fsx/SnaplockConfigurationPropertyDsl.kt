@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.fsx.CfnVolume
 
 @Generated
 public fun buildSnaplockConfigurationProperty(initializer: @AwsCdkDsl
-    CfnVolume.SnaplockConfigurationProperty.Builder.() -> Unit):
+    CfnVolume.SnaplockConfigurationProperty.Builder.() -> Unit = {}):
     CfnVolume.SnaplockConfigurationProperty =
     CfnVolume.SnaplockConfigurationProperty.Builder().apply(initializer).build()

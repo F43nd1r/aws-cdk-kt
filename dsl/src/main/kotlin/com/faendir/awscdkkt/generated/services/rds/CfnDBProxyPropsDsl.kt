@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.CfnDBProxyProps
 
 @Generated
-public fun buildCfnDBProxyProps(initializer: @AwsCdkDsl CfnDBProxyProps.Builder.() -> Unit):
+public fun buildCfnDBProxyProps(initializer: @AwsCdkDsl CfnDBProxyProps.Builder.() -> Unit = {}):
     CfnDBProxyProps = CfnDBProxyProps.Builder().apply(initializer).build()

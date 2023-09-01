@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticbeanstalk.CfnApplicationVersionPro
 
 @Generated
 public fun buildCfnApplicationVersionProps(initializer: @AwsCdkDsl
-    CfnApplicationVersionProps.Builder.() -> Unit): CfnApplicationVersionProps =
+    CfnApplicationVersionProps.Builder.() -> Unit = {}): CfnApplicationVersionProps =
     CfnApplicationVersionProps.Builder().apply(initializer).build()

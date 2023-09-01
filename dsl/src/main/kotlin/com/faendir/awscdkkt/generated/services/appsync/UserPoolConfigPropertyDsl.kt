@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.appsync.CfnGraphQLApi
 
 @Generated
 public fun buildUserPoolConfigProperty(initializer: @AwsCdkDsl
-    CfnGraphQLApi.UserPoolConfigProperty.Builder.() -> Unit): CfnGraphQLApi.UserPoolConfigProperty =
+    CfnGraphQLApi.UserPoolConfigProperty.Builder.() -> Unit = {}):
+    CfnGraphQLApi.UserPoolConfigProperty =
     CfnGraphQLApi.UserPoolConfigProperty.Builder().apply(initializer).build()

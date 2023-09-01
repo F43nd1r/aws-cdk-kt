@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.dlm.CfnLifecyclePolicyProps
 
 @Generated
 public fun buildCfnLifecyclePolicyProps(initializer: @AwsCdkDsl
-    CfnLifecyclePolicyProps.Builder.() -> Unit): CfnLifecyclePolicyProps =
+    CfnLifecyclePolicyProps.Builder.() -> Unit = {}): CfnLifecyclePolicyProps =
     CfnLifecyclePolicyProps.Builder().apply(initializer).build()

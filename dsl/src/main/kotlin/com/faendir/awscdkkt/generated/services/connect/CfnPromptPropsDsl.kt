@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnPromptProps
 
 @Generated
-public fun buildCfnPromptProps(initializer: @AwsCdkDsl CfnPromptProps.Builder.() -> Unit):
+public fun buildCfnPromptProps(initializer: @AwsCdkDsl CfnPromptProps.Builder.() -> Unit = {}):
     CfnPromptProps = CfnPromptProps.Builder().apply(initializer).build()

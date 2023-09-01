@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelPackage
 
 @Generated
 public fun buildTransformResourcesProperty(initializer: @AwsCdkDsl
-    CfnModelPackage.TransformResourcesProperty.Builder.() -> Unit):
+    CfnModelPackage.TransformResourcesProperty.Builder.() -> Unit = {}):
     CfnModelPackage.TransformResourcesProperty =
     CfnModelPackage.TransformResourcesProperty.Builder().apply(initializer).build()

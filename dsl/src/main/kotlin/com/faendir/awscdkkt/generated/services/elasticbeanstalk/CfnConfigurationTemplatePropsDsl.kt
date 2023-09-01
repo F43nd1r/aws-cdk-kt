@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticbeanstalk.CfnConfigurationTemplate
 
 @Generated
 public fun buildCfnConfigurationTemplateProps(initializer: @AwsCdkDsl
-    CfnConfigurationTemplateProps.Builder.() -> Unit): CfnConfigurationTemplateProps =
+    CfnConfigurationTemplateProps.Builder.() -> Unit = {}): CfnConfigurationTemplateProps =
     CfnConfigurationTemplateProps.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.lightsail.CfnInstance
 
 @Generated
 public fun buildAutoSnapshotAddOnProperty(initializer: @AwsCdkDsl
-    CfnInstance.AutoSnapshotAddOnProperty.Builder.() -> Unit): CfnInstance.AutoSnapshotAddOnProperty
-    = CfnInstance.AutoSnapshotAddOnProperty.Builder().apply(initializer).build()
+    CfnInstance.AutoSnapshotAddOnProperty.Builder.() -> Unit = {}):
+    CfnInstance.AutoSnapshotAddOnProperty =
+    CfnInstance.AutoSnapshotAddOnProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.servicecatalog.TemplateRuleAssertion
 
 @Generated
 public fun buildTemplateRuleAssertion(initializer: @AwsCdkDsl
-    TemplateRuleAssertion.Builder.() -> Unit): TemplateRuleAssertion =
+    TemplateRuleAssertion.Builder.() -> Unit = {}): TemplateRuleAssertion =
     TemplateRuleAssertion.Builder().apply(initializer).build()

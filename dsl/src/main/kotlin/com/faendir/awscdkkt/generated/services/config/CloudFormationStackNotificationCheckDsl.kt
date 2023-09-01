@@ -9,28 +9,20 @@ import software.amazon.awscdk.services.config.CloudFormationStackNotificationChe
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cloudFormationStackNotificationCheck(id: String):
-    CloudFormationStackNotificationCheck = CloudFormationStackNotificationCheck(this, id)
-
-@Generated
 public fun Construct.cloudFormationStackNotificationCheck(id: String, initializer: @AwsCdkDsl
-    CloudFormationStackNotificationCheck.() -> Unit): CloudFormationStackNotificationCheck =
+    CloudFormationStackNotificationCheck.() -> Unit = {}): CloudFormationStackNotificationCheck =
     CloudFormationStackNotificationCheck(this, id).apply(initializer)
-
-@Generated
-public fun Construct.cloudFormationStackNotificationCheck(id: String,
-    props: CloudFormationStackNotificationCheckProps): CloudFormationStackNotificationCheck =
-    CloudFormationStackNotificationCheck(this, id, props)
 
 @Generated
 public fun Construct.cloudFormationStackNotificationCheck(
   id: String,
   props: CloudFormationStackNotificationCheckProps,
-  initializer: @AwsCdkDsl CloudFormationStackNotificationCheck.() -> Unit,
+  initializer: @AwsCdkDsl CloudFormationStackNotificationCheck.() -> Unit = {},
 ): CloudFormationStackNotificationCheck = CloudFormationStackNotificationCheck(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildCloudFormationStackNotificationCheck(id: String, initializer: @AwsCdkDsl
-    CloudFormationStackNotificationCheck.Builder.() -> Unit): CloudFormationStackNotificationCheck =
-    CloudFormationStackNotificationCheck.Builder.create(this, id).apply(initializer).build()
+    CloudFormationStackNotificationCheck.Builder.() -> Unit = {}):
+    CloudFormationStackNotificationCheck = CloudFormationStackNotificationCheck.Builder.create(this,
+    id).apply(initializer).build()

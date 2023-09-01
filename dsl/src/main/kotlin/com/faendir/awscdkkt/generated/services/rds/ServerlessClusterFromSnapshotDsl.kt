@@ -9,18 +9,13 @@ import software.amazon.awscdk.services.rds.ServerlessClusterFromSnapshotProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.serverlessClusterFromSnapshot(id: String,
-    props: ServerlessClusterFromSnapshotProps): ServerlessClusterFromSnapshot =
-    ServerlessClusterFromSnapshot(this, id, props)
-
-@Generated
 public fun Construct.serverlessClusterFromSnapshot(
   id: String,
   props: ServerlessClusterFromSnapshotProps,
-  initializer: @AwsCdkDsl ServerlessClusterFromSnapshot.() -> Unit,
+  initializer: @AwsCdkDsl ServerlessClusterFromSnapshot.() -> Unit = {},
 ): ServerlessClusterFromSnapshot = ServerlessClusterFromSnapshot(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildServerlessClusterFromSnapshot(id: String, initializer: @AwsCdkDsl
-    ServerlessClusterFromSnapshot.Builder.() -> Unit): ServerlessClusterFromSnapshot =
+    ServerlessClusterFromSnapshot.Builder.() -> Unit = {}): ServerlessClusterFromSnapshot =
     ServerlessClusterFromSnapshot.Builder.create(this, id).apply(initializer).build()

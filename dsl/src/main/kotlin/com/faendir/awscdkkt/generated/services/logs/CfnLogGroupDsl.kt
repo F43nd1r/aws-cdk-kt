@@ -9,24 +9,17 @@ import software.amazon.awscdk.services.logs.CfnLogGroupProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnLogGroup(id: String): CfnLogGroup = CfnLogGroup(this, id)
-
-@Generated
-public fun Construct.cfnLogGroup(id: String, initializer: @AwsCdkDsl CfnLogGroup.() -> Unit):
+public fun Construct.cfnLogGroup(id: String, initializer: @AwsCdkDsl CfnLogGroup.() -> Unit = {}):
     CfnLogGroup = CfnLogGroup(this, id).apply(initializer)
-
-@Generated
-public fun Construct.cfnLogGroup(id: String, props: CfnLogGroupProps): CfnLogGroup =
-    CfnLogGroup(this, id, props)
 
 @Generated
 public fun Construct.cfnLogGroup(
   id: String,
   props: CfnLogGroupProps,
-  initializer: @AwsCdkDsl CfnLogGroup.() -> Unit,
+  initializer: @AwsCdkDsl CfnLogGroup.() -> Unit = {},
 ): CfnLogGroup = CfnLogGroup(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnLogGroup(id: String, initializer: @AwsCdkDsl
-    CfnLogGroup.Builder.() -> Unit): CfnLogGroup = CfnLogGroup.Builder.create(this,
+    CfnLogGroup.Builder.() -> Unit = {}): CfnLogGroup = CfnLogGroup.Builder.create(this,
     id).apply(initializer).build()

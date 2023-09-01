@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.pinpoint.CfnPushTemplate
 
 @Generated
 public fun buildDefaultPushNotificationTemplateProperty(initializer: @AwsCdkDsl
-    CfnPushTemplate.DefaultPushNotificationTemplateProperty.Builder.() -> Unit):
+    CfnPushTemplate.DefaultPushNotificationTemplateProperty.Builder.() -> Unit = {}):
     CfnPushTemplate.DefaultPushNotificationTemplateProperty =
     CfnPushTemplate.DefaultPushNotificationTemplateProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecr.CfnReplicationConfigurationProps
 
 @Generated
 public fun buildCfnReplicationConfigurationProps(initializer: @AwsCdkDsl
-    CfnReplicationConfigurationProps.Builder.() -> Unit): CfnReplicationConfigurationProps =
+    CfnReplicationConfigurationProps.Builder.() -> Unit = {}): CfnReplicationConfigurationProps =
     CfnReplicationConfigurationProps.Builder().apply(initializer).build()

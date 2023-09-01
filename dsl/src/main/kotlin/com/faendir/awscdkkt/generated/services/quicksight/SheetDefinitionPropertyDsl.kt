@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildSheetDefinitionProperty(initializer: @AwsCdkDsl
-    CfnTemplate.SheetDefinitionProperty.Builder.() -> Unit): CfnTemplate.SheetDefinitionProperty =
+    CfnTemplate.SheetDefinitionProperty.Builder.() -> Unit = {}):
+    CfnTemplate.SheetDefinitionProperty =
     CfnTemplate.SheetDefinitionProperty.Builder().apply(initializer).build()

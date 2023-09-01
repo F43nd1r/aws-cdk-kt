@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.Host
 
 @Generated
-public fun buildHost(initializer: @AwsCdkDsl Host.Builder.() -> Unit): Host =
+public fun buildHost(initializer: @AwsCdkDsl Host.Builder.() -> Unit = {}): Host =
     Host.Builder().apply(initializer).build()

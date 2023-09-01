@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.servicediscovery.NonIpInstanceBaseProps
 
 @Generated
 public fun buildNonIpInstanceBaseProps(initializer: @AwsCdkDsl
-    NonIpInstanceBaseProps.Builder.() -> Unit): NonIpInstanceBaseProps =
+    NonIpInstanceBaseProps.Builder.() -> Unit = {}): NonIpInstanceBaseProps =
     NonIpInstanceBaseProps.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.robomaker.CfnRobotApplicationVersionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnRobotApplicationVersion(id: String, props: CfnRobotApplicationVersionProps):
-    CfnRobotApplicationVersion = CfnRobotApplicationVersion(this, id, props)
-
-@Generated
 public fun Construct.cfnRobotApplicationVersion(
   id: String,
   props: CfnRobotApplicationVersionProps,
-  initializer: @AwsCdkDsl CfnRobotApplicationVersion.() -> Unit,
+  initializer: @AwsCdkDsl CfnRobotApplicationVersion.() -> Unit = {},
 ): CfnRobotApplicationVersion = CfnRobotApplicationVersion(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnRobotApplicationVersion(id: String, initializer: @AwsCdkDsl
-    CfnRobotApplicationVersion.Builder.() -> Unit): CfnRobotApplicationVersion =
+    CfnRobotApplicationVersion.Builder.() -> Unit = {}): CfnRobotApplicationVersion =
     CfnRobotApplicationVersion.Builder.create(this, id).apply(initializer).build()

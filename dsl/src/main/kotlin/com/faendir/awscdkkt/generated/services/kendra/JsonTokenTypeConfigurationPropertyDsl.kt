@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kendra.CfnIndex
 
 @Generated
 public fun buildJsonTokenTypeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnIndex.JsonTokenTypeConfigurationProperty.Builder.() -> Unit):
+    CfnIndex.JsonTokenTypeConfigurationProperty.Builder.() -> Unit = {}):
     CfnIndex.JsonTokenTypeConfigurationProperty =
     CfnIndex.JsonTokenTypeConfigurationProperty.Builder().apply(initializer).build()

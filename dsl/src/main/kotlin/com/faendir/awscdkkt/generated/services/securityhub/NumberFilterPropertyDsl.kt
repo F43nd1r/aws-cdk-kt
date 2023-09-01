@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.securityhub.CfnAutomationRule
 
 @Generated
 public fun buildNumberFilterProperty(initializer: @AwsCdkDsl
-    CfnAutomationRule.NumberFilterProperty.Builder.() -> Unit):
+    CfnAutomationRule.NumberFilterProperty.Builder.() -> Unit = {}):
     CfnAutomationRule.NumberFilterProperty =
     CfnAutomationRule.NumberFilterProperty.Builder().apply(initializer).build()

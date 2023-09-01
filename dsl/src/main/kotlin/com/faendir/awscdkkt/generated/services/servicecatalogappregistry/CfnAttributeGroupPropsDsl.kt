@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.servicecatalogappregistry.CfnAttributeGro
 
 @Generated
 public fun buildCfnAttributeGroupProps(initializer: @AwsCdkDsl
-    CfnAttributeGroupProps.Builder.() -> Unit): CfnAttributeGroupProps =
+    CfnAttributeGroupProps.Builder.() -> Unit = {}): CfnAttributeGroupProps =
     CfnAttributeGroupProps.Builder().apply(initializer).build()

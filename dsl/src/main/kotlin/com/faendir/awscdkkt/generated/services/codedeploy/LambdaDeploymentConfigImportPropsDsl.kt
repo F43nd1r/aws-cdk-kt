@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codedeploy.LambdaDeploymentConfigImportPr
 
 @Generated
 public fun buildLambdaDeploymentConfigImportProps(initializer: @AwsCdkDsl
-    LambdaDeploymentConfigImportProps.Builder.() -> Unit): LambdaDeploymentConfigImportProps =
+    LambdaDeploymentConfigImportProps.Builder.() -> Unit = {}): LambdaDeploymentConfigImportProps =
     LambdaDeploymentConfigImportProps.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.FargateTaskDefinitionAttributes
 
 @Generated
 public fun buildFargateTaskDefinitionAttributes(initializer: @AwsCdkDsl
-    FargateTaskDefinitionAttributes.Builder.() -> Unit): FargateTaskDefinitionAttributes =
+    FargateTaskDefinitionAttributes.Builder.() -> Unit = {}): FargateTaskDefinitionAttributes =
     FargateTaskDefinitionAttributes.Builder().apply(initializer).build()

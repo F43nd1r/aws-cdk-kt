@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.RedirectTarget
 
 @Generated
-public fun buildRedirectTarget(initializer: @AwsCdkDsl RedirectTarget.Builder.() -> Unit):
+public fun buildRedirectTarget(initializer: @AwsCdkDsl RedirectTarget.Builder.() -> Unit = {}):
     RedirectTarget = RedirectTarget.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.elasticache.CfnParameterGroupProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnParameterGroup(id: String, props: CfnParameterGroupProps): CfnParameterGroup
-    = CfnParameterGroup(this, id, props)
-
-@Generated
 public fun Construct.cfnParameterGroup(
   id: String,
   props: CfnParameterGroupProps,
-  initializer: @AwsCdkDsl CfnParameterGroup.() -> Unit,
+  initializer: @AwsCdkDsl CfnParameterGroup.() -> Unit = {},
 ): CfnParameterGroup = CfnParameterGroup(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnParameterGroup(id: String, initializer: @AwsCdkDsl
-    CfnParameterGroup.Builder.() -> Unit): CfnParameterGroup =
+    CfnParameterGroup.Builder.() -> Unit = {}): CfnParameterGroup =
     CfnParameterGroup.Builder.create(this, id).apply(initializer).build()

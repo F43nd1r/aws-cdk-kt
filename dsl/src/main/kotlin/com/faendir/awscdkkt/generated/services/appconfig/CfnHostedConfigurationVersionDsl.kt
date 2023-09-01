@@ -9,18 +9,13 @@ import software.amazon.awscdk.services.appconfig.CfnHostedConfigurationVersionPr
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnHostedConfigurationVersion(id: String,
-    props: CfnHostedConfigurationVersionProps): CfnHostedConfigurationVersion =
-    CfnHostedConfigurationVersion(this, id, props)
-
-@Generated
 public fun Construct.cfnHostedConfigurationVersion(
   id: String,
   props: CfnHostedConfigurationVersionProps,
-  initializer: @AwsCdkDsl CfnHostedConfigurationVersion.() -> Unit,
+  initializer: @AwsCdkDsl CfnHostedConfigurationVersion.() -> Unit = {},
 ): CfnHostedConfigurationVersion = CfnHostedConfigurationVersion(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnHostedConfigurationVersion(id: String, initializer: @AwsCdkDsl
-    CfnHostedConfigurationVersion.Builder.() -> Unit): CfnHostedConfigurationVersion =
+    CfnHostedConfigurationVersion.Builder.() -> Unit = {}): CfnHostedConfigurationVersion =
     CfnHostedConfigurationVersion.Builder.create(this, id).apply(initializer).build()

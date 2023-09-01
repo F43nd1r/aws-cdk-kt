@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.OidcEndpoints
 
 @Generated
-public fun buildOidcEndpoints(initializer: @AwsCdkDsl OidcEndpoints.Builder.() -> Unit):
+public fun buildOidcEndpoints(initializer: @AwsCdkDsl OidcEndpoints.Builder.() -> Unit = {}):
     OidcEndpoints = OidcEndpoints.Builder().apply(initializer).build()

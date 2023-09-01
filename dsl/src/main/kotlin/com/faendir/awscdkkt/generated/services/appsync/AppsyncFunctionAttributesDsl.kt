@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appsync.AppsyncFunctionAttributes
 
 @Generated
 public fun buildAppsyncFunctionAttributes(initializer: @AwsCdkDsl
-    AppsyncFunctionAttributes.Builder.() -> Unit): AppsyncFunctionAttributes =
+    AppsyncFunctionAttributes.Builder.() -> Unit = {}): AppsyncFunctionAttributes =
     AppsyncFunctionAttributes.Builder().apply(initializer).build()

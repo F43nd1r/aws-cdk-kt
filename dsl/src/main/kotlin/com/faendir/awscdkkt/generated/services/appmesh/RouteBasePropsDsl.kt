@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.RouteBaseProps
 
 @Generated
-public fun buildRouteBaseProps(initializer: @AwsCdkDsl RouteBaseProps.Builder.() -> Unit):
+public fun buildRouteBaseProps(initializer: @AwsCdkDsl RouteBaseProps.Builder.() -> Unit = {}):
     RouteBaseProps = RouteBaseProps.Builder().apply(initializer).build()

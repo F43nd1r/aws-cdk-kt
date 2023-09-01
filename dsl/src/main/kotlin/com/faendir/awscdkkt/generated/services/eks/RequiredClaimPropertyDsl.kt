@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.eks.CfnIdentityProviderConfig
 
 @Generated
 public fun buildRequiredClaimProperty(initializer: @AwsCdkDsl
-    CfnIdentityProviderConfig.RequiredClaimProperty.Builder.() -> Unit):
+    CfnIdentityProviderConfig.RequiredClaimProperty.Builder.() -> Unit = {}):
     CfnIdentityProviderConfig.RequiredClaimProperty =
     CfnIdentityProviderConfig.RequiredClaimProperty.Builder().apply(initializer).build()

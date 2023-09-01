@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ses.CfnReceiptFilterProps
 
 @Generated
 public fun buildCfnReceiptFilterProps(initializer: @AwsCdkDsl
-    CfnReceiptFilterProps.Builder.() -> Unit): CfnReceiptFilterProps =
+    CfnReceiptFilterProps.Builder.() -> Unit = {}): CfnReceiptFilterProps =
     CfnReceiptFilterProps.Builder().apply(initializer).build()

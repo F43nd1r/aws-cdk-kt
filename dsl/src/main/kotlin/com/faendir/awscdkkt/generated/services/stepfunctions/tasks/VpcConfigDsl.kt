@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.VpcConfig
 
 @Generated
-public fun buildVpcConfig(initializer: @AwsCdkDsl VpcConfig.Builder.() -> Unit): VpcConfig =
+public fun buildVpcConfig(initializer: @AwsCdkDsl VpcConfig.Builder.() -> Unit = {}): VpcConfig =
     VpcConfig.Builder().apply(initializer).build()

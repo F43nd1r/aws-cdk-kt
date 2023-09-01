@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.fsx.CfnDataRepositoryAssociationProps
 
 @Generated
 public fun buildCfnDataRepositoryAssociationProps(initializer: @AwsCdkDsl
-    CfnDataRepositoryAssociationProps.Builder.() -> Unit): CfnDataRepositoryAssociationProps =
+    CfnDataRepositoryAssociationProps.Builder.() -> Unit = {}): CfnDataRepositoryAssociationProps =
     CfnDataRepositoryAssociationProps.Builder().apply(initializer).build()

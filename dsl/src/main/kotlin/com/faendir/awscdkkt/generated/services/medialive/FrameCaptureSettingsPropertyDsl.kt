@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildFrameCaptureSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.FrameCaptureSettingsProperty.Builder.() -> Unit):
+    CfnChannel.FrameCaptureSettingsProperty.Builder.() -> Unit = {}):
     CfnChannel.FrameCaptureSettingsProperty =
     CfnChannel.FrameCaptureSettingsProperty.Builder().apply(initializer).build()

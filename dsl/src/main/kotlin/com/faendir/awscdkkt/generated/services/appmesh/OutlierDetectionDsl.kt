@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.OutlierDetection
 
 @Generated
-public fun buildOutlierDetection(initializer: @AwsCdkDsl OutlierDetection.Builder.() -> Unit):
+public fun buildOutlierDetection(initializer: @AwsCdkDsl OutlierDetection.Builder.() -> Unit = {}):
     OutlierDetection = OutlierDetection.Builder().apply(initializer).build()

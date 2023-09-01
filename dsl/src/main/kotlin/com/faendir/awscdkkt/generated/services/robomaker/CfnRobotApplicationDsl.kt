@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.robomaker.CfnRobotApplicationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnRobotApplication(id: String, props: CfnRobotApplicationProps):
-    CfnRobotApplication = CfnRobotApplication(this, id, props)
-
-@Generated
 public fun Construct.cfnRobotApplication(
   id: String,
   props: CfnRobotApplicationProps,
-  initializer: @AwsCdkDsl CfnRobotApplication.() -> Unit,
+  initializer: @AwsCdkDsl CfnRobotApplication.() -> Unit = {},
 ): CfnRobotApplication = CfnRobotApplication(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnRobotApplication(id: String, initializer: @AwsCdkDsl
-    CfnRobotApplication.Builder.() -> Unit): CfnRobotApplication =
+    CfnRobotApplication.Builder.() -> Unit = {}): CfnRobotApplication =
     CfnRobotApplication.Builder.create(this, id).apply(initializer).build()

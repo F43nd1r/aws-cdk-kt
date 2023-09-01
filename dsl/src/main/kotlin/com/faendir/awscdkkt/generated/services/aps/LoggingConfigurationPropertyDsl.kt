@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.aps.CfnWorkspace
 
 @Generated
 public fun buildLoggingConfigurationProperty(initializer: @AwsCdkDsl
-    CfnWorkspace.LoggingConfigurationProperty.Builder.() -> Unit):
+    CfnWorkspace.LoggingConfigurationProperty.Builder.() -> Unit = {}):
     CfnWorkspace.LoggingConfigurationProperty =
     CfnWorkspace.LoggingConfigurationProperty.Builder().apply(initializer).build()

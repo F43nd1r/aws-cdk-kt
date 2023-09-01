@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicediscovery.NonIpInstanceProps
 
 @Generated
-public fun buildNonIpInstanceProps(initializer: @AwsCdkDsl NonIpInstanceProps.Builder.() -> Unit):
-    NonIpInstanceProps = NonIpInstanceProps.Builder().apply(initializer).build()
+public fun buildNonIpInstanceProps(initializer: @AwsCdkDsl NonIpInstanceProps.Builder.() -> Unit =
+    {}): NonIpInstanceProps = NonIpInstanceProps.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.quicksight.CfnTopic
 
 @Generated
 public fun buildDataAggregationProperty(initializer: @AwsCdkDsl
-    CfnTopic.DataAggregationProperty.Builder.() -> Unit): CfnTopic.DataAggregationProperty =
+    CfnTopic.DataAggregationProperty.Builder.() -> Unit = {}): CfnTopic.DataAggregationProperty =
     CfnTopic.DataAggregationProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.CfnCodeDeployBlueGreenHookProps
 
 @Generated
 public fun buildCfnCodeDeployBlueGreenHookProps(initializer: @AwsCdkDsl
-    CfnCodeDeployBlueGreenHookProps.Builder.() -> Unit): CfnCodeDeployBlueGreenHookProps =
+    CfnCodeDeployBlueGreenHookProps.Builder.() -> Unit = {}): CfnCodeDeployBlueGreenHookProps =
     CfnCodeDeployBlueGreenHookProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lookoutmetrics.CfnAnomalyDetector
 
 @Generated
 public fun buildRDSSourceConfigProperty(initializer: @AwsCdkDsl
-    CfnAnomalyDetector.RDSSourceConfigProperty.Builder.() -> Unit):
+    CfnAnomalyDetector.RDSSourceConfigProperty.Builder.() -> Unit = {}):
     CfnAnomalyDetector.RDSSourceConfigProperty =
     CfnAnomalyDetector.RDSSourceConfigProperty.Builder().apply(initializer).build()

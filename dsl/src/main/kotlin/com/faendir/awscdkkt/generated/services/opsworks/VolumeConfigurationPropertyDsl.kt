@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.opsworks.CfnLayer
 
 @Generated
 public fun buildVolumeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnLayer.VolumeConfigurationProperty.Builder.() -> Unit): CfnLayer.VolumeConfigurationProperty =
+    CfnLayer.VolumeConfigurationProperty.Builder.() -> Unit = {}):
+    CfnLayer.VolumeConfigurationProperty =
     CfnLayer.VolumeConfigurationProperty.Builder().apply(initializer).build()

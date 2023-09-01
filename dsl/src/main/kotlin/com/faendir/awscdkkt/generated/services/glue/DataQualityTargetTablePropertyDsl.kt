@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.glue.CfnDataQualityRuleset
 
 @Generated
 public fun buildDataQualityTargetTableProperty(initializer: @AwsCdkDsl
-    CfnDataQualityRuleset.DataQualityTargetTableProperty.Builder.() -> Unit):
+    CfnDataQualityRuleset.DataQualityTargetTableProperty.Builder.() -> Unit = {}):
     CfnDataQualityRuleset.DataQualityTargetTableProperty =
     CfnDataQualityRuleset.DataQualityTargetTableProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.guardduty.CfnDetector
 
 @Generated
 public fun buildCFNKubernetesAuditLogsConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDetector.CFNKubernetesAuditLogsConfigurationProperty.Builder.() -> Unit):
+    CfnDetector.CFNKubernetesAuditLogsConfigurationProperty.Builder.() -> Unit = {}):
     CfnDetector.CFNKubernetesAuditLogsConfigurationProperty =
     CfnDetector.CFNKubernetesAuditLogsConfigurationProperty.Builder().apply(initializer).build()

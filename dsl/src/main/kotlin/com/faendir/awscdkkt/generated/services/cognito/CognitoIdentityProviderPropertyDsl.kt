@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cognito.CfnIdentityPool
 
 @Generated
 public fun buildCognitoIdentityProviderProperty(initializer: @AwsCdkDsl
-    CfnIdentityPool.CognitoIdentityProviderProperty.Builder.() -> Unit):
+    CfnIdentityPool.CognitoIdentityProviderProperty.Builder.() -> Unit = {}):
     CfnIdentityPool.CognitoIdentityProviderProperty =
     CfnIdentityPool.CognitoIdentityProviderProperty.Builder().apply(initializer).build()

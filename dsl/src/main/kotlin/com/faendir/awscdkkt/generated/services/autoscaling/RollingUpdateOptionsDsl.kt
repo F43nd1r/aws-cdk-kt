@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.RollingUpdateOptions
 
 @Generated
-public fun buildRollingUpdateOptions(initializer: @AwsCdkDsl
-    RollingUpdateOptions.Builder.() -> Unit): RollingUpdateOptions =
-    RollingUpdateOptions.Builder().apply(initializer).build()
+public fun buildRollingUpdateOptions(initializer: @AwsCdkDsl RollingUpdateOptions.Builder.() -> Unit
+    = {}): RollingUpdateOptions = RollingUpdateOptions.Builder().apply(initializer).build()

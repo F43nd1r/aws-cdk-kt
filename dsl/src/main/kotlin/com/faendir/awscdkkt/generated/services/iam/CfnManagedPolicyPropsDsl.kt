@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iam.CfnManagedPolicyProps
 
 @Generated
 public fun buildCfnManagedPolicyProps(initializer: @AwsCdkDsl
-    CfnManagedPolicyProps.Builder.() -> Unit): CfnManagedPolicyProps =
+    CfnManagedPolicyProps.Builder.() -> Unit = {}): CfnManagedPolicyProps =
     CfnManagedPolicyProps.Builder().apply(initializer).build()

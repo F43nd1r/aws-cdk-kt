@@ -9,17 +9,12 @@ import software.amazon.awscdk.services.qldb.CfnLedgerProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnLedger(id: String, props: CfnLedgerProps): CfnLedger = CfnLedger(this, id,
-    props)
-
-@Generated
 public fun Construct.cfnLedger(
   id: String,
   props: CfnLedgerProps,
-  initializer: @AwsCdkDsl CfnLedger.() -> Unit,
+  initializer: @AwsCdkDsl CfnLedger.() -> Unit = {},
 ): CfnLedger = CfnLedger(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLedger(id: String, initializer: @AwsCdkDsl
-    CfnLedger.Builder.() -> Unit): CfnLedger = CfnLedger.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnLedger(id: String, initializer: @AwsCdkDsl CfnLedger.Builder.() -> Unit
+    = {}): CfnLedger = CfnLedger.Builder.create(this, id).apply(initializer).build()

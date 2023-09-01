@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.AwsIpamProps
 
 @Generated
-public fun buildAwsIpamProps(initializer: @AwsCdkDsl AwsIpamProps.Builder.() -> Unit): AwsIpamProps
-    = AwsIpamProps.Builder().apply(initializer).build()
+public fun buildAwsIpamProps(initializer: @AwsCdkDsl AwsIpamProps.Builder.() -> Unit = {}):
+    AwsIpamProps = AwsIpamProps.Builder().apply(initializer).build()

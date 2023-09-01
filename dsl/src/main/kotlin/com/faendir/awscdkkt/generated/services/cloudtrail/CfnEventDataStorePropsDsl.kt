@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cloudtrail.CfnEventDataStoreProps
 
 @Generated
 public fun buildCfnEventDataStoreProps(initializer: @AwsCdkDsl
-    CfnEventDataStoreProps.Builder.() -> Unit): CfnEventDataStoreProps =
+    CfnEventDataStoreProps.Builder.() -> Unit = {}): CfnEventDataStoreProps =
     CfnEventDataStoreProps.Builder().apply(initializer).build()

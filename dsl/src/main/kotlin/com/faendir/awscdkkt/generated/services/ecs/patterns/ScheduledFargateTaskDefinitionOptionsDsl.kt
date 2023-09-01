@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.ecs.patterns.ScheduledFargateTaskDefiniti
 
 @Generated
 public fun buildScheduledFargateTaskDefinitionOptions(initializer: @AwsCdkDsl
-    ScheduledFargateTaskDefinitionOptions.Builder.() -> Unit): ScheduledFargateTaskDefinitionOptions
-    = ScheduledFargateTaskDefinitionOptions.Builder().apply(initializer).build()
+    ScheduledFargateTaskDefinitionOptions.Builder.() -> Unit = {}):
+    ScheduledFargateTaskDefinitionOptions =
+    ScheduledFargateTaskDefinitionOptions.Builder().apply(initializer).build()

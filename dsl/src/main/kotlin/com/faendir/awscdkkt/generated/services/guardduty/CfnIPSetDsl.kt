@@ -9,16 +9,12 @@ import software.amazon.awscdk.services.guardduty.CfnIPSetProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnIPSet(id: String, props: CfnIPSetProps): CfnIPSet = CfnIPSet(this, id,
-    props)
-
-@Generated
 public fun Construct.cfnIPSet(
   id: String,
   props: CfnIPSetProps,
-  initializer: @AwsCdkDsl CfnIPSet.() -> Unit,
+  initializer: @AwsCdkDsl CfnIPSet.() -> Unit = {},
 ): CfnIPSet = CfnIPSet(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnIPSet(id: String, initializer: @AwsCdkDsl CfnIPSet.Builder.() -> Unit):
-    CfnIPSet = CfnIPSet.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnIPSet(id: String, initializer: @AwsCdkDsl CfnIPSet.Builder.() -> Unit =
+    {}): CfnIPSet = CfnIPSet.Builder.create(this, id).apply(initializer).build()

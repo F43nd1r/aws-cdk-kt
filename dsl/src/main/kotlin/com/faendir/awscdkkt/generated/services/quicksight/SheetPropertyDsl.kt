@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildSheetProperty(initializer: @AwsCdkDsl CfnTemplate.SheetProperty.Builder.() -> Unit):
-    CfnTemplate.SheetProperty = CfnTemplate.SheetProperty.Builder().apply(initializer).build()
+public fun buildSheetProperty(initializer: @AwsCdkDsl CfnTemplate.SheetProperty.Builder.() -> Unit =
+    {}): CfnTemplate.SheetProperty = CfnTemplate.SheetProperty.Builder().apply(initializer).build()

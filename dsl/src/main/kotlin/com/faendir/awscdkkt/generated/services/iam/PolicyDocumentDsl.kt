@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.PolicyDocument
 
 @Generated
-public fun buildPolicyDocument(initializer: @AwsCdkDsl PolicyDocument.Builder.() -> Unit):
+public fun buildPolicyDocument(initializer: @AwsCdkDsl PolicyDocument.Builder.() -> Unit = {}):
     PolicyDocument = PolicyDocument.Builder.create().apply(initializer).build()

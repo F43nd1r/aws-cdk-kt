@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnVoiceChannelProps
 
 @Generated
-public fun buildCfnVoiceChannelProps(initializer: @AwsCdkDsl
-    CfnVoiceChannelProps.Builder.() -> Unit): CfnVoiceChannelProps =
-    CfnVoiceChannelProps.Builder().apply(initializer).build()
+public fun buildCfnVoiceChannelProps(initializer: @AwsCdkDsl CfnVoiceChannelProps.Builder.() -> Unit
+    = {}): CfnVoiceChannelProps = CfnVoiceChannelProps.Builder().apply(initializer).build()

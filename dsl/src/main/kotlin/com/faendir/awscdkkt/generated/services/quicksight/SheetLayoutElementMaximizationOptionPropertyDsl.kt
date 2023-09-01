@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
 public fun buildSheetLayoutElementMaximizationOptionProperty(initializer: @AwsCdkDsl
-    CfnDashboard.SheetLayoutElementMaximizationOptionProperty.Builder.() -> Unit):
+    CfnDashboard.SheetLayoutElementMaximizationOptionProperty.Builder.() -> Unit = {}):
     CfnDashboard.SheetLayoutElementMaximizationOptionProperty =
     CfnDashboard.SheetLayoutElementMaximizationOptionProperty.Builder().apply(initializer).build()

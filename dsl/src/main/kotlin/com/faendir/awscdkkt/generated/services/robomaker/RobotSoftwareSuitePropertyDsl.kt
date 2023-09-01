@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.robomaker.CfnSimulationApplication
 
 @Generated
 public fun buildRobotSoftwareSuiteProperty(initializer: @AwsCdkDsl
-    CfnSimulationApplication.RobotSoftwareSuiteProperty.Builder.() -> Unit):
+    CfnSimulationApplication.RobotSoftwareSuiteProperty.Builder.() -> Unit = {}):
     CfnSimulationApplication.RobotSoftwareSuiteProperty =
     CfnSimulationApplication.RobotSoftwareSuiteProperty.Builder().apply(initializer).build()

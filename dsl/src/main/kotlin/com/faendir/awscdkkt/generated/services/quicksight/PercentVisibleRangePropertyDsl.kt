@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildPercentVisibleRangeProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PercentVisibleRangeProperty.Builder.() -> Unit):
+    CfnTemplate.PercentVisibleRangeProperty.Builder.() -> Unit = {}):
     CfnTemplate.PercentVisibleRangeProperty =
     CfnTemplate.PercentVisibleRangeProperty.Builder().apply(initializer).build()

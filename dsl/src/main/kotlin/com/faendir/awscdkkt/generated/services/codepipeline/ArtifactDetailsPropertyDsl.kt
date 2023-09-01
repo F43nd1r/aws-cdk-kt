@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.codepipeline.CfnCustomActionType
 
 @Generated
 public fun buildArtifactDetailsProperty(initializer: @AwsCdkDsl
-    CfnCustomActionType.ArtifactDetailsProperty.Builder.() -> Unit):
+    CfnCustomActionType.ArtifactDetailsProperty.Builder.() -> Unit = {}):
     CfnCustomActionType.ArtifactDetailsProperty =
     CfnCustomActionType.ArtifactDetailsProperty.Builder().apply(initializer).build()

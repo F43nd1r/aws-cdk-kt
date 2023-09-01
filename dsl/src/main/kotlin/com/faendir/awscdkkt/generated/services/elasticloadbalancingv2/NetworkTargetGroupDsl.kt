@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.NetworkTargetGroup
 import software.constructs.Construct
 
 @Generated
-public fun Construct.networkTargetGroup(id: String, props: NetworkTargetGroupProps):
-    NetworkTargetGroup = NetworkTargetGroup(this, id, props)
-
-@Generated
 public fun Construct.networkTargetGroup(
   id: String,
   props: NetworkTargetGroupProps,
-  initializer: @AwsCdkDsl NetworkTargetGroup.() -> Unit,
+  initializer: @AwsCdkDsl NetworkTargetGroup.() -> Unit = {},
 ): NetworkTargetGroup = NetworkTargetGroup(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildNetworkTargetGroup(id: String, initializer: @AwsCdkDsl
-    NetworkTargetGroup.Builder.() -> Unit): NetworkTargetGroup =
+    NetworkTargetGroup.Builder.() -> Unit = {}): NetworkTargetGroup =
     NetworkTargetGroup.Builder.create(this, id).apply(initializer).build()

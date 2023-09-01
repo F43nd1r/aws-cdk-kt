@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.pinpoint.CfnCampaign
 
 @Generated
 public fun buildInAppMessageHeaderConfigProperty(initializer: @AwsCdkDsl
-    CfnCampaign.InAppMessageHeaderConfigProperty.Builder.() -> Unit):
+    CfnCampaign.InAppMessageHeaderConfigProperty.Builder.() -> Unit = {}):
     CfnCampaign.InAppMessageHeaderConfigProperty =
     CfnCampaign.InAppMessageHeaderConfigProperty.Builder().apply(initializer).build()

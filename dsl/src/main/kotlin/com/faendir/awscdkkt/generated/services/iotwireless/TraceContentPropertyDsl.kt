@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iotwireless.CfnNetworkAnalyzerConfigurati
 
 @Generated
 public fun buildTraceContentProperty(initializer: @AwsCdkDsl
-    CfnNetworkAnalyzerConfiguration.TraceContentProperty.Builder.() -> Unit):
+    CfnNetworkAnalyzerConfiguration.TraceContentProperty.Builder.() -> Unit = {}):
     CfnNetworkAnalyzerConfiguration.TraceContentProperty =
     CfnNetworkAnalyzerConfiguration.TraceContentProperty.Builder().apply(initializer).build()

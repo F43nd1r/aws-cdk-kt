@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.ApplicationLoadBal
 
 @Generated
 public fun buildApplicationLoadBalancerRedirectConfig(initializer: @AwsCdkDsl
-    ApplicationLoadBalancerRedirectConfig.Builder.() -> Unit): ApplicationLoadBalancerRedirectConfig
-    = ApplicationLoadBalancerRedirectConfig.Builder().apply(initializer).build()
+    ApplicationLoadBalancerRedirectConfig.Builder.() -> Unit = {}):
+    ApplicationLoadBalancerRedirectConfig =
+    ApplicationLoadBalancerRedirectConfig.Builder().apply(initializer).build()

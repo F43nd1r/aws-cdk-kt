@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnVPCEndpointServicePermissionsProps
 
 @Generated
 public fun buildCfnVPCEndpointServicePermissionsProps(initializer: @AwsCdkDsl
-    CfnVPCEndpointServicePermissionsProps.Builder.() -> Unit): CfnVPCEndpointServicePermissionsProps
-    = CfnVPCEndpointServicePermissionsProps.Builder().apply(initializer).build()
+    CfnVPCEndpointServicePermissionsProps.Builder.() -> Unit = {}):
+    CfnVPCEndpointServicePermissionsProps =
+    CfnVPCEndpointServicePermissionsProps.Builder().apply(initializer).build()

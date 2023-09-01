@@ -13,6 +13,6 @@ public fun buildBatchJob(
   jobQueueScope: IConstruct,
   jobDefinitionArn: String,
   jobDefinitionScope: IConstruct,
-  initializer: @AwsCdkDsl BatchJob.Builder.() -> Unit,
+  initializer: @AwsCdkDsl BatchJob.Builder.() -> Unit = {},
 ): BatchJob = BatchJob.Builder.create(jobQueueArn, jobQueueScope, jobDefinitionArn,
     jobDefinitionScope).apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildForecastConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ForecastConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.ForecastConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.ForecastConfigurationProperty =
     CfnTemplate.ForecastConfigurationProperty.Builder().apply(initializer).build()

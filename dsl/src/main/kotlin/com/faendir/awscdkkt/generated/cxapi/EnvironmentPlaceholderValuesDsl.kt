@@ -7,5 +7,5 @@ import software.amazon.awscdk.cxapi.EnvironmentPlaceholderValues
 
 @Generated
 public fun buildEnvironmentPlaceholderValues(initializer: @AwsCdkDsl
-    EnvironmentPlaceholderValues.Builder.() -> Unit): EnvironmentPlaceholderValues =
+    EnvironmentPlaceholderValues.Builder.() -> Unit = {}): EnvironmentPlaceholderValues =
     EnvironmentPlaceholderValues.Builder().apply(initializer).build()

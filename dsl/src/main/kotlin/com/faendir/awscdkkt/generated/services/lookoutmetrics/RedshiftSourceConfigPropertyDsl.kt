@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lookoutmetrics.CfnAnomalyDetector
 
 @Generated
 public fun buildRedshiftSourceConfigProperty(initializer: @AwsCdkDsl
-    CfnAnomalyDetector.RedshiftSourceConfigProperty.Builder.() -> Unit):
+    CfnAnomalyDetector.RedshiftSourceConfigProperty.Builder.() -> Unit = {}):
     CfnAnomalyDetector.RedshiftSourceConfigProperty =
     CfnAnomalyDetector.RedshiftSourceConfigProperty.Builder().apply(initializer).build()

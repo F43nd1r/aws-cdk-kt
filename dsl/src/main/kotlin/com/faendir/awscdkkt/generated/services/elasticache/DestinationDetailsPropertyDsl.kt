@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.elasticache.CfnReplicationGroup
 
 @Generated
 public fun buildDestinationDetailsProperty(initializer: @AwsCdkDsl
-    CfnReplicationGroup.DestinationDetailsProperty.Builder.() -> Unit):
+    CfnReplicationGroup.DestinationDetailsProperty.Builder.() -> Unit = {}):
     CfnReplicationGroup.DestinationDetailsProperty =
     CfnReplicationGroup.DestinationDetailsProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.elasticache.CfnReplicationGroup
 
 @Generated
 public fun buildLogDeliveryConfigurationRequestProperty(initializer: @AwsCdkDsl
-    CfnReplicationGroup.LogDeliveryConfigurationRequestProperty.Builder.() -> Unit):
+    CfnReplicationGroup.LogDeliveryConfigurationRequestProperty.Builder.() -> Unit = {}):
     CfnReplicationGroup.LogDeliveryConfigurationRequestProperty =
     CfnReplicationGroup.LogDeliveryConfigurationRequestProperty.Builder().apply(initializer).build()

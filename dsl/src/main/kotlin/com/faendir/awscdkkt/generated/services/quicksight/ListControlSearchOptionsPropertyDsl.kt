@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildListControlSearchOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ListControlSearchOptionsProperty.Builder.() -> Unit):
+    CfnTemplate.ListControlSearchOptionsProperty.Builder.() -> Unit = {}):
     CfnTemplate.ListControlSearchOptionsProperty =
     CfnTemplate.ListControlSearchOptionsProperty.Builder().apply(initializer).build()

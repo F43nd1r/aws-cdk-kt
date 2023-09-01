@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kendra.CfnDataSource
 
 @Generated
 public fun buildCustomDocumentEnrichmentConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.CustomDocumentEnrichmentConfigurationProperty.Builder.() -> Unit):
+    CfnDataSource.CustomDocumentEnrichmentConfigurationProperty.Builder.() -> Unit = {}):
     CfnDataSource.CustomDocumentEnrichmentConfigurationProperty =
     CfnDataSource.CustomDocumentEnrichmentConfigurationProperty.Builder().apply(initializer).build()

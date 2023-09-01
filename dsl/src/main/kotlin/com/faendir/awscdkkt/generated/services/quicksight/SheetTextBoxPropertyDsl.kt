@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildSheetTextBoxProperty(initializer: @AwsCdkDsl
-    CfnTemplate.SheetTextBoxProperty.Builder.() -> Unit): CfnTemplate.SheetTextBoxProperty =
+    CfnTemplate.SheetTextBoxProperty.Builder.() -> Unit = {}): CfnTemplate.SheetTextBoxProperty =
     CfnTemplate.SheetTextBoxProperty.Builder().apply(initializer).build()

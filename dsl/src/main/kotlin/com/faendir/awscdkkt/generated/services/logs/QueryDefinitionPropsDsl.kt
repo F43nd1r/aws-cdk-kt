@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.QueryDefinitionProps
 
 @Generated
-public fun buildQueryDefinitionProps(initializer: @AwsCdkDsl
-    QueryDefinitionProps.Builder.() -> Unit): QueryDefinitionProps =
-    QueryDefinitionProps.Builder().apply(initializer).build()
+public fun buildQueryDefinitionProps(initializer: @AwsCdkDsl QueryDefinitionProps.Builder.() -> Unit
+    = {}): QueryDefinitionProps = QueryDefinitionProps.Builder().apply(initializer).build()

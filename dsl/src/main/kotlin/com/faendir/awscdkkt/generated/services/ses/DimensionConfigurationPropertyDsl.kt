@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ses.CfnConfigurationSetEventDestination
 
 @Generated
 public fun buildDimensionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnConfigurationSetEventDestination.DimensionConfigurationProperty.Builder.() -> Unit):
+    CfnConfigurationSetEventDestination.DimensionConfigurationProperty.Builder.() -> Unit = {}):
     CfnConfigurationSetEventDestination.DimensionConfigurationProperty =
     CfnConfigurationSetEventDestination.DimensionConfigurationProperty.Builder().apply(initializer).build()

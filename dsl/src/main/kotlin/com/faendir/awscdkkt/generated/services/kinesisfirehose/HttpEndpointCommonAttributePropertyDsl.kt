@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
 public fun buildHttpEndpointCommonAttributeProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.HttpEndpointCommonAttributeProperty.Builder.() -> Unit):
+    CfnDeliveryStream.HttpEndpointCommonAttributeProperty.Builder.() -> Unit = {}):
     CfnDeliveryStream.HttpEndpointCommonAttributeProperty =
     CfnDeliveryStream.HttpEndpointCommonAttributeProperty.Builder().apply(initializer).build()

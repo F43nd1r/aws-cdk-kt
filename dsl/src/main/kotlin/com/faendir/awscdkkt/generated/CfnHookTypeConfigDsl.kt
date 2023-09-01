@@ -9,17 +9,13 @@ import software.amazon.awscdk.CfnHookTypeConfigProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnHookTypeConfig(id: String, props: CfnHookTypeConfigProps): CfnHookTypeConfig
-    = CfnHookTypeConfig(this, id, props)
-
-@Generated
 public fun Construct.cfnHookTypeConfig(
   id: String,
   props: CfnHookTypeConfigProps,
-  initializer: @AwsCdkDsl CfnHookTypeConfig.() -> Unit,
+  initializer: @AwsCdkDsl CfnHookTypeConfig.() -> Unit = {},
 ): CfnHookTypeConfig = CfnHookTypeConfig(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnHookTypeConfig(id: String, initializer: @AwsCdkDsl
-    CfnHookTypeConfig.Builder.() -> Unit): CfnHookTypeConfig =
+    CfnHookTypeConfig.Builder.() -> Unit = {}): CfnHookTypeConfig =
     CfnHookTypeConfig.Builder.create(this, id).apply(initializer).build()

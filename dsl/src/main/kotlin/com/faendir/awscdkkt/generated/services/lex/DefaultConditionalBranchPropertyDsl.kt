@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
 public fun buildDefaultConditionalBranchProperty(initializer: @AwsCdkDsl
-    CfnBot.DefaultConditionalBranchProperty.Builder.() -> Unit):
+    CfnBot.DefaultConditionalBranchProperty.Builder.() -> Unit = {}):
     CfnBot.DefaultConditionalBranchProperty =
     CfnBot.DefaultConditionalBranchProperty.Builder().apply(initializer).build()

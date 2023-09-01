@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codebuild.UntrustedCodeBoundaryPolicyProp
 
 @Generated
 public fun buildUntrustedCodeBoundaryPolicyProps(initializer: @AwsCdkDsl
-    UntrustedCodeBoundaryPolicyProps.Builder.() -> Unit): UntrustedCodeBoundaryPolicyProps =
+    UntrustedCodeBoundaryPolicyProps.Builder.() -> Unit = {}): UntrustedCodeBoundaryPolicyProps =
     UntrustedCodeBoundaryPolicyProps.Builder().apply(initializer).build()

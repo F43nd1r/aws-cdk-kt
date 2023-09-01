@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.redshiftserverless.CfnWorkgroup
 
 @Generated
 public fun buildNetworkInterfaceProperty(initializer: @AwsCdkDsl
-    CfnWorkgroup.NetworkInterfaceProperty.Builder.() -> Unit): CfnWorkgroup.NetworkInterfaceProperty
-    = CfnWorkgroup.NetworkInterfaceProperty.Builder().apply(initializer).build()
+    CfnWorkgroup.NetworkInterfaceProperty.Builder.() -> Unit = {}):
+    CfnWorkgroup.NetworkInterfaceProperty =
+    CfnWorkgroup.NetworkInterfaceProperty.Builder().apply(initializer).build()

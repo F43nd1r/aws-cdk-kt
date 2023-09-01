@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.route53resolver.CfnFirewallRuleGroup
 
 @Generated
 public fun buildFirewallRuleProperty(initializer: @AwsCdkDsl
-    CfnFirewallRuleGroup.FirewallRuleProperty.Builder.() -> Unit):
+    CfnFirewallRuleGroup.FirewallRuleProperty.Builder.() -> Unit = {}):
     CfnFirewallRuleGroup.FirewallRuleProperty =
     CfnFirewallRuleGroup.FirewallRuleProperty.Builder().apply(initializer).build()

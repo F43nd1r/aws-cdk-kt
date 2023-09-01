@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.EcsTarget
 
 @Generated
-public fun buildEcsTarget(initializer: @AwsCdkDsl EcsTarget.Builder.() -> Unit): EcsTarget =
+public fun buildEcsTarget(initializer: @AwsCdkDsl EcsTarget.Builder.() -> Unit = {}): EcsTarget =
     EcsTarget.Builder().apply(initializer).build()

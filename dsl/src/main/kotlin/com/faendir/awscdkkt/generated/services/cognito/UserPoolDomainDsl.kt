@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.cognito.UserPoolDomainProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.userPoolDomain(id: String, props: UserPoolDomainProps): UserPoolDomain =
-    UserPoolDomain(this, id, props)
-
-@Generated
 public fun Construct.userPoolDomain(
   id: String,
   props: UserPoolDomainProps,
-  initializer: @AwsCdkDsl UserPoolDomain.() -> Unit,
+  initializer: @AwsCdkDsl UserPoolDomain.() -> Unit = {},
 ): UserPoolDomain = UserPoolDomain(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildUserPoolDomain(id: String, initializer: @AwsCdkDsl
-    UserPoolDomain.Builder.() -> Unit): UserPoolDomain = UserPoolDomain.Builder.create(this,
+    UserPoolDomain.Builder.() -> Unit = {}): UserPoolDomain = UserPoolDomain.Builder.create(this,
     id).apply(initializer).build()

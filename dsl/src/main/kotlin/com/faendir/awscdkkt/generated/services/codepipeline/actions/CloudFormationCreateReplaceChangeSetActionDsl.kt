@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.codepipeline.actions.CloudFormationCreate
 
 @Generated
 public fun buildCloudFormationCreateReplaceChangeSetAction(initializer: @AwsCdkDsl
-    CloudFormationCreateReplaceChangeSetAction.Builder.() -> Unit):
+    CloudFormationCreateReplaceChangeSetAction.Builder.() -> Unit = {}):
     CloudFormationCreateReplaceChangeSetAction =
     CloudFormationCreateReplaceChangeSetAction.Builder.create().apply(initializer).build()

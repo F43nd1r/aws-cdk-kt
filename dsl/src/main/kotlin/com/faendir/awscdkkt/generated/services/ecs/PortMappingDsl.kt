@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.PortMapping
 
 @Generated
-public fun buildPortMapping(initializer: @AwsCdkDsl PortMapping.Builder.() -> Unit): PortMapping =
-    PortMapping.Builder().apply(initializer).build()
+public fun buildPortMapping(initializer: @AwsCdkDsl PortMapping.Builder.() -> Unit = {}):
+    PortMapping = PortMapping.Builder().apply(initializer).build()

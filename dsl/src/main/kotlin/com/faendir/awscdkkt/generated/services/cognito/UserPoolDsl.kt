@@ -9,23 +9,16 @@ import software.amazon.awscdk.services.cognito.UserPoolProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.userPool(id: String): UserPool = UserPool(this, id)
-
-@Generated
-public fun Construct.userPool(id: String, initializer: @AwsCdkDsl UserPool.() -> Unit): UserPool =
-    UserPool(this, id).apply(initializer)
-
-@Generated
-public fun Construct.userPool(id: String, props: UserPoolProps): UserPool = UserPool(this, id,
-    props)
+public fun Construct.userPool(id: String, initializer: @AwsCdkDsl UserPool.() -> Unit = {}):
+    UserPool = UserPool(this, id).apply(initializer)
 
 @Generated
 public fun Construct.userPool(
   id: String,
   props: UserPoolProps,
-  initializer: @AwsCdkDsl UserPool.() -> Unit,
+  initializer: @AwsCdkDsl UserPool.() -> Unit = {},
 ): UserPool = UserPool(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildUserPool(id: String, initializer: @AwsCdkDsl UserPool.Builder.() -> Unit):
-    UserPool = UserPool.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildUserPool(id: String, initializer: @AwsCdkDsl UserPool.Builder.() -> Unit =
+    {}): UserPool = UserPool.Builder.create(this, id).apply(initializer).build()

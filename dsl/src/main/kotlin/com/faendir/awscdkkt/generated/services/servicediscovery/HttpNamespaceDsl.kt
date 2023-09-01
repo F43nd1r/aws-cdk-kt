@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.servicediscovery.HttpNamespaceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.httpNamespace(id: String, props: HttpNamespaceProps): HttpNamespace =
-    HttpNamespace(this, id, props)
-
-@Generated
 public fun Construct.httpNamespace(
   id: String,
   props: HttpNamespaceProps,
-  initializer: @AwsCdkDsl HttpNamespace.() -> Unit,
+  initializer: @AwsCdkDsl HttpNamespace.() -> Unit = {},
 ): HttpNamespace = HttpNamespace(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildHttpNamespace(id: String, initializer: @AwsCdkDsl
-    HttpNamespace.Builder.() -> Unit): HttpNamespace = HttpNamespace.Builder.create(this,
+    HttpNamespace.Builder.() -> Unit = {}): HttpNamespace = HttpNamespace.Builder.create(this,
     id).apply(initializer).build()

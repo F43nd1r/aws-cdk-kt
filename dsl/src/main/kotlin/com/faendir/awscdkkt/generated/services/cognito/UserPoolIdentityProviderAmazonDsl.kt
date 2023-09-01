@@ -9,19 +9,14 @@ import software.amazon.awscdk.services.cognito.UserPoolIdentityProviderAmazonPro
 import software.constructs.Construct
 
 @Generated
-public fun Construct.userPoolIdentityProviderAmazon(id: String,
-    props: UserPoolIdentityProviderAmazonProps): UserPoolIdentityProviderAmazon =
-    UserPoolIdentityProviderAmazon(this, id, props)
-
-@Generated
 public fun Construct.userPoolIdentityProviderAmazon(
   id: String,
   props: UserPoolIdentityProviderAmazonProps,
-  initializer: @AwsCdkDsl UserPoolIdentityProviderAmazon.() -> Unit,
+  initializer: @AwsCdkDsl UserPoolIdentityProviderAmazon.() -> Unit = {},
 ): UserPoolIdentityProviderAmazon = UserPoolIdentityProviderAmazon(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildUserPoolIdentityProviderAmazon(id: String, initializer: @AwsCdkDsl
-    UserPoolIdentityProviderAmazon.Builder.() -> Unit): UserPoolIdentityProviderAmazon =
+    UserPoolIdentityProviderAmazon.Builder.() -> Unit = {}): UserPoolIdentityProviderAmazon =
     UserPoolIdentityProviderAmazon.Builder.create(this, id).apply(initializer).build()

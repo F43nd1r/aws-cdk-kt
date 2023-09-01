@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
 public fun buildKendraConfigurationProperty(initializer: @AwsCdkDsl
-    CfnBot.KendraConfigurationProperty.Builder.() -> Unit): CfnBot.KendraConfigurationProperty =
-    CfnBot.KendraConfigurationProperty.Builder().apply(initializer).build()
+    CfnBot.KendraConfigurationProperty.Builder.() -> Unit = {}): CfnBot.KendraConfigurationProperty
+    = CfnBot.KendraConfigurationProperty.Builder().apply(initializer).build()

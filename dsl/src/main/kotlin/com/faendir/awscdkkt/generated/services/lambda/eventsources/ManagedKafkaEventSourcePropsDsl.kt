@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lambda.eventsources.ManagedKafkaEventSour
 
 @Generated
 public fun buildManagedKafkaEventSourceProps(initializer: @AwsCdkDsl
-    ManagedKafkaEventSourceProps.Builder.() -> Unit): ManagedKafkaEventSourceProps =
+    ManagedKafkaEventSourceProps.Builder.() -> Unit = {}): ManagedKafkaEventSourceProps =
     ManagedKafkaEventSourceProps.Builder().apply(initializer).build()

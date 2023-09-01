@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.events.CfnRule
 
 @Generated
 public fun buildRetryPolicyProperty(initializer: @AwsCdkDsl
-    CfnRule.RetryPolicyProperty.Builder.() -> Unit): CfnRule.RetryPolicyProperty =
+    CfnRule.RetryPolicyProperty.Builder.() -> Unit = {}): CfnRule.RetryPolicyProperty =
     CfnRule.RetryPolicyProperty.Builder().apply(initializer).build()

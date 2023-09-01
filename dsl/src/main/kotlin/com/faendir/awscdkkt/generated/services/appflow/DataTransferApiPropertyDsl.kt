@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
 public fun buildDataTransferApiProperty(initializer: @AwsCdkDsl
-    CfnFlow.DataTransferApiProperty.Builder.() -> Unit): CfnFlow.DataTransferApiProperty =
+    CfnFlow.DataTransferApiProperty.Builder.() -> Unit = {}): CfnFlow.DataTransferApiProperty =
     CfnFlow.DataTransferApiProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.customresources.AwsCustomResourceProps
 
 @Generated
 public fun buildAwsCustomResourceProps(initializer: @AwsCdkDsl
-    AwsCustomResourceProps.Builder.() -> Unit): AwsCustomResourceProps =
+    AwsCustomResourceProps.Builder.() -> Unit = {}): AwsCustomResourceProps =
     AwsCustomResourceProps.Builder().apply(initializer).build()

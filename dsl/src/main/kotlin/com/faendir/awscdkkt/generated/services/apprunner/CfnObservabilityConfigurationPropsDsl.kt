@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.apprunner.CfnObservabilityConfigurationPr
 
 @Generated
 public fun buildCfnObservabilityConfigurationProps(initializer: @AwsCdkDsl
-    CfnObservabilityConfigurationProps.Builder.() -> Unit): CfnObservabilityConfigurationProps =
-    CfnObservabilityConfigurationProps.Builder().apply(initializer).build()
+    CfnObservabilityConfigurationProps.Builder.() -> Unit = {}): CfnObservabilityConfigurationProps
+    = CfnObservabilityConfigurationProps.Builder().apply(initializer).build()

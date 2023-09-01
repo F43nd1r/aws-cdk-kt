@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.apigateway.BasePathMappingOptions
 
 @Generated
 public fun buildBasePathMappingOptions(initializer: @AwsCdkDsl
-    BasePathMappingOptions.Builder.() -> Unit): BasePathMappingOptions =
+    BasePathMappingOptions.Builder.() -> Unit = {}): BasePathMappingOptions =
     BasePathMappingOptions.Builder().apply(initializer).build()

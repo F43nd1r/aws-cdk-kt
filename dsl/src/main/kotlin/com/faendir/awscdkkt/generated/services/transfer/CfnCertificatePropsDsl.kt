@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.transfer.CfnCertificateProps
 
 @Generated
-public fun buildCfnCertificateProps(initializer: @AwsCdkDsl CfnCertificateProps.Builder.() -> Unit):
-    CfnCertificateProps = CfnCertificateProps.Builder().apply(initializer).build()
+public fun buildCfnCertificateProps(initializer: @AwsCdkDsl CfnCertificateProps.Builder.() -> Unit =
+    {}): CfnCertificateProps = CfnCertificateProps.Builder().apply(initializer).build()

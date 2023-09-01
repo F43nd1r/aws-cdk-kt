@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.appsync.CfnGraphQLApiProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnGraphQLApi(id: String, props: CfnGraphQLApiProps): CfnGraphQLApi =
-    CfnGraphQLApi(this, id, props)
-
-@Generated
 public fun Construct.cfnGraphQLApi(
   id: String,
   props: CfnGraphQLApiProps,
-  initializer: @AwsCdkDsl CfnGraphQLApi.() -> Unit,
+  initializer: @AwsCdkDsl CfnGraphQLApi.() -> Unit = {},
 ): CfnGraphQLApi = CfnGraphQLApi(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnGraphQLApi(id: String, initializer: @AwsCdkDsl
-    CfnGraphQLApi.Builder.() -> Unit): CfnGraphQLApi = CfnGraphQLApi.Builder.create(this,
+    CfnGraphQLApi.Builder.() -> Unit = {}): CfnGraphQLApi = CfnGraphQLApi.Builder.create(this,
     id).apply(initializer).build()

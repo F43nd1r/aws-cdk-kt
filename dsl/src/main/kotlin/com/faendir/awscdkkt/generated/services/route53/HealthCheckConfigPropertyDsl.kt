@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.route53.CfnHealthCheck
 
 @Generated
 public fun buildHealthCheckConfigProperty(initializer: @AwsCdkDsl
-    CfnHealthCheck.HealthCheckConfigProperty.Builder.() -> Unit):
+    CfnHealthCheck.HealthCheckConfigProperty.Builder.() -> Unit = {}):
     CfnHealthCheck.HealthCheckConfigProperty =
     CfnHealthCheck.HealthCheckConfigProperty.Builder().apply(initializer).build()

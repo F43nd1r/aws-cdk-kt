@@ -9,20 +9,15 @@ import software.amazon.awscdk.services.ec2.CfnTransitGatewayRouteTablePropagatio
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnTransitGatewayRouteTablePropagation(id: String,
-    props: CfnTransitGatewayRouteTablePropagationProps): CfnTransitGatewayRouteTablePropagation =
-    CfnTransitGatewayRouteTablePropagation(this, id, props)
-
-@Generated
 public fun Construct.cfnTransitGatewayRouteTablePropagation(
   id: String,
   props: CfnTransitGatewayRouteTablePropagationProps,
-  initializer: @AwsCdkDsl CfnTransitGatewayRouteTablePropagation.() -> Unit,
+  initializer: @AwsCdkDsl CfnTransitGatewayRouteTablePropagation.() -> Unit = {},
 ): CfnTransitGatewayRouteTablePropagation = CfnTransitGatewayRouteTablePropagation(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnTransitGatewayRouteTablePropagation(id: String, initializer: @AwsCdkDsl
-    CfnTransitGatewayRouteTablePropagation.Builder.() -> Unit):
+    CfnTransitGatewayRouteTablePropagation.Builder.() -> Unit = {}):
     CfnTransitGatewayRouteTablePropagation =
     CfnTransitGatewayRouteTablePropagation.Builder.create(this, id).apply(initializer).build()

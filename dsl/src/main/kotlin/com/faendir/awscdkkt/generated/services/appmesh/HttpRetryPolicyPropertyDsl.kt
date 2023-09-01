@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appmesh.CfnRoute
 
 @Generated
 public fun buildHttpRetryPolicyProperty(initializer: @AwsCdkDsl
-    CfnRoute.HttpRetryPolicyProperty.Builder.() -> Unit): CfnRoute.HttpRetryPolicyProperty =
+    CfnRoute.HttpRetryPolicyProperty.Builder.() -> Unit = {}): CfnRoute.HttpRetryPolicyProperty =
     CfnRoute.HttpRetryPolicyProperty.Builder().apply(initializer).build()

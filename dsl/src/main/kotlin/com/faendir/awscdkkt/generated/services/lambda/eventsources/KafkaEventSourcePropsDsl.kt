@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lambda.eventsources.KafkaEventSourceProps
 
 @Generated
 public fun buildKafkaEventSourceProps(initializer: @AwsCdkDsl
-    KafkaEventSourceProps.Builder.() -> Unit): KafkaEventSourceProps =
+    KafkaEventSourceProps.Builder.() -> Unit = {}): KafkaEventSourceProps =
     KafkaEventSourceProps.Builder().apply(initializer).build()

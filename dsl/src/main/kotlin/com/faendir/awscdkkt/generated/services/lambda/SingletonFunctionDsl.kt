@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.lambda.SingletonFunctionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.singletonFunction(id: String, props: SingletonFunctionProps): SingletonFunction
-    = SingletonFunction(this, id, props)
-
-@Generated
 public fun Construct.singletonFunction(
   id: String,
   props: SingletonFunctionProps,
-  initializer: @AwsCdkDsl SingletonFunction.() -> Unit,
+  initializer: @AwsCdkDsl SingletonFunction.() -> Unit = {},
 ): SingletonFunction = SingletonFunction(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildSingletonFunction(id: String, initializer: @AwsCdkDsl
-    SingletonFunction.Builder.() -> Unit): SingletonFunction =
+    SingletonFunction.Builder.() -> Unit = {}): SingletonFunction =
     SingletonFunction.Builder.create(this, id).apply(initializer).build()

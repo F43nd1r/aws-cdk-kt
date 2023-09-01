@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.ssm.CfnDocument
 
 @Generated
 public fun buildDocumentRequiresProperty(initializer: @AwsCdkDsl
-    CfnDocument.DocumentRequiresProperty.Builder.() -> Unit): CfnDocument.DocumentRequiresProperty =
+    CfnDocument.DocumentRequiresProperty.Builder.() -> Unit = {}):
+    CfnDocument.DocumentRequiresProperty =
     CfnDocument.DocumentRequiresProperty.Builder().apply(initializer).build()

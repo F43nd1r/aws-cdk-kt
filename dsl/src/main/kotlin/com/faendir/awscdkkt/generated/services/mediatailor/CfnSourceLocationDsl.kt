@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.mediatailor.CfnSourceLocationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnSourceLocation(id: String, props: CfnSourceLocationProps): CfnSourceLocation
-    = CfnSourceLocation(this, id, props)
-
-@Generated
 public fun Construct.cfnSourceLocation(
   id: String,
   props: CfnSourceLocationProps,
-  initializer: @AwsCdkDsl CfnSourceLocation.() -> Unit,
+  initializer: @AwsCdkDsl CfnSourceLocation.() -> Unit = {},
 ): CfnSourceLocation = CfnSourceLocation(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnSourceLocation(id: String, initializer: @AwsCdkDsl
-    CfnSourceLocation.Builder.() -> Unit): CfnSourceLocation =
+    CfnSourceLocation.Builder.() -> Unit = {}): CfnSourceLocation =
     CfnSourceLocation.Builder.create(this, id).apply(initializer).build()

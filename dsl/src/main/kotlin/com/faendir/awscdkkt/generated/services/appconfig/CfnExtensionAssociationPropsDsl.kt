@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appconfig.CfnExtensionAssociationProps
 
 @Generated
 public fun buildCfnExtensionAssociationProps(initializer: @AwsCdkDsl
-    CfnExtensionAssociationProps.Builder.() -> Unit): CfnExtensionAssociationProps =
+    CfnExtensionAssociationProps.Builder.() -> Unit = {}): CfnExtensionAssociationProps =
     CfnExtensionAssociationProps.Builder().apply(initializer).build()

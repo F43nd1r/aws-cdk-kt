@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.detective.CfnMemberInvitationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnMemberInvitation(id: String, props: CfnMemberInvitationProps):
-    CfnMemberInvitation = CfnMemberInvitation(this, id, props)
-
-@Generated
 public fun Construct.cfnMemberInvitation(
   id: String,
   props: CfnMemberInvitationProps,
-  initializer: @AwsCdkDsl CfnMemberInvitation.() -> Unit,
+  initializer: @AwsCdkDsl CfnMemberInvitation.() -> Unit = {},
 ): CfnMemberInvitation = CfnMemberInvitation(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnMemberInvitation(id: String, initializer: @AwsCdkDsl
-    CfnMemberInvitation.Builder.() -> Unit): CfnMemberInvitation =
+    CfnMemberInvitation.Builder.() -> Unit = {}): CfnMemberInvitation =
     CfnMemberInvitation.Builder.create(this, id).apply(initializer).build()

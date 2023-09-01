@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildFilledMapSortConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.FilledMapSortConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.FilledMapSortConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.FilledMapSortConfigurationProperty =
     CfnTemplate.FilledMapSortConfigurationProperty.Builder().apply(initializer).build()

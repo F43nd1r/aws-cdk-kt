@@ -9,22 +9,16 @@ import software.amazon.awscdk.services.ec2.CfnVPCProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnVPC(id: String): CfnVPC = CfnVPC(this, id)
-
-@Generated
-public fun Construct.cfnVPC(id: String, initializer: @AwsCdkDsl CfnVPC.() -> Unit): CfnVPC =
+public fun Construct.cfnVPC(id: String, initializer: @AwsCdkDsl CfnVPC.() -> Unit = {}): CfnVPC =
     CfnVPC(this, id).apply(initializer)
-
-@Generated
-public fun Construct.cfnVPC(id: String, props: CfnVPCProps): CfnVPC = CfnVPC(this, id, props)
 
 @Generated
 public fun Construct.cfnVPC(
   id: String,
   props: CfnVPCProps,
-  initializer: @AwsCdkDsl CfnVPC.() -> Unit,
+  initializer: @AwsCdkDsl CfnVPC.() -> Unit = {},
 ): CfnVPC = CfnVPC(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVPC(id: String, initializer: @AwsCdkDsl CfnVPC.Builder.() -> Unit):
-    CfnVPC = CfnVPC.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnVPC(id: String, initializer: @AwsCdkDsl CfnVPC.Builder.() -> Unit =
+    {}): CfnVPC = CfnVPC.Builder.create(this, id).apply(initializer).build()

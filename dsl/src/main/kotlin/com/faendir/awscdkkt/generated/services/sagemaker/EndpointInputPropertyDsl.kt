@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnMonitoringSchedule
 
 @Generated
 public fun buildEndpointInputProperty(initializer: @AwsCdkDsl
-    CfnMonitoringSchedule.EndpointInputProperty.Builder.() -> Unit):
+    CfnMonitoringSchedule.EndpointInputProperty.Builder.() -> Unit = {}):
     CfnMonitoringSchedule.EndpointInputProperty =
     CfnMonitoringSchedule.EndpointInputProperty.Builder().apply(initializer).build()

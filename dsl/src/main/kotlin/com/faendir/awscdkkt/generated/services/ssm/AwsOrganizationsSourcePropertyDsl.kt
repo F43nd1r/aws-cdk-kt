@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ssm.CfnResourceDataSync
 
 @Generated
 public fun buildAwsOrganizationsSourceProperty(initializer: @AwsCdkDsl
-    CfnResourceDataSync.AwsOrganizationsSourceProperty.Builder.() -> Unit):
+    CfnResourceDataSync.AwsOrganizationsSourceProperty.Builder.() -> Unit = {}):
     CfnResourceDataSync.AwsOrganizationsSourceProperty =
     CfnResourceDataSync.AwsOrganizationsSourceProperty.Builder().apply(initializer).build()

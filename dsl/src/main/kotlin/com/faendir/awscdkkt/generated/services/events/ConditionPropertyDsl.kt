@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.events.CfnEventBusPolicy
 
 @Generated
 public fun buildConditionProperty(initializer: @AwsCdkDsl
-    CfnEventBusPolicy.ConditionProperty.Builder.() -> Unit): CfnEventBusPolicy.ConditionProperty =
+    CfnEventBusPolicy.ConditionProperty.Builder.() -> Unit = {}):
+    CfnEventBusPolicy.ConditionProperty =
     CfnEventBusPolicy.ConditionProperty.Builder().apply(initializer).build()

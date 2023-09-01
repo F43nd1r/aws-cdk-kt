@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkfirewall.CfnFirewallProps
 
 @Generated
-public fun buildCfnFirewallProps(initializer: @AwsCdkDsl CfnFirewallProps.Builder.() -> Unit):
+public fun buildCfnFirewallProps(initializer: @AwsCdkDsl CfnFirewallProps.Builder.() -> Unit = {}):
     CfnFirewallProps = CfnFirewallProps.Builder().apply(initializer).build()

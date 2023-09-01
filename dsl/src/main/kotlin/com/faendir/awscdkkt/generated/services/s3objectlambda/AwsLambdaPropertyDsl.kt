@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.s3objectlambda.CfnAccessPoint
 
 @Generated
 public fun buildAwsLambdaProperty(initializer: @AwsCdkDsl
-    CfnAccessPoint.AwsLambdaProperty.Builder.() -> Unit): CfnAccessPoint.AwsLambdaProperty =
+    CfnAccessPoint.AwsLambdaProperty.Builder.() -> Unit = {}): CfnAccessPoint.AwsLambdaProperty =
     CfnAccessPoint.AwsLambdaProperty.Builder().apply(initializer).build()

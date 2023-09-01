@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lakeformation.CfnTagProps
 
 @Generated
-public fun buildCfnTagProps(initializer: @AwsCdkDsl CfnTagProps.Builder.() -> Unit): CfnTagProps =
-    CfnTagProps.Builder().apply(initializer).build()
+public fun buildCfnTagProps(initializer: @AwsCdkDsl CfnTagProps.Builder.() -> Unit = {}):
+    CfnTagProps = CfnTagProps.Builder().apply(initializer).build()

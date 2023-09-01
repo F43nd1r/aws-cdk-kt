@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.groundstation.CfnConfig
 
 @Generated
 public fun buildUplinkEchoConfigProperty(initializer: @AwsCdkDsl
-    CfnConfig.UplinkEchoConfigProperty.Builder.() -> Unit): CfnConfig.UplinkEchoConfigProperty =
-    CfnConfig.UplinkEchoConfigProperty.Builder().apply(initializer).build()
+    CfnConfig.UplinkEchoConfigProperty.Builder.() -> Unit = {}): CfnConfig.UplinkEchoConfigProperty
+    = CfnConfig.UplinkEchoConfigProperty.Builder().apply(initializer).build()

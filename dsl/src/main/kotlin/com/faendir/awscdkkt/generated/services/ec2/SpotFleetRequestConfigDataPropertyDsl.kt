@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnSpotFleet
 
 @Generated
 public fun buildSpotFleetRequestConfigDataProperty(initializer: @AwsCdkDsl
-    CfnSpotFleet.SpotFleetRequestConfigDataProperty.Builder.() -> Unit):
+    CfnSpotFleet.SpotFleetRequestConfigDataProperty.Builder.() -> Unit = {}):
     CfnSpotFleet.SpotFleetRequestConfigDataProperty =
     CfnSpotFleet.SpotFleetRequestConfigDataProperty.Builder().apply(initializer).build()

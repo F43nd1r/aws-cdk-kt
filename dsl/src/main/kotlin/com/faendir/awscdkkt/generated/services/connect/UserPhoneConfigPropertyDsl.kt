@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.connect.CfnUser
 
 @Generated
 public fun buildUserPhoneConfigProperty(initializer: @AwsCdkDsl
-    CfnUser.UserPhoneConfigProperty.Builder.() -> Unit): CfnUser.UserPhoneConfigProperty =
+    CfnUser.UserPhoneConfigProperty.Builder.() -> Unit = {}): CfnUser.UserPhoneConfigProperty =
     CfnUser.UserPhoneConfigProperty.Builder().apply(initializer).build()

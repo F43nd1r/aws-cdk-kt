@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnVerifiedAccessInstance
 
 @Generated
 public fun buildCloudWatchLogsProperty(initializer: @AwsCdkDsl
-    CfnVerifiedAccessInstance.CloudWatchLogsProperty.Builder.() -> Unit):
+    CfnVerifiedAccessInstance.CloudWatchLogsProperty.Builder.() -> Unit = {}):
     CfnVerifiedAccessInstance.CloudWatchLogsProperty =
     CfnVerifiedAccessInstance.CloudWatchLogsProperty.Builder().apply(initializer).build()

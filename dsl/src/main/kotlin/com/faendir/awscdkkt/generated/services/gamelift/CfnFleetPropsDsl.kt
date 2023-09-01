@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnFleetProps
 
 @Generated
-public fun buildCfnFleetProps(initializer: @AwsCdkDsl CfnFleetProps.Builder.() -> Unit):
+public fun buildCfnFleetProps(initializer: @AwsCdkDsl CfnFleetProps.Builder.() -> Unit = {}):
     CfnFleetProps = CfnFleetProps.Builder().apply(initializer).build()

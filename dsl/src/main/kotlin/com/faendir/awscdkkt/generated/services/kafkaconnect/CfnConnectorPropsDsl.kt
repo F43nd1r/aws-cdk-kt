@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kafkaconnect.CfnConnectorProps
 
 @Generated
-public fun buildCfnConnectorProps(initializer: @AwsCdkDsl CfnConnectorProps.Builder.() -> Unit):
-    CfnConnectorProps = CfnConnectorProps.Builder().apply(initializer).build()
+public fun buildCfnConnectorProps(initializer: @AwsCdkDsl CfnConnectorProps.Builder.() -> Unit =
+    {}): CfnConnectorProps = CfnConnectorProps.Builder().apply(initializer).build()

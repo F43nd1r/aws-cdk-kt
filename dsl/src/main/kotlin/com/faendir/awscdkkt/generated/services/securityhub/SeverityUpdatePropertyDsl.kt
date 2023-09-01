@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.securityhub.CfnAutomationRule
 
 @Generated
 public fun buildSeverityUpdateProperty(initializer: @AwsCdkDsl
-    CfnAutomationRule.SeverityUpdateProperty.Builder.() -> Unit):
+    CfnAutomationRule.SeverityUpdateProperty.Builder.() -> Unit = {}):
     CfnAutomationRule.SeverityUpdateProperty =
     CfnAutomationRule.SeverityUpdateProperty.Builder().apply(initializer).build()

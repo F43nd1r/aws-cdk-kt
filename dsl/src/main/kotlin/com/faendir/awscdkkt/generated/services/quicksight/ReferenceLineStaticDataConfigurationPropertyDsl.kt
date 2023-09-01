@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildReferenceLineStaticDataConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ReferenceLineStaticDataConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.ReferenceLineStaticDataConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.ReferenceLineStaticDataConfigurationProperty =
     CfnTemplate.ReferenceLineStaticDataConfigurationProperty.Builder().apply(initializer).build()

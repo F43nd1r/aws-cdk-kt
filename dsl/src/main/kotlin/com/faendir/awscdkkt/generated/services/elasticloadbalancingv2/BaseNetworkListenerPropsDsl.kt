@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.BaseNetworkListene
 
 @Generated
 public fun buildBaseNetworkListenerProps(initializer: @AwsCdkDsl
-    BaseNetworkListenerProps.Builder.() -> Unit): BaseNetworkListenerProps =
+    BaseNetworkListenerProps.Builder.() -> Unit = {}): BaseNetworkListenerProps =
     BaseNetworkListenerProps.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lambda.CfnFunction
 
 @Generated
 public fun buildSnapStartProperty(initializer: @AwsCdkDsl
-    CfnFunction.SnapStartProperty.Builder.() -> Unit): CfnFunction.SnapStartProperty =
+    CfnFunction.SnapStartProperty.Builder.() -> Unit = {}): CfnFunction.SnapStartProperty =
     CfnFunction.SnapStartProperty.Builder().apply(initializer).build()

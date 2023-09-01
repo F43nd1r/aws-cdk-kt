@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ssm.StringParameterAttributes
 
 @Generated
 public fun buildStringParameterAttributes(initializer: @AwsCdkDsl
-    StringParameterAttributes.Builder.() -> Unit): StringParameterAttributes =
+    StringParameterAttributes.Builder.() -> Unit = {}): StringParameterAttributes =
     StringParameterAttributes.Builder().apply(initializer).build()

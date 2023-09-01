@@ -13,5 +13,5 @@ import software.amazon.awscdk.services.s3.deployment.UserDefinedObjectMetadata
     "software.amazon.awscdk.services.s3.deployment.UserDefinedObjectMetadata is deprecated in CDK.")
 @Generated
 public fun buildUserDefinedObjectMetadata(initializer: @AwsCdkDsl
-    UserDefinedObjectMetadata.Builder.() -> Unit): UserDefinedObjectMetadata =
+    UserDefinedObjectMetadata.Builder.() -> Unit = {}): UserDefinedObjectMetadata =
     UserDefinedObjectMetadata.Builder().apply(initializer).build()

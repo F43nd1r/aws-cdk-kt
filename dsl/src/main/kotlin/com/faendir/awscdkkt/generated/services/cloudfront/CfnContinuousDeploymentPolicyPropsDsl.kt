@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cloudfront.CfnContinuousDeploymentPolicyP
 
 @Generated
 public fun buildCfnContinuousDeploymentPolicyProps(initializer: @AwsCdkDsl
-    CfnContinuousDeploymentPolicyProps.Builder.() -> Unit): CfnContinuousDeploymentPolicyProps =
-    CfnContinuousDeploymentPolicyProps.Builder().apply(initializer).build()
+    CfnContinuousDeploymentPolicyProps.Builder.() -> Unit = {}): CfnContinuousDeploymentPolicyProps
+    = CfnContinuousDeploymentPolicyProps.Builder().apply(initializer).build()

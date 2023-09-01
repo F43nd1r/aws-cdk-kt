@@ -9,20 +9,15 @@ import software.amazon.awscdk.services.ec2.CfnNetworkPerformanceMetricSubscripti
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnNetworkPerformanceMetricSubscription(id: String,
-    props: CfnNetworkPerformanceMetricSubscriptionProps): CfnNetworkPerformanceMetricSubscription =
-    CfnNetworkPerformanceMetricSubscription(this, id, props)
-
-@Generated
 public fun Construct.cfnNetworkPerformanceMetricSubscription(
   id: String,
   props: CfnNetworkPerformanceMetricSubscriptionProps,
-  initializer: @AwsCdkDsl CfnNetworkPerformanceMetricSubscription.() -> Unit,
+  initializer: @AwsCdkDsl CfnNetworkPerformanceMetricSubscription.() -> Unit = {},
 ): CfnNetworkPerformanceMetricSubscription = CfnNetworkPerformanceMetricSubscription(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnNetworkPerformanceMetricSubscription(id: String,
-    initializer: @AwsCdkDsl CfnNetworkPerformanceMetricSubscription.Builder.() -> Unit):
+    initializer: @AwsCdkDsl CfnNetworkPerformanceMetricSubscription.Builder.() -> Unit = {}):
     CfnNetworkPerformanceMetricSubscription =
     CfnNetworkPerformanceMetricSubscription.Builder.create(this, id).apply(initializer).build()

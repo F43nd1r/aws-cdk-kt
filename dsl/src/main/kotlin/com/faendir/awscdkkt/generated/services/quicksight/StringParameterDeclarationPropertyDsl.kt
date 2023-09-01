@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildStringParameterDeclarationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.StringParameterDeclarationProperty.Builder.() -> Unit):
+    CfnTemplate.StringParameterDeclarationProperty.Builder.() -> Unit = {}):
     CfnTemplate.StringParameterDeclarationProperty =
     CfnTemplate.StringParameterDeclarationProperty.Builder().apply(initializer).build()

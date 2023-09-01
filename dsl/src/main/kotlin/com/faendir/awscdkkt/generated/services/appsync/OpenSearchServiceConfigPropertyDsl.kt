@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appsync.CfnDataSource
 
 @Generated
 public fun buildOpenSearchServiceConfigProperty(initializer: @AwsCdkDsl
-    CfnDataSource.OpenSearchServiceConfigProperty.Builder.() -> Unit):
+    CfnDataSource.OpenSearchServiceConfigProperty.Builder.() -> Unit = {}):
     CfnDataSource.OpenSearchServiceConfigProperty =
     CfnDataSource.OpenSearchServiceConfigProperty.Builder().apply(initializer).build()

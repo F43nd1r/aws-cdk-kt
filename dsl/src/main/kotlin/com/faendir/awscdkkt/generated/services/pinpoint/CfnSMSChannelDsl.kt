@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.pinpoint.CfnSMSChannelProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnSMSChannel(id: String, props: CfnSMSChannelProps): CfnSMSChannel =
-    CfnSMSChannel(this, id, props)
-
-@Generated
 public fun Construct.cfnSMSChannel(
   id: String,
   props: CfnSMSChannelProps,
-  initializer: @AwsCdkDsl CfnSMSChannel.() -> Unit,
+  initializer: @AwsCdkDsl CfnSMSChannel.() -> Unit = {},
 ): CfnSMSChannel = CfnSMSChannel(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnSMSChannel(id: String, initializer: @AwsCdkDsl
-    CfnSMSChannel.Builder.() -> Unit): CfnSMSChannel = CfnSMSChannel.Builder.create(this,
+    CfnSMSChannel.Builder.() -> Unit = {}): CfnSMSChannel = CfnSMSChannel.Builder.create(this,
     id).apply(initializer).build()

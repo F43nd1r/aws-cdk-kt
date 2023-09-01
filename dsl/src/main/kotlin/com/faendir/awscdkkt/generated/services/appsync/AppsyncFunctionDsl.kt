@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.appsync.AppsyncFunctionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.appsyncFunction(id: String, props: AppsyncFunctionProps): AppsyncFunction =
-    AppsyncFunction(this, id, props)
-
-@Generated
 public fun Construct.appsyncFunction(
   id: String,
   props: AppsyncFunctionProps,
-  initializer: @AwsCdkDsl AppsyncFunction.() -> Unit,
+  initializer: @AwsCdkDsl AppsyncFunction.() -> Unit = {},
 ): AppsyncFunction = AppsyncFunction(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildAppsyncFunction(id: String, initializer: @AwsCdkDsl
-    AppsyncFunction.Builder.() -> Unit): AppsyncFunction = AppsyncFunction.Builder.create(this,
+    AppsyncFunction.Builder.() -> Unit = {}): AppsyncFunction = AppsyncFunction.Builder.create(this,
     id).apply(initializer).build()

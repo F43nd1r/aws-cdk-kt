@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
 public fun buildAudioSpecificationProperty(initializer: @AwsCdkDsl
-    CfnBot.AudioSpecificationProperty.Builder.() -> Unit): CfnBot.AudioSpecificationProperty =
+    CfnBot.AudioSpecificationProperty.Builder.() -> Unit = {}): CfnBot.AudioSpecificationProperty =
     CfnBot.AudioSpecificationProperty.Builder().apply(initializer).build()

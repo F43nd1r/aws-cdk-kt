@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelCard
 
 @Generated
 public fun buildMetricDataItemsProperty(initializer: @AwsCdkDsl
-    CfnModelCard.MetricDataItemsProperty.Builder.() -> Unit): CfnModelCard.MetricDataItemsProperty =
+    CfnModelCard.MetricDataItemsProperty.Builder.() -> Unit = {}):
+    CfnModelCard.MetricDataItemsProperty =
     CfnModelCard.MetricDataItemsProperty.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.events.CfnRule
 
 @Generated
 public fun buildBatchArrayPropertiesProperty(initializer: @AwsCdkDsl
-    CfnRule.BatchArrayPropertiesProperty.Builder.() -> Unit): CfnRule.BatchArrayPropertiesProperty =
+    CfnRule.BatchArrayPropertiesProperty.Builder.() -> Unit = {}):
+    CfnRule.BatchArrayPropertiesProperty =
     CfnRule.BatchArrayPropertiesProperty.Builder().apply(initializer).build()

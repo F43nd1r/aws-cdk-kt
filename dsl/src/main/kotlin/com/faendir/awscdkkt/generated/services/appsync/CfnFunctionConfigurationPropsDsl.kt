@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appsync.CfnFunctionConfigurationProps
 
 @Generated
 public fun buildCfnFunctionConfigurationProps(initializer: @AwsCdkDsl
-    CfnFunctionConfigurationProps.Builder.() -> Unit): CfnFunctionConfigurationProps =
+    CfnFunctionConfigurationProps.Builder.() -> Unit = {}): CfnFunctionConfigurationProps =
     CfnFunctionConfigurationProps.Builder().apply(initializer).build()

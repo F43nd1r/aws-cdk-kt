@@ -9,24 +9,17 @@ import software.amazon.awscdk.services.ec2.CfnInstanceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnInstance(id: String): CfnInstance = CfnInstance(this, id)
-
-@Generated
-public fun Construct.cfnInstance(id: String, initializer: @AwsCdkDsl CfnInstance.() -> Unit):
+public fun Construct.cfnInstance(id: String, initializer: @AwsCdkDsl CfnInstance.() -> Unit = {}):
     CfnInstance = CfnInstance(this, id).apply(initializer)
-
-@Generated
-public fun Construct.cfnInstance(id: String, props: CfnInstanceProps): CfnInstance =
-    CfnInstance(this, id, props)
 
 @Generated
 public fun Construct.cfnInstance(
   id: String,
   props: CfnInstanceProps,
-  initializer: @AwsCdkDsl CfnInstance.() -> Unit,
+  initializer: @AwsCdkDsl CfnInstance.() -> Unit = {},
 ): CfnInstance = CfnInstance(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnInstance(id: String, initializer: @AwsCdkDsl
-    CfnInstance.Builder.() -> Unit): CfnInstance = CfnInstance.Builder.create(this,
+    CfnInstance.Builder.() -> Unit = {}): CfnInstance = CfnInstance.Builder.create(this,
     id).apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.CfnVpcLinkProps
 
 @Generated
-public fun buildCfnVpcLinkProps(initializer: @AwsCdkDsl CfnVpcLinkProps.Builder.() -> Unit):
+public fun buildCfnVpcLinkProps(initializer: @AwsCdkDsl CfnVpcLinkProps.Builder.() -> Unit = {}):
     CfnVpcLinkProps = CfnVpcLinkProps.Builder().apply(initializer).build()

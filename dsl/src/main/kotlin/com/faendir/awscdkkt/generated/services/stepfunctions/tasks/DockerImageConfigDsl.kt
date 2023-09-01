@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.DockerImageConfig
 
 @Generated
-public fun buildDockerImageConfig(initializer: @AwsCdkDsl DockerImageConfig.Builder.() -> Unit):
-    DockerImageConfig = DockerImageConfig.Builder().apply(initializer).build()
+public fun buildDockerImageConfig(initializer: @AwsCdkDsl DockerImageConfig.Builder.() -> Unit =
+    {}): DockerImageConfig = DockerImageConfig.Builder().apply(initializer).build()

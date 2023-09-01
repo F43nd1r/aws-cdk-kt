@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.autoscaling.AutoScalingGroupProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.autoScalingGroup(id: String, props: AutoScalingGroupProps): AutoScalingGroup =
-    AutoScalingGroup(this, id, props)
-
-@Generated
 public fun Construct.autoScalingGroup(
   id: String,
   props: AutoScalingGroupProps,
-  initializer: @AwsCdkDsl AutoScalingGroup.() -> Unit,
+  initializer: @AwsCdkDsl AutoScalingGroup.() -> Unit = {},
 ): AutoScalingGroup = AutoScalingGroup(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildAutoScalingGroup(id: String, initializer: @AwsCdkDsl
-    AutoScalingGroup.Builder.() -> Unit): AutoScalingGroup = AutoScalingGroup.Builder.create(this,
-    id).apply(initializer).build()
+    AutoScalingGroup.Builder.() -> Unit = {}): AutoScalingGroup =
+    AutoScalingGroup.Builder.create(this, id).apply(initializer).build()

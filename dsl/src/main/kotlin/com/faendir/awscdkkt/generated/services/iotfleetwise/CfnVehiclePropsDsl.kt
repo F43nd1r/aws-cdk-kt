@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotfleetwise.CfnVehicleProps
 
 @Generated
-public fun buildCfnVehicleProps(initializer: @AwsCdkDsl CfnVehicleProps.Builder.() -> Unit):
+public fun buildCfnVehicleProps(initializer: @AwsCdkDsl CfnVehicleProps.Builder.() -> Unit = {}):
     CfnVehicleProps = CfnVehicleProps.Builder().apply(initializer).build()

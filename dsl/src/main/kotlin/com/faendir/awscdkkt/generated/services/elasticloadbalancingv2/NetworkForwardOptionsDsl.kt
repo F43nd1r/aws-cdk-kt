@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.NetworkForwardOpti
 
 @Generated
 public fun buildNetworkForwardOptions(initializer: @AwsCdkDsl
-    NetworkForwardOptions.Builder.() -> Unit): NetworkForwardOptions =
+    NetworkForwardOptions.Builder.() -> Unit = {}): NetworkForwardOptions =
     NetworkForwardOptions.Builder().apply(initializer).build()

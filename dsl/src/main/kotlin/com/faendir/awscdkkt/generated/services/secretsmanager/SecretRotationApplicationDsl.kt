@@ -10,6 +10,6 @@ import software.amazon.awscdk.services.secretsmanager.SecretRotationApplication
 public fun buildSecretRotationApplication(
   applicationId: String,
   semanticVersion: String,
-  initializer: @AwsCdkDsl SecretRotationApplication.Builder.() -> Unit,
+  initializer: @AwsCdkDsl SecretRotationApplication.Builder.() -> Unit = {},
 ): SecretRotationApplication = SecretRotationApplication.Builder.create(applicationId,
     semanticVersion).apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iotcoredeviceadvisor.CfnSuiteDefinition
 
 @Generated
 public fun buildSuiteDefinitionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnSuiteDefinition.SuiteDefinitionConfigurationProperty.Builder.() -> Unit):
+    CfnSuiteDefinition.SuiteDefinitionConfigurationProperty.Builder.() -> Unit = {}):
     CfnSuiteDefinition.SuiteDefinitionConfigurationProperty =
     CfnSuiteDefinition.SuiteDefinitionConfigurationProperty.Builder().apply(initializer).build()

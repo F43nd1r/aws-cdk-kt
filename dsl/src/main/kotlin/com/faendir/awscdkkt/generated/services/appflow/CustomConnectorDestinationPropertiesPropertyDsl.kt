@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
 public fun buildCustomConnectorDestinationPropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.CustomConnectorDestinationPropertiesProperty.Builder.() -> Unit):
+    CfnFlow.CustomConnectorDestinationPropertiesProperty.Builder.() -> Unit = {}):
     CfnFlow.CustomConnectorDestinationPropertiesProperty =
     CfnFlow.CustomConnectorDestinationPropertiesProperty.Builder().apply(initializer).build()

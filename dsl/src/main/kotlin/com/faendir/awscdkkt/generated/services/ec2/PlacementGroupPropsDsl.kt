@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.PlacementGroupProps
 
 @Generated
-public fun buildPlacementGroupProps(initializer: @AwsCdkDsl PlacementGroupProps.Builder.() -> Unit):
-    PlacementGroupProps = PlacementGroupProps.Builder().apply(initializer).build()
+public fun buildPlacementGroupProps(initializer: @AwsCdkDsl PlacementGroupProps.Builder.() -> Unit =
+    {}): PlacementGroupProps = PlacementGroupProps.Builder().apply(initializer).build()

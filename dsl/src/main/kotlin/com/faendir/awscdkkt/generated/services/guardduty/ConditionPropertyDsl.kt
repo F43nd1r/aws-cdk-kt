@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.guardduty.CfnFilter
 
 @Generated
 public fun buildConditionProperty(initializer: @AwsCdkDsl
-    CfnFilter.ConditionProperty.Builder.() -> Unit): CfnFilter.ConditionProperty =
+    CfnFilter.ConditionProperty.Builder.() -> Unit = {}): CfnFilter.ConditionProperty =
     CfnFilter.ConditionProperty.Builder().apply(initializer).build()

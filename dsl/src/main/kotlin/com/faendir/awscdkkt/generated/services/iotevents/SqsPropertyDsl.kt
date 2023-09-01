@@ -6,6 +6,6 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotevents.CfnDetectorModel
 
 @Generated
-public fun buildSqsProperty(initializer: @AwsCdkDsl
-    CfnDetectorModel.SqsProperty.Builder.() -> Unit): CfnDetectorModel.SqsProperty =
+public fun buildSqsProperty(initializer: @AwsCdkDsl CfnDetectorModel.SqsProperty.Builder.() -> Unit
+    = {}): CfnDetectorModel.SqsProperty =
     CfnDetectorModel.SqsProperty.Builder().apply(initializer).build()

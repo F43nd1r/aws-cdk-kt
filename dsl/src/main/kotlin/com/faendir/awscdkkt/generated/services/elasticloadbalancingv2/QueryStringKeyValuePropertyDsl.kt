@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.CfnListenerRule
 
 @Generated
 public fun buildQueryStringKeyValueProperty(initializer: @AwsCdkDsl
-    CfnListenerRule.QueryStringKeyValueProperty.Builder.() -> Unit):
+    CfnListenerRule.QueryStringKeyValueProperty.Builder.() -> Unit = {}):
     CfnListenerRule.QueryStringKeyValueProperty =
     CfnListenerRule.QueryStringKeyValueProperty.Builder().apply(initializer).build()

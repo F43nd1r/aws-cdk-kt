@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.BackupProps
 
 @Generated
-public fun buildBackupProps(initializer: @AwsCdkDsl BackupProps.Builder.() -> Unit): BackupProps =
-    BackupProps.Builder().apply(initializer).build()
+public fun buildBackupProps(initializer: @AwsCdkDsl BackupProps.Builder.() -> Unit = {}):
+    BackupProps = BackupProps.Builder().apply(initializer).build()

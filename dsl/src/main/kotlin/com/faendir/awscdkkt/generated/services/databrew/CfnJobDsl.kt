@@ -9,15 +9,12 @@ import software.amazon.awscdk.services.databrew.CfnJobProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnJob(id: String, props: CfnJobProps): CfnJob = CfnJob(this, id, props)
-
-@Generated
 public fun Construct.cfnJob(
   id: String,
   props: CfnJobProps,
-  initializer: @AwsCdkDsl CfnJob.() -> Unit,
+  initializer: @AwsCdkDsl CfnJob.() -> Unit = {},
 ): CfnJob = CfnJob(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnJob(id: String, initializer: @AwsCdkDsl CfnJob.Builder.() -> Unit):
-    CfnJob = CfnJob.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnJob(id: String, initializer: @AwsCdkDsl CfnJob.Builder.() -> Unit =
+    {}): CfnJob = CfnJob.Builder.create(this, id).apply(initializer).build()

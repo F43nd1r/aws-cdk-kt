@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.customerprofiles.CfnIntegration
 
 @Generated
 public fun buildTaskPropertiesMapProperty(initializer: @AwsCdkDsl
-    CfnIntegration.TaskPropertiesMapProperty.Builder.() -> Unit):
+    CfnIntegration.TaskPropertiesMapProperty.Builder.() -> Unit = {}):
     CfnIntegration.TaskPropertiesMapProperty =
     CfnIntegration.TaskPropertiesMapProperty.Builder().apply(initializer).build()

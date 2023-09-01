@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.servicediscovery.CfnHttpNamespaceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnHttpNamespace(id: String, props: CfnHttpNamespaceProps): CfnHttpNamespace =
-    CfnHttpNamespace(this, id, props)
-
-@Generated
 public fun Construct.cfnHttpNamespace(
   id: String,
   props: CfnHttpNamespaceProps,
-  initializer: @AwsCdkDsl CfnHttpNamespace.() -> Unit,
+  initializer: @AwsCdkDsl CfnHttpNamespace.() -> Unit = {},
 ): CfnHttpNamespace = CfnHttpNamespace(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnHttpNamespace(id: String, initializer: @AwsCdkDsl
-    CfnHttpNamespace.Builder.() -> Unit): CfnHttpNamespace = CfnHttpNamespace.Builder.create(this,
-    id).apply(initializer).build()
+    CfnHttpNamespace.Builder.() -> Unit = {}): CfnHttpNamespace =
+    CfnHttpNamespace.Builder.create(this, id).apply(initializer).build()

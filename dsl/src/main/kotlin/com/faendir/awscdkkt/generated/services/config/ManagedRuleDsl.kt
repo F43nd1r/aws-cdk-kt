@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.config.ManagedRuleProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.managedRule(id: String, props: ManagedRuleProps): ManagedRule =
-    ManagedRule(this, id, props)
-
-@Generated
 public fun Construct.managedRule(
   id: String,
   props: ManagedRuleProps,
-  initializer: @AwsCdkDsl ManagedRule.() -> Unit,
+  initializer: @AwsCdkDsl ManagedRule.() -> Unit = {},
 ): ManagedRule = ManagedRule(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildManagedRule(id: String, initializer: @AwsCdkDsl
-    ManagedRule.Builder.() -> Unit): ManagedRule = ManagedRule.Builder.create(this,
+    ManagedRule.Builder.() -> Unit = {}): ManagedRule = ManagedRule.Builder.create(this,
     id).apply(initializer).build()

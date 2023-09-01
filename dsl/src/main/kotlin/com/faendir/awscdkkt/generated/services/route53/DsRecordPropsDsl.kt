@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.DsRecordProps
 
 @Generated
-public fun buildDsRecordProps(initializer: @AwsCdkDsl DsRecordProps.Builder.() -> Unit):
+public fun buildDsRecordProps(initializer: @AwsCdkDsl DsRecordProps.Builder.() -> Unit = {}):
     DsRecordProps = DsRecordProps.Builder().apply(initializer).build()

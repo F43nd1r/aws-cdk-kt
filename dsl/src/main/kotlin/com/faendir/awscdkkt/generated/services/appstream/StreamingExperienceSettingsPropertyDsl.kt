@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appstream.CfnStack
 
 @Generated
 public fun buildStreamingExperienceSettingsProperty(initializer: @AwsCdkDsl
-    CfnStack.StreamingExperienceSettingsProperty.Builder.() -> Unit):
+    CfnStack.StreamingExperienceSettingsProperty.Builder.() -> Unit = {}):
     CfnStack.StreamingExperienceSettingsProperty =
     CfnStack.StreamingExperienceSettingsProperty.Builder().apply(initializer).build()

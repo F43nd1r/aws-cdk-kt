@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelExplainabilityJobDefini
 
 @Generated
 public fun buildCfnModelExplainabilityJobDefinitionProps(initializer: @AwsCdkDsl
-    CfnModelExplainabilityJobDefinitionProps.Builder.() -> Unit):
+    CfnModelExplainabilityJobDefinitionProps.Builder.() -> Unit = {}):
     CfnModelExplainabilityJobDefinitionProps =
     CfnModelExplainabilityJobDefinitionProps.Builder().apply(initializer).build()

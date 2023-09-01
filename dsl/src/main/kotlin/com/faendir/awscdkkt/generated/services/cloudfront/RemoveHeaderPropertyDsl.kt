@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cloudfront.CfnResponseHeadersPolicy
 
 @Generated
 public fun buildRemoveHeaderProperty(initializer: @AwsCdkDsl
-    CfnResponseHeadersPolicy.RemoveHeaderProperty.Builder.() -> Unit):
+    CfnResponseHeadersPolicy.RemoveHeaderProperty.Builder.() -> Unit = {}):
     CfnResponseHeadersPolicy.RemoveHeaderProperty =
     CfnResponseHeadersPolicy.RemoveHeaderProperty.Builder().apply(initializer).build()

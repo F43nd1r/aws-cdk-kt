@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.sagemaker.CfnEndpointConfigProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnEndpointConfig(id: String, props: CfnEndpointConfigProps): CfnEndpointConfig
-    = CfnEndpointConfig(this, id, props)
-
-@Generated
 public fun Construct.cfnEndpointConfig(
   id: String,
   props: CfnEndpointConfigProps,
-  initializer: @AwsCdkDsl CfnEndpointConfig.() -> Unit,
+  initializer: @AwsCdkDsl CfnEndpointConfig.() -> Unit = {},
 ): CfnEndpointConfig = CfnEndpointConfig(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnEndpointConfig(id: String, initializer: @AwsCdkDsl
-    CfnEndpointConfig.Builder.() -> Unit): CfnEndpointConfig =
+    CfnEndpointConfig.Builder.() -> Unit = {}): CfnEndpointConfig =
     CfnEndpointConfig.Builder.create(this, id).apply(initializer).build()

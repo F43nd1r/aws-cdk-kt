@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.rds.ClusterInstanceOptions
 
 @Generated
 public fun buildClusterInstanceOptions(initializer: @AwsCdkDsl
-    ClusterInstanceOptions.Builder.() -> Unit): ClusterInstanceOptions =
+    ClusterInstanceOptions.Builder.() -> Unit = {}): ClusterInstanceOptions =
     ClusterInstanceOptions.Builder().apply(initializer).build()

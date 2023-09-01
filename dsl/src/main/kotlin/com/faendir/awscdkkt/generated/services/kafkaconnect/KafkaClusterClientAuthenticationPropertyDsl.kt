@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kafkaconnect.CfnConnector
 
 @Generated
 public fun buildKafkaClusterClientAuthenticationProperty(initializer: @AwsCdkDsl
-    CfnConnector.KafkaClusterClientAuthenticationProperty.Builder.() -> Unit):
+    CfnConnector.KafkaClusterClientAuthenticationProperty.Builder.() -> Unit = {}):
     CfnConnector.KafkaClusterClientAuthenticationProperty =
     CfnConnector.KafkaClusterClientAuthenticationProperty.Builder().apply(initializer).build()

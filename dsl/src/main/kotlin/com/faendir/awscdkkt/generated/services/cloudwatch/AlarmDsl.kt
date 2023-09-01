@@ -9,15 +9,12 @@ import software.amazon.awscdk.services.cloudwatch.AlarmProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.alarm(id: String, props: AlarmProps): Alarm = Alarm(this, id, props)
-
-@Generated
 public fun Construct.alarm(
   id: String,
   props: AlarmProps,
-  initializer: @AwsCdkDsl Alarm.() -> Unit,
+  initializer: @AwsCdkDsl Alarm.() -> Unit = {},
 ): Alarm = Alarm(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAlarm(id: String, initializer: @AwsCdkDsl Alarm.Builder.() -> Unit): Alarm
-    = Alarm.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildAlarm(id: String, initializer: @AwsCdkDsl Alarm.Builder.() -> Unit = {}):
+    Alarm = Alarm.Builder.create(this, id).apply(initializer).build()

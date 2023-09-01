@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildAribSourceSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.AribSourceSettingsProperty.Builder.() -> Unit): CfnChannel.AribSourceSettingsProperty
-    = CfnChannel.AribSourceSettingsProperty.Builder().apply(initializer).build()
+    CfnChannel.AribSourceSettingsProperty.Builder.() -> Unit = {}):
+    CfnChannel.AribSourceSettingsProperty =
+    CfnChannel.AribSourceSettingsProperty.Builder().apply(initializer).build()

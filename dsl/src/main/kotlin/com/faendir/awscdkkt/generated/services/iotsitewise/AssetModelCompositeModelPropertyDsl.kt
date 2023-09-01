@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iotsitewise.CfnAssetModel
 
 @Generated
 public fun buildAssetModelCompositeModelProperty(initializer: @AwsCdkDsl
-    CfnAssetModel.AssetModelCompositeModelProperty.Builder.() -> Unit):
+    CfnAssetModel.AssetModelCompositeModelProperty.Builder.() -> Unit = {}):
     CfnAssetModel.AssetModelCompositeModelProperty =
     CfnAssetModel.AssetModelCompositeModelProperty.Builder().apply(initializer).build()

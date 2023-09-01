@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesis.StreamProps
 
 @Generated
-public fun buildStreamProps(initializer: @AwsCdkDsl StreamProps.Builder.() -> Unit): StreamProps =
-    StreamProps.Builder().apply(initializer).build()
+public fun buildStreamProps(initializer: @AwsCdkDsl StreamProps.Builder.() -> Unit = {}):
+    StreamProps = StreamProps.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.SubnetIpamOptions
 
 @Generated
-public fun buildSubnetIpamOptions(initializer: @AwsCdkDsl SubnetIpamOptions.Builder.() -> Unit):
-    SubnetIpamOptions = SubnetIpamOptions.Builder().apply(initializer).build()
+public fun buildSubnetIpamOptions(initializer: @AwsCdkDsl SubnetIpamOptions.Builder.() -> Unit =
+    {}): SubnetIpamOptions = SubnetIpamOptions.Builder().apply(initializer).build()

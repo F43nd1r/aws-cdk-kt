@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.medialive.CfnInputSecurityGroupProps
 
 @Generated
 public fun buildCfnInputSecurityGroupProps(initializer: @AwsCdkDsl
-    CfnInputSecurityGroupProps.Builder.() -> Unit): CfnInputSecurityGroupProps =
+    CfnInputSecurityGroupProps.Builder.() -> Unit = {}): CfnInputSecurityGroupProps =
     CfnInputSecurityGroupProps.Builder().apply(initializer).build()

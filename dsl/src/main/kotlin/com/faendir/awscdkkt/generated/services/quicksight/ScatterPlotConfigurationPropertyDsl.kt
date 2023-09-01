@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildScatterPlotConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ScatterPlotConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.ScatterPlotConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.ScatterPlotConfigurationProperty =
     CfnTemplate.ScatterPlotConfigurationProperty.Builder().apply(initializer).build()

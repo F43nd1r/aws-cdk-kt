@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CustomDomainOptions
 
 @Generated
-public fun buildCustomDomainOptions(initializer: @AwsCdkDsl CustomDomainOptions.Builder.() -> Unit):
-    CustomDomainOptions = CustomDomainOptions.Builder().apply(initializer).build()
+public fun buildCustomDomainOptions(initializer: @AwsCdkDsl CustomDomainOptions.Builder.() -> Unit =
+    {}): CustomDomainOptions = CustomDomainOptions.Builder().apply(initializer).build()

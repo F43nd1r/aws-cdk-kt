@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildBoxPlotFieldWellsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.BoxPlotFieldWellsProperty.Builder.() -> Unit): CfnTemplate.BoxPlotFieldWellsProperty
-    = CfnTemplate.BoxPlotFieldWellsProperty.Builder().apply(initializer).build()
+    CfnTemplate.BoxPlotFieldWellsProperty.Builder.() -> Unit = {}):
+    CfnTemplate.BoxPlotFieldWellsProperty =
+    CfnTemplate.BoxPlotFieldWellsProperty.Builder().apply(initializer).build()

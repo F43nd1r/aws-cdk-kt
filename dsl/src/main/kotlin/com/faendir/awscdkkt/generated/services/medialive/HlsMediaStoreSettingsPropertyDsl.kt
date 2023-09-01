@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildHlsMediaStoreSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.HlsMediaStoreSettingsProperty.Builder.() -> Unit):
+    CfnChannel.HlsMediaStoreSettingsProperty.Builder.() -> Unit = {}):
     CfnChannel.HlsMediaStoreSettingsProperty =
     CfnChannel.HlsMediaStoreSettingsProperty.Builder().apply(initializer).build()

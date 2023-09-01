@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ssm.CfnMaintenanceWindowTargetProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnMaintenanceWindowTarget(id: String, props: CfnMaintenanceWindowTargetProps):
-    CfnMaintenanceWindowTarget = CfnMaintenanceWindowTarget(this, id, props)
-
-@Generated
 public fun Construct.cfnMaintenanceWindowTarget(
   id: String,
   props: CfnMaintenanceWindowTargetProps,
-  initializer: @AwsCdkDsl CfnMaintenanceWindowTarget.() -> Unit,
+  initializer: @AwsCdkDsl CfnMaintenanceWindowTarget.() -> Unit = {},
 ): CfnMaintenanceWindowTarget = CfnMaintenanceWindowTarget(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnMaintenanceWindowTarget(id: String, initializer: @AwsCdkDsl
-    CfnMaintenanceWindowTarget.Builder.() -> Unit): CfnMaintenanceWindowTarget =
+    CfnMaintenanceWindowTarget.Builder.() -> Unit = {}): CfnMaintenanceWindowTarget =
     CfnMaintenanceWindowTarget.Builder.create(this, id).apply(initializer).build()

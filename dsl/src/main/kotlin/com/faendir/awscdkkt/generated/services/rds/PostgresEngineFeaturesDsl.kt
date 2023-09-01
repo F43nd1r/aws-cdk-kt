@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.rds.PostgresEngineFeatures
 
 @Generated
 public fun buildPostgresEngineFeatures(initializer: @AwsCdkDsl
-    PostgresEngineFeatures.Builder.() -> Unit): PostgresEngineFeatures =
+    PostgresEngineFeatures.Builder.() -> Unit = {}): PostgresEngineFeatures =
     PostgresEngineFeatures.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecr.CfnPublicRepository
 
 @Generated
 public fun buildRepositoryCatalogDataProperty(initializer: @AwsCdkDsl
-    CfnPublicRepository.RepositoryCatalogDataProperty.Builder.() -> Unit):
+    CfnPublicRepository.RepositoryCatalogDataProperty.Builder.() -> Unit = {}):
     CfnPublicRepository.RepositoryCatalogDataProperty =
     CfnPublicRepository.RepositoryCatalogDataProperty.Builder().apply(initializer).build()

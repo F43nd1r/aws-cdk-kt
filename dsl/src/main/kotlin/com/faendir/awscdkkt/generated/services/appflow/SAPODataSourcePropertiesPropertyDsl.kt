@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
 public fun buildSAPODataSourcePropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.SAPODataSourcePropertiesProperty.Builder.() -> Unit):
+    CfnFlow.SAPODataSourcePropertiesProperty.Builder.() -> Unit = {}):
     CfnFlow.SAPODataSourcePropertiesProperty =
     CfnFlow.SAPODataSourcePropertiesProperty.Builder().apply(initializer).build()

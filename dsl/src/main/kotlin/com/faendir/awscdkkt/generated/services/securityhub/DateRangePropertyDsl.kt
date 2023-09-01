@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.securityhub.CfnAutomationRule
 
 @Generated
 public fun buildDateRangeProperty(initializer: @AwsCdkDsl
-    CfnAutomationRule.DateRangeProperty.Builder.() -> Unit): CfnAutomationRule.DateRangeProperty =
+    CfnAutomationRule.DateRangeProperty.Builder.() -> Unit = {}):
+    CfnAutomationRule.DateRangeProperty =
     CfnAutomationRule.DateRangeProperty.Builder().apply(initializer).build()

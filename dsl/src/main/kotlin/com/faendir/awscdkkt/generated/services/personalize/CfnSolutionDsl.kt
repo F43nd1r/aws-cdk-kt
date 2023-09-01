@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.personalize.CfnSolutionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnSolution(id: String, props: CfnSolutionProps): CfnSolution =
-    CfnSolution(this, id, props)
-
-@Generated
 public fun Construct.cfnSolution(
   id: String,
   props: CfnSolutionProps,
-  initializer: @AwsCdkDsl CfnSolution.() -> Unit,
+  initializer: @AwsCdkDsl CfnSolution.() -> Unit = {},
 ): CfnSolution = CfnSolution(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnSolution(id: String, initializer: @AwsCdkDsl
-    CfnSolution.Builder.() -> Unit): CfnSolution = CfnSolution.Builder.create(this,
+    CfnSolution.Builder.() -> Unit = {}): CfnSolution = CfnSolution.Builder.create(this,
     id).apply(initializer).build()

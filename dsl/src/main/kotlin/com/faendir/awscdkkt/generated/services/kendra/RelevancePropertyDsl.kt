@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.kendra.CfnIndex
 
 @Generated
 public fun buildRelevanceProperty(initializer: @AwsCdkDsl
-    CfnIndex.RelevanceProperty.Builder.() -> Unit): CfnIndex.RelevanceProperty =
+    CfnIndex.RelevanceProperty.Builder.() -> Unit = {}): CfnIndex.RelevanceProperty =
     CfnIndex.RelevanceProperty.Builder().apply(initializer).build()

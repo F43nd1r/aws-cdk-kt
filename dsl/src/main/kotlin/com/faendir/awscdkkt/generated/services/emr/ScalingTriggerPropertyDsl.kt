@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.emr.CfnInstanceGroupConfig
 
 @Generated
 public fun buildScalingTriggerProperty(initializer: @AwsCdkDsl
-    CfnInstanceGroupConfig.ScalingTriggerProperty.Builder.() -> Unit):
+    CfnInstanceGroupConfig.ScalingTriggerProperty.Builder.() -> Unit = {}):
     CfnInstanceGroupConfig.ScalingTriggerProperty =
     CfnInstanceGroupConfig.ScalingTriggerProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.detective.CfnOrganizationAdminProps
 
 @Generated
 public fun buildCfnOrganizationAdminProps(initializer: @AwsCdkDsl
-    CfnOrganizationAdminProps.Builder.() -> Unit): CfnOrganizationAdminProps =
+    CfnOrganizationAdminProps.Builder.() -> Unit = {}): CfnOrganizationAdminProps =
     CfnOrganizationAdminProps.Builder().apply(initializer).build()

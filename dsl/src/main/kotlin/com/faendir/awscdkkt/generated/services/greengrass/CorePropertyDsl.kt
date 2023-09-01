@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.greengrass.CfnCoreDefinitionVersion
 
 @Generated
 public fun buildCoreProperty(initializer: @AwsCdkDsl
-    CfnCoreDefinitionVersion.CoreProperty.Builder.() -> Unit): CfnCoreDefinitionVersion.CoreProperty
-    = CfnCoreDefinitionVersion.CoreProperty.Builder().apply(initializer).build()
+    CfnCoreDefinitionVersion.CoreProperty.Builder.() -> Unit = {}):
+    CfnCoreDefinitionVersion.CoreProperty =
+    CfnCoreDefinitionVersion.CoreProperty.Builder().apply(initializer).build()

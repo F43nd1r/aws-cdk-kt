@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.m2.CfnEnvironment
 
 @Generated
 public fun buildStorageConfigurationProperty(initializer: @AwsCdkDsl
-    CfnEnvironment.StorageConfigurationProperty.Builder.() -> Unit):
+    CfnEnvironment.StorageConfigurationProperty.Builder.() -> Unit = {}):
     CfnEnvironment.StorageConfigurationProperty =
     CfnEnvironment.StorageConfigurationProperty.Builder().apply(initializer).build()

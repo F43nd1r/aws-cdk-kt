@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnClientVpnTargetNetworkAssociationP
 
 @Generated
 public fun buildCfnClientVpnTargetNetworkAssociationProps(initializer: @AwsCdkDsl
-    CfnClientVpnTargetNetworkAssociationProps.Builder.() -> Unit):
+    CfnClientVpnTargetNetworkAssociationProps.Builder.() -> Unit = {}):
     CfnClientVpnTargetNetworkAssociationProps =
     CfnClientVpnTargetNetworkAssociationProps.Builder().apply(initializer).build()

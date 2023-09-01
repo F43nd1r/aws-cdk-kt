@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.msk.CfnCluster
 
 @Generated
 public fun buildConfigurationInfoProperty(initializer: @AwsCdkDsl
-    CfnCluster.ConfigurationInfoProperty.Builder.() -> Unit): CfnCluster.ConfigurationInfoProperty =
+    CfnCluster.ConfigurationInfoProperty.Builder.() -> Unit = {}):
+    CfnCluster.ConfigurationInfoProperty =
     CfnCluster.ConfigurationInfoProperty.Builder().apply(initializer).build()

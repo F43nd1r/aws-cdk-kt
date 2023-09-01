@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codepipeline.actions.ElasticBeanstalkDepl
 
 @Generated
 public fun buildElasticBeanstalkDeployActionProps(initializer: @AwsCdkDsl
-    ElasticBeanstalkDeployActionProps.Builder.() -> Unit): ElasticBeanstalkDeployActionProps =
+    ElasticBeanstalkDeployActionProps.Builder.() -> Unit = {}): ElasticBeanstalkDeployActionProps =
     ElasticBeanstalkDeployActionProps.Builder().apply(initializer).build()

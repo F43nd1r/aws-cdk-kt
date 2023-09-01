@@ -6,6 +6,6 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotsitewise.CfnAccessPolicy
 
 @Generated
-public fun buildUserProperty(initializer: @AwsCdkDsl
-    CfnAccessPolicy.UserProperty.Builder.() -> Unit): CfnAccessPolicy.UserProperty =
+public fun buildUserProperty(initializer: @AwsCdkDsl CfnAccessPolicy.UserProperty.Builder.() -> Unit
+    = {}): CfnAccessPolicy.UserProperty =
     CfnAccessPolicy.UserProperty.Builder().apply(initializer).build()

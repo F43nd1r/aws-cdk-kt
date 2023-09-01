@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sagemaker.CfnMonitoringSchedule
 
 @Generated
 public fun buildCsvProperty(initializer: @AwsCdkDsl
-    CfnMonitoringSchedule.CsvProperty.Builder.() -> Unit): CfnMonitoringSchedule.CsvProperty =
+    CfnMonitoringSchedule.CsvProperty.Builder.() -> Unit = {}): CfnMonitoringSchedule.CsvProperty =
     CfnMonitoringSchedule.CsvProperty.Builder().apply(initializer).build()

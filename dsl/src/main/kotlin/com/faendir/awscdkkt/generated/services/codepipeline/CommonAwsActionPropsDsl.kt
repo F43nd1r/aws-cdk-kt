@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.CommonAwsActionProps
 
 @Generated
-public fun buildCommonAwsActionProps(initializer: @AwsCdkDsl
-    CommonAwsActionProps.Builder.() -> Unit): CommonAwsActionProps =
-    CommonAwsActionProps.Builder().apply(initializer).build()
+public fun buildCommonAwsActionProps(initializer: @AwsCdkDsl CommonAwsActionProps.Builder.() -> Unit
+    = {}): CommonAwsActionProps = CommonAwsActionProps.Builder().apply(initializer).build()

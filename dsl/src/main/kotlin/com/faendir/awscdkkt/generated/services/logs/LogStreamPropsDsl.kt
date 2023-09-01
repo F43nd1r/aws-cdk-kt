@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.LogStreamProps
 
 @Generated
-public fun buildLogStreamProps(initializer: @AwsCdkDsl LogStreamProps.Builder.() -> Unit):
+public fun buildLogStreamProps(initializer: @AwsCdkDsl LogStreamProps.Builder.() -> Unit = {}):
     LogStreamProps = LogStreamProps.Builder().apply(initializer).build()

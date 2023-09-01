@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EmrCreateCluster
 
 @Generated
 public fun buildScalingTriggerProperty(initializer: @AwsCdkDsl
-    EmrCreateCluster.ScalingTriggerProperty.Builder.() -> Unit):
+    EmrCreateCluster.ScalingTriggerProperty.Builder.() -> Unit = {}):
     EmrCreateCluster.ScalingTriggerProperty =
     EmrCreateCluster.ScalingTriggerProperty.Builder().apply(initializer).build()

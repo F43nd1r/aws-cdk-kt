@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cloudfront.CfnStreamingDistribution
 
 @Generated
 public fun buildTrustedSignersProperty(initializer: @AwsCdkDsl
-    CfnStreamingDistribution.TrustedSignersProperty.Builder.() -> Unit):
+    CfnStreamingDistribution.TrustedSignersProperty.Builder.() -> Unit = {}):
     CfnStreamingDistribution.TrustedSignersProperty =
     CfnStreamingDistribution.TrustedSignersProperty.Builder().apply(initializer).build()

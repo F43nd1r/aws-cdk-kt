@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.dlm.CfnLifecyclePolicy
 
 @Generated
 public fun buildEncryptionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnLifecyclePolicy.EncryptionConfigurationProperty.Builder.() -> Unit):
+    CfnLifecyclePolicy.EncryptionConfigurationProperty.Builder.() -> Unit = {}):
     CfnLifecyclePolicy.EncryptionConfigurationProperty =
     CfnLifecyclePolicy.EncryptionConfigurationProperty.Builder().apply(initializer).build()

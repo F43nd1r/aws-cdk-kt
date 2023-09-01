@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.apigatewayv2.CfnApiGatewayManagedOverride
 
 @Generated
 public fun buildRouteOverridesProperty(initializer: @AwsCdkDsl
-    CfnApiGatewayManagedOverrides.RouteOverridesProperty.Builder.() -> Unit):
+    CfnApiGatewayManagedOverrides.RouteOverridesProperty.Builder.() -> Unit = {}):
     CfnApiGatewayManagedOverrides.RouteOverridesProperty =
     CfnApiGatewayManagedOverrides.RouteOverridesProperty.Builder().apply(initializer).build()

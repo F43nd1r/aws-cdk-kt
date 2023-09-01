@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.RuleProps
 
 @Generated
-public fun buildRuleProps(initializer: @AwsCdkDsl RuleProps.Builder.() -> Unit): RuleProps =
+public fun buildRuleProps(initializer: @AwsCdkDsl RuleProps.Builder.() -> Unit = {}): RuleProps =
     RuleProps.Builder().apply(initializer).build()

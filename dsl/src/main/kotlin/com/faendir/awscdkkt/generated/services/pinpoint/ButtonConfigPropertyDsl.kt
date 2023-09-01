@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.pinpoint.CfnInAppTemplate
 
 @Generated
 public fun buildButtonConfigProperty(initializer: @AwsCdkDsl
-    CfnInAppTemplate.ButtonConfigProperty.Builder.() -> Unit): CfnInAppTemplate.ButtonConfigProperty
-    = CfnInAppTemplate.ButtonConfigProperty.Builder().apply(initializer).build()
+    CfnInAppTemplate.ButtonConfigProperty.Builder.() -> Unit = {}):
+    CfnInAppTemplate.ButtonConfigProperty =
+    CfnInAppTemplate.ButtonConfigProperty.Builder().apply(initializer).build()

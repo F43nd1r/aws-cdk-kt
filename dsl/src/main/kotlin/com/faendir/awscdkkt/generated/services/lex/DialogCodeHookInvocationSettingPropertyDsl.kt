@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
 public fun buildDialogCodeHookInvocationSettingProperty(initializer: @AwsCdkDsl
-    CfnBot.DialogCodeHookInvocationSettingProperty.Builder.() -> Unit):
+    CfnBot.DialogCodeHookInvocationSettingProperty.Builder.() -> Unit = {}):
     CfnBot.DialogCodeHookInvocationSettingProperty =
     CfnBot.DialogCodeHookInvocationSettingProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ssm.SecureStringParameterAttributes
 
 @Generated
 public fun buildSecureStringParameterAttributes(initializer: @AwsCdkDsl
-    SecureStringParameterAttributes.Builder.() -> Unit): SecureStringParameterAttributes =
+    SecureStringParameterAttributes.Builder.() -> Unit = {}): SecureStringParameterAttributes =
     SecureStringParameterAttributes.Builder().apply(initializer).build()

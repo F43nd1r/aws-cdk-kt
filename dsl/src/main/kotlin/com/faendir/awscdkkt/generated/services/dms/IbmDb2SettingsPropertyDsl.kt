@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.dms.CfnEndpoint
 
 @Generated
 public fun buildIbmDb2SettingsProperty(initializer: @AwsCdkDsl
-    CfnEndpoint.IbmDb2SettingsProperty.Builder.() -> Unit): CfnEndpoint.IbmDb2SettingsProperty =
-    CfnEndpoint.IbmDb2SettingsProperty.Builder().apply(initializer).build()
+    CfnEndpoint.IbmDb2SettingsProperty.Builder.() -> Unit = {}): CfnEndpoint.IbmDb2SettingsProperty
+    = CfnEndpoint.IbmDb2SettingsProperty.Builder().apply(initializer).build()

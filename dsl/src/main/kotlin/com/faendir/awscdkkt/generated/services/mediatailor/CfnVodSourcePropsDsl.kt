@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediatailor.CfnVodSourceProps
 
 @Generated
-public fun buildCfnVodSourceProps(initializer: @AwsCdkDsl CfnVodSourceProps.Builder.() -> Unit):
-    CfnVodSourceProps = CfnVodSourceProps.Builder().apply(initializer).build()
+public fun buildCfnVodSourceProps(initializer: @AwsCdkDsl CfnVodSourceProps.Builder.() -> Unit =
+    {}): CfnVodSourceProps = CfnVodSourceProps.Builder().apply(initializer).build()

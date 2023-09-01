@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.devicefarm.CfnTestGridProject
 
 @Generated
 public fun buildVpcConfigProperty(initializer: @AwsCdkDsl
-    CfnTestGridProject.VpcConfigProperty.Builder.() -> Unit): CfnTestGridProject.VpcConfigProperty =
+    CfnTestGridProject.VpcConfigProperty.Builder.() -> Unit = {}):
+    CfnTestGridProject.VpcConfigProperty =
     CfnTestGridProject.VpcConfigProperty.Builder().apply(initializer).build()

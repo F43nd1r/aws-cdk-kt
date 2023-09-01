@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.glue.CfnDatabase
 
 @Generated
 public fun buildFederatedDatabaseProperty(initializer: @AwsCdkDsl
-    CfnDatabase.FederatedDatabaseProperty.Builder.() -> Unit): CfnDatabase.FederatedDatabaseProperty
-    = CfnDatabase.FederatedDatabaseProperty.Builder().apply(initializer).build()
+    CfnDatabase.FederatedDatabaseProperty.Builder.() -> Unit = {}):
+    CfnDatabase.FederatedDatabaseProperty =
+    CfnDatabase.FederatedDatabaseProperty.Builder().apply(initializer).build()

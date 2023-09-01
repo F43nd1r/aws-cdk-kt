@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.iottwinmaker.CfnSyncJobProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnSyncJob(id: String, props: CfnSyncJobProps): CfnSyncJob = CfnSyncJob(this,
-    id, props)
-
-@Generated
 public fun Construct.cfnSyncJob(
   id: String,
   props: CfnSyncJobProps,
-  initializer: @AwsCdkDsl CfnSyncJob.() -> Unit,
+  initializer: @AwsCdkDsl CfnSyncJob.() -> Unit = {},
 ): CfnSyncJob = CfnSyncJob(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnSyncJob(id: String, initializer: @AwsCdkDsl
-    CfnSyncJob.Builder.() -> Unit): CfnSyncJob = CfnSyncJob.Builder.create(this,
+    CfnSyncJob.Builder.() -> Unit = {}): CfnSyncJob = CfnSyncJob.Builder.create(this,
     id).apply(initializer).build()

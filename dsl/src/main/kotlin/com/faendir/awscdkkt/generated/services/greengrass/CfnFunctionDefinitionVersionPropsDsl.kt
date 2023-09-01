@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.greengrass.CfnFunctionDefinitionVersionPr
 
 @Generated
 public fun buildCfnFunctionDefinitionVersionProps(initializer: @AwsCdkDsl
-    CfnFunctionDefinitionVersionProps.Builder.() -> Unit): CfnFunctionDefinitionVersionProps =
+    CfnFunctionDefinitionVersionProps.Builder.() -> Unit = {}): CfnFunctionDefinitionVersionProps =
     CfnFunctionDefinitionVersionProps.Builder().apply(initializer).build()

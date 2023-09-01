@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelExplainabilityJobDefini
 
 @Generated
 public fun buildModelExplainabilityAppSpecificationProperty(initializer: @AwsCdkDsl
-    CfnModelExplainabilityJobDefinition.ModelExplainabilityAppSpecificationProperty.Builder.() -> Unit):
-    CfnModelExplainabilityJobDefinition.ModelExplainabilityAppSpecificationProperty =
+    CfnModelExplainabilityJobDefinition.ModelExplainabilityAppSpecificationProperty.Builder.() -> Unit
+    = {}): CfnModelExplainabilityJobDefinition.ModelExplainabilityAppSpecificationProperty =
     CfnModelExplainabilityJobDefinition.ModelExplainabilityAppSpecificationProperty.Builder().apply(initializer).build()

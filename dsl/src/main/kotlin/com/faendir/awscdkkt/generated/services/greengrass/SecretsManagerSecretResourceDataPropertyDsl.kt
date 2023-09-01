@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.greengrass.CfnResourceDefinitionVersion
 
 @Generated
 public fun buildSecretsManagerSecretResourceDataProperty(initializer: @AwsCdkDsl
-    CfnResourceDefinitionVersion.SecretsManagerSecretResourceDataProperty.Builder.() -> Unit):
+    CfnResourceDefinitionVersion.SecretsManagerSecretResourceDataProperty.Builder.() -> Unit = {}):
     CfnResourceDefinitionVersion.SecretsManagerSecretResourceDataProperty =
     CfnResourceDefinitionVersion.SecretsManagerSecretResourceDataProperty.Builder().apply(initializer).build()

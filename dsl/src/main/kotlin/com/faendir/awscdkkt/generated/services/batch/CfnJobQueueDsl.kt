@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.batch.CfnJobQueueProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnJobQueue(id: String, props: CfnJobQueueProps): CfnJobQueue =
-    CfnJobQueue(this, id, props)
-
-@Generated
 public fun Construct.cfnJobQueue(
   id: String,
   props: CfnJobQueueProps,
-  initializer: @AwsCdkDsl CfnJobQueue.() -> Unit,
+  initializer: @AwsCdkDsl CfnJobQueue.() -> Unit = {},
 ): CfnJobQueue = CfnJobQueue(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnJobQueue(id: String, initializer: @AwsCdkDsl
-    CfnJobQueue.Builder.() -> Unit): CfnJobQueue = CfnJobQueue.Builder.create(this,
+    CfnJobQueue.Builder.() -> Unit = {}): CfnJobQueue = CfnJobQueue.Builder.create(this,
     id).apply(initializer).build()

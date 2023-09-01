@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.DeploymentCircuitBreaker
 
 @Generated
 public fun buildDeploymentCircuitBreaker(initializer: @AwsCdkDsl
-    DeploymentCircuitBreaker.Builder.() -> Unit): DeploymentCircuitBreaker =
+    DeploymentCircuitBreaker.Builder.() -> Unit = {}): DeploymentCircuitBreaker =
     DeploymentCircuitBreaker.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cloudwatch.CfnAnomalyDetector
 
 @Generated
 public fun buildRangeProperty(initializer: @AwsCdkDsl
-    CfnAnomalyDetector.RangeProperty.Builder.() -> Unit): CfnAnomalyDetector.RangeProperty =
+    CfnAnomalyDetector.RangeProperty.Builder.() -> Unit = {}): CfnAnomalyDetector.RangeProperty =
     CfnAnomalyDetector.RangeProperty.Builder().apply(initializer).build()

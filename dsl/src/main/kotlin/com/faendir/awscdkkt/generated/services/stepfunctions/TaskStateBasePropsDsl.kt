@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.TaskStateBaseProps
 
 @Generated
-public fun buildTaskStateBaseProps(initializer: @AwsCdkDsl TaskStateBaseProps.Builder.() -> Unit):
-    TaskStateBaseProps = TaskStateBaseProps.Builder().apply(initializer).build()
+public fun buildTaskStateBaseProps(initializer: @AwsCdkDsl TaskStateBaseProps.Builder.() -> Unit =
+    {}): TaskStateBaseProps = TaskStateBaseProps.Builder().apply(initializer).build()

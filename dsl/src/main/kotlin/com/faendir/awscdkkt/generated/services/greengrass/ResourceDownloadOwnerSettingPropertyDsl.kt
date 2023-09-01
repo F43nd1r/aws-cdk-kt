@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.greengrass.CfnResourceDefinitionVersion
 
 @Generated
 public fun buildResourceDownloadOwnerSettingProperty(initializer: @AwsCdkDsl
-    CfnResourceDefinitionVersion.ResourceDownloadOwnerSettingProperty.Builder.() -> Unit):
+    CfnResourceDefinitionVersion.ResourceDownloadOwnerSettingProperty.Builder.() -> Unit = {}):
     CfnResourceDefinitionVersion.ResourceDownloadOwnerSettingProperty =
     CfnResourceDefinitionVersion.ResourceDownloadOwnerSettingProperty.Builder().apply(initializer).build()

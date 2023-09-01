@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
 public fun buildParquetSerDeProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.ParquetSerDeProperty.Builder.() -> Unit):
+    CfnDeliveryStream.ParquetSerDeProperty.Builder.() -> Unit = {}):
     CfnDeliveryStream.ParquetSerDeProperty =
     CfnDeliveryStream.ParquetSerDeProperty.Builder().apply(initializer).build()

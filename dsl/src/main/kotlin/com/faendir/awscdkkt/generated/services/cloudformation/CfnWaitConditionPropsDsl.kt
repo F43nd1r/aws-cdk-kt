@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cloudformation.CfnWaitConditionProps
 
 @Generated
 public fun buildCfnWaitConditionProps(initializer: @AwsCdkDsl
-    CfnWaitConditionProps.Builder.() -> Unit): CfnWaitConditionProps =
+    CfnWaitConditionProps.Builder.() -> Unit = {}): CfnWaitConditionProps =
     CfnWaitConditionProps.Builder().apply(initializer).build()

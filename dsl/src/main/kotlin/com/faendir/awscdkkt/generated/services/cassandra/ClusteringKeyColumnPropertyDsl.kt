@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.cassandra.CfnTable
 
 @Generated
 public fun buildClusteringKeyColumnProperty(initializer: @AwsCdkDsl
-    CfnTable.ClusteringKeyColumnProperty.Builder.() -> Unit): CfnTable.ClusteringKeyColumnProperty =
+    CfnTable.ClusteringKeyColumnProperty.Builder.() -> Unit = {}):
+    CfnTable.ClusteringKeyColumnProperty =
     CfnTable.ClusteringKeyColumnProperty.Builder().apply(initializer).build()

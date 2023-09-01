@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildScatterPlotVisualProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ScatterPlotVisualProperty.Builder.() -> Unit): CfnTemplate.ScatterPlotVisualProperty
-    = CfnTemplate.ScatterPlotVisualProperty.Builder().apply(initializer).build()
+    CfnTemplate.ScatterPlotVisualProperty.Builder.() -> Unit = {}):
+    CfnTemplate.ScatterPlotVisualProperty =
+    CfnTemplate.ScatterPlotVisualProperty.Builder().apply(initializer).build()

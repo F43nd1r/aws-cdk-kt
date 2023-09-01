@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnThemeProps
 
 @Generated
-public fun buildCfnThemeProps(initializer: @AwsCdkDsl CfnThemeProps.Builder.() -> Unit):
+public fun buildCfnThemeProps(initializer: @AwsCdkDsl CfnThemeProps.Builder.() -> Unit = {}):
     CfnThemeProps = CfnThemeProps.Builder().apply(initializer).build()

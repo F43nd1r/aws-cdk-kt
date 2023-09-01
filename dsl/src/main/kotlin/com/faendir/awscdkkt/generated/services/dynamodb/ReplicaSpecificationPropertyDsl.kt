@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.dynamodb.CfnGlobalTable
 
 @Generated
 public fun buildReplicaSpecificationProperty(initializer: @AwsCdkDsl
-    CfnGlobalTable.ReplicaSpecificationProperty.Builder.() -> Unit):
+    CfnGlobalTable.ReplicaSpecificationProperty.Builder.() -> Unit = {}):
     CfnGlobalTable.ReplicaSpecificationProperty =
     CfnGlobalTable.ReplicaSpecificationProperty.Builder().apply(initializer).build()

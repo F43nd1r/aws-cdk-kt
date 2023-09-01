@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iot.CfnTopicRule
 
 @Generated
 public fun buildTimestampProperty(initializer: @AwsCdkDsl
-    CfnTopicRule.TimestampProperty.Builder.() -> Unit): CfnTopicRule.TimestampProperty =
+    CfnTopicRule.TimestampProperty.Builder.() -> Unit = {}): CfnTopicRule.TimestampProperty =
     CfnTopicRule.TimestampProperty.Builder().apply(initializer).build()

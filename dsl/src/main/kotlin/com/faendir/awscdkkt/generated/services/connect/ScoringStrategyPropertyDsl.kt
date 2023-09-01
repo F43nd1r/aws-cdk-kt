@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.connect.CfnEvaluationForm
 
 @Generated
 public fun buildScoringStrategyProperty(initializer: @AwsCdkDsl
-    CfnEvaluationForm.ScoringStrategyProperty.Builder.() -> Unit):
+    CfnEvaluationForm.ScoringStrategyProperty.Builder.() -> Unit = {}):
     CfnEvaluationForm.ScoringStrategyProperty =
     CfnEvaluationForm.ScoringStrategyProperty.Builder().apply(initializer).build()

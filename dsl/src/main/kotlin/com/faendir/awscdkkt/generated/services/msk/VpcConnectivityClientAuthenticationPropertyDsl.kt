@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.msk.CfnCluster
 
 @Generated
 public fun buildVpcConnectivityClientAuthenticationProperty(initializer: @AwsCdkDsl
-    CfnCluster.VpcConnectivityClientAuthenticationProperty.Builder.() -> Unit):
+    CfnCluster.VpcConnectivityClientAuthenticationProperty.Builder.() -> Unit = {}):
     CfnCluster.VpcConnectivityClientAuthenticationProperty =
     CfnCluster.VpcConnectivityClientAuthenticationProperty.Builder().apply(initializer).build()

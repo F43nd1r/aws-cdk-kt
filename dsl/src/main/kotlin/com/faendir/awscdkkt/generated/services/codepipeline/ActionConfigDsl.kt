@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.ActionConfig
 
 @Generated
-public fun buildActionConfig(initializer: @AwsCdkDsl ActionConfig.Builder.() -> Unit): ActionConfig
-    = ActionConfig.Builder().apply(initializer).build()
+public fun buildActionConfig(initializer: @AwsCdkDsl ActionConfig.Builder.() -> Unit = {}):
+    ActionConfig = ActionConfig.Builder().apply(initializer).build()

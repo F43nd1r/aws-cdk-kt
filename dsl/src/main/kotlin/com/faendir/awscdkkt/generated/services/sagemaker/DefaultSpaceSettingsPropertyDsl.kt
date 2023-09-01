@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnDomain
 
 @Generated
 public fun buildDefaultSpaceSettingsProperty(initializer: @AwsCdkDsl
-    CfnDomain.DefaultSpaceSettingsProperty.Builder.() -> Unit):
+    CfnDomain.DefaultSpaceSettingsProperty.Builder.() -> Unit = {}):
     CfnDomain.DefaultSpaceSettingsProperty =
     CfnDomain.DefaultSpaceSettingsProperty.Builder().apply(initializer).build()

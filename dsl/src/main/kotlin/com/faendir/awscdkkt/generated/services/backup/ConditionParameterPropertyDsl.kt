@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.backup.CfnBackupSelection
 
 @Generated
 public fun buildConditionParameterProperty(initializer: @AwsCdkDsl
-    CfnBackupSelection.ConditionParameterProperty.Builder.() -> Unit):
+    CfnBackupSelection.ConditionParameterProperty.Builder.() -> Unit = {}):
     CfnBackupSelection.ConditionParameterProperty =
     CfnBackupSelection.ConditionParameterProperty.Builder().apply(initializer).build()

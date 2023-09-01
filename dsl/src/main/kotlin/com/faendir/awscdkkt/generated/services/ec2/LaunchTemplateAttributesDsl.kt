@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.LaunchTemplateAttributes
 
 @Generated
 public fun buildLaunchTemplateAttributes(initializer: @AwsCdkDsl
-    LaunchTemplateAttributes.Builder.() -> Unit): LaunchTemplateAttributes =
+    LaunchTemplateAttributes.Builder.() -> Unit = {}): LaunchTemplateAttributes =
     LaunchTemplateAttributes.Builder().apply(initializer).build()

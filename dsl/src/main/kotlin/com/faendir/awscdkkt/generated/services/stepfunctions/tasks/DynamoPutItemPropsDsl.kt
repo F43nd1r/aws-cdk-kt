@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.DynamoPutItemProps
 
 @Generated
-public fun buildDynamoPutItemProps(initializer: @AwsCdkDsl DynamoPutItemProps.Builder.() -> Unit):
-    DynamoPutItemProps = DynamoPutItemProps.Builder().apply(initializer).build()
+public fun buildDynamoPutItemProps(initializer: @AwsCdkDsl DynamoPutItemProps.Builder.() -> Unit =
+    {}): DynamoPutItemProps = DynamoPutItemProps.Builder().apply(initializer).build()

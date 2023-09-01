@@ -9,19 +9,14 @@ import software.amazon.awscdk.services.redshift.CfnClusterSecurityGroupIngressPr
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnClusterSecurityGroupIngress(id: String,
-    props: CfnClusterSecurityGroupIngressProps): CfnClusterSecurityGroupIngress =
-    CfnClusterSecurityGroupIngress(this, id, props)
-
-@Generated
 public fun Construct.cfnClusterSecurityGroupIngress(
   id: String,
   props: CfnClusterSecurityGroupIngressProps,
-  initializer: @AwsCdkDsl CfnClusterSecurityGroupIngress.() -> Unit,
+  initializer: @AwsCdkDsl CfnClusterSecurityGroupIngress.() -> Unit = {},
 ): CfnClusterSecurityGroupIngress = CfnClusterSecurityGroupIngress(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnClusterSecurityGroupIngress(id: String, initializer: @AwsCdkDsl
-    CfnClusterSecurityGroupIngress.Builder.() -> Unit): CfnClusterSecurityGroupIngress =
+    CfnClusterSecurityGroupIngress.Builder.() -> Unit = {}): CfnClusterSecurityGroupIngress =
     CfnClusterSecurityGroupIngress.Builder.create(this, id).apply(initializer).build()

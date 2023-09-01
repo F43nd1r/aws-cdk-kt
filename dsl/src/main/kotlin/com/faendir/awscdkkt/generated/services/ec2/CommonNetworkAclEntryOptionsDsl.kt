@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.CommonNetworkAclEntryOptions
 
 @Generated
 public fun buildCommonNetworkAclEntryOptions(initializer: @AwsCdkDsl
-    CommonNetworkAclEntryOptions.Builder.() -> Unit): CommonNetworkAclEntryOptions =
+    CommonNetworkAclEntryOptions.Builder.() -> Unit = {}): CommonNetworkAclEntryOptions =
     CommonNetworkAclEntryOptions.Builder().apply(initializer).build()

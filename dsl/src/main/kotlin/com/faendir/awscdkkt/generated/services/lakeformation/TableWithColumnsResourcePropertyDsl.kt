@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lakeformation.CfnTagAssociation
 
 @Generated
 public fun buildTableWithColumnsResourceProperty(initializer: @AwsCdkDsl
-    CfnTagAssociation.TableWithColumnsResourceProperty.Builder.() -> Unit):
+    CfnTagAssociation.TableWithColumnsResourceProperty.Builder.() -> Unit = {}):
     CfnTagAssociation.TableWithColumnsResourceProperty =
     CfnTagAssociation.TableWithColumnsResourceProperty.Builder().apply(initializer).build()

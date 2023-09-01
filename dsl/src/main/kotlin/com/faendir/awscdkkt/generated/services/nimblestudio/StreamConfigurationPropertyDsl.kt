@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.nimblestudio.CfnLaunchProfile
 
 @Generated
 public fun buildStreamConfigurationProperty(initializer: @AwsCdkDsl
-    CfnLaunchProfile.StreamConfigurationProperty.Builder.() -> Unit):
+    CfnLaunchProfile.StreamConfigurationProperty.Builder.() -> Unit = {}):
     CfnLaunchProfile.StreamConfigurationProperty =
     CfnLaunchProfile.StreamConfigurationProperty.Builder().apply(initializer).build()

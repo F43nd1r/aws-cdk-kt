@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.FunctionProps
 
 @Generated
-public fun buildFunctionProps(initializer: @AwsCdkDsl FunctionProps.Builder.() -> Unit):
+public fun buildFunctionProps(initializer: @AwsCdkDsl FunctionProps.Builder.() -> Unit = {}):
     FunctionProps = FunctionProps.Builder().apply(initializer).build()

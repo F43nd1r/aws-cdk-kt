@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ssmcontacts.CfnRotation
 
 @Generated
 public fun buildMonthlySettingProperty(initializer: @AwsCdkDsl
-    CfnRotation.MonthlySettingProperty.Builder.() -> Unit): CfnRotation.MonthlySettingProperty =
-    CfnRotation.MonthlySettingProperty.Builder().apply(initializer).build()
+    CfnRotation.MonthlySettingProperty.Builder.() -> Unit = {}): CfnRotation.MonthlySettingProperty
+    = CfnRotation.MonthlySettingProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.AlgorithmSpecificatio
 
 @Generated
 public fun buildAlgorithmSpecification(initializer: @AwsCdkDsl
-    AlgorithmSpecification.Builder.() -> Unit): AlgorithmSpecification =
+    AlgorithmSpecification.Builder.() -> Unit = {}): AlgorithmSpecification =
     AlgorithmSpecification.Builder().apply(initializer).build()

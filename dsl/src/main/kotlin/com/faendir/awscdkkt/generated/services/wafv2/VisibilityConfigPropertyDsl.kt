@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
 public fun buildVisibilityConfigProperty(initializer: @AwsCdkDsl
-    CfnWebACL.VisibilityConfigProperty.Builder.() -> Unit): CfnWebACL.VisibilityConfigProperty =
-    CfnWebACL.VisibilityConfigProperty.Builder().apply(initializer).build()
+    CfnWebACL.VisibilityConfigProperty.Builder.() -> Unit = {}): CfnWebACL.VisibilityConfigProperty
+    = CfnWebACL.VisibilityConfigProperty.Builder().apply(initializer).build()

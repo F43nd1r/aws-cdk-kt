@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.datasync.CfnLocationAzureBlob
 
 @Generated
 public fun buildAzureBlobSasConfigurationProperty(initializer: @AwsCdkDsl
-    CfnLocationAzureBlob.AzureBlobSasConfigurationProperty.Builder.() -> Unit):
+    CfnLocationAzureBlob.AzureBlobSasConfigurationProperty.Builder.() -> Unit = {}):
     CfnLocationAzureBlob.AzureBlobSasConfigurationProperty =
     CfnLocationAzureBlob.AzureBlobSasConfigurationProperty.Builder().apply(initializer).build()

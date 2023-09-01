@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
 public fun buildAlexaSkillEventProperty(initializer: @AwsCdkDsl
-    CfnFunction.AlexaSkillEventProperty.Builder.() -> Unit): CfnFunction.AlexaSkillEventProperty =
+    CfnFunction.AlexaSkillEventProperty.Builder.() -> Unit = {}):
+    CfnFunction.AlexaSkillEventProperty =
     CfnFunction.AlexaSkillEventProperty.Builder().apply(initializer).build()

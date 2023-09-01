@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.alexa.ask.CfnSkillProps
 
 @Generated
-public fun buildCfnSkillProps(initializer: @AwsCdkDsl CfnSkillProps.Builder.() -> Unit):
+public fun buildCfnSkillProps(initializer: @AwsCdkDsl CfnSkillProps.Builder.() -> Unit = {}):
     CfnSkillProps = CfnSkillProps.Builder().apply(initializer).build()

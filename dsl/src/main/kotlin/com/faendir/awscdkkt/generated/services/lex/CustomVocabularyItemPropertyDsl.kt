@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
 public fun buildCustomVocabularyItemProperty(initializer: @AwsCdkDsl
-    CfnBot.CustomVocabularyItemProperty.Builder.() -> Unit): CfnBot.CustomVocabularyItemProperty =
+    CfnBot.CustomVocabularyItemProperty.Builder.() -> Unit = {}):
+    CfnBot.CustomVocabularyItemProperty =
     CfnBot.CustomVocabularyItemProperty.Builder().apply(initializer).build()

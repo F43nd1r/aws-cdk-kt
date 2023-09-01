@@ -9,17 +9,13 @@ import software.amazon.awscdk.triggers.TriggerFunctionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.triggerFunction(id: String, props: TriggerFunctionProps): TriggerFunction =
-    TriggerFunction(this, id, props)
-
-@Generated
 public fun Construct.triggerFunction(
   id: String,
   props: TriggerFunctionProps,
-  initializer: @AwsCdkDsl TriggerFunction.() -> Unit,
+  initializer: @AwsCdkDsl TriggerFunction.() -> Unit = {},
 ): TriggerFunction = TriggerFunction(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildTriggerFunction(id: String, initializer: @AwsCdkDsl
-    TriggerFunction.Builder.() -> Unit): TriggerFunction = TriggerFunction.Builder.create(this,
+    TriggerFunction.Builder.() -> Unit = {}): TriggerFunction = TriggerFunction.Builder.create(this,
     id).apply(initializer).build()

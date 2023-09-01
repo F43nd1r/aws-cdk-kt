@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.StagePlacement
 
 @Generated
-public fun buildStagePlacement(initializer: @AwsCdkDsl StagePlacement.Builder.() -> Unit):
+public fun buildStagePlacement(initializer: @AwsCdkDsl StagePlacement.Builder.() -> Unit = {}):
     StagePlacement = StagePlacement.Builder().apply(initializer).build()

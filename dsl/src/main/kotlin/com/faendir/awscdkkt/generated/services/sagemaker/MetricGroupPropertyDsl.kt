@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sagemaker.CfnModelCard
 
 @Generated
 public fun buildMetricGroupProperty(initializer: @AwsCdkDsl
-    CfnModelCard.MetricGroupProperty.Builder.() -> Unit): CfnModelCard.MetricGroupProperty =
+    CfnModelCard.MetricGroupProperty.Builder.() -> Unit = {}): CfnModelCard.MetricGroupProperty =
     CfnModelCard.MetricGroupProperty.Builder().apply(initializer).build()

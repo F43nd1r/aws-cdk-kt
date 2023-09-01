@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.RuntimeConfig
 
 @Generated
-public fun buildRuntimeConfig(initializer: @AwsCdkDsl RuntimeConfig.Builder.() -> Unit):
+public fun buildRuntimeConfig(initializer: @AwsCdkDsl RuntimeConfig.Builder.() -> Unit = {}):
     RuntimeConfig = RuntimeConfig.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.CfnListenerRule
 
 @Generated
 public fun buildTargetGroupTupleProperty(initializer: @AwsCdkDsl
-    CfnListenerRule.TargetGroupTupleProperty.Builder.() -> Unit):
+    CfnListenerRule.TargetGroupTupleProperty.Builder.() -> Unit = {}):
     CfnListenerRule.TargetGroupTupleProperty =
     CfnListenerRule.TargetGroupTupleProperty.Builder().apply(initializer).build()

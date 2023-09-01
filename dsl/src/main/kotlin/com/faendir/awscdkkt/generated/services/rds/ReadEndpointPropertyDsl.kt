@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.rds.CfnDBCluster
 
 @Generated
 public fun buildReadEndpointProperty(initializer: @AwsCdkDsl
-    CfnDBCluster.ReadEndpointProperty.Builder.() -> Unit): CfnDBCluster.ReadEndpointProperty =
+    CfnDBCluster.ReadEndpointProperty.Builder.() -> Unit = {}): CfnDBCluster.ReadEndpointProperty =
     CfnDBCluster.ReadEndpointProperty.Builder().apply(initializer).build()

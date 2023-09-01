@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cloudfront.CfnMonitoringSubscription
 
 @Generated
 public fun buildRealtimeMetricsSubscriptionConfigProperty(initializer: @AwsCdkDsl
-    CfnMonitoringSubscription.RealtimeMetricsSubscriptionConfigProperty.Builder.() -> Unit):
+    CfnMonitoringSubscription.RealtimeMetricsSubscriptionConfigProperty.Builder.() -> Unit = {}):
     CfnMonitoringSubscription.RealtimeMetricsSubscriptionConfigProperty =
     CfnMonitoringSubscription.RealtimeMetricsSubscriptionConfigProperty.Builder().apply(initializer).build()

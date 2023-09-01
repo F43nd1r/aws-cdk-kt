@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.signer.SigningProfileProps
 
 @Generated
-public fun buildSigningProfileProps(initializer: @AwsCdkDsl SigningProfileProps.Builder.() -> Unit):
-    SigningProfileProps = SigningProfileProps.Builder().apply(initializer).build()
+public fun buildSigningProfileProps(initializer: @AwsCdkDsl SigningProfileProps.Builder.() -> Unit =
+    {}): SigningProfileProps = SigningProfileProps.Builder().apply(initializer).build()

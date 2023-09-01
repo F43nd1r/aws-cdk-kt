@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelPackage
 
 @Generated
 public fun buildDriftCheckModelDataQualityProperty(initializer: @AwsCdkDsl
-    CfnModelPackage.DriftCheckModelDataQualityProperty.Builder.() -> Unit):
+    CfnModelPackage.DriftCheckModelDataQualityProperty.Builder.() -> Unit = {}):
     CfnModelPackage.DriftCheckModelDataQualityProperty =
     CfnModelPackage.DriftCheckModelDataQualityProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kendra.CfnIndex
 
 @Generated
 public fun buildCapacityUnitsConfigurationProperty(initializer: @AwsCdkDsl
-    CfnIndex.CapacityUnitsConfigurationProperty.Builder.() -> Unit):
+    CfnIndex.CapacityUnitsConfigurationProperty.Builder.() -> Unit = {}):
     CfnIndex.CapacityUnitsConfigurationProperty =
     CfnIndex.CapacityUnitsConfigurationProperty.Builder().apply(initializer).build()

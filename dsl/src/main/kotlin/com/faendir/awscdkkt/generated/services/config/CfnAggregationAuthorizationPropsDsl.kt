@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.config.CfnAggregationAuthorizationProps
 
 @Generated
 public fun buildCfnAggregationAuthorizationProps(initializer: @AwsCdkDsl
-    CfnAggregationAuthorizationProps.Builder.() -> Unit): CfnAggregationAuthorizationProps =
+    CfnAggregationAuthorizationProps.Builder.() -> Unit = {}): CfnAggregationAuthorizationProps =
     CfnAggregationAuthorizationProps.Builder().apply(initializer).build()

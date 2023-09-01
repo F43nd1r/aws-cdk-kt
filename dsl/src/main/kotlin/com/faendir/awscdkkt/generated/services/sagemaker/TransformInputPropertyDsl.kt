@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelPackage
 
 @Generated
 public fun buildTransformInputProperty(initializer: @AwsCdkDsl
-    CfnModelPackage.TransformInputProperty.Builder.() -> Unit):
+    CfnModelPackage.TransformInputProperty.Builder.() -> Unit = {}):
     CfnModelPackage.TransformInputProperty =
     CfnModelPackage.TransformInputProperty.Builder().apply(initializer).build()

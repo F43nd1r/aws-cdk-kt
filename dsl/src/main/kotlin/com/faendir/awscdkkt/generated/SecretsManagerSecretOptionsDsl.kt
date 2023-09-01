@@ -7,5 +7,5 @@ import software.amazon.awscdk.SecretsManagerSecretOptions
 
 @Generated
 public fun buildSecretsManagerSecretOptions(initializer: @AwsCdkDsl
-    SecretsManagerSecretOptions.Builder.() -> Unit): SecretsManagerSecretOptions =
+    SecretsManagerSecretOptions.Builder.() -> Unit = {}): SecretsManagerSecretOptions =
     SecretsManagerSecretOptions.Builder().apply(initializer).build()

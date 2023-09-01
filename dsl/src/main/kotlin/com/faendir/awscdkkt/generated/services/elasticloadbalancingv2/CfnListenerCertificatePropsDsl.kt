@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.CfnListenerCertifi
 
 @Generated
 public fun buildCfnListenerCertificateProps(initializer: @AwsCdkDsl
-    CfnListenerCertificateProps.Builder.() -> Unit): CfnListenerCertificateProps =
+    CfnListenerCertificateProps.Builder.() -> Unit = {}): CfnListenerCertificateProps =
     CfnListenerCertificateProps.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.RedirectOptions
 
 @Generated
-public fun buildRedirectOptions(initializer: @AwsCdkDsl RedirectOptions.Builder.() -> Unit):
+public fun buildRedirectOptions(initializer: @AwsCdkDsl RedirectOptions.Builder.() -> Unit = {}):
     RedirectOptions = RedirectOptions.Builder().apply(initializer).build()

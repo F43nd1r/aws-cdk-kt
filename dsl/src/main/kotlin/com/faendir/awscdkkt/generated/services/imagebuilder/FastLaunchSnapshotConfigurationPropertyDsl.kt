@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.imagebuilder.CfnDistributionConfiguration
 
 @Generated
 public fun buildFastLaunchSnapshotConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDistributionConfiguration.FastLaunchSnapshotConfigurationProperty.Builder.() -> Unit):
+    CfnDistributionConfiguration.FastLaunchSnapshotConfigurationProperty.Builder.() -> Unit = {}):
     CfnDistributionConfiguration.FastLaunchSnapshotConfigurationProperty =
     CfnDistributionConfiguration.FastLaunchSnapshotConfigurationProperty.Builder().apply(initializer).build()

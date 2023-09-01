@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.vpclattice.CfnRule
 
 @Generated
 public fun buildPathMatchProperty(initializer: @AwsCdkDsl
-    CfnRule.PathMatchProperty.Builder.() -> Unit): CfnRule.PathMatchProperty =
+    CfnRule.PathMatchProperty.Builder.() -> Unit = {}): CfnRule.PathMatchProperty =
     CfnRule.PathMatchProperty.Builder().apply(initializer).build()

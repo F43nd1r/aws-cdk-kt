@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.codedeploy.CfnDeploymentGroup
 
 @Generated
 public fun buildTargetGroupPairInfoProperty(initializer: @AwsCdkDsl
-    CfnDeploymentGroup.TargetGroupPairInfoProperty.Builder.() -> Unit):
+    CfnDeploymentGroup.TargetGroupPairInfoProperty.Builder.() -> Unit = {}):
     CfnDeploymentGroup.TargetGroupPairInfoProperty =
     CfnDeploymentGroup.TargetGroupPairInfoProperty.Builder().apply(initializer).build()

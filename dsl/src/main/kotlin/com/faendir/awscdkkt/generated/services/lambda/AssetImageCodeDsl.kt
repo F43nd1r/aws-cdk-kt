@@ -8,5 +8,5 @@ import software.amazon.awscdk.services.lambda.AssetImageCode
 
 @Generated
 public fun buildAssetImageCode(directory: String, initializer: @AwsCdkDsl
-    AssetImageCode.Builder.() -> Unit): AssetImageCode =
+    AssetImageCode.Builder.() -> Unit = {}): AssetImageCode =
     AssetImageCode.Builder.create(directory).apply(initializer).build()

@@ -8,5 +8,5 @@ import software.amazon.awscdk.services.apigateway.HttpIntegration
 
 @Generated
 public fun buildHttpIntegration(url: String, initializer: @AwsCdkDsl
-    HttpIntegration.Builder.() -> Unit): HttpIntegration =
+    HttpIntegration.Builder.() -> Unit = {}): HttpIntegration =
     HttpIntegration.Builder.create(url).apply(initializer).build()

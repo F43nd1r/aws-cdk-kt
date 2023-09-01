@@ -13,5 +13,5 @@ import software.amazon.awscdk.services.codedeploy.CustomLambdaDeploymentConfigPr
     "software.amazon.awscdk.services.codedeploy.CustomLambdaDeploymentConfigProps is deprecated in CDK.")
 @Generated
 public fun buildCustomLambdaDeploymentConfigProps(initializer: @AwsCdkDsl
-    CustomLambdaDeploymentConfigProps.Builder.() -> Unit): CustomLambdaDeploymentConfigProps =
+    CustomLambdaDeploymentConfigProps.Builder.() -> Unit = {}): CustomLambdaDeploymentConfigProps =
     CustomLambdaDeploymentConfigProps.Builder().apply(initializer).build()

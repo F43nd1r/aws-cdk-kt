@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appsync.CfnGraphQLApi
 
 @Generated
 public fun buildLambdaAuthorizerConfigProperty(initializer: @AwsCdkDsl
-    CfnGraphQLApi.LambdaAuthorizerConfigProperty.Builder.() -> Unit):
+    CfnGraphQLApi.LambdaAuthorizerConfigProperty.Builder.() -> Unit = {}):
     CfnGraphQLApi.LambdaAuthorizerConfigProperty =
     CfnGraphQLApi.LambdaAuthorizerConfigProperty.Builder().apply(initializer).build()

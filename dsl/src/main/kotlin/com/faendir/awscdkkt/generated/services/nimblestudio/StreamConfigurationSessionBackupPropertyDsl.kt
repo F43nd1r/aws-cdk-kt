@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.nimblestudio.CfnLaunchProfile
 
 @Generated
 public fun buildStreamConfigurationSessionBackupProperty(initializer: @AwsCdkDsl
-    CfnLaunchProfile.StreamConfigurationSessionBackupProperty.Builder.() -> Unit):
+    CfnLaunchProfile.StreamConfigurationSessionBackupProperty.Builder.() -> Unit = {}):
     CfnLaunchProfile.StreamConfigurationSessionBackupProperty =
     CfnLaunchProfile.StreamConfigurationSessionBackupProperty.Builder().apply(initializer).build()

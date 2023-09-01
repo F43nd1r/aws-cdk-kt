@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
 public fun buildLogConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.LogConfigurationProperty.Builder.() -> Unit):
+    CfnTaskDefinition.LogConfigurationProperty.Builder.() -> Unit = {}):
     CfnTaskDefinition.LogConfigurationProperty =
     CfnTaskDefinition.LogConfigurationProperty.Builder().apply(initializer).build()

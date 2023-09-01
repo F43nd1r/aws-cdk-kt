@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.glue.CfnTable
 
 @Generated
 public fun buildTableIdentifierProperty(initializer: @AwsCdkDsl
-    CfnTable.TableIdentifierProperty.Builder.() -> Unit): CfnTable.TableIdentifierProperty =
+    CfnTable.TableIdentifierProperty.Builder.() -> Unit = {}): CfnTable.TableIdentifierProperty =
     CfnTable.TableIdentifierProperty.Builder().apply(initializer).build()

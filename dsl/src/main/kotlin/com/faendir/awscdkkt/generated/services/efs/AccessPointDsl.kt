@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.efs.AccessPointProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.accessPoint(id: String, props: AccessPointProps): AccessPoint =
-    AccessPoint(this, id, props)
-
-@Generated
 public fun Construct.accessPoint(
   id: String,
   props: AccessPointProps,
-  initializer: @AwsCdkDsl AccessPoint.() -> Unit,
+  initializer: @AwsCdkDsl AccessPoint.() -> Unit = {},
 ): AccessPoint = AccessPoint(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildAccessPoint(id: String, initializer: @AwsCdkDsl
-    AccessPoint.Builder.() -> Unit): AccessPoint = AccessPoint.Builder.create(this,
+    AccessPoint.Builder.() -> Unit = {}): AccessPoint = AccessPoint.Builder.create(this,
     id).apply(initializer).build()

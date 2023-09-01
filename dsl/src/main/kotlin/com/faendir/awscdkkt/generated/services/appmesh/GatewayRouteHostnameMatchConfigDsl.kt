@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appmesh.GatewayRouteHostnameMatchConfig
 
 @Generated
 public fun buildGatewayRouteHostnameMatchConfig(initializer: @AwsCdkDsl
-    GatewayRouteHostnameMatchConfig.Builder.() -> Unit): GatewayRouteHostnameMatchConfig =
+    GatewayRouteHostnameMatchConfig.Builder.() -> Unit = {}): GatewayRouteHostnameMatchConfig =
     GatewayRouteHostnameMatchConfig.Builder().apply(initializer).build()

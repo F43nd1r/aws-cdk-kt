@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildDateTimePickerControlDisplayOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DateTimePickerControlDisplayOptionsProperty.Builder.() -> Unit):
+    CfnTemplate.DateTimePickerControlDisplayOptionsProperty.Builder.() -> Unit = {}):
     CfnTemplate.DateTimePickerControlDisplayOptionsProperty =
     CfnTemplate.DateTimePickerControlDisplayOptionsProperty.Builder().apply(initializer).build()

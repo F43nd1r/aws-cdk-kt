@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildTotalAggregationComputationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TotalAggregationComputationProperty.Builder.() -> Unit):
+    CfnTemplate.TotalAggregationComputationProperty.Builder.() -> Unit = {}):
     CfnTemplate.TotalAggregationComputationProperty =
     CfnTemplate.TotalAggregationComputationProperty.Builder().apply(initializer).build()

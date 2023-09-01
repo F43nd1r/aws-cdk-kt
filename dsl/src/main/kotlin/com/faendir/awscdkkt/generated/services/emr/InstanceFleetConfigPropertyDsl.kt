@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.emr.CfnCluster
 
 @Generated
 public fun buildInstanceFleetConfigProperty(initializer: @AwsCdkDsl
-    CfnCluster.InstanceFleetConfigProperty.Builder.() -> Unit):
+    CfnCluster.InstanceFleetConfigProperty.Builder.() -> Unit = {}):
     CfnCluster.InstanceFleetConfigProperty =
     CfnCluster.InstanceFleetConfigProperty.Builder().apply(initializer).build()

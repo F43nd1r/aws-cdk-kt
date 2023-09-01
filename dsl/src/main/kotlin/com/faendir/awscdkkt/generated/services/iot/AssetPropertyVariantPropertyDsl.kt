@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iot.CfnTopicRule
 
 @Generated
 public fun buildAssetPropertyVariantProperty(initializer: @AwsCdkDsl
-    CfnTopicRule.AssetPropertyVariantProperty.Builder.() -> Unit):
+    CfnTopicRule.AssetPropertyVariantProperty.Builder.() -> Unit = {}):
     CfnTopicRule.AssetPropertyVariantProperty =
     CfnTopicRule.AssetPropertyVariantProperty.Builder().apply(initializer).build()

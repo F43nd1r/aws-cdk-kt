@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.greengrass.CfnSubscriptionDefinitionProps
 
 @Generated
 public fun buildCfnSubscriptionDefinitionProps(initializer: @AwsCdkDsl
-    CfnSubscriptionDefinitionProps.Builder.() -> Unit): CfnSubscriptionDefinitionProps =
+    CfnSubscriptionDefinitionProps.Builder.() -> Unit = {}): CfnSubscriptionDefinitionProps =
     CfnSubscriptionDefinitionProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildHeatMapConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.HeatMapConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.HeatMapConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.HeatMapConfigurationProperty =
     CfnTemplate.HeatMapConfigurationProperty.Builder().apply(initializer).build()

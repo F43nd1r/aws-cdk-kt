@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.logs.CfnAccountPolicyProps
 
 @Generated
 public fun buildCfnAccountPolicyProps(initializer: @AwsCdkDsl
-    CfnAccountPolicyProps.Builder.() -> Unit): CfnAccountPolicyProps =
+    CfnAccountPolicyProps.Builder.() -> Unit = {}): CfnAccountPolicyProps =
     CfnAccountPolicyProps.Builder().apply(initializer).build()

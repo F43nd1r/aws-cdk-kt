@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.apigateway.RestApi
 import software.amazon.awscdk.services.events.targets.ApiGateway
 
 @Generated
-public fun buildApiGateway(restApi: RestApi, initializer: @AwsCdkDsl ApiGateway.Builder.() -> Unit):
-    ApiGateway = ApiGateway.Builder.create(restApi).apply(initializer).build()
+public fun buildApiGateway(restApi: RestApi, initializer: @AwsCdkDsl ApiGateway.Builder.() -> Unit =
+    {}): ApiGateway = ApiGateway.Builder.create(restApi).apply(initializer).build()

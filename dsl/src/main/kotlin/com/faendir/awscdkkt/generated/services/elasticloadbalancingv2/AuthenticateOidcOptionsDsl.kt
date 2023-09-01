@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.AuthenticateOidcOp
 
 @Generated
 public fun buildAuthenticateOidcOptions(initializer: @AwsCdkDsl
-    AuthenticateOidcOptions.Builder.() -> Unit): AuthenticateOidcOptions =
+    AuthenticateOidcOptions.Builder.() -> Unit = {}): AuthenticateOidcOptions =
     AuthenticateOidcOptions.Builder().apply(initializer).build()

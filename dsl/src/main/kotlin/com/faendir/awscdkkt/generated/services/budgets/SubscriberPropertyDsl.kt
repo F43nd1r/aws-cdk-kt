@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.budgets.CfnBudgetsAction
 
 @Generated
 public fun buildSubscriberProperty(initializer: @AwsCdkDsl
-    CfnBudgetsAction.SubscriberProperty.Builder.() -> Unit): CfnBudgetsAction.SubscriberProperty =
+    CfnBudgetsAction.SubscriberProperty.Builder.() -> Unit = {}):
+    CfnBudgetsAction.SubscriberProperty =
     CfnBudgetsAction.SubscriberProperty.Builder().apply(initializer).build()

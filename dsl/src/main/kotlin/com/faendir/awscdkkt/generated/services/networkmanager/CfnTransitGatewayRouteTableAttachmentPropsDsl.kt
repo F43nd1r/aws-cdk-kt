@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.networkmanager.CfnTransitGatewayRouteTabl
 
 @Generated
 public fun buildCfnTransitGatewayRouteTableAttachmentProps(initializer: @AwsCdkDsl
-    CfnTransitGatewayRouteTableAttachmentProps.Builder.() -> Unit):
+    CfnTransitGatewayRouteTableAttachmentProps.Builder.() -> Unit = {}):
     CfnTransitGatewayRouteTableAttachmentProps =
     CfnTransitGatewayRouteTableAttachmentProps.Builder().apply(initializer).build()

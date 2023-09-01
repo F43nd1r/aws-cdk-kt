@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.scheduler.CfnSchedule
 
 @Generated
 public fun buildRetryPolicyProperty(initializer: @AwsCdkDsl
-    CfnSchedule.RetryPolicyProperty.Builder.() -> Unit): CfnSchedule.RetryPolicyProperty =
+    CfnSchedule.RetryPolicyProperty.Builder.() -> Unit = {}): CfnSchedule.RetryPolicyProperty =
     CfnSchedule.RetryPolicyProperty.Builder().apply(initializer).build()

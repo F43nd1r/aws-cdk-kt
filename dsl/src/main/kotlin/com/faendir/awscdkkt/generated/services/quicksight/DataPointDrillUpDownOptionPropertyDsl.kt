@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
 public fun buildDataPointDrillUpDownOptionProperty(initializer: @AwsCdkDsl
-    CfnDashboard.DataPointDrillUpDownOptionProperty.Builder.() -> Unit):
+    CfnDashboard.DataPointDrillUpDownOptionProperty.Builder.() -> Unit = {}):
     CfnDashboard.DataPointDrillUpDownOptionProperty =
     CfnDashboard.DataPointDrillUpDownOptionProperty.Builder().apply(initializer).build()

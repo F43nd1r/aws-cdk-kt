@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.opensearchserverless.CfnSecurityPolicyPro
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnSecurityPolicy(id: String, props: CfnSecurityPolicyProps): CfnSecurityPolicy
-    = CfnSecurityPolicy(this, id, props)
-
-@Generated
 public fun Construct.cfnSecurityPolicy(
   id: String,
   props: CfnSecurityPolicyProps,
-  initializer: @AwsCdkDsl CfnSecurityPolicy.() -> Unit,
+  initializer: @AwsCdkDsl CfnSecurityPolicy.() -> Unit = {},
 ): CfnSecurityPolicy = CfnSecurityPolicy(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnSecurityPolicy(id: String, initializer: @AwsCdkDsl
-    CfnSecurityPolicy.Builder.() -> Unit): CfnSecurityPolicy =
+    CfnSecurityPolicy.Builder.() -> Unit = {}): CfnSecurityPolicy =
     CfnSecurityPolicy.Builder.create(this, id).apply(initializer).build()

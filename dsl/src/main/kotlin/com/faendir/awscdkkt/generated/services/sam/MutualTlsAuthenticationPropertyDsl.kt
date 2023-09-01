@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sam.CfnHttpApi
 
 @Generated
 public fun buildMutualTlsAuthenticationProperty(initializer: @AwsCdkDsl
-    CfnHttpApi.MutualTlsAuthenticationProperty.Builder.() -> Unit):
+    CfnHttpApi.MutualTlsAuthenticationProperty.Builder.() -> Unit = {}):
     CfnHttpApi.MutualTlsAuthenticationProperty =
     CfnHttpApi.MutualTlsAuthenticationProperty.Builder().apply(initializer).build()

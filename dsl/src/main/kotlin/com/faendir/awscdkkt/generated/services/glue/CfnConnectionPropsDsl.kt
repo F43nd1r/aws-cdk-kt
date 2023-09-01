@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnConnectionProps
 
 @Generated
-public fun buildCfnConnectionProps(initializer: @AwsCdkDsl CfnConnectionProps.Builder.() -> Unit):
-    CfnConnectionProps = CfnConnectionProps.Builder().apply(initializer).build()
+public fun buildCfnConnectionProps(initializer: @AwsCdkDsl CfnConnectionProps.Builder.() -> Unit =
+    {}): CfnConnectionProps = CfnConnectionProps.Builder().apply(initializer).build()

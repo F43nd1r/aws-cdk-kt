@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.securityhub.CfnAutomationRule
 
 @Generated
 public fun buildMapFilterProperty(initializer: @AwsCdkDsl
-    CfnAutomationRule.MapFilterProperty.Builder.() -> Unit): CfnAutomationRule.MapFilterProperty =
+    CfnAutomationRule.MapFilterProperty.Builder.() -> Unit = {}):
+    CfnAutomationRule.MapFilterProperty =
     CfnAutomationRule.MapFilterProperty.Builder().apply(initializer).build()

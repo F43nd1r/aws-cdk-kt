@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.LaunchTemplateRequireImdsv2Aspect
 
 @Generated
 public fun buildLaunchTemplateRequireImdsv2Aspect(initializer: @AwsCdkDsl
-    LaunchTemplateRequireImdsv2Aspect.Builder.() -> Unit): LaunchTemplateRequireImdsv2Aspect =
+    LaunchTemplateRequireImdsv2Aspect.Builder.() -> Unit = {}): LaunchTemplateRequireImdsv2Aspect =
     LaunchTemplateRequireImdsv2Aspect.Builder.create().apply(initializer).build()

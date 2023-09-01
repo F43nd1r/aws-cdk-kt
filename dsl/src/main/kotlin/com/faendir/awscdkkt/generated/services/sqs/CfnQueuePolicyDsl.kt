@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.sqs.CfnQueuePolicyProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnQueuePolicy(id: String, props: CfnQueuePolicyProps): CfnQueuePolicy =
-    CfnQueuePolicy(this, id, props)
-
-@Generated
 public fun Construct.cfnQueuePolicy(
   id: String,
   props: CfnQueuePolicyProps,
-  initializer: @AwsCdkDsl CfnQueuePolicy.() -> Unit,
+  initializer: @AwsCdkDsl CfnQueuePolicy.() -> Unit = {},
 ): CfnQueuePolicy = CfnQueuePolicy(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnQueuePolicy(id: String, initializer: @AwsCdkDsl
-    CfnQueuePolicy.Builder.() -> Unit): CfnQueuePolicy = CfnQueuePolicy.Builder.create(this,
+    CfnQueuePolicy.Builder.() -> Unit = {}): CfnQueuePolicy = CfnQueuePolicy.Builder.create(this,
     id).apply(initializer).build()

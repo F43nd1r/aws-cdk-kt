@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.signer.SigningProfileAttributes
 
 @Generated
 public fun buildSigningProfileAttributes(initializer: @AwsCdkDsl
-    SigningProfileAttributes.Builder.() -> Unit): SigningProfileAttributes =
+    SigningProfileAttributes.Builder.() -> Unit = {}): SigningProfileAttributes =
     SigningProfileAttributes.Builder().apply(initializer).build()

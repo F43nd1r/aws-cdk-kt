@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.ContainerDependency
 
 @Generated
-public fun buildContainerDependency(initializer: @AwsCdkDsl ContainerDependency.Builder.() -> Unit):
-    ContainerDependency = ContainerDependency.Builder().apply(initializer).build()
+public fun buildContainerDependency(initializer: @AwsCdkDsl ContainerDependency.Builder.() -> Unit =
+    {}): ContainerDependency = ContainerDependency.Builder().apply(initializer).build()

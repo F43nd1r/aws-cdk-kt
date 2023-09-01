@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
 public fun buildResponseSpecificationProperty(initializer: @AwsCdkDsl
-    CfnBot.ResponseSpecificationProperty.Builder.() -> Unit): CfnBot.ResponseSpecificationProperty =
+    CfnBot.ResponseSpecificationProperty.Builder.() -> Unit = {}):
+    CfnBot.ResponseSpecificationProperty =
     CfnBot.ResponseSpecificationProperty.Builder().apply(initializer).build()

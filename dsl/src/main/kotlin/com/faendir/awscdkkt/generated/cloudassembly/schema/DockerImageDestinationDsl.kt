@@ -7,5 +7,5 @@ import software.amazon.awscdk.cloudassembly.schema.DockerImageDestination
 
 @Generated
 public fun buildDockerImageDestination(initializer: @AwsCdkDsl
-    DockerImageDestination.Builder.() -> Unit): DockerImageDestination =
+    DockerImageDestination.Builder.() -> Unit = {}): DockerImageDestination =
     DockerImageDestination.Builder().apply(initializer).build()

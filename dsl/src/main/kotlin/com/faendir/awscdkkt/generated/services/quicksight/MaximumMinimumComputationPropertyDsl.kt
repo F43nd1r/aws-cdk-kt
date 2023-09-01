@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildMaximumMinimumComputationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.MaximumMinimumComputationProperty.Builder.() -> Unit):
+    CfnTemplate.MaximumMinimumComputationProperty.Builder.() -> Unit = {}):
     CfnTemplate.MaximumMinimumComputationProperty =
     CfnTemplate.MaximumMinimumComputationProperty.Builder().apply(initializer).build()

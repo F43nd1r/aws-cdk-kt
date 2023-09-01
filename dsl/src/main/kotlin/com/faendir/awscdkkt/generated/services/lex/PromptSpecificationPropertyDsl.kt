@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
 public fun buildPromptSpecificationProperty(initializer: @AwsCdkDsl
-    CfnBot.PromptSpecificationProperty.Builder.() -> Unit): CfnBot.PromptSpecificationProperty =
-    CfnBot.PromptSpecificationProperty.Builder().apply(initializer).build()
+    CfnBot.PromptSpecificationProperty.Builder.() -> Unit = {}): CfnBot.PromptSpecificationProperty
+    = CfnBot.PromptSpecificationProperty.Builder().apply(initializer).build()

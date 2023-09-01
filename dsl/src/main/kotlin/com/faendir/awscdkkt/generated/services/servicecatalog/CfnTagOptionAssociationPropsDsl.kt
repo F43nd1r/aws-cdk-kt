@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.servicecatalog.CfnTagOptionAssociationPro
 
 @Generated
 public fun buildCfnTagOptionAssociationProps(initializer: @AwsCdkDsl
-    CfnTagOptionAssociationProps.Builder.() -> Unit): CfnTagOptionAssociationProps =
+    CfnTagOptionAssociationProps.Builder.() -> Unit = {}): CfnTagOptionAssociationProps =
     CfnTagOptionAssociationProps.Builder().apply(initializer).build()

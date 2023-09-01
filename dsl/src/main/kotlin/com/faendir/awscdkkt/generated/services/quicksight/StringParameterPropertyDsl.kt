@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
 public fun buildStringParameterProperty(initializer: @AwsCdkDsl
-    CfnDashboard.StringParameterProperty.Builder.() -> Unit): CfnDashboard.StringParameterProperty =
+    CfnDashboard.StringParameterProperty.Builder.() -> Unit = {}):
+    CfnDashboard.StringParameterProperty =
     CfnDashboard.StringParameterProperty.Builder().apply(initializer).build()

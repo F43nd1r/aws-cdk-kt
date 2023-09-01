@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iot.CfnDomainConfiguration
 
 @Generated
 public fun buildTlsConfigProperty(initializer: @AwsCdkDsl
-    CfnDomainConfiguration.TlsConfigProperty.Builder.() -> Unit):
+    CfnDomainConfiguration.TlsConfigProperty.Builder.() -> Unit = {}):
     CfnDomainConfiguration.TlsConfigProperty =
     CfnDomainConfiguration.TlsConfigProperty.Builder().apply(initializer).build()

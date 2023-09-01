@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lambda.CfnEventSourceMappingProps
 
 @Generated
 public fun buildCfnEventSourceMappingProps(initializer: @AwsCdkDsl
-    CfnEventSourceMappingProps.Builder.() -> Unit): CfnEventSourceMappingProps =
+    CfnEventSourceMappingProps.Builder.() -> Unit = {}): CfnEventSourceMappingProps =
     CfnEventSourceMappingProps.Builder().apply(initializer).build()

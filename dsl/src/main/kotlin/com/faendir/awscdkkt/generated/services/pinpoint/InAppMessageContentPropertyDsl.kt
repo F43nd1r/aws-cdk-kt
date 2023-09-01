@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.pinpoint.CfnInAppTemplate
 
 @Generated
 public fun buildInAppMessageContentProperty(initializer: @AwsCdkDsl
-    CfnInAppTemplate.InAppMessageContentProperty.Builder.() -> Unit):
+    CfnInAppTemplate.InAppMessageContentProperty.Builder.() -> Unit = {}):
     CfnInAppTemplate.InAppMessageContentProperty =
     CfnInAppTemplate.InAppMessageContentProperty.Builder().apply(initializer).build()

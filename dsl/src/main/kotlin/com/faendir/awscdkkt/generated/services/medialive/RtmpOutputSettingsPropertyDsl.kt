@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildRtmpOutputSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.RtmpOutputSettingsProperty.Builder.() -> Unit): CfnChannel.RtmpOutputSettingsProperty
-    = CfnChannel.RtmpOutputSettingsProperty.Builder().apply(initializer).build()
+    CfnChannel.RtmpOutputSettingsProperty.Builder.() -> Unit = {}):
+    CfnChannel.RtmpOutputSettingsProperty =
+    CfnChannel.RtmpOutputSettingsProperty.Builder().apply(initializer).build()

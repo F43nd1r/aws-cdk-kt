@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.pinpoint.CfnApplicationSettingsProps
 
 @Generated
 public fun buildCfnApplicationSettingsProps(initializer: @AwsCdkDsl
-    CfnApplicationSettingsProps.Builder.() -> Unit): CfnApplicationSettingsProps =
+    CfnApplicationSettingsProps.Builder.() -> Unit = {}): CfnApplicationSettingsProps =
     CfnApplicationSettingsProps.Builder().apply(initializer).build()

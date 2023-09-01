@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot1click.CfnDeviceProps
 
 @Generated
-public fun buildCfnDeviceProps(initializer: @AwsCdkDsl CfnDeviceProps.Builder.() -> Unit):
+public fun buildCfnDeviceProps(initializer: @AwsCdkDsl CfnDeviceProps.Builder.() -> Unit = {}):
     CfnDeviceProps = CfnDeviceProps.Builder().apply(initializer).build()

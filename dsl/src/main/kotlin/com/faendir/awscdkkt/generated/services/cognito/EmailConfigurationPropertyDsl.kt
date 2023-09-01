@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cognito.CfnUserPool
 
 @Generated
 public fun buildEmailConfigurationProperty(initializer: @AwsCdkDsl
-    CfnUserPool.EmailConfigurationProperty.Builder.() -> Unit):
+    CfnUserPool.EmailConfigurationProperty.Builder.() -> Unit = {}):
     CfnUserPool.EmailConfigurationProperty =
     CfnUserPool.EmailConfigurationProperty.Builder().apply(initializer).build()

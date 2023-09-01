@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.AppsyncFunctionProps
 
 @Generated
-public fun buildAppsyncFunctionProps(initializer: @AwsCdkDsl
-    AppsyncFunctionProps.Builder.() -> Unit): AppsyncFunctionProps =
-    AppsyncFunctionProps.Builder().apply(initializer).build()
+public fun buildAppsyncFunctionProps(initializer: @AwsCdkDsl AppsyncFunctionProps.Builder.() -> Unit
+    = {}): AppsyncFunctionProps = AppsyncFunctionProps.Builder().apply(initializer).build()

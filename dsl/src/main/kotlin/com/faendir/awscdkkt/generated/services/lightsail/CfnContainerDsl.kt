@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.lightsail.CfnContainerProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnContainer(id: String, props: CfnContainerProps): CfnContainer =
-    CfnContainer(this, id, props)
-
-@Generated
 public fun Construct.cfnContainer(
   id: String,
   props: CfnContainerProps,
-  initializer: @AwsCdkDsl CfnContainer.() -> Unit,
+  initializer: @AwsCdkDsl CfnContainer.() -> Unit = {},
 ): CfnContainer = CfnContainer(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnContainer(id: String, initializer: @AwsCdkDsl
-    CfnContainer.Builder.() -> Unit): CfnContainer = CfnContainer.Builder.create(this,
+    CfnContainer.Builder.() -> Unit = {}): CfnContainer = CfnContainer.Builder.create(this,
     id).apply(initializer).build()

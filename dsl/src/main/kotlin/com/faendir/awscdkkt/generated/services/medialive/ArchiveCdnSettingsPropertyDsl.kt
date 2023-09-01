@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildArchiveCdnSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.ArchiveCdnSettingsProperty.Builder.() -> Unit): CfnChannel.ArchiveCdnSettingsProperty
-    = CfnChannel.ArchiveCdnSettingsProperty.Builder().apply(initializer).build()
+    CfnChannel.ArchiveCdnSettingsProperty.Builder.() -> Unit = {}):
+    CfnChannel.ArchiveCdnSettingsProperty =
+    CfnChannel.ArchiveCdnSettingsProperty.Builder().apply(initializer).build()

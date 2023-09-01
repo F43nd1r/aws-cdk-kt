@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.globalaccelerator.endpoints.NetworkLoadBa
 
 @Generated
 public fun buildNetworkLoadBalancerEndpointProps(initializer: @AwsCdkDsl
-    NetworkLoadBalancerEndpointProps.Builder.() -> Unit): NetworkLoadBalancerEndpointProps =
+    NetworkLoadBalancerEndpointProps.Builder.() -> Unit = {}): NetworkLoadBalancerEndpointProps =
     NetworkLoadBalancerEndpointProps.Builder().apply(initializer).build()

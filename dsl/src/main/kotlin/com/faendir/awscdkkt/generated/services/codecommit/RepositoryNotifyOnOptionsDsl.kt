@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codecommit.RepositoryNotifyOnOptions
 
 @Generated
 public fun buildRepositoryNotifyOnOptions(initializer: @AwsCdkDsl
-    RepositoryNotifyOnOptions.Builder.() -> Unit): RepositoryNotifyOnOptions =
+    RepositoryNotifyOnOptions.Builder.() -> Unit = {}): RepositoryNotifyOnOptions =
     RepositoryNotifyOnOptions.Builder().apply(initializer).build()

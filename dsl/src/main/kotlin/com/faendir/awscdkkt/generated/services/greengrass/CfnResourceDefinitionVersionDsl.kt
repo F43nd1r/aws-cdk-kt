@@ -9,18 +9,13 @@ import software.amazon.awscdk.services.greengrass.CfnResourceDefinitionVersionPr
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnResourceDefinitionVersion(id: String,
-    props: CfnResourceDefinitionVersionProps): CfnResourceDefinitionVersion =
-    CfnResourceDefinitionVersion(this, id, props)
-
-@Generated
 public fun Construct.cfnResourceDefinitionVersion(
   id: String,
   props: CfnResourceDefinitionVersionProps,
-  initializer: @AwsCdkDsl CfnResourceDefinitionVersion.() -> Unit,
+  initializer: @AwsCdkDsl CfnResourceDefinitionVersion.() -> Unit = {},
 ): CfnResourceDefinitionVersion = CfnResourceDefinitionVersion(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnResourceDefinitionVersion(id: String, initializer: @AwsCdkDsl
-    CfnResourceDefinitionVersion.Builder.() -> Unit): CfnResourceDefinitionVersion =
+    CfnResourceDefinitionVersion.Builder.() -> Unit = {}): CfnResourceDefinitionVersion =
     CfnResourceDefinitionVersion.Builder.create(this, id).apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnVPNConnection
 
 @Generated
 public fun buildVpnTunnelOptionsSpecificationProperty(initializer: @AwsCdkDsl
-    CfnVPNConnection.VpnTunnelOptionsSpecificationProperty.Builder.() -> Unit):
+    CfnVPNConnection.VpnTunnelOptionsSpecificationProperty.Builder.() -> Unit = {}):
     CfnVPNConnection.VpnTunnelOptionsSpecificationProperty =
     CfnVPNConnection.VpnTunnelOptionsSpecificationProperty.Builder().apply(initializer).build()

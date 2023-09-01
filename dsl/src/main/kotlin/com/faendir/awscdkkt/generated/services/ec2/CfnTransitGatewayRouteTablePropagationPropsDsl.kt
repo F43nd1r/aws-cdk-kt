@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnTransitGatewayRouteTablePropagatio
 
 @Generated
 public fun buildCfnTransitGatewayRouteTablePropagationProps(initializer: @AwsCdkDsl
-    CfnTransitGatewayRouteTablePropagationProps.Builder.() -> Unit):
+    CfnTransitGatewayRouteTablePropagationProps.Builder.() -> Unit = {}):
     CfnTransitGatewayRouteTablePropagationProps =
     CfnTransitGatewayRouteTablePropagationProps.Builder().apply(initializer).build()

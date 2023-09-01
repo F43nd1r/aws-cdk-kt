@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ram.CfnPermissionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnPermission(id: String, props: CfnPermissionProps): CfnPermission =
-    CfnPermission(this, id, props)
-
-@Generated
 public fun Construct.cfnPermission(
   id: String,
   props: CfnPermissionProps,
-  initializer: @AwsCdkDsl CfnPermission.() -> Unit,
+  initializer: @AwsCdkDsl CfnPermission.() -> Unit = {},
 ): CfnPermission = CfnPermission(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnPermission(id: String, initializer: @AwsCdkDsl
-    CfnPermission.Builder.() -> Unit): CfnPermission = CfnPermission.Builder.create(this,
+    CfnPermission.Builder.() -> Unit = {}): CfnPermission = CfnPermission.Builder.create(this,
     id).apply(initializer).build()

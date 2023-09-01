@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildInputSpecificationProperty(initializer: @AwsCdkDsl
-    CfnChannel.InputSpecificationProperty.Builder.() -> Unit): CfnChannel.InputSpecificationProperty
-    = CfnChannel.InputSpecificationProperty.Builder().apply(initializer).build()
+    CfnChannel.InputSpecificationProperty.Builder.() -> Unit = {}):
+    CfnChannel.InputSpecificationProperty =
+    CfnChannel.InputSpecificationProperty.Builder().apply(initializer).build()

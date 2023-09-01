@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appsync.CfnDomainNameApiAssociationProps
 
 @Generated
 public fun buildCfnDomainNameApiAssociationProps(initializer: @AwsCdkDsl
-    CfnDomainNameApiAssociationProps.Builder.() -> Unit): CfnDomainNameApiAssociationProps =
+    CfnDomainNameApiAssociationProps.Builder.() -> Unit = {}): CfnDomainNameApiAssociationProps =
     CfnDomainNameApiAssociationProps.Builder().apply(initializer).build()

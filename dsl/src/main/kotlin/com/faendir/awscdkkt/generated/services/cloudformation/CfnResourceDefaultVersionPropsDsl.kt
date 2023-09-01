@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cloudformation.CfnResourceDefaultVersionP
 
 @Generated
 public fun buildCfnResourceDefaultVersionProps(initializer: @AwsCdkDsl
-    CfnResourceDefaultVersionProps.Builder.() -> Unit): CfnResourceDefaultVersionProps =
+    CfnResourceDefaultVersionProps.Builder.() -> Unit = {}): CfnResourceDefaultVersionProps =
     CfnResourceDefaultVersionProps.Builder().apply(initializer).build()

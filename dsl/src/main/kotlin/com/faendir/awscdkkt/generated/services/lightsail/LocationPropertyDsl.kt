@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lightsail.CfnInstance
 
 @Generated
 public fun buildLocationProperty(initializer: @AwsCdkDsl
-    CfnInstance.LocationProperty.Builder.() -> Unit): CfnInstance.LocationProperty =
+    CfnInstance.LocationProperty.Builder.() -> Unit = {}): CfnInstance.LocationProperty =
     CfnInstance.LocationProperty.Builder().apply(initializer).build()

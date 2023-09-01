@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.opensearchservice.EncryptionAtRestOptions
 
 @Generated
 public fun buildEncryptionAtRestOptions(initializer: @AwsCdkDsl
-    EncryptionAtRestOptions.Builder.() -> Unit): EncryptionAtRestOptions =
+    EncryptionAtRestOptions.Builder.() -> Unit = {}): EncryptionAtRestOptions =
     EncryptionAtRestOptions.Builder().apply(initializer).build()

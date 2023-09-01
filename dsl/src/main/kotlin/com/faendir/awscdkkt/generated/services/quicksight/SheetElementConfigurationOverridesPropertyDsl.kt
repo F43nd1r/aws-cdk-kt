@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildSheetElementConfigurationOverridesProperty(initializer: @AwsCdkDsl
-    CfnTemplate.SheetElementConfigurationOverridesProperty.Builder.() -> Unit):
+    CfnTemplate.SheetElementConfigurationOverridesProperty.Builder.() -> Unit = {}):
     CfnTemplate.SheetElementConfigurationOverridesProperty =
     CfnTemplate.SheetElementConfigurationOverridesProperty.Builder().apply(initializer).build()

@@ -9,16 +9,12 @@ import software.amazon.awscdk.services.frauddetector.CfnLabelProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnLabel(id: String, props: CfnLabelProps): CfnLabel = CfnLabel(this, id,
-    props)
-
-@Generated
 public fun Construct.cfnLabel(
   id: String,
   props: CfnLabelProps,
-  initializer: @AwsCdkDsl CfnLabel.() -> Unit,
+  initializer: @AwsCdkDsl CfnLabel.() -> Unit = {},
 ): CfnLabel = CfnLabel(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLabel(id: String, initializer: @AwsCdkDsl CfnLabel.Builder.() -> Unit):
-    CfnLabel = CfnLabel.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLabel(id: String, initializer: @AwsCdkDsl CfnLabel.Builder.() -> Unit =
+    {}): CfnLabel = CfnLabel.Builder.create(this, id).apply(initializer).build()

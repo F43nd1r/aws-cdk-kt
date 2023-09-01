@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecr.CfnReplicationConfiguration
 
 @Generated
 public fun buildRepositoryFilterProperty(initializer: @AwsCdkDsl
-    CfnReplicationConfiguration.RepositoryFilterProperty.Builder.() -> Unit):
+    CfnReplicationConfiguration.RepositoryFilterProperty.Builder.() -> Unit = {}):
     CfnReplicationConfiguration.RepositoryFilterProperty =
     CfnReplicationConfiguration.RepositoryFilterProperty.Builder().apply(initializer).build()

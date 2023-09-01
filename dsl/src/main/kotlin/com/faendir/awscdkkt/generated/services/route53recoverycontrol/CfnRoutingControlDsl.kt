@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.route53recoverycontrol.CfnRoutingControlP
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnRoutingControl(id: String, props: CfnRoutingControlProps): CfnRoutingControl
-    = CfnRoutingControl(this, id, props)
-
-@Generated
 public fun Construct.cfnRoutingControl(
   id: String,
   props: CfnRoutingControlProps,
-  initializer: @AwsCdkDsl CfnRoutingControl.() -> Unit,
+  initializer: @AwsCdkDsl CfnRoutingControl.() -> Unit = {},
 ): CfnRoutingControl = CfnRoutingControl(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnRoutingControl(id: String, initializer: @AwsCdkDsl
-    CfnRoutingControl.Builder.() -> Unit): CfnRoutingControl =
+    CfnRoutingControl.Builder.() -> Unit = {}): CfnRoutingControl =
     CfnRoutingControl.Builder.create(this, id).apply(initializer).build()

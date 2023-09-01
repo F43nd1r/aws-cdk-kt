@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.frauddetector.CfnVariableProps
 
 @Generated
-public fun buildCfnVariableProps(initializer: @AwsCdkDsl CfnVariableProps.Builder.() -> Unit):
+public fun buildCfnVariableProps(initializer: @AwsCdkDsl CfnVariableProps.Builder.() -> Unit = {}):
     CfnVariableProps = CfnVariableProps.Builder().apply(initializer).build()

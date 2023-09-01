@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.eks.KubectlProviderProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.kubectlProvider(id: String, props: KubectlProviderProps): KubectlProvider =
-    KubectlProvider(this, id, props)
-
-@Generated
 public fun Construct.kubectlProvider(
   id: String,
   props: KubectlProviderProps,
-  initializer: @AwsCdkDsl KubectlProvider.() -> Unit,
+  initializer: @AwsCdkDsl KubectlProvider.() -> Unit = {},
 ): KubectlProvider = KubectlProvider(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildKubectlProvider(id: String, initializer: @AwsCdkDsl
-    KubectlProvider.Builder.() -> Unit): KubectlProvider = KubectlProvider.Builder.create(this,
+    KubectlProvider.Builder.() -> Unit = {}): KubectlProvider = KubectlProvider.Builder.create(this,
     id).apply(initializer).build()

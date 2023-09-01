@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildBarChartConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.BarChartConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.BarChartConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.BarChartConfigurationProperty =
     CfnTemplate.BarChartConfigurationProperty.Builder().apply(initializer).build()

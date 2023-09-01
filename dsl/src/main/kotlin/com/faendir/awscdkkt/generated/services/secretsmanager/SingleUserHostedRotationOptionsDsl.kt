@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.secretsmanager.SingleUserHostedRotationOp
 
 @Generated
 public fun buildSingleUserHostedRotationOptions(initializer: @AwsCdkDsl
-    SingleUserHostedRotationOptions.Builder.() -> Unit): SingleUserHostedRotationOptions =
+    SingleUserHostedRotationOptions.Builder.() -> Unit = {}): SingleUserHostedRotationOptions =
     SingleUserHostedRotationOptions.Builder().apply(initializer).build()

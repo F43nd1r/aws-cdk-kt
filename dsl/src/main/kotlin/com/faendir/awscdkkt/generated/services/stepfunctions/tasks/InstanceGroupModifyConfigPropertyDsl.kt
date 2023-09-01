@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EmrModifyInstanceGrou
 
 @Generated
 public fun buildInstanceGroupModifyConfigProperty(initializer: @AwsCdkDsl
-    EmrModifyInstanceGroupByName.InstanceGroupModifyConfigProperty.Builder.() -> Unit):
+    EmrModifyInstanceGroupByName.InstanceGroupModifyConfigProperty.Builder.() -> Unit = {}):
     EmrModifyInstanceGroupByName.InstanceGroupModifyConfigProperty =
     EmrModifyInstanceGroupByName.InstanceGroupModifyConfigProperty.Builder().apply(initializer).build()

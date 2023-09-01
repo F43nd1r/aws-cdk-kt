@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnSpaceProps
 
 @Generated
-public fun buildCfnSpaceProps(initializer: @AwsCdkDsl CfnSpaceProps.Builder.() -> Unit):
+public fun buildCfnSpaceProps(initializer: @AwsCdkDsl CfnSpaceProps.Builder.() -> Unit = {}):
     CfnSpaceProps = CfnSpaceProps.Builder().apply(initializer).build()

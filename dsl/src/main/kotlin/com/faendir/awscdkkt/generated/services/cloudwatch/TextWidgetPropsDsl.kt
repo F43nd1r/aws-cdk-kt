@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.TextWidgetProps
 
 @Generated
-public fun buildTextWidgetProps(initializer: @AwsCdkDsl TextWidgetProps.Builder.() -> Unit):
+public fun buildTextWidgetProps(initializer: @AwsCdkDsl TextWidgetProps.Builder.() -> Unit = {}):
     TextWidgetProps = TextWidgetProps.Builder().apply(initializer).build()

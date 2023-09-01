@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelExplainabilityJobDefini
 
 @Generated
 public fun buildModelExplainabilityJobInputProperty(initializer: @AwsCdkDsl
-    CfnModelExplainabilityJobDefinition.ModelExplainabilityJobInputProperty.Builder.() -> Unit):
-    CfnModelExplainabilityJobDefinition.ModelExplainabilityJobInputProperty =
+    CfnModelExplainabilityJobDefinition.ModelExplainabilityJobInputProperty.Builder.() -> Unit =
+    {}): CfnModelExplainabilityJobDefinition.ModelExplainabilityJobInputProperty =
     CfnModelExplainabilityJobDefinition.ModelExplainabilityJobInputProperty.Builder().apply(initializer).build()

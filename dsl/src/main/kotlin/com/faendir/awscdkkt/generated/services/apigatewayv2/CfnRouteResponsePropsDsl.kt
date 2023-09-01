@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.apigatewayv2.CfnRouteResponseProps
 
 @Generated
 public fun buildCfnRouteResponseProps(initializer: @AwsCdkDsl
-    CfnRouteResponseProps.Builder.() -> Unit): CfnRouteResponseProps =
+    CfnRouteResponseProps.Builder.() -> Unit = {}): CfnRouteResponseProps =
     CfnRouteResponseProps.Builder().apply(initializer).build()

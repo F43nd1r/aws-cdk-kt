@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.docdb.Login
 
 @Generated
-public fun buildLogin(initializer: @AwsCdkDsl Login.Builder.() -> Unit): Login =
+public fun buildLogin(initializer: @AwsCdkDsl Login.Builder.() -> Unit = {}): Login =
     Login.Builder().apply(initializer).build()

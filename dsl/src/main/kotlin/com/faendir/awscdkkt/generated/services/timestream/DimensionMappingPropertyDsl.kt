@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.timestream.CfnScheduledQuery
 
 @Generated
 public fun buildDimensionMappingProperty(initializer: @AwsCdkDsl
-    CfnScheduledQuery.DimensionMappingProperty.Builder.() -> Unit):
+    CfnScheduledQuery.DimensionMappingProperty.Builder.() -> Unit = {}):
     CfnScheduledQuery.DimensionMappingProperty =
     CfnScheduledQuery.DimensionMappingProperty.Builder().apply(initializer).build()

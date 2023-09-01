@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.CfnAddonProps
 
 @Generated
-public fun buildCfnAddonProps(initializer: @AwsCdkDsl CfnAddonProps.Builder.() -> Unit):
+public fun buildCfnAddonProps(initializer: @AwsCdkDsl CfnAddonProps.Builder.() -> Unit = {}):
     CfnAddonProps = CfnAddonProps.Builder().apply(initializer).build()

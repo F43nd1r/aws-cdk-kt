@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
 public fun buildPipeTargetSqsQueueParametersProperty(initializer: @AwsCdkDsl
-    CfnPipe.PipeTargetSqsQueueParametersProperty.Builder.() -> Unit):
+    CfnPipe.PipeTargetSqsQueueParametersProperty.Builder.() -> Unit = {}):
     CfnPipe.PipeTargetSqsQueueParametersProperty =
     CfnPipe.PipeTargetSqsQueueParametersProperty.Builder().apply(initializer).build()

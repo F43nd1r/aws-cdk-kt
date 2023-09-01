@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.glue.CfnConnectionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnConnection(id: String, props: CfnConnectionProps): CfnConnection =
-    CfnConnection(this, id, props)
-
-@Generated
 public fun Construct.cfnConnection(
   id: String,
   props: CfnConnectionProps,
-  initializer: @AwsCdkDsl CfnConnection.() -> Unit,
+  initializer: @AwsCdkDsl CfnConnection.() -> Unit = {},
 ): CfnConnection = CfnConnection(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnConnection(id: String, initializer: @AwsCdkDsl
-    CfnConnection.Builder.() -> Unit): CfnConnection = CfnConnection.Builder.create(this,
+    CfnConnection.Builder.() -> Unit = {}): CfnConnection = CfnConnection.Builder.create(this,
     id).apply(initializer).build()

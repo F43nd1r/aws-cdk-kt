@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.efs.AccessPointAttributes
 
 @Generated
 public fun buildAccessPointAttributes(initializer: @AwsCdkDsl
-    AccessPointAttributes.Builder.() -> Unit): AccessPointAttributes =
+    AccessPointAttributes.Builder.() -> Unit = {}): AccessPointAttributes =
     AccessPointAttributes.Builder().apply(initializer).build()

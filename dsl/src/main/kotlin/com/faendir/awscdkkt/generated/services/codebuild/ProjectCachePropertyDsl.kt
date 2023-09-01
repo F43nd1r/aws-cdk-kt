@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codebuild.CfnProject
 
 @Generated
 public fun buildProjectCacheProperty(initializer: @AwsCdkDsl
-    CfnProject.ProjectCacheProperty.Builder.() -> Unit): CfnProject.ProjectCacheProperty =
+    CfnProject.ProjectCacheProperty.Builder.() -> Unit = {}): CfnProject.ProjectCacheProperty =
     CfnProject.ProjectCacheProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appsync.CfnDataSource
 
 @Generated
 public fun buildRelationalDatabaseConfigProperty(initializer: @AwsCdkDsl
-    CfnDataSource.RelationalDatabaseConfigProperty.Builder.() -> Unit):
+    CfnDataSource.RelationalDatabaseConfigProperty.Builder.() -> Unit = {}):
     CfnDataSource.RelationalDatabaseConfigProperty =
     CfnDataSource.RelationalDatabaseConfigProperty.Builder().apply(initializer).build()

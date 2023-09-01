@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.StageOptions
 
 @Generated
-public fun buildStageOptions(initializer: @AwsCdkDsl StageOptions.Builder.() -> Unit): StageOptions
-    = StageOptions.Builder().apply(initializer).build()
+public fun buildStageOptions(initializer: @AwsCdkDsl StageOptions.Builder.() -> Unit = {}):
+    StageOptions = StageOptions.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.rds.ClusterEngineFeatures
 
 @Generated
 public fun buildClusterEngineFeatures(initializer: @AwsCdkDsl
-    ClusterEngineFeatures.Builder.() -> Unit): ClusterEngineFeatures =
+    ClusterEngineFeatures.Builder.() -> Unit = {}): ClusterEngineFeatures =
     ClusterEngineFeatures.Builder().apply(initializer).build()

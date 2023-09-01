@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.MemoryUtilizationScalingProps
 
 @Generated
 public fun buildMemoryUtilizationScalingProps(initializer: @AwsCdkDsl
-    MemoryUtilizationScalingProps.Builder.() -> Unit): MemoryUtilizationScalingProps =
+    MemoryUtilizationScalingProps.Builder.() -> Unit = {}): MemoryUtilizationScalingProps =
     MemoryUtilizationScalingProps.Builder().apply(initializer).build()

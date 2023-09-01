@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnConnectorProfile
 
 @Generated
 public fun buildDatadogConnectorProfilePropertiesProperty(initializer: @AwsCdkDsl
-    CfnConnectorProfile.DatadogConnectorProfilePropertiesProperty.Builder.() -> Unit):
+    CfnConnectorProfile.DatadogConnectorProfilePropertiesProperty.Builder.() -> Unit = {}):
     CfnConnectorProfile.DatadogConnectorProfilePropertiesProperty =
     CfnConnectorProfile.DatadogConnectorProfilePropertiesProperty.Builder().apply(initializer).build()

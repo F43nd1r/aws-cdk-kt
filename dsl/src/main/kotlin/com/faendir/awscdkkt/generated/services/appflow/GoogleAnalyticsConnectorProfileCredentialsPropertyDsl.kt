@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnConnectorProfile
 
 @Generated
 public fun buildGoogleAnalyticsConnectorProfileCredentialsProperty(initializer: @AwsCdkDsl
-    CfnConnectorProfile.GoogleAnalyticsConnectorProfileCredentialsProperty.Builder.() -> Unit):
+    CfnConnectorProfile.GoogleAnalyticsConnectorProfileCredentialsProperty.Builder.() -> Unit = {}):
     CfnConnectorProfile.GoogleAnalyticsConnectorProfileCredentialsProperty =
     CfnConnectorProfile.GoogleAnalyticsConnectorProfileCredentialsProperty.Builder().apply(initializer).build()

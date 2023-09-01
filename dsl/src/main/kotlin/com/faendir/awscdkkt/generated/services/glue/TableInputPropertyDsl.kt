@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.glue.CfnTable
 
 @Generated
 public fun buildTableInputProperty(initializer: @AwsCdkDsl
-    CfnTable.TableInputProperty.Builder.() -> Unit): CfnTable.TableInputProperty =
+    CfnTable.TableInputProperty.Builder.() -> Unit = {}): CfnTable.TableInputProperty =
     CfnTable.TableInputProperty.Builder().apply(initializer).build()

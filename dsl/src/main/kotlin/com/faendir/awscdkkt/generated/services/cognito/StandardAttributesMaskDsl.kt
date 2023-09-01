@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cognito.StandardAttributesMask
 
 @Generated
 public fun buildStandardAttributesMask(initializer: @AwsCdkDsl
-    StandardAttributesMask.Builder.() -> Unit): StandardAttributesMask =
+    StandardAttributesMask.Builder.() -> Unit = {}): StandardAttributesMask =
     StandardAttributesMask.Builder().apply(initializer).build()

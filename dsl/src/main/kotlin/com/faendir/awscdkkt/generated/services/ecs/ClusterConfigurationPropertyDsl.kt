@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.CfnCluster
 
 @Generated
 public fun buildClusterConfigurationProperty(initializer: @AwsCdkDsl
-    CfnCluster.ClusterConfigurationProperty.Builder.() -> Unit):
+    CfnCluster.ClusterConfigurationProperty.Builder.() -> Unit = {}):
     CfnCluster.ClusterConfigurationProperty =
     CfnCluster.ClusterConfigurationProperty.Builder().apply(initializer).build()

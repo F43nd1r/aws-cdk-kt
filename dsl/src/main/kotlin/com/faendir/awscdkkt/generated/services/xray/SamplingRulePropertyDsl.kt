@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.xray.CfnSamplingRule
 
 @Generated
 public fun buildSamplingRuleProperty(initializer: @AwsCdkDsl
-    CfnSamplingRule.SamplingRuleProperty.Builder.() -> Unit): CfnSamplingRule.SamplingRuleProperty =
+    CfnSamplingRule.SamplingRuleProperty.Builder.() -> Unit = {}):
+    CfnSamplingRule.SamplingRuleProperty =
     CfnSamplingRule.SamplingRuleProperty.Builder().apply(initializer).build()

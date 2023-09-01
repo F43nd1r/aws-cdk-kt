@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.pipelines.StackSteps
 
 @Generated
-public fun buildStackSteps(initializer: @AwsCdkDsl StackSteps.Builder.() -> Unit): StackSteps =
+public fun buildStackSteps(initializer: @AwsCdkDsl StackSteps.Builder.() -> Unit = {}): StackSteps =
     StackSteps.Builder().apply(initializer).build()

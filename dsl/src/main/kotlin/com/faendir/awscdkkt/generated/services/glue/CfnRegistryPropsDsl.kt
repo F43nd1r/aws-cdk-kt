@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnRegistryProps
 
 @Generated
-public fun buildCfnRegistryProps(initializer: @AwsCdkDsl CfnRegistryProps.Builder.() -> Unit):
+public fun buildCfnRegistryProps(initializer: @AwsCdkDsl CfnRegistryProps.Builder.() -> Unit = {}):
     CfnRegistryProps = CfnRegistryProps.Builder().apply(initializer).build()

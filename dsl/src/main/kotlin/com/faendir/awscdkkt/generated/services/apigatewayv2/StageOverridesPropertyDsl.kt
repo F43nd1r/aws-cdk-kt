@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.apigatewayv2.CfnApiGatewayManagedOverride
 
 @Generated
 public fun buildStageOverridesProperty(initializer: @AwsCdkDsl
-    CfnApiGatewayManagedOverrides.StageOverridesProperty.Builder.() -> Unit):
+    CfnApiGatewayManagedOverrides.StageOverridesProperty.Builder.() -> Unit = {}):
     CfnApiGatewayManagedOverrides.StageOverridesProperty =
     CfnApiGatewayManagedOverrides.StageOverridesProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.rds.CfnDBProxyEndpointProps
 
 @Generated
 public fun buildCfnDBProxyEndpointProps(initializer: @AwsCdkDsl
-    CfnDBProxyEndpointProps.Builder.() -> Unit): CfnDBProxyEndpointProps =
+    CfnDBProxyEndpointProps.Builder.() -> Unit = {}): CfnDBProxyEndpointProps =
     CfnDBProxyEndpointProps.Builder().apply(initializer).build()

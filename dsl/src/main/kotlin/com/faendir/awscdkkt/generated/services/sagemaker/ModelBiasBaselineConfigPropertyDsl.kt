@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelBiasJobDefinition
 
 @Generated
 public fun buildModelBiasBaselineConfigProperty(initializer: @AwsCdkDsl
-    CfnModelBiasJobDefinition.ModelBiasBaselineConfigProperty.Builder.() -> Unit):
+    CfnModelBiasJobDefinition.ModelBiasBaselineConfigProperty.Builder.() -> Unit = {}):
     CfnModelBiasJobDefinition.ModelBiasBaselineConfigProperty =
     CfnModelBiasJobDefinition.ModelBiasBaselineConfigProperty.Builder().apply(initializer).build()

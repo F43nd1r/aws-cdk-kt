@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildFilterDropDownControlProperty(initializer: @AwsCdkDsl
-    CfnTemplate.FilterDropDownControlProperty.Builder.() -> Unit):
+    CfnTemplate.FilterDropDownControlProperty.Builder.() -> Unit = {}):
     CfnTemplate.FilterDropDownControlProperty =
     CfnTemplate.FilterDropDownControlProperty.Builder().apply(initializer).build()

@@ -12,5 +12,5 @@ import software.amazon.awscdk.services.elasticsearch.EbsOptions
 @Deprecated(message =
     "software.amazon.awscdk.services.elasticsearch.EbsOptions is deprecated in CDK.")
 @Generated
-public fun buildEbsOptions(initializer: @AwsCdkDsl EbsOptions.Builder.() -> Unit): EbsOptions =
+public fun buildEbsOptions(initializer: @AwsCdkDsl EbsOptions.Builder.() -> Unit = {}): EbsOptions =
     EbsOptions.Builder().apply(initializer).build()

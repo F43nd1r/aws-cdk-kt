@@ -9,17 +9,12 @@ import software.amazon.awscdk.services.databrew.CfnRecipeProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnRecipe(id: String, props: CfnRecipeProps): CfnRecipe = CfnRecipe(this, id,
-    props)
-
-@Generated
 public fun Construct.cfnRecipe(
   id: String,
   props: CfnRecipeProps,
-  initializer: @AwsCdkDsl CfnRecipe.() -> Unit,
+  initializer: @AwsCdkDsl CfnRecipe.() -> Unit = {},
 ): CfnRecipe = CfnRecipe(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRecipe(id: String, initializer: @AwsCdkDsl
-    CfnRecipe.Builder.() -> Unit): CfnRecipe = CfnRecipe.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnRecipe(id: String, initializer: @AwsCdkDsl CfnRecipe.Builder.() -> Unit
+    = {}): CfnRecipe = CfnRecipe.Builder.create(this, id).apply(initializer).build()

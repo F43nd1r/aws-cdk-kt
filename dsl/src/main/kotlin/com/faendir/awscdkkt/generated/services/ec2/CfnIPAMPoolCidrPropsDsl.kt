@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnIPAMPoolCidrProps
 
 @Generated
-public fun buildCfnIPAMPoolCidrProps(initializer: @AwsCdkDsl
-    CfnIPAMPoolCidrProps.Builder.() -> Unit): CfnIPAMPoolCidrProps =
-    CfnIPAMPoolCidrProps.Builder().apply(initializer).build()
+public fun buildCfnIPAMPoolCidrProps(initializer: @AwsCdkDsl CfnIPAMPoolCidrProps.Builder.() -> Unit
+    = {}): CfnIPAMPoolCidrProps = CfnIPAMPoolCidrProps.Builder().apply(initializer).build()

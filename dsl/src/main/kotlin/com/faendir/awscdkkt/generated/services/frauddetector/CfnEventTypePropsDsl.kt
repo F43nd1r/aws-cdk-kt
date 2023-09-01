@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.frauddetector.CfnEventTypeProps
 
 @Generated
-public fun buildCfnEventTypeProps(initializer: @AwsCdkDsl CfnEventTypeProps.Builder.() -> Unit):
-    CfnEventTypeProps = CfnEventTypeProps.Builder().apply(initializer).build()
+public fun buildCfnEventTypeProps(initializer: @AwsCdkDsl CfnEventTypeProps.Builder.() -> Unit =
+    {}): CfnEventTypeProps = CfnEventTypeProps.Builder().apply(initializer).build()

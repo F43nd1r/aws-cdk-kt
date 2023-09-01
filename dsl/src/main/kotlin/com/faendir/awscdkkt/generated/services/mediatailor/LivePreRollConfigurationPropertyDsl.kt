@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.mediatailor.CfnPlaybackConfiguration
 
 @Generated
 public fun buildLivePreRollConfigurationProperty(initializer: @AwsCdkDsl
-    CfnPlaybackConfiguration.LivePreRollConfigurationProperty.Builder.() -> Unit):
+    CfnPlaybackConfiguration.LivePreRollConfigurationProperty.Builder.() -> Unit = {}):
     CfnPlaybackConfiguration.LivePreRollConfigurationProperty =
     CfnPlaybackConfiguration.LivePreRollConfigurationProperty.Builder().apply(initializer).build()

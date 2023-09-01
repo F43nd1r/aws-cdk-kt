@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.lambda.CfnFunction
 
 @Generated
 public fun buildFileSystemConfigProperty(initializer: @AwsCdkDsl
-    CfnFunction.FileSystemConfigProperty.Builder.() -> Unit): CfnFunction.FileSystemConfigProperty =
+    CfnFunction.FileSystemConfigProperty.Builder.() -> Unit = {}):
+    CfnFunction.FileSystemConfigProperty =
     CfnFunction.FileSystemConfigProperty.Builder().apply(initializer).build()

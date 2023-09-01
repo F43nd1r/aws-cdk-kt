@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
 public fun buildStringDatasetParameterProperty(initializer: @AwsCdkDsl
-    CfnDataSet.StringDatasetParameterProperty.Builder.() -> Unit):
+    CfnDataSet.StringDatasetParameterProperty.Builder.() -> Unit = {}):
     CfnDataSet.StringDatasetParameterProperty =
     CfnDataSet.StringDatasetParameterProperty.Builder().apply(initializer).build()

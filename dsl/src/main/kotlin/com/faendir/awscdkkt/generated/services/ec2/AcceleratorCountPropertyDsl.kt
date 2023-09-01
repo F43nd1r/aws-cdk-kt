@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
 public fun buildAcceleratorCountProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.AcceleratorCountProperty.Builder.() -> Unit):
+    CfnLaunchTemplate.AcceleratorCountProperty.Builder.() -> Unit = {}):
     CfnLaunchTemplate.AcceleratorCountProperty =
     CfnLaunchTemplate.AcceleratorCountProperty.Builder().apply(initializer).build()

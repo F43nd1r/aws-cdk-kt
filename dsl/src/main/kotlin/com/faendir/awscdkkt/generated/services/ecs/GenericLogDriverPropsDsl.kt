@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.GenericLogDriverProps
 
 @Generated
 public fun buildGenericLogDriverProps(initializer: @AwsCdkDsl
-    GenericLogDriverProps.Builder.() -> Unit): GenericLogDriverProps =
+    GenericLogDriverProps.Builder.() -> Unit = {}): GenericLogDriverProps =
     GenericLogDriverProps.Builder().apply(initializer).build()

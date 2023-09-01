@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.servicecatalog.CloudFormationProductProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cloudFormationProduct(id: String, props: CloudFormationProductProps):
-    CloudFormationProduct = CloudFormationProduct(this, id, props)
-
-@Generated
 public fun Construct.cloudFormationProduct(
   id: String,
   props: CloudFormationProductProps,
-  initializer: @AwsCdkDsl CloudFormationProduct.() -> Unit,
+  initializer: @AwsCdkDsl CloudFormationProduct.() -> Unit = {},
 ): CloudFormationProduct = CloudFormationProduct(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCloudFormationProduct(id: String, initializer: @AwsCdkDsl
-    CloudFormationProduct.Builder.() -> Unit): CloudFormationProduct =
+    CloudFormationProduct.Builder.() -> Unit = {}): CloudFormationProduct =
     CloudFormationProduct.Builder.create(this, id).apply(initializer).build()

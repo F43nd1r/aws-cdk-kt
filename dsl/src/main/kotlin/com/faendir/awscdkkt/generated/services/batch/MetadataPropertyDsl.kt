@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
 public fun buildMetadataProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.MetadataProperty.Builder.() -> Unit): CfnJobDefinition.MetadataProperty =
+    CfnJobDefinition.MetadataProperty.Builder.() -> Unit = {}): CfnJobDefinition.MetadataProperty =
     CfnJobDefinition.MetadataProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EmrCreateCluster
 
 @Generated
 public fun buildEbsBlockDeviceConfigProperty(initializer: @AwsCdkDsl
-    EmrCreateCluster.EbsBlockDeviceConfigProperty.Builder.() -> Unit):
+    EmrCreateCluster.EbsBlockDeviceConfigProperty.Builder.() -> Unit = {}):
     EmrCreateCluster.EbsBlockDeviceConfigProperty =
     EmrCreateCluster.EbsBlockDeviceConfigProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sagemaker.CfnMonitoringSchedule
 
 @Generated
 public fun buildJsonProperty(initializer: @AwsCdkDsl
-    CfnMonitoringSchedule.JsonProperty.Builder.() -> Unit): CfnMonitoringSchedule.JsonProperty =
-    CfnMonitoringSchedule.JsonProperty.Builder().apply(initializer).build()
+    CfnMonitoringSchedule.JsonProperty.Builder.() -> Unit = {}): CfnMonitoringSchedule.JsonProperty
+    = CfnMonitoringSchedule.JsonProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kendra.CfnDataSource
 
 @Generated
 public fun buildServiceNowConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.ServiceNowConfigurationProperty.Builder.() -> Unit):
+    CfnDataSource.ServiceNowConfigurationProperty.Builder.() -> Unit = {}):
     CfnDataSource.ServiceNowConfigurationProperty =
     CfnDataSource.ServiceNowConfigurationProperty.Builder().apply(initializer).build()

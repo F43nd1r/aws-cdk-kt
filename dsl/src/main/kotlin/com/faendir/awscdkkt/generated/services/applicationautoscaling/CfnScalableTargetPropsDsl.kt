@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.applicationautoscaling.CfnScalableTargetP
 
 @Generated
 public fun buildCfnScalableTargetProps(initializer: @AwsCdkDsl
-    CfnScalableTargetProps.Builder.() -> Unit): CfnScalableTargetProps =
+    CfnScalableTargetProps.Builder.() -> Unit = {}): CfnScalableTargetProps =
     CfnScalableTargetProps.Builder().apply(initializer).build()

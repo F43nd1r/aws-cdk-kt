@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.FileAssetSource
 
 @Generated
-public fun buildFileAssetSource(initializer: @AwsCdkDsl FileAssetSource.Builder.() -> Unit):
+public fun buildFileAssetSource(initializer: @AwsCdkDsl FileAssetSource.Builder.() -> Unit = {}):
     FileAssetSource = FileAssetSource.Builder().apply(initializer).build()

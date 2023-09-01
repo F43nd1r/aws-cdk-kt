@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnQueueProps
 
 @Generated
-public fun buildCfnQueueProps(initializer: @AwsCdkDsl CfnQueueProps.Builder.() -> Unit):
+public fun buildCfnQueueProps(initializer: @AwsCdkDsl CfnQueueProps.Builder.() -> Unit = {}):
     CfnQueueProps = CfnQueueProps.Builder().apply(initializer).build()

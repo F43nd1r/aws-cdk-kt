@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
 public fun buildChallengeConfigProperty(initializer: @AwsCdkDsl
-    CfnWebACL.ChallengeConfigProperty.Builder.() -> Unit): CfnWebACL.ChallengeConfigProperty =
+    CfnWebACL.ChallengeConfigProperty.Builder.() -> Unit = {}): CfnWebACL.ChallengeConfigProperty =
     CfnWebACL.ChallengeConfigProperty.Builder().apply(initializer).build()

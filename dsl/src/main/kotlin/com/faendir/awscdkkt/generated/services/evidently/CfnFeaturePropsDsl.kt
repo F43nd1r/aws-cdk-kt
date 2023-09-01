@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.evidently.CfnFeatureProps
 
 @Generated
-public fun buildCfnFeatureProps(initializer: @AwsCdkDsl CfnFeatureProps.Builder.() -> Unit):
+public fun buildCfnFeatureProps(initializer: @AwsCdkDsl CfnFeatureProps.Builder.() -> Unit = {}):
     CfnFeatureProps = CfnFeatureProps.Builder().apply(initializer).build()

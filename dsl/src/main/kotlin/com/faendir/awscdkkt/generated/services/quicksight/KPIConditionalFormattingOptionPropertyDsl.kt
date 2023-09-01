@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildKPIConditionalFormattingOptionProperty(initializer: @AwsCdkDsl
-    CfnTemplate.KPIConditionalFormattingOptionProperty.Builder.() -> Unit):
+    CfnTemplate.KPIConditionalFormattingOptionProperty.Builder.() -> Unit = {}):
     CfnTemplate.KPIConditionalFormattingOptionProperty =
     CfnTemplate.KPIConditionalFormattingOptionProperty.Builder().apply(initializer).build()

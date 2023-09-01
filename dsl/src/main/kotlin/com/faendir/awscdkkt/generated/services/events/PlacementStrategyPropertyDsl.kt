@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.events.CfnRule
 
 @Generated
 public fun buildPlacementStrategyProperty(initializer: @AwsCdkDsl
-    CfnRule.PlacementStrategyProperty.Builder.() -> Unit): CfnRule.PlacementStrategyProperty =
+    CfnRule.PlacementStrategyProperty.Builder.() -> Unit = {}): CfnRule.PlacementStrategyProperty =
     CfnRule.PlacementStrategyProperty.Builder().apply(initializer).build()

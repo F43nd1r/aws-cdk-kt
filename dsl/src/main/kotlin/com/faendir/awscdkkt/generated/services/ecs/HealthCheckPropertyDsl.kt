@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
 public fun buildHealthCheckProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.HealthCheckProperty.Builder.() -> Unit): CfnTaskDefinition.HealthCheckProperty
-    = CfnTaskDefinition.HealthCheckProperty.Builder().apply(initializer).build()
+    CfnTaskDefinition.HealthCheckProperty.Builder.() -> Unit = {}):
+    CfnTaskDefinition.HealthCheckProperty =
+    CfnTaskDefinition.HealthCheckProperty.Builder().apply(initializer).build()

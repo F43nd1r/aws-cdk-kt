@@ -7,5 +7,5 @@ import software.amazon.awscdk.cloudassembly.schema.AwsCloudFormationStackPropert
 
 @Generated
 public fun buildAwsCloudFormationStackProperties(initializer: @AwsCdkDsl
-    AwsCloudFormationStackProperties.Builder.() -> Unit): AwsCloudFormationStackProperties =
+    AwsCloudFormationStackProperties.Builder.() -> Unit = {}): AwsCloudFormationStackProperties =
     AwsCloudFormationStackProperties.Builder().apply(initializer).build()

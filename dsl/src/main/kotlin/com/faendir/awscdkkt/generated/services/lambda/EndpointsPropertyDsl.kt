@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lambda.CfnEventSourceMapping
 
 @Generated
 public fun buildEndpointsProperty(initializer: @AwsCdkDsl
-    CfnEventSourceMapping.EndpointsProperty.Builder.() -> Unit):
+    CfnEventSourceMapping.EndpointsProperty.Builder.() -> Unit = {}):
     CfnEventSourceMapping.EndpointsProperty =
     CfnEventSourceMapping.EndpointsProperty.Builder().apply(initializer).build()

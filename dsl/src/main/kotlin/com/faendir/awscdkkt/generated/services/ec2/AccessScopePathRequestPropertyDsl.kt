@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnNetworkInsightsAccessScope
 
 @Generated
 public fun buildAccessScopePathRequestProperty(initializer: @AwsCdkDsl
-    CfnNetworkInsightsAccessScope.AccessScopePathRequestProperty.Builder.() -> Unit):
+    CfnNetworkInsightsAccessScope.AccessScopePathRequestProperty.Builder.() -> Unit = {}):
     CfnNetworkInsightsAccessScope.AccessScopePathRequestProperty =
     CfnNetworkInsightsAccessScope.AccessScopePathRequestProperty.Builder().apply(initializer).build()

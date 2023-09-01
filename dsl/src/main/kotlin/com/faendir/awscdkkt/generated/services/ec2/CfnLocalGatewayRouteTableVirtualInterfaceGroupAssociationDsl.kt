@@ -9,23 +9,17 @@ import software.amazon.awscdk.services.ec2.CfnLocalGatewayRouteTableVirtualInter
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation(id: String,
-    props: CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociationProps):
-    CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation =
-    CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation(this, id, props)
-
-@Generated
 public fun Construct.cfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation(
   id: String,
   props: CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociationProps,
-  initializer: @AwsCdkDsl CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation.() -> Unit,
+  initializer: @AwsCdkDsl CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation.() -> Unit = {},
 ): CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation =
     CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation(id: String,
     initializer: @AwsCdkDsl
-    CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation.Builder.() -> Unit):
+    CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation.Builder.() -> Unit = {}):
     CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation =
     CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation.Builder.create(this,
     id).apply(initializer).build()

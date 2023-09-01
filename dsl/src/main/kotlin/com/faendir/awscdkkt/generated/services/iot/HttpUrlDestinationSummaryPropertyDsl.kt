@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iot.CfnTopicRuleDestination
 
 @Generated
 public fun buildHttpUrlDestinationSummaryProperty(initializer: @AwsCdkDsl
-    CfnTopicRuleDestination.HttpUrlDestinationSummaryProperty.Builder.() -> Unit):
+    CfnTopicRuleDestination.HttpUrlDestinationSummaryProperty.Builder.() -> Unit = {}):
     CfnTopicRuleDestination.HttpUrlDestinationSummaryProperty =
     CfnTopicRuleDestination.HttpUrlDestinationSummaryProperty.Builder().apply(initializer).build()

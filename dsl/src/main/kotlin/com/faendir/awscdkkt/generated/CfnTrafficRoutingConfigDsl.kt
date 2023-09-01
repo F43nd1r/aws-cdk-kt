@@ -7,5 +7,5 @@ import software.amazon.awscdk.CfnTrafficRoutingConfig
 
 @Generated
 public fun buildCfnTrafficRoutingConfig(initializer: @AwsCdkDsl
-    CfnTrafficRoutingConfig.Builder.() -> Unit): CfnTrafficRoutingConfig =
+    CfnTrafficRoutingConfig.Builder.() -> Unit = {}): CfnTrafficRoutingConfig =
     CfnTrafficRoutingConfig.Builder().apply(initializer).build()

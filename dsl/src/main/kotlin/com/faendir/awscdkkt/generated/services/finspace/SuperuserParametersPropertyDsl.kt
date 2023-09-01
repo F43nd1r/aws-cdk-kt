@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.finspace.CfnEnvironment
 
 @Generated
 public fun buildSuperuserParametersProperty(initializer: @AwsCdkDsl
-    CfnEnvironment.SuperuserParametersProperty.Builder.() -> Unit):
+    CfnEnvironment.SuperuserParametersProperty.Builder.() -> Unit = {}):
     CfnEnvironment.SuperuserParametersProperty =
     CfnEnvironment.SuperuserParametersProperty.Builder().apply(initializer).build()

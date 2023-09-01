@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.greengrassv2.CfnComponentVersion
 
 @Generated
 public fun buildLambdaContainerParamsProperty(initializer: @AwsCdkDsl
-    CfnComponentVersion.LambdaContainerParamsProperty.Builder.() -> Unit):
+    CfnComponentVersion.LambdaContainerParamsProperty.Builder.() -> Unit = {}):
     CfnComponentVersion.LambdaContainerParamsProperty =
     CfnComponentVersion.LambdaContainerParamsProperty.Builder().apply(initializer).build()

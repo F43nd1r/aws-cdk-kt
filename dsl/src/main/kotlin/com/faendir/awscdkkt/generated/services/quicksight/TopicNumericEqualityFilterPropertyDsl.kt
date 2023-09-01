@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTopic
 
 @Generated
 public fun buildTopicNumericEqualityFilterProperty(initializer: @AwsCdkDsl
-    CfnTopic.TopicNumericEqualityFilterProperty.Builder.() -> Unit):
+    CfnTopic.TopicNumericEqualityFilterProperty.Builder.() -> Unit = {}):
     CfnTopic.TopicNumericEqualityFilterProperty =
     CfnTopic.TopicNumericEqualityFilterProperty.Builder().apply(initializer).build()

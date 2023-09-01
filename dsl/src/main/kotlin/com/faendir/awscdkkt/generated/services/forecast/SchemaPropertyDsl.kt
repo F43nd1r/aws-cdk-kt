@@ -6,6 +6,6 @@ import kotlin.Unit
 import software.amazon.awscdk.services.forecast.CfnDataset
 
 @Generated
-public fun buildSchemaProperty(initializer: @AwsCdkDsl
-    CfnDataset.SchemaProperty.Builder.() -> Unit): CfnDataset.SchemaProperty =
+public fun buildSchemaProperty(initializer: @AwsCdkDsl CfnDataset.SchemaProperty.Builder.() -> Unit
+    = {}): CfnDataset.SchemaProperty =
     CfnDataset.SchemaProperty.Builder().apply(initializer).build()

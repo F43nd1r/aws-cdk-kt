@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.CfnNetworkInsightsAnalysisProps
 
 @Generated
 public fun buildCfnNetworkInsightsAnalysisProps(initializer: @AwsCdkDsl
-    CfnNetworkInsightsAnalysisProps.Builder.() -> Unit): CfnNetworkInsightsAnalysisProps =
+    CfnNetworkInsightsAnalysisProps.Builder.() -> Unit = {}): CfnNetworkInsightsAnalysisProps =
     CfnNetworkInsightsAnalysisProps.Builder().apply(initializer).build()

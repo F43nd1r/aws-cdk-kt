@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.SageMakerCreateTransf
 
 @Generated
 public fun buildSageMakerCreateTransformJobProps(initializer: @AwsCdkDsl
-    SageMakerCreateTransformJobProps.Builder.() -> Unit): SageMakerCreateTransformJobProps =
+    SageMakerCreateTransformJobProps.Builder.() -> Unit = {}): SageMakerCreateTransformJobProps =
     SageMakerCreateTransformJobProps.Builder().apply(initializer).build()

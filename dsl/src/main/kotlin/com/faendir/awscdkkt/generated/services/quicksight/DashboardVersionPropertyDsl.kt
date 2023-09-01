@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
 public fun buildDashboardVersionProperty(initializer: @AwsCdkDsl
-    CfnDashboard.DashboardVersionProperty.Builder.() -> Unit): CfnDashboard.DashboardVersionProperty
-    = CfnDashboard.DashboardVersionProperty.Builder().apply(initializer).build()
+    CfnDashboard.DashboardVersionProperty.Builder.() -> Unit = {}):
+    CfnDashboard.DashboardVersionProperty =
+    CfnDashboard.DashboardVersionProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
 public fun buildPrefixConfigProperty(initializer: @AwsCdkDsl
-    CfnFlow.PrefixConfigProperty.Builder.() -> Unit): CfnFlow.PrefixConfigProperty =
+    CfnFlow.PrefixConfigProperty.Builder.() -> Unit = {}): CfnFlow.PrefixConfigProperty =
     CfnFlow.PrefixConfigProperty.Builder().apply(initializer).build()

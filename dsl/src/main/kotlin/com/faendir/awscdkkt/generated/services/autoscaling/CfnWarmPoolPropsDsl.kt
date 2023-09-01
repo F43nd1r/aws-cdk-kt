@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.CfnWarmPoolProps
 
 @Generated
-public fun buildCfnWarmPoolProps(initializer: @AwsCdkDsl CfnWarmPoolProps.Builder.() -> Unit):
+public fun buildCfnWarmPoolProps(initializer: @AwsCdkDsl CfnWarmPoolProps.Builder.() -> Unit = {}):
     CfnWarmPoolProps = CfnWarmPoolProps.Builder().apply(initializer).build()

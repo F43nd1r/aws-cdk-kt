@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.CfnTaskSet
 
 @Generated
 public fun buildServiceRegistryProperty(initializer: @AwsCdkDsl
-    CfnTaskSet.ServiceRegistryProperty.Builder.() -> Unit): CfnTaskSet.ServiceRegistryProperty =
-    CfnTaskSet.ServiceRegistryProperty.Builder().apply(initializer).build()
+    CfnTaskSet.ServiceRegistryProperty.Builder.() -> Unit = {}): CfnTaskSet.ServiceRegistryProperty
+    = CfnTaskSet.ServiceRegistryProperty.Builder().apply(initializer).build()

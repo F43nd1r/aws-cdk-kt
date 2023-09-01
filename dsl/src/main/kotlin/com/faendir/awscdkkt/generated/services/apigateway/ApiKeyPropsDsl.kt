@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.ApiKeyProps
 
 @Generated
-public fun buildApiKeyProps(initializer: @AwsCdkDsl ApiKeyProps.Builder.() -> Unit): ApiKeyProps =
-    ApiKeyProps.Builder().apply(initializer).build()
+public fun buildApiKeyProps(initializer: @AwsCdkDsl ApiKeyProps.Builder.() -> Unit = {}):
+    ApiKeyProps = ApiKeyProps.Builder().apply(initializer).build()

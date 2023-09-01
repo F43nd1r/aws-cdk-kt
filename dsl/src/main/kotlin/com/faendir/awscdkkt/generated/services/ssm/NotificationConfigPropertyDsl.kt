@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ssm.CfnMaintenanceWindowTask
 
 @Generated
 public fun buildNotificationConfigProperty(initializer: @AwsCdkDsl
-    CfnMaintenanceWindowTask.NotificationConfigProperty.Builder.() -> Unit):
+    CfnMaintenanceWindowTask.NotificationConfigProperty.Builder.() -> Unit = {}):
     CfnMaintenanceWindowTask.NotificationConfigProperty =
     CfnMaintenanceWindowTask.NotificationConfigProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.nimblestudio.CfnStudioProps
 
 @Generated
-public fun buildCfnStudioProps(initializer: @AwsCdkDsl CfnStudioProps.Builder.() -> Unit):
+public fun buildCfnStudioProps(initializer: @AwsCdkDsl CfnStudioProps.Builder.() -> Unit = {}):
     CfnStudioProps = CfnStudioProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildTimeEqualityFilterProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TimeEqualityFilterProperty.Builder.() -> Unit):
+    CfnTemplate.TimeEqualityFilterProperty.Builder.() -> Unit = {}):
     CfnTemplate.TimeEqualityFilterProperty =
     CfnTemplate.TimeEqualityFilterProperty.Builder().apply(initializer).build()

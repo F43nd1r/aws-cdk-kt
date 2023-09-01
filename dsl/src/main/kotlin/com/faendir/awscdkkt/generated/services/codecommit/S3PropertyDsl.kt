@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codecommit.CfnRepository
 
 @Generated
-public fun buildS3Property(initializer: @AwsCdkDsl CfnRepository.S3Property.Builder.() -> Unit):
-    CfnRepository.S3Property = CfnRepository.S3Property.Builder().apply(initializer).build()
+public fun buildS3Property(initializer: @AwsCdkDsl CfnRepository.S3Property.Builder.() -> Unit =
+    {}): CfnRepository.S3Property = CfnRepository.S3Property.Builder().apply(initializer).build()

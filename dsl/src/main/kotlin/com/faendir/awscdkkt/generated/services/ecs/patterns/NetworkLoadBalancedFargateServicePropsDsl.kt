@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.patterns.NetworkLoadBalancedFargateSe
 
 @Generated
 public fun buildNetworkLoadBalancedFargateServiceProps(initializer: @AwsCdkDsl
-    NetworkLoadBalancedFargateServiceProps.Builder.() -> Unit):
+    NetworkLoadBalancedFargateServiceProps.Builder.() -> Unit = {}):
     NetworkLoadBalancedFargateServiceProps =
     NetworkLoadBalancedFargateServiceProps.Builder().apply(initializer).build()

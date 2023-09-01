@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnTransitGatewayPeeringAttachmentPro
 
 @Generated
 public fun buildCfnTransitGatewayPeeringAttachmentProps(initializer: @AwsCdkDsl
-    CfnTransitGatewayPeeringAttachmentProps.Builder.() -> Unit):
+    CfnTransitGatewayPeeringAttachmentProps.Builder.() -> Unit = {}):
     CfnTransitGatewayPeeringAttachmentProps =
     CfnTransitGatewayPeeringAttachmentProps.Builder().apply(initializer).build()

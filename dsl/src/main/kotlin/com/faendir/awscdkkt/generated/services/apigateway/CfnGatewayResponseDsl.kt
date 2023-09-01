@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.apigateway.CfnGatewayResponseProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnGatewayResponse(id: String, props: CfnGatewayResponseProps):
-    CfnGatewayResponse = CfnGatewayResponse(this, id, props)
-
-@Generated
 public fun Construct.cfnGatewayResponse(
   id: String,
   props: CfnGatewayResponseProps,
-  initializer: @AwsCdkDsl CfnGatewayResponse.() -> Unit,
+  initializer: @AwsCdkDsl CfnGatewayResponse.() -> Unit = {},
 ): CfnGatewayResponse = CfnGatewayResponse(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnGatewayResponse(id: String, initializer: @AwsCdkDsl
-    CfnGatewayResponse.Builder.() -> Unit): CfnGatewayResponse =
+    CfnGatewayResponse.Builder.() -> Unit = {}): CfnGatewayResponse =
     CfnGatewayResponse.Builder.create(this, id).apply(initializer).build()

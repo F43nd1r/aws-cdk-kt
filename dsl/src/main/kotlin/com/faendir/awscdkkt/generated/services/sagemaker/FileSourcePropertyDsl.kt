@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sagemaker.CfnModelPackage
 
 @Generated
 public fun buildFileSourceProperty(initializer: @AwsCdkDsl
-    CfnModelPackage.FileSourceProperty.Builder.() -> Unit): CfnModelPackage.FileSourceProperty =
-    CfnModelPackage.FileSourceProperty.Builder().apply(initializer).build()
+    CfnModelPackage.FileSourceProperty.Builder.() -> Unit = {}): CfnModelPackage.FileSourceProperty
+    = CfnModelPackage.FileSourceProperty.Builder().apply(initializer).build()

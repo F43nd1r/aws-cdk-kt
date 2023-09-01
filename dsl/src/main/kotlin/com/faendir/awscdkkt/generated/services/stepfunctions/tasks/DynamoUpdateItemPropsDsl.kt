@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.DynamoUpdateItemProps
 
 @Generated
 public fun buildDynamoUpdateItemProps(initializer: @AwsCdkDsl
-    DynamoUpdateItemProps.Builder.() -> Unit): DynamoUpdateItemProps =
+    DynamoUpdateItemProps.Builder.() -> Unit = {}): DynamoUpdateItemProps =
     DynamoUpdateItemProps.Builder().apply(initializer).build()

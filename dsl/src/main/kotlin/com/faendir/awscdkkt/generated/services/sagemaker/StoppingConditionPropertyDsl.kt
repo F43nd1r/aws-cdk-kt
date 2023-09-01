@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnMonitoringSchedule
 
 @Generated
 public fun buildStoppingConditionProperty(initializer: @AwsCdkDsl
-    CfnMonitoringSchedule.StoppingConditionProperty.Builder.() -> Unit):
+    CfnMonitoringSchedule.StoppingConditionProperty.Builder.() -> Unit = {}):
     CfnMonitoringSchedule.StoppingConditionProperty =
     CfnMonitoringSchedule.StoppingConditionProperty.Builder().apply(initializer).build()

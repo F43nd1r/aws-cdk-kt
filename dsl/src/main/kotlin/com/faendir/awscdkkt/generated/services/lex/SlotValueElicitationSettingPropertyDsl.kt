@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
 public fun buildSlotValueElicitationSettingProperty(initializer: @AwsCdkDsl
-    CfnBot.SlotValueElicitationSettingProperty.Builder.() -> Unit):
+    CfnBot.SlotValueElicitationSettingProperty.Builder.() -> Unit = {}):
     CfnBot.SlotValueElicitationSettingProperty =
     CfnBot.SlotValueElicitationSettingProperty.Builder().apply(initializer).build()

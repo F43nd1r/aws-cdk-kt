@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.batch.CfnJobDefinitionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnJobDefinition(id: String, props: CfnJobDefinitionProps): CfnJobDefinition =
-    CfnJobDefinition(this, id, props)
-
-@Generated
 public fun Construct.cfnJobDefinition(
   id: String,
   props: CfnJobDefinitionProps,
-  initializer: @AwsCdkDsl CfnJobDefinition.() -> Unit,
+  initializer: @AwsCdkDsl CfnJobDefinition.() -> Unit = {},
 ): CfnJobDefinition = CfnJobDefinition(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnJobDefinition(id: String, initializer: @AwsCdkDsl
-    CfnJobDefinition.Builder.() -> Unit): CfnJobDefinition = CfnJobDefinition.Builder.create(this,
-    id).apply(initializer).build()
+    CfnJobDefinition.Builder.() -> Unit = {}): CfnJobDefinition =
+    CfnJobDefinition.Builder.create(this, id).apply(initializer).build()

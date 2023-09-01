@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.patterns.ApplicationMultipleTargetGro
 
 @Generated
 public fun buildApplicationMultipleTargetGroupsEc2ServiceProps(initializer: @AwsCdkDsl
-    ApplicationMultipleTargetGroupsEc2ServiceProps.Builder.() -> Unit):
+    ApplicationMultipleTargetGroupsEc2ServiceProps.Builder.() -> Unit = {}):
     ApplicationMultipleTargetGroupsEc2ServiceProps =
     ApplicationMultipleTargetGroupsEc2ServiceProps.Builder().apply(initializer).build()

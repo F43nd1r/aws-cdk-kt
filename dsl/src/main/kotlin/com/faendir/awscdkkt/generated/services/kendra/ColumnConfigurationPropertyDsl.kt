@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kendra.CfnDataSource
 
 @Generated
 public fun buildColumnConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.ColumnConfigurationProperty.Builder.() -> Unit):
+    CfnDataSource.ColumnConfigurationProperty.Builder.() -> Unit = {}):
     CfnDataSource.ColumnConfigurationProperty =
     CfnDataSource.ColumnConfigurationProperty.Builder().apply(initializer).build()

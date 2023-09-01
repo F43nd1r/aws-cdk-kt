@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
 public fun buildDashboardErrorProperty(initializer: @AwsCdkDsl
-    CfnDashboard.DashboardErrorProperty.Builder.() -> Unit): CfnDashboard.DashboardErrorProperty =
+    CfnDashboard.DashboardErrorProperty.Builder.() -> Unit = {}):
+    CfnDashboard.DashboardErrorProperty =
     CfnDashboard.DashboardErrorProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.autoscaling.CfnScalingPolicy
 
 @Generated
 public fun buildPredictiveScalingCustomizedCapacityMetricProperty(initializer: @AwsCdkDsl
-    CfnScalingPolicy.PredictiveScalingCustomizedCapacityMetricProperty.Builder.() -> Unit):
+    CfnScalingPolicy.PredictiveScalingCustomizedCapacityMetricProperty.Builder.() -> Unit = {}):
     CfnScalingPolicy.PredictiveScalingCustomizedCapacityMetricProperty =
     CfnScalingPolicy.PredictiveScalingCustomizedCapacityMetricProperty.Builder().apply(initializer).build()

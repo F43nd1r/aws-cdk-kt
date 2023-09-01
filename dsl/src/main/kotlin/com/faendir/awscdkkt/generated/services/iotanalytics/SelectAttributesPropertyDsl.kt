@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.iotanalytics.CfnPipeline
 
 @Generated
 public fun buildSelectAttributesProperty(initializer: @AwsCdkDsl
-    CfnPipeline.SelectAttributesProperty.Builder.() -> Unit): CfnPipeline.SelectAttributesProperty =
+    CfnPipeline.SelectAttributesProperty.Builder.() -> Unit = {}):
+    CfnPipeline.SelectAttributesProperty =
     CfnPipeline.SelectAttributesProperty.Builder().apply(initializer).build()

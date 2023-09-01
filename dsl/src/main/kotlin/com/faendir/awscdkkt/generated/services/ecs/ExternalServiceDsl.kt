@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ecs.ExternalServiceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.externalService(id: String, props: ExternalServiceProps): ExternalService =
-    ExternalService(this, id, props)
-
-@Generated
 public fun Construct.externalService(
   id: String,
   props: ExternalServiceProps,
-  initializer: @AwsCdkDsl ExternalService.() -> Unit,
+  initializer: @AwsCdkDsl ExternalService.() -> Unit = {},
 ): ExternalService = ExternalService(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildExternalService(id: String, initializer: @AwsCdkDsl
-    ExternalService.Builder.() -> Unit): ExternalService = ExternalService.Builder.create(this,
+    ExternalService.Builder.() -> Unit = {}): ExternalService = ExternalService.Builder.create(this,
     id).apply(initializer).build()

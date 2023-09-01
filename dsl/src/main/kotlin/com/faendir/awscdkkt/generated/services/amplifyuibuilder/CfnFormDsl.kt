@@ -9,15 +9,12 @@ import software.amazon.awscdk.services.amplifyuibuilder.CfnFormProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnForm(id: String, props: CfnFormProps): CfnForm = CfnForm(this, id, props)
-
-@Generated
 public fun Construct.cfnForm(
   id: String,
   props: CfnFormProps,
-  initializer: @AwsCdkDsl CfnForm.() -> Unit,
+  initializer: @AwsCdkDsl CfnForm.() -> Unit = {},
 ): CfnForm = CfnForm(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnForm(id: String, initializer: @AwsCdkDsl CfnForm.Builder.() -> Unit):
-    CfnForm = CfnForm.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnForm(id: String, initializer: @AwsCdkDsl CfnForm.Builder.() -> Unit =
+    {}): CfnForm = CfnForm.Builder.create(this, id).apply(initializer).build()

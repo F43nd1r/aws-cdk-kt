@@ -12,5 +12,5 @@ import software.amazon.awscdk.services.elasticsearch.ZoneAwarenessConfig
 @Deprecated(message =
     "software.amazon.awscdk.services.elasticsearch.ZoneAwarenessConfig is deprecated in CDK.")
 @Generated
-public fun buildZoneAwarenessConfig(initializer: @AwsCdkDsl ZoneAwarenessConfig.Builder.() -> Unit):
-    ZoneAwarenessConfig = ZoneAwarenessConfig.Builder().apply(initializer).build()
+public fun buildZoneAwarenessConfig(initializer: @AwsCdkDsl ZoneAwarenessConfig.Builder.() -> Unit =
+    {}): ZoneAwarenessConfig = ZoneAwarenessConfig.Builder().apply(initializer).build()

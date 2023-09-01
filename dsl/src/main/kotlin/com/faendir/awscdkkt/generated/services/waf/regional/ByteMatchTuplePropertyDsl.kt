@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.waf.regional.CfnByteMatchSet
 
 @Generated
 public fun buildByteMatchTupleProperty(initializer: @AwsCdkDsl
-    CfnByteMatchSet.ByteMatchTupleProperty.Builder.() -> Unit):
+    CfnByteMatchSet.ByteMatchTupleProperty.Builder.() -> Unit = {}):
     CfnByteMatchSet.ByteMatchTupleProperty =
     CfnByteMatchSet.ByteMatchTupleProperty.Builder().apply(initializer).build()

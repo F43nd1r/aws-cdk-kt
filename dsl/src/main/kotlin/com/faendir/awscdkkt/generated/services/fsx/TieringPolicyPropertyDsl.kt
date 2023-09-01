@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.fsx.CfnVolume
 
 @Generated
 public fun buildTieringPolicyProperty(initializer: @AwsCdkDsl
-    CfnVolume.TieringPolicyProperty.Builder.() -> Unit): CfnVolume.TieringPolicyProperty =
+    CfnVolume.TieringPolicyProperty.Builder.() -> Unit = {}): CfnVolume.TieringPolicyProperty =
     CfnVolume.TieringPolicyProperty.Builder().apply(initializer).build()

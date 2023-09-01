@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.config.CfnDeliveryChannel
 
 @Generated
 public fun buildConfigSnapshotDeliveryPropertiesProperty(initializer: @AwsCdkDsl
-    CfnDeliveryChannel.ConfigSnapshotDeliveryPropertiesProperty.Builder.() -> Unit):
+    CfnDeliveryChannel.ConfigSnapshotDeliveryPropertiesProperty.Builder.() -> Unit = {}):
     CfnDeliveryChannel.ConfigSnapshotDeliveryPropertiesProperty =
     CfnDeliveryChannel.ConfigSnapshotDeliveryPropertiesProperty.Builder().apply(initializer).build()

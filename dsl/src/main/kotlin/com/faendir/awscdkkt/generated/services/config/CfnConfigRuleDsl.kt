@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.config.CfnConfigRuleProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnConfigRule(id: String, props: CfnConfigRuleProps): CfnConfigRule =
-    CfnConfigRule(this, id, props)
-
-@Generated
 public fun Construct.cfnConfigRule(
   id: String,
   props: CfnConfigRuleProps,
-  initializer: @AwsCdkDsl CfnConfigRule.() -> Unit,
+  initializer: @AwsCdkDsl CfnConfigRule.() -> Unit = {},
 ): CfnConfigRule = CfnConfigRule(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnConfigRule(id: String, initializer: @AwsCdkDsl
-    CfnConfigRule.Builder.() -> Unit): CfnConfigRule = CfnConfigRule.Builder.create(this,
+    CfnConfigRule.Builder.() -> Unit = {}): CfnConfigRule = CfnConfigRule.Builder.create(this,
     id).apply(initializer).build()

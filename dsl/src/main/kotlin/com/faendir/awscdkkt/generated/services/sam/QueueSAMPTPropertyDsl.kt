@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
 public fun buildQueueSAMPTProperty(initializer: @AwsCdkDsl
-    CfnFunction.QueueSAMPTProperty.Builder.() -> Unit): CfnFunction.QueueSAMPTProperty =
+    CfnFunction.QueueSAMPTProperty.Builder.() -> Unit = {}): CfnFunction.QueueSAMPTProperty =
     CfnFunction.QueueSAMPTProperty.Builder().apply(initializer).build()

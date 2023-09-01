@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.evidently.CfnLaunch
 
 @Generated
 public fun buildLaunchGroupObjectProperty(initializer: @AwsCdkDsl
-    CfnLaunch.LaunchGroupObjectProperty.Builder.() -> Unit): CfnLaunch.LaunchGroupObjectProperty =
+    CfnLaunch.LaunchGroupObjectProperty.Builder.() -> Unit = {}):
+    CfnLaunch.LaunchGroupObjectProperty =
     CfnLaunch.LaunchGroupObjectProperty.Builder().apply(initializer).build()

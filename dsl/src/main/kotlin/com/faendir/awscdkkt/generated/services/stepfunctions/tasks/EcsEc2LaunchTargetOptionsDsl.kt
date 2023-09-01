@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EcsEc2LaunchTargetOpt
 
 @Generated
 public fun buildEcsEc2LaunchTargetOptions(initializer: @AwsCdkDsl
-    EcsEc2LaunchTargetOptions.Builder.() -> Unit): EcsEc2LaunchTargetOptions =
+    EcsEc2LaunchTargetOptions.Builder.() -> Unit = {}): EcsEc2LaunchTargetOptions =
     EcsEc2LaunchTargetOptions.Builder().apply(initializer).build()

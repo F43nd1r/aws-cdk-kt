@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.customerprofiles.CfnIntegration
 
 @Generated
 public fun buildIncrementalPullConfigProperty(initializer: @AwsCdkDsl
-    CfnIntegration.IncrementalPullConfigProperty.Builder.() -> Unit):
+    CfnIntegration.IncrementalPullConfigProperty.Builder.() -> Unit = {}):
     CfnIntegration.IncrementalPullConfigProperty =
     CfnIntegration.IncrementalPullConfigProperty.Builder().apply(initializer).build()

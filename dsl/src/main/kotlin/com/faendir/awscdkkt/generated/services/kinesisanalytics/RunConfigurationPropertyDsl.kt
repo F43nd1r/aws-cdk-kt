@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kinesisanalytics.CfnApplicationV2
 
 @Generated
 public fun buildRunConfigurationProperty(initializer: @AwsCdkDsl
-    CfnApplicationV2.RunConfigurationProperty.Builder.() -> Unit):
+    CfnApplicationV2.RunConfigurationProperty.Builder.() -> Unit = {}):
     CfnApplicationV2.RunConfigurationProperty =
     CfnApplicationV2.RunConfigurationProperty.Builder().apply(initializer).build()

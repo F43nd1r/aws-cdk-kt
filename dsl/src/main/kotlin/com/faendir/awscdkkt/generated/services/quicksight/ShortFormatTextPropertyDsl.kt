@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildShortFormatTextProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ShortFormatTextProperty.Builder.() -> Unit): CfnTemplate.ShortFormatTextProperty =
+    CfnTemplate.ShortFormatTextProperty.Builder.() -> Unit = {}):
+    CfnTemplate.ShortFormatTextProperty =
     CfnTemplate.ShortFormatTextProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.guardduty.CfnIPSetProps
 
 @Generated
-public fun buildCfnIPSetProps(initializer: @AwsCdkDsl CfnIPSetProps.Builder.() -> Unit):
+public fun buildCfnIPSetProps(initializer: @AwsCdkDsl CfnIPSetProps.Builder.() -> Unit = {}):
     CfnIPSetProps = CfnIPSetProps.Builder().apply(initializer).build()

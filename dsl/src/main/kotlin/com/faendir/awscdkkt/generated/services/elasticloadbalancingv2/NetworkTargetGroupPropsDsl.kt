@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.NetworkTargetGroup
 
 @Generated
 public fun buildNetworkTargetGroupProps(initializer: @AwsCdkDsl
-    NetworkTargetGroupProps.Builder.() -> Unit): NetworkTargetGroupProps =
+    NetworkTargetGroupProps.Builder.() -> Unit = {}): NetworkTargetGroupProps =
     NetworkTargetGroupProps.Builder().apply(initializer).build()

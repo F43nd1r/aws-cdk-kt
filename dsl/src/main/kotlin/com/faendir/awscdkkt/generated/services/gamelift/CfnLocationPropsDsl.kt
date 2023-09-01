@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnLocationProps
 
 @Generated
-public fun buildCfnLocationProps(initializer: @AwsCdkDsl CfnLocationProps.Builder.() -> Unit):
+public fun buildCfnLocationProps(initializer: @AwsCdkDsl CfnLocationProps.Builder.() -> Unit = {}):
     CfnLocationProps = CfnLocationProps.Builder().apply(initializer).build()

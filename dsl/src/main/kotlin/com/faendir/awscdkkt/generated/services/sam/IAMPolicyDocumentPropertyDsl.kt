@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sam.CfnStateMachine
 
 @Generated
 public fun buildIAMPolicyDocumentProperty(initializer: @AwsCdkDsl
-    CfnStateMachine.IAMPolicyDocumentProperty.Builder.() -> Unit):
+    CfnStateMachine.IAMPolicyDocumentProperty.Builder.() -> Unit = {}):
     CfnStateMachine.IAMPolicyDocumentProperty =
     CfnStateMachine.IAMPolicyDocumentProperty.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.iam.SamlProviderProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.samlProvider(id: String, props: SamlProviderProps): SamlProvider =
-    SamlProvider(this, id, props)
-
-@Generated
 public fun Construct.samlProvider(
   id: String,
   props: SamlProviderProps,
-  initializer: @AwsCdkDsl SamlProvider.() -> Unit,
+  initializer: @AwsCdkDsl SamlProvider.() -> Unit = {},
 ): SamlProvider = SamlProvider(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildSamlProvider(id: String, initializer: @AwsCdkDsl
-    SamlProvider.Builder.() -> Unit): SamlProvider = SamlProvider.Builder.create(this,
+    SamlProvider.Builder.() -> Unit = {}): SamlProvider = SamlProvider.Builder.create(this,
     id).apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnRoleAliasProps
 
 @Generated
-public fun buildCfnRoleAliasProps(initializer: @AwsCdkDsl CfnRoleAliasProps.Builder.() -> Unit):
-    CfnRoleAliasProps = CfnRoleAliasProps.Builder().apply(initializer).build()
+public fun buildCfnRoleAliasProps(initializer: @AwsCdkDsl CfnRoleAliasProps.Builder.() -> Unit =
+    {}): CfnRoleAliasProps = CfnRoleAliasProps.Builder().apply(initializer).build()

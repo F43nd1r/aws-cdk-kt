@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opsworks.CfnStackProps
 
 @Generated
-public fun buildCfnStackProps(initializer: @AwsCdkDsl CfnStackProps.Builder.() -> Unit):
+public fun buildCfnStackProps(initializer: @AwsCdkDsl CfnStackProps.Builder.() -> Unit = {}):
     CfnStackProps = CfnStackProps.Builder().apply(initializer).build()

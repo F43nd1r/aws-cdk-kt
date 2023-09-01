@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.UnknownPrincipal
 
 @Generated
-public fun buildUnknownPrincipal(initializer: @AwsCdkDsl UnknownPrincipal.Builder.() -> Unit):
+public fun buildUnknownPrincipal(initializer: @AwsCdkDsl UnknownPrincipal.Builder.() -> Unit = {}):
     UnknownPrincipal = UnknownPrincipal.Builder.create().apply(initializer).build()

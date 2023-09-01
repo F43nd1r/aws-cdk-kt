@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iotthingsgraph.CfnFlowTemplate
 
 @Generated
 public fun buildDefinitionDocumentProperty(initializer: @AwsCdkDsl
-    CfnFlowTemplate.DefinitionDocumentProperty.Builder.() -> Unit):
+    CfnFlowTemplate.DefinitionDocumentProperty.Builder.() -> Unit = {}):
     CfnFlowTemplate.DefinitionDocumentProperty =
     CfnFlowTemplate.DefinitionDocumentProperty.Builder().apply(initializer).build()

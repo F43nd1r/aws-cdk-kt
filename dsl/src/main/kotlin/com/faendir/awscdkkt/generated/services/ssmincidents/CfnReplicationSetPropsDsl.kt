@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ssmincidents.CfnReplicationSetProps
 
 @Generated
 public fun buildCfnReplicationSetProps(initializer: @AwsCdkDsl
-    CfnReplicationSetProps.Builder.() -> Unit): CfnReplicationSetProps =
+    CfnReplicationSetProps.Builder.() -> Unit = {}): CfnReplicationSetProps =
     CfnReplicationSetProps.Builder().apply(initializer).build()

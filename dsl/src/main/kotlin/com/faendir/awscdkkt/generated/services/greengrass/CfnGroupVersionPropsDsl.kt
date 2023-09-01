@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.greengrass.CfnGroupVersionProps
 
 @Generated
-public fun buildCfnGroupVersionProps(initializer: @AwsCdkDsl
-    CfnGroupVersionProps.Builder.() -> Unit): CfnGroupVersionProps =
-    CfnGroupVersionProps.Builder().apply(initializer).build()
+public fun buildCfnGroupVersionProps(initializer: @AwsCdkDsl CfnGroupVersionProps.Builder.() -> Unit
+    = {}): CfnGroupVersionProps = CfnGroupVersionProps.Builder().apply(initializer).build()

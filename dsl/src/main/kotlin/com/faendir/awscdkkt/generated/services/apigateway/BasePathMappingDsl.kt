@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.apigateway.BasePathMappingProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.basePathMapping(id: String, props: BasePathMappingProps): BasePathMapping =
-    BasePathMapping(this, id, props)
-
-@Generated
 public fun Construct.basePathMapping(
   id: String,
   props: BasePathMappingProps,
-  initializer: @AwsCdkDsl BasePathMapping.() -> Unit,
+  initializer: @AwsCdkDsl BasePathMapping.() -> Unit = {},
 ): BasePathMapping = BasePathMapping(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildBasePathMapping(id: String, initializer: @AwsCdkDsl
-    BasePathMapping.Builder.() -> Unit): BasePathMapping = BasePathMapping.Builder.create(this,
+    BasePathMapping.Builder.() -> Unit = {}): BasePathMapping = BasePathMapping.Builder.create(this,
     id).apply(initializer).build()

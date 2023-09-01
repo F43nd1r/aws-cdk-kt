@@ -9,27 +9,18 @@ import software.amazon.awscdk.services.ecs.patterns.NetworkLoadBalancedEc2Servic
 import software.constructs.Construct
 
 @Generated
-public fun Construct.networkLoadBalancedEc2Service(id: String): NetworkLoadBalancedEc2Service =
-    NetworkLoadBalancedEc2Service(this, id)
-
-@Generated
 public fun Construct.networkLoadBalancedEc2Service(id: String, initializer: @AwsCdkDsl
-    NetworkLoadBalancedEc2Service.() -> Unit): NetworkLoadBalancedEc2Service =
+    NetworkLoadBalancedEc2Service.() -> Unit = {}): NetworkLoadBalancedEc2Service =
     NetworkLoadBalancedEc2Service(this, id).apply(initializer)
-
-@Generated
-public fun Construct.networkLoadBalancedEc2Service(id: String,
-    props: NetworkLoadBalancedEc2ServiceProps): NetworkLoadBalancedEc2Service =
-    NetworkLoadBalancedEc2Service(this, id, props)
 
 @Generated
 public fun Construct.networkLoadBalancedEc2Service(
   id: String,
   props: NetworkLoadBalancedEc2ServiceProps,
-  initializer: @AwsCdkDsl NetworkLoadBalancedEc2Service.() -> Unit,
+  initializer: @AwsCdkDsl NetworkLoadBalancedEc2Service.() -> Unit = {},
 ): NetworkLoadBalancedEc2Service = NetworkLoadBalancedEc2Service(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildNetworkLoadBalancedEc2Service(id: String, initializer: @AwsCdkDsl
-    NetworkLoadBalancedEc2Service.Builder.() -> Unit): NetworkLoadBalancedEc2Service =
+    NetworkLoadBalancedEc2Service.Builder.() -> Unit = {}): NetworkLoadBalancedEc2Service =
     NetworkLoadBalancedEc2Service.Builder.create(this, id).apply(initializer).build()

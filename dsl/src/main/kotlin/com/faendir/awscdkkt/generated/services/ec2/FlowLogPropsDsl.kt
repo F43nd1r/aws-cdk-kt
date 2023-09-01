@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.FlowLogProps
 
 @Generated
-public fun buildFlowLogProps(initializer: @AwsCdkDsl FlowLogProps.Builder.() -> Unit): FlowLogProps
-    = FlowLogProps.Builder().apply(initializer).build()
+public fun buildFlowLogProps(initializer: @AwsCdkDsl FlowLogProps.Builder.() -> Unit = {}):
+    FlowLogProps = FlowLogProps.Builder().apply(initializer).build()

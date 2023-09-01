@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.AthenaGetQueryExecuti
 
 @Generated
 public fun buildAthenaGetQueryExecutionProps(initializer: @AwsCdkDsl
-    AthenaGetQueryExecutionProps.Builder.() -> Unit): AthenaGetQueryExecutionProps =
+    AthenaGetQueryExecutionProps.Builder.() -> Unit = {}): AthenaGetQueryExecutionProps =
     AthenaGetQueryExecutionProps.Builder().apply(initializer).build()

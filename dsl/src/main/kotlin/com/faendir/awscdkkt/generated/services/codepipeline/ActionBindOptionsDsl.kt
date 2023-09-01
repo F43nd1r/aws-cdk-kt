@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.ActionBindOptions
 
 @Generated
-public fun buildActionBindOptions(initializer: @AwsCdkDsl ActionBindOptions.Builder.() -> Unit):
-    ActionBindOptions = ActionBindOptions.Builder().apply(initializer).build()
+public fun buildActionBindOptions(initializer: @AwsCdkDsl ActionBindOptions.Builder.() -> Unit =
+    {}): ActionBindOptions = ActionBindOptions.Builder().apply(initializer).build()

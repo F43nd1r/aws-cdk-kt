@@ -9,15 +9,12 @@ import software.amazon.awscdk.services.apigateway.ModelProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.model(id: String, props: ModelProps): Model = Model(this, id, props)
-
-@Generated
 public fun Construct.model(
   id: String,
   props: ModelProps,
-  initializer: @AwsCdkDsl Model.() -> Unit,
+  initializer: @AwsCdkDsl Model.() -> Unit = {},
 ): Model = Model(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildModel(id: String, initializer: @AwsCdkDsl Model.Builder.() -> Unit): Model
-    = Model.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildModel(id: String, initializer: @AwsCdkDsl Model.Builder.() -> Unit = {}):
+    Model = Model.Builder.create(this, id).apply(initializer).build()

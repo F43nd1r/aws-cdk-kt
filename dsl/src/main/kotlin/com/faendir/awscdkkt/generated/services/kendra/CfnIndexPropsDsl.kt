@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kendra.CfnIndexProps
 
 @Generated
-public fun buildCfnIndexProps(initializer: @AwsCdkDsl CfnIndexProps.Builder.() -> Unit):
+public fun buildCfnIndexProps(initializer: @AwsCdkDsl CfnIndexProps.Builder.() -> Unit = {}):
     CfnIndexProps = CfnIndexProps.Builder().apply(initializer).build()

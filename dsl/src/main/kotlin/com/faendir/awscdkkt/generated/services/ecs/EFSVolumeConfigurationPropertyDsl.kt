@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
 public fun buildEFSVolumeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.EFSVolumeConfigurationProperty.Builder.() -> Unit):
+    CfnTaskDefinition.EFSVolumeConfigurationProperty.Builder.() -> Unit = {}):
     CfnTaskDefinition.EFSVolumeConfigurationProperty =
     CfnTaskDefinition.EFSVolumeConfigurationProperty.Builder().apply(initializer).build()

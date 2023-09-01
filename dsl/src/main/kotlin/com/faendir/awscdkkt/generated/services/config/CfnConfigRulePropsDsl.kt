@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.config.CfnConfigRuleProps
 
 @Generated
-public fun buildCfnConfigRuleProps(initializer: @AwsCdkDsl CfnConfigRuleProps.Builder.() -> Unit):
-    CfnConfigRuleProps = CfnConfigRuleProps.Builder().apply(initializer).build()
+public fun buildCfnConfigRuleProps(initializer: @AwsCdkDsl CfnConfigRuleProps.Builder.() -> Unit =
+    {}): CfnConfigRuleProps = CfnConfigRuleProps.Builder().apply(initializer).build()

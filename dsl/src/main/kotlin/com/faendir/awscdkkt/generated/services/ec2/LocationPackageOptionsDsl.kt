@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.LocationPackageOptions
 
 @Generated
 public fun buildLocationPackageOptions(initializer: @AwsCdkDsl
-    LocationPackageOptions.Builder.() -> Unit): LocationPackageOptions =
+    LocationPackageOptions.Builder.() -> Unit = {}): LocationPackageOptions =
     LocationPackageOptions.Builder().apply(initializer).build()

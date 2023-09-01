@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.eks.FargateProfileOptions
 
 @Generated
 public fun buildFargateProfileOptions(initializer: @AwsCdkDsl
-    FargateProfileOptions.Builder.() -> Unit): FargateProfileOptions =
+    FargateProfileOptions.Builder.() -> Unit = {}): FargateProfileOptions =
     FargateProfileOptions.Builder().apply(initializer).build()

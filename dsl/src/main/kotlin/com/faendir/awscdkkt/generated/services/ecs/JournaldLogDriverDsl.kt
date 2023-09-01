@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.JournaldLogDriver
 
 @Generated
-public fun buildJournaldLogDriver(initializer: @AwsCdkDsl JournaldLogDriver.Builder.() -> Unit):
-    JournaldLogDriver = JournaldLogDriver.Builder.create().apply(initializer).build()
+public fun buildJournaldLogDriver(initializer: @AwsCdkDsl JournaldLogDriver.Builder.() -> Unit =
+    {}): JournaldLogDriver = JournaldLogDriver.Builder.create().apply(initializer).build()

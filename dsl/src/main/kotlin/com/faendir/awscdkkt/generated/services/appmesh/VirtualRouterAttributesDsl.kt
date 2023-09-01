@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appmesh.VirtualRouterAttributes
 
 @Generated
 public fun buildVirtualRouterAttributes(initializer: @AwsCdkDsl
-    VirtualRouterAttributes.Builder.() -> Unit): VirtualRouterAttributes =
+    VirtualRouterAttributes.Builder.() -> Unit = {}): VirtualRouterAttributes =
     VirtualRouterAttributes.Builder().apply(initializer).build()

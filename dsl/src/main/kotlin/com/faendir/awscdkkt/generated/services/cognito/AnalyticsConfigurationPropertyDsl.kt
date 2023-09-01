@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cognito.CfnUserPoolClient
 
 @Generated
 public fun buildAnalyticsConfigurationProperty(initializer: @AwsCdkDsl
-    CfnUserPoolClient.AnalyticsConfigurationProperty.Builder.() -> Unit):
+    CfnUserPoolClient.AnalyticsConfigurationProperty.Builder.() -> Unit = {}):
     CfnUserPoolClient.AnalyticsConfigurationProperty =
     CfnUserPoolClient.AnalyticsConfigurationProperty.Builder().apply(initializer).build()

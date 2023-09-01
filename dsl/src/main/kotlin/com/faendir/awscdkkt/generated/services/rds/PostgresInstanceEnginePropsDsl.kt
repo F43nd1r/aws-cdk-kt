@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.rds.PostgresInstanceEngineProps
 
 @Generated
 public fun buildPostgresInstanceEngineProps(initializer: @AwsCdkDsl
-    PostgresInstanceEngineProps.Builder.() -> Unit): PostgresInstanceEngineProps =
+    PostgresInstanceEngineProps.Builder.() -> Unit = {}): PostgresInstanceEngineProps =
     PostgresInstanceEngineProps.Builder().apply(initializer).build()

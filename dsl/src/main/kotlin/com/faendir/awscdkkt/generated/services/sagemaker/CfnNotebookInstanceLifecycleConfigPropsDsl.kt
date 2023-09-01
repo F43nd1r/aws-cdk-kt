@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnNotebookInstanceLifecycleCon
 
 @Generated
 public fun buildCfnNotebookInstanceLifecycleConfigProps(initializer: @AwsCdkDsl
-    CfnNotebookInstanceLifecycleConfigProps.Builder.() -> Unit):
+    CfnNotebookInstanceLifecycleConfigProps.Builder.() -> Unit = {}):
     CfnNotebookInstanceLifecycleConfigProps =
     CfnNotebookInstanceLifecycleConfigProps.Builder().apply(initializer).build()

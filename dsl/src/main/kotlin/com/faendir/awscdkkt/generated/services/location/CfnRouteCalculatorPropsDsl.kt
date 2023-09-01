@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.location.CfnRouteCalculatorProps
 
 @Generated
 public fun buildCfnRouteCalculatorProps(initializer: @AwsCdkDsl
-    CfnRouteCalculatorProps.Builder.() -> Unit): CfnRouteCalculatorProps =
+    CfnRouteCalculatorProps.Builder.() -> Unit = {}): CfnRouteCalculatorProps =
     CfnRouteCalculatorProps.Builder().apply(initializer).build()

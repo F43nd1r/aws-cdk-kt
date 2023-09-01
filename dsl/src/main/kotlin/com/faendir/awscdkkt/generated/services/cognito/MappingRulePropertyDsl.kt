@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cognito.CfnIdentityPoolRoleAttachment
 
 @Generated
 public fun buildMappingRuleProperty(initializer: @AwsCdkDsl
-    CfnIdentityPoolRoleAttachment.MappingRuleProperty.Builder.() -> Unit):
+    CfnIdentityPoolRoleAttachment.MappingRuleProperty.Builder.() -> Unit = {}):
     CfnIdentityPoolRoleAttachment.MappingRuleProperty =
     CfnIdentityPoolRoleAttachment.MappingRuleProperty.Builder().apply(initializer).build()

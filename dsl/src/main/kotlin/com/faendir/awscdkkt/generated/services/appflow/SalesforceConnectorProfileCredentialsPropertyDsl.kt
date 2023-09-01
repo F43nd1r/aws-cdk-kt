@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnConnectorProfile
 
 @Generated
 public fun buildSalesforceConnectorProfileCredentialsProperty(initializer: @AwsCdkDsl
-    CfnConnectorProfile.SalesforceConnectorProfileCredentialsProperty.Builder.() -> Unit):
+    CfnConnectorProfile.SalesforceConnectorProfileCredentialsProperty.Builder.() -> Unit = {}):
     CfnConnectorProfile.SalesforceConnectorProfileCredentialsProperty =
     CfnConnectorProfile.SalesforceConnectorProfileCredentialsProperty.Builder().apply(initializer).build()

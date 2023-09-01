@@ -7,5 +7,5 @@ import software.amazon.awscdk.cloudassembly.schema.AvailabilityZonesContextQuery
 
 @Generated
 public fun buildAvailabilityZonesContextQuery(initializer: @AwsCdkDsl
-    AvailabilityZonesContextQuery.Builder.() -> Unit): AvailabilityZonesContextQuery =
+    AvailabilityZonesContextQuery.Builder.() -> Unit = {}): AvailabilityZonesContextQuery =
     AvailabilityZonesContextQuery.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnFlowLog
 
 @Generated
 public fun buildDestinationOptionsProperty(initializer: @AwsCdkDsl
-    CfnFlowLog.DestinationOptionsProperty.Builder.() -> Unit): CfnFlowLog.DestinationOptionsProperty
-    = CfnFlowLog.DestinationOptionsProperty.Builder().apply(initializer).build()
+    CfnFlowLog.DestinationOptionsProperty.Builder.() -> Unit = {}):
+    CfnFlowLog.DestinationOptionsProperty =
+    CfnFlowLog.DestinationOptionsProperty.Builder().apply(initializer).build()

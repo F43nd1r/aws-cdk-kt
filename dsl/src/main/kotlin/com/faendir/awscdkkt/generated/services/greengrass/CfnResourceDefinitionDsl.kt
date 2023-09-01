@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.greengrass.CfnResourceDefinitionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnResourceDefinition(id: String, props: CfnResourceDefinitionProps):
-    CfnResourceDefinition = CfnResourceDefinition(this, id, props)
-
-@Generated
 public fun Construct.cfnResourceDefinition(
   id: String,
   props: CfnResourceDefinitionProps,
-  initializer: @AwsCdkDsl CfnResourceDefinition.() -> Unit,
+  initializer: @AwsCdkDsl CfnResourceDefinition.() -> Unit = {},
 ): CfnResourceDefinition = CfnResourceDefinition(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnResourceDefinition(id: String, initializer: @AwsCdkDsl
-    CfnResourceDefinition.Builder.() -> Unit): CfnResourceDefinition =
+    CfnResourceDefinition.Builder.() -> Unit = {}): CfnResourceDefinition =
     CfnResourceDefinition.Builder.create(this, id).apply(initializer).build()

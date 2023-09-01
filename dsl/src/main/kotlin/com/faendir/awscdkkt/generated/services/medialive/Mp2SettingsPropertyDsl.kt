@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildMp2SettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.Mp2SettingsProperty.Builder.() -> Unit): CfnChannel.Mp2SettingsProperty =
+    CfnChannel.Mp2SettingsProperty.Builder.() -> Unit = {}): CfnChannel.Mp2SettingsProperty =
     CfnChannel.Mp2SettingsProperty.Builder().apply(initializer).build()

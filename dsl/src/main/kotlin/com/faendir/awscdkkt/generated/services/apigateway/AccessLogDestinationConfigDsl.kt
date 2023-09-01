@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.apigateway.AccessLogDestinationConfig
 
 @Generated
 public fun buildAccessLogDestinationConfig(initializer: @AwsCdkDsl
-    AccessLogDestinationConfig.Builder.() -> Unit): AccessLogDestinationConfig =
+    AccessLogDestinationConfig.Builder.() -> Unit = {}): AccessLogDestinationConfig =
     AccessLogDestinationConfig.Builder().apply(initializer).build()

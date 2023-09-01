@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.dynamodb.CfnGlobalTable
 
 @Generated
 public fun buildCapacityAutoScalingSettingsProperty(initializer: @AwsCdkDsl
-    CfnGlobalTable.CapacityAutoScalingSettingsProperty.Builder.() -> Unit):
+    CfnGlobalTable.CapacityAutoScalingSettingsProperty.Builder.() -> Unit = {}):
     CfnGlobalTable.CapacityAutoScalingSettingsProperty =
     CfnGlobalTable.CapacityAutoScalingSettingsProperty.Builder().apply(initializer).build()

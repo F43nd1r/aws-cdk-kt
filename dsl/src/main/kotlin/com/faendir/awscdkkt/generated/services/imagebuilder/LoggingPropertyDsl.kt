@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.imagebuilder.CfnInfrastructureConfigurati
 
 @Generated
 public fun buildLoggingProperty(initializer: @AwsCdkDsl
-    CfnInfrastructureConfiguration.LoggingProperty.Builder.() -> Unit):
+    CfnInfrastructureConfiguration.LoggingProperty.Builder.() -> Unit = {}):
     CfnInfrastructureConfiguration.LoggingProperty =
     CfnInfrastructureConfiguration.LoggingProperty.Builder().apply(initializer).build()

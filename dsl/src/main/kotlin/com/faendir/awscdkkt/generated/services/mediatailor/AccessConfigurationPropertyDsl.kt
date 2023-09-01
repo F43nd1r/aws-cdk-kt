@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.mediatailor.CfnSourceLocation
 
 @Generated
 public fun buildAccessConfigurationProperty(initializer: @AwsCdkDsl
-    CfnSourceLocation.AccessConfigurationProperty.Builder.() -> Unit):
+    CfnSourceLocation.AccessConfigurationProperty.Builder.() -> Unit = {}):
     CfnSourceLocation.AccessConfigurationProperty =
     CfnSourceLocation.AccessConfigurationProperty.Builder().apply(initializer).build()

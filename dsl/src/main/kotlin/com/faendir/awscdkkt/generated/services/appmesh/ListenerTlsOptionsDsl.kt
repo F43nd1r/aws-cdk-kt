@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.ListenerTlsOptions
 
 @Generated
-public fun buildListenerTlsOptions(initializer: @AwsCdkDsl ListenerTlsOptions.Builder.() -> Unit):
-    ListenerTlsOptions = ListenerTlsOptions.Builder().apply(initializer).build()
+public fun buildListenerTlsOptions(initializer: @AwsCdkDsl ListenerTlsOptions.Builder.() -> Unit =
+    {}): ListenerTlsOptions = ListenerTlsOptions.Builder().apply(initializer).build()

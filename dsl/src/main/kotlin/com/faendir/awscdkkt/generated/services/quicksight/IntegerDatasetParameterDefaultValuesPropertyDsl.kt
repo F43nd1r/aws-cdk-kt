@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
 public fun buildIntegerDatasetParameterDefaultValuesProperty(initializer: @AwsCdkDsl
-    CfnDataSet.IntegerDatasetParameterDefaultValuesProperty.Builder.() -> Unit):
+    CfnDataSet.IntegerDatasetParameterDefaultValuesProperty.Builder.() -> Unit = {}):
     CfnDataSet.IntegerDatasetParameterDefaultValuesProperty =
     CfnDataSet.IntegerDatasetParameterDefaultValuesProperty.Builder().apply(initializer).build()

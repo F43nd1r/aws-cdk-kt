@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cognito.CfnUserPoolRiskConfigurationAttac
 
 @Generated
 public fun buildAccountTakeoverActionTypeProperty(initializer: @AwsCdkDsl
-    CfnUserPoolRiskConfigurationAttachment.AccountTakeoverActionTypeProperty.Builder.() -> Unit):
-    CfnUserPoolRiskConfigurationAttachment.AccountTakeoverActionTypeProperty =
+    CfnUserPoolRiskConfigurationAttachment.AccountTakeoverActionTypeProperty.Builder.() -> Unit =
+    {}): CfnUserPoolRiskConfigurationAttachment.AccountTakeoverActionTypeProperty =
     CfnUserPoolRiskConfigurationAttachment.AccountTakeoverActionTypeProperty.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.appsync.RdsDataSourceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.rdsDataSource(id: String, props: RdsDataSourceProps): RdsDataSource =
-    RdsDataSource(this, id, props)
-
-@Generated
 public fun Construct.rdsDataSource(
   id: String,
   props: RdsDataSourceProps,
-  initializer: @AwsCdkDsl RdsDataSource.() -> Unit,
+  initializer: @AwsCdkDsl RdsDataSource.() -> Unit = {},
 ): RdsDataSource = RdsDataSource(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildRdsDataSource(id: String, initializer: @AwsCdkDsl
-    RdsDataSource.Builder.() -> Unit): RdsDataSource = RdsDataSource.Builder.create(this,
+    RdsDataSource.Builder.() -> Unit = {}): RdsDataSource = RdsDataSource.Builder.create(this,
     id).apply(initializer).build()

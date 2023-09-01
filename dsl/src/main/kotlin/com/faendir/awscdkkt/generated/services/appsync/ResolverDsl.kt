@@ -9,16 +9,12 @@ import software.amazon.awscdk.services.appsync.ResolverProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.resolver(id: String, props: ResolverProps): Resolver = Resolver(this, id,
-    props)
-
-@Generated
 public fun Construct.resolver(
   id: String,
   props: ResolverProps,
-  initializer: @AwsCdkDsl Resolver.() -> Unit,
+  initializer: @AwsCdkDsl Resolver.() -> Unit = {},
 ): Resolver = Resolver(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildResolver(id: String, initializer: @AwsCdkDsl Resolver.Builder.() -> Unit):
-    Resolver = Resolver.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildResolver(id: String, initializer: @AwsCdkDsl Resolver.Builder.() -> Unit =
+    {}): Resolver = Resolver.Builder.create(this, id).apply(initializer).build()

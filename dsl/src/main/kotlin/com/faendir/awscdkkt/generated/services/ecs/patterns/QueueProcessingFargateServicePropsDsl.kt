@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.patterns.QueueProcessingFargateServic
 
 @Generated
 public fun buildQueueProcessingFargateServiceProps(initializer: @AwsCdkDsl
-    QueueProcessingFargateServiceProps.Builder.() -> Unit): QueueProcessingFargateServiceProps =
-    QueueProcessingFargateServiceProps.Builder().apply(initializer).build()
+    QueueProcessingFargateServiceProps.Builder.() -> Unit = {}): QueueProcessingFargateServiceProps
+    = QueueProcessingFargateServiceProps.Builder().apply(initializer).build()

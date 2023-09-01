@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.config.CfnOrganizationConfigRuleProps
 
 @Generated
 public fun buildCfnOrganizationConfigRuleProps(initializer: @AwsCdkDsl
-    CfnOrganizationConfigRuleProps.Builder.() -> Unit): CfnOrganizationConfigRuleProps =
+    CfnOrganizationConfigRuleProps.Builder.() -> Unit = {}): CfnOrganizationConfigRuleProps =
     CfnOrganizationConfigRuleProps.Builder().apply(initializer).build()

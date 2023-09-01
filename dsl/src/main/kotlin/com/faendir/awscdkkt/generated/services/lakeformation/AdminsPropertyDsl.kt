@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lakeformation.CfnDataLakeSettings
 
 @Generated
 public fun buildAdminsProperty(initializer: @AwsCdkDsl
-    CfnDataLakeSettings.AdminsProperty.Builder.() -> Unit): CfnDataLakeSettings.AdminsProperty =
-    CfnDataLakeSettings.AdminsProperty.Builder().apply(initializer).build()
+    CfnDataLakeSettings.AdminsProperty.Builder.() -> Unit = {}): CfnDataLakeSettings.AdminsProperty
+    = CfnDataLakeSettings.AdminsProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkmanager.CfnLinkProps
 
 @Generated
-public fun buildCfnLinkProps(initializer: @AwsCdkDsl CfnLinkProps.Builder.() -> Unit): CfnLinkProps
-    = CfnLinkProps.Builder().apply(initializer).build()
+public fun buildCfnLinkProps(initializer: @AwsCdkDsl CfnLinkProps.Builder.() -> Unit = {}):
+    CfnLinkProps = CfnLinkProps.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.budgets.CfnBudget
 
 @Generated
-public fun buildSpendProperty(initializer: @AwsCdkDsl CfnBudget.SpendProperty.Builder.() -> Unit):
-    CfnBudget.SpendProperty = CfnBudget.SpendProperty.Builder().apply(initializer).build()
+public fun buildSpendProperty(initializer: @AwsCdkDsl CfnBudget.SpendProperty.Builder.() -> Unit =
+    {}): CfnBudget.SpendProperty = CfnBudget.SpendProperty.Builder().apply(initializer).build()

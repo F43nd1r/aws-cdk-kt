@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDataSource
 
 @Generated
 public fun buildDatabricksParametersProperty(initializer: @AwsCdkDsl
-    CfnDataSource.DatabricksParametersProperty.Builder.() -> Unit):
+    CfnDataSource.DatabricksParametersProperty.Builder.() -> Unit = {}):
     CfnDataSource.DatabricksParametersProperty =
     CfnDataSource.DatabricksParametersProperty.Builder().apply(initializer).build()

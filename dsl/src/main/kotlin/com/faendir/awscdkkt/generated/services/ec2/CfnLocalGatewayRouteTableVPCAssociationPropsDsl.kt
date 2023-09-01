@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnLocalGatewayRouteTableVPCAssociati
 
 @Generated
 public fun buildCfnLocalGatewayRouteTableVPCAssociationProps(initializer: @AwsCdkDsl
-    CfnLocalGatewayRouteTableVPCAssociationProps.Builder.() -> Unit):
+    CfnLocalGatewayRouteTableVPCAssociationProps.Builder.() -> Unit = {}):
     CfnLocalGatewayRouteTableVPCAssociationProps =
     CfnLocalGatewayRouteTableVPCAssociationProps.Builder().apply(initializer).build()

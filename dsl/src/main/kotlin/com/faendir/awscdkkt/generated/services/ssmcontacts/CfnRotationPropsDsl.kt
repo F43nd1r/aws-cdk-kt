@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssmcontacts.CfnRotationProps
 
 @Generated
-public fun buildCfnRotationProps(initializer: @AwsCdkDsl CfnRotationProps.Builder.() -> Unit):
+public fun buildCfnRotationProps(initializer: @AwsCdkDsl CfnRotationProps.Builder.() -> Unit = {}):
     CfnRotationProps = CfnRotationProps.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.msk.CfnClusterProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnCluster(id: String, props: CfnClusterProps): CfnCluster = CfnCluster(this,
-    id, props)
-
-@Generated
 public fun Construct.cfnCluster(
   id: String,
   props: CfnClusterProps,
-  initializer: @AwsCdkDsl CfnCluster.() -> Unit,
+  initializer: @AwsCdkDsl CfnCluster.() -> Unit = {},
 ): CfnCluster = CfnCluster(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnCluster(id: String, initializer: @AwsCdkDsl
-    CfnCluster.Builder.() -> Unit): CfnCluster = CfnCluster.Builder.create(this,
+    CfnCluster.Builder.() -> Unit = {}): CfnCluster = CfnCluster.Builder.create(this,
     id).apply(initializer).build()

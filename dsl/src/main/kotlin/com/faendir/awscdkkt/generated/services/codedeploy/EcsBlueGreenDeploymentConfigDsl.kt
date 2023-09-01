@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codedeploy.EcsBlueGreenDeploymentConfig
 
 @Generated
 public fun buildEcsBlueGreenDeploymentConfig(initializer: @AwsCdkDsl
-    EcsBlueGreenDeploymentConfig.Builder.() -> Unit): EcsBlueGreenDeploymentConfig =
+    EcsBlueGreenDeploymentConfig.Builder.() -> Unit = {}): EcsBlueGreenDeploymentConfig =
     EcsBlueGreenDeploymentConfig.Builder().apply(initializer).build()

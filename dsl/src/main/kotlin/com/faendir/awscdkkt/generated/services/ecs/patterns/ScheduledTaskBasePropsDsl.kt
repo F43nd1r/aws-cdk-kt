@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.patterns.ScheduledTaskBaseProps
 
 @Generated
 public fun buildScheduledTaskBaseProps(initializer: @AwsCdkDsl
-    ScheduledTaskBaseProps.Builder.() -> Unit): ScheduledTaskBaseProps =
+    ScheduledTaskBaseProps.Builder.() -> Unit = {}): ScheduledTaskBaseProps =
     ScheduledTaskBaseProps.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.gamelift.CfnFleet
 
 @Generated
 public fun buildRuntimeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFleet.RuntimeConfigurationProperty.Builder.() -> Unit): CfnFleet.RuntimeConfigurationProperty
-    = CfnFleet.RuntimeConfigurationProperty.Builder().apply(initializer).build()
+    CfnFleet.RuntimeConfigurationProperty.Builder.() -> Unit = {}):
+    CfnFleet.RuntimeConfigurationProperty =
+    CfnFleet.RuntimeConfigurationProperty.Builder().apply(initializer).build()

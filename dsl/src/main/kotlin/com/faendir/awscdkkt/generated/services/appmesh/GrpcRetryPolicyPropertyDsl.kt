@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appmesh.CfnRoute
 
 @Generated
 public fun buildGrpcRetryPolicyProperty(initializer: @AwsCdkDsl
-    CfnRoute.GrpcRetryPolicyProperty.Builder.() -> Unit): CfnRoute.GrpcRetryPolicyProperty =
+    CfnRoute.GrpcRetryPolicyProperty.Builder.() -> Unit = {}): CfnRoute.GrpcRetryPolicyProperty =
     CfnRoute.GrpcRetryPolicyProperty.Builder().apply(initializer).build()

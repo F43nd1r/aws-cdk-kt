@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildPivotTableFieldCollapseStateTargetProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PivotTableFieldCollapseStateTargetProperty.Builder.() -> Unit):
+    CfnTemplate.PivotTableFieldCollapseStateTargetProperty.Builder.() -> Unit = {}):
     CfnTemplate.PivotTableFieldCollapseStateTargetProperty =
     CfnTemplate.PivotTableFieldCollapseStateTargetProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iotanalytics.CfnDatastore
 
 @Generated
 public fun buildIotSiteWiseMultiLayerStorageProperty(initializer: @AwsCdkDsl
-    CfnDatastore.IotSiteWiseMultiLayerStorageProperty.Builder.() -> Unit):
+    CfnDatastore.IotSiteWiseMultiLayerStorageProperty.Builder.() -> Unit = {}):
     CfnDatastore.IotSiteWiseMultiLayerStorageProperty =
     CfnDatastore.IotSiteWiseMultiLayerStorageProperty.Builder().apply(initializer).build()

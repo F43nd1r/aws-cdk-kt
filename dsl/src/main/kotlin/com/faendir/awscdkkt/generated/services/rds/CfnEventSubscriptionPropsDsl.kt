@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.rds.CfnEventSubscriptionProps
 
 @Generated
 public fun buildCfnEventSubscriptionProps(initializer: @AwsCdkDsl
-    CfnEventSubscriptionProps.Builder.() -> Unit): CfnEventSubscriptionProps =
+    CfnEventSubscriptionProps.Builder.() -> Unit = {}): CfnEventSubscriptionProps =
     CfnEventSubscriptionProps.Builder().apply(initializer).build()

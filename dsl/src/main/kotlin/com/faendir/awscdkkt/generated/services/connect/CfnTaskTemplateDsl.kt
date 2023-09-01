@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.connect.CfnTaskTemplateProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnTaskTemplate(id: String, props: CfnTaskTemplateProps): CfnTaskTemplate =
-    CfnTaskTemplate(this, id, props)
-
-@Generated
 public fun Construct.cfnTaskTemplate(
   id: String,
   props: CfnTaskTemplateProps,
-  initializer: @AwsCdkDsl CfnTaskTemplate.() -> Unit,
+  initializer: @AwsCdkDsl CfnTaskTemplate.() -> Unit = {},
 ): CfnTaskTemplate = CfnTaskTemplate(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnTaskTemplate(id: String, initializer: @AwsCdkDsl
-    CfnTaskTemplate.Builder.() -> Unit): CfnTaskTemplate = CfnTaskTemplate.Builder.create(this,
+    CfnTaskTemplate.Builder.() -> Unit = {}): CfnTaskTemplate = CfnTaskTemplate.Builder.create(this,
     id).apply(initializer).build()

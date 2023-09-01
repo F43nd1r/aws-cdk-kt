@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iotanalytics.CfnDataset
 
 @Generated
 public fun buildLateDataRuleProperty(initializer: @AwsCdkDsl
-    CfnDataset.LateDataRuleProperty.Builder.() -> Unit): CfnDataset.LateDataRuleProperty =
+    CfnDataset.LateDataRuleProperty.Builder.() -> Unit = {}): CfnDataset.LateDataRuleProperty =
     CfnDataset.LateDataRuleProperty.Builder().apply(initializer).build()

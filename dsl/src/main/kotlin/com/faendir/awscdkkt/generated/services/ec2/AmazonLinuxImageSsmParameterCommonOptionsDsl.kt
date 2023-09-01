@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.AmazonLinuxImageSsmParameterCommonOpt
 
 @Generated
 public fun buildAmazonLinuxImageSsmParameterCommonOptions(initializer: @AwsCdkDsl
-    AmazonLinuxImageSsmParameterCommonOptions.Builder.() -> Unit):
+    AmazonLinuxImageSsmParameterCommonOptions.Builder.() -> Unit = {}):
     AmazonLinuxImageSsmParameterCommonOptions =
     AmazonLinuxImageSsmParameterCommonOptions.Builder().apply(initializer).build()

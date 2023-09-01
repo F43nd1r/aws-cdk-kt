@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.ConfigureNatOptions
 
 @Generated
-public fun buildConfigureNatOptions(initializer: @AwsCdkDsl ConfigureNatOptions.Builder.() -> Unit):
-    ConfigureNatOptions = ConfigureNatOptions.Builder().apply(initializer).build()
+public fun buildConfigureNatOptions(initializer: @AwsCdkDsl ConfigureNatOptions.Builder.() -> Unit =
+    {}): ConfigureNatOptions = ConfigureNatOptions.Builder().apply(initializer).build()

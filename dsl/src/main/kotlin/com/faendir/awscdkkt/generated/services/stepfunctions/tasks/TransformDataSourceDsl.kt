@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.TransformDataSource
 
 @Generated
-public fun buildTransformDataSource(initializer: @AwsCdkDsl TransformDataSource.Builder.() -> Unit):
-    TransformDataSource = TransformDataSource.Builder().apply(initializer).build()
+public fun buildTransformDataSource(initializer: @AwsCdkDsl TransformDataSource.Builder.() -> Unit =
+    {}): TransformDataSource = TransformDataSource.Builder().apply(initializer).build()

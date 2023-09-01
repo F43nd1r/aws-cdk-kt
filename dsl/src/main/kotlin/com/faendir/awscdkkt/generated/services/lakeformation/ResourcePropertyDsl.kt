@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lakeformation.CfnTagAssociation
 
 @Generated
 public fun buildResourceProperty(initializer: @AwsCdkDsl
-    CfnTagAssociation.ResourceProperty.Builder.() -> Unit): CfnTagAssociation.ResourceProperty =
-    CfnTagAssociation.ResourceProperty.Builder().apply(initializer).build()
+    CfnTagAssociation.ResourceProperty.Builder.() -> Unit = {}): CfnTagAssociation.ResourceProperty
+    = CfnTagAssociation.ResourceProperty.Builder().apply(initializer).build()

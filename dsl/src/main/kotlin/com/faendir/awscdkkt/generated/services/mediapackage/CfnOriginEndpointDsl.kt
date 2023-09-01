@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.mediapackage.CfnOriginEndpointProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnOriginEndpoint(id: String, props: CfnOriginEndpointProps): CfnOriginEndpoint
-    = CfnOriginEndpoint(this, id, props)
-
-@Generated
 public fun Construct.cfnOriginEndpoint(
   id: String,
   props: CfnOriginEndpointProps,
-  initializer: @AwsCdkDsl CfnOriginEndpoint.() -> Unit,
+  initializer: @AwsCdkDsl CfnOriginEndpoint.() -> Unit = {},
 ): CfnOriginEndpoint = CfnOriginEndpoint(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnOriginEndpoint(id: String, initializer: @AwsCdkDsl
-    CfnOriginEndpoint.Builder.() -> Unit): CfnOriginEndpoint =
+    CfnOriginEndpoint.Builder.() -> Unit = {}): CfnOriginEndpoint =
     CfnOriginEndpoint.Builder.create(this, id).apply(initializer).build()

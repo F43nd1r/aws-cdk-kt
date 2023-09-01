@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rum.CfnAppMonitorProps
 
 @Generated
-public fun buildCfnAppMonitorProps(initializer: @AwsCdkDsl CfnAppMonitorProps.Builder.() -> Unit):
-    CfnAppMonitorProps = CfnAppMonitorProps.Builder().apply(initializer).build()
+public fun buildCfnAppMonitorProps(initializer: @AwsCdkDsl CfnAppMonitorProps.Builder.() -> Unit =
+    {}): CfnAppMonitorProps = CfnAppMonitorProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.autoscaling.CfnAutoScalingGroup
 
 @Generated
 public fun buildNetworkInterfaceCountRequestProperty(initializer: @AwsCdkDsl
-    CfnAutoScalingGroup.NetworkInterfaceCountRequestProperty.Builder.() -> Unit):
+    CfnAutoScalingGroup.NetworkInterfaceCountRequestProperty.Builder.() -> Unit = {}):
     CfnAutoScalingGroup.NetworkInterfaceCountRequestProperty =
     CfnAutoScalingGroup.NetworkInterfaceCountRequestProperty.Builder().apply(initializer).build()

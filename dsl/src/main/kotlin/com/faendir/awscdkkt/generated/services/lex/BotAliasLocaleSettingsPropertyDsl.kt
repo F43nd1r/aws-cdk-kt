@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lex.CfnBotAlias
 
 @Generated
 public fun buildBotAliasLocaleSettingsProperty(initializer: @AwsCdkDsl
-    CfnBotAlias.BotAliasLocaleSettingsProperty.Builder.() -> Unit):
+    CfnBotAlias.BotAliasLocaleSettingsProperty.Builder.() -> Unit = {}):
     CfnBotAlias.BotAliasLocaleSettingsProperty =
     CfnBotAlias.BotAliasLocaleSettingsProperty.Builder().apply(initializer).build()

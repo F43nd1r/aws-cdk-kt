@@ -9,28 +9,20 @@ import software.amazon.awscdk.services.ecs.patterns.NetworkMultipleTargetGroupsE
 import software.constructs.Construct
 
 @Generated
-public fun Construct.networkMultipleTargetGroupsEc2Service(id: String):
-    NetworkMultipleTargetGroupsEc2Service = NetworkMultipleTargetGroupsEc2Service(this, id)
-
-@Generated
 public fun Construct.networkMultipleTargetGroupsEc2Service(id: String, initializer: @AwsCdkDsl
-    NetworkMultipleTargetGroupsEc2Service.() -> Unit): NetworkMultipleTargetGroupsEc2Service =
+    NetworkMultipleTargetGroupsEc2Service.() -> Unit = {}): NetworkMultipleTargetGroupsEc2Service =
     NetworkMultipleTargetGroupsEc2Service(this, id).apply(initializer)
-
-@Generated
-public fun Construct.networkMultipleTargetGroupsEc2Service(id: String,
-    props: NetworkMultipleTargetGroupsEc2ServiceProps): NetworkMultipleTargetGroupsEc2Service =
-    NetworkMultipleTargetGroupsEc2Service(this, id, props)
 
 @Generated
 public fun Construct.networkMultipleTargetGroupsEc2Service(
   id: String,
   props: NetworkMultipleTargetGroupsEc2ServiceProps,
-  initializer: @AwsCdkDsl NetworkMultipleTargetGroupsEc2Service.() -> Unit,
+  initializer: @AwsCdkDsl NetworkMultipleTargetGroupsEc2Service.() -> Unit = {},
 ): NetworkMultipleTargetGroupsEc2Service = NetworkMultipleTargetGroupsEc2Service(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildNetworkMultipleTargetGroupsEc2Service(id: String, initializer: @AwsCdkDsl
-    NetworkMultipleTargetGroupsEc2Service.Builder.() -> Unit): NetworkMultipleTargetGroupsEc2Service
-    = NetworkMultipleTargetGroupsEc2Service.Builder.create(this, id).apply(initializer).build()
+    NetworkMultipleTargetGroupsEc2Service.Builder.() -> Unit = {}):
+    NetworkMultipleTargetGroupsEc2Service =
+    NetworkMultipleTargetGroupsEc2Service.Builder.create(this, id).apply(initializer).build()

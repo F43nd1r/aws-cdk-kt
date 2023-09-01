@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cognito.UserVerificationConfig
 
 @Generated
 public fun buildUserVerificationConfig(initializer: @AwsCdkDsl
-    UserVerificationConfig.Builder.() -> Unit): UserVerificationConfig =
+    UserVerificationConfig.Builder.() -> Unit = {}): UserVerificationConfig =
     UserVerificationConfig.Builder().apply(initializer).build()

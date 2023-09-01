@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.organizations.CfnOrganizationalUnitProps
 
 @Generated
 public fun buildCfnOrganizationalUnitProps(initializer: @AwsCdkDsl
-    CfnOrganizationalUnitProps.Builder.() -> Unit): CfnOrganizationalUnitProps =
+    CfnOrganizationalUnitProps.Builder.() -> Unit = {}): CfnOrganizationalUnitProps =
     CfnOrganizationalUnitProps.Builder().apply(initializer).build()

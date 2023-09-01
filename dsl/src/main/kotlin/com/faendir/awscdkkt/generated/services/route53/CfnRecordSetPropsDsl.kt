@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.CfnRecordSetProps
 
 @Generated
-public fun buildCfnRecordSetProps(initializer: @AwsCdkDsl CfnRecordSetProps.Builder.() -> Unit):
-    CfnRecordSetProps = CfnRecordSetProps.Builder().apply(initializer).build()
+public fun buildCfnRecordSetProps(initializer: @AwsCdkDsl CfnRecordSetProps.Builder.() -> Unit =
+    {}): CfnRecordSetProps = CfnRecordSetProps.Builder().apply(initializer).build()

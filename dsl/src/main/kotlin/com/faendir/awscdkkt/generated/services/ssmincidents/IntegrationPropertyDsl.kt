@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.ssmincidents.CfnResponsePlan
 
 @Generated
 public fun buildIntegrationProperty(initializer: @AwsCdkDsl
-    CfnResponsePlan.IntegrationProperty.Builder.() -> Unit): CfnResponsePlan.IntegrationProperty =
+    CfnResponsePlan.IntegrationProperty.Builder.() -> Unit = {}):
+    CfnResponsePlan.IntegrationProperty =
     CfnResponsePlan.IntegrationProperty.Builder().apply(initializer).build()

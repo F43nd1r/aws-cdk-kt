@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.amazonmq.CfnConfigurationAssociation
 
 @Generated
 public fun buildConfigurationIdProperty(initializer: @AwsCdkDsl
-    CfnConfigurationAssociation.ConfigurationIdProperty.Builder.() -> Unit):
+    CfnConfigurationAssociation.ConfigurationIdProperty.Builder.() -> Unit = {}):
     CfnConfigurationAssociation.ConfigurationIdProperty =
     CfnConfigurationAssociation.ConfigurationIdProperty.Builder().apply(initializer).build()

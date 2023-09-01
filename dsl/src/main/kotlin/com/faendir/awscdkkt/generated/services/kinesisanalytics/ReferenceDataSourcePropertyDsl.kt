@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kinesisanalytics.CfnApplicationReferenceD
 
 @Generated
 public fun buildReferenceDataSourceProperty(initializer: @AwsCdkDsl
-    CfnApplicationReferenceDataSourceV2.ReferenceDataSourceProperty.Builder.() -> Unit):
+    CfnApplicationReferenceDataSourceV2.ReferenceDataSourceProperty.Builder.() -> Unit = {}):
     CfnApplicationReferenceDataSourceV2.ReferenceDataSourceProperty =
     CfnApplicationReferenceDataSourceV2.ReferenceDataSourceProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildParameterTextAreaControlProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ParameterTextAreaControlProperty.Builder.() -> Unit):
+    CfnTemplate.ParameterTextAreaControlProperty.Builder.() -> Unit = {}):
     CfnTemplate.ParameterTextAreaControlProperty =
     CfnTemplate.ParameterTextAreaControlProperty.Builder().apply(initializer).build()

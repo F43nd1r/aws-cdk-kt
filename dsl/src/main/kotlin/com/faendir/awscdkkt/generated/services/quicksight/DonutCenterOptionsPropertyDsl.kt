@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildDonutCenterOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DonutCenterOptionsProperty.Builder.() -> Unit):
+    CfnTemplate.DonutCenterOptionsProperty.Builder.() -> Unit = {}):
     CfnTemplate.DonutCenterOptionsProperty =
     CfnTemplate.DonutCenterOptionsProperty.Builder().apply(initializer).build()

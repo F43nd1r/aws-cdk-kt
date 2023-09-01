@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.dlm.CfnLifecyclePolicy
 
 @Generated
 public fun buildCrossRegionCopyRetainRuleProperty(initializer: @AwsCdkDsl
-    CfnLifecyclePolicy.CrossRegionCopyRetainRuleProperty.Builder.() -> Unit):
+    CfnLifecyclePolicy.CrossRegionCopyRetainRuleProperty.Builder.() -> Unit = {}):
     CfnLifecyclePolicy.CrossRegionCopyRetainRuleProperty =
     CfnLifecyclePolicy.CrossRegionCopyRetainRuleProperty.Builder().apply(initializer).build()

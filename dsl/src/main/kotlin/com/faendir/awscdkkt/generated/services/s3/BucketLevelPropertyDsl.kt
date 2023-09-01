@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.s3.CfnStorageLens
 
 @Generated
 public fun buildBucketLevelProperty(initializer: @AwsCdkDsl
-    CfnStorageLens.BucketLevelProperty.Builder.() -> Unit): CfnStorageLens.BucketLevelProperty =
-    CfnStorageLens.BucketLevelProperty.Builder().apply(initializer).build()
+    CfnStorageLens.BucketLevelProperty.Builder.() -> Unit = {}): CfnStorageLens.BucketLevelProperty
+    = CfnStorageLens.BucketLevelProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.athena.CfnPreparedStatementProps
 
 @Generated
 public fun buildCfnPreparedStatementProps(initializer: @AwsCdkDsl
-    CfnPreparedStatementProps.Builder.() -> Unit): CfnPreparedStatementProps =
+    CfnPreparedStatementProps.Builder.() -> Unit = {}): CfnPreparedStatementProps =
     CfnPreparedStatementProps.Builder().apply(initializer).build()

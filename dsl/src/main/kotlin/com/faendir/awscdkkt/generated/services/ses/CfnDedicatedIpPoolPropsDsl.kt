@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ses.CfnDedicatedIpPoolProps
 
 @Generated
 public fun buildCfnDedicatedIpPoolProps(initializer: @AwsCdkDsl
-    CfnDedicatedIpPoolProps.Builder.() -> Unit): CfnDedicatedIpPoolProps =
+    CfnDedicatedIpPoolProps.Builder.() -> Unit = {}): CfnDedicatedIpPoolProps =
     CfnDedicatedIpPoolProps.Builder().apply(initializer).build()

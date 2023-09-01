@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.glue.CfnCrawler
 
 @Generated
 public fun buildS3TargetProperty(initializer: @AwsCdkDsl
-    CfnCrawler.S3TargetProperty.Builder.() -> Unit): CfnCrawler.S3TargetProperty =
+    CfnCrawler.S3TargetProperty.Builder.() -> Unit = {}): CfnCrawler.S3TargetProperty =
     CfnCrawler.S3TargetProperty.Builder().apply(initializer).build()

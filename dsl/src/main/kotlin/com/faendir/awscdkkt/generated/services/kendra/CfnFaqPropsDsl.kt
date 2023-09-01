@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kendra.CfnFaqProps
 
 @Generated
-public fun buildCfnFaqProps(initializer: @AwsCdkDsl CfnFaqProps.Builder.() -> Unit): CfnFaqProps =
-    CfnFaqProps.Builder().apply(initializer).build()
+public fun buildCfnFaqProps(initializer: @AwsCdkDsl CfnFaqProps.Builder.() -> Unit = {}):
+    CfnFaqProps = CfnFaqProps.Builder().apply(initializer).build()

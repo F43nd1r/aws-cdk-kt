@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codebuild.EfsFileSystemLocationProps
 
 @Generated
 public fun buildEfsFileSystemLocationProps(initializer: @AwsCdkDsl
-    EfsFileSystemLocationProps.Builder.() -> Unit): EfsFileSystemLocationProps =
+    EfsFileSystemLocationProps.Builder.() -> Unit = {}): EfsFileSystemLocationProps =
     EfsFileSystemLocationProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EmrCreateCluster
 
 @Generated
 public fun buildSpotProvisioningSpecificationProperty(initializer: @AwsCdkDsl
-    EmrCreateCluster.SpotProvisioningSpecificationProperty.Builder.() -> Unit):
+    EmrCreateCluster.SpotProvisioningSpecificationProperty.Builder.() -> Unit = {}):
     EmrCreateCluster.SpotProvisioningSpecificationProperty =
     EmrCreateCluster.SpotProvisioningSpecificationProperty.Builder().apply(initializer).build()

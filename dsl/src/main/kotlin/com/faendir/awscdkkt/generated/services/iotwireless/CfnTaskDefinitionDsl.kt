@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.iotwireless.CfnTaskDefinitionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnTaskDefinition(id: String, props: CfnTaskDefinitionProps): CfnTaskDefinition
-    = CfnTaskDefinition(this, id, props)
-
-@Generated
 public fun Construct.cfnTaskDefinition(
   id: String,
   props: CfnTaskDefinitionProps,
-  initializer: @AwsCdkDsl CfnTaskDefinition.() -> Unit,
+  initializer: @AwsCdkDsl CfnTaskDefinition.() -> Unit = {},
 ): CfnTaskDefinition = CfnTaskDefinition(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnTaskDefinition(id: String, initializer: @AwsCdkDsl
-    CfnTaskDefinition.Builder.() -> Unit): CfnTaskDefinition =
+    CfnTaskDefinition.Builder.() -> Unit = {}): CfnTaskDefinition =
     CfnTaskDefinition.Builder.create(this, id).apply(initializer).build()

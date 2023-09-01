@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.ec2.AmazonLinux2022ImageSsmParameterProps
 
 @Generated
 public fun buildAmazonLinux2022ImageSsmParameterProps(initializer: @AwsCdkDsl
-    AmazonLinux2022ImageSsmParameterProps.Builder.() -> Unit): AmazonLinux2022ImageSsmParameterProps
-    = AmazonLinux2022ImageSsmParameterProps.Builder().apply(initializer).build()
+    AmazonLinux2022ImageSsmParameterProps.Builder.() -> Unit = {}):
+    AmazonLinux2022ImageSsmParameterProps =
+    AmazonLinux2022ImageSsmParameterProps.Builder().apply(initializer).build()

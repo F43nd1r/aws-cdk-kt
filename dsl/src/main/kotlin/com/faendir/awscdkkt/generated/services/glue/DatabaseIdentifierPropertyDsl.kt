@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.glue.CfnDatabase
 
 @Generated
 public fun buildDatabaseIdentifierProperty(initializer: @AwsCdkDsl
-    CfnDatabase.DatabaseIdentifierProperty.Builder.() -> Unit):
+    CfnDatabase.DatabaseIdentifierProperty.Builder.() -> Unit = {}):
     CfnDatabase.DatabaseIdentifierProperty =
     CfnDatabase.DatabaseIdentifierProperty.Builder().apply(initializer).build()

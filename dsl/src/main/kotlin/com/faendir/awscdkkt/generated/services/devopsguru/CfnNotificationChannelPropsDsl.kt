@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.devopsguru.CfnNotificationChannelProps
 
 @Generated
 public fun buildCfnNotificationChannelProps(initializer: @AwsCdkDsl
-    CfnNotificationChannelProps.Builder.() -> Unit): CfnNotificationChannelProps =
+    CfnNotificationChannelProps.Builder.() -> Unit = {}): CfnNotificationChannelProps =
     CfnNotificationChannelProps.Builder().apply(initializer).build()

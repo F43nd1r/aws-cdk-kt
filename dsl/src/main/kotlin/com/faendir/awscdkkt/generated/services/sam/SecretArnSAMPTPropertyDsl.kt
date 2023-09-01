@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
 public fun buildSecretArnSAMPTProperty(initializer: @AwsCdkDsl
-    CfnFunction.SecretArnSAMPTProperty.Builder.() -> Unit): CfnFunction.SecretArnSAMPTProperty =
-    CfnFunction.SecretArnSAMPTProperty.Builder().apply(initializer).build()
+    CfnFunction.SecretArnSAMPTProperty.Builder.() -> Unit = {}): CfnFunction.SecretArnSAMPTProperty
+    = CfnFunction.SecretArnSAMPTProperty.Builder().apply(initializer).build()

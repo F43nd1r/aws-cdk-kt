@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.rds.CfnDBProxyTargetGroup
 
 @Generated
 public fun buildConnectionPoolConfigurationInfoFormatProperty(initializer: @AwsCdkDsl
-    CfnDBProxyTargetGroup.ConnectionPoolConfigurationInfoFormatProperty.Builder.() -> Unit):
+    CfnDBProxyTargetGroup.ConnectionPoolConfigurationInfoFormatProperty.Builder.() -> Unit = {}):
     CfnDBProxyTargetGroup.ConnectionPoolConfigurationInfoFormatProperty =
     CfnDBProxyTargetGroup.ConnectionPoolConfigurationInfoFormatProperty.Builder().apply(initializer).build()

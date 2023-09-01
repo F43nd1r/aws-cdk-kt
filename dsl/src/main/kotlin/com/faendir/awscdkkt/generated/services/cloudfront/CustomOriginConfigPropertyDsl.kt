@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cloudfront.CfnDistribution
 
 @Generated
 public fun buildCustomOriginConfigProperty(initializer: @AwsCdkDsl
-    CfnDistribution.CustomOriginConfigProperty.Builder.() -> Unit):
+    CfnDistribution.CustomOriginConfigProperty.Builder.() -> Unit = {}):
     CfnDistribution.CustomOriginConfigProperty =
     CfnDistribution.CustomOriginConfigProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicecatalog.TemplateRule
 
 @Generated
-public fun buildTemplateRule(initializer: @AwsCdkDsl TemplateRule.Builder.() -> Unit): TemplateRule
-    = TemplateRule.Builder().apply(initializer).build()
+public fun buildTemplateRule(initializer: @AwsCdkDsl TemplateRule.Builder.() -> Unit = {}):
+    TemplateRule = TemplateRule.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.appsync.NoneDataSourceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.noneDataSource(id: String, props: NoneDataSourceProps): NoneDataSource =
-    NoneDataSource(this, id, props)
-
-@Generated
 public fun Construct.noneDataSource(
   id: String,
   props: NoneDataSourceProps,
-  initializer: @AwsCdkDsl NoneDataSource.() -> Unit,
+  initializer: @AwsCdkDsl NoneDataSource.() -> Unit = {},
 ): NoneDataSource = NoneDataSource(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildNoneDataSource(id: String, initializer: @AwsCdkDsl
-    NoneDataSource.Builder.() -> Unit): NoneDataSource = NoneDataSource.Builder.create(this,
+    NoneDataSource.Builder.() -> Unit = {}): NoneDataSource = NoneDataSource.Builder.create(this,
     id).apply(initializer).build()

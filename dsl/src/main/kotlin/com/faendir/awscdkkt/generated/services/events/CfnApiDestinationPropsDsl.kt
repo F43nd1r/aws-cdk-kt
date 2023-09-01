@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.events.CfnApiDestinationProps
 
 @Generated
 public fun buildCfnApiDestinationProps(initializer: @AwsCdkDsl
-    CfnApiDestinationProps.Builder.() -> Unit): CfnApiDestinationProps =
+    CfnApiDestinationProps.Builder.() -> Unit = {}): CfnApiDestinationProps =
     CfnApiDestinationProps.Builder().apply(initializer).build()

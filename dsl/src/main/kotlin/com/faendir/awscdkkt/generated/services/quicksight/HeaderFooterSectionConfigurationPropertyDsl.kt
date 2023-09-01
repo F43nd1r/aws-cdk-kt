@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildHeaderFooterSectionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.HeaderFooterSectionConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.HeaderFooterSectionConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.HeaderFooterSectionConfigurationProperty =
     CfnTemplate.HeaderFooterSectionConfigurationProperty.Builder().apply(initializer).build()

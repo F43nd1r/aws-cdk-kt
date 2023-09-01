@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.connect.CfnTaskTemplate
 
 @Generated
 public fun buildInvisibleFieldInfoProperty(initializer: @AwsCdkDsl
-    CfnTaskTemplate.InvisibleFieldInfoProperty.Builder.() -> Unit):
+    CfnTaskTemplate.InvisibleFieldInfoProperty.Builder.() -> Unit = {}):
     CfnTaskTemplate.InvisibleFieldInfoProperty =
     CfnTaskTemplate.InvisibleFieldInfoProperty.Builder().apply(initializer).build()

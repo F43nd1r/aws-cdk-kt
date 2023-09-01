@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appmesh.QueryParameterMatchConfig
 
 @Generated
 public fun buildQueryParameterMatchConfig(initializer: @AwsCdkDsl
-    QueryParameterMatchConfig.Builder.() -> Unit): QueryParameterMatchConfig =
+    QueryParameterMatchConfig.Builder.() -> Unit = {}): QueryParameterMatchConfig =
     QueryParameterMatchConfig.Builder().apply(initializer).build()

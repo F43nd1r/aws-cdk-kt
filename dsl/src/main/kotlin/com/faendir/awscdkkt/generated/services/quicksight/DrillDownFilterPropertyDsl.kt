@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildDrillDownFilterProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DrillDownFilterProperty.Builder.() -> Unit): CfnTemplate.DrillDownFilterProperty =
+    CfnTemplate.DrillDownFilterProperty.Builder.() -> Unit = {}):
+    CfnTemplate.DrillDownFilterProperty =
     CfnTemplate.DrillDownFilterProperty.Builder().apply(initializer).build()

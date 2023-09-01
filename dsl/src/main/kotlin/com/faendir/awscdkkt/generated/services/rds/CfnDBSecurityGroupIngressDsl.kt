@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.rds.CfnDBSecurityGroupIngressProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDBSecurityGroupIngress(id: String, props: CfnDBSecurityGroupIngressProps):
-    CfnDBSecurityGroupIngress = CfnDBSecurityGroupIngress(this, id, props)
-
-@Generated
 public fun Construct.cfnDBSecurityGroupIngress(
   id: String,
   props: CfnDBSecurityGroupIngressProps,
-  initializer: @AwsCdkDsl CfnDBSecurityGroupIngress.() -> Unit,
+  initializer: @AwsCdkDsl CfnDBSecurityGroupIngress.() -> Unit = {},
 ): CfnDBSecurityGroupIngress = CfnDBSecurityGroupIngress(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnDBSecurityGroupIngress(id: String, initializer: @AwsCdkDsl
-    CfnDBSecurityGroupIngress.Builder.() -> Unit): CfnDBSecurityGroupIngress =
+    CfnDBSecurityGroupIngress.Builder.() -> Unit = {}): CfnDBSecurityGroupIngress =
     CfnDBSecurityGroupIngress.Builder.create(this, id).apply(initializer).build()

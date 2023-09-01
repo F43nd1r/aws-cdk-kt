@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildChartAxisLabelOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ChartAxisLabelOptionsProperty.Builder.() -> Unit):
+    CfnTemplate.ChartAxisLabelOptionsProperty.Builder.() -> Unit = {}):
     CfnTemplate.ChartAxisLabelOptionsProperty =
     CfnTemplate.ChartAxisLabelOptionsProperty.Builder().apply(initializer).build()

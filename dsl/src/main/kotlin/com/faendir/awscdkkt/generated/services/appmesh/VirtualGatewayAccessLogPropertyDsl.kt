@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appmesh.CfnVirtualGateway
 
 @Generated
 public fun buildVirtualGatewayAccessLogProperty(initializer: @AwsCdkDsl
-    CfnVirtualGateway.VirtualGatewayAccessLogProperty.Builder.() -> Unit):
+    CfnVirtualGateway.VirtualGatewayAccessLogProperty.Builder.() -> Unit = {}):
     CfnVirtualGateway.VirtualGatewayAccessLogProperty =
     CfnVirtualGateway.VirtualGatewayAccessLogProperty.Builder().apply(initializer).build()

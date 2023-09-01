@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.location.CfnGeofenceCollectionProps
 
 @Generated
 public fun buildCfnGeofenceCollectionProps(initializer: @AwsCdkDsl
-    CfnGeofenceCollectionProps.Builder.() -> Unit): CfnGeofenceCollectionProps =
+    CfnGeofenceCollectionProps.Builder.() -> Unit = {}): CfnGeofenceCollectionProps =
     CfnGeofenceCollectionProps.Builder().apply(initializer).build()

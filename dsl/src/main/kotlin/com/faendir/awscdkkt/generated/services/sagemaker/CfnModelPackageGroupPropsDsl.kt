@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sagemaker.CfnModelPackageGroupProps
 
 @Generated
 public fun buildCfnModelPackageGroupProps(initializer: @AwsCdkDsl
-    CfnModelPackageGroupProps.Builder.() -> Unit): CfnModelPackageGroupProps =
+    CfnModelPackageGroupProps.Builder.() -> Unit = {}): CfnModelPackageGroupProps =
     CfnModelPackageGroupProps.Builder().apply(initializer).build()

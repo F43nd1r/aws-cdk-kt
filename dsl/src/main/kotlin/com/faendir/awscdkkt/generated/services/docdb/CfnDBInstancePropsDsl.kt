@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.docdb.CfnDBInstanceProps
 
 @Generated
-public fun buildCfnDBInstanceProps(initializer: @AwsCdkDsl CfnDBInstanceProps.Builder.() -> Unit):
-    CfnDBInstanceProps = CfnDBInstanceProps.Builder().apply(initializer).build()
+public fun buildCfnDBInstanceProps(initializer: @AwsCdkDsl CfnDBInstanceProps.Builder.() -> Unit =
+    {}): CfnDBInstanceProps = CfnDBInstanceProps.Builder().apply(initializer).build()

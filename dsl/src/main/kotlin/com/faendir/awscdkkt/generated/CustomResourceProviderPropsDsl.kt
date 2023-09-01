@@ -7,5 +7,5 @@ import software.amazon.awscdk.CustomResourceProviderProps
 
 @Generated
 public fun buildCustomResourceProviderProps(initializer: @AwsCdkDsl
-    CustomResourceProviderProps.Builder.() -> Unit): CustomResourceProviderProps =
+    CustomResourceProviderProps.Builder.() -> Unit = {}): CustomResourceProviderProps =
     CustomResourceProviderProps.Builder().apply(initializer).build()

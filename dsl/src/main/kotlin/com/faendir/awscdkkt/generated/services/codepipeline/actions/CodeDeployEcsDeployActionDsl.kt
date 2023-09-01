@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codepipeline.actions.CodeDeployEcsDeployA
 
 @Generated
 public fun buildCodeDeployEcsDeployAction(initializer: @AwsCdkDsl
-    CodeDeployEcsDeployAction.Builder.() -> Unit): CodeDeployEcsDeployAction =
+    CodeDeployEcsDeployAction.Builder.() -> Unit = {}): CodeDeployEcsDeployAction =
     CodeDeployEcsDeployAction.Builder.create().apply(initializer).build()

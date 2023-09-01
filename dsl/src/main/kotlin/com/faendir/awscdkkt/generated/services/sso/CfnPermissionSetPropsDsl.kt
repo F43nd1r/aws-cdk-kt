@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sso.CfnPermissionSetProps
 
 @Generated
 public fun buildCfnPermissionSetProps(initializer: @AwsCdkDsl
-    CfnPermissionSetProps.Builder.() -> Unit): CfnPermissionSetProps =
+    CfnPermissionSetProps.Builder.() -> Unit = {}): CfnPermissionSetProps =
     CfnPermissionSetProps.Builder().apply(initializer).build()

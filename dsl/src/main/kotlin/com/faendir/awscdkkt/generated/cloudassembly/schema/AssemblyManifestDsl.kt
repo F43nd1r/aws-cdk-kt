@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.cloudassembly.schema.AssemblyManifest
 
 @Generated
-public fun buildAssemblyManifest(initializer: @AwsCdkDsl AssemblyManifest.Builder.() -> Unit):
+public fun buildAssemblyManifest(initializer: @AwsCdkDsl AssemblyManifest.Builder.() -> Unit = {}):
     AssemblyManifest = AssemblyManifest.Builder().apply(initializer).build()

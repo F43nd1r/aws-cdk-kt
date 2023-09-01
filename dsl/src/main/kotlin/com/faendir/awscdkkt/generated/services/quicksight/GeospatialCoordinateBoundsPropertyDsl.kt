@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildGeospatialCoordinateBoundsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.GeospatialCoordinateBoundsProperty.Builder.() -> Unit):
+    CfnTemplate.GeospatialCoordinateBoundsProperty.Builder.() -> Unit = {}):
     CfnTemplate.GeospatialCoordinateBoundsProperty =
     CfnTemplate.GeospatialCoordinateBoundsProperty.Builder().apply(initializer).build()

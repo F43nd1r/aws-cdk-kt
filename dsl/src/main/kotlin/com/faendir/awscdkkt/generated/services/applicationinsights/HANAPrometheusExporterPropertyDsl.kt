@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.applicationinsights.CfnApplication
 
 @Generated
 public fun buildHANAPrometheusExporterProperty(initializer: @AwsCdkDsl
-    CfnApplication.HANAPrometheusExporterProperty.Builder.() -> Unit):
+    CfnApplication.HANAPrometheusExporterProperty.Builder.() -> Unit = {}):
     CfnApplication.HANAPrometheusExporterProperty =
     CfnApplication.HANAPrometheusExporterProperty.Builder().apply(initializer).build()

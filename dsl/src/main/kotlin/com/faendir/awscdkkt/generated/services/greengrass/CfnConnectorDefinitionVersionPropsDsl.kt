@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.greengrass.CfnConnectorDefinitionVersionP
 
 @Generated
 public fun buildCfnConnectorDefinitionVersionProps(initializer: @AwsCdkDsl
-    CfnConnectorDefinitionVersionProps.Builder.() -> Unit): CfnConnectorDefinitionVersionProps =
-    CfnConnectorDefinitionVersionProps.Builder().apply(initializer).build()
+    CfnConnectorDefinitionVersionProps.Builder.() -> Unit = {}): CfnConnectorDefinitionVersionProps
+    = CfnConnectorDefinitionVersionProps.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.stepfunctions.tasks.SageMakerCreateModelP
 import software.constructs.Construct
 
 @Generated
-public fun Construct.sageMakerCreateModel(id: String, props: SageMakerCreateModelProps):
-    SageMakerCreateModel = SageMakerCreateModel(this, id, props)
-
-@Generated
 public fun Construct.sageMakerCreateModel(
   id: String,
   props: SageMakerCreateModelProps,
-  initializer: @AwsCdkDsl SageMakerCreateModel.() -> Unit,
+  initializer: @AwsCdkDsl SageMakerCreateModel.() -> Unit = {},
 ): SageMakerCreateModel = SageMakerCreateModel(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildSageMakerCreateModel(id: String, initializer: @AwsCdkDsl
-    SageMakerCreateModel.Builder.() -> Unit): SageMakerCreateModel =
+    SageMakerCreateModel.Builder.() -> Unit = {}): SageMakerCreateModel =
     SageMakerCreateModel.Builder.create(this, id).apply(initializer).build()

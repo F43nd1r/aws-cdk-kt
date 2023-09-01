@@ -6,6 +6,6 @@ import kotlin.Unit
 import software.amazon.awscdk.services.customerprofiles.CfnIntegration
 
 @Generated
-public fun buildTaskProperty(initializer: @AwsCdkDsl
-    CfnIntegration.TaskProperty.Builder.() -> Unit): CfnIntegration.TaskProperty =
+public fun buildTaskProperty(initializer: @AwsCdkDsl CfnIntegration.TaskProperty.Builder.() -> Unit
+    = {}): CfnIntegration.TaskProperty =
     CfnIntegration.TaskProperty.Builder().apply(initializer).build()

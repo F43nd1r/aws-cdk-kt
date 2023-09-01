@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.lex.CfnBotAliasProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnBotAlias(id: String, props: CfnBotAliasProps): CfnBotAlias =
-    CfnBotAlias(this, id, props)
-
-@Generated
 public fun Construct.cfnBotAlias(
   id: String,
   props: CfnBotAliasProps,
-  initializer: @AwsCdkDsl CfnBotAlias.() -> Unit,
+  initializer: @AwsCdkDsl CfnBotAlias.() -> Unit = {},
 ): CfnBotAlias = CfnBotAlias(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnBotAlias(id: String, initializer: @AwsCdkDsl
-    CfnBotAlias.Builder.() -> Unit): CfnBotAlias = CfnBotAlias.Builder.create(this,
+    CfnBotAlias.Builder.() -> Unit = {}): CfnBotAlias = CfnBotAlias.Builder.create(this,
     id).apply(initializer).build()

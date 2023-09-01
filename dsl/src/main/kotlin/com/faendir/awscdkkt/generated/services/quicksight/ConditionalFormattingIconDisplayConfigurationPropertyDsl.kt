@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildConditionalFormattingIconDisplayConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ConditionalFormattingIconDisplayConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.ConditionalFormattingIconDisplayConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.ConditionalFormattingIconDisplayConfigurationProperty =
     CfnTemplate.ConditionalFormattingIconDisplayConfigurationProperty.Builder().apply(initializer).build()

@@ -8,5 +8,5 @@ import software.amazon.awscdk.services.globalaccelerator.endpoints.InstanceEndpo
 
 @Generated
 public fun buildInstanceEndpoint(instance: IInstance, initializer: @AwsCdkDsl
-    InstanceEndpoint.Builder.() -> Unit): InstanceEndpoint =
+    InstanceEndpoint.Builder.() -> Unit = {}): InstanceEndpoint =
     InstanceEndpoint.Builder.create(instance).apply(initializer).build()

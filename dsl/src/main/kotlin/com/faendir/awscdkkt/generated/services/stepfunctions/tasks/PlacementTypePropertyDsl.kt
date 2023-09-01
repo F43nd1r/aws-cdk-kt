@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EmrCreateCluster
 
 @Generated
 public fun buildPlacementTypeProperty(initializer: @AwsCdkDsl
-    EmrCreateCluster.PlacementTypeProperty.Builder.() -> Unit):
+    EmrCreateCluster.PlacementTypeProperty.Builder.() -> Unit = {}):
     EmrCreateCluster.PlacementTypeProperty =
     EmrCreateCluster.PlacementTypeProperty.Builder().apply(initializer).build()

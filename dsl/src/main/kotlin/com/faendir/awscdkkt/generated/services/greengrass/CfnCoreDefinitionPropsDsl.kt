@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.greengrass.CfnCoreDefinitionProps
 
 @Generated
 public fun buildCfnCoreDefinitionProps(initializer: @AwsCdkDsl
-    CfnCoreDefinitionProps.Builder.() -> Unit): CfnCoreDefinitionProps =
+    CfnCoreDefinitionProps.Builder.() -> Unit = {}): CfnCoreDefinitionProps =
     CfnCoreDefinitionProps.Builder().apply(initializer).build()

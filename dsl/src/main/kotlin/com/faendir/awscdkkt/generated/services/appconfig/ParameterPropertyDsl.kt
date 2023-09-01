@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appconfig.CfnExtension
 
 @Generated
 public fun buildParameterProperty(initializer: @AwsCdkDsl
-    CfnExtension.ParameterProperty.Builder.() -> Unit): CfnExtension.ParameterProperty =
+    CfnExtension.ParameterProperty.Builder.() -> Unit = {}): CfnExtension.ParameterProperty =
     CfnExtension.ParameterProperty.Builder().apply(initializer).build()

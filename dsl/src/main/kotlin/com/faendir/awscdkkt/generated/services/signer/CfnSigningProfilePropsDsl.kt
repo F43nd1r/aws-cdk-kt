@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.signer.CfnSigningProfileProps
 
 @Generated
 public fun buildCfnSigningProfileProps(initializer: @AwsCdkDsl
-    CfnSigningProfileProps.Builder.() -> Unit): CfnSigningProfileProps =
+    CfnSigningProfileProps.Builder.() -> Unit = {}): CfnSigningProfileProps =
     CfnSigningProfileProps.Builder().apply(initializer).build()

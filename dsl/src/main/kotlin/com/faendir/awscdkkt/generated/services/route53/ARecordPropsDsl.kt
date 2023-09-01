@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.ARecordProps
 
 @Generated
-public fun buildARecordProps(initializer: @AwsCdkDsl ARecordProps.Builder.() -> Unit): ARecordProps
-    = ARecordProps.Builder().apply(initializer).build()
+public fun buildARecordProps(initializer: @AwsCdkDsl ARecordProps.Builder.() -> Unit = {}):
+    ARecordProps = ARecordProps.Builder().apply(initializer).build()

@@ -8,5 +8,5 @@ import software.amazon.awscdk.services.lambda.IFunction
 
 @Generated
 public fun buildLambdaFunction(handler: IFunction, initializer: @AwsCdkDsl
-    LambdaFunction.Builder.() -> Unit): LambdaFunction =
+    LambdaFunction.Builder.() -> Unit = {}): LambdaFunction =
     LambdaFunction.Builder.create(handler).apply(initializer).build()

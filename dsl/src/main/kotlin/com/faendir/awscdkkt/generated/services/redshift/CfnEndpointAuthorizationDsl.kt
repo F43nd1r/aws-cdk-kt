@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.redshift.CfnEndpointAuthorizationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnEndpointAuthorization(id: String, props: CfnEndpointAuthorizationProps):
-    CfnEndpointAuthorization = CfnEndpointAuthorization(this, id, props)
-
-@Generated
 public fun Construct.cfnEndpointAuthorization(
   id: String,
   props: CfnEndpointAuthorizationProps,
-  initializer: @AwsCdkDsl CfnEndpointAuthorization.() -> Unit,
+  initializer: @AwsCdkDsl CfnEndpointAuthorization.() -> Unit = {},
 ): CfnEndpointAuthorization = CfnEndpointAuthorization(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnEndpointAuthorization(id: String, initializer: @AwsCdkDsl
-    CfnEndpointAuthorization.Builder.() -> Unit): CfnEndpointAuthorization =
+    CfnEndpointAuthorization.Builder.() -> Unit = {}): CfnEndpointAuthorization =
     CfnEndpointAuthorization.Builder.create(this, id).apply(initializer).build()

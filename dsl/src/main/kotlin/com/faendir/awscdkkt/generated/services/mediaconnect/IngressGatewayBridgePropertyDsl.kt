@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.mediaconnect.CfnBridge
 
 @Generated
 public fun buildIngressGatewayBridgeProperty(initializer: @AwsCdkDsl
-    CfnBridge.IngressGatewayBridgeProperty.Builder.() -> Unit):
+    CfnBridge.IngressGatewayBridgeProperty.Builder.() -> Unit = {}):
     CfnBridge.IngressGatewayBridgeProperty =
     CfnBridge.IngressGatewayBridgeProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.route53.CfnRecordSetGroupProps
 
 @Generated
 public fun buildCfnRecordSetGroupProps(initializer: @AwsCdkDsl
-    CfnRecordSetGroupProps.Builder.() -> Unit): CfnRecordSetGroupProps =
+    CfnRecordSetGroupProps.Builder.() -> Unit = {}): CfnRecordSetGroupProps =
     CfnRecordSetGroupProps.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.EncodingOptions
 
 @Generated
-public fun buildEncodingOptions(initializer: @AwsCdkDsl EncodingOptions.Builder.() -> Unit):
+public fun buildEncodingOptions(initializer: @AwsCdkDsl EncodingOptions.Builder.() -> Unit = {}):
     EncodingOptions = EncodingOptions.Builder().apply(initializer).build()

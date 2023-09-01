@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codecommit.RepositoryTriggerOptions
 
 @Generated
 public fun buildRepositoryTriggerOptions(initializer: @AwsCdkDsl
-    RepositoryTriggerOptions.Builder.() -> Unit): RepositoryTriggerOptions =
+    RepositoryTriggerOptions.Builder.() -> Unit = {}): RepositoryTriggerOptions =
     RepositoryTriggerOptions.Builder().apply(initializer).build()

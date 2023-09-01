@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.lambda.CfnEventSourceMappingProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnEventSourceMapping(id: String, props: CfnEventSourceMappingProps):
-    CfnEventSourceMapping = CfnEventSourceMapping(this, id, props)
-
-@Generated
 public fun Construct.cfnEventSourceMapping(
   id: String,
   props: CfnEventSourceMappingProps,
-  initializer: @AwsCdkDsl CfnEventSourceMapping.() -> Unit,
+  initializer: @AwsCdkDsl CfnEventSourceMapping.() -> Unit = {},
 ): CfnEventSourceMapping = CfnEventSourceMapping(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnEventSourceMapping(id: String, initializer: @AwsCdkDsl
-    CfnEventSourceMapping.Builder.() -> Unit): CfnEventSourceMapping =
+    CfnEventSourceMapping.Builder.() -> Unit = {}): CfnEventSourceMapping =
     CfnEventSourceMapping.Builder.create(this, id).apply(initializer).build()

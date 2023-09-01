@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
 public fun buildSessionAttributeProperty(initializer: @AwsCdkDsl
-    CfnBot.SessionAttributeProperty.Builder.() -> Unit): CfnBot.SessionAttributeProperty =
+    CfnBot.SessionAttributeProperty.Builder.() -> Unit = {}): CfnBot.SessionAttributeProperty =
     CfnBot.SessionAttributeProperty.Builder().apply(initializer).build()

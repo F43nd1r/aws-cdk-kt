@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.accessanalyzer.CfnAnalyzerProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnAnalyzer(id: String, props: CfnAnalyzerProps): CfnAnalyzer =
-    CfnAnalyzer(this, id, props)
-
-@Generated
 public fun Construct.cfnAnalyzer(
   id: String,
   props: CfnAnalyzerProps,
-  initializer: @AwsCdkDsl CfnAnalyzer.() -> Unit,
+  initializer: @AwsCdkDsl CfnAnalyzer.() -> Unit = {},
 ): CfnAnalyzer = CfnAnalyzer(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnAnalyzer(id: String, initializer: @AwsCdkDsl
-    CfnAnalyzer.Builder.() -> Unit): CfnAnalyzer = CfnAnalyzer.Builder.create(this,
+    CfnAnalyzer.Builder.() -> Unit = {}): CfnAnalyzer = CfnAnalyzer.Builder.create(this,
     id).apply(initializer).build()

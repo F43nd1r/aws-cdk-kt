@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.opensearchservice.CfnDomain
 
 @Generated
 public fun buildSnapshotOptionsProperty(initializer: @AwsCdkDsl
-    CfnDomain.SnapshotOptionsProperty.Builder.() -> Unit): CfnDomain.SnapshotOptionsProperty =
+    CfnDomain.SnapshotOptionsProperty.Builder.() -> Unit = {}): CfnDomain.SnapshotOptionsProperty =
     CfnDomain.SnapshotOptionsProperty.Builder().apply(initializer).build()

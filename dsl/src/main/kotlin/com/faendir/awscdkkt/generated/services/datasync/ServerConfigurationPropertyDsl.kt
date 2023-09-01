@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.datasync.CfnStorageSystem
 
 @Generated
 public fun buildServerConfigurationProperty(initializer: @AwsCdkDsl
-    CfnStorageSystem.ServerConfigurationProperty.Builder.() -> Unit):
+    CfnStorageSystem.ServerConfigurationProperty.Builder.() -> Unit = {}):
     CfnStorageSystem.ServerConfigurationProperty =
     CfnStorageSystem.ServerConfigurationProperty.Builder().apply(initializer).build()

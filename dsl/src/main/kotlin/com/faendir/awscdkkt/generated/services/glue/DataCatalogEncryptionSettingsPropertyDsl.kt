@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.glue.CfnDataCatalogEncryptionSettings
 
 @Generated
 public fun buildDataCatalogEncryptionSettingsProperty(initializer: @AwsCdkDsl
-    CfnDataCatalogEncryptionSettings.DataCatalogEncryptionSettingsProperty.Builder.() -> Unit):
+    CfnDataCatalogEncryptionSettings.DataCatalogEncryptionSettingsProperty.Builder.() -> Unit = {}):
     CfnDataCatalogEncryptionSettings.DataCatalogEncryptionSettingsProperty =
     CfnDataCatalogEncryptionSettings.DataCatalogEncryptionSettingsProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.pinpoint.CfnSegment
 
 @Generated
 public fun buildLocationProperty(initializer: @AwsCdkDsl
-    CfnSegment.LocationProperty.Builder.() -> Unit): CfnSegment.LocationProperty =
+    CfnSegment.LocationProperty.Builder.() -> Unit = {}): CfnSegment.LocationProperty =
     CfnSegment.LocationProperty.Builder().apply(initializer).build()

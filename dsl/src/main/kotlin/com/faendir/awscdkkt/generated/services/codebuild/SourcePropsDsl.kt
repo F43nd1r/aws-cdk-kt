@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.SourceProps
 
 @Generated
-public fun buildSourceProps(initializer: @AwsCdkDsl SourceProps.Builder.() -> Unit): SourceProps =
-    SourceProps.Builder().apply(initializer).build()
+public fun buildSourceProps(initializer: @AwsCdkDsl SourceProps.Builder.() -> Unit = {}):
+    SourceProps = SourceProps.Builder().apply(initializer).build()

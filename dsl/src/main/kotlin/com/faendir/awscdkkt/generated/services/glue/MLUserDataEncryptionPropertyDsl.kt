@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.glue.CfnMLTransform
 
 @Generated
 public fun buildMLUserDataEncryptionProperty(initializer: @AwsCdkDsl
-    CfnMLTransform.MLUserDataEncryptionProperty.Builder.() -> Unit):
+    CfnMLTransform.MLUserDataEncryptionProperty.Builder.() -> Unit = {}):
     CfnMLTransform.MLUserDataEncryptionProperty =
     CfnMLTransform.MLUserDataEncryptionProperty.Builder().apply(initializer).build()

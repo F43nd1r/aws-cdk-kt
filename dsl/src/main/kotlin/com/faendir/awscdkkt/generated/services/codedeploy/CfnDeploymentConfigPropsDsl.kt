@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codedeploy.CfnDeploymentConfigProps
 
 @Generated
 public fun buildCfnDeploymentConfigProps(initializer: @AwsCdkDsl
-    CfnDeploymentConfigProps.Builder.() -> Unit): CfnDeploymentConfigProps =
+    CfnDeploymentConfigProps.Builder.() -> Unit = {}): CfnDeploymentConfigProps =
     CfnDeploymentConfigProps.Builder().apply(initializer).build()

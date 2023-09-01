@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.guardduty.CfnDetector
 
 @Generated
 public fun buildFeatureConfigurationsProperty(initializer: @AwsCdkDsl
-    CfnDetector.FeatureConfigurationsProperty.Builder.() -> Unit):
+    CfnDetector.FeatureConfigurationsProperty.Builder.() -> Unit = {}):
     CfnDetector.FeatureConfigurationsProperty =
     CfnDetector.FeatureConfigurationsProperty.Builder().apply(initializer).build()

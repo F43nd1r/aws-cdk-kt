@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
 public fun buildPipeTargetEventBridgeEventBusParametersProperty(initializer: @AwsCdkDsl
-    CfnPipe.PipeTargetEventBridgeEventBusParametersProperty.Builder.() -> Unit):
+    CfnPipe.PipeTargetEventBridgeEventBusParametersProperty.Builder.() -> Unit = {}):
     CfnPipe.PipeTargetEventBridgeEventBusParametersProperty =
     CfnPipe.PipeTargetEventBridgeEventBusParametersProperty.Builder().apply(initializer).build()

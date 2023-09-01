@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.NetworkListenerProps
 
 @Generated
-public fun buildNetworkListenerProps(initializer: @AwsCdkDsl
-    NetworkListenerProps.Builder.() -> Unit): NetworkListenerProps =
-    NetworkListenerProps.Builder().apply(initializer).build()
+public fun buildNetworkListenerProps(initializer: @AwsCdkDsl NetworkListenerProps.Builder.() -> Unit
+    = {}): NetworkListenerProps = NetworkListenerProps.Builder().apply(initializer).build()

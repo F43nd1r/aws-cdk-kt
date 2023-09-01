@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.codegurureviewer.CfnRepositoryAssociation
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnRepositoryAssociation(id: String, props: CfnRepositoryAssociationProps):
-    CfnRepositoryAssociation = CfnRepositoryAssociation(this, id, props)
-
-@Generated
 public fun Construct.cfnRepositoryAssociation(
   id: String,
   props: CfnRepositoryAssociationProps,
-  initializer: @AwsCdkDsl CfnRepositoryAssociation.() -> Unit,
+  initializer: @AwsCdkDsl CfnRepositoryAssociation.() -> Unit = {},
 ): CfnRepositoryAssociation = CfnRepositoryAssociation(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnRepositoryAssociation(id: String, initializer: @AwsCdkDsl
-    CfnRepositoryAssociation.Builder.() -> Unit): CfnRepositoryAssociation =
+    CfnRepositoryAssociation.Builder.() -> Unit = {}): CfnRepositoryAssociation =
     CfnRepositoryAssociation.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.SqsSendMessageProps
 
 @Generated
-public fun buildSqsSendMessageProps(initializer: @AwsCdkDsl SqsSendMessageProps.Builder.() -> Unit):
-    SqsSendMessageProps = SqsSendMessageProps.Builder().apply(initializer).build()
+public fun buildSqsSendMessageProps(initializer: @AwsCdkDsl SqsSendMessageProps.Builder.() -> Unit =
+    {}): SqsSendMessageProps = SqsSendMessageProps.Builder().apply(initializer).build()

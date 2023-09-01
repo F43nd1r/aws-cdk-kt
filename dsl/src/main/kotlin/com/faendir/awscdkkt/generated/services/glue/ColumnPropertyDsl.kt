@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnTable
 
 @Generated
-public fun buildColumnProperty(initializer: @AwsCdkDsl CfnTable.ColumnProperty.Builder.() -> Unit):
-    CfnTable.ColumnProperty = CfnTable.ColumnProperty.Builder().apply(initializer).build()
+public fun buildColumnProperty(initializer: @AwsCdkDsl CfnTable.ColumnProperty.Builder.() -> Unit =
+    {}): CfnTable.ColumnProperty = CfnTable.ColumnProperty.Builder().apply(initializer).build()

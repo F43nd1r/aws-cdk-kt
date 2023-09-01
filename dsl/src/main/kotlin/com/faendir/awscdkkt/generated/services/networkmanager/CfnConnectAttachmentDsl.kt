@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.networkmanager.CfnConnectAttachmentProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnConnectAttachment(id: String, props: CfnConnectAttachmentProps):
-    CfnConnectAttachment = CfnConnectAttachment(this, id, props)
-
-@Generated
 public fun Construct.cfnConnectAttachment(
   id: String,
   props: CfnConnectAttachmentProps,
-  initializer: @AwsCdkDsl CfnConnectAttachment.() -> Unit,
+  initializer: @AwsCdkDsl CfnConnectAttachment.() -> Unit = {},
 ): CfnConnectAttachment = CfnConnectAttachment(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnConnectAttachment(id: String, initializer: @AwsCdkDsl
-    CfnConnectAttachment.Builder.() -> Unit): CfnConnectAttachment =
+    CfnConnectAttachment.Builder.() -> Unit = {}): CfnConnectAttachment =
     CfnConnectAttachment.Builder.create(this, id).apply(initializer).build()

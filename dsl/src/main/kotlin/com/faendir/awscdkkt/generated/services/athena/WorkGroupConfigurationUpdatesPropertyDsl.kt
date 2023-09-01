@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.athena.CfnWorkGroup
 
 @Generated
 public fun buildWorkGroupConfigurationUpdatesProperty(initializer: @AwsCdkDsl
-    CfnWorkGroup.WorkGroupConfigurationUpdatesProperty.Builder.() -> Unit):
+    CfnWorkGroup.WorkGroupConfigurationUpdatesProperty.Builder.() -> Unit = {}):
     CfnWorkGroup.WorkGroupConfigurationUpdatesProperty =
     CfnWorkGroup.WorkGroupConfigurationUpdatesProperty.Builder().apply(initializer).build()

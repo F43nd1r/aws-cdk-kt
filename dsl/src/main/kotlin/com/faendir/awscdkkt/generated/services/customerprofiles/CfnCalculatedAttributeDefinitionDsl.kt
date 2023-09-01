@@ -9,19 +9,14 @@ import software.amazon.awscdk.services.customerprofiles.CfnCalculatedAttributeDe
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnCalculatedAttributeDefinition(id: String,
-    props: CfnCalculatedAttributeDefinitionProps): CfnCalculatedAttributeDefinition =
-    CfnCalculatedAttributeDefinition(this, id, props)
-
-@Generated
 public fun Construct.cfnCalculatedAttributeDefinition(
   id: String,
   props: CfnCalculatedAttributeDefinitionProps,
-  initializer: @AwsCdkDsl CfnCalculatedAttributeDefinition.() -> Unit,
+  initializer: @AwsCdkDsl CfnCalculatedAttributeDefinition.() -> Unit = {},
 ): CfnCalculatedAttributeDefinition = CfnCalculatedAttributeDefinition(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnCalculatedAttributeDefinition(id: String, initializer: @AwsCdkDsl
-    CfnCalculatedAttributeDefinition.Builder.() -> Unit): CfnCalculatedAttributeDefinition =
+    CfnCalculatedAttributeDefinition.Builder.() -> Unit = {}): CfnCalculatedAttributeDefinition =
     CfnCalculatedAttributeDefinition.Builder.create(this, id).apply(initializer).build()

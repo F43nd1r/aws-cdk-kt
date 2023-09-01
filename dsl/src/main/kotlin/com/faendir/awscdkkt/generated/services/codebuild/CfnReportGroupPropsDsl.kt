@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.CfnReportGroupProps
 
 @Generated
-public fun buildCfnReportGroupProps(initializer: @AwsCdkDsl CfnReportGroupProps.Builder.() -> Unit):
-    CfnReportGroupProps = CfnReportGroupProps.Builder().apply(initializer).build()
+public fun buildCfnReportGroupProps(initializer: @AwsCdkDsl CfnReportGroupProps.Builder.() -> Unit =
+    {}): CfnReportGroupProps = CfnReportGroupProps.Builder().apply(initializer).build()

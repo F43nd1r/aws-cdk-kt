@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.networkmanager.CfnSiteToSiteVpnAttachment
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnSiteToSiteVpnAttachment(id: String, props: CfnSiteToSiteVpnAttachmentProps):
-    CfnSiteToSiteVpnAttachment = CfnSiteToSiteVpnAttachment(this, id, props)
-
-@Generated
 public fun Construct.cfnSiteToSiteVpnAttachment(
   id: String,
   props: CfnSiteToSiteVpnAttachmentProps,
-  initializer: @AwsCdkDsl CfnSiteToSiteVpnAttachment.() -> Unit,
+  initializer: @AwsCdkDsl CfnSiteToSiteVpnAttachment.() -> Unit = {},
 ): CfnSiteToSiteVpnAttachment = CfnSiteToSiteVpnAttachment(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnSiteToSiteVpnAttachment(id: String, initializer: @AwsCdkDsl
-    CfnSiteToSiteVpnAttachment.Builder.() -> Unit): CfnSiteToSiteVpnAttachment =
+    CfnSiteToSiteVpnAttachment.Builder.() -> Unit = {}): CfnSiteToSiteVpnAttachment =
     CfnSiteToSiteVpnAttachment.Builder.create(this, id).apply(initializer).build()

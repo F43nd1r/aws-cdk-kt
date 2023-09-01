@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appmesh.CfnVirtualNode
 
 @Generated
 public fun buildGrpcTimeoutProperty(initializer: @AwsCdkDsl
-    CfnVirtualNode.GrpcTimeoutProperty.Builder.() -> Unit): CfnVirtualNode.GrpcTimeoutProperty =
-    CfnVirtualNode.GrpcTimeoutProperty.Builder().apply(initializer).build()
+    CfnVirtualNode.GrpcTimeoutProperty.Builder.() -> Unit = {}): CfnVirtualNode.GrpcTimeoutProperty
+    = CfnVirtualNode.GrpcTimeoutProperty.Builder().apply(initializer).build()

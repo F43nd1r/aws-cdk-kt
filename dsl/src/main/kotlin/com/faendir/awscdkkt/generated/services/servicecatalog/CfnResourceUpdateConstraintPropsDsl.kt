@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.servicecatalog.CfnResourceUpdateConstrain
 
 @Generated
 public fun buildCfnResourceUpdateConstraintProps(initializer: @AwsCdkDsl
-    CfnResourceUpdateConstraintProps.Builder.() -> Unit): CfnResourceUpdateConstraintProps =
+    CfnResourceUpdateConstraintProps.Builder.() -> Unit = {}): CfnResourceUpdateConstraintProps =
     CfnResourceUpdateConstraintProps.Builder().apply(initializer).build()

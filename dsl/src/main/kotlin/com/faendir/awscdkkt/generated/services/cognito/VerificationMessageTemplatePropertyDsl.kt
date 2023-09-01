@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cognito.CfnUserPool
 
 @Generated
 public fun buildVerificationMessageTemplateProperty(initializer: @AwsCdkDsl
-    CfnUserPool.VerificationMessageTemplateProperty.Builder.() -> Unit):
+    CfnUserPool.VerificationMessageTemplateProperty.Builder.() -> Unit = {}):
     CfnUserPool.VerificationMessageTemplateProperty =
     CfnUserPool.VerificationMessageTemplateProperty.Builder().apply(initializer).build()

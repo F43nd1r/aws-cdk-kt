@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.macie.CfnAllowListProps
 
 @Generated
-public fun buildCfnAllowListProps(initializer: @AwsCdkDsl CfnAllowListProps.Builder.() -> Unit):
-    CfnAllowListProps = CfnAllowListProps.Builder().apply(initializer).build()
+public fun buildCfnAllowListProps(initializer: @AwsCdkDsl CfnAllowListProps.Builder.() -> Unit =
+    {}): CfnAllowListProps = CfnAllowListProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cloudtrail.CfnTrail
 
 @Generated
 public fun buildAdvancedEventSelectorProperty(initializer: @AwsCdkDsl
-    CfnTrail.AdvancedEventSelectorProperty.Builder.() -> Unit):
+    CfnTrail.AdvancedEventSelectorProperty.Builder.() -> Unit = {}):
     CfnTrail.AdvancedEventSelectorProperty =
     CfnTrail.AdvancedEventSelectorProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.AddRuleProps
 
 @Generated
-public fun buildAddRuleProps(initializer: @AwsCdkDsl AddRuleProps.Builder.() -> Unit): AddRuleProps
-    = AddRuleProps.Builder().apply(initializer).build()
+public fun buildAddRuleProps(initializer: @AwsCdkDsl AddRuleProps.Builder.() -> Unit = {}):
+    AddRuleProps = AddRuleProps.Builder().apply(initializer).build()

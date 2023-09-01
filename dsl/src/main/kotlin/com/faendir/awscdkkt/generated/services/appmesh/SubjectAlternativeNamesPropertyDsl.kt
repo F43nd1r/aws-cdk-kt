@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appmesh.CfnVirtualNode
 
 @Generated
 public fun buildSubjectAlternativeNamesProperty(initializer: @AwsCdkDsl
-    CfnVirtualNode.SubjectAlternativeNamesProperty.Builder.() -> Unit):
+    CfnVirtualNode.SubjectAlternativeNamesProperty.Builder.() -> Unit = {}):
     CfnVirtualNode.SubjectAlternativeNamesProperty =
     CfnVirtualNode.SubjectAlternativeNamesProperty.Builder().apply(initializer).build()

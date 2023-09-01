@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.imagebuilder.CfnContainerRecipeProps
 
 @Generated
 public fun buildCfnContainerRecipeProps(initializer: @AwsCdkDsl
-    CfnContainerRecipeProps.Builder.() -> Unit): CfnContainerRecipeProps =
+    CfnContainerRecipeProps.Builder.() -> Unit = {}): CfnContainerRecipeProps =
     CfnContainerRecipeProps.Builder().apply(initializer).build()

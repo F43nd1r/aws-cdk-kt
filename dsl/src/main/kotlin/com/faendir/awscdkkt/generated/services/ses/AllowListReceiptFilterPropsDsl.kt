@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ses.AllowListReceiptFilterProps
 
 @Generated
 public fun buildAllowListReceiptFilterProps(initializer: @AwsCdkDsl
-    AllowListReceiptFilterProps.Builder.() -> Unit): AllowListReceiptFilterProps =
+    AllowListReceiptFilterProps.Builder.() -> Unit = {}): AllowListReceiptFilterProps =
     AllowListReceiptFilterProps.Builder().apply(initializer).build()

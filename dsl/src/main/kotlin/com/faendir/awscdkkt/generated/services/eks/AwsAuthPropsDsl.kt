@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.AwsAuthProps
 
 @Generated
-public fun buildAwsAuthProps(initializer: @AwsCdkDsl AwsAuthProps.Builder.() -> Unit): AwsAuthProps
-    = AwsAuthProps.Builder().apply(initializer).build()
+public fun buildAwsAuthProps(initializer: @AwsCdkDsl AwsAuthProps.Builder.() -> Unit = {}):
+    AwsAuthProps = AwsAuthProps.Builder().apply(initializer).build()

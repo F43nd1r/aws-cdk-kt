@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildGaugeChartArcConditionalFormattingProperty(initializer: @AwsCdkDsl
-    CfnTemplate.GaugeChartArcConditionalFormattingProperty.Builder.() -> Unit):
+    CfnTemplate.GaugeChartArcConditionalFormattingProperty.Builder.() -> Unit = {}):
     CfnTemplate.GaugeChartArcConditionalFormattingProperty =
     CfnTemplate.GaugeChartArcConditionalFormattingProperty.Builder().apply(initializer).build()

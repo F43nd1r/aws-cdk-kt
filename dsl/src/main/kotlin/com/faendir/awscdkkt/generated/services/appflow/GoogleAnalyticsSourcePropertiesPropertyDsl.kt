@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
 public fun buildGoogleAnalyticsSourcePropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.GoogleAnalyticsSourcePropertiesProperty.Builder.() -> Unit):
+    CfnFlow.GoogleAnalyticsSourcePropertiesProperty.Builder.() -> Unit = {}):
     CfnFlow.GoogleAnalyticsSourcePropertiesProperty =
     CfnFlow.GoogleAnalyticsSourcePropertiesProperty.Builder().apply(initializer).build()

@@ -6,5 +6,6 @@ import kotlin.Unit
 import software.amazon.awscdk.services.devicefarm.CfnDevicePool
 
 @Generated
-public fun buildRuleProperty(initializer: @AwsCdkDsl CfnDevicePool.RuleProperty.Builder.() -> Unit):
-    CfnDevicePool.RuleProperty = CfnDevicePool.RuleProperty.Builder().apply(initializer).build()
+public fun buildRuleProperty(initializer: @AwsCdkDsl CfnDevicePool.RuleProperty.Builder.() -> Unit =
+    {}): CfnDevicePool.RuleProperty =
+    CfnDevicePool.RuleProperty.Builder().apply(initializer).build()

@@ -9,19 +9,15 @@ import software.amazon.awscdk.services.chatbot.CfnMicrosoftTeamsChannelConfigura
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnMicrosoftTeamsChannelConfiguration(id: String,
-    props: CfnMicrosoftTeamsChannelConfigurationProps): CfnMicrosoftTeamsChannelConfiguration =
-    CfnMicrosoftTeamsChannelConfiguration(this, id, props)
-
-@Generated
 public fun Construct.cfnMicrosoftTeamsChannelConfiguration(
   id: String,
   props: CfnMicrosoftTeamsChannelConfigurationProps,
-  initializer: @AwsCdkDsl CfnMicrosoftTeamsChannelConfiguration.() -> Unit,
+  initializer: @AwsCdkDsl CfnMicrosoftTeamsChannelConfiguration.() -> Unit = {},
 ): CfnMicrosoftTeamsChannelConfiguration = CfnMicrosoftTeamsChannelConfiguration(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnMicrosoftTeamsChannelConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnMicrosoftTeamsChannelConfiguration.Builder.() -> Unit): CfnMicrosoftTeamsChannelConfiguration
-    = CfnMicrosoftTeamsChannelConfiguration.Builder.create(this, id).apply(initializer).build()
+    CfnMicrosoftTeamsChannelConfiguration.Builder.() -> Unit = {}):
+    CfnMicrosoftTeamsChannelConfiguration =
+    CfnMicrosoftTeamsChannelConfiguration.Builder.create(this, id).apply(initializer).build()

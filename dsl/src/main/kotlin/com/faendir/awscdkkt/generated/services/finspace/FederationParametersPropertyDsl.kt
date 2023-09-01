@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.finspace.CfnEnvironment
 
 @Generated
 public fun buildFederationParametersProperty(initializer: @AwsCdkDsl
-    CfnEnvironment.FederationParametersProperty.Builder.() -> Unit):
+    CfnEnvironment.FederationParametersProperty.Builder.() -> Unit = {}):
     CfnEnvironment.FederationParametersProperty =
     CfnEnvironment.FederationParametersProperty.Builder().apply(initializer).build()

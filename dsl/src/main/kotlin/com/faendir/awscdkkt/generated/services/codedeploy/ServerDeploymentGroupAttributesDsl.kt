@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codedeploy.ServerDeploymentGroupAttribute
 
 @Generated
 public fun buildServerDeploymentGroupAttributes(initializer: @AwsCdkDsl
-    ServerDeploymentGroupAttributes.Builder.() -> Unit): ServerDeploymentGroupAttributes =
+    ServerDeploymentGroupAttributes.Builder.() -> Unit = {}): ServerDeploymentGroupAttributes =
     ServerDeploymentGroupAttributes.Builder().apply(initializer).build()

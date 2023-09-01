@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.greengrass.CfnResourceDefinitionVersion
 
 @Generated
 public fun buildLocalVolumeResourceDataProperty(initializer: @AwsCdkDsl
-    CfnResourceDefinitionVersion.LocalVolumeResourceDataProperty.Builder.() -> Unit):
+    CfnResourceDefinitionVersion.LocalVolumeResourceDataProperty.Builder.() -> Unit = {}):
     CfnResourceDefinitionVersion.LocalVolumeResourceDataProperty =
     CfnResourceDefinitionVersion.LocalVolumeResourceDataProperty.Builder().apply(initializer).build()

@@ -8,5 +8,5 @@ import software.amazon.awscdk.services.logs.destinations.KinesisDestination
 
 @Generated
 public fun buildKinesisDestination(stream: IStream, initializer: @AwsCdkDsl
-    KinesisDestination.Builder.() -> Unit): KinesisDestination =
+    KinesisDestination.Builder.() -> Unit = {}): KinesisDestination =
     KinesisDestination.Builder.create(stream).apply(initializer).build()

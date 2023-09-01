@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModelCard
 
 @Generated
 public fun buildTrainingMetricProperty(initializer: @AwsCdkDsl
-    CfnModelCard.TrainingMetricProperty.Builder.() -> Unit): CfnModelCard.TrainingMetricProperty =
+    CfnModelCard.TrainingMetricProperty.Builder.() -> Unit = {}):
+    CfnModelCard.TrainingMetricProperty =
     CfnModelCard.TrainingMetricProperty.Builder().apply(initializer).build()

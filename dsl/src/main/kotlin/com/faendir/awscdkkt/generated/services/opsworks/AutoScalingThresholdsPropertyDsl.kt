@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.opsworks.CfnLayer
 
 @Generated
 public fun buildAutoScalingThresholdsProperty(initializer: @AwsCdkDsl
-    CfnLayer.AutoScalingThresholdsProperty.Builder.() -> Unit):
+    CfnLayer.AutoScalingThresholdsProperty.Builder.() -> Unit = {}):
     CfnLayer.AutoScalingThresholdsProperty =
     CfnLayer.AutoScalingThresholdsProperty.Builder().apply(initializer).build()

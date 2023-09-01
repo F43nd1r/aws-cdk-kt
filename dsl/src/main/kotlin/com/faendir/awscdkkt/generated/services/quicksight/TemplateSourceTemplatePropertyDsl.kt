@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildTemplateSourceTemplateProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TemplateSourceTemplateProperty.Builder.() -> Unit):
+    CfnTemplate.TemplateSourceTemplateProperty.Builder.() -> Unit = {}):
     CfnTemplate.TemplateSourceTemplateProperty =
     CfnTemplate.TemplateSourceTemplateProperty.Builder().apply(initializer).build()

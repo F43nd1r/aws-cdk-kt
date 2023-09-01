@@ -9,16 +9,12 @@ import software.amazon.awscdk.alexa.ask.CfnSkillProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnSkill(id: String, props: CfnSkillProps): CfnSkill = CfnSkill(this, id,
-    props)
-
-@Generated
 public fun Construct.cfnSkill(
   id: String,
   props: CfnSkillProps,
-  initializer: @AwsCdkDsl CfnSkill.() -> Unit,
+  initializer: @AwsCdkDsl CfnSkill.() -> Unit = {},
 ): CfnSkill = CfnSkill(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSkill(id: String, initializer: @AwsCdkDsl CfnSkill.Builder.() -> Unit):
-    CfnSkill = CfnSkill.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSkill(id: String, initializer: @AwsCdkDsl CfnSkill.Builder.() -> Unit =
+    {}): CfnSkill = CfnSkill.Builder.create(this, id).apply(initializer).build()

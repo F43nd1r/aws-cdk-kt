@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
 public fun buildGrammarSlotTypeSourceProperty(initializer: @AwsCdkDsl
-    CfnBot.GrammarSlotTypeSourceProperty.Builder.() -> Unit): CfnBot.GrammarSlotTypeSourceProperty =
+    CfnBot.GrammarSlotTypeSourceProperty.Builder.() -> Unit = {}):
+    CfnBot.GrammarSlotTypeSourceProperty =
     CfnBot.GrammarSlotTypeSourceProperty.Builder().apply(initializer).build()

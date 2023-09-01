@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.networkfirewall.CfnLoggingConfigurationPr
 
 @Generated
 public fun buildCfnLoggingConfigurationProps(initializer: @AwsCdkDsl
-    CfnLoggingConfigurationProps.Builder.() -> Unit): CfnLoggingConfigurationProps =
+    CfnLoggingConfigurationProps.Builder.() -> Unit = {}): CfnLoggingConfigurationProps =
     CfnLoggingConfigurationProps.Builder().apply(initializer).build()

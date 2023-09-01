@@ -9,19 +9,15 @@ import software.amazon.awscdk.services.ec2.CfnNetworkInsightsAccessScopeAnalysis
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnNetworkInsightsAccessScopeAnalysis(id: String,
-    props: CfnNetworkInsightsAccessScopeAnalysisProps): CfnNetworkInsightsAccessScopeAnalysis =
-    CfnNetworkInsightsAccessScopeAnalysis(this, id, props)
-
-@Generated
 public fun Construct.cfnNetworkInsightsAccessScopeAnalysis(
   id: String,
   props: CfnNetworkInsightsAccessScopeAnalysisProps,
-  initializer: @AwsCdkDsl CfnNetworkInsightsAccessScopeAnalysis.() -> Unit,
+  initializer: @AwsCdkDsl CfnNetworkInsightsAccessScopeAnalysis.() -> Unit = {},
 ): CfnNetworkInsightsAccessScopeAnalysis = CfnNetworkInsightsAccessScopeAnalysis(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnNetworkInsightsAccessScopeAnalysis(id: String, initializer: @AwsCdkDsl
-    CfnNetworkInsightsAccessScopeAnalysis.Builder.() -> Unit): CfnNetworkInsightsAccessScopeAnalysis
-    = CfnNetworkInsightsAccessScopeAnalysis.Builder.create(this, id).apply(initializer).build()
+    CfnNetworkInsightsAccessScopeAnalysis.Builder.() -> Unit = {}):
+    CfnNetworkInsightsAccessScopeAnalysis =
+    CfnNetworkInsightsAccessScopeAnalysis.Builder.create(this, id).apply(initializer).build()

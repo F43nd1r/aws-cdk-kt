@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codepipeline.actions.CodeDeployServerDepl
 
 @Generated
 public fun buildCodeDeployServerDeployActionProps(initializer: @AwsCdkDsl
-    CodeDeployServerDeployActionProps.Builder.() -> Unit): CodeDeployServerDeployActionProps =
+    CodeDeployServerDeployActionProps.Builder.() -> Unit = {}): CodeDeployServerDeployActionProps =
     CodeDeployServerDeployActionProps.Builder().apply(initializer).build()

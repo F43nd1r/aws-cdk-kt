@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appmesh.CfnVirtualNode
 
 @Generated
 public fun buildTlsValidationContextAcmTrustProperty(initializer: @AwsCdkDsl
-    CfnVirtualNode.TlsValidationContextAcmTrustProperty.Builder.() -> Unit):
+    CfnVirtualNode.TlsValidationContextAcmTrustProperty.Builder.() -> Unit = {}):
     CfnVirtualNode.TlsValidationContextAcmTrustProperty =
     CfnVirtualNode.TlsValidationContextAcmTrustProperty.Builder().apply(initializer).build()

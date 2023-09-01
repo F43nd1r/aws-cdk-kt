@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.LookupMachineImageProps
 
 @Generated
 public fun buildLookupMachineImageProps(initializer: @AwsCdkDsl
-    LookupMachineImageProps.Builder.() -> Unit): LookupMachineImageProps =
+    LookupMachineImageProps.Builder.() -> Unit = {}): LookupMachineImageProps =
     LookupMachineImageProps.Builder().apply(initializer).build()

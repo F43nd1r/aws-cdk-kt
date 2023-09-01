@@ -11,6 +11,6 @@ import software.amazon.awscdk.cxapi.NestedCloudAssemblyArtifact
 public fun buildNestedCloudAssemblyArtifact(
   assembly: CloudAssembly,
   name: String,
-  initializer: @AwsCdkDsl NestedCloudAssemblyArtifact.Builder.() -> Unit,
+  initializer: @AwsCdkDsl NestedCloudAssemblyArtifact.Builder.() -> Unit = {},
 ): NestedCloudAssemblyArtifact = NestedCloudAssemblyArtifact.Builder.create(assembly,
     name).apply(initializer).build()

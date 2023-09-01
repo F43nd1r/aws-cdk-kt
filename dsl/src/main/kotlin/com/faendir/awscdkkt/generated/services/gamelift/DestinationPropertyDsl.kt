@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.gamelift.CfnGameSessionQueue
 
 @Generated
 public fun buildDestinationProperty(initializer: @AwsCdkDsl
-    CfnGameSessionQueue.DestinationProperty.Builder.() -> Unit):
+    CfnGameSessionQueue.DestinationProperty.Builder.() -> Unit = {}):
     CfnGameSessionQueue.DestinationProperty =
     CfnGameSessionQueue.DestinationProperty.Builder().apply(initializer).build()

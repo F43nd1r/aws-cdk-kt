@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.vpclattice.CfnAuthPolicyProps
 
 @Generated
-public fun buildCfnAuthPolicyProps(initializer: @AwsCdkDsl CfnAuthPolicyProps.Builder.() -> Unit):
-    CfnAuthPolicyProps = CfnAuthPolicyProps.Builder().apply(initializer).build()
+public fun buildCfnAuthPolicyProps(initializer: @AwsCdkDsl CfnAuthPolicyProps.Builder.() -> Unit =
+    {}): CfnAuthPolicyProps = CfnAuthPolicyProps.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ec2.CfnLocalGatewayRouteTableProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnLocalGatewayRouteTable(id: String, props: CfnLocalGatewayRouteTableProps):
-    CfnLocalGatewayRouteTable = CfnLocalGatewayRouteTable(this, id, props)
-
-@Generated
 public fun Construct.cfnLocalGatewayRouteTable(
   id: String,
   props: CfnLocalGatewayRouteTableProps,
-  initializer: @AwsCdkDsl CfnLocalGatewayRouteTable.() -> Unit,
+  initializer: @AwsCdkDsl CfnLocalGatewayRouteTable.() -> Unit = {},
 ): CfnLocalGatewayRouteTable = CfnLocalGatewayRouteTable(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnLocalGatewayRouteTable(id: String, initializer: @AwsCdkDsl
-    CfnLocalGatewayRouteTable.Builder.() -> Unit): CfnLocalGatewayRouteTable =
+    CfnLocalGatewayRouteTable.Builder.() -> Unit = {}): CfnLocalGatewayRouteTable =
     CfnLocalGatewayRouteTable.Builder.create(this, id).apply(initializer).build()

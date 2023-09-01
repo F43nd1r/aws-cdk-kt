@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lambda.CfnCodeSigningConfigProps
 
 @Generated
 public fun buildCfnCodeSigningConfigProps(initializer: @AwsCdkDsl
-    CfnCodeSigningConfigProps.Builder.() -> Unit): CfnCodeSigningConfigProps =
+    CfnCodeSigningConfigProps.Builder.() -> Unit = {}): CfnCodeSigningConfigProps =
     CfnCodeSigningConfigProps.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.appmesh.SubjectAlternativeNamesMatcherCon
 
 @Generated
 public fun buildSubjectAlternativeNamesMatcherConfig(initializer: @AwsCdkDsl
-    SubjectAlternativeNamesMatcherConfig.Builder.() -> Unit): SubjectAlternativeNamesMatcherConfig =
+    SubjectAlternativeNamesMatcherConfig.Builder.() -> Unit = {}):
+    SubjectAlternativeNamesMatcherConfig =
     SubjectAlternativeNamesMatcherConfig.Builder().apply(initializer).build()

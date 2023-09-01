@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildPivotTableDataPathOptionProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PivotTableDataPathOptionProperty.Builder.() -> Unit):
+    CfnTemplate.PivotTableDataPathOptionProperty.Builder.() -> Unit = {}):
     CfnTemplate.PivotTableDataPathOptionProperty =
     CfnTemplate.PivotTableDataPathOptionProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
 public fun buildAggregationConfigProperty(initializer: @AwsCdkDsl
-    CfnFlow.AggregationConfigProperty.Builder.() -> Unit): CfnFlow.AggregationConfigProperty =
+    CfnFlow.AggregationConfigProperty.Builder.() -> Unit = {}): CfnFlow.AggregationConfigProperty =
     CfnFlow.AggregationConfigProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.fsx.CfnFileSystem
 
 @Generated
 public fun buildDiskIopsConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFileSystem.DiskIopsConfigurationProperty.Builder.() -> Unit):
+    CfnFileSystem.DiskIopsConfigurationProperty.Builder.() -> Unit = {}):
     CfnFileSystem.DiskIopsConfigurationProperty =
     CfnFileSystem.DiskIopsConfigurationProperty.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.logs.CfnAccountPolicyProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnAccountPolicy(id: String, props: CfnAccountPolicyProps): CfnAccountPolicy =
-    CfnAccountPolicy(this, id, props)
-
-@Generated
 public fun Construct.cfnAccountPolicy(
   id: String,
   props: CfnAccountPolicyProps,
-  initializer: @AwsCdkDsl CfnAccountPolicy.() -> Unit,
+  initializer: @AwsCdkDsl CfnAccountPolicy.() -> Unit = {},
 ): CfnAccountPolicy = CfnAccountPolicy(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnAccountPolicy(id: String, initializer: @AwsCdkDsl
-    CfnAccountPolicy.Builder.() -> Unit): CfnAccountPolicy = CfnAccountPolicy.Builder.create(this,
-    id).apply(initializer).build()
+    CfnAccountPolicy.Builder.() -> Unit = {}): CfnAccountPolicy =
+    CfnAccountPolicy.Builder.create(this, id).apply(initializer).build()

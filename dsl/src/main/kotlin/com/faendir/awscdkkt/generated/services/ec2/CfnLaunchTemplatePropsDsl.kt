@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.CfnLaunchTemplateProps
 
 @Generated
 public fun buildCfnLaunchTemplateProps(initializer: @AwsCdkDsl
-    CfnLaunchTemplateProps.Builder.() -> Unit): CfnLaunchTemplateProps =
+    CfnLaunchTemplateProps.Builder.() -> Unit = {}): CfnLaunchTemplateProps =
     CfnLaunchTemplateProps.Builder().apply(initializer).build()

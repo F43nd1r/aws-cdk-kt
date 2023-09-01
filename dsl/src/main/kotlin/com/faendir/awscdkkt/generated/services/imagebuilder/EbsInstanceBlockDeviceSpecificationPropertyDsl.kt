@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.imagebuilder.CfnImageRecipe
 
 @Generated
 public fun buildEbsInstanceBlockDeviceSpecificationProperty(initializer: @AwsCdkDsl
-    CfnImageRecipe.EbsInstanceBlockDeviceSpecificationProperty.Builder.() -> Unit):
+    CfnImageRecipe.EbsInstanceBlockDeviceSpecificationProperty.Builder.() -> Unit = {}):
     CfnImageRecipe.EbsInstanceBlockDeviceSpecificationProperty =
     CfnImageRecipe.EbsInstanceBlockDeviceSpecificationProperty.Builder().apply(initializer).build()

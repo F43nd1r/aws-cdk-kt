@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.elasticsearch.CfnDomain
 
 @Generated
 public fun buildAdvancedSecurityOptionsInputProperty(initializer: @AwsCdkDsl
-    CfnDomain.AdvancedSecurityOptionsInputProperty.Builder.() -> Unit):
+    CfnDomain.AdvancedSecurityOptionsInputProperty.Builder.() -> Unit = {}):
     CfnDomain.AdvancedSecurityOptionsInputProperty =
     CfnDomain.AdvancedSecurityOptionsInputProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.transfer.CfnWorkflowProps
 
 @Generated
-public fun buildCfnWorkflowProps(initializer: @AwsCdkDsl CfnWorkflowProps.Builder.() -> Unit):
+public fun buildCfnWorkflowProps(initializer: @AwsCdkDsl CfnWorkflowProps.Builder.() -> Unit = {}):
     CfnWorkflowProps = CfnWorkflowProps.Builder().apply(initializer).build()

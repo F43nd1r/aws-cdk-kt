@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.LogQueryWidget
 
 @Generated
-public fun buildLogQueryWidget(initializer: @AwsCdkDsl LogQueryWidget.Builder.() -> Unit):
+public fun buildLogQueryWidget(initializer: @AwsCdkDsl LogQueryWidget.Builder.() -> Unit = {}):
     LogQueryWidget = LogQueryWidget.Builder.create().apply(initializer).build()

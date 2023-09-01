@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.DeploymentController
 
 @Generated
-public fun buildDeploymentController(initializer: @AwsCdkDsl
-    DeploymentController.Builder.() -> Unit): DeploymentController =
-    DeploymentController.Builder().apply(initializer).build()
+public fun buildDeploymentController(initializer: @AwsCdkDsl DeploymentController.Builder.() -> Unit
+    = {}): DeploymentController = DeploymentController.Builder().apply(initializer).build()

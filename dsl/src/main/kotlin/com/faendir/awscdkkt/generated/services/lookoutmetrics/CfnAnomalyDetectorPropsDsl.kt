@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lookoutmetrics.CfnAnomalyDetectorProps
 
 @Generated
 public fun buildCfnAnomalyDetectorProps(initializer: @AwsCdkDsl
-    CfnAnomalyDetectorProps.Builder.() -> Unit): CfnAnomalyDetectorProps =
+    CfnAnomalyDetectorProps.Builder.() -> Unit = {}): CfnAnomalyDetectorProps =
     CfnAnomalyDetectorProps.Builder().apply(initializer).build()

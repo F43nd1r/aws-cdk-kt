@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.logs.DataProtectionPolicyConfig
 
 @Generated
 public fun buildDataProtectionPolicyConfig(initializer: @AwsCdkDsl
-    DataProtectionPolicyConfig.Builder.() -> Unit): DataProtectionPolicyConfig =
+    DataProtectionPolicyConfig.Builder.() -> Unit = {}): DataProtectionPolicyConfig =
     DataProtectionPolicyConfig.Builder().apply(initializer).build()

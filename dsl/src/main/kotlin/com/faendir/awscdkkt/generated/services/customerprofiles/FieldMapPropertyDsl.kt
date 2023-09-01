@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.customerprofiles.CfnObjectType
 
 @Generated
 public fun buildFieldMapProperty(initializer: @AwsCdkDsl
-    CfnObjectType.FieldMapProperty.Builder.() -> Unit): CfnObjectType.FieldMapProperty =
+    CfnObjectType.FieldMapProperty.Builder.() -> Unit = {}): CfnObjectType.FieldMapProperty =
     CfnObjectType.FieldMapProperty.Builder().apply(initializer).build()

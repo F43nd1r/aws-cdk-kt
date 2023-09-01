@@ -8,5 +8,5 @@ import software.amazon.awscdk.services.s3.Bucket
 
 @Generated
 public fun buildS3EventSource(bucket: Bucket, initializer: @AwsCdkDsl
-    S3EventSource.Builder.() -> Unit): S3EventSource =
+    S3EventSource.Builder.() -> Unit = {}): S3EventSource =
     S3EventSource.Builder.create(bucket).apply(initializer).build()

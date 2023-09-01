@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CognitoDomainOptions
 
 @Generated
-public fun buildCognitoDomainOptions(initializer: @AwsCdkDsl
-    CognitoDomainOptions.Builder.() -> Unit): CognitoDomainOptions =
-    CognitoDomainOptions.Builder().apply(initializer).build()
+public fun buildCognitoDomainOptions(initializer: @AwsCdkDsl CognitoDomainOptions.Builder.() -> Unit
+    = {}): CognitoDomainOptions = CognitoDomainOptions.Builder().apply(initializer).build()

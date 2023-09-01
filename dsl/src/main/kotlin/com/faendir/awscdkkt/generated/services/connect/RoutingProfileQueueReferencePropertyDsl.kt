@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.connect.CfnRoutingProfile
 
 @Generated
 public fun buildRoutingProfileQueueReferenceProperty(initializer: @AwsCdkDsl
-    CfnRoutingProfile.RoutingProfileQueueReferenceProperty.Builder.() -> Unit):
+    CfnRoutingProfile.RoutingProfileQueueReferenceProperty.Builder.() -> Unit = {}):
     CfnRoutingProfile.RoutingProfileQueueReferenceProperty =
     CfnRoutingProfile.RoutingProfileQueueReferenceProperty.Builder().apply(initializer).build()

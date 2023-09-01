@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.emrcontainers.CfnVirtualClusterProps
 
 @Generated
 public fun buildCfnVirtualClusterProps(initializer: @AwsCdkDsl
-    CfnVirtualClusterProps.Builder.() -> Unit): CfnVirtualClusterProps =
+    CfnVirtualClusterProps.Builder.() -> Unit = {}): CfnVirtualClusterProps =
     CfnVirtualClusterProps.Builder().apply(initializer).build()

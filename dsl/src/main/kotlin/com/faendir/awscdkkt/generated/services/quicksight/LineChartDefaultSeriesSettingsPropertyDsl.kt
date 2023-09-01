@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildLineChartDefaultSeriesSettingsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.LineChartDefaultSeriesSettingsProperty.Builder.() -> Unit):
+    CfnTemplate.LineChartDefaultSeriesSettingsProperty.Builder.() -> Unit = {}):
     CfnTemplate.LineChartDefaultSeriesSettingsProperty =
     CfnTemplate.LineChartDefaultSeriesSettingsProperty.Builder().apply(initializer).build()

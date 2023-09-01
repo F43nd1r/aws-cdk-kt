@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.evidently.CfnProject
 
 @Generated
 public fun buildS3DestinationProperty(initializer: @AwsCdkDsl
-    CfnProject.S3DestinationProperty.Builder.() -> Unit): CfnProject.S3DestinationProperty =
+    CfnProject.S3DestinationProperty.Builder.() -> Unit = {}): CfnProject.S3DestinationProperty =
     CfnProject.S3DestinationProperty.Builder().apply(initializer).build()

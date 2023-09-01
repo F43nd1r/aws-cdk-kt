@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appmesh.CfnRoute
 
 @Generated
 public fun buildTcpRouteActionProperty(initializer: @AwsCdkDsl
-    CfnRoute.TcpRouteActionProperty.Builder.() -> Unit): CfnRoute.TcpRouteActionProperty =
+    CfnRoute.TcpRouteActionProperty.Builder.() -> Unit = {}): CfnRoute.TcpRouteActionProperty =
     CfnRoute.TcpRouteActionProperty.Builder().apply(initializer).build()

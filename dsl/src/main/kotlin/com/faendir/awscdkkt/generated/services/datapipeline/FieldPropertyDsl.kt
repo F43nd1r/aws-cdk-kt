@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datapipeline.CfnPipeline
 
 @Generated
-public fun buildFieldProperty(initializer: @AwsCdkDsl CfnPipeline.FieldProperty.Builder.() -> Unit):
-    CfnPipeline.FieldProperty = CfnPipeline.FieldProperty.Builder().apply(initializer).build()
+public fun buildFieldProperty(initializer: @AwsCdkDsl CfnPipeline.FieldProperty.Builder.() -> Unit =
+    {}): CfnPipeline.FieldProperty = CfnPipeline.FieldProperty.Builder().apply(initializer).build()

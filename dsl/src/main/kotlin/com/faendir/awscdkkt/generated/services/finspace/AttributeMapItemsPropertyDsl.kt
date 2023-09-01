@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.finspace.CfnEnvironment
 
 @Generated
 public fun buildAttributeMapItemsProperty(initializer: @AwsCdkDsl
-    CfnEnvironment.AttributeMapItemsProperty.Builder.() -> Unit):
+    CfnEnvironment.AttributeMapItemsProperty.Builder.() -> Unit = {}):
     CfnEnvironment.AttributeMapItemsProperty =
     CfnEnvironment.AttributeMapItemsProperty.Builder().apply(initializer).build()

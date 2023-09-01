@@ -7,5 +7,5 @@ import kotlin.Unit
 import software.amazon.awscdk.RemoveTag
 
 @Generated
-public fun buildRemoveTag(key: String, initializer: @AwsCdkDsl RemoveTag.Builder.() -> Unit):
+public fun buildRemoveTag(key: String, initializer: @AwsCdkDsl RemoveTag.Builder.() -> Unit = {}):
     RemoveTag = RemoveTag.Builder.create(key).apply(initializer).build()

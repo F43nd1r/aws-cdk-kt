@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.AddApplicationTarg
 
 @Generated
 public fun buildAddApplicationTargetGroupsProps(initializer: @AwsCdkDsl
-    AddApplicationTargetGroupsProps.Builder.() -> Unit): AddApplicationTargetGroupsProps =
+    AddApplicationTargetGroupsProps.Builder.() -> Unit = {}): AddApplicationTargetGroupsProps =
     AddApplicationTargetGroupsProps.Builder().apply(initializer).build()

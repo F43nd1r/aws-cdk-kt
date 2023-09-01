@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.route53.CfnHostedZone
 
 @Generated
 public fun buildHostedZoneConfigProperty(initializer: @AwsCdkDsl
-    CfnHostedZone.HostedZoneConfigProperty.Builder.() -> Unit):
+    CfnHostedZone.HostedZoneConfigProperty.Builder.() -> Unit = {}):
     CfnHostedZone.HostedZoneConfigProperty =
     CfnHostedZone.HostedZoneConfigProperty.Builder().apply(initializer).build()

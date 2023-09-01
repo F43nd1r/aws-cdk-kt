@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildCategoryFilterProperty(initializer: @AwsCdkDsl
-    CfnTemplate.CategoryFilterProperty.Builder.() -> Unit): CfnTemplate.CategoryFilterProperty =
-    CfnTemplate.CategoryFilterProperty.Builder().apply(initializer).build()
+    CfnTemplate.CategoryFilterProperty.Builder.() -> Unit = {}): CfnTemplate.CategoryFilterProperty
+    = CfnTemplate.CategoryFilterProperty.Builder().apply(initializer).build()

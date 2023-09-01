@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
 public fun buildEksVolumeProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.EksVolumeProperty.Builder.() -> Unit): CfnJobDefinition.EksVolumeProperty =
-    CfnJobDefinition.EksVolumeProperty.Builder().apply(initializer).build()
+    CfnJobDefinition.EksVolumeProperty.Builder.() -> Unit = {}): CfnJobDefinition.EksVolumeProperty
+    = CfnJobDefinition.EksVolumeProperty.Builder().apply(initializer).build()

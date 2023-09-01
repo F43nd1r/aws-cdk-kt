@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.servicecatalog.CfnServiceActionAssociatio
 
 @Generated
 public fun buildCfnServiceActionAssociationProps(initializer: @AwsCdkDsl
-    CfnServiceActionAssociationProps.Builder.() -> Unit): CfnServiceActionAssociationProps =
+    CfnServiceActionAssociationProps.Builder.() -> Unit = {}): CfnServiceActionAssociationProps =
     CfnServiceActionAssociationProps.Builder().apply(initializer).build()

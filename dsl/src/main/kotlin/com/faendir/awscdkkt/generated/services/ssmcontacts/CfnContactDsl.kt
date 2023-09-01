@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ssmcontacts.CfnContactProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnContact(id: String, props: CfnContactProps): CfnContact = CfnContact(this,
-    id, props)
-
-@Generated
 public fun Construct.cfnContact(
   id: String,
   props: CfnContactProps,
-  initializer: @AwsCdkDsl CfnContact.() -> Unit,
+  initializer: @AwsCdkDsl CfnContact.() -> Unit = {},
 ): CfnContact = CfnContact(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnContact(id: String, initializer: @AwsCdkDsl
-    CfnContact.Builder.() -> Unit): CfnContact = CfnContact.Builder.create(this,
+    CfnContact.Builder.() -> Unit = {}): CfnContact = CfnContact.Builder.create(this,
     id).apply(initializer).build()

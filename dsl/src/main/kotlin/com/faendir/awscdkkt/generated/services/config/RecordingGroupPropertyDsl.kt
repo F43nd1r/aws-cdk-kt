@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.config.CfnConfigurationRecorder
 
 @Generated
 public fun buildRecordingGroupProperty(initializer: @AwsCdkDsl
-    CfnConfigurationRecorder.RecordingGroupProperty.Builder.() -> Unit):
+    CfnConfigurationRecorder.RecordingGroupProperty.Builder.() -> Unit = {}):
     CfnConfigurationRecorder.RecordingGroupProperty =
     CfnConfigurationRecorder.RecordingGroupProperty.Builder().apply(initializer).build()

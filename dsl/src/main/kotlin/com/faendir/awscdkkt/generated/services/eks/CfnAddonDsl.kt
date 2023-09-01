@@ -9,16 +9,12 @@ import software.amazon.awscdk.services.eks.CfnAddonProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnAddon(id: String, props: CfnAddonProps): CfnAddon = CfnAddon(this, id,
-    props)
-
-@Generated
 public fun Construct.cfnAddon(
   id: String,
   props: CfnAddonProps,
-  initializer: @AwsCdkDsl CfnAddon.() -> Unit,
+  initializer: @AwsCdkDsl CfnAddon.() -> Unit = {},
 ): CfnAddon = CfnAddon(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAddon(id: String, initializer: @AwsCdkDsl CfnAddon.Builder.() -> Unit):
-    CfnAddon = CfnAddon.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAddon(id: String, initializer: @AwsCdkDsl CfnAddon.Builder.() -> Unit =
+    {}): CfnAddon = CfnAddon.Builder.create(this, id).apply(initializer).build()

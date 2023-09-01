@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.vpclattice.CfnRuleProps
 
 @Generated
-public fun buildCfnRuleProps(initializer: @AwsCdkDsl CfnRuleProps.Builder.() -> Unit): CfnRuleProps
-    = CfnRuleProps.Builder().apply(initializer).build()
+public fun buildCfnRuleProps(initializer: @AwsCdkDsl CfnRuleProps.Builder.() -> Unit = {}):
+    CfnRuleProps = CfnRuleProps.Builder().apply(initializer).build()

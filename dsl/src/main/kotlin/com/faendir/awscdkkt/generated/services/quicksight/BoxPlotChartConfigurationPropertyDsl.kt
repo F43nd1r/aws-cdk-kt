@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildBoxPlotChartConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.BoxPlotChartConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.BoxPlotChartConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.BoxPlotChartConfigurationProperty =
     CfnTemplate.BoxPlotChartConfigurationProperty.Builder().apply(initializer).build()

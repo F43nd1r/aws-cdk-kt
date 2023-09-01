@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.databrew.CfnRecipe
 
 @Generated
 public fun buildConditionExpressionProperty(initializer: @AwsCdkDsl
-    CfnRecipe.ConditionExpressionProperty.Builder.() -> Unit): CfnRecipe.ConditionExpressionProperty
-    = CfnRecipe.ConditionExpressionProperty.Builder().apply(initializer).build()
+    CfnRecipe.ConditionExpressionProperty.Builder.() -> Unit = {}):
+    CfnRecipe.ConditionExpressionProperty =
+    CfnRecipe.ConditionExpressionProperty.Builder().apply(initializer).build()

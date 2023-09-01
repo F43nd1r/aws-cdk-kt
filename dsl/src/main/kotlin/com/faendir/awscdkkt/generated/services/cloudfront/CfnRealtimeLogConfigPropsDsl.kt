@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cloudfront.CfnRealtimeLogConfigProps
 
 @Generated
 public fun buildCfnRealtimeLogConfigProps(initializer: @AwsCdkDsl
-    CfnRealtimeLogConfigProps.Builder.() -> Unit): CfnRealtimeLogConfigProps =
+    CfnRealtimeLogConfigProps.Builder.() -> Unit = {}): CfnRealtimeLogConfigProps =
     CfnRealtimeLogConfigProps.Builder().apply(initializer).build()

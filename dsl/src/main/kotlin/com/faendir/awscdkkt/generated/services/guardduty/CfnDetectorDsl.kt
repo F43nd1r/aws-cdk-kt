@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.guardduty.CfnDetectorProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDetector(id: String, props: CfnDetectorProps): CfnDetector =
-    CfnDetector(this, id, props)
-
-@Generated
 public fun Construct.cfnDetector(
   id: String,
   props: CfnDetectorProps,
-  initializer: @AwsCdkDsl CfnDetector.() -> Unit,
+  initializer: @AwsCdkDsl CfnDetector.() -> Unit = {},
 ): CfnDetector = CfnDetector(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnDetector(id: String, initializer: @AwsCdkDsl
-    CfnDetector.Builder.() -> Unit): CfnDetector = CfnDetector.Builder.create(this,
+    CfnDetector.Builder.() -> Unit = {}): CfnDetector = CfnDetector.Builder.create(this,
     id).apply(initializer).build()

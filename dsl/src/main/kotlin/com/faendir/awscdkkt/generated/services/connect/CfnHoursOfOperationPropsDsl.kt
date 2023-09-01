@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.connect.CfnHoursOfOperationProps
 
 @Generated
 public fun buildCfnHoursOfOperationProps(initializer: @AwsCdkDsl
-    CfnHoursOfOperationProps.Builder.() -> Unit): CfnHoursOfOperationProps =
+    CfnHoursOfOperationProps.Builder.() -> Unit = {}): CfnHoursOfOperationProps =
     CfnHoursOfOperationProps.Builder().apply(initializer).build()

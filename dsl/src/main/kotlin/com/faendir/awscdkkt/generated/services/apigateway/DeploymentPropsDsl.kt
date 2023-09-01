@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.DeploymentProps
 
 @Generated
-public fun buildDeploymentProps(initializer: @AwsCdkDsl DeploymentProps.Builder.() -> Unit):
+public fun buildDeploymentProps(initializer: @AwsCdkDsl DeploymentProps.Builder.() -> Unit = {}):
     DeploymentProps = DeploymentProps.Builder().apply(initializer).build()

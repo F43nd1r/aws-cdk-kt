@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.imagebuilder.CfnImageRecipe
 
 @Generated
 public fun buildInstanceBlockDeviceMappingProperty(initializer: @AwsCdkDsl
-    CfnImageRecipe.InstanceBlockDeviceMappingProperty.Builder.() -> Unit):
+    CfnImageRecipe.InstanceBlockDeviceMappingProperty.Builder.() -> Unit = {}):
     CfnImageRecipe.InstanceBlockDeviceMappingProperty =
     CfnImageRecipe.InstanceBlockDeviceMappingProperty.Builder().apply(initializer).build()

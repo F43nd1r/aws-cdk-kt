@@ -6,6 +6,6 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotanalytics.CfnPipeline
 
 @Generated
-public fun buildLambdaProperty(initializer: @AwsCdkDsl
-    CfnPipeline.LambdaProperty.Builder.() -> Unit): CfnPipeline.LambdaProperty =
+public fun buildLambdaProperty(initializer: @AwsCdkDsl CfnPipeline.LambdaProperty.Builder.() -> Unit
+    = {}): CfnPipeline.LambdaProperty =
     CfnPipeline.LambdaProperty.Builder().apply(initializer).build()

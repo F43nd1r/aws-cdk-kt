@@ -7,5 +7,5 @@ import software.amazon.awscdk.cloudassembly.schema.SSMParameterContextQuery
 
 @Generated
 public fun buildSSMParameterContextQuery(initializer: @AwsCdkDsl
-    SSMParameterContextQuery.Builder.() -> Unit): SSMParameterContextQuery =
+    SSMParameterContextQuery.Builder.() -> Unit = {}): SSMParameterContextQuery =
     SSMParameterContextQuery.Builder().apply(initializer).build()

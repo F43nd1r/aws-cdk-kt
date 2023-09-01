@@ -8,6 +8,6 @@ import software.amazon.awscdk.services.globalaccelerator.endpoints.ApplicationLo
 
 @Generated
 public fun buildApplicationLoadBalancerEndpoint(loadBalancer: IApplicationLoadBalancer,
-    initializer: @AwsCdkDsl ApplicationLoadBalancerEndpoint.Builder.() -> Unit):
+    initializer: @AwsCdkDsl ApplicationLoadBalancerEndpoint.Builder.() -> Unit = {}):
     ApplicationLoadBalancerEndpoint =
     ApplicationLoadBalancerEndpoint.Builder.create(loadBalancer).apply(initializer).build()

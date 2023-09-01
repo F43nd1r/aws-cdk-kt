@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.NetworkWeightedTar
 
 @Generated
 public fun buildNetworkWeightedTargetGroup(initializer: @AwsCdkDsl
-    NetworkWeightedTargetGroup.Builder.() -> Unit): NetworkWeightedTargetGroup =
+    NetworkWeightedTargetGroup.Builder.() -> Unit = {}): NetworkWeightedTargetGroup =
     NetworkWeightedTargetGroup.Builder().apply(initializer).build()

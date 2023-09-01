@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
 public fun buildIdentitySAMPTProperty(initializer: @AwsCdkDsl
-    CfnFunction.IdentitySAMPTProperty.Builder.() -> Unit): CfnFunction.IdentitySAMPTProperty =
+    CfnFunction.IdentitySAMPTProperty.Builder.() -> Unit = {}): CfnFunction.IdentitySAMPTProperty =
     CfnFunction.IdentitySAMPTProperty.Builder().apply(initializer).build()

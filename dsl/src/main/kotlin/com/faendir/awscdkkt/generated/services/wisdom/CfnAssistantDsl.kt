@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.wisdom.CfnAssistantProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnAssistant(id: String, props: CfnAssistantProps): CfnAssistant =
-    CfnAssistant(this, id, props)
-
-@Generated
 public fun Construct.cfnAssistant(
   id: String,
   props: CfnAssistantProps,
-  initializer: @AwsCdkDsl CfnAssistant.() -> Unit,
+  initializer: @AwsCdkDsl CfnAssistant.() -> Unit = {},
 ): CfnAssistant = CfnAssistant(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnAssistant(id: String, initializer: @AwsCdkDsl
-    CfnAssistant.Builder.() -> Unit): CfnAssistant = CfnAssistant.Builder.create(this,
+    CfnAssistant.Builder.() -> Unit = {}): CfnAssistant = CfnAssistant.Builder.create(this,
     id).apply(initializer).build()

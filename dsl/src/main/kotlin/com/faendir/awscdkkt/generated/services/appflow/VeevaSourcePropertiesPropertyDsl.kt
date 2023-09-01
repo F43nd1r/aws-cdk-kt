@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
 public fun buildVeevaSourcePropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.VeevaSourcePropertiesProperty.Builder.() -> Unit): CfnFlow.VeevaSourcePropertiesProperty
-    = CfnFlow.VeevaSourcePropertiesProperty.Builder().apply(initializer).build()
+    CfnFlow.VeevaSourcePropertiesProperty.Builder.() -> Unit = {}):
+    CfnFlow.VeevaSourcePropertiesProperty =
+    CfnFlow.VeevaSourcePropertiesProperty.Builder().apply(initializer).build()

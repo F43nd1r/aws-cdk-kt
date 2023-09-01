@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
 public fun buildMetadataCatalogConfigProperty(initializer: @AwsCdkDsl
-    CfnFlow.MetadataCatalogConfigProperty.Builder.() -> Unit): CfnFlow.MetadataCatalogConfigProperty
-    = CfnFlow.MetadataCatalogConfigProperty.Builder().apply(initializer).build()
+    CfnFlow.MetadataCatalogConfigProperty.Builder.() -> Unit = {}):
+    CfnFlow.MetadataCatalogConfigProperty =
+    CfnFlow.MetadataCatalogConfigProperty.Builder().apply(initializer).build()

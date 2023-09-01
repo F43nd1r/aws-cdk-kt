@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.VariableValue
 
 @Generated
-public fun buildVariableValue(initializer: @AwsCdkDsl VariableValue.Builder.() -> Unit):
+public fun buildVariableValue(initializer: @AwsCdkDsl VariableValue.Builder.() -> Unit = {}):
     VariableValue = VariableValue.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
 public fun buildPipeTargetEcsTaskParametersProperty(initializer: @AwsCdkDsl
-    CfnPipe.PipeTargetEcsTaskParametersProperty.Builder.() -> Unit):
+    CfnPipe.PipeTargetEcsTaskParametersProperty.Builder.() -> Unit = {}):
     CfnPipe.PipeTargetEcsTaskParametersProperty =
     CfnPipe.PipeTargetEcsTaskParametersProperty.Builder().apply(initializer).build()

@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.backup.BackupSelectionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.backupSelection(id: String, props: BackupSelectionProps): BackupSelection =
-    BackupSelection(this, id, props)
-
-@Generated
 public fun Construct.backupSelection(
   id: String,
   props: BackupSelectionProps,
-  initializer: @AwsCdkDsl BackupSelection.() -> Unit,
+  initializer: @AwsCdkDsl BackupSelection.() -> Unit = {},
 ): BackupSelection = BackupSelection(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildBackupSelection(id: String, initializer: @AwsCdkDsl
-    BackupSelection.Builder.() -> Unit): BackupSelection = BackupSelection.Builder.create(this,
+    BackupSelection.Builder.() -> Unit = {}): BackupSelection = BackupSelection.Builder.create(this,
     id).apply(initializer).build()

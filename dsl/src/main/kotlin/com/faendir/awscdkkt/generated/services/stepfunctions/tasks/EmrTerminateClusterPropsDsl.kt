@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EmrTerminateClusterPr
 
 @Generated
 public fun buildEmrTerminateClusterProps(initializer: @AwsCdkDsl
-    EmrTerminateClusterProps.Builder.() -> Unit): EmrTerminateClusterProps =
+    EmrTerminateClusterProps.Builder.() -> Unit = {}): EmrTerminateClusterProps =
     EmrTerminateClusterProps.Builder().apply(initializer).build()

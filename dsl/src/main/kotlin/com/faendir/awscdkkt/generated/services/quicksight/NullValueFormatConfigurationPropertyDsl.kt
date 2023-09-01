@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildNullValueFormatConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.NullValueFormatConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.NullValueFormatConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.NullValueFormatConfigurationProperty =
     CfnTemplate.NullValueFormatConfigurationProperty.Builder().apply(initializer).build()

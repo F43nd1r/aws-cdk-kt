@@ -12,5 +12,5 @@ import software.amazon.awscdk.services.elasticsearch.CognitoOptions
 @Deprecated(message =
     "software.amazon.awscdk.services.elasticsearch.CognitoOptions is deprecated in CDK.")
 @Generated
-public fun buildCognitoOptions(initializer: @AwsCdkDsl CognitoOptions.Builder.() -> Unit):
+public fun buildCognitoOptions(initializer: @AwsCdkDsl CognitoOptions.Builder.() -> Unit = {}):
     CognitoOptions = CognitoOptions.Builder().apply(initializer).build()

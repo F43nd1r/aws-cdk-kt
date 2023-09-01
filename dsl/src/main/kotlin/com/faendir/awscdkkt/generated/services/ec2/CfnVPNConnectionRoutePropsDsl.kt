@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.CfnVPNConnectionRouteProps
 
 @Generated
 public fun buildCfnVPNConnectionRouteProps(initializer: @AwsCdkDsl
-    CfnVPNConnectionRouteProps.Builder.() -> Unit): CfnVPNConnectionRouteProps =
+    CfnVPNConnectionRouteProps.Builder.() -> Unit = {}): CfnVPNConnectionRouteProps =
     CfnVPNConnectionRouteProps.Builder().apply(initializer).build()

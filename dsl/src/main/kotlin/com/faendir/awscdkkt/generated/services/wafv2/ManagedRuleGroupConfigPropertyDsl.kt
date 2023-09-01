@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
 public fun buildManagedRuleGroupConfigProperty(initializer: @AwsCdkDsl
-    CfnWebACL.ManagedRuleGroupConfigProperty.Builder.() -> Unit):
+    CfnWebACL.ManagedRuleGroupConfigProperty.Builder.() -> Unit = {}):
     CfnWebACL.ManagedRuleGroupConfigProperty =
     CfnWebACL.ManagedRuleGroupConfigProperty.Builder().apply(initializer).build()

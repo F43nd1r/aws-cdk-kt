@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.panorama.CfnApplicationInstance
 
 @Generated
 public fun buildManifestOverridesPayloadProperty(initializer: @AwsCdkDsl
-    CfnApplicationInstance.ManifestOverridesPayloadProperty.Builder.() -> Unit):
+    CfnApplicationInstance.ManifestOverridesPayloadProperty.Builder.() -> Unit = {}):
     CfnApplicationInstance.ManifestOverridesPayloadProperty =
     CfnApplicationInstance.ManifestOverridesPayloadProperty.Builder().apply(initializer).build()

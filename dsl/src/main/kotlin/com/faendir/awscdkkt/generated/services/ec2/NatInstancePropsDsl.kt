@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.NatInstanceProps
 
 @Generated
-public fun buildNatInstanceProps(initializer: @AwsCdkDsl NatInstanceProps.Builder.() -> Unit):
+public fun buildNatInstanceProps(initializer: @AwsCdkDsl NatInstanceProps.Builder.() -> Unit = {}):
     NatInstanceProps = NatInstanceProps.Builder().apply(initializer).build()

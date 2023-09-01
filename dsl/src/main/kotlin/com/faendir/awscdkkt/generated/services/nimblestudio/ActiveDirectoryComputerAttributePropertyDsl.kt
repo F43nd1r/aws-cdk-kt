@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.nimblestudio.CfnStudioComponent
 
 @Generated
 public fun buildActiveDirectoryComputerAttributeProperty(initializer: @AwsCdkDsl
-    CfnStudioComponent.ActiveDirectoryComputerAttributeProperty.Builder.() -> Unit):
+    CfnStudioComponent.ActiveDirectoryComputerAttributeProperty.Builder.() -> Unit = {}):
     CfnStudioComponent.ActiveDirectoryComputerAttributeProperty =
     CfnStudioComponent.ActiveDirectoryComputerAttributeProperty.Builder().apply(initializer).build()

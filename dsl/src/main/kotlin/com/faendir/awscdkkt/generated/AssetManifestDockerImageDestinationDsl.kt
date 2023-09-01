@@ -7,5 +7,6 @@ import software.amazon.awscdk.AssetManifestDockerImageDestination
 
 @Generated
 public fun buildAssetManifestDockerImageDestination(initializer: @AwsCdkDsl
-    AssetManifestDockerImageDestination.Builder.() -> Unit): AssetManifestDockerImageDestination =
+    AssetManifestDockerImageDestination.Builder.() -> Unit = {}):
+    AssetManifestDockerImageDestination =
     AssetManifestDockerImageDestination.Builder().apply(initializer).build()

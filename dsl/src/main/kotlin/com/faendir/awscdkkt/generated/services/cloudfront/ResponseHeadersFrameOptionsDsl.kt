@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cloudfront.ResponseHeadersFrameOptions
 
 @Generated
 public fun buildResponseHeadersFrameOptions(initializer: @AwsCdkDsl
-    ResponseHeadersFrameOptions.Builder.() -> Unit): ResponseHeadersFrameOptions =
+    ResponseHeadersFrameOptions.Builder.() -> Unit = {}): ResponseHeadersFrameOptions =
     ResponseHeadersFrameOptions.Builder().apply(initializer).build()

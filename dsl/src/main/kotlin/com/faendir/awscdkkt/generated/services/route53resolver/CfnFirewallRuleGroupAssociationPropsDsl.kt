@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.route53resolver.CfnFirewallRuleGroupAssoc
 
 @Generated
 public fun buildCfnFirewallRuleGroupAssociationProps(initializer: @AwsCdkDsl
-    CfnFirewallRuleGroupAssociationProps.Builder.() -> Unit): CfnFirewallRuleGroupAssociationProps =
+    CfnFirewallRuleGroupAssociationProps.Builder.() -> Unit = {}):
+    CfnFirewallRuleGroupAssociationProps =
     CfnFirewallRuleGroupAssociationProps.Builder().apply(initializer).build()

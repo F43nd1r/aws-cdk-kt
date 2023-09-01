@@ -9,15 +9,12 @@ import software.amazon.awscdk.services.ssmcontacts.CfnPlanProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnPlan(id: String, props: CfnPlanProps): CfnPlan = CfnPlan(this, id, props)
-
-@Generated
 public fun Construct.cfnPlan(
   id: String,
   props: CfnPlanProps,
-  initializer: @AwsCdkDsl CfnPlan.() -> Unit,
+  initializer: @AwsCdkDsl CfnPlan.() -> Unit = {},
 ): CfnPlan = CfnPlan(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPlan(id: String, initializer: @AwsCdkDsl CfnPlan.Builder.() -> Unit):
-    CfnPlan = CfnPlan.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPlan(id: String, initializer: @AwsCdkDsl CfnPlan.Builder.() -> Unit =
+    {}): CfnPlan = CfnPlan.Builder.create(this, id).apply(initializer).build()

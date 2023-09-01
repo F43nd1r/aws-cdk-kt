@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.cxapi.VpcSubnetGroup
 
 @Generated
-public fun buildVpcSubnetGroup(initializer: @AwsCdkDsl VpcSubnetGroup.Builder.() -> Unit):
+public fun buildVpcSubnetGroup(initializer: @AwsCdkDsl VpcSubnetGroup.Builder.() -> Unit = {}):
     VpcSubnetGroup = VpcSubnetGroup.Builder().apply(initializer).build()

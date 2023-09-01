@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.pinpoint.CfnInAppTemplate
 
 @Generated
 public fun buildDefaultButtonConfigurationProperty(initializer: @AwsCdkDsl
-    CfnInAppTemplate.DefaultButtonConfigurationProperty.Builder.() -> Unit):
+    CfnInAppTemplate.DefaultButtonConfigurationProperty.Builder.() -> Unit = {}):
     CfnInAppTemplate.DefaultButtonConfigurationProperty =
     CfnInAppTemplate.DefaultButtonConfigurationProperty.Builder().apply(initializer).build()

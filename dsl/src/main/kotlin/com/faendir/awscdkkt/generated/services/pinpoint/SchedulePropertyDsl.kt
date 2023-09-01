@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.pinpoint.CfnCampaign
 
 @Generated
 public fun buildScheduleProperty(initializer: @AwsCdkDsl
-    CfnCampaign.ScheduleProperty.Builder.() -> Unit): CfnCampaign.ScheduleProperty =
+    CfnCampaign.ScheduleProperty.Builder.() -> Unit = {}): CfnCampaign.ScheduleProperty =
     CfnCampaign.ScheduleProperty.Builder().apply(initializer).build()

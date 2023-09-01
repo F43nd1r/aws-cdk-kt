@@ -9,18 +9,13 @@ import software.amazon.awscdk.services.config.CfnAggregationAuthorizationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnAggregationAuthorization(id: String,
-    props: CfnAggregationAuthorizationProps): CfnAggregationAuthorization =
-    CfnAggregationAuthorization(this, id, props)
-
-@Generated
 public fun Construct.cfnAggregationAuthorization(
   id: String,
   props: CfnAggregationAuthorizationProps,
-  initializer: @AwsCdkDsl CfnAggregationAuthorization.() -> Unit,
+  initializer: @AwsCdkDsl CfnAggregationAuthorization.() -> Unit = {},
 ): CfnAggregationAuthorization = CfnAggregationAuthorization(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnAggregationAuthorization(id: String, initializer: @AwsCdkDsl
-    CfnAggregationAuthorization.Builder.() -> Unit): CfnAggregationAuthorization =
+    CfnAggregationAuthorization.Builder.() -> Unit = {}): CfnAggregationAuthorization =
     CfnAggregationAuthorization.Builder.create(this, id).apply(initializer).build()

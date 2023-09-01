@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.eventsources.SqsEventSourceProps
 
 @Generated
-public fun buildSqsEventSourceProps(initializer: @AwsCdkDsl SqsEventSourceProps.Builder.() -> Unit):
-    SqsEventSourceProps = SqsEventSourceProps.Builder().apply(initializer).build()
+public fun buildSqsEventSourceProps(initializer: @AwsCdkDsl SqsEventSourceProps.Builder.() -> Unit =
+    {}): SqsEventSourceProps = SqsEventSourceProps.Builder().apply(initializer).build()

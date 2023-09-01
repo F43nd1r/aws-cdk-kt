@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.networkfirewall.CfnFirewallPolicy
 
 @Generated
 public fun buildStatefulEngineOptionsProperty(initializer: @AwsCdkDsl
-    CfnFirewallPolicy.StatefulEngineOptionsProperty.Builder.() -> Unit):
+    CfnFirewallPolicy.StatefulEngineOptionsProperty.Builder.() -> Unit = {}):
     CfnFirewallPolicy.StatefulEngineOptionsProperty =
     CfnFirewallPolicy.StatefulEngineOptionsProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iotwireless.CfnWirelessGateway
 
 @Generated
 public fun buildLoRaWANGatewayProperty(initializer: @AwsCdkDsl
-    CfnWirelessGateway.LoRaWANGatewayProperty.Builder.() -> Unit):
+    CfnWirelessGateway.LoRaWANGatewayProperty.Builder.() -> Unit = {}):
     CfnWirelessGateway.LoRaWANGatewayProperty =
     CfnWirelessGateway.LoRaWANGatewayProperty.Builder().apply(initializer).build()

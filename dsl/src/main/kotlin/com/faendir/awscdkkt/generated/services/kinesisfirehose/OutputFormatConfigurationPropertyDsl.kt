@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
 public fun buildOutputFormatConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.OutputFormatConfigurationProperty.Builder.() -> Unit):
+    CfnDeliveryStream.OutputFormatConfigurationProperty.Builder.() -> Unit = {}):
     CfnDeliveryStream.OutputFormatConfigurationProperty =
     CfnDeliveryStream.OutputFormatConfigurationProperty.Builder().apply(initializer).build()

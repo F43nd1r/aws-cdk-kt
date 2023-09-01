@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.rekognition.CfnStreamProcessor
 
 @Generated
 public fun buildDataSharingPreferenceProperty(initializer: @AwsCdkDsl
-    CfnStreamProcessor.DataSharingPreferenceProperty.Builder.() -> Unit):
+    CfnStreamProcessor.DataSharingPreferenceProperty.Builder.() -> Unit = {}):
     CfnStreamProcessor.DataSharingPreferenceProperty =
     CfnStreamProcessor.DataSharingPreferenceProperty.Builder().apply(initializer).build()

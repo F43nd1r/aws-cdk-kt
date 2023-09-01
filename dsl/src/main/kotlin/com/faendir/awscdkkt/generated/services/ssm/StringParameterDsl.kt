@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ssm.StringParameterProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.stringParameter(id: String, props: StringParameterProps): StringParameter =
-    StringParameter(this, id, props)
-
-@Generated
 public fun Construct.stringParameter(
   id: String,
   props: StringParameterProps,
-  initializer: @AwsCdkDsl StringParameter.() -> Unit,
+  initializer: @AwsCdkDsl StringParameter.() -> Unit = {},
 ): StringParameter = StringParameter(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildStringParameter(id: String, initializer: @AwsCdkDsl
-    StringParameter.Builder.() -> Unit): StringParameter = StringParameter.Builder.create(this,
+    StringParameter.Builder.() -> Unit = {}): StringParameter = StringParameter.Builder.create(this,
     id).apply(initializer).build()

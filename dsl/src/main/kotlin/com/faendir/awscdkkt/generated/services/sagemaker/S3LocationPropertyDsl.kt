@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.sagemaker.CfnPipeline
 
 @Generated
 public fun buildS3LocationProperty(initializer: @AwsCdkDsl
-    CfnPipeline.S3LocationProperty.Builder.() -> Unit): CfnPipeline.S3LocationProperty =
+    CfnPipeline.S3LocationProperty.Builder.() -> Unit = {}): CfnPipeline.S3LocationProperty =
     CfnPipeline.S3LocationProperty.Builder().apply(initializer).build()

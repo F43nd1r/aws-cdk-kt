@@ -9,18 +9,13 @@ import software.amazon.awscdk.services.greengrass.CfnConnectorDefinitionVersionP
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnConnectorDefinitionVersion(id: String,
-    props: CfnConnectorDefinitionVersionProps): CfnConnectorDefinitionVersion =
-    CfnConnectorDefinitionVersion(this, id, props)
-
-@Generated
 public fun Construct.cfnConnectorDefinitionVersion(
   id: String,
   props: CfnConnectorDefinitionVersionProps,
-  initializer: @AwsCdkDsl CfnConnectorDefinitionVersion.() -> Unit,
+  initializer: @AwsCdkDsl CfnConnectorDefinitionVersion.() -> Unit = {},
 ): CfnConnectorDefinitionVersion = CfnConnectorDefinitionVersion(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnConnectorDefinitionVersion(id: String, initializer: @AwsCdkDsl
-    CfnConnectorDefinitionVersion.Builder.() -> Unit): CfnConnectorDefinitionVersion =
+    CfnConnectorDefinitionVersion.Builder.() -> Unit = {}): CfnConnectorDefinitionVersion =
     CfnConnectorDefinitionVersion.Builder.create(this, id).apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.TargetGroupAttribu
 
 @Generated
 public fun buildTargetGroupAttributes(initializer: @AwsCdkDsl
-    TargetGroupAttributes.Builder.() -> Unit): TargetGroupAttributes =
+    TargetGroupAttributes.Builder.() -> Unit = {}): TargetGroupAttributes =
     TargetGroupAttributes.Builder().apply(initializer).build()

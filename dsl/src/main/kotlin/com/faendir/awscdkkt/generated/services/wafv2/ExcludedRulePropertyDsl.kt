@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
 public fun buildExcludedRuleProperty(initializer: @AwsCdkDsl
-    CfnWebACL.ExcludedRuleProperty.Builder.() -> Unit): CfnWebACL.ExcludedRuleProperty =
+    CfnWebACL.ExcludedRuleProperty.Builder.() -> Unit = {}): CfnWebACL.ExcludedRuleProperty =
     CfnWebACL.ExcludedRuleProperty.Builder().apply(initializer).build()

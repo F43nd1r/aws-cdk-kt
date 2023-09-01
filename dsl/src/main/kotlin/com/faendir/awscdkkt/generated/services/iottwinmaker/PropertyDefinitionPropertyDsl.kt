@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iottwinmaker.CfnComponentType
 
 @Generated
 public fun buildPropertyDefinitionProperty(initializer: @AwsCdkDsl
-    CfnComponentType.PropertyDefinitionProperty.Builder.() -> Unit):
+    CfnComponentType.PropertyDefinitionProperty.Builder.() -> Unit = {}):
     CfnComponentType.PropertyDefinitionProperty =
     CfnComponentType.PropertyDefinitionProperty.Builder().apply(initializer).build()

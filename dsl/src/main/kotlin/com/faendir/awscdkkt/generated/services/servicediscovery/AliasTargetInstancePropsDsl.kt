@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.servicediscovery.AliasTargetInstanceProps
 
 @Generated
 public fun buildAliasTargetInstanceProps(initializer: @AwsCdkDsl
-    AliasTargetInstanceProps.Builder.() -> Unit): AliasTargetInstanceProps =
+    AliasTargetInstanceProps.Builder.() -> Unit = {}): AliasTargetInstanceProps =
     AliasTargetInstanceProps.Builder().apply(initializer).build()

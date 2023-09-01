@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.autoscaling.RequestCountScalingProps
 
 @Generated
 public fun buildRequestCountScalingProps(initializer: @AwsCdkDsl
-    RequestCountScalingProps.Builder.() -> Unit): RequestCountScalingProps =
+    RequestCountScalingProps.Builder.() -> Unit = {}): RequestCountScalingProps =
     RequestCountScalingProps.Builder().apply(initializer).build()

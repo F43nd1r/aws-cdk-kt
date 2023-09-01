@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ssm.CfnMaintenanceWindowTask
 
 @Generated
 public fun buildTaskInvocationParametersProperty(initializer: @AwsCdkDsl
-    CfnMaintenanceWindowTask.TaskInvocationParametersProperty.Builder.() -> Unit):
+    CfnMaintenanceWindowTask.TaskInvocationParametersProperty.Builder.() -> Unit = {}):
     CfnMaintenanceWindowTask.TaskInvocationParametersProperty =
     CfnMaintenanceWindowTask.TaskInvocationParametersProperty.Builder().apply(initializer).build()

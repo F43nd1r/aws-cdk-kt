@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildWordCloudChartConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.WordCloudChartConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.WordCloudChartConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.WordCloudChartConfigurationProperty =
     CfnTemplate.WordCloudChartConfigurationProperty.Builder().apply(initializer).build()

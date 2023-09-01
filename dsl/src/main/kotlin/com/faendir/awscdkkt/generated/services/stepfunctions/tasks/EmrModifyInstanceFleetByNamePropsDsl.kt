@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.EmrModifyInstanceFlee
 
 @Generated
 public fun buildEmrModifyInstanceFleetByNameProps(initializer: @AwsCdkDsl
-    EmrModifyInstanceFleetByNameProps.Builder.() -> Unit): EmrModifyInstanceFleetByNameProps =
+    EmrModifyInstanceFleetByNameProps.Builder.() -> Unit = {}): EmrModifyInstanceFleetByNameProps =
     EmrModifyInstanceFleetByNameProps.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.macie.CfnCustomDataIdentifierProps
 
 @Generated
 public fun buildCfnCustomDataIdentifierProps(initializer: @AwsCdkDsl
-    CfnCustomDataIdentifierProps.Builder.() -> Unit): CfnCustomDataIdentifierProps =
+    CfnCustomDataIdentifierProps.Builder.() -> Unit = {}): CfnCustomDataIdentifierProps =
     CfnCustomDataIdentifierProps.Builder().apply(initializer).build()

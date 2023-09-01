@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codepipeline.actions.CodeDeployEcsContain
 
 @Generated
 public fun buildCodeDeployEcsContainerImageInput(initializer: @AwsCdkDsl
-    CodeDeployEcsContainerImageInput.Builder.() -> Unit): CodeDeployEcsContainerImageInput =
+    CodeDeployEcsContainerImageInput.Builder.() -> Unit = {}): CodeDeployEcsContainerImageInput =
     CodeDeployEcsContainerImageInput.Builder().apply(initializer).build()

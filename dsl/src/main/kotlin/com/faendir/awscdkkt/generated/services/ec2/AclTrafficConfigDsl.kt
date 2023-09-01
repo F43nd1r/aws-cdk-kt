@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.AclTrafficConfig
 
 @Generated
-public fun buildAclTrafficConfig(initializer: @AwsCdkDsl AclTrafficConfig.Builder.() -> Unit):
+public fun buildAclTrafficConfig(initializer: @AwsCdkDsl AclTrafficConfig.Builder.() -> Unit = {}):
     AclTrafficConfig = AclTrafficConfig.Builder().apply(initializer).build()

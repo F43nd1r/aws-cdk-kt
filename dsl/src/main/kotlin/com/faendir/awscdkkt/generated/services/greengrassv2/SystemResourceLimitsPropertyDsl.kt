@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.greengrassv2.CfnDeployment
 
 @Generated
 public fun buildSystemResourceLimitsProperty(initializer: @AwsCdkDsl
-    CfnDeployment.SystemResourceLimitsProperty.Builder.() -> Unit):
+    CfnDeployment.SystemResourceLimitsProperty.Builder.() -> Unit = {}):
     CfnDeployment.SystemResourceLimitsProperty =
     CfnDeployment.SystemResourceLimitsProperty.Builder().apply(initializer).build()

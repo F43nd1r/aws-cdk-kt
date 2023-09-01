@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codepipeline.actions.GitHubSourceActionPr
 
 @Generated
 public fun buildGitHubSourceActionProps(initializer: @AwsCdkDsl
-    GitHubSourceActionProps.Builder.() -> Unit): GitHubSourceActionProps =
+    GitHubSourceActionProps.Builder.() -> Unit = {}): GitHubSourceActionProps =
     GitHubSourceActionProps.Builder().apply(initializer).build()

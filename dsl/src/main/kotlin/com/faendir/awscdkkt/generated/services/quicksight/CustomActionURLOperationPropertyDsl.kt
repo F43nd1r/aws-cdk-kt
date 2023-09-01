@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildCustomActionURLOperationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.CustomActionURLOperationProperty.Builder.() -> Unit):
+    CfnTemplate.CustomActionURLOperationProperty.Builder.() -> Unit = {}):
     CfnTemplate.CustomActionURLOperationProperty =
     CfnTemplate.CustomActionURLOperationProperty.Builder().apply(initializer).build()

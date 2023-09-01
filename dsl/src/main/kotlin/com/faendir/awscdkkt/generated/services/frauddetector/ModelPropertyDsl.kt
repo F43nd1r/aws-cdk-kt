@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.frauddetector.CfnDetector
 
 @Generated
-public fun buildModelProperty(initializer: @AwsCdkDsl CfnDetector.ModelProperty.Builder.() -> Unit):
-    CfnDetector.ModelProperty = CfnDetector.ModelProperty.Builder().apply(initializer).build()
+public fun buildModelProperty(initializer: @AwsCdkDsl CfnDetector.ModelProperty.Builder.() -> Unit =
+    {}): CfnDetector.ModelProperty = CfnDetector.ModelProperty.Builder().apply(initializer).build()

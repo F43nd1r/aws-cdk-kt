@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
 public fun buildConditionProperty(initializer: @AwsCdkDsl
-    CfnBot.ConditionProperty.Builder.() -> Unit): CfnBot.ConditionProperty =
+    CfnBot.ConditionProperty.Builder.() -> Unit = {}): CfnBot.ConditionProperty =
     CfnBot.ConditionProperty.Builder().apply(initializer).build()

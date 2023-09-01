@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnNetworkInsightsAnalysis
 
 @Generated
 public fun buildAnalysisPacketHeaderProperty(initializer: @AwsCdkDsl
-    CfnNetworkInsightsAnalysis.AnalysisPacketHeaderProperty.Builder.() -> Unit):
+    CfnNetworkInsightsAnalysis.AnalysisPacketHeaderProperty.Builder.() -> Unit = {}):
     CfnNetworkInsightsAnalysis.AnalysisPacketHeaderProperty =
     CfnNetworkInsightsAnalysis.AnalysisPacketHeaderProperty.Builder().apply(initializer).build()

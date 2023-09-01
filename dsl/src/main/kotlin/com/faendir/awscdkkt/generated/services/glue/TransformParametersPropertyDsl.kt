@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.glue.CfnMLTransform
 
 @Generated
 public fun buildTransformParametersProperty(initializer: @AwsCdkDsl
-    CfnMLTransform.TransformParametersProperty.Builder.() -> Unit):
+    CfnMLTransform.TransformParametersProperty.Builder.() -> Unit = {}):
     CfnMLTransform.TransformParametersProperty =
     CfnMLTransform.TransformParametersProperty.Builder().apply(initializer).build()

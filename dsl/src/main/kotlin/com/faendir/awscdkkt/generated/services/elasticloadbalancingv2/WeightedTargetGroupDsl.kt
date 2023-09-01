@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.WeightedTargetGroup
 
 @Generated
-public fun buildWeightedTargetGroup(initializer: @AwsCdkDsl WeightedTargetGroup.Builder.() -> Unit):
-    WeightedTargetGroup = WeightedTargetGroup.Builder().apply(initializer).build()
+public fun buildWeightedTargetGroup(initializer: @AwsCdkDsl WeightedTargetGroup.Builder.() -> Unit =
+    {}): WeightedTargetGroup = WeightedTargetGroup.Builder().apply(initializer).build()

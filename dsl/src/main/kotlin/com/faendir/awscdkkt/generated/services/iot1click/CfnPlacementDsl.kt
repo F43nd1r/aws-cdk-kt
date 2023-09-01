@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.iot1click.CfnPlacementProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnPlacement(id: String, props: CfnPlacementProps): CfnPlacement =
-    CfnPlacement(this, id, props)
-
-@Generated
 public fun Construct.cfnPlacement(
   id: String,
   props: CfnPlacementProps,
-  initializer: @AwsCdkDsl CfnPlacement.() -> Unit,
+  initializer: @AwsCdkDsl CfnPlacement.() -> Unit = {},
 ): CfnPlacement = CfnPlacement(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnPlacement(id: String, initializer: @AwsCdkDsl
-    CfnPlacement.Builder.() -> Unit): CfnPlacement = CfnPlacement.Builder.create(this,
+    CfnPlacement.Builder.() -> Unit = {}): CfnPlacement = CfnPlacement.Builder.create(this,
     id).apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lakeformation.CfnDataLakeSettingsProps
 
 @Generated
 public fun buildCfnDataLakeSettingsProps(initializer: @AwsCdkDsl
-    CfnDataLakeSettingsProps.Builder.() -> Unit): CfnDataLakeSettingsProps =
+    CfnDataLakeSettingsProps.Builder.() -> Unit = {}): CfnDataLakeSettingsProps =
     CfnDataLakeSettingsProps.Builder().apply(initializer).build()

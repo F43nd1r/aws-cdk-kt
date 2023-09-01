@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.networkfirewall.CfnLoggingConfiguration
 
 @Generated
 public fun buildLoggingConfigurationProperty(initializer: @AwsCdkDsl
-    CfnLoggingConfiguration.LoggingConfigurationProperty.Builder.() -> Unit):
+    CfnLoggingConfiguration.LoggingConfigurationProperty.Builder.() -> Unit = {}):
     CfnLoggingConfiguration.LoggingConfigurationProperty =
     CfnLoggingConfiguration.LoggingConfigurationProperty.Builder().apply(initializer).build()

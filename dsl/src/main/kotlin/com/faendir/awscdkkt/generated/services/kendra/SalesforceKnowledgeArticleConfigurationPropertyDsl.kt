@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kendra.CfnDataSource
 
 @Generated
 public fun buildSalesforceKnowledgeArticleConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.SalesforceKnowledgeArticleConfigurationProperty.Builder.() -> Unit):
+    CfnDataSource.SalesforceKnowledgeArticleConfigurationProperty.Builder.() -> Unit = {}):
     CfnDataSource.SalesforceKnowledgeArticleConfigurationProperty =
     CfnDataSource.SalesforceKnowledgeArticleConfigurationProperty.Builder().apply(initializer).build()

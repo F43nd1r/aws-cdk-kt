@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.omics.CfnVariantStore
 
 @Generated
 public fun buildReferenceItemProperty(initializer: @AwsCdkDsl
-    CfnVariantStore.ReferenceItemProperty.Builder.() -> Unit): CfnVariantStore.ReferenceItemProperty
-    = CfnVariantStore.ReferenceItemProperty.Builder().apply(initializer).build()
+    CfnVariantStore.ReferenceItemProperty.Builder.() -> Unit = {}):
+    CfnVariantStore.ReferenceItemProperty =
+    CfnVariantStore.ReferenceItemProperty.Builder().apply(initializer).build()

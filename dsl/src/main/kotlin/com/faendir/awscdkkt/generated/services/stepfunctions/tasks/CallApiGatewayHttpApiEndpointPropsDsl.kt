@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.CallApiGatewayHttpApi
 
 @Generated
 public fun buildCallApiGatewayHttpApiEndpointProps(initializer: @AwsCdkDsl
-    CallApiGatewayHttpApiEndpointProps.Builder.() -> Unit): CallApiGatewayHttpApiEndpointProps =
-    CallApiGatewayHttpApiEndpointProps.Builder().apply(initializer).build()
+    CallApiGatewayHttpApiEndpointProps.Builder.() -> Unit = {}): CallApiGatewayHttpApiEndpointProps
+    = CallApiGatewayHttpApiEndpointProps.Builder().apply(initializer).build()

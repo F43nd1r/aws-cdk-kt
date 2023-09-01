@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iotanalytics.CfnDataset
 
 @Generated
 public fun buildContainerActionProperty(initializer: @AwsCdkDsl
-    CfnDataset.ContainerActionProperty.Builder.() -> Unit): CfnDataset.ContainerActionProperty =
-    CfnDataset.ContainerActionProperty.Builder().apply(initializer).build()
+    CfnDataset.ContainerActionProperty.Builder.() -> Unit = {}): CfnDataset.ContainerActionProperty
+    = CfnDataset.ContainerActionProperty.Builder().apply(initializer).build()

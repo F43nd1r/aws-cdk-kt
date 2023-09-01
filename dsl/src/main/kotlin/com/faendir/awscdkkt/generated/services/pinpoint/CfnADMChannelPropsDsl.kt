@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnADMChannelProps
 
 @Generated
-public fun buildCfnADMChannelProps(initializer: @AwsCdkDsl CfnADMChannelProps.Builder.() -> Unit):
-    CfnADMChannelProps = CfnADMChannelProps.Builder().apply(initializer).build()
+public fun buildCfnADMChannelProps(initializer: @AwsCdkDsl CfnADMChannelProps.Builder.() -> Unit =
+    {}): CfnADMChannelProps = CfnADMChannelProps.Builder().apply(initializer).build()

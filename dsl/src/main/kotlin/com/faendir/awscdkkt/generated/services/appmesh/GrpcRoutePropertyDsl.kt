@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appmesh.CfnRoute
 
 @Generated
 public fun buildGrpcRouteProperty(initializer: @AwsCdkDsl
-    CfnRoute.GrpcRouteProperty.Builder.() -> Unit): CfnRoute.GrpcRouteProperty =
+    CfnRoute.GrpcRouteProperty.Builder.() -> Unit = {}): CfnRoute.GrpcRouteProperty =
     CfnRoute.GrpcRouteProperty.Builder().apply(initializer).build()

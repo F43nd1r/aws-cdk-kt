@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.SourceConfig
 
 @Generated
-public fun buildSourceConfig(initializer: @AwsCdkDsl SourceConfig.Builder.() -> Unit): SourceConfig
-    = SourceConfig.Builder().apply(initializer).build()
+public fun buildSourceConfig(initializer: @AwsCdkDsl SourceConfig.Builder.() -> Unit = {}):
+    SourceConfig = SourceConfig.Builder().apply(initializer).build()

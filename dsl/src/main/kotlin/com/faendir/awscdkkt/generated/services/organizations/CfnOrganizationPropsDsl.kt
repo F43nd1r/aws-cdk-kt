@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.organizations.CfnOrganizationProps
 
 @Generated
-public fun buildCfnOrganizationProps(initializer: @AwsCdkDsl
-    CfnOrganizationProps.Builder.() -> Unit): CfnOrganizationProps =
-    CfnOrganizationProps.Builder().apply(initializer).build()
+public fun buildCfnOrganizationProps(initializer: @AwsCdkDsl CfnOrganizationProps.Builder.() -> Unit
+    = {}): CfnOrganizationProps = CfnOrganizationProps.Builder().apply(initializer).build()

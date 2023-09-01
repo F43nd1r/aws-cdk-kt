@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cloudtrail.CfnChannel
 
 @Generated
 public fun buildDestinationProperty(initializer: @AwsCdkDsl
-    CfnChannel.DestinationProperty.Builder.() -> Unit): CfnChannel.DestinationProperty =
+    CfnChannel.DestinationProperty.Builder.() -> Unit = {}): CfnChannel.DestinationProperty =
     CfnChannel.DestinationProperty.Builder().apply(initializer).build()

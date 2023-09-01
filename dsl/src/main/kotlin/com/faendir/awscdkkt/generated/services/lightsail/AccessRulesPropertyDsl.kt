@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lightsail.CfnBucket
 
 @Generated
 public fun buildAccessRulesProperty(initializer: @AwsCdkDsl
-    CfnBucket.AccessRulesProperty.Builder.() -> Unit): CfnBucket.AccessRulesProperty =
+    CfnBucket.AccessRulesProperty.Builder.() -> Unit = {}): CfnBucket.AccessRulesProperty =
     CfnBucket.AccessRulesProperty.Builder().apply(initializer).build()

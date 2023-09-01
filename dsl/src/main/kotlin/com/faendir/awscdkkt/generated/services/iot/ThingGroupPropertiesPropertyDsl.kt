@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iot.CfnThingGroup
 
 @Generated
 public fun buildThingGroupPropertiesProperty(initializer: @AwsCdkDsl
-    CfnThingGroup.ThingGroupPropertiesProperty.Builder.() -> Unit):
+    CfnThingGroup.ThingGroupPropertiesProperty.Builder.() -> Unit = {}):
     CfnThingGroup.ThingGroupPropertiesProperty =
     CfnThingGroup.ThingGroupPropertiesProperty.Builder().apply(initializer).build()

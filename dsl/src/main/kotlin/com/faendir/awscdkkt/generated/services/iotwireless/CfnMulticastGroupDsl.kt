@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.iotwireless.CfnMulticastGroupProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnMulticastGroup(id: String, props: CfnMulticastGroupProps): CfnMulticastGroup
-    = CfnMulticastGroup(this, id, props)
-
-@Generated
 public fun Construct.cfnMulticastGroup(
   id: String,
   props: CfnMulticastGroupProps,
-  initializer: @AwsCdkDsl CfnMulticastGroup.() -> Unit,
+  initializer: @AwsCdkDsl CfnMulticastGroup.() -> Unit = {},
 ): CfnMulticastGroup = CfnMulticastGroup(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnMulticastGroup(id: String, initializer: @AwsCdkDsl
-    CfnMulticastGroup.Builder.() -> Unit): CfnMulticastGroup =
+    CfnMulticastGroup.Builder.() -> Unit = {}): CfnMulticastGroup =
     CfnMulticastGroup.Builder.create(this, id).apply(initializer).build()

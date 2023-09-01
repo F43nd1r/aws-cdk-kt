@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildHistogramVisualProperty(initializer: @AwsCdkDsl
-    CfnTemplate.HistogramVisualProperty.Builder.() -> Unit): CfnTemplate.HistogramVisualProperty =
+    CfnTemplate.HistogramVisualProperty.Builder.() -> Unit = {}):
+    CfnTemplate.HistogramVisualProperty =
     CfnTemplate.HistogramVisualProperty.Builder().apply(initializer).build()

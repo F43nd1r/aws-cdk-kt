@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.JournaldLogDriverProps
 
 @Generated
 public fun buildJournaldLogDriverProps(initializer: @AwsCdkDsl
-    JournaldLogDriverProps.Builder.() -> Unit): JournaldLogDriverProps =
+    JournaldLogDriverProps.Builder.() -> Unit = {}): JournaldLogDriverProps =
     JournaldLogDriverProps.Builder().apply(initializer).build()

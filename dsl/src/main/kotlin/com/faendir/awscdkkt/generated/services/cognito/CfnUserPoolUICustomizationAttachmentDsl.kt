@@ -9,19 +9,15 @@ import software.amazon.awscdk.services.cognito.CfnUserPoolUICustomizationAttachm
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnUserPoolUICustomizationAttachment(id: String,
-    props: CfnUserPoolUICustomizationAttachmentProps): CfnUserPoolUICustomizationAttachment =
-    CfnUserPoolUICustomizationAttachment(this, id, props)
-
-@Generated
 public fun Construct.cfnUserPoolUICustomizationAttachment(
   id: String,
   props: CfnUserPoolUICustomizationAttachmentProps,
-  initializer: @AwsCdkDsl CfnUserPoolUICustomizationAttachment.() -> Unit,
+  initializer: @AwsCdkDsl CfnUserPoolUICustomizationAttachment.() -> Unit = {},
 ): CfnUserPoolUICustomizationAttachment = CfnUserPoolUICustomizationAttachment(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnUserPoolUICustomizationAttachment(id: String, initializer: @AwsCdkDsl
-    CfnUserPoolUICustomizationAttachment.Builder.() -> Unit): CfnUserPoolUICustomizationAttachment =
-    CfnUserPoolUICustomizationAttachment.Builder.create(this, id).apply(initializer).build()
+    CfnUserPoolUICustomizationAttachment.Builder.() -> Unit = {}):
+    CfnUserPoolUICustomizationAttachment = CfnUserPoolUICustomizationAttachment.Builder.create(this,
+    id).apply(initializer).build()

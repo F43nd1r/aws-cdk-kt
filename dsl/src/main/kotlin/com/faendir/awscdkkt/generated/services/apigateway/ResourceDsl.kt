@@ -9,16 +9,12 @@ import software.amazon.awscdk.services.apigateway.ResourceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.resource(id: String, props: ResourceProps): Resource = Resource(this, id,
-    props)
-
-@Generated
 public fun Construct.resource(
   id: String,
   props: ResourceProps,
-  initializer: @AwsCdkDsl Resource.() -> Unit,
+  initializer: @AwsCdkDsl Resource.() -> Unit = {},
 ): Resource = Resource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildResource(id: String, initializer: @AwsCdkDsl Resource.Builder.() -> Unit):
-    Resource = Resource.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildResource(id: String, initializer: @AwsCdkDsl Resource.Builder.() -> Unit =
+    {}): Resource = Resource.Builder.create(this, id).apply(initializer).build()

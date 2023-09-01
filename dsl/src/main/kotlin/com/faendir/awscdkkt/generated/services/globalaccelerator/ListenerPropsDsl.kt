@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.globalaccelerator.ListenerProps
 
 @Generated
-public fun buildListenerProps(initializer: @AwsCdkDsl ListenerProps.Builder.() -> Unit):
+public fun buildListenerProps(initializer: @AwsCdkDsl ListenerProps.Builder.() -> Unit = {}):
     ListenerProps = ListenerProps.Builder().apply(initializer).build()

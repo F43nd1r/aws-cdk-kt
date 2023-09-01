@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnWorkteam
 
 @Generated
 public fun buildOidcMemberDefinitionProperty(initializer: @AwsCdkDsl
-    CfnWorkteam.OidcMemberDefinitionProperty.Builder.() -> Unit):
+    CfnWorkteam.OidcMemberDefinitionProperty.Builder.() -> Unit = {}):
     CfnWorkteam.OidcMemberDefinitionProperty =
     CfnWorkteam.OidcMemberDefinitionProperty.Builder().apply(initializer).build()

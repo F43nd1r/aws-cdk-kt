@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lookoutmetrics.CfnAlert
 
 @Generated
 public fun buildSNSConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAlert.SNSConfigurationProperty.Builder.() -> Unit): CfnAlert.SNSConfigurationProperty =
+    CfnAlert.SNSConfigurationProperty.Builder.() -> Unit = {}): CfnAlert.SNSConfigurationProperty =
     CfnAlert.SNSConfigurationProperty.Builder().apply(initializer).build()

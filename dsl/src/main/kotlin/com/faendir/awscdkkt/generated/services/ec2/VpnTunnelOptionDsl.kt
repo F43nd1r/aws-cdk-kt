@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.VpnTunnelOption
 
 @Generated
-public fun buildVpnTunnelOption(initializer: @AwsCdkDsl VpnTunnelOption.Builder.() -> Unit):
+public fun buildVpnTunnelOption(initializer: @AwsCdkDsl VpnTunnelOption.Builder.() -> Unit = {}):
     VpnTunnelOption = VpnTunnelOption.Builder().apply(initializer).build()

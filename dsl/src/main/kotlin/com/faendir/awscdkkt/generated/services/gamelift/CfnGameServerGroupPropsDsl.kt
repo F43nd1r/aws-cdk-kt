@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.gamelift.CfnGameServerGroupProps
 
 @Generated
 public fun buildCfnGameServerGroupProps(initializer: @AwsCdkDsl
-    CfnGameServerGroupProps.Builder.() -> Unit): CfnGameServerGroupProps =
+    CfnGameServerGroupProps.Builder.() -> Unit = {}): CfnGameServerGroupProps =
     CfnGameServerGroupProps.Builder().apply(initializer).build()

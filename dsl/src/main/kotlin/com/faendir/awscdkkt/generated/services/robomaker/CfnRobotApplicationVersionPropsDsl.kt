@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.robomaker.CfnRobotApplicationVersionProps
 
 @Generated
 public fun buildCfnRobotApplicationVersionProps(initializer: @AwsCdkDsl
-    CfnRobotApplicationVersionProps.Builder.() -> Unit): CfnRobotApplicationVersionProps =
+    CfnRobotApplicationVersionProps.Builder.() -> Unit = {}): CfnRobotApplicationVersionProps =
     CfnRobotApplicationVersionProps.Builder().apply(initializer).build()

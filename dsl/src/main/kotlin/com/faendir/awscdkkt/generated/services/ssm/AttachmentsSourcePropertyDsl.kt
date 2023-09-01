@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.ssm.CfnDocument
 
 @Generated
 public fun buildAttachmentsSourceProperty(initializer: @AwsCdkDsl
-    CfnDocument.AttachmentsSourceProperty.Builder.() -> Unit): CfnDocument.AttachmentsSourceProperty
-    = CfnDocument.AttachmentsSourceProperty.Builder().apply(initializer).build()
+    CfnDocument.AttachmentsSourceProperty.Builder.() -> Unit = {}):
+    CfnDocument.AttachmentsSourceProperty =
+    CfnDocument.AttachmentsSourceProperty.Builder().apply(initializer).build()

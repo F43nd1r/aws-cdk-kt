@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.connect.CfnApprovedOriginProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnApprovedOrigin(id: String, props: CfnApprovedOriginProps): CfnApprovedOrigin
-    = CfnApprovedOrigin(this, id, props)
-
-@Generated
 public fun Construct.cfnApprovedOrigin(
   id: String,
   props: CfnApprovedOriginProps,
-  initializer: @AwsCdkDsl CfnApprovedOrigin.() -> Unit,
+  initializer: @AwsCdkDsl CfnApprovedOrigin.() -> Unit = {},
 ): CfnApprovedOrigin = CfnApprovedOrigin(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnApprovedOrigin(id: String, initializer: @AwsCdkDsl
-    CfnApprovedOrigin.Builder.() -> Unit): CfnApprovedOrigin =
+    CfnApprovedOrigin.Builder.() -> Unit = {}): CfnApprovedOrigin =
     CfnApprovedOrigin.Builder.create(this, id).apply(initializer).build()

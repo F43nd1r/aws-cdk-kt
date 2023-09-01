@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.ResourceBindOptions
 
 @Generated
-public fun buildResourceBindOptions(initializer: @AwsCdkDsl ResourceBindOptions.Builder.() -> Unit):
-    ResourceBindOptions = ResourceBindOptions.Builder().apply(initializer).build()
+public fun buildResourceBindOptions(initializer: @AwsCdkDsl ResourceBindOptions.Builder.() -> Unit =
+    {}): ResourceBindOptions = ResourceBindOptions.Builder().apply(initializer).build()

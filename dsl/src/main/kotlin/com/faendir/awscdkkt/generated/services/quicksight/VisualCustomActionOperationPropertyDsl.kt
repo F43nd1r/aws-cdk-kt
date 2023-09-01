@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildVisualCustomActionOperationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.VisualCustomActionOperationProperty.Builder.() -> Unit):
+    CfnTemplate.VisualCustomActionOperationProperty.Builder.() -> Unit = {}):
     CfnTemplate.VisualCustomActionOperationProperty =
     CfnTemplate.VisualCustomActionOperationProperty.Builder().apply(initializer).build()

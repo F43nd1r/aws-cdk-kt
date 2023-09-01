@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codedeploy.CfnDeploymentGroup
 
 @Generated
 public fun buildELBInfoProperty(initializer: @AwsCdkDsl
-    CfnDeploymentGroup.ELBInfoProperty.Builder.() -> Unit): CfnDeploymentGroup.ELBInfoProperty =
-    CfnDeploymentGroup.ELBInfoProperty.Builder().apply(initializer).build()
+    CfnDeploymentGroup.ELBInfoProperty.Builder.() -> Unit = {}): CfnDeploymentGroup.ELBInfoProperty
+    = CfnDeploymentGroup.ELBInfoProperty.Builder().apply(initializer).build()

@@ -9,19 +9,14 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.ApplicationListene
 import software.constructs.Construct
 
 @Generated
-public fun Construct.applicationListenerCertificate(id: String,
-    props: ApplicationListenerCertificateProps): ApplicationListenerCertificate =
-    ApplicationListenerCertificate(this, id, props)
-
-@Generated
 public fun Construct.applicationListenerCertificate(
   id: String,
   props: ApplicationListenerCertificateProps,
-  initializer: @AwsCdkDsl ApplicationListenerCertificate.() -> Unit,
+  initializer: @AwsCdkDsl ApplicationListenerCertificate.() -> Unit = {},
 ): ApplicationListenerCertificate = ApplicationListenerCertificate(this, id,
     props).apply(initializer)
 
 @Generated
 public fun Construct.buildApplicationListenerCertificate(id: String, initializer: @AwsCdkDsl
-    ApplicationListenerCertificate.Builder.() -> Unit): ApplicationListenerCertificate =
+    ApplicationListenerCertificate.Builder.() -> Unit = {}): ApplicationListenerCertificate =
     ApplicationListenerCertificate.Builder.create(this, id).apply(initializer).build()

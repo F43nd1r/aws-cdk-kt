@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnPushTemplateProps
 
 @Generated
-public fun buildCfnPushTemplateProps(initializer: @AwsCdkDsl
-    CfnPushTemplateProps.Builder.() -> Unit): CfnPushTemplateProps =
-    CfnPushTemplateProps.Builder().apply(initializer).build()
+public fun buildCfnPushTemplateProps(initializer: @AwsCdkDsl CfnPushTemplateProps.Builder.() -> Unit
+    = {}): CfnPushTemplateProps = CfnPushTemplateProps.Builder().apply(initializer).build()

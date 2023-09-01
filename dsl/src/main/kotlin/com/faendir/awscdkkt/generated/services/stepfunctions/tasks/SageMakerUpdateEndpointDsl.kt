@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.stepfunctions.tasks.SageMakerUpdateEndpoi
 import software.constructs.Construct
 
 @Generated
-public fun Construct.sageMakerUpdateEndpoint(id: String, props: SageMakerUpdateEndpointProps):
-    SageMakerUpdateEndpoint = SageMakerUpdateEndpoint(this, id, props)
-
-@Generated
 public fun Construct.sageMakerUpdateEndpoint(
   id: String,
   props: SageMakerUpdateEndpointProps,
-  initializer: @AwsCdkDsl SageMakerUpdateEndpoint.() -> Unit,
+  initializer: @AwsCdkDsl SageMakerUpdateEndpoint.() -> Unit = {},
 ): SageMakerUpdateEndpoint = SageMakerUpdateEndpoint(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildSageMakerUpdateEndpoint(id: String, initializer: @AwsCdkDsl
-    SageMakerUpdateEndpoint.Builder.() -> Unit): SageMakerUpdateEndpoint =
+    SageMakerUpdateEndpoint.Builder.() -> Unit = {}): SageMakerUpdateEndpoint =
     SageMakerUpdateEndpoint.Builder.create(this, id).apply(initializer).build()

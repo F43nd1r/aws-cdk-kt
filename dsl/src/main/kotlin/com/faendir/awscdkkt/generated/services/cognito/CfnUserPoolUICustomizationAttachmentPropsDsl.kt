@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cognito.CfnUserPoolUICustomizationAttachm
 
 @Generated
 public fun buildCfnUserPoolUICustomizationAttachmentProps(initializer: @AwsCdkDsl
-    CfnUserPoolUICustomizationAttachmentProps.Builder.() -> Unit):
+    CfnUserPoolUICustomizationAttachmentProps.Builder.() -> Unit = {}):
     CfnUserPoolUICustomizationAttachmentProps =
     CfnUserPoolUICustomizationAttachmentProps.Builder().apply(initializer).build()

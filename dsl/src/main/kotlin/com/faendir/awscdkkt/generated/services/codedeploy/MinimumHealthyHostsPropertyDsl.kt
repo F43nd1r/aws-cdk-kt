@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.codedeploy.CfnDeploymentConfig
 
 @Generated
 public fun buildMinimumHealthyHostsProperty(initializer: @AwsCdkDsl
-    CfnDeploymentConfig.MinimumHealthyHostsProperty.Builder.() -> Unit):
+    CfnDeploymentConfig.MinimumHealthyHostsProperty.Builder.() -> Unit = {}):
     CfnDeploymentConfig.MinimumHealthyHostsProperty =
     CfnDeploymentConfig.MinimumHealthyHostsProperty.Builder().apply(initializer).build()

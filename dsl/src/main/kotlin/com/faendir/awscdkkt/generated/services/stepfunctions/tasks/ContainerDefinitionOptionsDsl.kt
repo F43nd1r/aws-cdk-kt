@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.ContainerDefinitionOp
 
 @Generated
 public fun buildContainerDefinitionOptions(initializer: @AwsCdkDsl
-    ContainerDefinitionOptions.Builder.() -> Unit): ContainerDefinitionOptions =
+    ContainerDefinitionOptions.Builder.() -> Unit = {}): ContainerDefinitionOptions =
     ContainerDefinitionOptions.Builder().apply(initializer).build()

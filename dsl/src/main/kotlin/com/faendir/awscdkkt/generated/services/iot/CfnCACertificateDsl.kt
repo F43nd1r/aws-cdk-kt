@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.iot.CfnCACertificateProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnCACertificate(id: String, props: CfnCACertificateProps): CfnCACertificate =
-    CfnCACertificate(this, id, props)
-
-@Generated
 public fun Construct.cfnCACertificate(
   id: String,
   props: CfnCACertificateProps,
-  initializer: @AwsCdkDsl CfnCACertificate.() -> Unit,
+  initializer: @AwsCdkDsl CfnCACertificate.() -> Unit = {},
 ): CfnCACertificate = CfnCACertificate(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnCACertificate(id: String, initializer: @AwsCdkDsl
-    CfnCACertificate.Builder.() -> Unit): CfnCACertificate = CfnCACertificate.Builder.create(this,
-    id).apply(initializer).build()
+    CfnCACertificate.Builder.() -> Unit = {}): CfnCACertificate =
+    CfnCACertificate.Builder.create(this, id).apply(initializer).build()

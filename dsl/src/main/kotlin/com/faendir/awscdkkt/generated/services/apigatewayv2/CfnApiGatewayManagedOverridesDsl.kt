@@ -9,18 +9,13 @@ import software.amazon.awscdk.services.apigatewayv2.CfnApiGatewayManagedOverride
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnApiGatewayManagedOverrides(id: String,
-    props: CfnApiGatewayManagedOverridesProps): CfnApiGatewayManagedOverrides =
-    CfnApiGatewayManagedOverrides(this, id, props)
-
-@Generated
 public fun Construct.cfnApiGatewayManagedOverrides(
   id: String,
   props: CfnApiGatewayManagedOverridesProps,
-  initializer: @AwsCdkDsl CfnApiGatewayManagedOverrides.() -> Unit,
+  initializer: @AwsCdkDsl CfnApiGatewayManagedOverrides.() -> Unit = {},
 ): CfnApiGatewayManagedOverrides = CfnApiGatewayManagedOverrides(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnApiGatewayManagedOverrides(id: String, initializer: @AwsCdkDsl
-    CfnApiGatewayManagedOverrides.Builder.() -> Unit): CfnApiGatewayManagedOverrides =
+    CfnApiGatewayManagedOverrides.Builder.() -> Unit = {}): CfnApiGatewayManagedOverrides =
     CfnApiGatewayManagedOverrides.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,6 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appconfig.CfnEnvironment
 
 @Generated
-public fun buildTagsProperty(initializer: @AwsCdkDsl
-    CfnEnvironment.TagsProperty.Builder.() -> Unit): CfnEnvironment.TagsProperty =
+public fun buildTagsProperty(initializer: @AwsCdkDsl CfnEnvironment.TagsProperty.Builder.() -> Unit
+    = {}): CfnEnvironment.TagsProperty =
     CfnEnvironment.TagsProperty.Builder().apply(initializer).build()

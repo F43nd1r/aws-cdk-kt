@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.comprehend.CfnDocumentClassifier
 
 @Generated
 public fun buildDocumentReaderConfigProperty(initializer: @AwsCdkDsl
-    CfnDocumentClassifier.DocumentReaderConfigProperty.Builder.() -> Unit):
+    CfnDocumentClassifier.DocumentReaderConfigProperty.Builder.() -> Unit = {}):
     CfnDocumentClassifier.DocumentReaderConfigProperty =
     CfnDocumentClassifier.DocumentReaderConfigProperty.Builder().apply(initializer).build()

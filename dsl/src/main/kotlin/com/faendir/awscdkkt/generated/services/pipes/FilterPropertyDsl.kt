@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildFilterProperty(initializer: @AwsCdkDsl CfnPipe.FilterProperty.Builder.() -> Unit):
-    CfnPipe.FilterProperty = CfnPipe.FilterProperty.Builder().apply(initializer).build()
+public fun buildFilterProperty(initializer: @AwsCdkDsl CfnPipe.FilterProperty.Builder.() -> Unit =
+    {}): CfnPipe.FilterProperty = CfnPipe.FilterProperty.Builder().apply(initializer).build()

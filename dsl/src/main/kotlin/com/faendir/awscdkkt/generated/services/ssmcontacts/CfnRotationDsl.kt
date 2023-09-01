@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.ssmcontacts.CfnRotationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnRotation(id: String, props: CfnRotationProps): CfnRotation =
-    CfnRotation(this, id, props)
-
-@Generated
 public fun Construct.cfnRotation(
   id: String,
   props: CfnRotationProps,
-  initializer: @AwsCdkDsl CfnRotation.() -> Unit,
+  initializer: @AwsCdkDsl CfnRotation.() -> Unit = {},
 ): CfnRotation = CfnRotation(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnRotation(id: String, initializer: @AwsCdkDsl
-    CfnRotation.Builder.() -> Unit): CfnRotation = CfnRotation.Builder.create(this,
+    CfnRotation.Builder.() -> Unit = {}): CfnRotation = CfnRotation.Builder.create(this,
     id).apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.omics.CfnVariantStore
 
 @Generated
 public fun buildSseConfigProperty(initializer: @AwsCdkDsl
-    CfnVariantStore.SseConfigProperty.Builder.() -> Unit): CfnVariantStore.SseConfigProperty =
+    CfnVariantStore.SseConfigProperty.Builder.() -> Unit = {}): CfnVariantStore.SseConfigProperty =
     CfnVariantStore.SseConfigProperty.Builder().apply(initializer).build()

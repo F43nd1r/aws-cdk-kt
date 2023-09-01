@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.connect.CfnRule
 
 @Generated
 public fun buildRuleTriggerEventSourceProperty(initializer: @AwsCdkDsl
-    CfnRule.RuleTriggerEventSourceProperty.Builder.() -> Unit):
+    CfnRule.RuleTriggerEventSourceProperty.Builder.() -> Unit = {}):
     CfnRule.RuleTriggerEventSourceProperty =
     CfnRule.RuleTriggerEventSourceProperty.Builder().apply(initializer).build()

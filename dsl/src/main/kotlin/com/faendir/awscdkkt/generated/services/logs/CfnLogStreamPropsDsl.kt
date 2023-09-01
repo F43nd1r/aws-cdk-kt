@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnLogStreamProps
 
 @Generated
-public fun buildCfnLogStreamProps(initializer: @AwsCdkDsl CfnLogStreamProps.Builder.() -> Unit):
-    CfnLogStreamProps = CfnLogStreamProps.Builder().apply(initializer).build()
+public fun buildCfnLogStreamProps(initializer: @AwsCdkDsl CfnLogStreamProps.Builder.() -> Unit =
+    {}): CfnLogStreamProps = CfnLogStreamProps.Builder().apply(initializer).build()

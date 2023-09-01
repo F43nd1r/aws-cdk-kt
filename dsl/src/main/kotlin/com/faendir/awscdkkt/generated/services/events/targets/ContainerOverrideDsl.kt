@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.targets.ContainerOverride
 
 @Generated
-public fun buildContainerOverride(initializer: @AwsCdkDsl ContainerOverride.Builder.() -> Unit):
-    ContainerOverride = ContainerOverride.Builder().apply(initializer).build()
+public fun buildContainerOverride(initializer: @AwsCdkDsl ContainerOverride.Builder.() -> Unit =
+    {}): ContainerOverride = ContainerOverride.Builder().apply(initializer).build()

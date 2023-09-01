@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.iotfleetwise.CfnModelManifestProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnModelManifest(id: String, props: CfnModelManifestProps): CfnModelManifest =
-    CfnModelManifest(this, id, props)
-
-@Generated
 public fun Construct.cfnModelManifest(
   id: String,
   props: CfnModelManifestProps,
-  initializer: @AwsCdkDsl CfnModelManifest.() -> Unit,
+  initializer: @AwsCdkDsl CfnModelManifest.() -> Unit = {},
 ): CfnModelManifest = CfnModelManifest(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnModelManifest(id: String, initializer: @AwsCdkDsl
-    CfnModelManifest.Builder.() -> Unit): CfnModelManifest = CfnModelManifest.Builder.create(this,
-    id).apply(initializer).build()
+    CfnModelManifest.Builder.() -> Unit = {}): CfnModelManifest =
+    CfnModelManifest.Builder.create(this, id).apply(initializer).build()

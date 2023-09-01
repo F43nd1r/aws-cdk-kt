@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.rds.InstanceEngineBindOptions
 
 @Generated
 public fun buildInstanceEngineBindOptions(initializer: @AwsCdkDsl
-    InstanceEngineBindOptions.Builder.() -> Unit): InstanceEngineBindOptions =
+    InstanceEngineBindOptions.Builder.() -> Unit = {}): InstanceEngineBindOptions =
     InstanceEngineBindOptions.Builder().apply(initializer).build()

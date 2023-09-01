@@ -9,18 +9,13 @@ import software.amazon.awscdk.services.stepfunctions.tasks.StepFunctionsInvokeAc
 import software.constructs.Construct
 
 @Generated
-public fun Construct.stepFunctionsInvokeActivity(id: String,
-    props: StepFunctionsInvokeActivityProps): StepFunctionsInvokeActivity =
-    StepFunctionsInvokeActivity(this, id, props)
-
-@Generated
 public fun Construct.stepFunctionsInvokeActivity(
   id: String,
   props: StepFunctionsInvokeActivityProps,
-  initializer: @AwsCdkDsl StepFunctionsInvokeActivity.() -> Unit,
+  initializer: @AwsCdkDsl StepFunctionsInvokeActivity.() -> Unit = {},
 ): StepFunctionsInvokeActivity = StepFunctionsInvokeActivity(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildStepFunctionsInvokeActivity(id: String, initializer: @AwsCdkDsl
-    StepFunctionsInvokeActivity.Builder.() -> Unit): StepFunctionsInvokeActivity =
+    StepFunctionsInvokeActivity.Builder.() -> Unit = {}): StepFunctionsInvokeActivity =
     StepFunctionsInvokeActivity.Builder.create(this, id).apply(initializer).build()

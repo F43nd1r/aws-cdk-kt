@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
 public fun buildSampleValueProperty(initializer: @AwsCdkDsl
-    CfnBot.SampleValueProperty.Builder.() -> Unit): CfnBot.SampleValueProperty =
+    CfnBot.SampleValueProperty.Builder.() -> Unit = {}): CfnBot.SampleValueProperty =
     CfnBot.SampleValueProperty.Builder().apply(initializer).build()

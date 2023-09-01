@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.codepipeline.actions.CodeStarConnectionsS
 
 @Generated
 public fun buildCodeStarConnectionsSourceActionProps(initializer: @AwsCdkDsl
-    CodeStarConnectionsSourceActionProps.Builder.() -> Unit): CodeStarConnectionsSourceActionProps =
+    CodeStarConnectionsSourceActionProps.Builder.() -> Unit = {}):
+    CodeStarConnectionsSourceActionProps =
     CodeStarConnectionsSourceActionProps.Builder().apply(initializer).build()

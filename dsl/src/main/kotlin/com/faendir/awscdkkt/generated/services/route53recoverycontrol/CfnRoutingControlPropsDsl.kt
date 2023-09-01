@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.route53recoverycontrol.CfnRoutingControlP
 
 @Generated
 public fun buildCfnRoutingControlProps(initializer: @AwsCdkDsl
-    CfnRoutingControlProps.Builder.() -> Unit): CfnRoutingControlProps =
+    CfnRoutingControlProps.Builder.() -> Unit = {}): CfnRoutingControlProps =
     CfnRoutingControlProps.Builder().apply(initializer).build()

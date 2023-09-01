@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicecatalog.PortfolioProps
 
 @Generated
-public fun buildPortfolioProps(initializer: @AwsCdkDsl PortfolioProps.Builder.() -> Unit):
+public fun buildPortfolioProps(initializer: @AwsCdkDsl PortfolioProps.Builder.() -> Unit = {}):
     PortfolioProps = PortfolioProps.Builder().apply(initializer).build()

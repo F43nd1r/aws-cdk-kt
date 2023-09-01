@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
 public fun buildAudioLanguageSelectionProperty(initializer: @AwsCdkDsl
-    CfnChannel.AudioLanguageSelectionProperty.Builder.() -> Unit):
+    CfnChannel.AudioLanguageSelectionProperty.Builder.() -> Unit = {}):
     CfnChannel.AudioLanguageSelectionProperty =
     CfnChannel.AudioLanguageSelectionProperty.Builder().apply(initializer).build()

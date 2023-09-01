@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.pipelines.FileSetLocation
 
 @Generated
-public fun buildFileSetLocation(initializer: @AwsCdkDsl FileSetLocation.Builder.() -> Unit):
+public fun buildFileSetLocation(initializer: @AwsCdkDsl FileSetLocation.Builder.() -> Unit = {}):
     FileSetLocation = FileSetLocation.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.route53.HostedZoneProviderProps
 
 @Generated
 public fun buildHostedZoneProviderProps(initializer: @AwsCdkDsl
-    HostedZoneProviderProps.Builder.() -> Unit): HostedZoneProviderProps =
+    HostedZoneProviderProps.Builder.() -> Unit = {}): HostedZoneProviderProps =
     HostedZoneProviderProps.Builder().apply(initializer).build()

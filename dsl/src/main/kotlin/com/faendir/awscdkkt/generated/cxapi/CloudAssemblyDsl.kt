@@ -8,5 +8,5 @@ import software.amazon.awscdk.cxapi.CloudAssembly
 
 @Generated
 public fun buildCloudAssembly(directory: String, initializer: @AwsCdkDsl
-    CloudAssembly.Builder.() -> Unit): CloudAssembly =
+    CloudAssembly.Builder.() -> Unit = {}): CloudAssembly =
     CloudAssembly.Builder.create(directory).apply(initializer).build()

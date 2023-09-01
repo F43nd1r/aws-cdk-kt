@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.networkmanager.CfnSiteToSiteVpnAttachment
 
 @Generated
 public fun buildCfnSiteToSiteVpnAttachmentProps(initializer: @AwsCdkDsl
-    CfnSiteToSiteVpnAttachmentProps.Builder.() -> Unit): CfnSiteToSiteVpnAttachmentProps =
+    CfnSiteToSiteVpnAttachmentProps.Builder.() -> Unit = {}): CfnSiteToSiteVpnAttachmentProps =
     CfnSiteToSiteVpnAttachmentProps.Builder().apply(initializer).build()

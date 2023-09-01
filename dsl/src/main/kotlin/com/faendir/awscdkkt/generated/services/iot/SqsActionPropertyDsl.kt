@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iot.CfnTopicRule
 
 @Generated
 public fun buildSqsActionProperty(initializer: @AwsCdkDsl
-    CfnTopicRule.SqsActionProperty.Builder.() -> Unit): CfnTopicRule.SqsActionProperty =
+    CfnTopicRule.SqsActionProperty.Builder.() -> Unit = {}): CfnTopicRule.SqsActionProperty =
     CfnTopicRule.SqsActionProperty.Builder().apply(initializer).build()

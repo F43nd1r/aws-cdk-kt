@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.fis.CfnExperimentTemplate
 
 @Generated
 public fun buildExperimentTemplateTargetProperty(initializer: @AwsCdkDsl
-    CfnExperimentTemplate.ExperimentTemplateTargetProperty.Builder.() -> Unit):
+    CfnExperimentTemplate.ExperimentTemplateTargetProperty.Builder.() -> Unit = {}):
     CfnExperimentTemplate.ExperimentTemplateTargetProperty =
     CfnExperimentTemplate.ExperimentTemplateTargetProperty.Builder().apply(initializer).build()

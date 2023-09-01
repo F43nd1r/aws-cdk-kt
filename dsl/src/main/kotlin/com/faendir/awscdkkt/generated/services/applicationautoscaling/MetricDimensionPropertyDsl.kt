@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.applicationautoscaling.CfnScalingPolicy
 
 @Generated
 public fun buildMetricDimensionProperty(initializer: @AwsCdkDsl
-    CfnScalingPolicy.MetricDimensionProperty.Builder.() -> Unit):
+    CfnScalingPolicy.MetricDimensionProperty.Builder.() -> Unit = {}):
     CfnScalingPolicy.MetricDimensionProperty =
     CfnScalingPolicy.MetricDimensionProperty.Builder().apply(initializer).build()

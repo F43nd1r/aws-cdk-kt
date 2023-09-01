@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.devopsguru.CfnNotificationChannel
 
 @Generated
 public fun buildSnsChannelConfigProperty(initializer: @AwsCdkDsl
-    CfnNotificationChannel.SnsChannelConfigProperty.Builder.() -> Unit):
+    CfnNotificationChannel.SnsChannelConfigProperty.Builder.() -> Unit = {}):
     CfnNotificationChannel.SnsChannelConfigProperty =
     CfnNotificationChannel.SnsChannelConfigProperty.Builder().apply(initializer).build()

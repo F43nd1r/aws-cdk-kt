@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.quicksight.CfnAnalysisProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnAnalysis(id: String, props: CfnAnalysisProps): CfnAnalysis =
-    CfnAnalysis(this, id, props)
-
-@Generated
 public fun Construct.cfnAnalysis(
   id: String,
   props: CfnAnalysisProps,
-  initializer: @AwsCdkDsl CfnAnalysis.() -> Unit,
+  initializer: @AwsCdkDsl CfnAnalysis.() -> Unit = {},
 ): CfnAnalysis = CfnAnalysis(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnAnalysis(id: String, initializer: @AwsCdkDsl
-    CfnAnalysis.Builder.() -> Unit): CfnAnalysis = CfnAnalysis.Builder.create(this,
+    CfnAnalysis.Builder.() -> Unit = {}): CfnAnalysis = CfnAnalysis.Builder.create(this,
     id).apply(initializer).build()

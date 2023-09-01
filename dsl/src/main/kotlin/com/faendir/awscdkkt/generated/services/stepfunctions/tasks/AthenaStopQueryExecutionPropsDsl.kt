@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.AthenaStopQueryExecut
 
 @Generated
 public fun buildAthenaStopQueryExecutionProps(initializer: @AwsCdkDsl
-    AthenaStopQueryExecutionProps.Builder.() -> Unit): AthenaStopQueryExecutionProps =
+    AthenaStopQueryExecutionProps.Builder.() -> Unit = {}): AthenaStopQueryExecutionProps =
     AthenaStopQueryExecutionProps.Builder().apply(initializer).build()

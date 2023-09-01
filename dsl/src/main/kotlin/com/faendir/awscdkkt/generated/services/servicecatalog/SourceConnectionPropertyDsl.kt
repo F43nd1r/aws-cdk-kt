@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.servicecatalog.CfnCloudFormationProduct
 
 @Generated
 public fun buildSourceConnectionProperty(initializer: @AwsCdkDsl
-    CfnCloudFormationProduct.SourceConnectionProperty.Builder.() -> Unit):
+    CfnCloudFormationProduct.SourceConnectionProperty.Builder.() -> Unit = {}):
     CfnCloudFormationProduct.SourceConnectionProperty =
     CfnCloudFormationProduct.SourceConnectionProperty.Builder().apply(initializer).build()

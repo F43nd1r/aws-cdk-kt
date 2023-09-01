@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnNetworkPerformanceMetricSubscripti
 
 @Generated
 public fun buildCfnNetworkPerformanceMetricSubscriptionProps(initializer: @AwsCdkDsl
-    CfnNetworkPerformanceMetricSubscriptionProps.Builder.() -> Unit):
+    CfnNetworkPerformanceMetricSubscriptionProps.Builder.() -> Unit = {}):
     CfnNetworkPerformanceMetricSubscriptionProps =
     CfnNetworkPerformanceMetricSubscriptionProps.Builder().apply(initializer).build()

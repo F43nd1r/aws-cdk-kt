@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ecs.EfsVolumeConfiguration
 
 @Generated
 public fun buildEfsVolumeConfiguration(initializer: @AwsCdkDsl
-    EfsVolumeConfiguration.Builder.() -> Unit): EfsVolumeConfiguration =
+    EfsVolumeConfiguration.Builder.() -> Unit = {}): EfsVolumeConfiguration =
     EfsVolumeConfiguration.Builder().apply(initializer).build()

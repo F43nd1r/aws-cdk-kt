@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.eks.AutoScalingGroupCapacityOptions
 
 @Generated
 public fun buildAutoScalingGroupCapacityOptions(initializer: @AwsCdkDsl
-    AutoScalingGroupCapacityOptions.Builder.() -> Unit): AutoScalingGroupCapacityOptions =
+    AutoScalingGroupCapacityOptions.Builder.() -> Unit = {}): AutoScalingGroupCapacityOptions =
     AutoScalingGroupCapacityOptions.Builder().apply(initializer).build()

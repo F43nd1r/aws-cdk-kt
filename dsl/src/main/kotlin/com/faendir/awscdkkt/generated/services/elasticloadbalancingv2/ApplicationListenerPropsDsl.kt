@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.ApplicationListene
 
 @Generated
 public fun buildApplicationListenerProps(initializer: @AwsCdkDsl
-    ApplicationListenerProps.Builder.() -> Unit): ApplicationListenerProps =
+    ApplicationListenerProps.Builder.() -> Unit = {}): ApplicationListenerProps =
     ApplicationListenerProps.Builder().apply(initializer).build()

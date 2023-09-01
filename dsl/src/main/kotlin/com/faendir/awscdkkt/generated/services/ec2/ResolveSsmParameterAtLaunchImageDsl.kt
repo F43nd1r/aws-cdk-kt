@@ -8,5 +8,5 @@ import software.amazon.awscdk.services.ec2.ResolveSsmParameterAtLaunchImage
 
 @Generated
 public fun buildResolveSsmParameterAtLaunchImage(parameterName: String, initializer: @AwsCdkDsl
-    ResolveSsmParameterAtLaunchImage.Builder.() -> Unit): ResolveSsmParameterAtLaunchImage =
+    ResolveSsmParameterAtLaunchImage.Builder.() -> Unit = {}): ResolveSsmParameterAtLaunchImage =
     ResolveSsmParameterAtLaunchImage.Builder.create(parameterName).apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
 public fun buildSourceSelectionCriteriaProperty(initializer: @AwsCdkDsl
-    CfnBucket.SourceSelectionCriteriaProperty.Builder.() -> Unit):
+    CfnBucket.SourceSelectionCriteriaProperty.Builder.() -> Unit = {}):
     CfnBucket.SourceSelectionCriteriaProperty =
     CfnBucket.SourceSelectionCriteriaProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.CfnCapacityProvider
 
 @Generated
 public fun buildAutoScalingGroupProviderProperty(initializer: @AwsCdkDsl
-    CfnCapacityProvider.AutoScalingGroupProviderProperty.Builder.() -> Unit):
+    CfnCapacityProvider.AutoScalingGroupProviderProperty.Builder.() -> Unit = {}):
     CfnCapacityProvider.AutoScalingGroupProviderProperty =
     CfnCapacityProvider.AutoScalingGroupProviderProperty.Builder().apply(initializer).build()

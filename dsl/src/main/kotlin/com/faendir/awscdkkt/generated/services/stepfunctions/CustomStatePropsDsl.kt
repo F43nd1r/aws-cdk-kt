@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.CustomStateProps
 
 @Generated
-public fun buildCustomStateProps(initializer: @AwsCdkDsl CustomStateProps.Builder.() -> Unit):
+public fun buildCustomStateProps(initializer: @AwsCdkDsl CustomStateProps.Builder.() -> Unit = {}):
     CustomStateProps = CustomStateProps.Builder().apply(initializer).build()

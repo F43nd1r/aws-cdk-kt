@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.quicksight.CfnAnalysis
 
 @Generated
 public fun buildAnalysisErrorProperty(initializer: @AwsCdkDsl
-    CfnAnalysis.AnalysisErrorProperty.Builder.() -> Unit): CfnAnalysis.AnalysisErrorProperty =
+    CfnAnalysis.AnalysisErrorProperty.Builder.() -> Unit = {}): CfnAnalysis.AnalysisErrorProperty =
     CfnAnalysis.AnalysisErrorProperty.Builder().apply(initializer).build()

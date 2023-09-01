@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTopic
 
 @Generated
 public fun buildSemanticEntityTypeProperty(initializer: @AwsCdkDsl
-    CfnTopic.SemanticEntityTypeProperty.Builder.() -> Unit): CfnTopic.SemanticEntityTypeProperty =
+    CfnTopic.SemanticEntityTypeProperty.Builder.() -> Unit = {}):
+    CfnTopic.SemanticEntityTypeProperty =
     CfnTopic.SemanticEntityTypeProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.CfnUrlProps
 
 @Generated
-public fun buildCfnUrlProps(initializer: @AwsCdkDsl CfnUrlProps.Builder.() -> Unit): CfnUrlProps =
-    CfnUrlProps.Builder().apply(initializer).build()
+public fun buildCfnUrlProps(initializer: @AwsCdkDsl CfnUrlProps.Builder.() -> Unit = {}):
+    CfnUrlProps = CfnUrlProps.Builder().apply(initializer).build()

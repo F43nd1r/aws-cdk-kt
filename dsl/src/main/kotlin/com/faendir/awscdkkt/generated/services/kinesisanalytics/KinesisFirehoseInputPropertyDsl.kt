@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kinesisanalytics.CfnApplicationV2
 
 @Generated
 public fun buildKinesisFirehoseInputProperty(initializer: @AwsCdkDsl
-    CfnApplicationV2.KinesisFirehoseInputProperty.Builder.() -> Unit):
+    CfnApplicationV2.KinesisFirehoseInputProperty.Builder.() -> Unit = {}):
     CfnApplicationV2.KinesisFirehoseInputProperty =
     CfnApplicationV2.KinesisFirehoseInputProperty.Builder().apply(initializer).build()

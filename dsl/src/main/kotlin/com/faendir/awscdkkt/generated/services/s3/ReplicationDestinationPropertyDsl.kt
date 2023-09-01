@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
 public fun buildReplicationDestinationProperty(initializer: @AwsCdkDsl
-    CfnBucket.ReplicationDestinationProperty.Builder.() -> Unit):
+    CfnBucket.ReplicationDestinationProperty.Builder.() -> Unit = {}):
     CfnBucket.ReplicationDestinationProperty =
     CfnBucket.ReplicationDestinationProperty.Builder().apply(initializer).build()

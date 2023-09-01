@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iot.CfnMitigationAction
 
 @Generated
 public fun buildActionParamsProperty(initializer: @AwsCdkDsl
-    CfnMitigationAction.ActionParamsProperty.Builder.() -> Unit):
+    CfnMitigationAction.ActionParamsProperty.Builder.() -> Unit = {}):
     CfnMitigationAction.ActionParamsProperty =
     CfnMitigationAction.ActionParamsProperty.Builder().apply(initializer).build()

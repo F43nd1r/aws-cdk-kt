@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.apprunner.CfnService
 
 @Generated
 public fun buildInstanceConfigurationProperty(initializer: @AwsCdkDsl
-    CfnService.InstanceConfigurationProperty.Builder.() -> Unit):
+    CfnService.InstanceConfigurationProperty.Builder.() -> Unit = {}):
     CfnService.InstanceConfigurationProperty =
     CfnService.InstanceConfigurationProperty.Builder().apply(initializer).build()

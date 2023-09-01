@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.pinpoint.CfnCampaign
 
 @Generated
 public fun buildCampaignInAppMessageProperty(initializer: @AwsCdkDsl
-    CfnCampaign.CampaignInAppMessageProperty.Builder.() -> Unit):
+    CfnCampaign.CampaignInAppMessageProperty.Builder.() -> Unit = {}):
     CfnCampaign.CampaignInAppMessageProperty =
     CfnCampaign.CampaignInAppMessageProperty.Builder().apply(initializer).build()

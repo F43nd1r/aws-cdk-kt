@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildTableBorderOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TableBorderOptionsProperty.Builder.() -> Unit):
+    CfnTemplate.TableBorderOptionsProperty.Builder.() -> Unit = {}):
     CfnTemplate.TableBorderOptionsProperty =
     CfnTemplate.TableBorderOptionsProperty.Builder().apply(initializer).build()

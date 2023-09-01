@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.BatchJobDependency
 
 @Generated
-public fun buildBatchJobDependency(initializer: @AwsCdkDsl BatchJobDependency.Builder.() -> Unit):
-    BatchJobDependency = BatchJobDependency.Builder().apply(initializer).build()
+public fun buildBatchJobDependency(initializer: @AwsCdkDsl BatchJobDependency.Builder.() -> Unit =
+    {}): BatchJobDependency = BatchJobDependency.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildSpacingProperty(initializer: @AwsCdkDsl
-    CfnTemplate.SpacingProperty.Builder.() -> Unit): CfnTemplate.SpacingProperty =
+    CfnTemplate.SpacingProperty.Builder.() -> Unit = {}): CfnTemplate.SpacingProperty =
     CfnTemplate.SpacingProperty.Builder().apply(initializer).build()

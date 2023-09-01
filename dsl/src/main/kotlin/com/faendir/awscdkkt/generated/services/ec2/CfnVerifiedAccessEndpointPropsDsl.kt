@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.CfnVerifiedAccessEndpointProps
 
 @Generated
 public fun buildCfnVerifiedAccessEndpointProps(initializer: @AwsCdkDsl
-    CfnVerifiedAccessEndpointProps.Builder.() -> Unit): CfnVerifiedAccessEndpointProps =
+    CfnVerifiedAccessEndpointProps.Builder.() -> Unit = {}): CfnVerifiedAccessEndpointProps =
     CfnVerifiedAccessEndpointProps.Builder().apply(initializer).build()

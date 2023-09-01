@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildCurrencyDisplayFormatConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.CurrencyDisplayFormatConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.CurrencyDisplayFormatConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.CurrencyDisplayFormatConfigurationProperty =
     CfnTemplate.CurrencyDisplayFormatConfigurationProperty.Builder().apply(initializer).build()

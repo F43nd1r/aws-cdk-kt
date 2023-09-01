@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sam.CfnHttpApi
 
 @Generated
 public fun buildHttpApiDomainConfigurationProperty(initializer: @AwsCdkDsl
-    CfnHttpApi.HttpApiDomainConfigurationProperty.Builder.() -> Unit):
+    CfnHttpApi.HttpApiDomainConfigurationProperty.Builder.() -> Unit = {}):
     CfnHttpApi.HttpApiDomainConfigurationProperty =
     CfnHttpApi.HttpApiDomainConfigurationProperty.Builder().apply(initializer).build()

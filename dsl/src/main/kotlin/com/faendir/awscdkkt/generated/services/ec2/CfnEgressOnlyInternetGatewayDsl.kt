@@ -9,18 +9,13 @@ import software.amazon.awscdk.services.ec2.CfnEgressOnlyInternetGatewayProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnEgressOnlyInternetGateway(id: String,
-    props: CfnEgressOnlyInternetGatewayProps): CfnEgressOnlyInternetGateway =
-    CfnEgressOnlyInternetGateway(this, id, props)
-
-@Generated
 public fun Construct.cfnEgressOnlyInternetGateway(
   id: String,
   props: CfnEgressOnlyInternetGatewayProps,
-  initializer: @AwsCdkDsl CfnEgressOnlyInternetGateway.() -> Unit,
+  initializer: @AwsCdkDsl CfnEgressOnlyInternetGateway.() -> Unit = {},
 ): CfnEgressOnlyInternetGateway = CfnEgressOnlyInternetGateway(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnEgressOnlyInternetGateway(id: String, initializer: @AwsCdkDsl
-    CfnEgressOnlyInternetGateway.Builder.() -> Unit): CfnEgressOnlyInternetGateway =
+    CfnEgressOnlyInternetGateway.Builder.() -> Unit = {}): CfnEgressOnlyInternetGateway =
     CfnEgressOnlyInternetGateway.Builder.create(this, id).apply(initializer).build()

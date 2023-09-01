@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.globalaccelerator.endpoints.InstanceEndpo
 
 @Generated
 public fun buildInstanceEndpointProps(initializer: @AwsCdkDsl
-    InstanceEndpointProps.Builder.() -> Unit): InstanceEndpointProps =
+    InstanceEndpointProps.Builder.() -> Unit = {}): InstanceEndpointProps =
     InstanceEndpointProps.Builder().apply(initializer).build()

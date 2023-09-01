@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.FirelensConfig
 
 @Generated
-public fun buildFirelensConfig(initializer: @AwsCdkDsl FirelensConfig.Builder.() -> Unit):
+public fun buildFirelensConfig(initializer: @AwsCdkDsl FirelensConfig.Builder.() -> Unit = {}):
     FirelensConfig = FirelensConfig.Builder().apply(initializer).build()

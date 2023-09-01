@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codebuild.ProjectNotifyOnOptions
 
 @Generated
 public fun buildProjectNotifyOnOptions(initializer: @AwsCdkDsl
-    ProjectNotifyOnOptions.Builder.() -> Unit): ProjectNotifyOnOptions =
+    ProjectNotifyOnOptions.Builder.() -> Unit = {}): ProjectNotifyOnOptions =
     ProjectNotifyOnOptions.Builder().apply(initializer).build()

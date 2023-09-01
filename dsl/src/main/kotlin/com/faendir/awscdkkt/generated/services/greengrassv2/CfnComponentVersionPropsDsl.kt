@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.greengrassv2.CfnComponentVersionProps
 
 @Generated
 public fun buildCfnComponentVersionProps(initializer: @AwsCdkDsl
-    CfnComponentVersionProps.Builder.() -> Unit): CfnComponentVersionProps =
+    CfnComponentVersionProps.Builder.() -> Unit = {}): CfnComponentVersionProps =
     CfnComponentVersionProps.Builder().apply(initializer).build()

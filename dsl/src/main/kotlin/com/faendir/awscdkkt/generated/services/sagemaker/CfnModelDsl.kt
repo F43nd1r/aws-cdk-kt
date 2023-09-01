@@ -9,16 +9,12 @@ import software.amazon.awscdk.services.sagemaker.CfnModelProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnModel(id: String, props: CfnModelProps): CfnModel = CfnModel(this, id,
-    props)
-
-@Generated
 public fun Construct.cfnModel(
   id: String,
   props: CfnModelProps,
-  initializer: @AwsCdkDsl CfnModel.() -> Unit,
+  initializer: @AwsCdkDsl CfnModel.() -> Unit = {},
 ): CfnModel = CfnModel(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnModel(id: String, initializer: @AwsCdkDsl CfnModel.Builder.() -> Unit):
-    CfnModel = CfnModel.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnModel(id: String, initializer: @AwsCdkDsl CfnModel.Builder.() -> Unit =
+    {}): CfnModel = CfnModel.Builder.create(this, id).apply(initializer).build()

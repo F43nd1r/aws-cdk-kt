@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.assertions.MatchFailure
 
 @Generated
-public fun buildMatchFailure(initializer: @AwsCdkDsl MatchFailure.Builder.() -> Unit): MatchFailure
-    = MatchFailure.Builder().apply(initializer).build()
+public fun buildMatchFailure(initializer: @AwsCdkDsl MatchFailure.Builder.() -> Unit = {}):
+    MatchFailure = MatchFailure.Builder().apply(initializer).build()

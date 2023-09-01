@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildSheetVisualScopingConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.SheetVisualScopingConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.SheetVisualScopingConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.SheetVisualScopingConfigurationProperty =
     CfnTemplate.SheetVisualScopingConfigurationProperty.Builder().apply(initializer).build()

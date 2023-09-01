@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.wafv2.CfnLoggingConfiguration
 
 @Generated
 public fun buildLabelNameConditionProperty(initializer: @AwsCdkDsl
-    CfnLoggingConfiguration.LabelNameConditionProperty.Builder.() -> Unit):
+    CfnLoggingConfiguration.LabelNameConditionProperty.Builder.() -> Unit = {}):
     CfnLoggingConfiguration.LabelNameConditionProperty =
     CfnLoggingConfiguration.LabelNameConditionProperty.Builder().apply(initializer).build()

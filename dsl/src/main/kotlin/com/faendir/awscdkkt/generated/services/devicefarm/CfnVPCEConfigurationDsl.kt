@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.devicefarm.CfnVPCEConfigurationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnVPCEConfiguration(id: String, props: CfnVPCEConfigurationProps):
-    CfnVPCEConfiguration = CfnVPCEConfiguration(this, id, props)
-
-@Generated
 public fun Construct.cfnVPCEConfiguration(
   id: String,
   props: CfnVPCEConfigurationProps,
-  initializer: @AwsCdkDsl CfnVPCEConfiguration.() -> Unit,
+  initializer: @AwsCdkDsl CfnVPCEConfiguration.() -> Unit = {},
 ): CfnVPCEConfiguration = CfnVPCEConfiguration(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnVPCEConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnVPCEConfiguration.Builder.() -> Unit): CfnVPCEConfiguration =
+    CfnVPCEConfiguration.Builder.() -> Unit = {}): CfnVPCEConfiguration =
     CfnVPCEConfiguration.Builder.create(this, id).apply(initializer).build()

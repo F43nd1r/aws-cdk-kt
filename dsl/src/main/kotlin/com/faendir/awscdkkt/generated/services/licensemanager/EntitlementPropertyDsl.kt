@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.licensemanager.CfnLicense
 
 @Generated
 public fun buildEntitlementProperty(initializer: @AwsCdkDsl
-    CfnLicense.EntitlementProperty.Builder.() -> Unit): CfnLicense.EntitlementProperty =
+    CfnLicense.EntitlementProperty.Builder.() -> Unit = {}): CfnLicense.EntitlementProperty =
     CfnLicense.EntitlementProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iotevents.CfnInput
 
 @Generated
 public fun buildInputDefinitionProperty(initializer: @AwsCdkDsl
-    CfnInput.InputDefinitionProperty.Builder.() -> Unit): CfnInput.InputDefinitionProperty =
+    CfnInput.InputDefinitionProperty.Builder.() -> Unit = {}): CfnInput.InputDefinitionProperty =
     CfnInput.InputDefinitionProperty.Builder().apply(initializer).build()

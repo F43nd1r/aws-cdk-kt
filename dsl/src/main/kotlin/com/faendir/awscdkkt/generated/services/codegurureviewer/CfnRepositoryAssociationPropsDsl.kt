@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codegurureviewer.CfnRepositoryAssociation
 
 @Generated
 public fun buildCfnRepositoryAssociationProps(initializer: @AwsCdkDsl
-    CfnRepositoryAssociationProps.Builder.() -> Unit): CfnRepositoryAssociationProps =
+    CfnRepositoryAssociationProps.Builder.() -> Unit = {}): CfnRepositoryAssociationProps =
     CfnRepositoryAssociationProps.Builder().apply(initializer).build()

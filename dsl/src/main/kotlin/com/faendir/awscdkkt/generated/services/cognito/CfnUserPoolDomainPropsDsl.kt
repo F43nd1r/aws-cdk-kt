@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.cognito.CfnUserPoolDomainProps
 
 @Generated
 public fun buildCfnUserPoolDomainProps(initializer: @AwsCdkDsl
-    CfnUserPoolDomainProps.Builder.() -> Unit): CfnUserPoolDomainProps =
+    CfnUserPoolDomainProps.Builder.() -> Unit = {}): CfnUserPoolDomainProps =
     CfnUserPoolDomainProps.Builder().apply(initializer).build()

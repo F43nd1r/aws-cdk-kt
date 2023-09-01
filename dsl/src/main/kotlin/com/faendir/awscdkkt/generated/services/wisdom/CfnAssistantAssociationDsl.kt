@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.wisdom.CfnAssistantAssociationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnAssistantAssociation(id: String, props: CfnAssistantAssociationProps):
-    CfnAssistantAssociation = CfnAssistantAssociation(this, id, props)
-
-@Generated
 public fun Construct.cfnAssistantAssociation(
   id: String,
   props: CfnAssistantAssociationProps,
-  initializer: @AwsCdkDsl CfnAssistantAssociation.() -> Unit,
+  initializer: @AwsCdkDsl CfnAssistantAssociation.() -> Unit = {},
 ): CfnAssistantAssociation = CfnAssistantAssociation(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnAssistantAssociation(id: String, initializer: @AwsCdkDsl
-    CfnAssistantAssociation.Builder.() -> Unit): CfnAssistantAssociation =
+    CfnAssistantAssociation.Builder.() -> Unit = {}): CfnAssistantAssociation =
     CfnAssistantAssociation.Builder.create(this, id).apply(initializer).build()

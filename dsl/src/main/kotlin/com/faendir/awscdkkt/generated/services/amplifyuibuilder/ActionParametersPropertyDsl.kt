@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.amplifyuibuilder.CfnComponent
 
 @Generated
 public fun buildActionParametersProperty(initializer: @AwsCdkDsl
-    CfnComponent.ActionParametersProperty.Builder.() -> Unit): CfnComponent.ActionParametersProperty
-    = CfnComponent.ActionParametersProperty.Builder().apply(initializer).build()
+    CfnComponent.ActionParametersProperty.Builder.() -> Unit = {}):
+    CfnComponent.ActionParametersProperty =
+    CfnComponent.ActionParametersProperty.Builder().apply(initializer).build()

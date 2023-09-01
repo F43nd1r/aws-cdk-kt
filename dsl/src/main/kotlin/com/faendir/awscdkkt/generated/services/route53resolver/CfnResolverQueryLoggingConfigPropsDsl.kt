@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.route53resolver.CfnResolverQueryLoggingCo
 
 @Generated
 public fun buildCfnResolverQueryLoggingConfigProps(initializer: @AwsCdkDsl
-    CfnResolverQueryLoggingConfigProps.Builder.() -> Unit): CfnResolverQueryLoggingConfigProps =
-    CfnResolverQueryLoggingConfigProps.Builder().apply(initializer).build()
+    CfnResolverQueryLoggingConfigProps.Builder.() -> Unit = {}): CfnResolverQueryLoggingConfigProps
+    = CfnResolverQueryLoggingConfigProps.Builder().apply(initializer).build()

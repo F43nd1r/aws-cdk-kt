@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.iotwireless.CfnWirelessDevice
 
 @Generated
 public fun buildLoRaWANDeviceProperty(initializer: @AwsCdkDsl
-    CfnWirelessDevice.LoRaWANDeviceProperty.Builder.() -> Unit):
+    CfnWirelessDevice.LoRaWANDeviceProperty.Builder.() -> Unit = {}):
     CfnWirelessDevice.LoRaWANDeviceProperty =
     CfnWirelessDevice.LoRaWANDeviceProperty.Builder().apply(initializer).build()

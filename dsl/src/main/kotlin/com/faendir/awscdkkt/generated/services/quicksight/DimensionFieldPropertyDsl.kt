@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildDimensionFieldProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DimensionFieldProperty.Builder.() -> Unit): CfnTemplate.DimensionFieldProperty =
-    CfnTemplate.DimensionFieldProperty.Builder().apply(initializer).build()
+    CfnTemplate.DimensionFieldProperty.Builder.() -> Unit = {}): CfnTemplate.DimensionFieldProperty
+    = CfnTemplate.DimensionFieldProperty.Builder().apply(initializer).build()

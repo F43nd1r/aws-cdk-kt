@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opensearchservice.LoggingOptions
 
 @Generated
-public fun buildLoggingOptions(initializer: @AwsCdkDsl LoggingOptions.Builder.() -> Unit):
+public fun buildLoggingOptions(initializer: @AwsCdkDsl LoggingOptions.Builder.() -> Unit = {}):
     LoggingOptions = LoggingOptions.Builder().apply(initializer).build()

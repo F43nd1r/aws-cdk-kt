@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kinesisanalyticsv2.CfnApplicationReferenc
 
 @Generated
 public fun buildCSVMappingParametersProperty(initializer: @AwsCdkDsl
-    CfnApplicationReferenceDataSource.CSVMappingParametersProperty.Builder.() -> Unit):
+    CfnApplicationReferenceDataSource.CSVMappingParametersProperty.Builder.() -> Unit = {}):
     CfnApplicationReferenceDataSource.CSVMappingParametersProperty =
     CfnApplicationReferenceDataSource.CSVMappingParametersProperty.Builder().apply(initializer).build()

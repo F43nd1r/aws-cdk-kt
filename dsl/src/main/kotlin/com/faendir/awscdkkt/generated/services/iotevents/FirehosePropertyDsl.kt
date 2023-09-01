@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iotevents.CfnDetectorModel
 
 @Generated
 public fun buildFirehoseProperty(initializer: @AwsCdkDsl
-    CfnDetectorModel.FirehoseProperty.Builder.() -> Unit): CfnDetectorModel.FirehoseProperty =
+    CfnDetectorModel.FirehoseProperty.Builder.() -> Unit = {}): CfnDetectorModel.FirehoseProperty =
     CfnDetectorModel.FirehoseProperty.Builder().apply(initializer).build()

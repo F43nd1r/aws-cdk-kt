@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.databrew.CfnScheduleProps
 
 @Generated
-public fun buildCfnScheduleProps(initializer: @AwsCdkDsl CfnScheduleProps.Builder.() -> Unit):
+public fun buildCfnScheduleProps(initializer: @AwsCdkDsl CfnScheduleProps.Builder.() -> Unit = {}):
     CfnScheduleProps = CfnScheduleProps.Builder().apply(initializer).build()

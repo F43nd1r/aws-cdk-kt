@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ram.CfnResourceShareProps
 
 @Generated
 public fun buildCfnResourceShareProps(initializer: @AwsCdkDsl
-    CfnResourceShareProps.Builder.() -> Unit): CfnResourceShareProps =
+    CfnResourceShareProps.Builder.() -> Unit = {}): CfnResourceShareProps =
     CfnResourceShareProps.Builder().apply(initializer).build()

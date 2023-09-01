@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.dynamodb.OperationsMetricOptions
 
 @Generated
 public fun buildOperationsMetricOptions(initializer: @AwsCdkDsl
-    OperationsMetricOptions.Builder.() -> Unit): OperationsMetricOptions =
+    OperationsMetricOptions.Builder.() -> Unit = {}): OperationsMetricOptions =
     OperationsMetricOptions.Builder().apply(initializer).build()

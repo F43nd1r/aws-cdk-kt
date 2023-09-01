@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datasync.CfnLocationS3Props
 
 @Generated
-public fun buildCfnLocationS3Props(initializer: @AwsCdkDsl CfnLocationS3Props.Builder.() -> Unit):
-    CfnLocationS3Props = CfnLocationS3Props.Builder().apply(initializer).build()
+public fun buildCfnLocationS3Props(initializer: @AwsCdkDsl CfnLocationS3Props.Builder.() -> Unit =
+    {}): CfnLocationS3Props = CfnLocationS3Props.Builder().apply(initializer).build()

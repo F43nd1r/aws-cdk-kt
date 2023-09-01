@@ -7,5 +7,5 @@ import software.amazon.awscdk.CfnTypeActivationProps
 
 @Generated
 public fun buildCfnTypeActivationProps(initializer: @AwsCdkDsl
-    CfnTypeActivationProps.Builder.() -> Unit): CfnTypeActivationProps =
+    CfnTypeActivationProps.Builder.() -> Unit = {}): CfnTypeActivationProps =
     CfnTypeActivationProps.Builder().apply(initializer).build()

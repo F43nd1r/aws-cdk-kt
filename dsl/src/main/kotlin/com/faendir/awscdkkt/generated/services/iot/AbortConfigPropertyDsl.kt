@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iot.CfnJobTemplate
 
 @Generated
 public fun buildAbortConfigProperty(initializer: @AwsCdkDsl
-    CfnJobTemplate.AbortConfigProperty.Builder.() -> Unit): CfnJobTemplate.AbortConfigProperty =
-    CfnJobTemplate.AbortConfigProperty.Builder().apply(initializer).build()
+    CfnJobTemplate.AbortConfigProperty.Builder.() -> Unit = {}): CfnJobTemplate.AbortConfigProperty
+    = CfnJobTemplate.AbortConfigProperty.Builder().apply(initializer).build()

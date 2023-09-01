@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iotevents.CfnDetectorModel
 
 @Generated
 public fun buildOnEnterProperty(initializer: @AwsCdkDsl
-    CfnDetectorModel.OnEnterProperty.Builder.() -> Unit): CfnDetectorModel.OnEnterProperty =
+    CfnDetectorModel.OnEnterProperty.Builder.() -> Unit = {}): CfnDetectorModel.OnEnterProperty =
     CfnDetectorModel.OnEnterProperty.Builder().apply(initializer).build()

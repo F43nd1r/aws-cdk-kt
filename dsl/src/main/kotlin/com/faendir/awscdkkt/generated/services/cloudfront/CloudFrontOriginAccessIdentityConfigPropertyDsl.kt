@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cloudfront.CfnCloudFrontOriginAccessIdent
 
 @Generated
 public fun buildCloudFrontOriginAccessIdentityConfigProperty(initializer: @AwsCdkDsl
-    CfnCloudFrontOriginAccessIdentity.CloudFrontOriginAccessIdentityConfigProperty.Builder.() -> Unit):
-    CfnCloudFrontOriginAccessIdentity.CloudFrontOriginAccessIdentityConfigProperty =
+    CfnCloudFrontOriginAccessIdentity.CloudFrontOriginAccessIdentityConfigProperty.Builder.() -> Unit
+    = {}): CfnCloudFrontOriginAccessIdentity.CloudFrontOriginAccessIdentityConfigProperty =
     CfnCloudFrontOriginAccessIdentity.CloudFrontOriginAccessIdentityConfigProperty.Builder().apply(initializer).build()

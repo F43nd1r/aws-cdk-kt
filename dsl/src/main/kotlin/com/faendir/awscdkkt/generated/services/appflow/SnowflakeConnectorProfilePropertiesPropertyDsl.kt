@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appflow.CfnConnectorProfile
 
 @Generated
 public fun buildSnowflakeConnectorProfilePropertiesProperty(initializer: @AwsCdkDsl
-    CfnConnectorProfile.SnowflakeConnectorProfilePropertiesProperty.Builder.() -> Unit):
+    CfnConnectorProfile.SnowflakeConnectorProfilePropertiesProperty.Builder.() -> Unit = {}):
     CfnConnectorProfile.SnowflakeConnectorProfilePropertiesProperty =
     CfnConnectorProfile.SnowflakeConnectorProfilePropertiesProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.ec2.CfnInstance
 
 @Generated
 public fun buildNoDeviceProperty(initializer: @AwsCdkDsl
-    CfnInstance.NoDeviceProperty.Builder.() -> Unit): CfnInstance.NoDeviceProperty =
+    CfnInstance.NoDeviceProperty.Builder.() -> Unit = {}): CfnInstance.NoDeviceProperty =
     CfnInstance.NoDeviceProperty.Builder().apply(initializer).build()

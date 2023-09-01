@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.applicationautoscaling.BaseScalableAttrib
 
 @Generated
 public fun buildBaseScalableAttributeProps(initializer: @AwsCdkDsl
-    BaseScalableAttributeProps.Builder.() -> Unit): BaseScalableAttributeProps =
+    BaseScalableAttributeProps.Builder.() -> Unit = {}): BaseScalableAttributeProps =
     BaseScalableAttributeProps.Builder().apply(initializer).build()

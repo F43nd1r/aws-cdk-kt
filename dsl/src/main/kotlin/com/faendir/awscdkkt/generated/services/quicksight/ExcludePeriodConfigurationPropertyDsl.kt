@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildExcludePeriodConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ExcludePeriodConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.ExcludePeriodConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.ExcludePeriodConfigurationProperty =
     CfnTemplate.ExcludePeriodConfigurationProperty.Builder().apply(initializer).build()

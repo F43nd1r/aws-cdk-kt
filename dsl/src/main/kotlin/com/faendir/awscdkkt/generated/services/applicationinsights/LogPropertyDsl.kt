@@ -6,5 +6,6 @@ import kotlin.Unit
 import software.amazon.awscdk.services.applicationinsights.CfnApplication
 
 @Generated
-public fun buildLogProperty(initializer: @AwsCdkDsl CfnApplication.LogProperty.Builder.() -> Unit):
-    CfnApplication.LogProperty = CfnApplication.LogProperty.Builder().apply(initializer).build()
+public fun buildLogProperty(initializer: @AwsCdkDsl CfnApplication.LogProperty.Builder.() -> Unit =
+    {}): CfnApplication.LogProperty =
+    CfnApplication.LogProperty.Builder().apply(initializer).build()

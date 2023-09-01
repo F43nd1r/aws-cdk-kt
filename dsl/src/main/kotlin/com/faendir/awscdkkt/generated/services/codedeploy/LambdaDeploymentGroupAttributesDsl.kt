@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.codedeploy.LambdaDeploymentGroupAttribute
 
 @Generated
 public fun buildLambdaDeploymentGroupAttributes(initializer: @AwsCdkDsl
-    LambdaDeploymentGroupAttributes.Builder.() -> Unit): LambdaDeploymentGroupAttributes =
+    LambdaDeploymentGroupAttributes.Builder.() -> Unit = {}): LambdaDeploymentGroupAttributes =
     LambdaDeploymentGroupAttributes.Builder().apply(initializer).build()

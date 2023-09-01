@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnIPAMResourceDiscoveryAssociationPr
 
 @Generated
 public fun buildCfnIPAMResourceDiscoveryAssociationProps(initializer: @AwsCdkDsl
-    CfnIPAMResourceDiscoveryAssociationProps.Builder.() -> Unit):
+    CfnIPAMResourceDiscoveryAssociationProps.Builder.() -> Unit = {}):
     CfnIPAMResourceDiscoveryAssociationProps =
     CfnIPAMResourceDiscoveryAssociationProps.Builder().apply(initializer).build()

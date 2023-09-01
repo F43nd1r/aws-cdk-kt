@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.devopsguru.CfnResourceCollection
 
 @Generated
 public fun buildResourceCollectionFilterProperty(initializer: @AwsCdkDsl
-    CfnResourceCollection.ResourceCollectionFilterProperty.Builder.() -> Unit):
+    CfnResourceCollection.ResourceCollectionFilterProperty.Builder.() -> Unit = {}):
     CfnResourceCollection.ResourceCollectionFilterProperty =
     CfnResourceCollection.ResourceCollectionFilterProperty.Builder().apply(initializer).build()

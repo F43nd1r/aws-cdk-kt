@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
 public fun buildNodeRangePropertyProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.NodeRangePropertyProperty.Builder.() -> Unit):
+    CfnJobDefinition.NodeRangePropertyProperty.Builder.() -> Unit = {}):
     CfnJobDefinition.NodeRangePropertyProperty =
     CfnJobDefinition.NodeRangePropertyProperty.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.opensearchserverless.CfnSecurityConfigPro
 
 @Generated
 public fun buildCfnSecurityConfigProps(initializer: @AwsCdkDsl
-    CfnSecurityConfigProps.Builder.() -> Unit): CfnSecurityConfigProps =
+    CfnSecurityConfigProps.Builder.() -> Unit = {}): CfnSecurityConfigProps =
     CfnSecurityConfigProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lambda.CfnEventSourceMapping
 
 @Generated
 public fun buildFilterCriteriaProperty(initializer: @AwsCdkDsl
-    CfnEventSourceMapping.FilterCriteriaProperty.Builder.() -> Unit):
+    CfnEventSourceMapping.FilterCriteriaProperty.Builder.() -> Unit = {}):
     CfnEventSourceMapping.FilterCriteriaProperty =
     CfnEventSourceMapping.FilterCriteriaProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datasync.CfnAgentProps
 
 @Generated
-public fun buildCfnAgentProps(initializer: @AwsCdkDsl CfnAgentProps.Builder.() -> Unit):
+public fun buildCfnAgentProps(initializer: @AwsCdkDsl CfnAgentProps.Builder.() -> Unit = {}):
     CfnAgentProps = CfnAgentProps.Builder().apply(initializer).build()

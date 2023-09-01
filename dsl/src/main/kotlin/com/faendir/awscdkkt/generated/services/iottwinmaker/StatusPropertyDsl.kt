@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iottwinmaker.CfnEntity
 
 @Generated
-public fun buildStatusProperty(initializer: @AwsCdkDsl CfnEntity.StatusProperty.Builder.() -> Unit):
-    CfnEntity.StatusProperty = CfnEntity.StatusProperty.Builder().apply(initializer).build()
+public fun buildStatusProperty(initializer: @AwsCdkDsl CfnEntity.StatusProperty.Builder.() -> Unit =
+    {}): CfnEntity.StatusProperty = CfnEntity.StatusProperty.Builder().apply(initializer).build()

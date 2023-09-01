@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.batch.CfnJobQueue
 
 @Generated
 public fun buildComputeEnvironmentOrderProperty(initializer: @AwsCdkDsl
-    CfnJobQueue.ComputeEnvironmentOrderProperty.Builder.() -> Unit):
+    CfnJobQueue.ComputeEnvironmentOrderProperty.Builder.() -> Unit = {}):
     CfnJobQueue.ComputeEnvironmentOrderProperty =
     CfnJobQueue.ComputeEnvironmentOrderProperty.Builder().apply(initializer).build()

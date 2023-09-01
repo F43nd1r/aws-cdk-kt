@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.VersionAttributes
 
 @Generated
-public fun buildVersionAttributes(initializer: @AwsCdkDsl VersionAttributes.Builder.() -> Unit):
-    VersionAttributes = VersionAttributes.Builder().apply(initializer).build()
+public fun buildVersionAttributes(initializer: @AwsCdkDsl VersionAttributes.Builder.() -> Unit =
+    {}): VersionAttributes = VersionAttributes.Builder().apply(initializer).build()

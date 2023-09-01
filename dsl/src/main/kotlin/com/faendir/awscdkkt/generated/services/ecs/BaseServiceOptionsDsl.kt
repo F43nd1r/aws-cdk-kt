@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.BaseServiceOptions
 
 @Generated
-public fun buildBaseServiceOptions(initializer: @AwsCdkDsl BaseServiceOptions.Builder.() -> Unit):
-    BaseServiceOptions = BaseServiceOptions.Builder().apply(initializer).build()
+public fun buildBaseServiceOptions(initializer: @AwsCdkDsl BaseServiceOptions.Builder.() -> Unit =
+    {}): BaseServiceOptions = BaseServiceOptions.Builder().apply(initializer).build()

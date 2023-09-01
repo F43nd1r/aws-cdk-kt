@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnModel
 
 @Generated
 public fun buildInferenceExecutionConfigProperty(initializer: @AwsCdkDsl
-    CfnModel.InferenceExecutionConfigProperty.Builder.() -> Unit):
+    CfnModel.InferenceExecutionConfigProperty.Builder.() -> Unit = {}):
     CfnModel.InferenceExecutionConfigProperty =
     CfnModel.InferenceExecutionConfigProperty.Builder().apply(initializer).build()

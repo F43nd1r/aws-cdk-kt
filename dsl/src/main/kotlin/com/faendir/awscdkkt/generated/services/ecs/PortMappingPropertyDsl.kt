@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
 public fun buildPortMappingProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.PortMappingProperty.Builder.() -> Unit): CfnTaskDefinition.PortMappingProperty
-    = CfnTaskDefinition.PortMappingProperty.Builder().apply(initializer).build()
+    CfnTaskDefinition.PortMappingProperty.Builder.() -> Unit = {}):
+    CfnTaskDefinition.PortMappingProperty =
+    CfnTaskDefinition.PortMappingProperty.Builder().apply(initializer).build()

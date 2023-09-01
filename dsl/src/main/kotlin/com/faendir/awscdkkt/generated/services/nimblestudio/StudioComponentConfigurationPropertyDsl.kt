@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.nimblestudio.CfnStudioComponent
 
 @Generated
 public fun buildStudioComponentConfigurationProperty(initializer: @AwsCdkDsl
-    CfnStudioComponent.StudioComponentConfigurationProperty.Builder.() -> Unit):
+    CfnStudioComponent.StudioComponentConfigurationProperty.Builder.() -> Unit = {}):
     CfnStudioComponent.StudioComponentConfigurationProperty =
     CfnStudioComponent.StudioComponentConfigurationProperty.Builder().apply(initializer).build()

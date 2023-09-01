@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
 public fun buildFulfillmentUpdatesSpecificationProperty(initializer: @AwsCdkDsl
-    CfnBot.FulfillmentUpdatesSpecificationProperty.Builder.() -> Unit):
+    CfnBot.FulfillmentUpdatesSpecificationProperty.Builder.() -> Unit = {}):
     CfnBot.FulfillmentUpdatesSpecificationProperty =
     CfnBot.FulfillmentUpdatesSpecificationProperty.Builder().apply(initializer).build()

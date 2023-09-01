@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.WindowsImageProps
 
 @Generated
-public fun buildWindowsImageProps(initializer: @AwsCdkDsl WindowsImageProps.Builder.() -> Unit):
-    WindowsImageProps = WindowsImageProps.Builder().apply(initializer).build()
+public fun buildWindowsImageProps(initializer: @AwsCdkDsl WindowsImageProps.Builder.() -> Unit =
+    {}): WindowsImageProps = WindowsImageProps.Builder().apply(initializer).build()

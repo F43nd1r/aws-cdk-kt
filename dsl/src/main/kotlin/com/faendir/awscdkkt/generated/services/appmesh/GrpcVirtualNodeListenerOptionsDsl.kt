@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.appmesh.GrpcVirtualNodeListenerOptions
 
 @Generated
 public fun buildGrpcVirtualNodeListenerOptions(initializer: @AwsCdkDsl
-    GrpcVirtualNodeListenerOptions.Builder.() -> Unit): GrpcVirtualNodeListenerOptions =
+    GrpcVirtualNodeListenerOptions.Builder.() -> Unit = {}): GrpcVirtualNodeListenerOptions =
     GrpcVirtualNodeListenerOptions.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnFleetMetricProps
 
 @Generated
-public fun buildCfnFleetMetricProps(initializer: @AwsCdkDsl CfnFleetMetricProps.Builder.() -> Unit):
-    CfnFleetMetricProps = CfnFleetMetricProps.Builder().apply(initializer).build()
+public fun buildCfnFleetMetricProps(initializer: @AwsCdkDsl CfnFleetMetricProps.Builder.() -> Unit =
+    {}): CfnFleetMetricProps = CfnFleetMetricProps.Builder().apply(initializer).build()

@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.AddNetworkTargetsP
 
 @Generated
 public fun buildAddNetworkTargetsProps(initializer: @AwsCdkDsl
-    AddNetworkTargetsProps.Builder.() -> Unit): AddNetworkTargetsProps =
+    AddNetworkTargetsProps.Builder.() -> Unit = {}): AddNetworkTargetsProps =
     AddNetworkTargetsProps.Builder().apply(initializer).build()

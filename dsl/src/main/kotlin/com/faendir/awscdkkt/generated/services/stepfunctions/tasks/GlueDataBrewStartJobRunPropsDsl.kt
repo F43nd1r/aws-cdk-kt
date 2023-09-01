@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.GlueDataBrewStartJobR
 
 @Generated
 public fun buildGlueDataBrewStartJobRunProps(initializer: @AwsCdkDsl
-    GlueDataBrewStartJobRunProps.Builder.() -> Unit): GlueDataBrewStartJobRunProps =
+    GlueDataBrewStartJobRunProps.Builder.() -> Unit = {}): GlueDataBrewStartJobRunProps =
     GlueDataBrewStartJobRunProps.Builder().apply(initializer).build()

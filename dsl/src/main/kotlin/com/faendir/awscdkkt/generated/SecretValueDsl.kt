@@ -8,5 +8,5 @@ import software.amazon.awscdk.SecretValue
 
 @Generated
 public fun buildSecretValue(protectedValue: Any, initializer: @AwsCdkDsl
-    SecretValue.Builder.() -> Unit): SecretValue =
+    SecretValue.Builder.() -> Unit = {}): SecretValue =
     SecretValue.Builder.create(protectedValue).apply(initializer).build()

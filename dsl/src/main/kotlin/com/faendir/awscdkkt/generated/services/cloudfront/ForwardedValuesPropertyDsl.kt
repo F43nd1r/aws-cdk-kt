@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cloudfront.CfnDistribution
 
 @Generated
 public fun buildForwardedValuesProperty(initializer: @AwsCdkDsl
-    CfnDistribution.ForwardedValuesProperty.Builder.() -> Unit):
+    CfnDistribution.ForwardedValuesProperty.Builder.() -> Unit = {}):
     CfnDistribution.ForwardedValuesProperty =
     CfnDistribution.ForwardedValuesProperty.Builder().apply(initializer).build()

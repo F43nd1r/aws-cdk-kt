@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.emrserverless.CfnApplication
 
 @Generated
 public fun buildInitialCapacityConfigKeyValuePairProperty(initializer: @AwsCdkDsl
-    CfnApplication.InitialCapacityConfigKeyValuePairProperty.Builder.() -> Unit):
+    CfnApplication.InitialCapacityConfigKeyValuePairProperty.Builder.() -> Unit = {}):
     CfnApplication.InitialCapacityConfigKeyValuePairProperty =
     CfnApplication.InitialCapacityConfigKeyValuePairProperty.Builder().apply(initializer).build()

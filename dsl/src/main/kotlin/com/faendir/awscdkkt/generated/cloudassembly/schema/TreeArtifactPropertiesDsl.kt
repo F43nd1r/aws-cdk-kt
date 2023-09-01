@@ -7,5 +7,5 @@ import software.amazon.awscdk.cloudassembly.schema.TreeArtifactProperties
 
 @Generated
 public fun buildTreeArtifactProperties(initializer: @AwsCdkDsl
-    TreeArtifactProperties.Builder.() -> Unit): TreeArtifactProperties =
+    TreeArtifactProperties.Builder.() -> Unit = {}): TreeArtifactProperties =
     TreeArtifactProperties.Builder().apply(initializer).build()

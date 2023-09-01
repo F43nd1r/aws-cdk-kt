@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lambda.CfnAlias
 
 @Generated
 public fun buildVersionWeightProperty(initializer: @AwsCdkDsl
-    CfnAlias.VersionWeightProperty.Builder.() -> Unit): CfnAlias.VersionWeightProperty =
+    CfnAlias.VersionWeightProperty.Builder.() -> Unit = {}): CfnAlias.VersionWeightProperty =
     CfnAlias.VersionWeightProperty.Builder().apply(initializer).build()

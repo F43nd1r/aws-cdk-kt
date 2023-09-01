@@ -9,18 +9,13 @@ import software.amazon.awscdk.services.ec2.CfnNetworkInterfacePermissionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnNetworkInterfacePermission(id: String,
-    props: CfnNetworkInterfacePermissionProps): CfnNetworkInterfacePermission =
-    CfnNetworkInterfacePermission(this, id, props)
-
-@Generated
 public fun Construct.cfnNetworkInterfacePermission(
   id: String,
   props: CfnNetworkInterfacePermissionProps,
-  initializer: @AwsCdkDsl CfnNetworkInterfacePermission.() -> Unit,
+  initializer: @AwsCdkDsl CfnNetworkInterfacePermission.() -> Unit = {},
 ): CfnNetworkInterfacePermission = CfnNetworkInterfacePermission(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnNetworkInterfacePermission(id: String, initializer: @AwsCdkDsl
-    CfnNetworkInterfacePermission.Builder.() -> Unit): CfnNetworkInterfacePermission =
+    CfnNetworkInterfacePermission.Builder.() -> Unit = {}): CfnNetworkInterfacePermission =
     CfnNetworkInterfacePermission.Builder.create(this, id).apply(initializer).build()

@@ -9,24 +9,17 @@ import software.amazon.awscdk.services.sam.CfnFunctionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnFunction(id: String): CfnFunction = CfnFunction(this, id)
-
-@Generated
-public fun Construct.cfnFunction(id: String, initializer: @AwsCdkDsl CfnFunction.() -> Unit):
+public fun Construct.cfnFunction(id: String, initializer: @AwsCdkDsl CfnFunction.() -> Unit = {}):
     CfnFunction = CfnFunction(this, id).apply(initializer)
-
-@Generated
-public fun Construct.cfnFunction(id: String, props: CfnFunctionProps): CfnFunction =
-    CfnFunction(this, id, props)
 
 @Generated
 public fun Construct.cfnFunction(
   id: String,
   props: CfnFunctionProps,
-  initializer: @AwsCdkDsl CfnFunction.() -> Unit,
+  initializer: @AwsCdkDsl CfnFunction.() -> Unit = {},
 ): CfnFunction = CfnFunction(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnFunction(id: String, initializer: @AwsCdkDsl
-    CfnFunction.Builder.() -> Unit): CfnFunction = CfnFunction.Builder.create(this,
+    CfnFunction.Builder.() -> Unit = {}): CfnFunction = CfnFunction.Builder.create(this,
     id).apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.cognito.CfnUserPoolRiskConfigurationAttac
 
 @Generated
 public fun buildNotifyConfigurationTypeProperty(initializer: @AwsCdkDsl
-    CfnUserPoolRiskConfigurationAttachment.NotifyConfigurationTypeProperty.Builder.() -> Unit):
+    CfnUserPoolRiskConfigurationAttachment.NotifyConfigurationTypeProperty.Builder.() -> Unit = {}):
     CfnUserPoolRiskConfigurationAttachment.NotifyConfigurationTypeProperty =
     CfnUserPoolRiskConfigurationAttachment.NotifyConfigurationTypeProperty.Builder().apply(initializer).build()

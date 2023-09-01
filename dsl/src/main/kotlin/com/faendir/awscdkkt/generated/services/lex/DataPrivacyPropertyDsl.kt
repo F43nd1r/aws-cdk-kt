@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
 public fun buildDataPrivacyProperty(initializer: @AwsCdkDsl
-    CfnBot.DataPrivacyProperty.Builder.() -> Unit): CfnBot.DataPrivacyProperty =
+    CfnBot.DataPrivacyProperty.Builder.() -> Unit = {}): CfnBot.DataPrivacyProperty =
     CfnBot.DataPrivacyProperty.Builder().apply(initializer).build()

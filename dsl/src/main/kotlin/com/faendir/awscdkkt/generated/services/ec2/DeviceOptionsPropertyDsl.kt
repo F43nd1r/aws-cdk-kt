@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ec2.CfnVerifiedAccessTrustProvider
 
 @Generated
 public fun buildDeviceOptionsProperty(initializer: @AwsCdkDsl
-    CfnVerifiedAccessTrustProvider.DeviceOptionsProperty.Builder.() -> Unit):
+    CfnVerifiedAccessTrustProvider.DeviceOptionsProperty.Builder.() -> Unit = {}):
     CfnVerifiedAccessTrustProvider.DeviceOptionsProperty =
     CfnVerifiedAccessTrustProvider.DeviceOptionsProperty.Builder().apply(initializer).build()

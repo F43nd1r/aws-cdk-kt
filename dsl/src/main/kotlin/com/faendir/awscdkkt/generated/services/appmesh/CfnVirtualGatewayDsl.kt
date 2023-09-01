@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.appmesh.CfnVirtualGatewayProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnVirtualGateway(id: String, props: CfnVirtualGatewayProps): CfnVirtualGateway
-    = CfnVirtualGateway(this, id, props)
-
-@Generated
 public fun Construct.cfnVirtualGateway(
   id: String,
   props: CfnVirtualGatewayProps,
-  initializer: @AwsCdkDsl CfnVirtualGateway.() -> Unit,
+  initializer: @AwsCdkDsl CfnVirtualGateway.() -> Unit = {},
 ): CfnVirtualGateway = CfnVirtualGateway(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnVirtualGateway(id: String, initializer: @AwsCdkDsl
-    CfnVirtualGateway.Builder.() -> Unit): CfnVirtualGateway =
+    CfnVirtualGateway.Builder.() -> Unit = {}): CfnVirtualGateway =
     CfnVirtualGateway.Builder.create(this, id).apply(initializer).build()

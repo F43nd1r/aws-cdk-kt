@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.networkmanager.CfnCustomerGatewayAssociat
 
 @Generated
 public fun buildCfnCustomerGatewayAssociationProps(initializer: @AwsCdkDsl
-    CfnCustomerGatewayAssociationProps.Builder.() -> Unit): CfnCustomerGatewayAssociationProps =
-    CfnCustomerGatewayAssociationProps.Builder().apply(initializer).build()
+    CfnCustomerGatewayAssociationProps.Builder.() -> Unit = {}): CfnCustomerGatewayAssociationProps
+    = CfnCustomerGatewayAssociationProps.Builder().apply(initializer).build()

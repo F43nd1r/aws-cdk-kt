@@ -9,22 +9,16 @@ import software.amazon.awscdk.services.stepfunctions.SucceedProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.succeed(id: String): Succeed = Succeed(this, id)
-
-@Generated
-public fun Construct.succeed(id: String, initializer: @AwsCdkDsl Succeed.() -> Unit): Succeed =
+public fun Construct.succeed(id: String, initializer: @AwsCdkDsl Succeed.() -> Unit = {}): Succeed =
     Succeed(this, id).apply(initializer)
-
-@Generated
-public fun Construct.succeed(id: String, props: SucceedProps): Succeed = Succeed(this, id, props)
 
 @Generated
 public fun Construct.succeed(
   id: String,
   props: SucceedProps,
-  initializer: @AwsCdkDsl Succeed.() -> Unit,
+  initializer: @AwsCdkDsl Succeed.() -> Unit = {},
 ): Succeed = Succeed(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildSucceed(id: String, initializer: @AwsCdkDsl Succeed.Builder.() -> Unit):
-    Succeed = Succeed.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildSucceed(id: String, initializer: @AwsCdkDsl Succeed.Builder.() -> Unit =
+    {}): Succeed = Succeed.Builder.create(this, id).apply(initializer).build()

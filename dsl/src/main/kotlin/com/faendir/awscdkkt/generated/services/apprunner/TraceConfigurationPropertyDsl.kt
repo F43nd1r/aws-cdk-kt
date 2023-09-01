@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.apprunner.CfnObservabilityConfiguration
 
 @Generated
 public fun buildTraceConfigurationProperty(initializer: @AwsCdkDsl
-    CfnObservabilityConfiguration.TraceConfigurationProperty.Builder.() -> Unit):
+    CfnObservabilityConfiguration.TraceConfigurationProperty.Builder.() -> Unit = {}):
     CfnObservabilityConfiguration.TraceConfigurationProperty =
     CfnObservabilityConfiguration.TraceConfigurationProperty.Builder().apply(initializer).build()

@@ -9,24 +9,17 @@ import software.amazon.awscdk.services.auditmanager.CfnAssessmentProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnAssessment(id: String): CfnAssessment = CfnAssessment(this, id)
-
-@Generated
-public fun Construct.cfnAssessment(id: String, initializer: @AwsCdkDsl CfnAssessment.() -> Unit):
-    CfnAssessment = CfnAssessment(this, id).apply(initializer)
-
-@Generated
-public fun Construct.cfnAssessment(id: String, props: CfnAssessmentProps): CfnAssessment =
-    CfnAssessment(this, id, props)
+public fun Construct.cfnAssessment(id: String, initializer: @AwsCdkDsl CfnAssessment.() -> Unit =
+    {}): CfnAssessment = CfnAssessment(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnAssessment(
   id: String,
   props: CfnAssessmentProps,
-  initializer: @AwsCdkDsl CfnAssessment.() -> Unit,
+  initializer: @AwsCdkDsl CfnAssessment.() -> Unit = {},
 ): CfnAssessment = CfnAssessment(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnAssessment(id: String, initializer: @AwsCdkDsl
-    CfnAssessment.Builder.() -> Unit): CfnAssessment = CfnAssessment.Builder.create(this,
+    CfnAssessment.Builder.() -> Unit = {}): CfnAssessment = CfnAssessment.Builder.create(this,
     id).apply(initializer).build()

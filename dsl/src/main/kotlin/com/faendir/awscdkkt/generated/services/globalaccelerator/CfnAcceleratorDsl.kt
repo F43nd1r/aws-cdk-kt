@@ -9,17 +9,13 @@ import software.amazon.awscdk.services.globalaccelerator.CfnAcceleratorProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnAccelerator(id: String, props: CfnAcceleratorProps): CfnAccelerator =
-    CfnAccelerator(this, id, props)
-
-@Generated
 public fun Construct.cfnAccelerator(
   id: String,
   props: CfnAcceleratorProps,
-  initializer: @AwsCdkDsl CfnAccelerator.() -> Unit,
+  initializer: @AwsCdkDsl CfnAccelerator.() -> Unit = {},
 ): CfnAccelerator = CfnAccelerator(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnAccelerator(id: String, initializer: @AwsCdkDsl
-    CfnAccelerator.Builder.() -> Unit): CfnAccelerator = CfnAccelerator.Builder.create(this,
+    CfnAccelerator.Builder.() -> Unit = {}): CfnAccelerator = CfnAccelerator.Builder.create(this,
     id).apply(initializer).build()

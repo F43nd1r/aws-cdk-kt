@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.MountPoint
 
 @Generated
-public fun buildMountPoint(initializer: @AwsCdkDsl MountPoint.Builder.() -> Unit): MountPoint =
+public fun buildMountPoint(initializer: @AwsCdkDsl MountPoint.Builder.() -> Unit = {}): MountPoint =
     MountPoint.Builder().apply(initializer).build()

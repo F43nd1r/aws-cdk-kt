@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.elasticache.CfnReplicationGroup
 
 @Generated
 public fun buildNodeGroupConfigurationProperty(initializer: @AwsCdkDsl
-    CfnReplicationGroup.NodeGroupConfigurationProperty.Builder.() -> Unit):
+    CfnReplicationGroup.NodeGroupConfigurationProperty.Builder.() -> Unit = {}):
     CfnReplicationGroup.NodeGroupConfigurationProperty =
     CfnReplicationGroup.NodeGroupConfigurationProperty.Builder().apply(initializer).build()

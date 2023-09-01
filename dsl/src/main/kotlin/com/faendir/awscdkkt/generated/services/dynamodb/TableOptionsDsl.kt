@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.TableOptions
 
 @Generated
-public fun buildTableOptions(initializer: @AwsCdkDsl TableOptions.Builder.() -> Unit): TableOptions
-    = TableOptions.Builder().apply(initializer).build()
+public fun buildTableOptions(initializer: @AwsCdkDsl TableOptions.Builder.() -> Unit = {}):
+    TableOptions = TableOptions.Builder().apply(initializer).build()

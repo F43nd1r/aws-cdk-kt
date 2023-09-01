@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.greengrass.CfnResourceDefinitionVersionPr
 
 @Generated
 public fun buildCfnResourceDefinitionVersionProps(initializer: @AwsCdkDsl
-    CfnResourceDefinitionVersionProps.Builder.() -> Unit): CfnResourceDefinitionVersionProps =
+    CfnResourceDefinitionVersionProps.Builder.() -> Unit = {}): CfnResourceDefinitionVersionProps =
     CfnResourceDefinitionVersionProps.Builder().apply(initializer).build()

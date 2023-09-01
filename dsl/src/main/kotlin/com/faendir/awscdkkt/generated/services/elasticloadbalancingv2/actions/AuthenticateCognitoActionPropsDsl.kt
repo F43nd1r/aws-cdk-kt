@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.actions.Authentica
 
 @Generated
 public fun buildAuthenticateCognitoActionProps(initializer: @AwsCdkDsl
-    AuthenticateCognitoActionProps.Builder.() -> Unit): AuthenticateCognitoActionProps =
+    AuthenticateCognitoActionProps.Builder.() -> Unit = {}): AuthenticateCognitoActionProps =
     AuthenticateCognitoActionProps.Builder().apply(initializer).build()

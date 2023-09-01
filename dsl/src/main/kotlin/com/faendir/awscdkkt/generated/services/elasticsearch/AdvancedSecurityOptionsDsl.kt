@@ -13,5 +13,5 @@ import software.amazon.awscdk.services.elasticsearch.AdvancedSecurityOptions
     "software.amazon.awscdk.services.elasticsearch.AdvancedSecurityOptions is deprecated in CDK.")
 @Generated
 public fun buildAdvancedSecurityOptions(initializer: @AwsCdkDsl
-    AdvancedSecurityOptions.Builder.() -> Unit): AdvancedSecurityOptions =
+    AdvancedSecurityOptions.Builder.() -> Unit = {}): AdvancedSecurityOptions =
     AdvancedSecurityOptions.Builder().apply(initializer).build()

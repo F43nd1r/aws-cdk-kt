@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.s3objectlambda.CfnAccessPoint
 
 @Generated
 public fun buildPublicAccessBlockConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAccessPoint.PublicAccessBlockConfigurationProperty.Builder.() -> Unit):
+    CfnAccessPoint.PublicAccessBlockConfigurationProperty.Builder.() -> Unit = {}):
     CfnAccessPoint.PublicAccessBlockConfigurationProperty =
     CfnAccessPoint.PublicAccessBlockConfigurationProperty.Builder().apply(initializer).build()

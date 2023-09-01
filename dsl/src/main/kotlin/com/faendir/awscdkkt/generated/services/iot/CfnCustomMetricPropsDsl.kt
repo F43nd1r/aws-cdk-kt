@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnCustomMetricProps
 
 @Generated
-public fun buildCfnCustomMetricProps(initializer: @AwsCdkDsl
-    CfnCustomMetricProps.Builder.() -> Unit): CfnCustomMetricProps =
-    CfnCustomMetricProps.Builder().apply(initializer).build()
+public fun buildCfnCustomMetricProps(initializer: @AwsCdkDsl CfnCustomMetricProps.Builder.() -> Unit
+    = {}): CfnCustomMetricProps = CfnCustomMetricProps.Builder().apply(initializer).build()

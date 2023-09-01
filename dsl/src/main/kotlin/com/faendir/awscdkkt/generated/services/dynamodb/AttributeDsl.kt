@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.Attribute
 
 @Generated
-public fun buildAttribute(initializer: @AwsCdkDsl Attribute.Builder.() -> Unit): Attribute =
+public fun buildAttribute(initializer: @AwsCdkDsl Attribute.Builder.() -> Unit = {}): Attribute =
     Attribute.Builder().apply(initializer).build()

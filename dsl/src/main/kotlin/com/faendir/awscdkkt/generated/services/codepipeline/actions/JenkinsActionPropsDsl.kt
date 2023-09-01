@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.JenkinsActionProps
 
 @Generated
-public fun buildJenkinsActionProps(initializer: @AwsCdkDsl JenkinsActionProps.Builder.() -> Unit):
-    JenkinsActionProps = JenkinsActionProps.Builder().apply(initializer).build()
+public fun buildJenkinsActionProps(initializer: @AwsCdkDsl JenkinsActionProps.Builder.() -> Unit =
+    {}): JenkinsActionProps = JenkinsActionProps.Builder().apply(initializer).build()

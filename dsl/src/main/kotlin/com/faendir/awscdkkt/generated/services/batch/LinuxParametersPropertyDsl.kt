@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
 public fun buildLinuxParametersProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.LinuxParametersProperty.Builder.() -> Unit):
+    CfnJobDefinition.LinuxParametersProperty.Builder.() -> Unit = {}):
     CfnJobDefinition.LinuxParametersProperty =
     CfnJobDefinition.LinuxParametersProperty.Builder().apply(initializer).build()

@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnModelPackageProps
 
 @Generated
-public fun buildCfnModelPackageProps(initializer: @AwsCdkDsl
-    CfnModelPackageProps.Builder.() -> Unit): CfnModelPackageProps =
-    CfnModelPackageProps.Builder().apply(initializer).build()
+public fun buildCfnModelPackageProps(initializer: @AwsCdkDsl CfnModelPackageProps.Builder.() -> Unit
+    = {}): CfnModelPackageProps = CfnModelPackageProps.Builder().apply(initializer).build()

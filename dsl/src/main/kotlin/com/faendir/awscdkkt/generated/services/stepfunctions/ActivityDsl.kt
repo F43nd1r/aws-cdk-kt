@@ -9,23 +9,16 @@ import software.amazon.awscdk.services.stepfunctions.ActivityProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.activity(id: String): Activity = Activity(this, id)
-
-@Generated
-public fun Construct.activity(id: String, initializer: @AwsCdkDsl Activity.() -> Unit): Activity =
-    Activity(this, id).apply(initializer)
-
-@Generated
-public fun Construct.activity(id: String, props: ActivityProps): Activity = Activity(this, id,
-    props)
+public fun Construct.activity(id: String, initializer: @AwsCdkDsl Activity.() -> Unit = {}):
+    Activity = Activity(this, id).apply(initializer)
 
 @Generated
 public fun Construct.activity(
   id: String,
   props: ActivityProps,
-  initializer: @AwsCdkDsl Activity.() -> Unit,
+  initializer: @AwsCdkDsl Activity.() -> Unit = {},
 ): Activity = Activity(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildActivity(id: String, initializer: @AwsCdkDsl Activity.Builder.() -> Unit):
-    Activity = Activity.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildActivity(id: String, initializer: @AwsCdkDsl Activity.Builder.() -> Unit =
+    {}): Activity = Activity.Builder.create(this, id).apply(initializer).build()

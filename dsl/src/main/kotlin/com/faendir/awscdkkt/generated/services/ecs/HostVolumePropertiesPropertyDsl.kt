@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
 public fun buildHostVolumePropertiesProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.HostVolumePropertiesProperty.Builder.() -> Unit):
+    CfnTaskDefinition.HostVolumePropertiesProperty.Builder.() -> Unit = {}):
     CfnTaskDefinition.HostVolumePropertiesProperty =
     CfnTaskDefinition.HostVolumePropertiesProperty.Builder().apply(initializer).build()

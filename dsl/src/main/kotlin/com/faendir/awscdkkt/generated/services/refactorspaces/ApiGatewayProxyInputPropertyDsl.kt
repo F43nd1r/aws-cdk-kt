@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.refactorspaces.CfnApplication
 
 @Generated
 public fun buildApiGatewayProxyInputProperty(initializer: @AwsCdkDsl
-    CfnApplication.ApiGatewayProxyInputProperty.Builder.() -> Unit):
+    CfnApplication.ApiGatewayProxyInputProperty.Builder.() -> Unit = {}):
     CfnApplication.ApiGatewayProxyInputProperty =
     CfnApplication.ApiGatewayProxyInputProperty.Builder().apply(initializer).build()

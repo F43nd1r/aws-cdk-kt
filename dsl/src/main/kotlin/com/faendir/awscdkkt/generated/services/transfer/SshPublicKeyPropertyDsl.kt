@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.transfer.CfnUser
 
 @Generated
 public fun buildSshPublicKeyProperty(initializer: @AwsCdkDsl
-    CfnUser.SshPublicKeyProperty.Builder.() -> Unit): CfnUser.SshPublicKeyProperty =
+    CfnUser.SshPublicKeyProperty.Builder.() -> Unit = {}): CfnUser.SshPublicKeyProperty =
     CfnUser.SshPublicKeyProperty.Builder().apply(initializer).build()

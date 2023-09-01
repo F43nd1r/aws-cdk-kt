@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildReferenceLineValueLabelConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ReferenceLineValueLabelConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.ReferenceLineValueLabelConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.ReferenceLineValueLabelConfigurationProperty =
     CfnTemplate.ReferenceLineValueLabelConfigurationProperty.Builder().apply(initializer).build()

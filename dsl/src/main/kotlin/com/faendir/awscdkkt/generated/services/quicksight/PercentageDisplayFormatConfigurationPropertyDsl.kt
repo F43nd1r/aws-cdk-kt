@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildPercentageDisplayFormatConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PercentageDisplayFormatConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.PercentageDisplayFormatConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.PercentageDisplayFormatConfigurationProperty =
     CfnTemplate.PercentageDisplayFormatConfigurationProperty.Builder().apply(initializer).build()

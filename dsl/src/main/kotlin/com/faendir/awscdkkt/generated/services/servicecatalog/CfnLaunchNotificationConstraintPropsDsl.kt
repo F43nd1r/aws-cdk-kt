@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.servicecatalog.CfnLaunchNotificationConst
 
 @Generated
 public fun buildCfnLaunchNotificationConstraintProps(initializer: @AwsCdkDsl
-    CfnLaunchNotificationConstraintProps.Builder.() -> Unit): CfnLaunchNotificationConstraintProps =
+    CfnLaunchNotificationConstraintProps.Builder.() -> Unit = {}):
+    CfnLaunchNotificationConstraintProps =
     CfnLaunchNotificationConstraintProps.Builder().apply(initializer).build()

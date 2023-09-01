@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.codepipeline.CfnCustomActionType
 
 @Generated
 public fun buildConfigurationPropertiesProperty(initializer: @AwsCdkDsl
-    CfnCustomActionType.ConfigurationPropertiesProperty.Builder.() -> Unit):
+    CfnCustomActionType.ConfigurationPropertiesProperty.Builder.() -> Unit = {}):
     CfnCustomActionType.ConfigurationPropertiesProperty =
     CfnCustomActionType.ConfigurationPropertiesProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.acmpca.CfnCertificateAuthority
 
 @Generated
 public fun buildEdiPartyNameProperty(initializer: @AwsCdkDsl
-    CfnCertificateAuthority.EdiPartyNameProperty.Builder.() -> Unit):
+    CfnCertificateAuthority.EdiPartyNameProperty.Builder.() -> Unit = {}):
     CfnCertificateAuthority.EdiPartyNameProperty =
     CfnCertificateAuthority.EdiPartyNameProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildDefaultFreeFormLayoutConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DefaultFreeFormLayoutConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.DefaultFreeFormLayoutConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.DefaultFreeFormLayoutConfigurationProperty =
     CfnTemplate.DefaultFreeFormLayoutConfigurationProperty.Builder().apply(initializer).build()

@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.appstream.CfnApplicationFleetAssociationP
 
 @Generated
 public fun buildCfnApplicationFleetAssociationProps(initializer: @AwsCdkDsl
-    CfnApplicationFleetAssociationProps.Builder.() -> Unit): CfnApplicationFleetAssociationProps =
+    CfnApplicationFleetAssociationProps.Builder.() -> Unit = {}):
+    CfnApplicationFleetAssociationProps =
     CfnApplicationFleetAssociationProps.Builder().apply(initializer).build()

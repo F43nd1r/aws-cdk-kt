@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.pinpointemail.CfnConfigurationSet
 
 @Generated
 public fun buildSendingOptionsProperty(initializer: @AwsCdkDsl
-    CfnConfigurationSet.SendingOptionsProperty.Builder.() -> Unit):
+    CfnConfigurationSet.SendingOptionsProperty.Builder.() -> Unit = {}):
     CfnConfigurationSet.SendingOptionsProperty =
     CfnConfigurationSet.SendingOptionsProperty.Builder().apply(initializer).build()

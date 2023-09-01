@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.PublicSubnetProps
 
 @Generated
-public fun buildPublicSubnetProps(initializer: @AwsCdkDsl PublicSubnetProps.Builder.() -> Unit):
-    PublicSubnetProps = PublicSubnetProps.Builder().apply(initializer).build()
+public fun buildPublicSubnetProps(initializer: @AwsCdkDsl PublicSubnetProps.Builder.() -> Unit =
+    {}): PublicSubnetProps = PublicSubnetProps.Builder().apply(initializer).build()

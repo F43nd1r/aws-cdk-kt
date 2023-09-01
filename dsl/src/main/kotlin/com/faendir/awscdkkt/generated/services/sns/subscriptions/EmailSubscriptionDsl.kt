@@ -8,5 +8,5 @@ import software.amazon.awscdk.services.sns.subscriptions.EmailSubscription
 
 @Generated
 public fun buildEmailSubscription(emailAddress: String, initializer: @AwsCdkDsl
-    EmailSubscription.Builder.() -> Unit): EmailSubscription =
+    EmailSubscription.Builder.() -> Unit = {}): EmailSubscription =
     EmailSubscription.Builder.create(emailAddress).apply(initializer).build()

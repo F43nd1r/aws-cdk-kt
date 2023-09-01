@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.eks.EksOptimizedImageProps
 
 @Generated
 public fun buildEksOptimizedImageProps(initializer: @AwsCdkDsl
-    EksOptimizedImageProps.Builder.() -> Unit): EksOptimizedImageProps =
+    EksOptimizedImageProps.Builder.() -> Unit = {}): EksOptimizedImageProps =
     EksOptimizedImageProps.Builder().apply(initializer).build()

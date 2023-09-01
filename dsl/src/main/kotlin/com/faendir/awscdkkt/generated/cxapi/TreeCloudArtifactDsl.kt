@@ -11,5 +11,5 @@ import software.amazon.awscdk.cxapi.TreeCloudArtifact
 public fun buildTreeCloudArtifact(
   assembly: CloudAssembly,
   name: String,
-  initializer: @AwsCdkDsl TreeCloudArtifact.Builder.() -> Unit,
+  initializer: @AwsCdkDsl TreeCloudArtifact.Builder.() -> Unit = {},
 ): TreeCloudArtifact = TreeCloudArtifact.Builder.create(assembly, name).apply(initializer).build()

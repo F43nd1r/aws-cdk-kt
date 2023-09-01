@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
 public fun buildTagFilterProperty(initializer: @AwsCdkDsl
-    CfnBucket.TagFilterProperty.Builder.() -> Unit): CfnBucket.TagFilterProperty =
+    CfnBucket.TagFilterProperty.Builder.() -> Unit = {}): CfnBucket.TagFilterProperty =
     CfnBucket.TagFilterProperty.Builder().apply(initializer).build()

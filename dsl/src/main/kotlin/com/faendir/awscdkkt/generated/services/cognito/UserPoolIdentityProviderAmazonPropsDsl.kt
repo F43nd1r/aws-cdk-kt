@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.cognito.UserPoolIdentityProviderAmazonPro
 
 @Generated
 public fun buildUserPoolIdentityProviderAmazonProps(initializer: @AwsCdkDsl
-    UserPoolIdentityProviderAmazonProps.Builder.() -> Unit): UserPoolIdentityProviderAmazonProps =
+    UserPoolIdentityProviderAmazonProps.Builder.() -> Unit = {}):
+    UserPoolIdentityProviderAmazonProps =
     UserPoolIdentityProviderAmazonProps.Builder().apply(initializer).build()

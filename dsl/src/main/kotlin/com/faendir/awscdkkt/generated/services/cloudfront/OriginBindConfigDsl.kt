@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.OriginBindConfig
 
 @Generated
-public fun buildOriginBindConfig(initializer: @AwsCdkDsl OriginBindConfig.Builder.() -> Unit):
+public fun buildOriginBindConfig(initializer: @AwsCdkDsl OriginBindConfig.Builder.() -> Unit = {}):
     OriginBindConfig = OriginBindConfig.Builder().apply(initializer).build()

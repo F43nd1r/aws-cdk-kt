@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.origins.RestApiOriginProps
 
 @Generated
-public fun buildRestApiOriginProps(initializer: @AwsCdkDsl RestApiOriginProps.Builder.() -> Unit):
-    RestApiOriginProps = RestApiOriginProps.Builder().apply(initializer).build()
+public fun buildRestApiOriginProps(initializer: @AwsCdkDsl RestApiOriginProps.Builder.() -> Unit =
+    {}): RestApiOriginProps = RestApiOriginProps.Builder().apply(initializer).build()

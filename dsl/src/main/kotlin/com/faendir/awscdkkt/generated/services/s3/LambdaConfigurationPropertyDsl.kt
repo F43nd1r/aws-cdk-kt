@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
 public fun buildLambdaConfigurationProperty(initializer: @AwsCdkDsl
-    CfnBucket.LambdaConfigurationProperty.Builder.() -> Unit): CfnBucket.LambdaConfigurationProperty
-    = CfnBucket.LambdaConfigurationProperty.Builder().apply(initializer).build()
+    CfnBucket.LambdaConfigurationProperty.Builder.() -> Unit = {}):
+    CfnBucket.LambdaConfigurationProperty =
+    CfnBucket.LambdaConfigurationProperty.Builder().apply(initializer).build()

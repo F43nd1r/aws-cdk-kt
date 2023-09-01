@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.EmailSettings
 
 @Generated
-public fun buildEmailSettings(initializer: @AwsCdkDsl EmailSettings.Builder.() -> Unit):
+public fun buildEmailSettings(initializer: @AwsCdkDsl EmailSettings.Builder.() -> Unit = {}):
     EmailSettings = EmailSettings.Builder().apply(initializer).build()

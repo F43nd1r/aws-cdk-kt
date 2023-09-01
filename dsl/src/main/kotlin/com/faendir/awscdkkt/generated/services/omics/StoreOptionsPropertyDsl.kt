@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.omics.CfnAnnotationStore
 
 @Generated
 public fun buildStoreOptionsProperty(initializer: @AwsCdkDsl
-    CfnAnnotationStore.StoreOptionsProperty.Builder.() -> Unit):
+    CfnAnnotationStore.StoreOptionsProperty.Builder.() -> Unit = {}):
     CfnAnnotationStore.StoreOptionsProperty =
     CfnAnnotationStore.StoreOptionsProperty.Builder().apply(initializer).build()

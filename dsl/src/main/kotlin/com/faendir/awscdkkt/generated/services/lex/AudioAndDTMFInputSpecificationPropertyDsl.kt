@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
 public fun buildAudioAndDTMFInputSpecificationProperty(initializer: @AwsCdkDsl
-    CfnBot.AudioAndDTMFInputSpecificationProperty.Builder.() -> Unit):
+    CfnBot.AudioAndDTMFInputSpecificationProperty.Builder.() -> Unit = {}):
     CfnBot.AudioAndDTMFInputSpecificationProperty =
     CfnBot.AudioAndDTMFInputSpecificationProperty.Builder().apply(initializer).build()

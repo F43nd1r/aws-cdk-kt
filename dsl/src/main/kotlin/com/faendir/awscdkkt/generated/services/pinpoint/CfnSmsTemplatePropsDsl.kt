@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnSmsTemplateProps
 
 @Generated
-public fun buildCfnSmsTemplateProps(initializer: @AwsCdkDsl CfnSmsTemplateProps.Builder.() -> Unit):
-    CfnSmsTemplateProps = CfnSmsTemplateProps.Builder().apply(initializer).build()
+public fun buildCfnSmsTemplateProps(initializer: @AwsCdkDsl CfnSmsTemplateProps.Builder.() -> Unit =
+    {}): CfnSmsTemplateProps = CfnSmsTemplateProps.Builder().apply(initializer).build()

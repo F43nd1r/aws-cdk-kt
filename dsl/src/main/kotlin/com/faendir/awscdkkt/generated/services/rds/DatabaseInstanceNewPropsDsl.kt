@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.rds.DatabaseInstanceNewProps
 
 @Generated
 public fun buildDatabaseInstanceNewProps(initializer: @AwsCdkDsl
-    DatabaseInstanceNewProps.Builder.() -> Unit): DatabaseInstanceNewProps =
+    DatabaseInstanceNewProps.Builder.() -> Unit = {}): DatabaseInstanceNewProps =
     DatabaseInstanceNewProps.Builder().apply(initializer).build()

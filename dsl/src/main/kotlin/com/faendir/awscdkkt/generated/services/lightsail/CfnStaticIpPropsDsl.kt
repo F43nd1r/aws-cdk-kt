@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lightsail.CfnStaticIpProps
 
 @Generated
-public fun buildCfnStaticIpProps(initializer: @AwsCdkDsl CfnStaticIpProps.Builder.() -> Unit):
+public fun buildCfnStaticIpProps(initializer: @AwsCdkDsl CfnStaticIpProps.Builder.() -> Unit = {}):
     CfnStaticIpProps = CfnStaticIpProps.Builder().apply(initializer).build()

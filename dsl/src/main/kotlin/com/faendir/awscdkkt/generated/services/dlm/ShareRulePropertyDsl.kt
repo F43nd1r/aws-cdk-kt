@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.dlm.CfnLifecyclePolicy
 
 @Generated
 public fun buildShareRuleProperty(initializer: @AwsCdkDsl
-    CfnLifecyclePolicy.ShareRuleProperty.Builder.() -> Unit): CfnLifecyclePolicy.ShareRuleProperty =
+    CfnLifecyclePolicy.ShareRuleProperty.Builder.() -> Unit = {}):
+    CfnLifecyclePolicy.ShareRuleProperty =
     CfnLifecyclePolicy.ShareRuleProperty.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildComboChartSortConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ComboChartSortConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.ComboChartSortConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.ComboChartSortConfigurationProperty =
     CfnTemplate.ComboChartSortConfigurationProperty.Builder().apply(initializer).build()

@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.TaskMetricsConfig
 
 @Generated
-public fun buildTaskMetricsConfig(initializer: @AwsCdkDsl TaskMetricsConfig.Builder.() -> Unit):
-    TaskMetricsConfig = TaskMetricsConfig.Builder().apply(initializer).build()
+public fun buildTaskMetricsConfig(initializer: @AwsCdkDsl TaskMetricsConfig.Builder.() -> Unit =
+    {}): TaskMetricsConfig = TaskMetricsConfig.Builder().apply(initializer).build()

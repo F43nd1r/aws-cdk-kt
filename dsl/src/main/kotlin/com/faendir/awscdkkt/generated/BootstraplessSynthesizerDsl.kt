@@ -7,5 +7,5 @@ import software.amazon.awscdk.BootstraplessSynthesizer
 
 @Generated
 public fun buildBootstraplessSynthesizer(initializer: @AwsCdkDsl
-    BootstraplessSynthesizer.Builder.() -> Unit): BootstraplessSynthesizer =
+    BootstraplessSynthesizer.Builder.() -> Unit = {}): BootstraplessSynthesizer =
     BootstraplessSynthesizer.Builder.create().apply(initializer).build()

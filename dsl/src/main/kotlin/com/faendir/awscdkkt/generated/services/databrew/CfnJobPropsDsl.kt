@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.databrew.CfnJobProps
 
 @Generated
-public fun buildCfnJobProps(initializer: @AwsCdkDsl CfnJobProps.Builder.() -> Unit): CfnJobProps =
-    CfnJobProps.Builder().apply(initializer).build()
+public fun buildCfnJobProps(initializer: @AwsCdkDsl CfnJobProps.Builder.() -> Unit = {}):
+    CfnJobProps = CfnJobProps.Builder().apply(initializer).build()

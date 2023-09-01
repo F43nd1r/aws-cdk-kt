@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.sagemaker.CfnInferenceExperiment
 
 @Generated
 public fun buildEndpointMetadataProperty(initializer: @AwsCdkDsl
-    CfnInferenceExperiment.EndpointMetadataProperty.Builder.() -> Unit):
+    CfnInferenceExperiment.EndpointMetadataProperty.Builder.() -> Unit = {}):
     CfnInferenceExperiment.EndpointMetadataProperty =
     CfnInferenceExperiment.EndpointMetadataProperty.Builder().apply(initializer).build()

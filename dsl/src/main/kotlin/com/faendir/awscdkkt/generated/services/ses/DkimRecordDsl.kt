@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.DkimRecord
 
 @Generated
-public fun buildDkimRecord(initializer: @AwsCdkDsl DkimRecord.Builder.() -> Unit): DkimRecord =
+public fun buildDkimRecord(initializer: @AwsCdkDsl DkimRecord.Builder.() -> Unit = {}): DkimRecord =
     DkimRecord.Builder().apply(initializer).build()

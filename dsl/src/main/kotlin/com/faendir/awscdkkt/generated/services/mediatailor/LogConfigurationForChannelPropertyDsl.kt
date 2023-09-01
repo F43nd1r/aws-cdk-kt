@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.mediatailor.CfnChannel
 
 @Generated
 public fun buildLogConfigurationForChannelProperty(initializer: @AwsCdkDsl
-    CfnChannel.LogConfigurationForChannelProperty.Builder.() -> Unit):
+    CfnChannel.LogConfigurationForChannelProperty.Builder.() -> Unit = {}):
     CfnChannel.LogConfigurationForChannelProperty =
     CfnChannel.LogConfigurationForChannelProperty.Builder().apply(initializer).build()

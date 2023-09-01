@@ -7,5 +7,6 @@ import software.amazon.awscdk.services.cognito.UserPoolIdentityProviderFacebookP
 
 @Generated
 public fun buildUserPoolIdentityProviderFacebookProps(initializer: @AwsCdkDsl
-    UserPoolIdentityProviderFacebookProps.Builder.() -> Unit): UserPoolIdentityProviderFacebookProps
-    = UserPoolIdentityProviderFacebookProps.Builder().apply(initializer).build()
+    UserPoolIdentityProviderFacebookProps.Builder.() -> Unit = {}):
+    UserPoolIdentityProviderFacebookProps =
+    UserPoolIdentityProviderFacebookProps.Builder().apply(initializer).build()

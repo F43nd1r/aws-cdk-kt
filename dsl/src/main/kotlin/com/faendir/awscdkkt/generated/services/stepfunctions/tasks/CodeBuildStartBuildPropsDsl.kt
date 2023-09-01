@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.CodeBuildStartBuildPr
 
 @Generated
 public fun buildCodeBuildStartBuildProps(initializer: @AwsCdkDsl
-    CodeBuildStartBuildProps.Builder.() -> Unit): CodeBuildStartBuildProps =
+    CodeBuildStartBuildProps.Builder.() -> Unit = {}): CodeBuildStartBuildProps =
     CodeBuildStartBuildProps.Builder().apply(initializer).build()

@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.config.CfnConfigRule
 
 @Generated
 public fun buildCustomPolicyDetailsProperty(initializer: @AwsCdkDsl
-    CfnConfigRule.CustomPolicyDetailsProperty.Builder.() -> Unit):
+    CfnConfigRule.CustomPolicyDetailsProperty.Builder.() -> Unit = {}):
     CfnConfigRule.CustomPolicyDetailsProperty =
     CfnConfigRule.CustomPolicyDetailsProperty.Builder().apply(initializer).build()

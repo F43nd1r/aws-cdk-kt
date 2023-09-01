@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDataSource
 
 @Generated
 public fun buildDataSourceParametersProperty(initializer: @AwsCdkDsl
-    CfnDataSource.DataSourceParametersProperty.Builder.() -> Unit):
+    CfnDataSource.DataSourceParametersProperty.Builder.() -> Unit = {}):
     CfnDataSource.DataSourceParametersProperty =
     CfnDataSource.DataSourceParametersProperty.Builder().apply(initializer).build()

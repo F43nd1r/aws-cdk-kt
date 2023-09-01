@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.apprunner.CfnService
 
 @Generated
 public fun buildCodeRepositoryProperty(initializer: @AwsCdkDsl
-    CfnService.CodeRepositoryProperty.Builder.() -> Unit): CfnService.CodeRepositoryProperty =
+    CfnService.CodeRepositoryProperty.Builder.() -> Unit = {}): CfnService.CodeRepositoryProperty =
     CfnService.CodeRepositoryProperty.Builder().apply(initializer).build()

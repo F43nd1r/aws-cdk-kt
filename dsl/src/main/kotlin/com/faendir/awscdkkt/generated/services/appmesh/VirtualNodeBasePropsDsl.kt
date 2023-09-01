@@ -6,6 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.VirtualNodeBaseProps
 
 @Generated
-public fun buildVirtualNodeBaseProps(initializer: @AwsCdkDsl
-    VirtualNodeBaseProps.Builder.() -> Unit): VirtualNodeBaseProps =
-    VirtualNodeBaseProps.Builder().apply(initializer).build()
+public fun buildVirtualNodeBaseProps(initializer: @AwsCdkDsl VirtualNodeBaseProps.Builder.() -> Unit
+    = {}): VirtualNodeBaseProps = VirtualNodeBaseProps.Builder().apply(initializer).build()

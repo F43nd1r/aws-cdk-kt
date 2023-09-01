@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.stepfunctions.tasks.SageMakerCreateModelP
 
 @Generated
 public fun buildSageMakerCreateModelProps(initializer: @AwsCdkDsl
-    SageMakerCreateModelProps.Builder.() -> Unit): SageMakerCreateModelProps =
+    SageMakerCreateModelProps.Builder.() -> Unit = {}): SageMakerCreateModelProps =
     SageMakerCreateModelProps.Builder().apply(initializer).build()

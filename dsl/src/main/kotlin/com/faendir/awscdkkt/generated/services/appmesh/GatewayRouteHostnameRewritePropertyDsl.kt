@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.appmesh.CfnGatewayRoute
 
 @Generated
 public fun buildGatewayRouteHostnameRewriteProperty(initializer: @AwsCdkDsl
-    CfnGatewayRoute.GatewayRouteHostnameRewriteProperty.Builder.() -> Unit):
+    CfnGatewayRoute.GatewayRouteHostnameRewriteProperty.Builder.() -> Unit = {}):
     CfnGatewayRoute.GatewayRouteHostnameRewriteProperty =
     CfnGatewayRoute.GatewayRouteHostnameRewriteProperty.Builder().apply(initializer).build()

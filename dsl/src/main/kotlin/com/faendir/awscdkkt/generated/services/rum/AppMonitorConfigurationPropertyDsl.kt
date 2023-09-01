@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.rum.CfnAppMonitor
 
 @Generated
 public fun buildAppMonitorConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAppMonitor.AppMonitorConfigurationProperty.Builder.() -> Unit):
+    CfnAppMonitor.AppMonitorConfigurationProperty.Builder.() -> Unit = {}):
     CfnAppMonitor.AppMonitorConfigurationProperty =
     CfnAppMonitor.AppMonitorConfigurationProperty.Builder().apply(initializer).build()

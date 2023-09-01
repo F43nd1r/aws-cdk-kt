@@ -9,18 +9,13 @@ import software.amazon.awscdk.services.iot.CfnPolicyPrincipalAttachmentProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnPolicyPrincipalAttachment(id: String,
-    props: CfnPolicyPrincipalAttachmentProps): CfnPolicyPrincipalAttachment =
-    CfnPolicyPrincipalAttachment(this, id, props)
-
-@Generated
 public fun Construct.cfnPolicyPrincipalAttachment(
   id: String,
   props: CfnPolicyPrincipalAttachmentProps,
-  initializer: @AwsCdkDsl CfnPolicyPrincipalAttachment.() -> Unit,
+  initializer: @AwsCdkDsl CfnPolicyPrincipalAttachment.() -> Unit = {},
 ): CfnPolicyPrincipalAttachment = CfnPolicyPrincipalAttachment(this, id, props).apply(initializer)
 
 @Generated
 public fun Construct.buildCfnPolicyPrincipalAttachment(id: String, initializer: @AwsCdkDsl
-    CfnPolicyPrincipalAttachment.Builder.() -> Unit): CfnPolicyPrincipalAttachment =
+    CfnPolicyPrincipalAttachment.Builder.() -> Unit = {}): CfnPolicyPrincipalAttachment =
     CfnPolicyPrincipalAttachment.Builder.create(this, id).apply(initializer).build()

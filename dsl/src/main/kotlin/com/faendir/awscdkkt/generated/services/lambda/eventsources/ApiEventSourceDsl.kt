@@ -10,5 +10,5 @@ import software.amazon.awscdk.services.lambda.eventsources.ApiEventSource
 public fun buildApiEventSource(
   method: String,
   path: String,
-  initializer: @AwsCdkDsl ApiEventSource.Builder.() -> Unit,
+  initializer: @AwsCdkDsl ApiEventSource.Builder.() -> Unit = {},
 ): ApiEventSource = ApiEventSource.Builder.create(method, path).apply(initializer).build()

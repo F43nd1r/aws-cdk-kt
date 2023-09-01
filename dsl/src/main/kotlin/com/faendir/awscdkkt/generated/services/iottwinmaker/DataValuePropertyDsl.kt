@@ -7,5 +7,5 @@ import software.amazon.awscdk.services.iottwinmaker.CfnEntity
 
 @Generated
 public fun buildDataValueProperty(initializer: @AwsCdkDsl
-    CfnEntity.DataValueProperty.Builder.() -> Unit): CfnEntity.DataValueProperty =
+    CfnEntity.DataValueProperty.Builder.() -> Unit = {}): CfnEntity.DataValueProperty =
     CfnEntity.DataValueProperty.Builder().apply(initializer).build()

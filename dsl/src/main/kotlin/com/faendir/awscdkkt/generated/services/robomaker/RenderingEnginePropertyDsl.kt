@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.robomaker.CfnSimulationApplication
 
 @Generated
 public fun buildRenderingEngineProperty(initializer: @AwsCdkDsl
-    CfnSimulationApplication.RenderingEngineProperty.Builder.() -> Unit):
+    CfnSimulationApplication.RenderingEngineProperty.Builder.() -> Unit = {}):
     CfnSimulationApplication.RenderingEngineProperty =
     CfnSimulationApplication.RenderingEngineProperty.Builder().apply(initializer).build()

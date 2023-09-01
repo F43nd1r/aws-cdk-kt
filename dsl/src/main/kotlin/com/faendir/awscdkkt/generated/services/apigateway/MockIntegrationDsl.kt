@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.MockIntegration
 
 @Generated
-public fun buildMockIntegration(initializer: @AwsCdkDsl MockIntegration.Builder.() -> Unit):
+public fun buildMockIntegration(initializer: @AwsCdkDsl MockIntegration.Builder.() -> Unit = {}):
     MockIntegration = MockIntegration.Builder.create().apply(initializer).build()

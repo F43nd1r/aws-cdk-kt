@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.panorama.CfnPackageProps
 
 @Generated
-public fun buildCfnPackageProps(initializer: @AwsCdkDsl CfnPackageProps.Builder.() -> Unit):
+public fun buildCfnPackageProps(initializer: @AwsCdkDsl CfnPackageProps.Builder.() -> Unit = {}):
     CfnPackageProps = CfnPackageProps.Builder().apply(initializer).build()

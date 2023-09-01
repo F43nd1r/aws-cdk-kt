@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnDataSource
 
 @Generated
 public fun buildAuroraPostgreSqlParametersProperty(initializer: @AwsCdkDsl
-    CfnDataSource.AuroraPostgreSqlParametersProperty.Builder.() -> Unit):
+    CfnDataSource.AuroraPostgreSqlParametersProperty.Builder.() -> Unit = {}):
     CfnDataSource.AuroraPostgreSqlParametersProperty =
     CfnDataSource.AuroraPostgreSqlParametersProperty.Builder().apply(initializer).build()

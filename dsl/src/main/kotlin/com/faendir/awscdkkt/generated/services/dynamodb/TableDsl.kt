@@ -9,15 +9,12 @@ import software.amazon.awscdk.services.dynamodb.TableProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.table(id: String, props: TableProps): Table = Table(this, id, props)
-
-@Generated
 public fun Construct.table(
   id: String,
   props: TableProps,
-  initializer: @AwsCdkDsl Table.() -> Unit,
+  initializer: @AwsCdkDsl Table.() -> Unit = {},
 ): Table = Table(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildTable(id: String, initializer: @AwsCdkDsl Table.Builder.() -> Unit): Table
-    = Table.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildTable(id: String, initializer: @AwsCdkDsl Table.Builder.() -> Unit = {}):
+    Table = Table.Builder.create(this, id).apply(initializer).build()

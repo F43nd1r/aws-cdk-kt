@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.ResourceProps
 
 @Generated
-public fun buildResourceProps(initializer: @AwsCdkDsl ResourceProps.Builder.() -> Unit):
+public fun buildResourceProps(initializer: @AwsCdkDsl ResourceProps.Builder.() -> Unit = {}):
     ResourceProps = ResourceProps.Builder().apply(initializer).build()

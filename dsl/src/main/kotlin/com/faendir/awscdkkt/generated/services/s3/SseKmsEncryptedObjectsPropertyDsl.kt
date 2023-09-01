@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
 public fun buildSseKmsEncryptedObjectsProperty(initializer: @AwsCdkDsl
-    CfnBucket.SseKmsEncryptedObjectsProperty.Builder.() -> Unit):
+    CfnBucket.SseKmsEncryptedObjectsProperty.Builder.() -> Unit = {}):
     CfnBucket.SseKmsEncryptedObjectsProperty =
     CfnBucket.SseKmsEncryptedObjectsProperty.Builder().apply(initializer).build()

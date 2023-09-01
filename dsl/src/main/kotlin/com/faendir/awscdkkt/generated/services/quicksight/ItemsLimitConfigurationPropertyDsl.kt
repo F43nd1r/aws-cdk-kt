@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
 public fun buildItemsLimitConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ItemsLimitConfigurationProperty.Builder.() -> Unit):
+    CfnTemplate.ItemsLimitConfigurationProperty.Builder.() -> Unit = {}):
     CfnTemplate.ItemsLimitConfigurationProperty =
     CfnTemplate.ItemsLimitConfigurationProperty.Builder().apply(initializer).build()

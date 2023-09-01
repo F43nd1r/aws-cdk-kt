@@ -6,5 +6,5 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildMessageProperty(initializer: @AwsCdkDsl CfnBot.MessageProperty.Builder.() -> Unit):
-    CfnBot.MessageProperty = CfnBot.MessageProperty.Builder().apply(initializer).build()
+public fun buildMessageProperty(initializer: @AwsCdkDsl CfnBot.MessageProperty.Builder.() -> Unit =
+    {}): CfnBot.MessageProperty = CfnBot.MessageProperty.Builder().apply(initializer).build()

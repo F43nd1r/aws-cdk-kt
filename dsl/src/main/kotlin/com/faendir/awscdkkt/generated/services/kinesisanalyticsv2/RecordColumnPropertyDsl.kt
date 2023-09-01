@@ -7,6 +7,6 @@ import software.amazon.awscdk.services.kinesisanalyticsv2.CfnApplicationReferenc
 
 @Generated
 public fun buildRecordColumnProperty(initializer: @AwsCdkDsl
-    CfnApplicationReferenceDataSource.RecordColumnProperty.Builder.() -> Unit):
+    CfnApplicationReferenceDataSource.RecordColumnProperty.Builder.() -> Unit = {}):
     CfnApplicationReferenceDataSource.RecordColumnProperty =
     CfnApplicationReferenceDataSource.RecordColumnProperty.Builder().apply(initializer).build()
