@@ -43,10 +43,6 @@ fun main(args: Array<String>) {
                             if (!kClass.isAbstract && kClass.isSubclassOf(Construct::class)) {
                                 addDslFunction(kClass) {
                                     val parameters = addParametersFrom(constructor)
-                                    addCode("return %T(%L)", kClass, parameters)
-                                }
-                                addDslFunction(kClass) {
-                                    val parameters = addParametersFrom(constructor)
                                     addInitializerParameter(kClass.asTypeName())
                                     addCode("return %T(%L).apply(initializer)", kClass, parameters)
                                 }
@@ -124,4 +120,6 @@ private fun FileSpecBuilder.addDslFunction(kClass: KClass<*>, namePrefix: String
 }
 
 private fun FunSpecBuilder.addInitializerParameter(receiver: TypeName) =
-    addParameter("initializer", LambdaTypeName.get(receiver = receiver, returnType = Unit::class.asTypeName()).plusAnnotations(AnnotationSpec.builder(DSL_ANNOTATION).build()))
+    addParameter("initializer", LambdaTypeName.get(receiver = receiver, returnType = Unit::class.asTypeName()).plusAnnotations(AnnotationSpec.builder(DSL_ANNOTATION).build())) {
+        defaultValue("{}")
+    }
