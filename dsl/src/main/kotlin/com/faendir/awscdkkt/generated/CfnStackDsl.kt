@@ -9,10 +9,6 @@ import software.amazon.awscdk.CfnStackProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnStack(id: String, initializer: @AwsCdkDsl CfnStack.() -> Unit = {}):
-    CfnStack = CfnStack(this, id).apply(initializer)
-
-@Generated
 public fun Construct.cfnStack(
   id: String,
   props: CfnStackProps,

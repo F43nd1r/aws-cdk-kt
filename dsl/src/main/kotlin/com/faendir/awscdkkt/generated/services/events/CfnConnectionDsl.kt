@@ -9,10 +9,6 @@ import software.amazon.awscdk.services.events.CfnConnectionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnConnection(id: String, initializer: @AwsCdkDsl CfnConnection.() -> Unit =
-    {}): CfnConnection = CfnConnection(this, id).apply(initializer)
-
-@Generated
 public fun Construct.cfnConnection(
   id: String,
   props: CfnConnectionProps,
