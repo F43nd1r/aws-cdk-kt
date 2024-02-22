@@ -9,10 +9,6 @@ import software.amazon.awscdk.services.mediapackagev2.CfnChannelGroupProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnChannelGroup(id: String, initializer: @AwsCdkDsl CfnChannelGroup.() -> Unit
-    = {}): CfnChannelGroup = CfnChannelGroup(this, id).apply(initializer)
-
-@Generated
 public fun Construct.cfnChannelGroup(
   id: String,
   props: CfnChannelGroupProps,

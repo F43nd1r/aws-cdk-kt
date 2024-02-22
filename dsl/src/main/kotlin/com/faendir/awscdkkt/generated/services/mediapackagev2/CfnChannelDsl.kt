@@ -9,10 +9,6 @@ import software.amazon.awscdk.services.mediapackagev2.CfnChannelProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnChannel(id: String, initializer: @AwsCdkDsl CfnChannel.() -> Unit = {}):
-    CfnChannel = CfnChannel(this, id).apply(initializer)
-
-@Generated
 public fun Construct.cfnChannel(
   id: String,
   props: CfnChannelProps,
