@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.ec2
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
+import software.amazon.awscdk.services.ec2.CfnNetworkInterfaceAttachment
 
 @Generated
 public fun buildEnaSrdSpecificationProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.EnaSrdSpecificationProperty.Builder.() -> Unit = {}):
-    CfnLaunchTemplate.EnaSrdSpecificationProperty =
-    CfnLaunchTemplate.EnaSrdSpecificationProperty.Builder().apply(initializer).build()
+    CfnNetworkInterfaceAttachment.EnaSrdSpecificationProperty.Builder.() -> Unit = {}):
+    CfnNetworkInterfaceAttachment.EnaSrdSpecificationProperty =
+    CfnNetworkInterfaceAttachment.EnaSrdSpecificationProperty.Builder().apply(initializer).build()
