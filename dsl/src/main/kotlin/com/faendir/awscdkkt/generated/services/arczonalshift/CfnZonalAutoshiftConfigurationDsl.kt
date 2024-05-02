@@ -9,11 +9,6 @@ import software.amazon.awscdk.services.arczonalshift.CfnZonalAutoshiftConfigurat
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnZonalAutoshiftConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnZonalAutoshiftConfiguration.() -> Unit = {}): CfnZonalAutoshiftConfiguration =
-    CfnZonalAutoshiftConfiguration(this, id).apply(initializer)
-
-@Generated
 public fun Construct.cfnZonalAutoshiftConfiguration(
   id: String,
   props: CfnZonalAutoshiftConfigurationProps,
