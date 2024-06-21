@@ -3,9 +3,10 @@ package com.faendir.awscdkkt.generated.services.guardduty
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.guardduty.CfnDetector
+import software.amazon.awscdk.services.guardduty.CfnMalwareProtectionPlan
 
 @Generated
 public fun buildTagItemProperty(initializer: @AwsCdkDsl
-    CfnDetector.TagItemProperty.Builder.() -> Unit = {}): CfnDetector.TagItemProperty =
-    CfnDetector.TagItemProperty.Builder().apply(initializer).build()
+    CfnMalwareProtectionPlan.TagItemProperty.Builder.() -> Unit = {}):
+    CfnMalwareProtectionPlan.TagItemProperty =
+    CfnMalwareProtectionPlan.TagItemProperty.Builder().apply(initializer).build()
