@@ -1,7 +1,7 @@
 [versions]
 kotlin = "2.0.0"
 dokka = "1.9.20"
-kotlinPoet = "1.18.0"
+kotlinPoet = "1.18.1"
 kotlinBard = "0.6.0"
 cdk = "2.149.0"
 classgraph = "4.8.174"
