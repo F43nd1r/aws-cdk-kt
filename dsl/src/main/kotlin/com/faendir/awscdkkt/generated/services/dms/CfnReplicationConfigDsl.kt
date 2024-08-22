@@ -9,11 +9,6 @@ import software.amazon.awscdk.services.dms.CfnReplicationConfigProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnReplicationConfig(id: String, initializer: @AwsCdkDsl
-    CfnReplicationConfig.() -> Unit = {}): CfnReplicationConfig = CfnReplicationConfig(this,
-    id).apply(initializer)
-
-@Generated
 public fun Construct.cfnReplicationConfig(
   id: String,
   props: CfnReplicationConfigProps,

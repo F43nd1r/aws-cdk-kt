@@ -9,11 +9,6 @@ import software.amazon.awscdk.services.inspectorv2.CfnCisScanConfigurationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnCisScanConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnCisScanConfiguration.() -> Unit = {}): CfnCisScanConfiguration =
-    CfnCisScanConfiguration(this, id).apply(initializer)
-
-@Generated
 public fun Construct.cfnCisScanConfiguration(
   id: String,
   props: CfnCisScanConfigurationProps,
