@@ -17,10 +17,10 @@ jobs:
         with:
           ref: ${{ github.ref }}
       - name: Generate DSL
-        uses: burrunan/gradle-cache-action@v1
+        uses: burrunan/gradle-cache-action@v2
         with:
           arguments: :dsl-generator:run
       - name: Test
-        uses: burrunan/gradle-cache-action@v1
+        uses: burrunan/gradle-cache-action@v2
         with:
           arguments: :example:run
