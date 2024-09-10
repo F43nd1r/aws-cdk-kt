@@ -9,11 +9,6 @@ import software.amazon.awscdk.services.securityhub.CfnAutomationRuleProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnAutomationRule(id: String, initializer: @AwsCdkDsl
-    CfnAutomationRule.() -> Unit = {}): CfnAutomationRule = CfnAutomationRule(this,
-    id).apply(initializer)
-
-@Generated
 public fun Construct.cfnAutomationRule(
   id: String,
   props: CfnAutomationRuleProps,
