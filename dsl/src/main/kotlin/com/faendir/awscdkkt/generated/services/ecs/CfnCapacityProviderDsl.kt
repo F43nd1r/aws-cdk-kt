@@ -9,6 +9,11 @@ import software.amazon.awscdk.services.ecs.CfnCapacityProviderProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnCapacityProvider(id: String, initializer: @AwsCdkDsl
+    CfnCapacityProvider.() -> Unit = {}): CfnCapacityProvider = CfnCapacityProvider(this,
+    id).apply(initializer)
+
+@Generated
 public fun Construct.cfnCapacityProvider(
   id: String,
   props: CfnCapacityProviderProps,
