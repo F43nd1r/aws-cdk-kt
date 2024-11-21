@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.gamelift
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.gamelift.CfnFleet
+import software.amazon.awscdk.services.gamelift.CfnContainerFleet
 
 @Generated
 public fun buildConnectionPortRangeProperty(initializer: @AwsCdkDsl
-    CfnFleet.ConnectionPortRangeProperty.Builder.() -> Unit = {}):
-    CfnFleet.ConnectionPortRangeProperty =
-    CfnFleet.ConnectionPortRangeProperty.Builder().apply(initializer).build()
+    CfnContainerFleet.ConnectionPortRangeProperty.Builder.() -> Unit = {}):
+    CfnContainerFleet.ConnectionPortRangeProperty =
+    CfnContainerFleet.ConnectionPortRangeProperty.Builder().apply(initializer).build()
