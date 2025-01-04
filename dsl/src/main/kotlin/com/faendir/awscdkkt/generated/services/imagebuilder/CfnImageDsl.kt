@@ -9,6 +9,10 @@ import software.amazon.awscdk.services.imagebuilder.CfnImageProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnImage(id: String, initializer: @AwsCdkDsl CfnImage.() -> Unit = {}):
+    CfnImage = CfnImage(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnImage(
   id: String,
   props: CfnImageProps,
