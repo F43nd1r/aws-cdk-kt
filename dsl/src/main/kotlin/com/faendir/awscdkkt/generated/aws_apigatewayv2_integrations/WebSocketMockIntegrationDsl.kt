@@ -1,0 +1,12 @@
+package com.faendir.awscdkkt.generated.aws_apigatewayv2_integrations
+
+import com.faendir.awscdkkt.AwsCdkDsl
+import javax.`annotation`.Generated
+import kotlin.String
+import kotlin.Unit
+import software.amazon.awscdk.aws_apigatewayv2_integrations.WebSocketMockIntegration
+
+@Generated
+public fun buildWebSocketMockIntegration(id: String, initializer: @AwsCdkDsl
+    WebSocketMockIntegration.Builder.() -> Unit = {}): WebSocketMockIntegration =
+    WebSocketMockIntegration.Builder.create(id).apply(initializer).build()
