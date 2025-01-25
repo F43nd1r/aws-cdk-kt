@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.bedrock
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.bedrock.CfnPrompt
+import software.amazon.awscdk.services.bedrock.CfnPromptVersion
 
 @Generated
 public fun buildPromptGenAiResourceProperty(initializer: @AwsCdkDsl
-    CfnPrompt.PromptGenAiResourceProperty.Builder.() -> Unit = {}):
-    CfnPrompt.PromptGenAiResourceProperty =
-    CfnPrompt.PromptGenAiResourceProperty.Builder().apply(initializer).build()
+    CfnPromptVersion.PromptGenAiResourceProperty.Builder.() -> Unit = {}):
+    CfnPromptVersion.PromptGenAiResourceProperty =
+    CfnPromptVersion.PromptGenAiResourceProperty.Builder().apply(initializer).build()

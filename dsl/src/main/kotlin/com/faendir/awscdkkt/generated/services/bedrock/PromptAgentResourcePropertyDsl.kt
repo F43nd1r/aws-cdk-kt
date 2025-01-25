@@ -3,10 +3,10 @@ package com.faendir.awscdkkt.generated.services.bedrock
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.bedrock.CfnPrompt
+import software.amazon.awscdk.services.bedrock.CfnPromptVersion
 
 @Generated
 public fun buildPromptAgentResourceProperty(initializer: @AwsCdkDsl
-    CfnPrompt.PromptAgentResourceProperty.Builder.() -> Unit = {}):
-    CfnPrompt.PromptAgentResourceProperty =
-    CfnPrompt.PromptAgentResourceProperty.Builder().apply(initializer).build()
+    CfnPromptVersion.PromptAgentResourceProperty.Builder.() -> Unit = {}):
+    CfnPromptVersion.PromptAgentResourceProperty =
+    CfnPromptVersion.PromptAgentResourceProperty.Builder().apply(initializer).build()
