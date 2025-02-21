@@ -5,7 +5,7 @@ kotlinPoet = "1.18.1"
 kotlinBard = "0.6.0"
 cdk = "2.180.0"
 classgraph = "4.8.179"
-paranamer = "2.8"
+paranamer = "2.8.1"
 nexusPublish = "2.0.0"
 download = "5.6.0"
 
