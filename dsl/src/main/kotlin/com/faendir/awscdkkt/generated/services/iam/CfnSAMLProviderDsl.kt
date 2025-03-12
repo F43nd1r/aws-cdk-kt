@@ -9,6 +9,10 @@ import software.amazon.awscdk.services.iam.CfnSAMLProviderProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnSAMLProvider(id: String, initializer: @AwsCdkDsl CfnSAMLProvider.() -> Unit
+    = {}): CfnSAMLProvider = CfnSAMLProvider(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnSAMLProvider(
   id: String,
   props: CfnSAMLProviderProps,
