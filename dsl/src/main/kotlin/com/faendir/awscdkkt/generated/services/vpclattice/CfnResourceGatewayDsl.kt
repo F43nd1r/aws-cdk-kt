@@ -9,11 +9,6 @@ import software.amazon.awscdk.services.vpclattice.CfnResourceGatewayProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnResourceGateway(id: String, initializer: @AwsCdkDsl
-    CfnResourceGateway.() -> Unit = {}): CfnResourceGateway = CfnResourceGateway(this,
-    id).apply(initializer)
-
-@Generated
 public fun Construct.cfnResourceGateway(
   id: String,
   props: CfnResourceGatewayProps,

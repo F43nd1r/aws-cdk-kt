@@ -9,11 +9,6 @@ import software.amazon.awscdk.services.vpclattice.CfnResourceConfigurationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnResourceConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnResourceConfiguration.() -> Unit = {}): CfnResourceConfiguration =
-    CfnResourceConfiguration(this, id).apply(initializer)
-
-@Generated
 public fun Construct.cfnResourceConfiguration(
   id: String,
   props: CfnResourceConfigurationProps,
