@@ -33,7 +33,7 @@ tasks {
         }
     }
     withType<KotlinCompile> {
-        kotlinOptions {
+        compilerOptions {
             javaParameters = true
         }
     }
