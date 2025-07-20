@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.targets.LogGroupTargetInputOptions
 
 @Generated
-public fun buildLogGroupTargetInputOptions(initializer: @AwsCdkDsl
-    LogGroupTargetInputOptions.Builder.() -> Unit = {}): LogGroupTargetInputOptions =
-    LogGroupTargetInputOptions.Builder().apply(initializer).build()
+public fun buildLogGroupTargetInputOptions(initializer: @AwsCdkDsl LogGroupTargetInputOptions.Builder.() -> Unit = {}): LogGroupTargetInputOptions = LogGroupTargetInputOptions.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnEntitlement(
 ): CfnEntitlement = CfnEntitlement(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEntitlement(id: String, initializer: @AwsCdkDsl
-    CfnEntitlement.Builder.() -> Unit = {}): CfnEntitlement = CfnEntitlement.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnEntitlement(id: String, initializer: @AwsCdkDsl CfnEntitlement.Builder.() -> Unit = {}): CfnEntitlement = CfnEntitlement.Builder.create(this, id).apply(initializer).build()

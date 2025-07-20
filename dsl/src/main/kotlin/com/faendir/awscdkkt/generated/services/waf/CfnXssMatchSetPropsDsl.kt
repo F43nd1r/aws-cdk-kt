@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.waf.CfnXssMatchSetProps
 
 @Generated
-public fun buildCfnXssMatchSetProps(initializer: @AwsCdkDsl CfnXssMatchSetProps.Builder.() -> Unit =
-    {}): CfnXssMatchSetProps = CfnXssMatchSetProps.Builder().apply(initializer).build()
+public fun buildCfnXssMatchSetProps(initializer: @AwsCdkDsl CfnXssMatchSetProps.Builder.() -> Unit = {}): CfnXssMatchSetProps = CfnXssMatchSetProps.Builder().apply(initializer).build()

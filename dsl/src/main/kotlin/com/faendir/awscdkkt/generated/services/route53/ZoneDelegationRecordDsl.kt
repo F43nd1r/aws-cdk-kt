@@ -16,6 +16,4 @@ public fun Construct.zoneDelegationRecord(
 ): ZoneDelegationRecord = ZoneDelegationRecord(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildZoneDelegationRecord(id: String, initializer: @AwsCdkDsl
-    ZoneDelegationRecord.Builder.() -> Unit = {}): ZoneDelegationRecord =
-    ZoneDelegationRecord.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildZoneDelegationRecord(id: String, initializer: @AwsCdkDsl ZoneDelegationRecord.Builder.() -> Unit = {}): ZoneDelegationRecord = ZoneDelegationRecord.Builder.create(this, id).apply(initializer).build()

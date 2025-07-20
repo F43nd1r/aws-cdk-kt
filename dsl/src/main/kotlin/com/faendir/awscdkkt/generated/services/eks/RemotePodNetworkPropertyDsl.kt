@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.CfnCluster
 
 @Generated
-public fun buildRemotePodNetworkProperty(initializer: @AwsCdkDsl
-    CfnCluster.RemotePodNetworkProperty.Builder.() -> Unit = {}):
-    CfnCluster.RemotePodNetworkProperty =
-    CfnCluster.RemotePodNetworkProperty.Builder().apply(initializer).build()
+public fun buildRemotePodNetworkProperty(initializer: @AwsCdkDsl CfnCluster.RemotePodNetworkProperty.Builder.() -> Unit = {}): CfnCluster.RemotePodNetworkProperty = CfnCluster.RemotePodNetworkProperty.Builder().apply(initializer).build()

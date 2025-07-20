@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.customerprofiles.CfnSegmentDefinition
 
 @Generated
-public fun buildConditionOverridesProperty(initializer: @AwsCdkDsl
-    CfnSegmentDefinition.ConditionOverridesProperty.Builder.() -> Unit = {}):
-    CfnSegmentDefinition.ConditionOverridesProperty =
-    CfnSegmentDefinition.ConditionOverridesProperty.Builder().apply(initializer).build()
+public fun buildConditionOverridesProperty(initializer: @AwsCdkDsl CfnSegmentDefinition.ConditionOverridesProperty.Builder.() -> Unit = {}): CfnSegmentDefinition.ConditionOverridesProperty = CfnSegmentDefinition.ConditionOverridesProperty.Builder().apply(initializer).build()

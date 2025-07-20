@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.BatchSubmitJobJsonPathProps
 
 @Generated
-public fun buildBatchSubmitJobJsonPathProps(initializer: @AwsCdkDsl
-    BatchSubmitJobJsonPathProps.Builder.() -> Unit = {}): BatchSubmitJobJsonPathProps =
-    BatchSubmitJobJsonPathProps.Builder().apply(initializer).build()
+public fun buildBatchSubmitJobJsonPathProps(initializer: @AwsCdkDsl BatchSubmitJobJsonPathProps.Builder.() -> Unit = {}): BatchSubmitJobJsonPathProps = BatchSubmitJobJsonPathProps.Builder().apply(initializer).build()

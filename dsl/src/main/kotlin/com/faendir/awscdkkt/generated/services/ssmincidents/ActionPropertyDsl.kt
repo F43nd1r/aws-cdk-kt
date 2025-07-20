@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssmincidents.CfnResponsePlan
 
 @Generated
-public fun buildActionProperty(initializer: @AwsCdkDsl
-    CfnResponsePlan.ActionProperty.Builder.() -> Unit = {}): CfnResponsePlan.ActionProperty =
-    CfnResponsePlan.ActionProperty.Builder().apply(initializer).build()
+public fun buildActionProperty(initializer: @AwsCdkDsl CfnResponsePlan.ActionProperty.Builder.() -> Unit = {}): CfnResponsePlan.ActionProperty = CfnResponsePlan.ActionProperty.Builder().apply(initializer).build()

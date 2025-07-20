@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.LambdaInvokeActionProps
 
 @Generated
-public fun buildLambdaInvokeActionProps(initializer: @AwsCdkDsl
-    LambdaInvokeActionProps.Builder.() -> Unit = {}): LambdaInvokeActionProps =
-    LambdaInvokeActionProps.Builder().apply(initializer).build()
+public fun buildLambdaInvokeActionProps(initializer: @AwsCdkDsl LambdaInvokeActionProps.Builder.() -> Unit = {}): LambdaInvokeActionProps = LambdaInvokeActionProps.Builder().apply(initializer).build()

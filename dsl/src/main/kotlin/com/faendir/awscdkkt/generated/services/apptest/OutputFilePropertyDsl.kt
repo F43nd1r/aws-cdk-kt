@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apptest.CfnTestCase
 
 @Generated
-public fun buildOutputFileProperty(initializer: @AwsCdkDsl
-    CfnTestCase.OutputFileProperty.Builder.() -> Unit = {}): CfnTestCase.OutputFileProperty =
-    CfnTestCase.OutputFileProperty.Builder().apply(initializer).build()
+public fun buildOutputFileProperty(initializer: @AwsCdkDsl CfnTestCase.OutputFileProperty.Builder.() -> Unit = {}): CfnTestCase.OutputFileProperty = CfnTestCase.OutputFileProperty.Builder().apply(initializer).build()

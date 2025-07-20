@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnCampaign
 
 @Generated
-public fun buildCampaignHookProperty(initializer: @AwsCdkDsl
-    CfnCampaign.CampaignHookProperty.Builder.() -> Unit = {}): CfnCampaign.CampaignHookProperty =
-    CfnCampaign.CampaignHookProperty.Builder().apply(initializer).build()
+public fun buildCampaignHookProperty(initializer: @AwsCdkDsl CfnCampaign.CampaignHookProperty.Builder.() -> Unit = {}): CfnCampaign.CampaignHookProperty = CfnCampaign.CampaignHookProperty.Builder().apply(initializer).build()

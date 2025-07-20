@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
-public fun buildPodPropertiesProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.PodPropertiesProperty.Builder.() -> Unit = {}):
-    CfnJobDefinition.PodPropertiesProperty =
-    CfnJobDefinition.PodPropertiesProperty.Builder().apply(initializer).build()
+public fun buildPodPropertiesProperty(initializer: @AwsCdkDsl CfnJobDefinition.PodPropertiesProperty.Builder.() -> Unit = {}): CfnJobDefinition.PodPropertiesProperty = CfnJobDefinition.PodPropertiesProperty.Builder().apply(initializer).build()

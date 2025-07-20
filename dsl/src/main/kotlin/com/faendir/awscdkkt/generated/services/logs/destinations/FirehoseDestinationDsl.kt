@@ -7,6 +7,4 @@ import software.amazon.awscdk.services.kinesisfirehose.IDeliveryStream
 import software.amazon.awscdk.services.logs.destinations.FirehoseDestination
 
 @Generated
-public fun buildFirehoseDestination(stream: IDeliveryStream, initializer: @AwsCdkDsl
-    FirehoseDestination.Builder.() -> Unit = {}): FirehoseDestination =
-    FirehoseDestination.Builder.create(stream).apply(initializer).build()
+public fun buildFirehoseDestination(stream: IDeliveryStream, initializer: @AwsCdkDsl FirehoseDestination.Builder.() -> Unit = {}): FirehoseDestination = FirehoseDestination.Builder.create(stream).apply(initializer).build()

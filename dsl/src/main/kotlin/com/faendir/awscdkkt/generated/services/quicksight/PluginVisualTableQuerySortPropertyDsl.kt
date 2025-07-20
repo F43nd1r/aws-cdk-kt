@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildPluginVisualTableQuerySortProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PluginVisualTableQuerySortProperty.Builder.() -> Unit = {}):
-    CfnTemplate.PluginVisualTableQuerySortProperty =
-    CfnTemplate.PluginVisualTableQuerySortProperty.Builder().apply(initializer).build()
+public fun buildPluginVisualTableQuerySortProperty(initializer: @AwsCdkDsl CfnTemplate.PluginVisualTableQuerySortProperty.Builder.() -> Unit = {}): CfnTemplate.PluginVisualTableQuerySortProperty = CfnTemplate.PluginVisualTableQuerySortProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.CfnTable
 
 @Generated
-public fun buildProvisionedThroughputProperty(initializer: @AwsCdkDsl
-    CfnTable.ProvisionedThroughputProperty.Builder.() -> Unit = {}):
-    CfnTable.ProvisionedThroughputProperty =
-    CfnTable.ProvisionedThroughputProperty.Builder().apply(initializer).build()
+public fun buildProvisionedThroughputProperty(initializer: @AwsCdkDsl CfnTable.ProvisionedThroughputProperty.Builder.() -> Unit = {}): CfnTable.ProvisionedThroughputProperty = CfnTable.ProvisionedThroughputProperty.Builder().apply(initializer).build()

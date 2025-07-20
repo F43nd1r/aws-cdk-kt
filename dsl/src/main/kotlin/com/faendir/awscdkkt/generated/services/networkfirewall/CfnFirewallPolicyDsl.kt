@@ -16,6 +16,4 @@ public fun Construct.cfnFirewallPolicy(
 ): CfnFirewallPolicy = CfnFirewallPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnFirewallPolicy(id: String, initializer: @AwsCdkDsl
-    CfnFirewallPolicy.Builder.() -> Unit = {}): CfnFirewallPolicy =
-    CfnFirewallPolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnFirewallPolicy(id: String, initializer: @AwsCdkDsl CfnFirewallPolicy.Builder.() -> Unit = {}): CfnFirewallPolicy = CfnFirewallPolicy.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnResourceShare(
 ): CfnResourceShare = CfnResourceShare(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnResourceShare(id: String, initializer: @AwsCdkDsl
-    CfnResourceShare.Builder.() -> Unit = {}): CfnResourceShare =
-    CfnResourceShare.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnResourceShare(id: String, initializer: @AwsCdkDsl CfnResourceShare.Builder.() -> Unit = {}): CfnResourceShare = CfnResourceShare.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecr.OnCloudTrailImagePushedOptions
 
 @Generated
-public fun buildOnCloudTrailImagePushedOptions(initializer: @AwsCdkDsl
-    OnCloudTrailImagePushedOptions.Builder.() -> Unit = {}): OnCloudTrailImagePushedOptions =
-    OnCloudTrailImagePushedOptions.Builder().apply(initializer).build()
+public fun buildOnCloudTrailImagePushedOptions(initializer: @AwsCdkDsl OnCloudTrailImagePushedOptions.Builder.() -> Unit = {}): OnCloudTrailImagePushedOptions = OnCloudTrailImagePushedOptions.Builder().apply(initializer).build()

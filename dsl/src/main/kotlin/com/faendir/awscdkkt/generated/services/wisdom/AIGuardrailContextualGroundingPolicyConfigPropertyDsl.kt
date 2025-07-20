@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnAIGuardrail
 
 @Generated
-public fun buildAIGuardrailContextualGroundingPolicyConfigProperty(initializer: @AwsCdkDsl
-    CfnAIGuardrail.AIGuardrailContextualGroundingPolicyConfigProperty.Builder.() -> Unit = {}):
-    CfnAIGuardrail.AIGuardrailContextualGroundingPolicyConfigProperty =
-    CfnAIGuardrail.AIGuardrailContextualGroundingPolicyConfigProperty.Builder().apply(initializer).build()
+public fun buildAIGuardrailContextualGroundingPolicyConfigProperty(initializer: @AwsCdkDsl CfnAIGuardrail.AIGuardrailContextualGroundingPolicyConfigProperty.Builder.() -> Unit = {}): CfnAIGuardrail.AIGuardrailContextualGroundingPolicyConfigProperty = CfnAIGuardrail.AIGuardrailContextualGroundingPolicyConfigProperty.Builder().apply(initializer).build()

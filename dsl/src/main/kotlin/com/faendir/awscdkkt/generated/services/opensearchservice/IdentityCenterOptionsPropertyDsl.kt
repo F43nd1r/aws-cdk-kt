@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opensearchservice.CfnDomain
 
 @Generated
-public fun buildIdentityCenterOptionsProperty(initializer: @AwsCdkDsl
-    CfnDomain.IdentityCenterOptionsProperty.Builder.() -> Unit = {}):
-    CfnDomain.IdentityCenterOptionsProperty =
-    CfnDomain.IdentityCenterOptionsProperty.Builder().apply(initializer).build()
+public fun buildIdentityCenterOptionsProperty(initializer: @AwsCdkDsl CfnDomain.IdentityCenterOptionsProperty.Builder.() -> Unit = {}): CfnDomain.IdentityCenterOptionsProperty = CfnDomain.IdentityCenterOptionsProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnEnvironmentBlueprintConfiguration
 
 @Generated
-public fun buildLakeFormationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnEnvironmentBlueprintConfiguration.LakeFormationConfigurationProperty.Builder.() -> Unit =
-    {}): CfnEnvironmentBlueprintConfiguration.LakeFormationConfigurationProperty =
-    CfnEnvironmentBlueprintConfiguration.LakeFormationConfigurationProperty.Builder().apply(initializer).build()
+public fun buildLakeFormationConfigurationProperty(initializer: @AwsCdkDsl CfnEnvironmentBlueprintConfiguration.LakeFormationConfigurationProperty.Builder.() -> Unit = {}): CfnEnvironmentBlueprintConfiguration.LakeFormationConfigurationProperty = CfnEnvironmentBlueprintConfiguration.LakeFormationConfigurationProperty.Builder().apply(initializer).build()

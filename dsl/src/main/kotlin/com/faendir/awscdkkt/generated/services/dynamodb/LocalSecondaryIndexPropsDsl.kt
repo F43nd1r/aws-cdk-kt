@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.LocalSecondaryIndexProps
 
 @Generated
-public fun buildLocalSecondaryIndexProps(initializer: @AwsCdkDsl
-    LocalSecondaryIndexProps.Builder.() -> Unit = {}): LocalSecondaryIndexProps =
-    LocalSecondaryIndexProps.Builder().apply(initializer).build()
+public fun buildLocalSecondaryIndexProps(initializer: @AwsCdkDsl LocalSecondaryIndexProps.Builder.() -> Unit = {}): LocalSecondaryIndexProps = LocalSecondaryIndexProps.Builder().apply(initializer).build()

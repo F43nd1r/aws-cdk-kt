@@ -16,6 +16,4 @@ public fun Construct.cfnEnvironmentProfile(
 ): CfnEnvironmentProfile = CfnEnvironmentProfile(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEnvironmentProfile(id: String, initializer: @AwsCdkDsl
-    CfnEnvironmentProfile.Builder.() -> Unit = {}): CfnEnvironmentProfile =
-    CfnEnvironmentProfile.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnEnvironmentProfile(id: String, initializer: @AwsCdkDsl CfnEnvironmentProfile.Builder.() -> Unit = {}): CfnEnvironmentProfile = CfnEnvironmentProfile.Builder.create(this, id).apply(initializer).build()

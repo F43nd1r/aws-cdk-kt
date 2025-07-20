@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicecatalog.CfnAcceptedPortfolioShareProps
 
 @Generated
-public fun buildCfnAcceptedPortfolioShareProps(initializer: @AwsCdkDsl
-    CfnAcceptedPortfolioShareProps.Builder.() -> Unit = {}): CfnAcceptedPortfolioShareProps =
-    CfnAcceptedPortfolioShareProps.Builder().apply(initializer).build()
+public fun buildCfnAcceptedPortfolioShareProps(initializer: @AwsCdkDsl CfnAcceptedPortfolioShareProps.Builder.() -> Unit = {}): CfnAcceptedPortfolioShareProps = CfnAcceptedPortfolioShareProps.Builder().apply(initializer).build()

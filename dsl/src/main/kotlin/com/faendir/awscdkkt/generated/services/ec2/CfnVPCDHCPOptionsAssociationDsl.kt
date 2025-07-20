@@ -16,6 +16,4 @@ public fun Construct.cfnVPCDHCPOptionsAssociation(
 ): CfnVPCDHCPOptionsAssociation = CfnVPCDHCPOptionsAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVPCDHCPOptionsAssociation(id: String, initializer: @AwsCdkDsl
-    CfnVPCDHCPOptionsAssociation.Builder.() -> Unit = {}): CfnVPCDHCPOptionsAssociation =
-    CfnVPCDHCPOptionsAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnVPCDHCPOptionsAssociation(id: String, initializer: @AwsCdkDsl CfnVPCDHCPOptionsAssociation.Builder.() -> Unit = {}): CfnVPCDHCPOptionsAssociation = CfnVPCDHCPOptionsAssociation.Builder.create(this, id).apply(initializer).build()

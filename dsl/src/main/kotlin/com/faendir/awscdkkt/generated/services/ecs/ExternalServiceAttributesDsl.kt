@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.ExternalServiceAttributes
 
 @Generated
-public fun buildExternalServiceAttributes(initializer: @AwsCdkDsl
-    ExternalServiceAttributes.Builder.() -> Unit = {}): ExternalServiceAttributes =
-    ExternalServiceAttributes.Builder().apply(initializer).build()
+public fun buildExternalServiceAttributes(initializer: @AwsCdkDsl ExternalServiceAttributes.Builder.() -> Unit = {}): ExternalServiceAttributes = ExternalServiceAttributes.Builder().apply(initializer).build()

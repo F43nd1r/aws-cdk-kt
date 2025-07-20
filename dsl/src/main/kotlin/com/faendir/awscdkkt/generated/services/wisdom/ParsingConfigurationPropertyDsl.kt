@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnKnowledgeBase
 
 @Generated
-public fun buildParsingConfigurationProperty(initializer: @AwsCdkDsl
-    CfnKnowledgeBase.ParsingConfigurationProperty.Builder.() -> Unit = {}):
-    CfnKnowledgeBase.ParsingConfigurationProperty =
-    CfnKnowledgeBase.ParsingConfigurationProperty.Builder().apply(initializer).build()
+public fun buildParsingConfigurationProperty(initializer: @AwsCdkDsl CfnKnowledgeBase.ParsingConfigurationProperty.Builder.() -> Unit = {}): CfnKnowledgeBase.ParsingConfigurationProperty = CfnKnowledgeBase.ParsingConfigurationProperty.Builder().apply(initializer).build()

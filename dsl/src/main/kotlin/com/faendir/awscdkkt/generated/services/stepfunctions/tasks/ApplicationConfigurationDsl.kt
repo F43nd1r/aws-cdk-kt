@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.ApplicationConfiguration
 
 @Generated
-public fun buildApplicationConfiguration(initializer: @AwsCdkDsl
-    ApplicationConfiguration.Builder.() -> Unit = {}): ApplicationConfiguration =
-    ApplicationConfiguration.Builder().apply(initializer).build()
+public fun buildApplicationConfiguration(initializer: @AwsCdkDsl ApplicationConfiguration.Builder.() -> Unit = {}): ApplicationConfiguration = ApplicationConfiguration.Builder().apply(initializer).build()

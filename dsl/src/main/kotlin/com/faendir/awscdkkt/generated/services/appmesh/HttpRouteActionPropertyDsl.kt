@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnRoute
 
 @Generated
-public fun buildHttpRouteActionProperty(initializer: @AwsCdkDsl
-    CfnRoute.HttpRouteActionProperty.Builder.() -> Unit = {}): CfnRoute.HttpRouteActionProperty =
-    CfnRoute.HttpRouteActionProperty.Builder().apply(initializer).build()
+public fun buildHttpRouteActionProperty(initializer: @AwsCdkDsl CfnRoute.HttpRouteActionProperty.Builder.() -> Unit = {}): CfnRoute.HttpRouteActionProperty = CfnRoute.HttpRouteActionProperty.Builder().apply(initializer).build()

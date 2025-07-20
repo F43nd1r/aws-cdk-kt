@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.comprehend.CfnFlywheel
 
 @Generated
-public fun buildTaskConfigProperty(initializer: @AwsCdkDsl
-    CfnFlywheel.TaskConfigProperty.Builder.() -> Unit = {}): CfnFlywheel.TaskConfigProperty =
-    CfnFlywheel.TaskConfigProperty.Builder().apply(initializer).build()
+public fun buildTaskConfigProperty(initializer: @AwsCdkDsl CfnFlywheel.TaskConfigProperty.Builder.() -> Unit = {}): CfnFlywheel.TaskConfigProperty = CfnFlywheel.TaskConfigProperty.Builder().apply(initializer).build()

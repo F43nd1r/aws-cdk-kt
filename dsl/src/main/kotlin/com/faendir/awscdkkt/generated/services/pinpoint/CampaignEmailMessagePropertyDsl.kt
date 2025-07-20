@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnCampaign
 
 @Generated
-public fun buildCampaignEmailMessageProperty(initializer: @AwsCdkDsl
-    CfnCampaign.CampaignEmailMessageProperty.Builder.() -> Unit = {}):
-    CfnCampaign.CampaignEmailMessageProperty =
-    CfnCampaign.CampaignEmailMessageProperty.Builder().apply(initializer).build()
+public fun buildCampaignEmailMessageProperty(initializer: @AwsCdkDsl CfnCampaign.CampaignEmailMessageProperty.Builder.() -> Unit = {}): CfnCampaign.CampaignEmailMessageProperty = CfnCampaign.CampaignEmailMessageProperty.Builder().apply(initializer).build()

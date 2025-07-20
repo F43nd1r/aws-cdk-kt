@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildFilledMapFieldWellsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.FilledMapFieldWellsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.FilledMapFieldWellsProperty =
-    CfnTemplate.FilledMapFieldWellsProperty.Builder().apply(initializer).build()
+public fun buildFilledMapFieldWellsProperty(initializer: @AwsCdkDsl CfnTemplate.FilledMapFieldWellsProperty.Builder.() -> Unit = {}): CfnTemplate.FilledMapFieldWellsProperty = CfnTemplate.FilledMapFieldWellsProperty.Builder().apply(initializer).build()

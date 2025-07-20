@@ -7,6 +7,4 @@ import kotlin.Unit
 import software.amazon.awscdk.aws_apigatewayv2_integrations.WebSocketMockIntegration
 
 @Generated
-public fun buildWebSocketMockIntegration(id: String, initializer: @AwsCdkDsl
-    WebSocketMockIntegration.Builder.() -> Unit = {}): WebSocketMockIntegration =
-    WebSocketMockIntegration.Builder.create(id).apply(initializer).build()
+public fun buildWebSocketMockIntegration(id: String, initializer: @AwsCdkDsl WebSocketMockIntegration.Builder.() -> Unit = {}): WebSocketMockIntegration = WebSocketMockIntegration.Builder.create(id).apply(initializer).build()

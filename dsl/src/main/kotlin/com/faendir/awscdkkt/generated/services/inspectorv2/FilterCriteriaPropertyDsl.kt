@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.inspectorv2.CfnFilter
 
 @Generated
-public fun buildFilterCriteriaProperty(initializer: @AwsCdkDsl
-    CfnFilter.FilterCriteriaProperty.Builder.() -> Unit = {}): CfnFilter.FilterCriteriaProperty =
-    CfnFilter.FilterCriteriaProperty.Builder().apply(initializer).build()
+public fun buildFilterCriteriaProperty(initializer: @AwsCdkDsl CfnFilter.FilterCriteriaProperty.Builder.() -> Unit = {}): CfnFilter.FilterCriteriaProperty = CfnFilter.FilterCriteriaProperty.Builder().apply(initializer).build()

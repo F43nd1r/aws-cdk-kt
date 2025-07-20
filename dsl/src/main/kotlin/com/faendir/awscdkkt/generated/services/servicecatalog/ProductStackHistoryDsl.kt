@@ -16,6 +16,4 @@ public fun Construct.productStackHistory(
 ): ProductStackHistory = ProductStackHistory(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildProductStackHistory(id: String, initializer: @AwsCdkDsl
-    ProductStackHistory.Builder.() -> Unit = {}): ProductStackHistory =
-    ProductStackHistory.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildProductStackHistory(id: String, initializer: @AwsCdkDsl ProductStackHistory.Builder.() -> Unit = {}): ProductStackHistory = ProductStackHistory.Builder.create(this, id).apply(initializer).build()

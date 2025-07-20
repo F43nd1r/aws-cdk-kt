@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVPNGatewayProps
 
 @Generated
-public fun buildCfnVPNGatewayProps(initializer: @AwsCdkDsl CfnVPNGatewayProps.Builder.() -> Unit =
-    {}): CfnVPNGatewayProps = CfnVPNGatewayProps.Builder().apply(initializer).build()
+public fun buildCfnVPNGatewayProps(initializer: @AwsCdkDsl CfnVPNGatewayProps.Builder.() -> Unit = {}): CfnVPNGatewayProps = CfnVPNGatewayProps.Builder().apply(initializer).build()

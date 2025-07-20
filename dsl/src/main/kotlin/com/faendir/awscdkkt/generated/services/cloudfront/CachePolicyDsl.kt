@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.cloudfront.CachePolicyProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cachePolicy(id: String, initializer: @AwsCdkDsl CachePolicy.() -> Unit = {}):
-    CachePolicy = CachePolicy(this, id).apply(initializer)
+public fun Construct.cachePolicy(id: String, initializer: @AwsCdkDsl CachePolicy.() -> Unit = {}): CachePolicy = CachePolicy(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cachePolicy(
@@ -20,6 +19,4 @@ public fun Construct.cachePolicy(
 ): CachePolicy = CachePolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCachePolicy(id: String, initializer: @AwsCdkDsl
-    CachePolicy.Builder.() -> Unit = {}): CachePolicy = CachePolicy.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCachePolicy(id: String, initializer: @AwsCdkDsl CachePolicy.Builder.() -> Unit = {}): CachePolicy = CachePolicy.Builder.create(this, id).apply(initializer).build()

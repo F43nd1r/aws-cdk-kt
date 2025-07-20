@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
-public fun buildLoggingConfigurationProperty(initializer: @AwsCdkDsl
-    CfnBucket.LoggingConfigurationProperty.Builder.() -> Unit = {}):
-    CfnBucket.LoggingConfigurationProperty =
-    CfnBucket.LoggingConfigurationProperty.Builder().apply(initializer).build()
+public fun buildLoggingConfigurationProperty(initializer: @AwsCdkDsl CfnBucket.LoggingConfigurationProperty.Builder.() -> Unit = {}): CfnBucket.LoggingConfigurationProperty = CfnBucket.LoggingConfigurationProperty.Builder().apply(initializer).build()

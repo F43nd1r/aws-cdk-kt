@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnLogDeliveryConfigurationProps
 
 @Generated
-public fun buildCfnLogDeliveryConfigurationProps(initializer: @AwsCdkDsl
-    CfnLogDeliveryConfigurationProps.Builder.() -> Unit = {}): CfnLogDeliveryConfigurationProps =
-    CfnLogDeliveryConfigurationProps.Builder().apply(initializer).build()
+public fun buildCfnLogDeliveryConfigurationProps(initializer: @AwsCdkDsl CfnLogDeliveryConfigurationProps.Builder.() -> Unit = {}): CfnLogDeliveryConfigurationProps = CfnLogDeliveryConfigurationProps.Builder().apply(initializer).build()

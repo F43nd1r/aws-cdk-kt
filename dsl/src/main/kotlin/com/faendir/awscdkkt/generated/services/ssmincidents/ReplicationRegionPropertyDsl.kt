@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssmincidents.CfnReplicationSet
 
 @Generated
-public fun buildReplicationRegionProperty(initializer: @AwsCdkDsl
-    CfnReplicationSet.ReplicationRegionProperty.Builder.() -> Unit = {}):
-    CfnReplicationSet.ReplicationRegionProperty =
-    CfnReplicationSet.ReplicationRegionProperty.Builder().apply(initializer).build()
+public fun buildReplicationRegionProperty(initializer: @AwsCdkDsl CfnReplicationSet.ReplicationRegionProperty.Builder.() -> Unit = {}): CfnReplicationSet.ReplicationRegionProperty = CfnReplicationSet.ReplicationRegionProperty.Builder().apply(initializer).build()

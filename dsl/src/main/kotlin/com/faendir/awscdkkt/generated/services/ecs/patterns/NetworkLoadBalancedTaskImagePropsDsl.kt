@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.patterns.NetworkLoadBalancedTaskImageProps
 
 @Generated
-public fun buildNetworkLoadBalancedTaskImageProps(initializer: @AwsCdkDsl
-    NetworkLoadBalancedTaskImageProps.Builder.() -> Unit = {}): NetworkLoadBalancedTaskImageProps =
-    NetworkLoadBalancedTaskImageProps.Builder().apply(initializer).build()
+public fun buildNetworkLoadBalancedTaskImageProps(initializer: @AwsCdkDsl NetworkLoadBalancedTaskImageProps.Builder.() -> Unit = {}): NetworkLoadBalancedTaskImageProps = NetworkLoadBalancedTaskImageProps.Builder().apply(initializer).build()

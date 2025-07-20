@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sns.HealthyRetryPolicy
 
 @Generated
-public fun buildHealthyRetryPolicy(initializer: @AwsCdkDsl HealthyRetryPolicy.Builder.() -> Unit =
-    {}): HealthyRetryPolicy = HealthyRetryPolicy.Builder().apply(initializer).build()
+public fun buildHealthyRetryPolicy(initializer: @AwsCdkDsl HealthyRetryPolicy.Builder.() -> Unit = {}): HealthyRetryPolicy = HealthyRetryPolicy.Builder().apply(initializer).build()

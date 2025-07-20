@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
-public fun buildFieldToMatchProperty(initializer: @AwsCdkDsl
-    CfnWebACL.FieldToMatchProperty.Builder.() -> Unit = {}): CfnWebACL.FieldToMatchProperty =
-    CfnWebACL.FieldToMatchProperty.Builder().apply(initializer).build()
+public fun buildFieldToMatchProperty(initializer: @AwsCdkDsl CfnWebACL.FieldToMatchProperty.Builder.() -> Unit = {}): CfnWebACL.FieldToMatchProperty = CfnWebACL.FieldToMatchProperty.Builder().apply(initializer).build()

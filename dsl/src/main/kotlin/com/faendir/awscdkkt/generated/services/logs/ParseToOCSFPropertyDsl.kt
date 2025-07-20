@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnTransformer
 
 @Generated
-public fun buildParseToOCSFProperty(initializer: @AwsCdkDsl
-    CfnTransformer.ParseToOCSFProperty.Builder.() -> Unit = {}): CfnTransformer.ParseToOCSFProperty
-    = CfnTransformer.ParseToOCSFProperty.Builder().apply(initializer).build()
+public fun buildParseToOCSFProperty(initializer: @AwsCdkDsl CfnTransformer.ParseToOCSFProperty.Builder.() -> Unit = {}): CfnTransformer.ParseToOCSFProperty = CfnTransformer.ParseToOCSFProperty.Builder().apply(initializer).build()

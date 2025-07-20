@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codedeploy.CfnDeploymentGroup
 
 @Generated
-public fun buildTargetGroupInfoProperty(initializer: @AwsCdkDsl
-    CfnDeploymentGroup.TargetGroupInfoProperty.Builder.() -> Unit = {}):
-    CfnDeploymentGroup.TargetGroupInfoProperty =
-    CfnDeploymentGroup.TargetGroupInfoProperty.Builder().apply(initializer).build()
+public fun buildTargetGroupInfoProperty(initializer: @AwsCdkDsl CfnDeploymentGroup.TargetGroupInfoProperty.Builder.() -> Unit = {}): CfnDeploymentGroup.TargetGroupInfoProperty = CfnDeploymentGroup.TargetGroupInfoProperty.Builder().apply(initializer).build()

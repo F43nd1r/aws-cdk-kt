@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.apigatewayv2.WebSocketApiProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.webSocketApi(id: String, initializer: @AwsCdkDsl WebSocketApi.() -> Unit = {}):
-    WebSocketApi = WebSocketApi(this, id).apply(initializer)
+public fun Construct.webSocketApi(id: String, initializer: @AwsCdkDsl WebSocketApi.() -> Unit = {}): WebSocketApi = WebSocketApi(this, id).apply(initializer)
 
 @Generated
 public fun Construct.webSocketApi(
@@ -20,6 +19,4 @@ public fun Construct.webSocketApi(
 ): WebSocketApi = WebSocketApi(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildWebSocketApi(id: String, initializer: @AwsCdkDsl
-    WebSocketApi.Builder.() -> Unit = {}): WebSocketApi = WebSocketApi.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildWebSocketApi(id: String, initializer: @AwsCdkDsl WebSocketApi.Builder.() -> Unit = {}): WebSocketApi = WebSocketApi.Builder.create(this, id).apply(initializer).build()

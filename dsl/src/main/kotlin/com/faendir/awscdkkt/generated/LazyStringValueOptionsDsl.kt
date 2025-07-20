@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.LazyStringValueOptions
 
 @Generated
-public fun buildLazyStringValueOptions(initializer: @AwsCdkDsl
-    LazyStringValueOptions.Builder.() -> Unit = {}): LazyStringValueOptions =
-    LazyStringValueOptions.Builder().apply(initializer).build()
+public fun buildLazyStringValueOptions(initializer: @AwsCdkDsl LazyStringValueOptions.Builder.() -> Unit = {}): LazyStringValueOptions = LazyStringValueOptions.Builder().apply(initializer).build()

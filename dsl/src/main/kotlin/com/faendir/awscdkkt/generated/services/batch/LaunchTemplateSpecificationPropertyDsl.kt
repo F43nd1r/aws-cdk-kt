@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.CfnComputeEnvironment
 
 @Generated
-public fun buildLaunchTemplateSpecificationProperty(initializer: @AwsCdkDsl
-    CfnComputeEnvironment.LaunchTemplateSpecificationProperty.Builder.() -> Unit = {}):
-    CfnComputeEnvironment.LaunchTemplateSpecificationProperty =
-    CfnComputeEnvironment.LaunchTemplateSpecificationProperty.Builder().apply(initializer).build()
+public fun buildLaunchTemplateSpecificationProperty(initializer: @AwsCdkDsl CfnComputeEnvironment.LaunchTemplateSpecificationProperty.Builder.() -> Unit = {}): CfnComputeEnvironment.LaunchTemplateSpecificationProperty = CfnComputeEnvironment.LaunchTemplateSpecificationProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rbin.CfnRule
 
 @Generated
-public fun buildRetentionPeriodProperty(initializer: @AwsCdkDsl
-    CfnRule.RetentionPeriodProperty.Builder.() -> Unit = {}): CfnRule.RetentionPeriodProperty =
-    CfnRule.RetentionPeriodProperty.Builder().apply(initializer).build()
+public fun buildRetentionPeriodProperty(initializer: @AwsCdkDsl CfnRule.RetentionPeriodProperty.Builder.() -> Unit = {}): CfnRule.RetentionPeriodProperty = CfnRule.RetentionPeriodProperty.Builder().apply(initializer).build()

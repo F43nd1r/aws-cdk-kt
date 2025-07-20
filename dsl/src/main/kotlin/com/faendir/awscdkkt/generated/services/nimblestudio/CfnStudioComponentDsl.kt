@@ -16,6 +16,4 @@ public fun Construct.cfnStudioComponent(
 ): CfnStudioComponent = CfnStudioComponent(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnStudioComponent(id: String, initializer: @AwsCdkDsl
-    CfnStudioComponent.Builder.() -> Unit = {}): CfnStudioComponent =
-    CfnStudioComponent.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnStudioComponent(id: String, initializer: @AwsCdkDsl CfnStudioComponent.Builder.() -> Unit = {}): CfnStudioComponent = CfnStudioComponent.Builder.create(this, id).apply(initializer).build()

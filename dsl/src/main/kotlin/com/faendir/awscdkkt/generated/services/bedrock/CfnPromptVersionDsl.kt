@@ -16,6 +16,4 @@ public fun Construct.cfnPromptVersion(
 ): CfnPromptVersion = CfnPromptVersion(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPromptVersion(id: String, initializer: @AwsCdkDsl
-    CfnPromptVersion.Builder.() -> Unit = {}): CfnPromptVersion =
-    CfnPromptVersion.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPromptVersion(id: String, initializer: @AwsCdkDsl CfnPromptVersion.Builder.() -> Unit = {}): CfnPromptVersion = CfnPromptVersion.Builder.create(this, id).apply(initializer).build()

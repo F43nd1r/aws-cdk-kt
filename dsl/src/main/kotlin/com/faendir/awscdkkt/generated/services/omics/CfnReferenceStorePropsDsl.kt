@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.omics.CfnReferenceStoreProps
 
 @Generated
-public fun buildCfnReferenceStoreProps(initializer: @AwsCdkDsl
-    CfnReferenceStoreProps.Builder.() -> Unit = {}): CfnReferenceStoreProps =
-    CfnReferenceStoreProps.Builder().apply(initializer).build()
+public fun buildCfnReferenceStoreProps(initializer: @AwsCdkDsl CfnReferenceStoreProps.Builder.() -> Unit = {}): CfnReferenceStoreProps = CfnReferenceStoreProps.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnConnectorProfile(
 ): CfnConnectorProfile = CfnConnectorProfile(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnConnectorProfile(id: String, initializer: @AwsCdkDsl
-    CfnConnectorProfile.Builder.() -> Unit = {}): CfnConnectorProfile =
-    CfnConnectorProfile.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnConnectorProfile(id: String, initializer: @AwsCdkDsl CfnConnectorProfile.Builder.() -> Unit = {}): CfnConnectorProfile = CfnConnectorProfile.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnTransformer
 
 @Generated
-public fun buildDeleteKeysProperty(initializer: @AwsCdkDsl
-    CfnTransformer.DeleteKeysProperty.Builder.() -> Unit = {}): CfnTransformer.DeleteKeysProperty =
-    CfnTransformer.DeleteKeysProperty.Builder().apply(initializer).build()
+public fun buildDeleteKeysProperty(initializer: @AwsCdkDsl CfnTransformer.DeleteKeysProperty.Builder.() -> Unit = {}): CfnTransformer.DeleteKeysProperty = CfnTransformer.DeleteKeysProperty.Builder().apply(initializer).build()

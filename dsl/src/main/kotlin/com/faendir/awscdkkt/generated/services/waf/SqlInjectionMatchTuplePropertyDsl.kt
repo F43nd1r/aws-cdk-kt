@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.waf.CfnSqlInjectionMatchSet
 
 @Generated
-public fun buildSqlInjectionMatchTupleProperty(initializer: @AwsCdkDsl
-    CfnSqlInjectionMatchSet.SqlInjectionMatchTupleProperty.Builder.() -> Unit = {}):
-    CfnSqlInjectionMatchSet.SqlInjectionMatchTupleProperty =
-    CfnSqlInjectionMatchSet.SqlInjectionMatchTupleProperty.Builder().apply(initializer).build()
+public fun buildSqlInjectionMatchTupleProperty(initializer: @AwsCdkDsl CfnSqlInjectionMatchSet.SqlInjectionMatchTupleProperty.Builder.() -> Unit = {}): CfnSqlInjectionMatchSet.SqlInjectionMatchTupleProperty = CfnSqlInjectionMatchSet.SqlInjectionMatchTupleProperty.Builder().apply(initializer).build()

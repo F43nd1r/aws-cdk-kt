@@ -16,6 +16,4 @@ public fun Construct.cfnCustomDBEngineVersion(
 ): CfnCustomDBEngineVersion = CfnCustomDBEngineVersion(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCustomDBEngineVersion(id: String, initializer: @AwsCdkDsl
-    CfnCustomDBEngineVersion.Builder.() -> Unit = {}): CfnCustomDBEngineVersion =
-    CfnCustomDBEngineVersion.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCustomDBEngineVersion(id: String, initializer: @AwsCdkDsl CfnCustomDBEngineVersion.Builder.() -> Unit = {}): CfnCustomDBEngineVersion = CfnCustomDBEngineVersion.Builder.create(this, id).apply(initializer).build()

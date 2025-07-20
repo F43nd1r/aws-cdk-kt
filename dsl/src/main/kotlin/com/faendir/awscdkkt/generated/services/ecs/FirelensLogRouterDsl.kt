@@ -16,6 +16,4 @@ public fun Construct.firelensLogRouter(
 ): FirelensLogRouter = FirelensLogRouter(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildFirelensLogRouter(id: String, initializer: @AwsCdkDsl
-    FirelensLogRouter.Builder.() -> Unit = {}): FirelensLogRouter =
-    FirelensLogRouter.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildFirelensLogRouter(id: String, initializer: @AwsCdkDsl FirelensLogRouter.Builder.() -> Unit = {}): FirelensLogRouter = FirelensLogRouter.Builder.create(this, id).apply(initializer).build()

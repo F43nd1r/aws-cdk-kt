@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.HttpStageProps
 
 @Generated
-public fun buildHttpStageProps(initializer: @AwsCdkDsl HttpStageProps.Builder.() -> Unit = {}):
-    HttpStageProps = HttpStageProps.Builder().apply(initializer).build()
+public fun buildHttpStageProps(initializer: @AwsCdkDsl HttpStageProps.Builder.() -> Unit = {}): HttpStageProps = HttpStageProps.Builder().apply(initializer).build()

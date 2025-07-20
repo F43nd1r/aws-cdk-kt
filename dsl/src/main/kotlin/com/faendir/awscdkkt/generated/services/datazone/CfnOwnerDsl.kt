@@ -16,5 +16,4 @@ public fun Construct.cfnOwner(
 ): CfnOwner = CfnOwner(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnOwner(id: String, initializer: @AwsCdkDsl CfnOwner.Builder.() -> Unit =
-    {}): CfnOwner = CfnOwner.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnOwner(id: String, initializer: @AwsCdkDsl CfnOwner.Builder.() -> Unit = {}): CfnOwner = CfnOwner.Builder.create(this, id).apply(initializer).build()

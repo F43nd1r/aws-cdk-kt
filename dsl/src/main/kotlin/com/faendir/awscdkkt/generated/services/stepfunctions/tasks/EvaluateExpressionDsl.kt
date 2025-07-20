@@ -16,6 +16,4 @@ public fun Construct.evaluateExpression(
 ): EvaluateExpression = EvaluateExpression(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEvaluateExpression(id: String, initializer: @AwsCdkDsl
-    EvaluateExpression.Builder.() -> Unit = {}): EvaluateExpression =
-    EvaluateExpression.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildEvaluateExpression(id: String, initializer: @AwsCdkDsl EvaluateExpression.Builder.() -> Unit = {}): EvaluateExpression = EvaluateExpression.Builder.create(this, id).apply(initializer).build()

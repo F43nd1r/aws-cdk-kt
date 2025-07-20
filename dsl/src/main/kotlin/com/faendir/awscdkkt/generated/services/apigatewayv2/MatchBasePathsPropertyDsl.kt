@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.CfnRoutingRule
 
 @Generated
-public fun buildMatchBasePathsProperty(initializer: @AwsCdkDsl
-    CfnRoutingRule.MatchBasePathsProperty.Builder.() -> Unit = {}):
-    CfnRoutingRule.MatchBasePathsProperty =
-    CfnRoutingRule.MatchBasePathsProperty.Builder().apply(initializer).build()
+public fun buildMatchBasePathsProperty(initializer: @AwsCdkDsl CfnRoutingRule.MatchBasePathsProperty.Builder.() -> Unit = {}): CfnRoutingRule.MatchBasePathsProperty = CfnRoutingRule.MatchBasePathsProperty.Builder().apply(initializer).build()

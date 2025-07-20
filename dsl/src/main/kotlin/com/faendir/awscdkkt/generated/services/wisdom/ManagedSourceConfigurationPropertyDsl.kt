@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnKnowledgeBase
 
 @Generated
-public fun buildManagedSourceConfigurationProperty(initializer: @AwsCdkDsl
-    CfnKnowledgeBase.ManagedSourceConfigurationProperty.Builder.() -> Unit = {}):
-    CfnKnowledgeBase.ManagedSourceConfigurationProperty =
-    CfnKnowledgeBase.ManagedSourceConfigurationProperty.Builder().apply(initializer).build()
+public fun buildManagedSourceConfigurationProperty(initializer: @AwsCdkDsl CfnKnowledgeBase.ManagedSourceConfigurationProperty.Builder.() -> Unit = {}): CfnKnowledgeBase.ManagedSourceConfigurationProperty = CfnKnowledgeBase.ManagedSourceConfigurationProperty.Builder().apply(initializer).build()

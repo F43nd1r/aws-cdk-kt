@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iottwinmaker.CfnSyncJobProps
 
 @Generated
-public fun buildCfnSyncJobProps(initializer: @AwsCdkDsl CfnSyncJobProps.Builder.() -> Unit = {}):
-    CfnSyncJobProps = CfnSyncJobProps.Builder().apply(initializer).build()
+public fun buildCfnSyncJobProps(initializer: @AwsCdkDsl CfnSyncJobProps.Builder.() -> Unit = {}): CfnSyncJobProps = CfnSyncJobProps.Builder().apply(initializer).build()

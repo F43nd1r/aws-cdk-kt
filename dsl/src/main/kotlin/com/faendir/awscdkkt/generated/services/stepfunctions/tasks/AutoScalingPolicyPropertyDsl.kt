@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrCreateCluster
 
 @Generated
-public fun buildAutoScalingPolicyProperty(initializer: @AwsCdkDsl
-    EmrCreateCluster.AutoScalingPolicyProperty.Builder.() -> Unit = {}):
-    EmrCreateCluster.AutoScalingPolicyProperty =
-    EmrCreateCluster.AutoScalingPolicyProperty.Builder().apply(initializer).build()
+public fun buildAutoScalingPolicyProperty(initializer: @AwsCdkDsl EmrCreateCluster.AutoScalingPolicyProperty.Builder.() -> Unit = {}): EmrCreateCluster.AutoScalingPolicyProperty = EmrCreateCluster.AutoScalingPolicyProperty.Builder().apply(initializer).build()

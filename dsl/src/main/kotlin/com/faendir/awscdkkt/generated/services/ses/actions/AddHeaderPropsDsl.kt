@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.actions.AddHeaderProps
 
 @Generated
-public fun buildAddHeaderProps(initializer: @AwsCdkDsl AddHeaderProps.Builder.() -> Unit = {}):
-    AddHeaderProps = AddHeaderProps.Builder().apply(initializer).build()
+public fun buildAddHeaderProps(initializer: @AwsCdkDsl AddHeaderProps.Builder.() -> Unit = {}): AddHeaderProps = AddHeaderProps.Builder().apply(initializer).build()

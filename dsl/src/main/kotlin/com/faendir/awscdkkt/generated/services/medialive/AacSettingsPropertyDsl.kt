@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildAacSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.AacSettingsProperty.Builder.() -> Unit = {}): CfnChannel.AacSettingsProperty =
-    CfnChannel.AacSettingsProperty.Builder().apply(initializer).build()
+public fun buildAacSettingsProperty(initializer: @AwsCdkDsl CfnChannel.AacSettingsProperty.Builder.() -> Unit = {}): CfnChannel.AacSettingsProperty = CfnChannel.AacSettingsProperty.Builder().apply(initializer).build()

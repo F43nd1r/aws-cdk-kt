@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediaconnect.CfnFlow
 
 @Generated
-public fun buildMediaStreamSourceConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFlow.MediaStreamSourceConfigurationProperty.Builder.() -> Unit = {}):
-    CfnFlow.MediaStreamSourceConfigurationProperty =
-    CfnFlow.MediaStreamSourceConfigurationProperty.Builder().apply(initializer).build()
+public fun buildMediaStreamSourceConfigurationProperty(initializer: @AwsCdkDsl CfnFlow.MediaStreamSourceConfigurationProperty.Builder.() -> Unit = {}): CfnFlow.MediaStreamSourceConfigurationProperty = CfnFlow.MediaStreamSourceConfigurationProperty.Builder().apply(initializer).build()

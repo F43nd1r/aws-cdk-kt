@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.ImportSourceSpecification
 
 @Generated
-public fun buildImportSourceSpecification(initializer: @AwsCdkDsl
-    ImportSourceSpecification.Builder.() -> Unit = {}): ImportSourceSpecification =
-    ImportSourceSpecification.Builder().apply(initializer).build()
+public fun buildImportSourceSpecification(initializer: @AwsCdkDsl ImportSourceSpecification.Builder.() -> Unit = {}): ImportSourceSpecification = ImportSourceSpecification.Builder().apply(initializer).build()

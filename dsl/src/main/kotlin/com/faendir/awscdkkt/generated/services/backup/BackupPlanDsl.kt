@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.backup.BackupPlanProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.backupPlan(id: String, initializer: @AwsCdkDsl BackupPlan.() -> Unit = {}):
-    BackupPlan = BackupPlan(this, id).apply(initializer)
+public fun Construct.backupPlan(id: String, initializer: @AwsCdkDsl BackupPlan.() -> Unit = {}): BackupPlan = BackupPlan(this, id).apply(initializer)
 
 @Generated
 public fun Construct.backupPlan(
@@ -20,6 +19,4 @@ public fun Construct.backupPlan(
 ): BackupPlan = BackupPlan(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildBackupPlan(id: String, initializer: @AwsCdkDsl
-    BackupPlan.Builder.() -> Unit = {}): BackupPlan = BackupPlan.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildBackupPlan(id: String, initializer: @AwsCdkDsl BackupPlan.Builder.() -> Unit = {}): BackupPlan = BackupPlan.Builder.create(this, id).apply(initializer).build()

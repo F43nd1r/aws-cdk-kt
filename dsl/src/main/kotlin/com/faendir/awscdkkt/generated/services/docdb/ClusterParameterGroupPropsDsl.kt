@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.docdb.ClusterParameterGroupProps
 
 @Generated
-public fun buildClusterParameterGroupProps(initializer: @AwsCdkDsl
-    ClusterParameterGroupProps.Builder.() -> Unit = {}): ClusterParameterGroupProps =
-    ClusterParameterGroupProps.Builder().apply(initializer).build()
+public fun buildClusterParameterGroupProps(initializer: @AwsCdkDsl ClusterParameterGroupProps.Builder.() -> Unit = {}): ClusterParameterGroupProps = ClusterParameterGroupProps.Builder().apply(initializer).build()

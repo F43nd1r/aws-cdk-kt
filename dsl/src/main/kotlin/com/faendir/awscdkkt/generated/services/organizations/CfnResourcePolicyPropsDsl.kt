@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.organizations.CfnResourcePolicyProps
 
 @Generated
-public fun buildCfnResourcePolicyProps(initializer: @AwsCdkDsl
-    CfnResourcePolicyProps.Builder.() -> Unit = {}): CfnResourcePolicyProps =
-    CfnResourcePolicyProps.Builder().apply(initializer).build()
+public fun buildCfnResourcePolicyProps(initializer: @AwsCdkDsl CfnResourcePolicyProps.Builder.() -> Unit = {}): CfnResourcePolicyProps = CfnResourcePolicyProps.Builder().apply(initializer).build()

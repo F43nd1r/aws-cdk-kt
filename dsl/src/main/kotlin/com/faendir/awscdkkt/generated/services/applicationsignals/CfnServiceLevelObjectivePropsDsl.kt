@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.applicationsignals.CfnServiceLevelObjectiveProps
 
 @Generated
-public fun buildCfnServiceLevelObjectiveProps(initializer: @AwsCdkDsl
-    CfnServiceLevelObjectiveProps.Builder.() -> Unit = {}): CfnServiceLevelObjectiveProps =
-    CfnServiceLevelObjectiveProps.Builder().apply(initializer).build()
+public fun buildCfnServiceLevelObjectiveProps(initializer: @AwsCdkDsl CfnServiceLevelObjectiveProps.Builder.() -> Unit = {}): CfnServiceLevelObjectiveProps = CfnServiceLevelObjectiveProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnIdentityPoolRoleAttachment
 
 @Generated
-public fun buildRulesConfigurationTypeProperty(initializer: @AwsCdkDsl
-    CfnIdentityPoolRoleAttachment.RulesConfigurationTypeProperty.Builder.() -> Unit = {}):
-    CfnIdentityPoolRoleAttachment.RulesConfigurationTypeProperty =
-    CfnIdentityPoolRoleAttachment.RulesConfigurationTypeProperty.Builder().apply(initializer).build()
+public fun buildRulesConfigurationTypeProperty(initializer: @AwsCdkDsl CfnIdentityPoolRoleAttachment.RulesConfigurationTypeProperty.Builder.() -> Unit = {}): CfnIdentityPoolRoleAttachment.RulesConfigurationTypeProperty = CfnIdentityPoolRoleAttachment.RulesConfigurationTypeProperty.Builder().apply(initializer).build()

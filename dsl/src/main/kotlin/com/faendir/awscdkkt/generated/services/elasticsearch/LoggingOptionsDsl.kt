@@ -9,8 +9,6 @@ import kotlin.Suppress
 import kotlin.Unit
 import software.amazon.awscdk.services.elasticsearch.LoggingOptions
 
-@Deprecated(message =
-    "software.amazon.awscdk.services.elasticsearch.LoggingOptions is deprecated in CDK.")
+@Deprecated(message = "software.amazon.awscdk.services.elasticsearch.LoggingOptions is deprecated in CDK.")
 @Generated
-public fun buildLoggingOptions(initializer: @AwsCdkDsl LoggingOptions.Builder.() -> Unit = {}):
-    LoggingOptions = LoggingOptions.Builder().apply(initializer).build()
+public fun buildLoggingOptions(initializer: @AwsCdkDsl LoggingOptions.Builder.() -> Unit = {}): LoggingOptions = LoggingOptions.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.MethodProps
 
 @Generated
-public fun buildMethodProps(initializer: @AwsCdkDsl MethodProps.Builder.() -> Unit = {}):
-    MethodProps = MethodProps.Builder().apply(initializer).build()
+public fun buildMethodProps(initializer: @AwsCdkDsl MethodProps.Builder.() -> Unit = {}): MethodProps = MethodProps.Builder().apply(initializer).build()

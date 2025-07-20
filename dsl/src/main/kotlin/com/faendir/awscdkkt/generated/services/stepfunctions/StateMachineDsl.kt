@@ -16,6 +16,4 @@ public fun Construct.stateMachine(
 ): StateMachine = StateMachine(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildStateMachine(id: String, initializer: @AwsCdkDsl
-    StateMachine.Builder.() -> Unit = {}): StateMachine = StateMachine.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildStateMachine(id: String, initializer: @AwsCdkDsl StateMachine.Builder.() -> Unit = {}): StateMachine = StateMachine.Builder.create(this, id).apply(initializer).build()

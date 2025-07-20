@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appconfig.EnvironmentProps
 
 @Generated
-public fun buildEnvironmentProps(initializer: @AwsCdkDsl EnvironmentProps.Builder.() -> Unit = {}):
-    EnvironmentProps = EnvironmentProps.Builder().apply(initializer).build()
+public fun buildEnvironmentProps(initializer: @AwsCdkDsl EnvironmentProps.Builder.() -> Unit = {}): EnvironmentProps = EnvironmentProps.Builder().apply(initializer).build()

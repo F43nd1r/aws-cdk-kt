@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnWorkteam
 
 @Generated
-public fun buildCognitoMemberDefinitionProperty(initializer: @AwsCdkDsl
-    CfnWorkteam.CognitoMemberDefinitionProperty.Builder.() -> Unit = {}):
-    CfnWorkteam.CognitoMemberDefinitionProperty =
-    CfnWorkteam.CognitoMemberDefinitionProperty.Builder().apply(initializer).build()
+public fun buildCognitoMemberDefinitionProperty(initializer: @AwsCdkDsl CfnWorkteam.CognitoMemberDefinitionProperty.Builder.() -> Unit = {}): CfnWorkteam.CognitoMemberDefinitionProperty = CfnWorkteam.CognitoMemberDefinitionProperty.Builder().apply(initializer).build()

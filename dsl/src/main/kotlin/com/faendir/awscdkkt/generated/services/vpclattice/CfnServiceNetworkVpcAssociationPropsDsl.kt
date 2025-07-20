@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.vpclattice.CfnServiceNetworkVpcAssociationProps
 
 @Generated
-public fun buildCfnServiceNetworkVpcAssociationProps(initializer: @AwsCdkDsl
-    CfnServiceNetworkVpcAssociationProps.Builder.() -> Unit = {}):
-    CfnServiceNetworkVpcAssociationProps =
-    CfnServiceNetworkVpcAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnServiceNetworkVpcAssociationProps(initializer: @AwsCdkDsl CfnServiceNetworkVpcAssociationProps.Builder.() -> Unit = {}): CfnServiceNetworkVpcAssociationProps = CfnServiceNetworkVpcAssociationProps.Builder().apply(initializer).build()

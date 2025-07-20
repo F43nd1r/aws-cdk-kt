@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cleanrooms.CfnCollaboration
 
 @Generated
-public fun buildMLPaymentConfigProperty(initializer: @AwsCdkDsl
-    CfnCollaboration.MLPaymentConfigProperty.Builder.() -> Unit = {}):
-    CfnCollaboration.MLPaymentConfigProperty =
-    CfnCollaboration.MLPaymentConfigProperty.Builder().apply(initializer).build()
+public fun buildMLPaymentConfigProperty(initializer: @AwsCdkDsl CfnCollaboration.MLPaymentConfigProperty.Builder.() -> Unit = {}): CfnCollaboration.MLPaymentConfigProperty = CfnCollaboration.MLPaymentConfigProperty.Builder().apply(initializer).build()

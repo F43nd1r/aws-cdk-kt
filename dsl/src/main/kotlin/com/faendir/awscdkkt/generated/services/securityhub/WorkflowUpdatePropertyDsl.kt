@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securityhub.CfnAutomationRule
 
 @Generated
-public fun buildWorkflowUpdateProperty(initializer: @AwsCdkDsl
-    CfnAutomationRule.WorkflowUpdateProperty.Builder.() -> Unit = {}):
-    CfnAutomationRule.WorkflowUpdateProperty =
-    CfnAutomationRule.WorkflowUpdateProperty.Builder().apply(initializer).build()
+public fun buildWorkflowUpdateProperty(initializer: @AwsCdkDsl CfnAutomationRule.WorkflowUpdateProperty.Builder.() -> Unit = {}): CfnAutomationRule.WorkflowUpdateProperty = CfnAutomationRule.WorkflowUpdateProperty.Builder().apply(initializer).build()

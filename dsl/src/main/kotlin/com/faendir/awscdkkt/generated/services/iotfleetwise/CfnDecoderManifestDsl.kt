@@ -16,6 +16,4 @@ public fun Construct.cfnDecoderManifest(
 ): CfnDecoderManifest = CfnDecoderManifest(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDecoderManifest(id: String, initializer: @AwsCdkDsl
-    CfnDecoderManifest.Builder.() -> Unit = {}): CfnDecoderManifest =
-    CfnDecoderManifest.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDecoderManifest(id: String, initializer: @AwsCdkDsl CfnDecoderManifest.Builder.() -> Unit = {}): CfnDecoderManifest = CfnDecoderManifest.Builder.create(this, id).apply(initializer).build()

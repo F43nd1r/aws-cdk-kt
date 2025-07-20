@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotsitewise.CfnGateway
 
 @Generated
-public fun buildSiemensIEProperty(initializer: @AwsCdkDsl
-    CfnGateway.SiemensIEProperty.Builder.() -> Unit = {}): CfnGateway.SiemensIEProperty =
-    CfnGateway.SiemensIEProperty.Builder().apply(initializer).build()
+public fun buildSiemensIEProperty(initializer: @AwsCdkDsl CfnGateway.SiemensIEProperty.Builder.() -> Unit = {}): CfnGateway.SiemensIEProperty = CfnGateway.SiemensIEProperty.Builder().apply(initializer).build()

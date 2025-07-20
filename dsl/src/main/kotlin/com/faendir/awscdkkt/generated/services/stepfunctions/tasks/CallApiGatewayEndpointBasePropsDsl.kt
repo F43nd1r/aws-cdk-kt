@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.CallApiGatewayEndpointBaseProps
 
 @Generated
-public fun buildCallApiGatewayEndpointBaseProps(initializer: @AwsCdkDsl
-    CallApiGatewayEndpointBaseProps.Builder.() -> Unit = {}): CallApiGatewayEndpointBaseProps =
-    CallApiGatewayEndpointBaseProps.Builder().apply(initializer).build()
+public fun buildCallApiGatewayEndpointBaseProps(initializer: @AwsCdkDsl CallApiGatewayEndpointBaseProps.Builder.() -> Unit = {}): CallApiGatewayEndpointBaseProps = CallApiGatewayEndpointBaseProps.Builder().apply(initializer).build()

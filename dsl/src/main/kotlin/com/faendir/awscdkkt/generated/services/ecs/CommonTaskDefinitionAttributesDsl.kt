@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CommonTaskDefinitionAttributes
 
 @Generated
-public fun buildCommonTaskDefinitionAttributes(initializer: @AwsCdkDsl
-    CommonTaskDefinitionAttributes.Builder.() -> Unit = {}): CommonTaskDefinitionAttributes =
-    CommonTaskDefinitionAttributes.Builder().apply(initializer).build()
+public fun buildCommonTaskDefinitionAttributes(initializer: @AwsCdkDsl CommonTaskDefinitionAttributes.Builder.() -> Unit = {}): CommonTaskDefinitionAttributes = CommonTaskDefinitionAttributes.Builder().apply(initializer).build()

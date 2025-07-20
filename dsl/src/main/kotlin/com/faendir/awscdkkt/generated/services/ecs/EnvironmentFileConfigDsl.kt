@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.EnvironmentFileConfig
 
 @Generated
-public fun buildEnvironmentFileConfig(initializer: @AwsCdkDsl
-    EnvironmentFileConfig.Builder.() -> Unit = {}): EnvironmentFileConfig =
-    EnvironmentFileConfig.Builder().apply(initializer).build()
+public fun buildEnvironmentFileConfig(initializer: @AwsCdkDsl EnvironmentFileConfig.Builder.() -> Unit = {}): EnvironmentFileConfig = EnvironmentFileConfig.Builder().apply(initializer).build()

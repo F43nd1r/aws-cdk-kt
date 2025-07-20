@@ -16,6 +16,4 @@ public fun Construct.cfnStudioSessionMapping(
 ): CfnStudioSessionMapping = CfnStudioSessionMapping(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnStudioSessionMapping(id: String, initializer: @AwsCdkDsl
-    CfnStudioSessionMapping.Builder.() -> Unit = {}): CfnStudioSessionMapping =
-    CfnStudioSessionMapping.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnStudioSessionMapping(id: String, initializer: @AwsCdkDsl CfnStudioSessionMapping.Builder.() -> Unit = {}): CfnStudioSessionMapping = CfnStudioSessionMapping.Builder.create(this, id).apply(initializer).build()

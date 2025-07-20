@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dms.CfnEndpoint
 
 @Generated
-public fun buildMySqlSettingsProperty(initializer: @AwsCdkDsl
-    CfnEndpoint.MySqlSettingsProperty.Builder.() -> Unit = {}): CfnEndpoint.MySqlSettingsProperty =
-    CfnEndpoint.MySqlSettingsProperty.Builder().apply(initializer).build()
+public fun buildMySqlSettingsProperty(initializer: @AwsCdkDsl CfnEndpoint.MySqlSettingsProperty.Builder.() -> Unit = {}): CfnEndpoint.MySqlSettingsProperty = CfnEndpoint.MySqlSettingsProperty.Builder().apply(initializer).build()

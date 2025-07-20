@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediapackagev2.CfnChannel
 
 @Generated
-public fun buildOutputHeaderConfigurationProperty(initializer: @AwsCdkDsl
-    CfnChannel.OutputHeaderConfigurationProperty.Builder.() -> Unit = {}):
-    CfnChannel.OutputHeaderConfigurationProperty =
-    CfnChannel.OutputHeaderConfigurationProperty.Builder().apply(initializer).build()
+public fun buildOutputHeaderConfigurationProperty(initializer: @AwsCdkDsl CfnChannel.OutputHeaderConfigurationProperty.Builder.() -> Unit = {}): CfnChannel.OutputHeaderConfigurationProperty = CfnChannel.OutputHeaderConfigurationProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnRobotApplicationVersion(
 ): CfnRobotApplicationVersion = CfnRobotApplicationVersion(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRobotApplicationVersion(id: String, initializer: @AwsCdkDsl
-    CfnRobotApplicationVersion.Builder.() -> Unit = {}): CfnRobotApplicationVersion =
-    CfnRobotApplicationVersion.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRobotApplicationVersion(id: String, initializer: @AwsCdkDsl CfnRobotApplicationVersion.Builder.() -> Unit = {}): CfnRobotApplicationVersion = CfnRobotApplicationVersion.Builder.create(this, id).apply(initializer).build()

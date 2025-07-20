@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.HttpRetryPolicy
 
 @Generated
-public fun buildHttpRetryPolicy(initializer: @AwsCdkDsl HttpRetryPolicy.Builder.() -> Unit = {}):
-    HttpRetryPolicy = HttpRetryPolicy.Builder().apply(initializer).build()
+public fun buildHttpRetryPolicy(initializer: @AwsCdkDsl HttpRetryPolicy.Builder.() -> Unit = {}): HttpRetryPolicy = HttpRetryPolicy.Builder().apply(initializer).build()

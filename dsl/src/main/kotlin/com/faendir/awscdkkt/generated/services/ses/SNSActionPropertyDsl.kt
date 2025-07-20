@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnReceiptRule
 
 @Generated
-public fun buildSNSActionProperty(initializer: @AwsCdkDsl
-    CfnReceiptRule.SNSActionProperty.Builder.() -> Unit = {}): CfnReceiptRule.SNSActionProperty =
-    CfnReceiptRule.SNSActionProperty.Builder().apply(initializer).build()
+public fun buildSNSActionProperty(initializer: @AwsCdkDsl CfnReceiptRule.SNSActionProperty.Builder.() -> Unit = {}): CfnReceiptRule.SNSActionProperty = CfnReceiptRule.SNSActionProperty.Builder().apply(initializer).build()

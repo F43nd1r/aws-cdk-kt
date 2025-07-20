@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.KafkaSchemaRegistryAccessConfig
 
 @Generated
-public fun buildKafkaSchemaRegistryAccessConfig(initializer: @AwsCdkDsl
-    KafkaSchemaRegistryAccessConfig.Builder.() -> Unit = {}): KafkaSchemaRegistryAccessConfig =
-    KafkaSchemaRegistryAccessConfig.Builder().apply(initializer).build()
+public fun buildKafkaSchemaRegistryAccessConfig(initializer: @AwsCdkDsl KafkaSchemaRegistryAccessConfig.Builder.() -> Unit = {}): KafkaSchemaRegistryAccessConfig = KafkaSchemaRegistryAccessConfig.Builder().apply(initializer).build()

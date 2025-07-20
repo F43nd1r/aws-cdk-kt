@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSource
 
 @Generated
-public fun buildSqlServerParametersProperty(initializer: @AwsCdkDsl
-    CfnDataSource.SqlServerParametersProperty.Builder.() -> Unit = {}):
-    CfnDataSource.SqlServerParametersProperty =
-    CfnDataSource.SqlServerParametersProperty.Builder().apply(initializer).build()
+public fun buildSqlServerParametersProperty(initializer: @AwsCdkDsl CfnDataSource.SqlServerParametersProperty.Builder.() -> Unit = {}): CfnDataSource.SqlServerParametersProperty = CfnDataSource.SqlServerParametersProperty.Builder().apply(initializer).build()

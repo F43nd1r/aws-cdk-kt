@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.AddToPrincipalPolicyResult
 
 @Generated
-public fun buildAddToPrincipalPolicyResult(initializer: @AwsCdkDsl
-    AddToPrincipalPolicyResult.Builder.() -> Unit = {}): AddToPrincipalPolicyResult =
-    AddToPrincipalPolicyResult.Builder().apply(initializer).build()
+public fun buildAddToPrincipalPolicyResult(initializer: @AwsCdkDsl AddToPrincipalPolicyResult.Builder.() -> Unit = {}): AddToPrincipalPolicyResult = AddToPrincipalPolicyResult.Builder().apply(initializer).build()

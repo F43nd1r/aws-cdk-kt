@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnClientVpnEndpoint
 
 @Generated
-public fun buildClientConnectOptionsProperty(initializer: @AwsCdkDsl
-    CfnClientVpnEndpoint.ClientConnectOptionsProperty.Builder.() -> Unit = {}):
-    CfnClientVpnEndpoint.ClientConnectOptionsProperty =
-    CfnClientVpnEndpoint.ClientConnectOptionsProperty.Builder().apply(initializer).build()
+public fun buildClientConnectOptionsProperty(initializer: @AwsCdkDsl CfnClientVpnEndpoint.ClientConnectOptionsProperty.Builder.() -> Unit = {}): CfnClientVpnEndpoint.ClientConnectOptionsProperty = CfnClientVpnEndpoint.ClientConnectOptionsProperty.Builder().apply(initializer).build()

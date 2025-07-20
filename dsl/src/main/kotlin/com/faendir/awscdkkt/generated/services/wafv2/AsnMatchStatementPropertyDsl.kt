@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
-public fun buildAsnMatchStatementProperty(initializer: @AwsCdkDsl
-    CfnWebACL.AsnMatchStatementProperty.Builder.() -> Unit = {}):
-    CfnWebACL.AsnMatchStatementProperty =
-    CfnWebACL.AsnMatchStatementProperty.Builder().apply(initializer).build()
+public fun buildAsnMatchStatementProperty(initializer: @AwsCdkDsl CfnWebACL.AsnMatchStatementProperty.Builder.() -> Unit = {}): CfnWebACL.AsnMatchStatementProperty = CfnWebACL.AsnMatchStatementProperty.Builder().apply(initializer).build()

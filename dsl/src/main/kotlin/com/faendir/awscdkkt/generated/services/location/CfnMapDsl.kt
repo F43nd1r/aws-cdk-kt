@@ -16,5 +16,4 @@ public fun Construct.cfnMap(
 ): CfnMap = CfnMap(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMap(id: String, initializer: @AwsCdkDsl CfnMap.Builder.() -> Unit =
-    {}): CfnMap = CfnMap.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMap(id: String, initializer: @AwsCdkDsl CfnMap.Builder.() -> Unit = {}): CfnMap = CfnMap.Builder.create(this, id).apply(initializer).build()

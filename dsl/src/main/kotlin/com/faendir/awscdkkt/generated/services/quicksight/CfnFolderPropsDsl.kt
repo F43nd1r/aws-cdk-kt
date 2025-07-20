@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnFolderProps
 
 @Generated
-public fun buildCfnFolderProps(initializer: @AwsCdkDsl CfnFolderProps.Builder.() -> Unit = {}):
-    CfnFolderProps = CfnFolderProps.Builder().apply(initializer).build()
+public fun buildCfnFolderProps(initializer: @AwsCdkDsl CfnFolderProps.Builder.() -> Unit = {}): CfnFolderProps = CfnFolderProps.Builder().apply(initializer).build()

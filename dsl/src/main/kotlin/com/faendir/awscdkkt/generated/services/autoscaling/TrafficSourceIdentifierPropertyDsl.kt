@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.CfnAutoScalingGroup
 
 @Generated
-public fun buildTrafficSourceIdentifierProperty(initializer: @AwsCdkDsl
-    CfnAutoScalingGroup.TrafficSourceIdentifierProperty.Builder.() -> Unit = {}):
-    CfnAutoScalingGroup.TrafficSourceIdentifierProperty =
-    CfnAutoScalingGroup.TrafficSourceIdentifierProperty.Builder().apply(initializer).build()
+public fun buildTrafficSourceIdentifierProperty(initializer: @AwsCdkDsl CfnAutoScalingGroup.TrafficSourceIdentifierProperty.Builder.() -> Unit = {}): CfnAutoScalingGroup.TrafficSourceIdentifierProperty = CfnAutoScalingGroup.TrafficSourceIdentifierProperty.Builder().apply(initializer).build()

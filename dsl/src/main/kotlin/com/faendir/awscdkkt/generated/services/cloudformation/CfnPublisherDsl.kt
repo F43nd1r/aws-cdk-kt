@@ -16,6 +16,4 @@ public fun Construct.cfnPublisher(
 ): CfnPublisher = CfnPublisher(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPublisher(id: String, initializer: @AwsCdkDsl
-    CfnPublisher.Builder.() -> Unit = {}): CfnPublisher = CfnPublisher.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnPublisher(id: String, initializer: @AwsCdkDsl CfnPublisher.Builder.() -> Unit = {}): CfnPublisher = CfnPublisher.Builder.create(this, id).apply(initializer).build()

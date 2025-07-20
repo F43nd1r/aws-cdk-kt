@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.odb.CfnOdbNetworkProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnOdbNetwork(id: String, initializer: @AwsCdkDsl CfnOdbNetwork.() -> Unit =
-    {}): CfnOdbNetwork = CfnOdbNetwork(this, id).apply(initializer)
+public fun Construct.cfnOdbNetwork(id: String, initializer: @AwsCdkDsl CfnOdbNetwork.() -> Unit = {}): CfnOdbNetwork = CfnOdbNetwork(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnOdbNetwork(
@@ -20,6 +19,4 @@ public fun Construct.cfnOdbNetwork(
 ): CfnOdbNetwork = CfnOdbNetwork(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnOdbNetwork(id: String, initializer: @AwsCdkDsl
-    CfnOdbNetwork.Builder.() -> Unit = {}): CfnOdbNetwork = CfnOdbNetwork.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnOdbNetwork(id: String, initializer: @AwsCdkDsl CfnOdbNetwork.Builder.() -> Unit = {}): CfnOdbNetwork = CfnOdbNetwork.Builder.create(this, id).apply(initializer).build()

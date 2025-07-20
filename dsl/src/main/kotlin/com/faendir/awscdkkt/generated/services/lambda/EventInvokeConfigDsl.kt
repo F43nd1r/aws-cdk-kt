@@ -16,6 +16,4 @@ public fun Construct.eventInvokeConfig(
 ): EventInvokeConfig = EventInvokeConfig(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEventInvokeConfig(id: String, initializer: @AwsCdkDsl
-    EventInvokeConfig.Builder.() -> Unit = {}): EventInvokeConfig =
-    EventInvokeConfig.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildEventInvokeConfig(id: String, initializer: @AwsCdkDsl EventInvokeConfig.Builder.() -> Unit = {}): EventInvokeConfig = EventInvokeConfig.Builder.create(this, id).apply(initializer).build()

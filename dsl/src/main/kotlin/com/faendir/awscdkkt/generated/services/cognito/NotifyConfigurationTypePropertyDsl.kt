@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnUserPoolRiskConfigurationAttachment
 
 @Generated
-public fun buildNotifyConfigurationTypeProperty(initializer: @AwsCdkDsl
-    CfnUserPoolRiskConfigurationAttachment.NotifyConfigurationTypeProperty.Builder.() -> Unit = {}):
-    CfnUserPoolRiskConfigurationAttachment.NotifyConfigurationTypeProperty =
-    CfnUserPoolRiskConfigurationAttachment.NotifyConfigurationTypeProperty.Builder().apply(initializer).build()
+public fun buildNotifyConfigurationTypeProperty(initializer: @AwsCdkDsl CfnUserPoolRiskConfigurationAttachment.NotifyConfigurationTypeProperty.Builder.() -> Unit = {}): CfnUserPoolRiskConfigurationAttachment.NotifyConfigurationTypeProperty = CfnUserPoolRiskConfigurationAttachment.NotifyConfigurationTypeProperty.Builder().apply(initializer).build()

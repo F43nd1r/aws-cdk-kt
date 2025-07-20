@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.CfnFleet
 
 @Generated
-public fun buildComputeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFleet.ComputeConfigurationProperty.Builder.() -> Unit = {}):
-    CfnFleet.ComputeConfigurationProperty =
-    CfnFleet.ComputeConfigurationProperty.Builder().apply(initializer).build()
+public fun buildComputeConfigurationProperty(initializer: @AwsCdkDsl CfnFleet.ComputeConfigurationProperty.Builder.() -> Unit = {}): CfnFleet.ComputeConfigurationProperty = CfnFleet.ComputeConfigurationProperty.Builder().apply(initializer).build()

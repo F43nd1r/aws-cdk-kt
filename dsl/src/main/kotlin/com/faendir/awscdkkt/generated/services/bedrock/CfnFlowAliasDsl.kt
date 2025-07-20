@@ -16,6 +16,4 @@ public fun Construct.cfnFlowAlias(
 ): CfnFlowAlias = CfnFlowAlias(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnFlowAlias(id: String, initializer: @AwsCdkDsl
-    CfnFlowAlias.Builder.() -> Unit = {}): CfnFlowAlias = CfnFlowAlias.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnFlowAlias(id: String, initializer: @AwsCdkDsl CfnFlowAlias.Builder.() -> Unit = {}): CfnFlowAlias = CfnFlowAlias.Builder.create(this, id).apply(initializer).build()

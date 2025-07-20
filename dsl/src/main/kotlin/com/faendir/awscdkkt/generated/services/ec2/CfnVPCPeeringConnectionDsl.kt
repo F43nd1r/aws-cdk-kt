@@ -16,6 +16,4 @@ public fun Construct.cfnVPCPeeringConnection(
 ): CfnVPCPeeringConnection = CfnVPCPeeringConnection(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVPCPeeringConnection(id: String, initializer: @AwsCdkDsl
-    CfnVPCPeeringConnection.Builder.() -> Unit = {}): CfnVPCPeeringConnection =
-    CfnVPCPeeringConnection.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnVPCPeeringConnection(id: String, initializer: @AwsCdkDsl CfnVPCPeeringConnection.Builder.() -> Unit = {}): CfnVPCPeeringConnection = CfnVPCPeeringConnection.Builder.create(this, id).apply(initializer).build()

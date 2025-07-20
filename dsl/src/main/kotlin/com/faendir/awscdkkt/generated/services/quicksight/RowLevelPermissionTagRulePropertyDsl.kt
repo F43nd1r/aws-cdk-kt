@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
-public fun buildRowLevelPermissionTagRuleProperty(initializer: @AwsCdkDsl
-    CfnDataSet.RowLevelPermissionTagRuleProperty.Builder.() -> Unit = {}):
-    CfnDataSet.RowLevelPermissionTagRuleProperty =
-    CfnDataSet.RowLevelPermissionTagRuleProperty.Builder().apply(initializer).build()
+public fun buildRowLevelPermissionTagRuleProperty(initializer: @AwsCdkDsl CfnDataSet.RowLevelPermissionTagRuleProperty.Builder.() -> Unit = {}): CfnDataSet.RowLevelPermissionTagRuleProperty = CfnDataSet.RowLevelPermissionTagRuleProperty.Builder().apply(initializer).build()

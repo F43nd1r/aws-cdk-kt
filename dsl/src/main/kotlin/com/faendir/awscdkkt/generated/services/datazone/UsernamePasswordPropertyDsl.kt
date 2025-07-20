@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnConnection
 
 @Generated
-public fun buildUsernamePasswordProperty(initializer: @AwsCdkDsl
-    CfnConnection.UsernamePasswordProperty.Builder.() -> Unit = {}):
-    CfnConnection.UsernamePasswordProperty =
-    CfnConnection.UsernamePasswordProperty.Builder().apply(initializer).build()
+public fun buildUsernamePasswordProperty(initializer: @AwsCdkDsl CfnConnection.UsernamePasswordProperty.Builder.() -> Unit = {}): CfnConnection.UsernamePasswordProperty = CfnConnection.UsernamePasswordProperty.Builder().apply(initializer).build()

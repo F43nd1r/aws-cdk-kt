@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnAPNSVoipSandboxChannelProps
 
 @Generated
-public fun buildCfnAPNSVoipSandboxChannelProps(initializer: @AwsCdkDsl
-    CfnAPNSVoipSandboxChannelProps.Builder.() -> Unit = {}): CfnAPNSVoipSandboxChannelProps =
-    CfnAPNSVoipSandboxChannelProps.Builder().apply(initializer).build()
+public fun buildCfnAPNSVoipSandboxChannelProps(initializer: @AwsCdkDsl CfnAPNSVoipSandboxChannelProps.Builder.() -> Unit = {}): CfnAPNSVoipSandboxChannelProps = CfnAPNSVoipSandboxChannelProps.Builder().apply(initializer).build()

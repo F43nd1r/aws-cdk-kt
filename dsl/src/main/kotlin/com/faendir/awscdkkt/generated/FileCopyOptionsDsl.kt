@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.FileCopyOptions
 
 @Generated
-public fun buildFileCopyOptions(initializer: @AwsCdkDsl FileCopyOptions.Builder.() -> Unit = {}):
-    FileCopyOptions = FileCopyOptions.Builder().apply(initializer).build()
+public fun buildFileCopyOptions(initializer: @AwsCdkDsl FileCopyOptions.Builder.() -> Unit = {}): FileCopyOptions = FileCopyOptions.Builder().apply(initializer).build()

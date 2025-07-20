@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.shield.CfnProtectionProps
 
 @Generated
-public fun buildCfnProtectionProps(initializer: @AwsCdkDsl CfnProtectionProps.Builder.() -> Unit =
-    {}): CfnProtectionProps = CfnProtectionProps.Builder().apply(initializer).build()
+public fun buildCfnProtectionProps(initializer: @AwsCdkDsl CfnProtectionProps.Builder.() -> Unit = {}): CfnProtectionProps = CfnProtectionProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3outposts.CfnBucket
 
 @Generated
-public fun buildLifecycleConfigurationProperty(initializer: @AwsCdkDsl
-    CfnBucket.LifecycleConfigurationProperty.Builder.() -> Unit = {}):
-    CfnBucket.LifecycleConfigurationProperty =
-    CfnBucket.LifecycleConfigurationProperty.Builder().apply(initializer).build()
+public fun buildLifecycleConfigurationProperty(initializer: @AwsCdkDsl CfnBucket.LifecycleConfigurationProperty.Builder.() -> Unit = {}): CfnBucket.LifecycleConfigurationProperty = CfnBucket.LifecycleConfigurationProperty.Builder().apply(initializer).build()

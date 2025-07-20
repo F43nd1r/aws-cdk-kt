@@ -16,6 +16,4 @@ public fun Construct.cfnEventIntegration(
 ): CfnEventIntegration = CfnEventIntegration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEventIntegration(id: String, initializer: @AwsCdkDsl
-    CfnEventIntegration.Builder.() -> Unit = {}): CfnEventIntegration =
-    CfnEventIntegration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnEventIntegration(id: String, initializer: @AwsCdkDsl CfnEventIntegration.Builder.() -> Unit = {}): CfnEventIntegration = CfnEventIntegration.Builder.create(this, id).apply(initializer).build()

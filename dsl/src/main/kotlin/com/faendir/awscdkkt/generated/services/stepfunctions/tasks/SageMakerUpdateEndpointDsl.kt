@@ -16,6 +16,4 @@ public fun Construct.sageMakerUpdateEndpoint(
 ): SageMakerUpdateEndpoint = SageMakerUpdateEndpoint(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildSageMakerUpdateEndpoint(id: String, initializer: @AwsCdkDsl
-    SageMakerUpdateEndpoint.Builder.() -> Unit = {}): SageMakerUpdateEndpoint =
-    SageMakerUpdateEndpoint.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildSageMakerUpdateEndpoint(id: String, initializer: @AwsCdkDsl SageMakerUpdateEndpoint.Builder.() -> Unit = {}): SageMakerUpdateEndpoint = SageMakerUpdateEndpoint.Builder.create(this, id).apply(initializer).build()

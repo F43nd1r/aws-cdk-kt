@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnEventBridgeRuleTemplate
 
 @Generated
-public fun buildEventBridgeRuleTemplateTargetProperty(initializer: @AwsCdkDsl
-    CfnEventBridgeRuleTemplate.EventBridgeRuleTemplateTargetProperty.Builder.() -> Unit = {}):
-    CfnEventBridgeRuleTemplate.EventBridgeRuleTemplateTargetProperty =
-    CfnEventBridgeRuleTemplate.EventBridgeRuleTemplateTargetProperty.Builder().apply(initializer).build()
+public fun buildEventBridgeRuleTemplateTargetProperty(initializer: @AwsCdkDsl CfnEventBridgeRuleTemplate.EventBridgeRuleTemplateTargetProperty.Builder.() -> Unit = {}): CfnEventBridgeRuleTemplate.EventBridgeRuleTemplateTargetProperty = CfnEventBridgeRuleTemplate.EventBridgeRuleTemplateTargetProperty.Builder().apply(initializer).build()

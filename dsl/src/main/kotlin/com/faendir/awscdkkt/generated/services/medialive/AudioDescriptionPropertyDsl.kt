@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildAudioDescriptionProperty(initializer: @AwsCdkDsl
-    CfnChannel.AudioDescriptionProperty.Builder.() -> Unit = {}):
-    CfnChannel.AudioDescriptionProperty =
-    CfnChannel.AudioDescriptionProperty.Builder().apply(initializer).build()
+public fun buildAudioDescriptionProperty(initializer: @AwsCdkDsl CfnChannel.AudioDescriptionProperty.Builder.() -> Unit = {}): CfnChannel.AudioDescriptionProperty = CfnChannel.AudioDescriptionProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.identitypool.RoleMappingRule
 
 @Generated
-public fun buildRoleMappingRule(initializer: @AwsCdkDsl RoleMappingRule.Builder.() -> Unit = {}):
-    RoleMappingRule = RoleMappingRule.Builder().apply(initializer).build()
+public fun buildRoleMappingRule(initializer: @AwsCdkDsl RoleMappingRule.Builder.() -> Unit = {}): RoleMappingRule = RoleMappingRule.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBotAlias
 
 @Generated
-public fun buildTextLogSettingProperty(initializer: @AwsCdkDsl
-    CfnBotAlias.TextLogSettingProperty.Builder.() -> Unit = {}): CfnBotAlias.TextLogSettingProperty
-    = CfnBotAlias.TextLogSettingProperty.Builder().apply(initializer).build()
+public fun buildTextLogSettingProperty(initializer: @AwsCdkDsl CfnBotAlias.TextLogSettingProperty.Builder.() -> Unit = {}): CfnBotAlias.TextLogSettingProperty = CfnBotAlias.TextLogSettingProperty.Builder().apply(initializer).build()

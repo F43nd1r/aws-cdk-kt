@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildAribDestinationSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.AribDestinationSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.AribDestinationSettingsProperty =
-    CfnChannel.AribDestinationSettingsProperty.Builder().apply(initializer).build()
+public fun buildAribDestinationSettingsProperty(initializer: @AwsCdkDsl CfnChannel.AribDestinationSettingsProperty.Builder.() -> Unit = {}): CfnChannel.AribDestinationSettingsProperty = CfnChannel.AribDestinationSettingsProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnCodeSigningConfig(
 ): CfnCodeSigningConfig = CfnCodeSigningConfig(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCodeSigningConfig(id: String, initializer: @AwsCdkDsl
-    CfnCodeSigningConfig.Builder.() -> Unit = {}): CfnCodeSigningConfig =
-    CfnCodeSigningConfig.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCodeSigningConfig(id: String, initializer: @AwsCdkDsl CfnCodeSigningConfig.Builder.() -> Unit = {}): CfnCodeSigningConfig = CfnCodeSigningConfig.Builder.create(this, id).apply(initializer).build()

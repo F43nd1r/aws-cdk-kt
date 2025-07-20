@@ -16,6 +16,4 @@ public fun Construct.cfnCoreNetwork(
 ): CfnCoreNetwork = CfnCoreNetwork(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCoreNetwork(id: String, initializer: @AwsCdkDsl
-    CfnCoreNetwork.Builder.() -> Unit = {}): CfnCoreNetwork = CfnCoreNetwork.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnCoreNetwork(id: String, initializer: @AwsCdkDsl CfnCoreNetwork.Builder.() -> Unit = {}): CfnCoreNetwork = CfnCoreNetwork.Builder.create(this, id).apply(initializer).build()

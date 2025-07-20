@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
-public fun buildRateLimitJA4FingerprintProperty(initializer: @AwsCdkDsl
-    CfnWebACL.RateLimitJA4FingerprintProperty.Builder.() -> Unit = {}):
-    CfnWebACL.RateLimitJA4FingerprintProperty =
-    CfnWebACL.RateLimitJA4FingerprintProperty.Builder().apply(initializer).build()
+public fun buildRateLimitJA4FingerprintProperty(initializer: @AwsCdkDsl CfnWebACL.RateLimitJA4FingerprintProperty.Builder.() -> Unit = {}): CfnWebACL.RateLimitJA4FingerprintProperty = CfnWebACL.RateLimitJA4FingerprintProperty.Builder().apply(initializer).build()

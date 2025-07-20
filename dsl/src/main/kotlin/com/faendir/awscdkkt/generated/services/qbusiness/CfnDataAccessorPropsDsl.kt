@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnDataAccessorProps
 
 @Generated
-public fun buildCfnDataAccessorProps(initializer: @AwsCdkDsl CfnDataAccessorProps.Builder.() -> Unit
-    = {}): CfnDataAccessorProps = CfnDataAccessorProps.Builder().apply(initializer).build()
+public fun buildCfnDataAccessorProps(initializer: @AwsCdkDsl CfnDataAccessorProps.Builder.() -> Unit = {}): CfnDataAccessorProps = CfnDataAccessorProps.Builder().apply(initializer).build()

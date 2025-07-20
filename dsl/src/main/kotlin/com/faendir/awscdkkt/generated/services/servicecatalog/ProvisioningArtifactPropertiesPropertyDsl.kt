@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicecatalog.CfnCloudFormationProduct
 
 @Generated
-public fun buildProvisioningArtifactPropertiesProperty(initializer: @AwsCdkDsl
-    CfnCloudFormationProduct.ProvisioningArtifactPropertiesProperty.Builder.() -> Unit = {}):
-    CfnCloudFormationProduct.ProvisioningArtifactPropertiesProperty =
-    CfnCloudFormationProduct.ProvisioningArtifactPropertiesProperty.Builder().apply(initializer).build()
+public fun buildProvisioningArtifactPropertiesProperty(initializer: @AwsCdkDsl CfnCloudFormationProduct.ProvisioningArtifactPropertiesProperty.Builder.() -> Unit = {}): CfnCloudFormationProduct.ProvisioningArtifactPropertiesProperty = CfnCloudFormationProduct.ProvisioningArtifactPropertiesProperty.Builder().apply(initializer).build()

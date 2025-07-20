@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.evidently.CfnProject
 
 @Generated
-public fun buildDataDeliveryObjectProperty(initializer: @AwsCdkDsl
-    CfnProject.DataDeliveryObjectProperty.Builder.() -> Unit = {}):
-    CfnProject.DataDeliveryObjectProperty =
-    CfnProject.DataDeliveryObjectProperty.Builder().apply(initializer).build()
+public fun buildDataDeliveryObjectProperty(initializer: @AwsCdkDsl CfnProject.DataDeliveryObjectProperty.Builder.() -> Unit = {}): CfnProject.DataDeliveryObjectProperty = CfnProject.DataDeliveryObjectProperty.Builder().apply(initializer).build()

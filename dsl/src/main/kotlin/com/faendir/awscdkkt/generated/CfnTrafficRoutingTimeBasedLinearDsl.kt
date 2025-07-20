@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.CfnTrafficRoutingTimeBasedLinear
 
 @Generated
-public fun buildCfnTrafficRoutingTimeBasedLinear(initializer: @AwsCdkDsl
-    CfnTrafficRoutingTimeBasedLinear.Builder.() -> Unit = {}): CfnTrafficRoutingTimeBasedLinear =
-    CfnTrafficRoutingTimeBasedLinear.Builder().apply(initializer).build()
+public fun buildCfnTrafficRoutingTimeBasedLinear(initializer: @AwsCdkDsl CfnTrafficRoutingTimeBasedLinear.Builder.() -> Unit = {}): CfnTrafficRoutingTimeBasedLinear = CfnTrafficRoutingTimeBasedLinear.Builder().apply(initializer).build()

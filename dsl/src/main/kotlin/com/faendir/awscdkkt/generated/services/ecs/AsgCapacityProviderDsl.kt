@@ -16,6 +16,4 @@ public fun Construct.asgCapacityProvider(
 ): AsgCapacityProvider = AsgCapacityProvider(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAsgCapacityProvider(id: String, initializer: @AwsCdkDsl
-    AsgCapacityProvider.Builder.() -> Unit = {}): AsgCapacityProvider =
-    AsgCapacityProvider.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildAsgCapacityProvider(id: String, initializer: @AwsCdkDsl AsgCapacityProvider.Builder.() -> Unit = {}): AsgCapacityProvider = AsgCapacityProvider.Builder.create(this, id).apply(initializer).build()

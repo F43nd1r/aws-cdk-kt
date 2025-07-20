@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnDataAccessor
 
 @Generated
-public fun buildActionFilterConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataAccessor.ActionFilterConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDataAccessor.ActionFilterConfigurationProperty =
-    CfnDataAccessor.ActionFilterConfigurationProperty.Builder().apply(initializer).build()
+public fun buildActionFilterConfigurationProperty(initializer: @AwsCdkDsl CfnDataAccessor.ActionFilterConfigurationProperty.Builder.() -> Unit = {}): CfnDataAccessor.ActionFilterConfigurationProperty = CfnDataAccessor.ActionFilterConfigurationProperty.Builder().apply(initializer).build()

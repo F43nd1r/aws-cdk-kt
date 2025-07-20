@@ -16,6 +16,4 @@ public fun Construct.cfnLifecycleHook(
 ): CfnLifecycleHook = CfnLifecycleHook(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLifecycleHook(id: String, initializer: @AwsCdkDsl
-    CfnLifecycleHook.Builder.() -> Unit = {}): CfnLifecycleHook =
-    CfnLifecycleHook.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLifecycleHook(id: String, initializer: @AwsCdkDsl CfnLifecycleHook.Builder.() -> Unit = {}): CfnLifecycleHook = CfnLifecycleHook.Builder.create(this, id).apply(initializer).build()

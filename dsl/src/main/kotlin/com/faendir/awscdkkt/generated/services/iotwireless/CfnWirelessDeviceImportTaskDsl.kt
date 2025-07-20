@@ -16,6 +16,4 @@ public fun Construct.cfnWirelessDeviceImportTask(
 ): CfnWirelessDeviceImportTask = CfnWirelessDeviceImportTask(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnWirelessDeviceImportTask(id: String, initializer: @AwsCdkDsl
-    CfnWirelessDeviceImportTask.Builder.() -> Unit = {}): CfnWirelessDeviceImportTask =
-    CfnWirelessDeviceImportTask.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnWirelessDeviceImportTask(id: String, initializer: @AwsCdkDsl CfnWirelessDeviceImportTask.Builder.() -> Unit = {}): CfnWirelessDeviceImportTask = CfnWirelessDeviceImportTask.Builder.create(this, id).apply(initializer).build()

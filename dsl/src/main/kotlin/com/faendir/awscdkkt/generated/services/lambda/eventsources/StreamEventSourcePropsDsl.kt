@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.eventsources.StreamEventSourceProps
 
 @Generated
-public fun buildStreamEventSourceProps(initializer: @AwsCdkDsl
-    StreamEventSourceProps.Builder.() -> Unit = {}): StreamEventSourceProps =
-    StreamEventSourceProps.Builder().apply(initializer).build()
+public fun buildStreamEventSourceProps(initializer: @AwsCdkDsl StreamEventSourceProps.Builder.() -> Unit = {}): StreamEventSourceProps = StreamEventSourceProps.Builder().apply(initializer).build()

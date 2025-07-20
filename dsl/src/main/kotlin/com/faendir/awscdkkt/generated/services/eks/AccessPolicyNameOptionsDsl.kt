@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.AccessPolicyNameOptions
 
 @Generated
-public fun buildAccessPolicyNameOptions(initializer: @AwsCdkDsl
-    AccessPolicyNameOptions.Builder.() -> Unit = {}): AccessPolicyNameOptions =
-    AccessPolicyNameOptions.Builder().apply(initializer).build()
+public fun buildAccessPolicyNameOptions(initializer: @AwsCdkDsl AccessPolicyNameOptions.Builder.() -> Unit = {}): AccessPolicyNameOptions = AccessPolicyNameOptions.Builder().apply(initializer).build()

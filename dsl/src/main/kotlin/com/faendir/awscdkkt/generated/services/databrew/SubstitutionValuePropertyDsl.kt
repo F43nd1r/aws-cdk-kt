@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.databrew.CfnRuleset
 
 @Generated
-public fun buildSubstitutionValueProperty(initializer: @AwsCdkDsl
-    CfnRuleset.SubstitutionValueProperty.Builder.() -> Unit = {}):
-    CfnRuleset.SubstitutionValueProperty =
-    CfnRuleset.SubstitutionValueProperty.Builder().apply(initializer).build()
+public fun buildSubstitutionValueProperty(initializer: @AwsCdkDsl CfnRuleset.SubstitutionValueProperty.Builder.() -> Unit = {}): CfnRuleset.SubstitutionValueProperty = CfnRuleset.SubstitutionValueProperty.Builder().apply(initializer).build()

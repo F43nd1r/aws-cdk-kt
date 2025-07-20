@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssm.CfnResourceDataSyncProps
 
 @Generated
-public fun buildCfnResourceDataSyncProps(initializer: @AwsCdkDsl
-    CfnResourceDataSyncProps.Builder.() -> Unit = {}): CfnResourceDataSyncProps =
-    CfnResourceDataSyncProps.Builder().apply(initializer).build()
+public fun buildCfnResourceDataSyncProps(initializer: @AwsCdkDsl CfnResourceDataSyncProps.Builder.() -> Unit = {}): CfnResourceDataSyncProps = CfnResourceDataSyncProps.Builder().apply(initializer).build()

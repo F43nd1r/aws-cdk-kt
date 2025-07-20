@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.ResponseHeadersCorsBehavior
 
 @Generated
-public fun buildResponseHeadersCorsBehavior(initializer: @AwsCdkDsl
-    ResponseHeadersCorsBehavior.Builder.() -> Unit = {}): ResponseHeadersCorsBehavior =
-    ResponseHeadersCorsBehavior.Builder().apply(initializer).build()
+public fun buildResponseHeadersCorsBehavior(initializer: @AwsCdkDsl ResponseHeadersCorsBehavior.Builder.() -> Unit = {}): ResponseHeadersCorsBehavior = ResponseHeadersCorsBehavior.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.applicationautoscaling.AdjustmentTier
 
 @Generated
-public fun buildAdjustmentTier(initializer: @AwsCdkDsl AdjustmentTier.Builder.() -> Unit = {}):
-    AdjustmentTier = AdjustmentTier.Builder().apply(initializer).build()
+public fun buildAdjustmentTier(initializer: @AwsCdkDsl AdjustmentTier.Builder.() -> Unit = {}): AdjustmentTier = AdjustmentTier.Builder().apply(initializer).build()

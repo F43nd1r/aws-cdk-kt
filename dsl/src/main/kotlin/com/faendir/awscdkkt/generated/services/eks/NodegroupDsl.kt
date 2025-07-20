@@ -16,5 +16,4 @@ public fun Construct.nodegroup(
 ): Nodegroup = Nodegroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildNodegroup(id: String, initializer: @AwsCdkDsl Nodegroup.Builder.() -> Unit
-    = {}): Nodegroup = Nodegroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildNodegroup(id: String, initializer: @AwsCdkDsl Nodegroup.Builder.() -> Unit = {}): Nodegroup = Nodegroup.Builder.create(this, id).apply(initializer).build()

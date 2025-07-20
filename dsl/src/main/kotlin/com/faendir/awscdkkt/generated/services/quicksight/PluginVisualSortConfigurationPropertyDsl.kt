@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildPluginVisualSortConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PluginVisualSortConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.PluginVisualSortConfigurationProperty =
-    CfnTemplate.PluginVisualSortConfigurationProperty.Builder().apply(initializer).build()
+public fun buildPluginVisualSortConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.PluginVisualSortConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.PluginVisualSortConfigurationProperty = CfnTemplate.PluginVisualSortConfigurationProperty.Builder().apply(initializer).build()

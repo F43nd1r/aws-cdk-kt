@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotfleetwise.CfnDecoderManifest
 
 @Generated
-public fun buildCanNetworkInterfaceProperty(initializer: @AwsCdkDsl
-    CfnDecoderManifest.CanNetworkInterfaceProperty.Builder.() -> Unit = {}):
-    CfnDecoderManifest.CanNetworkInterfaceProperty =
-    CfnDecoderManifest.CanNetworkInterfaceProperty.Builder().apply(initializer).build()
+public fun buildCanNetworkInterfaceProperty(initializer: @AwsCdkDsl CfnDecoderManifest.CanNetworkInterfaceProperty.Builder.() -> Unit = {}): CfnDecoderManifest.CanNetworkInterfaceProperty = CfnDecoderManifest.CanNetworkInterfaceProperty.Builder().apply(initializer).build()

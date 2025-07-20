@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.apigatewayv2.CfnApiProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnApi(id: String, initializer: @AwsCdkDsl CfnApi.() -> Unit = {}): CfnApi =
-    CfnApi(this, id).apply(initializer)
+public fun Construct.cfnApi(id: String, initializer: @AwsCdkDsl CfnApi.() -> Unit = {}): CfnApi = CfnApi(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnApi(
@@ -20,5 +19,4 @@ public fun Construct.cfnApi(
 ): CfnApi = CfnApi(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnApi(id: String, initializer: @AwsCdkDsl CfnApi.Builder.() -> Unit =
-    {}): CfnApi = CfnApi.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnApi(id: String, initializer: @AwsCdkDsl CfnApi.Builder.() -> Unit = {}): CfnApi = CfnApi.Builder.create(this, id).apply(initializer).build()

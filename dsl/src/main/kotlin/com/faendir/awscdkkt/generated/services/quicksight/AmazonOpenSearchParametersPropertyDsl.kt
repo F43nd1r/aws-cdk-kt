@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSource
 
 @Generated
-public fun buildAmazonOpenSearchParametersProperty(initializer: @AwsCdkDsl
-    CfnDataSource.AmazonOpenSearchParametersProperty.Builder.() -> Unit = {}):
-    CfnDataSource.AmazonOpenSearchParametersProperty =
-    CfnDataSource.AmazonOpenSearchParametersProperty.Builder().apply(initializer).build()
+public fun buildAmazonOpenSearchParametersProperty(initializer: @AwsCdkDsl CfnDataSource.AmazonOpenSearchParametersProperty.Builder.() -> Unit = {}): CfnDataSource.AmazonOpenSearchParametersProperty = CfnDataSource.AmazonOpenSearchParametersProperty.Builder().apply(initializer).build()

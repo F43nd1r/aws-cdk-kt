@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dms.CfnDataMigrationProps
 
 @Generated
-public fun buildCfnDataMigrationProps(initializer: @AwsCdkDsl
-    CfnDataMigrationProps.Builder.() -> Unit = {}): CfnDataMigrationProps =
-    CfnDataMigrationProps.Builder().apply(initializer).build()
+public fun buildCfnDataMigrationProps(initializer: @AwsCdkDsl CfnDataMigrationProps.Builder.() -> Unit = {}): CfnDataMigrationProps = CfnDataMigrationProps.Builder().apply(initializer).build()

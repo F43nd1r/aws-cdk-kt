@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.DestinationOptions
 
 @Generated
-public fun buildDestinationOptions(initializer: @AwsCdkDsl DestinationOptions.Builder.() -> Unit =
-    {}): DestinationOptions = DestinationOptions.Builder().apply(initializer).build()
+public fun buildDestinationOptions(initializer: @AwsCdkDsl DestinationOptions.Builder.() -> Unit = {}): DestinationOptions = DestinationOptions.Builder().apply(initializer).build()

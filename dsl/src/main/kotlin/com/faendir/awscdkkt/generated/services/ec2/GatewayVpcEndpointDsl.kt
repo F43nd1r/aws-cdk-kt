@@ -16,6 +16,4 @@ public fun Construct.gatewayVpcEndpoint(
 ): GatewayVpcEndpoint = GatewayVpcEndpoint(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildGatewayVpcEndpoint(id: String, initializer: @AwsCdkDsl
-    GatewayVpcEndpoint.Builder.() -> Unit = {}): GatewayVpcEndpoint =
-    GatewayVpcEndpoint.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildGatewayVpcEndpoint(id: String, initializer: @AwsCdkDsl GatewayVpcEndpoint.Builder.() -> Unit = {}): GatewayVpcEndpoint = GatewayVpcEndpoint.Builder.create(this, id).apply(initializer).build()

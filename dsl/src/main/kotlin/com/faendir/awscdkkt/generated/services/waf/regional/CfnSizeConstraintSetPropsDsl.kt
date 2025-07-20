@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.waf.regional.CfnSizeConstraintSetProps
 
 @Generated
-public fun buildCfnSizeConstraintSetProps(initializer: @AwsCdkDsl
-    CfnSizeConstraintSetProps.Builder.() -> Unit = {}): CfnSizeConstraintSetProps =
-    CfnSizeConstraintSetProps.Builder().apply(initializer).build()
+public fun buildCfnSizeConstraintSetProps(initializer: @AwsCdkDsl CfnSizeConstraintSetProps.Builder.() -> Unit = {}): CfnSizeConstraintSetProps = CfnSizeConstraintSetProps.Builder().apply(initializer).build()

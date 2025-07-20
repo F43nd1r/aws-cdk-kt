@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnDataSource
 
 @Generated
-public fun buildRedshiftClusterStorageProperty(initializer: @AwsCdkDsl
-    CfnDataSource.RedshiftClusterStorageProperty.Builder.() -> Unit = {}):
-    CfnDataSource.RedshiftClusterStorageProperty =
-    CfnDataSource.RedshiftClusterStorageProperty.Builder().apply(initializer).build()
+public fun buildRedshiftClusterStorageProperty(initializer: @AwsCdkDsl CfnDataSource.RedshiftClusterStorageProperty.Builder.() -> Unit = {}): CfnDataSource.RedshiftClusterStorageProperty = CfnDataSource.RedshiftClusterStorageProperty.Builder().apply(initializer).build()

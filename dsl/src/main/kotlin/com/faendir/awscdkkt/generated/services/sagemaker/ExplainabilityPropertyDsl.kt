@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnModelPackage
 
 @Generated
-public fun buildExplainabilityProperty(initializer: @AwsCdkDsl
-    CfnModelPackage.ExplainabilityProperty.Builder.() -> Unit = {}):
-    CfnModelPackage.ExplainabilityProperty =
-    CfnModelPackage.ExplainabilityProperty.Builder().apply(initializer).build()
+public fun buildExplainabilityProperty(initializer: @AwsCdkDsl CfnModelPackage.ExplainabilityProperty.Builder.() -> Unit = {}): CfnModelPackage.ExplainabilityProperty = CfnModelPackage.ExplainabilityProperty.Builder().apply(initializer).build()

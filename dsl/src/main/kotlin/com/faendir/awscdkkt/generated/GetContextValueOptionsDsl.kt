@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.GetContextValueOptions
 
 @Generated
-public fun buildGetContextValueOptions(initializer: @AwsCdkDsl
-    GetContextValueOptions.Builder.() -> Unit = {}): GetContextValueOptions =
-    GetContextValueOptions.Builder().apply(initializer).build()
+public fun buildGetContextValueOptions(initializer: @AwsCdkDsl GetContextValueOptions.Builder.() -> Unit = {}): GetContextValueOptions = GetContextValueOptions.Builder().apply(initializer).build()

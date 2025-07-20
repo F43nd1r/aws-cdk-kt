@@ -16,6 +16,4 @@ public fun Construct.cfnDBProxy(
 ): CfnDBProxy = CfnDBProxy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDBProxy(id: String, initializer: @AwsCdkDsl
-    CfnDBProxy.Builder.() -> Unit = {}): CfnDBProxy = CfnDBProxy.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnDBProxy(id: String, initializer: @AwsCdkDsl CfnDBProxy.Builder.() -> Unit = {}): CfnDBProxy = CfnDBProxy.Builder.create(this, id).apply(initializer).build()

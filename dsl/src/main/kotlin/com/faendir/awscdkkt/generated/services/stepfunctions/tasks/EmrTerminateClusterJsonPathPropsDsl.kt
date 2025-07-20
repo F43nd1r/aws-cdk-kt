@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrTerminateClusterJsonPathProps
 
 @Generated
-public fun buildEmrTerminateClusterJsonPathProps(initializer: @AwsCdkDsl
-    EmrTerminateClusterJsonPathProps.Builder.() -> Unit = {}): EmrTerminateClusterJsonPathProps =
-    EmrTerminateClusterJsonPathProps.Builder().apply(initializer).build()
+public fun buildEmrTerminateClusterJsonPathProps(initializer: @AwsCdkDsl EmrTerminateClusterJsonPathProps.Builder.() -> Unit = {}): EmrTerminateClusterJsonPathProps = EmrTerminateClusterJsonPathProps.Builder().apply(initializer).build()

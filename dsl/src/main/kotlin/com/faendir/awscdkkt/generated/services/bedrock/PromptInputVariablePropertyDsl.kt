@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnPromptVersion
 
 @Generated
-public fun buildPromptInputVariableProperty(initializer: @AwsCdkDsl
-    CfnPromptVersion.PromptInputVariableProperty.Builder.() -> Unit = {}):
-    CfnPromptVersion.PromptInputVariableProperty =
-    CfnPromptVersion.PromptInputVariableProperty.Builder().apply(initializer).build()
+public fun buildPromptInputVariableProperty(initializer: @AwsCdkDsl CfnPromptVersion.PromptInputVariableProperty.Builder.() -> Unit = {}): CfnPromptVersion.PromptInputVariableProperty = CfnPromptVersion.PromptInputVariableProperty.Builder().apply(initializer).build()

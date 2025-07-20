@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.patterns.NetworkTargetProps
 
 @Generated
-public fun buildNetworkTargetProps(initializer: @AwsCdkDsl NetworkTargetProps.Builder.() -> Unit =
-    {}): NetworkTargetProps = NetworkTargetProps.Builder().apply(initializer).build()
+public fun buildNetworkTargetProps(initializer: @AwsCdkDsl NetworkTargetProps.Builder.() -> Unit = {}): NetworkTargetProps = NetworkTargetProps.Builder().apply(initializer).build()

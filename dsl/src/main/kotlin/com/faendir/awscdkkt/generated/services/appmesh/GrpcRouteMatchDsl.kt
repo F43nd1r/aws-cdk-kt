@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.GrpcRouteMatch
 
 @Generated
-public fun buildGrpcRouteMatch(initializer: @AwsCdkDsl GrpcRouteMatch.Builder.() -> Unit = {}):
-    GrpcRouteMatch = GrpcRouteMatch.Builder().apply(initializer).build()
+public fun buildGrpcRouteMatch(initializer: @AwsCdkDsl GrpcRouteMatch.Builder.() -> Unit = {}): GrpcRouteMatch = GrpcRouteMatch.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.emrserverless.CfnApplication
 
 @Generated
-public fun buildLogTypeMapKeyValuePairProperty(initializer: @AwsCdkDsl
-    CfnApplication.LogTypeMapKeyValuePairProperty.Builder.() -> Unit = {}):
-    CfnApplication.LogTypeMapKeyValuePairProperty =
-    CfnApplication.LogTypeMapKeyValuePairProperty.Builder().apply(initializer).build()
+public fun buildLogTypeMapKeyValuePairProperty(initializer: @AwsCdkDsl CfnApplication.LogTypeMapKeyValuePairProperty.Builder.() -> Unit = {}): CfnApplication.LogTypeMapKeyValuePairProperty = CfnApplication.LogTypeMapKeyValuePairProperty.Builder().apply(initializer).build()

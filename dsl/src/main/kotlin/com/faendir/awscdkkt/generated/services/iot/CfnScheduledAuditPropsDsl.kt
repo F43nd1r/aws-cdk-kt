@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnScheduledAuditProps
 
 @Generated
-public fun buildCfnScheduledAuditProps(initializer: @AwsCdkDsl
-    CfnScheduledAuditProps.Builder.() -> Unit = {}): CfnScheduledAuditProps =
-    CfnScheduledAuditProps.Builder().apply(initializer).build()
+public fun buildCfnScheduledAuditProps(initializer: @AwsCdkDsl CfnScheduledAuditProps.Builder.() -> Unit = {}): CfnScheduledAuditProps = CfnScheduledAuditProps.Builder().apply(initializer).build()

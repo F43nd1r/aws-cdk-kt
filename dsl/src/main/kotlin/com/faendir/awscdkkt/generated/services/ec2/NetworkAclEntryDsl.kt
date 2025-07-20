@@ -16,6 +16,4 @@ public fun Construct.networkAclEntry(
 ): NetworkAclEntry = NetworkAclEntry(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildNetworkAclEntry(id: String, initializer: @AwsCdkDsl
-    NetworkAclEntry.Builder.() -> Unit = {}): NetworkAclEntry = NetworkAclEntry.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildNetworkAclEntry(id: String, initializer: @AwsCdkDsl NetworkAclEntry.Builder.() -> Unit = {}): NetworkAclEntry = NetworkAclEntry.Builder.create(this, id).apply(initializer).build()

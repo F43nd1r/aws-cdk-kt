@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticsearch.CfnDomain
 
 @Generated
-public fun buildSnapshotOptionsProperty(initializer: @AwsCdkDsl
-    CfnDomain.SnapshotOptionsProperty.Builder.() -> Unit = {}): CfnDomain.SnapshotOptionsProperty =
-    CfnDomain.SnapshotOptionsProperty.Builder().apply(initializer).build()
+public fun buildSnapshotOptionsProperty(initializer: @AwsCdkDsl CfnDomain.SnapshotOptionsProperty.Builder.() -> Unit = {}): CfnDomain.SnapshotOptionsProperty = CfnDomain.SnapshotOptionsProperty.Builder().apply(initializer).build()

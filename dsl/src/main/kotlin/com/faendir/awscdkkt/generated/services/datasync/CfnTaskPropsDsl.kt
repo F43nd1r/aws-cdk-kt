@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datasync.CfnTaskProps
 
 @Generated
-public fun buildCfnTaskProps(initializer: @AwsCdkDsl CfnTaskProps.Builder.() -> Unit = {}):
-    CfnTaskProps = CfnTaskProps.Builder().apply(initializer).build()
+public fun buildCfnTaskProps(initializer: @AwsCdkDsl CfnTaskProps.Builder.() -> Unit = {}): CfnTaskProps = CfnTaskProps.Builder().apply(initializer).build()

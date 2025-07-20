@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.redshift.CfnScheduledAction
 
 @Generated
-public fun buildPauseClusterMessageProperty(initializer: @AwsCdkDsl
-    CfnScheduledAction.PauseClusterMessageProperty.Builder.() -> Unit = {}):
-    CfnScheduledAction.PauseClusterMessageProperty =
-    CfnScheduledAction.PauseClusterMessageProperty.Builder().apply(initializer).build()
+public fun buildPauseClusterMessageProperty(initializer: @AwsCdkDsl CfnScheduledAction.PauseClusterMessageProperty.Builder.() -> Unit = {}): CfnScheduledAction.PauseClusterMessageProperty = CfnScheduledAction.PauseClusterMessageProperty.Builder().apply(initializer).build()

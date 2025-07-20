@@ -16,6 +16,4 @@ public fun Construct.cfnProductSubscription(
 ): CfnProductSubscription = CfnProductSubscription(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnProductSubscription(id: String, initializer: @AwsCdkDsl
-    CfnProductSubscription.Builder.() -> Unit = {}): CfnProductSubscription =
-    CfnProductSubscription.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnProductSubscription(id: String, initializer: @AwsCdkDsl CfnProductSubscription.Builder.() -> Unit = {}): CfnProductSubscription = CfnProductSubscription.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnLogDeliveryConfiguration
 
 @Generated
-public fun buildCloudWatchLogsConfigurationProperty(initializer: @AwsCdkDsl
-    CfnLogDeliveryConfiguration.CloudWatchLogsConfigurationProperty.Builder.() -> Unit = {}):
-    CfnLogDeliveryConfiguration.CloudWatchLogsConfigurationProperty =
-    CfnLogDeliveryConfiguration.CloudWatchLogsConfigurationProperty.Builder().apply(initializer).build()
+public fun buildCloudWatchLogsConfigurationProperty(initializer: @AwsCdkDsl CfnLogDeliveryConfiguration.CloudWatchLogsConfigurationProperty.Builder.() -> Unit = {}): CfnLogDeliveryConfiguration.CloudWatchLogsConfigurationProperty = CfnLogDeliveryConfiguration.CloudWatchLogsConfigurationProperty.Builder().apply(initializer).build()

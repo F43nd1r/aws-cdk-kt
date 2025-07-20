@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkmanager.CfnCustomerGatewayAssociationProps
 
 @Generated
-public fun buildCfnCustomerGatewayAssociationProps(initializer: @AwsCdkDsl
-    CfnCustomerGatewayAssociationProps.Builder.() -> Unit = {}): CfnCustomerGatewayAssociationProps
-    = CfnCustomerGatewayAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnCustomerGatewayAssociationProps(initializer: @AwsCdkDsl CfnCustomerGatewayAssociationProps.Builder.() -> Unit = {}): CfnCustomerGatewayAssociationProps = CfnCustomerGatewayAssociationProps.Builder().apply(initializer).build()

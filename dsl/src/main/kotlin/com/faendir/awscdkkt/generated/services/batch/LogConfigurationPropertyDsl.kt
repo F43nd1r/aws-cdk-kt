@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
-public fun buildLogConfigurationProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.LogConfigurationProperty.Builder.() -> Unit = {}):
-    CfnJobDefinition.LogConfigurationProperty =
-    CfnJobDefinition.LogConfigurationProperty.Builder().apply(initializer).build()
+public fun buildLogConfigurationProperty(initializer: @AwsCdkDsl CfnJobDefinition.LogConfigurationProperty.Builder.() -> Unit = {}): CfnJobDefinition.LogConfigurationProperty = CfnJobDefinition.LogConfigurationProperty.Builder().apply(initializer).build()

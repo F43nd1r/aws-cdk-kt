@@ -16,6 +16,4 @@ public fun Construct.webSocketRoute(
 ): WebSocketRoute = WebSocketRoute(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildWebSocketRoute(id: String, initializer: @AwsCdkDsl
-    WebSocketRoute.Builder.() -> Unit = {}): WebSocketRoute = WebSocketRoute.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildWebSocketRoute(id: String, initializer: @AwsCdkDsl WebSocketRoute.Builder.() -> Unit = {}): WebSocketRoute = WebSocketRoute.Builder.create(this, id).apply(initializer).build()

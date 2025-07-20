@@ -16,6 +16,4 @@ public fun Construct.notificationRule(
 ): NotificationRule = NotificationRule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildNotificationRule(id: String, initializer: @AwsCdkDsl
-    NotificationRule.Builder.() -> Unit = {}): NotificationRule =
-    NotificationRule.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildNotificationRule(id: String, initializer: @AwsCdkDsl NotificationRule.Builder.() -> Unit = {}): NotificationRule = NotificationRule.Builder.create(this, id).apply(initializer).build()

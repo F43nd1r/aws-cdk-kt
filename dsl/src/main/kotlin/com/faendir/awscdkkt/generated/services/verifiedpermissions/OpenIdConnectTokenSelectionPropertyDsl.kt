@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.verifiedpermissions.CfnIdentitySource
 
 @Generated
-public fun buildOpenIdConnectTokenSelectionProperty(initializer: @AwsCdkDsl
-    CfnIdentitySource.OpenIdConnectTokenSelectionProperty.Builder.() -> Unit = {}):
-    CfnIdentitySource.OpenIdConnectTokenSelectionProperty =
-    CfnIdentitySource.OpenIdConnectTokenSelectionProperty.Builder().apply(initializer).build()
+public fun buildOpenIdConnectTokenSelectionProperty(initializer: @AwsCdkDsl CfnIdentitySource.OpenIdConnectTokenSelectionProperty.Builder.() -> Unit = {}): CfnIdentitySource.OpenIdConnectTokenSelectionProperty = CfnIdentitySource.OpenIdConnectTokenSelectionProperty.Builder().apply(initializer).build()

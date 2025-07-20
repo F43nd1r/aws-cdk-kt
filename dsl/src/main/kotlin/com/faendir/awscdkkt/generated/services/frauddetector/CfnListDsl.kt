@@ -16,5 +16,4 @@ public fun Construct.cfnList(
 ): CfnList = CfnList(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnList(id: String, initializer: @AwsCdkDsl CfnList.Builder.() -> Unit =
-    {}): CfnList = CfnList.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnList(id: String, initializer: @AwsCdkDsl CfnList.Builder.() -> Unit = {}): CfnList = CfnList.Builder.create(this, id).apply(initializer).build()

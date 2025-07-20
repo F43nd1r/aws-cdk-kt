@@ -16,6 +16,4 @@ public fun Construct.cfnRolePolicy(
 ): CfnRolePolicy = CfnRolePolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRolePolicy(id: String, initializer: @AwsCdkDsl
-    CfnRolePolicy.Builder.() -> Unit = {}): CfnRolePolicy = CfnRolePolicy.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnRolePolicy(id: String, initializer: @AwsCdkDsl CfnRolePolicy.Builder.() -> Unit = {}): CfnRolePolicy = CfnRolePolicy.Builder.create(this, id).apply(initializer).build()

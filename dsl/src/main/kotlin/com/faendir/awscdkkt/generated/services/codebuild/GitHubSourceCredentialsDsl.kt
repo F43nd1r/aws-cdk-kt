@@ -16,6 +16,4 @@ public fun Construct.gitHubSourceCredentials(
 ): GitHubSourceCredentials = GitHubSourceCredentials(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildGitHubSourceCredentials(id: String, initializer: @AwsCdkDsl
-    GitHubSourceCredentials.Builder.() -> Unit = {}): GitHubSourceCredentials =
-    GitHubSourceCredentials.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildGitHubSourceCredentials(id: String, initializer: @AwsCdkDsl GitHubSourceCredentials.Builder.() -> Unit = {}): GitHubSourceCredentials = GitHubSourceCredentials.Builder.create(this, id).apply(initializer).build()

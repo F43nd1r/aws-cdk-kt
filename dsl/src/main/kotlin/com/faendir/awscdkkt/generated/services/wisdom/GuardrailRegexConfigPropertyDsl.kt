@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnAIGuardrail
 
 @Generated
-public fun buildGuardrailRegexConfigProperty(initializer: @AwsCdkDsl
-    CfnAIGuardrail.GuardrailRegexConfigProperty.Builder.() -> Unit = {}):
-    CfnAIGuardrail.GuardrailRegexConfigProperty =
-    CfnAIGuardrail.GuardrailRegexConfigProperty.Builder().apply(initializer).build()
+public fun buildGuardrailRegexConfigProperty(initializer: @AwsCdkDsl CfnAIGuardrail.GuardrailRegexConfigProperty.Builder.() -> Unit = {}): CfnAIGuardrail.GuardrailRegexConfigProperty = CfnAIGuardrail.GuardrailRegexConfigProperty.Builder().apply(initializer).build()

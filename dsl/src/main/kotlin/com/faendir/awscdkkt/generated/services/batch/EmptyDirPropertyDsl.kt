@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
-public fun buildEmptyDirProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.EmptyDirProperty.Builder.() -> Unit = {}): CfnJobDefinition.EmptyDirProperty =
-    CfnJobDefinition.EmptyDirProperty.Builder().apply(initializer).build()
+public fun buildEmptyDirProperty(initializer: @AwsCdkDsl CfnJobDefinition.EmptyDirProperty.Builder.() -> Unit = {}): CfnJobDefinition.EmptyDirProperty = CfnJobDefinition.EmptyDirProperty.Builder().apply(initializer).build()

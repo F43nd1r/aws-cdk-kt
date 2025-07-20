@@ -16,6 +16,4 @@ public fun Construct.cfnRoutingRule(
 ): CfnRoutingRule = CfnRoutingRule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRoutingRule(id: String, initializer: @AwsCdkDsl
-    CfnRoutingRule.Builder.() -> Unit = {}): CfnRoutingRule = CfnRoutingRule.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnRoutingRule(id: String, initializer: @AwsCdkDsl CfnRoutingRule.Builder.() -> Unit = {}): CfnRoutingRule = CfnRoutingRule.Builder.create(this, id).apply(initializer).build()

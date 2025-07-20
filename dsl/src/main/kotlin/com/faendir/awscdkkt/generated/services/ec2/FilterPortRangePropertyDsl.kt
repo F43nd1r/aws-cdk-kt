@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnNetworkInsightsPath
 
 @Generated
-public fun buildFilterPortRangeProperty(initializer: @AwsCdkDsl
-    CfnNetworkInsightsPath.FilterPortRangeProperty.Builder.() -> Unit = {}):
-    CfnNetworkInsightsPath.FilterPortRangeProperty =
-    CfnNetworkInsightsPath.FilterPortRangeProperty.Builder().apply(initializer).build()
+public fun buildFilterPortRangeProperty(initializer: @AwsCdkDsl CfnNetworkInsightsPath.FilterPortRangeProperty.Builder.() -> Unit = {}): CfnNetworkInsightsPath.FilterPortRangeProperty = CfnNetworkInsightsPath.FilterPortRangeProperty.Builder().apply(initializer).build()

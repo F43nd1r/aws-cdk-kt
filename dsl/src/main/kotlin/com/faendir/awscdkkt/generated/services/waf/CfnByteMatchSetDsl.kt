@@ -16,6 +16,4 @@ public fun Construct.cfnByteMatchSet(
 ): CfnByteMatchSet = CfnByteMatchSet(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnByteMatchSet(id: String, initializer: @AwsCdkDsl
-    CfnByteMatchSet.Builder.() -> Unit = {}): CfnByteMatchSet = CfnByteMatchSet.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnByteMatchSet(id: String, initializer: @AwsCdkDsl CfnByteMatchSet.Builder.() -> Unit = {}): CfnByteMatchSet = CfnByteMatchSet.Builder.create(this, id).apply(initializer).build()

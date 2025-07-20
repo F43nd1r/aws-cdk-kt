@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnKeyGroup
 
 @Generated
-public fun buildKeyGroupConfigProperty(initializer: @AwsCdkDsl
-    CfnKeyGroup.KeyGroupConfigProperty.Builder.() -> Unit = {}): CfnKeyGroup.KeyGroupConfigProperty
-    = CfnKeyGroup.KeyGroupConfigProperty.Builder().apply(initializer).build()
+public fun buildKeyGroupConfigProperty(initializer: @AwsCdkDsl CfnKeyGroup.KeyGroupConfigProperty.Builder.() -> Unit = {}): CfnKeyGroup.KeyGroupConfigProperty = CfnKeyGroup.KeyGroupConfigProperty.Builder().apply(initializer).build()

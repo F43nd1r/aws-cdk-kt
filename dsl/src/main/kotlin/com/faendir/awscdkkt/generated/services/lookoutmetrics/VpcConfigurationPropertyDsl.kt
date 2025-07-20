@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lookoutmetrics.CfnAnomalyDetector
 
 @Generated
-public fun buildVpcConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAnomalyDetector.VpcConfigurationProperty.Builder.() -> Unit = {}):
-    CfnAnomalyDetector.VpcConfigurationProperty =
-    CfnAnomalyDetector.VpcConfigurationProperty.Builder().apply(initializer).build()
+public fun buildVpcConfigurationProperty(initializer: @AwsCdkDsl CfnAnomalyDetector.VpcConfigurationProperty.Builder.() -> Unit = {}): CfnAnomalyDetector.VpcConfigurationProperty = CfnAnomalyDetector.VpcConfigurationProperty.Builder().apply(initializer).build()

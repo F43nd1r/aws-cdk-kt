@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnAnycastIpListProps
 
 @Generated
-public fun buildCfnAnycastIpListProps(initializer: @AwsCdkDsl
-    CfnAnycastIpListProps.Builder.() -> Unit = {}): CfnAnycastIpListProps =
-    CfnAnycastIpListProps.Builder().apply(initializer).build()
+public fun buildCfnAnycastIpListProps(initializer: @AwsCdkDsl CfnAnycastIpListProps.Builder.() -> Unit = {}): CfnAnycastIpListProps = CfnAnycastIpListProps.Builder().apply(initializer).build()

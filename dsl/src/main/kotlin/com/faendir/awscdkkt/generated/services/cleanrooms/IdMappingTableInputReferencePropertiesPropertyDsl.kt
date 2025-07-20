@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cleanrooms.CfnIdMappingTable
 
 @Generated
-public fun buildIdMappingTableInputReferencePropertiesProperty(initializer: @AwsCdkDsl
-    CfnIdMappingTable.IdMappingTableInputReferencePropertiesProperty.Builder.() -> Unit = {}):
-    CfnIdMappingTable.IdMappingTableInputReferencePropertiesProperty =
-    CfnIdMappingTable.IdMappingTableInputReferencePropertiesProperty.Builder().apply(initializer).build()
+public fun buildIdMappingTableInputReferencePropertiesProperty(initializer: @AwsCdkDsl CfnIdMappingTable.IdMappingTableInputReferencePropertiesProperty.Builder.() -> Unit = {}): CfnIdMappingTable.IdMappingTableInputReferencePropertiesProperty = CfnIdMappingTable.IdMappingTableInputReferencePropertiesProperty.Builder().apply(initializer).build()

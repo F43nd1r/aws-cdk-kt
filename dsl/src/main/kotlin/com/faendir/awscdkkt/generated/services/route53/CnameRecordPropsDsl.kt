@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.CnameRecordProps
 
 @Generated
-public fun buildCnameRecordProps(initializer: @AwsCdkDsl CnameRecordProps.Builder.() -> Unit = {}):
-    CnameRecordProps = CnameRecordProps.Builder().apply(initializer).build()
+public fun buildCnameRecordProps(initializer: @AwsCdkDsl CnameRecordProps.Builder.() -> Unit = {}): CnameRecordProps = CnameRecordProps.Builder().apply(initializer).build()

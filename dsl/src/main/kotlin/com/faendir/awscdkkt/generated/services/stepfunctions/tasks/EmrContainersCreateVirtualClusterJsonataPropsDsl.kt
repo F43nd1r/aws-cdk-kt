@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrContainersCreateVirtualClusterJsonataProps
 
 @Generated
-public fun buildEmrContainersCreateVirtualClusterJsonataProps(initializer: @AwsCdkDsl
-    EmrContainersCreateVirtualClusterJsonataProps.Builder.() -> Unit = {}):
-    EmrContainersCreateVirtualClusterJsonataProps =
-    EmrContainersCreateVirtualClusterJsonataProps.Builder().apply(initializer).build()
+public fun buildEmrContainersCreateVirtualClusterJsonataProps(initializer: @AwsCdkDsl EmrContainersCreateVirtualClusterJsonataProps.Builder.() -> Unit = {}): EmrContainersCreateVirtualClusterJsonataProps = EmrContainersCreateVirtualClusterJsonataProps.Builder().apply(initializer).build()

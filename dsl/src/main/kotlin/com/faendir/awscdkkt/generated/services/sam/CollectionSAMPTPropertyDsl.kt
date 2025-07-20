@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
-public fun buildCollectionSAMPTProperty(initializer: @AwsCdkDsl
-    CfnFunction.CollectionSAMPTProperty.Builder.() -> Unit = {}):
-    CfnFunction.CollectionSAMPTProperty =
-    CfnFunction.CollectionSAMPTProperty.Builder().apply(initializer).build()
+public fun buildCollectionSAMPTProperty(initializer: @AwsCdkDsl CfnFunction.CollectionSAMPTProperty.Builder.() -> Unit = {}): CfnFunction.CollectionSAMPTProperty = CfnFunction.CollectionSAMPTProperty.Builder().apply(initializer).build()

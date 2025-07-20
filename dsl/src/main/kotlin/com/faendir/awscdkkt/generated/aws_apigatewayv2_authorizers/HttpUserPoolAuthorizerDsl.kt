@@ -12,5 +12,4 @@ public fun buildHttpUserPoolAuthorizer(
   id: String,
   pool: IUserPool,
   initializer: @AwsCdkDsl HttpUserPoolAuthorizer.Builder.() -> Unit = {},
-): HttpUserPoolAuthorizer = HttpUserPoolAuthorizer.Builder.create(id,
-    pool).apply(initializer).build()
+): HttpUserPoolAuthorizer = HttpUserPoolAuthorizer.Builder.create(id, pool).apply(initializer).build()

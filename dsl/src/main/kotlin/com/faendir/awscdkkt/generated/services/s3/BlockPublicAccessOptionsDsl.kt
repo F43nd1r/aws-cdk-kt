@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.BlockPublicAccessOptions
 
 @Generated
-public fun buildBlockPublicAccessOptions(initializer: @AwsCdkDsl
-    BlockPublicAccessOptions.Builder.() -> Unit = {}): BlockPublicAccessOptions =
-    BlockPublicAccessOptions.Builder().apply(initializer).build()
+public fun buildBlockPublicAccessOptions(initializer: @AwsCdkDsl BlockPublicAccessOptions.Builder.() -> Unit = {}): BlockPublicAccessOptions = BlockPublicAccessOptions.Builder().apply(initializer).build()

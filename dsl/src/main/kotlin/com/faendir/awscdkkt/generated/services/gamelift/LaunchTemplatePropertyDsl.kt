@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnGameServerGroup
 
 @Generated
-public fun buildLaunchTemplateProperty(initializer: @AwsCdkDsl
-    CfnGameServerGroup.LaunchTemplateProperty.Builder.() -> Unit = {}):
-    CfnGameServerGroup.LaunchTemplateProperty =
-    CfnGameServerGroup.LaunchTemplateProperty.Builder().apply(initializer).build()
+public fun buildLaunchTemplateProperty(initializer: @AwsCdkDsl CfnGameServerGroup.LaunchTemplateProperty.Builder.() -> Unit = {}): CfnGameServerGroup.LaunchTemplateProperty = CfnGameServerGroup.LaunchTemplateProperty.Builder().apply(initializer).build()

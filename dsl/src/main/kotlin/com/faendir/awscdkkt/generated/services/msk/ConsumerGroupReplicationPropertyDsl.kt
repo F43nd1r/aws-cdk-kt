@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.msk.CfnReplicator
 
 @Generated
-public fun buildConsumerGroupReplicationProperty(initializer: @AwsCdkDsl
-    CfnReplicator.ConsumerGroupReplicationProperty.Builder.() -> Unit = {}):
-    CfnReplicator.ConsumerGroupReplicationProperty =
-    CfnReplicator.ConsumerGroupReplicationProperty.Builder().apply(initializer).build()
+public fun buildConsumerGroupReplicationProperty(initializer: @AwsCdkDsl CfnReplicator.ConsumerGroupReplicationProperty.Builder.() -> Unit = {}): CfnReplicator.ConsumerGroupReplicationProperty = CfnReplicator.ConsumerGroupReplicationProperty.Builder().apply(initializer).build()

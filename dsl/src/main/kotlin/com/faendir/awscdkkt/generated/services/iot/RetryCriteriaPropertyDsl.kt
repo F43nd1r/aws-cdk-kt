@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnJobTemplate
 
 @Generated
-public fun buildRetryCriteriaProperty(initializer: @AwsCdkDsl
-    CfnJobTemplate.RetryCriteriaProperty.Builder.() -> Unit = {}):
-    CfnJobTemplate.RetryCriteriaProperty =
-    CfnJobTemplate.RetryCriteriaProperty.Builder().apply(initializer).build()
+public fun buildRetryCriteriaProperty(initializer: @AwsCdkDsl CfnJobTemplate.RetryCriteriaProperty.Builder.() -> Unit = {}): CfnJobTemplate.RetryCriteriaProperty = CfnJobTemplate.RetryCriteriaProperty.Builder().apply(initializer).build()

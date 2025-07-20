@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildSmpteTtDestinationSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.SmpteTtDestinationSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.SmpteTtDestinationSettingsProperty =
-    CfnChannel.SmpteTtDestinationSettingsProperty.Builder().apply(initializer).build()
+public fun buildSmpteTtDestinationSettingsProperty(initializer: @AwsCdkDsl CfnChannel.SmpteTtDestinationSettingsProperty.Builder.() -> Unit = {}): CfnChannel.SmpteTtDestinationSettingsProperty = CfnChannel.SmpteTtDestinationSettingsProperty.Builder().apply(initializer).build()

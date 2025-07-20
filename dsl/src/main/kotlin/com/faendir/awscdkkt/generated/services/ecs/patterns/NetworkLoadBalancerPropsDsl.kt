@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.patterns.NetworkLoadBalancerProps
 
 @Generated
-public fun buildNetworkLoadBalancerProps(initializer: @AwsCdkDsl
-    NetworkLoadBalancerProps.Builder.() -> Unit = {}): NetworkLoadBalancerProps =
-    NetworkLoadBalancerProps.Builder().apply(initializer).build()
+public fun buildNetworkLoadBalancerProps(initializer: @AwsCdkDsl NetworkLoadBalancerProps.Builder.() -> Unit = {}): NetworkLoadBalancerProps = NetworkLoadBalancerProps.Builder().apply(initializer).build()

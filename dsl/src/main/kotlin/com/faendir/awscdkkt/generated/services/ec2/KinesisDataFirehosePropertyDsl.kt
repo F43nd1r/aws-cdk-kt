@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVerifiedAccessInstance
 
 @Generated
-public fun buildKinesisDataFirehoseProperty(initializer: @AwsCdkDsl
-    CfnVerifiedAccessInstance.KinesisDataFirehoseProperty.Builder.() -> Unit = {}):
-    CfnVerifiedAccessInstance.KinesisDataFirehoseProperty =
-    CfnVerifiedAccessInstance.KinesisDataFirehoseProperty.Builder().apply(initializer).build()
+public fun buildKinesisDataFirehoseProperty(initializer: @AwsCdkDsl CfnVerifiedAccessInstance.KinesisDataFirehoseProperty.Builder.() -> Unit = {}): CfnVerifiedAccessInstance.KinesisDataFirehoseProperty = CfnVerifiedAccessInstance.KinesisDataFirehoseProperty.Builder().apply(initializer).build()

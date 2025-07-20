@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnInstanceStorageConfig
 
 @Generated
-public fun buildEncryptionConfigProperty(initializer: @AwsCdkDsl
-    CfnInstanceStorageConfig.EncryptionConfigProperty.Builder.() -> Unit = {}):
-    CfnInstanceStorageConfig.EncryptionConfigProperty =
-    CfnInstanceStorageConfig.EncryptionConfigProperty.Builder().apply(initializer).build()
+public fun buildEncryptionConfigProperty(initializer: @AwsCdkDsl CfnInstanceStorageConfig.EncryptionConfigProperty.Builder.() -> Unit = {}): CfnInstanceStorageConfig.EncryptionConfigProperty = CfnInstanceStorageConfig.EncryptionConfigProperty.Builder().apply(initializer).build()

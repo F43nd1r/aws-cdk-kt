@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.location.CfnRouteCalculatorProps
 
 @Generated
-public fun buildCfnRouteCalculatorProps(initializer: @AwsCdkDsl
-    CfnRouteCalculatorProps.Builder.() -> Unit = {}): CfnRouteCalculatorProps =
-    CfnRouteCalculatorProps.Builder().apply(initializer).build()
+public fun buildCfnRouteCalculatorProps(initializer: @AwsCdkDsl CfnRouteCalculatorProps.Builder.() -> Unit = {}): CfnRouteCalculatorProps = CfnRouteCalculatorProps.Builder().apply(initializer).build()

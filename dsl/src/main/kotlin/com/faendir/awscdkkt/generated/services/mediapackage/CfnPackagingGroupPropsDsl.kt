@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediapackage.CfnPackagingGroupProps
 
 @Generated
-public fun buildCfnPackagingGroupProps(initializer: @AwsCdkDsl
-    CfnPackagingGroupProps.Builder.() -> Unit = {}): CfnPackagingGroupProps =
-    CfnPackagingGroupProps.Builder().apply(initializer).build()
+public fun buildCfnPackagingGroupProps(initializer: @AwsCdkDsl CfnPackagingGroupProps.Builder.() -> Unit = {}): CfnPackagingGroupProps = CfnPackagingGroupProps.Builder().apply(initializer).build()

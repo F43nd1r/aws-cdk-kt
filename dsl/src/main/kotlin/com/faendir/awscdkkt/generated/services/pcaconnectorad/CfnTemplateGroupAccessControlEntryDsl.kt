@@ -13,10 +13,7 @@ public fun Construct.cfnTemplateGroupAccessControlEntry(
   id: String,
   props: CfnTemplateGroupAccessControlEntryProps,
   initializer: @AwsCdkDsl CfnTemplateGroupAccessControlEntry.() -> Unit = {},
-): CfnTemplateGroupAccessControlEntry = CfnTemplateGroupAccessControlEntry(this, id,
-    props).apply(initializer)
+): CfnTemplateGroupAccessControlEntry = CfnTemplateGroupAccessControlEntry(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTemplateGroupAccessControlEntry(id: String, initializer: @AwsCdkDsl
-    CfnTemplateGroupAccessControlEntry.Builder.() -> Unit = {}): CfnTemplateGroupAccessControlEntry
-    = CfnTemplateGroupAccessControlEntry.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTemplateGroupAccessControlEntry(id: String, initializer: @AwsCdkDsl CfnTemplateGroupAccessControlEntry.Builder.() -> Unit = {}): CfnTemplateGroupAccessControlEntry = CfnTemplateGroupAccessControlEntry.Builder.create(this, id).apply(initializer).build()

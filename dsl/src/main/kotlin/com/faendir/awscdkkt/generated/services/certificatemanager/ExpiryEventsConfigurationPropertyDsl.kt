@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.certificatemanager.CfnAccount
 
 @Generated
-public fun buildExpiryEventsConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAccount.ExpiryEventsConfigurationProperty.Builder.() -> Unit = {}):
-    CfnAccount.ExpiryEventsConfigurationProperty =
-    CfnAccount.ExpiryEventsConfigurationProperty.Builder().apply(initializer).build()
+public fun buildExpiryEventsConfigurationProperty(initializer: @AwsCdkDsl CfnAccount.ExpiryEventsConfigurationProperty.Builder.() -> Unit = {}): CfnAccount.ExpiryEventsConfigurationProperty = CfnAccount.ExpiryEventsConfigurationProperty.Builder().apply(initializer).build()

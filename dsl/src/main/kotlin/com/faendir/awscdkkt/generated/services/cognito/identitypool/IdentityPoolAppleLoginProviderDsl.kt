@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.identitypool.IdentityPoolAppleLoginProvider
 
 @Generated
-public fun buildIdentityPoolAppleLoginProvider(initializer: @AwsCdkDsl
-    IdentityPoolAppleLoginProvider.Builder.() -> Unit = {}): IdentityPoolAppleLoginProvider =
-    IdentityPoolAppleLoginProvider.Builder().apply(initializer).build()
+public fun buildIdentityPoolAppleLoginProvider(initializer: @AwsCdkDsl IdentityPoolAppleLoginProvider.Builder.() -> Unit = {}): IdentityPoolAppleLoginProvider = IdentityPoolAppleLoginProvider.Builder().apply(initializer).build()

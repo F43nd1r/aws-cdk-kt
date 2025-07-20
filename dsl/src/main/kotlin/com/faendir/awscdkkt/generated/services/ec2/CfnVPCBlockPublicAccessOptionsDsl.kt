@@ -13,10 +13,7 @@ public fun Construct.cfnVPCBlockPublicAccessOptions(
   id: String,
   props: CfnVPCBlockPublicAccessOptionsProps,
   initializer: @AwsCdkDsl CfnVPCBlockPublicAccessOptions.() -> Unit = {},
-): CfnVPCBlockPublicAccessOptions = CfnVPCBlockPublicAccessOptions(this, id,
-    props).apply(initializer)
+): CfnVPCBlockPublicAccessOptions = CfnVPCBlockPublicAccessOptions(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVPCBlockPublicAccessOptions(id: String, initializer: @AwsCdkDsl
-    CfnVPCBlockPublicAccessOptions.Builder.() -> Unit = {}): CfnVPCBlockPublicAccessOptions =
-    CfnVPCBlockPublicAccessOptions.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnVPCBlockPublicAccessOptions(id: String, initializer: @AwsCdkDsl CfnVPCBlockPublicAccessOptions.Builder.() -> Unit = {}): CfnVPCBlockPublicAccessOptions = CfnVPCBlockPublicAccessOptions.Builder.create(this, id).apply(initializer).build()

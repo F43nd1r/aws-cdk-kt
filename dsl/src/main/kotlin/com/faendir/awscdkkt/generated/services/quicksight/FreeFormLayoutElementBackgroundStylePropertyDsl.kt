@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildFreeFormLayoutElementBackgroundStyleProperty(initializer: @AwsCdkDsl
-    CfnTemplate.FreeFormLayoutElementBackgroundStyleProperty.Builder.() -> Unit = {}):
-    CfnTemplate.FreeFormLayoutElementBackgroundStyleProperty =
-    CfnTemplate.FreeFormLayoutElementBackgroundStyleProperty.Builder().apply(initializer).build()
+public fun buildFreeFormLayoutElementBackgroundStyleProperty(initializer: @AwsCdkDsl CfnTemplate.FreeFormLayoutElementBackgroundStyleProperty.Builder.() -> Unit = {}): CfnTemplate.FreeFormLayoutElementBackgroundStyleProperty = CfnTemplate.FreeFormLayoutElementBackgroundStyleProperty.Builder().apply(initializer).build()

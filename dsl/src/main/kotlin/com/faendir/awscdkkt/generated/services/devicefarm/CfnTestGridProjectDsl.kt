@@ -16,6 +16,4 @@ public fun Construct.cfnTestGridProject(
 ): CfnTestGridProject = CfnTestGridProject(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTestGridProject(id: String, initializer: @AwsCdkDsl
-    CfnTestGridProject.Builder.() -> Unit = {}): CfnTestGridProject =
-    CfnTestGridProject.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTestGridProject(id: String, initializer: @AwsCdkDsl CfnTestGridProject.Builder.() -> Unit = {}): CfnTestGridProject = CfnTestGridProject.Builder.create(this, id).apply(initializer).build()

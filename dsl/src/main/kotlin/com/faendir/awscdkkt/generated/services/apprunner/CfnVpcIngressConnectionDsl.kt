@@ -16,6 +16,4 @@ public fun Construct.cfnVpcIngressConnection(
 ): CfnVpcIngressConnection = CfnVpcIngressConnection(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVpcIngressConnection(id: String, initializer: @AwsCdkDsl
-    CfnVpcIngressConnection.Builder.() -> Unit = {}): CfnVpcIngressConnection =
-    CfnVpcIngressConnection.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnVpcIngressConnection(id: String, initializer: @AwsCdkDsl CfnVpcIngressConnection.Builder.() -> Unit = {}): CfnVpcIngressConnection = CfnVpcIngressConnection.Builder.create(this, id).apply(initializer).build()

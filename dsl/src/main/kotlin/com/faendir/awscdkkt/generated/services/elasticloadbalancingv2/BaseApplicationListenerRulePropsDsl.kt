@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.BaseApplicationListenerRuleProps
 
 @Generated
-public fun buildBaseApplicationListenerRuleProps(initializer: @AwsCdkDsl
-    BaseApplicationListenerRuleProps.Builder.() -> Unit = {}): BaseApplicationListenerRuleProps =
-    BaseApplicationListenerRuleProps.Builder().apply(initializer).build()
+public fun buildBaseApplicationListenerRuleProps(initializer: @AwsCdkDsl BaseApplicationListenerRuleProps.Builder.() -> Unit = {}): BaseApplicationListenerRuleProps = BaseApplicationListenerRuleProps.Builder().apply(initializer).build()

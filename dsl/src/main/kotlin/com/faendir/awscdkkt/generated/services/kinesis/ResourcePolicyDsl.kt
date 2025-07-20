@@ -16,6 +16,4 @@ public fun Construct.resourcePolicy(
 ): ResourcePolicy = ResourcePolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildResourcePolicy(id: String, initializer: @AwsCdkDsl
-    ResourcePolicy.Builder.() -> Unit = {}): ResourcePolicy = ResourcePolicy.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildResourcePolicy(id: String, initializer: @AwsCdkDsl ResourcePolicy.Builder.() -> Unit = {}): ResourcePolicy = ResourcePolicy.Builder.create(this, id).apply(initializer).build()

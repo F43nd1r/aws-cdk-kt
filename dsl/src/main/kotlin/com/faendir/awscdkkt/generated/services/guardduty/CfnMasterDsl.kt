@@ -16,5 +16,4 @@ public fun Construct.cfnMaster(
 ): CfnMaster = CfnMaster(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMaster(id: String, initializer: @AwsCdkDsl CfnMaster.Builder.() -> Unit
-    = {}): CfnMaster = CfnMaster.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMaster(id: String, initializer: @AwsCdkDsl CfnMaster.Builder.() -> Unit = {}): CfnMaster = CfnMaster.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.caaAmazonRecord(
 ): CaaAmazonRecord = CaaAmazonRecord(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCaaAmazonRecord(id: String, initializer: @AwsCdkDsl
-    CaaAmazonRecord.Builder.() -> Unit = {}): CaaAmazonRecord = CaaAmazonRecord.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCaaAmazonRecord(id: String, initializer: @AwsCdkDsl CaaAmazonRecord.Builder.() -> Unit = {}): CaaAmazonRecord = CaaAmazonRecord.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.detective.CfnMemberInvitationProps
 
 @Generated
-public fun buildCfnMemberInvitationProps(initializer: @AwsCdkDsl
-    CfnMemberInvitationProps.Builder.() -> Unit = {}): CfnMemberInvitationProps =
-    CfnMemberInvitationProps.Builder().apply(initializer).build()
+public fun buildCfnMemberInvitationProps(initializer: @AwsCdkDsl CfnMemberInvitationProps.Builder.() -> Unit = {}): CfnMemberInvitationProps = CfnMemberInvitationProps.Builder().apply(initializer).build()

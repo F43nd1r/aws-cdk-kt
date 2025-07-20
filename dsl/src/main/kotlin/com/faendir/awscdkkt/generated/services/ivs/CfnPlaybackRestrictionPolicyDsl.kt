@@ -16,6 +16,4 @@ public fun Construct.cfnPlaybackRestrictionPolicy(
 ): CfnPlaybackRestrictionPolicy = CfnPlaybackRestrictionPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPlaybackRestrictionPolicy(id: String, initializer: @AwsCdkDsl
-    CfnPlaybackRestrictionPolicy.Builder.() -> Unit = {}): CfnPlaybackRestrictionPolicy =
-    CfnPlaybackRestrictionPolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPlaybackRestrictionPolicy(id: String, initializer: @AwsCdkDsl CfnPlaybackRestrictionPolicy.Builder.() -> Unit = {}): CfnPlaybackRestrictionPolicy = CfnPlaybackRestrictionPolicy.Builder.create(this, id).apply(initializer).build()

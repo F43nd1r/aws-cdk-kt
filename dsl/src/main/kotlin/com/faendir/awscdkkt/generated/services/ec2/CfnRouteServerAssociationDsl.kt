@@ -16,6 +16,4 @@ public fun Construct.cfnRouteServerAssociation(
 ): CfnRouteServerAssociation = CfnRouteServerAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRouteServerAssociation(id: String, initializer: @AwsCdkDsl
-    CfnRouteServerAssociation.Builder.() -> Unit = {}): CfnRouteServerAssociation =
-    CfnRouteServerAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRouteServerAssociation(id: String, initializer: @AwsCdkDsl CfnRouteServerAssociation.Builder.() -> Unit = {}): CfnRouteServerAssociation = CfnRouteServerAssociation.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnAgent
 
 @Generated
-public fun buildActionGroupExecutorProperty(initializer: @AwsCdkDsl
-    CfnAgent.ActionGroupExecutorProperty.Builder.() -> Unit = {}):
-    CfnAgent.ActionGroupExecutorProperty =
-    CfnAgent.ActionGroupExecutorProperty.Builder().apply(initializer).build()
+public fun buildActionGroupExecutorProperty(initializer: @AwsCdkDsl CfnAgent.ActionGroupExecutorProperty.Builder.() -> Unit = {}): CfnAgent.ActionGroupExecutorProperty = CfnAgent.ActionGroupExecutorProperty.Builder().apply(initializer).build()

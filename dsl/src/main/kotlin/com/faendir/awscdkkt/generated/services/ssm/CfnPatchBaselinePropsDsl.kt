@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssm.CfnPatchBaselineProps
 
 @Generated
-public fun buildCfnPatchBaselineProps(initializer: @AwsCdkDsl
-    CfnPatchBaselineProps.Builder.() -> Unit = {}): CfnPatchBaselineProps =
-    CfnPatchBaselineProps.Builder().apply(initializer).build()
+public fun buildCfnPatchBaselineProps(initializer: @AwsCdkDsl CfnPatchBaselineProps.Builder.() -> Unit = {}): CfnPatchBaselineProps = CfnPatchBaselineProps.Builder().apply(initializer).build()

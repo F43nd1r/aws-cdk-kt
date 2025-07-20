@@ -16,6 +16,4 @@ public fun Construct.cfnScheduledAudit(
 ): CfnScheduledAudit = CfnScheduledAudit(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnScheduledAudit(id: String, initializer: @AwsCdkDsl
-    CfnScheduledAudit.Builder.() -> Unit = {}): CfnScheduledAudit =
-    CfnScheduledAudit.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnScheduledAudit(id: String, initializer: @AwsCdkDsl CfnScheduledAudit.Builder.() -> Unit = {}): CfnScheduledAudit = CfnScheduledAudit.Builder.create(this, id).apply(initializer).build()

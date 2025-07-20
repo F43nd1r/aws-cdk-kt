@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnQuickConnect
 
 @Generated
-public fun buildPhoneNumberQuickConnectConfigProperty(initializer: @AwsCdkDsl
-    CfnQuickConnect.PhoneNumberQuickConnectConfigProperty.Builder.() -> Unit = {}):
-    CfnQuickConnect.PhoneNumberQuickConnectConfigProperty =
-    CfnQuickConnect.PhoneNumberQuickConnectConfigProperty.Builder().apply(initializer).build()
+public fun buildPhoneNumberQuickConnectConfigProperty(initializer: @AwsCdkDsl CfnQuickConnect.PhoneNumberQuickConnectConfigProperty.Builder.() -> Unit = {}): CfnQuickConnect.PhoneNumberQuickConnectConfigProperty = CfnQuickConnect.PhoneNumberQuickConnectConfigProperty.Builder().apply(initializer).build()

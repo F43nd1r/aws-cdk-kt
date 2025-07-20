@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildDestinationParameterValueConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DestinationParameterValueConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.DestinationParameterValueConfigurationProperty =
-    CfnTemplate.DestinationParameterValueConfigurationProperty.Builder().apply(initializer).build()
+public fun buildDestinationParameterValueConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.DestinationParameterValueConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.DestinationParameterValueConfigurationProperty = CfnTemplate.DestinationParameterValueConfigurationProperty.Builder().apply(initializer).build()

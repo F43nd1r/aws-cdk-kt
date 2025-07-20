@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.greengrassv2.CfnComponentVersion
 
 @Generated
-public fun buildLambdaDeviceMountProperty(initializer: @AwsCdkDsl
-    CfnComponentVersion.LambdaDeviceMountProperty.Builder.() -> Unit = {}):
-    CfnComponentVersion.LambdaDeviceMountProperty =
-    CfnComponentVersion.LambdaDeviceMountProperty.Builder().apply(initializer).build()
+public fun buildLambdaDeviceMountProperty(initializer: @AwsCdkDsl CfnComponentVersion.LambdaDeviceMountProperty.Builder.() -> Unit = {}): CfnComponentVersion.LambdaDeviceMountProperty = CfnComponentVersion.LambdaDeviceMountProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnTransformer
 
 @Generated
-public fun buildParseWAFProperty(initializer: @AwsCdkDsl
-    CfnTransformer.ParseWAFProperty.Builder.() -> Unit = {}): CfnTransformer.ParseWAFProperty =
-    CfnTransformer.ParseWAFProperty.Builder().apply(initializer).build()
+public fun buildParseWAFProperty(initializer: @AwsCdkDsl CfnTransformer.ParseWAFProperty.Builder.() -> Unit = {}): CfnTransformer.ParseWAFProperty = CfnTransformer.ParseWAFProperty.Builder().apply(initializer).build()

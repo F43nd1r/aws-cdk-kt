@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediapackagev2.CfnOriginEndpoint
 
 @Generated
-public fun buildHlsManifestConfigurationProperty(initializer: @AwsCdkDsl
-    CfnOriginEndpoint.HlsManifestConfigurationProperty.Builder.() -> Unit = {}):
-    CfnOriginEndpoint.HlsManifestConfigurationProperty =
-    CfnOriginEndpoint.HlsManifestConfigurationProperty.Builder().apply(initializer).build()
+public fun buildHlsManifestConfigurationProperty(initializer: @AwsCdkDsl CfnOriginEndpoint.HlsManifestConfigurationProperty.Builder.() -> Unit = {}): CfnOriginEndpoint.HlsManifestConfigurationProperty = CfnOriginEndpoint.HlsManifestConfigurationProperty.Builder().apply(initializer).build()

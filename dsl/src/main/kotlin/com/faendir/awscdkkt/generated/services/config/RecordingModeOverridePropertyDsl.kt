@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.config.CfnConfigurationRecorder
 
 @Generated
-public fun buildRecordingModeOverrideProperty(initializer: @AwsCdkDsl
-    CfnConfigurationRecorder.RecordingModeOverrideProperty.Builder.() -> Unit = {}):
-    CfnConfigurationRecorder.RecordingModeOverrideProperty =
-    CfnConfigurationRecorder.RecordingModeOverrideProperty.Builder().apply(initializer).build()
+public fun buildRecordingModeOverrideProperty(initializer: @AwsCdkDsl CfnConfigurationRecorder.RecordingModeOverrideProperty.Builder.() -> Unit = {}): CfnConfigurationRecorder.RecordingModeOverrideProperty = CfnConfigurationRecorder.RecordingModeOverrideProperty.Builder().apply(initializer).build()

@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.dlm.CfnLifecyclePolicyProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnLifecyclePolicy(id: String, initializer: @AwsCdkDsl
-    CfnLifecyclePolicy.() -> Unit = {}): CfnLifecyclePolicy = CfnLifecyclePolicy(this,
-    id).apply(initializer)
+public fun Construct.cfnLifecyclePolicy(id: String, initializer: @AwsCdkDsl CfnLifecyclePolicy.() -> Unit = {}): CfnLifecyclePolicy = CfnLifecyclePolicy(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnLifecyclePolicy(
@@ -21,6 +19,4 @@ public fun Construct.cfnLifecyclePolicy(
 ): CfnLifecyclePolicy = CfnLifecyclePolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLifecyclePolicy(id: String, initializer: @AwsCdkDsl
-    CfnLifecyclePolicy.Builder.() -> Unit = {}): CfnLifecyclePolicy =
-    CfnLifecyclePolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLifecyclePolicy(id: String, initializer: @AwsCdkDsl CfnLifecyclePolicy.Builder.() -> Unit = {}): CfnLifecyclePolicy = CfnLifecyclePolicy.Builder.create(this, id).apply(initializer).build()

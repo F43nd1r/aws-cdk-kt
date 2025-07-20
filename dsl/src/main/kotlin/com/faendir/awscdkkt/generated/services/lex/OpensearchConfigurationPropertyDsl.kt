@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildOpensearchConfigurationProperty(initializer: @AwsCdkDsl
-    CfnBot.OpensearchConfigurationProperty.Builder.() -> Unit = {}):
-    CfnBot.OpensearchConfigurationProperty =
-    CfnBot.OpensearchConfigurationProperty.Builder().apply(initializer).build()
+public fun buildOpensearchConfigurationProperty(initializer: @AwsCdkDsl CfnBot.OpensearchConfigurationProperty.Builder.() -> Unit = {}): CfnBot.OpensearchConfigurationProperty = CfnBot.OpensearchConfigurationProperty.Builder().apply(initializer).build()

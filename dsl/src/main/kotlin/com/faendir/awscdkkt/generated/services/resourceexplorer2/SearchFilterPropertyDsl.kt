@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.resourceexplorer2.CfnView
 
 @Generated
-public fun buildSearchFilterProperty(initializer: @AwsCdkDsl
-    CfnView.SearchFilterProperty.Builder.() -> Unit = {}): CfnView.SearchFilterProperty =
-    CfnView.SearchFilterProperty.Builder().apply(initializer).build()
+public fun buildSearchFilterProperty(initializer: @AwsCdkDsl CfnView.SearchFilterProperty.Builder.() -> Unit = {}): CfnView.SearchFilterProperty = CfnView.SearchFilterProperty.Builder().apply(initializer).build()

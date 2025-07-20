@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnConnection
 
 @Generated
-public fun buildSparkGluePropertiesInputProperty(initializer: @AwsCdkDsl
-    CfnConnection.SparkGluePropertiesInputProperty.Builder.() -> Unit = {}):
-    CfnConnection.SparkGluePropertiesInputProperty =
-    CfnConnection.SparkGluePropertiesInputProperty.Builder().apply(initializer).build()
+public fun buildSparkGluePropertiesInputProperty(initializer: @AwsCdkDsl CfnConnection.SparkGluePropertiesInputProperty.Builder.() -> Unit = {}): CfnConnection.SparkGluePropertiesInputProperty = CfnConnection.SparkGluePropertiesInputProperty.Builder().apply(initializer).build()

@@ -16,5 +16,4 @@ public fun Construct.cfnIPSet(
 ): CfnIPSet = CfnIPSet(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnIPSet(id: String, initializer: @AwsCdkDsl CfnIPSet.Builder.() -> Unit =
-    {}): CfnIPSet = CfnIPSet.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnIPSet(id: String, initializer: @AwsCdkDsl CfnIPSet.Builder.() -> Unit = {}): CfnIPSet = CfnIPSet.Builder.create(this, id).apply(initializer).build()

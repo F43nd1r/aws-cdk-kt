@@ -13,10 +13,7 @@ public fun Construct.cfnApplicationFleetAssociation(
   id: String,
   props: CfnApplicationFleetAssociationProps,
   initializer: @AwsCdkDsl CfnApplicationFleetAssociation.() -> Unit = {},
-): CfnApplicationFleetAssociation = CfnApplicationFleetAssociation(this, id,
-    props).apply(initializer)
+): CfnApplicationFleetAssociation = CfnApplicationFleetAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnApplicationFleetAssociation(id: String, initializer: @AwsCdkDsl
-    CfnApplicationFleetAssociation.Builder.() -> Unit = {}): CfnApplicationFleetAssociation =
-    CfnApplicationFleetAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnApplicationFleetAssociation(id: String, initializer: @AwsCdkDsl CfnApplicationFleetAssociation.Builder.() -> Unit = {}): CfnApplicationFleetAssociation = CfnApplicationFleetAssociation.Builder.create(this, id).apply(initializer).build()

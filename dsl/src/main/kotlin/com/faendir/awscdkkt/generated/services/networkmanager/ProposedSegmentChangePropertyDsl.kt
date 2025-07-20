@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkmanager.CfnVpcAttachment
 
 @Generated
-public fun buildProposedSegmentChangeProperty(initializer: @AwsCdkDsl
-    CfnVpcAttachment.ProposedSegmentChangeProperty.Builder.() -> Unit = {}):
-    CfnVpcAttachment.ProposedSegmentChangeProperty =
-    CfnVpcAttachment.ProposedSegmentChangeProperty.Builder().apply(initializer).build()
+public fun buildProposedSegmentChangeProperty(initializer: @AwsCdkDsl CfnVpcAttachment.ProposedSegmentChangeProperty.Builder.() -> Unit = {}): CfnVpcAttachment.ProposedSegmentChangeProperty = CfnVpcAttachment.ProposedSegmentChangeProperty.Builder().apply(initializer).build()

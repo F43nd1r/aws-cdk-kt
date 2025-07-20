@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
-public fun buildEcsTaskPropertiesProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.EcsTaskPropertiesProperty.Builder.() -> Unit = {}):
-    CfnJobDefinition.EcsTaskPropertiesProperty =
-    CfnJobDefinition.EcsTaskPropertiesProperty.Builder().apply(initializer).build()
+public fun buildEcsTaskPropertiesProperty(initializer: @AwsCdkDsl CfnJobDefinition.EcsTaskPropertiesProperty.Builder.() -> Unit = {}): CfnJobDefinition.EcsTaskPropertiesProperty = CfnJobDefinition.EcsTaskPropertiesProperty.Builder().apply(initializer).build()

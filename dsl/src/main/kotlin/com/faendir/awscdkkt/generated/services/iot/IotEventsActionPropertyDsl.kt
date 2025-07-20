@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnTopicRule
 
 @Generated
-public fun buildIotEventsActionProperty(initializer: @AwsCdkDsl
-    CfnTopicRule.IotEventsActionProperty.Builder.() -> Unit = {}):
-    CfnTopicRule.IotEventsActionProperty =
-    CfnTopicRule.IotEventsActionProperty.Builder().apply(initializer).build()
+public fun buildIotEventsActionProperty(initializer: @AwsCdkDsl CfnTopicRule.IotEventsActionProperty.Builder.() -> Unit = {}): CfnTopicRule.IotEventsActionProperty = CfnTopicRule.IotEventsActionProperty.Builder().apply(initializer).build()

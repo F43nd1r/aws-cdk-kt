@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.pipelines.GitHubSourceOptions
 
 @Generated
-public fun buildGitHubSourceOptions(initializer: @AwsCdkDsl GitHubSourceOptions.Builder.() -> Unit =
-    {}): GitHubSourceOptions = GitHubSourceOptions.Builder().apply(initializer).build()
+public fun buildGitHubSourceOptions(initializer: @AwsCdkDsl GitHubSourceOptions.Builder.() -> Unit = {}): GitHubSourceOptions = GitHubSourceOptions.Builder().apply(initializer).build()

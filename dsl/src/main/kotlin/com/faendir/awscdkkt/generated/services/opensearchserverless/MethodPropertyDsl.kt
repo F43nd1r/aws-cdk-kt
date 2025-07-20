@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opensearchserverless.CfnIndex
 
 @Generated
-public fun buildMethodProperty(initializer: @AwsCdkDsl CfnIndex.MethodProperty.Builder.() -> Unit =
-    {}): CfnIndex.MethodProperty = CfnIndex.MethodProperty.Builder().apply(initializer).build()
+public fun buildMethodProperty(initializer: @AwsCdkDsl CfnIndex.MethodProperty.Builder.() -> Unit = {}): CfnIndex.MethodProperty = CfnIndex.MethodProperty.Builder().apply(initializer).build()

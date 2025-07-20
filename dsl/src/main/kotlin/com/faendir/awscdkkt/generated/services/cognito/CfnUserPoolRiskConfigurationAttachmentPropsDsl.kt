@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnUserPoolRiskConfigurationAttachmentProps
 
 @Generated
-public fun buildCfnUserPoolRiskConfigurationAttachmentProps(initializer: @AwsCdkDsl
-    CfnUserPoolRiskConfigurationAttachmentProps.Builder.() -> Unit = {}):
-    CfnUserPoolRiskConfigurationAttachmentProps =
-    CfnUserPoolRiskConfigurationAttachmentProps.Builder().apply(initializer).build()
+public fun buildCfnUserPoolRiskConfigurationAttachmentProps(initializer: @AwsCdkDsl CfnUserPoolRiskConfigurationAttachmentProps.Builder.() -> Unit = {}): CfnUserPoolRiskConfigurationAttachmentProps = CfnUserPoolRiskConfigurationAttachmentProps.Builder().apply(initializer).build()

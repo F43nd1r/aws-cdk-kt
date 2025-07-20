@@ -16,5 +16,4 @@ public fun Construct.cfnScript(
 ): CfnScript = CfnScript(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnScript(id: String, initializer: @AwsCdkDsl CfnScript.Builder.() -> Unit
-    = {}): CfnScript = CfnScript.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnScript(id: String, initializer: @AwsCdkDsl CfnScript.Builder.() -> Unit = {}): CfnScript = CfnScript.Builder.create(this, id).apply(initializer).build()

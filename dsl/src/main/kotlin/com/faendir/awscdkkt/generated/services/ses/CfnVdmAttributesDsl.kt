@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.ses.CfnVdmAttributesProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnVdmAttributes(id: String, initializer: @AwsCdkDsl
-    CfnVdmAttributes.() -> Unit = {}): CfnVdmAttributes = CfnVdmAttributes(this,
-    id).apply(initializer)
+public fun Construct.cfnVdmAttributes(id: String, initializer: @AwsCdkDsl CfnVdmAttributes.() -> Unit = {}): CfnVdmAttributes = CfnVdmAttributes(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnVdmAttributes(
@@ -21,6 +19,4 @@ public fun Construct.cfnVdmAttributes(
 ): CfnVdmAttributes = CfnVdmAttributes(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVdmAttributes(id: String, initializer: @AwsCdkDsl
-    CfnVdmAttributes.Builder.() -> Unit = {}): CfnVdmAttributes =
-    CfnVdmAttributes.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnVdmAttributes(id: String, initializer: @AwsCdkDsl CfnVdmAttributes.Builder.() -> Unit = {}): CfnVdmAttributes = CfnVdmAttributes.Builder.create(this, id).apply(initializer).build()

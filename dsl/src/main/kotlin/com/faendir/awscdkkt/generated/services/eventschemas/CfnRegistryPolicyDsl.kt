@@ -16,6 +16,4 @@ public fun Construct.cfnRegistryPolicy(
 ): CfnRegistryPolicy = CfnRegistryPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRegistryPolicy(id: String, initializer: @AwsCdkDsl
-    CfnRegistryPolicy.Builder.() -> Unit = {}): CfnRegistryPolicy =
-    CfnRegistryPolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRegistryPolicy(id: String, initializer: @AwsCdkDsl CfnRegistryPolicy.Builder.() -> Unit = {}): CfnRegistryPolicy = CfnRegistryPolicy.Builder.create(this, id).apply(initializer).build()

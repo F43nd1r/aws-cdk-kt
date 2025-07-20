@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.aiops.CfnInvestigationGroup
 
 @Generated
-public fun buildChatbotNotificationChannelProperty(initializer: @AwsCdkDsl
-    CfnInvestigationGroup.ChatbotNotificationChannelProperty.Builder.() -> Unit = {}):
-    CfnInvestigationGroup.ChatbotNotificationChannelProperty =
-    CfnInvestigationGroup.ChatbotNotificationChannelProperty.Builder().apply(initializer).build()
+public fun buildChatbotNotificationChannelProperty(initializer: @AwsCdkDsl CfnInvestigationGroup.ChatbotNotificationChannelProperty.Builder.() -> Unit = {}): CfnInvestigationGroup.ChatbotNotificationChannelProperty = CfnInvestigationGroup.ChatbotNotificationChannelProperty.Builder().apply(initializer).build()

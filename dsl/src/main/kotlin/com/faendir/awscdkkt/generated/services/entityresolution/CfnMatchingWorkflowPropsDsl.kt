@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.entityresolution.CfnMatchingWorkflowProps
 
 @Generated
-public fun buildCfnMatchingWorkflowProps(initializer: @AwsCdkDsl
-    CfnMatchingWorkflowProps.Builder.() -> Unit = {}): CfnMatchingWorkflowProps =
-    CfnMatchingWorkflowProps.Builder().apply(initializer).build()
+public fun buildCfnMatchingWorkflowProps(initializer: @AwsCdkDsl CfnMatchingWorkflowProps.Builder.() -> Unit = {}): CfnMatchingWorkflowProps = CfnMatchingWorkflowProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildCustomPayloadProperty(initializer: @AwsCdkDsl
-    CfnBot.CustomPayloadProperty.Builder.() -> Unit = {}): CfnBot.CustomPayloadProperty =
-    CfnBot.CustomPayloadProperty.Builder().apply(initializer).build()
+public fun buildCustomPayloadProperty(initializer: @AwsCdkDsl CfnBot.CustomPayloadProperty.Builder.() -> Unit = {}): CfnBot.CustomPayloadProperty = CfnBot.CustomPayloadProperty.Builder().apply(initializer).build()

@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.ecs.patterns.QueueProcessingFargateServic
 import software.constructs.Construct
 
 @Generated
-public fun Construct.queueProcessingFargateService(id: String, initializer: @AwsCdkDsl
-    QueueProcessingFargateService.() -> Unit = {}): QueueProcessingFargateService =
-    QueueProcessingFargateService(this, id).apply(initializer)
+public fun Construct.queueProcessingFargateService(id: String, initializer: @AwsCdkDsl QueueProcessingFargateService.() -> Unit = {}): QueueProcessingFargateService = QueueProcessingFargateService(this, id).apply(initializer)
 
 @Generated
 public fun Construct.queueProcessingFargateService(
@@ -21,6 +19,4 @@ public fun Construct.queueProcessingFargateService(
 ): QueueProcessingFargateService = QueueProcessingFargateService(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildQueueProcessingFargateService(id: String, initializer: @AwsCdkDsl
-    QueueProcessingFargateService.Builder.() -> Unit = {}): QueueProcessingFargateService =
-    QueueProcessingFargateService.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildQueueProcessingFargateService(id: String, initializer: @AwsCdkDsl QueueProcessingFargateService.Builder.() -> Unit = {}): QueueProcessingFargateService = QueueProcessingFargateService.Builder.create(this, id).apply(initializer).build()

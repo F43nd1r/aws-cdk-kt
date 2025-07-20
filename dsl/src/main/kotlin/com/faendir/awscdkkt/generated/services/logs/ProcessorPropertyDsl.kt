@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnTransformer
 
 @Generated
-public fun buildProcessorProperty(initializer: @AwsCdkDsl
-    CfnTransformer.ProcessorProperty.Builder.() -> Unit = {}): CfnTransformer.ProcessorProperty =
-    CfnTransformer.ProcessorProperty.Builder().apply(initializer).build()
+public fun buildProcessorProperty(initializer: @AwsCdkDsl CfnTransformer.ProcessorProperty.Builder.() -> Unit = {}): CfnTransformer.ProcessorProperty = CfnTransformer.ProcessorProperty.Builder().apply(initializer).build()

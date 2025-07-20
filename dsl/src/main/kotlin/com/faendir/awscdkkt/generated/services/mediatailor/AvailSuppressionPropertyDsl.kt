@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediatailor.CfnPlaybackConfiguration
 
 @Generated
-public fun buildAvailSuppressionProperty(initializer: @AwsCdkDsl
-    CfnPlaybackConfiguration.AvailSuppressionProperty.Builder.() -> Unit = {}):
-    CfnPlaybackConfiguration.AvailSuppressionProperty =
-    CfnPlaybackConfiguration.AvailSuppressionProperty.Builder().apply(initializer).build()
+public fun buildAvailSuppressionProperty(initializer: @AwsCdkDsl CfnPlaybackConfiguration.AvailSuppressionProperty.Builder.() -> Unit = {}): CfnPlaybackConfiguration.AvailSuppressionProperty = CfnPlaybackConfiguration.AvailSuppressionProperty.Builder().apply(initializer).build()

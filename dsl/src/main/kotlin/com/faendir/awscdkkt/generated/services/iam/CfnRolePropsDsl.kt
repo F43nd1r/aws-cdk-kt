@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.CfnRoleProps
 
 @Generated
-public fun buildCfnRoleProps(initializer: @AwsCdkDsl CfnRoleProps.Builder.() -> Unit = {}):
-    CfnRoleProps = CfnRoleProps.Builder().apply(initializer).build()
+public fun buildCfnRoleProps(initializer: @AwsCdkDsl CfnRoleProps.Builder.() -> Unit = {}): CfnRoleProps = CfnRoleProps.Builder().apply(initializer).build()

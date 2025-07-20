@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnMessageTemplate
 
 @Generated
-public fun buildCustomerProfileAttributesProperty(initializer: @AwsCdkDsl
-    CfnMessageTemplate.CustomerProfileAttributesProperty.Builder.() -> Unit = {}):
-    CfnMessageTemplate.CustomerProfileAttributesProperty =
-    CfnMessageTemplate.CustomerProfileAttributesProperty.Builder().apply(initializer).build()
+public fun buildCustomerProfileAttributesProperty(initializer: @AwsCdkDsl CfnMessageTemplate.CustomerProfileAttributesProperty.Builder.() -> Unit = {}): CfnMessageTemplate.CustomerProfileAttributesProperty = CfnMessageTemplate.CustomerProfileAttributesProperty.Builder().apply(initializer).build()

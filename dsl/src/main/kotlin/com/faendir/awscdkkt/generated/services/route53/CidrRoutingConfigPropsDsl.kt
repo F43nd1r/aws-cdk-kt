@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.CidrRoutingConfigProps
 
 @Generated
-public fun buildCidrRoutingConfigProps(initializer: @AwsCdkDsl
-    CidrRoutingConfigProps.Builder.() -> Unit = {}): CidrRoutingConfigProps =
-    CidrRoutingConfigProps.Builder().apply(initializer).build()
+public fun buildCidrRoutingConfigProps(initializer: @AwsCdkDsl CidrRoutingConfigProps.Builder.() -> Unit = {}): CidrRoutingConfigProps = CidrRoutingConfigProps.Builder().apply(initializer).build()

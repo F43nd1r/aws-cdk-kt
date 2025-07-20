@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnConnection
 
 @Generated
-public fun buildRedshiftPropertiesInputProperty(initializer: @AwsCdkDsl
-    CfnConnection.RedshiftPropertiesInputProperty.Builder.() -> Unit = {}):
-    CfnConnection.RedshiftPropertiesInputProperty =
-    CfnConnection.RedshiftPropertiesInputProperty.Builder().apply(initializer).build()
+public fun buildRedshiftPropertiesInputProperty(initializer: @AwsCdkDsl CfnConnection.RedshiftPropertiesInputProperty.Builder.() -> Unit = {}): CfnConnection.RedshiftPropertiesInputProperty = CfnConnection.RedshiftPropertiesInputProperty.Builder().apply(initializer).build()

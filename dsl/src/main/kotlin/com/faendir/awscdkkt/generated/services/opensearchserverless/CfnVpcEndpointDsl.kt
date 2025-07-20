@@ -16,6 +16,4 @@ public fun Construct.cfnVpcEndpoint(
 ): CfnVpcEndpoint = CfnVpcEndpoint(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVpcEndpoint(id: String, initializer: @AwsCdkDsl
-    CfnVpcEndpoint.Builder.() -> Unit = {}): CfnVpcEndpoint = CfnVpcEndpoint.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnVpcEndpoint(id: String, initializer: @AwsCdkDsl CfnVpcEndpoint.Builder.() -> Unit = {}): CfnVpcEndpoint = CfnVpcEndpoint.Builder.create(this, id).apply(initializer).build()

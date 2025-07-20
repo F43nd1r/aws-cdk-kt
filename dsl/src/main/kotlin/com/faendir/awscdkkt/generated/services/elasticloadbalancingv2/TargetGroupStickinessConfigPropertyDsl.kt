@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.CfnListenerRule
 
 @Generated
-public fun buildTargetGroupStickinessConfigProperty(initializer: @AwsCdkDsl
-    CfnListenerRule.TargetGroupStickinessConfigProperty.Builder.() -> Unit = {}):
-    CfnListenerRule.TargetGroupStickinessConfigProperty =
-    CfnListenerRule.TargetGroupStickinessConfigProperty.Builder().apply(initializer).build()
+public fun buildTargetGroupStickinessConfigProperty(initializer: @AwsCdkDsl CfnListenerRule.TargetGroupStickinessConfigProperty.Builder.() -> Unit = {}): CfnListenerRule.TargetGroupStickinessConfigProperty = CfnListenerRule.TargetGroupStickinessConfigProperty.Builder().apply(initializer).build()

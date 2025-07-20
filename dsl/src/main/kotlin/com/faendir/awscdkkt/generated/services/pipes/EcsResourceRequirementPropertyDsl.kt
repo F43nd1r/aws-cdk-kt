@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildEcsResourceRequirementProperty(initializer: @AwsCdkDsl
-    CfnPipe.EcsResourceRequirementProperty.Builder.() -> Unit = {}):
-    CfnPipe.EcsResourceRequirementProperty =
-    CfnPipe.EcsResourceRequirementProperty.Builder().apply(initializer).build()
+public fun buildEcsResourceRequirementProperty(initializer: @AwsCdkDsl CfnPipe.EcsResourceRequirementProperty.Builder.() -> Unit = {}): CfnPipe.EcsResourceRequirementProperty = CfnPipe.EcsResourceRequirementProperty.Builder().apply(initializer).build()

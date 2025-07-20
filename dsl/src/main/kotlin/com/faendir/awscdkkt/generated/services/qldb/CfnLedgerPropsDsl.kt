@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qldb.CfnLedgerProps
 
 @Generated
-public fun buildCfnLedgerProps(initializer: @AwsCdkDsl CfnLedgerProps.Builder.() -> Unit = {}):
-    CfnLedgerProps = CfnLedgerProps.Builder().apply(initializer).build()
+public fun buildCfnLedgerProps(initializer: @AwsCdkDsl CfnLedgerProps.Builder.() -> Unit = {}): CfnLedgerProps = CfnLedgerProps.Builder().apply(initializer).build()

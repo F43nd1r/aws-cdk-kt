@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnUserPool
 
 @Generated
-public fun buildAdvancedSecurityAdditionalFlowsProperty(initializer: @AwsCdkDsl
-    CfnUserPool.AdvancedSecurityAdditionalFlowsProperty.Builder.() -> Unit = {}):
-    CfnUserPool.AdvancedSecurityAdditionalFlowsProperty =
-    CfnUserPool.AdvancedSecurityAdditionalFlowsProperty.Builder().apply(initializer).build()
+public fun buildAdvancedSecurityAdditionalFlowsProperty(initializer: @AwsCdkDsl CfnUserPool.AdvancedSecurityAdditionalFlowsProperty.Builder.() -> Unit = {}): CfnUserPool.AdvancedSecurityAdditionalFlowsProperty = CfnUserPool.AdvancedSecurityAdditionalFlowsProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.resourcegroups.CfnTagSyncTaskProps
 
 @Generated
-public fun buildCfnTagSyncTaskProps(initializer: @AwsCdkDsl CfnTagSyncTaskProps.Builder.() -> Unit =
-    {}): CfnTagSyncTaskProps = CfnTagSyncTaskProps.Builder().apply(initializer).build()
+public fun buildCfnTagSyncTaskProps(initializer: @AwsCdkDsl CfnTagSyncTaskProps.Builder.() -> Unit = {}): CfnTagSyncTaskProps = CfnTagSyncTaskProps.Builder().apply(initializer).build()

@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.amplifyuibuilder.CfnThemeProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnTheme(id: String, initializer: @AwsCdkDsl CfnTheme.() -> Unit = {}):
-    CfnTheme = CfnTheme(this, id).apply(initializer)
+public fun Construct.cfnTheme(id: String, initializer: @AwsCdkDsl CfnTheme.() -> Unit = {}): CfnTheme = CfnTheme(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnTheme(
@@ -20,5 +19,4 @@ public fun Construct.cfnTheme(
 ): CfnTheme = CfnTheme(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTheme(id: String, initializer: @AwsCdkDsl CfnTheme.Builder.() -> Unit =
-    {}): CfnTheme = CfnTheme.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTheme(id: String, initializer: @AwsCdkDsl CfnTheme.Builder.() -> Unit = {}): CfnTheme = CfnTheme.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.waf.regional.CfnGeoMatchSetProps
 
 @Generated
-public fun buildCfnGeoMatchSetProps(initializer: @AwsCdkDsl CfnGeoMatchSetProps.Builder.() -> Unit =
-    {}): CfnGeoMatchSetProps = CfnGeoMatchSetProps.Builder().apply(initializer).build()
+public fun buildCfnGeoMatchSetProps(initializer: @AwsCdkDsl CfnGeoMatchSetProps.Builder.() -> Unit = {}): CfnGeoMatchSetProps = CfnGeoMatchSetProps.Builder().apply(initializer).build()

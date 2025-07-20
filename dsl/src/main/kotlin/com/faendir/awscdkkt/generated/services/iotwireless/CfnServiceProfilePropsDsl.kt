@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotwireless.CfnServiceProfileProps
 
 @Generated
-public fun buildCfnServiceProfileProps(initializer: @AwsCdkDsl
-    CfnServiceProfileProps.Builder.() -> Unit = {}): CfnServiceProfileProps =
-    CfnServiceProfileProps.Builder().apply(initializer).build()
+public fun buildCfnServiceProfileProps(initializer: @AwsCdkDsl CfnServiceProfileProps.Builder.() -> Unit = {}): CfnServiceProfileProps = CfnServiceProfileProps.Builder().apply(initializer).build()

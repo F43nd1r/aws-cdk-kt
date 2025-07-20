@@ -16,6 +16,4 @@ public fun Construct.cfnAnalysisTemplate(
 ): CfnAnalysisTemplate = CfnAnalysisTemplate(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAnalysisTemplate(id: String, initializer: @AwsCdkDsl
-    CfnAnalysisTemplate.Builder.() -> Unit = {}): CfnAnalysisTemplate =
-    CfnAnalysisTemplate.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAnalysisTemplate(id: String, initializer: @AwsCdkDsl CfnAnalysisTemplate.Builder.() -> Unit = {}): CfnAnalysisTemplate = CfnAnalysisTemplate.Builder.create(this, id).apply(initializer).build()

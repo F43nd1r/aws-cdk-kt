@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediaconnect.CfnBridgeSourceProps
 
 @Generated
-public fun buildCfnBridgeSourceProps(initializer: @AwsCdkDsl CfnBridgeSourceProps.Builder.() -> Unit
-    = {}): CfnBridgeSourceProps = CfnBridgeSourceProps.Builder().apply(initializer).build()
+public fun buildCfnBridgeSourceProps(initializer: @AwsCdkDsl CfnBridgeSourceProps.Builder.() -> Unit = {}): CfnBridgeSourceProps = CfnBridgeSourceProps.Builder().apply(initializer).build()

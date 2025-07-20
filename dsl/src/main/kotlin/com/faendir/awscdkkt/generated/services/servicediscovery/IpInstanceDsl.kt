@@ -16,6 +16,4 @@ public fun Construct.ipInstance(
 ): IpInstance = IpInstance(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildIpInstance(id: String, initializer: @AwsCdkDsl
-    IpInstance.Builder.() -> Unit = {}): IpInstance = IpInstance.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildIpInstance(id: String, initializer: @AwsCdkDsl IpInstance.Builder.() -> Unit = {}): IpInstance = IpInstance.Builder.create(this, id).apply(initializer).build()

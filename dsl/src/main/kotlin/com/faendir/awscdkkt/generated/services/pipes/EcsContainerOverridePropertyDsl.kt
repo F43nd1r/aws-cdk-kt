@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildEcsContainerOverrideProperty(initializer: @AwsCdkDsl
-    CfnPipe.EcsContainerOverrideProperty.Builder.() -> Unit = {}):
-    CfnPipe.EcsContainerOverrideProperty =
-    CfnPipe.EcsContainerOverrideProperty.Builder().apply(initializer).build()
+public fun buildEcsContainerOverrideProperty(initializer: @AwsCdkDsl CfnPipe.EcsContainerOverrideProperty.Builder.() -> Unit = {}): CfnPipe.EcsContainerOverrideProperty = CfnPipe.EcsContainerOverrideProperty.Builder().apply(initializer).build()

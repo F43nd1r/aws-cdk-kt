@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkfirewall.CfnRuleGroup
 
 @Generated
-public fun buildRuleOptionProperty(initializer: @AwsCdkDsl
-    CfnRuleGroup.RuleOptionProperty.Builder.() -> Unit = {}): CfnRuleGroup.RuleOptionProperty =
-    CfnRuleGroup.RuleOptionProperty.Builder().apply(initializer).build()
+public fun buildRuleOptionProperty(initializer: @AwsCdkDsl CfnRuleGroup.RuleOptionProperty.Builder.() -> Unit = {}): CfnRuleGroup.RuleOptionProperty = CfnRuleGroup.RuleOptionProperty.Builder().apply(initializer).build()

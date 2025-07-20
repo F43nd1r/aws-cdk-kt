@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.iot.CfnThingProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnThing(id: String, initializer: @AwsCdkDsl CfnThing.() -> Unit = {}):
-    CfnThing = CfnThing(this, id).apply(initializer)
+public fun Construct.cfnThing(id: String, initializer: @AwsCdkDsl CfnThing.() -> Unit = {}): CfnThing = CfnThing(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnThing(
@@ -20,5 +19,4 @@ public fun Construct.cfnThing(
 ): CfnThing = CfnThing(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnThing(id: String, initializer: @AwsCdkDsl CfnThing.Builder.() -> Unit =
-    {}): CfnThing = CfnThing.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnThing(id: String, initializer: @AwsCdkDsl CfnThing.Builder.() -> Unit = {}): CfnThing = CfnThing.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnTopicRule
 
 @Generated
-public fun buildHttpAuthorizationProperty(initializer: @AwsCdkDsl
-    CfnTopicRule.HttpAuthorizationProperty.Builder.() -> Unit = {}):
-    CfnTopicRule.HttpAuthorizationProperty =
-    CfnTopicRule.HttpAuthorizationProperty.Builder().apply(initializer).build()
+public fun buildHttpAuthorizationProperty(initializer: @AwsCdkDsl CfnTopicRule.HttpAuthorizationProperty.Builder.() -> Unit = {}): CfnTopicRule.HttpAuthorizationProperty = CfnTopicRule.HttpAuthorizationProperty.Builder().apply(initializer).build()

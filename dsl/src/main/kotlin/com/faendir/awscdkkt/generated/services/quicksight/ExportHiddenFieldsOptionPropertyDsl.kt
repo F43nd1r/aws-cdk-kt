@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
-public fun buildExportHiddenFieldsOptionProperty(initializer: @AwsCdkDsl
-    CfnDashboard.ExportHiddenFieldsOptionProperty.Builder.() -> Unit = {}):
-    CfnDashboard.ExportHiddenFieldsOptionProperty =
-    CfnDashboard.ExportHiddenFieldsOptionProperty.Builder().apply(initializer).build()
+public fun buildExportHiddenFieldsOptionProperty(initializer: @AwsCdkDsl CfnDashboard.ExportHiddenFieldsOptionProperty.Builder.() -> Unit = {}): CfnDashboard.ExportHiddenFieldsOptionProperty = CfnDashboard.ExportHiddenFieldsOptionProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.CfnVersion
 
 @Generated
-public fun buildRuntimePolicyProperty(initializer: @AwsCdkDsl
-    CfnVersion.RuntimePolicyProperty.Builder.() -> Unit = {}): CfnVersion.RuntimePolicyProperty =
-    CfnVersion.RuntimePolicyProperty.Builder().apply(initializer).build()
+public fun buildRuntimePolicyProperty(initializer: @AwsCdkDsl CfnVersion.RuntimePolicyProperty.Builder.() -> Unit = {}): CfnVersion.RuntimePolicyProperty = CfnVersion.RuntimePolicyProperty.Builder().apply(initializer).build()

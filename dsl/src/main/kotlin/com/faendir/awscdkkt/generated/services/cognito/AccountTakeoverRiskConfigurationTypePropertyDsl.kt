@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnUserPoolRiskConfigurationAttachment
 
 @Generated
-public fun buildAccountTakeoverRiskConfigurationTypeProperty(initializer: @AwsCdkDsl
-    CfnUserPoolRiskConfigurationAttachment.AccountTakeoverRiskConfigurationTypeProperty.Builder.() -> Unit
-    = {}): CfnUserPoolRiskConfigurationAttachment.AccountTakeoverRiskConfigurationTypeProperty =
-    CfnUserPoolRiskConfigurationAttachment.AccountTakeoverRiskConfigurationTypeProperty.Builder().apply(initializer).build()
+public fun buildAccountTakeoverRiskConfigurationTypeProperty(initializer: @AwsCdkDsl CfnUserPoolRiskConfigurationAttachment.AccountTakeoverRiskConfigurationTypeProperty.Builder.() -> Unit = {}): CfnUserPoolRiskConfigurationAttachment.AccountTakeoverRiskConfigurationTypeProperty = CfnUserPoolRiskConfigurationAttachment.AccountTakeoverRiskConfigurationTypeProperty.Builder().apply(initializer).build()

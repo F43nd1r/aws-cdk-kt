@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnDataSource
 
 @Generated
-public fun buildMediaExtractionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.MediaExtractionConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDataSource.MediaExtractionConfigurationProperty =
-    CfnDataSource.MediaExtractionConfigurationProperty.Builder().apply(initializer).build()
+public fun buildMediaExtractionConfigurationProperty(initializer: @AwsCdkDsl CfnDataSource.MediaExtractionConfigurationProperty.Builder.() -> Unit = {}): CfnDataSource.MediaExtractionConfigurationProperty = CfnDataSource.MediaExtractionConfigurationProperty.Builder().apply(initializer).build()

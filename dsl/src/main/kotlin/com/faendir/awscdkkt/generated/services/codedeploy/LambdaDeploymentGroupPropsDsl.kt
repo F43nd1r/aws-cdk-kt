@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codedeploy.LambdaDeploymentGroupProps
 
 @Generated
-public fun buildLambdaDeploymentGroupProps(initializer: @AwsCdkDsl
-    LambdaDeploymentGroupProps.Builder.() -> Unit = {}): LambdaDeploymentGroupProps =
-    LambdaDeploymentGroupProps.Builder().apply(initializer).build()
+public fun buildLambdaDeploymentGroupProps(initializer: @AwsCdkDsl LambdaDeploymentGroupProps.Builder.() -> Unit = {}): LambdaDeploymentGroupProps = LambdaDeploymentGroupProps.Builder().apply(initializer).build()

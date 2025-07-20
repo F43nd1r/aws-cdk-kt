@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.WriterConfigProps
 
 @Generated
-public fun buildWriterConfigProps(initializer: @AwsCdkDsl WriterConfigProps.Builder.() -> Unit =
-    {}): WriterConfigProps = WriterConfigProps.Builder().apply(initializer).build()
+public fun buildWriterConfigProps(initializer: @AwsCdkDsl WriterConfigProps.Builder.() -> Unit = {}): WriterConfigProps = WriterConfigProps.Builder().apply(initializer).build()

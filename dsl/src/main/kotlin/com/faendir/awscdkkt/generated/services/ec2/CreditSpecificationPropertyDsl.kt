@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
-public fun buildCreditSpecificationProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.CreditSpecificationProperty.Builder.() -> Unit = {}):
-    CfnLaunchTemplate.CreditSpecificationProperty =
-    CfnLaunchTemplate.CreditSpecificationProperty.Builder().apply(initializer).build()
+public fun buildCreditSpecificationProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.CreditSpecificationProperty.Builder.() -> Unit = {}): CfnLaunchTemplate.CreditSpecificationProperty = CfnLaunchTemplate.CreditSpecificationProperty.Builder().apply(initializer).build()

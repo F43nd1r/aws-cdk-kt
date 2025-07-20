@@ -16,6 +16,4 @@ public fun Construct.cfnCapacityReservation(
 ): CfnCapacityReservation = CfnCapacityReservation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCapacityReservation(id: String, initializer: @AwsCdkDsl
-    CfnCapacityReservation.Builder.() -> Unit = {}): CfnCapacityReservation =
-    CfnCapacityReservation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCapacityReservation(id: String, initializer: @AwsCdkDsl CfnCapacityReservation.Builder.() -> Unit = {}): CfnCapacityReservation = CfnCapacityReservation.Builder.create(this, id).apply(initializer).build()

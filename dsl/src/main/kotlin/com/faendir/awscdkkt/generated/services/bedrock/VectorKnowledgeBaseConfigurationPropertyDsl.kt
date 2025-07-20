@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnKnowledgeBase
 
 @Generated
-public fun buildVectorKnowledgeBaseConfigurationProperty(initializer: @AwsCdkDsl
-    CfnKnowledgeBase.VectorKnowledgeBaseConfigurationProperty.Builder.() -> Unit = {}):
-    CfnKnowledgeBase.VectorKnowledgeBaseConfigurationProperty =
-    CfnKnowledgeBase.VectorKnowledgeBaseConfigurationProperty.Builder().apply(initializer).build()
+public fun buildVectorKnowledgeBaseConfigurationProperty(initializer: @AwsCdkDsl CfnKnowledgeBase.VectorKnowledgeBaseConfigurationProperty.Builder.() -> Unit = {}): CfnKnowledgeBase.VectorKnowledgeBaseConfigurationProperty = CfnKnowledgeBase.VectorKnowledgeBaseConfigurationProperty.Builder().apply(initializer).build()

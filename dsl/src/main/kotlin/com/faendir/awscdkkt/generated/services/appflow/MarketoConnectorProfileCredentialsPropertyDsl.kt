@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnConnectorProfile
 
 @Generated
-public fun buildMarketoConnectorProfileCredentialsProperty(initializer: @AwsCdkDsl
-    CfnConnectorProfile.MarketoConnectorProfileCredentialsProperty.Builder.() -> Unit = {}):
-    CfnConnectorProfile.MarketoConnectorProfileCredentialsProperty =
-    CfnConnectorProfile.MarketoConnectorProfileCredentialsProperty.Builder().apply(initializer).build()
+public fun buildMarketoConnectorProfileCredentialsProperty(initializer: @AwsCdkDsl CfnConnectorProfile.MarketoConnectorProfileCredentialsProperty.Builder.() -> Unit = {}): CfnConnectorProfile.MarketoConnectorProfileCredentialsProperty = CfnConnectorProfile.MarketoConnectorProfileCredentialsProperty.Builder().apply(initializer).build()

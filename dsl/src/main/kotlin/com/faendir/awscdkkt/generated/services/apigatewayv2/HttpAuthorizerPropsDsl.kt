@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.HttpAuthorizerProps
 
 @Generated
-public fun buildHttpAuthorizerProps(initializer: @AwsCdkDsl HttpAuthorizerProps.Builder.() -> Unit =
-    {}): HttpAuthorizerProps = HttpAuthorizerProps.Builder().apply(initializer).build()
+public fun buildHttpAuthorizerProps(initializer: @AwsCdkDsl HttpAuthorizerProps.Builder.() -> Unit = {}): HttpAuthorizerProps = HttpAuthorizerProps.Builder().apply(initializer).build()

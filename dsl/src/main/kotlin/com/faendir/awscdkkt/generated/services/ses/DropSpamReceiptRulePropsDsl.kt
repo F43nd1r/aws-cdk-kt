@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.DropSpamReceiptRuleProps
 
 @Generated
-public fun buildDropSpamReceiptRuleProps(initializer: @AwsCdkDsl
-    DropSpamReceiptRuleProps.Builder.() -> Unit = {}): DropSpamReceiptRuleProps =
-    DropSpamReceiptRuleProps.Builder().apply(initializer).build()
+public fun buildDropSpamReceiptRuleProps(initializer: @AwsCdkDsl DropSpamReceiptRuleProps.Builder.() -> Unit = {}): DropSpamReceiptRuleProps = DropSpamReceiptRuleProps.Builder().apply(initializer).build()

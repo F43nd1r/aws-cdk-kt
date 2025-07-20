@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediaconnect.CfnFlowOutputProps
 
 @Generated
-public fun buildCfnFlowOutputProps(initializer: @AwsCdkDsl CfnFlowOutputProps.Builder.() -> Unit =
-    {}): CfnFlowOutputProps = CfnFlowOutputProps.Builder().apply(initializer).build()
+public fun buildCfnFlowOutputProps(initializer: @AwsCdkDsl CfnFlowOutputProps.Builder.() -> Unit = {}): CfnFlowOutputProps = CfnFlowOutputProps.Builder().apply(initializer).build()

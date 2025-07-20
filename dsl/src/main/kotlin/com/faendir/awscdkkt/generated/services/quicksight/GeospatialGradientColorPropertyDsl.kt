@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
-public fun buildGeospatialGradientColorProperty(initializer: @AwsCdkDsl
-    CfnDashboard.GeospatialGradientColorProperty.Builder.() -> Unit = {}):
-    CfnDashboard.GeospatialGradientColorProperty =
-    CfnDashboard.GeospatialGradientColorProperty.Builder().apply(initializer).build()
+public fun buildGeospatialGradientColorProperty(initializer: @AwsCdkDsl CfnDashboard.GeospatialGradientColorProperty.Builder.() -> Unit = {}): CfnDashboard.GeospatialGradientColorProperty = CfnDashboard.GeospatialGradientColorProperty.Builder().apply(initializer).build()

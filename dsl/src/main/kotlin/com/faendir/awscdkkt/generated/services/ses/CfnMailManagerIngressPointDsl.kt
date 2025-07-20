@@ -16,6 +16,4 @@ public fun Construct.cfnMailManagerIngressPoint(
 ): CfnMailManagerIngressPoint = CfnMailManagerIngressPoint(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMailManagerIngressPoint(id: String, initializer: @AwsCdkDsl
-    CfnMailManagerIngressPoint.Builder.() -> Unit = {}): CfnMailManagerIngressPoint =
-    CfnMailManagerIngressPoint.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMailManagerIngressPoint(id: String, initializer: @AwsCdkDsl CfnMailManagerIngressPoint.Builder.() -> Unit = {}): CfnMailManagerIngressPoint = CfnMailManagerIngressPoint.Builder.create(this, id).apply(initializer).build()

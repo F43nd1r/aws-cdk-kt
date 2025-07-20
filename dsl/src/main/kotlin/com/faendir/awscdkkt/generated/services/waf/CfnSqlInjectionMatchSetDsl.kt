@@ -16,6 +16,4 @@ public fun Construct.cfnSqlInjectionMatchSet(
 ): CfnSqlInjectionMatchSet = CfnSqlInjectionMatchSet(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSqlInjectionMatchSet(id: String, initializer: @AwsCdkDsl
-    CfnSqlInjectionMatchSet.Builder.() -> Unit = {}): CfnSqlInjectionMatchSet =
-    CfnSqlInjectionMatchSet.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSqlInjectionMatchSet(id: String, initializer: @AwsCdkDsl CfnSqlInjectionMatchSet.Builder.() -> Unit = {}): CfnSqlInjectionMatchSet = CfnSqlInjectionMatchSet.Builder.create(this, id).apply(initializer).build()

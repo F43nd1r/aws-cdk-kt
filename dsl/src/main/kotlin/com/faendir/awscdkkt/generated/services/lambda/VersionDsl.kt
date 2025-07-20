@@ -16,5 +16,4 @@ public fun Construct.version(
 ): Version = Version(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildVersion(id: String, initializer: @AwsCdkDsl Version.Builder.() -> Unit =
-    {}): Version = Version.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildVersion(id: String, initializer: @AwsCdkDsl Version.Builder.() -> Unit = {}): Version = Version.Builder.create(this, id).apply(initializer).build()

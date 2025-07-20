@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnAccessGrantProps
 
 @Generated
-public fun buildCfnAccessGrantProps(initializer: @AwsCdkDsl CfnAccessGrantProps.Builder.() -> Unit =
-    {}): CfnAccessGrantProps = CfnAccessGrantProps.Builder().apply(initializer).build()
+public fun buildCfnAccessGrantProps(initializer: @AwsCdkDsl CfnAccessGrantProps.Builder.() -> Unit = {}): CfnAccessGrantProps = CfnAccessGrantProps.Builder().apply(initializer).build()

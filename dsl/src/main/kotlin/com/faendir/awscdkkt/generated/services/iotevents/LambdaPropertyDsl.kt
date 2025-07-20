@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotevents.CfnDetectorModel
 
 @Generated
-public fun buildLambdaProperty(initializer: @AwsCdkDsl
-    CfnDetectorModel.LambdaProperty.Builder.() -> Unit = {}): CfnDetectorModel.LambdaProperty =
-    CfnDetectorModel.LambdaProperty.Builder().apply(initializer).build()
+public fun buildLambdaProperty(initializer: @AwsCdkDsl CfnDetectorModel.LambdaProperty.Builder.() -> Unit = {}): CfnDetectorModel.LambdaProperty = CfnDetectorModel.LambdaProperty.Builder().apply(initializer).build()

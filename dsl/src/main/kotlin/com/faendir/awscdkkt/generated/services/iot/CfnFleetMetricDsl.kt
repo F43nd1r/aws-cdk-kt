@@ -16,6 +16,4 @@ public fun Construct.cfnFleetMetric(
 ): CfnFleetMetric = CfnFleetMetric(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnFleetMetric(id: String, initializer: @AwsCdkDsl
-    CfnFleetMetric.Builder.() -> Unit = {}): CfnFleetMetric = CfnFleetMetric.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnFleetMetric(id: String, initializer: @AwsCdkDsl CfnFleetMetric.Builder.() -> Unit = {}): CfnFleetMetric = CfnFleetMetric.Builder.create(this, id).apply(initializer).build()

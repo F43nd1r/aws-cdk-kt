@@ -16,6 +16,4 @@ public fun Construct.emrModifyInstanceGroupByName(
 ): EmrModifyInstanceGroupByName = EmrModifyInstanceGroupByName(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEmrModifyInstanceGroupByName(id: String, initializer: @AwsCdkDsl
-    EmrModifyInstanceGroupByName.Builder.() -> Unit = {}): EmrModifyInstanceGroupByName =
-    EmrModifyInstanceGroupByName.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildEmrModifyInstanceGroupByName(id: String, initializer: @AwsCdkDsl EmrModifyInstanceGroupByName.Builder.() -> Unit = {}): EmrModifyInstanceGroupByName = EmrModifyInstanceGroupByName.Builder.create(this, id).apply(initializer).build()

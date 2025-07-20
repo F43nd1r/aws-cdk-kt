@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appconfig.CfnEnvironment
 
 @Generated
-public fun buildMonitorProperty(initializer: @AwsCdkDsl
-    CfnEnvironment.MonitorProperty.Builder.() -> Unit = {}): CfnEnvironment.MonitorProperty =
-    CfnEnvironment.MonitorProperty.Builder().apply(initializer).build()
+public fun buildMonitorProperty(initializer: @AwsCdkDsl CfnEnvironment.MonitorProperty.Builder.() -> Unit = {}): CfnEnvironment.MonitorProperty = CfnEnvironment.MonitorProperty.Builder().apply(initializer).build()

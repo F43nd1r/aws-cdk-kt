@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.HostPathVolume
 
 @Generated
-public fun buildHostPathVolume(initializer: @AwsCdkDsl HostPathVolume.Builder.() -> Unit = {}):
-    HostPathVolume = HostPathVolume.Builder.create().apply(initializer).build()
+public fun buildHostPathVolume(initializer: @AwsCdkDsl HostPathVolume.Builder.() -> Unit = {}): HostPathVolume = HostPathVolume.Builder.create().apply(initializer).build()

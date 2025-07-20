@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.AssignableStateOptions
 
 @Generated
-public fun buildAssignableStateOptions(initializer: @AwsCdkDsl
-    AssignableStateOptions.Builder.() -> Unit = {}): AssignableStateOptions =
-    AssignableStateOptions.Builder().apply(initializer).build()
+public fun buildAssignableStateOptions(initializer: @AwsCdkDsl AssignableStateOptions.Builder.() -> Unit = {}): AssignableStateOptions = AssignableStateOptions.Builder().apply(initializer).build()

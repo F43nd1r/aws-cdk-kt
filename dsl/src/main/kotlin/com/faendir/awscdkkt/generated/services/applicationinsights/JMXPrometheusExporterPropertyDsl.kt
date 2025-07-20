@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.applicationinsights.CfnApplication
 
 @Generated
-public fun buildJMXPrometheusExporterProperty(initializer: @AwsCdkDsl
-    CfnApplication.JMXPrometheusExporterProperty.Builder.() -> Unit = {}):
-    CfnApplication.JMXPrometheusExporterProperty =
-    CfnApplication.JMXPrometheusExporterProperty.Builder().apply(initializer).build()
+public fun buildJMXPrometheusExporterProperty(initializer: @AwsCdkDsl CfnApplication.JMXPrometheusExporterProperty.Builder.() -> Unit = {}): CfnApplication.JMXPrometheusExporterProperty = CfnApplication.JMXPrometheusExporterProperty.Builder().apply(initializer).build()

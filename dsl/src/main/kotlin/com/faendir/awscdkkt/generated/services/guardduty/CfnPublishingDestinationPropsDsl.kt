@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.guardduty.CfnPublishingDestinationProps
 
 @Generated
-public fun buildCfnPublishingDestinationProps(initializer: @AwsCdkDsl
-    CfnPublishingDestinationProps.Builder.() -> Unit = {}): CfnPublishingDestinationProps =
-    CfnPublishingDestinationProps.Builder().apply(initializer).build()
+public fun buildCfnPublishingDestinationProps(initializer: @AwsCdkDsl CfnPublishingDestinationProps.Builder.() -> Unit = {}): CfnPublishingDestinationProps = CfnPublishingDestinationProps.Builder().apply(initializer).build()

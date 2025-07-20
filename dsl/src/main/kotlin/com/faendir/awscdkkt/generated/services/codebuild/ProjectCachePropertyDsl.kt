@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.CfnProject
 
 @Generated
-public fun buildProjectCacheProperty(initializer: @AwsCdkDsl
-    CfnProject.ProjectCacheProperty.Builder.() -> Unit = {}): CfnProject.ProjectCacheProperty =
-    CfnProject.ProjectCacheProperty.Builder().apply(initializer).build()
+public fun buildProjectCacheProperty(initializer: @AwsCdkDsl CfnProject.ProjectCacheProperty.Builder.() -> Unit = {}): CfnProject.ProjectCacheProperty = CfnProject.ProjectCacheProperty.Builder().apply(initializer).build()

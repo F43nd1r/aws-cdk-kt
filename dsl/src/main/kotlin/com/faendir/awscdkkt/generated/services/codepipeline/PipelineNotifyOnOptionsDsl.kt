@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.PipelineNotifyOnOptions
 
 @Generated
-public fun buildPipelineNotifyOnOptions(initializer: @AwsCdkDsl
-    PipelineNotifyOnOptions.Builder.() -> Unit = {}): PipelineNotifyOnOptions =
-    PipelineNotifyOnOptions.Builder().apply(initializer).build()
+public fun buildPipelineNotifyOnOptions(initializer: @AwsCdkDsl PipelineNotifyOnOptions.Builder.() -> Unit = {}): PipelineNotifyOnOptions = PipelineNotifyOnOptions.Builder().apply(initializer).build()

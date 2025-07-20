@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.eventsources.ManagedKafkaEventSourceProps
 
 @Generated
-public fun buildManagedKafkaEventSourceProps(initializer: @AwsCdkDsl
-    ManagedKafkaEventSourceProps.Builder.() -> Unit = {}): ManagedKafkaEventSourceProps =
-    ManagedKafkaEventSourceProps.Builder().apply(initializer).build()
+public fun buildManagedKafkaEventSourceProps(initializer: @AwsCdkDsl ManagedKafkaEventSourceProps.Builder.() -> Unit = {}): ManagedKafkaEventSourceProps = ManagedKafkaEventSourceProps.Builder().apply(initializer).build()

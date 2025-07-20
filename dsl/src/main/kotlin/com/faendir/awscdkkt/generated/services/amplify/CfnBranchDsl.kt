@@ -16,5 +16,4 @@ public fun Construct.cfnBranch(
 ): CfnBranch = CfnBranch(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnBranch(id: String, initializer: @AwsCdkDsl CfnBranch.Builder.() -> Unit
-    = {}): CfnBranch = CfnBranch.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnBranch(id: String, initializer: @AwsCdkDsl CfnBranch.Builder.() -> Unit = {}): CfnBranch = CfnBranch.Builder.create(this, id).apply(initializer).build()

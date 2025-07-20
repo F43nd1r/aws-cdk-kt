@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.CfnAutoScalingGroup
 
 @Generated
-public fun buildMemoryGiBPerVCpuRequestProperty(initializer: @AwsCdkDsl
-    CfnAutoScalingGroup.MemoryGiBPerVCpuRequestProperty.Builder.() -> Unit = {}):
-    CfnAutoScalingGroup.MemoryGiBPerVCpuRequestProperty =
-    CfnAutoScalingGroup.MemoryGiBPerVCpuRequestProperty.Builder().apply(initializer).build()
+public fun buildMemoryGiBPerVCpuRequestProperty(initializer: @AwsCdkDsl CfnAutoScalingGroup.MemoryGiBPerVCpuRequestProperty.Builder.() -> Unit = {}): CfnAutoScalingGroup.MemoryGiBPerVCpuRequestProperty = CfnAutoScalingGroup.MemoryGiBPerVCpuRequestProperty.Builder().apply(initializer).build()

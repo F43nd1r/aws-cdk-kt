@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnTable
 
 @Generated
-public fun buildStorageDescriptorProperty(initializer: @AwsCdkDsl
-    CfnTable.StorageDescriptorProperty.Builder.() -> Unit = {}): CfnTable.StorageDescriptorProperty
-    = CfnTable.StorageDescriptorProperty.Builder().apply(initializer).build()
+public fun buildStorageDescriptorProperty(initializer: @AwsCdkDsl CfnTable.StorageDescriptorProperty.Builder.() -> Unit = {}): CfnTable.StorageDescriptorProperty = CfnTable.StorageDescriptorProperty.Builder().apply(initializer).build()

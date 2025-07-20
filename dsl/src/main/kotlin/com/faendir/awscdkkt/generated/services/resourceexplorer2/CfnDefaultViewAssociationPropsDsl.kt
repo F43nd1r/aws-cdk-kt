@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.resourceexplorer2.CfnDefaultViewAssociationProps
 
 @Generated
-public fun buildCfnDefaultViewAssociationProps(initializer: @AwsCdkDsl
-    CfnDefaultViewAssociationProps.Builder.() -> Unit = {}): CfnDefaultViewAssociationProps =
-    CfnDefaultViewAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnDefaultViewAssociationProps(initializer: @AwsCdkDsl CfnDefaultViewAssociationProps.Builder.() -> Unit = {}): CfnDefaultViewAssociationProps = CfnDefaultViewAssociationProps.Builder().apply(initializer).build()

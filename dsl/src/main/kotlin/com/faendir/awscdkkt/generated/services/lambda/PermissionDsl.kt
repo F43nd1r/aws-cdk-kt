@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.Permission
 
 @Generated
-public fun buildPermission(initializer: @AwsCdkDsl Permission.Builder.() -> Unit = {}): Permission =
-    Permission.Builder().apply(initializer).build()
+public fun buildPermission(initializer: @AwsCdkDsl Permission.Builder.() -> Unit = {}): Permission = Permission.Builder().apply(initializer).build()

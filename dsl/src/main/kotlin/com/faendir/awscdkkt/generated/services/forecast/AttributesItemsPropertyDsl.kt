@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.forecast.CfnDataset
 
 @Generated
-public fun buildAttributesItemsProperty(initializer: @AwsCdkDsl
-    CfnDataset.AttributesItemsProperty.Builder.() -> Unit = {}): CfnDataset.AttributesItemsProperty
-    = CfnDataset.AttributesItemsProperty.Builder().apply(initializer).build()
+public fun buildAttributesItemsProperty(initializer: @AwsCdkDsl CfnDataset.AttributesItemsProperty.Builder.() -> Unit = {}): CfnDataset.AttributesItemsProperty = CfnDataset.AttributesItemsProperty.Builder().apply(initializer).build()

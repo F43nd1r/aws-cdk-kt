@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.GrpcGatewayListenerOptions
 
 @Generated
-public fun buildGrpcGatewayListenerOptions(initializer: @AwsCdkDsl
-    GrpcGatewayListenerOptions.Builder.() -> Unit = {}): GrpcGatewayListenerOptions =
-    GrpcGatewayListenerOptions.Builder().apply(initializer).build()
+public fun buildGrpcGatewayListenerOptions(initializer: @AwsCdkDsl GrpcGatewayListenerOptions.Builder.() -> Unit = {}): GrpcGatewayListenerOptions = GrpcGatewayListenerOptions.Builder().apply(initializer).build()

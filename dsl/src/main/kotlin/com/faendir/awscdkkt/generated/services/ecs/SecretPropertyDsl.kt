@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
-public fun buildSecretProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.SecretProperty.Builder.() -> Unit = {}): CfnTaskDefinition.SecretProperty =
-    CfnTaskDefinition.SecretProperty.Builder().apply(initializer).build()
+public fun buildSecretProperty(initializer: @AwsCdkDsl CfnTaskDefinition.SecretProperty.Builder.() -> Unit = {}): CfnTaskDefinition.SecretProperty = CfnTaskDefinition.SecretProperty.Builder().apply(initializer).build()

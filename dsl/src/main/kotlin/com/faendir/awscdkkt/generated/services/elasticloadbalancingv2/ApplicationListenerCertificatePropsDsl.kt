@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.ApplicationListenerCertificateProps
 
 @Generated
-public fun buildApplicationListenerCertificateProps(initializer: @AwsCdkDsl
-    ApplicationListenerCertificateProps.Builder.() -> Unit = {}):
-    ApplicationListenerCertificateProps =
-    ApplicationListenerCertificateProps.Builder().apply(initializer).build()
+public fun buildApplicationListenerCertificateProps(initializer: @AwsCdkDsl ApplicationListenerCertificateProps.Builder.() -> Unit = {}): ApplicationListenerCertificateProps = ApplicationListenerCertificateProps.Builder().apply(initializer).build()

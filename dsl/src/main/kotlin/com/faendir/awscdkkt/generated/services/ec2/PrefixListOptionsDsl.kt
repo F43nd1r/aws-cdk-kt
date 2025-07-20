@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.PrefixListOptions
 
 @Generated
-public fun buildPrefixListOptions(initializer: @AwsCdkDsl PrefixListOptions.Builder.() -> Unit =
-    {}): PrefixListOptions = PrefixListOptions.Builder().apply(initializer).build()
+public fun buildPrefixListOptions(initializer: @AwsCdkDsl PrefixListOptions.Builder.() -> Unit = {}): PrefixListOptions = PrefixListOptions.Builder().apply(initializer).build()

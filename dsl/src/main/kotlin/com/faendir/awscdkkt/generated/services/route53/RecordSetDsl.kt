@@ -16,5 +16,4 @@ public fun Construct.recordSet(
 ): RecordSet = RecordSet(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildRecordSet(id: String, initializer: @AwsCdkDsl RecordSet.Builder.() -> Unit
-    = {}): RecordSet = RecordSet.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildRecordSet(id: String, initializer: @AwsCdkDsl RecordSet.Builder.() -> Unit = {}): RecordSet = RecordSet.Builder.create(this, id).apply(initializer).build()

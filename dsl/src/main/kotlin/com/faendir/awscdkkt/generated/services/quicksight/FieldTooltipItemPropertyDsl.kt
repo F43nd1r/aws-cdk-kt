@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildFieldTooltipItemProperty(initializer: @AwsCdkDsl
-    CfnTemplate.FieldTooltipItemProperty.Builder.() -> Unit = {}):
-    CfnTemplate.FieldTooltipItemProperty =
-    CfnTemplate.FieldTooltipItemProperty.Builder().apply(initializer).build()
+public fun buildFieldTooltipItemProperty(initializer: @AwsCdkDsl CfnTemplate.FieldTooltipItemProperty.Builder.() -> Unit = {}): CfnTemplate.FieldTooltipItemProperty = CfnTemplate.FieldTooltipItemProperty.Builder().apply(initializer).build()

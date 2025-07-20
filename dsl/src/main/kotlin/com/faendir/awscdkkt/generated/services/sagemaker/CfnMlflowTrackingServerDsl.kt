@@ -16,6 +16,4 @@ public fun Construct.cfnMlflowTrackingServer(
 ): CfnMlflowTrackingServer = CfnMlflowTrackingServer(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMlflowTrackingServer(id: String, initializer: @AwsCdkDsl
-    CfnMlflowTrackingServer.Builder.() -> Unit = {}): CfnMlflowTrackingServer =
-    CfnMlflowTrackingServer.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMlflowTrackingServer(id: String, initializer: @AwsCdkDsl CfnMlflowTrackingServer.Builder.() -> Unit = {}): CfnMlflowTrackingServer = CfnMlflowTrackingServer.Builder.create(this, id).apply(initializer).build()

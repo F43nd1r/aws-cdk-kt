@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotanalytics.CfnDatastore
 
 @Generated
-public fun buildDatastoreStorageProperty(initializer: @AwsCdkDsl
-    CfnDatastore.DatastoreStorageProperty.Builder.() -> Unit = {}):
-    CfnDatastore.DatastoreStorageProperty =
-    CfnDatastore.DatastoreStorageProperty.Builder().apply(initializer).build()
+public fun buildDatastoreStorageProperty(initializer: @AwsCdkDsl CfnDatastore.DatastoreStorageProperty.Builder.() -> Unit = {}): CfnDatastore.DatastoreStorageProperty = CfnDatastore.DatastoreStorageProperty.Builder().apply(initializer).build()

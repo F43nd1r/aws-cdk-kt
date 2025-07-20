@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.chatbot.CfnCustomAction
 
 @Generated
-public fun buildCustomActionDefinitionProperty(initializer: @AwsCdkDsl
-    CfnCustomAction.CustomActionDefinitionProperty.Builder.() -> Unit = {}):
-    CfnCustomAction.CustomActionDefinitionProperty =
-    CfnCustomAction.CustomActionDefinitionProperty.Builder().apply(initializer).build()
+public fun buildCustomActionDefinitionProperty(initializer: @AwsCdkDsl CfnCustomAction.CustomActionDefinitionProperty.Builder.() -> Unit = {}): CfnCustomAction.CustomActionDefinitionProperty = CfnCustomAction.CustomActionDefinitionProperty.Builder().apply(initializer).build()

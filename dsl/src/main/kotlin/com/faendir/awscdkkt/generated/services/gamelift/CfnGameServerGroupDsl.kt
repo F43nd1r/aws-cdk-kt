@@ -16,6 +16,4 @@ public fun Construct.cfnGameServerGroup(
 ): CfnGameServerGroup = CfnGameServerGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnGameServerGroup(id: String, initializer: @AwsCdkDsl
-    CfnGameServerGroup.Builder.() -> Unit = {}): CfnGameServerGroup =
-    CfnGameServerGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnGameServerGroup(id: String, initializer: @AwsCdkDsl CfnGameServerGroup.Builder.() -> Unit = {}): CfnGameServerGroup = CfnGameServerGroup.Builder.create(this, id).apply(initializer).build()

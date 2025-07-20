@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnService
 
 @Generated
-public fun buildServiceConnectTlsCertificateAuthorityProperty(initializer: @AwsCdkDsl
-    CfnService.ServiceConnectTlsCertificateAuthorityProperty.Builder.() -> Unit = {}):
-    CfnService.ServiceConnectTlsCertificateAuthorityProperty =
-    CfnService.ServiceConnectTlsCertificateAuthorityProperty.Builder().apply(initializer).build()
+public fun buildServiceConnectTlsCertificateAuthorityProperty(initializer: @AwsCdkDsl CfnService.ServiceConnectTlsCertificateAuthorityProperty.Builder.() -> Unit = {}): CfnService.ServiceConnectTlsCertificateAuthorityProperty = CfnService.ServiceConnectTlsCertificateAuthorityProperty.Builder().apply(initializer).build()

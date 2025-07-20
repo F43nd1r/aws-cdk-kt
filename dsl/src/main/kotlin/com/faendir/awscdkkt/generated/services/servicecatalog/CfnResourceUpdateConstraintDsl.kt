@@ -16,6 +16,4 @@ public fun Construct.cfnResourceUpdateConstraint(
 ): CfnResourceUpdateConstraint = CfnResourceUpdateConstraint(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnResourceUpdateConstraint(id: String, initializer: @AwsCdkDsl
-    CfnResourceUpdateConstraint.Builder.() -> Unit = {}): CfnResourceUpdateConstraint =
-    CfnResourceUpdateConstraint.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnResourceUpdateConstraint(id: String, initializer: @AwsCdkDsl CfnResourceUpdateConstraint.Builder.() -> Unit = {}): CfnResourceUpdateConstraint = CfnResourceUpdateConstraint.Builder.create(this, id).apply(initializer).build()

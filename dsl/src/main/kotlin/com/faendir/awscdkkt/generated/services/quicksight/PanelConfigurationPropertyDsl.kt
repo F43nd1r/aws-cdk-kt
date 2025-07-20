@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildPanelConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PanelConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.PanelConfigurationProperty =
-    CfnTemplate.PanelConfigurationProperty.Builder().apply(initializer).build()
+public fun buildPanelConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.PanelConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.PanelConfigurationProperty = CfnTemplate.PanelConfigurationProperty.Builder().apply(initializer).build()

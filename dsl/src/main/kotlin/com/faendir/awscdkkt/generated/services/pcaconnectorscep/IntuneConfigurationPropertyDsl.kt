@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pcaconnectorscep.CfnConnector
 
 @Generated
-public fun buildIntuneConfigurationProperty(initializer: @AwsCdkDsl
-    CfnConnector.IntuneConfigurationProperty.Builder.() -> Unit = {}):
-    CfnConnector.IntuneConfigurationProperty =
-    CfnConnector.IntuneConfigurationProperty.Builder().apply(initializer).build()
+public fun buildIntuneConfigurationProperty(initializer: @AwsCdkDsl CfnConnector.IntuneConfigurationProperty.Builder.() -> Unit = {}): CfnConnector.IntuneConfigurationProperty = CfnConnector.IntuneConfigurationProperty.Builder().apply(initializer).build()

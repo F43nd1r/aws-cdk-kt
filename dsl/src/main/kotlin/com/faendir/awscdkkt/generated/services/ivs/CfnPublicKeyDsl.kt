@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.ivs.CfnPublicKeyProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnPublicKey(id: String, initializer: @AwsCdkDsl CfnPublicKey.() -> Unit = {}):
-    CfnPublicKey = CfnPublicKey(this, id).apply(initializer)
+public fun Construct.cfnPublicKey(id: String, initializer: @AwsCdkDsl CfnPublicKey.() -> Unit = {}): CfnPublicKey = CfnPublicKey(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnPublicKey(
@@ -20,6 +19,4 @@ public fun Construct.cfnPublicKey(
 ): CfnPublicKey = CfnPublicKey(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPublicKey(id: String, initializer: @AwsCdkDsl
-    CfnPublicKey.Builder.() -> Unit = {}): CfnPublicKey = CfnPublicKey.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnPublicKey(id: String, initializer: @AwsCdkDsl CfnPublicKey.Builder.() -> Unit = {}): CfnPublicKey = CfnPublicKey.Builder.create(this, id).apply(initializer).build()

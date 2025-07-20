@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotsitewise.CfnGateway
 
 @Generated
-public fun buildGatewayCapabilitySummaryProperty(initializer: @AwsCdkDsl
-    CfnGateway.GatewayCapabilitySummaryProperty.Builder.() -> Unit = {}):
-    CfnGateway.GatewayCapabilitySummaryProperty =
-    CfnGateway.GatewayCapabilitySummaryProperty.Builder().apply(initializer).build()
+public fun buildGatewayCapabilitySummaryProperty(initializer: @AwsCdkDsl CfnGateway.GatewayCapabilitySummaryProperty.Builder.() -> Unit = {}): CfnGateway.GatewayCapabilitySummaryProperty = CfnGateway.GatewayCapabilitySummaryProperty.Builder().apply(initializer).build()

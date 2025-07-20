@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
-public fun buildDeviceProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.DeviceProperty.Builder.() -> Unit = {}): CfnTaskDefinition.DeviceProperty =
-    CfnTaskDefinition.DeviceProperty.Builder().apply(initializer).build()
+public fun buildDeviceProperty(initializer: @AwsCdkDsl CfnTaskDefinition.DeviceProperty.Builder.() -> Unit = {}): CfnTaskDefinition.DeviceProperty = CfnTaskDefinition.DeviceProperty.Builder().apply(initializer).build()

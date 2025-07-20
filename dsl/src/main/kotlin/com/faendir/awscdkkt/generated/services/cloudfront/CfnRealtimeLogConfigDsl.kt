@@ -16,6 +16,4 @@ public fun Construct.cfnRealtimeLogConfig(
 ): CfnRealtimeLogConfig = CfnRealtimeLogConfig(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRealtimeLogConfig(id: String, initializer: @AwsCdkDsl
-    CfnRealtimeLogConfig.Builder.() -> Unit = {}): CfnRealtimeLogConfig =
-    CfnRealtimeLogConfig.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRealtimeLogConfig(id: String, initializer: @AwsCdkDsl CfnRealtimeLogConfig.Builder.() -> Unit = {}): CfnRealtimeLogConfig = CfnRealtimeLogConfig.Builder.create(this, id).apply(initializer).build()

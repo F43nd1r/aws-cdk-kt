@@ -16,5 +16,4 @@ public fun Construct.route(
 ): Route = Route(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildRoute(id: String, initializer: @AwsCdkDsl Route.Builder.() -> Unit = {}):
-    Route = Route.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildRoute(id: String, initializer: @AwsCdkDsl Route.Builder.() -> Unit = {}): Route = Route.Builder.create(this, id).apply(initializer).build()

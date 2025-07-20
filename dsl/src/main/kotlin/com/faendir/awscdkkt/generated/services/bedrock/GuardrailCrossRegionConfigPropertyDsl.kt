@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnGuardrail
 
 @Generated
-public fun buildGuardrailCrossRegionConfigProperty(initializer: @AwsCdkDsl
-    CfnGuardrail.GuardrailCrossRegionConfigProperty.Builder.() -> Unit = {}):
-    CfnGuardrail.GuardrailCrossRegionConfigProperty =
-    CfnGuardrail.GuardrailCrossRegionConfigProperty.Builder().apply(initializer).build()
+public fun buildGuardrailCrossRegionConfigProperty(initializer: @AwsCdkDsl CfnGuardrail.GuardrailCrossRegionConfigProperty.Builder.() -> Unit = {}): CfnGuardrail.GuardrailCrossRegionConfigProperty = CfnGuardrail.GuardrailCrossRegionConfigProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildParameterDateTimePickerControlProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ParameterDateTimePickerControlProperty.Builder.() -> Unit = {}):
-    CfnTemplate.ParameterDateTimePickerControlProperty =
-    CfnTemplate.ParameterDateTimePickerControlProperty.Builder().apply(initializer).build()
+public fun buildParameterDateTimePickerControlProperty(initializer: @AwsCdkDsl CfnTemplate.ParameterDateTimePickerControlProperty.Builder.() -> Unit = {}): CfnTemplate.ParameterDateTimePickerControlProperty = CfnTemplate.ParameterDateTimePickerControlProperty.Builder().apply(initializer).build()

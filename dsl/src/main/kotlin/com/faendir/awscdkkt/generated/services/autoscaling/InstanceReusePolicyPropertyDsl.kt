@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.CfnWarmPool
 
 @Generated
-public fun buildInstanceReusePolicyProperty(initializer: @AwsCdkDsl
-    CfnWarmPool.InstanceReusePolicyProperty.Builder.() -> Unit = {}):
-    CfnWarmPool.InstanceReusePolicyProperty =
-    CfnWarmPool.InstanceReusePolicyProperty.Builder().apply(initializer).build()
+public fun buildInstanceReusePolicyProperty(initializer: @AwsCdkDsl CfnWarmPool.InstanceReusePolicyProperty.Builder.() -> Unit = {}): CfnWarmPool.InstanceReusePolicyProperty = CfnWarmPool.InstanceReusePolicyProperty.Builder().apply(initializer).build()

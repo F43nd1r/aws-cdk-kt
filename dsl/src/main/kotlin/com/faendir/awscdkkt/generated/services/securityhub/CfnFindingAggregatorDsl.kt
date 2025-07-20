@@ -16,6 +16,4 @@ public fun Construct.cfnFindingAggregator(
 ): CfnFindingAggregator = CfnFindingAggregator(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnFindingAggregator(id: String, initializer: @AwsCdkDsl
-    CfnFindingAggregator.Builder.() -> Unit = {}): CfnFindingAggregator =
-    CfnFindingAggregator.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnFindingAggregator(id: String, initializer: @AwsCdkDsl CfnFindingAggregator.Builder.() -> Unit = {}): CfnFindingAggregator = CfnFindingAggregator.Builder.create(this, id).apply(initializer).build()

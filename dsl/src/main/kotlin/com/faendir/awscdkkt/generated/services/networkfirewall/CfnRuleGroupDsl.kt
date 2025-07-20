@@ -16,6 +16,4 @@ public fun Construct.cfnRuleGroup(
 ): CfnRuleGroup = CfnRuleGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRuleGroup(id: String, initializer: @AwsCdkDsl
-    CfnRuleGroup.Builder.() -> Unit = {}): CfnRuleGroup = CfnRuleGroup.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnRuleGroup(id: String, initializer: @AwsCdkDsl CfnRuleGroup.Builder.() -> Unit = {}): CfnRuleGroup = CfnRuleGroup.Builder.create(this, id).apply(initializer).build()

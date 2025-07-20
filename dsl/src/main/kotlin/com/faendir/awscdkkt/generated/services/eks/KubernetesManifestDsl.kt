@@ -16,6 +16,4 @@ public fun Construct.kubernetesManifest(
 ): KubernetesManifest = KubernetesManifest(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildKubernetesManifest(id: String, initializer: @AwsCdkDsl
-    KubernetesManifest.Builder.() -> Unit = {}): KubernetesManifest =
-    KubernetesManifest.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildKubernetesManifest(id: String, initializer: @AwsCdkDsl KubernetesManifest.Builder.() -> Unit = {}): KubernetesManifest = KubernetesManifest.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.httpNamespace(
 ): HttpNamespace = HttpNamespace(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildHttpNamespace(id: String, initializer: @AwsCdkDsl
-    HttpNamespace.Builder.() -> Unit = {}): HttpNamespace = HttpNamespace.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildHttpNamespace(id: String, initializer: @AwsCdkDsl HttpNamespace.Builder.() -> Unit = {}): HttpNamespace = HttpNamespace.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnLicense(
 ): CfnLicense = CfnLicense(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLicense(id: String, initializer: @AwsCdkDsl
-    CfnLicense.Builder.() -> Unit = {}): CfnLicense = CfnLicense.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnLicense(id: String, initializer: @AwsCdkDsl CfnLicense.Builder.() -> Unit = {}): CfnLicense = CfnLicense.Builder.create(this, id).apply(initializer).build()

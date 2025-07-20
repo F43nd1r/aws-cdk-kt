@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.scheduler.CfnSchedule
 
 @Generated
-public fun buildNetworkConfigurationProperty(initializer: @AwsCdkDsl
-    CfnSchedule.NetworkConfigurationProperty.Builder.() -> Unit = {}):
-    CfnSchedule.NetworkConfigurationProperty =
-    CfnSchedule.NetworkConfigurationProperty.Builder().apply(initializer).build()
+public fun buildNetworkConfigurationProperty(initializer: @AwsCdkDsl CfnSchedule.NetworkConfigurationProperty.Builder.() -> Unit = {}): CfnSchedule.NetworkConfigurationProperty = CfnSchedule.NetworkConfigurationProperty.Builder().apply(initializer).build()

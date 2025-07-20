@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.emr.CfnInstanceGroupConfig
 
 @Generated
-public fun buildEbsConfigurationProperty(initializer: @AwsCdkDsl
-    CfnInstanceGroupConfig.EbsConfigurationProperty.Builder.() -> Unit = {}):
-    CfnInstanceGroupConfig.EbsConfigurationProperty =
-    CfnInstanceGroupConfig.EbsConfigurationProperty.Builder().apply(initializer).build()
+public fun buildEbsConfigurationProperty(initializer: @AwsCdkDsl CfnInstanceGroupConfig.EbsConfigurationProperty.Builder.() -> Unit = {}): CfnInstanceGroupConfig.EbsConfigurationProperty = CfnInstanceGroupConfig.EbsConfigurationProperty.Builder().apply(initializer).build()

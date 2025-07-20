@@ -16,6 +16,4 @@ public fun Construct.lambdaDataSource(
 ): LambdaDataSource = LambdaDataSource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildLambdaDataSource(id: String, initializer: @AwsCdkDsl
-    LambdaDataSource.Builder.() -> Unit = {}): LambdaDataSource =
-    LambdaDataSource.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildLambdaDataSource(id: String, initializer: @AwsCdkDsl LambdaDataSource.Builder.() -> Unit = {}): LambdaDataSource = LambdaDataSource.Builder.create(this, id).apply(initializer).build()

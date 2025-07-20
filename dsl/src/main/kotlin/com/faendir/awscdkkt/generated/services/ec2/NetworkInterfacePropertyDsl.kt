@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
-public fun buildNetworkInterfaceProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.NetworkInterfaceProperty.Builder.() -> Unit = {}):
-    CfnLaunchTemplate.NetworkInterfaceProperty =
-    CfnLaunchTemplate.NetworkInterfaceProperty.Builder().apply(initializer).build()
+public fun buildNetworkInterfaceProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.NetworkInterfaceProperty.Builder.() -> Unit = {}): CfnLaunchTemplate.NetworkInterfaceProperty = CfnLaunchTemplate.NetworkInterfaceProperty.Builder().apply(initializer).build()

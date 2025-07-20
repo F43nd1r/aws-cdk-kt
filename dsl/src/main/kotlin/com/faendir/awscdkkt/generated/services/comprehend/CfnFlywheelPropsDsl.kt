@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.comprehend.CfnFlywheelProps
 
 @Generated
-public fun buildCfnFlywheelProps(initializer: @AwsCdkDsl CfnFlywheelProps.Builder.() -> Unit = {}):
-    CfnFlywheelProps = CfnFlywheelProps.Builder().apply(initializer).build()
+public fun buildCfnFlywheelProps(initializer: @AwsCdkDsl CfnFlywheelProps.Builder.() -> Unit = {}): CfnFlywheelProps = CfnFlywheelProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrTerminateClusterProps
 
 @Generated
-public fun buildEmrTerminateClusterProps(initializer: @AwsCdkDsl
-    EmrTerminateClusterProps.Builder.() -> Unit = {}): EmrTerminateClusterProps =
-    EmrTerminateClusterProps.Builder().apply(initializer).build()
+public fun buildEmrTerminateClusterProps(initializer: @AwsCdkDsl EmrTerminateClusterProps.Builder.() -> Unit = {}): EmrTerminateClusterProps = EmrTerminateClusterProps.Builder().apply(initializer).build()

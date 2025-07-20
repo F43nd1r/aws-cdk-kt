@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.KeySigningKeyProps
 
 @Generated
-public fun buildKeySigningKeyProps(initializer: @AwsCdkDsl KeySigningKeyProps.Builder.() -> Unit =
-    {}): KeySigningKeyProps = KeySigningKeyProps.Builder().apply(initializer).build()
+public fun buildKeySigningKeyProps(initializer: @AwsCdkDsl KeySigningKeyProps.Builder.() -> Unit = {}): KeySigningKeyProps = KeySigningKeyProps.Builder().apply(initializer).build()

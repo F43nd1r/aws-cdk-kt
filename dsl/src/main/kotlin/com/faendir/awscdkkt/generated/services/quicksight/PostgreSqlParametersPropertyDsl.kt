@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSource
 
 @Generated
-public fun buildPostgreSqlParametersProperty(initializer: @AwsCdkDsl
-    CfnDataSource.PostgreSqlParametersProperty.Builder.() -> Unit = {}):
-    CfnDataSource.PostgreSqlParametersProperty =
-    CfnDataSource.PostgreSqlParametersProperty.Builder().apply(initializer).build()
+public fun buildPostgreSqlParametersProperty(initializer: @AwsCdkDsl CfnDataSource.PostgreSqlParametersProperty.Builder.() -> Unit = {}): CfnDataSource.PostgreSqlParametersProperty = CfnDataSource.PostgreSqlParametersProperty.Builder().apply(initializer).build()

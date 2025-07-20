@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildKPIVisualStandardLayoutProperty(initializer: @AwsCdkDsl
-    CfnTemplate.KPIVisualStandardLayoutProperty.Builder.() -> Unit = {}):
-    CfnTemplate.KPIVisualStandardLayoutProperty =
-    CfnTemplate.KPIVisualStandardLayoutProperty.Builder().apply(initializer).build()
+public fun buildKPIVisualStandardLayoutProperty(initializer: @AwsCdkDsl CfnTemplate.KPIVisualStandardLayoutProperty.Builder.() -> Unit = {}): CfnTemplate.KPIVisualStandardLayoutProperty = CfnTemplate.KPIVisualStandardLayoutProperty.Builder().apply(initializer).build()

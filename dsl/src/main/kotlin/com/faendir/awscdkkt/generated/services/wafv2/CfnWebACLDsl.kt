@@ -16,5 +16,4 @@ public fun Construct.cfnWebACL(
 ): CfnWebACL = CfnWebACL(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnWebACL(id: String, initializer: @AwsCdkDsl CfnWebACL.Builder.() -> Unit
-    = {}): CfnWebACL = CfnWebACL.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnWebACL(id: String, initializer: @AwsCdkDsl CfnWebACL.Builder.() -> Unit = {}): CfnWebACL = CfnWebACL.Builder.create(this, id).apply(initializer).build()

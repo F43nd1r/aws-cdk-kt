@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnTransformer
 
 @Generated
-public fun buildParseVPCProperty(initializer: @AwsCdkDsl
-    CfnTransformer.ParseVPCProperty.Builder.() -> Unit = {}): CfnTransformer.ParseVPCProperty =
-    CfnTransformer.ParseVPCProperty.Builder().apply(initializer).build()
+public fun buildParseVPCProperty(initializer: @AwsCdkDsl CfnTransformer.ParseVPCProperty.Builder.() -> Unit = {}): CfnTransformer.ParseVPCProperty = CfnTransformer.ParseVPCProperty.Builder().apply(initializer).build()

@@ -13,11 +13,7 @@ public fun Construct.cfnEnclaveCertificateIamRoleAssociation(
   id: String,
   props: CfnEnclaveCertificateIamRoleAssociationProps,
   initializer: @AwsCdkDsl CfnEnclaveCertificateIamRoleAssociation.() -> Unit = {},
-): CfnEnclaveCertificateIamRoleAssociation = CfnEnclaveCertificateIamRoleAssociation(this, id,
-    props).apply(initializer)
+): CfnEnclaveCertificateIamRoleAssociation = CfnEnclaveCertificateIamRoleAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEnclaveCertificateIamRoleAssociation(id: String,
-    initializer: @AwsCdkDsl CfnEnclaveCertificateIamRoleAssociation.Builder.() -> Unit = {}):
-    CfnEnclaveCertificateIamRoleAssociation =
-    CfnEnclaveCertificateIamRoleAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnEnclaveCertificateIamRoleAssociation(id: String, initializer: @AwsCdkDsl CfnEnclaveCertificateIamRoleAssociation.Builder.() -> Unit = {}): CfnEnclaveCertificateIamRoleAssociation = CfnEnclaveCertificateIamRoleAssociation.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnContinuousDeploymentPolicy
 
 @Generated
-public fun buildSingleHeaderPolicyConfigProperty(initializer: @AwsCdkDsl
-    CfnContinuousDeploymentPolicy.SingleHeaderPolicyConfigProperty.Builder.() -> Unit = {}):
-    CfnContinuousDeploymentPolicy.SingleHeaderPolicyConfigProperty =
-    CfnContinuousDeploymentPolicy.SingleHeaderPolicyConfigProperty.Builder().apply(initializer).build()
+public fun buildSingleHeaderPolicyConfigProperty(initializer: @AwsCdkDsl CfnContinuousDeploymentPolicy.SingleHeaderPolicyConfigProperty.Builder.() -> Unit = {}): CfnContinuousDeploymentPolicy.SingleHeaderPolicyConfigProperty = CfnContinuousDeploymentPolicy.SingleHeaderPolicyConfigProperty.Builder().apply(initializer).build()

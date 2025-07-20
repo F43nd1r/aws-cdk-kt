@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
-public fun buildCreateColumnsOperationProperty(initializer: @AwsCdkDsl
-    CfnDataSet.CreateColumnsOperationProperty.Builder.() -> Unit = {}):
-    CfnDataSet.CreateColumnsOperationProperty =
-    CfnDataSet.CreateColumnsOperationProperty.Builder().apply(initializer).build()
+public fun buildCreateColumnsOperationProperty(initializer: @AwsCdkDsl CfnDataSet.CreateColumnsOperationProperty.Builder.() -> Unit = {}): CfnDataSet.CreateColumnsOperationProperty = CfnDataSet.CreateColumnsOperationProperty.Builder().apply(initializer).build()

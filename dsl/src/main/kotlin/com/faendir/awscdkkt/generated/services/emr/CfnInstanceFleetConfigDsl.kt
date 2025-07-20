@@ -16,6 +16,4 @@ public fun Construct.cfnInstanceFleetConfig(
 ): CfnInstanceFleetConfig = CfnInstanceFleetConfig(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnInstanceFleetConfig(id: String, initializer: @AwsCdkDsl
-    CfnInstanceFleetConfig.Builder.() -> Unit = {}): CfnInstanceFleetConfig =
-    CfnInstanceFleetConfig.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnInstanceFleetConfig(id: String, initializer: @AwsCdkDsl CfnInstanceFleetConfig.Builder.() -> Unit = {}): CfnInstanceFleetConfig = CfnInstanceFleetConfig.Builder.create(this, id).apply(initializer).build()

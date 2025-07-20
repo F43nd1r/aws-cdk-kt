@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssmincidents.CfnResponsePlan
 
 @Generated
-public fun buildDynamicSsmParameterProperty(initializer: @AwsCdkDsl
-    CfnResponsePlan.DynamicSsmParameterProperty.Builder.() -> Unit = {}):
-    CfnResponsePlan.DynamicSsmParameterProperty =
-    CfnResponsePlan.DynamicSsmParameterProperty.Builder().apply(initializer).build()
+public fun buildDynamicSsmParameterProperty(initializer: @AwsCdkDsl CfnResponsePlan.DynamicSsmParameterProperty.Builder.() -> Unit = {}): CfnResponsePlan.DynamicSsmParameterProperty = CfnResponsePlan.DynamicSsmParameterProperty.Builder().apply(initializer).build()

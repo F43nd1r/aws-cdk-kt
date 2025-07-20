@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildAv1SettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.Av1SettingsProperty.Builder.() -> Unit = {}): CfnChannel.Av1SettingsProperty =
-    CfnChannel.Av1SettingsProperty.Builder().apply(initializer).build()
+public fun buildAv1SettingsProperty(initializer: @AwsCdkDsl CfnChannel.Av1SettingsProperty.Builder.() -> Unit = {}): CfnChannel.Av1SettingsProperty = CfnChannel.Av1SettingsProperty.Builder().apply(initializer).build()

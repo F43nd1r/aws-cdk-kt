@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lakeformation.CfnPermissionsProps
 
 @Generated
-public fun buildCfnPermissionsProps(initializer: @AwsCdkDsl CfnPermissionsProps.Builder.() -> Unit =
-    {}): CfnPermissionsProps = CfnPermissionsProps.Builder().apply(initializer).build()
+public fun buildCfnPermissionsProps(initializer: @AwsCdkDsl CfnPermissionsProps.Builder.() -> Unit = {}): CfnPermissionsProps = CfnPermissionsProps.Builder().apply(initializer).build()

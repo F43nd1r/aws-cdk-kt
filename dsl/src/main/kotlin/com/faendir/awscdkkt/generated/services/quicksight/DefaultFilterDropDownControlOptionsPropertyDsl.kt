@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildDefaultFilterDropDownControlOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DefaultFilterDropDownControlOptionsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.DefaultFilterDropDownControlOptionsProperty =
-    CfnTemplate.DefaultFilterDropDownControlOptionsProperty.Builder().apply(initializer).build()
+public fun buildDefaultFilterDropDownControlOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.DefaultFilterDropDownControlOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.DefaultFilterDropDownControlOptionsProperty = CfnTemplate.DefaultFilterDropDownControlOptionsProperty.Builder().apply(initializer).build()

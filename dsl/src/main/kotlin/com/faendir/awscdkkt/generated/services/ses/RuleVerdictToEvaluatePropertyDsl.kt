@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnMailManagerRuleSet
 
 @Generated
-public fun buildRuleVerdictToEvaluateProperty(initializer: @AwsCdkDsl
-    CfnMailManagerRuleSet.RuleVerdictToEvaluateProperty.Builder.() -> Unit = {}):
-    CfnMailManagerRuleSet.RuleVerdictToEvaluateProperty =
-    CfnMailManagerRuleSet.RuleVerdictToEvaluateProperty.Builder().apply(initializer).build()
+public fun buildRuleVerdictToEvaluateProperty(initializer: @AwsCdkDsl CfnMailManagerRuleSet.RuleVerdictToEvaluateProperty.Builder.() -> Unit = {}): CfnMailManagerRuleSet.RuleVerdictToEvaluateProperty = CfnMailManagerRuleSet.RuleVerdictToEvaluateProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.LambdaDataSourceProps
 
 @Generated
-public fun buildLambdaDataSourceProps(initializer: @AwsCdkDsl
-    LambdaDataSourceProps.Builder.() -> Unit = {}): LambdaDataSourceProps =
-    LambdaDataSourceProps.Builder().apply(initializer).build()
+public fun buildLambdaDataSourceProps(initializer: @AwsCdkDsl LambdaDataSourceProps.Builder.() -> Unit = {}): LambdaDataSourceProps = LambdaDataSourceProps.Builder().apply(initializer).build()

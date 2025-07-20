@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnInstanceStorageConfigProps
 
 @Generated
-public fun buildCfnInstanceStorageConfigProps(initializer: @AwsCdkDsl
-    CfnInstanceStorageConfigProps.Builder.() -> Unit = {}): CfnInstanceStorageConfigProps =
-    CfnInstanceStorageConfigProps.Builder().apply(initializer).build()
+public fun buildCfnInstanceStorageConfigProps(initializer: @AwsCdkDsl CfnInstanceStorageConfigProps.Builder.() -> Unit = {}): CfnInstanceStorageConfigProps = CfnInstanceStorageConfigProps.Builder().apply(initializer).build()

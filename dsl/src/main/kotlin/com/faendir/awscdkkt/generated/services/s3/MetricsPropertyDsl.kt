@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
-public fun buildMetricsProperty(initializer: @AwsCdkDsl CfnBucket.MetricsProperty.Builder.() -> Unit
-    = {}): CfnBucket.MetricsProperty =
-    CfnBucket.MetricsProperty.Builder().apply(initializer).build()
+public fun buildMetricsProperty(initializer: @AwsCdkDsl CfnBucket.MetricsProperty.Builder.() -> Unit = {}): CfnBucket.MetricsProperty = CfnBucket.MetricsProperty.Builder().apply(initializer).build()

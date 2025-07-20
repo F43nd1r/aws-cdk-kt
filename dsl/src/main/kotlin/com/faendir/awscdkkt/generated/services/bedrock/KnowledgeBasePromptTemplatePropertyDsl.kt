@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnFlowVersion
 
 @Generated
-public fun buildKnowledgeBasePromptTemplateProperty(initializer: @AwsCdkDsl
-    CfnFlowVersion.KnowledgeBasePromptTemplateProperty.Builder.() -> Unit = {}):
-    CfnFlowVersion.KnowledgeBasePromptTemplateProperty =
-    CfnFlowVersion.KnowledgeBasePromptTemplateProperty.Builder().apply(initializer).build()
+public fun buildKnowledgeBasePromptTemplateProperty(initializer: @AwsCdkDsl CfnFlowVersion.KnowledgeBasePromptTemplateProperty.Builder.() -> Unit = {}): CfnFlowVersion.KnowledgeBasePromptTemplateProperty = CfnFlowVersion.KnowledgeBasePromptTemplateProperty.Builder().apply(initializer).build()

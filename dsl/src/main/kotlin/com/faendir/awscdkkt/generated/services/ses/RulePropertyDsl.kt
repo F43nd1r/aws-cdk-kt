@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnReceiptRule
 
 @Generated
-public fun buildRuleProperty(initializer: @AwsCdkDsl CfnReceiptRule.RuleProperty.Builder.() -> Unit
-    = {}): CfnReceiptRule.RuleProperty =
-    CfnReceiptRule.RuleProperty.Builder().apply(initializer).build()
+public fun buildRuleProperty(initializer: @AwsCdkDsl CfnReceiptRule.RuleProperty.Builder.() -> Unit = {}): CfnReceiptRule.RuleProperty = CfnReceiptRule.RuleProperty.Builder().apply(initializer).build()

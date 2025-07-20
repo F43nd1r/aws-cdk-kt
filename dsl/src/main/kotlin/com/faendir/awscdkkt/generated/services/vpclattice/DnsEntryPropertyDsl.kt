@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.vpclattice.CfnServiceNetworkServiceAssociation
 
 @Generated
-public fun buildDnsEntryProperty(initializer: @AwsCdkDsl
-    CfnServiceNetworkServiceAssociation.DnsEntryProperty.Builder.() -> Unit = {}):
-    CfnServiceNetworkServiceAssociation.DnsEntryProperty =
-    CfnServiceNetworkServiceAssociation.DnsEntryProperty.Builder().apply(initializer).build()
+public fun buildDnsEntryProperty(initializer: @AwsCdkDsl CfnServiceNetworkServiceAssociation.DnsEntryProperty.Builder.() -> Unit = {}): CfnServiceNetworkServiceAssociation.DnsEntryProperty = CfnServiceNetworkServiceAssociation.DnsEntryProperty.Builder().apply(initializer).build()

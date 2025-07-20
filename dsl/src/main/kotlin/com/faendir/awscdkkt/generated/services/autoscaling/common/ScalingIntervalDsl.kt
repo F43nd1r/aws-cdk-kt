@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.common.ScalingInterval
 
 @Generated
-public fun buildScalingInterval(initializer: @AwsCdkDsl ScalingInterval.Builder.() -> Unit = {}):
-    ScalingInterval = ScalingInterval.Builder().apply(initializer).build()
+public fun buildScalingInterval(initializer: @AwsCdkDsl ScalingInterval.Builder.() -> Unit = {}): ScalingInterval = ScalingInterval.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVerifiedAccessInstance
 
 @Generated
-public fun buildVerifiedAccessTrustProviderProperty(initializer: @AwsCdkDsl
-    CfnVerifiedAccessInstance.VerifiedAccessTrustProviderProperty.Builder.() -> Unit = {}):
-    CfnVerifiedAccessInstance.VerifiedAccessTrustProviderProperty =
-    CfnVerifiedAccessInstance.VerifiedAccessTrustProviderProperty.Builder().apply(initializer).build()
+public fun buildVerifiedAccessTrustProviderProperty(initializer: @AwsCdkDsl CfnVerifiedAccessInstance.VerifiedAccessTrustProviderProperty.Builder.() -> Unit = {}): CfnVerifiedAccessInstance.VerifiedAccessTrustProviderProperty = CfnVerifiedAccessInstance.VerifiedAccessTrustProviderProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnVirtualGateway
 
 @Generated
-public fun buildVirtualGatewayTlsValidationContextTrustProperty(initializer: @AwsCdkDsl
-    CfnVirtualGateway.VirtualGatewayTlsValidationContextTrustProperty.Builder.() -> Unit = {}):
-    CfnVirtualGateway.VirtualGatewayTlsValidationContextTrustProperty =
-    CfnVirtualGateway.VirtualGatewayTlsValidationContextTrustProperty.Builder().apply(initializer).build()
+public fun buildVirtualGatewayTlsValidationContextTrustProperty(initializer: @AwsCdkDsl CfnVirtualGateway.VirtualGatewayTlsValidationContextTrustProperty.Builder.() -> Unit = {}): CfnVirtualGateway.VirtualGatewayTlsValidationContextTrustProperty = CfnVirtualGateway.VirtualGatewayTlsValidationContextTrustProperty.Builder().apply(initializer).build()

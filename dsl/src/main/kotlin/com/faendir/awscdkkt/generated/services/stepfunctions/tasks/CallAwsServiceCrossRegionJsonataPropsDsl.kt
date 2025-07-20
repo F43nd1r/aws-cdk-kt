@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.CallAwsServiceCrossRegionJsonataProps
 
 @Generated
-public fun buildCallAwsServiceCrossRegionJsonataProps(initializer: @AwsCdkDsl
-    CallAwsServiceCrossRegionJsonataProps.Builder.() -> Unit = {}):
-    CallAwsServiceCrossRegionJsonataProps =
-    CallAwsServiceCrossRegionJsonataProps.Builder().apply(initializer).build()
+public fun buildCallAwsServiceCrossRegionJsonataProps(initializer: @AwsCdkDsl CallAwsServiceCrossRegionJsonataProps.Builder.() -> Unit = {}): CallAwsServiceCrossRegionJsonataProps = CallAwsServiceCrossRegionJsonataProps.Builder().apply(initializer).build()

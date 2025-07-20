@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.EventBusPolicyProps
 
 @Generated
-public fun buildEventBusPolicyProps(initializer: @AwsCdkDsl EventBusPolicyProps.Builder.() -> Unit =
-    {}): EventBusPolicyProps = EventBusPolicyProps.Builder().apply(initializer).build()
+public fun buildEventBusPolicyProps(initializer: @AwsCdkDsl EventBusPolicyProps.Builder.() -> Unit = {}): EventBusPolicyProps = EventBusPolicyProps.Builder().apply(initializer).build()

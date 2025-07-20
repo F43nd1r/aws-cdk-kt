@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.CfnIdentityProviderConfigProps
 
 @Generated
-public fun buildCfnIdentityProviderConfigProps(initializer: @AwsCdkDsl
-    CfnIdentityProviderConfigProps.Builder.() -> Unit = {}): CfnIdentityProviderConfigProps =
-    CfnIdentityProviderConfigProps.Builder().apply(initializer).build()
+public fun buildCfnIdentityProviderConfigProps(initializer: @AwsCdkDsl CfnIdentityProviderConfigProps.Builder.() -> Unit = {}): CfnIdentityProviderConfigProps = CfnIdentityProviderConfigProps.Builder().apply(initializer).build()

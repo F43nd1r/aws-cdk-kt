@@ -16,6 +16,4 @@ public fun Construct.cfnHostedConfigurationVersion(
 ): CfnHostedConfigurationVersion = CfnHostedConfigurationVersion(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnHostedConfigurationVersion(id: String, initializer: @AwsCdkDsl
-    CfnHostedConfigurationVersion.Builder.() -> Unit = {}): CfnHostedConfigurationVersion =
-    CfnHostedConfigurationVersion.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnHostedConfigurationVersion(id: String, initializer: @AwsCdkDsl CfnHostedConfigurationVersion.Builder.() -> Unit = {}): CfnHostedConfigurationVersion = CfnHostedConfigurationVersion.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnRouteTable(
 ): CfnRouteTable = CfnRouteTable(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRouteTable(id: String, initializer: @AwsCdkDsl
-    CfnRouteTable.Builder.() -> Unit = {}): CfnRouteTable = CfnRouteTable.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnRouteTable(id: String, initializer: @AwsCdkDsl CfnRouteTable.Builder.() -> Unit = {}): CfnRouteTable = CfnRouteTable.Builder.create(this, id).apply(initializer).build()

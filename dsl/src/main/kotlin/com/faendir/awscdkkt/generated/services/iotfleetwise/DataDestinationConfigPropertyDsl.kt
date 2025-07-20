@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotfleetwise.CfnCampaign
 
 @Generated
-public fun buildDataDestinationConfigProperty(initializer: @AwsCdkDsl
-    CfnCampaign.DataDestinationConfigProperty.Builder.() -> Unit = {}):
-    CfnCampaign.DataDestinationConfigProperty =
-    CfnCampaign.DataDestinationConfigProperty.Builder().apply(initializer).build()
+public fun buildDataDestinationConfigProperty(initializer: @AwsCdkDsl CfnCampaign.DataDestinationConfigProperty.Builder.() -> Unit = {}): CfnCampaign.DataDestinationConfigProperty = CfnCampaign.DataDestinationConfigProperty.Builder().apply(initializer).build()

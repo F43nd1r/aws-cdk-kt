@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.Connections
 
 @Generated
-public fun buildConnections(initializer: @AwsCdkDsl Connections.Builder.() -> Unit = {}):
-    Connections = Connections.Builder.create().apply(initializer).build()
+public fun buildConnections(initializer: @AwsCdkDsl Connections.Builder.() -> Unit = {}): Connections = Connections.Builder.create().apply(initializer).build()

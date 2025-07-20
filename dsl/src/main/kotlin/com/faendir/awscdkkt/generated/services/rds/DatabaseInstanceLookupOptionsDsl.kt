@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.DatabaseInstanceLookupOptions
 
 @Generated
-public fun buildDatabaseInstanceLookupOptions(initializer: @AwsCdkDsl
-    DatabaseInstanceLookupOptions.Builder.() -> Unit = {}): DatabaseInstanceLookupOptions =
-    DatabaseInstanceLookupOptions.Builder().apply(initializer).build()
+public fun buildDatabaseInstanceLookupOptions(initializer: @AwsCdkDsl DatabaseInstanceLookupOptions.Builder.() -> Unit = {}): DatabaseInstanceLookupOptions = DatabaseInstanceLookupOptions.Builder().apply(initializer).build()

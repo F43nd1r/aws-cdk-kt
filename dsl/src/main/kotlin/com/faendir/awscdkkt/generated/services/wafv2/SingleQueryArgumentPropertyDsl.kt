@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
-public fun buildSingleQueryArgumentProperty(initializer: @AwsCdkDsl
-    CfnWebACL.SingleQueryArgumentProperty.Builder.() -> Unit = {}):
-    CfnWebACL.SingleQueryArgumentProperty =
-    CfnWebACL.SingleQueryArgumentProperty.Builder().apply(initializer).build()
+public fun buildSingleQueryArgumentProperty(initializer: @AwsCdkDsl CfnWebACL.SingleQueryArgumentProperty.Builder.() -> Unit = {}): CfnWebACL.SingleQueryArgumentProperty = CfnWebACL.SingleQueryArgumentProperty.Builder().apply(initializer).build()

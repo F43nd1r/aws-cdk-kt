@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
-public fun buildOverrideDatasetParameterOperationProperty(initializer: @AwsCdkDsl
-    CfnDataSet.OverrideDatasetParameterOperationProperty.Builder.() -> Unit = {}):
-    CfnDataSet.OverrideDatasetParameterOperationProperty =
-    CfnDataSet.OverrideDatasetParameterOperationProperty.Builder().apply(initializer).build()
+public fun buildOverrideDatasetParameterOperationProperty(initializer: @AwsCdkDsl CfnDataSet.OverrideDatasetParameterOperationProperty.Builder.() -> Unit = {}): CfnDataSet.OverrideDatasetParameterOperationProperty = CfnDataSet.OverrideDatasetParameterOperationProperty.Builder().apply(initializer).build()

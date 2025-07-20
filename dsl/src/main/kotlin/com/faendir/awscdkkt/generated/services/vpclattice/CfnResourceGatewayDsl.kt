@@ -16,6 +16,4 @@ public fun Construct.cfnResourceGateway(
 ): CfnResourceGateway = CfnResourceGateway(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnResourceGateway(id: String, initializer: @AwsCdkDsl
-    CfnResourceGateway.Builder.() -> Unit = {}): CfnResourceGateway =
-    CfnResourceGateway.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnResourceGateway(id: String, initializer: @AwsCdkDsl CfnResourceGateway.Builder.() -> Unit = {}): CfnResourceGateway = CfnResourceGateway.Builder.create(this, id).apply(initializer).build()

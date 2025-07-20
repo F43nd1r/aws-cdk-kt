@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnConfigurationSetEventDestination
 
 @Generated
-public fun buildEventBridgeDestinationProperty(initializer: @AwsCdkDsl
-    CfnConfigurationSetEventDestination.EventBridgeDestinationProperty.Builder.() -> Unit = {}):
-    CfnConfigurationSetEventDestination.EventBridgeDestinationProperty =
-    CfnConfigurationSetEventDestination.EventBridgeDestinationProperty.Builder().apply(initializer).build()
+public fun buildEventBridgeDestinationProperty(initializer: @AwsCdkDsl CfnConfigurationSetEventDestination.EventBridgeDestinationProperty.Builder.() -> Unit = {}): CfnConfigurationSetEventDestination.EventBridgeDestinationProperty = CfnConfigurationSetEventDestination.EventBridgeDestinationProperty.Builder().apply(initializer).build()

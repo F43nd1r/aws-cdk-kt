@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnNetwork
 
 @Generated
-public fun buildIpPoolProperty(initializer: @AwsCdkDsl CfnNetwork.IpPoolProperty.Builder.() -> Unit
-    = {}): CfnNetwork.IpPoolProperty =
-    CfnNetwork.IpPoolProperty.Builder().apply(initializer).build()
+public fun buildIpPoolProperty(initializer: @AwsCdkDsl CfnNetwork.IpPoolProperty.Builder.() -> Unit = {}): CfnNetwork.IpPoolProperty = CfnNetwork.IpPoolProperty.Builder().apply(initializer).build()

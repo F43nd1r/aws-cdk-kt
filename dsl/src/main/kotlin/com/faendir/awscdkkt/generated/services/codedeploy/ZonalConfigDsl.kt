@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codedeploy.ZonalConfig
 
 @Generated
-public fun buildZonalConfig(initializer: @AwsCdkDsl ZonalConfig.Builder.() -> Unit = {}):
-    ZonalConfig = ZonalConfig.Builder().apply(initializer).build()
+public fun buildZonalConfig(initializer: @AwsCdkDsl ZonalConfig.Builder.() -> Unit = {}): ZonalConfig = ZonalConfig.Builder().apply(initializer).build()

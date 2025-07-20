@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediaconnect.CfnGatewayProps
 
 @Generated
-public fun buildCfnGatewayProps(initializer: @AwsCdkDsl CfnGatewayProps.Builder.() -> Unit = {}):
-    CfnGatewayProps = CfnGatewayProps.Builder().apply(initializer).build()
+public fun buildCfnGatewayProps(initializer: @AwsCdkDsl CfnGatewayProps.Builder.() -> Unit = {}): CfnGatewayProps = CfnGatewayProps.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.KeyPairAttributes
 
 @Generated
-public fun buildKeyPairAttributes(initializer: @AwsCdkDsl KeyPairAttributes.Builder.() -> Unit =
-    {}): KeyPairAttributes = KeyPairAttributes.Builder().apply(initializer).build()
+public fun buildKeyPairAttributes(initializer: @AwsCdkDsl KeyPairAttributes.Builder.() -> Unit = {}): KeyPairAttributes = KeyPairAttributes.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.DeliveryStreamAttributes
 
 @Generated
-public fun buildDeliveryStreamAttributes(initializer: @AwsCdkDsl
-    DeliveryStreamAttributes.Builder.() -> Unit = {}): DeliveryStreamAttributes =
-    DeliveryStreamAttributes.Builder().apply(initializer).build()
+public fun buildDeliveryStreamAttributes(initializer: @AwsCdkDsl DeliveryStreamAttributes.Builder.() -> Unit = {}): DeliveryStreamAttributes = DeliveryStreamAttributes.Builder().apply(initializer).build()

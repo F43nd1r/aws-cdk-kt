@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.efs.OneZoneFileSystemProps
 
 @Generated
-public fun buildOneZoneFileSystemProps(initializer: @AwsCdkDsl
-    OneZoneFileSystemProps.Builder.() -> Unit = {}): OneZoneFileSystemProps =
-    OneZoneFileSystemProps.Builder().apply(initializer).build()
+public fun buildOneZoneFileSystemProps(initializer: @AwsCdkDsl OneZoneFileSystemProps.Builder.() -> Unit = {}): OneZoneFileSystemProps = OneZoneFileSystemProps.Builder().apply(initializer).build()

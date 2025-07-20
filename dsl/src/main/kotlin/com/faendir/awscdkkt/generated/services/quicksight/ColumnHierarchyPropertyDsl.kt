@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildColumnHierarchyProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ColumnHierarchyProperty.Builder.() -> Unit = {}):
-    CfnTemplate.ColumnHierarchyProperty =
-    CfnTemplate.ColumnHierarchyProperty.Builder().apply(initializer).build()
+public fun buildColumnHierarchyProperty(initializer: @AwsCdkDsl CfnTemplate.ColumnHierarchyProperty.Builder.() -> Unit = {}): CfnTemplate.ColumnHierarchyProperty = CfnTemplate.ColumnHierarchyProperty.Builder().apply(initializer).build()

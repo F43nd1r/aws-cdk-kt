@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codestarconnections.CfnSyncConfigurationProps
 
 @Generated
-public fun buildCfnSyncConfigurationProps(initializer: @AwsCdkDsl
-    CfnSyncConfigurationProps.Builder.() -> Unit = {}): CfnSyncConfigurationProps =
-    CfnSyncConfigurationProps.Builder().apply(initializer).build()
+public fun buildCfnSyncConfigurationProps(initializer: @AwsCdkDsl CfnSyncConfigurationProps.Builder.() -> Unit = {}): CfnSyncConfigurationProps = CfnSyncConfigurationProps.Builder().apply(initializer).build()

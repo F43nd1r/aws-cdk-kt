@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnWebExperience
 
 @Generated
-public fun buildBrowserExtensionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnWebExperience.BrowserExtensionConfigurationProperty.Builder.() -> Unit = {}):
-    CfnWebExperience.BrowserExtensionConfigurationProperty =
-    CfnWebExperience.BrowserExtensionConfigurationProperty.Builder().apply(initializer).build()
+public fun buildBrowserExtensionConfigurationProperty(initializer: @AwsCdkDsl CfnWebExperience.BrowserExtensionConfigurationProperty.Builder.() -> Unit = {}): CfnWebExperience.BrowserExtensionConfigurationProperty = CfnWebExperience.BrowserExtensionConfigurationProperty.Builder().apply(initializer).build()

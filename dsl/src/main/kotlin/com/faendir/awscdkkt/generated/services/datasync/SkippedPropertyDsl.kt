@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datasync.CfnTask
 
 @Generated
-public fun buildSkippedProperty(initializer: @AwsCdkDsl CfnTask.SkippedProperty.Builder.() -> Unit =
-    {}): CfnTask.SkippedProperty = CfnTask.SkippedProperty.Builder().apply(initializer).build()
+public fun buildSkippedProperty(initializer: @AwsCdkDsl CfnTask.SkippedProperty.Builder.() -> Unit = {}): CfnTask.SkippedProperty = CfnTask.SkippedProperty.Builder().apply(initializer).build()

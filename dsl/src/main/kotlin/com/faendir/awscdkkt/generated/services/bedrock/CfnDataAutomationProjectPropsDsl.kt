@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnDataAutomationProjectProps
 
 @Generated
-public fun buildCfnDataAutomationProjectProps(initializer: @AwsCdkDsl
-    CfnDataAutomationProjectProps.Builder.() -> Unit = {}): CfnDataAutomationProjectProps =
-    CfnDataAutomationProjectProps.Builder().apply(initializer).build()
+public fun buildCfnDataAutomationProjectProps(initializer: @AwsCdkDsl CfnDataAutomationProjectProps.Builder.() -> Unit = {}): CfnDataAutomationProjectProps = CfnDataAutomationProjectProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.synthetics.ArtifactsBucketLocation
 
 @Generated
-public fun buildArtifactsBucketLocation(initializer: @AwsCdkDsl
-    ArtifactsBucketLocation.Builder.() -> Unit = {}): ArtifactsBucketLocation =
-    ArtifactsBucketLocation.Builder().apply(initializer).build()
+public fun buildArtifactsBucketLocation(initializer: @AwsCdkDsl ArtifactsBucketLocation.Builder.() -> Unit = {}): ArtifactsBucketLocation = ArtifactsBucketLocation.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnDataCellsFilter(
 ): CfnDataCellsFilter = CfnDataCellsFilter(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDataCellsFilter(id: String, initializer: @AwsCdkDsl
-    CfnDataCellsFilter.Builder.() -> Unit = {}): CfnDataCellsFilter =
-    CfnDataCellsFilter.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDataCellsFilter(id: String, initializer: @AwsCdkDsl CfnDataCellsFilter.Builder.() -> Unit = {}): CfnDataCellsFilter = CfnDataCellsFilter.Builder.create(this, id).apply(initializer).build()

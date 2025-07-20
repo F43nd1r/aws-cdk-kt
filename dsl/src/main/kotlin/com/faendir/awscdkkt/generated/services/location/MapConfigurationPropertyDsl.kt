@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.location.CfnMap
 
 @Generated
-public fun buildMapConfigurationProperty(initializer: @AwsCdkDsl
-    CfnMap.MapConfigurationProperty.Builder.() -> Unit = {}): CfnMap.MapConfigurationProperty =
-    CfnMap.MapConfigurationProperty.Builder().apply(initializer).build()
+public fun buildMapConfigurationProperty(initializer: @AwsCdkDsl CfnMap.MapConfigurationProperty.Builder.() -> Unit = {}): CfnMap.MapConfigurationProperty = CfnMap.MapConfigurationProperty.Builder().apply(initializer).build()

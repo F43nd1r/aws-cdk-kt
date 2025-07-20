@@ -16,6 +16,4 @@ public fun Construct.cfnMailManagerAddonInstance(
 ): CfnMailManagerAddonInstance = CfnMailManagerAddonInstance(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMailManagerAddonInstance(id: String, initializer: @AwsCdkDsl
-    CfnMailManagerAddonInstance.Builder.() -> Unit = {}): CfnMailManagerAddonInstance =
-    CfnMailManagerAddonInstance.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMailManagerAddonInstance(id: String, initializer: @AwsCdkDsl CfnMailManagerAddonInstance.Builder.() -> Unit = {}): CfnMailManagerAddonInstance = CfnMailManagerAddonInstance.Builder.create(this, id).apply(initializer).build()

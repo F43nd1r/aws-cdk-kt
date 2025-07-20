@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.SnsPublishJsonataProps
 
 @Generated
-public fun buildSnsPublishJsonataProps(initializer: @AwsCdkDsl
-    SnsPublishJsonataProps.Builder.() -> Unit = {}): SnsPublishJsonataProps =
-    SnsPublishJsonataProps.Builder().apply(initializer).build()
+public fun buildSnsPublishJsonataProps(initializer: @AwsCdkDsl SnsPublishJsonataProps.Builder.() -> Unit = {}): SnsPublishJsonataProps = SnsPublishJsonataProps.Builder().apply(initializer).build()

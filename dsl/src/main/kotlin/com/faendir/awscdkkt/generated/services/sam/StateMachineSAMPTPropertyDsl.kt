@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sam.CfnStateMachine
 
 @Generated
-public fun buildStateMachineSAMPTProperty(initializer: @AwsCdkDsl
-    CfnStateMachine.StateMachineSAMPTProperty.Builder.() -> Unit = {}):
-    CfnStateMachine.StateMachineSAMPTProperty =
-    CfnStateMachine.StateMachineSAMPTProperty.Builder().apply(initializer).build()
+public fun buildStateMachineSAMPTProperty(initializer: @AwsCdkDsl CfnStateMachine.StateMachineSAMPTProperty.Builder.() -> Unit = {}): CfnStateMachine.StateMachineSAMPTProperty = CfnStateMachine.StateMachineSAMPTProperty.Builder().apply(initializer).build()

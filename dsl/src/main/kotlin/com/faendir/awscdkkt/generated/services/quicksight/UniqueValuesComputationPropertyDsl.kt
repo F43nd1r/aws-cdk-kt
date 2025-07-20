@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildUniqueValuesComputationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.UniqueValuesComputationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.UniqueValuesComputationProperty =
-    CfnTemplate.UniqueValuesComputationProperty.Builder().apply(initializer).build()
+public fun buildUniqueValuesComputationProperty(initializer: @AwsCdkDsl CfnTemplate.UniqueValuesComputationProperty.Builder.() -> Unit = {}): CfnTemplate.UniqueValuesComputationProperty = CfnTemplate.UniqueValuesComputationProperty.Builder().apply(initializer).build()

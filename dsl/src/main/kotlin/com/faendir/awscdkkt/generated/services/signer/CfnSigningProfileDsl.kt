@@ -16,6 +16,4 @@ public fun Construct.cfnSigningProfile(
 ): CfnSigningProfile = CfnSigningProfile(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSigningProfile(id: String, initializer: @AwsCdkDsl
-    CfnSigningProfile.Builder.() -> Unit = {}): CfnSigningProfile =
-    CfnSigningProfile.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSigningProfile(id: String, initializer: @AwsCdkDsl CfnSigningProfile.Builder.() -> Unit = {}): CfnSigningProfile = CfnSigningProfile.Builder.create(this, id).apply(initializer).build()

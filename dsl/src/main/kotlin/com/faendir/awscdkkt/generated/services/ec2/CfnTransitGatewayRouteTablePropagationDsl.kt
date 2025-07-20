@@ -13,11 +13,7 @@ public fun Construct.cfnTransitGatewayRouteTablePropagation(
   id: String,
   props: CfnTransitGatewayRouteTablePropagationProps,
   initializer: @AwsCdkDsl CfnTransitGatewayRouteTablePropagation.() -> Unit = {},
-): CfnTransitGatewayRouteTablePropagation = CfnTransitGatewayRouteTablePropagation(this, id,
-    props).apply(initializer)
+): CfnTransitGatewayRouteTablePropagation = CfnTransitGatewayRouteTablePropagation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTransitGatewayRouteTablePropagation(id: String, initializer: @AwsCdkDsl
-    CfnTransitGatewayRouteTablePropagation.Builder.() -> Unit = {}):
-    CfnTransitGatewayRouteTablePropagation =
-    CfnTransitGatewayRouteTablePropagation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTransitGatewayRouteTablePropagation(id: String, initializer: @AwsCdkDsl CfnTransitGatewayRouteTablePropagation.Builder.() -> Unit = {}): CfnTransitGatewayRouteTablePropagation = CfnTransitGatewayRouteTablePropagation.Builder.create(this, id).apply(initializer).build()

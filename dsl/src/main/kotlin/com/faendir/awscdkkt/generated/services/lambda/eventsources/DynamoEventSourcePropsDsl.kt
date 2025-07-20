@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.eventsources.DynamoEventSourceProps
 
 @Generated
-public fun buildDynamoEventSourceProps(initializer: @AwsCdkDsl
-    DynamoEventSourceProps.Builder.() -> Unit = {}): DynamoEventSourceProps =
-    DynamoEventSourceProps.Builder().apply(initializer).build()
+public fun buildDynamoEventSourceProps(initializer: @AwsCdkDsl DynamoEventSourceProps.Builder.() -> Unit = {}): DynamoEventSourceProps = DynamoEventSourceProps.Builder().apply(initializer).build()

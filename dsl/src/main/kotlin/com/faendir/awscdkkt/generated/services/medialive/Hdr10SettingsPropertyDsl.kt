@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildHdr10SettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.Hdr10SettingsProperty.Builder.() -> Unit = {}): CfnChannel.Hdr10SettingsProperty =
-    CfnChannel.Hdr10SettingsProperty.Builder().apply(initializer).build()
+public fun buildHdr10SettingsProperty(initializer: @AwsCdkDsl CfnChannel.Hdr10SettingsProperty.Builder.() -> Unit = {}): CfnChannel.Hdr10SettingsProperty = CfnChannel.Hdr10SettingsProperty.Builder().apply(initializer).build()

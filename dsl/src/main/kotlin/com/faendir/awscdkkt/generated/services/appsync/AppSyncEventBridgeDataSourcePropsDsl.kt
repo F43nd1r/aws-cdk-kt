@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.AppSyncEventBridgeDataSourceProps
 
 @Generated
-public fun buildAppSyncEventBridgeDataSourceProps(initializer: @AwsCdkDsl
-    AppSyncEventBridgeDataSourceProps.Builder.() -> Unit = {}): AppSyncEventBridgeDataSourceProps =
-    AppSyncEventBridgeDataSourceProps.Builder().apply(initializer).build()
+public fun buildAppSyncEventBridgeDataSourceProps(initializer: @AwsCdkDsl AppSyncEventBridgeDataSourceProps.Builder.() -> Unit = {}): AppSyncEventBridgeDataSourceProps = AppSyncEventBridgeDataSourceProps.Builder().apply(initializer).build()

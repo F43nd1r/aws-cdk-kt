@@ -16,6 +16,4 @@ public fun Construct.databaseInstanceFromSnapshot(
 ): DatabaseInstanceFromSnapshot = DatabaseInstanceFromSnapshot(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildDatabaseInstanceFromSnapshot(id: String, initializer: @AwsCdkDsl
-    DatabaseInstanceFromSnapshot.Builder.() -> Unit = {}): DatabaseInstanceFromSnapshot =
-    DatabaseInstanceFromSnapshot.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildDatabaseInstanceFromSnapshot(id: String, initializer: @AwsCdkDsl DatabaseInstanceFromSnapshot.Builder.() -> Unit = {}): DatabaseInstanceFromSnapshot = DatabaseInstanceFromSnapshot.Builder.create(this, id).apply(initializer).build()

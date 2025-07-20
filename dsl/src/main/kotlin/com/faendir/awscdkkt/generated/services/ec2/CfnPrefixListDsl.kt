@@ -16,6 +16,4 @@ public fun Construct.cfnPrefixList(
 ): CfnPrefixList = CfnPrefixList(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPrefixList(id: String, initializer: @AwsCdkDsl
-    CfnPrefixList.Builder.() -> Unit = {}): CfnPrefixList = CfnPrefixList.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnPrefixList(id: String, initializer: @AwsCdkDsl CfnPrefixList.Builder.() -> Unit = {}): CfnPrefixList = CfnPrefixList.Builder.create(this, id).apply(initializer).build()

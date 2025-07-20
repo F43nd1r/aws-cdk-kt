@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.MetricExpressionConfig
 
 @Generated
-public fun buildMetricExpressionConfig(initializer: @AwsCdkDsl
-    MetricExpressionConfig.Builder.() -> Unit = {}): MetricExpressionConfig =
-    MetricExpressionConfig.Builder().apply(initializer).build()
+public fun buildMetricExpressionConfig(initializer: @AwsCdkDsl MetricExpressionConfig.Builder.() -> Unit = {}): MetricExpressionConfig = MetricExpressionConfig.Builder().apply(initializer).build()

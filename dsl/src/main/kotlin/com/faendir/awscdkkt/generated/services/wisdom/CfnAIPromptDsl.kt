@@ -16,6 +16,4 @@ public fun Construct.cfnAIPrompt(
 ): CfnAIPrompt = CfnAIPrompt(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAIPrompt(id: String, initializer: @AwsCdkDsl
-    CfnAIPrompt.Builder.() -> Unit = {}): CfnAIPrompt = CfnAIPrompt.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnAIPrompt(id: String, initializer: @AwsCdkDsl CfnAIPrompt.Builder.() -> Unit = {}): CfnAIPrompt = CfnAIPrompt.Builder.create(this, id).apply(initializer).build()

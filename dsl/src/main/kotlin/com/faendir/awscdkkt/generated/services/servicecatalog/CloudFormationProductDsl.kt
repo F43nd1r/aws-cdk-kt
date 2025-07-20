@@ -16,6 +16,4 @@ public fun Construct.cloudFormationProduct(
 ): CloudFormationProduct = CloudFormationProduct(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCloudFormationProduct(id: String, initializer: @AwsCdkDsl
-    CloudFormationProduct.Builder.() -> Unit = {}): CloudFormationProduct =
-    CloudFormationProduct.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCloudFormationProduct(id: String, initializer: @AwsCdkDsl CloudFormationProduct.Builder.() -> Unit = {}): CloudFormationProduct = CloudFormationProduct.Builder.create(this, id).apply(initializer).build()

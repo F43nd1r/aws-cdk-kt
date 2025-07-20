@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnMailManagerIngressPoint
 
 @Generated
-public fun buildPrivateNetworkConfigurationProperty(initializer: @AwsCdkDsl
-    CfnMailManagerIngressPoint.PrivateNetworkConfigurationProperty.Builder.() -> Unit = {}):
-    CfnMailManagerIngressPoint.PrivateNetworkConfigurationProperty =
-    CfnMailManagerIngressPoint.PrivateNetworkConfigurationProperty.Builder().apply(initializer).build()
+public fun buildPrivateNetworkConfigurationProperty(initializer: @AwsCdkDsl CfnMailManagerIngressPoint.PrivateNetworkConfigurationProperty.Builder.() -> Unit = {}): CfnMailManagerIngressPoint.PrivateNetworkConfigurationProperty = CfnMailManagerIngressPoint.PrivateNetworkConfigurationProperty.Builder().apply(initializer).build()

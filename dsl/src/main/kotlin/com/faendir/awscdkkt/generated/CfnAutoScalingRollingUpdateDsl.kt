@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.CfnAutoScalingRollingUpdate
 
 @Generated
-public fun buildCfnAutoScalingRollingUpdate(initializer: @AwsCdkDsl
-    CfnAutoScalingRollingUpdate.Builder.() -> Unit = {}): CfnAutoScalingRollingUpdate =
-    CfnAutoScalingRollingUpdate.Builder().apply(initializer).build()
+public fun buildCfnAutoScalingRollingUpdate(initializer: @AwsCdkDsl CfnAutoScalingRollingUpdate.Builder.() -> Unit = {}): CfnAutoScalingRollingUpdate = CfnAutoScalingRollingUpdate.Builder().apply(initializer).build()

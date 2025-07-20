@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnUserProfile
 
 @Generated
-public fun buildEFSFileSystemConfigProperty(initializer: @AwsCdkDsl
-    CfnUserProfile.EFSFileSystemConfigProperty.Builder.() -> Unit = {}):
-    CfnUserProfile.EFSFileSystemConfigProperty =
-    CfnUserProfile.EFSFileSystemConfigProperty.Builder().apply(initializer).build()
+public fun buildEFSFileSystemConfigProperty(initializer: @AwsCdkDsl CfnUserProfile.EFSFileSystemConfigProperty.Builder.() -> Unit = {}): CfnUserProfile.EFSFileSystemConfigProperty = CfnUserProfile.EFSFileSystemConfigProperty.Builder().apply(initializer).build()

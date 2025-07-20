@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.personalize.CfnSolution
 
 @Generated
-public fun buildHpoObjectiveProperty(initializer: @AwsCdkDsl
-    CfnSolution.HpoObjectiveProperty.Builder.() -> Unit = {}): CfnSolution.HpoObjectiveProperty =
-    CfnSolution.HpoObjectiveProperty.Builder().apply(initializer).build()
+public fun buildHpoObjectiveProperty(initializer: @AwsCdkDsl CfnSolution.HpoObjectiveProperty.Builder.() -> Unit = {}): CfnSolution.HpoObjectiveProperty = CfnSolution.HpoObjectiveProperty.Builder().apply(initializer).build()

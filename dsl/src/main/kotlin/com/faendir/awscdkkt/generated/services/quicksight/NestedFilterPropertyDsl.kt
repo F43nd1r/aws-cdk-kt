@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildNestedFilterProperty(initializer: @AwsCdkDsl
-    CfnTemplate.NestedFilterProperty.Builder.() -> Unit = {}): CfnTemplate.NestedFilterProperty =
-    CfnTemplate.NestedFilterProperty.Builder().apply(initializer).build()
+public fun buildNestedFilterProperty(initializer: @AwsCdkDsl CfnTemplate.NestedFilterProperty.Builder.() -> Unit = {}): CfnTemplate.NestedFilterProperty = CfnTemplate.NestedFilterProperty.Builder().apply(initializer).build()

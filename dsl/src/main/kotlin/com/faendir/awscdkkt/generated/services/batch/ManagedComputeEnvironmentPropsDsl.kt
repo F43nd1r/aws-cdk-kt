@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.ManagedComputeEnvironmentProps
 
 @Generated
-public fun buildManagedComputeEnvironmentProps(initializer: @AwsCdkDsl
-    ManagedComputeEnvironmentProps.Builder.() -> Unit = {}): ManagedComputeEnvironmentProps =
-    ManagedComputeEnvironmentProps.Builder().apply(initializer).build()
+public fun buildManagedComputeEnvironmentProps(initializer: @AwsCdkDsl ManagedComputeEnvironmentProps.Builder.() -> Unit = {}): ManagedComputeEnvironmentProps = ManagedComputeEnvironmentProps.Builder().apply(initializer).build()

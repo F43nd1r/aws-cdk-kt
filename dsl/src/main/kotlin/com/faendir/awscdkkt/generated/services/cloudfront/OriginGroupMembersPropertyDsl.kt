@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnDistribution
 
 @Generated
-public fun buildOriginGroupMembersProperty(initializer: @AwsCdkDsl
-    CfnDistribution.OriginGroupMembersProperty.Builder.() -> Unit = {}):
-    CfnDistribution.OriginGroupMembersProperty =
-    CfnDistribution.OriginGroupMembersProperty.Builder().apply(initializer).build()
+public fun buildOriginGroupMembersProperty(initializer: @AwsCdkDsl CfnDistribution.OriginGroupMembersProperty.Builder.() -> Unit = {}): CfnDistribution.OriginGroupMembersProperty = CfnDistribution.OriginGroupMembersProperty.Builder().apply(initializer).build()

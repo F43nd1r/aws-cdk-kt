@@ -16,5 +16,4 @@ public fun Construct.cfnAPIKey(
 ): CfnAPIKey = CfnAPIKey(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAPIKey(id: String, initializer: @AwsCdkDsl CfnAPIKey.Builder.() -> Unit
-    = {}): CfnAPIKey = CfnAPIKey.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAPIKey(id: String, initializer: @AwsCdkDsl CfnAPIKey.Builder.() -> Unit = {}): CfnAPIKey = CfnAPIKey.Builder.create(this, id).apply(initializer).build()

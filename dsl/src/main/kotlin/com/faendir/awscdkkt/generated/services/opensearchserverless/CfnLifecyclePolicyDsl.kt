@@ -16,6 +16,4 @@ public fun Construct.cfnLifecyclePolicy(
 ): CfnLifecyclePolicy = CfnLifecyclePolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLifecyclePolicy(id: String, initializer: @AwsCdkDsl
-    CfnLifecyclePolicy.Builder.() -> Unit = {}): CfnLifecyclePolicy =
-    CfnLifecyclePolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLifecyclePolicy(id: String, initializer: @AwsCdkDsl CfnLifecyclePolicy.Builder.() -> Unit = {}): CfnLifecyclePolicy = CfnLifecyclePolicy.Builder.create(this, id).apply(initializer).build()

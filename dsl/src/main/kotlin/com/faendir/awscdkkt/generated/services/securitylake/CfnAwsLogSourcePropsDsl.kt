@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securitylake.CfnAwsLogSourceProps
 
 @Generated
-public fun buildCfnAwsLogSourceProps(initializer: @AwsCdkDsl CfnAwsLogSourceProps.Builder.() -> Unit
-    = {}): CfnAwsLogSourceProps = CfnAwsLogSourceProps.Builder().apply(initializer).build()
+public fun buildCfnAwsLogSourceProps(initializer: @AwsCdkDsl CfnAwsLogSourceProps.Builder.() -> Unit = {}): CfnAwsLogSourceProps = CfnAwsLogSourceProps.Builder().apply(initializer).build()

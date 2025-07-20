@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
-public fun buildUniqueKeyProperty(initializer: @AwsCdkDsl
-    CfnDataSet.UniqueKeyProperty.Builder.() -> Unit = {}): CfnDataSet.UniqueKeyProperty =
-    CfnDataSet.UniqueKeyProperty.Builder().apply(initializer).build()
+public fun buildUniqueKeyProperty(initializer: @AwsCdkDsl CfnDataSet.UniqueKeyProperty.Builder.() -> Unit = {}): CfnDataSet.UniqueKeyProperty = CfnDataSet.UniqueKeyProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.directoryservice.CfnSimpleADProps
 
 @Generated
-public fun buildCfnSimpleADProps(initializer: @AwsCdkDsl CfnSimpleADProps.Builder.() -> Unit = {}):
-    CfnSimpleADProps = CfnSimpleADProps.Builder().apply(initializer).build()
+public fun buildCfnSimpleADProps(initializer: @AwsCdkDsl CfnSimpleADProps.Builder.() -> Unit = {}): CfnSimpleADProps = CfnSimpleADProps.Builder().apply(initializer).build()

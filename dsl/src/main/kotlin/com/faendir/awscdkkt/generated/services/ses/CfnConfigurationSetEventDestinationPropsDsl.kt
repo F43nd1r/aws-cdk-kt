@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnConfigurationSetEventDestinationProps
 
 @Generated
-public fun buildCfnConfigurationSetEventDestinationProps(initializer: @AwsCdkDsl
-    CfnConfigurationSetEventDestinationProps.Builder.() -> Unit = {}):
-    CfnConfigurationSetEventDestinationProps =
-    CfnConfigurationSetEventDestinationProps.Builder().apply(initializer).build()
+public fun buildCfnConfigurationSetEventDestinationProps(initializer: @AwsCdkDsl CfnConfigurationSetEventDestinationProps.Builder.() -> Unit = {}): CfnConfigurationSetEventDestinationProps = CfnConfigurationSetEventDestinationProps.Builder().apply(initializer).build()

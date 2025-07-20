@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.DockerImageAssetLocation
 
 @Generated
-public fun buildDockerImageAssetLocation(initializer: @AwsCdkDsl
-    DockerImageAssetLocation.Builder.() -> Unit = {}): DockerImageAssetLocation =
-    DockerImageAssetLocation.Builder().apply(initializer).build()
+public fun buildDockerImageAssetLocation(initializer: @AwsCdkDsl DockerImageAssetLocation.Builder.() -> Unit = {}): DockerImageAssetLocation = DockerImageAssetLocation.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnWarmPool(
 ): CfnWarmPool = CfnWarmPool(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnWarmPool(id: String, initializer: @AwsCdkDsl
-    CfnWarmPool.Builder.() -> Unit = {}): CfnWarmPool = CfnWarmPool.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnWarmPool(id: String, initializer: @AwsCdkDsl CfnWarmPool.Builder.() -> Unit = {}): CfnWarmPool = CfnWarmPool.Builder.create(this, id).apply(initializer).build()

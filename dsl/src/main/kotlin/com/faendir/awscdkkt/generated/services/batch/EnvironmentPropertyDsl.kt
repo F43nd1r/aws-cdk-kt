@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
-public fun buildEnvironmentProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.EnvironmentProperty.Builder.() -> Unit = {}):
-    CfnJobDefinition.EnvironmentProperty =
-    CfnJobDefinition.EnvironmentProperty.Builder().apply(initializer).build()
+public fun buildEnvironmentProperty(initializer: @AwsCdkDsl CfnJobDefinition.EnvironmentProperty.Builder.() -> Unit = {}): CfnJobDefinition.EnvironmentProperty = CfnJobDefinition.EnvironmentProperty.Builder().apply(initializer).build()

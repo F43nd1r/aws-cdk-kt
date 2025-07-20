@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnModelPackage
 
 @Generated
-public fun buildDriftCheckBiasProperty(initializer: @AwsCdkDsl
-    CfnModelPackage.DriftCheckBiasProperty.Builder.() -> Unit = {}):
-    CfnModelPackage.DriftCheckBiasProperty =
-    CfnModelPackage.DriftCheckBiasProperty.Builder().apply(initializer).build()
+public fun buildDriftCheckBiasProperty(initializer: @AwsCdkDsl CfnModelPackage.DriftCheckBiasProperty.Builder.() -> Unit = {}): CfnModelPackage.DriftCheckBiasProperty = CfnModelPackage.DriftCheckBiasProperty.Builder().apply(initializer).build()

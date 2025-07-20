@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.GrantInvokeOptions
 
 @Generated
-public fun buildGrantInvokeOptions(initializer: @AwsCdkDsl GrantInvokeOptions.Builder.() -> Unit =
-    {}): GrantInvokeOptions = GrantInvokeOptions.Builder().apply(initializer).build()
+public fun buildGrantInvokeOptions(initializer: @AwsCdkDsl GrantInvokeOptions.Builder.() -> Unit = {}): GrantInvokeOptions = GrantInvokeOptions.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sso.CfnApplicationAssignmentProps
 
 @Generated
-public fun buildCfnApplicationAssignmentProps(initializer: @AwsCdkDsl
-    CfnApplicationAssignmentProps.Builder.() -> Unit = {}): CfnApplicationAssignmentProps =
-    CfnApplicationAssignmentProps.Builder().apply(initializer).build()
+public fun buildCfnApplicationAssignmentProps(initializer: @AwsCdkDsl CfnApplicationAssignmentProps.Builder.() -> Unit = {}): CfnApplicationAssignmentProps = CfnApplicationAssignmentProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cleanrooms.CfnConfiguredTable
 
 @Generated
-public fun buildDifferentialPrivacyProperty(initializer: @AwsCdkDsl
-    CfnConfiguredTable.DifferentialPrivacyProperty.Builder.() -> Unit = {}):
-    CfnConfiguredTable.DifferentialPrivacyProperty =
-    CfnConfiguredTable.DifferentialPrivacyProperty.Builder().apply(initializer).build()
+public fun buildDifferentialPrivacyProperty(initializer: @AwsCdkDsl CfnConfiguredTable.DifferentialPrivacyProperty.Builder.() -> Unit = {}): CfnConfiguredTable.DifferentialPrivacyProperty = CfnConfiguredTable.DifferentialPrivacyProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
-public fun buildNotificationFilterProperty(initializer: @AwsCdkDsl
-    CfnBucket.NotificationFilterProperty.Builder.() -> Unit = {}):
-    CfnBucket.NotificationFilterProperty =
-    CfnBucket.NotificationFilterProperty.Builder().apply(initializer).build()
+public fun buildNotificationFilterProperty(initializer: @AwsCdkDsl CfnBucket.NotificationFilterProperty.Builder.() -> Unit = {}): CfnBucket.NotificationFilterProperty = CfnBucket.NotificationFilterProperty.Builder().apply(initializer).build()

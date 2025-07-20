@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opsworkscm.CfnServerProps
 
 @Generated
-public fun buildCfnServerProps(initializer: @AwsCdkDsl CfnServerProps.Builder.() -> Unit = {}):
-    CfnServerProps = CfnServerProps.Builder().apply(initializer).build()
+public fun buildCfnServerProps(initializer: @AwsCdkDsl CfnServerProps.Builder.() -> Unit = {}): CfnServerProps = CfnServerProps.Builder().apply(initializer).build()

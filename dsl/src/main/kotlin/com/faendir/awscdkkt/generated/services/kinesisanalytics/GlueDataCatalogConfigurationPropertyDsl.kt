@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisanalytics.CfnApplicationV2
 
 @Generated
-public fun buildGlueDataCatalogConfigurationProperty(initializer: @AwsCdkDsl
-    CfnApplicationV2.GlueDataCatalogConfigurationProperty.Builder.() -> Unit = {}):
-    CfnApplicationV2.GlueDataCatalogConfigurationProperty =
-    CfnApplicationV2.GlueDataCatalogConfigurationProperty.Builder().apply(initializer).build()
+public fun buildGlueDataCatalogConfigurationProperty(initializer: @AwsCdkDsl CfnApplicationV2.GlueDataCatalogConfigurationProperty.Builder.() -> Unit = {}): CfnApplicationV2.GlueDataCatalogConfigurationProperty = CfnApplicationV2.GlueDataCatalogConfigurationProperty.Builder().apply(initializer).build()

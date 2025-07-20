@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnSoftwarePackageVersion
 
 @Generated
-public fun buildSbomProperty(initializer: @AwsCdkDsl
-    CfnSoftwarePackageVersion.SbomProperty.Builder.() -> Unit = {}):
-    CfnSoftwarePackageVersion.SbomProperty =
-    CfnSoftwarePackageVersion.SbomProperty.Builder().apply(initializer).build()
+public fun buildSbomProperty(initializer: @AwsCdkDsl CfnSoftwarePackageVersion.SbomProperty.Builder.() -> Unit = {}): CfnSoftwarePackageVersion.SbomProperty = CfnSoftwarePackageVersion.SbomProperty.Builder().apply(initializer).build()

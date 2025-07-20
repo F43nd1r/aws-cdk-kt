@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.cloudtrail.CfnEventDataStoreProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnEventDataStore(id: String, initializer: @AwsCdkDsl
-    CfnEventDataStore.() -> Unit = {}): CfnEventDataStore = CfnEventDataStore(this,
-    id).apply(initializer)
+public fun Construct.cfnEventDataStore(id: String, initializer: @AwsCdkDsl CfnEventDataStore.() -> Unit = {}): CfnEventDataStore = CfnEventDataStore(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnEventDataStore(
@@ -21,6 +19,4 @@ public fun Construct.cfnEventDataStore(
 ): CfnEventDataStore = CfnEventDataStore(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEventDataStore(id: String, initializer: @AwsCdkDsl
-    CfnEventDataStore.Builder.() -> Unit = {}): CfnEventDataStore =
-    CfnEventDataStore.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnEventDataStore(id: String, initializer: @AwsCdkDsl CfnEventDataStore.Builder.() -> Unit = {}): CfnEventDataStore = CfnEventDataStore.Builder.create(this, id).apply(initializer).build()

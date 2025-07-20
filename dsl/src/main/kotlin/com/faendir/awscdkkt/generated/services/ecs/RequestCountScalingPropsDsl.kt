@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.RequestCountScalingProps
 
 @Generated
-public fun buildRequestCountScalingProps(initializer: @AwsCdkDsl
-    RequestCountScalingProps.Builder.() -> Unit = {}): RequestCountScalingProps =
-    RequestCountScalingProps.Builder().apply(initializer).build()
+public fun buildRequestCountScalingProps(initializer: @AwsCdkDsl RequestCountScalingProps.Builder.() -> Unit = {}): RequestCountScalingProps = RequestCountScalingProps.Builder().apply(initializer).build()

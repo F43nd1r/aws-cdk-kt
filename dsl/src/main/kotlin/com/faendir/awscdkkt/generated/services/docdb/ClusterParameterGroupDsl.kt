@@ -16,6 +16,4 @@ public fun Construct.clusterParameterGroup(
 ): ClusterParameterGroup = ClusterParameterGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildClusterParameterGroup(id: String, initializer: @AwsCdkDsl
-    ClusterParameterGroup.Builder.() -> Unit = {}): ClusterParameterGroup =
-    ClusterParameterGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildClusterParameterGroup(id: String, initializer: @AwsCdkDsl ClusterParameterGroup.Builder.() -> Unit = {}): ClusterParameterGroup = ClusterParameterGroup.Builder.create(this, id).apply(initializer).build()

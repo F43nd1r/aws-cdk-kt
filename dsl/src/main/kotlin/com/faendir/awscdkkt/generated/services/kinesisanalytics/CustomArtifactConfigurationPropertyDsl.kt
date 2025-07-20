@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisanalytics.CfnApplicationV2
 
 @Generated
-public fun buildCustomArtifactConfigurationProperty(initializer: @AwsCdkDsl
-    CfnApplicationV2.CustomArtifactConfigurationProperty.Builder.() -> Unit = {}):
-    CfnApplicationV2.CustomArtifactConfigurationProperty =
-    CfnApplicationV2.CustomArtifactConfigurationProperty.Builder().apply(initializer).build()
+public fun buildCustomArtifactConfigurationProperty(initializer: @AwsCdkDsl CfnApplicationV2.CustomArtifactConfigurationProperty.Builder.() -> Unit = {}): CfnApplicationV2.CustomArtifactConfigurationProperty = CfnApplicationV2.CustomArtifactConfigurationProperty.Builder().apply(initializer).build()

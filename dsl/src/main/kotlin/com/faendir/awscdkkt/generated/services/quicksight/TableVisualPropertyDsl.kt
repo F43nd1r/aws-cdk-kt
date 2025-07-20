@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildTableVisualProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TableVisualProperty.Builder.() -> Unit = {}): CfnTemplate.TableVisualProperty =
-    CfnTemplate.TableVisualProperty.Builder().apply(initializer).build()
+public fun buildTableVisualProperty(initializer: @AwsCdkDsl CfnTemplate.TableVisualProperty.Builder.() -> Unit = {}): CfnTemplate.TableVisualProperty = CfnTemplate.TableVisualProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3outposts.CfnBucket
 
 @Generated
-public fun buildFilterTagProperty(initializer: @AwsCdkDsl
-    CfnBucket.FilterTagProperty.Builder.() -> Unit = {}): CfnBucket.FilterTagProperty =
-    CfnBucket.FilterTagProperty.Builder().apply(initializer).build()
+public fun buildFilterTagProperty(initializer: @AwsCdkDsl CfnBucket.FilterTagProperty.Builder.() -> Unit = {}): CfnBucket.FilterTagProperty = CfnBucket.FilterTagProperty.Builder().apply(initializer).build()

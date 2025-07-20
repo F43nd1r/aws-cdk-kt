@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.DockerImageFunctionProps
 
 @Generated
-public fun buildDockerImageFunctionProps(initializer: @AwsCdkDsl
-    DockerImageFunctionProps.Builder.() -> Unit = {}): DockerImageFunctionProps =
-    DockerImageFunctionProps.Builder().apply(initializer).build()
+public fun buildDockerImageFunctionProps(initializer: @AwsCdkDsl DockerImageFunctionProps.Builder.() -> Unit = {}): DockerImageFunctionProps = DockerImageFunctionProps.Builder().apply(initializer).build()

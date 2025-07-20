@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.NoncurrentVersionTransition
 
 @Generated
-public fun buildNoncurrentVersionTransition(initializer: @AwsCdkDsl
-    NoncurrentVersionTransition.Builder.() -> Unit = {}): NoncurrentVersionTransition =
-    NoncurrentVersionTransition.Builder().apply(initializer).build()
+public fun buildNoncurrentVersionTransition(initializer: @AwsCdkDsl NoncurrentVersionTransition.Builder.() -> Unit = {}): NoncurrentVersionTransition = NoncurrentVersionTransition.Builder().apply(initializer).build()

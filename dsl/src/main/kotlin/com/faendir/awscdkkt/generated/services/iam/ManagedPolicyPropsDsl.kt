@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.ManagedPolicyProps
 
 @Generated
-public fun buildManagedPolicyProps(initializer: @AwsCdkDsl ManagedPolicyProps.Builder.() -> Unit =
-    {}): ManagedPolicyProps = ManagedPolicyProps.Builder().apply(initializer).build()
+public fun buildManagedPolicyProps(initializer: @AwsCdkDsl ManagedPolicyProps.Builder.() -> Unit = {}): ManagedPolicyProps = ManagedPolicyProps.Builder().apply(initializer).build()

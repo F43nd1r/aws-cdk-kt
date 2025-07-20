@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotfleetwise.CfnVehicle
 
 @Generated
-public fun buildTimePeriodProperty(initializer: @AwsCdkDsl
-    CfnVehicle.TimePeriodProperty.Builder.() -> Unit = {}): CfnVehicle.TimePeriodProperty =
-    CfnVehicle.TimePeriodProperty.Builder().apply(initializer).build()
+public fun buildTimePeriodProperty(initializer: @AwsCdkDsl CfnVehicle.TimePeriodProperty.Builder.() -> Unit = {}): CfnVehicle.TimePeriodProperty = CfnVehicle.TimePeriodProperty.Builder().apply(initializer).build()

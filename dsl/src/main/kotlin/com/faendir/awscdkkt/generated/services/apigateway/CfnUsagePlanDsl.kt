@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.apigateway.CfnUsagePlanProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnUsagePlan(id: String, initializer: @AwsCdkDsl CfnUsagePlan.() -> Unit = {}):
-    CfnUsagePlan = CfnUsagePlan(this, id).apply(initializer)
+public fun Construct.cfnUsagePlan(id: String, initializer: @AwsCdkDsl CfnUsagePlan.() -> Unit = {}): CfnUsagePlan = CfnUsagePlan(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnUsagePlan(
@@ -20,6 +19,4 @@ public fun Construct.cfnUsagePlan(
 ): CfnUsagePlan = CfnUsagePlan(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnUsagePlan(id: String, initializer: @AwsCdkDsl
-    CfnUsagePlan.Builder.() -> Unit = {}): CfnUsagePlan = CfnUsagePlan.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnUsagePlan(id: String, initializer: @AwsCdkDsl CfnUsagePlan.Builder.() -> Unit = {}): CfnUsagePlan = CfnUsagePlan.Builder.create(this, id).apply(initializer).build()

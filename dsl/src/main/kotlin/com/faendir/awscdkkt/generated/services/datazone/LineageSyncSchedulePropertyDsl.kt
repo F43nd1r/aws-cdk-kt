@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnConnection
 
 @Generated
-public fun buildLineageSyncScheduleProperty(initializer: @AwsCdkDsl
-    CfnConnection.LineageSyncScheduleProperty.Builder.() -> Unit = {}):
-    CfnConnection.LineageSyncScheduleProperty =
-    CfnConnection.LineageSyncScheduleProperty.Builder().apply(initializer).build()
+public fun buildLineageSyncScheduleProperty(initializer: @AwsCdkDsl CfnConnection.LineageSyncScheduleProperty.Builder.() -> Unit = {}): CfnConnection.LineageSyncScheduleProperty = CfnConnection.LineageSyncScheduleProperty.Builder().apply(initializer).build()

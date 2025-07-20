@@ -16,5 +16,4 @@ public fun Construct.logStream(
 ): LogStream = LogStream(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildLogStream(id: String, initializer: @AwsCdkDsl LogStream.Builder.() -> Unit
-    = {}): LogStream = LogStream.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildLogStream(id: String, initializer: @AwsCdkDsl LogStream.Builder.() -> Unit = {}): LogStream = LogStream.Builder.create(this, id).apply(initializer).build()

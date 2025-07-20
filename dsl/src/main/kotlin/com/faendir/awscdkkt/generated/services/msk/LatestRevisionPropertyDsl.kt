@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.msk.CfnConfiguration
 
 @Generated
-public fun buildLatestRevisionProperty(initializer: @AwsCdkDsl
-    CfnConfiguration.LatestRevisionProperty.Builder.() -> Unit = {}):
-    CfnConfiguration.LatestRevisionProperty =
-    CfnConfiguration.LatestRevisionProperty.Builder().apply(initializer).build()
+public fun buildLatestRevisionProperty(initializer: @AwsCdkDsl CfnConfiguration.LatestRevisionProperty.Builder.() -> Unit = {}): CfnConfiguration.LatestRevisionProperty = CfnConfiguration.LatestRevisionProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnThingPrincipalAttachment(
 ): CfnThingPrincipalAttachment = CfnThingPrincipalAttachment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnThingPrincipalAttachment(id: String, initializer: @AwsCdkDsl
-    CfnThingPrincipalAttachment.Builder.() -> Unit = {}): CfnThingPrincipalAttachment =
-    CfnThingPrincipalAttachment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnThingPrincipalAttachment(id: String, initializer: @AwsCdkDsl CfnThingPrincipalAttachment.Builder.() -> Unit = {}): CfnThingPrincipalAttachment = CfnThingPrincipalAttachment.Builder.create(this, id).apply(initializer).build()

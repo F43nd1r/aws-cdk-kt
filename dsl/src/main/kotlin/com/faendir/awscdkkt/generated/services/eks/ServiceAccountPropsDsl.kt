@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.ServiceAccountProps
 
 @Generated
-public fun buildServiceAccountProps(initializer: @AwsCdkDsl ServiceAccountProps.Builder.() -> Unit =
-    {}): ServiceAccountProps = ServiceAccountProps.Builder().apply(initializer).build()
+public fun buildServiceAccountProps(initializer: @AwsCdkDsl ServiceAccountProps.Builder.() -> Unit = {}): ServiceAccountProps = ServiceAccountProps.Builder().apply(initializer).build()

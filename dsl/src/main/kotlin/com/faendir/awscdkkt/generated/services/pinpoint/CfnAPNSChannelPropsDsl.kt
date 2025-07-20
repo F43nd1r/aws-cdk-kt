@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnAPNSChannelProps
 
 @Generated
-public fun buildCfnAPNSChannelProps(initializer: @AwsCdkDsl CfnAPNSChannelProps.Builder.() -> Unit =
-    {}): CfnAPNSChannelProps = CfnAPNSChannelProps.Builder().apply(initializer).build()
+public fun buildCfnAPNSChannelProps(initializer: @AwsCdkDsl CfnAPNSChannelProps.Builder.() -> Unit = {}): CfnAPNSChannelProps = CfnAPNSChannelProps.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnInferenceScheduler(
 ): CfnInferenceScheduler = CfnInferenceScheduler(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnInferenceScheduler(id: String, initializer: @AwsCdkDsl
-    CfnInferenceScheduler.Builder.() -> Unit = {}): CfnInferenceScheduler =
-    CfnInferenceScheduler.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnInferenceScheduler(id: String, initializer: @AwsCdkDsl CfnInferenceScheduler.Builder.() -> Unit = {}): CfnInferenceScheduler = CfnInferenceScheduler.Builder.create(this, id).apply(initializer).build()

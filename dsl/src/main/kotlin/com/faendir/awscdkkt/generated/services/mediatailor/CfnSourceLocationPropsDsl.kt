@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediatailor.CfnSourceLocationProps
 
 @Generated
-public fun buildCfnSourceLocationProps(initializer: @AwsCdkDsl
-    CfnSourceLocationProps.Builder.() -> Unit = {}): CfnSourceLocationProps =
-    CfnSourceLocationProps.Builder().apply(initializer).build()
+public fun buildCfnSourceLocationProps(initializer: @AwsCdkDsl CfnSourceLocationProps.Builder.() -> Unit = {}): CfnSourceLocationProps = CfnSourceLocationProps.Builder().apply(initializer).build()

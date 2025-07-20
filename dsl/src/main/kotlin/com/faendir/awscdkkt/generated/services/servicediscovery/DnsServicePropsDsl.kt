@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicediscovery.DnsServiceProps
 
 @Generated
-public fun buildDnsServiceProps(initializer: @AwsCdkDsl DnsServiceProps.Builder.() -> Unit = {}):
-    DnsServiceProps = DnsServiceProps.Builder().apply(initializer).build()
+public fun buildDnsServiceProps(initializer: @AwsCdkDsl DnsServiceProps.Builder.() -> Unit = {}): DnsServiceProps = DnsServiceProps.Builder().apply(initializer).build()

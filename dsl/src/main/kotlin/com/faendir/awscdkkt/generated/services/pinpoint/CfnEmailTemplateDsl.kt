@@ -16,6 +16,4 @@ public fun Construct.cfnEmailTemplate(
 ): CfnEmailTemplate = CfnEmailTemplate(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEmailTemplate(id: String, initializer: @AwsCdkDsl
-    CfnEmailTemplate.Builder.() -> Unit = {}): CfnEmailTemplate =
-    CfnEmailTemplate.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnEmailTemplate(id: String, initializer: @AwsCdkDsl CfnEmailTemplate.Builder.() -> Unit = {}): CfnEmailTemplate = CfnEmailTemplate.Builder.create(this, id).apply(initializer).build()

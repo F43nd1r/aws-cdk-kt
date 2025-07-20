@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.inspector.AssessmentTemplateProps
 
 @Generated
-public fun buildAssessmentTemplateProps(initializer: @AwsCdkDsl
-    AssessmentTemplateProps.Builder.() -> Unit = {}): AssessmentTemplateProps =
-    AssessmentTemplateProps.Builder().apply(initializer).build()
+public fun buildAssessmentTemplateProps(initializer: @AwsCdkDsl AssessmentTemplateProps.Builder.() -> Unit = {}): AssessmentTemplateProps = AssessmentTemplateProps.Builder().apply(initializer).build()

@@ -16,5 +16,4 @@ public fun Construct.cfnStage(
 ): CfnStage = CfnStage(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnStage(id: String, initializer: @AwsCdkDsl CfnStage.Builder.() -> Unit =
-    {}): CfnStage = CfnStage.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnStage(id: String, initializer: @AwsCdkDsl CfnStage.Builder.() -> Unit = {}): CfnStage = CfnStage.Builder.create(this, id).apply(initializer).build()

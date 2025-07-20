@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkmanager.CfnTransitGatewayRegistrationProps
 
 @Generated
-public fun buildCfnTransitGatewayRegistrationProps(initializer: @AwsCdkDsl
-    CfnTransitGatewayRegistrationProps.Builder.() -> Unit = {}): CfnTransitGatewayRegistrationProps
-    = CfnTransitGatewayRegistrationProps.Builder().apply(initializer).build()
+public fun buildCfnTransitGatewayRegistrationProps(initializer: @AwsCdkDsl CfnTransitGatewayRegistrationProps.Builder.() -> Unit = {}): CfnTransitGatewayRegistrationProps = CfnTransitGatewayRegistrationProps.Builder().apply(initializer).build()

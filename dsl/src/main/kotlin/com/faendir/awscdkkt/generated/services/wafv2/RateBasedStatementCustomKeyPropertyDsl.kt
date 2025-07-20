@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
-public fun buildRateBasedStatementCustomKeyProperty(initializer: @AwsCdkDsl
-    CfnWebACL.RateBasedStatementCustomKeyProperty.Builder.() -> Unit = {}):
-    CfnWebACL.RateBasedStatementCustomKeyProperty =
-    CfnWebACL.RateBasedStatementCustomKeyProperty.Builder().apply(initializer).build()
+public fun buildRateBasedStatementCustomKeyProperty(initializer: @AwsCdkDsl CfnWebACL.RateBasedStatementCustomKeyProperty.Builder.() -> Unit = {}): CfnWebACL.RateBasedStatementCustomKeyProperty = CfnWebACL.RateBasedStatementCustomKeyProperty.Builder().apply(initializer).build()

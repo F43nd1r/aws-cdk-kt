@@ -16,6 +16,4 @@ public fun Construct.cfnServiceActionAssociation(
 ): CfnServiceActionAssociation = CfnServiceActionAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnServiceActionAssociation(id: String, initializer: @AwsCdkDsl
-    CfnServiceActionAssociation.Builder.() -> Unit = {}): CfnServiceActionAssociation =
-    CfnServiceActionAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnServiceActionAssociation(id: String, initializer: @AwsCdkDsl CfnServiceActionAssociation.Builder.() -> Unit = {}): CfnServiceActionAssociation = CfnServiceActionAssociation.Builder.create(this, id).apply(initializer).build()

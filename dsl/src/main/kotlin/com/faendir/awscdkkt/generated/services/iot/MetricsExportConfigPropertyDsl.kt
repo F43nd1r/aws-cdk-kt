@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnSecurityProfile
 
 @Generated
-public fun buildMetricsExportConfigProperty(initializer: @AwsCdkDsl
-    CfnSecurityProfile.MetricsExportConfigProperty.Builder.() -> Unit = {}):
-    CfnSecurityProfile.MetricsExportConfigProperty =
-    CfnSecurityProfile.MetricsExportConfigProperty.Builder().apply(initializer).build()
+public fun buildMetricsExportConfigProperty(initializer: @AwsCdkDsl CfnSecurityProfile.MetricsExportConfigProperty.Builder.() -> Unit = {}): CfnSecurityProfile.MetricsExportConfigProperty = CfnSecurityProfile.MetricsExportConfigProperty.Builder().apply(initializer).build()

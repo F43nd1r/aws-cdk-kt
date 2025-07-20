@@ -16,6 +16,4 @@ public fun Construct.cfnNotebookInstance(
 ): CfnNotebookInstance = CfnNotebookInstance(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnNotebookInstance(id: String, initializer: @AwsCdkDsl
-    CfnNotebookInstance.Builder.() -> Unit = {}): CfnNotebookInstance =
-    CfnNotebookInstance.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnNotebookInstance(id: String, initializer: @AwsCdkDsl CfnNotebookInstance.Builder.() -> Unit = {}): CfnNotebookInstance = CfnNotebookInstance.Builder.create(this, id).apply(initializer).build()

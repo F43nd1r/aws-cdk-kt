@@ -16,6 +16,4 @@ public fun Construct.applicationListener(
 ): ApplicationListener = ApplicationListener(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildApplicationListener(id: String, initializer: @AwsCdkDsl
-    ApplicationListener.Builder.() -> Unit = {}): ApplicationListener =
-    ApplicationListener.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildApplicationListener(id: String, initializer: @AwsCdkDsl ApplicationListener.Builder.() -> Unit = {}): ApplicationListener = ApplicationListener.Builder.create(this, id).apply(initializer).build()

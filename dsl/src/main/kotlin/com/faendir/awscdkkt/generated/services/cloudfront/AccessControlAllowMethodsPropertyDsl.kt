@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnResponseHeadersPolicy
 
 @Generated
-public fun buildAccessControlAllowMethodsProperty(initializer: @AwsCdkDsl
-    CfnResponseHeadersPolicy.AccessControlAllowMethodsProperty.Builder.() -> Unit = {}):
-    CfnResponseHeadersPolicy.AccessControlAllowMethodsProperty =
-    CfnResponseHeadersPolicy.AccessControlAllowMethodsProperty.Builder().apply(initializer).build()
+public fun buildAccessControlAllowMethodsProperty(initializer: @AwsCdkDsl CfnResponseHeadersPolicy.AccessControlAllowMethodsProperty.Builder.() -> Unit = {}): CfnResponseHeadersPolicy.AccessControlAllowMethodsProperty = CfnResponseHeadersPolicy.AccessControlAllowMethodsProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnDatabase
 
 @Generated
-public fun buildDatabaseInputProperty(initializer: @AwsCdkDsl
-    CfnDatabase.DatabaseInputProperty.Builder.() -> Unit = {}): CfnDatabase.DatabaseInputProperty =
-    CfnDatabase.DatabaseInputProperty.Builder().apply(initializer).build()
+public fun buildDatabaseInputProperty(initializer: @AwsCdkDsl CfnDatabase.DatabaseInputProperty.Builder.() -> Unit = {}): CfnDatabase.DatabaseInputProperty = CfnDatabase.DatabaseInputProperty.Builder().apply(initializer).build()

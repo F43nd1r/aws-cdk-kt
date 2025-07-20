@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildTableCellStyleProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TableCellStyleProperty.Builder.() -> Unit = {}): CfnTemplate.TableCellStyleProperty
-    = CfnTemplate.TableCellStyleProperty.Builder().apply(initializer).build()
+public fun buildTableCellStyleProperty(initializer: @AwsCdkDsl CfnTemplate.TableCellStyleProperty.Builder.() -> Unit = {}): CfnTemplate.TableCellStyleProperty = CfnTemplate.TableCellStyleProperty.Builder().apply(initializer).build()

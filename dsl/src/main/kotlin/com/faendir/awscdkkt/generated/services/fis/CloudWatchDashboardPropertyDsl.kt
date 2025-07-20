@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fis.CfnExperimentTemplate
 
 @Generated
-public fun buildCloudWatchDashboardProperty(initializer: @AwsCdkDsl
-    CfnExperimentTemplate.CloudWatchDashboardProperty.Builder.() -> Unit = {}):
-    CfnExperimentTemplate.CloudWatchDashboardProperty =
-    CfnExperimentTemplate.CloudWatchDashboardProperty.Builder().apply(initializer).build()
+public fun buildCloudWatchDashboardProperty(initializer: @AwsCdkDsl CfnExperimentTemplate.CloudWatchDashboardProperty.Builder.() -> Unit = {}): CfnExperimentTemplate.CloudWatchDashboardProperty = CfnExperimentTemplate.CloudWatchDashboardProperty.Builder().apply(initializer).build()

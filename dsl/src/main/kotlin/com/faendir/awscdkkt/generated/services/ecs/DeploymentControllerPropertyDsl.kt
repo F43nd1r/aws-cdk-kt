@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnService
 
 @Generated
-public fun buildDeploymentControllerProperty(initializer: @AwsCdkDsl
-    CfnService.DeploymentControllerProperty.Builder.() -> Unit = {}):
-    CfnService.DeploymentControllerProperty =
-    CfnService.DeploymentControllerProperty.Builder().apply(initializer).build()
+public fun buildDeploymentControllerProperty(initializer: @AwsCdkDsl CfnService.DeploymentControllerProperty.Builder.() -> Unit = {}): CfnService.DeploymentControllerProperty = CfnService.DeploymentControllerProperty.Builder().apply(initializer).build()

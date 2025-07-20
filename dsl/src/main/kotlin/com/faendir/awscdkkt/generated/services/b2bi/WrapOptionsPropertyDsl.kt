@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.b2bi.CfnPartnership
 
 @Generated
-public fun buildWrapOptionsProperty(initializer: @AwsCdkDsl
-    CfnPartnership.WrapOptionsProperty.Builder.() -> Unit = {}): CfnPartnership.WrapOptionsProperty
-    = CfnPartnership.WrapOptionsProperty.Builder().apply(initializer).build()
+public fun buildWrapOptionsProperty(initializer: @AwsCdkDsl CfnPartnership.WrapOptionsProperty.Builder.() -> Unit = {}): CfnPartnership.WrapOptionsProperty = CfnPartnership.WrapOptionsProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sns.subscriptions.SubscriptionProps
 
 @Generated
-public fun buildSubscriptionProps(initializer: @AwsCdkDsl SubscriptionProps.Builder.() -> Unit =
-    {}): SubscriptionProps = SubscriptionProps.Builder().apply(initializer).build()
+public fun buildSubscriptionProps(initializer: @AwsCdkDsl SubscriptionProps.Builder.() -> Unit = {}): SubscriptionProps = SubscriptionProps.Builder().apply(initializer).build()

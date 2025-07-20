@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.ec2.CfnTransitGatewayProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnTransitGateway(id: String, initializer: @AwsCdkDsl
-    CfnTransitGateway.() -> Unit = {}): CfnTransitGateway = CfnTransitGateway(this,
-    id).apply(initializer)
+public fun Construct.cfnTransitGateway(id: String, initializer: @AwsCdkDsl CfnTransitGateway.() -> Unit = {}): CfnTransitGateway = CfnTransitGateway(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnTransitGateway(
@@ -21,6 +19,4 @@ public fun Construct.cfnTransitGateway(
 ): CfnTransitGateway = CfnTransitGateway(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTransitGateway(id: String, initializer: @AwsCdkDsl
-    CfnTransitGateway.Builder.() -> Unit = {}): CfnTransitGateway =
-    CfnTransitGateway.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTransitGateway(id: String, initializer: @AwsCdkDsl CfnTransitGateway.Builder.() -> Unit = {}): CfnTransitGateway = CfnTransitGateway.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connectcampaignsv2.CfnCampaign
 
 @Generated
-public fun buildScheduleProperty(initializer: @AwsCdkDsl
-    CfnCampaign.ScheduleProperty.Builder.() -> Unit = {}): CfnCampaign.ScheduleProperty =
-    CfnCampaign.ScheduleProperty.Builder().apply(initializer).build()
+public fun buildScheduleProperty(initializer: @AwsCdkDsl CfnCampaign.ScheduleProperty.Builder.() -> Unit = {}): CfnCampaign.ScheduleProperty = CfnCampaign.ScheduleProperty.Builder().apply(initializer).build()

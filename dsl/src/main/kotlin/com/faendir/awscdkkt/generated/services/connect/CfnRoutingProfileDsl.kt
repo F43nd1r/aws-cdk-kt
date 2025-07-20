@@ -16,6 +16,4 @@ public fun Construct.cfnRoutingProfile(
 ): CfnRoutingProfile = CfnRoutingProfile(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRoutingProfile(id: String, initializer: @AwsCdkDsl
-    CfnRoutingProfile.Builder.() -> Unit = {}): CfnRoutingProfile =
-    CfnRoutingProfile.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRoutingProfile(id: String, initializer: @AwsCdkDsl CfnRoutingProfile.Builder.() -> Unit = {}): CfnRoutingProfile = CfnRoutingProfile.Builder.create(this, id).apply(initializer).build()

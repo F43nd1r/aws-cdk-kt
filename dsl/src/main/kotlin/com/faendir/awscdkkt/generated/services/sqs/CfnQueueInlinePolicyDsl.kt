@@ -16,6 +16,4 @@ public fun Construct.cfnQueueInlinePolicy(
 ): CfnQueueInlinePolicy = CfnQueueInlinePolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnQueueInlinePolicy(id: String, initializer: @AwsCdkDsl
-    CfnQueueInlinePolicy.Builder.() -> Unit = {}): CfnQueueInlinePolicy =
-    CfnQueueInlinePolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnQueueInlinePolicy(id: String, initializer: @AwsCdkDsl CfnQueueInlinePolicy.Builder.() -> Unit = {}): CfnQueueInlinePolicy = CfnQueueInlinePolicy.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnApplicationInferenceProfile
 
 @Generated
-public fun buildInferenceProfileModelProperty(initializer: @AwsCdkDsl
-    CfnApplicationInferenceProfile.InferenceProfileModelProperty.Builder.() -> Unit = {}):
-    CfnApplicationInferenceProfile.InferenceProfileModelProperty =
-    CfnApplicationInferenceProfile.InferenceProfileModelProperty.Builder().apply(initializer).build()
+public fun buildInferenceProfileModelProperty(initializer: @AwsCdkDsl CfnApplicationInferenceProfile.InferenceProfileModelProperty.Builder.() -> Unit = {}): CfnApplicationInferenceProfile.InferenceProfileModelProperty = CfnApplicationInferenceProfile.InferenceProfileModelProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.applicationinsights.CfnApplication
 
 @Generated
-public fun buildSQLServerPrometheusExporterProperty(initializer: @AwsCdkDsl
-    CfnApplication.SQLServerPrometheusExporterProperty.Builder.() -> Unit = {}):
-    CfnApplication.SQLServerPrometheusExporterProperty =
-    CfnApplication.SQLServerPrometheusExporterProperty.Builder().apply(initializer).build()
+public fun buildSQLServerPrometheusExporterProperty(initializer: @AwsCdkDsl CfnApplication.SQLServerPrometheusExporterProperty.Builder.() -> Unit = {}): CfnApplication.SQLServerPrometheusExporterProperty = CfnApplication.SQLServerPrometheusExporterProperty.Builder().apply(initializer).build()

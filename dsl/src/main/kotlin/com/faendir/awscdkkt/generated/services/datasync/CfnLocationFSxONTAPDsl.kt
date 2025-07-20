@@ -16,6 +16,4 @@ public fun Construct.cfnLocationFSxONTAP(
 ): CfnLocationFSxONTAP = CfnLocationFSxONTAP(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLocationFSxONTAP(id: String, initializer: @AwsCdkDsl
-    CfnLocationFSxONTAP.Builder.() -> Unit = {}): CfnLocationFSxONTAP =
-    CfnLocationFSxONTAP.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLocationFSxONTAP(id: String, initializer: @AwsCdkDsl CfnLocationFSxONTAP.Builder.() -> Unit = {}): CfnLocationFSxONTAP = CfnLocationFSxONTAP.Builder.create(this, id).apply(initializer).build()

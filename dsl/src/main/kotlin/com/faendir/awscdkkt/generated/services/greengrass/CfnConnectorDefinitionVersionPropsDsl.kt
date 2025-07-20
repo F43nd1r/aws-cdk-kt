@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.greengrass.CfnConnectorDefinitionVersionProps
 
 @Generated
-public fun buildCfnConnectorDefinitionVersionProps(initializer: @AwsCdkDsl
-    CfnConnectorDefinitionVersionProps.Builder.() -> Unit = {}): CfnConnectorDefinitionVersionProps
-    = CfnConnectorDefinitionVersionProps.Builder().apply(initializer).build()
+public fun buildCfnConnectorDefinitionVersionProps(initializer: @AwsCdkDsl CfnConnectorDefinitionVersionProps.Builder.() -> Unit = {}): CfnConnectorDefinitionVersionProps = CfnConnectorDefinitionVersionProps.Builder().apply(initializer).build()

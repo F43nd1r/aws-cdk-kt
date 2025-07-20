@@ -16,6 +16,4 @@ public fun Construct.cfnManagedLoginBranding(
 ): CfnManagedLoginBranding = CfnManagedLoginBranding(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnManagedLoginBranding(id: String, initializer: @AwsCdkDsl
-    CfnManagedLoginBranding.Builder.() -> Unit = {}): CfnManagedLoginBranding =
-    CfnManagedLoginBranding.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnManagedLoginBranding(id: String, initializer: @AwsCdkDsl CfnManagedLoginBranding.Builder.() -> Unit = {}): CfnManagedLoginBranding = CfnManagedLoginBranding.Builder.create(this, id).apply(initializer).build()

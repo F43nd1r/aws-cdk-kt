@@ -16,6 +16,4 @@ public fun Construct.graphqlApi(
 ): GraphqlApi = GraphqlApi(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildGraphqlApi(id: String, initializer: @AwsCdkDsl
-    GraphqlApi.Builder.() -> Unit = {}): GraphqlApi = GraphqlApi.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildGraphqlApi(id: String, initializer: @AwsCdkDsl GraphqlApi.Builder.() -> Unit = {}): GraphqlApi = GraphqlApi.Builder.create(this, id).apply(initializer).build()

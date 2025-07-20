@@ -16,6 +16,4 @@ public fun Construct.emrAddStep(
 ): EmrAddStep = EmrAddStep(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEmrAddStep(id: String, initializer: @AwsCdkDsl
-    EmrAddStep.Builder.() -> Unit = {}): EmrAddStep = EmrAddStep.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildEmrAddStep(id: String, initializer: @AwsCdkDsl EmrAddStep.Builder.() -> Unit = {}): EmrAddStep = EmrAddStep.Builder.create(this, id).apply(initializer).build()

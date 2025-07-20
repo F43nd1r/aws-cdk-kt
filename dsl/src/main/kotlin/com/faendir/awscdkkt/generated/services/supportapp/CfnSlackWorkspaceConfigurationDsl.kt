@@ -13,10 +13,7 @@ public fun Construct.cfnSlackWorkspaceConfiguration(
   id: String,
   props: CfnSlackWorkspaceConfigurationProps,
   initializer: @AwsCdkDsl CfnSlackWorkspaceConfiguration.() -> Unit = {},
-): CfnSlackWorkspaceConfiguration = CfnSlackWorkspaceConfiguration(this, id,
-    props).apply(initializer)
+): CfnSlackWorkspaceConfiguration = CfnSlackWorkspaceConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSlackWorkspaceConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnSlackWorkspaceConfiguration.Builder.() -> Unit = {}): CfnSlackWorkspaceConfiguration =
-    CfnSlackWorkspaceConfiguration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSlackWorkspaceConfiguration(id: String, initializer: @AwsCdkDsl CfnSlackWorkspaceConfiguration.Builder.() -> Unit = {}): CfnSlackWorkspaceConfiguration = CfnSlackWorkspaceConfiguration.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.ContainerOverrides
 
 @Generated
-public fun buildContainerOverrides(initializer: @AwsCdkDsl ContainerOverrides.Builder.() -> Unit =
-    {}): ContainerOverrides = ContainerOverrides.Builder().apply(initializer).build()
+public fun buildContainerOverrides(initializer: @AwsCdkDsl ContainerOverrides.Builder.() -> Unit = {}): ContainerOverrides = ContainerOverrides.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.sourceApiAssociation(
 ): SourceApiAssociation = SourceApiAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildSourceApiAssociation(id: String, initializer: @AwsCdkDsl
-    SourceApiAssociation.Builder.() -> Unit = {}): SourceApiAssociation =
-    SourceApiAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildSourceApiAssociation(id: String, initializer: @AwsCdkDsl SourceApiAssociation.Builder.() -> Unit = {}): SourceApiAssociation = SourceApiAssociation.Builder.create(this, id).apply(initializer).build()

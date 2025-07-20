@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.xray.CfnTransactionSearchConfigProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnTransactionSearchConfig(id: String, initializer: @AwsCdkDsl
-    CfnTransactionSearchConfig.() -> Unit = {}): CfnTransactionSearchConfig =
-    CfnTransactionSearchConfig(this, id).apply(initializer)
+public fun Construct.cfnTransactionSearchConfig(id: String, initializer: @AwsCdkDsl CfnTransactionSearchConfig.() -> Unit = {}): CfnTransactionSearchConfig = CfnTransactionSearchConfig(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnTransactionSearchConfig(
@@ -21,6 +19,4 @@ public fun Construct.cfnTransactionSearchConfig(
 ): CfnTransactionSearchConfig = CfnTransactionSearchConfig(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTransactionSearchConfig(id: String, initializer: @AwsCdkDsl
-    CfnTransactionSearchConfig.Builder.() -> Unit = {}): CfnTransactionSearchConfig =
-    CfnTransactionSearchConfig.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTransactionSearchConfig(id: String, initializer: @AwsCdkDsl CfnTransactionSearchConfig.Builder.() -> Unit = {}): CfnTransactionSearchConfig = CfnTransactionSearchConfig.Builder.create(this, id).apply(initializer).build()

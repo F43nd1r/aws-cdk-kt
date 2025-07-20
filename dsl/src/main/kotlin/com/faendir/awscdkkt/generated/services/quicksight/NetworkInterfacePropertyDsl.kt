@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnVPCConnection
 
 @Generated
-public fun buildNetworkInterfaceProperty(initializer: @AwsCdkDsl
-    CfnVPCConnection.NetworkInterfaceProperty.Builder.() -> Unit = {}):
-    CfnVPCConnection.NetworkInterfaceProperty =
-    CfnVPCConnection.NetworkInterfaceProperty.Builder().apply(initializer).build()
+public fun buildNetworkInterfaceProperty(initializer: @AwsCdkDsl CfnVPCConnection.NetworkInterfaceProperty.Builder.() -> Unit = {}): CfnVPCConnection.NetworkInterfaceProperty = CfnVPCConnection.NetworkInterfaceProperty.Builder().apply(initializer).build()

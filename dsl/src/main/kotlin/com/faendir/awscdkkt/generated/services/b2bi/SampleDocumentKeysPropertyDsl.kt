@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.b2bi.CfnTransformer
 
 @Generated
-public fun buildSampleDocumentKeysProperty(initializer: @AwsCdkDsl
-    CfnTransformer.SampleDocumentKeysProperty.Builder.() -> Unit = {}):
-    CfnTransformer.SampleDocumentKeysProperty =
-    CfnTransformer.SampleDocumentKeysProperty.Builder().apply(initializer).build()
+public fun buildSampleDocumentKeysProperty(initializer: @AwsCdkDsl CfnTransformer.SampleDocumentKeysProperty.Builder.() -> Unit = {}): CfnTransformer.SampleDocumentKeysProperty = CfnTransformer.SampleDocumentKeysProperty.Builder().apply(initializer).build()

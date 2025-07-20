@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotwireless.CfnWirelessGatewayProps
 
 @Generated
-public fun buildCfnWirelessGatewayProps(initializer: @AwsCdkDsl
-    CfnWirelessGatewayProps.Builder.() -> Unit = {}): CfnWirelessGatewayProps =
-    CfnWirelessGatewayProps.Builder().apply(initializer).build()
+public fun buildCfnWirelessGatewayProps(initializer: @AwsCdkDsl CfnWirelessGatewayProps.Builder.() -> Unit = {}): CfnWirelessGatewayProps = CfnWirelessGatewayProps.Builder().apply(initializer).build()

@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.iam.CfnServiceLinkedRoleProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnServiceLinkedRole(id: String, initializer: @AwsCdkDsl
-    CfnServiceLinkedRole.() -> Unit = {}): CfnServiceLinkedRole = CfnServiceLinkedRole(this,
-    id).apply(initializer)
+public fun Construct.cfnServiceLinkedRole(id: String, initializer: @AwsCdkDsl CfnServiceLinkedRole.() -> Unit = {}): CfnServiceLinkedRole = CfnServiceLinkedRole(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnServiceLinkedRole(
@@ -21,6 +19,4 @@ public fun Construct.cfnServiceLinkedRole(
 ): CfnServiceLinkedRole = CfnServiceLinkedRole(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnServiceLinkedRole(id: String, initializer: @AwsCdkDsl
-    CfnServiceLinkedRole.Builder.() -> Unit = {}): CfnServiceLinkedRole =
-    CfnServiceLinkedRole.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnServiceLinkedRole(id: String, initializer: @AwsCdkDsl CfnServiceLinkedRole.Builder.() -> Unit = {}): CfnServiceLinkedRole = CfnServiceLinkedRole.Builder.create(this, id).apply(initializer).build()

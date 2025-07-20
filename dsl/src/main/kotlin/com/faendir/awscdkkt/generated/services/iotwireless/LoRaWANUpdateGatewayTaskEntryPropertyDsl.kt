@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotwireless.CfnTaskDefinition
 
 @Generated
-public fun buildLoRaWANUpdateGatewayTaskEntryProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.LoRaWANUpdateGatewayTaskEntryProperty.Builder.() -> Unit = {}):
-    CfnTaskDefinition.LoRaWANUpdateGatewayTaskEntryProperty =
-    CfnTaskDefinition.LoRaWANUpdateGatewayTaskEntryProperty.Builder().apply(initializer).build()
+public fun buildLoRaWANUpdateGatewayTaskEntryProperty(initializer: @AwsCdkDsl CfnTaskDefinition.LoRaWANUpdateGatewayTaskEntryProperty.Builder.() -> Unit = {}): CfnTaskDefinition.LoRaWANUpdateGatewayTaskEntryProperty = CfnTaskDefinition.LoRaWANUpdateGatewayTaskEntryProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssmguiconnect.CfnPreferencesProps
 
 @Generated
-public fun buildCfnPreferencesProps(initializer: @AwsCdkDsl CfnPreferencesProps.Builder.() -> Unit =
-    {}): CfnPreferencesProps = CfnPreferencesProps.Builder().apply(initializer).build()
+public fun buildCfnPreferencesProps(initializer: @AwsCdkDsl CfnPreferencesProps.Builder.() -> Unit = {}): CfnPreferencesProps = CfnPreferencesProps.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.callApiGatewayHttpApiEndpoint(
 ): CallApiGatewayHttpApiEndpoint = CallApiGatewayHttpApiEndpoint(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCallApiGatewayHttpApiEndpoint(id: String, initializer: @AwsCdkDsl
-    CallApiGatewayHttpApiEndpoint.Builder.() -> Unit = {}): CallApiGatewayHttpApiEndpoint =
-    CallApiGatewayHttpApiEndpoint.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCallApiGatewayHttpApiEndpoint(id: String, initializer: @AwsCdkDsl CallApiGatewayHttpApiEndpoint.Builder.() -> Unit = {}): CallApiGatewayHttpApiEndpoint = CallApiGatewayHttpApiEndpoint.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.CustomReason
 
 @Generated
-public fun buildCustomReason(initializer: @AwsCdkDsl CustomReason.Builder.() -> Unit = {}):
-    CustomReason = CustomReason.Builder().apply(initializer).build()
+public fun buildCustomReason(initializer: @AwsCdkDsl CustomReason.Builder.() -> Unit = {}): CustomReason = CustomReason.Builder().apply(initializer).build()

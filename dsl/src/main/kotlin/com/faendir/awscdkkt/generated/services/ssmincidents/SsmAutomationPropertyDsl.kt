@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssmincidents.CfnResponsePlan
 
 @Generated
-public fun buildSsmAutomationProperty(initializer: @AwsCdkDsl
-    CfnResponsePlan.SsmAutomationProperty.Builder.() -> Unit = {}):
-    CfnResponsePlan.SsmAutomationProperty =
-    CfnResponsePlan.SsmAutomationProperty.Builder().apply(initializer).build()
+public fun buildSsmAutomationProperty(initializer: @AwsCdkDsl CfnResponsePlan.SsmAutomationProperty.Builder.() -> Unit = {}): CfnResponsePlan.SsmAutomationProperty = CfnResponsePlan.SsmAutomationProperty.Builder().apply(initializer).build()

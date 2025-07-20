@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appconfig.CfnHostedConfigurationVersionProps
 
 @Generated
-public fun buildCfnHostedConfigurationVersionProps(initializer: @AwsCdkDsl
-    CfnHostedConfigurationVersionProps.Builder.() -> Unit = {}): CfnHostedConfigurationVersionProps
-    = CfnHostedConfigurationVersionProps.Builder().apply(initializer).build()
+public fun buildCfnHostedConfigurationVersionProps(initializer: @AwsCdkDsl CfnHostedConfigurationVersionProps.Builder.() -> Unit = {}): CfnHostedConfigurationVersionProps = CfnHostedConfigurationVersionProps.Builder().apply(initializer).build()

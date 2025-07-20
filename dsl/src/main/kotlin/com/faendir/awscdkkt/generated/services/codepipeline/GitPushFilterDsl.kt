@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.GitPushFilter
 
 @Generated
-public fun buildGitPushFilter(initializer: @AwsCdkDsl GitPushFilter.Builder.() -> Unit = {}):
-    GitPushFilter = GitPushFilter.Builder().apply(initializer).build()
+public fun buildGitPushFilter(initializer: @AwsCdkDsl GitPushFilter.Builder.() -> Unit = {}): GitPushFilter = GitPushFilter.Builder().apply(initializer).build()

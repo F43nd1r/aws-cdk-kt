@@ -9,9 +9,7 @@ import software.amazon.awscdk.CfnWaitConditionHandleProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnWaitConditionHandle(id: String, initializer: @AwsCdkDsl
-    CfnWaitConditionHandle.() -> Unit = {}): CfnWaitConditionHandle = CfnWaitConditionHandle(this,
-    id).apply(initializer)
+public fun Construct.cfnWaitConditionHandle(id: String, initializer: @AwsCdkDsl CfnWaitConditionHandle.() -> Unit = {}): CfnWaitConditionHandle = CfnWaitConditionHandle(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnWaitConditionHandle(
@@ -21,6 +19,4 @@ public fun Construct.cfnWaitConditionHandle(
 ): CfnWaitConditionHandle = CfnWaitConditionHandle(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnWaitConditionHandle(id: String, initializer: @AwsCdkDsl
-    CfnWaitConditionHandle.Builder.() -> Unit = {}): CfnWaitConditionHandle =
-    CfnWaitConditionHandle.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnWaitConditionHandle(id: String, initializer: @AwsCdkDsl CfnWaitConditionHandle.Builder.() -> Unit = {}): CfnWaitConditionHandle = CfnWaitConditionHandle.Builder.create(this, id).apply(initializer).build()

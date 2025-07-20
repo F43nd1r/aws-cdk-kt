@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.efs.CfnFileSystem
 
 @Generated
-public fun buildFileSystemProtectionProperty(initializer: @AwsCdkDsl
-    CfnFileSystem.FileSystemProtectionProperty.Builder.() -> Unit = {}):
-    CfnFileSystem.FileSystemProtectionProperty =
-    CfnFileSystem.FileSystemProtectionProperty.Builder().apply(initializer).build()
+public fun buildFileSystemProtectionProperty(initializer: @AwsCdkDsl CfnFileSystem.FileSystemProtectionProperty.Builder.() -> Unit = {}): CfnFileSystem.FileSystemProtectionProperty = CfnFileSystem.FileSystemProtectionProperty.Builder().apply(initializer).build()

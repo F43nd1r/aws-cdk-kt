@@ -16,6 +16,4 @@ public fun Construct.cfnStreamProcessor(
 ): CfnStreamProcessor = CfnStreamProcessor(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnStreamProcessor(id: String, initializer: @AwsCdkDsl
-    CfnStreamProcessor.Builder.() -> Unit = {}): CfnStreamProcessor =
-    CfnStreamProcessor.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnStreamProcessor(id: String, initializer: @AwsCdkDsl CfnStreamProcessor.Builder.() -> Unit = {}): CfnStreamProcessor = CfnStreamProcessor.Builder.create(this, id).apply(initializer).build()

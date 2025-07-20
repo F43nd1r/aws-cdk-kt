@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
-public fun buildSAPODataParallelismConfigProperty(initializer: @AwsCdkDsl
-    CfnFlow.SAPODataParallelismConfigProperty.Builder.() -> Unit = {}):
-    CfnFlow.SAPODataParallelismConfigProperty =
-    CfnFlow.SAPODataParallelismConfigProperty.Builder().apply(initializer).build()
+public fun buildSAPODataParallelismConfigProperty(initializer: @AwsCdkDsl CfnFlow.SAPODataParallelismConfigProperty.Builder.() -> Unit = {}): CfnFlow.SAPODataParallelismConfigProperty = CfnFlow.SAPODataParallelismConfigProperty.Builder().apply(initializer).build()

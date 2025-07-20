@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.paymentcryptography.CfnKey
 
 @Generated
-public fun buildKeyModesOfUseProperty(initializer: @AwsCdkDsl
-    CfnKey.KeyModesOfUseProperty.Builder.() -> Unit = {}): CfnKey.KeyModesOfUseProperty =
-    CfnKey.KeyModesOfUseProperty.Builder().apply(initializer).build()
+public fun buildKeyModesOfUseProperty(initializer: @AwsCdkDsl CfnKey.KeyModesOfUseProperty.Builder.() -> Unit = {}): CfnKey.KeyModesOfUseProperty = CfnKey.KeyModesOfUseProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotwireless.CfnWirelessDeviceImportTaskProps
 
 @Generated
-public fun buildCfnWirelessDeviceImportTaskProps(initializer: @AwsCdkDsl
-    CfnWirelessDeviceImportTaskProps.Builder.() -> Unit = {}): CfnWirelessDeviceImportTaskProps =
-    CfnWirelessDeviceImportTaskProps.Builder().apply(initializer).build()
+public fun buildCfnWirelessDeviceImportTaskProps(initializer: @AwsCdkDsl CfnWirelessDeviceImportTaskProps.Builder.() -> Unit = {}): CfnWirelessDeviceImportTaskProps = CfnWirelessDeviceImportTaskProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.CognitoUserPoolsAuthorizerProps
 
 @Generated
-public fun buildCognitoUserPoolsAuthorizerProps(initializer: @AwsCdkDsl
-    CognitoUserPoolsAuthorizerProps.Builder.() -> Unit = {}): CognitoUserPoolsAuthorizerProps =
-    CognitoUserPoolsAuthorizerProps.Builder().apply(initializer).build()
+public fun buildCognitoUserPoolsAuthorizerProps(initializer: @AwsCdkDsl CognitoUserPoolsAuthorizerProps.Builder.() -> Unit = {}): CognitoUserPoolsAuthorizerProps = CognitoUserPoolsAuthorizerProps.Builder().apply(initializer).build()

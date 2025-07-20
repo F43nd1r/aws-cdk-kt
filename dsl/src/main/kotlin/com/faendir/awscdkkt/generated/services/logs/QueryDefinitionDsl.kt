@@ -16,6 +16,4 @@ public fun Construct.queryDefinition(
 ): QueryDefinition = QueryDefinition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildQueryDefinition(id: String, initializer: @AwsCdkDsl
-    QueryDefinition.Builder.() -> Unit = {}): QueryDefinition = QueryDefinition.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildQueryDefinition(id: String, initializer: @AwsCdkDsl QueryDefinition.Builder.() -> Unit = {}): QueryDefinition = QueryDefinition.Builder.create(this, id).apply(initializer).build()

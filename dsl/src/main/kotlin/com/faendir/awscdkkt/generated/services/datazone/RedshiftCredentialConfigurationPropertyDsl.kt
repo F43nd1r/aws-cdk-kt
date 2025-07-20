@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnDataSource
 
 @Generated
-public fun buildRedshiftCredentialConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.RedshiftCredentialConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDataSource.RedshiftCredentialConfigurationProperty =
-    CfnDataSource.RedshiftCredentialConfigurationProperty.Builder().apply(initializer).build()
+public fun buildRedshiftCredentialConfigurationProperty(initializer: @AwsCdkDsl CfnDataSource.RedshiftCredentialConfigurationProperty.Builder.() -> Unit = {}): CfnDataSource.RedshiftCredentialConfigurationProperty = CfnDataSource.RedshiftCredentialConfigurationProperty.Builder().apply(initializer).build()

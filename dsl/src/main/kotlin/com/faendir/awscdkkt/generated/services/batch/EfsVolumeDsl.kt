@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.EfsVolume
 
 @Generated
-public fun buildEfsVolume(initializer: @AwsCdkDsl EfsVolume.Builder.() -> Unit = {}): EfsVolume =
-    EfsVolume.Builder.create().apply(initializer).build()
+public fun buildEfsVolume(initializer: @AwsCdkDsl EfsVolume.Builder.() -> Unit = {}): EfsVolume = EfsVolume.Builder.create().apply(initializer).build()

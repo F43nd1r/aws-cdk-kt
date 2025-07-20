@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codedeploy.ServerApplicationProps
 
 @Generated
-public fun buildServerApplicationProps(initializer: @AwsCdkDsl
-    ServerApplicationProps.Builder.() -> Unit = {}): ServerApplicationProps =
-    ServerApplicationProps.Builder().apply(initializer).build()
+public fun buildServerApplicationProps(initializer: @AwsCdkDsl ServerApplicationProps.Builder.() -> Unit = {}): ServerApplicationProps = ServerApplicationProps.Builder().apply(initializer).build()

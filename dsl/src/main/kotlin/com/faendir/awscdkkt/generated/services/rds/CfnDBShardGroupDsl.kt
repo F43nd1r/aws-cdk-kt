@@ -16,6 +16,4 @@ public fun Construct.cfnDBShardGroup(
 ): CfnDBShardGroup = CfnDBShardGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDBShardGroup(id: String, initializer: @AwsCdkDsl
-    CfnDBShardGroup.Builder.() -> Unit = {}): CfnDBShardGroup = CfnDBShardGroup.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnDBShardGroup(id: String, initializer: @AwsCdkDsl CfnDBShardGroup.Builder.() -> Unit = {}): CfnDBShardGroup = CfnDBShardGroup.Builder.create(this, id).apply(initializer).build()

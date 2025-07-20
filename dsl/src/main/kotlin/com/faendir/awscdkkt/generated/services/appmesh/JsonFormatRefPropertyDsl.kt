@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnVirtualNode
 
 @Generated
-public fun buildJsonFormatRefProperty(initializer: @AwsCdkDsl
-    CfnVirtualNode.JsonFormatRefProperty.Builder.() -> Unit = {}):
-    CfnVirtualNode.JsonFormatRefProperty =
-    CfnVirtualNode.JsonFormatRefProperty.Builder().apply(initializer).build()
+public fun buildJsonFormatRefProperty(initializer: @AwsCdkDsl CfnVirtualNode.JsonFormatRefProperty.Builder.() -> Unit = {}): CfnVirtualNode.JsonFormatRefProperty = CfnVirtualNode.JsonFormatRefProperty.Builder().apply(initializer).build()

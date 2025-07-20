@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildTimecodeConfigProperty(initializer: @AwsCdkDsl
-    CfnChannel.TimecodeConfigProperty.Builder.() -> Unit = {}): CfnChannel.TimecodeConfigProperty =
-    CfnChannel.TimecodeConfigProperty.Builder().apply(initializer).build()
+public fun buildTimecodeConfigProperty(initializer: @AwsCdkDsl CfnChannel.TimecodeConfigProperty.Builder.() -> Unit = {}): CfnChannel.TimecodeConfigProperty = CfnChannel.TimecodeConfigProperty.Builder().apply(initializer).build()

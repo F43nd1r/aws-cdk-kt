@@ -16,6 +16,4 @@ public fun Construct.cfnScheduledQuery(
 ): CfnScheduledQuery = CfnScheduledQuery(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnScheduledQuery(id: String, initializer: @AwsCdkDsl
-    CfnScheduledQuery.Builder.() -> Unit = {}): CfnScheduledQuery =
-    CfnScheduledQuery.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnScheduledQuery(id: String, initializer: @AwsCdkDsl CfnScheduledQuery.Builder.() -> Unit = {}): CfnScheduledQuery = CfnScheduledQuery.Builder.create(this, id).apply(initializer).build()

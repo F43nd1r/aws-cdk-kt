@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mpa.CfnApprovalTeam
 
 @Generated
-public fun buildMofNApprovalStrategyProperty(initializer: @AwsCdkDsl
-    CfnApprovalTeam.MofNApprovalStrategyProperty.Builder.() -> Unit = {}):
-    CfnApprovalTeam.MofNApprovalStrategyProperty =
-    CfnApprovalTeam.MofNApprovalStrategyProperty.Builder().apply(initializer).build()
+public fun buildMofNApprovalStrategyProperty(initializer: @AwsCdkDsl CfnApprovalTeam.MofNApprovalStrategyProperty.Builder.() -> Unit = {}): CfnApprovalTeam.MofNApprovalStrategyProperty = CfnApprovalTeam.MofNApprovalStrategyProperty.Builder().apply(initializer).build()

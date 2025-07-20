@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.InstanceEngineConfig
 
 @Generated
-public fun buildInstanceEngineConfig(initializer: @AwsCdkDsl InstanceEngineConfig.Builder.() -> Unit
-    = {}): InstanceEngineConfig = InstanceEngineConfig.Builder().apply(initializer).build()
+public fun buildInstanceEngineConfig(initializer: @AwsCdkDsl InstanceEngineConfig.Builder.() -> Unit = {}): InstanceEngineConfig = InstanceEngineConfig.Builder().apply(initializer).build()

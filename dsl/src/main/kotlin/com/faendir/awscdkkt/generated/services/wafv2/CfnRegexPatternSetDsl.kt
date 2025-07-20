@@ -16,6 +16,4 @@ public fun Construct.cfnRegexPatternSet(
 ): CfnRegexPatternSet = CfnRegexPatternSet(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRegexPatternSet(id: String, initializer: @AwsCdkDsl
-    CfnRegexPatternSet.Builder.() -> Unit = {}): CfnRegexPatternSet =
-    CfnRegexPatternSet.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRegexPatternSet(id: String, initializer: @AwsCdkDsl CfnRegexPatternSet.Builder.() -> Unit = {}): CfnRegexPatternSet = CfnRegexPatternSet.Builder.create(this, id).apply(initializer).build()

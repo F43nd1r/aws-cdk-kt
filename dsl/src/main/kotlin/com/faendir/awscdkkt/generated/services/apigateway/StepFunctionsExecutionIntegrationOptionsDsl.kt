@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.StepFunctionsExecutionIntegrationOptions
 
 @Generated
-public fun buildStepFunctionsExecutionIntegrationOptions(initializer: @AwsCdkDsl
-    StepFunctionsExecutionIntegrationOptions.Builder.() -> Unit = {}):
-    StepFunctionsExecutionIntegrationOptions =
-    StepFunctionsExecutionIntegrationOptions.Builder().apply(initializer).build()
+public fun buildStepFunctionsExecutionIntegrationOptions(initializer: @AwsCdkDsl StepFunctionsExecutionIntegrationOptions.Builder.() -> Unit = {}): StepFunctionsExecutionIntegrationOptions = StepFunctionsExecutionIntegrationOptions.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kafkaconnect.CfnConnector
 
 @Generated
-public fun buildWorkerConfigurationProperty(initializer: @AwsCdkDsl
-    CfnConnector.WorkerConfigurationProperty.Builder.() -> Unit = {}):
-    CfnConnector.WorkerConfigurationProperty =
-    CfnConnector.WorkerConfigurationProperty.Builder().apply(initializer).build()
+public fun buildWorkerConfigurationProperty(initializer: @AwsCdkDsl CfnConnector.WorkerConfigurationProperty.Builder.() -> Unit = {}): CfnConnector.WorkerConfigurationProperty = CfnConnector.WorkerConfigurationProperty.Builder().apply(initializer).build()

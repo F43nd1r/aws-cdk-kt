@@ -16,6 +16,4 @@ public fun Construct.cognitoUserPoolsAuthorizer(
 ): CognitoUserPoolsAuthorizer = CognitoUserPoolsAuthorizer(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCognitoUserPoolsAuthorizer(id: String, initializer: @AwsCdkDsl
-    CognitoUserPoolsAuthorizer.Builder.() -> Unit = {}): CognitoUserPoolsAuthorizer =
-    CognitoUserPoolsAuthorizer.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCognitoUserPoolsAuthorizer(id: String, initializer: @AwsCdkDsl CognitoUserPoolsAuthorizer.Builder.() -> Unit = {}): CognitoUserPoolsAuthorizer = CognitoUserPoolsAuthorizer.Builder.create(this, id).apply(initializer).build()

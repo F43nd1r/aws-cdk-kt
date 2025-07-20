@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pcs.CfnComputeNodeGroup
 
 @Generated
-public fun buildInstanceConfigProperty(initializer: @AwsCdkDsl
-    CfnComputeNodeGroup.InstanceConfigProperty.Builder.() -> Unit = {}):
-    CfnComputeNodeGroup.InstanceConfigProperty =
-    CfnComputeNodeGroup.InstanceConfigProperty.Builder().apply(initializer).build()
+public fun buildInstanceConfigProperty(initializer: @AwsCdkDsl CfnComputeNodeGroup.InstanceConfigProperty.Builder.() -> Unit = {}): CfnComputeNodeGroup.InstanceConfigProperty = CfnComputeNodeGroup.InstanceConfigProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
-public fun buildFilterOperationProperty(initializer: @AwsCdkDsl
-    CfnDataSet.FilterOperationProperty.Builder.() -> Unit = {}): CfnDataSet.FilterOperationProperty
-    = CfnDataSet.FilterOperationProperty.Builder().apply(initializer).build()
+public fun buildFilterOperationProperty(initializer: @AwsCdkDsl CfnDataSet.FilterOperationProperty.Builder.() -> Unit = {}): CfnDataSet.FilterOperationProperty = CfnDataSet.FilterOperationProperty.Builder().apply(initializer).build()

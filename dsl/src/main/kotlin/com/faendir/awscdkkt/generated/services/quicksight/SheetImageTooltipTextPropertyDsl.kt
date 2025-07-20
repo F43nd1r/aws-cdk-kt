@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildSheetImageTooltipTextProperty(initializer: @AwsCdkDsl
-    CfnTemplate.SheetImageTooltipTextProperty.Builder.() -> Unit = {}):
-    CfnTemplate.SheetImageTooltipTextProperty =
-    CfnTemplate.SheetImageTooltipTextProperty.Builder().apply(initializer).build()
+public fun buildSheetImageTooltipTextProperty(initializer: @AwsCdkDsl CfnTemplate.SheetImageTooltipTextProperty.Builder.() -> Unit = {}): CfnTemplate.SheetImageTooltipTextProperty = CfnTemplate.SheetImageTooltipTextProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnImageVersion(
 ): CfnImageVersion = CfnImageVersion(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnImageVersion(id: String, initializer: @AwsCdkDsl
-    CfnImageVersion.Builder.() -> Unit = {}): CfnImageVersion = CfnImageVersion.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnImageVersion(id: String, initializer: @AwsCdkDsl CfnImageVersion.Builder.() -> Unit = {}): CfnImageVersion = CfnImageVersion.Builder.create(this, id).apply(initializer).build()

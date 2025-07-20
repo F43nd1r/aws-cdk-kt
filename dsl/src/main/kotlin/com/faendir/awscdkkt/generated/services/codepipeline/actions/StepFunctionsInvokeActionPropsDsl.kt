@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.StepFunctionsInvokeActionProps
 
 @Generated
-public fun buildStepFunctionsInvokeActionProps(initializer: @AwsCdkDsl
-    StepFunctionsInvokeActionProps.Builder.() -> Unit = {}): StepFunctionsInvokeActionProps =
-    StepFunctionsInvokeActionProps.Builder().apply(initializer).build()
+public fun buildStepFunctionsInvokeActionProps(initializer: @AwsCdkDsl StepFunctionsInvokeActionProps.Builder.() -> Unit = {}): StepFunctionsInvokeActionProps = StepFunctionsInvokeActionProps.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.actions.Stop
 
 @Generated
-public fun buildStop(initializer: @AwsCdkDsl Stop.Builder.() -> Unit = {}): Stop =
-    Stop.Builder.create().apply(initializer).build()
+public fun buildStop(initializer: @AwsCdkDsl Stop.Builder.() -> Unit = {}): Stop = Stop.Builder.create().apply(initializer).build()

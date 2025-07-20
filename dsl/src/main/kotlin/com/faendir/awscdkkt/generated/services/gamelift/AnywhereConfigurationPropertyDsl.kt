@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnFleet
 
 @Generated
-public fun buildAnywhereConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFleet.AnywhereConfigurationProperty.Builder.() -> Unit = {}):
-    CfnFleet.AnywhereConfigurationProperty =
-    CfnFleet.AnywhereConfigurationProperty.Builder().apply(initializer).build()
+public fun buildAnywhereConfigurationProperty(initializer: @AwsCdkDsl CfnFleet.AnywhereConfigurationProperty.Builder.() -> Unit = {}): CfnFleet.AnywhereConfigurationProperty = CfnFleet.AnywhereConfigurationProperty.Builder().apply(initializer).build()

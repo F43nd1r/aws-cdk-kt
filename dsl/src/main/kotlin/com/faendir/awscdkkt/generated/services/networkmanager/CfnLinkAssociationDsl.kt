@@ -16,6 +16,4 @@ public fun Construct.cfnLinkAssociation(
 ): CfnLinkAssociation = CfnLinkAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLinkAssociation(id: String, initializer: @AwsCdkDsl
-    CfnLinkAssociation.Builder.() -> Unit = {}): CfnLinkAssociation =
-    CfnLinkAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLinkAssociation(id: String, initializer: @AwsCdkDsl CfnLinkAssociation.Builder.() -> Unit = {}): CfnLinkAssociation = CfnLinkAssociation.Builder.create(this, id).apply(initializer).build()

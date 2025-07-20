@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloudassembly.schema.FeatureFlagReportProperties
 
 @Generated
-public fun buildFeatureFlagReportProperties(initializer: @AwsCdkDsl
-    FeatureFlagReportProperties.Builder.() -> Unit = {}): FeatureFlagReportProperties =
-    FeatureFlagReportProperties.Builder().apply(initializer).build()
+public fun buildFeatureFlagReportProperties(initializer: @AwsCdkDsl FeatureFlagReportProperties.Builder.() -> Unit = {}): FeatureFlagReportProperties = FeatureFlagReportProperties.Builder().apply(initializer).build()

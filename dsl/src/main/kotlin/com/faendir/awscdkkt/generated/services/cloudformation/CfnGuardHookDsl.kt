@@ -16,6 +16,4 @@ public fun Construct.cfnGuardHook(
 ): CfnGuardHook = CfnGuardHook(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnGuardHook(id: String, initializer: @AwsCdkDsl
-    CfnGuardHook.Builder.() -> Unit = {}): CfnGuardHook = CfnGuardHook.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnGuardHook(id: String, initializer: @AwsCdkDsl CfnGuardHook.Builder.() -> Unit = {}): CfnGuardHook = CfnGuardHook.Builder.create(this, id).apply(initializer).build()

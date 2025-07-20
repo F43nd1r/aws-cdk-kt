@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.CfnJobQueueProps
 
 @Generated
-public fun buildCfnJobQueueProps(initializer: @AwsCdkDsl CfnJobQueueProps.Builder.() -> Unit = {}):
-    CfnJobQueueProps = CfnJobQueueProps.Builder().apply(initializer).build()
+public fun buildCfnJobQueueProps(initializer: @AwsCdkDsl CfnJobQueueProps.Builder.() -> Unit = {}): CfnJobQueueProps = CfnJobQueueProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ivschat.CfnLoggingConfiguration
 
 @Generated
-public fun buildFirehoseDestinationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnLoggingConfiguration.FirehoseDestinationConfigurationProperty.Builder.() -> Unit = {}):
-    CfnLoggingConfiguration.FirehoseDestinationConfigurationProperty =
-    CfnLoggingConfiguration.FirehoseDestinationConfigurationProperty.Builder().apply(initializer).build()
+public fun buildFirehoseDestinationConfigurationProperty(initializer: @AwsCdkDsl CfnLoggingConfiguration.FirehoseDestinationConfigurationProperty.Builder.() -> Unit = {}): CfnLoggingConfiguration.FirehoseDestinationConfigurationProperty = CfnLoggingConfiguration.FirehoseDestinationConfigurationProperty.Builder().apply(initializer).build()

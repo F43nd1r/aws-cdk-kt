@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnInstance
 
 @Generated
-public fun buildVolumeProperty(initializer: @AwsCdkDsl CfnInstance.VolumeProperty.Builder.() -> Unit
-    = {}): CfnInstance.VolumeProperty =
-    CfnInstance.VolumeProperty.Builder().apply(initializer).build()
+public fun buildVolumeProperty(initializer: @AwsCdkDsl CfnInstance.VolumeProperty.Builder.() -> Unit = {}): CfnInstance.VolumeProperty = CfnInstance.VolumeProperty.Builder().apply(initializer).build()

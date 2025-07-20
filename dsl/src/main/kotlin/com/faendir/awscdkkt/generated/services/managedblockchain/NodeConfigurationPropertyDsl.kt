@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.managedblockchain.CfnNode
 
 @Generated
-public fun buildNodeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnNode.NodeConfigurationProperty.Builder.() -> Unit = {}): CfnNode.NodeConfigurationProperty =
-    CfnNode.NodeConfigurationProperty.Builder().apply(initializer).build()
+public fun buildNodeConfigurationProperty(initializer: @AwsCdkDsl CfnNode.NodeConfigurationProperty.Builder.() -> Unit = {}): CfnNode.NodeConfigurationProperty = CfnNode.NodeConfigurationProperty.Builder().apply(initializer).build()

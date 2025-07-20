@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pcs.CfnCluster
 
 @Generated
-public fun buildAuthKeyProperty(initializer: @AwsCdkDsl
-    CfnCluster.AuthKeyProperty.Builder.() -> Unit = {}): CfnCluster.AuthKeyProperty =
-    CfnCluster.AuthKeyProperty.Builder().apply(initializer).build()
+public fun buildAuthKeyProperty(initializer: @AwsCdkDsl CfnCluster.AuthKeyProperty.Builder.() -> Unit = {}): CfnCluster.AuthKeyProperty = CfnCluster.AuthKeyProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opsworks.CfnLayer
 
 @Generated
-public fun buildLifecycleEventConfigurationProperty(initializer: @AwsCdkDsl
-    CfnLayer.LifecycleEventConfigurationProperty.Builder.() -> Unit = {}):
-    CfnLayer.LifecycleEventConfigurationProperty =
-    CfnLayer.LifecycleEventConfigurationProperty.Builder().apply(initializer).build()
+public fun buildLifecycleEventConfigurationProperty(initializer: @AwsCdkDsl CfnLayer.LifecycleEventConfigurationProperty.Builder.() -> Unit = {}): CfnLayer.LifecycleEventConfigurationProperty = CfnLayer.LifecycleEventConfigurationProperty.Builder().apply(initializer).build()

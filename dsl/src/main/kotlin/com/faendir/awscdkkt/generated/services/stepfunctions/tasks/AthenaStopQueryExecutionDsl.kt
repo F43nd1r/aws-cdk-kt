@@ -16,6 +16,4 @@ public fun Construct.athenaStopQueryExecution(
 ): AthenaStopQueryExecution = AthenaStopQueryExecution(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAthenaStopQueryExecution(id: String, initializer: @AwsCdkDsl
-    AthenaStopQueryExecution.Builder.() -> Unit = {}): AthenaStopQueryExecution =
-    AthenaStopQueryExecution.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildAthenaStopQueryExecution(id: String, initializer: @AwsCdkDsl AthenaStopQueryExecution.Builder.() -> Unit = {}): AthenaStopQueryExecution = AthenaStopQueryExecution.Builder.create(this, id).apply(initializer).build()

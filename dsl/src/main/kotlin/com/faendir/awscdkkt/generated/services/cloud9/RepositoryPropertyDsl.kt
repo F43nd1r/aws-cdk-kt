@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloud9.CfnEnvironmentEC2
 
 @Generated
-public fun buildRepositoryProperty(initializer: @AwsCdkDsl
-    CfnEnvironmentEC2.RepositoryProperty.Builder.() -> Unit = {}):
-    CfnEnvironmentEC2.RepositoryProperty =
-    CfnEnvironmentEC2.RepositoryProperty.Builder().apply(initializer).build()
+public fun buildRepositoryProperty(initializer: @AwsCdkDsl CfnEnvironmentEC2.RepositoryProperty.Builder.() -> Unit = {}): CfnEnvironmentEC2.RepositoryProperty = CfnEnvironmentEC2.RepositoryProperty.Builder().apply(initializer).build()

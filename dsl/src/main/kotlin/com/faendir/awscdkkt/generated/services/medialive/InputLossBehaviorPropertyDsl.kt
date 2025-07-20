@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildInputLossBehaviorProperty(initializer: @AwsCdkDsl
-    CfnChannel.InputLossBehaviorProperty.Builder.() -> Unit = {}):
-    CfnChannel.InputLossBehaviorProperty =
-    CfnChannel.InputLossBehaviorProperty.Builder().apply(initializer).build()
+public fun buildInputLossBehaviorProperty(initializer: @AwsCdkDsl CfnChannel.InputLossBehaviorProperty.Builder.() -> Unit = {}): CfnChannel.InputLossBehaviorProperty = CfnChannel.InputLossBehaviorProperty.Builder().apply(initializer).build()

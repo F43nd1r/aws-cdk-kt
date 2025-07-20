@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnStorageLensGroup
 
 @Generated
-public fun buildFilterProperty(initializer: @AwsCdkDsl
-    CfnStorageLensGroup.FilterProperty.Builder.() -> Unit = {}): CfnStorageLensGroup.FilterProperty
-    = CfnStorageLensGroup.FilterProperty.Builder().apply(initializer).build()
+public fun buildFilterProperty(initializer: @AwsCdkDsl CfnStorageLensGroup.FilterProperty.Builder.() -> Unit = {}): CfnStorageLensGroup.FilterProperty = CfnStorageLensGroup.FilterProperty.Builder().apply(initializer).build()

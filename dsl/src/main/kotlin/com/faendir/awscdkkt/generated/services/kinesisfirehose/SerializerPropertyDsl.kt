@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
-public fun buildSerializerProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.SerializerProperty.Builder.() -> Unit = {}):
-    CfnDeliveryStream.SerializerProperty =
-    CfnDeliveryStream.SerializerProperty.Builder().apply(initializer).build()
+public fun buildSerializerProperty(initializer: @AwsCdkDsl CfnDeliveryStream.SerializerProperty.Builder.() -> Unit = {}): CfnDeliveryStream.SerializerProperty = CfnDeliveryStream.SerializerProperty.Builder().apply(initializer).build()

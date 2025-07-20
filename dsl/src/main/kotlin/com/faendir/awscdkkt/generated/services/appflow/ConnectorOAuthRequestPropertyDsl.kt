@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnConnectorProfile
 
 @Generated
-public fun buildConnectorOAuthRequestProperty(initializer: @AwsCdkDsl
-    CfnConnectorProfile.ConnectorOAuthRequestProperty.Builder.() -> Unit = {}):
-    CfnConnectorProfile.ConnectorOAuthRequestProperty =
-    CfnConnectorProfile.ConnectorOAuthRequestProperty.Builder().apply(initializer).build()
+public fun buildConnectorOAuthRequestProperty(initializer: @AwsCdkDsl CfnConnectorProfile.ConnectorOAuthRequestProperty.Builder.() -> Unit = {}): CfnConnectorProfile.ConnectorOAuthRequestProperty = CfnConnectorProfile.ConnectorOAuthRequestProperty.Builder().apply(initializer).build()

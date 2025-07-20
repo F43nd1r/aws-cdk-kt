@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnCommand
 
 @Generated
-public fun buildCommandPayloadProperty(initializer: @AwsCdkDsl
-    CfnCommand.CommandPayloadProperty.Builder.() -> Unit = {}): CfnCommand.CommandPayloadProperty =
-    CfnCommand.CommandPayloadProperty.Builder().apply(initializer).build()
+public fun buildCommandPayloadProperty(initializer: @AwsCdkDsl CfnCommand.CommandPayloadProperty.Builder.() -> Unit = {}): CfnCommand.CommandPayloadProperty = CfnCommand.CommandPayloadProperty.Builder().apply(initializer).build()

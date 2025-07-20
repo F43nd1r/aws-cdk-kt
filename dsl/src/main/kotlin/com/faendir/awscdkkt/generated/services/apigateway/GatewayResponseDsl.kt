@@ -16,6 +16,4 @@ public fun Construct.gatewayResponse(
 ): GatewayResponse = GatewayResponse(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildGatewayResponse(id: String, initializer: @AwsCdkDsl
-    GatewayResponse.Builder.() -> Unit = {}): GatewayResponse = GatewayResponse.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildGatewayResponse(id: String, initializer: @AwsCdkDsl GatewayResponse.Builder.() -> Unit = {}): GatewayResponse = GatewayResponse.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.BaseDataSourceProps
 
 @Generated
-public fun buildBaseDataSourceProps(initializer: @AwsCdkDsl BaseDataSourceProps.Builder.() -> Unit =
-    {}): BaseDataSourceProps = BaseDataSourceProps.Builder().apply(initializer).build()
+public fun buildBaseDataSourceProps(initializer: @AwsCdkDsl BaseDataSourceProps.Builder.() -> Unit = {}): BaseDataSourceProps = BaseDataSourceProps.Builder().apply(initializer).build()

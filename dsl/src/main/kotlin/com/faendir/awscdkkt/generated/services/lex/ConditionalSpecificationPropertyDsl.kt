@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildConditionalSpecificationProperty(initializer: @AwsCdkDsl
-    CfnBot.ConditionalSpecificationProperty.Builder.() -> Unit = {}):
-    CfnBot.ConditionalSpecificationProperty =
-    CfnBot.ConditionalSpecificationProperty.Builder().apply(initializer).build()
+public fun buildConditionalSpecificationProperty(initializer: @AwsCdkDsl CfnBot.ConditionalSpecificationProperty.Builder.() -> Unit = {}): CfnBot.ConditionalSpecificationProperty = CfnBot.ConditionalSpecificationProperty.Builder().apply(initializer).build()

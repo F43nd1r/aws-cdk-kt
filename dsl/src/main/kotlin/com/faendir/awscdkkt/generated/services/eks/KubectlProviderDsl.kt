@@ -16,6 +16,4 @@ public fun Construct.kubectlProvider(
 ): KubectlProvider = KubectlProvider(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildKubectlProvider(id: String, initializer: @AwsCdkDsl
-    KubectlProvider.Builder.() -> Unit = {}): KubectlProvider = KubectlProvider.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildKubectlProvider(id: String, initializer: @AwsCdkDsl KubectlProvider.Builder.() -> Unit = {}): KubectlProvider = KubectlProvider.Builder.create(this, id).apply(initializer).build()

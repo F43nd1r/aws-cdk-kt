@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.emr.CfnCluster
 
 @Generated
-public fun buildScriptBootstrapActionConfigProperty(initializer: @AwsCdkDsl
-    CfnCluster.ScriptBootstrapActionConfigProperty.Builder.() -> Unit = {}):
-    CfnCluster.ScriptBootstrapActionConfigProperty =
-    CfnCluster.ScriptBootstrapActionConfigProperty.Builder().apply(initializer).build()
+public fun buildScriptBootstrapActionConfigProperty(initializer: @AwsCdkDsl CfnCluster.ScriptBootstrapActionConfigProperty.Builder.() -> Unit = {}): CfnCluster.ScriptBootstrapActionConfigProperty = CfnCluster.ScriptBootstrapActionConfigProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildDTMFSpecificationProperty(initializer: @AwsCdkDsl
-    CfnBot.DTMFSpecificationProperty.Builder.() -> Unit = {}): CfnBot.DTMFSpecificationProperty =
-    CfnBot.DTMFSpecificationProperty.Builder().apply(initializer).build()
+public fun buildDTMFSpecificationProperty(initializer: @AwsCdkDsl CfnBot.DTMFSpecificationProperty.Builder.() -> Unit = {}): CfnBot.DTMFSpecificationProperty = CfnBot.DTMFSpecificationProperty.Builder().apply(initializer).build()

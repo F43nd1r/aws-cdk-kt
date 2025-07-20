@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.iam.CfnGroupProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnGroup(id: String, initializer: @AwsCdkDsl CfnGroup.() -> Unit = {}):
-    CfnGroup = CfnGroup(this, id).apply(initializer)
+public fun Construct.cfnGroup(id: String, initializer: @AwsCdkDsl CfnGroup.() -> Unit = {}): CfnGroup = CfnGroup(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnGroup(
@@ -20,5 +19,4 @@ public fun Construct.cfnGroup(
 ): CfnGroup = CfnGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnGroup(id: String, initializer: @AwsCdkDsl CfnGroup.Builder.() -> Unit =
-    {}): CfnGroup = CfnGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnGroup(id: String, initializer: @AwsCdkDsl CfnGroup.Builder.() -> Unit = {}): CfnGroup = CfnGroup.Builder.create(this, id).apply(initializer).build()

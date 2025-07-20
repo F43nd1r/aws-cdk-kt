@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.OnEventOptions
 
 @Generated
-public fun buildOnEventOptions(initializer: @AwsCdkDsl OnEventOptions.Builder.() -> Unit = {}):
-    OnEventOptions = OnEventOptions.Builder().apply(initializer).build()
+public fun buildOnEventOptions(initializer: @AwsCdkDsl OnEventOptions.Builder.() -> Unit = {}): OnEventOptions = OnEventOptions.Builder().apply(initializer).build()

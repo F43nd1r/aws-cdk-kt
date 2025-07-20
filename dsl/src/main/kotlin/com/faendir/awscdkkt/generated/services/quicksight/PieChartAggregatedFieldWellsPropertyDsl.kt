@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildPieChartAggregatedFieldWellsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PieChartAggregatedFieldWellsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.PieChartAggregatedFieldWellsProperty =
-    CfnTemplate.PieChartAggregatedFieldWellsProperty.Builder().apply(initializer).build()
+public fun buildPieChartAggregatedFieldWellsProperty(initializer: @AwsCdkDsl CfnTemplate.PieChartAggregatedFieldWellsProperty.Builder.() -> Unit = {}): CfnTemplate.PieChartAggregatedFieldWellsProperty = CfnTemplate.PieChartAggregatedFieldWellsProperty.Builder().apply(initializer).build()

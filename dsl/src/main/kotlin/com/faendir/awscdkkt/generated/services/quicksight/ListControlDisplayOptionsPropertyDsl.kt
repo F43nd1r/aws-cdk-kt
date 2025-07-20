@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildListControlDisplayOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ListControlDisplayOptionsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.ListControlDisplayOptionsProperty =
-    CfnTemplate.ListControlDisplayOptionsProperty.Builder().apply(initializer).build()
+public fun buildListControlDisplayOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.ListControlDisplayOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.ListControlDisplayOptionsProperty = CfnTemplate.ListControlDisplayOptionsProperty.Builder().apply(initializer).build()

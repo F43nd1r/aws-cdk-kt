@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.actions.LambdaActionProps
 
 @Generated
-public fun buildLambdaActionProps(initializer: @AwsCdkDsl LambdaActionProps.Builder.() -> Unit =
-    {}): LambdaActionProps = LambdaActionProps.Builder().apply(initializer).build()
+public fun buildLambdaActionProps(initializer: @AwsCdkDsl LambdaActionProps.Builder.() -> Unit = {}): LambdaActionProps = LambdaActionProps.Builder().apply(initializer).build()

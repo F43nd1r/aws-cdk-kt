@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.datasync.CfnLocationObjectStorageProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnLocationObjectStorage(id: String, initializer: @AwsCdkDsl
-    CfnLocationObjectStorage.() -> Unit = {}): CfnLocationObjectStorage =
-    CfnLocationObjectStorage(this, id).apply(initializer)
+public fun Construct.cfnLocationObjectStorage(id: String, initializer: @AwsCdkDsl CfnLocationObjectStorage.() -> Unit = {}): CfnLocationObjectStorage = CfnLocationObjectStorage(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnLocationObjectStorage(
@@ -21,6 +19,4 @@ public fun Construct.cfnLocationObjectStorage(
 ): CfnLocationObjectStorage = CfnLocationObjectStorage(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLocationObjectStorage(id: String, initializer: @AwsCdkDsl
-    CfnLocationObjectStorage.Builder.() -> Unit = {}): CfnLocationObjectStorage =
-    CfnLocationObjectStorage.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLocationObjectStorage(id: String, initializer: @AwsCdkDsl CfnLocationObjectStorage.Builder.() -> Unit = {}): CfnLocationObjectStorage = CfnLocationObjectStorage.Builder.create(this, id).apply(initializer).build()

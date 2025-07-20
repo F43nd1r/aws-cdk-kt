@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.ClusterAttributes
 
 @Generated
-public fun buildClusterAttributes(initializer: @AwsCdkDsl ClusterAttributes.Builder.() -> Unit =
-    {}): ClusterAttributes = ClusterAttributes.Builder().apply(initializer).build()
+public fun buildClusterAttributes(initializer: @AwsCdkDsl ClusterAttributes.Builder.() -> Unit = {}): ClusterAttributes = ClusterAttributes.Builder().apply(initializer).build()

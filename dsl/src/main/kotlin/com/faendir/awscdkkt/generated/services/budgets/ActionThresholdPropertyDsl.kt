@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.budgets.CfnBudgetsAction
 
 @Generated
-public fun buildActionThresholdProperty(initializer: @AwsCdkDsl
-    CfnBudgetsAction.ActionThresholdProperty.Builder.() -> Unit = {}):
-    CfnBudgetsAction.ActionThresholdProperty =
-    CfnBudgetsAction.ActionThresholdProperty.Builder().apply(initializer).build()
+public fun buildActionThresholdProperty(initializer: @AwsCdkDsl CfnBudgetsAction.ActionThresholdProperty.Builder.() -> Unit = {}): CfnBudgetsAction.ActionThresholdProperty = CfnBudgetsAction.ActionThresholdProperty.Builder().apply(initializer).build()

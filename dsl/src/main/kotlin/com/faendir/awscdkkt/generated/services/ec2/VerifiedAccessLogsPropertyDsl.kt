@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVerifiedAccessInstance
 
 @Generated
-public fun buildVerifiedAccessLogsProperty(initializer: @AwsCdkDsl
-    CfnVerifiedAccessInstance.VerifiedAccessLogsProperty.Builder.() -> Unit = {}):
-    CfnVerifiedAccessInstance.VerifiedAccessLogsProperty =
-    CfnVerifiedAccessInstance.VerifiedAccessLogsProperty.Builder().apply(initializer).build()
+public fun buildVerifiedAccessLogsProperty(initializer: @AwsCdkDsl CfnVerifiedAccessInstance.VerifiedAccessLogsProperty.Builder.() -> Unit = {}): CfnVerifiedAccessInstance.VerifiedAccessLogsProperty = CfnVerifiedAccessInstance.VerifiedAccessLogsProperty.Builder().apply(initializer).build()

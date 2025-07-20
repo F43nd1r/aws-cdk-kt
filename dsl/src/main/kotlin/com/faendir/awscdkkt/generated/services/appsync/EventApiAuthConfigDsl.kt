@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.EventApiAuthConfig
 
 @Generated
-public fun buildEventApiAuthConfig(initializer: @AwsCdkDsl EventApiAuthConfig.Builder.() -> Unit =
-    {}): EventApiAuthConfig = EventApiAuthConfig.Builder().apply(initializer).build()
+public fun buildEventApiAuthConfig(initializer: @AwsCdkDsl EventApiAuthConfig.Builder.() -> Unit = {}): EventApiAuthConfig = EventApiAuthConfig.Builder().apply(initializer).build()

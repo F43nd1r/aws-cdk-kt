@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnKeyValueStoreProps
 
 @Generated
-public fun buildCfnKeyValueStoreProps(initializer: @AwsCdkDsl
-    CfnKeyValueStoreProps.Builder.() -> Unit = {}): CfnKeyValueStoreProps =
-    CfnKeyValueStoreProps.Builder().apply(initializer).build()
+public fun buildCfnKeyValueStoreProps(initializer: @AwsCdkDsl CfnKeyValueStoreProps.Builder.() -> Unit = {}): CfnKeyValueStoreProps = CfnKeyValueStoreProps.Builder().apply(initializer).build()

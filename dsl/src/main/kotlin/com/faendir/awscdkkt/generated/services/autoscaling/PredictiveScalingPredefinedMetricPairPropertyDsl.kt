@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.CfnScalingPolicy
 
 @Generated
-public fun buildPredictiveScalingPredefinedMetricPairProperty(initializer: @AwsCdkDsl
-    CfnScalingPolicy.PredictiveScalingPredefinedMetricPairProperty.Builder.() -> Unit = {}):
-    CfnScalingPolicy.PredictiveScalingPredefinedMetricPairProperty =
-    CfnScalingPolicy.PredictiveScalingPredefinedMetricPairProperty.Builder().apply(initializer).build()
+public fun buildPredictiveScalingPredefinedMetricPairProperty(initializer: @AwsCdkDsl CfnScalingPolicy.PredictiveScalingPredefinedMetricPairProperty.Builder.() -> Unit = {}): CfnScalingPolicy.PredictiveScalingPredefinedMetricPairProperty = CfnScalingPolicy.PredictiveScalingPredefinedMetricPairProperty.Builder().apply(initializer).build()

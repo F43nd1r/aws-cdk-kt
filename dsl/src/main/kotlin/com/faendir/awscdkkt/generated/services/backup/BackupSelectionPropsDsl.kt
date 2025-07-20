@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.backup.BackupSelectionProps
 
 @Generated
-public fun buildBackupSelectionProps(initializer: @AwsCdkDsl BackupSelectionProps.Builder.() -> Unit
-    = {}): BackupSelectionProps = BackupSelectionProps.Builder().apply(initializer).build()
+public fun buildBackupSelectionProps(initializer: @AwsCdkDsl BackupSelectionProps.Builder.() -> Unit = {}): BackupSelectionProps = BackupSelectionProps.Builder().apply(initializer).build()

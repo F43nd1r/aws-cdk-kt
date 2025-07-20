@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnContainerGroupDefinition
 
 @Generated
-public fun buildGameServerContainerDefinitionProperty(initializer: @AwsCdkDsl
-    CfnContainerGroupDefinition.GameServerContainerDefinitionProperty.Builder.() -> Unit = {}):
-    CfnContainerGroupDefinition.GameServerContainerDefinitionProperty =
-    CfnContainerGroupDefinition.GameServerContainerDefinitionProperty.Builder().apply(initializer).build()
+public fun buildGameServerContainerDefinitionProperty(initializer: @AwsCdkDsl CfnContainerGroupDefinition.GameServerContainerDefinitionProperty.Builder.() -> Unit = {}): CfnContainerGroupDefinition.GameServerContainerDefinitionProperty = CfnContainerGroupDefinition.GameServerContainerDefinitionProperty.Builder().apply(initializer).build()

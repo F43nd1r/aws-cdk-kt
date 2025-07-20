@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnTable
 
 @Generated
-public fun buildSerdeInfoProperty(initializer: @AwsCdkDsl
-    CfnTable.SerdeInfoProperty.Builder.() -> Unit = {}): CfnTable.SerdeInfoProperty =
-    CfnTable.SerdeInfoProperty.Builder().apply(initializer).build()
+public fun buildSerdeInfoProperty(initializer: @AwsCdkDsl CfnTable.SerdeInfoProperty.Builder.() -> Unit = {}): CfnTable.SerdeInfoProperty = CfnTable.SerdeInfoProperty.Builder().apply(initializer).build()

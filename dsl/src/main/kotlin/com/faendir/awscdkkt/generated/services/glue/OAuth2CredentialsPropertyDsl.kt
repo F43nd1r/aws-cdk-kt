@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnConnection
 
 @Generated
-public fun buildOAuth2CredentialsProperty(initializer: @AwsCdkDsl
-    CfnConnection.OAuth2CredentialsProperty.Builder.() -> Unit = {}):
-    CfnConnection.OAuth2CredentialsProperty =
-    CfnConnection.OAuth2CredentialsProperty.Builder().apply(initializer).build()
+public fun buildOAuth2CredentialsProperty(initializer: @AwsCdkDsl CfnConnection.OAuth2CredentialsProperty.Builder.() -> Unit = {}): CfnConnection.OAuth2CredentialsProperty = CfnConnection.OAuth2CredentialsProperty.Builder().apply(initializer).build()

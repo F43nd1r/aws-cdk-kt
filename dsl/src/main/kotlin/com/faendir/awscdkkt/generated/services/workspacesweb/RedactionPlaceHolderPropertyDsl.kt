@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.workspacesweb.CfnDataProtectionSettings
 
 @Generated
-public fun buildRedactionPlaceHolderProperty(initializer: @AwsCdkDsl
-    CfnDataProtectionSettings.RedactionPlaceHolderProperty.Builder.() -> Unit = {}):
-    CfnDataProtectionSettings.RedactionPlaceHolderProperty =
-    CfnDataProtectionSettings.RedactionPlaceHolderProperty.Builder().apply(initializer).build()
+public fun buildRedactionPlaceHolderProperty(initializer: @AwsCdkDsl CfnDataProtectionSettings.RedactionPlaceHolderProperty.Builder.() -> Unit = {}): CfnDataProtectionSettings.RedactionPlaceHolderProperty = CfnDataProtectionSettings.RedactionPlaceHolderProperty.Builder().apply(initializer).build()

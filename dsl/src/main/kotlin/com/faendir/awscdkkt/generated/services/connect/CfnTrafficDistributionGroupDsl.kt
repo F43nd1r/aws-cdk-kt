@@ -16,6 +16,4 @@ public fun Construct.cfnTrafficDistributionGroup(
 ): CfnTrafficDistributionGroup = CfnTrafficDistributionGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTrafficDistributionGroup(id: String, initializer: @AwsCdkDsl
-    CfnTrafficDistributionGroup.Builder.() -> Unit = {}): CfnTrafficDistributionGroup =
-    CfnTrafficDistributionGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTrafficDistributionGroup(id: String, initializer: @AwsCdkDsl CfnTrafficDistributionGroup.Builder.() -> Unit = {}): CfnTrafficDistributionGroup = CfnTrafficDistributionGroup.Builder.create(this, id).apply(initializer).build()

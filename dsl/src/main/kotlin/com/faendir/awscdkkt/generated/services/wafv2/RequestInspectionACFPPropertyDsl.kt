@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
-public fun buildRequestInspectionACFPProperty(initializer: @AwsCdkDsl
-    CfnWebACL.RequestInspectionACFPProperty.Builder.() -> Unit = {}):
-    CfnWebACL.RequestInspectionACFPProperty =
-    CfnWebACL.RequestInspectionACFPProperty.Builder().apply(initializer).build()
+public fun buildRequestInspectionACFPProperty(initializer: @AwsCdkDsl CfnWebACL.RequestInspectionACFPProperty.Builder.() -> Unit = {}): CfnWebACL.RequestInspectionACFPProperty = CfnWebACL.RequestInspectionACFPProperty.Builder().apply(initializer).build()

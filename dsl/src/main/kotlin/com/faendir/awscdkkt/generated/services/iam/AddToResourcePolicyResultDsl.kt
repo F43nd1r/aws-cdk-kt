@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.AddToResourcePolicyResult
 
 @Generated
-public fun buildAddToResourcePolicyResult(initializer: @AwsCdkDsl
-    AddToResourcePolicyResult.Builder.() -> Unit = {}): AddToResourcePolicyResult =
-    AddToResourcePolicyResult.Builder().apply(initializer).build()
+public fun buildAddToResourcePolicyResult(initializer: @AwsCdkDsl AddToResourcePolicyResult.Builder.() -> Unit = {}): AddToResourcePolicyResult = AddToResourcePolicyResult.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.CfnGlobalTable
 
 @Generated
-public fun buildTargetTrackingScalingPolicyConfigurationProperty(initializer: @AwsCdkDsl
-    CfnGlobalTable.TargetTrackingScalingPolicyConfigurationProperty.Builder.() -> Unit = {}):
-    CfnGlobalTable.TargetTrackingScalingPolicyConfigurationProperty =
-    CfnGlobalTable.TargetTrackingScalingPolicyConfigurationProperty.Builder().apply(initializer).build()
+public fun buildTargetTrackingScalingPolicyConfigurationProperty(initializer: @AwsCdkDsl CfnGlobalTable.TargetTrackingScalingPolicyConfigurationProperty.Builder.() -> Unit = {}): CfnGlobalTable.TargetTrackingScalingPolicyConfigurationProperty = CfnGlobalTable.TargetTrackingScalingPolicyConfigurationProperty.Builder().apply(initializer).build()

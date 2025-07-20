@@ -16,6 +16,4 @@ public fun Construct.functionUrl(
 ): FunctionUrl = FunctionUrl(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildFunctionUrl(id: String, initializer: @AwsCdkDsl
-    FunctionUrl.Builder.() -> Unit = {}): FunctionUrl = FunctionUrl.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildFunctionUrl(id: String, initializer: @AwsCdkDsl FunctionUrl.Builder.() -> Unit = {}): FunctionUrl = FunctionUrl.Builder.create(this, id).apply(initializer).build()

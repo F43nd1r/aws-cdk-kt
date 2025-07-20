@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.scheduler.CfnSchedule
 
 @Generated
-public fun buildDeadLetterConfigProperty(initializer: @AwsCdkDsl
-    CfnSchedule.DeadLetterConfigProperty.Builder.() -> Unit = {}):
-    CfnSchedule.DeadLetterConfigProperty =
-    CfnSchedule.DeadLetterConfigProperty.Builder().apply(initializer).build()
+public fun buildDeadLetterConfigProperty(initializer: @AwsCdkDsl CfnSchedule.DeadLetterConfigProperty.Builder.() -> Unit = {}): CfnSchedule.DeadLetterConfigProperty = CfnSchedule.DeadLetterConfigProperty.Builder().apply(initializer).build()

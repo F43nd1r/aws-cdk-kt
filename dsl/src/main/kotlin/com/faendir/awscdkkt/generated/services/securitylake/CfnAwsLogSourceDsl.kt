@@ -16,6 +16,4 @@ public fun Construct.cfnAwsLogSource(
 ): CfnAwsLogSource = CfnAwsLogSource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAwsLogSource(id: String, initializer: @AwsCdkDsl
-    CfnAwsLogSource.Builder.() -> Unit = {}): CfnAwsLogSource = CfnAwsLogSource.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnAwsLogSource(id: String, initializer: @AwsCdkDsl CfnAwsLogSource.Builder.() -> Unit = {}): CfnAwsLogSource = CfnAwsLogSource.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.MediaConvertCreateJobJsonPathProps
 
 @Generated
-public fun buildMediaConvertCreateJobJsonPathProps(initializer: @AwsCdkDsl
-    MediaConvertCreateJobJsonPathProps.Builder.() -> Unit = {}): MediaConvertCreateJobJsonPathProps
-    = MediaConvertCreateJobJsonPathProps.Builder().apply(initializer).build()
+public fun buildMediaConvertCreateJobJsonPathProps(initializer: @AwsCdkDsl MediaConvertCreateJobJsonPathProps.Builder.() -> Unit = {}): MediaConvertCreateJobJsonPathProps = MediaConvertCreateJobJsonPathProps.Builder().apply(initializer).build()

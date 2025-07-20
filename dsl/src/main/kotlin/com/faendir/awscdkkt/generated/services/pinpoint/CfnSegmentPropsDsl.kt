@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnSegmentProps
 
 @Generated
-public fun buildCfnSegmentProps(initializer: @AwsCdkDsl CfnSegmentProps.Builder.() -> Unit = {}):
-    CfnSegmentProps = CfnSegmentProps.Builder().apply(initializer).build()
+public fun buildCfnSegmentProps(initializer: @AwsCdkDsl CfnSegmentProps.Builder.() -> Unit = {}): CfnSegmentProps = CfnSegmentProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.emr.CfnInstanceGroupConfigProps
 
 @Generated
-public fun buildCfnInstanceGroupConfigProps(initializer: @AwsCdkDsl
-    CfnInstanceGroupConfigProps.Builder.() -> Unit = {}): CfnInstanceGroupConfigProps =
-    CfnInstanceGroupConfigProps.Builder().apply(initializer).build()
+public fun buildCfnInstanceGroupConfigProps(initializer: @AwsCdkDsl CfnInstanceGroupConfigProps.Builder.() -> Unit = {}): CfnInstanceGroupConfigProps = CfnInstanceGroupConfigProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnDataCatalogEncryptionSettings
 
 @Generated
-public fun buildEncryptionAtRestProperty(initializer: @AwsCdkDsl
-    CfnDataCatalogEncryptionSettings.EncryptionAtRestProperty.Builder.() -> Unit = {}):
-    CfnDataCatalogEncryptionSettings.EncryptionAtRestProperty =
-    CfnDataCatalogEncryptionSettings.EncryptionAtRestProperty.Builder().apply(initializer).build()
+public fun buildEncryptionAtRestProperty(initializer: @AwsCdkDsl CfnDataCatalogEncryptionSettings.EncryptionAtRestProperty.Builder.() -> Unit = {}): CfnDataCatalogEncryptionSettings.EncryptionAtRestProperty = CfnDataCatalogEncryptionSettings.EncryptionAtRestProperty.Builder().apply(initializer).build()

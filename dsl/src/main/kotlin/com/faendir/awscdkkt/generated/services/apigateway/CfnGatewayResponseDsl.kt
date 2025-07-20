@@ -16,6 +16,4 @@ public fun Construct.cfnGatewayResponse(
 ): CfnGatewayResponse = CfnGatewayResponse(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnGatewayResponse(id: String, initializer: @AwsCdkDsl
-    CfnGatewayResponse.Builder.() -> Unit = {}): CfnGatewayResponse =
-    CfnGatewayResponse.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnGatewayResponse(id: String, initializer: @AwsCdkDsl CfnGatewayResponse.Builder.() -> Unit = {}): CfnGatewayResponse = CfnGatewayResponse.Builder.create(this, id).apply(initializer).build()

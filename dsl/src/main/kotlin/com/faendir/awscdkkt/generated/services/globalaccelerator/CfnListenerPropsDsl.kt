@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.globalaccelerator.CfnListenerProps
 
 @Generated
-public fun buildCfnListenerProps(initializer: @AwsCdkDsl CfnListenerProps.Builder.() -> Unit = {}):
-    CfnListenerProps = CfnListenerProps.Builder().apply(initializer).build()
+public fun buildCfnListenerProps(initializer: @AwsCdkDsl CfnListenerProps.Builder.() -> Unit = {}): CfnListenerProps = CfnListenerProps.Builder().apply(initializer).build()

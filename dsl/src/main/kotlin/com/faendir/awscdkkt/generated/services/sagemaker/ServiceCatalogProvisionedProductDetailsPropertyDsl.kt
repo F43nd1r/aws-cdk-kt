@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnProject
 
 @Generated
-public fun buildServiceCatalogProvisionedProductDetailsProperty(initializer: @AwsCdkDsl
-    CfnProject.ServiceCatalogProvisionedProductDetailsProperty.Builder.() -> Unit = {}):
-    CfnProject.ServiceCatalogProvisionedProductDetailsProperty =
-    CfnProject.ServiceCatalogProvisionedProductDetailsProperty.Builder().apply(initializer).build()
+public fun buildServiceCatalogProvisionedProductDetailsProperty(initializer: @AwsCdkDsl CfnProject.ServiceCatalogProvisionedProductDetailsProperty.Builder.() -> Unit = {}): CfnProject.ServiceCatalogProvisionedProductDetailsProperty = CfnProject.ServiceCatalogProvisionedProductDetailsProperty.Builder().apply(initializer).build()

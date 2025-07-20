@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.ItemReaderProps
 
 @Generated
-public fun buildItemReaderProps(initializer: @AwsCdkDsl ItemReaderProps.Builder.() -> Unit = {}):
-    ItemReaderProps = ItemReaderProps.Builder().apply(initializer).build()
+public fun buildItemReaderProps(initializer: @AwsCdkDsl ItemReaderProps.Builder.() -> Unit = {}): ItemReaderProps = ItemReaderProps.Builder().apply(initializer).build()

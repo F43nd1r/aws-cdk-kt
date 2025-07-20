@@ -16,6 +16,4 @@ public fun Construct.cfnPrivateGraphEndpoint(
 ): CfnPrivateGraphEndpoint = CfnPrivateGraphEndpoint(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPrivateGraphEndpoint(id: String, initializer: @AwsCdkDsl
-    CfnPrivateGraphEndpoint.Builder.() -> Unit = {}): CfnPrivateGraphEndpoint =
-    CfnPrivateGraphEndpoint.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPrivateGraphEndpoint(id: String, initializer: @AwsCdkDsl CfnPrivateGraphEndpoint.Builder.() -> Unit = {}): CfnPrivateGraphEndpoint = CfnPrivateGraphEndpoint.Builder.create(this, id).apply(initializer).build()

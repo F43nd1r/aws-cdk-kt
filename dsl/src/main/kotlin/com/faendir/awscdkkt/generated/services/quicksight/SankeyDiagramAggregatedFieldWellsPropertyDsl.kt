@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildSankeyDiagramAggregatedFieldWellsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.SankeyDiagramAggregatedFieldWellsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.SankeyDiagramAggregatedFieldWellsProperty =
-    CfnTemplate.SankeyDiagramAggregatedFieldWellsProperty.Builder().apply(initializer).build()
+public fun buildSankeyDiagramAggregatedFieldWellsProperty(initializer: @AwsCdkDsl CfnTemplate.SankeyDiagramAggregatedFieldWellsProperty.Builder.() -> Unit = {}): CfnTemplate.SankeyDiagramAggregatedFieldWellsProperty = CfnTemplate.SankeyDiagramAggregatedFieldWellsProperty.Builder().apply(initializer).build()

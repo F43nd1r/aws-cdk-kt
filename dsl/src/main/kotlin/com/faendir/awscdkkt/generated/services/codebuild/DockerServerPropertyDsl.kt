@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.CfnProject
 
 @Generated
-public fun buildDockerServerProperty(initializer: @AwsCdkDsl
-    CfnProject.DockerServerProperty.Builder.() -> Unit = {}): CfnProject.DockerServerProperty =
-    CfnProject.DockerServerProperty.Builder().apply(initializer).build()
+public fun buildDockerServerProperty(initializer: @AwsCdkDsl CfnProject.DockerServerProperty.Builder.() -> Unit = {}): CfnProject.DockerServerProperty = CfnProject.DockerServerProperty.Builder().apply(initializer).build()

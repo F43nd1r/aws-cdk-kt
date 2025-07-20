@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
-public fun buildLayerCustomActionOperationProperty(initializer: @AwsCdkDsl
-    CfnDashboard.LayerCustomActionOperationProperty.Builder.() -> Unit = {}):
-    CfnDashboard.LayerCustomActionOperationProperty =
-    CfnDashboard.LayerCustomActionOperationProperty.Builder().apply(initializer).build()
+public fun buildLayerCustomActionOperationProperty(initializer: @AwsCdkDsl CfnDashboard.LayerCustomActionOperationProperty.Builder.() -> Unit = {}): CfnDashboard.LayerCustomActionOperationProperty = CfnDashboard.LayerCustomActionOperationProperty.Builder().apply(initializer).build()

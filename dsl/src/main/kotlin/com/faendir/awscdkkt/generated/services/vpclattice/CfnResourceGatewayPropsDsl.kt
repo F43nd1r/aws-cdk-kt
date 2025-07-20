@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.vpclattice.CfnResourceGatewayProps
 
 @Generated
-public fun buildCfnResourceGatewayProps(initializer: @AwsCdkDsl
-    CfnResourceGatewayProps.Builder.() -> Unit = {}): CfnResourceGatewayProps =
-    CfnResourceGatewayProps.Builder().apply(initializer).build()
+public fun buildCfnResourceGatewayProps(initializer: @AwsCdkDsl CfnResourceGatewayProps.Builder.() -> Unit = {}): CfnResourceGatewayProps = CfnResourceGatewayProps.Builder().apply(initializer).build()

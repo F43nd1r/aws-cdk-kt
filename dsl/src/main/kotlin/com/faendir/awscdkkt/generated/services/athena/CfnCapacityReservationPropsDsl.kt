@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.athena.CfnCapacityReservationProps
 
 @Generated
-public fun buildCfnCapacityReservationProps(initializer: @AwsCdkDsl
-    CfnCapacityReservationProps.Builder.() -> Unit = {}): CfnCapacityReservationProps =
-    CfnCapacityReservationProps.Builder().apply(initializer).build()
+public fun buildCfnCapacityReservationProps(initializer: @AwsCdkDsl CfnCapacityReservationProps.Builder.() -> Unit = {}): CfnCapacityReservationProps = CfnCapacityReservationProps.Builder().apply(initializer).build()

@@ -13,10 +13,7 @@ public fun Construct.cfnTransitGatewayVpcAttachment(
   id: String,
   props: CfnTransitGatewayVpcAttachmentProps,
   initializer: @AwsCdkDsl CfnTransitGatewayVpcAttachment.() -> Unit = {},
-): CfnTransitGatewayVpcAttachment = CfnTransitGatewayVpcAttachment(this, id,
-    props).apply(initializer)
+): CfnTransitGatewayVpcAttachment = CfnTransitGatewayVpcAttachment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTransitGatewayVpcAttachment(id: String, initializer: @AwsCdkDsl
-    CfnTransitGatewayVpcAttachment.Builder.() -> Unit = {}): CfnTransitGatewayVpcAttachment =
-    CfnTransitGatewayVpcAttachment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTransitGatewayVpcAttachment(id: String, initializer: @AwsCdkDsl CfnTransitGatewayVpcAttachment.Builder.() -> Unit = {}): CfnTransitGatewayVpcAttachment = CfnTransitGatewayVpcAttachment.Builder.create(this, id).apply(initializer).build()

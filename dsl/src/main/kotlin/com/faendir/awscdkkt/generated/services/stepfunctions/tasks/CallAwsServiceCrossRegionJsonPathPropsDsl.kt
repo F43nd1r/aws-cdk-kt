@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.CallAwsServiceCrossRegionJsonPathProps
 
 @Generated
-public fun buildCallAwsServiceCrossRegionJsonPathProps(initializer: @AwsCdkDsl
-    CallAwsServiceCrossRegionJsonPathProps.Builder.() -> Unit = {}):
-    CallAwsServiceCrossRegionJsonPathProps =
-    CallAwsServiceCrossRegionJsonPathProps.Builder().apply(initializer).build()
+public fun buildCallAwsServiceCrossRegionJsonPathProps(initializer: @AwsCdkDsl CallAwsServiceCrossRegionJsonPathProps.Builder.() -> Unit = {}): CallAwsServiceCrossRegionJsonPathProps = CallAwsServiceCrossRegionJsonPathProps.Builder().apply(initializer).build()

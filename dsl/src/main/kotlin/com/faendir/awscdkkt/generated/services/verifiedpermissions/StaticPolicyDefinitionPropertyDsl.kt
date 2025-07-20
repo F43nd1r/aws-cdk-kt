@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.verifiedpermissions.CfnPolicy
 
 @Generated
-public fun buildStaticPolicyDefinitionProperty(initializer: @AwsCdkDsl
-    CfnPolicy.StaticPolicyDefinitionProperty.Builder.() -> Unit = {}):
-    CfnPolicy.StaticPolicyDefinitionProperty =
-    CfnPolicy.StaticPolicyDefinitionProperty.Builder().apply(initializer).build()
+public fun buildStaticPolicyDefinitionProperty(initializer: @AwsCdkDsl CfnPolicy.StaticPolicyDefinitionProperty.Builder.() -> Unit = {}): CfnPolicy.StaticPolicyDefinitionProperty = CfnPolicy.StaticPolicyDefinitionProperty.Builder().apply(initializer).build()

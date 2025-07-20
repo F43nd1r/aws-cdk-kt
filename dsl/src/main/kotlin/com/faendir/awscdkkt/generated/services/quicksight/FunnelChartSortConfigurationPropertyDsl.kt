@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildFunnelChartSortConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.FunnelChartSortConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.FunnelChartSortConfigurationProperty =
-    CfnTemplate.FunnelChartSortConfigurationProperty.Builder().apply(initializer).build()
+public fun buildFunnelChartSortConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.FunnelChartSortConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.FunnelChartSortConfigurationProperty = CfnTemplate.FunnelChartSortConfigurationProperty.Builder().apply(initializer).build()

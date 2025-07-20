@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.CfnBasePathMappingV2Props
 
 @Generated
-public fun buildCfnBasePathMappingV2Props(initializer: @AwsCdkDsl
-    CfnBasePathMappingV2Props.Builder.() -> Unit = {}): CfnBasePathMappingV2Props =
-    CfnBasePathMappingV2Props.Builder().apply(initializer).build()
+public fun buildCfnBasePathMappingV2Props(initializer: @AwsCdkDsl CfnBasePathMappingV2Props.Builder.() -> Unit = {}): CfnBasePathMappingV2Props = CfnBasePathMappingV2Props.Builder().apply(initializer).build()

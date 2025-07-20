@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EventBridgePutEventsJsonPathProps
 
 @Generated
-public fun buildEventBridgePutEventsJsonPathProps(initializer: @AwsCdkDsl
-    EventBridgePutEventsJsonPathProps.Builder.() -> Unit = {}): EventBridgePutEventsJsonPathProps =
-    EventBridgePutEventsJsonPathProps.Builder().apply(initializer).build()
+public fun buildEventBridgePutEventsJsonPathProps(initializer: @AwsCdkDsl EventBridgePutEventsJsonPathProps.Builder.() -> Unit = {}): EventBridgePutEventsJsonPathProps = EventBridgePutEventsJsonPathProps.Builder().apply(initializer).build()

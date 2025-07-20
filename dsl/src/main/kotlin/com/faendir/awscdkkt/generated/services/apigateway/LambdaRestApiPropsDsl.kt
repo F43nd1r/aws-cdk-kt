@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.LambdaRestApiProps
 
 @Generated
-public fun buildLambdaRestApiProps(initializer: @AwsCdkDsl LambdaRestApiProps.Builder.() -> Unit =
-    {}): LambdaRestApiProps = LambdaRestApiProps.Builder().apply(initializer).build()
+public fun buildLambdaRestApiProps(initializer: @AwsCdkDsl LambdaRestApiProps.Builder.() -> Unit = {}): LambdaRestApiProps = LambdaRestApiProps.Builder().apply(initializer).build()

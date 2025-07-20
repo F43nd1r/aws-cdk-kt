@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.CfnPipeline
 
 @Generated
-public fun buildActionTypeIdProperty(initializer: @AwsCdkDsl
-    CfnPipeline.ActionTypeIdProperty.Builder.() -> Unit = {}): CfnPipeline.ActionTypeIdProperty =
-    CfnPipeline.ActionTypeIdProperty.Builder().apply(initializer).build()
+public fun buildActionTypeIdProperty(initializer: @AwsCdkDsl CfnPipeline.ActionTypeIdProperty.Builder.() -> Unit = {}): CfnPipeline.ActionTypeIdProperty = CfnPipeline.ActionTypeIdProperty.Builder().apply(initializer).build()

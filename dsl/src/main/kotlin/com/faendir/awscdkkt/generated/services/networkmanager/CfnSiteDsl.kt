@@ -16,5 +16,4 @@ public fun Construct.cfnSite(
 ): CfnSite = CfnSite(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSite(id: String, initializer: @AwsCdkDsl CfnSite.Builder.() -> Unit =
-    {}): CfnSite = CfnSite.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSite(id: String, initializer: @AwsCdkDsl CfnSite.Builder.() -> Unit = {}): CfnSite = CfnSite.Builder.create(this, id).apply(initializer).build()

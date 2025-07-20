@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.cloudtrail.CfnDashboardProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDashboard(id: String, initializer: @AwsCdkDsl CfnDashboard.() -> Unit = {}):
-    CfnDashboard = CfnDashboard(this, id).apply(initializer)
+public fun Construct.cfnDashboard(id: String, initializer: @AwsCdkDsl CfnDashboard.() -> Unit = {}): CfnDashboard = CfnDashboard(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnDashboard(
@@ -20,6 +19,4 @@ public fun Construct.cfnDashboard(
 ): CfnDashboard = CfnDashboard(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDashboard(id: String, initializer: @AwsCdkDsl
-    CfnDashboard.Builder.() -> Unit = {}): CfnDashboard = CfnDashboard.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnDashboard(id: String, initializer: @AwsCdkDsl CfnDashboard.Builder.() -> Unit = {}): CfnDashboard = CfnDashboard.Builder.create(this, id).apply(initializer).build()

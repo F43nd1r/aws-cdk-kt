@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildPivotTotalOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PivotTotalOptionsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.PivotTotalOptionsProperty =
-    CfnTemplate.PivotTotalOptionsProperty.Builder().apply(initializer).build()
+public fun buildPivotTotalOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.PivotTotalOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.PivotTotalOptionsProperty = CfnTemplate.PivotTotalOptionsProperty.Builder().apply(initializer).build()

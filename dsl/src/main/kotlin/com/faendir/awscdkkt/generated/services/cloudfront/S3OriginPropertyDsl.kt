@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnStreamingDistribution
 
 @Generated
-public fun buildS3OriginProperty(initializer: @AwsCdkDsl
-    CfnStreamingDistribution.S3OriginProperty.Builder.() -> Unit = {}):
-    CfnStreamingDistribution.S3OriginProperty =
-    CfnStreamingDistribution.S3OriginProperty.Builder().apply(initializer).build()
+public fun buildS3OriginProperty(initializer: @AwsCdkDsl CfnStreamingDistribution.S3OriginProperty.Builder.() -> Unit = {}): CfnStreamingDistribution.S3OriginProperty = CfnStreamingDistribution.S3OriginProperty.Builder().apply(initializer).build()

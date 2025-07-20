@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.ecs.CfnTaskDefinitionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnTaskDefinition(id: String, initializer: @AwsCdkDsl
-    CfnTaskDefinition.() -> Unit = {}): CfnTaskDefinition = CfnTaskDefinition(this,
-    id).apply(initializer)
+public fun Construct.cfnTaskDefinition(id: String, initializer: @AwsCdkDsl CfnTaskDefinition.() -> Unit = {}): CfnTaskDefinition = CfnTaskDefinition(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnTaskDefinition(
@@ -21,6 +19,4 @@ public fun Construct.cfnTaskDefinition(
 ): CfnTaskDefinition = CfnTaskDefinition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTaskDefinition(id: String, initializer: @AwsCdkDsl
-    CfnTaskDefinition.Builder.() -> Unit = {}): CfnTaskDefinition =
-    CfnTaskDefinition.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTaskDefinition(id: String, initializer: @AwsCdkDsl CfnTaskDefinition.Builder.() -> Unit = {}): CfnTaskDefinition = CfnTaskDefinition.Builder.create(this, id).apply(initializer).build()

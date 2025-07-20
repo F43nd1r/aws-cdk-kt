@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnKnowledgeBaseProps
 
 @Generated
-public fun buildCfnKnowledgeBaseProps(initializer: @AwsCdkDsl
-    CfnKnowledgeBaseProps.Builder.() -> Unit = {}): CfnKnowledgeBaseProps =
-    CfnKnowledgeBaseProps.Builder().apply(initializer).build()
+public fun buildCfnKnowledgeBaseProps(initializer: @AwsCdkDsl CfnKnowledgeBaseProps.Builder.() -> Unit = {}): CfnKnowledgeBaseProps = CfnKnowledgeBaseProps.Builder().apply(initializer).build()

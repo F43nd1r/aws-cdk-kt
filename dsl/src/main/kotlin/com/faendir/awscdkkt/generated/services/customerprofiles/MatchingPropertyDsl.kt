@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.customerprofiles.CfnDomain
 
 @Generated
-public fun buildMatchingProperty(initializer: @AwsCdkDsl
-    CfnDomain.MatchingProperty.Builder.() -> Unit = {}): CfnDomain.MatchingProperty =
-    CfnDomain.MatchingProperty.Builder().apply(initializer).build()
+public fun buildMatchingProperty(initializer: @AwsCdkDsl CfnDomain.MatchingProperty.Builder.() -> Unit = {}): CfnDomain.MatchingProperty = CfnDomain.MatchingProperty.Builder().apply(initializer).build()

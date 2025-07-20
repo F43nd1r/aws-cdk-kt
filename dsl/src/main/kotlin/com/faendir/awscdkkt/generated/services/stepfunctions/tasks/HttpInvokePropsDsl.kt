@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.HttpInvokeProps
 
 @Generated
-public fun buildHttpInvokeProps(initializer: @AwsCdkDsl HttpInvokeProps.Builder.() -> Unit = {}):
-    HttpInvokeProps = HttpInvokeProps.Builder().apply(initializer).build()
+public fun buildHttpInvokeProps(initializer: @AwsCdkDsl HttpInvokeProps.Builder.() -> Unit = {}): HttpInvokeProps = HttpInvokeProps.Builder().apply(initializer).build()

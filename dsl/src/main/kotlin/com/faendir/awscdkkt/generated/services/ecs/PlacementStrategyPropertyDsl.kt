@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnService
 
 @Generated
-public fun buildPlacementStrategyProperty(initializer: @AwsCdkDsl
-    CfnService.PlacementStrategyProperty.Builder.() -> Unit = {}):
-    CfnService.PlacementStrategyProperty =
-    CfnService.PlacementStrategyProperty.Builder().apply(initializer).build()
+public fun buildPlacementStrategyProperty(initializer: @AwsCdkDsl CfnService.PlacementStrategyProperty.Builder.() -> Unit = {}): CfnService.PlacementStrategyProperty = CfnService.PlacementStrategyProperty.Builder().apply(initializer).build()

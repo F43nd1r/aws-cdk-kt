@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.emr.CfnCluster
 
 @Generated
-public fun buildComputeLimitsProperty(initializer: @AwsCdkDsl
-    CfnCluster.ComputeLimitsProperty.Builder.() -> Unit = {}): CfnCluster.ComputeLimitsProperty =
-    CfnCluster.ComputeLimitsProperty.Builder().apply(initializer).build()
+public fun buildComputeLimitsProperty(initializer: @AwsCdkDsl CfnCluster.ComputeLimitsProperty.Builder.() -> Unit = {}): CfnCluster.ComputeLimitsProperty = CfnCluster.ComputeLimitsProperty.Builder().apply(initializer).build()

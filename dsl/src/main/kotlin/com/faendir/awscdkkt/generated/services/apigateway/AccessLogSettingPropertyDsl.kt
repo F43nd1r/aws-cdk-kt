@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.CfnStage
 
 @Generated
-public fun buildAccessLogSettingProperty(initializer: @AwsCdkDsl
-    CfnStage.AccessLogSettingProperty.Builder.() -> Unit = {}): CfnStage.AccessLogSettingProperty =
-    CfnStage.AccessLogSettingProperty.Builder().apply(initializer).build()
+public fun buildAccessLogSettingProperty(initializer: @AwsCdkDsl CfnStage.AccessLogSettingProperty.Builder.() -> Unit = {}): CfnStage.AccessLogSettingProperty = CfnStage.AccessLogSettingProperty.Builder().apply(initializer).build()

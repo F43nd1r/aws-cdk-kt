@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.logs.CfnLogAnomalyDetectorProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnLogAnomalyDetector(id: String, initializer: @AwsCdkDsl
-    CfnLogAnomalyDetector.() -> Unit = {}): CfnLogAnomalyDetector = CfnLogAnomalyDetector(this,
-    id).apply(initializer)
+public fun Construct.cfnLogAnomalyDetector(id: String, initializer: @AwsCdkDsl CfnLogAnomalyDetector.() -> Unit = {}): CfnLogAnomalyDetector = CfnLogAnomalyDetector(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnLogAnomalyDetector(
@@ -21,6 +19,4 @@ public fun Construct.cfnLogAnomalyDetector(
 ): CfnLogAnomalyDetector = CfnLogAnomalyDetector(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLogAnomalyDetector(id: String, initializer: @AwsCdkDsl
-    CfnLogAnomalyDetector.Builder.() -> Unit = {}): CfnLogAnomalyDetector =
-    CfnLogAnomalyDetector.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLogAnomalyDetector(id: String, initializer: @AwsCdkDsl CfnLogAnomalyDetector.Builder.() -> Unit = {}): CfnLogAnomalyDetector = CfnLogAnomalyDetector.Builder.create(this, id).apply(initializer).build()

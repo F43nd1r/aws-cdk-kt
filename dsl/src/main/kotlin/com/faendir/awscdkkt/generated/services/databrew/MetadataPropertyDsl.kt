@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.databrew.CfnDataset
 
 @Generated
-public fun buildMetadataProperty(initializer: @AwsCdkDsl
-    CfnDataset.MetadataProperty.Builder.() -> Unit = {}): CfnDataset.MetadataProperty =
-    CfnDataset.MetadataProperty.Builder().apply(initializer).build()
+public fun buildMetadataProperty(initializer: @AwsCdkDsl CfnDataset.MetadataProperty.Builder.() -> Unit = {}): CfnDataset.MetadataProperty = CfnDataset.MetadataProperty.Builder().apply(initializer).build()

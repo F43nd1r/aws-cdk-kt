@@ -16,6 +16,4 @@ public fun Construct.cfnFlowVpcInterface(
 ): CfnFlowVpcInterface = CfnFlowVpcInterface(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnFlowVpcInterface(id: String, initializer: @AwsCdkDsl
-    CfnFlowVpcInterface.Builder.() -> Unit = {}): CfnFlowVpcInterface =
-    CfnFlowVpcInterface.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnFlowVpcInterface(id: String, initializer: @AwsCdkDsl CfnFlowVpcInterface.Builder.() -> Unit = {}): CfnFlowVpcInterface = CfnFlowVpcInterface.Builder.create(this, id).apply(initializer).build()

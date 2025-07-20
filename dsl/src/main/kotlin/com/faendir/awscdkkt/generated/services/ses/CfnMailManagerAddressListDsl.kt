@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.ses.CfnMailManagerAddressListProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnMailManagerAddressList(id: String, initializer: @AwsCdkDsl
-    CfnMailManagerAddressList.() -> Unit = {}): CfnMailManagerAddressList =
-    CfnMailManagerAddressList(this, id).apply(initializer)
+public fun Construct.cfnMailManagerAddressList(id: String, initializer: @AwsCdkDsl CfnMailManagerAddressList.() -> Unit = {}): CfnMailManagerAddressList = CfnMailManagerAddressList(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnMailManagerAddressList(
@@ -21,6 +19,4 @@ public fun Construct.cfnMailManagerAddressList(
 ): CfnMailManagerAddressList = CfnMailManagerAddressList(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMailManagerAddressList(id: String, initializer: @AwsCdkDsl
-    CfnMailManagerAddressList.Builder.() -> Unit = {}): CfnMailManagerAddressList =
-    CfnMailManagerAddressList.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMailManagerAddressList(id: String, initializer: @AwsCdkDsl CfnMailManagerAddressList.Builder.() -> Unit = {}): CfnMailManagerAddressList = CfnMailManagerAddressList.Builder.create(this, id).apply(initializer).build()

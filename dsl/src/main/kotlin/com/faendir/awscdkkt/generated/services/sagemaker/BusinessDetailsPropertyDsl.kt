@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnModelCard
 
 @Generated
-public fun buildBusinessDetailsProperty(initializer: @AwsCdkDsl
-    CfnModelCard.BusinessDetailsProperty.Builder.() -> Unit = {}):
-    CfnModelCard.BusinessDetailsProperty =
-    CfnModelCard.BusinessDetailsProperty.Builder().apply(initializer).build()
+public fun buildBusinessDetailsProperty(initializer: @AwsCdkDsl CfnModelCard.BusinessDetailsProperty.Builder.() -> Unit = {}): CfnModelCard.BusinessDetailsProperty = CfnModelCard.BusinessDetailsProperty.Builder().apply(initializer).build()

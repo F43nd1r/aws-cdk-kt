@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CustomAttributeConfig
 
 @Generated
-public fun buildCustomAttributeConfig(initializer: @AwsCdkDsl
-    CustomAttributeConfig.Builder.() -> Unit = {}): CustomAttributeConfig =
-    CustomAttributeConfig.Builder().apply(initializer).build()
+public fun buildCustomAttributeConfig(initializer: @AwsCdkDsl CustomAttributeConfig.Builder.() -> Unit = {}): CustomAttributeConfig = CustomAttributeConfig.Builder().apply(initializer).build()

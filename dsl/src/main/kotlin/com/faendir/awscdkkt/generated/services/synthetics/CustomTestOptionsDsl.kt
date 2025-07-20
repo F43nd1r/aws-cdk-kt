@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.synthetics.CustomTestOptions
 
 @Generated
-public fun buildCustomTestOptions(initializer: @AwsCdkDsl CustomTestOptions.Builder.() -> Unit =
-    {}): CustomTestOptions = CustomTestOptions.Builder().apply(initializer).build()
+public fun buildCustomTestOptions(initializer: @AwsCdkDsl CustomTestOptions.Builder.() -> Unit = {}): CustomTestOptions = CustomTestOptions.Builder().apply(initializer).build()

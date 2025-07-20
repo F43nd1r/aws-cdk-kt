@@ -16,6 +16,4 @@ public fun Construct.cfnApplicationSettings(
 ): CfnApplicationSettings = CfnApplicationSettings(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnApplicationSettings(id: String, initializer: @AwsCdkDsl
-    CfnApplicationSettings.Builder.() -> Unit = {}): CfnApplicationSettings =
-    CfnApplicationSettings.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnApplicationSettings(id: String, initializer: @AwsCdkDsl CfnApplicationSettings.Builder.() -> Unit = {}): CfnApplicationSettings = CfnApplicationSettings.Builder.create(this, id).apply(initializer).build()

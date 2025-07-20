@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dlm.CfnLifecyclePolicy
 
 @Generated
-public fun buildScriptProperty(initializer: @AwsCdkDsl
-    CfnLifecyclePolicy.ScriptProperty.Builder.() -> Unit = {}): CfnLifecyclePolicy.ScriptProperty =
-    CfnLifecyclePolicy.ScriptProperty.Builder().apply(initializer).build()
+public fun buildScriptProperty(initializer: @AwsCdkDsl CfnLifecyclePolicy.ScriptProperty.Builder.() -> Unit = {}): CfnLifecyclePolicy.ScriptProperty = CfnLifecyclePolicy.ScriptProperty.Builder().apply(initializer).build()

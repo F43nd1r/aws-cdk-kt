@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.amazonmq.CfnBroker
 
 @Generated
-public fun buildLdapServerMetadataProperty(initializer: @AwsCdkDsl
-    CfnBroker.LdapServerMetadataProperty.Builder.() -> Unit = {}):
-    CfnBroker.LdapServerMetadataProperty =
-    CfnBroker.LdapServerMetadataProperty.Builder().apply(initializer).build()
+public fun buildLdapServerMetadataProperty(initializer: @AwsCdkDsl CfnBroker.LdapServerMetadataProperty.Builder.() -> Unit = {}): CfnBroker.LdapServerMetadataProperty = CfnBroker.LdapServerMetadataProperty.Builder().apply(initializer).build()

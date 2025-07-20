@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
-public fun buildUpsolverDestinationPropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.UpsolverDestinationPropertiesProperty.Builder.() -> Unit = {}):
-    CfnFlow.UpsolverDestinationPropertiesProperty =
-    CfnFlow.UpsolverDestinationPropertiesProperty.Builder().apply(initializer).build()
+public fun buildUpsolverDestinationPropertiesProperty(initializer: @AwsCdkDsl CfnFlow.UpsolverDestinationPropertiesProperty.Builder.() -> Unit = {}): CfnFlow.UpsolverDestinationPropertiesProperty = CfnFlow.UpsolverDestinationPropertiesProperty.Builder().apply(initializer).build()

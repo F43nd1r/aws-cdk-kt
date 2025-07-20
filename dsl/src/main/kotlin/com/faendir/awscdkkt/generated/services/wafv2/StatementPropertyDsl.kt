@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
-public fun buildStatementProperty(initializer: @AwsCdkDsl
-    CfnWebACL.StatementProperty.Builder.() -> Unit = {}): CfnWebACL.StatementProperty =
-    CfnWebACL.StatementProperty.Builder().apply(initializer).build()
+public fun buildStatementProperty(initializer: @AwsCdkDsl CfnWebACL.StatementProperty.Builder.() -> Unit = {}): CfnWebACL.StatementProperty = CfnWebACL.StatementProperty.Builder().apply(initializer).build()

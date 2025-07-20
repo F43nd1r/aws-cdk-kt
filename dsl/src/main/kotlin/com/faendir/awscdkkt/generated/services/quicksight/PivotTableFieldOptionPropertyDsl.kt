@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildPivotTableFieldOptionProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PivotTableFieldOptionProperty.Builder.() -> Unit = {}):
-    CfnTemplate.PivotTableFieldOptionProperty =
-    CfnTemplate.PivotTableFieldOptionProperty.Builder().apply(initializer).build()
+public fun buildPivotTableFieldOptionProperty(initializer: @AwsCdkDsl CfnTemplate.PivotTableFieldOptionProperty.Builder.() -> Unit = {}): CfnTemplate.PivotTableFieldOptionProperty = CfnTemplate.PivotTableFieldOptionProperty.Builder().apply(initializer).build()

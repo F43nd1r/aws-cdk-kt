@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnNatGatewayProps
 
 @Generated
-public fun buildCfnNatGatewayProps(initializer: @AwsCdkDsl CfnNatGatewayProps.Builder.() -> Unit =
-    {}): CfnNatGatewayProps = CfnNatGatewayProps.Builder().apply(initializer).build()
+public fun buildCfnNatGatewayProps(initializer: @AwsCdkDsl CfnNatGatewayProps.Builder.() -> Unit = {}): CfnNatGatewayProps = CfnNatGatewayProps.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnInstanceGroupConfig(
 ): CfnInstanceGroupConfig = CfnInstanceGroupConfig(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnInstanceGroupConfig(id: String, initializer: @AwsCdkDsl
-    CfnInstanceGroupConfig.Builder.() -> Unit = {}): CfnInstanceGroupConfig =
-    CfnInstanceGroupConfig.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnInstanceGroupConfig(id: String, initializer: @AwsCdkDsl CfnInstanceGroupConfig.Builder.() -> Unit = {}): CfnInstanceGroupConfig = CfnInstanceGroupConfig.Builder.create(this, id).apply(initializer).build()

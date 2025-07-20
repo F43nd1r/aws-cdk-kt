@@ -16,6 +16,4 @@ public fun Construct.channelNamespace(
 ): ChannelNamespace = ChannelNamespace(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildChannelNamespace(id: String, initializer: @AwsCdkDsl
-    ChannelNamespace.Builder.() -> Unit = {}): ChannelNamespace =
-    ChannelNamespace.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildChannelNamespace(id: String, initializer: @AwsCdkDsl ChannelNamespace.Builder.() -> Unit = {}): ChannelNamespace = ChannelNamespace.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securitylake.CfnSubscriber
 
 @Generated
-public fun buildSourceProperty(initializer: @AwsCdkDsl
-    CfnSubscriber.SourceProperty.Builder.() -> Unit = {}): CfnSubscriber.SourceProperty =
-    CfnSubscriber.SourceProperty.Builder().apply(initializer).build()
+public fun buildSourceProperty(initializer: @AwsCdkDsl CfnSubscriber.SourceProperty.Builder.() -> Unit = {}): CfnSubscriber.SourceProperty = CfnSubscriber.SourceProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.actions.AuthenticateCognitoAction
 
 @Generated
-public fun buildAuthenticateCognitoAction(initializer: @AwsCdkDsl
-    AuthenticateCognitoAction.Builder.() -> Unit = {}): AuthenticateCognitoAction =
-    AuthenticateCognitoAction.Builder.create().apply(initializer).build()
+public fun buildAuthenticateCognitoAction(initializer: @AwsCdkDsl AuthenticateCognitoAction.Builder.() -> Unit = {}): AuthenticateCognitoAction = AuthenticateCognitoAction.Builder.create().apply(initializer).build()

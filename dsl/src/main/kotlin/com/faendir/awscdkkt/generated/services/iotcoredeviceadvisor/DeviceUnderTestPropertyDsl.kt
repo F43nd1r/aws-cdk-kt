@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotcoredeviceadvisor.CfnSuiteDefinition
 
 @Generated
-public fun buildDeviceUnderTestProperty(initializer: @AwsCdkDsl
-    CfnSuiteDefinition.DeviceUnderTestProperty.Builder.() -> Unit = {}):
-    CfnSuiteDefinition.DeviceUnderTestProperty =
-    CfnSuiteDefinition.DeviceUnderTestProperty.Builder().apply(initializer).build()
+public fun buildDeviceUnderTestProperty(initializer: @AwsCdkDsl CfnSuiteDefinition.DeviceUnderTestProperty.Builder.() -> Unit = {}): CfnSuiteDefinition.DeviceUnderTestProperty = CfnSuiteDefinition.DeviceUnderTestProperty.Builder().apply(initializer).build()

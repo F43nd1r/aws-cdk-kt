@@ -16,6 +16,4 @@ public fun Construct.cfnOrganizationAdmin(
 ): CfnOrganizationAdmin = CfnOrganizationAdmin(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnOrganizationAdmin(id: String, initializer: @AwsCdkDsl
-    CfnOrganizationAdmin.Builder.() -> Unit = {}): CfnOrganizationAdmin =
-    CfnOrganizationAdmin.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnOrganizationAdmin(id: String, initializer: @AwsCdkDsl CfnOrganizationAdmin.Builder.() -> Unit = {}): CfnOrganizationAdmin = CfnOrganizationAdmin.Builder.create(this, id).apply(initializer).build()

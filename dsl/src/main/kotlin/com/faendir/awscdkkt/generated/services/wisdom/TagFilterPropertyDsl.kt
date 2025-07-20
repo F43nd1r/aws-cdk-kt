@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnAIAgent
 
 @Generated
-public fun buildTagFilterProperty(initializer: @AwsCdkDsl
-    CfnAIAgent.TagFilterProperty.Builder.() -> Unit = {}): CfnAIAgent.TagFilterProperty =
-    CfnAIAgent.TagFilterProperty.Builder().apply(initializer).build()
+public fun buildTagFilterProperty(initializer: @AwsCdkDsl CfnAIAgent.TagFilterProperty.Builder.() -> Unit = {}): CfnAIAgent.TagFilterProperty = CfnAIAgent.TagFilterProperty.Builder().apply(initializer).build()

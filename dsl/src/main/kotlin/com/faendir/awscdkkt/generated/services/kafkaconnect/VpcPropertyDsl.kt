@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kafkaconnect.CfnConnector
 
 @Generated
-public fun buildVpcProperty(initializer: @AwsCdkDsl CfnConnector.VpcProperty.Builder.() -> Unit =
-    {}): CfnConnector.VpcProperty = CfnConnector.VpcProperty.Builder().apply(initializer).build()
+public fun buildVpcProperty(initializer: @AwsCdkDsl CfnConnector.VpcProperty.Builder.() -> Unit = {}): CfnConnector.VpcProperty = CfnConnector.VpcProperty.Builder().apply(initializer).build()

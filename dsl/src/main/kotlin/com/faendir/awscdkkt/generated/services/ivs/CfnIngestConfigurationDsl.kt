@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.ivs.CfnIngestConfigurationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnIngestConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnIngestConfiguration.() -> Unit = {}): CfnIngestConfiguration = CfnIngestConfiguration(this,
-    id).apply(initializer)
+public fun Construct.cfnIngestConfiguration(id: String, initializer: @AwsCdkDsl CfnIngestConfiguration.() -> Unit = {}): CfnIngestConfiguration = CfnIngestConfiguration(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnIngestConfiguration(
@@ -21,6 +19,4 @@ public fun Construct.cfnIngestConfiguration(
 ): CfnIngestConfiguration = CfnIngestConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnIngestConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnIngestConfiguration.Builder.() -> Unit = {}): CfnIngestConfiguration =
-    CfnIngestConfiguration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnIngestConfiguration(id: String, initializer: @AwsCdkDsl CfnIngestConfiguration.Builder.() -> Unit = {}): CfnIngestConfiguration = CfnIngestConfiguration.Builder.create(this, id).apply(initializer).build()

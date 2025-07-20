@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.stepfunctions.MapProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.map(id: String, initializer: @AwsCdkDsl Map.() -> Unit = {}): Map = Map(this,
-    id).apply(initializer)
+public fun Construct.map(id: String, initializer: @AwsCdkDsl Map.() -> Unit = {}): Map = Map(this, id).apply(initializer)
 
 @Generated
 public fun Construct.map(
@@ -20,5 +19,4 @@ public fun Construct.map(
 ): Map = Map(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildMap(id: String, initializer: @AwsCdkDsl Map.Builder.() -> Unit = {}): Map
-    = Map.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildMap(id: String, initializer: @AwsCdkDsl Map.Builder.() -> Unit = {}): Map = Map.Builder.create(this, id).apply(initializer).build()

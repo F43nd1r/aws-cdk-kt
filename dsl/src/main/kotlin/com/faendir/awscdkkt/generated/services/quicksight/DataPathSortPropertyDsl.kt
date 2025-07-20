@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildDataPathSortProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DataPathSortProperty.Builder.() -> Unit = {}): CfnTemplate.DataPathSortProperty =
-    CfnTemplate.DataPathSortProperty.Builder().apply(initializer).build()
+public fun buildDataPathSortProperty(initializer: @AwsCdkDsl CfnTemplate.DataPathSortProperty.Builder.() -> Unit = {}): CfnTemplate.DataPathSortProperty = CfnTemplate.DataPathSortProperty.Builder().apply(initializer).build()

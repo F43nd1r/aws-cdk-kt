@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.oam.CfnLink
 
 @Generated
-public fun buildLinkFilterProperty(initializer: @AwsCdkDsl
-    CfnLink.LinkFilterProperty.Builder.() -> Unit = {}): CfnLink.LinkFilterProperty =
-    CfnLink.LinkFilterProperty.Builder().apply(initializer).build()
+public fun buildLinkFilterProperty(initializer: @AwsCdkDsl CfnLink.LinkFilterProperty.Builder.() -> Unit = {}): CfnLink.LinkFilterProperty = CfnLink.LinkFilterProperty.Builder().apply(initializer).build()

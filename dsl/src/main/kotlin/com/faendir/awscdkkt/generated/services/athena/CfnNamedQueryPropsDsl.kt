@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.athena.CfnNamedQueryProps
 
 @Generated
-public fun buildCfnNamedQueryProps(initializer: @AwsCdkDsl CfnNamedQueryProps.Builder.() -> Unit =
-    {}): CfnNamedQueryProps = CfnNamedQueryProps.Builder().apply(initializer).build()
+public fun buildCfnNamedQueryProps(initializer: @AwsCdkDsl CfnNamedQueryProps.Builder.() -> Unit = {}): CfnNamedQueryProps = CfnNamedQueryProps.Builder().apply(initializer).build()

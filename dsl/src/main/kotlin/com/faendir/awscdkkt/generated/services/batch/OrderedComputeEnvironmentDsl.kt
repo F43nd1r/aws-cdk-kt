@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.OrderedComputeEnvironment
 
 @Generated
-public fun buildOrderedComputeEnvironment(initializer: @AwsCdkDsl
-    OrderedComputeEnvironment.Builder.() -> Unit = {}): OrderedComputeEnvironment =
-    OrderedComputeEnvironment.Builder().apply(initializer).build()
+public fun buildOrderedComputeEnvironment(initializer: @AwsCdkDsl OrderedComputeEnvironment.Builder.() -> Unit = {}): OrderedComputeEnvironment = OrderedComputeEnvironment.Builder().apply(initializer).build()

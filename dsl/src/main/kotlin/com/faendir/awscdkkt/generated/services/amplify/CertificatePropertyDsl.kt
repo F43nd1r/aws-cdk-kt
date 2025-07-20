@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.amplify.CfnDomain
 
 @Generated
-public fun buildCertificateProperty(initializer: @AwsCdkDsl
-    CfnDomain.CertificateProperty.Builder.() -> Unit = {}): CfnDomain.CertificateProperty =
-    CfnDomain.CertificateProperty.Builder().apply(initializer).build()
+public fun buildCertificateProperty(initializer: @AwsCdkDsl CfnDomain.CertificateProperty.Builder.() -> Unit = {}): CfnDomain.CertificateProperty = CfnDomain.CertificateProperty.Builder().apply(initializer).build()

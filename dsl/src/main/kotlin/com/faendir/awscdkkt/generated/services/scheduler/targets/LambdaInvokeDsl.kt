@@ -7,6 +7,4 @@ import software.amazon.awscdk.services.lambda.IFunction
 import software.amazon.awscdk.services.scheduler.targets.LambdaInvoke
 
 @Generated
-public fun buildLambdaInvoke(func: IFunction, initializer: @AwsCdkDsl
-    LambdaInvoke.Builder.() -> Unit = {}): LambdaInvoke =
-    LambdaInvoke.Builder.create(func).apply(initializer).build()
+public fun buildLambdaInvoke(func: IFunction, initializer: @AwsCdkDsl LambdaInvoke.Builder.() -> Unit = {}): LambdaInvoke = LambdaInvoke.Builder.create(func).apply(initializer).build()

@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.iam.GroupProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.group(id: String, initializer: @AwsCdkDsl Group.() -> Unit = {}): Group =
-    Group(this, id).apply(initializer)
+public fun Construct.group(id: String, initializer: @AwsCdkDsl Group.() -> Unit = {}): Group = Group(this, id).apply(initializer)
 
 @Generated
 public fun Construct.group(
@@ -20,5 +19,4 @@ public fun Construct.group(
 ): Group = Group(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildGroup(id: String, initializer: @AwsCdkDsl Group.Builder.() -> Unit = {}):
-    Group = Group.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildGroup(id: String, initializer: @AwsCdkDsl Group.Builder.() -> Unit = {}): Group = Group.Builder.create(this, id).apply(initializer).build()

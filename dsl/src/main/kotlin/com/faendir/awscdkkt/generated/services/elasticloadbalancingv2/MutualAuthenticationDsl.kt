@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.MutualAuthentication
 
 @Generated
-public fun buildMutualAuthentication(initializer: @AwsCdkDsl MutualAuthentication.Builder.() -> Unit
-    = {}): MutualAuthentication = MutualAuthentication.Builder().apply(initializer).build()
+public fun buildMutualAuthentication(initializer: @AwsCdkDsl MutualAuthentication.Builder.() -> Unit = {}): MutualAuthentication = MutualAuthentication.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnUserToGroupAddition(
 ): CfnUserToGroupAddition = CfnUserToGroupAddition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnUserToGroupAddition(id: String, initializer: @AwsCdkDsl
-    CfnUserToGroupAddition.Builder.() -> Unit = {}): CfnUserToGroupAddition =
-    CfnUserToGroupAddition.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnUserToGroupAddition(id: String, initializer: @AwsCdkDsl CfnUserToGroupAddition.Builder.() -> Unit = {}): CfnUserToGroupAddition = CfnUserToGroupAddition.Builder.create(this, id).apply(initializer).build()

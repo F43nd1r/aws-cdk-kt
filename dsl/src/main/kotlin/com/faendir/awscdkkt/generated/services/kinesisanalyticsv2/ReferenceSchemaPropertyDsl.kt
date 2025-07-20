@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisanalyticsv2.CfnApplicationReferenceDataSource
 
 @Generated
-public fun buildReferenceSchemaProperty(initializer: @AwsCdkDsl
-    CfnApplicationReferenceDataSource.ReferenceSchemaProperty.Builder.() -> Unit = {}):
-    CfnApplicationReferenceDataSource.ReferenceSchemaProperty =
-    CfnApplicationReferenceDataSource.ReferenceSchemaProperty.Builder().apply(initializer).build()
+public fun buildReferenceSchemaProperty(initializer: @AwsCdkDsl CfnApplicationReferenceDataSource.ReferenceSchemaProperty.Builder.() -> Unit = {}): CfnApplicationReferenceDataSource.ReferenceSchemaProperty = CfnApplicationReferenceDataSource.ReferenceSchemaProperty.Builder().apply(initializer).build()

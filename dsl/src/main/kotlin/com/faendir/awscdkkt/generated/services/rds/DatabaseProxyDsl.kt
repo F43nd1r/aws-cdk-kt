@@ -16,6 +16,4 @@ public fun Construct.databaseProxy(
 ): DatabaseProxy = DatabaseProxy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildDatabaseProxy(id: String, initializer: @AwsCdkDsl
-    DatabaseProxy.Builder.() -> Unit = {}): DatabaseProxy = DatabaseProxy.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildDatabaseProxy(id: String, initializer: @AwsCdkDsl DatabaseProxy.Builder.() -> Unit = {}): DatabaseProxy = DatabaseProxy.Builder.create(this, id).apply(initializer).build()

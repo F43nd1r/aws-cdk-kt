@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.sagemaker.CfnModelPackageProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnModelPackage(id: String, initializer: @AwsCdkDsl CfnModelPackage.() -> Unit
-    = {}): CfnModelPackage = CfnModelPackage(this, id).apply(initializer)
+public fun Construct.cfnModelPackage(id: String, initializer: @AwsCdkDsl CfnModelPackage.() -> Unit = {}): CfnModelPackage = CfnModelPackage(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnModelPackage(
@@ -20,6 +19,4 @@ public fun Construct.cfnModelPackage(
 ): CfnModelPackage = CfnModelPackage(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnModelPackage(id: String, initializer: @AwsCdkDsl
-    CfnModelPackage.Builder.() -> Unit = {}): CfnModelPackage = CfnModelPackage.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnModelPackage(id: String, initializer: @AwsCdkDsl CfnModelPackage.Builder.() -> Unit = {}): CfnModelPackage = CfnModelPackage.Builder.create(this, id).apply(initializer).build()

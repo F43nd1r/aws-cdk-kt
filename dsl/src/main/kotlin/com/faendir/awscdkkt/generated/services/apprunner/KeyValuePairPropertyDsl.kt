@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apprunner.CfnService
 
 @Generated
-public fun buildKeyValuePairProperty(initializer: @AwsCdkDsl
-    CfnService.KeyValuePairProperty.Builder.() -> Unit = {}): CfnService.KeyValuePairProperty =
-    CfnService.KeyValuePairProperty.Builder().apply(initializer).build()
+public fun buildKeyValuePairProperty(initializer: @AwsCdkDsl CfnService.KeyValuePairProperty.Builder.() -> Unit = {}): CfnService.KeyValuePairProperty = CfnService.KeyValuePairProperty.Builder().apply(initializer).build()

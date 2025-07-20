@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnSecurityProfile
 
 @Generated
-public fun buildAlertTargetProperty(initializer: @AwsCdkDsl
-    CfnSecurityProfile.AlertTargetProperty.Builder.() -> Unit = {}):
-    CfnSecurityProfile.AlertTargetProperty =
-    CfnSecurityProfile.AlertTargetProperty.Builder().apply(initializer).build()
+public fun buildAlertTargetProperty(initializer: @AwsCdkDsl CfnSecurityProfile.AlertTargetProperty.Builder.() -> Unit = {}): CfnSecurityProfile.AlertTargetProperty = CfnSecurityProfile.AlertTargetProperty.Builder().apply(initializer).build()

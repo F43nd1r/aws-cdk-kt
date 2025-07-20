@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
-public fun buildPartitionedPrefixProperty(initializer: @AwsCdkDsl
-    CfnBucket.PartitionedPrefixProperty.Builder.() -> Unit = {}):
-    CfnBucket.PartitionedPrefixProperty =
-    CfnBucket.PartitionedPrefixProperty.Builder().apply(initializer).build()
+public fun buildPartitionedPrefixProperty(initializer: @AwsCdkDsl CfnBucket.PartitionedPrefixProperty.Builder.() -> Unit = {}): CfnBucket.PartitionedPrefixProperty = CfnBucket.PartitionedPrefixProperty.Builder().apply(initializer).build()

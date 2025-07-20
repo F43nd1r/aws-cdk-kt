@@ -16,6 +16,4 @@ public fun Construct.cfnAlarmModel(
 ): CfnAlarmModel = CfnAlarmModel(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAlarmModel(id: String, initializer: @AwsCdkDsl
-    CfnAlarmModel.Builder.() -> Unit = {}): CfnAlarmModel = CfnAlarmModel.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnAlarmModel(id: String, initializer: @AwsCdkDsl CfnAlarmModel.Builder.() -> Unit = {}): CfnAlarmModel = CfnAlarmModel.Builder.create(this, id).apply(initializer).build()

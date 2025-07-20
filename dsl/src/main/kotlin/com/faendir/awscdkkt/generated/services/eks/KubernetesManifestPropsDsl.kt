@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.KubernetesManifestProps
 
 @Generated
-public fun buildKubernetesManifestProps(initializer: @AwsCdkDsl
-    KubernetesManifestProps.Builder.() -> Unit = {}): KubernetesManifestProps =
-    KubernetesManifestProps.Builder().apply(initializer).build()
+public fun buildKubernetesManifestProps(initializer: @AwsCdkDsl KubernetesManifestProps.Builder.() -> Unit = {}): KubernetesManifestProps = KubernetesManifestProps.Builder().apply(initializer).build()

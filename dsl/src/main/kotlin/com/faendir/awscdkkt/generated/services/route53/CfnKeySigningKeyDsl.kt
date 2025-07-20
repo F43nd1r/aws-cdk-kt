@@ -16,6 +16,4 @@ public fun Construct.cfnKeySigningKey(
 ): CfnKeySigningKey = CfnKeySigningKey(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnKeySigningKey(id: String, initializer: @AwsCdkDsl
-    CfnKeySigningKey.Builder.() -> Unit = {}): CfnKeySigningKey =
-    CfnKeySigningKey.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnKeySigningKey(id: String, initializer: @AwsCdkDsl CfnKeySigningKey.Builder.() -> Unit = {}): CfnKeySigningKey = CfnKeySigningKey.Builder.create(this, id).apply(initializer).build()

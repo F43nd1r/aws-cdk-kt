@@ -16,6 +16,4 @@ public fun Construct.cfnDomainUnit(
 ): CfnDomainUnit = CfnDomainUnit(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDomainUnit(id: String, initializer: @AwsCdkDsl
-    CfnDomainUnit.Builder.() -> Unit = {}): CfnDomainUnit = CfnDomainUnit.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnDomainUnit(id: String, initializer: @AwsCdkDsl CfnDomainUnit.Builder.() -> Unit = {}): CfnDomainUnit = CfnDomainUnit.Builder.create(this, id).apply(initializer).build()

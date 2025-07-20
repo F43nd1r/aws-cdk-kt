@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securityhub.CfnOrganizationConfigurationProps
 
 @Generated
-public fun buildCfnOrganizationConfigurationProps(initializer: @AwsCdkDsl
-    CfnOrganizationConfigurationProps.Builder.() -> Unit = {}): CfnOrganizationConfigurationProps =
-    CfnOrganizationConfigurationProps.Builder().apply(initializer).build()
+public fun buildCfnOrganizationConfigurationProps(initializer: @AwsCdkDsl CfnOrganizationConfigurationProps.Builder.() -> Unit = {}): CfnOrganizationConfigurationProps = CfnOrganizationConfigurationProps.Builder().apply(initializer).build()

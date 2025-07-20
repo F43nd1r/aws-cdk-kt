@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBotProps
 
 @Generated
-public fun buildCfnBotProps(initializer: @AwsCdkDsl CfnBotProps.Builder.() -> Unit = {}):
-    CfnBotProps = CfnBotProps.Builder().apply(initializer).build()
+public fun buildCfnBotProps(initializer: @AwsCdkDsl CfnBotProps.Builder.() -> Unit = {}): CfnBotProps = CfnBotProps.Builder().apply(initializer).build()

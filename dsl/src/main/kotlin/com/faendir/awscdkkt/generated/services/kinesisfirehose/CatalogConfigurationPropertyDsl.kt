@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
-public fun buildCatalogConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.CatalogConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDeliveryStream.CatalogConfigurationProperty =
-    CfnDeliveryStream.CatalogConfigurationProperty.Builder().apply(initializer).build()
+public fun buildCatalogConfigurationProperty(initializer: @AwsCdkDsl CfnDeliveryStream.CatalogConfigurationProperty.Builder.() -> Unit = {}): CfnDeliveryStream.CatalogConfigurationProperty = CfnDeliveryStream.CatalogConfigurationProperty.Builder().apply(initializer).build()

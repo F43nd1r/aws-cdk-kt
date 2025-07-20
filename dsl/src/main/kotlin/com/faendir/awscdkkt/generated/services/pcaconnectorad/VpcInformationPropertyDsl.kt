@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pcaconnectorad.CfnConnector
 
 @Generated
-public fun buildVpcInformationProperty(initializer: @AwsCdkDsl
-    CfnConnector.VpcInformationProperty.Builder.() -> Unit = {}):
-    CfnConnector.VpcInformationProperty =
-    CfnConnector.VpcInformationProperty.Builder().apply(initializer).build()
+public fun buildVpcInformationProperty(initializer: @AwsCdkDsl CfnConnector.VpcInformationProperty.Builder.() -> Unit = {}): CfnConnector.VpcInformationProperty = CfnConnector.VpcInformationProperty.Builder().apply(initializer).build()

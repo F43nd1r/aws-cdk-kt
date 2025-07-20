@@ -16,6 +16,4 @@ public fun Construct.cfnBatchScramSecret(
 ): CfnBatchScramSecret = CfnBatchScramSecret(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnBatchScramSecret(id: String, initializer: @AwsCdkDsl
-    CfnBatchScramSecret.Builder.() -> Unit = {}): CfnBatchScramSecret =
-    CfnBatchScramSecret.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnBatchScramSecret(id: String, initializer: @AwsCdkDsl CfnBatchScramSecret.Builder.() -> Unit = {}): CfnBatchScramSecret = CfnBatchScramSecret.Builder.create(this, id).apply(initializer).build()

@@ -13,10 +13,7 @@ public fun Construct.cfnMultiRegionAccessPointPolicy(
   id: String,
   props: CfnMultiRegionAccessPointPolicyProps,
   initializer: @AwsCdkDsl CfnMultiRegionAccessPointPolicy.() -> Unit = {},
-): CfnMultiRegionAccessPointPolicy = CfnMultiRegionAccessPointPolicy(this, id,
-    props).apply(initializer)
+): CfnMultiRegionAccessPointPolicy = CfnMultiRegionAccessPointPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMultiRegionAccessPointPolicy(id: String, initializer: @AwsCdkDsl
-    CfnMultiRegionAccessPointPolicy.Builder.() -> Unit = {}): CfnMultiRegionAccessPointPolicy =
-    CfnMultiRegionAccessPointPolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMultiRegionAccessPointPolicy(id: String, initializer: @AwsCdkDsl CfnMultiRegionAccessPointPolicy.Builder.() -> Unit = {}): CfnMultiRegionAccessPointPolicy = CfnMultiRegionAccessPointPolicy.Builder.create(this, id).apply(initializer).build()

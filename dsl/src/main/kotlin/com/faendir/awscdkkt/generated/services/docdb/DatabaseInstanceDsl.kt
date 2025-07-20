@@ -16,6 +16,4 @@ public fun Construct.databaseInstance(
 ): DatabaseInstance = DatabaseInstance(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildDatabaseInstance(id: String, initializer: @AwsCdkDsl
-    DatabaseInstance.Builder.() -> Unit = {}): DatabaseInstance =
-    DatabaseInstance.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildDatabaseInstance(id: String, initializer: @AwsCdkDsl DatabaseInstance.Builder.() -> Unit = {}): DatabaseInstance = DatabaseInstance.Builder.create(this, id).apply(initializer).build()

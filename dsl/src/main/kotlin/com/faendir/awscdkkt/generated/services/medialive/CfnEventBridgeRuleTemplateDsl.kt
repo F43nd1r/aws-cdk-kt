@@ -16,6 +16,4 @@ public fun Construct.cfnEventBridgeRuleTemplate(
 ): CfnEventBridgeRuleTemplate = CfnEventBridgeRuleTemplate(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEventBridgeRuleTemplate(id: String, initializer: @AwsCdkDsl
-    CfnEventBridgeRuleTemplate.Builder.() -> Unit = {}): CfnEventBridgeRuleTemplate =
-    CfnEventBridgeRuleTemplate.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnEventBridgeRuleTemplate(id: String, initializer: @AwsCdkDsl CfnEventBridgeRuleTemplate.Builder.() -> Unit = {}): CfnEventBridgeRuleTemplate = CfnEventBridgeRuleTemplate.Builder.create(this, id).apply(initializer).build()

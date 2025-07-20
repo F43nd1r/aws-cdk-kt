@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
-public fun buildDatabaseSourceVPCConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.DatabaseSourceVPCConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDeliveryStream.DatabaseSourceVPCConfigurationProperty =
-    CfnDeliveryStream.DatabaseSourceVPCConfigurationProperty.Builder().apply(initializer).build()
+public fun buildDatabaseSourceVPCConfigurationProperty(initializer: @AwsCdkDsl CfnDeliveryStream.DatabaseSourceVPCConfigurationProperty.Builder.() -> Unit = {}): CfnDeliveryStream.DatabaseSourceVPCConfigurationProperty = CfnDeliveryStream.DatabaseSourceVPCConfigurationProperty.Builder().apply(initializer).build()

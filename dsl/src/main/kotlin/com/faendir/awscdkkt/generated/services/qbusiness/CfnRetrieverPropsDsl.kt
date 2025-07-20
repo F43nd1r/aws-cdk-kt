@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnRetrieverProps
 
 @Generated
-public fun buildCfnRetrieverProps(initializer: @AwsCdkDsl CfnRetrieverProps.Builder.() -> Unit =
-    {}): CfnRetrieverProps = CfnRetrieverProps.Builder().apply(initializer).build()
+public fun buildCfnRetrieverProps(initializer: @AwsCdkDsl CfnRetrieverProps.Builder.() -> Unit = {}): CfnRetrieverProps = CfnRetrieverProps.Builder().apply(initializer).build()

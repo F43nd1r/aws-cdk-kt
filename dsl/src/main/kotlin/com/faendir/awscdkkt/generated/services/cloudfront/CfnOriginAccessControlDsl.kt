@@ -16,6 +16,4 @@ public fun Construct.cfnOriginAccessControl(
 ): CfnOriginAccessControl = CfnOriginAccessControl(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnOriginAccessControl(id: String, initializer: @AwsCdkDsl
-    CfnOriginAccessControl.Builder.() -> Unit = {}): CfnOriginAccessControl =
-    CfnOriginAccessControl.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnOriginAccessControl(id: String, initializer: @AwsCdkDsl CfnOriginAccessControl.Builder.() -> Unit = {}): CfnOriginAccessControl = CfnOriginAccessControl.Builder.create(this, id).apply(initializer).build()

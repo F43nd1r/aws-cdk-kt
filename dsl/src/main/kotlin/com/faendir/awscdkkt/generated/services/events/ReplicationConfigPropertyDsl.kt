@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.CfnEndpoint
 
 @Generated
-public fun buildReplicationConfigProperty(initializer: @AwsCdkDsl
-    CfnEndpoint.ReplicationConfigProperty.Builder.() -> Unit = {}):
-    CfnEndpoint.ReplicationConfigProperty =
-    CfnEndpoint.ReplicationConfigProperty.Builder().apply(initializer).build()
+public fun buildReplicationConfigProperty(initializer: @AwsCdkDsl CfnEndpoint.ReplicationConfigProperty.Builder.() -> Unit = {}): CfnEndpoint.ReplicationConfigProperty = CfnEndpoint.ReplicationConfigProperty.Builder().apply(initializer).build()

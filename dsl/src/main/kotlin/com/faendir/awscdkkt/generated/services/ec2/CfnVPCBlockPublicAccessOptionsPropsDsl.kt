@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVPCBlockPublicAccessOptionsProps
 
 @Generated
-public fun buildCfnVPCBlockPublicAccessOptionsProps(initializer: @AwsCdkDsl
-    CfnVPCBlockPublicAccessOptionsProps.Builder.() -> Unit = {}):
-    CfnVPCBlockPublicAccessOptionsProps =
-    CfnVPCBlockPublicAccessOptionsProps.Builder().apply(initializer).build()
+public fun buildCfnVPCBlockPublicAccessOptionsProps(initializer: @AwsCdkDsl CfnVPCBlockPublicAccessOptionsProps.Builder.() -> Unit = {}): CfnVPCBlockPublicAccessOptionsProps = CfnVPCBlockPublicAccessOptionsProps.Builder().apply(initializer).build()

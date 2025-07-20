@@ -16,6 +16,4 @@ public fun Construct.cfnMatchmakingRuleSet(
 ): CfnMatchmakingRuleSet = CfnMatchmakingRuleSet(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMatchmakingRuleSet(id: String, initializer: @AwsCdkDsl
-    CfnMatchmakingRuleSet.Builder.() -> Unit = {}): CfnMatchmakingRuleSet =
-    CfnMatchmakingRuleSet.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMatchmakingRuleSet(id: String, initializer: @AwsCdkDsl CfnMatchmakingRuleSet.Builder.() -> Unit = {}): CfnMatchmakingRuleSet = CfnMatchmakingRuleSet.Builder.create(this, id).apply(initializer).build()

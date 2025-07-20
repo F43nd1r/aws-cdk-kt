@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildPipeEnrichmentHttpParametersProperty(initializer: @AwsCdkDsl
-    CfnPipe.PipeEnrichmentHttpParametersProperty.Builder.() -> Unit = {}):
-    CfnPipe.PipeEnrichmentHttpParametersProperty =
-    CfnPipe.PipeEnrichmentHttpParametersProperty.Builder().apply(initializer).build()
+public fun buildPipeEnrichmentHttpParametersProperty(initializer: @AwsCdkDsl CfnPipe.PipeEnrichmentHttpParametersProperty.Builder.() -> Unit = {}): CfnPipe.PipeEnrichmentHttpParametersProperty = CfnPipe.PipeEnrichmentHttpParametersProperty.Builder().apply(initializer).build()

@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.ecr.CfnRepositoryProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnRepository(id: String, initializer: @AwsCdkDsl CfnRepository.() -> Unit =
-    {}): CfnRepository = CfnRepository(this, id).apply(initializer)
+public fun Construct.cfnRepository(id: String, initializer: @AwsCdkDsl CfnRepository.() -> Unit = {}): CfnRepository = CfnRepository(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnRepository(
@@ -20,6 +19,4 @@ public fun Construct.cfnRepository(
 ): CfnRepository = CfnRepository(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRepository(id: String, initializer: @AwsCdkDsl
-    CfnRepository.Builder.() -> Unit = {}): CfnRepository = CfnRepository.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnRepository(id: String, initializer: @AwsCdkDsl CfnRepository.Builder.() -> Unit = {}): CfnRepository = CfnRepository.Builder.create(this, id).apply(initializer).build()

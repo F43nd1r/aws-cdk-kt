@@ -16,6 +16,4 @@ public fun Construct.cfnEmailChannel(
 ): CfnEmailChannel = CfnEmailChannel(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEmailChannel(id: String, initializer: @AwsCdkDsl
-    CfnEmailChannel.Builder.() -> Unit = {}): CfnEmailChannel = CfnEmailChannel.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnEmailChannel(id: String, initializer: @AwsCdkDsl CfnEmailChannel.Builder.() -> Unit = {}): CfnEmailChannel = CfnEmailChannel.Builder.create(this, id).apply(initializer).build()

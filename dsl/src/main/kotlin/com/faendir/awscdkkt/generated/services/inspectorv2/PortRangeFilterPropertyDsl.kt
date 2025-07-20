@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.inspectorv2.CfnFilter
 
 @Generated
-public fun buildPortRangeFilterProperty(initializer: @AwsCdkDsl
-    CfnFilter.PortRangeFilterProperty.Builder.() -> Unit = {}): CfnFilter.PortRangeFilterProperty =
-    CfnFilter.PortRangeFilterProperty.Builder().apply(initializer).build()
+public fun buildPortRangeFilterProperty(initializer: @AwsCdkDsl CfnFilter.PortRangeFilterProperty.Builder.() -> Unit = {}): CfnFilter.PortRangeFilterProperty = CfnFilter.PortRangeFilterProperty.Builder().apply(initializer).build()

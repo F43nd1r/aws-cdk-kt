@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sns.StringConditions
 
 @Generated
-public fun buildStringConditions(initializer: @AwsCdkDsl StringConditions.Builder.() -> Unit = {}):
-    StringConditions = StringConditions.Builder().apply(initializer).build()
+public fun buildStringConditions(initializer: @AwsCdkDsl StringConditions.Builder.() -> Unit = {}): StringConditions = StringConditions.Builder().apply(initializer).build()

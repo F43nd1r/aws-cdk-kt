@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securitylake.CfnDataLake
 
 @Generated
-public fun buildReplicationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataLake.ReplicationConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDataLake.ReplicationConfigurationProperty =
-    CfnDataLake.ReplicationConfigurationProperty.Builder().apply(initializer).build()
+public fun buildReplicationConfigurationProperty(initializer: @AwsCdkDsl CfnDataLake.ReplicationConfigurationProperty.Builder.() -> Unit = {}): CfnDataLake.ReplicationConfigurationProperty = CfnDataLake.ReplicationConfigurationProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kendra.CfnIndex
 
 @Generated
-public fun buildServerSideEncryptionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnIndex.ServerSideEncryptionConfigurationProperty.Builder.() -> Unit = {}):
-    CfnIndex.ServerSideEncryptionConfigurationProperty =
-    CfnIndex.ServerSideEncryptionConfigurationProperty.Builder().apply(initializer).build()
+public fun buildServerSideEncryptionConfigurationProperty(initializer: @AwsCdkDsl CfnIndex.ServerSideEncryptionConfigurationProperty.Builder.() -> Unit = {}): CfnIndex.ServerSideEncryptionConfigurationProperty = CfnIndex.ServerSideEncryptionConfigurationProperty.Builder().apply(initializer).build()

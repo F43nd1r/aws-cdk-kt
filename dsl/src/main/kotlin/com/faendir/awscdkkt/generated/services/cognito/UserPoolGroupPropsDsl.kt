@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.UserPoolGroupProps
 
 @Generated
-public fun buildUserPoolGroupProps(initializer: @AwsCdkDsl UserPoolGroupProps.Builder.() -> Unit =
-    {}): UserPoolGroupProps = UserPoolGroupProps.Builder().apply(initializer).build()
+public fun buildUserPoolGroupProps(initializer: @AwsCdkDsl UserPoolGroupProps.Builder.() -> Unit = {}): UserPoolGroupProps = UserPoolGroupProps.Builder().apply(initializer).build()

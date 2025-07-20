@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.waf.CfnByteMatchSet
 
 @Generated
-public fun buildByteMatchTupleProperty(initializer: @AwsCdkDsl
-    CfnByteMatchSet.ByteMatchTupleProperty.Builder.() -> Unit = {}):
-    CfnByteMatchSet.ByteMatchTupleProperty =
-    CfnByteMatchSet.ByteMatchTupleProperty.Builder().apply(initializer).build()
+public fun buildByteMatchTupleProperty(initializer: @AwsCdkDsl CfnByteMatchSet.ByteMatchTupleProperty.Builder.() -> Unit = {}): CfnByteMatchSet.ByteMatchTupleProperty = CfnByteMatchSet.ByteMatchTupleProperty.Builder().apply(initializer).build()

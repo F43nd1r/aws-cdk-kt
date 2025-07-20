@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.entityresolution.CfnMatchingWorkflow
 
 @Generated
-public fun buildOutputAttributeProperty(initializer: @AwsCdkDsl
-    CfnMatchingWorkflow.OutputAttributeProperty.Builder.() -> Unit = {}):
-    CfnMatchingWorkflow.OutputAttributeProperty =
-    CfnMatchingWorkflow.OutputAttributeProperty.Builder().apply(initializer).build()
+public fun buildOutputAttributeProperty(initializer: @AwsCdkDsl CfnMatchingWorkflow.OutputAttributeProperty.Builder.() -> Unit = {}): CfnMatchingWorkflow.OutputAttributeProperty = CfnMatchingWorkflow.OutputAttributeProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnPricingPlan(
 ): CfnPricingPlan = CfnPricingPlan(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPricingPlan(id: String, initializer: @AwsCdkDsl
-    CfnPricingPlan.Builder.() -> Unit = {}): CfnPricingPlan = CfnPricingPlan.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnPricingPlan(id: String, initializer: @AwsCdkDsl CfnPricingPlan.Builder.() -> Unit = {}): CfnPricingPlan = CfnPricingPlan.Builder.create(this, id).apply(initializer).build()

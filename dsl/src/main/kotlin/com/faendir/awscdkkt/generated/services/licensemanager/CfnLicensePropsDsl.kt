@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.licensemanager.CfnLicenseProps
 
 @Generated
-public fun buildCfnLicenseProps(initializer: @AwsCdkDsl CfnLicenseProps.Builder.() -> Unit = {}):
-    CfnLicenseProps = CfnLicenseProps.Builder().apply(initializer).build()
+public fun buildCfnLicenseProps(initializer: @AwsCdkDsl CfnLicenseProps.Builder.() -> Unit = {}): CfnLicenseProps = CfnLicenseProps.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.CfnMacroProps
 
 @Generated
-public fun buildCfnMacroProps(initializer: @AwsCdkDsl CfnMacroProps.Builder.() -> Unit = {}):
-    CfnMacroProps = CfnMacroProps.Builder().apply(initializer).build()
+public fun buildCfnMacroProps(initializer: @AwsCdkDsl CfnMacroProps.Builder.() -> Unit = {}): CfnMacroProps = CfnMacroProps.Builder().apply(initializer).build()

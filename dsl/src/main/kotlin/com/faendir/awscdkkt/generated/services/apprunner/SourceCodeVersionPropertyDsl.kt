@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apprunner.CfnService
 
 @Generated
-public fun buildSourceCodeVersionProperty(initializer: @AwsCdkDsl
-    CfnService.SourceCodeVersionProperty.Builder.() -> Unit = {}):
-    CfnService.SourceCodeVersionProperty =
-    CfnService.SourceCodeVersionProperty.Builder().apply(initializer).build()
+public fun buildSourceCodeVersionProperty(initializer: @AwsCdkDsl CfnService.SourceCodeVersionProperty.Builder.() -> Unit = {}): CfnService.SourceCodeVersionProperty = CfnService.SourceCodeVersionProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildGaugeChartFieldWellsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.GaugeChartFieldWellsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.GaugeChartFieldWellsProperty =
-    CfnTemplate.GaugeChartFieldWellsProperty.Builder().apply(initializer).build()
+public fun buildGaugeChartFieldWellsProperty(initializer: @AwsCdkDsl CfnTemplate.GaugeChartFieldWellsProperty.Builder.() -> Unit = {}): CfnTemplate.GaugeChartFieldWellsProperty = CfnTemplate.GaugeChartFieldWellsProperty.Builder().apply(initializer).build()

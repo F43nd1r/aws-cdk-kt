@@ -16,6 +16,4 @@ public fun Construct.hostedConfiguration(
 ): HostedConfiguration = HostedConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildHostedConfiguration(id: String, initializer: @AwsCdkDsl
-    HostedConfiguration.Builder.() -> Unit = {}): HostedConfiguration =
-    HostedConfiguration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildHostedConfiguration(id: String, initializer: @AwsCdkDsl HostedConfiguration.Builder.() -> Unit = {}): HostedConfiguration = HostedConfiguration.Builder.create(this, id).apply(initializer).build()

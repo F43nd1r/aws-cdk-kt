@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnSpotFleet
 
 @Generated
-public fun buildIamInstanceProfileSpecificationProperty(initializer: @AwsCdkDsl
-    CfnSpotFleet.IamInstanceProfileSpecificationProperty.Builder.() -> Unit = {}):
-    CfnSpotFleet.IamInstanceProfileSpecificationProperty =
-    CfnSpotFleet.IamInstanceProfileSpecificationProperty.Builder().apply(initializer).build()
+public fun buildIamInstanceProfileSpecificationProperty(initializer: @AwsCdkDsl CfnSpotFleet.IamInstanceProfileSpecificationProperty.Builder.() -> Unit = {}): CfnSpotFleet.IamInstanceProfileSpecificationProperty = CfnSpotFleet.IamInstanceProfileSpecificationProperty.Builder().apply(initializer).build()

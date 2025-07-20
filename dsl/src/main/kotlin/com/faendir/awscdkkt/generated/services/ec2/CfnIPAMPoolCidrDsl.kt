@@ -16,6 +16,4 @@ public fun Construct.cfnIPAMPoolCidr(
 ): CfnIPAMPoolCidr = CfnIPAMPoolCidr(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnIPAMPoolCidr(id: String, initializer: @AwsCdkDsl
-    CfnIPAMPoolCidr.Builder.() -> Unit = {}): CfnIPAMPoolCidr = CfnIPAMPoolCidr.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnIPAMPoolCidr(id: String, initializer: @AwsCdkDsl CfnIPAMPoolCidr.Builder.() -> Unit = {}): CfnIPAMPoolCidr = CfnIPAMPoolCidr.Builder.create(this, id).apply(initializer).build()

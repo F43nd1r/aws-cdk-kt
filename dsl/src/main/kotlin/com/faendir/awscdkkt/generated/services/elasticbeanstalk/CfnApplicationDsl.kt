@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.elasticbeanstalk.CfnApplicationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnApplication(id: String, initializer: @AwsCdkDsl CfnApplication.() -> Unit =
-    {}): CfnApplication = CfnApplication(this, id).apply(initializer)
+public fun Construct.cfnApplication(id: String, initializer: @AwsCdkDsl CfnApplication.() -> Unit = {}): CfnApplication = CfnApplication(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnApplication(
@@ -20,6 +19,4 @@ public fun Construct.cfnApplication(
 ): CfnApplication = CfnApplication(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnApplication(id: String, initializer: @AwsCdkDsl
-    CfnApplication.Builder.() -> Unit = {}): CfnApplication = CfnApplication.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnApplication(id: String, initializer: @AwsCdkDsl CfnApplication.Builder.() -> Unit = {}): CfnApplication = CfnApplication.Builder.create(this, id).apply(initializer).build()

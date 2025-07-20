@@ -8,6 +8,4 @@ import kotlin.collections.Map
 import software.amazon.awscdk.services.ec2.GenericWindowsImage
 
 @Generated
-public fun buildGenericWindowsImage(amiMap: Map<String, String>, initializer: @AwsCdkDsl
-    GenericWindowsImage.Builder.() -> Unit = {}): GenericWindowsImage =
-    GenericWindowsImage.Builder.create(amiMap).apply(initializer).build()
+public fun buildGenericWindowsImage(amiMap: Map<String, String>, initializer: @AwsCdkDsl GenericWindowsImage.Builder.() -> Unit = {}): GenericWindowsImage = GenericWindowsImage.Builder.create(amiMap).apply(initializer).build()

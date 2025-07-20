@@ -16,6 +16,4 @@ public fun Construct.cfnRepository(
 ): CfnRepository = CfnRepository(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRepository(id: String, initializer: @AwsCdkDsl
-    CfnRepository.Builder.() -> Unit = {}): CfnRepository = CfnRepository.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnRepository(id: String, initializer: @AwsCdkDsl CfnRepository.Builder.() -> Unit = {}): CfnRepository = CfnRepository.Builder.create(this, id).apply(initializer).build()

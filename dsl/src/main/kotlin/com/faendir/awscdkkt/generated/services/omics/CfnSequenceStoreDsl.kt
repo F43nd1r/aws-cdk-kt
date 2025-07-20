@@ -16,6 +16,4 @@ public fun Construct.cfnSequenceStore(
 ): CfnSequenceStore = CfnSequenceStore(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSequenceStore(id: String, initializer: @AwsCdkDsl
-    CfnSequenceStore.Builder.() -> Unit = {}): CfnSequenceStore =
-    CfnSequenceStore.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSequenceStore(id: String, initializer: @AwsCdkDsl CfnSequenceStore.Builder.() -> Unit = {}): CfnSequenceStore = CfnSequenceStore.Builder.create(this, id).apply(initializer).build()

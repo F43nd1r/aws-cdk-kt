@@ -16,6 +16,4 @@ public fun Construct.bitBucketSourceCredentials(
 ): BitBucketSourceCredentials = BitBucketSourceCredentials(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildBitBucketSourceCredentials(id: String, initializer: @AwsCdkDsl
-    BitBucketSourceCredentials.Builder.() -> Unit = {}): BitBucketSourceCredentials =
-    BitBucketSourceCredentials.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildBitBucketSourceCredentials(id: String, initializer: @AwsCdkDsl BitBucketSourceCredentials.Builder.() -> Unit = {}): BitBucketSourceCredentials = BitBucketSourceCredentials.Builder.create(this, id).apply(initializer).build()

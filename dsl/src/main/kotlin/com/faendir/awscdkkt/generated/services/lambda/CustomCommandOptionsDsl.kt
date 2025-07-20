@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.CustomCommandOptions
 
 @Generated
-public fun buildCustomCommandOptions(initializer: @AwsCdkDsl CustomCommandOptions.Builder.() -> Unit
-    = {}): CustomCommandOptions = CustomCommandOptions.Builder().apply(initializer).build()
+public fun buildCustomCommandOptions(initializer: @AwsCdkDsl CustomCommandOptions.Builder.() -> Unit = {}): CustomCommandOptions = CustomCommandOptions.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.WithoutPolicyUpdatesOptions
 
 @Generated
-public fun buildWithoutPolicyUpdatesOptions(initializer: @AwsCdkDsl
-    WithoutPolicyUpdatesOptions.Builder.() -> Unit = {}): WithoutPolicyUpdatesOptions =
-    WithoutPolicyUpdatesOptions.Builder().apply(initializer).build()
+public fun buildWithoutPolicyUpdatesOptions(initializer: @AwsCdkDsl WithoutPolicyUpdatesOptions.Builder.() -> Unit = {}): WithoutPolicyUpdatesOptions = WithoutPolicyUpdatesOptions.Builder().apply(initializer).build()

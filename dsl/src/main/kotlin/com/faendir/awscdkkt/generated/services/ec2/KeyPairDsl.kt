@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.ec2.KeyPairProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.keyPair(id: String, initializer: @AwsCdkDsl KeyPair.() -> Unit = {}): KeyPair =
-    KeyPair(this, id).apply(initializer)
+public fun Construct.keyPair(id: String, initializer: @AwsCdkDsl KeyPair.() -> Unit = {}): KeyPair = KeyPair(this, id).apply(initializer)
 
 @Generated
 public fun Construct.keyPair(
@@ -20,5 +19,4 @@ public fun Construct.keyPair(
 ): KeyPair = KeyPair(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildKeyPair(id: String, initializer: @AwsCdkDsl KeyPair.Builder.() -> Unit =
-    {}): KeyPair = KeyPair.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildKeyPair(id: String, initializer: @AwsCdkDsl KeyPair.Builder.() -> Unit = {}): KeyPair = KeyPair.Builder.create(this, id).apply(initializer).build()

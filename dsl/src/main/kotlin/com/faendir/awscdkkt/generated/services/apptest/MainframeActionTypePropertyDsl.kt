@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apptest.CfnTestCase
 
 @Generated
-public fun buildMainframeActionTypeProperty(initializer: @AwsCdkDsl
-    CfnTestCase.MainframeActionTypeProperty.Builder.() -> Unit = {}):
-    CfnTestCase.MainframeActionTypeProperty =
-    CfnTestCase.MainframeActionTypeProperty.Builder().apply(initializer).build()
+public fun buildMainframeActionTypeProperty(initializer: @AwsCdkDsl CfnTestCase.MainframeActionTypeProperty.Builder.() -> Unit = {}): CfnTestCase.MainframeActionTypeProperty = CfnTestCase.MainframeActionTypeProperty.Builder().apply(initializer).build()

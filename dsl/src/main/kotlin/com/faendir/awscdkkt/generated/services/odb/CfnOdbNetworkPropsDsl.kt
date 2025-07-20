@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.odb.CfnOdbNetworkProps
 
 @Generated
-public fun buildCfnOdbNetworkProps(initializer: @AwsCdkDsl CfnOdbNetworkProps.Builder.() -> Unit =
-    {}): CfnOdbNetworkProps = CfnOdbNetworkProps.Builder().apply(initializer).build()
+public fun buildCfnOdbNetworkProps(initializer: @AwsCdkDsl CfnOdbNetworkProps.Builder.() -> Unit = {}): CfnOdbNetworkProps = CfnOdbNetworkProps.Builder().apply(initializer).build()

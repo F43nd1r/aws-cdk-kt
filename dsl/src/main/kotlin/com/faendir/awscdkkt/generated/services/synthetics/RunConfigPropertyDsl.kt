@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.synthetics.CfnCanary
 
 @Generated
-public fun buildRunConfigProperty(initializer: @AwsCdkDsl
-    CfnCanary.RunConfigProperty.Builder.() -> Unit = {}): CfnCanary.RunConfigProperty =
-    CfnCanary.RunConfigProperty.Builder().apply(initializer).build()
+public fun buildRunConfigProperty(initializer: @AwsCdkDsl CfnCanary.RunConfigProperty.Builder.() -> Unit = {}): CfnCanary.RunConfigProperty = CfnCanary.RunConfigProperty.Builder().apply(initializer).build()

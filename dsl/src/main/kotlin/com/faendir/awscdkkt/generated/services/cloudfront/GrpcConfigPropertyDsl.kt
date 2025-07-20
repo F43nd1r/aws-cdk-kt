@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnDistribution
 
 @Generated
-public fun buildGrpcConfigProperty(initializer: @AwsCdkDsl
-    CfnDistribution.GrpcConfigProperty.Builder.() -> Unit = {}): CfnDistribution.GrpcConfigProperty
-    = CfnDistribution.GrpcConfigProperty.Builder().apply(initializer).build()
+public fun buildGrpcConfigProperty(initializer: @AwsCdkDsl CfnDistribution.GrpcConfigProperty.Builder.() -> Unit = {}): CfnDistribution.GrpcConfigProperty = CfnDistribution.GrpcConfigProperty.Builder().apply(initializer).build()

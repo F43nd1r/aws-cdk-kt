@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3express.CfnDirectoryBucket
 
 @Generated
-public fun buildRuleProperty(initializer: @AwsCdkDsl
-    CfnDirectoryBucket.RuleProperty.Builder.() -> Unit = {}): CfnDirectoryBucket.RuleProperty =
-    CfnDirectoryBucket.RuleProperty.Builder().apply(initializer).build()
+public fun buildRuleProperty(initializer: @AwsCdkDsl CfnDirectoryBucket.RuleProperty.Builder.() -> Unit = {}): CfnDirectoryBucket.RuleProperty = CfnDirectoryBucket.RuleProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnGuardrail
 
 @Generated
-public fun buildContextualGroundingPolicyConfigProperty(initializer: @AwsCdkDsl
-    CfnGuardrail.ContextualGroundingPolicyConfigProperty.Builder.() -> Unit = {}):
-    CfnGuardrail.ContextualGroundingPolicyConfigProperty =
-    CfnGuardrail.ContextualGroundingPolicyConfigProperty.Builder().apply(initializer).build()
+public fun buildContextualGroundingPolicyConfigProperty(initializer: @AwsCdkDsl CfnGuardrail.ContextualGroundingPolicyConfigProperty.Builder.() -> Unit = {}): CfnGuardrail.ContextualGroundingPolicyConfigProperty = CfnGuardrail.ContextualGroundingPolicyConfigProperty.Builder().apply(initializer).build()

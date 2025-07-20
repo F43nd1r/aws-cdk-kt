@@ -16,6 +16,4 @@ public fun Construct.cfnScalableTarget(
 ): CfnScalableTarget = CfnScalableTarget(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnScalableTarget(id: String, initializer: @AwsCdkDsl
-    CfnScalableTarget.Builder.() -> Unit = {}): CfnScalableTarget =
-    CfnScalableTarget.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnScalableTarget(id: String, initializer: @AwsCdkDsl CfnScalableTarget.Builder.() -> Unit = {}): CfnScalableTarget = CfnScalableTarget.Builder.create(this, id).apply(initializer).build()

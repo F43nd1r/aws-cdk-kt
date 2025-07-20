@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloud_assembly_schema.DockerCacheOption
 
 @Generated
-public fun buildDockerCacheOption(initializer: @AwsCdkDsl DockerCacheOption.Builder.() -> Unit =
-    {}): DockerCacheOption = DockerCacheOption.Builder().apply(initializer).build()
+public fun buildDockerCacheOption(initializer: @AwsCdkDsl DockerCacheOption.Builder.() -> Unit = {}): DockerCacheOption = DockerCacheOption.Builder().apply(initializer).build()

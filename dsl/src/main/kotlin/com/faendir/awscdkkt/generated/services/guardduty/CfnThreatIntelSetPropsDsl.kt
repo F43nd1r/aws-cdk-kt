@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.guardduty.CfnThreatIntelSetProps
 
 @Generated
-public fun buildCfnThreatIntelSetProps(initializer: @AwsCdkDsl
-    CfnThreatIntelSetProps.Builder.() -> Unit = {}): CfnThreatIntelSetProps =
-    CfnThreatIntelSetProps.Builder().apply(initializer).build()
+public fun buildCfnThreatIntelSetProps(initializer: @AwsCdkDsl CfnThreatIntelSetProps.Builder.() -> Unit = {}): CfnThreatIntelSetProps = CfnThreatIntelSetProps.Builder().apply(initializer).build()

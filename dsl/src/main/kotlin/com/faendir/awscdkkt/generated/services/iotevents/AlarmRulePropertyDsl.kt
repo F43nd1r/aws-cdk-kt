@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotevents.CfnAlarmModel
 
 @Generated
-public fun buildAlarmRuleProperty(initializer: @AwsCdkDsl
-    CfnAlarmModel.AlarmRuleProperty.Builder.() -> Unit = {}): CfnAlarmModel.AlarmRuleProperty =
-    CfnAlarmModel.AlarmRuleProperty.Builder().apply(initializer).build()
+public fun buildAlarmRuleProperty(initializer: @AwsCdkDsl CfnAlarmModel.AlarmRuleProperty.Builder.() -> Unit = {}): CfnAlarmModel.AlarmRuleProperty = CfnAlarmModel.AlarmRuleProperty.Builder().apply(initializer).build()

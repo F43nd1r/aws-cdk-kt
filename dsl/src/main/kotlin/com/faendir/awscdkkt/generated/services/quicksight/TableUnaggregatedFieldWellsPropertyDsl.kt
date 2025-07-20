@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildTableUnaggregatedFieldWellsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TableUnaggregatedFieldWellsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.TableUnaggregatedFieldWellsProperty =
-    CfnTemplate.TableUnaggregatedFieldWellsProperty.Builder().apply(initializer).build()
+public fun buildTableUnaggregatedFieldWellsProperty(initializer: @AwsCdkDsl CfnTemplate.TableUnaggregatedFieldWellsProperty.Builder.() -> Unit = {}): CfnTemplate.TableUnaggregatedFieldWellsProperty = CfnTemplate.TableUnaggregatedFieldWellsProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.CfnLaunchConfiguration
 
 @Generated
-public fun buildBlockDeviceMappingProperty(initializer: @AwsCdkDsl
-    CfnLaunchConfiguration.BlockDeviceMappingProperty.Builder.() -> Unit = {}):
-    CfnLaunchConfiguration.BlockDeviceMappingProperty =
-    CfnLaunchConfiguration.BlockDeviceMappingProperty.Builder().apply(initializer).build()
+public fun buildBlockDeviceMappingProperty(initializer: @AwsCdkDsl CfnLaunchConfiguration.BlockDeviceMappingProperty.Builder.() -> Unit = {}): CfnLaunchConfiguration.BlockDeviceMappingProperty = CfnLaunchConfiguration.BlockDeviceMappingProperty.Builder().apply(initializer).build()

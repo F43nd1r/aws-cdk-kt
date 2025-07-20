@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.backup.CfnReportPlan
 
 @Generated
-public fun buildReportSettingProperty(initializer: @AwsCdkDsl
-    CfnReportPlan.ReportSettingProperty.Builder.() -> Unit = {}):
-    CfnReportPlan.ReportSettingProperty =
-    CfnReportPlan.ReportSettingProperty.Builder().apply(initializer).build()
+public fun buildReportSettingProperty(initializer: @AwsCdkDsl CfnReportPlan.ReportSettingProperty.Builder.() -> Unit = {}): CfnReportPlan.ReportSettingProperty = CfnReportPlan.ReportSettingProperty.Builder().apply(initializer).build()

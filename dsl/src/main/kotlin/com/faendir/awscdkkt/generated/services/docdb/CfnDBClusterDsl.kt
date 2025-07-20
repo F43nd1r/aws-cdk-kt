@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.docdb.CfnDBClusterProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDBCluster(id: String, initializer: @AwsCdkDsl CfnDBCluster.() -> Unit = {}):
-    CfnDBCluster = CfnDBCluster(this, id).apply(initializer)
+public fun Construct.cfnDBCluster(id: String, initializer: @AwsCdkDsl CfnDBCluster.() -> Unit = {}): CfnDBCluster = CfnDBCluster(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnDBCluster(
@@ -20,6 +19,4 @@ public fun Construct.cfnDBCluster(
 ): CfnDBCluster = CfnDBCluster(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDBCluster(id: String, initializer: @AwsCdkDsl
-    CfnDBCluster.Builder.() -> Unit = {}): CfnDBCluster = CfnDBCluster.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnDBCluster(id: String, initializer: @AwsCdkDsl CfnDBCluster.Builder.() -> Unit = {}): CfnDBCluster = CfnDBCluster.Builder.create(this, id).apply(initializer).build()

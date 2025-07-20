@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloud_assembly_schema.DockerImageDestination
 
 @Generated
-public fun buildDockerImageDestination(initializer: @AwsCdkDsl
-    DockerImageDestination.Builder.() -> Unit = {}): DockerImageDestination =
-    DockerImageDestination.Builder().apply(initializer).build()
+public fun buildDockerImageDestination(initializer: @AwsCdkDsl DockerImageDestination.Builder.() -> Unit = {}): DockerImageDestination = DockerImageDestination.Builder().apply(initializer).build()

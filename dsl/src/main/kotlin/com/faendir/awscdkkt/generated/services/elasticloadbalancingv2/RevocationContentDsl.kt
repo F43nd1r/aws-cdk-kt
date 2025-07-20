@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.RevocationContent
 
 @Generated
-public fun buildRevocationContent(initializer: @AwsCdkDsl RevocationContent.Builder.() -> Unit =
-    {}): RevocationContent = RevocationContent.Builder().apply(initializer).build()
+public fun buildRevocationContent(initializer: @AwsCdkDsl RevocationContent.Builder.() -> Unit = {}): RevocationContent = RevocationContent.Builder().apply(initializer).build()

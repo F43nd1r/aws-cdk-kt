@@ -16,6 +16,4 @@ public fun Construct.appSyncDynamoDbDataSource(
 ): AppSyncDynamoDbDataSource = AppSyncDynamoDbDataSource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAppSyncDynamoDbDataSource(id: String, initializer: @AwsCdkDsl
-    AppSyncDynamoDbDataSource.Builder.() -> Unit = {}): AppSyncDynamoDbDataSource =
-    AppSyncDynamoDbDataSource.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildAppSyncDynamoDbDataSource(id: String, initializer: @AwsCdkDsl AppSyncDynamoDbDataSource.Builder.() -> Unit = {}): AppSyncDynamoDbDataSource = AppSyncDynamoDbDataSource.Builder.create(this, id).apply(initializer).build()

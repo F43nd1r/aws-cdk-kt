@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.scheduler.targets.FargateTaskProps
 
 @Generated
-public fun buildFargateTaskProps(initializer: @AwsCdkDsl FargateTaskProps.Builder.() -> Unit = {}):
-    FargateTaskProps = FargateTaskProps.Builder().apply(initializer).build()
+public fun buildFargateTaskProps(initializer: @AwsCdkDsl FargateTaskProps.Builder.() -> Unit = {}): FargateTaskProps = FargateTaskProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.NotificationKeyFilter
 
 @Generated
-public fun buildNotificationKeyFilter(initializer: @AwsCdkDsl
-    NotificationKeyFilter.Builder.() -> Unit = {}): NotificationKeyFilter =
-    NotificationKeyFilter.Builder().apply(initializer).build()
+public fun buildNotificationKeyFilter(initializer: @AwsCdkDsl NotificationKeyFilter.Builder.() -> Unit = {}): NotificationKeyFilter = NotificationKeyFilter.Builder().apply(initializer).build()

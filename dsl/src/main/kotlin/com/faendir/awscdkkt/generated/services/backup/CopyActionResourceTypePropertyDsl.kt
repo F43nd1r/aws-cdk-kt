@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.backup.CfnBackupPlan
 
 @Generated
-public fun buildCopyActionResourceTypeProperty(initializer: @AwsCdkDsl
-    CfnBackupPlan.CopyActionResourceTypeProperty.Builder.() -> Unit = {}):
-    CfnBackupPlan.CopyActionResourceTypeProperty =
-    CfnBackupPlan.CopyActionResourceTypeProperty.Builder().apply(initializer).build()
+public fun buildCopyActionResourceTypeProperty(initializer: @AwsCdkDsl CfnBackupPlan.CopyActionResourceTypeProperty.Builder.() -> Unit = {}): CfnBackupPlan.CopyActionResourceTypeProperty = CfnBackupPlan.CopyActionResourceTypeProperty.Builder().apply(initializer).build()

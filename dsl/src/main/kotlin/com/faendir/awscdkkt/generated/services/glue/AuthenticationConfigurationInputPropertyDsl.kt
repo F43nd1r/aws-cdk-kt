@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnConnection
 
 @Generated
-public fun buildAuthenticationConfigurationInputProperty(initializer: @AwsCdkDsl
-    CfnConnection.AuthenticationConfigurationInputProperty.Builder.() -> Unit = {}):
-    CfnConnection.AuthenticationConfigurationInputProperty =
-    CfnConnection.AuthenticationConfigurationInputProperty.Builder().apply(initializer).build()
+public fun buildAuthenticationConfigurationInputProperty(initializer: @AwsCdkDsl CfnConnection.AuthenticationConfigurationInputProperty.Builder.() -> Unit = {}): CfnConnection.AuthenticationConfigurationInputProperty = CfnConnection.AuthenticationConfigurationInputProperty.Builder().apply(initializer).build()

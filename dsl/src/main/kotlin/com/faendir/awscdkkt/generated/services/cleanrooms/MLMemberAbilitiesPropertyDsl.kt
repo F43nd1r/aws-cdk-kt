@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cleanrooms.CfnCollaboration
 
 @Generated
-public fun buildMLMemberAbilitiesProperty(initializer: @AwsCdkDsl
-    CfnCollaboration.MLMemberAbilitiesProperty.Builder.() -> Unit = {}):
-    CfnCollaboration.MLMemberAbilitiesProperty =
-    CfnCollaboration.MLMemberAbilitiesProperty.Builder().apply(initializer).build()
+public fun buildMLMemberAbilitiesProperty(initializer: @AwsCdkDsl CfnCollaboration.MLMemberAbilitiesProperty.Builder.() -> Unit = {}): CfnCollaboration.MLMemberAbilitiesProperty = CfnCollaboration.MLMemberAbilitiesProperty.Builder().apply(initializer).build()

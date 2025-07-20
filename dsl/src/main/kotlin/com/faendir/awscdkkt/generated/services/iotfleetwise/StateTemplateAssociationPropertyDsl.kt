@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotfleetwise.CfnVehicle
 
 @Generated
-public fun buildStateTemplateAssociationProperty(initializer: @AwsCdkDsl
-    CfnVehicle.StateTemplateAssociationProperty.Builder.() -> Unit = {}):
-    CfnVehicle.StateTemplateAssociationProperty =
-    CfnVehicle.StateTemplateAssociationProperty.Builder().apply(initializer).build()
+public fun buildStateTemplateAssociationProperty(initializer: @AwsCdkDsl CfnVehicle.StateTemplateAssociationProperty.Builder.() -> Unit = {}): CfnVehicle.StateTemplateAssociationProperty = CfnVehicle.StateTemplateAssociationProperty.Builder().apply(initializer).build()

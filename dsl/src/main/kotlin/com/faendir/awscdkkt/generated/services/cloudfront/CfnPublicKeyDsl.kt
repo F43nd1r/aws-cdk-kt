@@ -16,6 +16,4 @@ public fun Construct.cfnPublicKey(
 ): CfnPublicKey = CfnPublicKey(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPublicKey(id: String, initializer: @AwsCdkDsl
-    CfnPublicKey.Builder.() -> Unit = {}): CfnPublicKey = CfnPublicKey.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnPublicKey(id: String, initializer: @AwsCdkDsl CfnPublicKey.Builder.() -> Unit = {}): CfnPublicKey = CfnPublicKey.Builder.create(this, id).apply(initializer).build()

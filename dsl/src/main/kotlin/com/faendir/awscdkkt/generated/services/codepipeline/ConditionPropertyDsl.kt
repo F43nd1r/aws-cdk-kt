@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.CfnPipeline
 
 @Generated
-public fun buildConditionProperty(initializer: @AwsCdkDsl
-    CfnPipeline.ConditionProperty.Builder.() -> Unit = {}): CfnPipeline.ConditionProperty =
-    CfnPipeline.ConditionProperty.Builder().apply(initializer).build()
+public fun buildConditionProperty(initializer: @AwsCdkDsl CfnPipeline.ConditionProperty.Builder.() -> Unit = {}): CfnPipeline.ConditionProperty = CfnPipeline.ConditionProperty.Builder().apply(initializer).build()

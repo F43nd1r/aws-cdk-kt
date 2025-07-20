@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
-public fun buildInferenceAcceleratorProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.InferenceAcceleratorProperty.Builder.() -> Unit = {}):
-    CfnTaskDefinition.InferenceAcceleratorProperty =
-    CfnTaskDefinition.InferenceAcceleratorProperty.Builder().apply(initializer).build()
+public fun buildInferenceAcceleratorProperty(initializer: @AwsCdkDsl CfnTaskDefinition.InferenceAcceleratorProperty.Builder.() -> Unit = {}): CfnTaskDefinition.InferenceAcceleratorProperty = CfnTaskDefinition.InferenceAcceleratorProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.FargateComputeEnvironmentProps
 
 @Generated
-public fun buildFargateComputeEnvironmentProps(initializer: @AwsCdkDsl
-    FargateComputeEnvironmentProps.Builder.() -> Unit = {}): FargateComputeEnvironmentProps =
-    FargateComputeEnvironmentProps.Builder().apply(initializer).build()
+public fun buildFargateComputeEnvironmentProps(initializer: @AwsCdkDsl FargateComputeEnvironmentProps.Builder.() -> Unit = {}): FargateComputeEnvironmentProps = FargateComputeEnvironmentProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apptest.CfnTestCase
 
 @Generated
-public fun buildScriptProperty(initializer: @AwsCdkDsl CfnTestCase.ScriptProperty.Builder.() -> Unit
-    = {}): CfnTestCase.ScriptProperty =
-    CfnTestCase.ScriptProperty.Builder().apply(initializer).build()
+public fun buildScriptProperty(initializer: @AwsCdkDsl CfnTestCase.ScriptProperty.Builder.() -> Unit = {}): CfnTestCase.ScriptProperty = CfnTestCase.ScriptProperty.Builder().apply(initializer).build()

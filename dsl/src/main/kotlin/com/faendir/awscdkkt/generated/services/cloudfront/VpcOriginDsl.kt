@@ -16,5 +16,4 @@ public fun Construct.vpcOrigin(
 ): VpcOrigin = VpcOrigin(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildVpcOrigin(id: String, initializer: @AwsCdkDsl VpcOrigin.Builder.() -> Unit
-    = {}): VpcOrigin = VpcOrigin.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildVpcOrigin(id: String, initializer: @AwsCdkDsl VpcOrigin.Builder.() -> Unit = {}): VpcOrigin = VpcOrigin.Builder.create(this, id).apply(initializer).build()

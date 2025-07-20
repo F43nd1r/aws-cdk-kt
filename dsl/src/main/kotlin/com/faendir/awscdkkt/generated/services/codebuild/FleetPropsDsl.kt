@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.FleetProps
 
 @Generated
-public fun buildFleetProps(initializer: @AwsCdkDsl FleetProps.Builder.() -> Unit = {}): FleetProps =
-    FleetProps.Builder().apply(initializer).build()
+public fun buildFleetProps(initializer: @AwsCdkDsl FleetProps.Builder.() -> Unit = {}): FleetProps = FleetProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.AssociateCloudMapServiceOptions
 
 @Generated
-public fun buildAssociateCloudMapServiceOptions(initializer: @AwsCdkDsl
-    AssociateCloudMapServiceOptions.Builder.() -> Unit = {}): AssociateCloudMapServiceOptions =
-    AssociateCloudMapServiceOptions.Builder().apply(initializer).build()
+public fun buildAssociateCloudMapServiceOptions(initializer: @AwsCdkDsl AssociateCloudMapServiceOptions.Builder.() -> Unit = {}): AssociateCloudMapServiceOptions = AssociateCloudMapServiceOptions.Builder().apply(initializer).build()

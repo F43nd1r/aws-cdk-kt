@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appconfig.DeploymentStrategyProps
 
 @Generated
-public fun buildDeploymentStrategyProps(initializer: @AwsCdkDsl
-    DeploymentStrategyProps.Builder.() -> Unit = {}): DeploymentStrategyProps =
-    DeploymentStrategyProps.Builder().apply(initializer).build()
+public fun buildDeploymentStrategyProps(initializer: @AwsCdkDsl DeploymentStrategyProps.Builder.() -> Unit = {}): DeploymentStrategyProps = DeploymentStrategyProps.Builder().apply(initializer).build()

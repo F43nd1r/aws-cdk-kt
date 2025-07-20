@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bcmdataexports.CfnExport
 
 @Generated
-public fun buildDataQueryProperty(initializer: @AwsCdkDsl
-    CfnExport.DataQueryProperty.Builder.() -> Unit = {}): CfnExport.DataQueryProperty =
-    CfnExport.DataQueryProperty.Builder().apply(initializer).build()
+public fun buildDataQueryProperty(initializer: @AwsCdkDsl CfnExport.DataQueryProperty.Builder.() -> Unit = {}): CfnExport.DataQueryProperty = CfnExport.DataQueryProperty.Builder().apply(initializer).build()

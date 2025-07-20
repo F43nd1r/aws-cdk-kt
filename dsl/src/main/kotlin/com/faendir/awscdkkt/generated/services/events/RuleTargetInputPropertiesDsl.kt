@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.RuleTargetInputProperties
 
 @Generated
-public fun buildRuleTargetInputProperties(initializer: @AwsCdkDsl
-    RuleTargetInputProperties.Builder.() -> Unit = {}): RuleTargetInputProperties =
-    RuleTargetInputProperties.Builder().apply(initializer).build()
+public fun buildRuleTargetInputProperties(initializer: @AwsCdkDsl RuleTargetInputProperties.Builder.() -> Unit = {}): RuleTargetInputProperties = RuleTargetInputProperties.Builder().apply(initializer).build()

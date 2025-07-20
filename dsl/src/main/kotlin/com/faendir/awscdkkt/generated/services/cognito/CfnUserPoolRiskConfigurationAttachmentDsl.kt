@@ -13,11 +13,7 @@ public fun Construct.cfnUserPoolRiskConfigurationAttachment(
   id: String,
   props: CfnUserPoolRiskConfigurationAttachmentProps,
   initializer: @AwsCdkDsl CfnUserPoolRiskConfigurationAttachment.() -> Unit = {},
-): CfnUserPoolRiskConfigurationAttachment = CfnUserPoolRiskConfigurationAttachment(this, id,
-    props).apply(initializer)
+): CfnUserPoolRiskConfigurationAttachment = CfnUserPoolRiskConfigurationAttachment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnUserPoolRiskConfigurationAttachment(id: String, initializer: @AwsCdkDsl
-    CfnUserPoolRiskConfigurationAttachment.Builder.() -> Unit = {}):
-    CfnUserPoolRiskConfigurationAttachment =
-    CfnUserPoolRiskConfigurationAttachment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnUserPoolRiskConfigurationAttachment(id: String, initializer: @AwsCdkDsl CfnUserPoolRiskConfigurationAttachment.Builder.() -> Unit = {}): CfnUserPoolRiskConfigurationAttachment = CfnUserPoolRiskConfigurationAttachment.Builder.create(this, id).apply(initializer).build()

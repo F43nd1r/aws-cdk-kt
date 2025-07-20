@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lakeformation.CfnPrincipalPermissions
 
 @Generated
-public fun buildColumnWildcardProperty(initializer: @AwsCdkDsl
-    CfnPrincipalPermissions.ColumnWildcardProperty.Builder.() -> Unit = {}):
-    CfnPrincipalPermissions.ColumnWildcardProperty =
-    CfnPrincipalPermissions.ColumnWildcardProperty.Builder().apply(initializer).build()
+public fun buildColumnWildcardProperty(initializer: @AwsCdkDsl CfnPrincipalPermissions.ColumnWildcardProperty.Builder.() -> Unit = {}): CfnPrincipalPermissions.ColumnWildcardProperty = CfnPrincipalPermissions.ColumnWildcardProperty.Builder().apply(initializer).build()

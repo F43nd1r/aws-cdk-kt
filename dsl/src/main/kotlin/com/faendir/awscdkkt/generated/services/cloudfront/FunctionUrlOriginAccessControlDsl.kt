@@ -9,19 +9,14 @@ import software.amazon.awscdk.services.cloudfront.FunctionUrlOriginAccessControl
 import software.constructs.Construct
 
 @Generated
-public fun Construct.functionUrlOriginAccessControl(id: String, initializer: @AwsCdkDsl
-    FunctionUrlOriginAccessControl.() -> Unit = {}): FunctionUrlOriginAccessControl =
-    FunctionUrlOriginAccessControl(this, id).apply(initializer)
+public fun Construct.functionUrlOriginAccessControl(id: String, initializer: @AwsCdkDsl FunctionUrlOriginAccessControl.() -> Unit = {}): FunctionUrlOriginAccessControl = FunctionUrlOriginAccessControl(this, id).apply(initializer)
 
 @Generated
 public fun Construct.functionUrlOriginAccessControl(
   id: String,
   props: FunctionUrlOriginAccessControlProps,
   initializer: @AwsCdkDsl FunctionUrlOriginAccessControl.() -> Unit = {},
-): FunctionUrlOriginAccessControl = FunctionUrlOriginAccessControl(this, id,
-    props).apply(initializer)
+): FunctionUrlOriginAccessControl = FunctionUrlOriginAccessControl(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildFunctionUrlOriginAccessControl(id: String, initializer: @AwsCdkDsl
-    FunctionUrlOriginAccessControl.Builder.() -> Unit = {}): FunctionUrlOriginAccessControl =
-    FunctionUrlOriginAccessControl.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildFunctionUrlOriginAccessControl(id: String, initializer: @AwsCdkDsl FunctionUrlOriginAccessControl.Builder.() -> Unit = {}): FunctionUrlOriginAccessControl = FunctionUrlOriginAccessControl.Builder.create(this, id).apply(initializer).build()

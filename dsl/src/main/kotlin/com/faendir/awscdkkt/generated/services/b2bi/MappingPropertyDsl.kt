@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.b2bi.CfnTransformer
 
 @Generated
-public fun buildMappingProperty(initializer: @AwsCdkDsl
-    CfnTransformer.MappingProperty.Builder.() -> Unit = {}): CfnTransformer.MappingProperty =
-    CfnTransformer.MappingProperty.Builder().apply(initializer).build()
+public fun buildMappingProperty(initializer: @AwsCdkDsl CfnTransformer.MappingProperty.Builder.() -> Unit = {}): CfnTransformer.MappingProperty = CfnTransformer.MappingProperty.Builder().apply(initializer).build()

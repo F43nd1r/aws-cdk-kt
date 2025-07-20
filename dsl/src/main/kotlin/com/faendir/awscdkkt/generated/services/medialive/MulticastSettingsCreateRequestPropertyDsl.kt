@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnInput
 
 @Generated
-public fun buildMulticastSettingsCreateRequestProperty(initializer: @AwsCdkDsl
-    CfnInput.MulticastSettingsCreateRequestProperty.Builder.() -> Unit = {}):
-    CfnInput.MulticastSettingsCreateRequestProperty =
-    CfnInput.MulticastSettingsCreateRequestProperty.Builder().apply(initializer).build()
+public fun buildMulticastSettingsCreateRequestProperty(initializer: @AwsCdkDsl CfnInput.MulticastSettingsCreateRequestProperty.Builder.() -> Unit = {}): CfnInput.MulticastSettingsCreateRequestProperty = CfnInput.MulticastSettingsCreateRequestProperty.Builder().apply(initializer).build()

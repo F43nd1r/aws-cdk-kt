@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnUserProfile
 
 @Generated
-public fun buildUserProfileDetailsProperty(initializer: @AwsCdkDsl
-    CfnUserProfile.UserProfileDetailsProperty.Builder.() -> Unit = {}):
-    CfnUserProfile.UserProfileDetailsProperty =
-    CfnUserProfile.UserProfileDetailsProperty.Builder().apply(initializer).build()
+public fun buildUserProfileDetailsProperty(initializer: @AwsCdkDsl CfnUserProfile.UserProfileDetailsProperty.Builder.() -> Unit = {}): CfnUserProfile.UserProfileDetailsProperty = CfnUserProfile.UserProfileDetailsProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecr.CfnRegistryScanningConfigurationProps
 
 @Generated
-public fun buildCfnRegistryScanningConfigurationProps(initializer: @AwsCdkDsl
-    CfnRegistryScanningConfigurationProps.Builder.() -> Unit = {}):
-    CfnRegistryScanningConfigurationProps =
-    CfnRegistryScanningConfigurationProps.Builder().apply(initializer).build()
+public fun buildCfnRegistryScanningConfigurationProps(initializer: @AwsCdkDsl CfnRegistryScanningConfigurationProps.Builder.() -> Unit = {}): CfnRegistryScanningConfigurationProps = CfnRegistryScanningConfigurationProps.Builder().apply(initializer).build()

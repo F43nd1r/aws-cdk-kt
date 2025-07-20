@@ -16,6 +16,4 @@ public fun Construct.cfnDBClusterParameterGroup(
 ): CfnDBClusterParameterGroup = CfnDBClusterParameterGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDBClusterParameterGroup(id: String, initializer: @AwsCdkDsl
-    CfnDBClusterParameterGroup.Builder.() -> Unit = {}): CfnDBClusterParameterGroup =
-    CfnDBClusterParameterGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDBClusterParameterGroup(id: String, initializer: @AwsCdkDsl CfnDBClusterParameterGroup.Builder.() -> Unit = {}): CfnDBClusterParameterGroup = CfnDBClusterParameterGroup.Builder.create(this, id).apply(initializer).build()

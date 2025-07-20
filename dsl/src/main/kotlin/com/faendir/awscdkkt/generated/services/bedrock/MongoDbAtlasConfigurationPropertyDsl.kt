@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnKnowledgeBase
 
 @Generated
-public fun buildMongoDbAtlasConfigurationProperty(initializer: @AwsCdkDsl
-    CfnKnowledgeBase.MongoDbAtlasConfigurationProperty.Builder.() -> Unit = {}):
-    CfnKnowledgeBase.MongoDbAtlasConfigurationProperty =
-    CfnKnowledgeBase.MongoDbAtlasConfigurationProperty.Builder().apply(initializer).build()
+public fun buildMongoDbAtlasConfigurationProperty(initializer: @AwsCdkDsl CfnKnowledgeBase.MongoDbAtlasConfigurationProperty.Builder.() -> Unit = {}): CfnKnowledgeBase.MongoDbAtlasConfigurationProperty = CfnKnowledgeBase.MongoDbAtlasConfigurationProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.CfnSchedulingPolicy
 
 @Generated
-public fun buildShareAttributesProperty(initializer: @AwsCdkDsl
-    CfnSchedulingPolicy.ShareAttributesProperty.Builder.() -> Unit = {}):
-    CfnSchedulingPolicy.ShareAttributesProperty =
-    CfnSchedulingPolicy.ShareAttributesProperty.Builder().apply(initializer).build()
+public fun buildShareAttributesProperty(initializer: @AwsCdkDsl CfnSchedulingPolicy.ShareAttributesProperty.Builder.() -> Unit = {}): CfnSchedulingPolicy.ShareAttributesProperty = CfnSchedulingPolicy.ShareAttributesProperty.Builder().apply(initializer).build()

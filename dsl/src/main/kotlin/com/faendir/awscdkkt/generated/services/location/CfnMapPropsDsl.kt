@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.location.CfnMapProps
 
 @Generated
-public fun buildCfnMapProps(initializer: @AwsCdkDsl CfnMapProps.Builder.() -> Unit = {}):
-    CfnMapProps = CfnMapProps.Builder().apply(initializer).build()
+public fun buildCfnMapProps(initializer: @AwsCdkDsl CfnMapProps.Builder.() -> Unit = {}): CfnMapProps = CfnMapProps.Builder().apply(initializer).build()

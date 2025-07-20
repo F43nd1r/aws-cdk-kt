@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.identitystore.CfnGroupMembership
 
 @Generated
-public fun buildMemberIdProperty(initializer: @AwsCdkDsl
-    CfnGroupMembership.MemberIdProperty.Builder.() -> Unit = {}):
-    CfnGroupMembership.MemberIdProperty =
-    CfnGroupMembership.MemberIdProperty.Builder().apply(initializer).build()
+public fun buildMemberIdProperty(initializer: @AwsCdkDsl CfnGroupMembership.MemberIdProperty.Builder.() -> Unit = {}): CfnGroupMembership.MemberIdProperty = CfnGroupMembership.MemberIdProperty.Builder().apply(initializer).build()

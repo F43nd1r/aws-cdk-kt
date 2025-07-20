@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnSpace
 
 @Generated
-public fun buildEFSFileSystemProperty(initializer: @AwsCdkDsl
-    CfnSpace.EFSFileSystemProperty.Builder.() -> Unit = {}): CfnSpace.EFSFileSystemProperty =
-    CfnSpace.EFSFileSystemProperty.Builder().apply(initializer).build()
+public fun buildEFSFileSystemProperty(initializer: @AwsCdkDsl CfnSpace.EFSFileSystemProperty.Builder.() -> Unit = {}): CfnSpace.EFSFileSystemProperty = CfnSpace.EFSFileSystemProperty.Builder().apply(initializer).build()

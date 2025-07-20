@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnUsageProfile
 
 @Generated
-public fun buildConfigurationObjectProperty(initializer: @AwsCdkDsl
-    CfnUsageProfile.ConfigurationObjectProperty.Builder.() -> Unit = {}):
-    CfnUsageProfile.ConfigurationObjectProperty =
-    CfnUsageProfile.ConfigurationObjectProperty.Builder().apply(initializer).build()
+public fun buildConfigurationObjectProperty(initializer: @AwsCdkDsl CfnUsageProfile.ConfigurationObjectProperty.Builder.() -> Unit = {}): CfnUsageProfile.ConfigurationObjectProperty = CfnUsageProfile.ConfigurationObjectProperty.Builder().apply(initializer).build()

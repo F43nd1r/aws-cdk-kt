@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.patterns.ScheduledFargateTaskImageOptions
 
 @Generated
-public fun buildScheduledFargateTaskImageOptions(initializer: @AwsCdkDsl
-    ScheduledFargateTaskImageOptions.Builder.() -> Unit = {}): ScheduledFargateTaskImageOptions =
-    ScheduledFargateTaskImageOptions.Builder().apply(initializer).build()
+public fun buildScheduledFargateTaskImageOptions(initializer: @AwsCdkDsl ScheduledFargateTaskImageOptions.Builder.() -> Unit = {}): ScheduledFargateTaskImageOptions = ScheduledFargateTaskImageOptions.Builder().apply(initializer).build()

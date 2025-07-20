@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.MetricFilterOptions
 
 @Generated
-public fun buildMetricFilterOptions(initializer: @AwsCdkDsl MetricFilterOptions.Builder.() -> Unit =
-    {}): MetricFilterOptions = MetricFilterOptions.Builder().apply(initializer).build()
+public fun buildMetricFilterOptions(initializer: @AwsCdkDsl MetricFilterOptions.Builder.() -> Unit = {}): MetricFilterOptions = MetricFilterOptions.Builder().apply(initializer).build()

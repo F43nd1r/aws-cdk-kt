@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sso.CfnInstanceAccessControlAttributeConfigurationProps
 
 @Generated
-public fun buildCfnInstanceAccessControlAttributeConfigurationProps(initializer: @AwsCdkDsl
-    CfnInstanceAccessControlAttributeConfigurationProps.Builder.() -> Unit = {}):
-    CfnInstanceAccessControlAttributeConfigurationProps =
-    CfnInstanceAccessControlAttributeConfigurationProps.Builder().apply(initializer).build()
+public fun buildCfnInstanceAccessControlAttributeConfigurationProps(initializer: @AwsCdkDsl CfnInstanceAccessControlAttributeConfigurationProps.Builder.() -> Unit = {}): CfnInstanceAccessControlAttributeConfigurationProps = CfnInstanceAccessControlAttributeConfigurationProps.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.albController(
 ): AlbController = AlbController(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAlbController(id: String, initializer: @AwsCdkDsl
-    AlbController.Builder.() -> Unit = {}): AlbController = AlbController.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildAlbController(id: String, initializer: @AwsCdkDsl AlbController.Builder.() -> Unit = {}): AlbController = AlbController.Builder.create(this, id).apply(initializer).build()

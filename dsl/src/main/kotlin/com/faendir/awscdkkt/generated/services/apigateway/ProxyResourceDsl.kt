@@ -16,6 +16,4 @@ public fun Construct.proxyResource(
 ): ProxyResource = ProxyResource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildProxyResource(id: String, initializer: @AwsCdkDsl
-    ProxyResource.Builder.() -> Unit = {}): ProxyResource = ProxyResource.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildProxyResource(id: String, initializer: @AwsCdkDsl ProxyResource.Builder.() -> Unit = {}): ProxyResource = ProxyResource.Builder.create(this, id).apply(initializer).build()

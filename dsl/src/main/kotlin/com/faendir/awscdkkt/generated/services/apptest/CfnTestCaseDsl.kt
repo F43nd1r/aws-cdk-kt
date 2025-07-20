@@ -16,6 +16,4 @@ public fun Construct.cfnTestCase(
 ): CfnTestCase = CfnTestCase(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTestCase(id: String, initializer: @AwsCdkDsl
-    CfnTestCase.Builder.() -> Unit = {}): CfnTestCase = CfnTestCase.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnTestCase(id: String, initializer: @AwsCdkDsl CfnTestCase.Builder.() -> Unit = {}): CfnTestCase = CfnTestCase.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.sageMakerCreateModel(
 ): SageMakerCreateModel = SageMakerCreateModel(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildSageMakerCreateModel(id: String, initializer: @AwsCdkDsl
-    SageMakerCreateModel.Builder.() -> Unit = {}): SageMakerCreateModel =
-    SageMakerCreateModel.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildSageMakerCreateModel(id: String, initializer: @AwsCdkDsl SageMakerCreateModel.Builder.() -> Unit = {}): SageMakerCreateModel = SageMakerCreateModel.Builder.create(this, id).apply(initializer).build()

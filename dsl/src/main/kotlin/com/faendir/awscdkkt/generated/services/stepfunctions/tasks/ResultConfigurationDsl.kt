@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.ResultConfiguration
 
 @Generated
-public fun buildResultConfiguration(initializer: @AwsCdkDsl ResultConfiguration.Builder.() -> Unit =
-    {}): ResultConfiguration = ResultConfiguration.Builder().apply(initializer).build()
+public fun buildResultConfiguration(initializer: @AwsCdkDsl ResultConfiguration.Builder.() -> Unit = {}): ResultConfiguration = ResultConfiguration.Builder().apply(initializer).build()

@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.amplifyuibuilder.CfnComponentProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnComponent(id: String, initializer: @AwsCdkDsl CfnComponent.() -> Unit = {}):
-    CfnComponent = CfnComponent(this, id).apply(initializer)
+public fun Construct.cfnComponent(id: String, initializer: @AwsCdkDsl CfnComponent.() -> Unit = {}): CfnComponent = CfnComponent(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnComponent(
@@ -20,6 +19,4 @@ public fun Construct.cfnComponent(
 ): CfnComponent = CfnComponent(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnComponent(id: String, initializer: @AwsCdkDsl
-    CfnComponent.Builder.() -> Unit = {}): CfnComponent = CfnComponent.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnComponent(id: String, initializer: @AwsCdkDsl CfnComponent.Builder.() -> Unit = {}): CfnComponent = CfnComponent.Builder.create(this, id).apply(initializer).build()

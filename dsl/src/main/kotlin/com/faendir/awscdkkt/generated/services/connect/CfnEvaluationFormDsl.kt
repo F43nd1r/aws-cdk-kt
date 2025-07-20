@@ -16,6 +16,4 @@ public fun Construct.cfnEvaluationForm(
 ): CfnEvaluationForm = CfnEvaluationForm(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEvaluationForm(id: String, initializer: @AwsCdkDsl
-    CfnEvaluationForm.Builder.() -> Unit = {}): CfnEvaluationForm =
-    CfnEvaluationForm.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnEvaluationForm(id: String, initializer: @AwsCdkDsl CfnEvaluationForm.Builder.() -> Unit = {}): CfnEvaluationForm = CfnEvaluationForm.Builder.create(this, id).apply(initializer).build()

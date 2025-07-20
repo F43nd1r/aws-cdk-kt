@@ -16,6 +16,4 @@ public fun Construct.cfnTrustStore(
 ): CfnTrustStore = CfnTrustStore(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTrustStore(id: String, initializer: @AwsCdkDsl
-    CfnTrustStore.Builder.() -> Unit = {}): CfnTrustStore = CfnTrustStore.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnTrustStore(id: String, initializer: @AwsCdkDsl CfnTrustStore.Builder.() -> Unit = {}): CfnTrustStore = CfnTrustStore.Builder.create(this, id).apply(initializer).build()

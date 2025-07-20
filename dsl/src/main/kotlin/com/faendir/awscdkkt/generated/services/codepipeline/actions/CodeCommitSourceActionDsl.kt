@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.CodeCommitSourceAction
 
 @Generated
-public fun buildCodeCommitSourceAction(initializer: @AwsCdkDsl
-    CodeCommitSourceAction.Builder.() -> Unit = {}): CodeCommitSourceAction =
-    CodeCommitSourceAction.Builder.create().apply(initializer).build()
+public fun buildCodeCommitSourceAction(initializer: @AwsCdkDsl CodeCommitSourceAction.Builder.() -> Unit = {}): CodeCommitSourceAction = CodeCommitSourceAction.Builder.create().apply(initializer).build()

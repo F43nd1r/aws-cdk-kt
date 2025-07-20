@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloud_assembly_schema.LoadBalancerFilter
 
 @Generated
-public fun buildLoadBalancerFilter(initializer: @AwsCdkDsl LoadBalancerFilter.Builder.() -> Unit =
-    {}): LoadBalancerFilter = LoadBalancerFilter.Builder().apply(initializer).build()
+public fun buildLoadBalancerFilter(initializer: @AwsCdkDsl LoadBalancerFilter.Builder.() -> Unit = {}): LoadBalancerFilter = LoadBalancerFilter.Builder().apply(initializer).build()

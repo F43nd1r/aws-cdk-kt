@@ -16,6 +16,4 @@ public fun Construct.cfnCustomAction(
 ): CfnCustomAction = CfnCustomAction(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCustomAction(id: String, initializer: @AwsCdkDsl
-    CfnCustomAction.Builder.() -> Unit = {}): CfnCustomAction = CfnCustomAction.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnCustomAction(id: String, initializer: @AwsCdkDsl CfnCustomAction.Builder.() -> Unit = {}): CfnCustomAction = CfnCustomAction.Builder.create(this, id).apply(initializer).build()

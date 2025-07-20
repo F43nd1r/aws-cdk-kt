@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sns.DeliveryPolicy
 
 @Generated
-public fun buildDeliveryPolicy(initializer: @AwsCdkDsl DeliveryPolicy.Builder.() -> Unit = {}):
-    DeliveryPolicy = DeliveryPolicy.Builder().apply(initializer).build()
+public fun buildDeliveryPolicy(initializer: @AwsCdkDsl DeliveryPolicy.Builder.() -> Unit = {}): DeliveryPolicy = DeliveryPolicy.Builder().apply(initializer).build()

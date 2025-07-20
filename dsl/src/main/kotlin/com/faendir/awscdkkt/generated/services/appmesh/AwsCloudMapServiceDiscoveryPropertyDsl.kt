@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnVirtualNode
 
 @Generated
-public fun buildAwsCloudMapServiceDiscoveryProperty(initializer: @AwsCdkDsl
-    CfnVirtualNode.AwsCloudMapServiceDiscoveryProperty.Builder.() -> Unit = {}):
-    CfnVirtualNode.AwsCloudMapServiceDiscoveryProperty =
-    CfnVirtualNode.AwsCloudMapServiceDiscoveryProperty.Builder().apply(initializer).build()
+public fun buildAwsCloudMapServiceDiscoveryProperty(initializer: @AwsCdkDsl CfnVirtualNode.AwsCloudMapServiceDiscoveryProperty.Builder.() -> Unit = {}): CfnVirtualNode.AwsCloudMapServiceDiscoveryProperty = CfnVirtualNode.AwsCloudMapServiceDiscoveryProperty.Builder().apply(initializer).build()

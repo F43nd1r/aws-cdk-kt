@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediapackagev2.CfnChannelGroupProps
 
 @Generated
-public fun buildCfnChannelGroupProps(initializer: @AwsCdkDsl CfnChannelGroupProps.Builder.() -> Unit
-    = {}): CfnChannelGroupProps = CfnChannelGroupProps.Builder().apply(initializer).build()
+public fun buildCfnChannelGroupProps(initializer: @AwsCdkDsl CfnChannelGroupProps.Builder.() -> Unit = {}): CfnChannelGroupProps = CfnChannelGroupProps.Builder().apply(initializer).build()

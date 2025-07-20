@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.AppProps
 
 @Generated
-public fun buildAppProps(initializer: @AwsCdkDsl AppProps.Builder.() -> Unit = {}): AppProps =
-    AppProps.Builder().apply(initializer).build()
+public fun buildAppProps(initializer: @AwsCdkDsl AppProps.Builder.() -> Unit = {}): AppProps = AppProps.Builder().apply(initializer).build()

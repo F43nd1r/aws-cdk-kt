@@ -16,6 +16,4 @@ public fun Construct.cfnVpcLink(
 ): CfnVpcLink = CfnVpcLink(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVpcLink(id: String, initializer: @AwsCdkDsl
-    CfnVpcLink.Builder.() -> Unit = {}): CfnVpcLink = CfnVpcLink.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnVpcLink(id: String, initializer: @AwsCdkDsl CfnVpcLink.Builder.() -> Unit = {}): CfnVpcLink = CfnVpcLink.Builder.create(this, id).apply(initializer).build()

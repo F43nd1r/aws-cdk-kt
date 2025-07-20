@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.dms.CfnInstanceProfileProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnInstanceProfile(id: String, initializer: @AwsCdkDsl
-    CfnInstanceProfile.() -> Unit = {}): CfnInstanceProfile = CfnInstanceProfile(this,
-    id).apply(initializer)
+public fun Construct.cfnInstanceProfile(id: String, initializer: @AwsCdkDsl CfnInstanceProfile.() -> Unit = {}): CfnInstanceProfile = CfnInstanceProfile(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnInstanceProfile(
@@ -21,6 +19,4 @@ public fun Construct.cfnInstanceProfile(
 ): CfnInstanceProfile = CfnInstanceProfile(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnInstanceProfile(id: String, initializer: @AwsCdkDsl
-    CfnInstanceProfile.Builder.() -> Unit = {}): CfnInstanceProfile =
-    CfnInstanceProfile.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnInstanceProfile(id: String, initializer: @AwsCdkDsl CfnInstanceProfile.Builder.() -> Unit = {}): CfnInstanceProfile = CfnInstanceProfile.Builder.create(this, id).apply(initializer).build()

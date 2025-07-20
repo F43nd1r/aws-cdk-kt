@@ -16,6 +16,4 @@ public fun Construct.cfnTrainingDataset(
 ): CfnTrainingDataset = CfnTrainingDataset(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTrainingDataset(id: String, initializer: @AwsCdkDsl
-    CfnTrainingDataset.Builder.() -> Unit = {}): CfnTrainingDataset =
-    CfnTrainingDataset.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTrainingDataset(id: String, initializer: @AwsCdkDsl CfnTrainingDataset.Builder.() -> Unit = {}): CfnTrainingDataset = CfnTrainingDataset.Builder.create(this, id).apply(initializer).build()

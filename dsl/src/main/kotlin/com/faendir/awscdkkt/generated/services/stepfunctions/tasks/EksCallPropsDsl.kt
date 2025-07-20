@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EksCallProps
 
 @Generated
-public fun buildEksCallProps(initializer: @AwsCdkDsl EksCallProps.Builder.() -> Unit = {}):
-    EksCallProps = EksCallProps.Builder().apply(initializer).build()
+public fun buildEksCallProps(initializer: @AwsCdkDsl EksCallProps.Builder.() -> Unit = {}): EksCallProps = EksCallProps.Builder().apply(initializer).build()

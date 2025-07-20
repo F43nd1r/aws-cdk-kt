@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVPCGatewayAttachmentProps
 
 @Generated
-public fun buildCfnVPCGatewayAttachmentProps(initializer: @AwsCdkDsl
-    CfnVPCGatewayAttachmentProps.Builder.() -> Unit = {}): CfnVPCGatewayAttachmentProps =
-    CfnVPCGatewayAttachmentProps.Builder().apply(initializer).build()
+public fun buildCfnVPCGatewayAttachmentProps(initializer: @AwsCdkDsl CfnVPCGatewayAttachmentProps.Builder.() -> Unit = {}): CfnVPCGatewayAttachmentProps = CfnVPCGatewayAttachmentProps.Builder().apply(initializer).build()

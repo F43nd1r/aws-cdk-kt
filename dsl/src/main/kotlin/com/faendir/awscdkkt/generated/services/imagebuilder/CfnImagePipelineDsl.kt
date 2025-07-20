@@ -16,6 +16,4 @@ public fun Construct.cfnImagePipeline(
 ): CfnImagePipeline = CfnImagePipeline(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnImagePipeline(id: String, initializer: @AwsCdkDsl
-    CfnImagePipeline.Builder.() -> Unit = {}): CfnImagePipeline =
-    CfnImagePipeline.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnImagePipeline(id: String, initializer: @AwsCdkDsl CfnImagePipeline.Builder.() -> Unit = {}): CfnImagePipeline = CfnImagePipeline.Builder.create(this, id).apply(initializer).build()

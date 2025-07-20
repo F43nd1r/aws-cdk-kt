@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.SageMakerCreateModelProps
 
 @Generated
-public fun buildSageMakerCreateModelProps(initializer: @AwsCdkDsl
-    SageMakerCreateModelProps.Builder.() -> Unit = {}): SageMakerCreateModelProps =
-    SageMakerCreateModelProps.Builder().apply(initializer).build()
+public fun buildSageMakerCreateModelProps(initializer: @AwsCdkDsl SageMakerCreateModelProps.Builder.() -> Unit = {}): SageMakerCreateModelProps = SageMakerCreateModelProps.Builder().apply(initializer).build()

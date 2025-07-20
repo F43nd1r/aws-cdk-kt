@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnKnowledgeBase
 
 @Generated
-public fun buildBedrockEmbeddingModelConfigurationProperty(initializer: @AwsCdkDsl
-    CfnKnowledgeBase.BedrockEmbeddingModelConfigurationProperty.Builder.() -> Unit = {}):
-    CfnKnowledgeBase.BedrockEmbeddingModelConfigurationProperty =
-    CfnKnowledgeBase.BedrockEmbeddingModelConfigurationProperty.Builder().apply(initializer).build()
+public fun buildBedrockEmbeddingModelConfigurationProperty(initializer: @AwsCdkDsl CfnKnowledgeBase.BedrockEmbeddingModelConfigurationProperty.Builder.() -> Unit = {}): CfnKnowledgeBase.BedrockEmbeddingModelConfigurationProperty = CfnKnowledgeBase.BedrockEmbeddingModelConfigurationProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnPredefinedAttributeProps
 
 @Generated
-public fun buildCfnPredefinedAttributeProps(initializer: @AwsCdkDsl
-    CfnPredefinedAttributeProps.Builder.() -> Unit = {}): CfnPredefinedAttributeProps =
-    CfnPredefinedAttributeProps.Builder().apply(initializer).build()
+public fun buildCfnPredefinedAttributeProps(initializer: @AwsCdkDsl CfnPredefinedAttributeProps.Builder.() -> Unit = {}): CfnPredefinedAttributeProps = CfnPredefinedAttributeProps.Builder().apply(initializer).build()

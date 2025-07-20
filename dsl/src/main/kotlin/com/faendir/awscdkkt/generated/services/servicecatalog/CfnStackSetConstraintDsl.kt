@@ -16,6 +16,4 @@ public fun Construct.cfnStackSetConstraint(
 ): CfnStackSetConstraint = CfnStackSetConstraint(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnStackSetConstraint(id: String, initializer: @AwsCdkDsl
-    CfnStackSetConstraint.Builder.() -> Unit = {}): CfnStackSetConstraint =
-    CfnStackSetConstraint.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnStackSetConstraint(id: String, initializer: @AwsCdkDsl CfnStackSetConstraint.Builder.() -> Unit = {}): CfnStackSetConstraint = CfnStackSetConstraint.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnScalingPolicy(
 ): CfnScalingPolicy = CfnScalingPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnScalingPolicy(id: String, initializer: @AwsCdkDsl
-    CfnScalingPolicy.Builder.() -> Unit = {}): CfnScalingPolicy =
-    CfnScalingPolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnScalingPolicy(id: String, initializer: @AwsCdkDsl CfnScalingPolicy.Builder.() -> Unit = {}): CfnScalingPolicy = CfnScalingPolicy.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datasync.CfnLocationObjectStorage
 
 @Generated
-public fun buildCustomSecretConfigProperty(initializer: @AwsCdkDsl
-    CfnLocationObjectStorage.CustomSecretConfigProperty.Builder.() -> Unit = {}):
-    CfnLocationObjectStorage.CustomSecretConfigProperty =
-    CfnLocationObjectStorage.CustomSecretConfigProperty.Builder().apply(initializer).build()
+public fun buildCustomSecretConfigProperty(initializer: @AwsCdkDsl CfnLocationObjectStorage.CustomSecretConfigProperty.Builder.() -> Unit = {}): CfnLocationObjectStorage.CustomSecretConfigProperty = CfnLocationObjectStorage.CustomSecretConfigProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cxapi.VpcContextResponse
 
 @Generated
-public fun buildVpcContextResponse(initializer: @AwsCdkDsl VpcContextResponse.Builder.() -> Unit =
-    {}): VpcContextResponse = VpcContextResponse.Builder().apply(initializer).build()
+public fun buildVpcContextResponse(initializer: @AwsCdkDsl VpcContextResponse.Builder.() -> Unit = {}): VpcContextResponse = VpcContextResponse.Builder().apply(initializer).build()

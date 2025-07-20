@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.CfnGraphQLApi
 
 @Generated
-public fun buildLogConfigProperty(initializer: @AwsCdkDsl
-    CfnGraphQLApi.LogConfigProperty.Builder.() -> Unit = {}): CfnGraphQLApi.LogConfigProperty =
-    CfnGraphQLApi.LogConfigProperty.Builder().apply(initializer).build()
+public fun buildLogConfigProperty(initializer: @AwsCdkDsl CfnGraphQLApi.LogConfigProperty.Builder.() -> Unit = {}): CfnGraphQLApi.LogConfigProperty = CfnGraphQLApi.LogConfigProperty.Builder().apply(initializer).build()

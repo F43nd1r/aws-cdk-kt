@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildArchiveOutputSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.ArchiveOutputSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.ArchiveOutputSettingsProperty =
-    CfnChannel.ArchiveOutputSettingsProperty.Builder().apply(initializer).build()
+public fun buildArchiveOutputSettingsProperty(initializer: @AwsCdkDsl CfnChannel.ArchiveOutputSettingsProperty.Builder.() -> Unit = {}): CfnChannel.ArchiveOutputSettingsProperty = CfnChannel.ArchiveOutputSettingsProperty.Builder().apply(initializer).build()

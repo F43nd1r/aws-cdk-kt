@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.GlueStartJobRunJsonataProps
 
 @Generated
-public fun buildGlueStartJobRunJsonataProps(initializer: @AwsCdkDsl
-    GlueStartJobRunJsonataProps.Builder.() -> Unit = {}): GlueStartJobRunJsonataProps =
-    GlueStartJobRunJsonataProps.Builder().apply(initializer).build()
+public fun buildGlueStartJobRunJsonataProps(initializer: @AwsCdkDsl GlueStartJobRunJsonataProps.Builder.() -> Unit = {}): GlueStartJobRunJsonataProps = GlueStartJobRunJsonataProps.Builder().apply(initializer).build()

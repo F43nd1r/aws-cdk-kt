@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.iotwireless.CfnDeviceProfileProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDeviceProfile(id: String, initializer: @AwsCdkDsl
-    CfnDeviceProfile.() -> Unit = {}): CfnDeviceProfile = CfnDeviceProfile(this,
-    id).apply(initializer)
+public fun Construct.cfnDeviceProfile(id: String, initializer: @AwsCdkDsl CfnDeviceProfile.() -> Unit = {}): CfnDeviceProfile = CfnDeviceProfile(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnDeviceProfile(
@@ -21,6 +19,4 @@ public fun Construct.cfnDeviceProfile(
 ): CfnDeviceProfile = CfnDeviceProfile(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDeviceProfile(id: String, initializer: @AwsCdkDsl
-    CfnDeviceProfile.Builder.() -> Unit = {}): CfnDeviceProfile =
-    CfnDeviceProfile.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDeviceProfile(id: String, initializer: @AwsCdkDsl CfnDeviceProfile.Builder.() -> Unit = {}): CfnDeviceProfile = CfnDeviceProfile.Builder.create(this, id).apply(initializer).build()

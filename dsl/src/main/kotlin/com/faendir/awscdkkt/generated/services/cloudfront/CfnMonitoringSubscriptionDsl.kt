@@ -16,6 +16,4 @@ public fun Construct.cfnMonitoringSubscription(
 ): CfnMonitoringSubscription = CfnMonitoringSubscription(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMonitoringSubscription(id: String, initializer: @AwsCdkDsl
-    CfnMonitoringSubscription.Builder.() -> Unit = {}): CfnMonitoringSubscription =
-    CfnMonitoringSubscription.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMonitoringSubscription(id: String, initializer: @AwsCdkDsl CfnMonitoringSubscription.Builder.() -> Unit = {}): CfnMonitoringSubscription = CfnMonitoringSubscription.Builder.create(this, id).apply(initializer).build()

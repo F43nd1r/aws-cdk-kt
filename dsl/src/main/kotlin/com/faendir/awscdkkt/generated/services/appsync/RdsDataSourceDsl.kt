@@ -16,6 +16,4 @@ public fun Construct.rdsDataSource(
 ): RdsDataSource = RdsDataSource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildRdsDataSource(id: String, initializer: @AwsCdkDsl
-    RdsDataSource.Builder.() -> Unit = {}): RdsDataSource = RdsDataSource.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildRdsDataSource(id: String, initializer: @AwsCdkDsl RdsDataSource.Builder.() -> Unit = {}): RdsDataSource = RdsDataSource.Builder.create(this, id).apply(initializer).build()

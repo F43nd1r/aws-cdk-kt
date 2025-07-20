@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.SplunkLogDriver
 
 @Generated
-public fun buildSplunkLogDriver(initializer: @AwsCdkDsl SplunkLogDriver.Builder.() -> Unit = {}):
-    SplunkLogDriver = SplunkLogDriver.Builder.create().apply(initializer).build()
+public fun buildSplunkLogDriver(initializer: @AwsCdkDsl SplunkLogDriver.Builder.() -> Unit = {}): SplunkLogDriver = SplunkLogDriver.Builder.create().apply(initializer).build()

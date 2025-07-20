@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.CfnLoadBalancer
 
 @Generated
-public fun buildMinimumLoadBalancerCapacityProperty(initializer: @AwsCdkDsl
-    CfnLoadBalancer.MinimumLoadBalancerCapacityProperty.Builder.() -> Unit = {}):
-    CfnLoadBalancer.MinimumLoadBalancerCapacityProperty =
-    CfnLoadBalancer.MinimumLoadBalancerCapacityProperty.Builder().apply(initializer).build()
+public fun buildMinimumLoadBalancerCapacityProperty(initializer: @AwsCdkDsl CfnLoadBalancer.MinimumLoadBalancerCapacityProperty.Builder.() -> Unit = {}): CfnLoadBalancer.MinimumLoadBalancerCapacityProperty = CfnLoadBalancer.MinimumLoadBalancerCapacityProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnStackFleetAssociation(
 ): CfnStackFleetAssociation = CfnStackFleetAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnStackFleetAssociation(id: String, initializer: @AwsCdkDsl
-    CfnStackFleetAssociation.Builder.() -> Unit = {}): CfnStackFleetAssociation =
-    CfnStackFleetAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnStackFleetAssociation(id: String, initializer: @AwsCdkDsl CfnStackFleetAssociation.Builder.() -> Unit = {}): CfnStackFleetAssociation = CfnStackFleetAssociation.Builder.create(this, id).apply(initializer).build()

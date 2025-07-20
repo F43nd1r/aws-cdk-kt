@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.deadline.CfnFleet
 
 @Generated
-public fun buildServiceManagedEc2InstanceMarketOptionsProperty(initializer: @AwsCdkDsl
-    CfnFleet.ServiceManagedEc2InstanceMarketOptionsProperty.Builder.() -> Unit = {}):
-    CfnFleet.ServiceManagedEc2InstanceMarketOptionsProperty =
-    CfnFleet.ServiceManagedEc2InstanceMarketOptionsProperty.Builder().apply(initializer).build()
+public fun buildServiceManagedEc2InstanceMarketOptionsProperty(initializer: @AwsCdkDsl CfnFleet.ServiceManagedEc2InstanceMarketOptionsProperty.Builder.() -> Unit = {}): CfnFleet.ServiceManagedEc2InstanceMarketOptionsProperty = CfnFleet.ServiceManagedEc2InstanceMarketOptionsProperty.Builder().apply(initializer).build()

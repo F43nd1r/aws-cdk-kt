@@ -16,6 +16,4 @@ public fun Construct.cfnSdiSource(
 ): CfnSdiSource = CfnSdiSource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSdiSource(id: String, initializer: @AwsCdkDsl
-    CfnSdiSource.Builder.() -> Unit = {}): CfnSdiSource = CfnSdiSource.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnSdiSource(id: String, initializer: @AwsCdkDsl CfnSdiSource.Builder.() -> Unit = {}): CfnSdiSource = CfnSdiSource.Builder.create(this, id).apply(initializer).build()

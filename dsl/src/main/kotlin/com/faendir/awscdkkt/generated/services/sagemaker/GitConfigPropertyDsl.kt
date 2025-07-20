@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnCodeRepository
 
 @Generated
-public fun buildGitConfigProperty(initializer: @AwsCdkDsl
-    CfnCodeRepository.GitConfigProperty.Builder.() -> Unit = {}):
-    CfnCodeRepository.GitConfigProperty =
-    CfnCodeRepository.GitConfigProperty.Builder().apply(initializer).build()
+public fun buildGitConfigProperty(initializer: @AwsCdkDsl CfnCodeRepository.GitConfigProperty.Builder.() -> Unit = {}): CfnCodeRepository.GitConfigProperty = CfnCodeRepository.GitConfigProperty.Builder().apply(initializer).build()

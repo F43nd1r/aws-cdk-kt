@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.origins.FunctionUrlOriginBaseProps
 
 @Generated
-public fun buildFunctionUrlOriginBaseProps(initializer: @AwsCdkDsl
-    FunctionUrlOriginBaseProps.Builder.() -> Unit = {}): FunctionUrlOriginBaseProps =
-    FunctionUrlOriginBaseProps.Builder().apply(initializer).build()
+public fun buildFunctionUrlOriginBaseProps(initializer: @AwsCdkDsl FunctionUrlOriginBaseProps.Builder.() -> Unit = {}): FunctionUrlOriginBaseProps = FunctionUrlOriginBaseProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnSpace
 
 @Generated
-public fun buildSpaceAppLifecycleManagementProperty(initializer: @AwsCdkDsl
-    CfnSpace.SpaceAppLifecycleManagementProperty.Builder.() -> Unit = {}):
-    CfnSpace.SpaceAppLifecycleManagementProperty =
-    CfnSpace.SpaceAppLifecycleManagementProperty.Builder().apply(initializer).build()
+public fun buildSpaceAppLifecycleManagementProperty(initializer: @AwsCdkDsl CfnSpace.SpaceAppLifecycleManagementProperty.Builder.() -> Unit = {}): CfnSpace.SpaceAppLifecycleManagementProperty = CfnSpace.SpaceAppLifecycleManagementProperty.Builder().apply(initializer).build()

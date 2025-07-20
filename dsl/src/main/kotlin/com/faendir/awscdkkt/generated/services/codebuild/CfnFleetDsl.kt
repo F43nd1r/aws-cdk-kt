@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.codebuild.CfnFleetProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnFleet(id: String, initializer: @AwsCdkDsl CfnFleet.() -> Unit = {}):
-    CfnFleet = CfnFleet(this, id).apply(initializer)
+public fun Construct.cfnFleet(id: String, initializer: @AwsCdkDsl CfnFleet.() -> Unit = {}): CfnFleet = CfnFleet(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnFleet(
@@ -20,5 +19,4 @@ public fun Construct.cfnFleet(
 ): CfnFleet = CfnFleet(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnFleet(id: String, initializer: @AwsCdkDsl CfnFleet.Builder.() -> Unit =
-    {}): CfnFleet = CfnFleet.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnFleet(id: String, initializer: @AwsCdkDsl CfnFleet.Builder.() -> Unit = {}): CfnFleet = CfnFleet.Builder.create(this, id).apply(initializer).build()

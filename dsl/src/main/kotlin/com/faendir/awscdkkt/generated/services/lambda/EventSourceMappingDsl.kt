@@ -16,6 +16,4 @@ public fun Construct.eventSourceMapping(
 ): EventSourceMapping = EventSourceMapping(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEventSourceMapping(id: String, initializer: @AwsCdkDsl
-    EventSourceMapping.Builder.() -> Unit = {}): EventSourceMapping =
-    EventSourceMapping.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildEventSourceMapping(id: String, initializer: @AwsCdkDsl EventSourceMapping.Builder.() -> Unit = {}): EventSourceMapping = EventSourceMapping.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dms.CfnDataProvider
 
 @Generated
-public fun buildSettingsProperty(initializer: @AwsCdkDsl
-    CfnDataProvider.SettingsProperty.Builder.() -> Unit = {}): CfnDataProvider.SettingsProperty =
-    CfnDataProvider.SettingsProperty.Builder().apply(initializer).build()
+public fun buildSettingsProperty(initializer: @AwsCdkDsl CfnDataProvider.SettingsProperty.Builder.() -> Unit = {}): CfnDataProvider.SettingsProperty = CfnDataProvider.SettingsProperty.Builder().apply(initializer).build()

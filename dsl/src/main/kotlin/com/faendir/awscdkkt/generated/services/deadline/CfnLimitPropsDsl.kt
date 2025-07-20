@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.deadline.CfnLimitProps
 
 @Generated
-public fun buildCfnLimitProps(initializer: @AwsCdkDsl CfnLimitProps.Builder.() -> Unit = {}):
-    CfnLimitProps = CfnLimitProps.Builder().apply(initializer).build()
+public fun buildCfnLimitProps(initializer: @AwsCdkDsl CfnLimitProps.Builder.() -> Unit = {}): CfnLimitProps = CfnLimitProps.Builder().apply(initializer).build()

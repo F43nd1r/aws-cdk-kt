@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnTopicRule
 
 @Generated
-public fun buildElasticsearchActionProperty(initializer: @AwsCdkDsl
-    CfnTopicRule.ElasticsearchActionProperty.Builder.() -> Unit = {}):
-    CfnTopicRule.ElasticsearchActionProperty =
-    CfnTopicRule.ElasticsearchActionProperty.Builder().apply(initializer).build()
+public fun buildElasticsearchActionProperty(initializer: @AwsCdkDsl CfnTopicRule.ElasticsearchActionProperty.Builder.() -> Unit = {}): CfnTopicRule.ElasticsearchActionProperty = CfnTopicRule.ElasticsearchActionProperty.Builder().apply(initializer).build()

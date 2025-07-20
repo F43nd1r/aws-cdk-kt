@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securityhub.CfnInsight
 
 @Generated
-public fun buildIpFilterProperty(initializer: @AwsCdkDsl
-    CfnInsight.IpFilterProperty.Builder.() -> Unit = {}): CfnInsight.IpFilterProperty =
-    CfnInsight.IpFilterProperty.Builder().apply(initializer).build()
+public fun buildIpFilterProperty(initializer: @AwsCdkDsl CfnInsight.IpFilterProperty.Builder.() -> Unit = {}): CfnInsight.IpFilterProperty = CfnInsight.IpFilterProperty.Builder().apply(initializer).build()

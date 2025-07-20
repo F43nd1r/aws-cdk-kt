@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.workspacesinstances.CfnWorkspaceInstance
 
 @Generated
-public fun buildPrivateDnsNameOptionsRequestProperty(initializer: @AwsCdkDsl
-    CfnWorkspaceInstance.PrivateDnsNameOptionsRequestProperty.Builder.() -> Unit = {}):
-    CfnWorkspaceInstance.PrivateDnsNameOptionsRequestProperty =
-    CfnWorkspaceInstance.PrivateDnsNameOptionsRequestProperty.Builder().apply(initializer).build()
+public fun buildPrivateDnsNameOptionsRequestProperty(initializer: @AwsCdkDsl CfnWorkspaceInstance.PrivateDnsNameOptionsRequestProperty.Builder.() -> Unit = {}): CfnWorkspaceInstance.PrivateDnsNameOptionsRequestProperty = CfnWorkspaceInstance.PrivateDnsNameOptionsRequestProperty.Builder().apply(initializer).build()

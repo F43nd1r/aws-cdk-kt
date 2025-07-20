@@ -16,6 +16,4 @@ public fun Construct.cfnHealthCheck(
 ): CfnHealthCheck = CfnHealthCheck(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnHealthCheck(id: String, initializer: @AwsCdkDsl
-    CfnHealthCheck.Builder.() -> Unit = {}): CfnHealthCheck = CfnHealthCheck.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnHealthCheck(id: String, initializer: @AwsCdkDsl CfnHealthCheck.Builder.() -> Unit = {}): CfnHealthCheck = CfnHealthCheck.Builder.create(this, id).apply(initializer).build()

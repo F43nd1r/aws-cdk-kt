@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lakeformation.CfnPrincipalPermissions
 
 @Generated
-public fun buildLFTagKeyResourceProperty(initializer: @AwsCdkDsl
-    CfnPrincipalPermissions.LFTagKeyResourceProperty.Builder.() -> Unit = {}):
-    CfnPrincipalPermissions.LFTagKeyResourceProperty =
-    CfnPrincipalPermissions.LFTagKeyResourceProperty.Builder().apply(initializer).build()
+public fun buildLFTagKeyResourceProperty(initializer: @AwsCdkDsl CfnPrincipalPermissions.LFTagKeyResourceProperty.Builder.() -> Unit = {}): CfnPrincipalPermissions.LFTagKeyResourceProperty = CfnPrincipalPermissions.LFTagKeyResourceProperty.Builder().apply(initializer).build()

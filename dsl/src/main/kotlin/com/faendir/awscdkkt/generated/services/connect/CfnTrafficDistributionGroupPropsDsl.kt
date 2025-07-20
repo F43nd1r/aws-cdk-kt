@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnTrafficDistributionGroupProps
 
 @Generated
-public fun buildCfnTrafficDistributionGroupProps(initializer: @AwsCdkDsl
-    CfnTrafficDistributionGroupProps.Builder.() -> Unit = {}): CfnTrafficDistributionGroupProps =
-    CfnTrafficDistributionGroupProps.Builder().apply(initializer).build()
+public fun buildCfnTrafficDistributionGroupProps(initializer: @AwsCdkDsl CfnTrafficDistributionGroupProps.Builder.() -> Unit = {}): CfnTrafficDistributionGroupProps = CfnTrafficDistributionGroupProps.Builder().apply(initializer).build()

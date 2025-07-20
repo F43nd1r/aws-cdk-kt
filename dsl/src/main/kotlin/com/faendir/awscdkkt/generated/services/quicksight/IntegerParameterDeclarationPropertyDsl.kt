@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildIntegerParameterDeclarationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.IntegerParameterDeclarationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.IntegerParameterDeclarationProperty =
-    CfnTemplate.IntegerParameterDeclarationProperty.Builder().apply(initializer).build()
+public fun buildIntegerParameterDeclarationProperty(initializer: @AwsCdkDsl CfnTemplate.IntegerParameterDeclarationProperty.Builder.() -> Unit = {}): CfnTemplate.IntegerParameterDeclarationProperty = CfnTemplate.IntegerParameterDeclarationProperty.Builder().apply(initializer).build()

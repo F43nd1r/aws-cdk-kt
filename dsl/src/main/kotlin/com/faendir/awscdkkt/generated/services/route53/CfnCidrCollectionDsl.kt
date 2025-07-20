@@ -16,6 +16,4 @@ public fun Construct.cfnCidrCollection(
 ): CfnCidrCollection = CfnCidrCollection(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCidrCollection(id: String, initializer: @AwsCdkDsl
-    CfnCidrCollection.Builder.() -> Unit = {}): CfnCidrCollection =
-    CfnCidrCollection.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCidrCollection(id: String, initializer: @AwsCdkDsl CfnCidrCollection.Builder.() -> Unit = {}): CfnCidrCollection = CfnCidrCollection.Builder.create(this, id).apply(initializer).build()

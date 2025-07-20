@@ -16,6 +16,4 @@ public fun Construct.cfnEventInvokeConfig(
 ): CfnEventInvokeConfig = CfnEventInvokeConfig(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEventInvokeConfig(id: String, initializer: @AwsCdkDsl
-    CfnEventInvokeConfig.Builder.() -> Unit = {}): CfnEventInvokeConfig =
-    CfnEventInvokeConfig.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnEventInvokeConfig(id: String, initializer: @AwsCdkDsl CfnEventInvokeConfig.Builder.() -> Unit = {}): CfnEventInvokeConfig = CfnEventInvokeConfig.Builder.create(this, id).apply(initializer).build()

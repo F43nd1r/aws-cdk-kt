@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnManagedLoginBranding
 
 @Generated
-public fun buildAssetTypeProperty(initializer: @AwsCdkDsl
-    CfnManagedLoginBranding.AssetTypeProperty.Builder.() -> Unit = {}):
-    CfnManagedLoginBranding.AssetTypeProperty =
-    CfnManagedLoginBranding.AssetTypeProperty.Builder().apply(initializer).build()
+public fun buildAssetTypeProperty(initializer: @AwsCdkDsl CfnManagedLoginBranding.AssetTypeProperty.Builder.() -> Unit = {}): CfnManagedLoginBranding.AssetTypeProperty = CfnManagedLoginBranding.AssetTypeProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.SourceApi
 
 @Generated
-public fun buildSourceApi(initializer: @AwsCdkDsl SourceApi.Builder.() -> Unit = {}): SourceApi =
-    SourceApi.Builder().apply(initializer).build()
+public fun buildSourceApi(initializer: @AwsCdkDsl SourceApi.Builder.() -> Unit = {}): SourceApi = SourceApi.Builder().apply(initializer).build()

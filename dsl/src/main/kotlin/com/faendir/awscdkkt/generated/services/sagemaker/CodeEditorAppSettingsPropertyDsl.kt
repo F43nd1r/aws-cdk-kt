@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnUserProfile
 
 @Generated
-public fun buildCodeEditorAppSettingsProperty(initializer: @AwsCdkDsl
-    CfnUserProfile.CodeEditorAppSettingsProperty.Builder.() -> Unit = {}):
-    CfnUserProfile.CodeEditorAppSettingsProperty =
-    CfnUserProfile.CodeEditorAppSettingsProperty.Builder().apply(initializer).build()
+public fun buildCodeEditorAppSettingsProperty(initializer: @AwsCdkDsl CfnUserProfile.CodeEditorAppSettingsProperty.Builder.() -> Unit = {}): CfnUserProfile.CodeEditorAppSettingsProperty = CfnUserProfile.CodeEditorAppSettingsProperty.Builder().apply(initializer).build()

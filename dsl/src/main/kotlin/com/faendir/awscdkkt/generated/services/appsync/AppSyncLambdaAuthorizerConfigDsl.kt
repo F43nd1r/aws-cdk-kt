@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.AppSyncLambdaAuthorizerConfig
 
 @Generated
-public fun buildAppSyncLambdaAuthorizerConfig(initializer: @AwsCdkDsl
-    AppSyncLambdaAuthorizerConfig.Builder.() -> Unit = {}): AppSyncLambdaAuthorizerConfig =
-    AppSyncLambdaAuthorizerConfig.Builder().apply(initializer).build()
+public fun buildAppSyncLambdaAuthorizerConfig(initializer: @AwsCdkDsl AppSyncLambdaAuthorizerConfig.Builder.() -> Unit = {}): AppSyncLambdaAuthorizerConfig = AppSyncLambdaAuthorizerConfig.Builder().apply(initializer).build()

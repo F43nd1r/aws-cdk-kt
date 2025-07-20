@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.EksVolumeOptions
 
 @Generated
-public fun buildEksVolumeOptions(initializer: @AwsCdkDsl EksVolumeOptions.Builder.() -> Unit = {}):
-    EksVolumeOptions = EksVolumeOptions.Builder().apply(initializer).build()
+public fun buildEksVolumeOptions(initializer: @AwsCdkDsl EksVolumeOptions.Builder.() -> Unit = {}): EksVolumeOptions = EksVolumeOptions.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securityhub.CfnSecurityControlProps
 
 @Generated
-public fun buildCfnSecurityControlProps(initializer: @AwsCdkDsl
-    CfnSecurityControlProps.Builder.() -> Unit = {}): CfnSecurityControlProps =
-    CfnSecurityControlProps.Builder().apply(initializer).build()
+public fun buildCfnSecurityControlProps(initializer: @AwsCdkDsl CfnSecurityControlProps.Builder.() -> Unit = {}): CfnSecurityControlProps = CfnSecurityControlProps.Builder().apply(initializer).build()

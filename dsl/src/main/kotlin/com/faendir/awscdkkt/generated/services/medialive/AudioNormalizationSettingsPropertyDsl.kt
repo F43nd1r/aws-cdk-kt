@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildAudioNormalizationSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.AudioNormalizationSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.AudioNormalizationSettingsProperty =
-    CfnChannel.AudioNormalizationSettingsProperty.Builder().apply(initializer).build()
+public fun buildAudioNormalizationSettingsProperty(initializer: @AwsCdkDsl CfnChannel.AudioNormalizationSettingsProperty.Builder.() -> Unit = {}): CfnChannel.AudioNormalizationSettingsProperty = CfnChannel.AudioNormalizationSettingsProperty.Builder().apply(initializer).build()

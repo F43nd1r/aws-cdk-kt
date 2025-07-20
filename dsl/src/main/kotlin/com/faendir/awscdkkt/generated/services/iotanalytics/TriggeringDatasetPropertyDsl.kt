@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotanalytics.CfnDataset
 
 @Generated
-public fun buildTriggeringDatasetProperty(initializer: @AwsCdkDsl
-    CfnDataset.TriggeringDatasetProperty.Builder.() -> Unit = {}):
-    CfnDataset.TriggeringDatasetProperty =
-    CfnDataset.TriggeringDatasetProperty.Builder().apply(initializer).build()
+public fun buildTriggeringDatasetProperty(initializer: @AwsCdkDsl CfnDataset.TriggeringDatasetProperty.Builder.() -> Unit = {}): CfnDataset.TriggeringDatasetProperty = CfnDataset.TriggeringDatasetProperty.Builder().apply(initializer).build()

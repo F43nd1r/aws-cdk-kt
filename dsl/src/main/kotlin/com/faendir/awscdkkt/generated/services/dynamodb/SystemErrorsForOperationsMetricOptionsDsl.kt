@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.SystemErrorsForOperationsMetricOptions
 
 @Generated
-public fun buildSystemErrorsForOperationsMetricOptions(initializer: @AwsCdkDsl
-    SystemErrorsForOperationsMetricOptions.Builder.() -> Unit = {}):
-    SystemErrorsForOperationsMetricOptions =
-    SystemErrorsForOperationsMetricOptions.Builder().apply(initializer).build()
+public fun buildSystemErrorsForOperationsMetricOptions(initializer: @AwsCdkDsl SystemErrorsForOperationsMetricOptions.Builder.() -> Unit = {}): SystemErrorsForOperationsMetricOptions = SystemErrorsForOperationsMetricOptions.Builder().apply(initializer).build()

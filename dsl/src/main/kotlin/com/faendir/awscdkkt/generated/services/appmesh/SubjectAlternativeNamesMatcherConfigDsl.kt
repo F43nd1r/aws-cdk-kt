@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.SubjectAlternativeNamesMatcherConfig
 
 @Generated
-public fun buildSubjectAlternativeNamesMatcherConfig(initializer: @AwsCdkDsl
-    SubjectAlternativeNamesMatcherConfig.Builder.() -> Unit = {}):
-    SubjectAlternativeNamesMatcherConfig =
-    SubjectAlternativeNamesMatcherConfig.Builder().apply(initializer).build()
+public fun buildSubjectAlternativeNamesMatcherConfig(initializer: @AwsCdkDsl SubjectAlternativeNamesMatcherConfig.Builder.() -> Unit = {}): SubjectAlternativeNamesMatcherConfig = SubjectAlternativeNamesMatcherConfig.Builder().apply(initializer).build()

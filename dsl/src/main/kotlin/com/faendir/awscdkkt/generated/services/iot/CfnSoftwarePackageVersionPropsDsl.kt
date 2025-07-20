@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnSoftwarePackageVersionProps
 
 @Generated
-public fun buildCfnSoftwarePackageVersionProps(initializer: @AwsCdkDsl
-    CfnSoftwarePackageVersionProps.Builder.() -> Unit = {}): CfnSoftwarePackageVersionProps =
-    CfnSoftwarePackageVersionProps.Builder().apply(initializer).build()
+public fun buildCfnSoftwarePackageVersionProps(initializer: @AwsCdkDsl CfnSoftwarePackageVersionProps.Builder.() -> Unit = {}): CfnSoftwarePackageVersionProps = CfnSoftwarePackageVersionProps.Builder().apply(initializer).build()

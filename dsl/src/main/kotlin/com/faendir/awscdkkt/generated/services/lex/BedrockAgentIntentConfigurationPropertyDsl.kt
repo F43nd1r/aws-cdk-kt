@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildBedrockAgentIntentConfigurationProperty(initializer: @AwsCdkDsl
-    CfnBot.BedrockAgentIntentConfigurationProperty.Builder.() -> Unit = {}):
-    CfnBot.BedrockAgentIntentConfigurationProperty =
-    CfnBot.BedrockAgentIntentConfigurationProperty.Builder().apply(initializer).build()
+public fun buildBedrockAgentIntentConfigurationProperty(initializer: @AwsCdkDsl CfnBot.BedrockAgentIntentConfigurationProperty.Builder.() -> Unit = {}): CfnBot.BedrockAgentIntentConfigurationProperty = CfnBot.BedrockAgentIntentConfigurationProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnTableOptimizer
 
 @Generated
-public fun buildTableOptimizerConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTableOptimizer.TableOptimizerConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTableOptimizer.TableOptimizerConfigurationProperty =
-    CfnTableOptimizer.TableOptimizerConfigurationProperty.Builder().apply(initializer).build()
+public fun buildTableOptimizerConfigurationProperty(initializer: @AwsCdkDsl CfnTableOptimizer.TableOptimizerConfigurationProperty.Builder.() -> Unit = {}): CfnTableOptimizer.TableOptimizerConfigurationProperty = CfnTableOptimizer.TableOptimizerConfigurationProperty.Builder().apply(initializer).build()

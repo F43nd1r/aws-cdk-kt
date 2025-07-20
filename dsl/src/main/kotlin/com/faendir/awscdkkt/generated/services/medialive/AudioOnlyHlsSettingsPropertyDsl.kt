@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildAudioOnlyHlsSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.AudioOnlyHlsSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.AudioOnlyHlsSettingsProperty =
-    CfnChannel.AudioOnlyHlsSettingsProperty.Builder().apply(initializer).build()
+public fun buildAudioOnlyHlsSettingsProperty(initializer: @AwsCdkDsl CfnChannel.AudioOnlyHlsSettingsProperty.Builder.() -> Unit = {}): CfnChannel.AudioOnlyHlsSettingsProperty = CfnChannel.AudioOnlyHlsSettingsProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnTransformer
 
 @Generated
-public fun buildParseCloudfrontProperty(initializer: @AwsCdkDsl
-    CfnTransformer.ParseCloudfrontProperty.Builder.() -> Unit = {}):
-    CfnTransformer.ParseCloudfrontProperty =
-    CfnTransformer.ParseCloudfrontProperty.Builder().apply(initializer).build()
+public fun buildParseCloudfrontProperty(initializer: @AwsCdkDsl CfnTransformer.ParseCloudfrontProperty.Builder.() -> Unit = {}): CfnTransformer.ParseCloudfrontProperty = CfnTransformer.ParseCloudfrontProperty.Builder().apply(initializer).build()

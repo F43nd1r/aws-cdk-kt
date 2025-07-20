@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.s3.CfnAccessGrantsLocationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnAccessGrantsLocation(id: String, initializer: @AwsCdkDsl
-    CfnAccessGrantsLocation.() -> Unit = {}): CfnAccessGrantsLocation =
-    CfnAccessGrantsLocation(this, id).apply(initializer)
+public fun Construct.cfnAccessGrantsLocation(id: String, initializer: @AwsCdkDsl CfnAccessGrantsLocation.() -> Unit = {}): CfnAccessGrantsLocation = CfnAccessGrantsLocation(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnAccessGrantsLocation(
@@ -21,6 +19,4 @@ public fun Construct.cfnAccessGrantsLocation(
 ): CfnAccessGrantsLocation = CfnAccessGrantsLocation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAccessGrantsLocation(id: String, initializer: @AwsCdkDsl
-    CfnAccessGrantsLocation.Builder.() -> Unit = {}): CfnAccessGrantsLocation =
-    CfnAccessGrantsLocation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAccessGrantsLocation(id: String, initializer: @AwsCdkDsl CfnAccessGrantsLocation.Builder.() -> Unit = {}): CfnAccessGrantsLocation = CfnAccessGrantsLocation.Builder.create(this, id).apply(initializer).build()

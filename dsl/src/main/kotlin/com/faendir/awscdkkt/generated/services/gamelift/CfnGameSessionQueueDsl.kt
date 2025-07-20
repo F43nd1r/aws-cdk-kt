@@ -16,6 +16,4 @@ public fun Construct.cfnGameSessionQueue(
 ): CfnGameSessionQueue = CfnGameSessionQueue(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnGameSessionQueue(id: String, initializer: @AwsCdkDsl
-    CfnGameSessionQueue.Builder.() -> Unit = {}): CfnGameSessionQueue =
-    CfnGameSessionQueue.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnGameSessionQueue(id: String, initializer: @AwsCdkDsl CfnGameSessionQueue.Builder.() -> Unit = {}): CfnGameSessionQueue = CfnGameSessionQueue.Builder.create(this, id).apply(initializer).build()

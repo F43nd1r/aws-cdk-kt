@@ -16,6 +16,4 @@ public fun Construct.cfnTransformer(
 ): CfnTransformer = CfnTransformer(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTransformer(id: String, initializer: @AwsCdkDsl
-    CfnTransformer.Builder.() -> Unit = {}): CfnTransformer = CfnTransformer.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnTransformer(id: String, initializer: @AwsCdkDsl CfnTransformer.Builder.() -> Unit = {}): CfnTransformer = CfnTransformer.Builder.create(this, id).apply(initializer).build()

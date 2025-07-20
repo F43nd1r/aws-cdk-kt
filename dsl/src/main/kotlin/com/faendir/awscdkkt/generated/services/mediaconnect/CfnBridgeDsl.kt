@@ -16,5 +16,4 @@ public fun Construct.cfnBridge(
 ): CfnBridge = CfnBridge(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnBridge(id: String, initializer: @AwsCdkDsl CfnBridge.Builder.() -> Unit
-    = {}): CfnBridge = CfnBridge.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnBridge(id: String, initializer: @AwsCdkDsl CfnBridge.Builder.() -> Unit = {}): CfnBridge = CfnBridge.Builder.create(this, id).apply(initializer).build()

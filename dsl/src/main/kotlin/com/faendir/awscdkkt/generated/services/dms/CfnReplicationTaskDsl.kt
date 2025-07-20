@@ -16,6 +16,4 @@ public fun Construct.cfnReplicationTask(
 ): CfnReplicationTask = CfnReplicationTask(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnReplicationTask(id: String, initializer: @AwsCdkDsl
-    CfnReplicationTask.Builder.() -> Unit = {}): CfnReplicationTask =
-    CfnReplicationTask.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnReplicationTask(id: String, initializer: @AwsCdkDsl CfnReplicationTask.Builder.() -> Unit = {}): CfnReplicationTask = CfnReplicationTask.Builder.create(this, id).apply(initializer).build()

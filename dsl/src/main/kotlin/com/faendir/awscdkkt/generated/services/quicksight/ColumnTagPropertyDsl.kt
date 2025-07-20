@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
-public fun buildColumnTagProperty(initializer: @AwsCdkDsl
-    CfnDataSet.ColumnTagProperty.Builder.() -> Unit = {}): CfnDataSet.ColumnTagProperty =
-    CfnDataSet.ColumnTagProperty.Builder().apply(initializer).build()
+public fun buildColumnTagProperty(initializer: @AwsCdkDsl CfnDataSet.ColumnTagProperty.Builder.() -> Unit = {}): CfnDataSet.ColumnTagProperty = CfnDataSet.ColumnTagProperty.Builder().apply(initializer).build()

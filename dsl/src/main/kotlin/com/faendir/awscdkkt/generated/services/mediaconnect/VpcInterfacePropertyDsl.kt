@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediaconnect.CfnFlow
 
 @Generated
-public fun buildVpcInterfaceProperty(initializer: @AwsCdkDsl
-    CfnFlow.VpcInterfaceProperty.Builder.() -> Unit = {}): CfnFlow.VpcInterfaceProperty =
-    CfnFlow.VpcInterfaceProperty.Builder().apply(initializer).build()
+public fun buildVpcInterfaceProperty(initializer: @AwsCdkDsl CfnFlow.VpcInterfaceProperty.Builder.() -> Unit = {}): CfnFlow.VpcInterfaceProperty = CfnFlow.VpcInterfaceProperty.Builder().apply(initializer).build()

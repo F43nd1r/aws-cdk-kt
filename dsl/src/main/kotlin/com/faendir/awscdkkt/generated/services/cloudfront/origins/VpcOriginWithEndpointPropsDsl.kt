@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.origins.VpcOriginWithEndpointProps
 
 @Generated
-public fun buildVpcOriginWithEndpointProps(initializer: @AwsCdkDsl
-    VpcOriginWithEndpointProps.Builder.() -> Unit = {}): VpcOriginWithEndpointProps =
-    VpcOriginWithEndpointProps.Builder().apply(initializer).build()
+public fun buildVpcOriginWithEndpointProps(initializer: @AwsCdkDsl VpcOriginWithEndpointProps.Builder.() -> Unit = {}): VpcOriginWithEndpointProps = VpcOriginWithEndpointProps.Builder().apply(initializer).build()

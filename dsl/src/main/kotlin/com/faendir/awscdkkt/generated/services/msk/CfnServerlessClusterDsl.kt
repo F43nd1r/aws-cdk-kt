@@ -16,6 +16,4 @@ public fun Construct.cfnServerlessCluster(
 ): CfnServerlessCluster = CfnServerlessCluster(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnServerlessCluster(id: String, initializer: @AwsCdkDsl
-    CfnServerlessCluster.Builder.() -> Unit = {}): CfnServerlessCluster =
-    CfnServerlessCluster.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnServerlessCluster(id: String, initializer: @AwsCdkDsl CfnServerlessCluster.Builder.() -> Unit = {}): CfnServerlessCluster = CfnServerlessCluster.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.RoutingRule
 
 @Generated
-public fun buildRoutingRule(initializer: @AwsCdkDsl RoutingRule.Builder.() -> Unit = {}):
-    RoutingRule = RoutingRule.Builder().apply(initializer).build()
+public fun buildRoutingRule(initializer: @AwsCdkDsl RoutingRule.Builder.() -> Unit = {}): RoutingRule = RoutingRule.Builder().apply(initializer).build()

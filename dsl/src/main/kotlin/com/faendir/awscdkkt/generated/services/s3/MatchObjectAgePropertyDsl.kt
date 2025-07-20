@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnStorageLensGroup
 
 @Generated
-public fun buildMatchObjectAgeProperty(initializer: @AwsCdkDsl
-    CfnStorageLensGroup.MatchObjectAgeProperty.Builder.() -> Unit = {}):
-    CfnStorageLensGroup.MatchObjectAgeProperty =
-    CfnStorageLensGroup.MatchObjectAgeProperty.Builder().apply(initializer).build()
+public fun buildMatchObjectAgeProperty(initializer: @AwsCdkDsl CfnStorageLensGroup.MatchObjectAgeProperty.Builder.() -> Unit = {}): CfnStorageLensGroup.MatchObjectAgeProperty = CfnStorageLensGroup.MatchObjectAgeProperty.Builder().apply(initializer).build()

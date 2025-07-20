@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
-public fun buildConnectorOperatorProperty(initializer: @AwsCdkDsl
-    CfnFlow.ConnectorOperatorProperty.Builder.() -> Unit = {}): CfnFlow.ConnectorOperatorProperty =
-    CfnFlow.ConnectorOperatorProperty.Builder().apply(initializer).build()
+public fun buildConnectorOperatorProperty(initializer: @AwsCdkDsl CfnFlow.ConnectorOperatorProperty.Builder.() -> Unit = {}): CfnFlow.ConnectorOperatorProperty = CfnFlow.ConnectorOperatorProperty.Builder().apply(initializer).build()

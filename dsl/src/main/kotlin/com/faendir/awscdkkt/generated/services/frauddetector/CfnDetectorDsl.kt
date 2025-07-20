@@ -16,6 +16,4 @@ public fun Construct.cfnDetector(
 ): CfnDetector = CfnDetector(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDetector(id: String, initializer: @AwsCdkDsl
-    CfnDetector.Builder.() -> Unit = {}): CfnDetector = CfnDetector.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnDetector(id: String, initializer: @AwsCdkDsl CfnDetector.Builder.() -> Unit = {}): CfnDetector = CfnDetector.Builder.create(this, id).apply(initializer).build()

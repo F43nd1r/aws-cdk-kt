@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.AdotInstrumentationConfig
 
 @Generated
-public fun buildAdotInstrumentationConfig(initializer: @AwsCdkDsl
-    AdotInstrumentationConfig.Builder.() -> Unit = {}): AdotInstrumentationConfig =
-    AdotInstrumentationConfig.Builder().apply(initializer).build()
+public fun buildAdotInstrumentationConfig(initializer: @AwsCdkDsl AdotInstrumentationConfig.Builder.() -> Unit = {}): AdotInstrumentationConfig = AdotInstrumentationConfig.Builder().apply(initializer).build()

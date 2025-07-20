@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.databrew.CfnJob
 
 @Generated
-public fun buildOutputLocationProperty(initializer: @AwsCdkDsl
-    CfnJob.OutputLocationProperty.Builder.() -> Unit = {}): CfnJob.OutputLocationProperty =
-    CfnJob.OutputLocationProperty.Builder().apply(initializer).build()
+public fun buildOutputLocationProperty(initializer: @AwsCdkDsl CfnJob.OutputLocationProperty.Builder.() -> Unit = {}): CfnJob.OutputLocationProperty = CfnJob.OutputLocationProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotwireless.CfnNetworkAnalyzerConfigurationProps
 
 @Generated
-public fun buildCfnNetworkAnalyzerConfigurationProps(initializer: @AwsCdkDsl
-    CfnNetworkAnalyzerConfigurationProps.Builder.() -> Unit = {}):
-    CfnNetworkAnalyzerConfigurationProps =
-    CfnNetworkAnalyzerConfigurationProps.Builder().apply(initializer).build()
+public fun buildCfnNetworkAnalyzerConfigurationProps(initializer: @AwsCdkDsl CfnNetworkAnalyzerConfigurationProps.Builder.() -> Unit = {}): CfnNetworkAnalyzerConfigurationProps = CfnNetworkAnalyzerConfigurationProps.Builder().apply(initializer).build()

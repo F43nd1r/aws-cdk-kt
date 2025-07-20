@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnService
 
 @Generated
-public fun buildDeploymentLifecycleHookProperty(initializer: @AwsCdkDsl
-    CfnService.DeploymentLifecycleHookProperty.Builder.() -> Unit = {}):
-    CfnService.DeploymentLifecycleHookProperty =
-    CfnService.DeploymentLifecycleHookProperty.Builder().apply(initializer).build()
+public fun buildDeploymentLifecycleHookProperty(initializer: @AwsCdkDsl CfnService.DeploymentLifecycleHookProperty.Builder.() -> Unit = {}): CfnService.DeploymentLifecycleHookProperty = CfnService.DeploymentLifecycleHookProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.trustStoreRevocation(
 ): TrustStoreRevocation = TrustStoreRevocation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildTrustStoreRevocation(id: String, initializer: @AwsCdkDsl
-    TrustStoreRevocation.Builder.() -> Unit = {}): TrustStoreRevocation =
-    TrustStoreRevocation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildTrustStoreRevocation(id: String, initializer: @AwsCdkDsl TrustStoreRevocation.Builder.() -> Unit = {}): TrustStoreRevocation = TrustStoreRevocation.Builder.create(this, id).apply(initializer).build()

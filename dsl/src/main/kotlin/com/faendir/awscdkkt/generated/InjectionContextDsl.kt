@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.InjectionContext
 
 @Generated
-public fun buildInjectionContext(initializer: @AwsCdkDsl InjectionContext.Builder.() -> Unit = {}):
-    InjectionContext = InjectionContext.Builder().apply(initializer).build()
+public fun buildInjectionContext(initializer: @AwsCdkDsl InjectionContext.Builder.() -> Unit = {}): InjectionContext = InjectionContext.Builder().apply(initializer).build()

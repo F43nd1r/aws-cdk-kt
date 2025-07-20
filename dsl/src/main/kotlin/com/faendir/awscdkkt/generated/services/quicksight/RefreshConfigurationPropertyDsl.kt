@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
-public fun buildRefreshConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSet.RefreshConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDataSet.RefreshConfigurationProperty =
-    CfnDataSet.RefreshConfigurationProperty.Builder().apply(initializer).build()
+public fun buildRefreshConfigurationProperty(initializer: @AwsCdkDsl CfnDataSet.RefreshConfigurationProperty.Builder.() -> Unit = {}): CfnDataSet.RefreshConfigurationProperty = CfnDataSet.RefreshConfigurationProperty.Builder().apply(initializer).build()

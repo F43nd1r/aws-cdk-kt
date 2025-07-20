@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opensearchservice.CfnApplication
 
 @Generated
-public fun buildDataSourceProperty(initializer: @AwsCdkDsl
-    CfnApplication.DataSourceProperty.Builder.() -> Unit = {}): CfnApplication.DataSourceProperty =
-    CfnApplication.DataSourceProperty.Builder().apply(initializer).build()
+public fun buildDataSourceProperty(initializer: @AwsCdkDsl CfnApplication.DataSourceProperty.Builder.() -> Unit = {}): CfnApplication.DataSourceProperty = CfnApplication.DataSourceProperty.Builder().apply(initializer).build()

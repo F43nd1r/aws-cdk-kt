@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.msk.CfnReplicator
 
 @Generated
-public fun buildReplicationInfoProperty(initializer: @AwsCdkDsl
-    CfnReplicator.ReplicationInfoProperty.Builder.() -> Unit = {}):
-    CfnReplicator.ReplicationInfoProperty =
-    CfnReplicator.ReplicationInfoProperty.Builder().apply(initializer).build()
+public fun buildReplicationInfoProperty(initializer: @AwsCdkDsl CfnReplicator.ReplicationInfoProperty.Builder.() -> Unit = {}): CfnReplicator.ReplicationInfoProperty = CfnReplicator.ReplicationInfoProperty.Builder().apply(initializer).build()

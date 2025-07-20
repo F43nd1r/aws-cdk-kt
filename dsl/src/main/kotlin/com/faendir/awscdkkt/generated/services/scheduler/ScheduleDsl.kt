@@ -16,5 +16,4 @@ public fun Construct.schedule(
 ): Schedule = Schedule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildSchedule(id: String, initializer: @AwsCdkDsl Schedule.Builder.() -> Unit =
-    {}): Schedule = Schedule.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildSchedule(id: String, initializer: @AwsCdkDsl Schedule.Builder.() -> Unit = {}): Schedule = Schedule.Builder.create(this, id).apply(initializer).build()

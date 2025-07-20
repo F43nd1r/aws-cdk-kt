@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.DynamoUpdateItemJsonataProps
 
 @Generated
-public fun buildDynamoUpdateItemJsonataProps(initializer: @AwsCdkDsl
-    DynamoUpdateItemJsonataProps.Builder.() -> Unit = {}): DynamoUpdateItemJsonataProps =
-    DynamoUpdateItemJsonataProps.Builder().apply(initializer).build()
+public fun buildDynamoUpdateItemJsonataProps(initializer: @AwsCdkDsl DynamoUpdateItemJsonataProps.Builder.() -> Unit = {}): DynamoUpdateItemJsonataProps = DynamoUpdateItemJsonataProps.Builder().apply(initializer).build()

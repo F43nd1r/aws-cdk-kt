@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.RuleScope
 
 @Generated
-public fun buildRuleScope(initializer: @AwsCdkDsl RuleScope.Builder.() -> Unit = {}): RuleScope =
-    RuleScope.Builder().apply(initializer).build()
+public fun buildRuleScope(initializer: @AwsCdkDsl RuleScope.Builder.() -> Unit = {}): RuleScope = RuleScope.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kafkaconnect.CfnCustomPluginProps
 
 @Generated
-public fun buildCfnCustomPluginProps(initializer: @AwsCdkDsl CfnCustomPluginProps.Builder.() -> Unit
-    = {}): CfnCustomPluginProps = CfnCustomPluginProps.Builder().apply(initializer).build()
+public fun buildCfnCustomPluginProps(initializer: @AwsCdkDsl CfnCustomPluginProps.Builder.() -> Unit = {}): CfnCustomPluginProps = CfnCustomPluginProps.Builder().apply(initializer).build()

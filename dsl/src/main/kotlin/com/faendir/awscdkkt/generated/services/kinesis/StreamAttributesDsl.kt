@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesis.StreamAttributes
 
 @Generated
-public fun buildStreamAttributes(initializer: @AwsCdkDsl StreamAttributes.Builder.() -> Unit = {}):
-    StreamAttributes = StreamAttributes.Builder().apply(initializer).build()
+public fun buildStreamAttributes(initializer: @AwsCdkDsl StreamAttributes.Builder.() -> Unit = {}): StreamAttributes = StreamAttributes.Builder().apply(initializer).build()

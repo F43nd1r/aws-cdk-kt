@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnEnclaveCertificateIamRoleAssociationProps
 
 @Generated
-public fun buildCfnEnclaveCertificateIamRoleAssociationProps(initializer: @AwsCdkDsl
-    CfnEnclaveCertificateIamRoleAssociationProps.Builder.() -> Unit = {}):
-    CfnEnclaveCertificateIamRoleAssociationProps =
-    CfnEnclaveCertificateIamRoleAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnEnclaveCertificateIamRoleAssociationProps(initializer: @AwsCdkDsl CfnEnclaveCertificateIamRoleAssociationProps.Builder.() -> Unit = {}): CfnEnclaveCertificateIamRoleAssociationProps = CfnEnclaveCertificateIamRoleAssociationProps.Builder().apply(initializer).build()

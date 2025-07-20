@@ -16,6 +16,4 @@ public fun Construct.cfnUserPoolUser(
 ): CfnUserPoolUser = CfnUserPoolUser(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnUserPoolUser(id: String, initializer: @AwsCdkDsl
-    CfnUserPoolUser.Builder.() -> Unit = {}): CfnUserPoolUser = CfnUserPoolUser.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnUserPoolUser(id: String, initializer: @AwsCdkDsl CfnUserPoolUser.Builder.() -> Unit = {}): CfnUserPoolUser = CfnUserPoolUser.Builder.create(this, id).apply(initializer).build()

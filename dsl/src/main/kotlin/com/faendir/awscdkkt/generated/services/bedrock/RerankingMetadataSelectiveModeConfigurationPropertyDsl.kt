@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnFlowVersion
 
 @Generated
-public fun buildRerankingMetadataSelectiveModeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFlowVersion.RerankingMetadataSelectiveModeConfigurationProperty.Builder.() -> Unit = {}):
-    CfnFlowVersion.RerankingMetadataSelectiveModeConfigurationProperty =
-    CfnFlowVersion.RerankingMetadataSelectiveModeConfigurationProperty.Builder().apply(initializer).build()
+public fun buildRerankingMetadataSelectiveModeConfigurationProperty(initializer: @AwsCdkDsl CfnFlowVersion.RerankingMetadataSelectiveModeConfigurationProperty.Builder.() -> Unit = {}): CfnFlowVersion.RerankingMetadataSelectiveModeConfigurationProperty = CfnFlowVersion.RerankingMetadataSelectiveModeConfigurationProperty.Builder().apply(initializer).build()

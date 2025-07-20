@@ -16,5 +16,4 @@ public fun Construct.service(
 ): Service = Service(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildService(id: String, initializer: @AwsCdkDsl Service.Builder.() -> Unit =
-    {}): Service = Service.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildService(id: String, initializer: @AwsCdkDsl Service.Builder.() -> Unit = {}): Service = Service.Builder.create(this, id).apply(initializer).build()

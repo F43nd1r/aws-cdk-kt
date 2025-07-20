@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.cloudtrail.CfnChannelProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnChannel(id: String, initializer: @AwsCdkDsl CfnChannel.() -> Unit = {}):
-    CfnChannel = CfnChannel(this, id).apply(initializer)
+public fun Construct.cfnChannel(id: String, initializer: @AwsCdkDsl CfnChannel.() -> Unit = {}): CfnChannel = CfnChannel(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnChannel(
@@ -20,6 +19,4 @@ public fun Construct.cfnChannel(
 ): CfnChannel = CfnChannel(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnChannel(id: String, initializer: @AwsCdkDsl
-    CfnChannel.Builder.() -> Unit = {}): CfnChannel = CfnChannel.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnChannel(id: String, initializer: @AwsCdkDsl CfnChannel.Builder.() -> Unit = {}): CfnChannel = CfnChannel.Builder.create(this, id).apply(initializer).build()

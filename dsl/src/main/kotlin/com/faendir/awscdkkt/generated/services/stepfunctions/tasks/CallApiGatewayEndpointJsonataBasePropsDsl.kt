@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.CallApiGatewayEndpointJsonataBaseProps
 
 @Generated
-public fun buildCallApiGatewayEndpointJsonataBaseProps(initializer: @AwsCdkDsl
-    CallApiGatewayEndpointJsonataBaseProps.Builder.() -> Unit = {}):
-    CallApiGatewayEndpointJsonataBaseProps =
-    CallApiGatewayEndpointJsonataBaseProps.Builder().apply(initializer).build()
+public fun buildCallApiGatewayEndpointJsonataBaseProps(initializer: @AwsCdkDsl CallApiGatewayEndpointJsonataBaseProps.Builder.() -> Unit = {}): CallApiGatewayEndpointJsonataBaseProps = CallApiGatewayEndpointJsonataBaseProps.Builder().apply(initializer).build()

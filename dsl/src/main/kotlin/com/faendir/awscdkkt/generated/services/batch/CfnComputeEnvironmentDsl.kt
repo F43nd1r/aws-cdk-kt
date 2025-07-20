@@ -16,6 +16,4 @@ public fun Construct.cfnComputeEnvironment(
 ): CfnComputeEnvironment = CfnComputeEnvironment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnComputeEnvironment(id: String, initializer: @AwsCdkDsl
-    CfnComputeEnvironment.Builder.() -> Unit = {}): CfnComputeEnvironment =
-    CfnComputeEnvironment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnComputeEnvironment(id: String, initializer: @AwsCdkDsl CfnComputeEnvironment.Builder.() -> Unit = {}): CfnComputeEnvironment = CfnComputeEnvironment.Builder.create(this, id).apply(initializer).build()

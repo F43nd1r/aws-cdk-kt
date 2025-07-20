@@ -16,6 +16,4 @@ public fun Construct.cfnFlywheel(
 ): CfnFlywheel = CfnFlywheel(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnFlywheel(id: String, initializer: @AwsCdkDsl
-    CfnFlywheel.Builder.() -> Unit = {}): CfnFlywheel = CfnFlywheel.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnFlywheel(id: String, initializer: @AwsCdkDsl CfnFlywheel.Builder.() -> Unit = {}): CfnFlywheel = CfnFlywheel.Builder.create(this, id).apply(initializer).build()

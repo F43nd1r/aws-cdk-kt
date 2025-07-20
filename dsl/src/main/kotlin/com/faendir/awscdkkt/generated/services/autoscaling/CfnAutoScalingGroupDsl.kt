@@ -16,6 +16,4 @@ public fun Construct.cfnAutoScalingGroup(
 ): CfnAutoScalingGroup = CfnAutoScalingGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAutoScalingGroup(id: String, initializer: @AwsCdkDsl
-    CfnAutoScalingGroup.Builder.() -> Unit = {}): CfnAutoScalingGroup =
-    CfnAutoScalingGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAutoScalingGroup(id: String, initializer: @AwsCdkDsl CfnAutoScalingGroup.Builder.() -> Unit = {}): CfnAutoScalingGroup = CfnAutoScalingGroup.Builder.create(this, id).apply(initializer).build()

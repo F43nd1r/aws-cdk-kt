@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloudassembly.schema.AwsDestination
 
 @Generated
-public fun buildAwsDestination(initializer: @AwsCdkDsl AwsDestination.Builder.() -> Unit = {}):
-    AwsDestination = AwsDestination.Builder().apply(initializer).build()
+public fun buildAwsDestination(initializer: @AwsCdkDsl AwsDestination.Builder.() -> Unit = {}): AwsDestination = AwsDestination.Builder().apply(initializer).build()

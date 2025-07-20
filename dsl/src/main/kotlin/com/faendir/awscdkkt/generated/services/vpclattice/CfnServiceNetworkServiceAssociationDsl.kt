@@ -9,20 +9,14 @@ import software.amazon.awscdk.services.vpclattice.CfnServiceNetworkServiceAssoci
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnServiceNetworkServiceAssociation(id: String, initializer: @AwsCdkDsl
-    CfnServiceNetworkServiceAssociation.() -> Unit = {}): CfnServiceNetworkServiceAssociation =
-    CfnServiceNetworkServiceAssociation(this, id).apply(initializer)
+public fun Construct.cfnServiceNetworkServiceAssociation(id: String, initializer: @AwsCdkDsl CfnServiceNetworkServiceAssociation.() -> Unit = {}): CfnServiceNetworkServiceAssociation = CfnServiceNetworkServiceAssociation(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnServiceNetworkServiceAssociation(
   id: String,
   props: CfnServiceNetworkServiceAssociationProps,
   initializer: @AwsCdkDsl CfnServiceNetworkServiceAssociation.() -> Unit = {},
-): CfnServiceNetworkServiceAssociation = CfnServiceNetworkServiceAssociation(this, id,
-    props).apply(initializer)
+): CfnServiceNetworkServiceAssociation = CfnServiceNetworkServiceAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnServiceNetworkServiceAssociation(id: String, initializer: @AwsCdkDsl
-    CfnServiceNetworkServiceAssociation.Builder.() -> Unit = {}):
-    CfnServiceNetworkServiceAssociation = CfnServiceNetworkServiceAssociation.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnServiceNetworkServiceAssociation(id: String, initializer: @AwsCdkDsl CfnServiceNetworkServiceAssociation.Builder.() -> Unit = {}): CfnServiceNetworkServiceAssociation = CfnServiceNetworkServiceAssociation.Builder.create(this, id).apply(initializer).build()

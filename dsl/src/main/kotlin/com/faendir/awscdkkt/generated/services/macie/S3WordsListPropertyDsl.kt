@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.macie.CfnAllowList
 
 @Generated
-public fun buildS3WordsListProperty(initializer: @AwsCdkDsl
-    CfnAllowList.S3WordsListProperty.Builder.() -> Unit = {}): CfnAllowList.S3WordsListProperty =
-    CfnAllowList.S3WordsListProperty.Builder().apply(initializer).build()
+public fun buildS3WordsListProperty(initializer: @AwsCdkDsl CfnAllowList.S3WordsListProperty.Builder.() -> Unit = {}): CfnAllowList.S3WordsListProperty = CfnAllowList.S3WordsListProperty.Builder().apply(initializer).build()

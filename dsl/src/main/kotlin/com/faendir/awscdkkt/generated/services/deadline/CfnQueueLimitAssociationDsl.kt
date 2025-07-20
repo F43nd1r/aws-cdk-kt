@@ -16,6 +16,4 @@ public fun Construct.cfnQueueLimitAssociation(
 ): CfnQueueLimitAssociation = CfnQueueLimitAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnQueueLimitAssociation(id: String, initializer: @AwsCdkDsl
-    CfnQueueLimitAssociation.Builder.() -> Unit = {}): CfnQueueLimitAssociation =
-    CfnQueueLimitAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnQueueLimitAssociation(id: String, initializer: @AwsCdkDsl CfnQueueLimitAssociation.Builder.() -> Unit = {}): CfnQueueLimitAssociation = CfnQueueLimitAssociation.Builder.create(this, id).apply(initializer).build()

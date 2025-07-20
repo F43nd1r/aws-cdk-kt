@@ -9,9 +9,6 @@ import kotlin.Suppress
 import kotlin.Unit
 import software.amazon.awscdk.services.elasticsearch.AdvancedSecurityOptions
 
-@Deprecated(message =
-    "software.amazon.awscdk.services.elasticsearch.AdvancedSecurityOptions is deprecated in CDK.")
+@Deprecated(message = "software.amazon.awscdk.services.elasticsearch.AdvancedSecurityOptions is deprecated in CDK.")
 @Generated
-public fun buildAdvancedSecurityOptions(initializer: @AwsCdkDsl
-    AdvancedSecurityOptions.Builder.() -> Unit = {}): AdvancedSecurityOptions =
-    AdvancedSecurityOptions.Builder().apply(initializer).build()
+public fun buildAdvancedSecurityOptions(initializer: @AwsCdkDsl AdvancedSecurityOptions.Builder.() -> Unit = {}): AdvancedSecurityOptions = AdvancedSecurityOptions.Builder().apply(initializer).build()

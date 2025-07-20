@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnTransformer
 
 @Generated
-public fun buildRenameKeysProperty(initializer: @AwsCdkDsl
-    CfnTransformer.RenameKeysProperty.Builder.() -> Unit = {}): CfnTransformer.RenameKeysProperty =
-    CfnTransformer.RenameKeysProperty.Builder().apply(initializer).build()
+public fun buildRenameKeysProperty(initializer: @AwsCdkDsl CfnTransformer.RenameKeysProperty.Builder.() -> Unit = {}): CfnTransformer.RenameKeysProperty = CfnTransformer.RenameKeysProperty.Builder().apply(initializer).build()

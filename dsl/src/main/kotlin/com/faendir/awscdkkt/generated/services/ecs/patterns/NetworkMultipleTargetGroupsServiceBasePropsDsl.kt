@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.patterns.NetworkMultipleTargetGroupsServiceBaseProps
 
 @Generated
-public fun buildNetworkMultipleTargetGroupsServiceBaseProps(initializer: @AwsCdkDsl
-    NetworkMultipleTargetGroupsServiceBaseProps.Builder.() -> Unit = {}):
-    NetworkMultipleTargetGroupsServiceBaseProps =
-    NetworkMultipleTargetGroupsServiceBaseProps.Builder().apply(initializer).build()
+public fun buildNetworkMultipleTargetGroupsServiceBaseProps(initializer: @AwsCdkDsl NetworkMultipleTargetGroupsServiceBaseProps.Builder.() -> Unit = {}): NetworkMultipleTargetGroupsServiceBaseProps = NetworkMultipleTargetGroupsServiceBaseProps.Builder().apply(initializer).build()

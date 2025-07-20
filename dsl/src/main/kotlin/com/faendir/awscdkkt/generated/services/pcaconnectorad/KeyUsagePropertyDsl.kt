@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pcaconnectorad.CfnTemplate
 
 @Generated
-public fun buildKeyUsageProperty(initializer: @AwsCdkDsl
-    CfnTemplate.KeyUsageProperty.Builder.() -> Unit = {}): CfnTemplate.KeyUsageProperty =
-    CfnTemplate.KeyUsageProperty.Builder().apply(initializer).build()
+public fun buildKeyUsageProperty(initializer: @AwsCdkDsl CfnTemplate.KeyUsageProperty.Builder.() -> Unit = {}): CfnTemplate.KeyUsageProperty = CfnTemplate.KeyUsageProperty.Builder().apply(initializer).build()

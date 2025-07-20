@@ -16,6 +16,4 @@ public fun Construct.glueDataBrewStartJobRun(
 ): GlueDataBrewStartJobRun = GlueDataBrewStartJobRun(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildGlueDataBrewStartJobRun(id: String, initializer: @AwsCdkDsl
-    GlueDataBrewStartJobRun.Builder.() -> Unit = {}): GlueDataBrewStartJobRun =
-    GlueDataBrewStartJobRun.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildGlueDataBrewStartJobRun(id: String, initializer: @AwsCdkDsl GlueDataBrewStartJobRun.Builder.() -> Unit = {}): GlueDataBrewStartJobRun = GlueDataBrewStartJobRun.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnOriginRequestPolicy(
 ): CfnOriginRequestPolicy = CfnOriginRequestPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnOriginRequestPolicy(id: String, initializer: @AwsCdkDsl
-    CfnOriginRequestPolicy.Builder.() -> Unit = {}): CfnOriginRequestPolicy =
-    CfnOriginRequestPolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnOriginRequestPolicy(id: String, initializer: @AwsCdkDsl CfnOriginRequestPolicy.Builder.() -> Unit = {}): CfnOriginRequestPolicy = CfnOriginRequestPolicy.Builder.create(this, id).apply(initializer).build()

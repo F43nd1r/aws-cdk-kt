@@ -16,6 +16,4 @@ public fun Construct.cfnTopicInlinePolicy(
 ): CfnTopicInlinePolicy = CfnTopicInlinePolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTopicInlinePolicy(id: String, initializer: @AwsCdkDsl
-    CfnTopicInlinePolicy.Builder.() -> Unit = {}): CfnTopicInlinePolicy =
-    CfnTopicInlinePolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTopicInlinePolicy(id: String, initializer: @AwsCdkDsl CfnTopicInlinePolicy.Builder.() -> Unit = {}): CfnTopicInlinePolicy = CfnTopicInlinePolicy.Builder.create(this, id).apply(initializer).build()

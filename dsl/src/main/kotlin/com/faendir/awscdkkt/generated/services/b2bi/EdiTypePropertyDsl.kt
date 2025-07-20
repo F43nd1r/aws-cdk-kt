@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.b2bi.CfnTransformer
 
 @Generated
-public fun buildEdiTypeProperty(initializer: @AwsCdkDsl
-    CfnTransformer.EdiTypeProperty.Builder.() -> Unit = {}): CfnTransformer.EdiTypeProperty =
-    CfnTransformer.EdiTypeProperty.Builder().apply(initializer).build()
+public fun buildEdiTypeProperty(initializer: @AwsCdkDsl CfnTransformer.EdiTypeProperty.Builder.() -> Unit = {}): CfnTransformer.EdiTypeProperty = CfnTransformer.EdiTypeProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnUserProfileProps
 
 @Generated
-public fun buildCfnUserProfileProps(initializer: @AwsCdkDsl CfnUserProfileProps.Builder.() -> Unit =
-    {}): CfnUserProfileProps = CfnUserProfileProps.Builder().apply(initializer).build()
+public fun buildCfnUserProfileProps(initializer: @AwsCdkDsl CfnUserProfileProps.Builder.() -> Unit = {}): CfnUserProfileProps = CfnUserProfileProps.Builder().apply(initializer).build()

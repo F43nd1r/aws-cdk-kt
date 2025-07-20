@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
-public fun buildJobTimeoutProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.JobTimeoutProperty.Builder.() -> Unit = {}):
-    CfnJobDefinition.JobTimeoutProperty =
-    CfnJobDefinition.JobTimeoutProperty.Builder().apply(initializer).build()
+public fun buildJobTimeoutProperty(initializer: @AwsCdkDsl CfnJobDefinition.JobTimeoutProperty.Builder.() -> Unit = {}): CfnJobDefinition.JobTimeoutProperty = CfnJobDefinition.JobTimeoutProperty.Builder().apply(initializer).build()

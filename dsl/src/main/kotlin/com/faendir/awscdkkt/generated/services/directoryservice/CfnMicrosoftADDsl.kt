@@ -16,6 +16,4 @@ public fun Construct.cfnMicrosoftAD(
 ): CfnMicrosoftAD = CfnMicrosoftAD(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMicrosoftAD(id: String, initializer: @AwsCdkDsl
-    CfnMicrosoftAD.Builder.() -> Unit = {}): CfnMicrosoftAD = CfnMicrosoftAD.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnMicrosoftAD(id: String, initializer: @AwsCdkDsl CfnMicrosoftAD.Builder.() -> Unit = {}): CfnMicrosoftAD = CfnMicrosoftAD.Builder.create(this, id).apply(initializer).build()

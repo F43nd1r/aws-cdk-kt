@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
-public fun buildEfsVolumeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.EfsVolumeConfigurationProperty.Builder.() -> Unit = {}):
-    CfnJobDefinition.EfsVolumeConfigurationProperty =
-    CfnJobDefinition.EfsVolumeConfigurationProperty.Builder().apply(initializer).build()
+public fun buildEfsVolumeConfigurationProperty(initializer: @AwsCdkDsl CfnJobDefinition.EfsVolumeConfigurationProperty.Builder.() -> Unit = {}): CfnJobDefinition.EfsVolumeConfigurationProperty = CfnJobDefinition.EfsVolumeConfigurationProperty.Builder().apply(initializer).build()

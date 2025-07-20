@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
-public fun buildVeevaSourcePropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.VeevaSourcePropertiesProperty.Builder.() -> Unit = {}):
-    CfnFlow.VeevaSourcePropertiesProperty =
-    CfnFlow.VeevaSourcePropertiesProperty.Builder().apply(initializer).build()
+public fun buildVeevaSourcePropertiesProperty(initializer: @AwsCdkDsl CfnFlow.VeevaSourcePropertiesProperty.Builder.() -> Unit = {}): CfnFlow.VeevaSourcePropertiesProperty = CfnFlow.VeevaSourcePropertiesProperty.Builder().apply(initializer).build()

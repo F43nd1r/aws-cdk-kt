@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.greengrass.CfnSubscriptionDefinitionVersion
 
 @Generated
-public fun buildSubscriptionProperty(initializer: @AwsCdkDsl
-    CfnSubscriptionDefinitionVersion.SubscriptionProperty.Builder.() -> Unit = {}):
-    CfnSubscriptionDefinitionVersion.SubscriptionProperty =
-    CfnSubscriptionDefinitionVersion.SubscriptionProperty.Builder().apply(initializer).build()
+public fun buildSubscriptionProperty(initializer: @AwsCdkDsl CfnSubscriptionDefinitionVersion.SubscriptionProperty.Builder.() -> Unit = {}): CfnSubscriptionDefinitionVersion.SubscriptionProperty = CfnSubscriptionDefinitionVersion.SubscriptionProperty.Builder().apply(initializer).build()

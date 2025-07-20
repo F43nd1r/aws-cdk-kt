@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.TxtRecordProps
 
 @Generated
-public fun buildTxtRecordProps(initializer: @AwsCdkDsl TxtRecordProps.Builder.() -> Unit = {}):
-    TxtRecordProps = TxtRecordProps.Builder().apply(initializer).build()
+public fun buildTxtRecordProps(initializer: @AwsCdkDsl TxtRecordProps.Builder.() -> Unit = {}): TxtRecordProps = TxtRecordProps.Builder().apply(initializer).build()

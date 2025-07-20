@@ -13,10 +13,7 @@ public fun Construct.cfnMailManagerAddonSubscription(
   id: String,
   props: CfnMailManagerAddonSubscriptionProps,
   initializer: @AwsCdkDsl CfnMailManagerAddonSubscription.() -> Unit = {},
-): CfnMailManagerAddonSubscription = CfnMailManagerAddonSubscription(this, id,
-    props).apply(initializer)
+): CfnMailManagerAddonSubscription = CfnMailManagerAddonSubscription(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMailManagerAddonSubscription(id: String, initializer: @AwsCdkDsl
-    CfnMailManagerAddonSubscription.Builder.() -> Unit = {}): CfnMailManagerAddonSubscription =
-    CfnMailManagerAddonSubscription.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMailManagerAddonSubscription(id: String, initializer: @AwsCdkDsl CfnMailManagerAddonSubscription.Builder.() -> Unit = {}): CfnMailManagerAddonSubscription = CfnMailManagerAddonSubscription.Builder.create(this, id).apply(initializer).build()

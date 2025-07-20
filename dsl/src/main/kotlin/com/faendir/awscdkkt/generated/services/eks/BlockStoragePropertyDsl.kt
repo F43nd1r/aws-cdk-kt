@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.CfnCluster
 
 @Generated
-public fun buildBlockStorageProperty(initializer: @AwsCdkDsl
-    CfnCluster.BlockStorageProperty.Builder.() -> Unit = {}): CfnCluster.BlockStorageProperty =
-    CfnCluster.BlockStorageProperty.Builder().apply(initializer).build()
+public fun buildBlockStorageProperty(initializer: @AwsCdkDsl CfnCluster.BlockStorageProperty.Builder.() -> Unit = {}): CfnCluster.BlockStorageProperty = CfnCluster.BlockStorageProperty.Builder().apply(initializer).build()

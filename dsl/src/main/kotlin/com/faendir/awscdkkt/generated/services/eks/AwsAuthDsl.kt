@@ -16,5 +16,4 @@ public fun Construct.awsAuth(
 ): AwsAuth = AwsAuth(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAwsAuth(id: String, initializer: @AwsCdkDsl AwsAuth.Builder.() -> Unit =
-    {}): AwsAuth = AwsAuth.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildAwsAuth(id: String, initializer: @AwsCdkDsl AwsAuth.Builder.() -> Unit = {}): AwsAuth = AwsAuth.Builder.create(this, id).apply(initializer).build()

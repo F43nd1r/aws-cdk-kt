@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cxapi.KeyContextResponse
 
 @Generated
-public fun buildKeyContextResponse(initializer: @AwsCdkDsl KeyContextResponse.Builder.() -> Unit =
-    {}): KeyContextResponse = KeyContextResponse.Builder().apply(initializer).build()
+public fun buildKeyContextResponse(initializer: @AwsCdkDsl KeyContextResponse.Builder.() -> Unit = {}): KeyContextResponse = KeyContextResponse.Builder().apply(initializer).build()

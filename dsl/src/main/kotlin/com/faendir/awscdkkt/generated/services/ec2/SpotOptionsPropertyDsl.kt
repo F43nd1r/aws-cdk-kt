@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
-public fun buildSpotOptionsProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.SpotOptionsProperty.Builder.() -> Unit = {}):
-    CfnLaunchTemplate.SpotOptionsProperty =
-    CfnLaunchTemplate.SpotOptionsProperty.Builder().apply(initializer).build()
+public fun buildSpotOptionsProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.SpotOptionsProperty.Builder.() -> Unit = {}): CfnLaunchTemplate.SpotOptionsProperty = CfnLaunchTemplate.SpotOptionsProperty.Builder().apply(initializer).build()

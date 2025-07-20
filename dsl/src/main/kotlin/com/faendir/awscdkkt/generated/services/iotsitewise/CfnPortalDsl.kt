@@ -16,5 +16,4 @@ public fun Construct.cfnPortal(
 ): CfnPortal = CfnPortal(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPortal(id: String, initializer: @AwsCdkDsl CfnPortal.Builder.() -> Unit
-    = {}): CfnPortal = CfnPortal.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPortal(id: String, initializer: @AwsCdkDsl CfnPortal.Builder.() -> Unit = {}): CfnPortal = CfnPortal.Builder.create(this, id).apply(initializer).build()

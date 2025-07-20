@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.InstanceProfileProps
 
 @Generated
-public fun buildInstanceProfileProps(initializer: @AwsCdkDsl InstanceProfileProps.Builder.() -> Unit
-    = {}): InstanceProfileProps = InstanceProfileProps.Builder().apply(initializer).build()
+public fun buildInstanceProfileProps(initializer: @AwsCdkDsl InstanceProfileProps.Builder.() -> Unit = {}): InstanceProfileProps = InstanceProfileProps.Builder().apply(initializer).build()

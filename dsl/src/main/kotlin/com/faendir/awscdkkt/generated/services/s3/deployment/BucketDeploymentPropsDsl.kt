@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.deployment.BucketDeploymentProps
 
 @Generated
-public fun buildBucketDeploymentProps(initializer: @AwsCdkDsl
-    BucketDeploymentProps.Builder.() -> Unit = {}): BucketDeploymentProps =
-    BucketDeploymentProps.Builder().apply(initializer).build()
+public fun buildBucketDeploymentProps(initializer: @AwsCdkDsl BucketDeploymentProps.Builder.() -> Unit = {}): BucketDeploymentProps = BucketDeploymentProps.Builder().apply(initializer).build()

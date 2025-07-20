@@ -16,6 +16,4 @@ public fun Construct.cfnPrivateDnsNamespace(
 ): CfnPrivateDnsNamespace = CfnPrivateDnsNamespace(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPrivateDnsNamespace(id: String, initializer: @AwsCdkDsl
-    CfnPrivateDnsNamespace.Builder.() -> Unit = {}): CfnPrivateDnsNamespace =
-    CfnPrivateDnsNamespace.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPrivateDnsNamespace(id: String, initializer: @AwsCdkDsl CfnPrivateDnsNamespace.Builder.() -> Unit = {}): CfnPrivateDnsNamespace = CfnPrivateDnsNamespace.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.b2bi.CfnPartnershipProps
 
 @Generated
-public fun buildCfnPartnershipProps(initializer: @AwsCdkDsl CfnPartnershipProps.Builder.() -> Unit =
-    {}): CfnPartnershipProps = CfnPartnershipProps.Builder().apply(initializer).build()
+public fun buildCfnPartnershipProps(initializer: @AwsCdkDsl CfnPartnershipProps.Builder.() -> Unit = {}): CfnPartnershipProps = CfnPartnershipProps.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.ConnectionRule
 
 @Generated
-public fun buildConnectionRule(initializer: @AwsCdkDsl ConnectionRule.Builder.() -> Unit = {}):
-    ConnectionRule = ConnectionRule.Builder().apply(initializer).build()
+public fun buildConnectionRule(initializer: @AwsCdkDsl ConnectionRule.Builder.() -> Unit = {}): ConnectionRule = ConnectionRule.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLocalGatewayRouteProps
 
 @Generated
-public fun buildCfnLocalGatewayRouteProps(initializer: @AwsCdkDsl
-    CfnLocalGatewayRouteProps.Builder.() -> Unit = {}): CfnLocalGatewayRouteProps =
-    CfnLocalGatewayRouteProps.Builder().apply(initializer).build()
+public fun buildCfnLocalGatewayRouteProps(initializer: @AwsCdkDsl CfnLocalGatewayRouteProps.Builder.() -> Unit = {}): CfnLocalGatewayRouteProps = CfnLocalGatewayRouteProps.Builder().apply(initializer).build()

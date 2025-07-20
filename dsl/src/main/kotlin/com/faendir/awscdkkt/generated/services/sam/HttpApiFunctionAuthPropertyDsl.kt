@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
-public fun buildHttpApiFunctionAuthProperty(initializer: @AwsCdkDsl
-    CfnFunction.HttpApiFunctionAuthProperty.Builder.() -> Unit = {}):
-    CfnFunction.HttpApiFunctionAuthProperty =
-    CfnFunction.HttpApiFunctionAuthProperty.Builder().apply(initializer).build()
+public fun buildHttpApiFunctionAuthProperty(initializer: @AwsCdkDsl CfnFunction.HttpApiFunctionAuthProperty.Builder.() -> Unit = {}): CfnFunction.HttpApiFunctionAuthProperty = CfnFunction.HttpApiFunctionAuthProperty.Builder().apply(initializer).build()

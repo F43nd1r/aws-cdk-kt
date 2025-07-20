@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticache.CfnServerlessCache
 
 @Generated
-public fun buildCacheUsageLimitsProperty(initializer: @AwsCdkDsl
-    CfnServerlessCache.CacheUsageLimitsProperty.Builder.() -> Unit = {}):
-    CfnServerlessCache.CacheUsageLimitsProperty =
-    CfnServerlessCache.CacheUsageLimitsProperty.Builder().apply(initializer).build()
+public fun buildCacheUsageLimitsProperty(initializer: @AwsCdkDsl CfnServerlessCache.CacheUsageLimitsProperty.Builder.() -> Unit = {}): CfnServerlessCache.CacheUsageLimitsProperty = CfnServerlessCache.CacheUsageLimitsProperty.Builder().apply(initializer).build()

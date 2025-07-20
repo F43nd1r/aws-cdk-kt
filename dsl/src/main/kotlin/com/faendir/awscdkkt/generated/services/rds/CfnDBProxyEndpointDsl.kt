@@ -16,6 +16,4 @@ public fun Construct.cfnDBProxyEndpoint(
 ): CfnDBProxyEndpoint = CfnDBProxyEndpoint(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDBProxyEndpoint(id: String, initializer: @AwsCdkDsl
-    CfnDBProxyEndpoint.Builder.() -> Unit = {}): CfnDBProxyEndpoint =
-    CfnDBProxyEndpoint.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDBProxyEndpoint(id: String, initializer: @AwsCdkDsl CfnDBProxyEndpoint.Builder.() -> Unit = {}): CfnDBProxyEndpoint = CfnDBProxyEndpoint.Builder.create(this, id).apply(initializer).build()

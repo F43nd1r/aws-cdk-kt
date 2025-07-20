@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.imagebuilder.CfnLifecyclePolicy
 
 @Generated
-public fun buildExclusionRulesProperty(initializer: @AwsCdkDsl
-    CfnLifecyclePolicy.ExclusionRulesProperty.Builder.() -> Unit = {}):
-    CfnLifecyclePolicy.ExclusionRulesProperty =
-    CfnLifecyclePolicy.ExclusionRulesProperty.Builder().apply(initializer).build()
+public fun buildExclusionRulesProperty(initializer: @AwsCdkDsl CfnLifecyclePolicy.ExclusionRulesProperty.Builder.() -> Unit = {}): CfnLifecyclePolicy.ExclusionRulesProperty = CfnLifecyclePolicy.ExclusionRulesProperty.Builder().apply(initializer).build()

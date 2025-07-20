@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dms.CfnMigrationProject
 
 @Generated
-public fun buildDataProviderDescriptorProperty(initializer: @AwsCdkDsl
-    CfnMigrationProject.DataProviderDescriptorProperty.Builder.() -> Unit = {}):
-    CfnMigrationProject.DataProviderDescriptorProperty =
-    CfnMigrationProject.DataProviderDescriptorProperty.Builder().apply(initializer).build()
+public fun buildDataProviderDescriptorProperty(initializer: @AwsCdkDsl CfnMigrationProject.DataProviderDescriptorProperty.Builder.() -> Unit = {}): CfnMigrationProject.DataProviderDescriptorProperty = CfnMigrationProject.DataProviderDescriptorProperty.Builder().apply(initializer).build()

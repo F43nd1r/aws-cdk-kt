@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnCrawler
 
 @Generated
-public fun buildRecrawlPolicyProperty(initializer: @AwsCdkDsl
-    CfnCrawler.RecrawlPolicyProperty.Builder.() -> Unit = {}): CfnCrawler.RecrawlPolicyProperty =
-    CfnCrawler.RecrawlPolicyProperty.Builder().apply(initializer).build()
+public fun buildRecrawlPolicyProperty(initializer: @AwsCdkDsl CfnCrawler.RecrawlPolicyProperty.Builder.() -> Unit = {}): CfnCrawler.RecrawlPolicyProperty = CfnCrawler.RecrawlPolicyProperty.Builder().apply(initializer).build()

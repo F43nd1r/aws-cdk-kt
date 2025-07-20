@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.CfnPipeline
 
 @Generated
-public fun buildActionDeclarationProperty(initializer: @AwsCdkDsl
-    CfnPipeline.ActionDeclarationProperty.Builder.() -> Unit = {}):
-    CfnPipeline.ActionDeclarationProperty =
-    CfnPipeline.ActionDeclarationProperty.Builder().apply(initializer).build()
+public fun buildActionDeclarationProperty(initializer: @AwsCdkDsl CfnPipeline.ActionDeclarationProperty.Builder.() -> Unit = {}): CfnPipeline.ActionDeclarationProperty = CfnPipeline.ActionDeclarationProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.emr.CfnInstanceFleetConfig
 
 @Generated
-public fun buildInstanceTypeConfigProperty(initializer: @AwsCdkDsl
-    CfnInstanceFleetConfig.InstanceTypeConfigProperty.Builder.() -> Unit = {}):
-    CfnInstanceFleetConfig.InstanceTypeConfigProperty =
-    CfnInstanceFleetConfig.InstanceTypeConfigProperty.Builder().apply(initializer).build()
+public fun buildInstanceTypeConfigProperty(initializer: @AwsCdkDsl CfnInstanceFleetConfig.InstanceTypeConfigProperty.Builder.() -> Unit = {}): CfnInstanceFleetConfig.InstanceTypeConfigProperty = CfnInstanceFleetConfig.InstanceTypeConfigProperty.Builder().apply(initializer).build()

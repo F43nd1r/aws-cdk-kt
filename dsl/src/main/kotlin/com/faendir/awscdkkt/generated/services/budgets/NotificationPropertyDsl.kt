@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.budgets.CfnBudget
 
 @Generated
-public fun buildNotificationProperty(initializer: @AwsCdkDsl
-    CfnBudget.NotificationProperty.Builder.() -> Unit = {}): CfnBudget.NotificationProperty =
-    CfnBudget.NotificationProperty.Builder().apply(initializer).build()
+public fun buildNotificationProperty(initializer: @AwsCdkDsl CfnBudget.NotificationProperty.Builder.() -> Unit = {}): CfnBudget.NotificationProperty = CfnBudget.NotificationProperty.Builder().apply(initializer).build()

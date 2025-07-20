@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnKeyValueStore
 
 @Generated
-public fun buildImportSourceProperty(initializer: @AwsCdkDsl
-    CfnKeyValueStore.ImportSourceProperty.Builder.() -> Unit = {}):
-    CfnKeyValueStore.ImportSourceProperty =
-    CfnKeyValueStore.ImportSourceProperty.Builder().apply(initializer).build()
+public fun buildImportSourceProperty(initializer: @AwsCdkDsl CfnKeyValueStore.ImportSourceProperty.Builder.() -> Unit = {}): CfnKeyValueStore.ImportSourceProperty = CfnKeyValueStore.ImportSourceProperty.Builder().apply(initializer).build()

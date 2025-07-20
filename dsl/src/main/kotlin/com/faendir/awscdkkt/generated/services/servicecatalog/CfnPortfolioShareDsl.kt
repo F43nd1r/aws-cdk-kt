@@ -16,6 +16,4 @@ public fun Construct.cfnPortfolioShare(
 ): CfnPortfolioShare = CfnPortfolioShare(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPortfolioShare(id: String, initializer: @AwsCdkDsl
-    CfnPortfolioShare.Builder.() -> Unit = {}): CfnPortfolioShare =
-    CfnPortfolioShare.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPortfolioShare(id: String, initializer: @AwsCdkDsl CfnPortfolioShare.Builder.() -> Unit = {}): CfnPortfolioShare = CfnPortfolioShare.Builder.create(this, id).apply(initializer).build()

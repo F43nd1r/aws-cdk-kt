@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
-public fun buildErrorHandlingConfigProperty(initializer: @AwsCdkDsl
-    CfnFlow.ErrorHandlingConfigProperty.Builder.() -> Unit = {}):
-    CfnFlow.ErrorHandlingConfigProperty =
-    CfnFlow.ErrorHandlingConfigProperty.Builder().apply(initializer).build()
+public fun buildErrorHandlingConfigProperty(initializer: @AwsCdkDsl CfnFlow.ErrorHandlingConfigProperty.Builder.() -> Unit = {}): CfnFlow.ErrorHandlingConfigProperty = CfnFlow.ErrorHandlingConfigProperty.Builder().apply(initializer).build()

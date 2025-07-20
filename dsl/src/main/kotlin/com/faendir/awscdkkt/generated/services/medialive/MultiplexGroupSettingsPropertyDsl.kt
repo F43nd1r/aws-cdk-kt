@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildMultiplexGroupSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.MultiplexGroupSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.MultiplexGroupSettingsProperty =
-    CfnChannel.MultiplexGroupSettingsProperty.Builder().apply(initializer).build()
+public fun buildMultiplexGroupSettingsProperty(initializer: @AwsCdkDsl CfnChannel.MultiplexGroupSettingsProperty.Builder.() -> Unit = {}): CfnChannel.MultiplexGroupSettingsProperty = CfnChannel.MultiplexGroupSettingsProperty.Builder().apply(initializer).build()

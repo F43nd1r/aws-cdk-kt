@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.supportapp.CfnSlackWorkspaceConfigurationProps
 
 @Generated
-public fun buildCfnSlackWorkspaceConfigurationProps(initializer: @AwsCdkDsl
-    CfnSlackWorkspaceConfigurationProps.Builder.() -> Unit = {}):
-    CfnSlackWorkspaceConfigurationProps =
-    CfnSlackWorkspaceConfigurationProps.Builder().apply(initializer).build()
+public fun buildCfnSlackWorkspaceConfigurationProps(initializer: @AwsCdkDsl CfnSlackWorkspaceConfigurationProps.Builder.() -> Unit = {}): CfnSlackWorkspaceConfigurationProps = CfnSlackWorkspaceConfigurationProps.Builder().apply(initializer).build()

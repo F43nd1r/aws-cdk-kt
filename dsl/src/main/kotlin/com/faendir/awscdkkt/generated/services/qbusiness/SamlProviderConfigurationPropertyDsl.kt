@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnWebExperience
 
 @Generated
-public fun buildSamlProviderConfigurationProperty(initializer: @AwsCdkDsl
-    CfnWebExperience.SamlProviderConfigurationProperty.Builder.() -> Unit = {}):
-    CfnWebExperience.SamlProviderConfigurationProperty =
-    CfnWebExperience.SamlProviderConfigurationProperty.Builder().apply(initializer).build()
+public fun buildSamlProviderConfigurationProperty(initializer: @AwsCdkDsl CfnWebExperience.SamlProviderConfigurationProperty.Builder.() -> Unit = {}): CfnWebExperience.SamlProviderConfigurationProperty = CfnWebExperience.SamlProviderConfigurationProperty.Builder().apply(initializer).build()

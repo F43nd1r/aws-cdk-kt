@@ -16,6 +16,4 @@ public fun Construct.cfnDocumentClassifier(
 ): CfnDocumentClassifier = CfnDocumentClassifier(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDocumentClassifier(id: String, initializer: @AwsCdkDsl
-    CfnDocumentClassifier.Builder.() -> Unit = {}): CfnDocumentClassifier =
-    CfnDocumentClassifier.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDocumentClassifier(id: String, initializer: @AwsCdkDsl CfnDocumentClassifier.Builder.() -> Unit = {}): CfnDocumentClassifier = CfnDocumentClassifier.Builder.create(this, id).apply(initializer).build()

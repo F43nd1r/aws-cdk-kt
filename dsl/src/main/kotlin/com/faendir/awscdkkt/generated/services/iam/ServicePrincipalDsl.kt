@@ -7,6 +7,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.ServicePrincipal
 
 @Generated
-public fun buildServicePrincipal(service: String, initializer: @AwsCdkDsl
-    ServicePrincipal.Builder.() -> Unit = {}): ServicePrincipal =
-    ServicePrincipal.Builder.create(service).apply(initializer).build()
+public fun buildServicePrincipal(service: String, initializer: @AwsCdkDsl ServicePrincipal.Builder.() -> Unit = {}): ServicePrincipal = ServicePrincipal.Builder.create(service).apply(initializer).build()

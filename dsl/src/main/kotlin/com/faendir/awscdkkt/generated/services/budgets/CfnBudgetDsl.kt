@@ -16,5 +16,4 @@ public fun Construct.cfnBudget(
 ): CfnBudget = CfnBudget(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnBudget(id: String, initializer: @AwsCdkDsl CfnBudget.Builder.() -> Unit
-    = {}): CfnBudget = CfnBudget.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnBudget(id: String, initializer: @AwsCdkDsl CfnBudget.Builder.() -> Unit = {}): CfnBudget = CfnBudget.Builder.create(this, id).apply(initializer).build()

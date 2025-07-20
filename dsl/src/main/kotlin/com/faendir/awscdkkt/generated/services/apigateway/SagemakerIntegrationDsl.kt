@@ -7,6 +7,4 @@ import software.amazon.awscdk.services.apigateway.SagemakerIntegration
 import software.amazon.awscdk.services.sagemaker.IEndpoint
 
 @Generated
-public fun buildSagemakerIntegration(endpoint: IEndpoint, initializer: @AwsCdkDsl
-    SagemakerIntegration.Builder.() -> Unit = {}): SagemakerIntegration =
-    SagemakerIntegration.Builder.create(endpoint).apply(initializer).build()
+public fun buildSagemakerIntegration(endpoint: IEndpoint, initializer: @AwsCdkDsl SagemakerIntegration.Builder.() -> Unit = {}): SagemakerIntegration = SagemakerIntegration.Builder.create(endpoint).apply(initializer).build()

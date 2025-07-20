@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnContainerGroupDefinition
 
 @Generated
-public fun buildContainerMountPointProperty(initializer: @AwsCdkDsl
-    CfnContainerGroupDefinition.ContainerMountPointProperty.Builder.() -> Unit = {}):
-    CfnContainerGroupDefinition.ContainerMountPointProperty =
-    CfnContainerGroupDefinition.ContainerMountPointProperty.Builder().apply(initializer).build()
+public fun buildContainerMountPointProperty(initializer: @AwsCdkDsl CfnContainerGroupDefinition.ContainerMountPointProperty.Builder.() -> Unit = {}): CfnContainerGroupDefinition.ContainerMountPointProperty = CfnContainerGroupDefinition.ContainerMountPointProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnLogAnomalyDetectorProps
 
 @Generated
-public fun buildCfnLogAnomalyDetectorProps(initializer: @AwsCdkDsl
-    CfnLogAnomalyDetectorProps.Builder.() -> Unit = {}): CfnLogAnomalyDetectorProps =
-    CfnLogAnomalyDetectorProps.Builder().apply(initializer).build()
+public fun buildCfnLogAnomalyDetectorProps(initializer: @AwsCdkDsl CfnLogAnomalyDetectorProps.Builder.() -> Unit = {}): CfnLogAnomalyDetectorProps = CfnLogAnomalyDetectorProps.Builder().apply(initializer).build()

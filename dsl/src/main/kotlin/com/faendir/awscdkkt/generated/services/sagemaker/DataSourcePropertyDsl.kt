@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnModelPackage
 
 @Generated
-public fun buildDataSourceProperty(initializer: @AwsCdkDsl
-    CfnModelPackage.DataSourceProperty.Builder.() -> Unit = {}): CfnModelPackage.DataSourceProperty
-    = CfnModelPackage.DataSourceProperty.Builder().apply(initializer).build()
+public fun buildDataSourceProperty(initializer: @AwsCdkDsl CfnModelPackage.DataSourceProperty.Builder.() -> Unit = {}): CfnModelPackage.DataSourceProperty = CfnModelPackage.DataSourceProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.secretsmanager.SecretStringGenerator
 
 @Generated
-public fun buildSecretStringGenerator(initializer: @AwsCdkDsl
-    SecretStringGenerator.Builder.() -> Unit = {}): SecretStringGenerator =
-    SecretStringGenerator.Builder().apply(initializer).build()
+public fun buildSecretStringGenerator(initializer: @AwsCdkDsl SecretStringGenerator.Builder.() -> Unit = {}): SecretStringGenerator = SecretStringGenerator.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.notifications.CfnManagedNotificationAdditionalChannelAssociationProps
 
 @Generated
-public fun buildCfnManagedNotificationAdditionalChannelAssociationProps(initializer: @AwsCdkDsl
-    CfnManagedNotificationAdditionalChannelAssociationProps.Builder.() -> Unit = {}):
-    CfnManagedNotificationAdditionalChannelAssociationProps =
-    CfnManagedNotificationAdditionalChannelAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnManagedNotificationAdditionalChannelAssociationProps(initializer: @AwsCdkDsl CfnManagedNotificationAdditionalChannelAssociationProps.Builder.() -> Unit = {}): CfnManagedNotificationAdditionalChannelAssociationProps = CfnManagedNotificationAdditionalChannelAssociationProps.Builder().apply(initializer).build()

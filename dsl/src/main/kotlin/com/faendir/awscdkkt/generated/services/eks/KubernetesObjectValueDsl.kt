@@ -16,6 +16,4 @@ public fun Construct.kubernetesObjectValue(
 ): KubernetesObjectValue = KubernetesObjectValue(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildKubernetesObjectValue(id: String, initializer: @AwsCdkDsl
-    KubernetesObjectValue.Builder.() -> Unit = {}): KubernetesObjectValue =
-    KubernetesObjectValue.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildKubernetesObjectValue(id: String, initializer: @AwsCdkDsl KubernetesObjectValue.Builder.() -> Unit = {}): KubernetesObjectValue = KubernetesObjectValue.Builder.create(this, id).apply(initializer).build()

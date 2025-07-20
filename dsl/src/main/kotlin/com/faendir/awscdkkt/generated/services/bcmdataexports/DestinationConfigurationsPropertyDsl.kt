@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bcmdataexports.CfnExport
 
 @Generated
-public fun buildDestinationConfigurationsProperty(initializer: @AwsCdkDsl
-    CfnExport.DestinationConfigurationsProperty.Builder.() -> Unit = {}):
-    CfnExport.DestinationConfigurationsProperty =
-    CfnExport.DestinationConfigurationsProperty.Builder().apply(initializer).build()
+public fun buildDestinationConfigurationsProperty(initializer: @AwsCdkDsl CfnExport.DestinationConfigurationsProperty.Builder.() -> Unit = {}): CfnExport.DestinationConfigurationsProperty = CfnExport.DestinationConfigurationsProperty.Builder().apply(initializer).build()

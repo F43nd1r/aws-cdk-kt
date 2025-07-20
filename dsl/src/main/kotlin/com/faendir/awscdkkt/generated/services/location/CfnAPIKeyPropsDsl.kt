@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.location.CfnAPIKeyProps
 
 @Generated
-public fun buildCfnAPIKeyProps(initializer: @AwsCdkDsl CfnAPIKeyProps.Builder.() -> Unit = {}):
-    CfnAPIKeyProps = CfnAPIKeyProps.Builder().apply(initializer).build()
+public fun buildCfnAPIKeyProps(initializer: @AwsCdkDsl CfnAPIKeyProps.Builder.() -> Unit = {}): CfnAPIKeyProps = CfnAPIKeyProps.Builder().apply(initializer).build()

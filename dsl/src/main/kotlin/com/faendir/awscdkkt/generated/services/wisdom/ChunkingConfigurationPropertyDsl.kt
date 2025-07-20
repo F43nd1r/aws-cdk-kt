@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnKnowledgeBase
 
 @Generated
-public fun buildChunkingConfigurationProperty(initializer: @AwsCdkDsl
-    CfnKnowledgeBase.ChunkingConfigurationProperty.Builder.() -> Unit = {}):
-    CfnKnowledgeBase.ChunkingConfigurationProperty =
-    CfnKnowledgeBase.ChunkingConfigurationProperty.Builder().apply(initializer).build()
+public fun buildChunkingConfigurationProperty(initializer: @AwsCdkDsl CfnKnowledgeBase.ChunkingConfigurationProperty.Builder.() -> Unit = {}): CfnKnowledgeBase.ChunkingConfigurationProperty = CfnKnowledgeBase.ChunkingConfigurationProperty.Builder().apply(initializer).build()

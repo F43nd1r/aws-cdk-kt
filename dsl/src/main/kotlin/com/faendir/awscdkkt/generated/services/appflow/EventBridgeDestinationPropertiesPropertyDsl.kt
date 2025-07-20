@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
-public fun buildEventBridgeDestinationPropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.EventBridgeDestinationPropertiesProperty.Builder.() -> Unit = {}):
-    CfnFlow.EventBridgeDestinationPropertiesProperty =
-    CfnFlow.EventBridgeDestinationPropertiesProperty.Builder().apply(initializer).build()
+public fun buildEventBridgeDestinationPropertiesProperty(initializer: @AwsCdkDsl CfnFlow.EventBridgeDestinationPropertiesProperty.Builder.() -> Unit = {}): CfnFlow.EventBridgeDestinationPropertiesProperty = CfnFlow.EventBridgeDestinationPropertiesProperty.Builder().apply(initializer).build()

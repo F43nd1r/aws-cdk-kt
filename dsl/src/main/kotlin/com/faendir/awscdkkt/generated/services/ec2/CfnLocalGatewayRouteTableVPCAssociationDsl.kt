@@ -13,11 +13,7 @@ public fun Construct.cfnLocalGatewayRouteTableVPCAssociation(
   id: String,
   props: CfnLocalGatewayRouteTableVPCAssociationProps,
   initializer: @AwsCdkDsl CfnLocalGatewayRouteTableVPCAssociation.() -> Unit = {},
-): CfnLocalGatewayRouteTableVPCAssociation = CfnLocalGatewayRouteTableVPCAssociation(this, id,
-    props).apply(initializer)
+): CfnLocalGatewayRouteTableVPCAssociation = CfnLocalGatewayRouteTableVPCAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLocalGatewayRouteTableVPCAssociation(id: String,
-    initializer: @AwsCdkDsl CfnLocalGatewayRouteTableVPCAssociation.Builder.() -> Unit = {}):
-    CfnLocalGatewayRouteTableVPCAssociation =
-    CfnLocalGatewayRouteTableVPCAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLocalGatewayRouteTableVPCAssociation(id: String, initializer: @AwsCdkDsl CfnLocalGatewayRouteTableVPCAssociation.Builder.() -> Unit = {}): CfnLocalGatewayRouteTableVPCAssociation = CfnLocalGatewayRouteTableVPCAssociation.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnSecurityGroupVpcAssociationProps
 
 @Generated
-public fun buildCfnSecurityGroupVpcAssociationProps(initializer: @AwsCdkDsl
-    CfnSecurityGroupVpcAssociationProps.Builder.() -> Unit = {}):
-    CfnSecurityGroupVpcAssociationProps =
-    CfnSecurityGroupVpcAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnSecurityGroupVpcAssociationProps(initializer: @AwsCdkDsl CfnSecurityGroupVpcAssociationProps.Builder.() -> Unit = {}): CfnSecurityGroupVpcAssociationProps = CfnSecurityGroupVpcAssociationProps.Builder().apply(initializer).build()

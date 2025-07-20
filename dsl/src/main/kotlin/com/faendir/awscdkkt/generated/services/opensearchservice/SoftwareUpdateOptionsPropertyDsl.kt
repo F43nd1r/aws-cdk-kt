@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opensearchservice.CfnDomain
 
 @Generated
-public fun buildSoftwareUpdateOptionsProperty(initializer: @AwsCdkDsl
-    CfnDomain.SoftwareUpdateOptionsProperty.Builder.() -> Unit = {}):
-    CfnDomain.SoftwareUpdateOptionsProperty =
-    CfnDomain.SoftwareUpdateOptionsProperty.Builder().apply(initializer).build()
+public fun buildSoftwareUpdateOptionsProperty(initializer: @AwsCdkDsl CfnDomain.SoftwareUpdateOptionsProperty.Builder.() -> Unit = {}): CfnDomain.SoftwareUpdateOptionsProperty = CfnDomain.SoftwareUpdateOptionsProperty.Builder().apply(initializer).build()

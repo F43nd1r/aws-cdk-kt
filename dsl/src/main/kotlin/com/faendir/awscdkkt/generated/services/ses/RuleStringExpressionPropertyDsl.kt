@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnMailManagerRuleSet
 
 @Generated
-public fun buildRuleStringExpressionProperty(initializer: @AwsCdkDsl
-    CfnMailManagerRuleSet.RuleStringExpressionProperty.Builder.() -> Unit = {}):
-    CfnMailManagerRuleSet.RuleStringExpressionProperty =
-    CfnMailManagerRuleSet.RuleStringExpressionProperty.Builder().apply(initializer).build()
+public fun buildRuleStringExpressionProperty(initializer: @AwsCdkDsl CfnMailManagerRuleSet.RuleStringExpressionProperty.Builder.() -> Unit = {}): CfnMailManagerRuleSet.RuleStringExpressionProperty = CfnMailManagerRuleSet.RuleStringExpressionProperty.Builder().apply(initializer).build()

@@ -16,5 +16,4 @@ public fun Construct.cluster(
 ): Cluster = Cluster(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCluster(id: String, initializer: @AwsCdkDsl Cluster.Builder.() -> Unit =
-    {}): Cluster = Cluster.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCluster(id: String, initializer: @AwsCdkDsl Cluster.Builder.() -> Unit = {}): Cluster = Cluster.Builder.create(this, id).apply(initializer).build()

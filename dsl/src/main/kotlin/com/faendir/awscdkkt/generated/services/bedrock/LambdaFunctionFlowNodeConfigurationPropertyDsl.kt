@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnFlowVersion
 
 @Generated
-public fun buildLambdaFunctionFlowNodeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFlowVersion.LambdaFunctionFlowNodeConfigurationProperty.Builder.() -> Unit = {}):
-    CfnFlowVersion.LambdaFunctionFlowNodeConfigurationProperty =
-    CfnFlowVersion.LambdaFunctionFlowNodeConfigurationProperty.Builder().apply(initializer).build()
+public fun buildLambdaFunctionFlowNodeConfigurationProperty(initializer: @AwsCdkDsl CfnFlowVersion.LambdaFunctionFlowNodeConfigurationProperty.Builder.() -> Unit = {}): CfnFlowVersion.LambdaFunctionFlowNodeConfigurationProperty = CfnFlowVersion.LambdaFunctionFlowNodeConfigurationProperty.Builder().apply(initializer).build()

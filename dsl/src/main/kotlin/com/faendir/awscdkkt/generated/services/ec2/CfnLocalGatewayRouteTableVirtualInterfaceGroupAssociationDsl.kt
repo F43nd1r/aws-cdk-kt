@@ -13,13 +13,7 @@ public fun Construct.cfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation(
   id: String,
   props: CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociationProps,
   initializer: @AwsCdkDsl CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation.() -> Unit = {},
-): CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation =
-    CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation(this, id, props).apply(initializer)
+): CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation = CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation(id: String,
-    initializer: @AwsCdkDsl
-    CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation.Builder.() -> Unit = {}):
-    CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation =
-    CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation(id: String, initializer: @AwsCdkDsl CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation.Builder.() -> Unit = {}): CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation = CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociation.Builder.create(this, id).apply(initializer).build()

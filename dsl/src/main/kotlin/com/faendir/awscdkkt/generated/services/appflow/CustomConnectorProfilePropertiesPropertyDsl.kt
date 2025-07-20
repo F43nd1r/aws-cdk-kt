@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnConnectorProfile
 
 @Generated
-public fun buildCustomConnectorProfilePropertiesProperty(initializer: @AwsCdkDsl
-    CfnConnectorProfile.CustomConnectorProfilePropertiesProperty.Builder.() -> Unit = {}):
-    CfnConnectorProfile.CustomConnectorProfilePropertiesProperty =
-    CfnConnectorProfile.CustomConnectorProfilePropertiesProperty.Builder().apply(initializer).build()
+public fun buildCustomConnectorProfilePropertiesProperty(initializer: @AwsCdkDsl CfnConnectorProfile.CustomConnectorProfilePropertiesProperty.Builder.() -> Unit = {}): CfnConnectorProfile.CustomConnectorProfilePropertiesProperty = CfnConnectorProfile.CustomConnectorProfilePropertiesProperty.Builder().apply(initializer).build()

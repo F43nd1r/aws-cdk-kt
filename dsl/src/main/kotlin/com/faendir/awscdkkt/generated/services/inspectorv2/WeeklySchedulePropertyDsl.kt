@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.inspectorv2.CfnCisScanConfiguration
 
 @Generated
-public fun buildWeeklyScheduleProperty(initializer: @AwsCdkDsl
-    CfnCisScanConfiguration.WeeklyScheduleProperty.Builder.() -> Unit = {}):
-    CfnCisScanConfiguration.WeeklyScheduleProperty =
-    CfnCisScanConfiguration.WeeklyScheduleProperty.Builder().apply(initializer).build()
+public fun buildWeeklyScheduleProperty(initializer: @AwsCdkDsl CfnCisScanConfiguration.WeeklyScheduleProperty.Builder.() -> Unit = {}): CfnCisScanConfiguration.WeeklyScheduleProperty = CfnCisScanConfiguration.WeeklyScheduleProperty.Builder().apply(initializer).build()

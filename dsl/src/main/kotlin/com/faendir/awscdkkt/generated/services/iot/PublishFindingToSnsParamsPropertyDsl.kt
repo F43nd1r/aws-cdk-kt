@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnMitigationAction
 
 @Generated
-public fun buildPublishFindingToSnsParamsProperty(initializer: @AwsCdkDsl
-    CfnMitigationAction.PublishFindingToSnsParamsProperty.Builder.() -> Unit = {}):
-    CfnMitigationAction.PublishFindingToSnsParamsProperty =
-    CfnMitigationAction.PublishFindingToSnsParamsProperty.Builder().apply(initializer).build()
+public fun buildPublishFindingToSnsParamsProperty(initializer: @AwsCdkDsl CfnMitigationAction.PublishFindingToSnsParamsProperty.Builder.() -> Unit = {}): CfnMitigationAction.PublishFindingToSnsParamsProperty = CfnMitigationAction.PublishFindingToSnsParamsProperty.Builder().apply(initializer).build()

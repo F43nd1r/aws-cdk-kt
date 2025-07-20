@@ -16,6 +16,4 @@ public fun Construct.cfnResourcePolicy(
 ): CfnResourcePolicy = CfnResourcePolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnResourcePolicy(id: String, initializer: @AwsCdkDsl
-    CfnResourcePolicy.Builder.() -> Unit = {}): CfnResourcePolicy =
-    CfnResourcePolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnResourcePolicy(id: String, initializer: @AwsCdkDsl CfnResourcePolicy.Builder.() -> Unit = {}): CfnResourcePolicy = CfnResourcePolicy.Builder.create(this, id).apply(initializer).build()

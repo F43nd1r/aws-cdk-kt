@@ -7,6 +7,4 @@ import software.amazon.awscdk.services.scheduler.targets.StepFunctionsStartExecu
 import software.amazon.awscdk.services.stepfunctions.IStateMachine
 
 @Generated
-public fun buildStepFunctionsStartExecution(stateMachine: IStateMachine, initializer: @AwsCdkDsl
-    StepFunctionsStartExecution.Builder.() -> Unit = {}): StepFunctionsStartExecution =
-    StepFunctionsStartExecution.Builder.create(stateMachine).apply(initializer).build()
+public fun buildStepFunctionsStartExecution(stateMachine: IStateMachine, initializer: @AwsCdkDsl StepFunctionsStartExecution.Builder.() -> Unit = {}): StepFunctionsStartExecution = StepFunctionsStartExecution.Builder.create(stateMachine).apply(initializer).build()

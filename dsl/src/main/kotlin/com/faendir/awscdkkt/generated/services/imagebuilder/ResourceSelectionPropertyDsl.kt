@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.imagebuilder.CfnLifecyclePolicy
 
 @Generated
-public fun buildResourceSelectionProperty(initializer: @AwsCdkDsl
-    CfnLifecyclePolicy.ResourceSelectionProperty.Builder.() -> Unit = {}):
-    CfnLifecyclePolicy.ResourceSelectionProperty =
-    CfnLifecyclePolicy.ResourceSelectionProperty.Builder().apply(initializer).build()
+public fun buildResourceSelectionProperty(initializer: @AwsCdkDsl CfnLifecyclePolicy.ResourceSelectionProperty.Builder.() -> Unit = {}): CfnLifecyclePolicy.ResourceSelectionProperty = CfnLifecyclePolicy.ResourceSelectionProperty.Builder().apply(initializer).build()

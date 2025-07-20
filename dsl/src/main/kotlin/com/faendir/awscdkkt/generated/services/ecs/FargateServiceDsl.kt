@@ -16,6 +16,4 @@ public fun Construct.fargateService(
 ): FargateService = FargateService(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildFargateService(id: String, initializer: @AwsCdkDsl
-    FargateService.Builder.() -> Unit = {}): FargateService = FargateService.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildFargateService(id: String, initializer: @AwsCdkDsl FargateService.Builder.() -> Unit = {}): FargateService = FargateService.Builder.create(this, id).apply(initializer).build()

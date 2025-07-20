@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildLineChartMarkerStyleSettingsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.LineChartMarkerStyleSettingsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.LineChartMarkerStyleSettingsProperty =
-    CfnTemplate.LineChartMarkerStyleSettingsProperty.Builder().apply(initializer).build()
+public fun buildLineChartMarkerStyleSettingsProperty(initializer: @AwsCdkDsl CfnTemplate.LineChartMarkerStyleSettingsProperty.Builder.() -> Unit = {}): CfnTemplate.LineChartMarkerStyleSettingsProperty = CfnTemplate.LineChartMarkerStyleSettingsProperty.Builder().apply(initializer).build()

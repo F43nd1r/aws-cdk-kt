@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.workspacesweb.CfnPortalProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnPortal(id: String, initializer: @AwsCdkDsl CfnPortal.() -> Unit = {}):
-    CfnPortal = CfnPortal(this, id).apply(initializer)
+public fun Construct.cfnPortal(id: String, initializer: @AwsCdkDsl CfnPortal.() -> Unit = {}): CfnPortal = CfnPortal(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnPortal(
@@ -20,5 +19,4 @@ public fun Construct.cfnPortal(
 ): CfnPortal = CfnPortal(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPortal(id: String, initializer: @AwsCdkDsl CfnPortal.Builder.() -> Unit
-    = {}): CfnPortal = CfnPortal.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPortal(id: String, initializer: @AwsCdkDsl CfnPortal.Builder.() -> Unit = {}): CfnPortal = CfnPortal.Builder.create(this, id).apply(initializer).build()

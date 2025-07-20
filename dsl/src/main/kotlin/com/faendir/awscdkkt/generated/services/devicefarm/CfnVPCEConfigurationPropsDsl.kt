@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.devicefarm.CfnVPCEConfigurationProps
 
 @Generated
-public fun buildCfnVPCEConfigurationProps(initializer: @AwsCdkDsl
-    CfnVPCEConfigurationProps.Builder.() -> Unit = {}): CfnVPCEConfigurationProps =
-    CfnVPCEConfigurationProps.Builder().apply(initializer).build()
+public fun buildCfnVPCEConfigurationProps(initializer: @AwsCdkDsl CfnVPCEConfigurationProps.Builder.() -> Unit = {}): CfnVPCEConfigurationProps = CfnVPCEConfigurationProps.Builder().apply(initializer).build()

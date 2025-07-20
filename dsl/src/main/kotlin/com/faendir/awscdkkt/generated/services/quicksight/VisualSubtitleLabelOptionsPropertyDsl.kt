@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildVisualSubtitleLabelOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.VisualSubtitleLabelOptionsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.VisualSubtitleLabelOptionsProperty =
-    CfnTemplate.VisualSubtitleLabelOptionsProperty.Builder().apply(initializer).build()
+public fun buildVisualSubtitleLabelOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.VisualSubtitleLabelOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.VisualSubtitleLabelOptionsProperty = CfnTemplate.VisualSubtitleLabelOptionsProperty.Builder().apply(initializer).build()

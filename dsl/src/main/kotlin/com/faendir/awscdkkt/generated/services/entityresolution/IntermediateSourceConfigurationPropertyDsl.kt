@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.entityresolution.CfnMatchingWorkflow
 
 @Generated
-public fun buildIntermediateSourceConfigurationProperty(initializer: @AwsCdkDsl
-    CfnMatchingWorkflow.IntermediateSourceConfigurationProperty.Builder.() -> Unit = {}):
-    CfnMatchingWorkflow.IntermediateSourceConfigurationProperty =
-    CfnMatchingWorkflow.IntermediateSourceConfigurationProperty.Builder().apply(initializer).build()
+public fun buildIntermediateSourceConfigurationProperty(initializer: @AwsCdkDsl CfnMatchingWorkflow.IntermediateSourceConfigurationProperty.Builder.() -> Unit = {}): CfnMatchingWorkflow.IntermediateSourceConfigurationProperty = CfnMatchingWorkflow.IntermediateSourceConfigurationProperty.Builder().apply(initializer).build()

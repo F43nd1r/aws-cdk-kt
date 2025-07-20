@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connectcampaignsv2.CfnCampaign
 
 @Generated
-public fun buildTelephonyOutboundModeProperty(initializer: @AwsCdkDsl
-    CfnCampaign.TelephonyOutboundModeProperty.Builder.() -> Unit = {}):
-    CfnCampaign.TelephonyOutboundModeProperty =
-    CfnCampaign.TelephonyOutboundModeProperty.Builder().apply(initializer).build()
+public fun buildTelephonyOutboundModeProperty(initializer: @AwsCdkDsl CfnCampaign.TelephonyOutboundModeProperty.Builder.() -> Unit = {}): CfnCampaign.TelephonyOutboundModeProperty = CfnCampaign.TelephonyOutboundModeProperty.Builder().apply(initializer).build()

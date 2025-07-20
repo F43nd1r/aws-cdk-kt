@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.accessanalyzer.CfnAnalyzer
 
 @Generated
-public fun buildInternalAccessAnalysisRuleCriteriaProperty(initializer: @AwsCdkDsl
-    CfnAnalyzer.InternalAccessAnalysisRuleCriteriaProperty.Builder.() -> Unit = {}):
-    CfnAnalyzer.InternalAccessAnalysisRuleCriteriaProperty =
-    CfnAnalyzer.InternalAccessAnalysisRuleCriteriaProperty.Builder().apply(initializer).build()
+public fun buildInternalAccessAnalysisRuleCriteriaProperty(initializer: @AwsCdkDsl CfnAnalyzer.InternalAccessAnalysisRuleCriteriaProperty.Builder.() -> Unit = {}): CfnAnalyzer.InternalAccessAnalysisRuleCriteriaProperty = CfnAnalyzer.InternalAccessAnalysisRuleCriteriaProperty.Builder().apply(initializer).build()

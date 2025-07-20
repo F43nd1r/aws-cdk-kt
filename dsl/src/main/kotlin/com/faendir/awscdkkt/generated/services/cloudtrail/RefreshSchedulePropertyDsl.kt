@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudtrail.CfnDashboard
 
 @Generated
-public fun buildRefreshScheduleProperty(initializer: @AwsCdkDsl
-    CfnDashboard.RefreshScheduleProperty.Builder.() -> Unit = {}):
-    CfnDashboard.RefreshScheduleProperty =
-    CfnDashboard.RefreshScheduleProperty.Builder().apply(initializer).build()
+public fun buildRefreshScheduleProperty(initializer: @AwsCdkDsl CfnDashboard.RefreshScheduleProperty.Builder.() -> Unit = {}): CfnDashboard.RefreshScheduleProperty = CfnDashboard.RefreshScheduleProperty.Builder().apply(initializer).build()

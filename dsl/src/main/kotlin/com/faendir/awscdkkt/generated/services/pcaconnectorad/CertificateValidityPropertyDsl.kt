@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pcaconnectorad.CfnTemplate
 
 @Generated
-public fun buildCertificateValidityProperty(initializer: @AwsCdkDsl
-    CfnTemplate.CertificateValidityProperty.Builder.() -> Unit = {}):
-    CfnTemplate.CertificateValidityProperty =
-    CfnTemplate.CertificateValidityProperty.Builder().apply(initializer).build()
+public fun buildCertificateValidityProperty(initializer: @AwsCdkDsl CfnTemplate.CertificateValidityProperty.Builder.() -> Unit = {}): CfnTemplate.CertificateValidityProperty = CfnTemplate.CertificateValidityProperty.Builder().apply(initializer).build()

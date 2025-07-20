@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
-public fun buildDashboardPublishOptionsProperty(initializer: @AwsCdkDsl
-    CfnDashboard.DashboardPublishOptionsProperty.Builder.() -> Unit = {}):
-    CfnDashboard.DashboardPublishOptionsProperty =
-    CfnDashboard.DashboardPublishOptionsProperty.Builder().apply(initializer).build()
+public fun buildDashboardPublishOptionsProperty(initializer: @AwsCdkDsl CfnDashboard.DashboardPublishOptionsProperty.Builder.() -> Unit = {}): CfnDashboard.DashboardPublishOptionsProperty = CfnDashboard.DashboardPublishOptionsProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotcoredeviceadvisor.CfnSuiteDefinitionProps
 
 @Generated
-public fun buildCfnSuiteDefinitionProps(initializer: @AwsCdkDsl
-    CfnSuiteDefinitionProps.Builder.() -> Unit = {}): CfnSuiteDefinitionProps =
-    CfnSuiteDefinitionProps.Builder().apply(initializer).build()
+public fun buildCfnSuiteDefinitionProps(initializer: @AwsCdkDsl CfnSuiteDefinitionProps.Builder.() -> Unit = {}): CfnSuiteDefinitionProps = CfnSuiteDefinitionProps.Builder().apply(initializer).build()

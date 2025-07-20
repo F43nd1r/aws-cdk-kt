@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.HostPathVolumeOptions
 
 @Generated
-public fun buildHostPathVolumeOptions(initializer: @AwsCdkDsl
-    HostPathVolumeOptions.Builder.() -> Unit = {}): HostPathVolumeOptions =
-    HostPathVolumeOptions.Builder().apply(initializer).build()
+public fun buildHostPathVolumeOptions(initializer: @AwsCdkDsl HostPathVolumeOptions.Builder.() -> Unit = {}): HostPathVolumeOptions = HostPathVolumeOptions.Builder().apply(initializer).build()

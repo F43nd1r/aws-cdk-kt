@@ -16,6 +16,4 @@ public fun Construct.cfnDirectoryRegistration(
 ): CfnDirectoryRegistration = CfnDirectoryRegistration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDirectoryRegistration(id: String, initializer: @AwsCdkDsl
-    CfnDirectoryRegistration.Builder.() -> Unit = {}): CfnDirectoryRegistration =
-    CfnDirectoryRegistration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDirectoryRegistration(id: String, initializer: @AwsCdkDsl CfnDirectoryRegistration.Builder.() -> Unit = {}): CfnDirectoryRegistration = CfnDirectoryRegistration.Builder.create(this, id).apply(initializer).build()

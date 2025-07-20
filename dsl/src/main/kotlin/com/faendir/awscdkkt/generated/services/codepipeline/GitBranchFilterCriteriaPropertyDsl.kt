@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.CfnPipeline
 
 @Generated
-public fun buildGitBranchFilterCriteriaProperty(initializer: @AwsCdkDsl
-    CfnPipeline.GitBranchFilterCriteriaProperty.Builder.() -> Unit = {}):
-    CfnPipeline.GitBranchFilterCriteriaProperty =
-    CfnPipeline.GitBranchFilterCriteriaProperty.Builder().apply(initializer).build()
+public fun buildGitBranchFilterCriteriaProperty(initializer: @AwsCdkDsl CfnPipeline.GitBranchFilterCriteriaProperty.Builder.() -> Unit = {}): CfnPipeline.GitBranchFilterCriteriaProperty = CfnPipeline.GitBranchFilterCriteriaProperty.Builder().apply(initializer).build()

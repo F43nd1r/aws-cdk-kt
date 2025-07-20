@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cleanrooms.CfnAnalysisTemplateProps
 
 @Generated
-public fun buildCfnAnalysisTemplateProps(initializer: @AwsCdkDsl
-    CfnAnalysisTemplateProps.Builder.() -> Unit = {}): CfnAnalysisTemplateProps =
-    CfnAnalysisTemplateProps.Builder().apply(initializer).build()
+public fun buildCfnAnalysisTemplateProps(initializer: @AwsCdkDsl CfnAnalysisTemplateProps.Builder.() -> Unit = {}): CfnAnalysisTemplateProps = CfnAnalysisTemplateProps.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cassandra.CfnType
 
 @Generated
-public fun buildFieldProperty(initializer: @AwsCdkDsl CfnType.FieldProperty.Builder.() -> Unit =
-    {}): CfnType.FieldProperty = CfnType.FieldProperty.Builder().apply(initializer).build()
+public fun buildFieldProperty(initializer: @AwsCdkDsl CfnType.FieldProperty.Builder.() -> Unit = {}): CfnType.FieldProperty = CfnType.FieldProperty.Builder().apply(initializer).build()

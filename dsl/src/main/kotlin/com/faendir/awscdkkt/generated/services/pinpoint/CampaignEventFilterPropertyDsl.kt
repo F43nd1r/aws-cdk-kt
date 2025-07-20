@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnCampaign
 
 @Generated
-public fun buildCampaignEventFilterProperty(initializer: @AwsCdkDsl
-    CfnCampaign.CampaignEventFilterProperty.Builder.() -> Unit = {}):
-    CfnCampaign.CampaignEventFilterProperty =
-    CfnCampaign.CampaignEventFilterProperty.Builder().apply(initializer).build()
+public fun buildCampaignEventFilterProperty(initializer: @AwsCdkDsl CfnCampaign.CampaignEventFilterProperty.Builder.() -> Unit = {}): CfnCampaign.CampaignEventFilterProperty = CfnCampaign.CampaignEventFilterProperty.Builder().apply(initializer).build()

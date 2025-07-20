@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.batch.FairshareSchedulingPolicyProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.fairshareSchedulingPolicy(id: String, initializer: @AwsCdkDsl
-    FairshareSchedulingPolicy.() -> Unit = {}): FairshareSchedulingPolicy =
-    FairshareSchedulingPolicy(this, id).apply(initializer)
+public fun Construct.fairshareSchedulingPolicy(id: String, initializer: @AwsCdkDsl FairshareSchedulingPolicy.() -> Unit = {}): FairshareSchedulingPolicy = FairshareSchedulingPolicy(this, id).apply(initializer)
 
 @Generated
 public fun Construct.fairshareSchedulingPolicy(
@@ -21,6 +19,4 @@ public fun Construct.fairshareSchedulingPolicy(
 ): FairshareSchedulingPolicy = FairshareSchedulingPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildFairshareSchedulingPolicy(id: String, initializer: @AwsCdkDsl
-    FairshareSchedulingPolicy.Builder.() -> Unit = {}): FairshareSchedulingPolicy =
-    FairshareSchedulingPolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildFairshareSchedulingPolicy(id: String, initializer: @AwsCdkDsl FairshareSchedulingPolicy.Builder.() -> Unit = {}): FairshareSchedulingPolicy = FairshareSchedulingPolicy.Builder.create(this, id).apply(initializer).build()

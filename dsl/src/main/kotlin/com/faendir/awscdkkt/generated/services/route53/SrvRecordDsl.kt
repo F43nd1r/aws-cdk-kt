@@ -16,5 +16,4 @@ public fun Construct.srvRecord(
 ): SrvRecord = SrvRecord(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildSrvRecord(id: String, initializer: @AwsCdkDsl SrvRecord.Builder.() -> Unit
-    = {}): SrvRecord = SrvRecord.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildSrvRecord(id: String, initializer: @AwsCdkDsl SrvRecord.Builder.() -> Unit = {}): SrvRecord = SrvRecord.Builder.create(this, id).apply(initializer).build()

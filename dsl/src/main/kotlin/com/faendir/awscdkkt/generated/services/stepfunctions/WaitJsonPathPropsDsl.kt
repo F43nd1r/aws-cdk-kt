@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.WaitJsonPathProps
 
 @Generated
-public fun buildWaitJsonPathProps(initializer: @AwsCdkDsl WaitJsonPathProps.Builder.() -> Unit =
-    {}): WaitJsonPathProps = WaitJsonPathProps.Builder().apply(initializer).build()
+public fun buildWaitJsonPathProps(initializer: @AwsCdkDsl WaitJsonPathProps.Builder.() -> Unit = {}): WaitJsonPathProps = WaitJsonPathProps.Builder().apply(initializer).build()

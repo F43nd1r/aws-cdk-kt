@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.amplifyuibuilder.CfnComponent
 
 @Generated
-public fun buildComponentBindingPropertiesValuePropertiesProperty(initializer: @AwsCdkDsl
-    CfnComponent.ComponentBindingPropertiesValuePropertiesProperty.Builder.() -> Unit = {}):
-    CfnComponent.ComponentBindingPropertiesValuePropertiesProperty =
-    CfnComponent.ComponentBindingPropertiesValuePropertiesProperty.Builder().apply(initializer).build()
+public fun buildComponentBindingPropertiesValuePropertiesProperty(initializer: @AwsCdkDsl CfnComponent.ComponentBindingPropertiesValuePropertiesProperty.Builder.() -> Unit = {}): CfnComponent.ComponentBindingPropertiesValuePropertiesProperty = CfnComponent.ComponentBindingPropertiesValuePropertiesProperty.Builder().apply(initializer).build()

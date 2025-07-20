@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildRtmpOutputSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.RtmpOutputSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.RtmpOutputSettingsProperty =
-    CfnChannel.RtmpOutputSettingsProperty.Builder().apply(initializer).build()
+public fun buildRtmpOutputSettingsProperty(initializer: @AwsCdkDsl CfnChannel.RtmpOutputSettingsProperty.Builder.() -> Unit = {}): CfnChannel.RtmpOutputSettingsProperty = CfnChannel.RtmpOutputSettingsProperty.Builder().apply(initializer).build()

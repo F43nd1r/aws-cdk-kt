@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.certificatemanager.CertificationValidationProps
 
 @Generated
-public fun buildCertificationValidationProps(initializer: @AwsCdkDsl
-    CertificationValidationProps.Builder.() -> Unit = {}): CertificationValidationProps =
-    CertificationValidationProps.Builder().apply(initializer).build()
+public fun buildCertificationValidationProps(initializer: @AwsCdkDsl CertificationValidationProps.Builder.() -> Unit = {}): CertificationValidationProps = CertificationValidationProps.Builder().apply(initializer).build()

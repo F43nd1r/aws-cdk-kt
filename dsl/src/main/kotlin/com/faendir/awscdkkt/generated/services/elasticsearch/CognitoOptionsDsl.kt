@@ -9,8 +9,6 @@ import kotlin.Suppress
 import kotlin.Unit
 import software.amazon.awscdk.services.elasticsearch.CognitoOptions
 
-@Deprecated(message =
-    "software.amazon.awscdk.services.elasticsearch.CognitoOptions is deprecated in CDK.")
+@Deprecated(message = "software.amazon.awscdk.services.elasticsearch.CognitoOptions is deprecated in CDK.")
 @Generated
-public fun buildCognitoOptions(initializer: @AwsCdkDsl CognitoOptions.Builder.() -> Unit = {}):
-    CognitoOptions = CognitoOptions.Builder().apply(initializer).build()
+public fun buildCognitoOptions(initializer: @AwsCdkDsl CognitoOptions.Builder.() -> Unit = {}): CognitoOptions = CognitoOptions.Builder().apply(initializer).build()

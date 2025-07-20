@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.ecs.ExternalTaskDefinitionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.externalTaskDefinition(id: String, initializer: @AwsCdkDsl
-    ExternalTaskDefinition.() -> Unit = {}): ExternalTaskDefinition = ExternalTaskDefinition(this,
-    id).apply(initializer)
+public fun Construct.externalTaskDefinition(id: String, initializer: @AwsCdkDsl ExternalTaskDefinition.() -> Unit = {}): ExternalTaskDefinition = ExternalTaskDefinition(this, id).apply(initializer)
 
 @Generated
 public fun Construct.externalTaskDefinition(
@@ -21,6 +19,4 @@ public fun Construct.externalTaskDefinition(
 ): ExternalTaskDefinition = ExternalTaskDefinition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildExternalTaskDefinition(id: String, initializer: @AwsCdkDsl
-    ExternalTaskDefinition.Builder.() -> Unit = {}): ExternalTaskDefinition =
-    ExternalTaskDefinition.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildExternalTaskDefinition(id: String, initializer: @AwsCdkDsl ExternalTaskDefinition.Builder.() -> Unit = {}): ExternalTaskDefinition = ExternalTaskDefinition.Builder.create(this, id).apply(initializer).build()

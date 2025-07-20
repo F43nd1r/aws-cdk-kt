@@ -16,6 +16,4 @@ public fun Construct.receiptRule(
 ): ReceiptRule = ReceiptRule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildReceiptRule(id: String, initializer: @AwsCdkDsl
-    ReceiptRule.Builder.() -> Unit = {}): ReceiptRule = ReceiptRule.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildReceiptRule(id: String, initializer: @AwsCdkDsl ReceiptRule.Builder.() -> Unit = {}): ReceiptRule = ReceiptRule.Builder.create(this, id).apply(initializer).build()

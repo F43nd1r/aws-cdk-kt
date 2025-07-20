@@ -16,6 +16,4 @@ public fun Construct.cfnVehicle(
 ): CfnVehicle = CfnVehicle(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVehicle(id: String, initializer: @AwsCdkDsl
-    CfnVehicle.Builder.() -> Unit = {}): CfnVehicle = CfnVehicle.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnVehicle(id: String, initializer: @AwsCdkDsl CfnVehicle.Builder.() -> Unit = {}): CfnVehicle = CfnVehicle.Builder.create(this, id).apply(initializer).build()

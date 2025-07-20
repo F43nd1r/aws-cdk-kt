@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
-public fun buildElasticGpuSpecificationProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.ElasticGpuSpecificationProperty.Builder.() -> Unit = {}):
-    CfnLaunchTemplate.ElasticGpuSpecificationProperty =
-    CfnLaunchTemplate.ElasticGpuSpecificationProperty.Builder().apply(initializer).build()
+public fun buildElasticGpuSpecificationProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.ElasticGpuSpecificationProperty.Builder.() -> Unit = {}): CfnLaunchTemplate.ElasticGpuSpecificationProperty = CfnLaunchTemplate.ElasticGpuSpecificationProperty.Builder().apply(initializer).build()

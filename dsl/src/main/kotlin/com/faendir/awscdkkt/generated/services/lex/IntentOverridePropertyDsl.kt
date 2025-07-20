@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildIntentOverrideProperty(initializer: @AwsCdkDsl
-    CfnBot.IntentOverrideProperty.Builder.() -> Unit = {}): CfnBot.IntentOverrideProperty =
-    CfnBot.IntentOverrideProperty.Builder().apply(initializer).build()
+public fun buildIntentOverrideProperty(initializer: @AwsCdkDsl CfnBot.IntentOverrideProperty.Builder.() -> Unit = {}): CfnBot.IntentOverrideProperty = CfnBot.IntentOverrideProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.aws_apigatewayv2_integrations.WebSocketLambdaIntegrationProps
 
 @Generated
-public fun buildWebSocketLambdaIntegrationProps(initializer: @AwsCdkDsl
-    WebSocketLambdaIntegrationProps.Builder.() -> Unit = {}): WebSocketLambdaIntegrationProps =
-    WebSocketLambdaIntegrationProps.Builder().apply(initializer).build()
+public fun buildWebSocketLambdaIntegrationProps(initializer: @AwsCdkDsl WebSocketLambdaIntegrationProps.Builder.() -> Unit = {}): WebSocketLambdaIntegrationProps = WebSocketLambdaIntegrationProps.Builder().apply(initializer).build()

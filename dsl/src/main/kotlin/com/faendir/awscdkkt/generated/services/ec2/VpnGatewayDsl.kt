@@ -16,6 +16,4 @@ public fun Construct.vpnGateway(
 ): VpnGateway = VpnGateway(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildVpnGateway(id: String, initializer: @AwsCdkDsl
-    VpnGateway.Builder.() -> Unit = {}): VpnGateway = VpnGateway.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildVpnGateway(id: String, initializer: @AwsCdkDsl VpnGateway.Builder.() -> Unit = {}): VpnGateway = VpnGateway.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.backup.CfnBackupPlan
 
 @Generated
-public fun buildAdvancedBackupSettingResourceTypeProperty(initializer: @AwsCdkDsl
-    CfnBackupPlan.AdvancedBackupSettingResourceTypeProperty.Builder.() -> Unit = {}):
-    CfnBackupPlan.AdvancedBackupSettingResourceTypeProperty =
-    CfnBackupPlan.AdvancedBackupSettingResourceTypeProperty.Builder().apply(initializer).build()
+public fun buildAdvancedBackupSettingResourceTypeProperty(initializer: @AwsCdkDsl CfnBackupPlan.AdvancedBackupSettingResourceTypeProperty.Builder.() -> Unit = {}): CfnBackupPlan.AdvancedBackupSettingResourceTypeProperty = CfnBackupPlan.AdvancedBackupSettingResourceTypeProperty.Builder().apply(initializer).build()

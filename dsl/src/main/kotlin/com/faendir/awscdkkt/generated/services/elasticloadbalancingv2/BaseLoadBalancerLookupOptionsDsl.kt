@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.BaseLoadBalancerLookupOptions
 
 @Generated
-public fun buildBaseLoadBalancerLookupOptions(initializer: @AwsCdkDsl
-    BaseLoadBalancerLookupOptions.Builder.() -> Unit = {}): BaseLoadBalancerLookupOptions =
-    BaseLoadBalancerLookupOptions.Builder().apply(initializer).build()
+public fun buildBaseLoadBalancerLookupOptions(initializer: @AwsCdkDsl BaseLoadBalancerLookupOptions.Builder.() -> Unit = {}): BaseLoadBalancerLookupOptions = BaseLoadBalancerLookupOptions.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.targetTrackingScalingPolicy(
 ): TargetTrackingScalingPolicy = TargetTrackingScalingPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildTargetTrackingScalingPolicy(id: String, initializer: @AwsCdkDsl
-    TargetTrackingScalingPolicy.Builder.() -> Unit = {}): TargetTrackingScalingPolicy =
-    TargetTrackingScalingPolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildTargetTrackingScalingPolicy(id: String, initializer: @AwsCdkDsl TargetTrackingScalingPolicy.Builder.() -> Unit = {}): TargetTrackingScalingPolicy = TargetTrackingScalingPolicy.Builder.create(this, id).apply(initializer).build()

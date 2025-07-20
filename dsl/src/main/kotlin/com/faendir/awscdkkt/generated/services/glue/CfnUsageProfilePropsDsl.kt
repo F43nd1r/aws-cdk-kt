@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnUsageProfileProps
 
 @Generated
-public fun buildCfnUsageProfileProps(initializer: @AwsCdkDsl CfnUsageProfileProps.Builder.() -> Unit
-    = {}): CfnUsageProfileProps = CfnUsageProfileProps.Builder().apply(initializer).build()
+public fun buildCfnUsageProfileProps(initializer: @AwsCdkDsl CfnUsageProfileProps.Builder.() -> Unit = {}): CfnUsageProfileProps = CfnUsageProfileProps.Builder().apply(initializer).build()

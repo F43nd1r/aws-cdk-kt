@@ -16,6 +16,4 @@ public fun Construct.cfnSecurityConfiguration(
 ): CfnSecurityConfiguration = CfnSecurityConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSecurityConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnSecurityConfiguration.Builder.() -> Unit = {}): CfnSecurityConfiguration =
-    CfnSecurityConfiguration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSecurityConfiguration(id: String, initializer: @AwsCdkDsl CfnSecurityConfiguration.Builder.() -> Unit = {}): CfnSecurityConfiguration = CfnSecurityConfiguration.Builder.create(this, id).apply(initializer).build()

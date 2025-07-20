@@ -16,6 +16,4 @@ public fun Construct.vpnConnection(
 ): VpnConnection = VpnConnection(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildVpnConnection(id: String, initializer: @AwsCdkDsl
-    VpnConnection.Builder.() -> Unit = {}): VpnConnection = VpnConnection.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildVpnConnection(id: String, initializer: @AwsCdkDsl VpnConnection.Builder.() -> Unit = {}): VpnConnection = VpnConnection.Builder.create(this, id).apply(initializer).build()

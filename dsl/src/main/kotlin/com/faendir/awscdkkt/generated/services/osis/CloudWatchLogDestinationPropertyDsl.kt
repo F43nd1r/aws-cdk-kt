@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.osis.CfnPipeline
 
 @Generated
-public fun buildCloudWatchLogDestinationProperty(initializer: @AwsCdkDsl
-    CfnPipeline.CloudWatchLogDestinationProperty.Builder.() -> Unit = {}):
-    CfnPipeline.CloudWatchLogDestinationProperty =
-    CfnPipeline.CloudWatchLogDestinationProperty.Builder().apply(initializer).build()
+public fun buildCloudWatchLogDestinationProperty(initializer: @AwsCdkDsl CfnPipeline.CloudWatchLogDestinationProperty.Builder.() -> Unit = {}): CfnPipeline.CloudWatchLogDestinationProperty = CfnPipeline.CloudWatchLogDestinationProperty.Builder().apply(initializer).build()

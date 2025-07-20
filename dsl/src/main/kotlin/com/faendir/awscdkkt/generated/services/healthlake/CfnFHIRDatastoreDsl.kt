@@ -16,6 +16,4 @@ public fun Construct.cfnFHIRDatastore(
 ): CfnFHIRDatastore = CfnFHIRDatastore(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnFHIRDatastore(id: String, initializer: @AwsCdkDsl
-    CfnFHIRDatastore.Builder.() -> Unit = {}): CfnFHIRDatastore =
-    CfnFHIRDatastore.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnFHIRDatastore(id: String, initializer: @AwsCdkDsl CfnFHIRDatastore.Builder.() -> Unit = {}): CfnFHIRDatastore = CfnFHIRDatastore.Builder.create(this, id).apply(initializer).build()

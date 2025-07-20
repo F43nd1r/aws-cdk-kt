@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.DockerRunOptions
 
 @Generated
-public fun buildDockerRunOptions(initializer: @AwsCdkDsl DockerRunOptions.Builder.() -> Unit = {}):
-    DockerRunOptions = DockerRunOptions.Builder().apply(initializer).build()
+public fun buildDockerRunOptions(initializer: @AwsCdkDsl DockerRunOptions.Builder.() -> Unit = {}): DockerRunOptions = DockerRunOptions.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bcmdataexports.CfnExport
 
 @Generated
-public fun buildRefreshCadenceProperty(initializer: @AwsCdkDsl
-    CfnExport.RefreshCadenceProperty.Builder.() -> Unit = {}): CfnExport.RefreshCadenceProperty =
-    CfnExport.RefreshCadenceProperty.Builder().apply(initializer).build()
+public fun buildRefreshCadenceProperty(initializer: @AwsCdkDsl CfnExport.RefreshCadenceProperty.Builder.() -> Unit = {}): CfnExport.RefreshCadenceProperty = CfnExport.RefreshCadenceProperty.Builder().apply(initializer).build()

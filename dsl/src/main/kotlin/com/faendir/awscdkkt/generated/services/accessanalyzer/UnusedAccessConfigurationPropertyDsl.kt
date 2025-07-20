@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.accessanalyzer.CfnAnalyzer
 
 @Generated
-public fun buildUnusedAccessConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAnalyzer.UnusedAccessConfigurationProperty.Builder.() -> Unit = {}):
-    CfnAnalyzer.UnusedAccessConfigurationProperty =
-    CfnAnalyzer.UnusedAccessConfigurationProperty.Builder().apply(initializer).build()
+public fun buildUnusedAccessConfigurationProperty(initializer: @AwsCdkDsl CfnAnalyzer.UnusedAccessConfigurationProperty.Builder.() -> Unit = {}): CfnAnalyzer.UnusedAccessConfigurationProperty = CfnAnalyzer.UnusedAccessConfigurationProperty.Builder().apply(initializer).build()

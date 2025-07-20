@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.msk.CfnReplicatorProps
 
 @Generated
-public fun buildCfnReplicatorProps(initializer: @AwsCdkDsl CfnReplicatorProps.Builder.() -> Unit =
-    {}): CfnReplicatorProps = CfnReplicatorProps.Builder().apply(initializer).build()
+public fun buildCfnReplicatorProps(initializer: @AwsCdkDsl CfnReplicatorProps.Builder.() -> Unit = {}): CfnReplicatorProps = CfnReplicatorProps.Builder().apply(initializer).build()

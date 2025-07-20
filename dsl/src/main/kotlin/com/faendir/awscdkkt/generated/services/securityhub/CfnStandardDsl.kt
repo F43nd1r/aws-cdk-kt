@@ -16,6 +16,4 @@ public fun Construct.cfnStandard(
 ): CfnStandard = CfnStandard(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnStandard(id: String, initializer: @AwsCdkDsl
-    CfnStandard.Builder.() -> Unit = {}): CfnStandard = CfnStandard.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnStandard(id: String, initializer: @AwsCdkDsl CfnStandard.Builder.() -> Unit = {}): CfnStandard = CfnStandard.Builder.create(this, id).apply(initializer).build()

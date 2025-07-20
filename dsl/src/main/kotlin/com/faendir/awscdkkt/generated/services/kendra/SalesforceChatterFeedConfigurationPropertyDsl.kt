@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kendra.CfnDataSource
 
 @Generated
-public fun buildSalesforceChatterFeedConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.SalesforceChatterFeedConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDataSource.SalesforceChatterFeedConfigurationProperty =
-    CfnDataSource.SalesforceChatterFeedConfigurationProperty.Builder().apply(initializer).build()
+public fun buildSalesforceChatterFeedConfigurationProperty(initializer: @AwsCdkDsl CfnDataSource.SalesforceChatterFeedConfigurationProperty.Builder.() -> Unit = {}): CfnDataSource.SalesforceChatterFeedConfigurationProperty = CfnDataSource.SalesforceChatterFeedConfigurationProperty.Builder().apply(initializer).build()

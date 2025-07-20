@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediatailor.CfnLiveSourceProps
 
 @Generated
-public fun buildCfnLiveSourceProps(initializer: @AwsCdkDsl CfnLiveSourceProps.Builder.() -> Unit =
-    {}): CfnLiveSourceProps = CfnLiveSourceProps.Builder().apply(initializer).build()
+public fun buildCfnLiveSourceProps(initializer: @AwsCdkDsl CfnLiveSourceProps.Builder.() -> Unit = {}): CfnLiveSourceProps = CfnLiveSourceProps.Builder().apply(initializer).build()

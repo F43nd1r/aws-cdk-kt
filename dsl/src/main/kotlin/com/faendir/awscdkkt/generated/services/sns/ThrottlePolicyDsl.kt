@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sns.ThrottlePolicy
 
 @Generated
-public fun buildThrottlePolicy(initializer: @AwsCdkDsl ThrottlePolicy.Builder.() -> Unit = {}):
-    ThrottlePolicy = ThrottlePolicy.Builder().apply(initializer).build()
+public fun buildThrottlePolicy(initializer: @AwsCdkDsl ThrottlePolicy.Builder.() -> Unit = {}): ThrottlePolicy = ThrottlePolicy.Builder().apply(initializer).build()

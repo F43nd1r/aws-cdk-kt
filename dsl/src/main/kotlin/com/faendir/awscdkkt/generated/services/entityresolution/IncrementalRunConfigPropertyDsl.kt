@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.entityresolution.CfnMatchingWorkflow
 
 @Generated
-public fun buildIncrementalRunConfigProperty(initializer: @AwsCdkDsl
-    CfnMatchingWorkflow.IncrementalRunConfigProperty.Builder.() -> Unit = {}):
-    CfnMatchingWorkflow.IncrementalRunConfigProperty =
-    CfnMatchingWorkflow.IncrementalRunConfigProperty.Builder().apply(initializer).build()
+public fun buildIncrementalRunConfigProperty(initializer: @AwsCdkDsl CfnMatchingWorkflow.IncrementalRunConfigProperty.Builder.() -> Unit = {}): CfnMatchingWorkflow.IncrementalRunConfigProperty = CfnMatchingWorkflow.IncrementalRunConfigProperty.Builder().apply(initializer).build()

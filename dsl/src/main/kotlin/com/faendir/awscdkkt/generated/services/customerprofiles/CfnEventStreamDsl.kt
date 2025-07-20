@@ -16,6 +16,4 @@ public fun Construct.cfnEventStream(
 ): CfnEventStream = CfnEventStream(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEventStream(id: String, initializer: @AwsCdkDsl
-    CfnEventStream.Builder.() -> Unit = {}): CfnEventStream = CfnEventStream.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnEventStream(id: String, initializer: @AwsCdkDsl CfnEventStream.Builder.() -> Unit = {}): CfnEventStream = CfnEventStream.Builder.create(this, id).apply(initializer).build()

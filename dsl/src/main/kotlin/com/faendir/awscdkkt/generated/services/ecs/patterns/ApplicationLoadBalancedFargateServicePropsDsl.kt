@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.patterns.ApplicationLoadBalancedFargateServiceProps
 
 @Generated
-public fun buildApplicationLoadBalancedFargateServiceProps(initializer: @AwsCdkDsl
-    ApplicationLoadBalancedFargateServiceProps.Builder.() -> Unit = {}):
-    ApplicationLoadBalancedFargateServiceProps =
-    ApplicationLoadBalancedFargateServiceProps.Builder().apply(initializer).build()
+public fun buildApplicationLoadBalancedFargateServiceProps(initializer: @AwsCdkDsl ApplicationLoadBalancedFargateServiceProps.Builder.() -> Unit = {}): ApplicationLoadBalancedFargateServiceProps = ApplicationLoadBalancedFargateServiceProps.Builder().apply(initializer).build()

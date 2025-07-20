@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.neptune.CfnDBParameterGroupProps
 
 @Generated
-public fun buildCfnDBParameterGroupProps(initializer: @AwsCdkDsl
-    CfnDBParameterGroupProps.Builder.() -> Unit = {}): CfnDBParameterGroupProps =
-    CfnDBParameterGroupProps.Builder().apply(initializer).build()
+public fun buildCfnDBParameterGroupProps(initializer: @AwsCdkDsl CfnDBParameterGroupProps.Builder.() -> Unit = {}): CfnDBParameterGroupProps = CfnDBParameterGroupProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
-public fun buildServiceNowSourcePropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.ServiceNowSourcePropertiesProperty.Builder.() -> Unit = {}):
-    CfnFlow.ServiceNowSourcePropertiesProperty =
-    CfnFlow.ServiceNowSourcePropertiesProperty.Builder().apply(initializer).build()
+public fun buildServiceNowSourcePropertiesProperty(initializer: @AwsCdkDsl CfnFlow.ServiceNowSourcePropertiesProperty.Builder.() -> Unit = {}): CfnFlow.ServiceNowSourcePropertiesProperty = CfnFlow.ServiceNowSourcePropertiesProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnOriginRequestPolicy
 
 @Generated
-public fun buildCookiesConfigProperty(initializer: @AwsCdkDsl
-    CfnOriginRequestPolicy.CookiesConfigProperty.Builder.() -> Unit = {}):
-    CfnOriginRequestPolicy.CookiesConfigProperty =
-    CfnOriginRequestPolicy.CookiesConfigProperty.Builder().apply(initializer).build()
+public fun buildCookiesConfigProperty(initializer: @AwsCdkDsl CfnOriginRequestPolicy.CookiesConfigProperty.Builder.() -> Unit = {}): CfnOriginRequestPolicy.CookiesConfigProperty = CfnOriginRequestPolicy.CookiesConfigProperty.Builder().apply(initializer).build()

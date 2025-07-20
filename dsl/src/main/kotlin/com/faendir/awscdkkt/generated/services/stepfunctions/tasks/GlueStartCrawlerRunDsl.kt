@@ -16,6 +16,4 @@ public fun Construct.glueStartCrawlerRun(
 ): GlueStartCrawlerRun = GlueStartCrawlerRun(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildGlueStartCrawlerRun(id: String, initializer: @AwsCdkDsl
-    GlueStartCrawlerRun.Builder.() -> Unit = {}): GlueStartCrawlerRun =
-    GlueStartCrawlerRun.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildGlueStartCrawlerRun(id: String, initializer: @AwsCdkDsl GlueStartCrawlerRun.Builder.() -> Unit = {}): GlueStartCrawlerRun = GlueStartCrawlerRun.Builder.create(this, id).apply(initializer).build()

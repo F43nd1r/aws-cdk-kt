@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotsitewise.CfnAssetModel
 
 @Generated
-public fun buildAssetModelHierarchyProperty(initializer: @AwsCdkDsl
-    CfnAssetModel.AssetModelHierarchyProperty.Builder.() -> Unit = {}):
-    CfnAssetModel.AssetModelHierarchyProperty =
-    CfnAssetModel.AssetModelHierarchyProperty.Builder().apply(initializer).build()
+public fun buildAssetModelHierarchyProperty(initializer: @AwsCdkDsl CfnAssetModel.AssetModelHierarchyProperty.Builder.() -> Unit = {}): CfnAssetModel.AssetModelHierarchyProperty = CfnAssetModel.AssetModelHierarchyProperty.Builder().apply(initializer).build()

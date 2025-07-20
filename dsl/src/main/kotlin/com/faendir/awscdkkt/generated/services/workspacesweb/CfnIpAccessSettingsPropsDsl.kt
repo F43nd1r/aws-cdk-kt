@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.workspacesweb.CfnIpAccessSettingsProps
 
 @Generated
-public fun buildCfnIpAccessSettingsProps(initializer: @AwsCdkDsl
-    CfnIpAccessSettingsProps.Builder.() -> Unit = {}): CfnIpAccessSettingsProps =
-    CfnIpAccessSettingsProps.Builder().apply(initializer).build()
+public fun buildCfnIpAccessSettingsProps(initializer: @AwsCdkDsl CfnIpAccessSettingsProps.Builder.() -> Unit = {}): CfnIpAccessSettingsProps = CfnIpAccessSettingsProps.Builder().apply(initializer).build()

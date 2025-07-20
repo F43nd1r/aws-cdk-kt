@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildRollingDateConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.RollingDateConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.RollingDateConfigurationProperty =
-    CfnTemplate.RollingDateConfigurationProperty.Builder().apply(initializer).build()
+public fun buildRollingDateConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.RollingDateConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.RollingDateConfigurationProperty = CfnTemplate.RollingDateConfigurationProperty.Builder().apply(initializer).build()

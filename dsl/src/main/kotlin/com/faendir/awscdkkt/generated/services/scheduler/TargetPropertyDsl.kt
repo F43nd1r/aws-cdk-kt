@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.scheduler.CfnSchedule
 
 @Generated
-public fun buildTargetProperty(initializer: @AwsCdkDsl CfnSchedule.TargetProperty.Builder.() -> Unit
-    = {}): CfnSchedule.TargetProperty =
-    CfnSchedule.TargetProperty.Builder().apply(initializer).build()
+public fun buildTargetProperty(initializer: @AwsCdkDsl CfnSchedule.TargetProperty.Builder.() -> Unit = {}): CfnSchedule.TargetProperty = CfnSchedule.TargetProperty.Builder().apply(initializer).build()

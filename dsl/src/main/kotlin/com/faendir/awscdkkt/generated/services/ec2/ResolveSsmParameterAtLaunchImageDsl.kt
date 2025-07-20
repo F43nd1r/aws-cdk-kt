@@ -7,6 +7,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.ResolveSsmParameterAtLaunchImage
 
 @Generated
-public fun buildResolveSsmParameterAtLaunchImage(parameterName: String, initializer: @AwsCdkDsl
-    ResolveSsmParameterAtLaunchImage.Builder.() -> Unit = {}): ResolveSsmParameterAtLaunchImage =
-    ResolveSsmParameterAtLaunchImage.Builder.create(parameterName).apply(initializer).build()
+public fun buildResolveSsmParameterAtLaunchImage(parameterName: String, initializer: @AwsCdkDsl ResolveSsmParameterAtLaunchImage.Builder.() -> Unit = {}): ResolveSsmParameterAtLaunchImage = ResolveSsmParameterAtLaunchImage.Builder.create(parameterName).apply(initializer).build()

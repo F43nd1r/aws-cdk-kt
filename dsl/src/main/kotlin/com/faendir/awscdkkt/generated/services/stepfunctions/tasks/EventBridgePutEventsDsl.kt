@@ -16,6 +16,4 @@ public fun Construct.eventBridgePutEvents(
 ): EventBridgePutEvents = EventBridgePutEvents(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEventBridgePutEvents(id: String, initializer: @AwsCdkDsl
-    EventBridgePutEvents.Builder.() -> Unit = {}): EventBridgePutEvents =
-    EventBridgePutEvents.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildEventBridgePutEvents(id: String, initializer: @AwsCdkDsl EventBridgePutEvents.Builder.() -> Unit = {}): EventBridgePutEvents = EventBridgePutEvents.Builder.create(this, id).apply(initializer).build()

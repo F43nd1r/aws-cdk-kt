@@ -16,6 +16,4 @@ public fun Construct.secretTargetAttachment(
 ): SecretTargetAttachment = SecretTargetAttachment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildSecretTargetAttachment(id: String, initializer: @AwsCdkDsl
-    SecretTargetAttachment.Builder.() -> Unit = {}): SecretTargetAttachment =
-    SecretTargetAttachment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildSecretTargetAttachment(id: String, initializer: @AwsCdkDsl SecretTargetAttachment.Builder.() -> Unit = {}): SecretTargetAttachment = SecretTargetAttachment.Builder.create(this, id).apply(initializer).build()

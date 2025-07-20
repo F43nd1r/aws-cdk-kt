@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnDataSource
 
 @Generated
-public fun buildHookConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.HookConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDataSource.HookConfigurationProperty =
-    CfnDataSource.HookConfigurationProperty.Builder().apply(initializer).build()
+public fun buildHookConfigurationProperty(initializer: @AwsCdkDsl CfnDataSource.HookConfigurationProperty.Builder.() -> Unit = {}): CfnDataSource.HookConfigurationProperty = CfnDataSource.HookConfigurationProperty.Builder().apply(initializer).build()

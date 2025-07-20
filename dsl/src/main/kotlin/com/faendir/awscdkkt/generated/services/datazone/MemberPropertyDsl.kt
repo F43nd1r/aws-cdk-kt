@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnProjectMembership
 
 @Generated
-public fun buildMemberProperty(initializer: @AwsCdkDsl
-    CfnProjectMembership.MemberProperty.Builder.() -> Unit = {}):
-    CfnProjectMembership.MemberProperty =
-    CfnProjectMembership.MemberProperty.Builder().apply(initializer).build()
+public fun buildMemberProperty(initializer: @AwsCdkDsl CfnProjectMembership.MemberProperty.Builder.() -> Unit = {}): CfnProjectMembership.MemberProperty = CfnProjectMembership.MemberProperty.Builder().apply(initializer).build()

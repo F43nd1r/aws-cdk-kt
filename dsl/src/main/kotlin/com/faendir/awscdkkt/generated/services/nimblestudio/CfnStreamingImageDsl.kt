@@ -16,6 +16,4 @@ public fun Construct.cfnStreamingImage(
 ): CfnStreamingImage = CfnStreamingImage(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnStreamingImage(id: String, initializer: @AwsCdkDsl
-    CfnStreamingImage.Builder.() -> Unit = {}): CfnStreamingImage =
-    CfnStreamingImage.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnStreamingImage(id: String, initializer: @AwsCdkDsl CfnStreamingImage.Builder.() -> Unit = {}): CfnStreamingImage = CfnStreamingImage.Builder.create(this, id).apply(initializer).build()

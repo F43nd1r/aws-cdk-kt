@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.DynamoPutItemJsonPathProps
 
 @Generated
-public fun buildDynamoPutItemJsonPathProps(initializer: @AwsCdkDsl
-    DynamoPutItemJsonPathProps.Builder.() -> Unit = {}): DynamoPutItemJsonPathProps =
-    DynamoPutItemJsonPathProps.Builder().apply(initializer).build()
+public fun buildDynamoPutItemJsonPathProps(initializer: @AwsCdkDsl DynamoPutItemJsonPathProps.Builder.() -> Unit = {}): DynamoPutItemJsonPathProps = DynamoPutItemJsonPathProps.Builder().apply(initializer).build()

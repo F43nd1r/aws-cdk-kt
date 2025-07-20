@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.AmazonLinuxImageSsmParameterBaseOptions
 
 @Generated
-public fun buildAmazonLinuxImageSsmParameterBaseOptions(initializer: @AwsCdkDsl
-    AmazonLinuxImageSsmParameterBaseOptions.Builder.() -> Unit = {}):
-    AmazonLinuxImageSsmParameterBaseOptions =
-    AmazonLinuxImageSsmParameterBaseOptions.Builder().apply(initializer).build()
+public fun buildAmazonLinuxImageSsmParameterBaseOptions(initializer: @AwsCdkDsl AmazonLinuxImageSsmParameterBaseOptions.Builder.() -> Unit = {}): AmazonLinuxImageSsmParameterBaseOptions = AmazonLinuxImageSsmParameterBaseOptions.Builder().apply(initializer).build()

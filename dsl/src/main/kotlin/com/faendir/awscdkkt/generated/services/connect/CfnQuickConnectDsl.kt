@@ -16,6 +16,4 @@ public fun Construct.cfnQuickConnect(
 ): CfnQuickConnect = CfnQuickConnect(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnQuickConnect(id: String, initializer: @AwsCdkDsl
-    CfnQuickConnect.Builder.() -> Unit = {}): CfnQuickConnect = CfnQuickConnect.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnQuickConnect(id: String, initializer: @AwsCdkDsl CfnQuickConnect.Builder.() -> Unit = {}): CfnQuickConnect = CfnQuickConnect.Builder.create(this, id).apply(initializer).build()

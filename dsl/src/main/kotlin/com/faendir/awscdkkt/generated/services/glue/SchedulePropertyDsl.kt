@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnCrawler
 
 @Generated
-public fun buildScheduleProperty(initializer: @AwsCdkDsl
-    CfnCrawler.ScheduleProperty.Builder.() -> Unit = {}): CfnCrawler.ScheduleProperty =
-    CfnCrawler.ScheduleProperty.Builder().apply(initializer).build()
+public fun buildScheduleProperty(initializer: @AwsCdkDsl CfnCrawler.ScheduleProperty.Builder.() -> Unit = {}): CfnCrawler.ScheduleProperty = CfnCrawler.ScheduleProperty.Builder().apply(initializer).build()

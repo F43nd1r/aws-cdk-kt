@@ -16,5 +16,4 @@ public fun Construct.cfnLink(
 ): CfnLink = CfnLink(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLink(id: String, initializer: @AwsCdkDsl CfnLink.Builder.() -> Unit =
-    {}): CfnLink = CfnLink.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLink(id: String, initializer: @AwsCdkDsl CfnLink.Builder.() -> Unit = {}): CfnLink = CfnLink.Builder.create(this, id).apply(initializer).build()

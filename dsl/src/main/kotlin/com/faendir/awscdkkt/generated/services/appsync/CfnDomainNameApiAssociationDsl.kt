@@ -16,6 +16,4 @@ public fun Construct.cfnDomainNameApiAssociation(
 ): CfnDomainNameApiAssociation = CfnDomainNameApiAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDomainNameApiAssociation(id: String, initializer: @AwsCdkDsl
-    CfnDomainNameApiAssociation.Builder.() -> Unit = {}): CfnDomainNameApiAssociation =
-    CfnDomainNameApiAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDomainNameApiAssociation(id: String, initializer: @AwsCdkDsl CfnDomainNameApiAssociation.Builder.() -> Unit = {}): CfnDomainNameApiAssociation = CfnDomainNameApiAssociation.Builder.create(this, id).apply(initializer).build()

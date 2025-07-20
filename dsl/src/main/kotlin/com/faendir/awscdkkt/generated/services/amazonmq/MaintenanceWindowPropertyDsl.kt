@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.amazonmq.CfnBroker
 
 @Generated
-public fun buildMaintenanceWindowProperty(initializer: @AwsCdkDsl
-    CfnBroker.MaintenanceWindowProperty.Builder.() -> Unit = {}):
-    CfnBroker.MaintenanceWindowProperty =
-    CfnBroker.MaintenanceWindowProperty.Builder().apply(initializer).build()
+public fun buildMaintenanceWindowProperty(initializer: @AwsCdkDsl CfnBroker.MaintenanceWindowProperty.Builder.() -> Unit = {}): CfnBroker.MaintenanceWindowProperty = CfnBroker.MaintenanceWindowProperty.Builder().apply(initializer).build()

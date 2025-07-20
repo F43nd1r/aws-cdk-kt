@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.b2bi.CfnCapabilityProps
 
 @Generated
-public fun buildCfnCapabilityProps(initializer: @AwsCdkDsl CfnCapabilityProps.Builder.() -> Unit =
-    {}): CfnCapabilityProps = CfnCapabilityProps.Builder().apply(initializer).build()
+public fun buildCfnCapabilityProps(initializer: @AwsCdkDsl CfnCapabilityProps.Builder.() -> Unit = {}): CfnCapabilityProps = CfnCapabilityProps.Builder().apply(initializer).build()

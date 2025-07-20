@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.CommonClusterOptions
 
 @Generated
-public fun buildCommonClusterOptions(initializer: @AwsCdkDsl CommonClusterOptions.Builder.() -> Unit
-    = {}): CommonClusterOptions = CommonClusterOptions.Builder().apply(initializer).build()
+public fun buildCommonClusterOptions(initializer: @AwsCdkDsl CommonClusterOptions.Builder.() -> Unit = {}): CommonClusterOptions = CommonClusterOptions.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.hostedZone(
 ): HostedZone = HostedZone(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildHostedZone(id: String, initializer: @AwsCdkDsl
-    HostedZone.Builder.() -> Unit = {}): HostedZone = HostedZone.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildHostedZone(id: String, initializer: @AwsCdkDsl HostedZone.Builder.() -> Unit = {}): HostedZone = HostedZone.Builder.create(this, id).apply(initializer).build()

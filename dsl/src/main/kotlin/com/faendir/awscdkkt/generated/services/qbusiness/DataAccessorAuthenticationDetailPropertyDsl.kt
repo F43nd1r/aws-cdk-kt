@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnDataAccessor
 
 @Generated
-public fun buildDataAccessorAuthenticationDetailProperty(initializer: @AwsCdkDsl
-    CfnDataAccessor.DataAccessorAuthenticationDetailProperty.Builder.() -> Unit = {}):
-    CfnDataAccessor.DataAccessorAuthenticationDetailProperty =
-    CfnDataAccessor.DataAccessorAuthenticationDetailProperty.Builder().apply(initializer).build()
+public fun buildDataAccessorAuthenticationDetailProperty(initializer: @AwsCdkDsl CfnDataAccessor.DataAccessorAuthenticationDetailProperty.Builder.() -> Unit = {}): CfnDataAccessor.DataAccessorAuthenticationDetailProperty = CfnDataAccessor.DataAccessorAuthenticationDetailProperty.Builder().apply(initializer).build()

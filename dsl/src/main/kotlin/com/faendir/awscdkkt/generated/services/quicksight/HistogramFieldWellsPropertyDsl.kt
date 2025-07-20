@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildHistogramFieldWellsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.HistogramFieldWellsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.HistogramFieldWellsProperty =
-    CfnTemplate.HistogramFieldWellsProperty.Builder().apply(initializer).build()
+public fun buildHistogramFieldWellsProperty(initializer: @AwsCdkDsl CfnTemplate.HistogramFieldWellsProperty.Builder.() -> Unit = {}): CfnTemplate.HistogramFieldWellsProperty = CfnTemplate.HistogramFieldWellsProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediapackagev2.CfnOriginEndpoint
 
 @Generated
-public fun buildSpekeKeyProviderProperty(initializer: @AwsCdkDsl
-    CfnOriginEndpoint.SpekeKeyProviderProperty.Builder.() -> Unit = {}):
-    CfnOriginEndpoint.SpekeKeyProviderProperty =
-    CfnOriginEndpoint.SpekeKeyProviderProperty.Builder().apply(initializer).build()
+public fun buildSpekeKeyProviderProperty(initializer: @AwsCdkDsl CfnOriginEndpoint.SpekeKeyProviderProperty.Builder.() -> Unit = {}): CfnOriginEndpoint.SpekeKeyProviderProperty = CfnOriginEndpoint.SpekeKeyProviderProperty.Builder().apply(initializer).build()

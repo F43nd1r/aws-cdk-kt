@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.aws_apigatewayv2_integrations.WebSocketMockIntegrationProps
 
 @Generated
-public fun buildWebSocketMockIntegrationProps(initializer: @AwsCdkDsl
-    WebSocketMockIntegrationProps.Builder.() -> Unit = {}): WebSocketMockIntegrationProps =
-    WebSocketMockIntegrationProps.Builder().apply(initializer).build()
+public fun buildWebSocketMockIntegrationProps(initializer: @AwsCdkDsl WebSocketMockIntegrationProps.Builder.() -> Unit = {}): WebSocketMockIntegrationProps = WebSocketMockIntegrationProps.Builder().apply(initializer).build()

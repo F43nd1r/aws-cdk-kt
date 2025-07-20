@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnUserPool
 
 @Generated
-public fun buildUserPoolAddOnsProperty(initializer: @AwsCdkDsl
-    CfnUserPool.UserPoolAddOnsProperty.Builder.() -> Unit = {}): CfnUserPool.UserPoolAddOnsProperty
-    = CfnUserPool.UserPoolAddOnsProperty.Builder().apply(initializer).build()
+public fun buildUserPoolAddOnsProperty(initializer: @AwsCdkDsl CfnUserPool.UserPoolAddOnsProperty.Builder.() -> Unit = {}): CfnUserPool.UserPoolAddOnsProperty = CfnUserPool.UserPoolAddOnsProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.entityresolution.CfnIdMappingWorkflow
 
 @Generated
-public fun buildIdMappingRuleBasedPropertiesProperty(initializer: @AwsCdkDsl
-    CfnIdMappingWorkflow.IdMappingRuleBasedPropertiesProperty.Builder.() -> Unit = {}):
-    CfnIdMappingWorkflow.IdMappingRuleBasedPropertiesProperty =
-    CfnIdMappingWorkflow.IdMappingRuleBasedPropertiesProperty.Builder().apply(initializer).build()
+public fun buildIdMappingRuleBasedPropertiesProperty(initializer: @AwsCdkDsl CfnIdMappingWorkflow.IdMappingRuleBasedPropertiesProperty.Builder.() -> Unit = {}): CfnIdMappingWorkflow.IdMappingRuleBasedPropertiesProperty = CfnIdMappingWorkflow.IdMappingRuleBasedPropertiesProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.aiops.CfnInvestigationGroupProps
 
 @Generated
-public fun buildCfnInvestigationGroupProps(initializer: @AwsCdkDsl
-    CfnInvestigationGroupProps.Builder.() -> Unit = {}): CfnInvestigationGroupProps =
-    CfnInvestigationGroupProps.Builder().apply(initializer).build()
+public fun buildCfnInvestigationGroupProps(initializer: @AwsCdkDsl CfnInvestigationGroupProps.Builder.() -> Unit = {}): CfnInvestigationGroupProps = CfnInvestigationGroupProps.Builder().apply(initializer).build()

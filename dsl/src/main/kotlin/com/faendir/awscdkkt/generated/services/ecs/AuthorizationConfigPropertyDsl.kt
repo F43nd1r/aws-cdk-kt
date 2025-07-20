@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
-public fun buildAuthorizationConfigProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.AuthorizationConfigProperty.Builder.() -> Unit = {}):
-    CfnTaskDefinition.AuthorizationConfigProperty =
-    CfnTaskDefinition.AuthorizationConfigProperty.Builder().apply(initializer).build()
+public fun buildAuthorizationConfigProperty(initializer: @AwsCdkDsl CfnTaskDefinition.AuthorizationConfigProperty.Builder.() -> Unit = {}): CfnTaskDefinition.AuthorizationConfigProperty = CfnTaskDefinition.AuthorizationConfigProperty.Builder().apply(initializer).build()

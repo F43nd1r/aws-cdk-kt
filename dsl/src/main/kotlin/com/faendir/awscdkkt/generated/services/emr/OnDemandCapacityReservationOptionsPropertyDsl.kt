@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.emr.CfnInstanceFleetConfig
 
 @Generated
-public fun buildOnDemandCapacityReservationOptionsProperty(initializer: @AwsCdkDsl
-    CfnInstanceFleetConfig.OnDemandCapacityReservationOptionsProperty.Builder.() -> Unit = {}):
-    CfnInstanceFleetConfig.OnDemandCapacityReservationOptionsProperty =
-    CfnInstanceFleetConfig.OnDemandCapacityReservationOptionsProperty.Builder().apply(initializer).build()
+public fun buildOnDemandCapacityReservationOptionsProperty(initializer: @AwsCdkDsl CfnInstanceFleetConfig.OnDemandCapacityReservationOptionsProperty.Builder.() -> Unit = {}): CfnInstanceFleetConfig.OnDemandCapacityReservationOptionsProperty = CfnInstanceFleetConfig.OnDemandCapacityReservationOptionsProperty.Builder().apply(initializer).build()

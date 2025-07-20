@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.kinesis.StreamProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.stream(id: String, initializer: @AwsCdkDsl Stream.() -> Unit = {}): Stream =
-    Stream(this, id).apply(initializer)
+public fun Construct.stream(id: String, initializer: @AwsCdkDsl Stream.() -> Unit = {}): Stream = Stream(this, id).apply(initializer)
 
 @Generated
 public fun Construct.stream(
@@ -20,5 +19,4 @@ public fun Construct.stream(
 ): Stream = Stream(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildStream(id: String, initializer: @AwsCdkDsl Stream.Builder.() -> Unit =
-    {}): Stream = Stream.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildStream(id: String, initializer: @AwsCdkDsl Stream.Builder.() -> Unit = {}): Stream = Stream.Builder.create(this, id).apply(initializer).build()

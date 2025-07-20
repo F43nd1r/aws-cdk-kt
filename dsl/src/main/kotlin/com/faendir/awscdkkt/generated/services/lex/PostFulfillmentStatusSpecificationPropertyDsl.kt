@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildPostFulfillmentStatusSpecificationProperty(initializer: @AwsCdkDsl
-    CfnBot.PostFulfillmentStatusSpecificationProperty.Builder.() -> Unit = {}):
-    CfnBot.PostFulfillmentStatusSpecificationProperty =
-    CfnBot.PostFulfillmentStatusSpecificationProperty.Builder().apply(initializer).build()
+public fun buildPostFulfillmentStatusSpecificationProperty(initializer: @AwsCdkDsl CfnBot.PostFulfillmentStatusSpecificationProperty.Builder.() -> Unit = {}): CfnBot.PostFulfillmentStatusSpecificationProperty = CfnBot.PostFulfillmentStatusSpecificationProperty.Builder().apply(initializer).build()

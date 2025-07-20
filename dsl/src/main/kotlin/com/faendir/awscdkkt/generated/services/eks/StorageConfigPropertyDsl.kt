@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.CfnCluster
 
 @Generated
-public fun buildStorageConfigProperty(initializer: @AwsCdkDsl
-    CfnCluster.StorageConfigProperty.Builder.() -> Unit = {}): CfnCluster.StorageConfigProperty =
-    CfnCluster.StorageConfigProperty.Builder().apply(initializer).build()
+public fun buildStorageConfigProperty(initializer: @AwsCdkDsl CfnCluster.StorageConfigProperty.Builder.() -> Unit = {}): CfnCluster.StorageConfigProperty = CfnCluster.StorageConfigProperty.Builder().apply(initializer).build()

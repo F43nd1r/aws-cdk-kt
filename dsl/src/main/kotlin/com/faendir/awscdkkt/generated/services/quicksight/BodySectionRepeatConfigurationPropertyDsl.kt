@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildBodySectionRepeatConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.BodySectionRepeatConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.BodySectionRepeatConfigurationProperty =
-    CfnTemplate.BodySectionRepeatConfigurationProperty.Builder().apply(initializer).build()
+public fun buildBodySectionRepeatConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.BodySectionRepeatConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.BodySectionRepeatConfigurationProperty = CfnTemplate.BodySectionRepeatConfigurationProperty.Builder().apply(initializer).build()

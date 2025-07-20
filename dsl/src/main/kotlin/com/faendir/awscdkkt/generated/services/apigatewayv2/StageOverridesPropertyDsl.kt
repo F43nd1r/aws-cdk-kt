@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.CfnApiGatewayManagedOverrides
 
 @Generated
-public fun buildStageOverridesProperty(initializer: @AwsCdkDsl
-    CfnApiGatewayManagedOverrides.StageOverridesProperty.Builder.() -> Unit = {}):
-    CfnApiGatewayManagedOverrides.StageOverridesProperty =
-    CfnApiGatewayManagedOverrides.StageOverridesProperty.Builder().apply(initializer).build()
+public fun buildStageOverridesProperty(initializer: @AwsCdkDsl CfnApiGatewayManagedOverrides.StageOverridesProperty.Builder.() -> Unit = {}): CfnApiGatewayManagedOverrides.StageOverridesProperty = CfnApiGatewayManagedOverrides.StageOverridesProperty.Builder().apply(initializer).build()

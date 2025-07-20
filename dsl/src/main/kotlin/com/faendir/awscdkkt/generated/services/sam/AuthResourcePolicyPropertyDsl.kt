@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
-public fun buildAuthResourcePolicyProperty(initializer: @AwsCdkDsl
-    CfnFunction.AuthResourcePolicyProperty.Builder.() -> Unit = {}):
-    CfnFunction.AuthResourcePolicyProperty =
-    CfnFunction.AuthResourcePolicyProperty.Builder().apply(initializer).build()
+public fun buildAuthResourcePolicyProperty(initializer: @AwsCdkDsl CfnFunction.AuthResourcePolicyProperty.Builder.() -> Unit = {}): CfnFunction.AuthResourcePolicyProperty = CfnFunction.AuthResourcePolicyProperty.Builder().apply(initializer).build()

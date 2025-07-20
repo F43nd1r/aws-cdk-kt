@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.SucceedProps
 
 @Generated
-public fun buildSucceedProps(initializer: @AwsCdkDsl SucceedProps.Builder.() -> Unit = {}):
-    SucceedProps = SucceedProps.Builder().apply(initializer).build()
+public fun buildSucceedProps(initializer: @AwsCdkDsl SucceedProps.Builder.() -> Unit = {}): SucceedProps = SucceedProps.Builder().apply(initializer).build()

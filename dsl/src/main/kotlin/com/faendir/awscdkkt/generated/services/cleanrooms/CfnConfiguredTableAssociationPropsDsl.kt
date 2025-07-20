@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cleanrooms.CfnConfiguredTableAssociationProps
 
 @Generated
-public fun buildCfnConfiguredTableAssociationProps(initializer: @AwsCdkDsl
-    CfnConfiguredTableAssociationProps.Builder.() -> Unit = {}): CfnConfiguredTableAssociationProps
-    = CfnConfiguredTableAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnConfiguredTableAssociationProps(initializer: @AwsCdkDsl CfnConfiguredTableAssociationProps.Builder.() -> Unit = {}): CfnConfiguredTableAssociationProps = CfnConfiguredTableAssociationProps.Builder().apply(initializer).build()

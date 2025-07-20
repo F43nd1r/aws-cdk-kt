@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildAwsVpcConfigurationProperty(initializer: @AwsCdkDsl
-    CfnPipe.AwsVpcConfigurationProperty.Builder.() -> Unit = {}):
-    CfnPipe.AwsVpcConfigurationProperty =
-    CfnPipe.AwsVpcConfigurationProperty.Builder().apply(initializer).build()
+public fun buildAwsVpcConfigurationProperty(initializer: @AwsCdkDsl CfnPipe.AwsVpcConfigurationProperty.Builder.() -> Unit = {}): CfnPipe.AwsVpcConfigurationProperty = CfnPipe.AwsVpcConfigurationProperty.Builder().apply(initializer).build()

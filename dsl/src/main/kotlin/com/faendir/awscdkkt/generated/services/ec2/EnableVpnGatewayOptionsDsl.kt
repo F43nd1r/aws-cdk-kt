@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.EnableVpnGatewayOptions
 
 @Generated
-public fun buildEnableVpnGatewayOptions(initializer: @AwsCdkDsl
-    EnableVpnGatewayOptions.Builder.() -> Unit = {}): EnableVpnGatewayOptions =
-    EnableVpnGatewayOptions.Builder().apply(initializer).build()
+public fun buildEnableVpnGatewayOptions(initializer: @AwsCdkDsl EnableVpnGatewayOptions.Builder.() -> Unit = {}): EnableVpnGatewayOptions = EnableVpnGatewayOptions.Builder().apply(initializer).build()

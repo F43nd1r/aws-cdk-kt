@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.managedblockchain.CfnMember
 
 @Generated
-public fun buildNetworkConfigurationProperty(initializer: @AwsCdkDsl
-    CfnMember.NetworkConfigurationProperty.Builder.() -> Unit = {}):
-    CfnMember.NetworkConfigurationProperty =
-    CfnMember.NetworkConfigurationProperty.Builder().apply(initializer).build()
+public fun buildNetworkConfigurationProperty(initializer: @AwsCdkDsl CfnMember.NetworkConfigurationProperty.Builder.() -> Unit = {}): CfnMember.NetworkConfigurationProperty = CfnMember.NetworkConfigurationProperty.Builder().apply(initializer).build()

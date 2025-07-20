@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediapackage.CfnPackagingConfiguration
 
 @Generated
-public fun buildMssManifestProperty(initializer: @AwsCdkDsl
-    CfnPackagingConfiguration.MssManifestProperty.Builder.() -> Unit = {}):
-    CfnPackagingConfiguration.MssManifestProperty =
-    CfnPackagingConfiguration.MssManifestProperty.Builder().apply(initializer).build()
+public fun buildMssManifestProperty(initializer: @AwsCdkDsl CfnPackagingConfiguration.MssManifestProperty.Builder.() -> Unit = {}): CfnPackagingConfiguration.MssManifestProperty = CfnPackagingConfiguration.MssManifestProperty.Builder().apply(initializer).build()

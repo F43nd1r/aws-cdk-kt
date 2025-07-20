@@ -16,6 +16,4 @@ public fun Construct.cfnIdentitySource(
 ): CfnIdentitySource = CfnIdentitySource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnIdentitySource(id: String, initializer: @AwsCdkDsl
-    CfnIdentitySource.Builder.() -> Unit = {}): CfnIdentitySource =
-    CfnIdentitySource.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnIdentitySource(id: String, initializer: @AwsCdkDsl CfnIdentitySource.Builder.() -> Unit = {}): CfnIdentitySource = CfnIdentitySource.Builder.create(this, id).apply(initializer).build()

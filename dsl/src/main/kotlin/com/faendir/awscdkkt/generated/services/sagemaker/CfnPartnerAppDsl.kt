@@ -16,6 +16,4 @@ public fun Construct.cfnPartnerApp(
 ): CfnPartnerApp = CfnPartnerApp(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPartnerApp(id: String, initializer: @AwsCdkDsl
-    CfnPartnerApp.Builder.() -> Unit = {}): CfnPartnerApp = CfnPartnerApp.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnPartnerApp(id: String, initializer: @AwsCdkDsl CfnPartnerApp.Builder.() -> Unit = {}): CfnPartnerApp = CfnPartnerApp.Builder.create(this, id).apply(initializer).build()

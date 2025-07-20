@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnCluster
 
 @Generated
-public fun buildClusterInstanceGroupProperty(initializer: @AwsCdkDsl
-    CfnCluster.ClusterInstanceGroupProperty.Builder.() -> Unit = {}):
-    CfnCluster.ClusterInstanceGroupProperty =
-    CfnCluster.ClusterInstanceGroupProperty.Builder().apply(initializer).build()
+public fun buildClusterInstanceGroupProperty(initializer: @AwsCdkDsl CfnCluster.ClusterInstanceGroupProperty.Builder.() -> Unit = {}): CfnCluster.ClusterInstanceGroupProperty = CfnCluster.ClusterInstanceGroupProperty.Builder().apply(initializer).build()

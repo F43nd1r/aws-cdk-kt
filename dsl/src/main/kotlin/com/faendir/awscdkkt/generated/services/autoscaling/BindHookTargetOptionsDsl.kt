@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.BindHookTargetOptions
 
 @Generated
-public fun buildBindHookTargetOptions(initializer: @AwsCdkDsl
-    BindHookTargetOptions.Builder.() -> Unit = {}): BindHookTargetOptions =
-    BindHookTargetOptions.Builder().apply(initializer).build()
+public fun buildBindHookTargetOptions(initializer: @AwsCdkDsl BindHookTargetOptions.Builder.() -> Unit = {}): BindHookTargetOptions = BindHookTargetOptions.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.healthCheck(
 ): HealthCheck = HealthCheck(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildHealthCheck(id: String, initializer: @AwsCdkDsl
-    HealthCheck.Builder.() -> Unit = {}): HealthCheck = HealthCheck.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildHealthCheck(id: String, initializer: @AwsCdkDsl HealthCheck.Builder.() -> Unit = {}): HealthCheck = HealthCheck.Builder.create(this, id).apply(initializer).build()

@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.ses.VdmAttributesProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.vdmAttributes(id: String, initializer: @AwsCdkDsl VdmAttributes.() -> Unit =
-    {}): VdmAttributes = VdmAttributes(this, id).apply(initializer)
+public fun Construct.vdmAttributes(id: String, initializer: @AwsCdkDsl VdmAttributes.() -> Unit = {}): VdmAttributes = VdmAttributes(this, id).apply(initializer)
 
 @Generated
 public fun Construct.vdmAttributes(
@@ -20,6 +19,4 @@ public fun Construct.vdmAttributes(
 ): VdmAttributes = VdmAttributes(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildVdmAttributes(id: String, initializer: @AwsCdkDsl
-    VdmAttributes.Builder.() -> Unit = {}): VdmAttributes = VdmAttributes.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildVdmAttributes(id: String, initializer: @AwsCdkDsl VdmAttributes.Builder.() -> Unit = {}): VdmAttributes = VdmAttributes.Builder.create(this, id).apply(initializer).build()

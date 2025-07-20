@@ -16,6 +16,4 @@ public fun Construct.cfnPortfolio(
 ): CfnPortfolio = CfnPortfolio(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPortfolio(id: String, initializer: @AwsCdkDsl
-    CfnPortfolio.Builder.() -> Unit = {}): CfnPortfolio = CfnPortfolio.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnPortfolio(id: String, initializer: @AwsCdkDsl CfnPortfolio.Builder.() -> Unit = {}): CfnPortfolio = CfnPortfolio.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.groundstation.CfnConfig
 
 @Generated
-public fun buildDemodulationConfigProperty(initializer: @AwsCdkDsl
-    CfnConfig.DemodulationConfigProperty.Builder.() -> Unit = {}):
-    CfnConfig.DemodulationConfigProperty =
-    CfnConfig.DemodulationConfigProperty.Builder().apply(initializer).build()
+public fun buildDemodulationConfigProperty(initializer: @AwsCdkDsl CfnConfig.DemodulationConfigProperty.Builder.() -> Unit = {}): CfnConfig.DemodulationConfigProperty = CfnConfig.DemodulationConfigProperty.Builder().apply(initializer).build()

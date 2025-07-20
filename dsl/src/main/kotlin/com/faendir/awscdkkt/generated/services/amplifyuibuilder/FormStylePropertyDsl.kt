@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.amplifyuibuilder.CfnForm
 
 @Generated
-public fun buildFormStyleProperty(initializer: @AwsCdkDsl
-    CfnForm.FormStyleProperty.Builder.() -> Unit = {}): CfnForm.FormStyleProperty =
-    CfnForm.FormStyleProperty.Builder().apply(initializer).build()
+public fun buildFormStyleProperty(initializer: @AwsCdkDsl CfnForm.FormStyleProperty.Builder.() -> Unit = {}): CfnForm.FormStyleProperty = CfnForm.FormStyleProperty.Builder().apply(initializer).build()

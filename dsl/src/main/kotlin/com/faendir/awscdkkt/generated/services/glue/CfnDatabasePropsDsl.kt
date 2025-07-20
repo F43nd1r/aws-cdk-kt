@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnDatabaseProps
 
 @Generated
-public fun buildCfnDatabaseProps(initializer: @AwsCdkDsl CfnDatabaseProps.Builder.() -> Unit = {}):
-    CfnDatabaseProps = CfnDatabaseProps.Builder().apply(initializer).build()
+public fun buildCfnDatabaseProps(initializer: @AwsCdkDsl CfnDatabaseProps.Builder.() -> Unit = {}): CfnDatabaseProps = CfnDatabaseProps.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.invoicing.CfnInvoiceUnitProps
 
 @Generated
-public fun buildCfnInvoiceUnitProps(initializer: @AwsCdkDsl CfnInvoiceUnitProps.Builder.() -> Unit =
-    {}): CfnInvoiceUnitProps = CfnInvoiceUnitProps.Builder().apply(initializer).build()
+public fun buildCfnInvoiceUnitProps(initializer: @AwsCdkDsl CfnInvoiceUnitProps.Builder.() -> Unit = {}): CfnInvoiceUnitProps = CfnInvoiceUnitProps.Builder().apply(initializer).build()

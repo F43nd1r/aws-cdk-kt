@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codedeploy.CfnDeploymentGroup
 
 @Generated
-public fun buildBlueInstanceTerminationOptionProperty(initializer: @AwsCdkDsl
-    CfnDeploymentGroup.BlueInstanceTerminationOptionProperty.Builder.() -> Unit = {}):
-    CfnDeploymentGroup.BlueInstanceTerminationOptionProperty =
-    CfnDeploymentGroup.BlueInstanceTerminationOptionProperty.Builder().apply(initializer).build()
+public fun buildBlueInstanceTerminationOptionProperty(initializer: @AwsCdkDsl CfnDeploymentGroup.BlueInstanceTerminationOptionProperty.Builder.() -> Unit = {}): CfnDeploymentGroup.BlueInstanceTerminationOptionProperty = CfnDeploymentGroup.BlueInstanceTerminationOptionProperty.Builder().apply(initializer).build()

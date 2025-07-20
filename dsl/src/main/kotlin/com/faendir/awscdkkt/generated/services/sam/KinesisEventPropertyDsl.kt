@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
-public fun buildKinesisEventProperty(initializer: @AwsCdkDsl
-    CfnFunction.KinesisEventProperty.Builder.() -> Unit = {}): CfnFunction.KinesisEventProperty =
-    CfnFunction.KinesisEventProperty.Builder().apply(initializer).build()
+public fun buildKinesisEventProperty(initializer: @AwsCdkDsl CfnFunction.KinesisEventProperty.Builder.() -> Unit = {}): CfnFunction.KinesisEventProperty = CfnFunction.KinesisEventProperty.Builder().apply(initializer).build()

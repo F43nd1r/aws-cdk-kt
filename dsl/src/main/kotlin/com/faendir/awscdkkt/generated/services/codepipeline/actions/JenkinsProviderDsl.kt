@@ -16,6 +16,4 @@ public fun Construct.jenkinsProvider(
 ): JenkinsProvider = JenkinsProvider(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildJenkinsProvider(id: String, initializer: @AwsCdkDsl
-    JenkinsProvider.Builder.() -> Unit = {}): JenkinsProvider = JenkinsProvider.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildJenkinsProvider(id: String, initializer: @AwsCdkDsl JenkinsProvider.Builder.() -> Unit = {}): JenkinsProvider = JenkinsProvider.Builder.create(this, id).apply(initializer).build()

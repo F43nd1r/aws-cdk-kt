@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnDataSource
 
 @Generated
-public fun buildScheduleConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.ScheduleConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDataSource.ScheduleConfigurationProperty =
-    CfnDataSource.ScheduleConfigurationProperty.Builder().apply(initializer).build()
+public fun buildScheduleConfigurationProperty(initializer: @AwsCdkDsl CfnDataSource.ScheduleConfigurationProperty.Builder.() -> Unit = {}): CfnDataSource.ScheduleConfigurationProperty = CfnDataSource.ScheduleConfigurationProperty.Builder().apply(initializer).build()

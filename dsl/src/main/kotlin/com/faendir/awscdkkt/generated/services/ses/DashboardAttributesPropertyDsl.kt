@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnVdmAttributes
 
 @Generated
-public fun buildDashboardAttributesProperty(initializer: @AwsCdkDsl
-    CfnVdmAttributes.DashboardAttributesProperty.Builder.() -> Unit = {}):
-    CfnVdmAttributes.DashboardAttributesProperty =
-    CfnVdmAttributes.DashboardAttributesProperty.Builder().apply(initializer).build()
+public fun buildDashboardAttributesProperty(initializer: @AwsCdkDsl CfnVdmAttributes.DashboardAttributesProperty.Builder.() -> Unit = {}): CfnVdmAttributes.DashboardAttributesProperty = CfnVdmAttributes.DashboardAttributesProperty.Builder().apply(initializer).build()

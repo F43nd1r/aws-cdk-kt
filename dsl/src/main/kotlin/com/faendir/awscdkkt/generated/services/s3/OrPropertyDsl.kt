@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnStorageLensGroup
 
 @Generated
-public fun buildOrProperty(initializer: @AwsCdkDsl CfnStorageLensGroup.OrProperty.Builder.() -> Unit
-    = {}): CfnStorageLensGroup.OrProperty =
-    CfnStorageLensGroup.OrProperty.Builder().apply(initializer).build()
+public fun buildOrProperty(initializer: @AwsCdkDsl CfnStorageLensGroup.OrProperty.Builder.() -> Unit = {}): CfnStorageLensGroup.OrProperty = CfnStorageLensGroup.OrProperty.Builder().apply(initializer).build()

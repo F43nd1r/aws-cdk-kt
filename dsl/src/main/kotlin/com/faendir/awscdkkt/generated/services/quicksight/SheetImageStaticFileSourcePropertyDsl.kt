@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildSheetImageStaticFileSourceProperty(initializer: @AwsCdkDsl
-    CfnTemplate.SheetImageStaticFileSourceProperty.Builder.() -> Unit = {}):
-    CfnTemplate.SheetImageStaticFileSourceProperty =
-    CfnTemplate.SheetImageStaticFileSourceProperty.Builder().apply(initializer).build()
+public fun buildSheetImageStaticFileSourceProperty(initializer: @AwsCdkDsl CfnTemplate.SheetImageStaticFileSourceProperty.Builder.() -> Unit = {}): CfnTemplate.SheetImageStaticFileSourceProperty = CfnTemplate.SheetImageStaticFileSourceProperty.Builder().apply(initializer).build()

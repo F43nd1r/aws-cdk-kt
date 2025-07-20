@@ -16,6 +16,4 @@ public fun Construct.eksJobDefinition(
 ): EksJobDefinition = EksJobDefinition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEksJobDefinition(id: String, initializer: @AwsCdkDsl
-    EksJobDefinition.Builder.() -> Unit = {}): EksJobDefinition =
-    EksJobDefinition.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildEksJobDefinition(id: String, initializer: @AwsCdkDsl EksJobDefinition.Builder.() -> Unit = {}): EksJobDefinition = EksJobDefinition.Builder.create(this, id).apply(initializer).build()

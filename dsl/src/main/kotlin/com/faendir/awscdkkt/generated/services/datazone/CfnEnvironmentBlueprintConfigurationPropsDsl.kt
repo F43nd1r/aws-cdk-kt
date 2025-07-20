@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnEnvironmentBlueprintConfigurationProps
 
 @Generated
-public fun buildCfnEnvironmentBlueprintConfigurationProps(initializer: @AwsCdkDsl
-    CfnEnvironmentBlueprintConfigurationProps.Builder.() -> Unit = {}):
-    CfnEnvironmentBlueprintConfigurationProps =
-    CfnEnvironmentBlueprintConfigurationProps.Builder().apply(initializer).build()
+public fun buildCfnEnvironmentBlueprintConfigurationProps(initializer: @AwsCdkDsl CfnEnvironmentBlueprintConfigurationProps.Builder.() -> Unit = {}): CfnEnvironmentBlueprintConfigurationProps = CfnEnvironmentBlueprintConfigurationProps.Builder().apply(initializer).build()

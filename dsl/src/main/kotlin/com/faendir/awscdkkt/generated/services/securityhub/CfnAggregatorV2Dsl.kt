@@ -16,6 +16,4 @@ public fun Construct.cfnAggregatorV2(
 ): CfnAggregatorV2 = CfnAggregatorV2(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAggregatorV2(id: String, initializer: @AwsCdkDsl
-    CfnAggregatorV2.Builder.() -> Unit = {}): CfnAggregatorV2 = CfnAggregatorV2.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnAggregatorV2(id: String, initializer: @AwsCdkDsl CfnAggregatorV2.Builder.() -> Unit = {}): CfnAggregatorV2 = CfnAggregatorV2.Builder.create(this, id).apply(initializer).build()

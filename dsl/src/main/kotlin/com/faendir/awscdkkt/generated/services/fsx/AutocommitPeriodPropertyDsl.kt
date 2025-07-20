@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fsx.CfnVolume
 
 @Generated
-public fun buildAutocommitPeriodProperty(initializer: @AwsCdkDsl
-    CfnVolume.AutocommitPeriodProperty.Builder.() -> Unit = {}): CfnVolume.AutocommitPeriodProperty
-    = CfnVolume.AutocommitPeriodProperty.Builder().apply(initializer).build()
+public fun buildAutocommitPeriodProperty(initializer: @AwsCdkDsl CfnVolume.AutocommitPeriodProperty.Builder.() -> Unit = {}): CfnVolume.AutocommitPeriodProperty = CfnVolume.AutocommitPeriodProperty.Builder().apply(initializer).build()

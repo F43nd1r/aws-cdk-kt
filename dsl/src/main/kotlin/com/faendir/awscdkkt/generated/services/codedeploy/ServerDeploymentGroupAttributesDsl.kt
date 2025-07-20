@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codedeploy.ServerDeploymentGroupAttributes
 
 @Generated
-public fun buildServerDeploymentGroupAttributes(initializer: @AwsCdkDsl
-    ServerDeploymentGroupAttributes.Builder.() -> Unit = {}): ServerDeploymentGroupAttributes =
-    ServerDeploymentGroupAttributes.Builder().apply(initializer).build()
+public fun buildServerDeploymentGroupAttributes(initializer: @AwsCdkDsl ServerDeploymentGroupAttributes.Builder.() -> Unit = {}): ServerDeploymentGroupAttributes = ServerDeploymentGroupAttributes.Builder().apply(initializer).build()

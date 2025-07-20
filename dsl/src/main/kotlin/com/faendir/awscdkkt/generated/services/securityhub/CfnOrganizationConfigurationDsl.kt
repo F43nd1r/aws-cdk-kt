@@ -16,6 +16,4 @@ public fun Construct.cfnOrganizationConfiguration(
 ): CfnOrganizationConfiguration = CfnOrganizationConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnOrganizationConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnOrganizationConfiguration.Builder.() -> Unit = {}): CfnOrganizationConfiguration =
-    CfnOrganizationConfiguration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnOrganizationConfiguration(id: String, initializer: @AwsCdkDsl CfnOrganizationConfiguration.Builder.() -> Unit = {}): CfnOrganizationConfiguration = CfnOrganizationConfiguration.Builder.create(this, id).apply(initializer).build()

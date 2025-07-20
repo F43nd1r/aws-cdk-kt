@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnModelPackage
 
 @Generated
-public fun buildModelAccessConfigProperty(initializer: @AwsCdkDsl
-    CfnModelPackage.ModelAccessConfigProperty.Builder.() -> Unit = {}):
-    CfnModelPackage.ModelAccessConfigProperty =
-    CfnModelPackage.ModelAccessConfigProperty.Builder().apply(initializer).build()
+public fun buildModelAccessConfigProperty(initializer: @AwsCdkDsl CfnModelPackage.ModelAccessConfigProperty.Builder.() -> Unit = {}): CfnModelPackage.ModelAccessConfigProperty = CfnModelPackage.ModelAccessConfigProperty.Builder().apply(initializer).build()

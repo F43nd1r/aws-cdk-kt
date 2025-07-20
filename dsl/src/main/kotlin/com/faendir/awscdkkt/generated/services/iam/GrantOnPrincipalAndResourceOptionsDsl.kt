@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.GrantOnPrincipalAndResourceOptions
 
 @Generated
-public fun buildGrantOnPrincipalAndResourceOptions(initializer: @AwsCdkDsl
-    GrantOnPrincipalAndResourceOptions.Builder.() -> Unit = {}): GrantOnPrincipalAndResourceOptions
-    = GrantOnPrincipalAndResourceOptions.Builder().apply(initializer).build()
+public fun buildGrantOnPrincipalAndResourceOptions(initializer: @AwsCdkDsl GrantOnPrincipalAndResourceOptions.Builder.() -> Unit = {}): GrantOnPrincipalAndResourceOptions = GrantOnPrincipalAndResourceOptions.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkfirewall.CfnLoggingConfiguration
 
 @Generated
-public fun buildLogDestinationConfigProperty(initializer: @AwsCdkDsl
-    CfnLoggingConfiguration.LogDestinationConfigProperty.Builder.() -> Unit = {}):
-    CfnLoggingConfiguration.LogDestinationConfigProperty =
-    CfnLoggingConfiguration.LogDestinationConfigProperty.Builder().apply(initializer).build()
+public fun buildLogDestinationConfigProperty(initializer: @AwsCdkDsl CfnLoggingConfiguration.LogDestinationConfigProperty.Builder.() -> Unit = {}): CfnLoggingConfiguration.LogDestinationConfigProperty = CfnLoggingConfiguration.LogDestinationConfigProperty.Builder().apply(initializer).build()

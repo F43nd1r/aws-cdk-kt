@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnAppImageConfig
 
 @Generated
-public fun buildCodeEditorAppImageConfigProperty(initializer: @AwsCdkDsl
-    CfnAppImageConfig.CodeEditorAppImageConfigProperty.Builder.() -> Unit = {}):
-    CfnAppImageConfig.CodeEditorAppImageConfigProperty =
-    CfnAppImageConfig.CodeEditorAppImageConfigProperty.Builder().apply(initializer).build()
+public fun buildCodeEditorAppImageConfigProperty(initializer: @AwsCdkDsl CfnAppImageConfig.CodeEditorAppImageConfigProperty.Builder.() -> Unit = {}): CfnAppImageConfig.CodeEditorAppImageConfigProperty = CfnAppImageConfig.CodeEditorAppImageConfigProperty.Builder().apply(initializer).build()

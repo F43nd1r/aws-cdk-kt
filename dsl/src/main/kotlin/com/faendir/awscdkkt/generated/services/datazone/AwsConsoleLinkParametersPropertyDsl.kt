@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnEnvironmentActions
 
 @Generated
-public fun buildAwsConsoleLinkParametersProperty(initializer: @AwsCdkDsl
-    CfnEnvironmentActions.AwsConsoleLinkParametersProperty.Builder.() -> Unit = {}):
-    CfnEnvironmentActions.AwsConsoleLinkParametersProperty =
-    CfnEnvironmentActions.AwsConsoleLinkParametersProperty.Builder().apply(initializer).build()
+public fun buildAwsConsoleLinkParametersProperty(initializer: @AwsCdkDsl CfnEnvironmentActions.AwsConsoleLinkParametersProperty.Builder.() -> Unit = {}): CfnEnvironmentActions.AwsConsoleLinkParametersProperty = CfnEnvironmentActions.AwsConsoleLinkParametersProperty.Builder().apply(initializer).build()

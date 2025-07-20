@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTheme
 
 @Generated
-public fun buildSheetStyleProperty(initializer: @AwsCdkDsl
-    CfnTheme.SheetStyleProperty.Builder.() -> Unit = {}): CfnTheme.SheetStyleProperty =
-    CfnTheme.SheetStyleProperty.Builder().apply(initializer).build()
+public fun buildSheetStyleProperty(initializer: @AwsCdkDsl CfnTheme.SheetStyleProperty.Builder.() -> Unit = {}): CfnTheme.SheetStyleProperty = CfnTheme.SheetStyleProperty.Builder().apply(initializer).build()

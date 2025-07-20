@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.AnalyticsConfiguration
 
 @Generated
-public fun buildAnalyticsConfiguration(initializer: @AwsCdkDsl
-    AnalyticsConfiguration.Builder.() -> Unit = {}): AnalyticsConfiguration =
-    AnalyticsConfiguration.Builder().apply(initializer).build()
+public fun buildAnalyticsConfiguration(initializer: @AwsCdkDsl AnalyticsConfiguration.Builder.() -> Unit = {}): AnalyticsConfiguration = AnalyticsConfiguration.Builder().apply(initializer).build()

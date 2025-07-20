@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnSpace
 
 @Generated
-public fun buildSpaceJupyterLabAppSettingsProperty(initializer: @AwsCdkDsl
-    CfnSpace.SpaceJupyterLabAppSettingsProperty.Builder.() -> Unit = {}):
-    CfnSpace.SpaceJupyterLabAppSettingsProperty =
-    CfnSpace.SpaceJupyterLabAppSettingsProperty.Builder().apply(initializer).build()
+public fun buildSpaceJupyterLabAppSettingsProperty(initializer: @AwsCdkDsl CfnSpace.SpaceJupyterLabAppSettingsProperty.Builder.() -> Unit = {}): CfnSpace.SpaceJupyterLabAppSettingsProperty = CfnSpace.SpaceJupyterLabAppSettingsProperty.Builder().apply(initializer).build()

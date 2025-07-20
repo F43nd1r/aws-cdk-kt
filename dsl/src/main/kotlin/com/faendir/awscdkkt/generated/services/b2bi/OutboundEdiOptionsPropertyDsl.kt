@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.b2bi.CfnPartnership
 
 @Generated
-public fun buildOutboundEdiOptionsProperty(initializer: @AwsCdkDsl
-    CfnPartnership.OutboundEdiOptionsProperty.Builder.() -> Unit = {}):
-    CfnPartnership.OutboundEdiOptionsProperty =
-    CfnPartnership.OutboundEdiOptionsProperty.Builder().apply(initializer).build()
+public fun buildOutboundEdiOptionsProperty(initializer: @AwsCdkDsl CfnPartnership.OutboundEdiOptionsProperty.Builder.() -> Unit = {}): CfnPartnership.OutboundEdiOptionsProperty = CfnPartnership.OutboundEdiOptionsProperty.Builder().apply(initializer).build()

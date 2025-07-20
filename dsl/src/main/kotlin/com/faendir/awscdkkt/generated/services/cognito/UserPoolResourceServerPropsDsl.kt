@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.UserPoolResourceServerProps
 
 @Generated
-public fun buildUserPoolResourceServerProps(initializer: @AwsCdkDsl
-    UserPoolResourceServerProps.Builder.() -> Unit = {}): UserPoolResourceServerProps =
-    UserPoolResourceServerProps.Builder().apply(initializer).build()
+public fun buildUserPoolResourceServerProps(initializer: @AwsCdkDsl UserPoolResourceServerProps.Builder.() -> Unit = {}): UserPoolResourceServerProps = UserPoolResourceServerProps.Builder().apply(initializer).build()

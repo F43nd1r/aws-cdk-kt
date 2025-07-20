@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.transfer.CfnWebAppProps
 
 @Generated
-public fun buildCfnWebAppProps(initializer: @AwsCdkDsl CfnWebAppProps.Builder.() -> Unit = {}):
-    CfnWebAppProps = CfnWebAppProps.Builder().apply(initializer).build()
+public fun buildCfnWebAppProps(initializer: @AwsCdkDsl CfnWebAppProps.Builder.() -> Unit = {}): CfnWebAppProps = CfnWebAppProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisanalyticsv2.CfnApplication
 
 @Generated
-public fun buildInputLambdaProcessorProperty(initializer: @AwsCdkDsl
-    CfnApplication.InputLambdaProcessorProperty.Builder.() -> Unit = {}):
-    CfnApplication.InputLambdaProcessorProperty =
-    CfnApplication.InputLambdaProcessorProperty.Builder().apply(initializer).build()
+public fun buildInputLambdaProcessorProperty(initializer: @AwsCdkDsl CfnApplication.InputLambdaProcessorProperty.Builder.() -> Unit = {}): CfnApplication.InputLambdaProcessorProperty = CfnApplication.InputLambdaProcessorProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnTable
 
 @Generated
-public fun buildSchemaReferenceProperty(initializer: @AwsCdkDsl
-    CfnTable.SchemaReferenceProperty.Builder.() -> Unit = {}): CfnTable.SchemaReferenceProperty =
-    CfnTable.SchemaReferenceProperty.Builder().apply(initializer).build()
+public fun buildSchemaReferenceProperty(initializer: @AwsCdkDsl CfnTable.SchemaReferenceProperty.Builder.() -> Unit = {}): CfnTable.SchemaReferenceProperty = CfnTable.SchemaReferenceProperty.Builder().apply(initializer).build()

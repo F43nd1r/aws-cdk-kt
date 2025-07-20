@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildSampleUtteranceGenerationSpecificationProperty(initializer: @AwsCdkDsl
-    CfnBot.SampleUtteranceGenerationSpecificationProperty.Builder.() -> Unit = {}):
-    CfnBot.SampleUtteranceGenerationSpecificationProperty =
-    CfnBot.SampleUtteranceGenerationSpecificationProperty.Builder().apply(initializer).build()
+public fun buildSampleUtteranceGenerationSpecificationProperty(initializer: @AwsCdkDsl CfnBot.SampleUtteranceGenerationSpecificationProperty.Builder.() -> Unit = {}): CfnBot.SampleUtteranceGenerationSpecificationProperty = CfnBot.SampleUtteranceGenerationSpecificationProperty.Builder().apply(initializer).build()

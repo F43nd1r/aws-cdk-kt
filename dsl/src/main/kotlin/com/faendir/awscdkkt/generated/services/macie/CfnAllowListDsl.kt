@@ -16,6 +16,4 @@ public fun Construct.cfnAllowList(
 ): CfnAllowList = CfnAllowList(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAllowList(id: String, initializer: @AwsCdkDsl
-    CfnAllowList.Builder.() -> Unit = {}): CfnAllowList = CfnAllowList.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnAllowList(id: String, initializer: @AwsCdkDsl CfnAllowList.Builder.() -> Unit = {}): CfnAllowList = CfnAllowList.Builder.create(this, id).apply(initializer).build()

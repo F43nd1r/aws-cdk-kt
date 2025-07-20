@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kendra.CfnDataSource
 
 @Generated
-public fun buildWebCrawlerAuthenticationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.WebCrawlerAuthenticationConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDataSource.WebCrawlerAuthenticationConfigurationProperty =
-    CfnDataSource.WebCrawlerAuthenticationConfigurationProperty.Builder().apply(initializer).build()
+public fun buildWebCrawlerAuthenticationConfigurationProperty(initializer: @AwsCdkDsl CfnDataSource.WebCrawlerAuthenticationConfigurationProperty.Builder.() -> Unit = {}): CfnDataSource.WebCrawlerAuthenticationConfigurationProperty = CfnDataSource.WebCrawlerAuthenticationConfigurationProperty.Builder().apply(initializer).build()

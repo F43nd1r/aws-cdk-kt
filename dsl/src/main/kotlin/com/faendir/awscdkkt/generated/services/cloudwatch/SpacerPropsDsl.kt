@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.SpacerProps
 
 @Generated
-public fun buildSpacerProps(initializer: @AwsCdkDsl SpacerProps.Builder.() -> Unit = {}):
-    SpacerProps = SpacerProps.Builder().apply(initializer).build()
+public fun buildSpacerProps(initializer: @AwsCdkDsl SpacerProps.Builder.() -> Unit = {}): SpacerProps = SpacerProps.Builder().apply(initializer).build()

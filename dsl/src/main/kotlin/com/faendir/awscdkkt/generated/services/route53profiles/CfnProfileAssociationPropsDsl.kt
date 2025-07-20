@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53profiles.CfnProfileAssociationProps
 
 @Generated
-public fun buildCfnProfileAssociationProps(initializer: @AwsCdkDsl
-    CfnProfileAssociationProps.Builder.() -> Unit = {}): CfnProfileAssociationProps =
-    CfnProfileAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnProfileAssociationProps(initializer: @AwsCdkDsl CfnProfileAssociationProps.Builder.() -> Unit = {}): CfnProfileAssociationProps = CfnProfileAssociationProps.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.directoryservice.CfnMicrosoftADProps
 
 @Generated
-public fun buildCfnMicrosoftADProps(initializer: @AwsCdkDsl CfnMicrosoftADProps.Builder.() -> Unit =
-    {}): CfnMicrosoftADProps = CfnMicrosoftADProps.Builder().apply(initializer).build()
+public fun buildCfnMicrosoftADProps(initializer: @AwsCdkDsl CfnMicrosoftADProps.Builder.() -> Unit = {}): CfnMicrosoftADProps = CfnMicrosoftADProps.Builder().apply(initializer).build()

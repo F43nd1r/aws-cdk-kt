@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediastore.CfnContainer
 
 @Generated
-public fun buildMetricPolicyRuleProperty(initializer: @AwsCdkDsl
-    CfnContainer.MetricPolicyRuleProperty.Builder.() -> Unit = {}):
-    CfnContainer.MetricPolicyRuleProperty =
-    CfnContainer.MetricPolicyRuleProperty.Builder().apply(initializer).build()
+public fun buildMetricPolicyRuleProperty(initializer: @AwsCdkDsl CfnContainer.MetricPolicyRuleProperty.Builder.() -> Unit = {}): CfnContainer.MetricPolicyRuleProperty = CfnContainer.MetricPolicyRuleProperty.Builder().apply(initializer).build()

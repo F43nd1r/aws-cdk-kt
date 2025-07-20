@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cleanrooms.CfnIdMappingTableProps
 
 @Generated
-public fun buildCfnIdMappingTableProps(initializer: @AwsCdkDsl
-    CfnIdMappingTableProps.Builder.() -> Unit = {}): CfnIdMappingTableProps =
-    CfnIdMappingTableProps.Builder().apply(initializer).build()
+public fun buildCfnIdMappingTableProps(initializer: @AwsCdkDsl CfnIdMappingTableProps.Builder.() -> Unit = {}): CfnIdMappingTableProps = CfnIdMappingTableProps.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnComponentType(
 ): CfnComponentType = CfnComponentType(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnComponentType(id: String, initializer: @AwsCdkDsl
-    CfnComponentType.Builder.() -> Unit = {}): CfnComponentType =
-    CfnComponentType.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnComponentType(id: String, initializer: @AwsCdkDsl CfnComponentType.Builder.() -> Unit = {}): CfnComponentType = CfnComponentType.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnMessageTemplate
 
 @Generated
-public fun buildMessageTemplateBodyContentProviderProperty(initializer: @AwsCdkDsl
-    CfnMessageTemplate.MessageTemplateBodyContentProviderProperty.Builder.() -> Unit = {}):
-    CfnMessageTemplate.MessageTemplateBodyContentProviderProperty =
-    CfnMessageTemplate.MessageTemplateBodyContentProviderProperty.Builder().apply(initializer).build()
+public fun buildMessageTemplateBodyContentProviderProperty(initializer: @AwsCdkDsl CfnMessageTemplate.MessageTemplateBodyContentProviderProperty.Builder.() -> Unit = {}): CfnMessageTemplate.MessageTemplateBodyContentProviderProperty = CfnMessageTemplate.MessageTemplateBodyContentProviderProperty.Builder().apply(initializer).build()

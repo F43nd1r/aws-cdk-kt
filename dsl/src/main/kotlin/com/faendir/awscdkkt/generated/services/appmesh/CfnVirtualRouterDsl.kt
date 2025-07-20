@@ -16,6 +16,4 @@ public fun Construct.cfnVirtualRouter(
 ): CfnVirtualRouter = CfnVirtualRouter(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVirtualRouter(id: String, initializer: @AwsCdkDsl
-    CfnVirtualRouter.Builder.() -> Unit = {}): CfnVirtualRouter =
-    CfnVirtualRouter.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnVirtualRouter(id: String, initializer: @AwsCdkDsl CfnVirtualRouter.Builder.() -> Unit = {}): CfnVirtualRouter = CfnVirtualRouter.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.CfnAutoScalingScheduledAction
 
 @Generated
-public fun buildCfnAutoScalingScheduledAction(initializer: @AwsCdkDsl
-    CfnAutoScalingScheduledAction.Builder.() -> Unit = {}): CfnAutoScalingScheduledAction =
-    CfnAutoScalingScheduledAction.Builder().apply(initializer).build()
+public fun buildCfnAutoScalingScheduledAction(initializer: @AwsCdkDsl CfnAutoScalingScheduledAction.Builder.() -> Unit = {}): CfnAutoScalingScheduledAction = CfnAutoScalingScheduledAction.Builder().apply(initializer).build()

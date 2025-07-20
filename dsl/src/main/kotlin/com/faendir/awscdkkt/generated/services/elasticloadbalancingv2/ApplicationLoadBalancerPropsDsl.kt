@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.ApplicationLoadBalancerProps
 
 @Generated
-public fun buildApplicationLoadBalancerProps(initializer: @AwsCdkDsl
-    ApplicationLoadBalancerProps.Builder.() -> Unit = {}): ApplicationLoadBalancerProps =
-    ApplicationLoadBalancerProps.Builder().apply(initializer).build()
+public fun buildApplicationLoadBalancerProps(initializer: @AwsCdkDsl ApplicationLoadBalancerProps.Builder.() -> Unit = {}): ApplicationLoadBalancerProps = ApplicationLoadBalancerProps.Builder().apply(initializer).build()

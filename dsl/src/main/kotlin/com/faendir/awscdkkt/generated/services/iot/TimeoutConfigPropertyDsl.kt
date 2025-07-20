@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnJobTemplate
 
 @Generated
-public fun buildTimeoutConfigProperty(initializer: @AwsCdkDsl
-    CfnJobTemplate.TimeoutConfigProperty.Builder.() -> Unit = {}):
-    CfnJobTemplate.TimeoutConfigProperty =
-    CfnJobTemplate.TimeoutConfigProperty.Builder().apply(initializer).build()
+public fun buildTimeoutConfigProperty(initializer: @AwsCdkDsl CfnJobTemplate.TimeoutConfigProperty.Builder.() -> Unit = {}): CfnJobTemplate.TimeoutConfigProperty = CfnJobTemplate.TimeoutConfigProperty.Builder().apply(initializer).build()

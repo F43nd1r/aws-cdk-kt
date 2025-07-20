@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.NetworkForwardOptions
 
 @Generated
-public fun buildNetworkForwardOptions(initializer: @AwsCdkDsl
-    NetworkForwardOptions.Builder.() -> Unit = {}): NetworkForwardOptions =
-    NetworkForwardOptions.Builder().apply(initializer).build()
+public fun buildNetworkForwardOptions(initializer: @AwsCdkDsl NetworkForwardOptions.Builder.() -> Unit = {}): NetworkForwardOptions = NetworkForwardOptions.Builder().apply(initializer).build()

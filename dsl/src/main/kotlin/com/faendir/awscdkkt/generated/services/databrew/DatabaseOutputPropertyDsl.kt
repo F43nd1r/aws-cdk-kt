@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.databrew.CfnJob
 
 @Generated
-public fun buildDatabaseOutputProperty(initializer: @AwsCdkDsl
-    CfnJob.DatabaseOutputProperty.Builder.() -> Unit = {}): CfnJob.DatabaseOutputProperty =
-    CfnJob.DatabaseOutputProperty.Builder().apply(initializer).build()
+public fun buildDatabaseOutputProperty(initializer: @AwsCdkDsl CfnJob.DatabaseOutputProperty.Builder.() -> Unit = {}): CfnJob.DatabaseOutputProperty = CfnJob.DatabaseOutputProperty.Builder().apply(initializer).build()

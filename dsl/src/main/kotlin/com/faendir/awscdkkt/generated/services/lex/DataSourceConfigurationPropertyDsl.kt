@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildDataSourceConfigurationProperty(initializer: @AwsCdkDsl
-    CfnBot.DataSourceConfigurationProperty.Builder.() -> Unit = {}):
-    CfnBot.DataSourceConfigurationProperty =
-    CfnBot.DataSourceConfigurationProperty.Builder().apply(initializer).build()
+public fun buildDataSourceConfigurationProperty(initializer: @AwsCdkDsl CfnBot.DataSourceConfigurationProperty.Builder.() -> Unit = {}): CfnBot.DataSourceConfigurationProperty = CfnBot.DataSourceConfigurationProperty.Builder().apply(initializer).build()

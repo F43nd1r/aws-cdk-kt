@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.sam.CfnHttpApiProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnHttpApi(id: String, initializer: @AwsCdkDsl CfnHttpApi.() -> Unit = {}):
-    CfnHttpApi = CfnHttpApi(this, id).apply(initializer)
+public fun Construct.cfnHttpApi(id: String, initializer: @AwsCdkDsl CfnHttpApi.() -> Unit = {}): CfnHttpApi = CfnHttpApi(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnHttpApi(
@@ -20,6 +19,4 @@ public fun Construct.cfnHttpApi(
 ): CfnHttpApi = CfnHttpApi(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnHttpApi(id: String, initializer: @AwsCdkDsl
-    CfnHttpApi.Builder.() -> Unit = {}): CfnHttpApi = CfnHttpApi.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnHttpApi(id: String, initializer: @AwsCdkDsl CfnHttpApi.Builder.() -> Unit = {}): CfnHttpApi = CfnHttpApi.Builder.create(this, id).apply(initializer).build()

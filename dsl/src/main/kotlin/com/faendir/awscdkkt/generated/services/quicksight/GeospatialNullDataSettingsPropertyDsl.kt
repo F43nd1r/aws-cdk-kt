@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
-public fun buildGeospatialNullDataSettingsProperty(initializer: @AwsCdkDsl
-    CfnDashboard.GeospatialNullDataSettingsProperty.Builder.() -> Unit = {}):
-    CfnDashboard.GeospatialNullDataSettingsProperty =
-    CfnDashboard.GeospatialNullDataSettingsProperty.Builder().apply(initializer).build()
+public fun buildGeospatialNullDataSettingsProperty(initializer: @AwsCdkDsl CfnDashboard.GeospatialNullDataSettingsProperty.Builder.() -> Unit = {}): CfnDashboard.GeospatialNullDataSettingsProperty = CfnDashboard.GeospatialNullDataSettingsProperty.Builder().apply(initializer).build()

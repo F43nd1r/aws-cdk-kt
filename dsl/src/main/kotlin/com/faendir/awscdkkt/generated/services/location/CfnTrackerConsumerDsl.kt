@@ -16,6 +16,4 @@ public fun Construct.cfnTrackerConsumer(
 ): CfnTrackerConsumer = CfnTrackerConsumer(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTrackerConsumer(id: String, initializer: @AwsCdkDsl
-    CfnTrackerConsumer.Builder.() -> Unit = {}): CfnTrackerConsumer =
-    CfnTrackerConsumer.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTrackerConsumer(id: String, initializer: @AwsCdkDsl CfnTrackerConsumer.Builder.() -> Unit = {}): CfnTrackerConsumer = CfnTrackerConsumer.Builder.create(this, id).apply(initializer).build()

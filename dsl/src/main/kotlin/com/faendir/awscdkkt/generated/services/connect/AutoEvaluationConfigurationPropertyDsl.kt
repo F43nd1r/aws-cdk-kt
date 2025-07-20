@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnEvaluationForm
 
 @Generated
-public fun buildAutoEvaluationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnEvaluationForm.AutoEvaluationConfigurationProperty.Builder.() -> Unit = {}):
-    CfnEvaluationForm.AutoEvaluationConfigurationProperty =
-    CfnEvaluationForm.AutoEvaluationConfigurationProperty.Builder().apply(initializer).build()
+public fun buildAutoEvaluationConfigurationProperty(initializer: @AwsCdkDsl CfnEvaluationForm.AutoEvaluationConfigurationProperty.Builder.() -> Unit = {}): CfnEvaluationForm.AutoEvaluationConfigurationProperty = CfnEvaluationForm.AutoEvaluationConfigurationProperty.Builder().apply(initializer).build()

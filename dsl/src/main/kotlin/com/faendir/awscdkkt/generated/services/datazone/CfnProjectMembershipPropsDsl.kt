@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnProjectMembershipProps
 
 @Generated
-public fun buildCfnProjectMembershipProps(initializer: @AwsCdkDsl
-    CfnProjectMembershipProps.Builder.() -> Unit = {}): CfnProjectMembershipProps =
-    CfnProjectMembershipProps.Builder().apply(initializer).build()
+public fun buildCfnProjectMembershipProps(initializer: @AwsCdkDsl CfnProjectMembershipProps.Builder.() -> Unit = {}): CfnProjectMembershipProps = CfnProjectMembershipProps.Builder().apply(initializer).build()

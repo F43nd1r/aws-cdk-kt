@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fms.CfnPolicy
 
 @Generated
-public fun buildNetworkFirewallPolicyProperty(initializer: @AwsCdkDsl
-    CfnPolicy.NetworkFirewallPolicyProperty.Builder.() -> Unit = {}):
-    CfnPolicy.NetworkFirewallPolicyProperty =
-    CfnPolicy.NetworkFirewallPolicyProperty.Builder().apply(initializer).build()
+public fun buildNetworkFirewallPolicyProperty(initializer: @AwsCdkDsl CfnPolicy.NetworkFirewallPolicyProperty.Builder.() -> Unit = {}): CfnPolicy.NetworkFirewallPolicyProperty = CfnPolicy.NetworkFirewallPolicyProperty.Builder().apply(initializer).build()

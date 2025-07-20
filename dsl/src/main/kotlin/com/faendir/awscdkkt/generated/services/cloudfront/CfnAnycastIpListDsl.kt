@@ -16,6 +16,4 @@ public fun Construct.cfnAnycastIpList(
 ): CfnAnycastIpList = CfnAnycastIpList(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAnycastIpList(id: String, initializer: @AwsCdkDsl
-    CfnAnycastIpList.Builder.() -> Unit = {}): CfnAnycastIpList =
-    CfnAnycastIpList.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAnycastIpList(id: String, initializer: @AwsCdkDsl CfnAnycastIpList.Builder.() -> Unit = {}): CfnAnycastIpList = CfnAnycastIpList.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicecatalog.CfnPortfolioPrincipalAssociationProps
 
 @Generated
-public fun buildCfnPortfolioPrincipalAssociationProps(initializer: @AwsCdkDsl
-    CfnPortfolioPrincipalAssociationProps.Builder.() -> Unit = {}):
-    CfnPortfolioPrincipalAssociationProps =
-    CfnPortfolioPrincipalAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnPortfolioPrincipalAssociationProps(initializer: @AwsCdkDsl CfnPortfolioPrincipalAssociationProps.Builder.() -> Unit = {}): CfnPortfolioPrincipalAssociationProps = CfnPortfolioPrincipalAssociationProps.Builder().apply(initializer).build()

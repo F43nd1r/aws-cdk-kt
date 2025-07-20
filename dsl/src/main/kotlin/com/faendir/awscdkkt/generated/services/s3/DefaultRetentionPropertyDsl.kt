@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
-public fun buildDefaultRetentionProperty(initializer: @AwsCdkDsl
-    CfnBucket.DefaultRetentionProperty.Builder.() -> Unit = {}): CfnBucket.DefaultRetentionProperty
-    = CfnBucket.DefaultRetentionProperty.Builder().apply(initializer).build()
+public fun buildDefaultRetentionProperty(initializer: @AwsCdkDsl CfnBucket.DefaultRetentionProperty.Builder.() -> Unit = {}): CfnBucket.DefaultRetentionProperty = CfnBucket.DefaultRetentionProperty.Builder().apply(initializer).build()

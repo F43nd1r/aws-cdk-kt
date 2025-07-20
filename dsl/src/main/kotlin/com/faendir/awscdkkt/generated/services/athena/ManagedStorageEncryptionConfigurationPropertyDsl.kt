@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.athena.CfnWorkGroup
 
 @Generated
-public fun buildManagedStorageEncryptionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnWorkGroup.ManagedStorageEncryptionConfigurationProperty.Builder.() -> Unit = {}):
-    CfnWorkGroup.ManagedStorageEncryptionConfigurationProperty =
-    CfnWorkGroup.ManagedStorageEncryptionConfigurationProperty.Builder().apply(initializer).build()
+public fun buildManagedStorageEncryptionConfigurationProperty(initializer: @AwsCdkDsl CfnWorkGroup.ManagedStorageEncryptionConfigurationProperty.Builder.() -> Unit = {}): CfnWorkGroup.ManagedStorageEncryptionConfigurationProperty = CfnWorkGroup.ManagedStorageEncryptionConfigurationProperty.Builder().apply(initializer).build()

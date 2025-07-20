@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediaconnect.CfnFlow
 
 @Generated
-public fun buildAudioMonitoringSettingProperty(initializer: @AwsCdkDsl
-    CfnFlow.AudioMonitoringSettingProperty.Builder.() -> Unit = {}):
-    CfnFlow.AudioMonitoringSettingProperty =
-    CfnFlow.AudioMonitoringSettingProperty.Builder().apply(initializer).build()
+public fun buildAudioMonitoringSettingProperty(initializer: @AwsCdkDsl CfnFlow.AudioMonitoringSettingProperty.Builder.() -> Unit = {}): CfnFlow.AudioMonitoringSettingProperty = CfnFlow.AudioMonitoringSettingProperty.Builder().apply(initializer).build()

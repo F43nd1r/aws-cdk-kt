@@ -16,6 +16,4 @@ public fun Construct.realtimeLogConfig(
 ): RealtimeLogConfig = RealtimeLogConfig(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildRealtimeLogConfig(id: String, initializer: @AwsCdkDsl
-    RealtimeLogConfig.Builder.() -> Unit = {}): RealtimeLogConfig =
-    RealtimeLogConfig.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildRealtimeLogConfig(id: String, initializer: @AwsCdkDsl RealtimeLogConfig.Builder.() -> Unit = {}): RealtimeLogConfig = RealtimeLogConfig.Builder.create(this, id).apply(initializer).build()

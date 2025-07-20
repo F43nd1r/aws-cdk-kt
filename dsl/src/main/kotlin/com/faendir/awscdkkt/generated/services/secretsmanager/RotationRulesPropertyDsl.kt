@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.secretsmanager.CfnRotationSchedule
 
 @Generated
-public fun buildRotationRulesProperty(initializer: @AwsCdkDsl
-    CfnRotationSchedule.RotationRulesProperty.Builder.() -> Unit = {}):
-    CfnRotationSchedule.RotationRulesProperty =
-    CfnRotationSchedule.RotationRulesProperty.Builder().apply(initializer).build()
+public fun buildRotationRulesProperty(initializer: @AwsCdkDsl CfnRotationSchedule.RotationRulesProperty.Builder.() -> Unit = {}): CfnRotationSchedule.RotationRulesProperty = CfnRotationSchedule.RotationRulesProperty.Builder().apply(initializer).build()

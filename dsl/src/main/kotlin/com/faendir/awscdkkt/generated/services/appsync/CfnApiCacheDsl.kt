@@ -16,6 +16,4 @@ public fun Construct.cfnApiCache(
 ): CfnApiCache = CfnApiCache(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnApiCache(id: String, initializer: @AwsCdkDsl
-    CfnApiCache.Builder.() -> Unit = {}): CfnApiCache = CfnApiCache.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnApiCache(id: String, initializer: @AwsCdkDsl CfnApiCache.Builder.() -> Unit = {}): CfnApiCache = CfnApiCache.Builder.create(this, id).apply(initializer).build()

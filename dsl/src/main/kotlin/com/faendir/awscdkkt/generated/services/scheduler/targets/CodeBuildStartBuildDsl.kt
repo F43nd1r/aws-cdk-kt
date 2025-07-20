@@ -7,6 +7,4 @@ import software.amazon.awscdk.services.codebuild.IProject
 import software.amazon.awscdk.services.scheduler.targets.CodeBuildStartBuild
 
 @Generated
-public fun buildCodeBuildStartBuild(project: IProject, initializer: @AwsCdkDsl
-    CodeBuildStartBuild.Builder.() -> Unit = {}): CodeBuildStartBuild =
-    CodeBuildStartBuild.Builder.create(project).apply(initializer).build()
+public fun buildCodeBuildStartBuild(project: IProject, initializer: @AwsCdkDsl CodeBuildStartBuild.Builder.() -> Unit = {}): CodeBuildStartBuild = CodeBuildStartBuild.Builder.create(project).apply(initializer).build()

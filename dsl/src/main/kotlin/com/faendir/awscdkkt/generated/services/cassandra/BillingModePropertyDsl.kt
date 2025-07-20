@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cassandra.CfnTable
 
 @Generated
-public fun buildBillingModeProperty(initializer: @AwsCdkDsl
-    CfnTable.BillingModeProperty.Builder.() -> Unit = {}): CfnTable.BillingModeProperty =
-    CfnTable.BillingModeProperty.Builder().apply(initializer).build()
+public fun buildBillingModeProperty(initializer: @AwsCdkDsl CfnTable.BillingModeProperty.Builder.() -> Unit = {}): CfnTable.BillingModeProperty = CfnTable.BillingModeProperty.Builder().apply(initializer).build()

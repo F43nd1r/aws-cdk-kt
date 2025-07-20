@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnMailManagerRuleSetProps
 
 @Generated
-public fun buildCfnMailManagerRuleSetProps(initializer: @AwsCdkDsl
-    CfnMailManagerRuleSetProps.Builder.() -> Unit = {}): CfnMailManagerRuleSetProps =
-    CfnMailManagerRuleSetProps.Builder().apply(initializer).build()
+public fun buildCfnMailManagerRuleSetProps(initializer: @AwsCdkDsl CfnMailManagerRuleSetProps.Builder.() -> Unit = {}): CfnMailManagerRuleSetProps = CfnMailManagerRuleSetProps.Builder().apply(initializer).build()

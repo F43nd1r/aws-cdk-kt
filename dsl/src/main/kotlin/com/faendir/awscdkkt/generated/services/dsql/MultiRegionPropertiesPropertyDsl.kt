@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dsql.CfnCluster
 
 @Generated
-public fun buildMultiRegionPropertiesProperty(initializer: @AwsCdkDsl
-    CfnCluster.MultiRegionPropertiesProperty.Builder.() -> Unit = {}):
-    CfnCluster.MultiRegionPropertiesProperty =
-    CfnCluster.MultiRegionPropertiesProperty.Builder().apply(initializer).build()
+public fun buildMultiRegionPropertiesProperty(initializer: @AwsCdkDsl CfnCluster.MultiRegionPropertiesProperty.Builder.() -> Unit = {}): CfnCluster.MultiRegionPropertiesProperty = CfnCluster.MultiRegionPropertiesProperty.Builder().apply(initializer).build()

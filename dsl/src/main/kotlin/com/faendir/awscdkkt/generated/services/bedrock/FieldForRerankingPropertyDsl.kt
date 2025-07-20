@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnFlowVersion
 
 @Generated
-public fun buildFieldForRerankingProperty(initializer: @AwsCdkDsl
-    CfnFlowVersion.FieldForRerankingProperty.Builder.() -> Unit = {}):
-    CfnFlowVersion.FieldForRerankingProperty =
-    CfnFlowVersion.FieldForRerankingProperty.Builder().apply(initializer).build()
+public fun buildFieldForRerankingProperty(initializer: @AwsCdkDsl CfnFlowVersion.FieldForRerankingProperty.Builder.() -> Unit = {}): CfnFlowVersion.FieldForRerankingProperty = CfnFlowVersion.FieldForRerankingProperty.Builder().apply(initializer).build()

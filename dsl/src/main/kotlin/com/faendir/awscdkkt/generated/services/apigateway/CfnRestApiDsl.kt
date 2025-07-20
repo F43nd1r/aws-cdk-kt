@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.apigateway.CfnRestApiProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnRestApi(id: String, initializer: @AwsCdkDsl CfnRestApi.() -> Unit = {}):
-    CfnRestApi = CfnRestApi(this, id).apply(initializer)
+public fun Construct.cfnRestApi(id: String, initializer: @AwsCdkDsl CfnRestApi.() -> Unit = {}): CfnRestApi = CfnRestApi(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnRestApi(
@@ -20,6 +19,4 @@ public fun Construct.cfnRestApi(
 ): CfnRestApi = CfnRestApi(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRestApi(id: String, initializer: @AwsCdkDsl
-    CfnRestApi.Builder.() -> Unit = {}): CfnRestApi = CfnRestApi.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnRestApi(id: String, initializer: @AwsCdkDsl CfnRestApi.Builder.() -> Unit = {}): CfnRestApi = CfnRestApi.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildNumericAxisOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.NumericAxisOptionsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.NumericAxisOptionsProperty =
-    CfnTemplate.NumericAxisOptionsProperty.Builder().apply(initializer).build()
+public fun buildNumericAxisOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.NumericAxisOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.NumericAxisOptionsProperty = CfnTemplate.NumericAxisOptionsProperty.Builder().apply(initializer).build()

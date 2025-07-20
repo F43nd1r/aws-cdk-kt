@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.globalaccelerator.CfnAcceleratorProps
 
 @Generated
-public fun buildCfnAcceleratorProps(initializer: @AwsCdkDsl CfnAcceleratorProps.Builder.() -> Unit =
-    {}): CfnAcceleratorProps = CfnAcceleratorProps.Builder().apply(initializer).build()
+public fun buildCfnAcceleratorProps(initializer: @AwsCdkDsl CfnAcceleratorProps.Builder.() -> Unit = {}): CfnAcceleratorProps = CfnAcceleratorProps.Builder().apply(initializer).build()

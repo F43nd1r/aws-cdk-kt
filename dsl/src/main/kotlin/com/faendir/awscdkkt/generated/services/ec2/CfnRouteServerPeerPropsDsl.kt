@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnRouteServerPeerProps
 
 @Generated
-public fun buildCfnRouteServerPeerProps(initializer: @AwsCdkDsl
-    CfnRouteServerPeerProps.Builder.() -> Unit = {}): CfnRouteServerPeerProps =
-    CfnRouteServerPeerProps.Builder().apply(initializer).build()
+public fun buildCfnRouteServerPeerProps(initializer: @AwsCdkDsl CfnRouteServerPeerProps.Builder.() -> Unit = {}): CfnRouteServerPeerProps = CfnRouteServerPeerProps.Builder().apply(initializer).build()

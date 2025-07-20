@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildConditionalFormattingColorProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ConditionalFormattingColorProperty.Builder.() -> Unit = {}):
-    CfnTemplate.ConditionalFormattingColorProperty =
-    CfnTemplate.ConditionalFormattingColorProperty.Builder().apply(initializer).build()
+public fun buildConditionalFormattingColorProperty(initializer: @AwsCdkDsl CfnTemplate.ConditionalFormattingColorProperty.Builder.() -> Unit = {}): CfnTemplate.ConditionalFormattingColorProperty = CfnTemplate.ConditionalFormattingColorProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnUserPool
 
 @Generated
-public fun buildPasswordPolicyProperty(initializer: @AwsCdkDsl
-    CfnUserPool.PasswordPolicyProperty.Builder.() -> Unit = {}): CfnUserPool.PasswordPolicyProperty
-    = CfnUserPool.PasswordPolicyProperty.Builder().apply(initializer).build()
+public fun buildPasswordPolicyProperty(initializer: @AwsCdkDsl CfnUserPool.PasswordPolicyProperty.Builder.() -> Unit = {}): CfnUserPool.PasswordPolicyProperty = CfnUserPool.PasswordPolicyProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnMultiplex
 
 @Generated
-public fun buildMultiplexOutputDestinationProperty(initializer: @AwsCdkDsl
-    CfnMultiplex.MultiplexOutputDestinationProperty.Builder.() -> Unit = {}):
-    CfnMultiplex.MultiplexOutputDestinationProperty =
-    CfnMultiplex.MultiplexOutputDestinationProperty.Builder().apply(initializer).build()
+public fun buildMultiplexOutputDestinationProperty(initializer: @AwsCdkDsl CfnMultiplex.MultiplexOutputDestinationProperty.Builder.() -> Unit = {}): CfnMultiplex.MultiplexOutputDestinationProperty = CfnMultiplex.MultiplexOutputDestinationProperty.Builder().apply(initializer).build()

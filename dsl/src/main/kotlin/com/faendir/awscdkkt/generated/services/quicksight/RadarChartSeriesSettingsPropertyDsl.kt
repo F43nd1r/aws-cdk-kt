@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildRadarChartSeriesSettingsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.RadarChartSeriesSettingsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.RadarChartSeriesSettingsProperty =
-    CfnTemplate.RadarChartSeriesSettingsProperty.Builder().apply(initializer).build()
+public fun buildRadarChartSeriesSettingsProperty(initializer: @AwsCdkDsl CfnTemplate.RadarChartSeriesSettingsProperty.Builder.() -> Unit = {}): CfnTemplate.RadarChartSeriesSettingsProperty = CfnTemplate.RadarChartSeriesSettingsProperty.Builder().apply(initializer).build()

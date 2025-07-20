@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kafkaconnect.CfnConnector
 
 @Generated
-public fun buildCloudWatchLogsLogDeliveryProperty(initializer: @AwsCdkDsl
-    CfnConnector.CloudWatchLogsLogDeliveryProperty.Builder.() -> Unit = {}):
-    CfnConnector.CloudWatchLogsLogDeliveryProperty =
-    CfnConnector.CloudWatchLogsLogDeliveryProperty.Builder().apply(initializer).build()
+public fun buildCloudWatchLogsLogDeliveryProperty(initializer: @AwsCdkDsl CfnConnector.CloudWatchLogsLogDeliveryProperty.Builder.() -> Unit = {}): CfnConnector.CloudWatchLogsLogDeliveryProperty = CfnConnector.CloudWatchLogsLogDeliveryProperty.Builder().apply(initializer).build()

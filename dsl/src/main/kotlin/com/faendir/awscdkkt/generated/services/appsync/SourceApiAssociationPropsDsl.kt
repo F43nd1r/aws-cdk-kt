@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.SourceApiAssociationProps
 
 @Generated
-public fun buildSourceApiAssociationProps(initializer: @AwsCdkDsl
-    SourceApiAssociationProps.Builder.() -> Unit = {}): SourceApiAssociationProps =
-    SourceApiAssociationProps.Builder().apply(initializer).build()
+public fun buildSourceApiAssociationProps(initializer: @AwsCdkDsl SourceApiAssociationProps.Builder.() -> Unit = {}): SourceApiAssociationProps = SourceApiAssociationProps.Builder().apply(initializer).build()

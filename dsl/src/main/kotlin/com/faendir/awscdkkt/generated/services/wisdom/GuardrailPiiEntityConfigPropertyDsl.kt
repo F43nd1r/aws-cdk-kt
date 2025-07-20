@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnAIGuardrail
 
 @Generated
-public fun buildGuardrailPiiEntityConfigProperty(initializer: @AwsCdkDsl
-    CfnAIGuardrail.GuardrailPiiEntityConfigProperty.Builder.() -> Unit = {}):
-    CfnAIGuardrail.GuardrailPiiEntityConfigProperty =
-    CfnAIGuardrail.GuardrailPiiEntityConfigProperty.Builder().apply(initializer).build()
+public fun buildGuardrailPiiEntityConfigProperty(initializer: @AwsCdkDsl CfnAIGuardrail.GuardrailPiiEntityConfigProperty.Builder.() -> Unit = {}): CfnAIGuardrail.GuardrailPiiEntityConfigProperty = CfnAIGuardrail.GuardrailPiiEntityConfigProperty.Builder().apply(initializer).build()

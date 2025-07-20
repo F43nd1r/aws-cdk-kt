@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apptest.CfnTestCase
 
 @Generated
-public fun buildTestCaseLatestVersionProperty(initializer: @AwsCdkDsl
-    CfnTestCase.TestCaseLatestVersionProperty.Builder.() -> Unit = {}):
-    CfnTestCase.TestCaseLatestVersionProperty =
-    CfnTestCase.TestCaseLatestVersionProperty.Builder().apply(initializer).build()
+public fun buildTestCaseLatestVersionProperty(initializer: @AwsCdkDsl CfnTestCase.TestCaseLatestVersionProperty.Builder.() -> Unit = {}): CfnTestCase.TestCaseLatestVersionProperty = CfnTestCase.TestCaseLatestVersionProperty.Builder().apply(initializer).build()

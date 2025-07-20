@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.CfnAutoScalingGroup
 
 @Generated
-public fun buildCapacityReservationTargetProperty(initializer: @AwsCdkDsl
-    CfnAutoScalingGroup.CapacityReservationTargetProperty.Builder.() -> Unit = {}):
-    CfnAutoScalingGroup.CapacityReservationTargetProperty =
-    CfnAutoScalingGroup.CapacityReservationTargetProperty.Builder().apply(initializer).build()
+public fun buildCapacityReservationTargetProperty(initializer: @AwsCdkDsl CfnAutoScalingGroup.CapacityReservationTargetProperty.Builder.() -> Unit = {}): CfnAutoScalingGroup.CapacityReservationTargetProperty = CfnAutoScalingGroup.CapacityReservationTargetProperty.Builder().apply(initializer).build()

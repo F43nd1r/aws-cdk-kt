@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.CopyOptions
 
 @Generated
-public fun buildCopyOptions(initializer: @AwsCdkDsl CopyOptions.Builder.() -> Unit = {}):
-    CopyOptions = CopyOptions.Builder().apply(initializer).build()
+public fun buildCopyOptions(initializer: @AwsCdkDsl CopyOptions.Builder.() -> Unit = {}): CopyOptions = CopyOptions.Builder().apply(initializer).build()

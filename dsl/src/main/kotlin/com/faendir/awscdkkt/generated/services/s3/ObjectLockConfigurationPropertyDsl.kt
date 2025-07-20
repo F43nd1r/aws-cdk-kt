@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
-public fun buildObjectLockConfigurationProperty(initializer: @AwsCdkDsl
-    CfnBucket.ObjectLockConfigurationProperty.Builder.() -> Unit = {}):
-    CfnBucket.ObjectLockConfigurationProperty =
-    CfnBucket.ObjectLockConfigurationProperty.Builder().apply(initializer).build()
+public fun buildObjectLockConfigurationProperty(initializer: @AwsCdkDsl CfnBucket.ObjectLockConfigurationProperty.Builder.() -> Unit = {}): CfnBucket.ObjectLockConfigurationProperty = CfnBucket.ObjectLockConfigurationProperty.Builder().apply(initializer).build()

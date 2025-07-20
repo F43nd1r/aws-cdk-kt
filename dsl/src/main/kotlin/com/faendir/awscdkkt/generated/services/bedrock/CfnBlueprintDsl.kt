@@ -16,6 +16,4 @@ public fun Construct.cfnBlueprint(
 ): CfnBlueprint = CfnBlueprint(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnBlueprint(id: String, initializer: @AwsCdkDsl
-    CfnBlueprint.Builder.() -> Unit = {}): CfnBlueprint = CfnBlueprint.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnBlueprint(id: String, initializer: @AwsCdkDsl CfnBlueprint.Builder.() -> Unit = {}): CfnBlueprint = CfnBlueprint.Builder.create(this, id).apply(initializer).build()

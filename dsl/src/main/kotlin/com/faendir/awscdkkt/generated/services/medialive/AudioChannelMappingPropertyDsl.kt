@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildAudioChannelMappingProperty(initializer: @AwsCdkDsl
-    CfnChannel.AudioChannelMappingProperty.Builder.() -> Unit = {}):
-    CfnChannel.AudioChannelMappingProperty =
-    CfnChannel.AudioChannelMappingProperty.Builder().apply(initializer).build()
+public fun buildAudioChannelMappingProperty(initializer: @AwsCdkDsl CfnChannel.AudioChannelMappingProperty.Builder.() -> Unit = {}): CfnChannel.AudioChannelMappingProperty = CfnChannel.AudioChannelMappingProperty.Builder().apply(initializer).build()

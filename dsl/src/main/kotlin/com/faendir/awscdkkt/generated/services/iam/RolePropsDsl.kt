@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.RoleProps
 
 @Generated
-public fun buildRoleProps(initializer: @AwsCdkDsl RoleProps.Builder.() -> Unit = {}): RoleProps =
-    RoleProps.Builder().apply(initializer).build()
+public fun buildRoleProps(initializer: @AwsCdkDsl RoleProps.Builder.() -> Unit = {}): RoleProps = RoleProps.Builder().apply(initializer).build()

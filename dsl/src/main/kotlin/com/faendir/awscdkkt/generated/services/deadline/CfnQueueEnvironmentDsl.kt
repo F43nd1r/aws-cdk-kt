@@ -16,6 +16,4 @@ public fun Construct.cfnQueueEnvironment(
 ): CfnQueueEnvironment = CfnQueueEnvironment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnQueueEnvironment(id: String, initializer: @AwsCdkDsl
-    CfnQueueEnvironment.Builder.() -> Unit = {}): CfnQueueEnvironment =
-    CfnQueueEnvironment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnQueueEnvironment(id: String, initializer: @AwsCdkDsl CfnQueueEnvironment.Builder.() -> Unit = {}): CfnQueueEnvironment = CfnQueueEnvironment.Builder.create(this, id).apply(initializer).build()

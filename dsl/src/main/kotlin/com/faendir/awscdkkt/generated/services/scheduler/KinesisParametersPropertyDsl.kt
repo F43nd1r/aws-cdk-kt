@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.scheduler.CfnSchedule
 
 @Generated
-public fun buildKinesisParametersProperty(initializer: @AwsCdkDsl
-    CfnSchedule.KinesisParametersProperty.Builder.() -> Unit = {}):
-    CfnSchedule.KinesisParametersProperty =
-    CfnSchedule.KinesisParametersProperty.Builder().apply(initializer).build()
+public fun buildKinesisParametersProperty(initializer: @AwsCdkDsl CfnSchedule.KinesisParametersProperty.Builder.() -> Unit = {}): CfnSchedule.KinesisParametersProperty = CfnSchedule.KinesisParametersProperty.Builder().apply(initializer).build()

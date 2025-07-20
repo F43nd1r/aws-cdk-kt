@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
-public fun buildSystemControlProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.SystemControlProperty.Builder.() -> Unit = {}):
-    CfnTaskDefinition.SystemControlProperty =
-    CfnTaskDefinition.SystemControlProperty.Builder().apply(initializer).build()
+public fun buildSystemControlProperty(initializer: @AwsCdkDsl CfnTaskDefinition.SystemControlProperty.Builder.() -> Unit = {}): CfnTaskDefinition.SystemControlProperty = CfnTaskDefinition.SystemControlProperty.Builder().apply(initializer).build()

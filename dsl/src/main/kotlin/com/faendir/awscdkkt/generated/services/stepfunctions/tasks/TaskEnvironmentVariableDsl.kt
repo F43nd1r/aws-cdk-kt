@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.TaskEnvironmentVariable
 
 @Generated
-public fun buildTaskEnvironmentVariable(initializer: @AwsCdkDsl
-    TaskEnvironmentVariable.Builder.() -> Unit = {}): TaskEnvironmentVariable =
-    TaskEnvironmentVariable.Builder().apply(initializer).build()
+public fun buildTaskEnvironmentVariable(initializer: @AwsCdkDsl TaskEnvironmentVariable.Builder.() -> Unit = {}): TaskEnvironmentVariable = TaskEnvironmentVariable.Builder().apply(initializer).build()

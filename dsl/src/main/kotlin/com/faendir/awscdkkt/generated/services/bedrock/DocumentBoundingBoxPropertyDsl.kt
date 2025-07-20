@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnDataAutomationProject
 
 @Generated
-public fun buildDocumentBoundingBoxProperty(initializer: @AwsCdkDsl
-    CfnDataAutomationProject.DocumentBoundingBoxProperty.Builder.() -> Unit = {}):
-    CfnDataAutomationProject.DocumentBoundingBoxProperty =
-    CfnDataAutomationProject.DocumentBoundingBoxProperty.Builder().apply(initializer).build()
+public fun buildDocumentBoundingBoxProperty(initializer: @AwsCdkDsl CfnDataAutomationProject.DocumentBoundingBoxProperty.Builder.() -> Unit = {}): CfnDataAutomationProject.DocumentBoundingBoxProperty = CfnDataAutomationProject.DocumentBoundingBoxProperty.Builder().apply(initializer).build()

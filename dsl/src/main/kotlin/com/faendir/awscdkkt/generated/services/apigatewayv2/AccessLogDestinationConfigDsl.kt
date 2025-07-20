@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.AccessLogDestinationConfig
 
 @Generated
-public fun buildAccessLogDestinationConfig(initializer: @AwsCdkDsl
-    AccessLogDestinationConfig.Builder.() -> Unit = {}): AccessLogDestinationConfig =
-    AccessLogDestinationConfig.Builder().apply(initializer).build()
+public fun buildAccessLogDestinationConfig(initializer: @AwsCdkDsl AccessLogDestinationConfig.Builder.() -> Unit = {}): AccessLogDestinationConfig = AccessLogDestinationConfig.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.GrantReplicationPermissionProps
 
 @Generated
-public fun buildGrantReplicationPermissionProps(initializer: @AwsCdkDsl
-    GrantReplicationPermissionProps.Builder.() -> Unit = {}): GrantReplicationPermissionProps =
-    GrantReplicationPermissionProps.Builder().apply(initializer).build()
+public fun buildGrantReplicationPermissionProps(initializer: @AwsCdkDsl GrantReplicationPermissionProps.Builder.() -> Unit = {}): GrantReplicationPermissionProps = GrantReplicationPermissionProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.CfnEventInvokeConfigProps
 
 @Generated
-public fun buildCfnEventInvokeConfigProps(initializer: @AwsCdkDsl
-    CfnEventInvokeConfigProps.Builder.() -> Unit = {}): CfnEventInvokeConfigProps =
-    CfnEventInvokeConfigProps.Builder().apply(initializer).build()
+public fun buildCfnEventInvokeConfigProps(initializer: @AwsCdkDsl CfnEventInvokeConfigProps.Builder.() -> Unit = {}): CfnEventInvokeConfigProps = CfnEventInvokeConfigProps.Builder().apply(initializer).build()

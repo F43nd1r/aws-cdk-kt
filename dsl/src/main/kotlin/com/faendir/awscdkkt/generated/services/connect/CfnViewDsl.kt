@@ -16,5 +16,4 @@ public fun Construct.cfnView(
 ): CfnView = CfnView(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnView(id: String, initializer: @AwsCdkDsl CfnView.Builder.() -> Unit =
-    {}): CfnView = CfnView.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnView(id: String, initializer: @AwsCdkDsl CfnView.Builder.() -> Unit = {}): CfnView = CfnView.Builder.create(this, id).apply(initializer).build()

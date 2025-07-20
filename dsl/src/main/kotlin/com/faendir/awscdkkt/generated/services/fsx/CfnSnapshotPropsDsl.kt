@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fsx.CfnSnapshotProps
 
 @Generated
-public fun buildCfnSnapshotProps(initializer: @AwsCdkDsl CfnSnapshotProps.Builder.() -> Unit = {}):
-    CfnSnapshotProps = CfnSnapshotProps.Builder().apply(initializer).build()
+public fun buildCfnSnapshotProps(initializer: @AwsCdkDsl CfnSnapshotProps.Builder.() -> Unit = {}): CfnSnapshotProps = CfnSnapshotProps.Builder().apply(initializer).build()

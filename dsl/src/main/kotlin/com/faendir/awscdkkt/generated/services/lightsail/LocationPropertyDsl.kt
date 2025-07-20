@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lightsail.CfnInstanceSnapshot
 
 @Generated
-public fun buildLocationProperty(initializer: @AwsCdkDsl
-    CfnInstanceSnapshot.LocationProperty.Builder.() -> Unit = {}):
-    CfnInstanceSnapshot.LocationProperty =
-    CfnInstanceSnapshot.LocationProperty.Builder().apply(initializer).build()
+public fun buildLocationProperty(initializer: @AwsCdkDsl CfnInstanceSnapshot.LocationProperty.Builder.() -> Unit = {}): CfnInstanceSnapshot.LocationProperty = CfnInstanceSnapshot.LocationProperty.Builder().apply(initializer).build()

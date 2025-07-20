@@ -16,6 +16,4 @@ public fun Construct.cfnTransitGatewayPeering(
 ): CfnTransitGatewayPeering = CfnTransitGatewayPeering(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTransitGatewayPeering(id: String, initializer: @AwsCdkDsl
-    CfnTransitGatewayPeering.Builder.() -> Unit = {}): CfnTransitGatewayPeering =
-    CfnTransitGatewayPeering.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTransitGatewayPeering(id: String, initializer: @AwsCdkDsl CfnTransitGatewayPeering.Builder.() -> Unit = {}): CfnTransitGatewayPeering = CfnTransitGatewayPeering.Builder.create(this, id).apply(initializer).build()

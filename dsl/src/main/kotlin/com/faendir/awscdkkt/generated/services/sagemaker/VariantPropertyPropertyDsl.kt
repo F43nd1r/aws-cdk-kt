@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnEndpoint
 
 @Generated
-public fun buildVariantPropertyProperty(initializer: @AwsCdkDsl
-    CfnEndpoint.VariantPropertyProperty.Builder.() -> Unit = {}):
-    CfnEndpoint.VariantPropertyProperty =
-    CfnEndpoint.VariantPropertyProperty.Builder().apply(initializer).build()
+public fun buildVariantPropertyProperty(initializer: @AwsCdkDsl CfnEndpoint.VariantPropertyProperty.Builder.() -> Unit = {}): CfnEndpoint.VariantPropertyProperty = CfnEndpoint.VariantPropertyProperty.Builder().apply(initializer).build()

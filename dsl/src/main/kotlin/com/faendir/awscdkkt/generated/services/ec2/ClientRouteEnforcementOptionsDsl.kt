@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.ClientRouteEnforcementOptions
 
 @Generated
-public fun buildClientRouteEnforcementOptions(initializer: @AwsCdkDsl
-    ClientRouteEnforcementOptions.Builder.() -> Unit = {}): ClientRouteEnforcementOptions =
-    ClientRouteEnforcementOptions.Builder().apply(initializer).build()
+public fun buildClientRouteEnforcementOptions(initializer: @AwsCdkDsl ClientRouteEnforcementOptions.Builder.() -> Unit = {}): ClientRouteEnforcementOptions = ClientRouteEnforcementOptions.Builder().apply(initializer).build()

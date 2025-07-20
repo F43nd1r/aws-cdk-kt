@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnKnowledgeBase
 
 @Generated
-public fun buildOpenSearchServerlessFieldMappingProperty(initializer: @AwsCdkDsl
-    CfnKnowledgeBase.OpenSearchServerlessFieldMappingProperty.Builder.() -> Unit = {}):
-    CfnKnowledgeBase.OpenSearchServerlessFieldMappingProperty =
-    CfnKnowledgeBase.OpenSearchServerlessFieldMappingProperty.Builder().apply(initializer).build()
+public fun buildOpenSearchServerlessFieldMappingProperty(initializer: @AwsCdkDsl CfnKnowledgeBase.OpenSearchServerlessFieldMappingProperty.Builder.() -> Unit = {}): CfnKnowledgeBase.OpenSearchServerlessFieldMappingProperty = CfnKnowledgeBase.OpenSearchServerlessFieldMappingProperty.Builder().apply(initializer).build()

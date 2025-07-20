@@ -16,6 +16,4 @@ public fun Construct.cfnAnomalyMonitor(
 ): CfnAnomalyMonitor = CfnAnomalyMonitor(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAnomalyMonitor(id: String, initializer: @AwsCdkDsl
-    CfnAnomalyMonitor.Builder.() -> Unit = {}): CfnAnomalyMonitor =
-    CfnAnomalyMonitor.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAnomalyMonitor(id: String, initializer: @AwsCdkDsl CfnAnomalyMonitor.Builder.() -> Unit = {}): CfnAnomalyMonitor = CfnAnomalyMonitor.Builder.create(this, id).apply(initializer).build()

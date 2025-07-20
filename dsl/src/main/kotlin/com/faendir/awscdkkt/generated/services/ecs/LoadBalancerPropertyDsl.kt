@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnTaskSet
 
 @Generated
-public fun buildLoadBalancerProperty(initializer: @AwsCdkDsl
-    CfnTaskSet.LoadBalancerProperty.Builder.() -> Unit = {}): CfnTaskSet.LoadBalancerProperty =
-    CfnTaskSet.LoadBalancerProperty.Builder().apply(initializer).build()
+public fun buildLoadBalancerProperty(initializer: @AwsCdkDsl CfnTaskSet.LoadBalancerProperty.Builder.() -> Unit = {}): CfnTaskSet.LoadBalancerProperty = CfnTaskSet.LoadBalancerProperty.Builder().apply(initializer).build()

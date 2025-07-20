@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gameliftstreams.CfnStreamGroupProps
 
 @Generated
-public fun buildCfnStreamGroupProps(initializer: @AwsCdkDsl CfnStreamGroupProps.Builder.() -> Unit =
-    {}): CfnStreamGroupProps = CfnStreamGroupProps.Builder().apply(initializer).build()
+public fun buildCfnStreamGroupProps(initializer: @AwsCdkDsl CfnStreamGroupProps.Builder.() -> Unit = {}): CfnStreamGroupProps = CfnStreamGroupProps.Builder().apply(initializer).build()

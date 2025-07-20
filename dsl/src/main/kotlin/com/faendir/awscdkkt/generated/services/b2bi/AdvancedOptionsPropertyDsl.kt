@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.b2bi.CfnTransformer
 
 @Generated
-public fun buildAdvancedOptionsProperty(initializer: @AwsCdkDsl
-    CfnTransformer.AdvancedOptionsProperty.Builder.() -> Unit = {}):
-    CfnTransformer.AdvancedOptionsProperty =
-    CfnTransformer.AdvancedOptionsProperty.Builder().apply(initializer).build()
+public fun buildAdvancedOptionsProperty(initializer: @AwsCdkDsl CfnTransformer.AdvancedOptionsProperty.Builder.() -> Unit = {}): CfnTransformer.AdvancedOptionsProperty = CfnTransformer.AdvancedOptionsProperty.Builder().apply(initializer).build()

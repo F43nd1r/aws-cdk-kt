@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.StageProps
 
 @Generated
-public fun buildStageProps(initializer: @AwsCdkDsl StageProps.Builder.() -> Unit = {}): StageProps =
-    StageProps.Builder().apply(initializer).build()
+public fun buildStageProps(initializer: @AwsCdkDsl StageProps.Builder.() -> Unit = {}): StageProps = StageProps.Builder().apply(initializer).build()

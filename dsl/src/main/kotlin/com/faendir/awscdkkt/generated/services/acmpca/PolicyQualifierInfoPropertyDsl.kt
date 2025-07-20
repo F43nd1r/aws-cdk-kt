@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.acmpca.CfnCertificate
 
 @Generated
-public fun buildPolicyQualifierInfoProperty(initializer: @AwsCdkDsl
-    CfnCertificate.PolicyQualifierInfoProperty.Builder.() -> Unit = {}):
-    CfnCertificate.PolicyQualifierInfoProperty =
-    CfnCertificate.PolicyQualifierInfoProperty.Builder().apply(initializer).build()
+public fun buildPolicyQualifierInfoProperty(initializer: @AwsCdkDsl CfnCertificate.PolicyQualifierInfoProperty.Builder.() -> Unit = {}): CfnCertificate.PolicyQualifierInfoProperty = CfnCertificate.PolicyQualifierInfoProperty.Builder().apply(initializer).build()

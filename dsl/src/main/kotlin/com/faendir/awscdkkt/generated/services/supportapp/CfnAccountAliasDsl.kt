@@ -16,6 +16,4 @@ public fun Construct.cfnAccountAlias(
 ): CfnAccountAlias = CfnAccountAlias(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAccountAlias(id: String, initializer: @AwsCdkDsl
-    CfnAccountAlias.Builder.() -> Unit = {}): CfnAccountAlias = CfnAccountAlias.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnAccountAlias(id: String, initializer: @AwsCdkDsl CfnAccountAlias.Builder.() -> Unit = {}): CfnAccountAlias = CfnAccountAlias.Builder.create(this, id).apply(initializer).build()

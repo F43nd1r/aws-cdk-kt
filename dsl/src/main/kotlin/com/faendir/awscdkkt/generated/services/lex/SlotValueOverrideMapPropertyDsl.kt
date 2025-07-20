@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildSlotValueOverrideMapProperty(initializer: @AwsCdkDsl
-    CfnBot.SlotValueOverrideMapProperty.Builder.() -> Unit = {}):
-    CfnBot.SlotValueOverrideMapProperty =
-    CfnBot.SlotValueOverrideMapProperty.Builder().apply(initializer).build()
+public fun buildSlotValueOverrideMapProperty(initializer: @AwsCdkDsl CfnBot.SlotValueOverrideMapProperty.Builder.() -> Unit = {}): CfnBot.SlotValueOverrideMapProperty = CfnBot.SlotValueOverrideMapProperty.Builder().apply(initializer).build()

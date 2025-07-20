@@ -16,6 +16,4 @@ public fun Construct.cfnRepositoryLink(
 ): CfnRepositoryLink = CfnRepositoryLink(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRepositoryLink(id: String, initializer: @AwsCdkDsl
-    CfnRepositoryLink.Builder.() -> Unit = {}): CfnRepositoryLink =
-    CfnRepositoryLink.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRepositoryLink(id: String, initializer: @AwsCdkDsl CfnRepositoryLink.Builder.() -> Unit = {}): CfnRepositoryLink = CfnRepositoryLink.Builder.create(this, id).apply(initializer).build()

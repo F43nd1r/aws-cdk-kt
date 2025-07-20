@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.emrserverless.CfnApplication
 
 @Generated
-public fun buildSchedulerConfigurationProperty(initializer: @AwsCdkDsl
-    CfnApplication.SchedulerConfigurationProperty.Builder.() -> Unit = {}):
-    CfnApplication.SchedulerConfigurationProperty =
-    CfnApplication.SchedulerConfigurationProperty.Builder().apply(initializer).build()
+public fun buildSchedulerConfigurationProperty(initializer: @AwsCdkDsl CfnApplication.SchedulerConfigurationProperty.Builder.() -> Unit = {}): CfnApplication.SchedulerConfigurationProperty = CfnApplication.SchedulerConfigurationProperty.Builder().apply(initializer).build()

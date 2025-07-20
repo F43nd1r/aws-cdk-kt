@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicediscovery.CfnService
 
 @Generated
-public fun buildDnsConfigProperty(initializer: @AwsCdkDsl
-    CfnService.DnsConfigProperty.Builder.() -> Unit = {}): CfnService.DnsConfigProperty =
-    CfnService.DnsConfigProperty.Builder().apply(initializer).build()
+public fun buildDnsConfigProperty(initializer: @AwsCdkDsl CfnService.DnsConfigProperty.Builder.() -> Unit = {}): CfnService.DnsConfigProperty = CfnService.DnsConfigProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnUserProfile
 
 @Generated
-public fun buildCustomFileSystemConfigProperty(initializer: @AwsCdkDsl
-    CfnUserProfile.CustomFileSystemConfigProperty.Builder.() -> Unit = {}):
-    CfnUserProfile.CustomFileSystemConfigProperty =
-    CfnUserProfile.CustomFileSystemConfigProperty.Builder().apply(initializer).build()
+public fun buildCustomFileSystemConfigProperty(initializer: @AwsCdkDsl CfnUserProfile.CustomFileSystemConfigProperty.Builder.() -> Unit = {}): CfnUserProfile.CustomFileSystemConfigProperty = CfnUserProfile.CustomFileSystemConfigProperty.Builder().apply(initializer).build()

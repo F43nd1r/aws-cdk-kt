@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.BaseListenerLookupOptions
 
 @Generated
-public fun buildBaseListenerLookupOptions(initializer: @AwsCdkDsl
-    BaseListenerLookupOptions.Builder.() -> Unit = {}): BaseListenerLookupOptions =
-    BaseListenerLookupOptions.Builder().apply(initializer).build()
+public fun buildBaseListenerLookupOptions(initializer: @AwsCdkDsl BaseListenerLookupOptions.Builder.() -> Unit = {}): BaseListenerLookupOptions = BaseListenerLookupOptions.Builder().apply(initializer).build()

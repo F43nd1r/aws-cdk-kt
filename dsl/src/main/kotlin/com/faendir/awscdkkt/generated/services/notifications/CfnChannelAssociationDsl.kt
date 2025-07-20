@@ -16,6 +16,4 @@ public fun Construct.cfnChannelAssociation(
 ): CfnChannelAssociation = CfnChannelAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnChannelAssociation(id: String, initializer: @AwsCdkDsl
-    CfnChannelAssociation.Builder.() -> Unit = {}): CfnChannelAssociation =
-    CfnChannelAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnChannelAssociation(id: String, initializer: @AwsCdkDsl CfnChannelAssociation.Builder.() -> Unit = {}): CfnChannelAssociation = CfnChannelAssociation.Builder.create(this, id).apply(initializer).build()

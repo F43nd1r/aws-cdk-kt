@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnSegment
 
 @Generated
-public fun buildRecencyProperty(initializer: @AwsCdkDsl
-    CfnSegment.RecencyProperty.Builder.() -> Unit = {}): CfnSegment.RecencyProperty =
-    CfnSegment.RecencyProperty.Builder().apply(initializer).build()
+public fun buildRecencyProperty(initializer: @AwsCdkDsl CfnSegment.RecencyProperty.Builder.() -> Unit = {}): CfnSegment.RecencyProperty = CfnSegment.RecencyProperty.Builder().apply(initializer).build()

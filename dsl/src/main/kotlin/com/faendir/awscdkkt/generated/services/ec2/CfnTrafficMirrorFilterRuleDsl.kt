@@ -16,6 +16,4 @@ public fun Construct.cfnTrafficMirrorFilterRule(
 ): CfnTrafficMirrorFilterRule = CfnTrafficMirrorFilterRule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTrafficMirrorFilterRule(id: String, initializer: @AwsCdkDsl
-    CfnTrafficMirrorFilterRule.Builder.() -> Unit = {}): CfnTrafficMirrorFilterRule =
-    CfnTrafficMirrorFilterRule.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTrafficMirrorFilterRule(id: String, initializer: @AwsCdkDsl CfnTrafficMirrorFilterRule.Builder.() -> Unit = {}): CfnTrafficMirrorFilterRule = CfnTrafficMirrorFilterRule.Builder.create(this, id).apply(initializer).build()

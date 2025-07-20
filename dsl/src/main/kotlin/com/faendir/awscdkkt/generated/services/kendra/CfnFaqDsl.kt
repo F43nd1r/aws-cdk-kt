@@ -16,5 +16,4 @@ public fun Construct.cfnFaq(
 ): CfnFaq = CfnFaq(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnFaq(id: String, initializer: @AwsCdkDsl CfnFaq.Builder.() -> Unit =
-    {}): CfnFaq = CfnFaq.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnFaq(id: String, initializer: @AwsCdkDsl CfnFaq.Builder.() -> Unit = {}): CfnFaq = CfnFaq.Builder.create(this, id).apply(initializer).build()

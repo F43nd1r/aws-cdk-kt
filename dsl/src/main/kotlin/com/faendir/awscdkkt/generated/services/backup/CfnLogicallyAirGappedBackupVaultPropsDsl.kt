@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.backup.CfnLogicallyAirGappedBackupVaultProps
 
 @Generated
-public fun buildCfnLogicallyAirGappedBackupVaultProps(initializer: @AwsCdkDsl
-    CfnLogicallyAirGappedBackupVaultProps.Builder.() -> Unit = {}):
-    CfnLogicallyAirGappedBackupVaultProps =
-    CfnLogicallyAirGappedBackupVaultProps.Builder().apply(initializer).build()
+public fun buildCfnLogicallyAirGappedBackupVaultProps(initializer: @AwsCdkDsl CfnLogicallyAirGappedBackupVaultProps.Builder.() -> Unit = {}): CfnLogicallyAirGappedBackupVaultProps = CfnLogicallyAirGappedBackupVaultProps.Builder().apply(initializer).build()

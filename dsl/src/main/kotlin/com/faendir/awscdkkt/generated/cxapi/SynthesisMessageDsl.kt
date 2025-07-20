@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cxapi.SynthesisMessage
 
 @Generated
-public fun buildSynthesisMessage(initializer: @AwsCdkDsl SynthesisMessage.Builder.() -> Unit = {}):
-    SynthesisMessage = SynthesisMessage.Builder().apply(initializer).build()
+public fun buildSynthesisMessage(initializer: @AwsCdkDsl SynthesisMessage.Builder.() -> Unit = {}): SynthesisMessage = SynthesisMessage.Builder().apply(initializer).build()

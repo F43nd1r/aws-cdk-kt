@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dlm.CfnLifecyclePolicy
 
 @Generated
-public fun buildEventSourceProperty(initializer: @AwsCdkDsl
-    CfnLifecyclePolicy.EventSourceProperty.Builder.() -> Unit = {}):
-    CfnLifecyclePolicy.EventSourceProperty =
-    CfnLifecyclePolicy.EventSourceProperty.Builder().apply(initializer).build()
+public fun buildEventSourceProperty(initializer: @AwsCdkDsl CfnLifecyclePolicy.EventSourceProperty.Builder.() -> Unit = {}): CfnLifecyclePolicy.EventSourceProperty = CfnLifecyclePolicy.EventSourceProperty.Builder().apply(initializer).build()

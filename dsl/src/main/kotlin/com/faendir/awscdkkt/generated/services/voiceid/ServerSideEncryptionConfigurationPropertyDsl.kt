@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.voiceid.CfnDomain
 
 @Generated
-public fun buildServerSideEncryptionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDomain.ServerSideEncryptionConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDomain.ServerSideEncryptionConfigurationProperty =
-    CfnDomain.ServerSideEncryptionConfigurationProperty.Builder().apply(initializer).build()
+public fun buildServerSideEncryptionConfigurationProperty(initializer: @AwsCdkDsl CfnDomain.ServerSideEncryptionConfigurationProperty.Builder.() -> Unit = {}): CfnDomain.ServerSideEncryptionConfigurationProperty = CfnDomain.ServerSideEncryptionConfigurationProperty.Builder().apply(initializer).build()

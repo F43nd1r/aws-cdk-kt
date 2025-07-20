@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnConnection
 
 @Generated
-public fun buildHyperPodPropertiesInputProperty(initializer: @AwsCdkDsl
-    CfnConnection.HyperPodPropertiesInputProperty.Builder.() -> Unit = {}):
-    CfnConnection.HyperPodPropertiesInputProperty =
-    CfnConnection.HyperPodPropertiesInputProperty.Builder().apply(initializer).build()
+public fun buildHyperPodPropertiesInputProperty(initializer: @AwsCdkDsl CfnConnection.HyperPodPropertiesInputProperty.Builder.() -> Unit = {}): CfnConnection.HyperPodPropertiesInputProperty = CfnConnection.HyperPodPropertiesInputProperty.Builder().apply(initializer).build()

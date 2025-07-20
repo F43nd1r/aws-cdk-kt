@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnDataSource
 
 @Generated
-public fun buildSageMakerRunConfigurationInputProperty(initializer: @AwsCdkDsl
-    CfnDataSource.SageMakerRunConfigurationInputProperty.Builder.() -> Unit = {}):
-    CfnDataSource.SageMakerRunConfigurationInputProperty =
-    CfnDataSource.SageMakerRunConfigurationInputProperty.Builder().apply(initializer).build()
+public fun buildSageMakerRunConfigurationInputProperty(initializer: @AwsCdkDsl CfnDataSource.SageMakerRunConfigurationInputProperty.Builder.() -> Unit = {}): CfnDataSource.SageMakerRunConfigurationInputProperty = CfnDataSource.SageMakerRunConfigurationInputProperty.Builder().apply(initializer).build()

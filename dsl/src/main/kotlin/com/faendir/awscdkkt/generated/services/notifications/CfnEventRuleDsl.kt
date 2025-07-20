@@ -16,6 +16,4 @@ public fun Construct.cfnEventRule(
 ): CfnEventRule = CfnEventRule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEventRule(id: String, initializer: @AwsCdkDsl
-    CfnEventRule.Builder.() -> Unit = {}): CfnEventRule = CfnEventRule.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnEventRule(id: String, initializer: @AwsCdkDsl CfnEventRule.Builder.() -> Unit = {}): CfnEventRule = CfnEventRule.Builder.create(this, id).apply(initializer).build()

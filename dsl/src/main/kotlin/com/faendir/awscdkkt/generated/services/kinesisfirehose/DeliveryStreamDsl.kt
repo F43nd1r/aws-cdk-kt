@@ -16,6 +16,4 @@ public fun Construct.deliveryStream(
 ): DeliveryStream = DeliveryStream(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildDeliveryStream(id: String, initializer: @AwsCdkDsl
-    DeliveryStream.Builder.() -> Unit = {}): DeliveryStream = DeliveryStream.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildDeliveryStream(id: String, initializer: @AwsCdkDsl DeliveryStream.Builder.() -> Unit = {}): DeliveryStream = DeliveryStream.Builder.create(this, id).apply(initializer).build()

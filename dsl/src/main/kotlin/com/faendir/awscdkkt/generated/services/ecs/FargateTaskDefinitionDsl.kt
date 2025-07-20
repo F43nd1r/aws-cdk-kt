@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.ecs.FargateTaskDefinitionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.fargateTaskDefinition(id: String, initializer: @AwsCdkDsl
-    FargateTaskDefinition.() -> Unit = {}): FargateTaskDefinition = FargateTaskDefinition(this,
-    id).apply(initializer)
+public fun Construct.fargateTaskDefinition(id: String, initializer: @AwsCdkDsl FargateTaskDefinition.() -> Unit = {}): FargateTaskDefinition = FargateTaskDefinition(this, id).apply(initializer)
 
 @Generated
 public fun Construct.fargateTaskDefinition(
@@ -21,6 +19,4 @@ public fun Construct.fargateTaskDefinition(
 ): FargateTaskDefinition = FargateTaskDefinition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildFargateTaskDefinition(id: String, initializer: @AwsCdkDsl
-    FargateTaskDefinition.Builder.() -> Unit = {}): FargateTaskDefinition =
-    FargateTaskDefinition.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildFargateTaskDefinition(id: String, initializer: @AwsCdkDsl FargateTaskDefinition.Builder.() -> Unit = {}): FargateTaskDefinition = FargateTaskDefinition.Builder.create(this, id).apply(initializer).build()

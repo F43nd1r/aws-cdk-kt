@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildImageMenuOptionProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ImageMenuOptionProperty.Builder.() -> Unit = {}):
-    CfnTemplate.ImageMenuOptionProperty =
-    CfnTemplate.ImageMenuOptionProperty.Builder().apply(initializer).build()
+public fun buildImageMenuOptionProperty(initializer: @AwsCdkDsl CfnTemplate.ImageMenuOptionProperty.Builder.() -> Unit = {}): CfnTemplate.ImageMenuOptionProperty = CfnTemplate.ImageMenuOptionProperty.Builder().apply(initializer).build()

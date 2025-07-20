@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnKnowledgeBase
 
 @Generated
-public fun buildSeedUrlProperty(initializer: @AwsCdkDsl
-    CfnKnowledgeBase.SeedUrlProperty.Builder.() -> Unit = {}): CfnKnowledgeBase.SeedUrlProperty =
-    CfnKnowledgeBase.SeedUrlProperty.Builder().apply(initializer).build()
+public fun buildSeedUrlProperty(initializer: @AwsCdkDsl CfnKnowledgeBase.SeedUrlProperty.Builder.() -> Unit = {}): CfnKnowledgeBase.SeedUrlProperty = CfnKnowledgeBase.SeedUrlProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnInstanceStorageConfig
 
 @Generated
-public fun buildKinesisStreamConfigProperty(initializer: @AwsCdkDsl
-    CfnInstanceStorageConfig.KinesisStreamConfigProperty.Builder.() -> Unit = {}):
-    CfnInstanceStorageConfig.KinesisStreamConfigProperty =
-    CfnInstanceStorageConfig.KinesisStreamConfigProperty.Builder().apply(initializer).build()
+public fun buildKinesisStreamConfigProperty(initializer: @AwsCdkDsl CfnInstanceStorageConfig.KinesisStreamConfigProperty.Builder.() -> Unit = {}): CfnInstanceStorageConfig.KinesisStreamConfigProperty = CfnInstanceStorageConfig.KinesisStreamConfigProperty.Builder().apply(initializer).build()

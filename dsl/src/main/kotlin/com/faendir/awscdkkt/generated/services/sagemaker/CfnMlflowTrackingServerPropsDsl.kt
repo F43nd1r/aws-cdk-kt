@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnMlflowTrackingServerProps
 
 @Generated
-public fun buildCfnMlflowTrackingServerProps(initializer: @AwsCdkDsl
-    CfnMlflowTrackingServerProps.Builder.() -> Unit = {}): CfnMlflowTrackingServerProps =
-    CfnMlflowTrackingServerProps.Builder().apply(initializer).build()
+public fun buildCfnMlflowTrackingServerProps(initializer: @AwsCdkDsl CfnMlflowTrackingServerProps.Builder.() -> Unit = {}): CfnMlflowTrackingServerProps = CfnMlflowTrackingServerProps.Builder().apply(initializer).build()

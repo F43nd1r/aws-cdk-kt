@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnEnvironmentActionsProps
 
 @Generated
-public fun buildCfnEnvironmentActionsProps(initializer: @AwsCdkDsl
-    CfnEnvironmentActionsProps.Builder.() -> Unit = {}): CfnEnvironmentActionsProps =
-    CfnEnvironmentActionsProps.Builder().apply(initializer).build()
+public fun buildCfnEnvironmentActionsProps(initializer: @AwsCdkDsl CfnEnvironmentActionsProps.Builder.() -> Unit = {}): CfnEnvironmentActionsProps = CfnEnvironmentActionsProps.Builder().apply(initializer).build()

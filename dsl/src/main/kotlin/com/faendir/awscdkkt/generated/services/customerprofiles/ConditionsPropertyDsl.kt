@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.customerprofiles.CfnCalculatedAttributeDefinition
 
 @Generated
-public fun buildConditionsProperty(initializer: @AwsCdkDsl
-    CfnCalculatedAttributeDefinition.ConditionsProperty.Builder.() -> Unit = {}):
-    CfnCalculatedAttributeDefinition.ConditionsProperty =
-    CfnCalculatedAttributeDefinition.ConditionsProperty.Builder().apply(initializer).build()
+public fun buildConditionsProperty(initializer: @AwsCdkDsl CfnCalculatedAttributeDefinition.ConditionsProperty.Builder.() -> Unit = {}): CfnCalculatedAttributeDefinition.ConditionsProperty = CfnCalculatedAttributeDefinition.ConditionsProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53recoveryreadiness.CfnRecoveryGroupProps
 
 @Generated
-public fun buildCfnRecoveryGroupProps(initializer: @AwsCdkDsl
-    CfnRecoveryGroupProps.Builder.() -> Unit = {}): CfnRecoveryGroupProps =
-    CfnRecoveryGroupProps.Builder().apply(initializer).build()
+public fun buildCfnRecoveryGroupProps(initializer: @AwsCdkDsl CfnRecoveryGroupProps.Builder.() -> Unit = {}): CfnRecoveryGroupProps = CfnRecoveryGroupProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codedeploy.TimeBasedLinearTrafficRouting
 
 @Generated
-public fun buildTimeBasedLinearTrafficRouting(initializer: @AwsCdkDsl
-    TimeBasedLinearTrafficRouting.Builder.() -> Unit = {}): TimeBasedLinearTrafficRouting =
-    TimeBasedLinearTrafficRouting.Builder.create().apply(initializer).build()
+public fun buildTimeBasedLinearTrafficRouting(initializer: @AwsCdkDsl TimeBasedLinearTrafficRouting.Builder.() -> Unit = {}): TimeBasedLinearTrafficRouting = TimeBasedLinearTrafficRouting.Builder.create().apply(initializer).build()

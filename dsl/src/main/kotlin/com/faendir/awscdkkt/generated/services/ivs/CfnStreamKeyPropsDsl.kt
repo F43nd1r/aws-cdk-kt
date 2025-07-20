@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ivs.CfnStreamKeyProps
 
 @Generated
-public fun buildCfnStreamKeyProps(initializer: @AwsCdkDsl CfnStreamKeyProps.Builder.() -> Unit =
-    {}): CfnStreamKeyProps = CfnStreamKeyProps.Builder().apply(initializer).build()
+public fun buildCfnStreamKeyProps(initializer: @AwsCdkDsl CfnStreamKeyProps.Builder.() -> Unit = {}): CfnStreamKeyProps = CfnStreamKeyProps.Builder().apply(initializer).build()

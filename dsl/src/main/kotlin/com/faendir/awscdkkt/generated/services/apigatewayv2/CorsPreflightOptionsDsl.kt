@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.CorsPreflightOptions
 
 @Generated
-public fun buildCorsPreflightOptions(initializer: @AwsCdkDsl CorsPreflightOptions.Builder.() -> Unit
-    = {}): CorsPreflightOptions = CorsPreflightOptions.Builder().apply(initializer).build()
+public fun buildCorsPreflightOptions(initializer: @AwsCdkDsl CorsPreflightOptions.Builder.() -> Unit = {}): CorsPreflightOptions = CorsPreflightOptions.Builder().apply(initializer).build()

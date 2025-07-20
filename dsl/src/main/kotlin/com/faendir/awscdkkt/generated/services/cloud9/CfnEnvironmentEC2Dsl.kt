@@ -16,6 +16,4 @@ public fun Construct.cfnEnvironmentEC2(
 ): CfnEnvironmentEC2 = CfnEnvironmentEC2(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEnvironmentEC2(id: String, initializer: @AwsCdkDsl
-    CfnEnvironmentEC2.Builder.() -> Unit = {}): CfnEnvironmentEC2 =
-    CfnEnvironmentEC2.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnEnvironmentEC2(id: String, initializer: @AwsCdkDsl CfnEnvironmentEC2.Builder.() -> Unit = {}): CfnEnvironmentEC2 = CfnEnvironmentEC2.Builder.create(this, id).apply(initializer).build()

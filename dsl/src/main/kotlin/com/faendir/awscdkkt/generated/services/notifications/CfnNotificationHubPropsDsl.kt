@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.notifications.CfnNotificationHubProps
 
 @Generated
-public fun buildCfnNotificationHubProps(initializer: @AwsCdkDsl
-    CfnNotificationHubProps.Builder.() -> Unit = {}): CfnNotificationHubProps =
-    CfnNotificationHubProps.Builder().apply(initializer).build()
+public fun buildCfnNotificationHubProps(initializer: @AwsCdkDsl CfnNotificationHubProps.Builder.() -> Unit = {}): CfnNotificationHubProps = CfnNotificationHubProps.Builder().apply(initializer).build()

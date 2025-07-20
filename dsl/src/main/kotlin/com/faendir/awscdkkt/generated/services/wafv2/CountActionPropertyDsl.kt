@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
-public fun buildCountActionProperty(initializer: @AwsCdkDsl
-    CfnWebACL.CountActionProperty.Builder.() -> Unit = {}): CfnWebACL.CountActionProperty =
-    CfnWebACL.CountActionProperty.Builder().apply(initializer).build()
+public fun buildCountActionProperty(initializer: @AwsCdkDsl CfnWebACL.CountActionProperty.Builder.() -> Unit = {}): CfnWebACL.CountActionProperty = CfnWebACL.CountActionProperty.Builder().apply(initializer).build()

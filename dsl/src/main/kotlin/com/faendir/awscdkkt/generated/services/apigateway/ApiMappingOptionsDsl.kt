@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.ApiMappingOptions
 
 @Generated
-public fun buildApiMappingOptions(initializer: @AwsCdkDsl ApiMappingOptions.Builder.() -> Unit =
-    {}): ApiMappingOptions = ApiMappingOptions.Builder().apply(initializer).build()
+public fun buildApiMappingOptions(initializer: @AwsCdkDsl ApiMappingOptions.Builder.() -> Unit = {}): ApiMappingOptions = ApiMappingOptions.Builder().apply(initializer).build()

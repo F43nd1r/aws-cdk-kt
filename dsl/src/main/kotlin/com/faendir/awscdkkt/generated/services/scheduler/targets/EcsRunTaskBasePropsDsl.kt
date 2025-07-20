@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.scheduler.targets.EcsRunTaskBaseProps
 
 @Generated
-public fun buildEcsRunTaskBaseProps(initializer: @AwsCdkDsl EcsRunTaskBaseProps.Builder.() -> Unit =
-    {}): EcsRunTaskBaseProps = EcsRunTaskBaseProps.Builder().apply(initializer).build()
+public fun buildEcsRunTaskBaseProps(initializer: @AwsCdkDsl EcsRunTaskBaseProps.Builder.() -> Unit = {}): EcsRunTaskBaseProps = EcsRunTaskBaseProps.Builder().apply(initializer).build()

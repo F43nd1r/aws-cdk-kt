@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildFunnelChartFieldWellsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.FunnelChartFieldWellsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.FunnelChartFieldWellsProperty =
-    CfnTemplate.FunnelChartFieldWellsProperty.Builder().apply(initializer).build()
+public fun buildFunnelChartFieldWellsProperty(initializer: @AwsCdkDsl CfnTemplate.FunnelChartFieldWellsProperty.Builder.() -> Unit = {}): CfnTemplate.FunnelChartFieldWellsProperty = CfnTemplate.FunnelChartFieldWellsProperty.Builder().apply(initializer).build()

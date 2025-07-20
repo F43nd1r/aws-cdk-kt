@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
-public fun buildUriFragmentProperty(initializer: @AwsCdkDsl
-    CfnWebACL.UriFragmentProperty.Builder.() -> Unit = {}): CfnWebACL.UriFragmentProperty =
-    CfnWebACL.UriFragmentProperty.Builder().apply(initializer).build()
+public fun buildUriFragmentProperty(initializer: @AwsCdkDsl CfnWebACL.UriFragmentProperty.Builder.() -> Unit = {}): CfnWebACL.UriFragmentProperty = CfnWebACL.UriFragmentProperty.Builder().apply(initializer).build()

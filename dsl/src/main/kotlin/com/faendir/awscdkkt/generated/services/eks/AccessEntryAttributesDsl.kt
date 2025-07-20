@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.AccessEntryAttributes
 
 @Generated
-public fun buildAccessEntryAttributes(initializer: @AwsCdkDsl
-    AccessEntryAttributes.Builder.() -> Unit = {}): AccessEntryAttributes =
-    AccessEntryAttributes.Builder().apply(initializer).build()
+public fun buildAccessEntryAttributes(initializer: @AwsCdkDsl AccessEntryAttributes.Builder.() -> Unit = {}): AccessEntryAttributes = AccessEntryAttributes.Builder().apply(initializer).build()

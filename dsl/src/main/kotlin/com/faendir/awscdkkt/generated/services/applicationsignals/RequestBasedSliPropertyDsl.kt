@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.applicationsignals.CfnServiceLevelObjective
 
 @Generated
-public fun buildRequestBasedSliProperty(initializer: @AwsCdkDsl
-    CfnServiceLevelObjective.RequestBasedSliProperty.Builder.() -> Unit = {}):
-    CfnServiceLevelObjective.RequestBasedSliProperty =
-    CfnServiceLevelObjective.RequestBasedSliProperty.Builder().apply(initializer).build()
+public fun buildRequestBasedSliProperty(initializer: @AwsCdkDsl CfnServiceLevelObjective.RequestBasedSliProperty.Builder.() -> Unit = {}): CfnServiceLevelObjective.RequestBasedSliProperty = CfnServiceLevelObjective.RequestBasedSliProperty.Builder().apply(initializer).build()

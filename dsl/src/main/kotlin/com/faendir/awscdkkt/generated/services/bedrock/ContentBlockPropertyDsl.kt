@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnPromptVersion
 
 @Generated
-public fun buildContentBlockProperty(initializer: @AwsCdkDsl
-    CfnPromptVersion.ContentBlockProperty.Builder.() -> Unit = {}):
-    CfnPromptVersion.ContentBlockProperty =
-    CfnPromptVersion.ContentBlockProperty.Builder().apply(initializer).build()
+public fun buildContentBlockProperty(initializer: @AwsCdkDsl CfnPromptVersion.ContentBlockProperty.Builder.() -> Unit = {}): CfnPromptVersion.ContentBlockProperty = CfnPromptVersion.ContentBlockProperty.Builder().apply(initializer).build()

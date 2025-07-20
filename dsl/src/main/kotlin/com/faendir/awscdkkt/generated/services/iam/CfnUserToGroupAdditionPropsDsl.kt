@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.CfnUserToGroupAdditionProps
 
 @Generated
-public fun buildCfnUserToGroupAdditionProps(initializer: @AwsCdkDsl
-    CfnUserToGroupAdditionProps.Builder.() -> Unit = {}): CfnUserToGroupAdditionProps =
-    CfnUserToGroupAdditionProps.Builder().apply(initializer).build()
+public fun buildCfnUserToGroupAdditionProps(initializer: @AwsCdkDsl CfnUserToGroupAdditionProps.Builder.() -> Unit = {}): CfnUserToGroupAdditionProps = CfnUserToGroupAdditionProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildSmallMultiplesAxisPropertiesProperty(initializer: @AwsCdkDsl
-    CfnTemplate.SmallMultiplesAxisPropertiesProperty.Builder.() -> Unit = {}):
-    CfnTemplate.SmallMultiplesAxisPropertiesProperty =
-    CfnTemplate.SmallMultiplesAxisPropertiesProperty.Builder().apply(initializer).build()
+public fun buildSmallMultiplesAxisPropertiesProperty(initializer: @AwsCdkDsl CfnTemplate.SmallMultiplesAxisPropertiesProperty.Builder.() -> Unit = {}): CfnTemplate.SmallMultiplesAxisPropertiesProperty = CfnTemplate.SmallMultiplesAxisPropertiesProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.autoScalingGroup(
 ): AutoScalingGroup = AutoScalingGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAutoScalingGroup(id: String, initializer: @AwsCdkDsl
-    AutoScalingGroup.Builder.() -> Unit = {}): AutoScalingGroup =
-    AutoScalingGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildAutoScalingGroup(id: String, initializer: @AwsCdkDsl AutoScalingGroup.Builder.() -> Unit = {}): AutoScalingGroup = AutoScalingGroup.Builder.create(this, id).apply(initializer).build()

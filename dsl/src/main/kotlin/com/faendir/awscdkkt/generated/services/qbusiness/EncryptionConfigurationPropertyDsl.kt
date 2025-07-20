@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnApplication
 
 @Generated
-public fun buildEncryptionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnApplication.EncryptionConfigurationProperty.Builder.() -> Unit = {}):
-    CfnApplication.EncryptionConfigurationProperty =
-    CfnApplication.EncryptionConfigurationProperty.Builder().apply(initializer).build()
+public fun buildEncryptionConfigurationProperty(initializer: @AwsCdkDsl CfnApplication.EncryptionConfigurationProperty.Builder.() -> Unit = {}): CfnApplication.EncryptionConfigurationProperty = CfnApplication.EncryptionConfigurationProperty.Builder().apply(initializer).build()

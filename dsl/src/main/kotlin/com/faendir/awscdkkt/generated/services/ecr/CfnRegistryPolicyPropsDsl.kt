@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecr.CfnRegistryPolicyProps
 
 @Generated
-public fun buildCfnRegistryPolicyProps(initializer: @AwsCdkDsl
-    CfnRegistryPolicyProps.Builder.() -> Unit = {}): CfnRegistryPolicyProps =
-    CfnRegistryPolicyProps.Builder().apply(initializer).build()
+public fun buildCfnRegistryPolicyProps(initializer: @AwsCdkDsl CfnRegistryPolicyProps.Builder.() -> Unit = {}): CfnRegistryPolicyProps = CfnRegistryPolicyProps.Builder().apply(initializer).build()

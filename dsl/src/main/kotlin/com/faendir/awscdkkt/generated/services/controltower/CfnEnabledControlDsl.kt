@@ -16,6 +16,4 @@ public fun Construct.cfnEnabledControl(
 ): CfnEnabledControl = CfnEnabledControl(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEnabledControl(id: String, initializer: @AwsCdkDsl
-    CfnEnabledControl.Builder.() -> Unit = {}): CfnEnabledControl =
-    CfnEnabledControl.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnEnabledControl(id: String, initializer: @AwsCdkDsl CfnEnabledControl.Builder.() -> Unit = {}): CfnEnabledControl = CfnEnabledControl.Builder.create(this, id).apply(initializer).build()

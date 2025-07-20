@@ -16,6 +16,4 @@ public fun Construct.cfnEmailAddress(
 ): CfnEmailAddress = CfnEmailAddress(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEmailAddress(id: String, initializer: @AwsCdkDsl
-    CfnEmailAddress.Builder.() -> Unit = {}): CfnEmailAddress = CfnEmailAddress.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnEmailAddress(id: String, initializer: @AwsCdkDsl CfnEmailAddress.Builder.() -> Unit = {}): CfnEmailAddress = CfnEmailAddress.Builder.create(this, id).apply(initializer).build()

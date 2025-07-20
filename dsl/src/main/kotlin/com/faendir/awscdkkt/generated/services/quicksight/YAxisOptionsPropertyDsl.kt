@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildYAxisOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.YAxisOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.YAxisOptionsProperty =
-    CfnTemplate.YAxisOptionsProperty.Builder().apply(initializer).build()
+public fun buildYAxisOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.YAxisOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.YAxisOptionsProperty = CfnTemplate.YAxisOptionsProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnMailManagerRuleSet
 
 @Generated
-public fun buildRuleIpExpressionProperty(initializer: @AwsCdkDsl
-    CfnMailManagerRuleSet.RuleIpExpressionProperty.Builder.() -> Unit = {}):
-    CfnMailManagerRuleSet.RuleIpExpressionProperty =
-    CfnMailManagerRuleSet.RuleIpExpressionProperty.Builder().apply(initializer).build()
+public fun buildRuleIpExpressionProperty(initializer: @AwsCdkDsl CfnMailManagerRuleSet.RuleIpExpressionProperty.Builder.() -> Unit = {}): CfnMailManagerRuleSet.RuleIpExpressionProperty = CfnMailManagerRuleSet.RuleIpExpressionProperty.Builder().apply(initializer).build()

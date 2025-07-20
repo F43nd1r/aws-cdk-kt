@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.auditmanager.CfnAssessment
 
 @Generated
-public fun buildAWSAccountProperty(initializer: @AwsCdkDsl
-    CfnAssessment.AWSAccountProperty.Builder.() -> Unit = {}): CfnAssessment.AWSAccountProperty =
-    CfnAssessment.AWSAccountProperty.Builder().apply(initializer).build()
+public fun buildAWSAccountProperty(initializer: @AwsCdkDsl CfnAssessment.AWSAccountProperty.Builder.() -> Unit = {}): CfnAssessment.AWSAccountProperty = CfnAssessment.AWSAccountProperty.Builder().apply(initializer).build()

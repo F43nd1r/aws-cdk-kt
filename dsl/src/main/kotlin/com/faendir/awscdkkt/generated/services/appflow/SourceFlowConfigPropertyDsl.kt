@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
-public fun buildSourceFlowConfigProperty(initializer: @AwsCdkDsl
-    CfnFlow.SourceFlowConfigProperty.Builder.() -> Unit = {}): CfnFlow.SourceFlowConfigProperty =
-    CfnFlow.SourceFlowConfigProperty.Builder().apply(initializer).build()
+public fun buildSourceFlowConfigProperty(initializer: @AwsCdkDsl CfnFlow.SourceFlowConfigProperty.Builder.() -> Unit = {}): CfnFlow.SourceFlowConfigProperty = CfnFlow.SourceFlowConfigProperty.Builder().apply(initializer).build()

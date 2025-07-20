@@ -10,8 +10,6 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.origins.S3Origin
 import software.amazon.awscdk.services.s3.IBucket
 
-@Deprecated(message =
-    "software.amazon.awscdk.services.cloudfront.origins.S3Origin is deprecated in CDK.")
+@Deprecated(message = "software.amazon.awscdk.services.cloudfront.origins.S3Origin is deprecated in CDK.")
 @Generated
-public fun buildS3Origin(bucket: IBucket, initializer: @AwsCdkDsl S3Origin.Builder.() -> Unit = {}):
-    S3Origin = S3Origin.Builder.create(bucket).apply(initializer).build()
+public fun buildS3Origin(bucket: IBucket, initializer: @AwsCdkDsl S3Origin.Builder.() -> Unit = {}): S3Origin = S3Origin.Builder.create(bucket).apply(initializer).build()

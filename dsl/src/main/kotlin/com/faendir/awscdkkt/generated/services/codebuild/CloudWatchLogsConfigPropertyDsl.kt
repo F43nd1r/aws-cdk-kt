@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.CfnProject
 
 @Generated
-public fun buildCloudWatchLogsConfigProperty(initializer: @AwsCdkDsl
-    CfnProject.CloudWatchLogsConfigProperty.Builder.() -> Unit = {}):
-    CfnProject.CloudWatchLogsConfigProperty =
-    CfnProject.CloudWatchLogsConfigProperty.Builder().apply(initializer).build()
+public fun buildCloudWatchLogsConfigProperty(initializer: @AwsCdkDsl CfnProject.CloudWatchLogsConfigProperty.Builder.() -> Unit = {}): CfnProject.CloudWatchLogsConfigProperty = CfnProject.CloudWatchLogsConfigProperty.Builder().apply(initializer).build()

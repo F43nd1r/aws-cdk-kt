@@ -16,6 +16,4 @@ public fun Construct.cfnDatasetGroup(
 ): CfnDatasetGroup = CfnDatasetGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDatasetGroup(id: String, initializer: @AwsCdkDsl
-    CfnDatasetGroup.Builder.() -> Unit = {}): CfnDatasetGroup = CfnDatasetGroup.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnDatasetGroup(id: String, initializer: @AwsCdkDsl CfnDatasetGroup.Builder.() -> Unit = {}): CfnDatasetGroup = CfnDatasetGroup.Builder.create(this, id).apply(initializer).build()

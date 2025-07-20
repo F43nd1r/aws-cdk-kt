@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVPCPeeringConnectionProps
 
 @Generated
-public fun buildCfnVPCPeeringConnectionProps(initializer: @AwsCdkDsl
-    CfnVPCPeeringConnectionProps.Builder.() -> Unit = {}): CfnVPCPeeringConnectionProps =
-    CfnVPCPeeringConnectionProps.Builder().apply(initializer).build()
+public fun buildCfnVPCPeeringConnectionProps(initializer: @AwsCdkDsl CfnVPCPeeringConnectionProps.Builder.() -> Unit = {}): CfnVPCPeeringConnectionProps = CfnVPCPeeringConnectionProps.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnEventBus(
 ): CfnEventBus = CfnEventBus(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEventBus(id: String, initializer: @AwsCdkDsl
-    CfnEventBus.Builder.() -> Unit = {}): CfnEventBus = CfnEventBus.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnEventBus(id: String, initializer: @AwsCdkDsl CfnEventBus.Builder.() -> Unit = {}): CfnEventBus = CfnEventBus.Builder.create(this, id).apply(initializer).build()

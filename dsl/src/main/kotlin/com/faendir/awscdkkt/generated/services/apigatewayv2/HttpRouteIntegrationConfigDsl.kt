@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.HttpRouteIntegrationConfig
 
 @Generated
-public fun buildHttpRouteIntegrationConfig(initializer: @AwsCdkDsl
-    HttpRouteIntegrationConfig.Builder.() -> Unit = {}): HttpRouteIntegrationConfig =
-    HttpRouteIntegrationConfig.Builder().apply(initializer).build()
+public fun buildHttpRouteIntegrationConfig(initializer: @AwsCdkDsl HttpRouteIntegrationConfig.Builder.() -> Unit = {}): HttpRouteIntegrationConfig = HttpRouteIntegrationConfig.Builder().apply(initializer).build()

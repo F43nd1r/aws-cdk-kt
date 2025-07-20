@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.patterns.NetworkLoadBalancedTaskImageOptions
 
 @Generated
-public fun buildNetworkLoadBalancedTaskImageOptions(initializer: @AwsCdkDsl
-    NetworkLoadBalancedTaskImageOptions.Builder.() -> Unit = {}):
-    NetworkLoadBalancedTaskImageOptions =
-    NetworkLoadBalancedTaskImageOptions.Builder().apply(initializer).build()
+public fun buildNetworkLoadBalancedTaskImageOptions(initializer: @AwsCdkDsl NetworkLoadBalancedTaskImageOptions.Builder.() -> Unit = {}): NetworkLoadBalancedTaskImageOptions = NetworkLoadBalancedTaskImageOptions.Builder().apply(initializer).build()

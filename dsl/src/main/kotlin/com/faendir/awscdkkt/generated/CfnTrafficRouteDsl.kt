@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.CfnTrafficRoute
 
 @Generated
-public fun buildCfnTrafficRoute(initializer: @AwsCdkDsl CfnTrafficRoute.Builder.() -> Unit = {}):
-    CfnTrafficRoute = CfnTrafficRoute.Builder().apply(initializer).build()
+public fun buildCfnTrafficRoute(initializer: @AwsCdkDsl CfnTrafficRoute.Builder.() -> Unit = {}): CfnTrafficRoute = CfnTrafficRoute.Builder().apply(initializer).build()

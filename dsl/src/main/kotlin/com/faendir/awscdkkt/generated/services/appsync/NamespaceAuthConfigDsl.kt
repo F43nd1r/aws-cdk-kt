@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.NamespaceAuthConfig
 
 @Generated
-public fun buildNamespaceAuthConfig(initializer: @AwsCdkDsl NamespaceAuthConfig.Builder.() -> Unit =
-    {}): NamespaceAuthConfig = NamespaceAuthConfig.Builder().apply(initializer).build()
+public fun buildNamespaceAuthConfig(initializer: @AwsCdkDsl NamespaceAuthConfig.Builder.() -> Unit = {}): NamespaceAuthConfig = NamespaceAuthConfig.Builder().apply(initializer).build()

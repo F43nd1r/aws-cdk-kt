@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.xray.CfnTransactionSearchConfigProps
 
 @Generated
-public fun buildCfnTransactionSearchConfigProps(initializer: @AwsCdkDsl
-    CfnTransactionSearchConfigProps.Builder.() -> Unit = {}): CfnTransactionSearchConfigProps =
-    CfnTransactionSearchConfigProps.Builder().apply(initializer).build()
+public fun buildCfnTransactionSearchConfigProps(initializer: @AwsCdkDsl CfnTransactionSearchConfigProps.Builder.() -> Unit = {}): CfnTransactionSearchConfigProps = CfnTransactionSearchConfigProps.Builder().apply(initializer).build()

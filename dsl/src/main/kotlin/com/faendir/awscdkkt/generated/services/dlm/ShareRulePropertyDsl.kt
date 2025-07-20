@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dlm.CfnLifecyclePolicy
 
 @Generated
-public fun buildShareRuleProperty(initializer: @AwsCdkDsl
-    CfnLifecyclePolicy.ShareRuleProperty.Builder.() -> Unit = {}):
-    CfnLifecyclePolicy.ShareRuleProperty =
-    CfnLifecyclePolicy.ShareRuleProperty.Builder().apply(initializer).build()
+public fun buildShareRuleProperty(initializer: @AwsCdkDsl CfnLifecyclePolicy.ShareRuleProperty.Builder.() -> Unit = {}): CfnLifecyclePolicy.ShareRuleProperty = CfnLifecyclePolicy.ShareRuleProperty.Builder().apply(initializer).build()

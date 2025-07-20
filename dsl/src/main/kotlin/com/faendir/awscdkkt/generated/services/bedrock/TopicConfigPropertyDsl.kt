@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnGuardrail
 
 @Generated
-public fun buildTopicConfigProperty(initializer: @AwsCdkDsl
-    CfnGuardrail.TopicConfigProperty.Builder.() -> Unit = {}): CfnGuardrail.TopicConfigProperty =
-    CfnGuardrail.TopicConfigProperty.Builder().apply(initializer).build()
+public fun buildTopicConfigProperty(initializer: @AwsCdkDsl CfnGuardrail.TopicConfigProperty.Builder.() -> Unit = {}): CfnGuardrail.TopicConfigProperty = CfnGuardrail.TopicConfigProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.GenericLinuxImageProps
 
 @Generated
-public fun buildGenericLinuxImageProps(initializer: @AwsCdkDsl
-    GenericLinuxImageProps.Builder.() -> Unit = {}): GenericLinuxImageProps =
-    GenericLinuxImageProps.Builder().apply(initializer).build()
+public fun buildGenericLinuxImageProps(initializer: @AwsCdkDsl GenericLinuxImageProps.Builder.() -> Unit = {}): GenericLinuxImageProps = GenericLinuxImageProps.Builder().apply(initializer).build()

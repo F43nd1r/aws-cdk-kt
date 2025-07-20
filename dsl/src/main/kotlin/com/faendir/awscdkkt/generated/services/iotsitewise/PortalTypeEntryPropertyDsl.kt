@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotsitewise.CfnPortal
 
 @Generated
-public fun buildPortalTypeEntryProperty(initializer: @AwsCdkDsl
-    CfnPortal.PortalTypeEntryProperty.Builder.() -> Unit = {}): CfnPortal.PortalTypeEntryProperty =
-    CfnPortal.PortalTypeEntryProperty.Builder().apply(initializer).build()
+public fun buildPortalTypeEntryProperty(initializer: @AwsCdkDsl CfnPortal.PortalTypeEntryProperty.Builder.() -> Unit = {}): CfnPortal.PortalTypeEntryProperty = CfnPortal.PortalTypeEntryProperty.Builder().apply(initializer).build()

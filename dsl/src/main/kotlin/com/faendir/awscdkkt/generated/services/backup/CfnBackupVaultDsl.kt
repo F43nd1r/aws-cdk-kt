@@ -16,6 +16,4 @@ public fun Construct.cfnBackupVault(
 ): CfnBackupVault = CfnBackupVault(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnBackupVault(id: String, initializer: @AwsCdkDsl
-    CfnBackupVault.Builder.() -> Unit = {}): CfnBackupVault = CfnBackupVault.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnBackupVault(id: String, initializer: @AwsCdkDsl CfnBackupVault.Builder.() -> Unit = {}): CfnBackupVault = CfnBackupVault.Builder.create(this, id).apply(initializer).build()

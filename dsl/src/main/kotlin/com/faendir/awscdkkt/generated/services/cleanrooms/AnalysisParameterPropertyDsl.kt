@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cleanrooms.CfnAnalysisTemplate
 
 @Generated
-public fun buildAnalysisParameterProperty(initializer: @AwsCdkDsl
-    CfnAnalysisTemplate.AnalysisParameterProperty.Builder.() -> Unit = {}):
-    CfnAnalysisTemplate.AnalysisParameterProperty =
-    CfnAnalysisTemplate.AnalysisParameterProperty.Builder().apply(initializer).build()
+public fun buildAnalysisParameterProperty(initializer: @AwsCdkDsl CfnAnalysisTemplate.AnalysisParameterProperty.Builder.() -> Unit = {}): CfnAnalysisTemplate.AnalysisParameterProperty = CfnAnalysisTemplate.AnalysisParameterProperty.Builder().apply(initializer).build()

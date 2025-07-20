@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnEndpointConfig
 
 @Generated
-public fun buildServerlessConfigProperty(initializer: @AwsCdkDsl
-    CfnEndpointConfig.ServerlessConfigProperty.Builder.() -> Unit = {}):
-    CfnEndpointConfig.ServerlessConfigProperty =
-    CfnEndpointConfig.ServerlessConfigProperty.Builder().apply(initializer).build()
+public fun buildServerlessConfigProperty(initializer: @AwsCdkDsl CfnEndpointConfig.ServerlessConfigProperty.Builder.() -> Unit = {}): CfnEndpointConfig.ServerlessConfigProperty = CfnEndpointConfig.ServerlessConfigProperty.Builder().apply(initializer).build()

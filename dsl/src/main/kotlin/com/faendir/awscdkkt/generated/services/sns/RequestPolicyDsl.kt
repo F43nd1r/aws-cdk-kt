@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sns.RequestPolicy
 
 @Generated
-public fun buildRequestPolicy(initializer: @AwsCdkDsl RequestPolicy.Builder.() -> Unit = {}):
-    RequestPolicy = RequestPolicy.Builder().apply(initializer).build()
+public fun buildRequestPolicy(initializer: @AwsCdkDsl RequestPolicy.Builder.() -> Unit = {}): RequestPolicy = RequestPolicy.Builder().apply(initializer).build()

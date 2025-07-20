@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securitylake.CfnSubscriberNotification
 
 @Generated
-public fun buildHttpsNotificationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnSubscriberNotification.HttpsNotificationConfigurationProperty.Builder.() -> Unit = {}):
-    CfnSubscriberNotification.HttpsNotificationConfigurationProperty =
-    CfnSubscriberNotification.HttpsNotificationConfigurationProperty.Builder().apply(initializer).build()
+public fun buildHttpsNotificationConfigurationProperty(initializer: @AwsCdkDsl CfnSubscriberNotification.HttpsNotificationConfigurationProperty.Builder.() -> Unit = {}): CfnSubscriberNotification.HttpsNotificationConfigurationProperty = CfnSubscriberNotification.HttpsNotificationConfigurationProperty.Builder().apply(initializer).build()

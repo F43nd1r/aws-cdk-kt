@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnCluster
 
 @Generated
-public fun buildExecuteCommandLogConfigurationProperty(initializer: @AwsCdkDsl
-    CfnCluster.ExecuteCommandLogConfigurationProperty.Builder.() -> Unit = {}):
-    CfnCluster.ExecuteCommandLogConfigurationProperty =
-    CfnCluster.ExecuteCommandLogConfigurationProperty.Builder().apply(initializer).build()
+public fun buildExecuteCommandLogConfigurationProperty(initializer: @AwsCdkDsl CfnCluster.ExecuteCommandLogConfigurationProperty.Builder.() -> Unit = {}): CfnCluster.ExecuteCommandLogConfigurationProperty = CfnCluster.ExecuteCommandLogConfigurationProperty.Builder().apply(initializer).build()

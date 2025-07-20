@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.InitFileAssetOptions
 
 @Generated
-public fun buildInitFileAssetOptions(initializer: @AwsCdkDsl InitFileAssetOptions.Builder.() -> Unit
-    = {}): InitFileAssetOptions = InitFileAssetOptions.Builder().apply(initializer).build()
+public fun buildInitFileAssetOptions(initializer: @AwsCdkDsl InitFileAssetOptions.Builder.() -> Unit = {}): InitFileAssetOptions = InitFileAssetOptions.Builder().apply(initializer).build()

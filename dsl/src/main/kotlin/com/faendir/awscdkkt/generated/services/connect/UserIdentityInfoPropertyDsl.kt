@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnUser
 
 @Generated
-public fun buildUserIdentityInfoProperty(initializer: @AwsCdkDsl
-    CfnUser.UserIdentityInfoProperty.Builder.() -> Unit = {}): CfnUser.UserIdentityInfoProperty =
-    CfnUser.UserIdentityInfoProperty.Builder().apply(initializer).build()
+public fun buildUserIdentityInfoProperty(initializer: @AwsCdkDsl CfnUser.UserIdentityInfoProperty.Builder.() -> Unit = {}): CfnUser.UserIdentityInfoProperty = CfnUser.UserIdentityInfoProperty.Builder().apply(initializer).build()

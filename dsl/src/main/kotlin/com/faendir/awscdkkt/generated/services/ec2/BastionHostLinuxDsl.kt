@@ -16,6 +16,4 @@ public fun Construct.bastionHostLinux(
 ): BastionHostLinux = BastionHostLinux(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildBastionHostLinux(id: String, initializer: @AwsCdkDsl
-    BastionHostLinux.Builder.() -> Unit = {}): BastionHostLinux =
-    BastionHostLinux.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildBastionHostLinux(id: String, initializer: @AwsCdkDsl BastionHostLinux.Builder.() -> Unit = {}): BastionHostLinux = BastionHostLinux.Builder.create(this, id).apply(initializer).build()

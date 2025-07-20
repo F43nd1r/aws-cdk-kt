@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.ReplicaTableProps
 
 @Generated
-public fun buildReplicaTableProps(initializer: @AwsCdkDsl ReplicaTableProps.Builder.() -> Unit =
-    {}): ReplicaTableProps = ReplicaTableProps.Builder().apply(initializer).build()
+public fun buildReplicaTableProps(initializer: @AwsCdkDsl ReplicaTableProps.Builder.() -> Unit = {}): ReplicaTableProps = ReplicaTableProps.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnScraper(
 ): CfnScraper = CfnScraper(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnScraper(id: String, initializer: @AwsCdkDsl
-    CfnScraper.Builder.() -> Unit = {}): CfnScraper = CfnScraper.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnScraper(id: String, initializer: @AwsCdkDsl CfnScraper.Builder.() -> Unit = {}): CfnScraper = CfnScraper.Builder.create(this, id).apply(initializer).build()

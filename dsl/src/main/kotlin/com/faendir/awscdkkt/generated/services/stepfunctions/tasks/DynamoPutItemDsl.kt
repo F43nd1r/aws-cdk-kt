@@ -16,6 +16,4 @@ public fun Construct.dynamoPutItem(
 ): DynamoPutItem = DynamoPutItem(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildDynamoPutItem(id: String, initializer: @AwsCdkDsl
-    DynamoPutItem.Builder.() -> Unit = {}): DynamoPutItem = DynamoPutItem.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildDynamoPutItem(id: String, initializer: @AwsCdkDsl DynamoPutItem.Builder.() -> Unit = {}): DynamoPutItem = DynamoPutItem.Builder.create(this, id).apply(initializer).build()

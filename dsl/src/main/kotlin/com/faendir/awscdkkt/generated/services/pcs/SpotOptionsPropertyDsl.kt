@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pcs.CfnComputeNodeGroup
 
 @Generated
-public fun buildSpotOptionsProperty(initializer: @AwsCdkDsl
-    CfnComputeNodeGroup.SpotOptionsProperty.Builder.() -> Unit = {}):
-    CfnComputeNodeGroup.SpotOptionsProperty =
-    CfnComputeNodeGroup.SpotOptionsProperty.Builder().apply(initializer).build()
+public fun buildSpotOptionsProperty(initializer: @AwsCdkDsl CfnComputeNodeGroup.SpotOptionsProperty.Builder.() -> Unit = {}): CfnComputeNodeGroup.SpotOptionsProperty = CfnComputeNodeGroup.SpotOptionsProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudformation.CfnLambdaHook
 
 @Generated
-public fun buildStackFiltersProperty(initializer: @AwsCdkDsl
-    CfnLambdaHook.StackFiltersProperty.Builder.() -> Unit = {}): CfnLambdaHook.StackFiltersProperty
-    = CfnLambdaHook.StackFiltersProperty.Builder().apply(initializer).build()
+public fun buildStackFiltersProperty(initializer: @AwsCdkDsl CfnLambdaHook.StackFiltersProperty.Builder.() -> Unit = {}): CfnLambdaHook.StackFiltersProperty = CfnLambdaHook.StackFiltersProperty.Builder().apply(initializer).build()

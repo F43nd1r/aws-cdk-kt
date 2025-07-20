@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.CfnAuthorizer
 
 @Generated
-public fun buildJWTConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAuthorizer.JWTConfigurationProperty.Builder.() -> Unit = {}):
-    CfnAuthorizer.JWTConfigurationProperty =
-    CfnAuthorizer.JWTConfigurationProperty.Builder().apply(initializer).build()
+public fun buildJWTConfigurationProperty(initializer: @AwsCdkDsl CfnAuthorizer.JWTConfigurationProperty.Builder.() -> Unit = {}): CfnAuthorizer.JWTConfigurationProperty = CfnAuthorizer.JWTConfigurationProperty.Builder().apply(initializer).build()

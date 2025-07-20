@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnRefreshScheduleProps
 
 @Generated
-public fun buildCfnRefreshScheduleProps(initializer: @AwsCdkDsl
-    CfnRefreshScheduleProps.Builder.() -> Unit = {}): CfnRefreshScheduleProps =
-    CfnRefreshScheduleProps.Builder().apply(initializer).build()
+public fun buildCfnRefreshScheduleProps(initializer: @AwsCdkDsl CfnRefreshScheduleProps.Builder.() -> Unit = {}): CfnRefreshScheduleProps = CfnRefreshScheduleProps.Builder().apply(initializer).build()

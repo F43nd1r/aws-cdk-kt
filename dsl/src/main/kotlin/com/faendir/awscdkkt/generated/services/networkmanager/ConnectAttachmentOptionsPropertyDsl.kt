@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkmanager.CfnConnectAttachment
 
 @Generated
-public fun buildConnectAttachmentOptionsProperty(initializer: @AwsCdkDsl
-    CfnConnectAttachment.ConnectAttachmentOptionsProperty.Builder.() -> Unit = {}):
-    CfnConnectAttachment.ConnectAttachmentOptionsProperty =
-    CfnConnectAttachment.ConnectAttachmentOptionsProperty.Builder().apply(initializer).build()
+public fun buildConnectAttachmentOptionsProperty(initializer: @AwsCdkDsl CfnConnectAttachment.ConnectAttachmentOptionsProperty.Builder.() -> Unit = {}): CfnConnectAttachment.ConnectAttachmentOptionsProperty = CfnConnectAttachment.ConnectAttachmentOptionsProperty.Builder().apply(initializer).build()

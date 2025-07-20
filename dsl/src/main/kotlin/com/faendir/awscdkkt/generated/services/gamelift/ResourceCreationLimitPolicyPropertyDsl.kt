@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnFleet
 
 @Generated
-public fun buildResourceCreationLimitPolicyProperty(initializer: @AwsCdkDsl
-    CfnFleet.ResourceCreationLimitPolicyProperty.Builder.() -> Unit = {}):
-    CfnFleet.ResourceCreationLimitPolicyProperty =
-    CfnFleet.ResourceCreationLimitPolicyProperty.Builder().apply(initializer).build()
+public fun buildResourceCreationLimitPolicyProperty(initializer: @AwsCdkDsl CfnFleet.ResourceCreationLimitPolicyProperty.Builder.() -> Unit = {}): CfnFleet.ResourceCreationLimitPolicyProperty = CfnFleet.ResourceCreationLimitPolicyProperty.Builder().apply(initializer).build()

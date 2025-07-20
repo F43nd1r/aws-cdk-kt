@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.DataBucketConfiguration
 
 @Generated
-public fun buildDataBucketConfiguration(initializer: @AwsCdkDsl
-    DataBucketConfiguration.Builder.() -> Unit = {}): DataBucketConfiguration =
-    DataBucketConfiguration.Builder().apply(initializer).build()
+public fun buildDataBucketConfiguration(initializer: @AwsCdkDsl DataBucketConfiguration.Builder.() -> Unit = {}): DataBucketConfiguration = DataBucketConfiguration.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnProvisioningTemplate
 
 @Generated
-public fun buildProvisioningHookProperty(initializer: @AwsCdkDsl
-    CfnProvisioningTemplate.ProvisioningHookProperty.Builder.() -> Unit = {}):
-    CfnProvisioningTemplate.ProvisioningHookProperty =
-    CfnProvisioningTemplate.ProvisioningHookProperty.Builder().apply(initializer).build()
+public fun buildProvisioningHookProperty(initializer: @AwsCdkDsl CfnProvisioningTemplate.ProvisioningHookProperty.Builder.() -> Unit = {}): CfnProvisioningTemplate.ProvisioningHookProperty = CfnProvisioningTemplate.ProvisioningHookProperty.Builder().apply(initializer).build()

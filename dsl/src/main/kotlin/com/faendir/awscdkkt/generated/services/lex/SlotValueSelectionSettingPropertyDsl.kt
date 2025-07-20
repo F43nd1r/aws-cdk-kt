@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildSlotValueSelectionSettingProperty(initializer: @AwsCdkDsl
-    CfnBot.SlotValueSelectionSettingProperty.Builder.() -> Unit = {}):
-    CfnBot.SlotValueSelectionSettingProperty =
-    CfnBot.SlotValueSelectionSettingProperty.Builder().apply(initializer).build()
+public fun buildSlotValueSelectionSettingProperty(initializer: @AwsCdkDsl CfnBot.SlotValueSelectionSettingProperty.Builder.() -> Unit = {}): CfnBot.SlotValueSelectionSettingProperty = CfnBot.SlotValueSelectionSettingProperty.Builder().apply(initializer).build()

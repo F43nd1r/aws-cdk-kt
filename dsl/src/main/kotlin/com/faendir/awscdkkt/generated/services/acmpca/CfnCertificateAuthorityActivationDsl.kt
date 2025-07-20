@@ -13,10 +13,7 @@ public fun Construct.cfnCertificateAuthorityActivation(
   id: String,
   props: CfnCertificateAuthorityActivationProps,
   initializer: @AwsCdkDsl CfnCertificateAuthorityActivation.() -> Unit = {},
-): CfnCertificateAuthorityActivation = CfnCertificateAuthorityActivation(this, id,
-    props).apply(initializer)
+): CfnCertificateAuthorityActivation = CfnCertificateAuthorityActivation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCertificateAuthorityActivation(id: String, initializer: @AwsCdkDsl
-    CfnCertificateAuthorityActivation.Builder.() -> Unit = {}): CfnCertificateAuthorityActivation =
-    CfnCertificateAuthorityActivation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCertificateAuthorityActivation(id: String, initializer: @AwsCdkDsl CfnCertificateAuthorityActivation.Builder.() -> Unit = {}): CfnCertificateAuthorityActivation = CfnCertificateAuthorityActivation.Builder.create(this, id).apply(initializer).build()

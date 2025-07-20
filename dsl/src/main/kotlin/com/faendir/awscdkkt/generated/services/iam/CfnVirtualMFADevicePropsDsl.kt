@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.CfnVirtualMFADeviceProps
 
 @Generated
-public fun buildCfnVirtualMFADeviceProps(initializer: @AwsCdkDsl
-    CfnVirtualMFADeviceProps.Builder.() -> Unit = {}): CfnVirtualMFADeviceProps =
-    CfnVirtualMFADeviceProps.Builder().apply(initializer).build()
+public fun buildCfnVirtualMFADeviceProps(initializer: @AwsCdkDsl CfnVirtualMFADeviceProps.Builder.() -> Unit = {}): CfnVirtualMFADeviceProps = CfnVirtualMFADeviceProps.Builder().apply(initializer).build()

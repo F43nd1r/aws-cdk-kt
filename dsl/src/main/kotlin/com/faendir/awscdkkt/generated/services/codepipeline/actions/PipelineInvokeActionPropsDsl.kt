@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.PipelineInvokeActionProps
 
 @Generated
-public fun buildPipelineInvokeActionProps(initializer: @AwsCdkDsl
-    PipelineInvokeActionProps.Builder.() -> Unit = {}): PipelineInvokeActionProps =
-    PipelineInvokeActionProps.Builder().apply(initializer).build()
+public fun buildPipelineInvokeActionProps(initializer: @AwsCdkDsl PipelineInvokeActionProps.Builder.() -> Unit = {}): PipelineInvokeActionProps = PipelineInvokeActionProps.Builder().apply(initializer).build()

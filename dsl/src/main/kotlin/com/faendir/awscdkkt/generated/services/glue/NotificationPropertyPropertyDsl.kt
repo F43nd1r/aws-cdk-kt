@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnTrigger
 
 @Generated
-public fun buildNotificationPropertyProperty(initializer: @AwsCdkDsl
-    CfnTrigger.NotificationPropertyProperty.Builder.() -> Unit = {}):
-    CfnTrigger.NotificationPropertyProperty =
-    CfnTrigger.NotificationPropertyProperty.Builder().apply(initializer).build()
+public fun buildNotificationPropertyProperty(initializer: @AwsCdkDsl CfnTrigger.NotificationPropertyProperty.Builder.() -> Unit = {}): CfnTrigger.NotificationPropertyProperty = CfnTrigger.NotificationPropertyProperty.Builder().apply(initializer).build()

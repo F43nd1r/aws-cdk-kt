@@ -16,6 +16,4 @@ public fun Construct.cfnMulticastGroup(
 ): CfnMulticastGroup = CfnMulticastGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMulticastGroup(id: String, initializer: @AwsCdkDsl
-    CfnMulticastGroup.Builder.() -> Unit = {}): CfnMulticastGroup =
-    CfnMulticastGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMulticastGroup(id: String, initializer: @AwsCdkDsl CfnMulticastGroup.Builder.() -> Unit = {}): CfnMulticastGroup = CfnMulticastGroup.Builder.create(this, id).apply(initializer).build()

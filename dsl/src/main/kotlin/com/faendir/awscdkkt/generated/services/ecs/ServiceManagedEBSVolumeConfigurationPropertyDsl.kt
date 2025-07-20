@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnService
 
 @Generated
-public fun buildServiceManagedEBSVolumeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnService.ServiceManagedEBSVolumeConfigurationProperty.Builder.() -> Unit = {}):
-    CfnService.ServiceManagedEBSVolumeConfigurationProperty =
-    CfnService.ServiceManagedEBSVolumeConfigurationProperty.Builder().apply(initializer).build()
+public fun buildServiceManagedEBSVolumeConfigurationProperty(initializer: @AwsCdkDsl CfnService.ServiceManagedEBSVolumeConfigurationProperty.Builder.() -> Unit = {}): CfnService.ServiceManagedEBSVolumeConfigurationProperty = CfnService.ServiceManagedEBSVolumeConfigurationProperty.Builder().apply(initializer).build()

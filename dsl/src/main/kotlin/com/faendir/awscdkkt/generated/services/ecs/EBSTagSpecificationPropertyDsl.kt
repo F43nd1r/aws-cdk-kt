@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnService
 
 @Generated
-public fun buildEBSTagSpecificationProperty(initializer: @AwsCdkDsl
-    CfnService.EBSTagSpecificationProperty.Builder.() -> Unit = {}):
-    CfnService.EBSTagSpecificationProperty =
-    CfnService.EBSTagSpecificationProperty.Builder().apply(initializer).build()
+public fun buildEBSTagSpecificationProperty(initializer: @AwsCdkDsl CfnService.EBSTagSpecificationProperty.Builder.() -> Unit = {}): CfnService.EBSTagSpecificationProperty = CfnService.EBSTagSpecificationProperty.Builder().apply(initializer).build()

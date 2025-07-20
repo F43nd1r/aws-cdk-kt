@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.waf.regional.CfnIPSetProps
 
 @Generated
-public fun buildCfnIPSetProps(initializer: @AwsCdkDsl CfnIPSetProps.Builder.() -> Unit = {}):
-    CfnIPSetProps = CfnIPSetProps.Builder().apply(initializer).build()
+public fun buildCfnIPSetProps(initializer: @AwsCdkDsl CfnIPSetProps.Builder.() -> Unit = {}): CfnIPSetProps = CfnIPSetProps.Builder().apply(initializer).build()

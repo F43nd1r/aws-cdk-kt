@@ -16,6 +16,4 @@ public fun Construct.subnetNetworkAclAssociation(
 ): SubnetNetworkAclAssociation = SubnetNetworkAclAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildSubnetNetworkAclAssociation(id: String, initializer: @AwsCdkDsl
-    SubnetNetworkAclAssociation.Builder.() -> Unit = {}): SubnetNetworkAclAssociation =
-    SubnetNetworkAclAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildSubnetNetworkAclAssociation(id: String, initializer: @AwsCdkDsl SubnetNetworkAclAssociation.Builder.() -> Unit = {}): SubnetNetworkAclAssociation = SubnetNetworkAclAssociation.Builder.create(this, id).apply(initializer).build()

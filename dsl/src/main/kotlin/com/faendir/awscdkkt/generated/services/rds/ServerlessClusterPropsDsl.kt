@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.ServerlessClusterProps
 
 @Generated
-public fun buildServerlessClusterProps(initializer: @AwsCdkDsl
-    ServerlessClusterProps.Builder.() -> Unit = {}): ServerlessClusterProps =
-    ServerlessClusterProps.Builder().apply(initializer).build()
+public fun buildServerlessClusterProps(initializer: @AwsCdkDsl ServerlessClusterProps.Builder.() -> Unit = {}): ServerlessClusterProps = ServerlessClusterProps.Builder().apply(initializer).build()

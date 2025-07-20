@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnModel
 
 @Generated
-public fun buildMultiModelConfigProperty(initializer: @AwsCdkDsl
-    CfnModel.MultiModelConfigProperty.Builder.() -> Unit = {}): CfnModel.MultiModelConfigProperty =
-    CfnModel.MultiModelConfigProperty.Builder().apply(initializer).build()
+public fun buildMultiModelConfigProperty(initializer: @AwsCdkDsl CfnModel.MultiModelConfigProperty.Builder.() -> Unit = {}): CfnModel.MultiModelConfigProperty = CfnModel.MultiModelConfigProperty.Builder().apply(initializer).build()

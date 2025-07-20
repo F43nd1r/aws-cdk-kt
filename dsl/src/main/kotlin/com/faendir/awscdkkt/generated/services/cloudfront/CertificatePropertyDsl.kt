@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnDistributionTenant
 
 @Generated
-public fun buildCertificateProperty(initializer: @AwsCdkDsl
-    CfnDistributionTenant.CertificateProperty.Builder.() -> Unit = {}):
-    CfnDistributionTenant.CertificateProperty =
-    CfnDistributionTenant.CertificateProperty.Builder().apply(initializer).build()
+public fun buildCertificateProperty(initializer: @AwsCdkDsl CfnDistributionTenant.CertificateProperty.Builder.() -> Unit = {}): CfnDistributionTenant.CertificateProperty = CfnDistributionTenant.CertificateProperty.Builder().apply(initializer).build()

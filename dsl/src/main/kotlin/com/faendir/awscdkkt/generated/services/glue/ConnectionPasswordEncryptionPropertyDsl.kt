@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnDataCatalogEncryptionSettings
 
 @Generated
-public fun buildConnectionPasswordEncryptionProperty(initializer: @AwsCdkDsl
-    CfnDataCatalogEncryptionSettings.ConnectionPasswordEncryptionProperty.Builder.() -> Unit = {}):
-    CfnDataCatalogEncryptionSettings.ConnectionPasswordEncryptionProperty =
-    CfnDataCatalogEncryptionSettings.ConnectionPasswordEncryptionProperty.Builder().apply(initializer).build()
+public fun buildConnectionPasswordEncryptionProperty(initializer: @AwsCdkDsl CfnDataCatalogEncryptionSettings.ConnectionPasswordEncryptionProperty.Builder.() -> Unit = {}): CfnDataCatalogEncryptionSettings.ConnectionPasswordEncryptionProperty = CfnDataCatalogEncryptionSettings.ConnectionPasswordEncryptionProperty.Builder().apply(initializer).build()

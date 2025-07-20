@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3tables.CfnTableBucket
 
 @Generated
-public fun buildUnreferencedFileRemovalProperty(initializer: @AwsCdkDsl
-    CfnTableBucket.UnreferencedFileRemovalProperty.Builder.() -> Unit = {}):
-    CfnTableBucket.UnreferencedFileRemovalProperty =
-    CfnTableBucket.UnreferencedFileRemovalProperty.Builder().apply(initializer).build()
+public fun buildUnreferencedFileRemovalProperty(initializer: @AwsCdkDsl CfnTableBucket.UnreferencedFileRemovalProperty.Builder.() -> Unit = {}): CfnTableBucket.UnreferencedFileRemovalProperty = CfnTableBucket.UnreferencedFileRemovalProperty.Builder().apply(initializer).build()

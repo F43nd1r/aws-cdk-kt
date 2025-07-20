@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.identitypool.UserPoolAuthenticationProviderBindConfig
 
 @Generated
-public fun buildUserPoolAuthenticationProviderBindConfig(initializer: @AwsCdkDsl
-    UserPoolAuthenticationProviderBindConfig.Builder.() -> Unit = {}):
-    UserPoolAuthenticationProviderBindConfig =
-    UserPoolAuthenticationProviderBindConfig.Builder().apply(initializer).build()
+public fun buildUserPoolAuthenticationProviderBindConfig(initializer: @AwsCdkDsl UserPoolAuthenticationProviderBindConfig.Builder.() -> Unit = {}): UserPoolAuthenticationProviderBindConfig = UserPoolAuthenticationProviderBindConfig.Builder().apply(initializer).build()

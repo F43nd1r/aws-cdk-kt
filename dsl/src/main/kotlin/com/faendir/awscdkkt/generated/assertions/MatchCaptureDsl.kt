@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.assertions.MatchCapture
 
 @Generated
-public fun buildMatchCapture(initializer: @AwsCdkDsl MatchCapture.Builder.() -> Unit = {}):
-    MatchCapture = MatchCapture.Builder().apply(initializer).build()
+public fun buildMatchCapture(initializer: @AwsCdkDsl MatchCapture.Builder.() -> Unit = {}): MatchCapture = MatchCapture.Builder().apply(initializer).build()

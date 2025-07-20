@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.SingleValueWidgetProps
 
 @Generated
-public fun buildSingleValueWidgetProps(initializer: @AwsCdkDsl
-    SingleValueWidgetProps.Builder.() -> Unit = {}): SingleValueWidgetProps =
-    SingleValueWidgetProps.Builder().apply(initializer).build()
+public fun buildSingleValueWidgetProps(initializer: @AwsCdkDsl SingleValueWidgetProps.Builder.() -> Unit = {}): SingleValueWidgetProps = SingleValueWidgetProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnRealtimeLogConfig
 
 @Generated
-public fun buildEndPointProperty(initializer: @AwsCdkDsl
-    CfnRealtimeLogConfig.EndPointProperty.Builder.() -> Unit = {}):
-    CfnRealtimeLogConfig.EndPointProperty =
-    CfnRealtimeLogConfig.EndPointProperty.Builder().apply(initializer).build()
+public fun buildEndPointProperty(initializer: @AwsCdkDsl CfnRealtimeLogConfig.EndPointProperty.Builder.() -> Unit = {}): CfnRealtimeLogConfig.EndPointProperty = CfnRealtimeLogConfig.EndPointProperty.Builder().apply(initializer).build()

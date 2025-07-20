@@ -9,9 +9,6 @@ import kotlin.Suppress
 import kotlin.Unit
 import software.amazon.awscdk.services.appsync.ElasticsearchDataSourceProps
 
-@Deprecated(message =
-    "software.amazon.awscdk.services.appsync.ElasticsearchDataSourceProps is deprecated in CDK.")
+@Deprecated(message = "software.amazon.awscdk.services.appsync.ElasticsearchDataSourceProps is deprecated in CDK.")
 @Generated
-public fun buildElasticsearchDataSourceProps(initializer: @AwsCdkDsl
-    ElasticsearchDataSourceProps.Builder.() -> Unit = {}): ElasticsearchDataSourceProps =
-    ElasticsearchDataSourceProps.Builder().apply(initializer).build()
+public fun buildElasticsearchDataSourceProps(initializer: @AwsCdkDsl ElasticsearchDataSourceProps.Builder.() -> Unit = {}): ElasticsearchDataSourceProps = ElasticsearchDataSourceProps.Builder().apply(initializer).build()

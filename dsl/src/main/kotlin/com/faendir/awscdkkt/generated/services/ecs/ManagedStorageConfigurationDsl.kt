@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.ManagedStorageConfiguration
 
 @Generated
-public fun buildManagedStorageConfiguration(initializer: @AwsCdkDsl
-    ManagedStorageConfiguration.Builder.() -> Unit = {}): ManagedStorageConfiguration =
-    ManagedStorageConfiguration.Builder().apply(initializer).build()
+public fun buildManagedStorageConfiguration(initializer: @AwsCdkDsl ManagedStorageConfiguration.Builder.() -> Unit = {}): ManagedStorageConfiguration = ManagedStorageConfiguration.Builder().apply(initializer).build()

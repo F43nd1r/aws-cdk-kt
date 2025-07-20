@@ -16,5 +16,4 @@ public fun Construct.keyGroup(
 ): KeyGroup = KeyGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildKeyGroup(id: String, initializer: @AwsCdkDsl KeyGroup.Builder.() -> Unit =
-    {}): KeyGroup = KeyGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildKeyGroup(id: String, initializer: @AwsCdkDsl KeyGroup.Builder.() -> Unit = {}): KeyGroup = KeyGroup.Builder.create(this, id).apply(initializer).build()

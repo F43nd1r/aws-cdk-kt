@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildPivotTableFieldSubtotalOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PivotTableFieldSubtotalOptionsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.PivotTableFieldSubtotalOptionsProperty =
-    CfnTemplate.PivotTableFieldSubtotalOptionsProperty.Builder().apply(initializer).build()
+public fun buildPivotTableFieldSubtotalOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.PivotTableFieldSubtotalOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.PivotTableFieldSubtotalOptionsProperty = CfnTemplate.PivotTableFieldSubtotalOptionsProperty.Builder().apply(initializer).build()

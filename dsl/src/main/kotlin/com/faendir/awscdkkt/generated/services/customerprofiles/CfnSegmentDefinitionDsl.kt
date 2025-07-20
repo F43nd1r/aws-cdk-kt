@@ -16,6 +16,4 @@ public fun Construct.cfnSegmentDefinition(
 ): CfnSegmentDefinition = CfnSegmentDefinition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSegmentDefinition(id: String, initializer: @AwsCdkDsl
-    CfnSegmentDefinition.Builder.() -> Unit = {}): CfnSegmentDefinition =
-    CfnSegmentDefinition.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSegmentDefinition(id: String, initializer: @AwsCdkDsl CfnSegmentDefinition.Builder.() -> Unit = {}): CfnSegmentDefinition = CfnSegmentDefinition.Builder.create(this, id).apply(initializer).build()

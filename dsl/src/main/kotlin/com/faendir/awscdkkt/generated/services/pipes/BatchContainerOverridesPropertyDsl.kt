@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildBatchContainerOverridesProperty(initializer: @AwsCdkDsl
-    CfnPipe.BatchContainerOverridesProperty.Builder.() -> Unit = {}):
-    CfnPipe.BatchContainerOverridesProperty =
-    CfnPipe.BatchContainerOverridesProperty.Builder().apply(initializer).build()
+public fun buildBatchContainerOverridesProperty(initializer: @AwsCdkDsl CfnPipe.BatchContainerOverridesProperty.Builder.() -> Unit = {}): CfnPipe.BatchContainerOverridesProperty = CfnPipe.BatchContainerOverridesProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.LambdaFunctionAssociation
 
 @Generated
-public fun buildLambdaFunctionAssociation(initializer: @AwsCdkDsl
-    LambdaFunctionAssociation.Builder.() -> Unit = {}): LambdaFunctionAssociation =
-    LambdaFunctionAssociation.Builder().apply(initializer).build()
+public fun buildLambdaFunctionAssociation(initializer: @AwsCdkDsl LambdaFunctionAssociation.Builder.() -> Unit = {}): LambdaFunctionAssociation = LambdaFunctionAssociation.Builder().apply(initializer).build()

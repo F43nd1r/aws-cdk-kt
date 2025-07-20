@@ -16,6 +16,4 @@ public fun Construct.cfnScalingPlan(
 ): CfnScalingPlan = CfnScalingPlan(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnScalingPlan(id: String, initializer: @AwsCdkDsl
-    CfnScalingPlan.Builder.() -> Unit = {}): CfnScalingPlan = CfnScalingPlan.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnScalingPlan(id: String, initializer: @AwsCdkDsl CfnScalingPlan.Builder.() -> Unit = {}): CfnScalingPlan = CfnScalingPlan.Builder.create(this, id).apply(initializer).build()

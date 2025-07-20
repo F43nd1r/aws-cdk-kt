@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisvideo.CfnSignalingChannelProps
 
 @Generated
-public fun buildCfnSignalingChannelProps(initializer: @AwsCdkDsl
-    CfnSignalingChannelProps.Builder.() -> Unit = {}): CfnSignalingChannelProps =
-    CfnSignalingChannelProps.Builder().apply(initializer).build()
+public fun buildCfnSignalingChannelProps(initializer: @AwsCdkDsl CfnSignalingChannelProps.Builder.() -> Unit = {}): CfnSignalingChannelProps = CfnSignalingChannelProps.Builder().apply(initializer).build()

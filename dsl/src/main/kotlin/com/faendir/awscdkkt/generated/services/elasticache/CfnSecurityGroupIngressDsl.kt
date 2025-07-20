@@ -16,6 +16,4 @@ public fun Construct.cfnSecurityGroupIngress(
 ): CfnSecurityGroupIngress = CfnSecurityGroupIngress(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSecurityGroupIngress(id: String, initializer: @AwsCdkDsl
-    CfnSecurityGroupIngress.Builder.() -> Unit = {}): CfnSecurityGroupIngress =
-    CfnSecurityGroupIngress.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSecurityGroupIngress(id: String, initializer: @AwsCdkDsl CfnSecurityGroupIngress.Builder.() -> Unit = {}): CfnSecurityGroupIngress = CfnSecurityGroupIngress.Builder.create(this, id).apply(initializer).build()

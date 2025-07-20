@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.InstanceRequireImdsv2Aspect
 
 @Generated
-public fun buildInstanceRequireImdsv2Aspect(initializer: @AwsCdkDsl
-    InstanceRequireImdsv2Aspect.Builder.() -> Unit = {}): InstanceRequireImdsv2Aspect =
-    InstanceRequireImdsv2Aspect.Builder.create().apply(initializer).build()
+public fun buildInstanceRequireImdsv2Aspect(initializer: @AwsCdkDsl InstanceRequireImdsv2Aspect.Builder.() -> Unit = {}): InstanceRequireImdsv2Aspect = InstanceRequireImdsv2Aspect.Builder.create().apply(initializer).build()

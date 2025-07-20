@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.resourceexplorer2.CfnView
 
 @Generated
-public fun buildIncludedPropertyProperty(initializer: @AwsCdkDsl
-    CfnView.IncludedPropertyProperty.Builder.() -> Unit = {}): CfnView.IncludedPropertyProperty =
-    CfnView.IncludedPropertyProperty.Builder().apply(initializer).build()
+public fun buildIncludedPropertyProperty(initializer: @AwsCdkDsl CfnView.IncludedPropertyProperty.Builder.() -> Unit = {}): CfnView.IncludedPropertyProperty = CfnView.IncludedPropertyProperty.Builder().apply(initializer).build()

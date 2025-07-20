@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnConnectorProfile
 
 @Generated
-public fun buildRedshiftConnectorProfilePropertiesProperty(initializer: @AwsCdkDsl
-    CfnConnectorProfile.RedshiftConnectorProfilePropertiesProperty.Builder.() -> Unit = {}):
-    CfnConnectorProfile.RedshiftConnectorProfilePropertiesProperty =
-    CfnConnectorProfile.RedshiftConnectorProfilePropertiesProperty.Builder().apply(initializer).build()
+public fun buildRedshiftConnectorProfilePropertiesProperty(initializer: @AwsCdkDsl CfnConnectorProfile.RedshiftConnectorProfilePropertiesProperty.Builder.() -> Unit = {}): CfnConnectorProfile.RedshiftConnectorProfilePropertiesProperty = CfnConnectorProfile.RedshiftConnectorProfilePropertiesProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloud_assembly_schema.Tag
 
 @Generated
-public fun buildTag(initializer: @AwsCdkDsl Tag.Builder.() -> Unit = {}): Tag =
-    Tag.Builder().apply(initializer).build()
+public fun buildTag(initializer: @AwsCdkDsl Tag.Builder.() -> Unit = {}): Tag = Tag.Builder().apply(initializer).build()

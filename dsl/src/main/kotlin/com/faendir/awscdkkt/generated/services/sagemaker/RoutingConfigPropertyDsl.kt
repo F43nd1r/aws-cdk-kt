@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnEndpointConfig
 
 @Generated
-public fun buildRoutingConfigProperty(initializer: @AwsCdkDsl
-    CfnEndpointConfig.RoutingConfigProperty.Builder.() -> Unit = {}):
-    CfnEndpointConfig.RoutingConfigProperty =
-    CfnEndpointConfig.RoutingConfigProperty.Builder().apply(initializer).build()
+public fun buildRoutingConfigProperty(initializer: @AwsCdkDsl CfnEndpointConfig.RoutingConfigProperty.Builder.() -> Unit = {}): CfnEndpointConfig.RoutingConfigProperty = CfnEndpointConfig.RoutingConfigProperty.Builder().apply(initializer).build()

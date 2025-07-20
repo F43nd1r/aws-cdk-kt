@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.ec2.CfnInternetGatewayProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnInternetGateway(id: String, initializer: @AwsCdkDsl
-    CfnInternetGateway.() -> Unit = {}): CfnInternetGateway = CfnInternetGateway(this,
-    id).apply(initializer)
+public fun Construct.cfnInternetGateway(id: String, initializer: @AwsCdkDsl CfnInternetGateway.() -> Unit = {}): CfnInternetGateway = CfnInternetGateway(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnInternetGateway(
@@ -21,6 +19,4 @@ public fun Construct.cfnInternetGateway(
 ): CfnInternetGateway = CfnInternetGateway(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnInternetGateway(id: String, initializer: @AwsCdkDsl
-    CfnInternetGateway.Builder.() -> Unit = {}): CfnInternetGateway =
-    CfnInternetGateway.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnInternetGateway(id: String, initializer: @AwsCdkDsl CfnInternetGateway.Builder.() -> Unit = {}): CfnInternetGateway = CfnInternetGateway.Builder.create(this, id).apply(initializer).build()

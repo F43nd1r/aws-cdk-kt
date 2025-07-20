@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnVirtualNode
 
 @Generated
-public fun buildLoggingProperty(initializer: @AwsCdkDsl
-    CfnVirtualNode.LoggingProperty.Builder.() -> Unit = {}): CfnVirtualNode.LoggingProperty =
-    CfnVirtualNode.LoggingProperty.Builder().apply(initializer).build()
+public fun buildLoggingProperty(initializer: @AwsCdkDsl CfnVirtualNode.LoggingProperty.Builder.() -> Unit = {}): CfnVirtualNode.LoggingProperty = CfnVirtualNode.LoggingProperty.Builder().apply(initializer).build()

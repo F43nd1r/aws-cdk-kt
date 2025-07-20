@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.deadline.CfnQueueEnvironmentProps
 
 @Generated
-public fun buildCfnQueueEnvironmentProps(initializer: @AwsCdkDsl
-    CfnQueueEnvironmentProps.Builder.() -> Unit = {}): CfnQueueEnvironmentProps =
-    CfnQueueEnvironmentProps.Builder().apply(initializer).build()
+public fun buildCfnQueueEnvironmentProps(initializer: @AwsCdkDsl CfnQueueEnvironmentProps.Builder.() -> Unit = {}): CfnQueueEnvironmentProps = CfnQueueEnvironmentProps.Builder().apply(initializer).build()

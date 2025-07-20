@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnDatabase
 
 @Generated
-public fun buildPrincipalPrivilegesProperty(initializer: @AwsCdkDsl
-    CfnDatabase.PrincipalPrivilegesProperty.Builder.() -> Unit = {}):
-    CfnDatabase.PrincipalPrivilegesProperty =
-    CfnDatabase.PrincipalPrivilegesProperty.Builder().apply(initializer).build()
+public fun buildPrincipalPrivilegesProperty(initializer: @AwsCdkDsl CfnDatabase.PrincipalPrivilegesProperty.Builder.() -> Unit = {}): CfnDatabase.PrincipalPrivilegesProperty = CfnDatabase.PrincipalPrivilegesProperty.Builder().apply(initializer).build()

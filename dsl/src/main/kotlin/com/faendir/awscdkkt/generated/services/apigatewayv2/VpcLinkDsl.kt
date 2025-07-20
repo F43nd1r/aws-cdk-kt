@@ -16,5 +16,4 @@ public fun Construct.vpcLink(
 ): VpcLink = VpcLink(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildVpcLink(id: String, initializer: @AwsCdkDsl VpcLink.Builder.() -> Unit =
-    {}): VpcLink = VpcLink.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildVpcLink(id: String, initializer: @AwsCdkDsl VpcLink.Builder.() -> Unit = {}): VpcLink = VpcLink.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cleanrooms.CfnConfiguredTable
 
 @Generated
-public fun buildTableReferenceProperty(initializer: @AwsCdkDsl
-    CfnConfiguredTable.TableReferenceProperty.Builder.() -> Unit = {}):
-    CfnConfiguredTable.TableReferenceProperty =
-    CfnConfiguredTable.TableReferenceProperty.Builder().apply(initializer).build()
+public fun buildTableReferenceProperty(initializer: @AwsCdkDsl CfnConfiguredTable.TableReferenceProperty.Builder.() -> Unit = {}): CfnConfiguredTable.TableReferenceProperty = CfnConfiguredTable.TableReferenceProperty.Builder().apply(initializer).build()

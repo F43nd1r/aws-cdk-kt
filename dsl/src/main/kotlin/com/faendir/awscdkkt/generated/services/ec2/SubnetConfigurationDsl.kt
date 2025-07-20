@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.SubnetConfiguration
 
 @Generated
-public fun buildSubnetConfiguration(initializer: @AwsCdkDsl SubnetConfiguration.Builder.() -> Unit =
-    {}): SubnetConfiguration = SubnetConfiguration.Builder().apply(initializer).build()
+public fun buildSubnetConfiguration(initializer: @AwsCdkDsl SubnetConfiguration.Builder.() -> Unit = {}): SubnetConfiguration = SubnetConfiguration.Builder().apply(initializer).build()

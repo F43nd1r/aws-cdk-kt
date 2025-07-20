@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.emrserverless.CfnApplication
 
 @Generated
-public fun buildAutoStopConfigurationProperty(initializer: @AwsCdkDsl
-    CfnApplication.AutoStopConfigurationProperty.Builder.() -> Unit = {}):
-    CfnApplication.AutoStopConfigurationProperty =
-    CfnApplication.AutoStopConfigurationProperty.Builder().apply(initializer).build()
+public fun buildAutoStopConfigurationProperty(initializer: @AwsCdkDsl CfnApplication.AutoStopConfigurationProperty.Builder.() -> Unit = {}): CfnApplication.AutoStopConfigurationProperty = CfnApplication.AutoStopConfigurationProperty.Builder().apply(initializer).build()

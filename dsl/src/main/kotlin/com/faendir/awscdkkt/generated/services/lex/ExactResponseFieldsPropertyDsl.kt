@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildExactResponseFieldsProperty(initializer: @AwsCdkDsl
-    CfnBot.ExactResponseFieldsProperty.Builder.() -> Unit = {}): CfnBot.ExactResponseFieldsProperty
-    = CfnBot.ExactResponseFieldsProperty.Builder().apply(initializer).build()
+public fun buildExactResponseFieldsProperty(initializer: @AwsCdkDsl CfnBot.ExactResponseFieldsProperty.Builder.() -> Unit = {}): CfnBot.ExactResponseFieldsProperty = CfnBot.ExactResponseFieldsProperty.Builder().apply(initializer).build()

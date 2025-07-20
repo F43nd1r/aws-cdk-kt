@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.AthenaGetQueryResultsProps
 
 @Generated
-public fun buildAthenaGetQueryResultsProps(initializer: @AwsCdkDsl
-    AthenaGetQueryResultsProps.Builder.() -> Unit = {}): AthenaGetQueryResultsProps =
-    AthenaGetQueryResultsProps.Builder().apply(initializer).build()
+public fun buildAthenaGetQueryResultsProps(initializer: @AwsCdkDsl AthenaGetQueryResultsProps.Builder.() -> Unit = {}): AthenaGetQueryResultsProps = AthenaGetQueryResultsProps.Builder().apply(initializer).build()

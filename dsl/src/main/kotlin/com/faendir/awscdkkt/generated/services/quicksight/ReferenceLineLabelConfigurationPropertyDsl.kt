@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildReferenceLineLabelConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ReferenceLineLabelConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.ReferenceLineLabelConfigurationProperty =
-    CfnTemplate.ReferenceLineLabelConfigurationProperty.Builder().apply(initializer).build()
+public fun buildReferenceLineLabelConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.ReferenceLineLabelConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.ReferenceLineLabelConfigurationProperty = CfnTemplate.ReferenceLineLabelConfigurationProperty.Builder().apply(initializer).build()

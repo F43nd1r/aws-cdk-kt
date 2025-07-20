@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnSdiSourceProps
 
 @Generated
-public fun buildCfnSdiSourceProps(initializer: @AwsCdkDsl CfnSdiSourceProps.Builder.() -> Unit =
-    {}): CfnSdiSourceProps = CfnSdiSourceProps.Builder().apply(initializer).build()
+public fun buildCfnSdiSourceProps(initializer: @AwsCdkDsl CfnSdiSourceProps.Builder.() -> Unit = {}): CfnSdiSourceProps = CfnSdiSourceProps.Builder().apply(initializer).build()

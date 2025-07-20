@@ -16,6 +16,4 @@ public fun Construct.cfnEventSourceMapping(
 ): CfnEventSourceMapping = CfnEventSourceMapping(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEventSourceMapping(id: String, initializer: @AwsCdkDsl
-    CfnEventSourceMapping.Builder.() -> Unit = {}): CfnEventSourceMapping =
-    CfnEventSourceMapping.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnEventSourceMapping(id: String, initializer: @AwsCdkDsl CfnEventSourceMapping.Builder.() -> Unit = {}): CfnEventSourceMapping = CfnEventSourceMapping.Builder.create(this, id).apply(initializer).build()

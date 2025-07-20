@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pcaconnectorad.CfnTemplate
 
 @Generated
-public fun buildApplicationPoliciesProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ApplicationPoliciesProperty.Builder.() -> Unit = {}):
-    CfnTemplate.ApplicationPoliciesProperty =
-    CfnTemplate.ApplicationPoliciesProperty.Builder().apply(initializer).build()
+public fun buildApplicationPoliciesProperty(initializer: @AwsCdkDsl CfnTemplate.ApplicationPoliciesProperty.Builder.() -> Unit = {}): CfnTemplate.ApplicationPoliciesProperty = CfnTemplate.ApplicationPoliciesProperty.Builder().apply(initializer).build()

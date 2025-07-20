@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.emrserverless.CfnApplication
 
 @Generated
-public fun buildConfigurationObjectProperty(initializer: @AwsCdkDsl
-    CfnApplication.ConfigurationObjectProperty.Builder.() -> Unit = {}):
-    CfnApplication.ConfigurationObjectProperty =
-    CfnApplication.ConfigurationObjectProperty.Builder().apply(initializer).build()
+public fun buildConfigurationObjectProperty(initializer: @AwsCdkDsl CfnApplication.ConfigurationObjectProperty.Builder.() -> Unit = {}): CfnApplication.ConfigurationObjectProperty = CfnApplication.ConfigurationObjectProperty.Builder().apply(initializer).build()

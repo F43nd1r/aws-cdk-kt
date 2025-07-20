@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnThingProps
 
 @Generated
-public fun buildCfnThingProps(initializer: @AwsCdkDsl CfnThingProps.Builder.() -> Unit = {}):
-    CfnThingProps = CfnThingProps.Builder().apply(initializer).build()
+public fun buildCfnThingProps(initializer: @AwsCdkDsl CfnThingProps.Builder.() -> Unit = {}): CfnThingProps = CfnThingProps.Builder().apply(initializer).build()

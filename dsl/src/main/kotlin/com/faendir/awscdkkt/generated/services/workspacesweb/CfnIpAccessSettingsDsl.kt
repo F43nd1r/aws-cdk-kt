@@ -16,6 +16,4 @@ public fun Construct.cfnIpAccessSettings(
 ): CfnIpAccessSettings = CfnIpAccessSettings(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnIpAccessSettings(id: String, initializer: @AwsCdkDsl
-    CfnIpAccessSettings.Builder.() -> Unit = {}): CfnIpAccessSettings =
-    CfnIpAccessSettings.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnIpAccessSettings(id: String, initializer: @AwsCdkDsl CfnIpAccessSettings.Builder.() -> Unit = {}): CfnIpAccessSettings = CfnIpAccessSettings.Builder.create(this, id).apply(initializer).build()

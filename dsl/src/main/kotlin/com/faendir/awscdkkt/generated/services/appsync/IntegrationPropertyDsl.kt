@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.CfnChannelNamespace
 
 @Generated
-public fun buildIntegrationProperty(initializer: @AwsCdkDsl
-    CfnChannelNamespace.IntegrationProperty.Builder.() -> Unit = {}):
-    CfnChannelNamespace.IntegrationProperty =
-    CfnChannelNamespace.IntegrationProperty.Builder().apply(initializer).build()
+public fun buildIntegrationProperty(initializer: @AwsCdkDsl CfnChannelNamespace.IntegrationProperty.Builder.() -> Unit = {}): CfnChannelNamespace.IntegrationProperty = CfnChannelNamespace.IntegrationProperty.Builder().apply(initializer).build()

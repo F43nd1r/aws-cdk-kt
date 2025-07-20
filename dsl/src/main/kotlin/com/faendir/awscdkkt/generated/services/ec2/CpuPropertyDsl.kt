@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
-public fun buildCpuProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.CpuProperty.Builder.() -> Unit
-    = {}): CfnLaunchTemplate.CpuProperty =
-    CfnLaunchTemplate.CpuProperty.Builder().apply(initializer).build()
+public fun buildCpuProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.CpuProperty.Builder.() -> Unit = {}): CfnLaunchTemplate.CpuProperty = CfnLaunchTemplate.CpuProperty.Builder().apply(initializer).build()

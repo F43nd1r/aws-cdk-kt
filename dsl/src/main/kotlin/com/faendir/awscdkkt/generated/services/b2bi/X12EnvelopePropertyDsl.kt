@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.b2bi.CfnPartnership
 
 @Generated
-public fun buildX12EnvelopeProperty(initializer: @AwsCdkDsl
-    CfnPartnership.X12EnvelopeProperty.Builder.() -> Unit = {}): CfnPartnership.X12EnvelopeProperty
-    = CfnPartnership.X12EnvelopeProperty.Builder().apply(initializer).build()
+public fun buildX12EnvelopeProperty(initializer: @AwsCdkDsl CfnPartnership.X12EnvelopeProperty.Builder.() -> Unit = {}): CfnPartnership.X12EnvelopeProperty = CfnPartnership.X12EnvelopeProperty.Builder().apply(initializer).build()

@@ -9,8 +9,7 @@ import software.amazon.awscdk.CfnParameterProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnParameter(id: String, initializer: @AwsCdkDsl CfnParameter.() -> Unit = {}):
-    CfnParameter = CfnParameter(this, id).apply(initializer)
+public fun Construct.cfnParameter(id: String, initializer: @AwsCdkDsl CfnParameter.() -> Unit = {}): CfnParameter = CfnParameter(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnParameter(
@@ -20,6 +19,4 @@ public fun Construct.cfnParameter(
 ): CfnParameter = CfnParameter(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnParameter(id: String, initializer: @AwsCdkDsl
-    CfnParameter.Builder.() -> Unit = {}): CfnParameter = CfnParameter.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnParameter(id: String, initializer: @AwsCdkDsl CfnParameter.Builder.() -> Unit = {}): CfnParameter = CfnParameter.Builder.create(this, id).apply(initializer).build()

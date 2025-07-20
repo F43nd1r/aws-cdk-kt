@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kendra.CfnDataSource
 
 @Generated
-public fun buildSharePointConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.SharePointConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDataSource.SharePointConfigurationProperty =
-    CfnDataSource.SharePointConfigurationProperty.Builder().apply(initializer).build()
+public fun buildSharePointConfigurationProperty(initializer: @AwsCdkDsl CfnDataSource.SharePointConfigurationProperty.Builder.() -> Unit = {}): CfnDataSource.SharePointConfigurationProperty = CfnDataSource.SharePointConfigurationProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnFleet
 
 @Generated
-public fun buildIpPermissionProperty(initializer: @AwsCdkDsl
-    CfnFleet.IpPermissionProperty.Builder.() -> Unit = {}): CfnFleet.IpPermissionProperty =
-    CfnFleet.IpPermissionProperty.Builder().apply(initializer).build()
+public fun buildIpPermissionProperty(initializer: @AwsCdkDsl CfnFleet.IpPermissionProperty.Builder.() -> Unit = {}): CfnFleet.IpPermissionProperty = CfnFleet.IpPermissionProperty.Builder().apply(initializer).build()

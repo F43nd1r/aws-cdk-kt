@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
-public fun buildRepositoryCredentialsProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.RepositoryCredentialsProperty.Builder.() -> Unit = {}):
-    CfnJobDefinition.RepositoryCredentialsProperty =
-    CfnJobDefinition.RepositoryCredentialsProperty.Builder().apply(initializer).build()
+public fun buildRepositoryCredentialsProperty(initializer: @AwsCdkDsl CfnJobDefinition.RepositoryCredentialsProperty.Builder.() -> Unit = {}): CfnJobDefinition.RepositoryCredentialsProperty = CfnJobDefinition.RepositoryCredentialsProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.notificationscontacts.CfnEmailContactProps
 
 @Generated
-public fun buildCfnEmailContactProps(initializer: @AwsCdkDsl CfnEmailContactProps.Builder.() -> Unit
-    = {}): CfnEmailContactProps = CfnEmailContactProps.Builder().apply(initializer).build()
+public fun buildCfnEmailContactProps(initializer: @AwsCdkDsl CfnEmailContactProps.Builder.() -> Unit = {}): CfnEmailContactProps = CfnEmailContactProps.Builder().apply(initializer).build()

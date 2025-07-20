@@ -16,6 +16,4 @@ public fun Construct.cfnSourceLocation(
 ): CfnSourceLocation = CfnSourceLocation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSourceLocation(id: String, initializer: @AwsCdkDsl
-    CfnSourceLocation.Builder.() -> Unit = {}): CfnSourceLocation =
-    CfnSourceLocation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSourceLocation(id: String, initializer: @AwsCdkDsl CfnSourceLocation.Builder.() -> Unit = {}): CfnSourceLocation = CfnSourceLocation.Builder.create(this, id).apply(initializer).build()

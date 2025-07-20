@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.ConfigurationSetEventDestinationOptions
 
 @Generated
-public fun buildConfigurationSetEventDestinationOptions(initializer: @AwsCdkDsl
-    ConfigurationSetEventDestinationOptions.Builder.() -> Unit = {}):
-    ConfigurationSetEventDestinationOptions =
-    ConfigurationSetEventDestinationOptions.Builder().apply(initializer).build()
+public fun buildConfigurationSetEventDestinationOptions(initializer: @AwsCdkDsl ConfigurationSetEventDestinationOptions.Builder.() -> Unit = {}): ConfigurationSetEventDestinationOptions = ConfigurationSetEventDestinationOptions.Builder().apply(initializer).build()

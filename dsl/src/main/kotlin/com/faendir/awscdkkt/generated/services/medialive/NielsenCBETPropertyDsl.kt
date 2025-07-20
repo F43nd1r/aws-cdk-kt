@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildNielsenCBETProperty(initializer: @AwsCdkDsl
-    CfnChannel.NielsenCBETProperty.Builder.() -> Unit = {}): CfnChannel.NielsenCBETProperty =
-    CfnChannel.NielsenCBETProperty.Builder().apply(initializer).build()
+public fun buildNielsenCBETProperty(initializer: @AwsCdkDsl CfnChannel.NielsenCBETProperty.Builder.() -> Unit = {}): CfnChannel.NielsenCBETProperty = CfnChannel.NielsenCBETProperty.Builder().apply(initializer).build()

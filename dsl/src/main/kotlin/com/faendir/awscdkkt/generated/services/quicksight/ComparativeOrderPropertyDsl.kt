@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTopic
 
 @Generated
-public fun buildComparativeOrderProperty(initializer: @AwsCdkDsl
-    CfnTopic.ComparativeOrderProperty.Builder.() -> Unit = {}): CfnTopic.ComparativeOrderProperty =
-    CfnTopic.ComparativeOrderProperty.Builder().apply(initializer).build()
+public fun buildComparativeOrderProperty(initializer: @AwsCdkDsl CfnTopic.ComparativeOrderProperty.Builder.() -> Unit = {}): CfnTopic.ComparativeOrderProperty = CfnTopic.ComparativeOrderProperty.Builder().apply(initializer).build()

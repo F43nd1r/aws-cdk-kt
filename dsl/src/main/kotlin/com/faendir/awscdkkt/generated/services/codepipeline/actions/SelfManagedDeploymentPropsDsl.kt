@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.SelfManagedDeploymentProps
 
 @Generated
-public fun buildSelfManagedDeploymentProps(initializer: @AwsCdkDsl
-    SelfManagedDeploymentProps.Builder.() -> Unit = {}): SelfManagedDeploymentProps =
-    SelfManagedDeploymentProps.Builder().apply(initializer).build()
+public fun buildSelfManagedDeploymentProps(initializer: @AwsCdkDsl SelfManagedDeploymentProps.Builder.() -> Unit = {}): SelfManagedDeploymentProps = SelfManagedDeploymentProps.Builder().apply(initializer).build()

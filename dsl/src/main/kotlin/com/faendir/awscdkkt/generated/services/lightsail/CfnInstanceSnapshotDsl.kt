@@ -16,6 +16,4 @@ public fun Construct.cfnInstanceSnapshot(
 ): CfnInstanceSnapshot = CfnInstanceSnapshot(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnInstanceSnapshot(id: String, initializer: @AwsCdkDsl
-    CfnInstanceSnapshot.Builder.() -> Unit = {}): CfnInstanceSnapshot =
-    CfnInstanceSnapshot.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnInstanceSnapshot(id: String, initializer: @AwsCdkDsl CfnInstanceSnapshot.Builder.() -> Unit = {}): CfnInstanceSnapshot = CfnInstanceSnapshot.Builder.create(this, id).apply(initializer).build()

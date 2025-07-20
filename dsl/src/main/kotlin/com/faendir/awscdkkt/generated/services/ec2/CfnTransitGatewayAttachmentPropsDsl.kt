@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnTransitGatewayAttachmentProps
 
 @Generated
-public fun buildCfnTransitGatewayAttachmentProps(initializer: @AwsCdkDsl
-    CfnTransitGatewayAttachmentProps.Builder.() -> Unit = {}): CfnTransitGatewayAttachmentProps =
-    CfnTransitGatewayAttachmentProps.Builder().apply(initializer).build()
+public fun buildCfnTransitGatewayAttachmentProps(initializer: @AwsCdkDsl CfnTransitGatewayAttachmentProps.Builder.() -> Unit = {}): CfnTransitGatewayAttachmentProps = CfnTransitGatewayAttachmentProps.Builder().apply(initializer).build()

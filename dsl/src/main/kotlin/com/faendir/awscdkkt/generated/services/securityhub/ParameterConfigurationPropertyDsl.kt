@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securityhub.CfnSecurityControl
 
 @Generated
-public fun buildParameterConfigurationProperty(initializer: @AwsCdkDsl
-    CfnSecurityControl.ParameterConfigurationProperty.Builder.() -> Unit = {}):
-    CfnSecurityControl.ParameterConfigurationProperty =
-    CfnSecurityControl.ParameterConfigurationProperty.Builder().apply(initializer).build()
+public fun buildParameterConfigurationProperty(initializer: @AwsCdkDsl CfnSecurityControl.ParameterConfigurationProperty.Builder.() -> Unit = {}): CfnSecurityControl.ParameterConfigurationProperty = CfnSecurityControl.ParameterConfigurationProperty.Builder().apply(initializer).build()

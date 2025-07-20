@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ivs.CfnEncoderConfiguration
 
 @Generated
-public fun buildVideoProperty(initializer: @AwsCdkDsl
-    CfnEncoderConfiguration.VideoProperty.Builder.() -> Unit = {}):
-    CfnEncoderConfiguration.VideoProperty =
-    CfnEncoderConfiguration.VideoProperty.Builder().apply(initializer).build()
+public fun buildVideoProperty(initializer: @AwsCdkDsl CfnEncoderConfiguration.VideoProperty.Builder.() -> Unit = {}): CfnEncoderConfiguration.VideoProperty = CfnEncoderConfiguration.VideoProperty.Builder().apply(initializer).build()

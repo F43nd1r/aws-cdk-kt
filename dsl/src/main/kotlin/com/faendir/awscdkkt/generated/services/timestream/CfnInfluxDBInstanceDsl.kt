@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.timestream.CfnInfluxDBInstanceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnInfluxDBInstance(id: String, initializer: @AwsCdkDsl
-    CfnInfluxDBInstance.() -> Unit = {}): CfnInfluxDBInstance = CfnInfluxDBInstance(this,
-    id).apply(initializer)
+public fun Construct.cfnInfluxDBInstance(id: String, initializer: @AwsCdkDsl CfnInfluxDBInstance.() -> Unit = {}): CfnInfluxDBInstance = CfnInfluxDBInstance(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnInfluxDBInstance(
@@ -21,6 +19,4 @@ public fun Construct.cfnInfluxDBInstance(
 ): CfnInfluxDBInstance = CfnInfluxDBInstance(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnInfluxDBInstance(id: String, initializer: @AwsCdkDsl
-    CfnInfluxDBInstance.Builder.() -> Unit = {}): CfnInfluxDBInstance =
-    CfnInfluxDBInstance.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnInfluxDBInstance(id: String, initializer: @AwsCdkDsl CfnInfluxDBInstance.Builder.() -> Unit = {}): CfnInfluxDBInstance = CfnInfluxDBInstance.Builder.create(this, id).apply(initializer).build()

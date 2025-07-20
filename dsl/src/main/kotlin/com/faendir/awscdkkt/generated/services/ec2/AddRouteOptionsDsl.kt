@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.AddRouteOptions
 
 @Generated
-public fun buildAddRouteOptions(initializer: @AwsCdkDsl AddRouteOptions.Builder.() -> Unit = {}):
-    AddRouteOptions = AddRouteOptions.Builder().apply(initializer).build()
+public fun buildAddRouteOptions(initializer: @AwsCdkDsl AddRouteOptions.Builder.() -> Unit = {}): AddRouteOptions = AddRouteOptions.Builder().apply(initializer).build()

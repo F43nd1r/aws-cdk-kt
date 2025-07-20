@@ -13,10 +13,7 @@ public fun Construct.managedEc2EksComputeEnvironment(
   id: String,
   props: ManagedEc2EksComputeEnvironmentProps,
   initializer: @AwsCdkDsl ManagedEc2EksComputeEnvironment.() -> Unit = {},
-): ManagedEc2EksComputeEnvironment = ManagedEc2EksComputeEnvironment(this, id,
-    props).apply(initializer)
+): ManagedEc2EksComputeEnvironment = ManagedEc2EksComputeEnvironment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildManagedEc2EksComputeEnvironment(id: String, initializer: @AwsCdkDsl
-    ManagedEc2EksComputeEnvironment.Builder.() -> Unit = {}): ManagedEc2EksComputeEnvironment =
-    ManagedEc2EksComputeEnvironment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildManagedEc2EksComputeEnvironment(id: String, initializer: @AwsCdkDsl ManagedEc2EksComputeEnvironment.Builder.() -> Unit = {}): ManagedEc2EksComputeEnvironment = ManagedEc2EksComputeEnvironment.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.virtualService(
 ): VirtualService = VirtualService(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildVirtualService(id: String, initializer: @AwsCdkDsl
-    VirtualService.Builder.() -> Unit = {}): VirtualService = VirtualService.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildVirtualService(id: String, initializer: @AwsCdkDsl VirtualService.Builder.() -> Unit = {}): VirtualService = VirtualService.Builder.create(this, id).apply(initializer).build()

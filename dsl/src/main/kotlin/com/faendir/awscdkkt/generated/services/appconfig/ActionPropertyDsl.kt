@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appconfig.CfnExtension
 
 @Generated
-public fun buildActionProperty(initializer: @AwsCdkDsl
-    CfnExtension.ActionProperty.Builder.() -> Unit = {}): CfnExtension.ActionProperty =
-    CfnExtension.ActionProperty.Builder().apply(initializer).build()
+public fun buildActionProperty(initializer: @AwsCdkDsl CfnExtension.ActionProperty.Builder.() -> Unit = {}): CfnExtension.ActionProperty = CfnExtension.ActionProperty.Builder().apply(initializer).build()

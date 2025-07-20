@@ -16,6 +16,4 @@ public fun Construct.cfnDRTAccess(
 ): CfnDRTAccess = CfnDRTAccess(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDRTAccess(id: String, initializer: @AwsCdkDsl
-    CfnDRTAccess.Builder.() -> Unit = {}): CfnDRTAccess = CfnDRTAccess.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnDRTAccess(id: String, initializer: @AwsCdkDsl CfnDRTAccess.Builder.() -> Unit = {}): CfnDRTAccess = CfnDRTAccess.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnIPAMScopeProps
 
 @Generated
-public fun buildCfnIPAMScopeProps(initializer: @AwsCdkDsl CfnIPAMScopeProps.Builder.() -> Unit =
-    {}): CfnIPAMScopeProps = CfnIPAMScopeProps.Builder().apply(initializer).build()
+public fun buildCfnIPAMScopeProps(initializer: @AwsCdkDsl CfnIPAMScopeProps.Builder.() -> Unit = {}): CfnIPAMScopeProps = CfnIPAMScopeProps.Builder().apply(initializer).build()

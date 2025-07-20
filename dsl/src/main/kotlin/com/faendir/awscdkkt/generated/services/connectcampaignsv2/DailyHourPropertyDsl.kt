@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connectcampaignsv2.CfnCampaign
 
 @Generated
-public fun buildDailyHourProperty(initializer: @AwsCdkDsl
-    CfnCampaign.DailyHourProperty.Builder.() -> Unit = {}): CfnCampaign.DailyHourProperty =
-    CfnCampaign.DailyHourProperty.Builder().apply(initializer).build()
+public fun buildDailyHourProperty(initializer: @AwsCdkDsl CfnCampaign.DailyHourProperty.Builder.() -> Unit = {}): CfnCampaign.DailyHourProperty = CfnCampaign.DailyHourProperty.Builder().apply(initializer).build()

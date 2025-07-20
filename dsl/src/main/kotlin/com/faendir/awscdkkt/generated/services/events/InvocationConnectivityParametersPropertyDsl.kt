@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.CfnConnection
 
 @Generated
-public fun buildInvocationConnectivityParametersProperty(initializer: @AwsCdkDsl
-    CfnConnection.InvocationConnectivityParametersProperty.Builder.() -> Unit = {}):
-    CfnConnection.InvocationConnectivityParametersProperty =
-    CfnConnection.InvocationConnectivityParametersProperty.Builder().apply(initializer).build()
+public fun buildInvocationConnectivityParametersProperty(initializer: @AwsCdkDsl CfnConnection.InvocationConnectivityParametersProperty.Builder.() -> Unit = {}): CfnConnection.InvocationConnectivityParametersProperty = CfnConnection.InvocationConnectivityParametersProperty.Builder().apply(initializer).build()

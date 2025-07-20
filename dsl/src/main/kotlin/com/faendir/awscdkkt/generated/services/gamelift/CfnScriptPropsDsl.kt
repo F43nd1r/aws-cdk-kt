@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnScriptProps
 
 @Generated
-public fun buildCfnScriptProps(initializer: @AwsCdkDsl CfnScriptProps.Builder.() -> Unit = {}):
-    CfnScriptProps = CfnScriptProps.Builder().apply(initializer).build()
+public fun buildCfnScriptProps(initializer: @AwsCdkDsl CfnScriptProps.Builder.() -> Unit = {}): CfnScriptProps = CfnScriptProps.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.AccessPolicyProps
 
 @Generated
-public fun buildAccessPolicyProps(initializer: @AwsCdkDsl AccessPolicyProps.Builder.() -> Unit =
-    {}): AccessPolicyProps = AccessPolicyProps.Builder().apply(initializer).build()
+public fun buildAccessPolicyProps(initializer: @AwsCdkDsl AccessPolicyProps.Builder.() -> Unit = {}): AccessPolicyProps = AccessPolicyProps.Builder().apply(initializer).build()

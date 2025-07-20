@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.apigatewayv2.HttpApiProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.httpApi(id: String, initializer: @AwsCdkDsl HttpApi.() -> Unit = {}): HttpApi =
-    HttpApi(this, id).apply(initializer)
+public fun Construct.httpApi(id: String, initializer: @AwsCdkDsl HttpApi.() -> Unit = {}): HttpApi = HttpApi(this, id).apply(initializer)
 
 @Generated
 public fun Construct.httpApi(
@@ -20,5 +19,4 @@ public fun Construct.httpApi(
 ): HttpApi = HttpApi(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildHttpApi(id: String, initializer: @AwsCdkDsl HttpApi.Builder.() -> Unit =
-    {}): HttpApi = HttpApi.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildHttpApi(id: String, initializer: @AwsCdkDsl HttpApi.Builder.() -> Unit = {}): HttpApi = HttpApi.Builder.create(this, id).apply(initializer).build()

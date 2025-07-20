@@ -16,5 +16,4 @@ public fun Construct.cfnNode(
 ): CfnNode = CfnNode(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnNode(id: String, initializer: @AwsCdkDsl CfnNode.Builder.() -> Unit =
-    {}): CfnNode = CfnNode.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnNode(id: String, initializer: @AwsCdkDsl CfnNode.Builder.() -> Unit = {}): CfnNode = CfnNode.Builder.create(this, id).apply(initializer).build()

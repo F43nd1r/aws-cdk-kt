@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildGradientStopProperty(initializer: @AwsCdkDsl
-    CfnTemplate.GradientStopProperty.Builder.() -> Unit = {}): CfnTemplate.GradientStopProperty =
-    CfnTemplate.GradientStopProperty.Builder().apply(initializer).build()
+public fun buildGradientStopProperty(initializer: @AwsCdkDsl CfnTemplate.GradientStopProperty.Builder.() -> Unit = {}): CfnTemplate.GradientStopProperty = CfnTemplate.GradientStopProperty.Builder().apply(initializer).build()

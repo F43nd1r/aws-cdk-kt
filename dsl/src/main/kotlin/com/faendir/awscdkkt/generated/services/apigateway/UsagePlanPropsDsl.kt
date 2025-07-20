@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.UsagePlanProps
 
 @Generated
-public fun buildUsagePlanProps(initializer: @AwsCdkDsl UsagePlanProps.Builder.() -> Unit = {}):
-    UsagePlanProps = UsagePlanProps.Builder().apply(initializer).build()
+public fun buildUsagePlanProps(initializer: @AwsCdkDsl UsagePlanProps.Builder.() -> Unit = {}): UsagePlanProps = UsagePlanProps.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.tarballImageAsset(
 ): TarballImageAsset = TarballImageAsset(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildTarballImageAsset(id: String, initializer: @AwsCdkDsl
-    TarballImageAsset.Builder.() -> Unit = {}): TarballImageAsset =
-    TarballImageAsset.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildTarballImageAsset(id: String, initializer: @AwsCdkDsl TarballImageAsset.Builder.() -> Unit = {}): TarballImageAsset = TarballImageAsset.Builder.create(this, id).apply(initializer).build()

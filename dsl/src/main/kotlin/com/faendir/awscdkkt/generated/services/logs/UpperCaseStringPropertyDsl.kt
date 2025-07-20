@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnTransformer
 
 @Generated
-public fun buildUpperCaseStringProperty(initializer: @AwsCdkDsl
-    CfnTransformer.UpperCaseStringProperty.Builder.() -> Unit = {}):
-    CfnTransformer.UpperCaseStringProperty =
-    CfnTransformer.UpperCaseStringProperty.Builder().apply(initializer).build()
+public fun buildUpperCaseStringProperty(initializer: @AwsCdkDsl CfnTransformer.UpperCaseStringProperty.Builder.() -> Unit = {}): CfnTransformer.UpperCaseStringProperty = CfnTransformer.UpperCaseStringProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnDataMigration(
 ): CfnDataMigration = CfnDataMigration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDataMigration(id: String, initializer: @AwsCdkDsl
-    CfnDataMigration.Builder.() -> Unit = {}): CfnDataMigration =
-    CfnDataMigration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDataMigration(id: String, initializer: @AwsCdkDsl CfnDataMigration.Builder.() -> Unit = {}): CfnDataMigration = CfnDataMigration.Builder.create(this, id).apply(initializer).build()

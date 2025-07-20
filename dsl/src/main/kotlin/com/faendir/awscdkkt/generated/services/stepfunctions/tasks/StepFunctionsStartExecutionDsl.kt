@@ -16,6 +16,4 @@ public fun Construct.stepFunctionsStartExecution(
 ): StepFunctionsStartExecution = StepFunctionsStartExecution(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildStepFunctionsStartExecution(id: String, initializer: @AwsCdkDsl
-    StepFunctionsStartExecution.Builder.() -> Unit = {}): StepFunctionsStartExecution =
-    StepFunctionsStartExecution.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildStepFunctionsStartExecution(id: String, initializer: @AwsCdkDsl StepFunctionsStartExecution.Builder.() -> Unit = {}): StepFunctionsStartExecution = StepFunctionsStartExecution.Builder.create(this, id).apply(initializer).build()

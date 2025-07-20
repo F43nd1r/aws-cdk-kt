@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.MultiNodeContainer
 
 @Generated
-public fun buildMultiNodeContainer(initializer: @AwsCdkDsl MultiNodeContainer.Builder.() -> Unit =
-    {}): MultiNodeContainer = MultiNodeContainer.Builder().apply(initializer).build()
+public fun buildMultiNodeContainer(initializer: @AwsCdkDsl MultiNodeContainer.Builder.() -> Unit = {}): MultiNodeContainer = MultiNodeContainer.Builder().apply(initializer).build()

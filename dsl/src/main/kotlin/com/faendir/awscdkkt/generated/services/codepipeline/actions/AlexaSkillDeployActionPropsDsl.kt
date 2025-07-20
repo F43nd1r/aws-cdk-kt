@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.AlexaSkillDeployActionProps
 
 @Generated
-public fun buildAlexaSkillDeployActionProps(initializer: @AwsCdkDsl
-    AlexaSkillDeployActionProps.Builder.() -> Unit = {}): AlexaSkillDeployActionProps =
-    AlexaSkillDeployActionProps.Builder().apply(initializer).build()
+public fun buildAlexaSkillDeployActionProps(initializer: @AwsCdkDsl AlexaSkillDeployActionProps.Builder.() -> Unit = {}): AlexaSkillDeployActionProps = AlexaSkillDeployActionProps.Builder().apply(initializer).build()

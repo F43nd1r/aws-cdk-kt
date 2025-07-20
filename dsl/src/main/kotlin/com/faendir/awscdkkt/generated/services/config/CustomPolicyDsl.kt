@@ -16,6 +16,4 @@ public fun Construct.customPolicy(
 ): CustomPolicy = CustomPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCustomPolicy(id: String, initializer: @AwsCdkDsl
-    CustomPolicy.Builder.() -> Unit = {}): CustomPolicy = CustomPolicy.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCustomPolicy(id: String, initializer: @AwsCdkDsl CustomPolicy.Builder.() -> Unit = {}): CustomPolicy = CustomPolicy.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
-public fun buildMaintenanceOptionsProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.MaintenanceOptionsProperty.Builder.() -> Unit = {}):
-    CfnLaunchTemplate.MaintenanceOptionsProperty =
-    CfnLaunchTemplate.MaintenanceOptionsProperty.Builder().apply(initializer).build()
+public fun buildMaintenanceOptionsProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.MaintenanceOptionsProperty.Builder.() -> Unit = {}): CfnLaunchTemplate.MaintenanceOptionsProperty = CfnLaunchTemplate.MaintenanceOptionsProperty.Builder().apply(initializer).build()

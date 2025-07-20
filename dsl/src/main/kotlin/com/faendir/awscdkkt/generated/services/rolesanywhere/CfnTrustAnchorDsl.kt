@@ -16,6 +16,4 @@ public fun Construct.cfnTrustAnchor(
 ): CfnTrustAnchor = CfnTrustAnchor(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTrustAnchor(id: String, initializer: @AwsCdkDsl
-    CfnTrustAnchor.Builder.() -> Unit = {}): CfnTrustAnchor = CfnTrustAnchor.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnTrustAnchor(id: String, initializer: @AwsCdkDsl CfnTrustAnchor.Builder.() -> Unit = {}): CfnTrustAnchor = CfnTrustAnchor.Builder.create(this, id).apply(initializer).build()

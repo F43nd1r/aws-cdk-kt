@@ -16,5 +16,4 @@ public fun Construct.role(
 ): Role = Role(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildRole(id: String, initializer: @AwsCdkDsl Role.Builder.() -> Unit = {}):
-    Role = Role.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildRole(id: String, initializer: @AwsCdkDsl Role.Builder.() -> Unit = {}): Role = Role.Builder.create(this, id).apply(initializer).build()

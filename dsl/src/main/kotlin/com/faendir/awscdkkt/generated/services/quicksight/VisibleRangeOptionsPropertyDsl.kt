@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildVisibleRangeOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.VisibleRangeOptionsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.VisibleRangeOptionsProperty =
-    CfnTemplate.VisibleRangeOptionsProperty.Builder().apply(initializer).build()
+public fun buildVisibleRangeOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.VisibleRangeOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.VisibleRangeOptionsProperty = CfnTemplate.VisibleRangeOptionsProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.GitHubEnterpriseSourceProps
 
 @Generated
-public fun buildGitHubEnterpriseSourceProps(initializer: @AwsCdkDsl
-    GitHubEnterpriseSourceProps.Builder.() -> Unit = {}): GitHubEnterpriseSourceProps =
-    GitHubEnterpriseSourceProps.Builder().apply(initializer).build()
+public fun buildGitHubEnterpriseSourceProps(initializer: @AwsCdkDsl GitHubEnterpriseSourceProps.Builder.() -> Unit = {}): GitHubEnterpriseSourceProps = GitHubEnterpriseSourceProps.Builder().apply(initializer).build()

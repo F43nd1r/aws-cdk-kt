@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opensearchservice.CfnApplication
 
 @Generated
-public fun buildAppConfigProperty(initializer: @AwsCdkDsl
-    CfnApplication.AppConfigProperty.Builder.() -> Unit = {}): CfnApplication.AppConfigProperty =
-    CfnApplication.AppConfigProperty.Builder().apply(initializer).build()
+public fun buildAppConfigProperty(initializer: @AwsCdkDsl CfnApplication.AppConfigProperty.Builder.() -> Unit = {}): CfnApplication.AppConfigProperty = CfnApplication.AppConfigProperty.Builder().apply(initializer).build()

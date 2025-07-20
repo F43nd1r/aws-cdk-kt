@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.RestApiBaseProps
 
 @Generated
-public fun buildRestApiBaseProps(initializer: @AwsCdkDsl RestApiBaseProps.Builder.() -> Unit = {}):
-    RestApiBaseProps = RestApiBaseProps.Builder().apply(initializer).build()
+public fun buildRestApiBaseProps(initializer: @AwsCdkDsl RestApiBaseProps.Builder.() -> Unit = {}): RestApiBaseProps = RestApiBaseProps.Builder().apply(initializer).build()

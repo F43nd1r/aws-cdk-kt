@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.redshiftserverless.CfnNamespaceProps
 
 @Generated
-public fun buildCfnNamespaceProps(initializer: @AwsCdkDsl CfnNamespaceProps.Builder.() -> Unit =
-    {}): CfnNamespaceProps = CfnNamespaceProps.Builder().apply(initializer).build()
+public fun buildCfnNamespaceProps(initializer: @AwsCdkDsl CfnNamespaceProps.Builder.() -> Unit = {}): CfnNamespaceProps = CfnNamespaceProps.Builder().apply(initializer).build()

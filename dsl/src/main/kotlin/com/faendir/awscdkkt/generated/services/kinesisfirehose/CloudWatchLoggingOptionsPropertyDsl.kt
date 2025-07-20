@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
-public fun buildCloudWatchLoggingOptionsProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.CloudWatchLoggingOptionsProperty.Builder.() -> Unit = {}):
-    CfnDeliveryStream.CloudWatchLoggingOptionsProperty =
-    CfnDeliveryStream.CloudWatchLoggingOptionsProperty.Builder().apply(initializer).build()
+public fun buildCloudWatchLoggingOptionsProperty(initializer: @AwsCdkDsl CfnDeliveryStream.CloudWatchLoggingOptionsProperty.Builder.() -> Unit = {}): CfnDeliveryStream.CloudWatchLoggingOptionsProperty = CfnDeliveryStream.CloudWatchLoggingOptionsProperty.Builder().apply(initializer).build()

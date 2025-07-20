@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.EventPattern
 
 @Generated
-public fun buildEventPattern(initializer: @AwsCdkDsl EventPattern.Builder.() -> Unit = {}):
-    EventPattern = EventPattern.Builder().apply(initializer).build()
+public fun buildEventPattern(initializer: @AwsCdkDsl EventPattern.Builder.() -> Unit = {}): EventPattern = EventPattern.Builder().apply(initializer).build()

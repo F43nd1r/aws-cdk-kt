@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildSeriesItemProperty(initializer: @AwsCdkDsl
-    CfnTemplate.SeriesItemProperty.Builder.() -> Unit = {}): CfnTemplate.SeriesItemProperty =
-    CfnTemplate.SeriesItemProperty.Builder().apply(initializer).build()
+public fun buildSeriesItemProperty(initializer: @AwsCdkDsl CfnTemplate.SeriesItemProperty.Builder.() -> Unit = {}): CfnTemplate.SeriesItemProperty = CfnTemplate.SeriesItemProperty.Builder().apply(initializer).build()

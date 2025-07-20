@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.AclIcmp
 
 @Generated
-public fun buildAclIcmp(initializer: @AwsCdkDsl AclIcmp.Builder.() -> Unit = {}): AclIcmp =
-    AclIcmp.Builder().apply(initializer).build()
+public fun buildAclIcmp(initializer: @AwsCdkDsl AclIcmp.Builder.() -> Unit = {}): AclIcmp = AclIcmp.Builder().apply(initializer).build()

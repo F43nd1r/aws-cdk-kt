@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecr.RepositoryProps
 
 @Generated
-public fun buildRepositoryProps(initializer: @AwsCdkDsl RepositoryProps.Builder.() -> Unit = {}):
-    RepositoryProps = RepositoryProps.Builder().apply(initializer).build()
+public fun buildRepositoryProps(initializer: @AwsCdkDsl RepositoryProps.Builder.() -> Unit = {}): RepositoryProps = RepositoryProps.Builder().apply(initializer).build()

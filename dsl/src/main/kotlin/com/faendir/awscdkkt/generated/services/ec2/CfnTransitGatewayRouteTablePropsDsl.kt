@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnTransitGatewayRouteTableProps
 
 @Generated
-public fun buildCfnTransitGatewayRouteTableProps(initializer: @AwsCdkDsl
-    CfnTransitGatewayRouteTableProps.Builder.() -> Unit = {}): CfnTransitGatewayRouteTableProps =
-    CfnTransitGatewayRouteTableProps.Builder().apply(initializer).build()
+public fun buildCfnTransitGatewayRouteTableProps(initializer: @AwsCdkDsl CfnTransitGatewayRouteTableProps.Builder.() -> Unit = {}): CfnTransitGatewayRouteTableProps = CfnTransitGatewayRouteTableProps.Builder().apply(initializer).build()

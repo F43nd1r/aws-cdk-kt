@@ -16,6 +16,4 @@ public fun Construct.cfnDocumentationVersion(
 ): CfnDocumentationVersion = CfnDocumentationVersion(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDocumentationVersion(id: String, initializer: @AwsCdkDsl
-    CfnDocumentationVersion.Builder.() -> Unit = {}): CfnDocumentationVersion =
-    CfnDocumentationVersion.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDocumentationVersion(id: String, initializer: @AwsCdkDsl CfnDocumentationVersion.Builder.() -> Unit = {}): CfnDocumentationVersion = CfnDocumentationVersion.Builder.create(this, id).apply(initializer).build()

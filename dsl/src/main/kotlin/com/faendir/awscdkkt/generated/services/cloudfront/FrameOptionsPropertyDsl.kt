@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnResponseHeadersPolicy
 
 @Generated
-public fun buildFrameOptionsProperty(initializer: @AwsCdkDsl
-    CfnResponseHeadersPolicy.FrameOptionsProperty.Builder.() -> Unit = {}):
-    CfnResponseHeadersPolicy.FrameOptionsProperty =
-    CfnResponseHeadersPolicy.FrameOptionsProperty.Builder().apply(initializer).build()
+public fun buildFrameOptionsProperty(initializer: @AwsCdkDsl CfnResponseHeadersPolicy.FrameOptionsProperty.Builder.() -> Unit = {}): CfnResponseHeadersPolicy.FrameOptionsProperty = CfnResponseHeadersPolicy.FrameOptionsProperty.Builder().apply(initializer).build()

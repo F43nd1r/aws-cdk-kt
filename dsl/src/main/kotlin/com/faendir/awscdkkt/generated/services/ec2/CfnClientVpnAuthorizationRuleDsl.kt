@@ -16,6 +16,4 @@ public fun Construct.cfnClientVpnAuthorizationRule(
 ): CfnClientVpnAuthorizationRule = CfnClientVpnAuthorizationRule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnClientVpnAuthorizationRule(id: String, initializer: @AwsCdkDsl
-    CfnClientVpnAuthorizationRule.Builder.() -> Unit = {}): CfnClientVpnAuthorizationRule =
-    CfnClientVpnAuthorizationRule.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnClientVpnAuthorizationRule(id: String, initializer: @AwsCdkDsl CfnClientVpnAuthorizationRule.Builder.() -> Unit = {}): CfnClientVpnAuthorizationRule = CfnClientVpnAuthorizationRule.Builder.create(this, id).apply(initializer).build()

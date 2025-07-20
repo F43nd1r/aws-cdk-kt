@@ -16,6 +16,4 @@ public fun Construct.mediaConvertCreateJob(
 ): MediaConvertCreateJob = MediaConvertCreateJob(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildMediaConvertCreateJob(id: String, initializer: @AwsCdkDsl
-    MediaConvertCreateJob.Builder.() -> Unit = {}): MediaConvertCreateJob =
-    MediaConvertCreateJob.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildMediaConvertCreateJob(id: String, initializer: @AwsCdkDsl MediaConvertCreateJob.Builder.() -> Unit = {}): MediaConvertCreateJob = MediaConvertCreateJob.Builder.create(this, id).apply(initializer).build()

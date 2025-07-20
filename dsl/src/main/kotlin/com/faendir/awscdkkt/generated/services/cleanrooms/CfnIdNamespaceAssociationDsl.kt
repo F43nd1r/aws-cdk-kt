@@ -16,6 +16,4 @@ public fun Construct.cfnIdNamespaceAssociation(
 ): CfnIdNamespaceAssociation = CfnIdNamespaceAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnIdNamespaceAssociation(id: String, initializer: @AwsCdkDsl
-    CfnIdNamespaceAssociation.Builder.() -> Unit = {}): CfnIdNamespaceAssociation =
-    CfnIdNamespaceAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnIdNamespaceAssociation(id: String, initializer: @AwsCdkDsl CfnIdNamespaceAssociation.Builder.() -> Unit = {}): CfnIdNamespaceAssociation = CfnIdNamespaceAssociation.Builder.create(this, id).apply(initializer).build()

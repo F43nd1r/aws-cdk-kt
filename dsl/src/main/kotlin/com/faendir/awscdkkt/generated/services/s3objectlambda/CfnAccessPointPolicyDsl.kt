@@ -16,6 +16,4 @@ public fun Construct.cfnAccessPointPolicy(
 ): CfnAccessPointPolicy = CfnAccessPointPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAccessPointPolicy(id: String, initializer: @AwsCdkDsl
-    CfnAccessPointPolicy.Builder.() -> Unit = {}): CfnAccessPointPolicy =
-    CfnAccessPointPolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAccessPointPolicy(id: String, initializer: @AwsCdkDsl CfnAccessPointPolicy.Builder.() -> Unit = {}): CfnAccessPointPolicy = CfnAccessPointPolicy.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnEmailIdentityProps
 
 @Generated
-public fun buildCfnEmailIdentityProps(initializer: @AwsCdkDsl
-    CfnEmailIdentityProps.Builder.() -> Unit = {}): CfnEmailIdentityProps =
-    CfnEmailIdentityProps.Builder().apply(initializer).build()
+public fun buildCfnEmailIdentityProps(initializer: @AwsCdkDsl CfnEmailIdentityProps.Builder.() -> Unit = {}): CfnEmailIdentityProps = CfnEmailIdentityProps.Builder().apply(initializer).build()

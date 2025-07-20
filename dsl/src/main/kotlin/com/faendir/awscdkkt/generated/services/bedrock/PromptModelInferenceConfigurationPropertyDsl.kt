@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnPromptVersion
 
 @Generated
-public fun buildPromptModelInferenceConfigurationProperty(initializer: @AwsCdkDsl
-    CfnPromptVersion.PromptModelInferenceConfigurationProperty.Builder.() -> Unit = {}):
-    CfnPromptVersion.PromptModelInferenceConfigurationProperty =
-    CfnPromptVersion.PromptModelInferenceConfigurationProperty.Builder().apply(initializer).build()
+public fun buildPromptModelInferenceConfigurationProperty(initializer: @AwsCdkDsl CfnPromptVersion.PromptModelInferenceConfigurationProperty.Builder.() -> Unit = {}): CfnPromptVersion.PromptModelInferenceConfigurationProperty = CfnPromptVersion.PromptModelInferenceConfigurationProperty.Builder().apply(initializer).build()

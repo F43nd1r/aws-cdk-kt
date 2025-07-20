@@ -16,6 +16,4 @@ public fun Construct.appSyncLambdaDataSource(
 ): AppSyncLambdaDataSource = AppSyncLambdaDataSource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAppSyncLambdaDataSource(id: String, initializer: @AwsCdkDsl
-    AppSyncLambdaDataSource.Builder.() -> Unit = {}): AppSyncLambdaDataSource =
-    AppSyncLambdaDataSource.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildAppSyncLambdaDataSource(id: String, initializer: @AwsCdkDsl AppSyncLambdaDataSource.Builder.() -> Unit = {}): AppSyncLambdaDataSource = AppSyncLambdaDataSource.Builder.create(this, id).apply(initializer).build()

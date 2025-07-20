@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildSecondaryValueOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.SecondaryValueOptionsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.SecondaryValueOptionsProperty =
-    CfnTemplate.SecondaryValueOptionsProperty.Builder().apply(initializer).build()
+public fun buildSecondaryValueOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.SecondaryValueOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.SecondaryValueOptionsProperty = CfnTemplate.SecondaryValueOptionsProperty.Builder().apply(initializer).build()

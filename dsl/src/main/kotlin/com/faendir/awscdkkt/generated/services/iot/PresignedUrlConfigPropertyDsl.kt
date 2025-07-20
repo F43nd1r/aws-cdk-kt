@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnJobTemplate
 
 @Generated
-public fun buildPresignedUrlConfigProperty(initializer: @AwsCdkDsl
-    CfnJobTemplate.PresignedUrlConfigProperty.Builder.() -> Unit = {}):
-    CfnJobTemplate.PresignedUrlConfigProperty =
-    CfnJobTemplate.PresignedUrlConfigProperty.Builder().apply(initializer).build()
+public fun buildPresignedUrlConfigProperty(initializer: @AwsCdkDsl CfnJobTemplate.PresignedUrlConfigProperty.Builder.() -> Unit = {}): CfnJobTemplate.PresignedUrlConfigProperty = CfnJobTemplate.PresignedUrlConfigProperty.Builder().apply(initializer).build()

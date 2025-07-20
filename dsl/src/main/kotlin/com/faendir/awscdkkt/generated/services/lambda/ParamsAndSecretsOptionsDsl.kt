@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.ParamsAndSecretsOptions
 
 @Generated
-public fun buildParamsAndSecretsOptions(initializer: @AwsCdkDsl
-    ParamsAndSecretsOptions.Builder.() -> Unit = {}): ParamsAndSecretsOptions =
-    ParamsAndSecretsOptions.Builder().apply(initializer).build()
+public fun buildParamsAndSecretsOptions(initializer: @AwsCdkDsl ParamsAndSecretsOptions.Builder.() -> Unit = {}): ParamsAndSecretsOptions = ParamsAndSecretsOptions.Builder().apply(initializer).build()

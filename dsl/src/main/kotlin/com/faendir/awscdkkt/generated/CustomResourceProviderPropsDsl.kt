@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.CustomResourceProviderProps
 
 @Generated
-public fun buildCustomResourceProviderProps(initializer: @AwsCdkDsl
-    CustomResourceProviderProps.Builder.() -> Unit = {}): CustomResourceProviderProps =
-    CustomResourceProviderProps.Builder().apply(initializer).build()
+public fun buildCustomResourceProviderProps(initializer: @AwsCdkDsl CustomResourceProviderProps.Builder.() -> Unit = {}): CustomResourceProviderProps = CustomResourceProviderProps.Builder().apply(initializer).build()

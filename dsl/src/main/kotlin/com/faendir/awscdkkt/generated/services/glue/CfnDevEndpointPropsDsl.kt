@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnDevEndpointProps
 
 @Generated
-public fun buildCfnDevEndpointProps(initializer: @AwsCdkDsl CfnDevEndpointProps.Builder.() -> Unit =
-    {}): CfnDevEndpointProps = CfnDevEndpointProps.Builder().apply(initializer).build()
+public fun buildCfnDevEndpointProps(initializer: @AwsCdkDsl CfnDevEndpointProps.Builder.() -> Unit = {}): CfnDevEndpointProps = CfnDevEndpointProps.Builder().apply(initializer).build()

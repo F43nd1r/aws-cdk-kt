@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnRoute
 
 @Generated
-public fun buildGrpcRouteMatchProperty(initializer: @AwsCdkDsl
-    CfnRoute.GrpcRouteMatchProperty.Builder.() -> Unit = {}): CfnRoute.GrpcRouteMatchProperty =
-    CfnRoute.GrpcRouteMatchProperty.Builder().apply(initializer).build()
+public fun buildGrpcRouteMatchProperty(initializer: @AwsCdkDsl CfnRoute.GrpcRouteMatchProperty.Builder.() -> Unit = {}): CfnRoute.GrpcRouteMatchProperty = CfnRoute.GrpcRouteMatchProperty.Builder().apply(initializer).build()

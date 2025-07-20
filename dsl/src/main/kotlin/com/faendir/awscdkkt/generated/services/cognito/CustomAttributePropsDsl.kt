@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CustomAttributeProps
 
 @Generated
-public fun buildCustomAttributeProps(initializer: @AwsCdkDsl CustomAttributeProps.Builder.() -> Unit
-    = {}): CustomAttributeProps = CustomAttributeProps.Builder().apply(initializer).build()
+public fun buildCustomAttributeProps(initializer: @AwsCdkDsl CustomAttributeProps.Builder.() -> Unit = {}): CustomAttributeProps = CustomAttributeProps.Builder().apply(initializer).build()

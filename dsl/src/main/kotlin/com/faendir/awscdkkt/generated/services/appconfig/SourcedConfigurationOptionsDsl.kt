@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appconfig.SourcedConfigurationOptions
 
 @Generated
-public fun buildSourcedConfigurationOptions(initializer: @AwsCdkDsl
-    SourcedConfigurationOptions.Builder.() -> Unit = {}): SourcedConfigurationOptions =
-    SourcedConfigurationOptions.Builder().apply(initializer).build()
+public fun buildSourcedConfigurationOptions(initializer: @AwsCdkDsl SourcedConfigurationOptions.Builder.() -> Unit = {}): SourcedConfigurationOptions = SourcedConfigurationOptions.Builder().apply(initializer).build()

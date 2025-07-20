@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnAccessPointProps
 
 @Generated
-public fun buildCfnAccessPointProps(initializer: @AwsCdkDsl CfnAccessPointProps.Builder.() -> Unit =
-    {}): CfnAccessPointProps = CfnAccessPointProps.Builder().apply(initializer).build()
+public fun buildCfnAccessPointProps(initializer: @AwsCdkDsl CfnAccessPointProps.Builder.() -> Unit = {}): CfnAccessPointProps = CfnAccessPointProps.Builder().apply(initializer).build()

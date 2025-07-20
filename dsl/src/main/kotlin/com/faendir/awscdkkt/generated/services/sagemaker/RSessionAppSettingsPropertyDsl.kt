@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnDomain
 
 @Generated
-public fun buildRSessionAppSettingsProperty(initializer: @AwsCdkDsl
-    CfnDomain.RSessionAppSettingsProperty.Builder.() -> Unit = {}):
-    CfnDomain.RSessionAppSettingsProperty =
-    CfnDomain.RSessionAppSettingsProperty.Builder().apply(initializer).build()
+public fun buildRSessionAppSettingsProperty(initializer: @AwsCdkDsl CfnDomain.RSessionAppSettingsProperty.Builder.() -> Unit = {}): CfnDomain.RSessionAppSettingsProperty = CfnDomain.RSessionAppSettingsProperty.Builder().apply(initializer).build()

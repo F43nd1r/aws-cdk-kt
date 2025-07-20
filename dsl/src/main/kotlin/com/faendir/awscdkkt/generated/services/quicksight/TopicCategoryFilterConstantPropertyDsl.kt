@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTopic
 
 @Generated
-public fun buildTopicCategoryFilterConstantProperty(initializer: @AwsCdkDsl
-    CfnTopic.TopicCategoryFilterConstantProperty.Builder.() -> Unit = {}):
-    CfnTopic.TopicCategoryFilterConstantProperty =
-    CfnTopic.TopicCategoryFilterConstantProperty.Builder().apply(initializer).build()
+public fun buildTopicCategoryFilterConstantProperty(initializer: @AwsCdkDsl CfnTopic.TopicCategoryFilterConstantProperty.Builder.() -> Unit = {}): CfnTopic.TopicCategoryFilterConstantProperty = CfnTopic.TopicCategoryFilterConstantProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnIdentityPoolPrincipalTag(
 ): CfnIdentityPoolPrincipalTag = CfnIdentityPoolPrincipalTag(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnIdentityPoolPrincipalTag(id: String, initializer: @AwsCdkDsl
-    CfnIdentityPoolPrincipalTag.Builder.() -> Unit = {}): CfnIdentityPoolPrincipalTag =
-    CfnIdentityPoolPrincipalTag.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnIdentityPoolPrincipalTag(id: String, initializer: @AwsCdkDsl CfnIdentityPoolPrincipalTag.Builder.() -> Unit = {}): CfnIdentityPoolPrincipalTag = CfnIdentityPoolPrincipalTag.Builder.create(this, id).apply(initializer).build()

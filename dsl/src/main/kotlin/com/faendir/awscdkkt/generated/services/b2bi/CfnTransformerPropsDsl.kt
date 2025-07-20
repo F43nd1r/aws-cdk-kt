@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.b2bi.CfnTransformerProps
 
 @Generated
-public fun buildCfnTransformerProps(initializer: @AwsCdkDsl CfnTransformerProps.Builder.() -> Unit =
-    {}): CfnTransformerProps = CfnTransformerProps.Builder().apply(initializer).build()
+public fun buildCfnTransformerProps(initializer: @AwsCdkDsl CfnTransformerProps.Builder.() -> Unit = {}): CfnTransformerProps = CfnTransformerProps.Builder().apply(initializer).build()

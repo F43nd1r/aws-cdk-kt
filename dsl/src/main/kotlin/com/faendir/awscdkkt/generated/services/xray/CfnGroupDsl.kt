@@ -16,5 +16,4 @@ public fun Construct.cfnGroup(
 ): CfnGroup = CfnGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnGroup(id: String, initializer: @AwsCdkDsl CfnGroup.Builder.() -> Unit =
-    {}): CfnGroup = CfnGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnGroup(id: String, initializer: @AwsCdkDsl CfnGroup.Builder.() -> Unit = {}): CfnGroup = CfnGroup.Builder.create(this, id).apply(initializer).build()

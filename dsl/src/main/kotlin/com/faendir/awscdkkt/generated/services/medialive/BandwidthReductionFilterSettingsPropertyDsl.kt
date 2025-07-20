@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildBandwidthReductionFilterSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.BandwidthReductionFilterSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.BandwidthReductionFilterSettingsProperty =
-    CfnChannel.BandwidthReductionFilterSettingsProperty.Builder().apply(initializer).build()
+public fun buildBandwidthReductionFilterSettingsProperty(initializer: @AwsCdkDsl CfnChannel.BandwidthReductionFilterSettingsProperty.Builder.() -> Unit = {}): CfnChannel.BandwidthReductionFilterSettingsProperty = CfnChannel.BandwidthReductionFilterSettingsProperty.Builder().apply(initializer).build()

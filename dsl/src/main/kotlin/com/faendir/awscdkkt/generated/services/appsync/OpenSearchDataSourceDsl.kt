@@ -16,6 +16,4 @@ public fun Construct.openSearchDataSource(
 ): OpenSearchDataSource = OpenSearchDataSource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildOpenSearchDataSource(id: String, initializer: @AwsCdkDsl
-    OpenSearchDataSource.Builder.() -> Unit = {}): OpenSearchDataSource =
-    OpenSearchDataSource.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildOpenSearchDataSource(id: String, initializer: @AwsCdkDsl OpenSearchDataSource.Builder.() -> Unit = {}): OpenSearchDataSource = OpenSearchDataSource.Builder.create(this, id).apply(initializer).build()

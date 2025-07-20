@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.CfnRecordSetGroup
 
 @Generated
-public fun buildAliasTargetProperty(initializer: @AwsCdkDsl
-    CfnRecordSetGroup.AliasTargetProperty.Builder.() -> Unit = {}):
-    CfnRecordSetGroup.AliasTargetProperty =
-    CfnRecordSetGroup.AliasTargetProperty.Builder().apply(initializer).build()
+public fun buildAliasTargetProperty(initializer: @AwsCdkDsl CfnRecordSetGroup.AliasTargetProperty.Builder.() -> Unit = {}): CfnRecordSetGroup.AliasTargetProperty = CfnRecordSetGroup.AliasTargetProperty.Builder().apply(initializer).build()

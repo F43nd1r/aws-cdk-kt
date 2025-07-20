@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lightsail.CfnInstance
 
 @Generated
-public fun buildHardwareProperty(initializer: @AwsCdkDsl
-    CfnInstance.HardwareProperty.Builder.() -> Unit = {}): CfnInstance.HardwareProperty =
-    CfnInstance.HardwareProperty.Builder().apply(initializer).build()
+public fun buildHardwareProperty(initializer: @AwsCdkDsl CfnInstance.HardwareProperty.Builder.() -> Unit = {}): CfnInstance.HardwareProperty = CfnInstance.HardwareProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.odb.CfnCloudVmClusterProps
 
 @Generated
-public fun buildCfnCloudVmClusterProps(initializer: @AwsCdkDsl
-    CfnCloudVmClusterProps.Builder.() -> Unit = {}): CfnCloudVmClusterProps =
-    CfnCloudVmClusterProps.Builder().apply(initializer).build()
+public fun buildCfnCloudVmClusterProps(initializer: @AwsCdkDsl CfnCloudVmClusterProps.Builder.() -> Unit = {}): CfnCloudVmClusterProps = CfnCloudVmClusterProps.Builder().apply(initializer).build()

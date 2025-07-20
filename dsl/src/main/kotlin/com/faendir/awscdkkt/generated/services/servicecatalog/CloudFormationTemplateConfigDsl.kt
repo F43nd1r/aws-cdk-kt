@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicecatalog.CloudFormationTemplateConfig
 
 @Generated
-public fun buildCloudFormationTemplateConfig(initializer: @AwsCdkDsl
-    CloudFormationTemplateConfig.Builder.() -> Unit = {}): CloudFormationTemplateConfig =
-    CloudFormationTemplateConfig.Builder().apply(initializer).build()
+public fun buildCloudFormationTemplateConfig(initializer: @AwsCdkDsl CloudFormationTemplateConfig.Builder.() -> Unit = {}): CloudFormationTemplateConfig = CloudFormationTemplateConfig.Builder().apply(initializer).build()

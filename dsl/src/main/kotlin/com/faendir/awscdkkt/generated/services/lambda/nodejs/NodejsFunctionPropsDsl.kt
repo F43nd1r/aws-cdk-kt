@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.nodejs.NodejsFunctionProps
 
 @Generated
-public fun buildNodejsFunctionProps(initializer: @AwsCdkDsl NodejsFunctionProps.Builder.() -> Unit =
-    {}): NodejsFunctionProps = NodejsFunctionProps.Builder().apply(initializer).build()
+public fun buildNodejsFunctionProps(initializer: @AwsCdkDsl NodejsFunctionProps.Builder.() -> Unit = {}): NodejsFunctionProps = NodejsFunctionProps.Builder().apply(initializer).build()

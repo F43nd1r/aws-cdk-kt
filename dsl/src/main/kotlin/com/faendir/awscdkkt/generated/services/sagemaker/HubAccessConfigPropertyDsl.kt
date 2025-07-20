@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnModel
 
 @Generated
-public fun buildHubAccessConfigProperty(initializer: @AwsCdkDsl
-    CfnModel.HubAccessConfigProperty.Builder.() -> Unit = {}): CfnModel.HubAccessConfigProperty =
-    CfnModel.HubAccessConfigProperty.Builder().apply(initializer).build()
+public fun buildHubAccessConfigProperty(initializer: @AwsCdkDsl CfnModel.HubAccessConfigProperty.Builder.() -> Unit = {}): CfnModel.HubAccessConfigProperty = CfnModel.HubAccessConfigProperty.Builder().apply(initializer).build()

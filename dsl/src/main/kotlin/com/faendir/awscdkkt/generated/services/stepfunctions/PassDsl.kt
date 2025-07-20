@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.stepfunctions.PassProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.pass(id: String, initializer: @AwsCdkDsl Pass.() -> Unit = {}): Pass =
-    Pass(this, id).apply(initializer)
+public fun Construct.pass(id: String, initializer: @AwsCdkDsl Pass.() -> Unit = {}): Pass = Pass(this, id).apply(initializer)
 
 @Generated
 public fun Construct.pass(
@@ -20,5 +19,4 @@ public fun Construct.pass(
 ): Pass = Pass(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildPass(id: String, initializer: @AwsCdkDsl Pass.Builder.() -> Unit = {}):
-    Pass = Pass.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildPass(id: String, initializer: @AwsCdkDsl Pass.Builder.() -> Unit = {}): Pass = Pass.Builder.create(this, id).apply(initializer).build()

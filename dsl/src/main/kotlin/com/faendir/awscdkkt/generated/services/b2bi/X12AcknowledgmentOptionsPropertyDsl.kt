@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.b2bi.CfnPartnership
 
 @Generated
-public fun buildX12AcknowledgmentOptionsProperty(initializer: @AwsCdkDsl
-    CfnPartnership.X12AcknowledgmentOptionsProperty.Builder.() -> Unit = {}):
-    CfnPartnership.X12AcknowledgmentOptionsProperty =
-    CfnPartnership.X12AcknowledgmentOptionsProperty.Builder().apply(initializer).build()
+public fun buildX12AcknowledgmentOptionsProperty(initializer: @AwsCdkDsl CfnPartnership.X12AcknowledgmentOptionsProperty.Builder.() -> Unit = {}): CfnPartnership.X12AcknowledgmentOptionsProperty = CfnPartnership.X12AcknowledgmentOptionsProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnRuleGroupsNamespace(
 ): CfnRuleGroupsNamespace = CfnRuleGroupsNamespace(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRuleGroupsNamespace(id: String, initializer: @AwsCdkDsl
-    CfnRuleGroupsNamespace.Builder.() -> Unit = {}): CfnRuleGroupsNamespace =
-    CfnRuleGroupsNamespace.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRuleGroupsNamespace(id: String, initializer: @AwsCdkDsl CfnRuleGroupsNamespace.Builder.() -> Unit = {}): CfnRuleGroupsNamespace = CfnRuleGroupsNamespace.Builder.create(this, id).apply(initializer).build()

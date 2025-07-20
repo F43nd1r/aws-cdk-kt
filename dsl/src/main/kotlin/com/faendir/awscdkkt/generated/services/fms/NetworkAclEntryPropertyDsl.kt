@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fms.CfnPolicy
 
 @Generated
-public fun buildNetworkAclEntryProperty(initializer: @AwsCdkDsl
-    CfnPolicy.NetworkAclEntryProperty.Builder.() -> Unit = {}): CfnPolicy.NetworkAclEntryProperty =
-    CfnPolicy.NetworkAclEntryProperty.Builder().apply(initializer).build()
+public fun buildNetworkAclEntryProperty(initializer: @AwsCdkDsl CfnPolicy.NetworkAclEntryProperty.Builder.() -> Unit = {}): CfnPolicy.NetworkAclEntryProperty = CfnPolicy.NetworkAclEntryProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.stringListParameter(
 ): StringListParameter = StringListParameter(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildStringListParameter(id: String, initializer: @AwsCdkDsl
-    StringListParameter.Builder.() -> Unit = {}): StringListParameter =
-    StringListParameter.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildStringListParameter(id: String, initializer: @AwsCdkDsl StringListParameter.Builder.() -> Unit = {}): StringListParameter = StringListParameter.Builder.create(this, id).apply(initializer).build()

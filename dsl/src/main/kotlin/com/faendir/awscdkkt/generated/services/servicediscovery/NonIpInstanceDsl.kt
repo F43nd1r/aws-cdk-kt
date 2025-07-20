@@ -16,6 +16,4 @@ public fun Construct.nonIpInstance(
 ): NonIpInstance = NonIpInstance(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildNonIpInstance(id: String, initializer: @AwsCdkDsl
-    NonIpInstance.Builder.() -> Unit = {}): NonIpInstance = NonIpInstance.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildNonIpInstance(id: String, initializer: @AwsCdkDsl NonIpInstance.Builder.() -> Unit = {}): NonIpInstance = NonIpInstance.Builder.create(this, id).apply(initializer).build()

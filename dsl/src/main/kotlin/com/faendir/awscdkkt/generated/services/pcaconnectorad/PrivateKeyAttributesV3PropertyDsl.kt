@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pcaconnectorad.CfnTemplate
 
 @Generated
-public fun buildPrivateKeyAttributesV3Property(initializer: @AwsCdkDsl
-    CfnTemplate.PrivateKeyAttributesV3Property.Builder.() -> Unit = {}):
-    CfnTemplate.PrivateKeyAttributesV3Property =
-    CfnTemplate.PrivateKeyAttributesV3Property.Builder().apply(initializer).build()
+public fun buildPrivateKeyAttributesV3Property(initializer: @AwsCdkDsl CfnTemplate.PrivateKeyAttributesV3Property.Builder.() -> Unit = {}): CfnTemplate.PrivateKeyAttributesV3Property = CfnTemplate.PrivateKeyAttributesV3Property.Builder().apply(initializer).build()

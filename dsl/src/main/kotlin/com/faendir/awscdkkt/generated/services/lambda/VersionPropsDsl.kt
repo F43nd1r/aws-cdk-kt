@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.VersionProps
 
 @Generated
-public fun buildVersionProps(initializer: @AwsCdkDsl VersionProps.Builder.() -> Unit = {}):
-    VersionProps = VersionProps.Builder().apply(initializer).build()
+public fun buildVersionProps(initializer: @AwsCdkDsl VersionProps.Builder.() -> Unit = {}): VersionProps = VersionProps.Builder().apply(initializer).build()

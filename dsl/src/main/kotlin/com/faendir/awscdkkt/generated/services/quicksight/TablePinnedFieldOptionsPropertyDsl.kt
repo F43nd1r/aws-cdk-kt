@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildTablePinnedFieldOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TablePinnedFieldOptionsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.TablePinnedFieldOptionsProperty =
-    CfnTemplate.TablePinnedFieldOptionsProperty.Builder().apply(initializer).build()
+public fun buildTablePinnedFieldOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.TablePinnedFieldOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.TablePinnedFieldOptionsProperty = CfnTemplate.TablePinnedFieldOptionsProperty.Builder().apply(initializer).build()

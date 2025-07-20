@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
-public fun buildFargatePlatformConfigurationProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.FargatePlatformConfigurationProperty.Builder.() -> Unit = {}):
-    CfnJobDefinition.FargatePlatformConfigurationProperty =
-    CfnJobDefinition.FargatePlatformConfigurationProperty.Builder().apply(initializer).build()
+public fun buildFargatePlatformConfigurationProperty(initializer: @AwsCdkDsl CfnJobDefinition.FargatePlatformConfigurationProperty.Builder.() -> Unit = {}): CfnJobDefinition.FargatePlatformConfigurationProperty = CfnJobDefinition.FargatePlatformConfigurationProperty.Builder().apply(initializer).build()

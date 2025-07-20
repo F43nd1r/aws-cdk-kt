@@ -16,6 +16,4 @@ public fun Construct.cfnRotation(
 ): CfnRotation = CfnRotation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRotation(id: String, initializer: @AwsCdkDsl
-    CfnRotation.Builder.() -> Unit = {}): CfnRotation = CfnRotation.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnRotation(id: String, initializer: @AwsCdkDsl CfnRotation.Builder.() -> Unit = {}): CfnRotation = CfnRotation.Builder.create(this, id).apply(initializer).build()

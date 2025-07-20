@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EcsRunTaskJsonPathProps
 
 @Generated
-public fun buildEcsRunTaskJsonPathProps(initializer: @AwsCdkDsl
-    EcsRunTaskJsonPathProps.Builder.() -> Unit = {}): EcsRunTaskJsonPathProps =
-    EcsRunTaskJsonPathProps.Builder().apply(initializer).build()
+public fun buildEcsRunTaskJsonPathProps(initializer: @AwsCdkDsl EcsRunTaskJsonPathProps.Builder.() -> Unit = {}): EcsRunTaskJsonPathProps = EcsRunTaskJsonPathProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnAppImageConfig
 
 @Generated
-public fun buildJupyterLabAppImageConfigProperty(initializer: @AwsCdkDsl
-    CfnAppImageConfig.JupyterLabAppImageConfigProperty.Builder.() -> Unit = {}):
-    CfnAppImageConfig.JupyterLabAppImageConfigProperty =
-    CfnAppImageConfig.JupyterLabAppImageConfigProperty.Builder().apply(initializer).build()
+public fun buildJupyterLabAppImageConfigProperty(initializer: @AwsCdkDsl CfnAppImageConfig.JupyterLabAppImageConfigProperty.Builder.() -> Unit = {}): CfnAppImageConfig.JupyterLabAppImageConfigProperty = CfnAppImageConfig.JupyterLabAppImageConfigProperty.Builder().apply(initializer).build()

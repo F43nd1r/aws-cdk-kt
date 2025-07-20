@@ -16,6 +16,4 @@ public fun Construct.cfnReplicationGroup(
 ): CfnReplicationGroup = CfnReplicationGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnReplicationGroup(id: String, initializer: @AwsCdkDsl
-    CfnReplicationGroup.Builder.() -> Unit = {}): CfnReplicationGroup =
-    CfnReplicationGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnReplicationGroup(id: String, initializer: @AwsCdkDsl CfnReplicationGroup.Builder.() -> Unit = {}): CfnReplicationGroup = CfnReplicationGroup.Builder.create(this, id).apply(initializer).build()

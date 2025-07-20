@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnEIPProps
 
 @Generated
-public fun buildCfnEIPProps(initializer: @AwsCdkDsl CfnEIPProps.Builder.() -> Unit = {}):
-    CfnEIPProps = CfnEIPProps.Builder().apply(initializer).build()
+public fun buildCfnEIPProps(initializer: @AwsCdkDsl CfnEIPProps.Builder.() -> Unit = {}): CfnEIPProps = CfnEIPProps.Builder().apply(initializer).build()

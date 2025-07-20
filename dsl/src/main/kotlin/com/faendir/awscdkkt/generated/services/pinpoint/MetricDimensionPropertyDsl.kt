@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnCampaign
 
 @Generated
-public fun buildMetricDimensionProperty(initializer: @AwsCdkDsl
-    CfnCampaign.MetricDimensionProperty.Builder.() -> Unit = {}):
-    CfnCampaign.MetricDimensionProperty =
-    CfnCampaign.MetricDimensionProperty.Builder().apply(initializer).build()
+public fun buildMetricDimensionProperty(initializer: @AwsCdkDsl CfnCampaign.MetricDimensionProperty.Builder.() -> Unit = {}): CfnCampaign.MetricDimensionProperty = CfnCampaign.MetricDimensionProperty.Builder().apply(initializer).build()

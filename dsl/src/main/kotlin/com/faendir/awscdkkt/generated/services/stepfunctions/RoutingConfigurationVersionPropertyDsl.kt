@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.CfnStateMachineAlias
 
 @Generated
-public fun buildRoutingConfigurationVersionProperty(initializer: @AwsCdkDsl
-    CfnStateMachineAlias.RoutingConfigurationVersionProperty.Builder.() -> Unit = {}):
-    CfnStateMachineAlias.RoutingConfigurationVersionProperty =
-    CfnStateMachineAlias.RoutingConfigurationVersionProperty.Builder().apply(initializer).build()
+public fun buildRoutingConfigurationVersionProperty(initializer: @AwsCdkDsl CfnStateMachineAlias.RoutingConfigurationVersionProperty.Builder.() -> Unit = {}): CfnStateMachineAlias.RoutingConfigurationVersionProperty = CfnStateMachineAlias.RoutingConfigurationVersionProperty.Builder().apply(initializer).build()

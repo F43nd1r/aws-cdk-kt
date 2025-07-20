@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloudassembly.schema.CcApiContextQuery
 
 @Generated
-public fun buildCcApiContextQuery(initializer: @AwsCdkDsl CcApiContextQuery.Builder.() -> Unit =
-    {}): CcApiContextQuery = CcApiContextQuery.Builder().apply(initializer).build()
+public fun buildCcApiContextQuery(initializer: @AwsCdkDsl CcApiContextQuery.Builder.() -> Unit = {}): CcApiContextQuery = CcApiContextQuery.Builder().apply(initializer).build()

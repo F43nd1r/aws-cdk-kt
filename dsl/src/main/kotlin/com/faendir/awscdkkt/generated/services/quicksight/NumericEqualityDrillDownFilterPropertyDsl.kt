@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildNumericEqualityDrillDownFilterProperty(initializer: @AwsCdkDsl
-    CfnTemplate.NumericEqualityDrillDownFilterProperty.Builder.() -> Unit = {}):
-    CfnTemplate.NumericEqualityDrillDownFilterProperty =
-    CfnTemplate.NumericEqualityDrillDownFilterProperty.Builder().apply(initializer).build()
+public fun buildNumericEqualityDrillDownFilterProperty(initializer: @AwsCdkDsl CfnTemplate.NumericEqualityDrillDownFilterProperty.Builder.() -> Unit = {}): CfnTemplate.NumericEqualityDrillDownFilterProperty = CfnTemplate.NumericEqualityDrillDownFilterProperty.Builder().apply(initializer).build()

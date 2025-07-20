@@ -16,6 +16,4 @@ public fun Construct.cfnVirtualCluster(
 ): CfnVirtualCluster = CfnVirtualCluster(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVirtualCluster(id: String, initializer: @AwsCdkDsl
-    CfnVirtualCluster.Builder.() -> Unit = {}): CfnVirtualCluster =
-    CfnVirtualCluster.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnVirtualCluster(id: String, initializer: @AwsCdkDsl CfnVirtualCluster.Builder.() -> Unit = {}): CfnVirtualCluster = CfnVirtualCluster.Builder.create(this, id).apply(initializer).build()

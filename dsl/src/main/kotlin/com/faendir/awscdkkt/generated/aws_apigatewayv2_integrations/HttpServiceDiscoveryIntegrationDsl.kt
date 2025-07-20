@@ -12,5 +12,4 @@ public fun buildHttpServiceDiscoveryIntegration(
   id: String,
   service: IService,
   initializer: @AwsCdkDsl HttpServiceDiscoveryIntegration.Builder.() -> Unit = {},
-): HttpServiceDiscoveryIntegration = HttpServiceDiscoveryIntegration.Builder.create(id,
-    service).apply(initializer).build()
+): HttpServiceDiscoveryIntegration = HttpServiceDiscoveryIntegration.Builder.create(id, service).apply(initializer).build()

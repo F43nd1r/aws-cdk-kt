@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnNotebookInstanceProps
 
 @Generated
-public fun buildCfnNotebookInstanceProps(initializer: @AwsCdkDsl
-    CfnNotebookInstanceProps.Builder.() -> Unit = {}): CfnNotebookInstanceProps =
-    CfnNotebookInstanceProps.Builder().apply(initializer).build()
+public fun buildCfnNotebookInstanceProps(initializer: @AwsCdkDsl CfnNotebookInstanceProps.Builder.() -> Unit = {}): CfnNotebookInstanceProps = CfnNotebookInstanceProps.Builder().apply(initializer).build()

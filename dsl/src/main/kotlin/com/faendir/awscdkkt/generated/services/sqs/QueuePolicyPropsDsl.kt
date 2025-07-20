@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sqs.QueuePolicyProps
 
 @Generated
-public fun buildQueuePolicyProps(initializer: @AwsCdkDsl QueuePolicyProps.Builder.() -> Unit = {}):
-    QueuePolicyProps = QueuePolicyProps.Builder().apply(initializer).build()
+public fun buildQueuePolicyProps(initializer: @AwsCdkDsl QueuePolicyProps.Builder.() -> Unit = {}): QueuePolicyProps = QueuePolicyProps.Builder().apply(initializer).build()

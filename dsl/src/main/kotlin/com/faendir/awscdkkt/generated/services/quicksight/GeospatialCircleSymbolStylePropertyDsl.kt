@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
-public fun buildGeospatialCircleSymbolStyleProperty(initializer: @AwsCdkDsl
-    CfnDashboard.GeospatialCircleSymbolStyleProperty.Builder.() -> Unit = {}):
-    CfnDashboard.GeospatialCircleSymbolStyleProperty =
-    CfnDashboard.GeospatialCircleSymbolStyleProperty.Builder().apply(initializer).build()
+public fun buildGeospatialCircleSymbolStyleProperty(initializer: @AwsCdkDsl CfnDashboard.GeospatialCircleSymbolStyleProperty.Builder.() -> Unit = {}): CfnDashboard.GeospatialCircleSymbolStyleProperty = CfnDashboard.GeospatialCircleSymbolStyleProperty.Builder().apply(initializer).build()

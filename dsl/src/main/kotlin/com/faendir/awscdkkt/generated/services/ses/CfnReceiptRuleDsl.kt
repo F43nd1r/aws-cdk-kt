@@ -16,6 +16,4 @@ public fun Construct.cfnReceiptRule(
 ): CfnReceiptRule = CfnReceiptRule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnReceiptRule(id: String, initializer: @AwsCdkDsl
-    CfnReceiptRule.Builder.() -> Unit = {}): CfnReceiptRule = CfnReceiptRule.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnReceiptRule(id: String, initializer: @AwsCdkDsl CfnReceiptRule.Builder.() -> Unit = {}): CfnReceiptRule = CfnReceiptRule.Builder.create(this, id).apply(initializer).build()

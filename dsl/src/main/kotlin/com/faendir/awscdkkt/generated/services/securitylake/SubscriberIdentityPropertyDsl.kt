@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securitylake.CfnSubscriber
 
 @Generated
-public fun buildSubscriberIdentityProperty(initializer: @AwsCdkDsl
-    CfnSubscriber.SubscriberIdentityProperty.Builder.() -> Unit = {}):
-    CfnSubscriber.SubscriberIdentityProperty =
-    CfnSubscriber.SubscriberIdentityProperty.Builder().apply(initializer).build()
+public fun buildSubscriberIdentityProperty(initializer: @AwsCdkDsl CfnSubscriber.SubscriberIdentityProperty.Builder.() -> Unit = {}): CfnSubscriber.SubscriberIdentityProperty = CfnSubscriber.SubscriberIdentityProperty.Builder().apply(initializer).build()

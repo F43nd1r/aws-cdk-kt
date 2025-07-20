@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkfirewall.CfnRuleGroup
 
 @Generated
-public fun buildHeaderProperty(initializer: @AwsCdkDsl
-    CfnRuleGroup.HeaderProperty.Builder.() -> Unit = {}): CfnRuleGroup.HeaderProperty =
-    CfnRuleGroup.HeaderProperty.Builder().apply(initializer).build()
+public fun buildHeaderProperty(initializer: @AwsCdkDsl CfnRuleGroup.HeaderProperty.Builder.() -> Unit = {}): CfnRuleGroup.HeaderProperty = CfnRuleGroup.HeaderProperty.Builder().apply(initializer).build()

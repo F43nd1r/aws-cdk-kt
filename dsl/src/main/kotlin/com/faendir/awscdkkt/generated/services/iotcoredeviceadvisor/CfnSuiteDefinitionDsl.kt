@@ -16,6 +16,4 @@ public fun Construct.cfnSuiteDefinition(
 ): CfnSuiteDefinition = CfnSuiteDefinition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSuiteDefinition(id: String, initializer: @AwsCdkDsl
-    CfnSuiteDefinition.Builder.() -> Unit = {}): CfnSuiteDefinition =
-    CfnSuiteDefinition.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSuiteDefinition(id: String, initializer: @AwsCdkDsl CfnSuiteDefinition.Builder.() -> Unit = {}): CfnSuiteDefinition = CfnSuiteDefinition.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnSourceCredential(
 ): CfnSourceCredential = CfnSourceCredential(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSourceCredential(id: String, initializer: @AwsCdkDsl
-    CfnSourceCredential.Builder.() -> Unit = {}): CfnSourceCredential =
-    CfnSourceCredential.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSourceCredential(id: String, initializer: @AwsCdkDsl CfnSourceCredential.Builder.() -> Unit = {}): CfnSourceCredential = CfnSourceCredential.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.destinations.FirehoseDestinationProps
 
 @Generated
-public fun buildFirehoseDestinationProps(initializer: @AwsCdkDsl
-    FirehoseDestinationProps.Builder.() -> Unit = {}): FirehoseDestinationProps =
-    FirehoseDestinationProps.Builder().apply(initializer).build()
+public fun buildFirehoseDestinationProps(initializer: @AwsCdkDsl FirehoseDestinationProps.Builder.() -> Unit = {}): FirehoseDestinationProps = FirehoseDestinationProps.Builder().apply(initializer).build()

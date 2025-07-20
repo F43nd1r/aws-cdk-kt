@@ -16,6 +16,4 @@ public fun Construct.cfnIPAMScope(
 ): CfnIPAMScope = CfnIPAMScope(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnIPAMScope(id: String, initializer: @AwsCdkDsl
-    CfnIPAMScope.Builder.() -> Unit = {}): CfnIPAMScope = CfnIPAMScope.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnIPAMScope(id: String, initializer: @AwsCdkDsl CfnIPAMScope.Builder.() -> Unit = {}): CfnIPAMScope = CfnIPAMScope.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.SchemaBindOptions
 
 @Generated
-public fun buildSchemaBindOptions(initializer: @AwsCdkDsl SchemaBindOptions.Builder.() -> Unit =
-    {}): SchemaBindOptions = SchemaBindOptions.Builder().apply(initializer).build()
+public fun buildSchemaBindOptions(initializer: @AwsCdkDsl SchemaBindOptions.Builder.() -> Unit = {}): SchemaBindOptions = SchemaBindOptions.Builder().apply(initializer).build()

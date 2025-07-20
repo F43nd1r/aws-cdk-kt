@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.aps.CfnWorkspace
 
 @Generated
-public fun buildLoggingFilterProperty(initializer: @AwsCdkDsl
-    CfnWorkspace.LoggingFilterProperty.Builder.() -> Unit = {}): CfnWorkspace.LoggingFilterProperty
-    = CfnWorkspace.LoggingFilterProperty.Builder().apply(initializer).build()
+public fun buildLoggingFilterProperty(initializer: @AwsCdkDsl CfnWorkspace.LoggingFilterProperty.Builder.() -> Unit = {}): CfnWorkspace.LoggingFilterProperty = CfnWorkspace.LoggingFilterProperty.Builder().apply(initializer).build()

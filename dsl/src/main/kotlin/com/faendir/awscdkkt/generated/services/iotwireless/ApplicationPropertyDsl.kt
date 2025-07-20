@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotwireless.CfnWirelessDevice
 
 @Generated
-public fun buildApplicationProperty(initializer: @AwsCdkDsl
-    CfnWirelessDevice.ApplicationProperty.Builder.() -> Unit = {}):
-    CfnWirelessDevice.ApplicationProperty =
-    CfnWirelessDevice.ApplicationProperty.Builder().apply(initializer).build()
+public fun buildApplicationProperty(initializer: @AwsCdkDsl CfnWirelessDevice.ApplicationProperty.Builder.() -> Unit = {}): CfnWirelessDevice.ApplicationProperty = CfnWirelessDevice.ApplicationProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sns.CfnTopic
 
 @Generated
-public fun buildLoggingConfigProperty(initializer: @AwsCdkDsl
-    CfnTopic.LoggingConfigProperty.Builder.() -> Unit = {}): CfnTopic.LoggingConfigProperty =
-    CfnTopic.LoggingConfigProperty.Builder().apply(initializer).build()
+public fun buildLoggingConfigProperty(initializer: @AwsCdkDsl CfnTopic.LoggingConfigProperty.Builder.() -> Unit = {}): CfnTopic.LoggingConfigProperty = CfnTopic.LoggingConfigProperty.Builder().apply(initializer).build()

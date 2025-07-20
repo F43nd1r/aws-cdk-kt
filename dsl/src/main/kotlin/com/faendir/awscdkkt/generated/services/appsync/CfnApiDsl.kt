@@ -16,5 +16,4 @@ public fun Construct.cfnApi(
 ): CfnApi = CfnApi(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnApi(id: String, initializer: @AwsCdkDsl CfnApi.Builder.() -> Unit =
-    {}): CfnApi = CfnApi.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnApi(id: String, initializer: @AwsCdkDsl CfnApi.Builder.() -> Unit = {}): CfnApi = CfnApi.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnStorageLensGroup(
 ): CfnStorageLensGroup = CfnStorageLensGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnStorageLensGroup(id: String, initializer: @AwsCdkDsl
-    CfnStorageLensGroup.Builder.() -> Unit = {}): CfnStorageLensGroup =
-    CfnStorageLensGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnStorageLensGroup(id: String, initializer: @AwsCdkDsl CfnStorageLensGroup.Builder.() -> Unit = {}): CfnStorageLensGroup = CfnStorageLensGroup.Builder.create(this, id).apply(initializer).build()

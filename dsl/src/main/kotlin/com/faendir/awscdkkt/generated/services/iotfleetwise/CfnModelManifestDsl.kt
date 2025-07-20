@@ -16,6 +16,4 @@ public fun Construct.cfnModelManifest(
 ): CfnModelManifest = CfnModelManifest(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnModelManifest(id: String, initializer: @AwsCdkDsl
-    CfnModelManifest.Builder.() -> Unit = {}): CfnModelManifest =
-    CfnModelManifest.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnModelManifest(id: String, initializer: @AwsCdkDsl CfnModelManifest.Builder.() -> Unit = {}): CfnModelManifest = CfnModelManifest.Builder.create(this, id).apply(initializer).build()

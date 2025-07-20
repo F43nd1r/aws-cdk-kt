@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.CfnConnection
 
 @Generated
-public fun buildResourceParametersProperty(initializer: @AwsCdkDsl
-    CfnConnection.ResourceParametersProperty.Builder.() -> Unit = {}):
-    CfnConnection.ResourceParametersProperty =
-    CfnConnection.ResourceParametersProperty.Builder().apply(initializer).build()
+public fun buildResourceParametersProperty(initializer: @AwsCdkDsl CfnConnection.ResourceParametersProperty.Builder.() -> Unit = {}): CfnConnection.ResourceParametersProperty = CfnConnection.ResourceParametersProperty.Builder().apply(initializer).build()

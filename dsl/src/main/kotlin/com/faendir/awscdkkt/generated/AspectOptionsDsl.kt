@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.AspectOptions
 
 @Generated
-public fun buildAspectOptions(initializer: @AwsCdkDsl AspectOptions.Builder.() -> Unit = {}):
-    AspectOptions = AspectOptions.Builder().apply(initializer).build()
+public fun buildAspectOptions(initializer: @AwsCdkDsl AspectOptions.Builder.() -> Unit = {}): AspectOptions = AspectOptions.Builder().apply(initializer).build()

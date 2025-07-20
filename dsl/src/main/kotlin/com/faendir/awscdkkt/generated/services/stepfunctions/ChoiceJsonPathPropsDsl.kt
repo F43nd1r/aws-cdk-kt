@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.ChoiceJsonPathProps
 
 @Generated
-public fun buildChoiceJsonPathProps(initializer: @AwsCdkDsl ChoiceJsonPathProps.Builder.() -> Unit =
-    {}): ChoiceJsonPathProps = ChoiceJsonPathProps.Builder().apply(initializer).build()
+public fun buildChoiceJsonPathProps(initializer: @AwsCdkDsl ChoiceJsonPathProps.Builder.() -> Unit = {}): ChoiceJsonPathProps = ChoiceJsonPathProps.Builder().apply(initializer).build()

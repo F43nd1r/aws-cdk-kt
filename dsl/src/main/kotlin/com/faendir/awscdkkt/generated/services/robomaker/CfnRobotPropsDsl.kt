@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.robomaker.CfnRobotProps
 
 @Generated
-public fun buildCfnRobotProps(initializer: @AwsCdkDsl CfnRobotProps.Builder.() -> Unit = {}):
-    CfnRobotProps = CfnRobotProps.Builder().apply(initializer).build()
+public fun buildCfnRobotProps(initializer: @AwsCdkDsl CfnRobotProps.Builder.() -> Unit = {}): CfnRobotProps = CfnRobotProps.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnMailManagerTrafficPolicy(
 ): CfnMailManagerTrafficPolicy = CfnMailManagerTrafficPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMailManagerTrafficPolicy(id: String, initializer: @AwsCdkDsl
-    CfnMailManagerTrafficPolicy.Builder.() -> Unit = {}): CfnMailManagerTrafficPolicy =
-    CfnMailManagerTrafficPolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMailManagerTrafficPolicy(id: String, initializer: @AwsCdkDsl CfnMailManagerTrafficPolicy.Builder.() -> Unit = {}): CfnMailManagerTrafficPolicy = CfnMailManagerTrafficPolicy.Builder.create(this, id).apply(initializer).build()

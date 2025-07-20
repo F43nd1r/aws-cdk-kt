@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssm.StringParameterProps
 
 @Generated
-public fun buildStringParameterProps(initializer: @AwsCdkDsl StringParameterProps.Builder.() -> Unit
-    = {}): StringParameterProps = StringParameterProps.Builder().apply(initializer).build()
+public fun buildStringParameterProps(initializer: @AwsCdkDsl StringParameterProps.Builder.() -> Unit = {}): StringParameterProps = StringParameterProps.Builder().apply(initializer).build()

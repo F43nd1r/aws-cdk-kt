@@ -16,6 +16,4 @@ public fun Construct.cfnDocumentationPart(
 ): CfnDocumentationPart = CfnDocumentationPart(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDocumentationPart(id: String, initializer: @AwsCdkDsl
-    CfnDocumentationPart.Builder.() -> Unit = {}): CfnDocumentationPart =
-    CfnDocumentationPart.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDocumentationPart(id: String, initializer: @AwsCdkDsl CfnDocumentationPart.Builder.() -> Unit = {}): CfnDocumentationPart = CfnDocumentationPart.Builder.create(this, id).apply(initializer).build()

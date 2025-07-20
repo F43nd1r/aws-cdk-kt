@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.assertions.TemplateParsingOptions
 
 @Generated
-public fun buildTemplateParsingOptions(initializer: @AwsCdkDsl
-    TemplateParsingOptions.Builder.() -> Unit = {}): TemplateParsingOptions =
-    TemplateParsingOptions.Builder().apply(initializer).build()
+public fun buildTemplateParsingOptions(initializer: @AwsCdkDsl TemplateParsingOptions.Builder.() -> Unit = {}): TemplateParsingOptions = TemplateParsingOptions.Builder().apply(initializer).build()

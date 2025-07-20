@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.groundstation.CfnMissionProfileProps
 
 @Generated
-public fun buildCfnMissionProfileProps(initializer: @AwsCdkDsl
-    CfnMissionProfileProps.Builder.() -> Unit = {}): CfnMissionProfileProps =
-    CfnMissionProfileProps.Builder().apply(initializer).build()
+public fun buildCfnMissionProfileProps(initializer: @AwsCdkDsl CfnMissionProfileProps.Builder.() -> Unit = {}): CfnMissionProfileProps = CfnMissionProfileProps.Builder().apply(initializer).build()

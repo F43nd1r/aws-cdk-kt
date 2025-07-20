@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrModifyInstanceGroupByNameJsonPathProps
 
 @Generated
-public fun buildEmrModifyInstanceGroupByNameJsonPathProps(initializer: @AwsCdkDsl
-    EmrModifyInstanceGroupByNameJsonPathProps.Builder.() -> Unit = {}):
-    EmrModifyInstanceGroupByNameJsonPathProps =
-    EmrModifyInstanceGroupByNameJsonPathProps.Builder().apply(initializer).build()
+public fun buildEmrModifyInstanceGroupByNameJsonPathProps(initializer: @AwsCdkDsl EmrModifyInstanceGroupByNameJsonPathProps.Builder.() -> Unit = {}): EmrModifyInstanceGroupByNameJsonPathProps = EmrModifyInstanceGroupByNameJsonPathProps.Builder().apply(initializer).build()

@@ -16,5 +16,4 @@ public fun Construct.cfnBot(
 ): CfnBot = CfnBot(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnBot(id: String, initializer: @AwsCdkDsl CfnBot.Builder.() -> Unit =
-    {}): CfnBot = CfnBot.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnBot(id: String, initializer: @AwsCdkDsl CfnBot.Builder.() -> Unit = {}): CfnBot = CfnBot.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnPushTemplate
 
 @Generated
-public fun buildAPNSPushNotificationTemplateProperty(initializer: @AwsCdkDsl
-    CfnPushTemplate.APNSPushNotificationTemplateProperty.Builder.() -> Unit = {}):
-    CfnPushTemplate.APNSPushNotificationTemplateProperty =
-    CfnPushTemplate.APNSPushNotificationTemplateProperty.Builder().apply(initializer).build()
+public fun buildAPNSPushNotificationTemplateProperty(initializer: @AwsCdkDsl CfnPushTemplate.APNSPushNotificationTemplateProperty.Builder.() -> Unit = {}): CfnPushTemplate.APNSPushNotificationTemplateProperty = CfnPushTemplate.APNSPushNotificationTemplateProperty.Builder().apply(initializer).build()

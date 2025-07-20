@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnSecurityProfileProps
 
 @Generated
-public fun buildCfnSecurityProfileProps(initializer: @AwsCdkDsl
-    CfnSecurityProfileProps.Builder.() -> Unit = {}): CfnSecurityProfileProps =
-    CfnSecurityProfileProps.Builder().apply(initializer).build()
+public fun buildCfnSecurityProfileProps(initializer: @AwsCdkDsl CfnSecurityProfileProps.Builder.() -> Unit = {}): CfnSecurityProfileProps = CfnSecurityProfileProps.Builder().apply(initializer).build()

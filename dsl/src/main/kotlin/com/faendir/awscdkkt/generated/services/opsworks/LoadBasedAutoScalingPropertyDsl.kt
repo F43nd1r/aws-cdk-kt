@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opsworks.CfnLayer
 
 @Generated
-public fun buildLoadBasedAutoScalingProperty(initializer: @AwsCdkDsl
-    CfnLayer.LoadBasedAutoScalingProperty.Builder.() -> Unit = {}):
-    CfnLayer.LoadBasedAutoScalingProperty =
-    CfnLayer.LoadBasedAutoScalingProperty.Builder().apply(initializer).build()
+public fun buildLoadBasedAutoScalingProperty(initializer: @AwsCdkDsl CfnLayer.LoadBasedAutoScalingProperty.Builder.() -> Unit = {}): CfnLayer.LoadBasedAutoScalingProperty = CfnLayer.LoadBasedAutoScalingProperty.Builder().apply(initializer).build()

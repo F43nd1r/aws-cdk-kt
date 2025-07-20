@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.groundstation.CfnDataflowEndpointGroupProps
 
 @Generated
-public fun buildCfnDataflowEndpointGroupProps(initializer: @AwsCdkDsl
-    CfnDataflowEndpointGroupProps.Builder.() -> Unit = {}): CfnDataflowEndpointGroupProps =
-    CfnDataflowEndpointGroupProps.Builder().apply(initializer).build()
+public fun buildCfnDataflowEndpointGroupProps(initializer: @AwsCdkDsl CfnDataflowEndpointGroupProps.Builder.() -> Unit = {}): CfnDataflowEndpointGroupProps = CfnDataflowEndpointGroupProps.Builder().apply(initializer).build()

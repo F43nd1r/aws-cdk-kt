@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnGatewayRoute
 
 @Generated
-public fun buildGatewayRouteRangeMatchProperty(initializer: @AwsCdkDsl
-    CfnGatewayRoute.GatewayRouteRangeMatchProperty.Builder.() -> Unit = {}):
-    CfnGatewayRoute.GatewayRouteRangeMatchProperty =
-    CfnGatewayRoute.GatewayRouteRangeMatchProperty.Builder().apply(initializer).build()
+public fun buildGatewayRouteRangeMatchProperty(initializer: @AwsCdkDsl CfnGatewayRoute.GatewayRouteRangeMatchProperty.Builder.() -> Unit = {}): CfnGatewayRoute.GatewayRouteRangeMatchProperty = CfnGatewayRoute.GatewayRouteRangeMatchProperty.Builder().apply(initializer).build()

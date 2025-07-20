@@ -16,6 +16,4 @@ public fun Construct.cfnDirectoryBucket(
 ): CfnDirectoryBucket = CfnDirectoryBucket(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDirectoryBucket(id: String, initializer: @AwsCdkDsl
-    CfnDirectoryBucket.Builder.() -> Unit = {}): CfnDirectoryBucket =
-    CfnDirectoryBucket.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDirectoryBucket(id: String, initializer: @AwsCdkDsl CfnDirectoryBucket.Builder.() -> Unit = {}): CfnDirectoryBucket = CfnDirectoryBucket.Builder.create(this, id).apply(initializer).build()

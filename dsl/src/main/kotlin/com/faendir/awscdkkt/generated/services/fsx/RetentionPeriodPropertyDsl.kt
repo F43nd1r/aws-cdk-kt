@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fsx.CfnVolume
 
 @Generated
-public fun buildRetentionPeriodProperty(initializer: @AwsCdkDsl
-    CfnVolume.RetentionPeriodProperty.Builder.() -> Unit = {}): CfnVolume.RetentionPeriodProperty =
-    CfnVolume.RetentionPeriodProperty.Builder().apply(initializer).build()
+public fun buildRetentionPeriodProperty(initializer: @AwsCdkDsl CfnVolume.RetentionPeriodProperty.Builder.() -> Unit = {}): CfnVolume.RetentionPeriodProperty = CfnVolume.RetentionPeriodProperty.Builder().apply(initializer).build()

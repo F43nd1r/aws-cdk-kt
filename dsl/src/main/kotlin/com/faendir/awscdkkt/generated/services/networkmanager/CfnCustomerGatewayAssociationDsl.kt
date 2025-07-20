@@ -16,6 +16,4 @@ public fun Construct.cfnCustomerGatewayAssociation(
 ): CfnCustomerGatewayAssociation = CfnCustomerGatewayAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCustomerGatewayAssociation(id: String, initializer: @AwsCdkDsl
-    CfnCustomerGatewayAssociation.Builder.() -> Unit = {}): CfnCustomerGatewayAssociation =
-    CfnCustomerGatewayAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCustomerGatewayAssociation(id: String, initializer: @AwsCdkDsl CfnCustomerGatewayAssociation.Builder.() -> Unit = {}): CfnCustomerGatewayAssociation = CfnCustomerGatewayAssociation.Builder.create(this, id).apply(initializer).build()

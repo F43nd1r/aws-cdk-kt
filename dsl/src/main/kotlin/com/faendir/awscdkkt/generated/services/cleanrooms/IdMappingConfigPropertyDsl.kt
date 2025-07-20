@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cleanrooms.CfnIdNamespaceAssociation
 
 @Generated
-public fun buildIdMappingConfigProperty(initializer: @AwsCdkDsl
-    CfnIdNamespaceAssociation.IdMappingConfigProperty.Builder.() -> Unit = {}):
-    CfnIdNamespaceAssociation.IdMappingConfigProperty =
-    CfnIdNamespaceAssociation.IdMappingConfigProperty.Builder().apply(initializer).build()
+public fun buildIdMappingConfigProperty(initializer: @AwsCdkDsl CfnIdNamespaceAssociation.IdMappingConfigProperty.Builder.() -> Unit = {}): CfnIdNamespaceAssociation.IdMappingConfigProperty = CfnIdNamespaceAssociation.IdMappingConfigProperty.Builder().apply(initializer).build()

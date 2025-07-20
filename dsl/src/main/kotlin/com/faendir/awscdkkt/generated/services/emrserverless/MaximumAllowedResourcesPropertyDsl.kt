@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.emrserverless.CfnApplication
 
 @Generated
-public fun buildMaximumAllowedResourcesProperty(initializer: @AwsCdkDsl
-    CfnApplication.MaximumAllowedResourcesProperty.Builder.() -> Unit = {}):
-    CfnApplication.MaximumAllowedResourcesProperty =
-    CfnApplication.MaximumAllowedResourcesProperty.Builder().apply(initializer).build()
+public fun buildMaximumAllowedResourcesProperty(initializer: @AwsCdkDsl CfnApplication.MaximumAllowedResourcesProperty.Builder.() -> Unit = {}): CfnApplication.MaximumAllowedResourcesProperty = CfnApplication.MaximumAllowedResourcesProperty.Builder().apply(initializer).build()

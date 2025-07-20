@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.HttpRouteIntegrationBindOptions
 
 @Generated
-public fun buildHttpRouteIntegrationBindOptions(initializer: @AwsCdkDsl
-    HttpRouteIntegrationBindOptions.Builder.() -> Unit = {}): HttpRouteIntegrationBindOptions =
-    HttpRouteIntegrationBindOptions.Builder().apply(initializer).build()
+public fun buildHttpRouteIntegrationBindOptions(initializer: @AwsCdkDsl HttpRouteIntegrationBindOptions.Builder.() -> Unit = {}): HttpRouteIntegrationBindOptions = HttpRouteIntegrationBindOptions.Builder().apply(initializer).build()

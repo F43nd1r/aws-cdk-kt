@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dms.CfnEndpoint
 
 @Generated
-public fun buildKinesisSettingsProperty(initializer: @AwsCdkDsl
-    CfnEndpoint.KinesisSettingsProperty.Builder.() -> Unit = {}):
-    CfnEndpoint.KinesisSettingsProperty =
-    CfnEndpoint.KinesisSettingsProperty.Builder().apply(initializer).build()
+public fun buildKinesisSettingsProperty(initializer: @AwsCdkDsl CfnEndpoint.KinesisSettingsProperty.Builder.() -> Unit = {}): CfnEndpoint.KinesisSettingsProperty = CfnEndpoint.KinesisSettingsProperty.Builder().apply(initializer).build()

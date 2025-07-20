@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicecatalog.CfnStackSetConstraintProps
 
 @Generated
-public fun buildCfnStackSetConstraintProps(initializer: @AwsCdkDsl
-    CfnStackSetConstraintProps.Builder.() -> Unit = {}): CfnStackSetConstraintProps =
-    CfnStackSetConstraintProps.Builder().apply(initializer).build()
+public fun buildCfnStackSetConstraintProps(initializer: @AwsCdkDsl CfnStackSetConstraintProps.Builder.() -> Unit = {}): CfnStackSetConstraintProps = CfnStackSetConstraintProps.Builder().apply(initializer).build()

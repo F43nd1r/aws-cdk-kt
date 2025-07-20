@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fsx.LustreConfiguration
 
 @Generated
-public fun buildLustreConfiguration(initializer: @AwsCdkDsl LustreConfiguration.Builder.() -> Unit =
-    {}): LustreConfiguration = LustreConfiguration.Builder().apply(initializer).build()
+public fun buildLustreConfiguration(initializer: @AwsCdkDsl LustreConfiguration.Builder.() -> Unit = {}): LustreConfiguration = LustreConfiguration.Builder().apply(initializer).build()

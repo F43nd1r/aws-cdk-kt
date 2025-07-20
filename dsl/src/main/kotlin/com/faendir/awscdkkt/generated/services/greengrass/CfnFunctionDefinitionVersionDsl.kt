@@ -16,6 +16,4 @@ public fun Construct.cfnFunctionDefinitionVersion(
 ): CfnFunctionDefinitionVersion = CfnFunctionDefinitionVersion(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnFunctionDefinitionVersion(id: String, initializer: @AwsCdkDsl
-    CfnFunctionDefinitionVersion.Builder.() -> Unit = {}): CfnFunctionDefinitionVersion =
-    CfnFunctionDefinitionVersion.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnFunctionDefinitionVersion(id: String, initializer: @AwsCdkDsl CfnFunctionDefinitionVersion.Builder.() -> Unit = {}): CfnFunctionDefinitionVersion = CfnFunctionDefinitionVersion.Builder.create(this, id).apply(initializer).build()

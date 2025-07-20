@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.SageMakerCreateTrainingJobJsonataProps
 
 @Generated
-public fun buildSageMakerCreateTrainingJobJsonataProps(initializer: @AwsCdkDsl
-    SageMakerCreateTrainingJobJsonataProps.Builder.() -> Unit = {}):
-    SageMakerCreateTrainingJobJsonataProps =
-    SageMakerCreateTrainingJobJsonataProps.Builder().apply(initializer).build()
+public fun buildSageMakerCreateTrainingJobJsonataProps(initializer: @AwsCdkDsl SageMakerCreateTrainingJobJsonataProps.Builder.() -> Unit = {}): SageMakerCreateTrainingJobJsonataProps = SageMakerCreateTrainingJobJsonataProps.Builder().apply(initializer).build()

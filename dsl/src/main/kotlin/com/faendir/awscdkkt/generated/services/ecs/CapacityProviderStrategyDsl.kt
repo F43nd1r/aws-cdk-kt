@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CapacityProviderStrategy
 
 @Generated
-public fun buildCapacityProviderStrategy(initializer: @AwsCdkDsl
-    CapacityProviderStrategy.Builder.() -> Unit = {}): CapacityProviderStrategy =
-    CapacityProviderStrategy.Builder().apply(initializer).build()
+public fun buildCapacityProviderStrategy(initializer: @AwsCdkDsl CapacityProviderStrategy.Builder.() -> Unit = {}): CapacityProviderStrategy = CapacityProviderStrategy.Builder().apply(initializer).build()

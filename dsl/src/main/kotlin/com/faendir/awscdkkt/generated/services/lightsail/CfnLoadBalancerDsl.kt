@@ -16,6 +16,4 @@ public fun Construct.cfnLoadBalancer(
 ): CfnLoadBalancer = CfnLoadBalancer(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLoadBalancer(id: String, initializer: @AwsCdkDsl
-    CfnLoadBalancer.Builder.() -> Unit = {}): CfnLoadBalancer = CfnLoadBalancer.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnLoadBalancer(id: String, initializer: @AwsCdkDsl CfnLoadBalancer.Builder.() -> Unit = {}): CfnLoadBalancer = CfnLoadBalancer.Builder.create(this, id).apply(initializer).build()

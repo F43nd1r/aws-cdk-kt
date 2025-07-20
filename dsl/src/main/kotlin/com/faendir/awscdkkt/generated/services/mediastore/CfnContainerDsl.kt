@@ -16,6 +16,4 @@ public fun Construct.cfnContainer(
 ): CfnContainer = CfnContainer(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnContainer(id: String, initializer: @AwsCdkDsl
-    CfnContainer.Builder.() -> Unit = {}): CfnContainer = CfnContainer.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnContainer(id: String, initializer: @AwsCdkDsl CfnContainer.Builder.() -> Unit = {}): CfnContainer = CfnContainer.Builder.create(this, id).apply(initializer).build()

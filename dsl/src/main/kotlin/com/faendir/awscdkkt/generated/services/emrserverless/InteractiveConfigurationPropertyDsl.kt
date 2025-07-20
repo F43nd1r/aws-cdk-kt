@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.emrserverless.CfnApplication
 
 @Generated
-public fun buildInteractiveConfigurationProperty(initializer: @AwsCdkDsl
-    CfnApplication.InteractiveConfigurationProperty.Builder.() -> Unit = {}):
-    CfnApplication.InteractiveConfigurationProperty =
-    CfnApplication.InteractiveConfigurationProperty.Builder().apply(initializer).build()
+public fun buildInteractiveConfigurationProperty(initializer: @AwsCdkDsl CfnApplication.InteractiveConfigurationProperty.Builder.() -> Unit = {}): CfnApplication.InteractiveConfigurationProperty = CfnApplication.InteractiveConfigurationProperty.Builder().apply(initializer).build()

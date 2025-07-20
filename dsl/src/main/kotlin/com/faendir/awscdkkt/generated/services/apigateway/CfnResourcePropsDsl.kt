@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.CfnResourceProps
 
 @Generated
-public fun buildCfnResourceProps(initializer: @AwsCdkDsl CfnResourceProps.Builder.() -> Unit = {}):
-    CfnResourceProps = CfnResourceProps.Builder().apply(initializer).build()
+public fun buildCfnResourceProps(initializer: @AwsCdkDsl CfnResourceProps.Builder.() -> Unit = {}): CfnResourceProps = CfnResourceProps.Builder().apply(initializer).build()

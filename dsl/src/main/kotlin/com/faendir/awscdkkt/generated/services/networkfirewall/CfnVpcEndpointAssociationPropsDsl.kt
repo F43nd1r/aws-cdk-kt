@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkfirewall.CfnVpcEndpointAssociationProps
 
 @Generated
-public fun buildCfnVpcEndpointAssociationProps(initializer: @AwsCdkDsl
-    CfnVpcEndpointAssociationProps.Builder.() -> Unit = {}): CfnVpcEndpointAssociationProps =
-    CfnVpcEndpointAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnVpcEndpointAssociationProps(initializer: @AwsCdkDsl CfnVpcEndpointAssociationProps.Builder.() -> Unit = {}): CfnVpcEndpointAssociationProps = CfnVpcEndpointAssociationProps.Builder().apply(initializer).build()

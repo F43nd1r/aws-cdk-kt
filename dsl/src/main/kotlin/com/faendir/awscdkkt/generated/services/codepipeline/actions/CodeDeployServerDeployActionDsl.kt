@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.CodeDeployServerDeployAction
 
 @Generated
-public fun buildCodeDeployServerDeployAction(initializer: @AwsCdkDsl
-    CodeDeployServerDeployAction.Builder.() -> Unit = {}): CodeDeployServerDeployAction =
-    CodeDeployServerDeployAction.Builder.create().apply(initializer).build()
+public fun buildCodeDeployServerDeployAction(initializer: @AwsCdkDsl CodeDeployServerDeployAction.Builder.() -> Unit = {}): CodeDeployServerDeployAction = CodeDeployServerDeployAction.Builder.create().apply(initializer).build()

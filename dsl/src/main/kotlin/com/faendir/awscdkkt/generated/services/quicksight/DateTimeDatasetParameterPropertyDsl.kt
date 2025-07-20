@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
-public fun buildDateTimeDatasetParameterProperty(initializer: @AwsCdkDsl
-    CfnDataSet.DateTimeDatasetParameterProperty.Builder.() -> Unit = {}):
-    CfnDataSet.DateTimeDatasetParameterProperty =
-    CfnDataSet.DateTimeDatasetParameterProperty.Builder().apply(initializer).build()
+public fun buildDateTimeDatasetParameterProperty(initializer: @AwsCdkDsl CfnDataSet.DateTimeDatasetParameterProperty.Builder.() -> Unit = {}): CfnDataSet.DateTimeDatasetParameterProperty = CfnDataSet.DateTimeDatasetParameterProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.GitHubSourceAction
 
 @Generated
-public fun buildGitHubSourceAction(initializer: @AwsCdkDsl GitHubSourceAction.Builder.() -> Unit =
-    {}): GitHubSourceAction = GitHubSourceAction.Builder.create().apply(initializer).build()
+public fun buildGitHubSourceAction(initializer: @AwsCdkDsl GitHubSourceAction.Builder.() -> Unit = {}): GitHubSourceAction = GitHubSourceAction.Builder.create().apply(initializer).build()

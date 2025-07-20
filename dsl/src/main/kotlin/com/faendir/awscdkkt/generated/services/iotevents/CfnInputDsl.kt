@@ -16,5 +16,4 @@ public fun Construct.cfnInput(
 ): CfnInput = CfnInput(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnInput(id: String, initializer: @AwsCdkDsl CfnInput.Builder.() -> Unit =
-    {}): CfnInput = CfnInput.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnInput(id: String, initializer: @AwsCdkDsl CfnInput.Builder.() -> Unit = {}): CfnInput = CfnInput.Builder.create(this, id).apply(initializer).build()

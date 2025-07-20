@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apptest.CfnTestCase
 
 @Generated
-public fun buildM2NonManagedApplicationActionProperty(initializer: @AwsCdkDsl
-    CfnTestCase.M2NonManagedApplicationActionProperty.Builder.() -> Unit = {}):
-    CfnTestCase.M2NonManagedApplicationActionProperty =
-    CfnTestCase.M2NonManagedApplicationActionProperty.Builder().apply(initializer).build()
+public fun buildM2NonManagedApplicationActionProperty(initializer: @AwsCdkDsl CfnTestCase.M2NonManagedApplicationActionProperty.Builder.() -> Unit = {}): CfnTestCase.M2NonManagedApplicationActionProperty = CfnTestCase.M2NonManagedApplicationActionProperty.Builder().apply(initializer).build()

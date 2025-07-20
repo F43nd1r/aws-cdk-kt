@@ -16,6 +16,4 @@ public fun Construct.cfnAnomalyDetector(
 ): CfnAnomalyDetector = CfnAnomalyDetector(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAnomalyDetector(id: String, initializer: @AwsCdkDsl
-    CfnAnomalyDetector.Builder.() -> Unit = {}): CfnAnomalyDetector =
-    CfnAnomalyDetector.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAnomalyDetector(id: String, initializer: @AwsCdkDsl CfnAnomalyDetector.Builder.() -> Unit = {}): CfnAnomalyDetector = CfnAnomalyDetector.Builder.create(this, id).apply(initializer).build()

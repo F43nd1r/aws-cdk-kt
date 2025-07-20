@@ -16,6 +16,4 @@ public fun Construct.cfnContactChannel(
 ): CfnContactChannel = CfnContactChannel(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnContactChannel(id: String, initializer: @AwsCdkDsl
-    CfnContactChannel.Builder.() -> Unit = {}): CfnContactChannel =
-    CfnContactChannel.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnContactChannel(id: String, initializer: @AwsCdkDsl CfnContactChannel.Builder.() -> Unit = {}): CfnContactChannel = CfnContactChannel.Builder.create(this, id).apply(initializer).build()

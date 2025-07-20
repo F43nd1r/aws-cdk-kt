@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
-public fun buildRoutingRuleProperty(initializer: @AwsCdkDsl
-    CfnBucket.RoutingRuleProperty.Builder.() -> Unit = {}): CfnBucket.RoutingRuleProperty =
-    CfnBucket.RoutingRuleProperty.Builder().apply(initializer).build()
+public fun buildRoutingRuleProperty(initializer: @AwsCdkDsl CfnBucket.RoutingRuleProperty.Builder.() -> Unit = {}): CfnBucket.RoutingRuleProperty = CfnBucket.RoutingRuleProperty.Builder().apply(initializer).build()

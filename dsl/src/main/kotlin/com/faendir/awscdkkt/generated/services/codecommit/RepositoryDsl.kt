@@ -16,6 +16,4 @@ public fun Construct.repository(
 ): Repository = Repository(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildRepository(id: String, initializer: @AwsCdkDsl
-    Repository.Builder.() -> Unit = {}): Repository = Repository.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildRepository(id: String, initializer: @AwsCdkDsl Repository.Builder.() -> Unit = {}): Repository = Repository.Builder.create(this, id).apply(initializer).build()

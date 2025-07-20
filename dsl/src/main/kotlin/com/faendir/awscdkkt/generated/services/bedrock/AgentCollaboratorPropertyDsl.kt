@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnAgent
 
 @Generated
-public fun buildAgentCollaboratorProperty(initializer: @AwsCdkDsl
-    CfnAgent.AgentCollaboratorProperty.Builder.() -> Unit = {}): CfnAgent.AgentCollaboratorProperty
-    = CfnAgent.AgentCollaboratorProperty.Builder().apply(initializer).build()
+public fun buildAgentCollaboratorProperty(initializer: @AwsCdkDsl CfnAgent.AgentCollaboratorProperty.Builder.() -> Unit = {}): CfnAgent.AgentCollaboratorProperty = CfnAgent.AgentCollaboratorProperty.Builder().apply(initializer).build()

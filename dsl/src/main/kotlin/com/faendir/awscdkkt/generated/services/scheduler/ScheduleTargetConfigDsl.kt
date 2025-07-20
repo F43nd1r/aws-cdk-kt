@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.scheduler.ScheduleTargetConfig
 
 @Generated
-public fun buildScheduleTargetConfig(initializer: @AwsCdkDsl ScheduleTargetConfig.Builder.() -> Unit
-    = {}): ScheduleTargetConfig = ScheduleTargetConfig.Builder().apply(initializer).build()
+public fun buildScheduleTargetConfig(initializer: @AwsCdkDsl ScheduleTargetConfig.Builder.() -> Unit = {}): ScheduleTargetConfig = ScheduleTargetConfig.Builder().apply(initializer).build()

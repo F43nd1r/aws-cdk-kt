@@ -16,6 +16,4 @@ public fun Construct.cfnFunctionDefinition(
 ): CfnFunctionDefinition = CfnFunctionDefinition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnFunctionDefinition(id: String, initializer: @AwsCdkDsl
-    CfnFunctionDefinition.Builder.() -> Unit = {}): CfnFunctionDefinition =
-    CfnFunctionDefinition.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnFunctionDefinition(id: String, initializer: @AwsCdkDsl CfnFunctionDefinition.Builder.() -> Unit = {}): CfnFunctionDefinition = CfnFunctionDefinition.Builder.create(this, id).apply(initializer).build()

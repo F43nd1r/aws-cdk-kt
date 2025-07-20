@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.CallApiGatewayRestApiEndpointProps
 
 @Generated
-public fun buildCallApiGatewayRestApiEndpointProps(initializer: @AwsCdkDsl
-    CallApiGatewayRestApiEndpointProps.Builder.() -> Unit = {}): CallApiGatewayRestApiEndpointProps
-    = CallApiGatewayRestApiEndpointProps.Builder().apply(initializer).build()
+public fun buildCallApiGatewayRestApiEndpointProps(initializer: @AwsCdkDsl CallApiGatewayRestApiEndpointProps.Builder.() -> Unit = {}): CallApiGatewayRestApiEndpointProps = CallApiGatewayRestApiEndpointProps.Builder().apply(initializer).build()

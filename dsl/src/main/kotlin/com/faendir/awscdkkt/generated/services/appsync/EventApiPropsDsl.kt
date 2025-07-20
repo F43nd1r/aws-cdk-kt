@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.EventApiProps
 
 @Generated
-public fun buildEventApiProps(initializer: @AwsCdkDsl EventApiProps.Builder.() -> Unit = {}):
-    EventApiProps = EventApiProps.Builder().apply(initializer).build()
+public fun buildEventApiProps(initializer: @AwsCdkDsl EventApiProps.Builder.() -> Unit = {}): EventApiProps = EventApiProps.Builder().apply(initializer).build()

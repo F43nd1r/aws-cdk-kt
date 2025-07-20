@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnSegment
 
 @Generated
-public fun buildCoordinatesProperty(initializer: @AwsCdkDsl
-    CfnSegment.CoordinatesProperty.Builder.() -> Unit = {}): CfnSegment.CoordinatesProperty =
-    CfnSegment.CoordinatesProperty.Builder().apply(initializer).build()
+public fun buildCoordinatesProperty(initializer: @AwsCdkDsl CfnSegment.CoordinatesProperty.Builder.() -> Unit = {}): CfnSegment.CoordinatesProperty = CfnSegment.CoordinatesProperty.Builder().apply(initializer).build()

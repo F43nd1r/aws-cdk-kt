@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisanalyticsv2.CfnApplication
 
 @Generated
-public fun buildApplicationSystemRollbackConfigurationProperty(initializer: @AwsCdkDsl
-    CfnApplication.ApplicationSystemRollbackConfigurationProperty.Builder.() -> Unit = {}):
-    CfnApplication.ApplicationSystemRollbackConfigurationProperty =
-    CfnApplication.ApplicationSystemRollbackConfigurationProperty.Builder().apply(initializer).build()
+public fun buildApplicationSystemRollbackConfigurationProperty(initializer: @AwsCdkDsl CfnApplication.ApplicationSystemRollbackConfigurationProperty.Builder.() -> Unit = {}): CfnApplication.ApplicationSystemRollbackConfigurationProperty = CfnApplication.ApplicationSystemRollbackConfigurationProperty.Builder().apply(initializer).build()

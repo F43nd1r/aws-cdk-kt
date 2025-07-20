@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.amplifyuibuilder.CfnComponent
 
 @Generated
-public fun buildSortPropertyProperty(initializer: @AwsCdkDsl
-    CfnComponent.SortPropertyProperty.Builder.() -> Unit = {}): CfnComponent.SortPropertyProperty =
-    CfnComponent.SortPropertyProperty.Builder().apply(initializer).build()
+public fun buildSortPropertyProperty(initializer: @AwsCdkDsl CfnComponent.SortPropertyProperty.Builder.() -> Unit = {}): CfnComponent.SortPropertyProperty = CfnComponent.SortPropertyProperty.Builder().apply(initializer).build()

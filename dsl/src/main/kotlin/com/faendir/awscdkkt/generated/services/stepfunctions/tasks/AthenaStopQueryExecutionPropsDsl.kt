@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.AthenaStopQueryExecutionProps
 
 @Generated
-public fun buildAthenaStopQueryExecutionProps(initializer: @AwsCdkDsl
-    AthenaStopQueryExecutionProps.Builder.() -> Unit = {}): AthenaStopQueryExecutionProps =
-    AthenaStopQueryExecutionProps.Builder().apply(initializer).build()
+public fun buildAthenaStopQueryExecutionProps(initializer: @AwsCdkDsl AthenaStopQueryExecutionProps.Builder.() -> Unit = {}): AthenaStopQueryExecutionProps = AthenaStopQueryExecutionProps.Builder().apply(initializer).build()

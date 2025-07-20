@@ -16,6 +16,4 @@ public fun Construct.cfnIPAMPool(
 ): CfnIPAMPool = CfnIPAMPool(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnIPAMPool(id: String, initializer: @AwsCdkDsl
-    CfnIPAMPool.Builder.() -> Unit = {}): CfnIPAMPool = CfnIPAMPool.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnIPAMPool(id: String, initializer: @AwsCdkDsl CfnIPAMPool.Builder.() -> Unit = {}): CfnIPAMPool = CfnIPAMPool.Builder.create(this, id).apply(initializer).build()

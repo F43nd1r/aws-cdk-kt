@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sam.CfnApplication
 
 @Generated
-public fun buildApplicationLocationProperty(initializer: @AwsCdkDsl
-    CfnApplication.ApplicationLocationProperty.Builder.() -> Unit = {}):
-    CfnApplication.ApplicationLocationProperty =
-    CfnApplication.ApplicationLocationProperty.Builder().apply(initializer).build()
+public fun buildApplicationLocationProperty(initializer: @AwsCdkDsl CfnApplication.ApplicationLocationProperty.Builder.() -> Unit = {}): CfnApplication.ApplicationLocationProperty = CfnApplication.ApplicationLocationProperty.Builder().apply(initializer).build()

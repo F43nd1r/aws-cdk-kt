@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
-public fun buildElasticsearchDestinationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.ElasticsearchDestinationConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDeliveryStream.ElasticsearchDestinationConfigurationProperty =
-    CfnDeliveryStream.ElasticsearchDestinationConfigurationProperty.Builder().apply(initializer).build()
+public fun buildElasticsearchDestinationConfigurationProperty(initializer: @AwsCdkDsl CfnDeliveryStream.ElasticsearchDestinationConfigurationProperty.Builder.() -> Unit = {}): CfnDeliveryStream.ElasticsearchDestinationConfigurationProperty = CfnDeliveryStream.ElasticsearchDestinationConfigurationProperty.Builder().apply(initializer).build()

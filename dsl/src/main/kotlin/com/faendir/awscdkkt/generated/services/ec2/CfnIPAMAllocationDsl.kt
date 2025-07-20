@@ -16,6 +16,4 @@ public fun Construct.cfnIPAMAllocation(
 ): CfnIPAMAllocation = CfnIPAMAllocation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnIPAMAllocation(id: String, initializer: @AwsCdkDsl
-    CfnIPAMAllocation.Builder.() -> Unit = {}): CfnIPAMAllocation =
-    CfnIPAMAllocation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnIPAMAllocation(id: String, initializer: @AwsCdkDsl CfnIPAMAllocation.Builder.() -> Unit = {}): CfnIPAMAllocation = CfnIPAMAllocation.Builder.create(this, id).apply(initializer).build()

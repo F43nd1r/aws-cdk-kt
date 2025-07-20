@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.imagebuilder.CfnDistributionConfiguration
 
 @Generated
-public fun buildLaunchPermissionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDistributionConfiguration.LaunchPermissionConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDistributionConfiguration.LaunchPermissionConfigurationProperty =
-    CfnDistributionConfiguration.LaunchPermissionConfigurationProperty.Builder().apply(initializer).build()
+public fun buildLaunchPermissionConfigurationProperty(initializer: @AwsCdkDsl CfnDistributionConfiguration.LaunchPermissionConfigurationProperty.Builder.() -> Unit = {}): CfnDistributionConfiguration.LaunchPermissionConfigurationProperty = CfnDistributionConfiguration.LaunchPermissionConfigurationProperty.Builder().apply(initializer).build()

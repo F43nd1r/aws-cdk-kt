@@ -13,11 +13,7 @@ public fun Construct.cfnNetworkPerformanceMetricSubscription(
   id: String,
   props: CfnNetworkPerformanceMetricSubscriptionProps,
   initializer: @AwsCdkDsl CfnNetworkPerformanceMetricSubscription.() -> Unit = {},
-): CfnNetworkPerformanceMetricSubscription = CfnNetworkPerformanceMetricSubscription(this, id,
-    props).apply(initializer)
+): CfnNetworkPerformanceMetricSubscription = CfnNetworkPerformanceMetricSubscription(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnNetworkPerformanceMetricSubscription(id: String,
-    initializer: @AwsCdkDsl CfnNetworkPerformanceMetricSubscription.Builder.() -> Unit = {}):
-    CfnNetworkPerformanceMetricSubscription =
-    CfnNetworkPerformanceMetricSubscription.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnNetworkPerformanceMetricSubscription(id: String, initializer: @AwsCdkDsl CfnNetworkPerformanceMetricSubscription.Builder.() -> Unit = {}): CfnNetworkPerformanceMetricSubscription = CfnNetworkPerformanceMetricSubscription.Builder.create(this, id).apply(initializer).build()

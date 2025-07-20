@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnVirtualGateway
 
 @Generated
-public fun buildVirtualGatewayGrpcConnectionPoolProperty(initializer: @AwsCdkDsl
-    CfnVirtualGateway.VirtualGatewayGrpcConnectionPoolProperty.Builder.() -> Unit = {}):
-    CfnVirtualGateway.VirtualGatewayGrpcConnectionPoolProperty =
-    CfnVirtualGateway.VirtualGatewayGrpcConnectionPoolProperty.Builder().apply(initializer).build()
+public fun buildVirtualGatewayGrpcConnectionPoolProperty(initializer: @AwsCdkDsl CfnVirtualGateway.VirtualGatewayGrpcConnectionPoolProperty.Builder.() -> Unit = {}): CfnVirtualGateway.VirtualGatewayGrpcConnectionPoolProperty = CfnVirtualGateway.VirtualGatewayGrpcConnectionPoolProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnDomainUnitProps
 
 @Generated
-public fun buildCfnDomainUnitProps(initializer: @AwsCdkDsl CfnDomainUnitProps.Builder.() -> Unit =
-    {}): CfnDomainUnitProps = CfnDomainUnitProps.Builder().apply(initializer).build()
+public fun buildCfnDomainUnitProps(initializer: @AwsCdkDsl CfnDomainUnitProps.Builder.() -> Unit = {}): CfnDomainUnitProps = CfnDomainUnitProps.Builder().apply(initializer).build()

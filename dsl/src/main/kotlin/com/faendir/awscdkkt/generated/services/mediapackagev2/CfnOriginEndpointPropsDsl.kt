@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediapackagev2.CfnOriginEndpointProps
 
 @Generated
-public fun buildCfnOriginEndpointProps(initializer: @AwsCdkDsl
-    CfnOriginEndpointProps.Builder.() -> Unit = {}): CfnOriginEndpointProps =
-    CfnOriginEndpointProps.Builder().apply(initializer).build()
+public fun buildCfnOriginEndpointProps(initializer: @AwsCdkDsl CfnOriginEndpointProps.Builder.() -> Unit = {}): CfnOriginEndpointProps = CfnOriginEndpointProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnReceiptRule
 
 @Generated
-public fun buildConnectActionProperty(initializer: @AwsCdkDsl
-    CfnReceiptRule.ConnectActionProperty.Builder.() -> Unit = {}):
-    CfnReceiptRule.ConnectActionProperty =
-    CfnReceiptRule.ConnectActionProperty.Builder().apply(initializer).build()
+public fun buildConnectActionProperty(initializer: @AwsCdkDsl CfnReceiptRule.ConnectActionProperty.Builder.() -> Unit = {}): CfnReceiptRule.ConnectActionProperty = CfnReceiptRule.ConnectActionProperty.Builder().apply(initializer).build()

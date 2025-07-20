@@ -16,6 +16,4 @@ public fun Construct.requestValidator(
 ): RequestValidator = RequestValidator(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildRequestValidator(id: String, initializer: @AwsCdkDsl
-    RequestValidator.Builder.() -> Unit = {}): RequestValidator =
-    RequestValidator.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildRequestValidator(id: String, initializer: @AwsCdkDsl RequestValidator.Builder.() -> Unit = {}): RequestValidator = RequestValidator.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnDeliveryProps
 
 @Generated
-public fun buildCfnDeliveryProps(initializer: @AwsCdkDsl CfnDeliveryProps.Builder.() -> Unit = {}):
-    CfnDeliveryProps = CfnDeliveryProps.Builder().apply(initializer).build()
+public fun buildCfnDeliveryProps(initializer: @AwsCdkDsl CfnDeliveryProps.Builder.() -> Unit = {}): CfnDeliveryProps = CfnDeliveryProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kendraranking.CfnExecutionPlan
 
 @Generated
-public fun buildCapacityUnitsConfigurationProperty(initializer: @AwsCdkDsl
-    CfnExecutionPlan.CapacityUnitsConfigurationProperty.Builder.() -> Unit = {}):
-    CfnExecutionPlan.CapacityUnitsConfigurationProperty =
-    CfnExecutionPlan.CapacityUnitsConfigurationProperty.Builder().apply(initializer).build()
+public fun buildCapacityUnitsConfigurationProperty(initializer: @AwsCdkDsl CfnExecutionPlan.CapacityUnitsConfigurationProperty.Builder.() -> Unit = {}): CfnExecutionPlan.CapacityUnitsConfigurationProperty = CfnExecutionPlan.CapacityUnitsConfigurationProperty.Builder().apply(initializer).build()

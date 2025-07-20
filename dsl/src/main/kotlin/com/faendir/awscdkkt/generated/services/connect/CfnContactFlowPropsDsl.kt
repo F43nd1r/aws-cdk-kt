@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnContactFlowProps
 
 @Generated
-public fun buildCfnContactFlowProps(initializer: @AwsCdkDsl CfnContactFlowProps.Builder.() -> Unit =
-    {}): CfnContactFlowProps = CfnContactFlowProps.Builder().apply(initializer).build()
+public fun buildCfnContactFlowProps(initializer: @AwsCdkDsl CfnContactFlowProps.Builder.() -> Unit = {}): CfnContactFlowProps = CfnContactFlowProps.Builder().apply(initializer).build()

@@ -13,10 +13,7 @@ public fun Construct.userPoolIdentityProviderFacebook(
   id: String,
   props: UserPoolIdentityProviderFacebookProps,
   initializer: @AwsCdkDsl UserPoolIdentityProviderFacebook.() -> Unit = {},
-): UserPoolIdentityProviderFacebook = UserPoolIdentityProviderFacebook(this, id,
-    props).apply(initializer)
+): UserPoolIdentityProviderFacebook = UserPoolIdentityProviderFacebook(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildUserPoolIdentityProviderFacebook(id: String, initializer: @AwsCdkDsl
-    UserPoolIdentityProviderFacebook.Builder.() -> Unit = {}): UserPoolIdentityProviderFacebook =
-    UserPoolIdentityProviderFacebook.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildUserPoolIdentityProviderFacebook(id: String, initializer: @AwsCdkDsl UserPoolIdentityProviderFacebook.Builder.() -> Unit = {}): UserPoolIdentityProviderFacebook = UserPoolIdentityProviderFacebook.Builder.create(this, id).apply(initializer).build()

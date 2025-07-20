@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnAccessGrantsLocationProps
 
 @Generated
-public fun buildCfnAccessGrantsLocationProps(initializer: @AwsCdkDsl
-    CfnAccessGrantsLocationProps.Builder.() -> Unit = {}): CfnAccessGrantsLocationProps =
-    CfnAccessGrantsLocationProps.Builder().apply(initializer).build()
+public fun buildCfnAccessGrantsLocationProps(initializer: @AwsCdkDsl CfnAccessGrantsLocationProps.Builder.() -> Unit = {}): CfnAccessGrantsLocationProps = CfnAccessGrantsLocationProps.Builder().apply(initializer).build()

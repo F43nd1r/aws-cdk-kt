@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53recoveryreadiness.CfnReadinessCheckProps
 
 @Generated
-public fun buildCfnReadinessCheckProps(initializer: @AwsCdkDsl
-    CfnReadinessCheckProps.Builder.() -> Unit = {}): CfnReadinessCheckProps =
-    CfnReadinessCheckProps.Builder().apply(initializer).build()
+public fun buildCfnReadinessCheckProps(initializer: @AwsCdkDsl CfnReadinessCheckProps.Builder.() -> Unit = {}): CfnReadinessCheckProps = CfnReadinessCheckProps.Builder().apply(initializer).build()

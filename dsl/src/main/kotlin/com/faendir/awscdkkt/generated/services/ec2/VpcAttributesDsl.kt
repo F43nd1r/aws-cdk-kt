@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.VpcAttributes
 
 @Generated
-public fun buildVpcAttributes(initializer: @AwsCdkDsl VpcAttributes.Builder.() -> Unit = {}):
-    VpcAttributes = VpcAttributes.Builder().apply(initializer).build()
+public fun buildVpcAttributes(initializer: @AwsCdkDsl VpcAttributes.Builder.() -> Unit = {}): VpcAttributes = VpcAttributes.Builder().apply(initializer).build()

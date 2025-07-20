@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildInputLocationProperty(initializer: @AwsCdkDsl
-    CfnChannel.InputLocationProperty.Builder.() -> Unit = {}): CfnChannel.InputLocationProperty =
-    CfnChannel.InputLocationProperty.Builder().apply(initializer).build()
+public fun buildInputLocationProperty(initializer: @AwsCdkDsl CfnChannel.InputLocationProperty.Builder.() -> Unit = {}): CfnChannel.InputLocationProperty = CfnChannel.InputLocationProperty.Builder().apply(initializer).build()

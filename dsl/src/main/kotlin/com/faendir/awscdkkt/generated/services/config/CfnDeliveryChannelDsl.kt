@@ -16,6 +16,4 @@ public fun Construct.cfnDeliveryChannel(
 ): CfnDeliveryChannel = CfnDeliveryChannel(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDeliveryChannel(id: String, initializer: @AwsCdkDsl
-    CfnDeliveryChannel.Builder.() -> Unit = {}): CfnDeliveryChannel =
-    CfnDeliveryChannel.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDeliveryChannel(id: String, initializer: @AwsCdkDsl CfnDeliveryChannel.Builder.() -> Unit = {}): CfnDeliveryChannel = CfnDeliveryChannel.Builder.create(this, id).apply(initializer).build()

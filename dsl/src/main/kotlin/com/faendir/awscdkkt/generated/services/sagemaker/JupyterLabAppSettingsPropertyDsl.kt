@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnUserProfile
 
 @Generated
-public fun buildJupyterLabAppSettingsProperty(initializer: @AwsCdkDsl
-    CfnUserProfile.JupyterLabAppSettingsProperty.Builder.() -> Unit = {}):
-    CfnUserProfile.JupyterLabAppSettingsProperty =
-    CfnUserProfile.JupyterLabAppSettingsProperty.Builder().apply(initializer).build()
+public fun buildJupyterLabAppSettingsProperty(initializer: @AwsCdkDsl CfnUserProfile.JupyterLabAppSettingsProperty.Builder.() -> Unit = {}): CfnUserProfile.JupyterLabAppSettingsProperty = CfnUserProfile.JupyterLabAppSettingsProperty.Builder().apply(initializer).build()

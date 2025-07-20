@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVerifiedAccessEndpoint
 
 @Generated
-public fun buildPortRangeProperty(initializer: @AwsCdkDsl
-    CfnVerifiedAccessEndpoint.PortRangeProperty.Builder.() -> Unit = {}):
-    CfnVerifiedAccessEndpoint.PortRangeProperty =
-    CfnVerifiedAccessEndpoint.PortRangeProperty.Builder().apply(initializer).build()
+public fun buildPortRangeProperty(initializer: @AwsCdkDsl CfnVerifiedAccessEndpoint.PortRangeProperty.Builder.() -> Unit = {}): CfnVerifiedAccessEndpoint.PortRangeProperty = CfnVerifiedAccessEndpoint.PortRangeProperty.Builder().apply(initializer).build()

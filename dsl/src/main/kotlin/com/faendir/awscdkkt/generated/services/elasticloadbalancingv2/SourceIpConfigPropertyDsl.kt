@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.CfnListenerRule
 
 @Generated
-public fun buildSourceIpConfigProperty(initializer: @AwsCdkDsl
-    CfnListenerRule.SourceIpConfigProperty.Builder.() -> Unit = {}):
-    CfnListenerRule.SourceIpConfigProperty =
-    CfnListenerRule.SourceIpConfigProperty.Builder().apply(initializer).build()
+public fun buildSourceIpConfigProperty(initializer: @AwsCdkDsl CfnListenerRule.SourceIpConfigProperty.Builder.() -> Unit = {}): CfnListenerRule.SourceIpConfigProperty = CfnListenerRule.SourceIpConfigProperty.Builder().apply(initializer).build()

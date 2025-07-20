@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnResponseHeadersPolicyProps
 
 @Generated
-public fun buildCfnResponseHeadersPolicyProps(initializer: @AwsCdkDsl
-    CfnResponseHeadersPolicyProps.Builder.() -> Unit = {}): CfnResponseHeadersPolicyProps =
-    CfnResponseHeadersPolicyProps.Builder().apply(initializer).build()
+public fun buildCfnResponseHeadersPolicyProps(initializer: @AwsCdkDsl CfnResponseHeadersPolicyProps.Builder.() -> Unit = {}): CfnResponseHeadersPolicyProps = CfnResponseHeadersPolicyProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnRoutingProfile
 
 @Generated
-public fun buildRoutingProfileQueueReferenceProperty(initializer: @AwsCdkDsl
-    CfnRoutingProfile.RoutingProfileQueueReferenceProperty.Builder.() -> Unit = {}):
-    CfnRoutingProfile.RoutingProfileQueueReferenceProperty =
-    CfnRoutingProfile.RoutingProfileQueueReferenceProperty.Builder().apply(initializer).build()
+public fun buildRoutingProfileQueueReferenceProperty(initializer: @AwsCdkDsl CfnRoutingProfile.RoutingProfileQueueReferenceProperty.Builder.() -> Unit = {}): CfnRoutingProfile.RoutingProfileQueueReferenceProperty = CfnRoutingProfile.RoutingProfileQueueReferenceProperty.Builder().apply(initializer).build()

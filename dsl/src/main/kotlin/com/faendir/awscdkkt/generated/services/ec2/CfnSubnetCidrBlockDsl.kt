@@ -16,6 +16,4 @@ public fun Construct.cfnSubnetCidrBlock(
 ): CfnSubnetCidrBlock = CfnSubnetCidrBlock(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSubnetCidrBlock(id: String, initializer: @AwsCdkDsl
-    CfnSubnetCidrBlock.Builder.() -> Unit = {}): CfnSubnetCidrBlock =
-    CfnSubnetCidrBlock.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSubnetCidrBlock(id: String, initializer: @AwsCdkDsl CfnSubnetCidrBlock.Builder.() -> Unit = {}): CfnSubnetCidrBlock = CfnSubnetCidrBlock.Builder.create(this, id).apply(initializer).build()

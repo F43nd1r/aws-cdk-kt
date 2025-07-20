@@ -16,6 +16,4 @@ public fun Construct.cfnDBParameterGroup(
 ): CfnDBParameterGroup = CfnDBParameterGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDBParameterGroup(id: String, initializer: @AwsCdkDsl
-    CfnDBParameterGroup.Builder.() -> Unit = {}): CfnDBParameterGroup =
-    CfnDBParameterGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDBParameterGroup(id: String, initializer: @AwsCdkDsl CfnDBParameterGroup.Builder.() -> Unit = {}): CfnDBParameterGroup = CfnDBParameterGroup.Builder.create(this, id).apply(initializer).build()

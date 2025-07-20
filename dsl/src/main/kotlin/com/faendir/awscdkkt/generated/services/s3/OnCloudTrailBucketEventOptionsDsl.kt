@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.OnCloudTrailBucketEventOptions
 
 @Generated
-public fun buildOnCloudTrailBucketEventOptions(initializer: @AwsCdkDsl
-    OnCloudTrailBucketEventOptions.Builder.() -> Unit = {}): OnCloudTrailBucketEventOptions =
-    OnCloudTrailBucketEventOptions.Builder().apply(initializer).build()
+public fun buildOnCloudTrailBucketEventOptions(initializer: @AwsCdkDsl OnCloudTrailBucketEventOptions.Builder.() -> Unit = {}): OnCloudTrailBucketEventOptions = OnCloudTrailBucketEventOptions.Builder().apply(initializer).build()

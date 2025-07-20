@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.transfer.CfnWorkflow
 
 @Generated
-public fun buildCopyStepDetailsProperty(initializer: @AwsCdkDsl
-    CfnWorkflow.CopyStepDetailsProperty.Builder.() -> Unit = {}):
-    CfnWorkflow.CopyStepDetailsProperty =
-    CfnWorkflow.CopyStepDetailsProperty.Builder().apply(initializer).build()
+public fun buildCopyStepDetailsProperty(initializer: @AwsCdkDsl CfnWorkflow.CopyStepDetailsProperty.Builder.() -> Unit = {}): CfnWorkflow.CopyStepDetailsProperty = CfnWorkflow.CopyStepDetailsProperty.Builder().apply(initializer).build()

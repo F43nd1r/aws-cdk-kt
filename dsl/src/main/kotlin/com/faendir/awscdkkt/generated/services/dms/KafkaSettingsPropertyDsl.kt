@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dms.CfnEndpoint
 
 @Generated
-public fun buildKafkaSettingsProperty(initializer: @AwsCdkDsl
-    CfnEndpoint.KafkaSettingsProperty.Builder.() -> Unit = {}): CfnEndpoint.KafkaSettingsProperty =
-    CfnEndpoint.KafkaSettingsProperty.Builder().apply(initializer).build()
+public fun buildKafkaSettingsProperty(initializer: @AwsCdkDsl CfnEndpoint.KafkaSettingsProperty.Builder.() -> Unit = {}): CfnEndpoint.KafkaSettingsProperty = CfnEndpoint.KafkaSettingsProperty.Builder().apply(initializer).build()

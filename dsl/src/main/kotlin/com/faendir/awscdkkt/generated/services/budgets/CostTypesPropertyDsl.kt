@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.budgets.CfnBudget
 
 @Generated
-public fun buildCostTypesProperty(initializer: @AwsCdkDsl
-    CfnBudget.CostTypesProperty.Builder.() -> Unit = {}): CfnBudget.CostTypesProperty =
-    CfnBudget.CostTypesProperty.Builder().apply(initializer).build()
+public fun buildCostTypesProperty(initializer: @AwsCdkDsl CfnBudget.CostTypesProperty.Builder.() -> Unit = {}): CfnBudget.CostTypesProperty = CfnBudget.CostTypesProperty.Builder().apply(initializer).build()

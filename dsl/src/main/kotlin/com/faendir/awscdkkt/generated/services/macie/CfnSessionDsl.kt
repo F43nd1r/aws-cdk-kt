@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.macie.CfnSessionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnSession(id: String, initializer: @AwsCdkDsl CfnSession.() -> Unit = {}):
-    CfnSession = CfnSession(this, id).apply(initializer)
+public fun Construct.cfnSession(id: String, initializer: @AwsCdkDsl CfnSession.() -> Unit = {}): CfnSession = CfnSession(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnSession(
@@ -20,6 +19,4 @@ public fun Construct.cfnSession(
 ): CfnSession = CfnSession(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSession(id: String, initializer: @AwsCdkDsl
-    CfnSession.Builder.() -> Unit = {}): CfnSession = CfnSession.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnSession(id: String, initializer: @AwsCdkDsl CfnSession.Builder.() -> Unit = {}): CfnSession = CfnSession.Builder.create(this, id).apply(initializer).build()

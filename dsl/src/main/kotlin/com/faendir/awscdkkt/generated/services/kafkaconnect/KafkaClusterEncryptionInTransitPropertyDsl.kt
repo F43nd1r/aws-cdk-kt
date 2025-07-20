@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kafkaconnect.CfnConnector
 
 @Generated
-public fun buildKafkaClusterEncryptionInTransitProperty(initializer: @AwsCdkDsl
-    CfnConnector.KafkaClusterEncryptionInTransitProperty.Builder.() -> Unit = {}):
-    CfnConnector.KafkaClusterEncryptionInTransitProperty =
-    CfnConnector.KafkaClusterEncryptionInTransitProperty.Builder().apply(initializer).build()
+public fun buildKafkaClusterEncryptionInTransitProperty(initializer: @AwsCdkDsl CfnConnector.KafkaClusterEncryptionInTransitProperty.Builder.() -> Unit = {}): CfnConnector.KafkaClusterEncryptionInTransitProperty = CfnConnector.KafkaClusterEncryptionInTransitProperty.Builder().apply(initializer).build()

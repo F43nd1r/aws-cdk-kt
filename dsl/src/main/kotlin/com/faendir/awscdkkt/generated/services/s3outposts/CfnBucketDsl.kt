@@ -16,5 +16,4 @@ public fun Construct.cfnBucket(
 ): CfnBucket = CfnBucket(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnBucket(id: String, initializer: @AwsCdkDsl CfnBucket.Builder.() -> Unit
-    = {}): CfnBucket = CfnBucket.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnBucket(id: String, initializer: @AwsCdkDsl CfnBucket.Builder.() -> Unit = {}): CfnBucket = CfnBucket.Builder.create(this, id).apply(initializer).build()

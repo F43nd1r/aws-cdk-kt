@@ -16,6 +16,4 @@ public fun Construct.subscriptionFilter(
 ): SubscriptionFilter = SubscriptionFilter(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildSubscriptionFilter(id: String, initializer: @AwsCdkDsl
-    SubscriptionFilter.Builder.() -> Unit = {}): SubscriptionFilter =
-    SubscriptionFilter.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildSubscriptionFilter(id: String, initializer: @AwsCdkDsl SubscriptionFilter.Builder.() -> Unit = {}): SubscriptionFilter = SubscriptionFilter.Builder.create(this, id).apply(initializer).build()

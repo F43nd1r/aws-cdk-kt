@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.CfnRecordSetGroup
 
 @Generated
-public fun buildGeoProximityLocationProperty(initializer: @AwsCdkDsl
-    CfnRecordSetGroup.GeoProximityLocationProperty.Builder.() -> Unit = {}):
-    CfnRecordSetGroup.GeoProximityLocationProperty =
-    CfnRecordSetGroup.GeoProximityLocationProperty.Builder().apply(initializer).build()
+public fun buildGeoProximityLocationProperty(initializer: @AwsCdkDsl CfnRecordSetGroup.GeoProximityLocationProperty.Builder.() -> Unit = {}): CfnRecordSetGroup.GeoProximityLocationProperty = CfnRecordSetGroup.GeoProximityLocationProperty.Builder().apply(initializer).build()

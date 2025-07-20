@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnBuild
 
 @Generated
-public fun buildStorageLocationProperty(initializer: @AwsCdkDsl
-    CfnBuild.StorageLocationProperty.Builder.() -> Unit = {}): CfnBuild.StorageLocationProperty =
-    CfnBuild.StorageLocationProperty.Builder().apply(initializer).build()
+public fun buildStorageLocationProperty(initializer: @AwsCdkDsl CfnBuild.StorageLocationProperty.Builder.() -> Unit = {}): CfnBuild.StorageLocationProperty = CfnBuild.StorageLocationProperty.Builder().apply(initializer).build()

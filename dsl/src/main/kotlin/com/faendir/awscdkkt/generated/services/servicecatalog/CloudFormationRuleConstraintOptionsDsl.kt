@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicecatalog.CloudFormationRuleConstraintOptions
 
 @Generated
-public fun buildCloudFormationRuleConstraintOptions(initializer: @AwsCdkDsl
-    CloudFormationRuleConstraintOptions.Builder.() -> Unit = {}):
-    CloudFormationRuleConstraintOptions =
-    CloudFormationRuleConstraintOptions.Builder().apply(initializer).build()
+public fun buildCloudFormationRuleConstraintOptions(initializer: @AwsCdkDsl CloudFormationRuleConstraintOptions.Builder.() -> Unit = {}): CloudFormationRuleConstraintOptions = CloudFormationRuleConstraintOptions.Builder().apply(initializer).build()

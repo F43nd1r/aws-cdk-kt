@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.backup.CfnRestoreTestingSelection
 
 @Generated
-public fun buildKeyValueProperty(initializer: @AwsCdkDsl
-    CfnRestoreTestingSelection.KeyValueProperty.Builder.() -> Unit = {}):
-    CfnRestoreTestingSelection.KeyValueProperty =
-    CfnRestoreTestingSelection.KeyValueProperty.Builder().apply(initializer).build()
+public fun buildKeyValueProperty(initializer: @AwsCdkDsl CfnRestoreTestingSelection.KeyValueProperty.Builder.() -> Unit = {}): CfnRestoreTestingSelection.KeyValueProperty = CfnRestoreTestingSelection.KeyValueProperty.Builder().apply(initializer).build()

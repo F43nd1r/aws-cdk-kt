@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.lambda.nodejs.NodejsFunctionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.nodejsFunction(id: String, initializer: @AwsCdkDsl NodejsFunction.() -> Unit =
-    {}): NodejsFunction = NodejsFunction(this, id).apply(initializer)
+public fun Construct.nodejsFunction(id: String, initializer: @AwsCdkDsl NodejsFunction.() -> Unit = {}): NodejsFunction = NodejsFunction(this, id).apply(initializer)
 
 @Generated
 public fun Construct.nodejsFunction(
@@ -20,6 +19,4 @@ public fun Construct.nodejsFunction(
 ): NodejsFunction = NodejsFunction(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildNodejsFunction(id: String, initializer: @AwsCdkDsl
-    NodejsFunction.Builder.() -> Unit = {}): NodejsFunction = NodejsFunction.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildNodejsFunction(id: String, initializer: @AwsCdkDsl NodejsFunction.Builder.() -> Unit = {}): NodejsFunction = NodejsFunction.Builder.create(this, id).apply(initializer).build()

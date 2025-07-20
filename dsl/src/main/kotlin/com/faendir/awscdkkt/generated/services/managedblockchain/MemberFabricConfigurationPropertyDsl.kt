@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.managedblockchain.CfnMember
 
 @Generated
-public fun buildMemberFabricConfigurationProperty(initializer: @AwsCdkDsl
-    CfnMember.MemberFabricConfigurationProperty.Builder.() -> Unit = {}):
-    CfnMember.MemberFabricConfigurationProperty =
-    CfnMember.MemberFabricConfigurationProperty.Builder().apply(initializer).build()
+public fun buildMemberFabricConfigurationProperty(initializer: @AwsCdkDsl CfnMember.MemberFabricConfigurationProperty.Builder.() -> Unit = {}): CfnMember.MemberFabricConfigurationProperty = CfnMember.MemberFabricConfigurationProperty.Builder().apply(initializer).build()

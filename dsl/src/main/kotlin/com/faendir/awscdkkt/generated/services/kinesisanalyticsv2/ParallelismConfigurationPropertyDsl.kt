@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisanalyticsv2.CfnApplication
 
 @Generated
-public fun buildParallelismConfigurationProperty(initializer: @AwsCdkDsl
-    CfnApplication.ParallelismConfigurationProperty.Builder.() -> Unit = {}):
-    CfnApplication.ParallelismConfigurationProperty =
-    CfnApplication.ParallelismConfigurationProperty.Builder().apply(initializer).build()
+public fun buildParallelismConfigurationProperty(initializer: @AwsCdkDsl CfnApplication.ParallelismConfigurationProperty.Builder.() -> Unit = {}): CfnApplication.ParallelismConfigurationProperty = CfnApplication.ParallelismConfigurationProperty.Builder().apply(initializer).build()

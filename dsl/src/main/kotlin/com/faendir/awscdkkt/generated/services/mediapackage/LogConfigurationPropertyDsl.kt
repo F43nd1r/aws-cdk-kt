@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediapackage.CfnPackagingGroup
 
 @Generated
-public fun buildLogConfigurationProperty(initializer: @AwsCdkDsl
-    CfnPackagingGroup.LogConfigurationProperty.Builder.() -> Unit = {}):
-    CfnPackagingGroup.LogConfigurationProperty =
-    CfnPackagingGroup.LogConfigurationProperty.Builder().apply(initializer).build()
+public fun buildLogConfigurationProperty(initializer: @AwsCdkDsl CfnPackagingGroup.LogConfigurationProperty.Builder.() -> Unit = {}): CfnPackagingGroup.LogConfigurationProperty = CfnPackagingGroup.LogConfigurationProperty.Builder().apply(initializer).build()

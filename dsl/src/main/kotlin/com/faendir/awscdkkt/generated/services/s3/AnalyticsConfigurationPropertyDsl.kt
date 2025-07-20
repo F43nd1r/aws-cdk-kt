@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
-public fun buildAnalyticsConfigurationProperty(initializer: @AwsCdkDsl
-    CfnBucket.AnalyticsConfigurationProperty.Builder.() -> Unit = {}):
-    CfnBucket.AnalyticsConfigurationProperty =
-    CfnBucket.AnalyticsConfigurationProperty.Builder().apply(initializer).build()
+public fun buildAnalyticsConfigurationProperty(initializer: @AwsCdkDsl CfnBucket.AnalyticsConfigurationProperty.Builder.() -> Unit = {}): CfnBucket.AnalyticsConfigurationProperty = CfnBucket.AnalyticsConfigurationProperty.Builder().apply(initializer).build()

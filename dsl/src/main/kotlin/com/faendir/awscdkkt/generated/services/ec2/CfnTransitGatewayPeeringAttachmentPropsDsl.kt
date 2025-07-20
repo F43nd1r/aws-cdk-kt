@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnTransitGatewayPeeringAttachmentProps
 
 @Generated
-public fun buildCfnTransitGatewayPeeringAttachmentProps(initializer: @AwsCdkDsl
-    CfnTransitGatewayPeeringAttachmentProps.Builder.() -> Unit = {}):
-    CfnTransitGatewayPeeringAttachmentProps =
-    CfnTransitGatewayPeeringAttachmentProps.Builder().apply(initializer).build()
+public fun buildCfnTransitGatewayPeeringAttachmentProps(initializer: @AwsCdkDsl CfnTransitGatewayPeeringAttachmentProps.Builder.() -> Unit = {}): CfnTransitGatewayPeeringAttachmentProps = CfnTransitGatewayPeeringAttachmentProps.Builder().apply(initializer).build()

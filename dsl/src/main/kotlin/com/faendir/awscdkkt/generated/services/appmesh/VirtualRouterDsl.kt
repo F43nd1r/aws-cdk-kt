@@ -16,6 +16,4 @@ public fun Construct.virtualRouter(
 ): VirtualRouter = VirtualRouter(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildVirtualRouter(id: String, initializer: @AwsCdkDsl
-    VirtualRouter.Builder.() -> Unit = {}): VirtualRouter = VirtualRouter.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildVirtualRouter(id: String, initializer: @AwsCdkDsl VirtualRouter.Builder.() -> Unit = {}): VirtualRouter = VirtualRouter.Builder.create(this, id).apply(initializer).build()

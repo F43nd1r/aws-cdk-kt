@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.amplify.CfnBranchProps
 
 @Generated
-public fun buildCfnBranchProps(initializer: @AwsCdkDsl CfnBranchProps.Builder.() -> Unit = {}):
-    CfnBranchProps = CfnBranchProps.Builder().apply(initializer).build()
+public fun buildCfnBranchProps(initializer: @AwsCdkDsl CfnBranchProps.Builder.() -> Unit = {}): CfnBranchProps = CfnBranchProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildBatchResourceRequirementProperty(initializer: @AwsCdkDsl
-    CfnPipe.BatchResourceRequirementProperty.Builder.() -> Unit = {}):
-    CfnPipe.BatchResourceRequirementProperty =
-    CfnPipe.BatchResourceRequirementProperty.Builder().apply(initializer).build()
+public fun buildBatchResourceRequirementProperty(initializer: @AwsCdkDsl CfnPipe.BatchResourceRequirementProperty.Builder.() -> Unit = {}): CfnPipe.BatchResourceRequirementProperty = CfnPipe.BatchResourceRequirementProperty.Builder().apply(initializer).build()

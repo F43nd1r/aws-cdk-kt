@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildAxisDisplayRangeProperty(initializer: @AwsCdkDsl
-    CfnTemplate.AxisDisplayRangeProperty.Builder.() -> Unit = {}):
-    CfnTemplate.AxisDisplayRangeProperty =
-    CfnTemplate.AxisDisplayRangeProperty.Builder().apply(initializer).build()
+public fun buildAxisDisplayRangeProperty(initializer: @AwsCdkDsl CfnTemplate.AxisDisplayRangeProperty.Builder.() -> Unit = {}): CfnTemplate.AxisDisplayRangeProperty = CfnTemplate.AxisDisplayRangeProperty.Builder().apply(initializer).build()

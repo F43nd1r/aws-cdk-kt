@@ -16,6 +16,4 @@ public fun Construct.taskDefinition(
 ): TaskDefinition = TaskDefinition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildTaskDefinition(id: String, initializer: @AwsCdkDsl
-    TaskDefinition.Builder.() -> Unit = {}): TaskDefinition = TaskDefinition.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildTaskDefinition(id: String, initializer: @AwsCdkDsl TaskDefinition.Builder.() -> Unit = {}): TaskDefinition = TaskDefinition.Builder.create(this, id).apply(initializer).build()

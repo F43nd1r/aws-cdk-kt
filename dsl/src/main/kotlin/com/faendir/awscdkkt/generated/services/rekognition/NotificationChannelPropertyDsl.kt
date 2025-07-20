@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rekognition.CfnStreamProcessor
 
 @Generated
-public fun buildNotificationChannelProperty(initializer: @AwsCdkDsl
-    CfnStreamProcessor.NotificationChannelProperty.Builder.() -> Unit = {}):
-    CfnStreamProcessor.NotificationChannelProperty =
-    CfnStreamProcessor.NotificationChannelProperty.Builder().apply(initializer).build()
+public fun buildNotificationChannelProperty(initializer: @AwsCdkDsl CfnStreamProcessor.NotificationChannelProperty.Builder.() -> Unit = {}): CfnStreamProcessor.NotificationChannelProperty = CfnStreamProcessor.NotificationChannelProperty.Builder().apply(initializer).build()

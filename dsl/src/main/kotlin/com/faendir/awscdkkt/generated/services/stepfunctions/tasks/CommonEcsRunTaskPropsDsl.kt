@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.CommonEcsRunTaskProps
 
 @Generated
-public fun buildCommonEcsRunTaskProps(initializer: @AwsCdkDsl
-    CommonEcsRunTaskProps.Builder.() -> Unit = {}): CommonEcsRunTaskProps =
-    CommonEcsRunTaskProps.Builder().apply(initializer).build()
+public fun buildCommonEcsRunTaskProps(initializer: @AwsCdkDsl CommonEcsRunTaskProps.Builder.() -> Unit = {}): CommonEcsRunTaskProps = CommonEcsRunTaskProps.Builder().apply(initializer).build()

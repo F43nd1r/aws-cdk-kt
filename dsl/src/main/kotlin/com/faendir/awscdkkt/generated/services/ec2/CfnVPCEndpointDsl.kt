@@ -16,6 +16,4 @@ public fun Construct.cfnVPCEndpoint(
 ): CfnVPCEndpoint = CfnVPCEndpoint(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVPCEndpoint(id: String, initializer: @AwsCdkDsl
-    CfnVPCEndpoint.Builder.() -> Unit = {}): CfnVPCEndpoint = CfnVPCEndpoint.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnVPCEndpoint(id: String, initializer: @AwsCdkDsl CfnVPCEndpoint.Builder.() -> Unit = {}): CfnVPCEndpoint = CfnVPCEndpoint.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.UnmanagedComputeEnvironmentProps
 
 @Generated
-public fun buildUnmanagedComputeEnvironmentProps(initializer: @AwsCdkDsl
-    UnmanagedComputeEnvironmentProps.Builder.() -> Unit = {}): UnmanagedComputeEnvironmentProps =
-    UnmanagedComputeEnvironmentProps.Builder().apply(initializer).build()
+public fun buildUnmanagedComputeEnvironmentProps(initializer: @AwsCdkDsl UnmanagedComputeEnvironmentProps.Builder.() -> Unit = {}): UnmanagedComputeEnvironmentProps = UnmanagedComputeEnvironmentProps.Builder().apply(initializer).build()

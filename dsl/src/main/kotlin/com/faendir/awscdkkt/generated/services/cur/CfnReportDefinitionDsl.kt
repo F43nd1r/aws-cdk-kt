@@ -16,6 +16,4 @@ public fun Construct.cfnReportDefinition(
 ): CfnReportDefinition = CfnReportDefinition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnReportDefinition(id: String, initializer: @AwsCdkDsl
-    CfnReportDefinition.Builder.() -> Unit = {}): CfnReportDefinition =
-    CfnReportDefinition.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnReportDefinition(id: String, initializer: @AwsCdkDsl CfnReportDefinition.Builder.() -> Unit = {}): CfnReportDefinition = CfnReportDefinition.Builder.create(this, id).apply(initializer).build()

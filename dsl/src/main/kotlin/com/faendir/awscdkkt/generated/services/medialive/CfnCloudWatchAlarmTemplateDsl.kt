@@ -16,6 +16,4 @@ public fun Construct.cfnCloudWatchAlarmTemplate(
 ): CfnCloudWatchAlarmTemplate = CfnCloudWatchAlarmTemplate(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCloudWatchAlarmTemplate(id: String, initializer: @AwsCdkDsl
-    CfnCloudWatchAlarmTemplate.Builder.() -> Unit = {}): CfnCloudWatchAlarmTemplate =
-    CfnCloudWatchAlarmTemplate.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCloudWatchAlarmTemplate(id: String, initializer: @AwsCdkDsl CfnCloudWatchAlarmTemplate.Builder.() -> Unit = {}): CfnCloudWatchAlarmTemplate = CfnCloudWatchAlarmTemplate.Builder.create(this, id).apply(initializer).build()

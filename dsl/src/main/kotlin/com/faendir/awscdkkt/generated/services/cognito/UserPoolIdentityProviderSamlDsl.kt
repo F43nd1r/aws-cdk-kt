@@ -16,6 +16,4 @@ public fun Construct.userPoolIdentityProviderSaml(
 ): UserPoolIdentityProviderSaml = UserPoolIdentityProviderSaml(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildUserPoolIdentityProviderSaml(id: String, initializer: @AwsCdkDsl
-    UserPoolIdentityProviderSaml.Builder.() -> Unit = {}): UserPoolIdentityProviderSaml =
-    UserPoolIdentityProviderSaml.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildUserPoolIdentityProviderSaml(id: String, initializer: @AwsCdkDsl UserPoolIdentityProviderSaml.Builder.() -> Unit = {}): UserPoolIdentityProviderSaml = UserPoolIdentityProviderSaml.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnConnection
 
 @Generated
-public fun buildRedshiftLineageSyncConfigurationInputProperty(initializer: @AwsCdkDsl
-    CfnConnection.RedshiftLineageSyncConfigurationInputProperty.Builder.() -> Unit = {}):
-    CfnConnection.RedshiftLineageSyncConfigurationInputProperty =
-    CfnConnection.RedshiftLineageSyncConfigurationInputProperty.Builder().apply(initializer).build()
+public fun buildRedshiftLineageSyncConfigurationInputProperty(initializer: @AwsCdkDsl CfnConnection.RedshiftLineageSyncConfigurationInputProperty.Builder.() -> Unit = {}): CfnConnection.RedshiftLineageSyncConfigurationInputProperty = CfnConnection.RedshiftLineageSyncConfigurationInputProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnResourceDataSync(
 ): CfnResourceDataSync = CfnResourceDataSync(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnResourceDataSync(id: String, initializer: @AwsCdkDsl
-    CfnResourceDataSync.Builder.() -> Unit = {}): CfnResourceDataSync =
-    CfnResourceDataSync.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnResourceDataSync(id: String, initializer: @AwsCdkDsl CfnResourceDataSync.Builder.() -> Unit = {}): CfnResourceDataSync = CfnResourceDataSync.Builder.create(this, id).apply(initializer).build()

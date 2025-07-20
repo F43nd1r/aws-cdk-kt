@@ -16,6 +16,4 @@ public fun Construct.cfnMitigationAction(
 ): CfnMitigationAction = CfnMitigationAction(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMitigationAction(id: String, initializer: @AwsCdkDsl
-    CfnMitigationAction.Builder.() -> Unit = {}): CfnMitigationAction =
-    CfnMitigationAction.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMitigationAction(id: String, initializer: @AwsCdkDsl CfnMitigationAction.Builder.() -> Unit = {}): CfnMitigationAction = CfnMitigationAction.Builder.create(this, id).apply(initializer).build()

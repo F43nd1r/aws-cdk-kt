@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnNetworkInsightsAnalysis
 
 @Generated
-public fun buildTransitGatewayRouteTableRouteProperty(initializer: @AwsCdkDsl
-    CfnNetworkInsightsAnalysis.TransitGatewayRouteTableRouteProperty.Builder.() -> Unit = {}):
-    CfnNetworkInsightsAnalysis.TransitGatewayRouteTableRouteProperty =
-    CfnNetworkInsightsAnalysis.TransitGatewayRouteTableRouteProperty.Builder().apply(initializer).build()
+public fun buildTransitGatewayRouteTableRouteProperty(initializer: @AwsCdkDsl CfnNetworkInsightsAnalysis.TransitGatewayRouteTableRouteProperty.Builder.() -> Unit = {}): CfnNetworkInsightsAnalysis.TransitGatewayRouteTableRouteProperty = CfnNetworkInsightsAnalysis.TransitGatewayRouteTableRouteProperty.Builder().apply(initializer).build()

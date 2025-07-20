@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codedeploy.TimeBasedLinearTrafficRoutingProps
 
 @Generated
-public fun buildTimeBasedLinearTrafficRoutingProps(initializer: @AwsCdkDsl
-    TimeBasedLinearTrafficRoutingProps.Builder.() -> Unit = {}): TimeBasedLinearTrafficRoutingProps
-    = TimeBasedLinearTrafficRoutingProps.Builder().apply(initializer).build()
+public fun buildTimeBasedLinearTrafficRoutingProps(initializer: @AwsCdkDsl TimeBasedLinearTrafficRoutingProps.Builder.() -> Unit = {}): TimeBasedLinearTrafficRoutingProps = TimeBasedLinearTrafficRoutingProps.Builder().apply(initializer).build()

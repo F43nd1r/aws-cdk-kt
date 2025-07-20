@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnJob
 
 @Generated
-public fun buildConnectionsListProperty(initializer: @AwsCdkDsl
-    CfnJob.ConnectionsListProperty.Builder.() -> Unit = {}): CfnJob.ConnectionsListProperty =
-    CfnJob.ConnectionsListProperty.Builder().apply(initializer).build()
+public fun buildConnectionsListProperty(initializer: @AwsCdkDsl CfnJob.ConnectionsListProperty.Builder.() -> Unit = {}): CfnJob.ConnectionsListProperty = CfnJob.ConnectionsListProperty.Builder().apply(initializer).build()

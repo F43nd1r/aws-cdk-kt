@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnPluginProps
 
 @Generated
-public fun buildCfnPluginProps(initializer: @AwsCdkDsl CfnPluginProps.Builder.() -> Unit = {}):
-    CfnPluginProps = CfnPluginProps.Builder().apply(initializer).build()
+public fun buildCfnPluginProps(initializer: @AwsCdkDsl CfnPluginProps.Builder.() -> Unit = {}): CfnPluginProps = CfnPluginProps.Builder().apply(initializer).build()

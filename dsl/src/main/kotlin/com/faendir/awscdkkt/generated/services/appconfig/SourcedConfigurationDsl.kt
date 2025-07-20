@@ -16,6 +16,4 @@ public fun Construct.sourcedConfiguration(
 ): SourcedConfiguration = SourcedConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildSourcedConfiguration(id: String, initializer: @AwsCdkDsl
-    SourcedConfiguration.Builder.() -> Unit = {}): SourcedConfiguration =
-    SourcedConfiguration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildSourcedConfiguration(id: String, initializer: @AwsCdkDsl SourcedConfiguration.Builder.() -> Unit = {}): SourcedConfiguration = SourcedConfiguration.Builder.create(this, id).apply(initializer).build()

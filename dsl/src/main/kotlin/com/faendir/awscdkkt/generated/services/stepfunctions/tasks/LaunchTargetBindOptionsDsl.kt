@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.LaunchTargetBindOptions
 
 @Generated
-public fun buildLaunchTargetBindOptions(initializer: @AwsCdkDsl
-    LaunchTargetBindOptions.Builder.() -> Unit = {}): LaunchTargetBindOptions =
-    LaunchTargetBindOptions.Builder().apply(initializer).build()
+public fun buildLaunchTargetBindOptions(initializer: @AwsCdkDsl LaunchTargetBindOptions.Builder.() -> Unit = {}): LaunchTargetBindOptions = LaunchTargetBindOptions.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.CfnPipeline
 
 @Generated
-public fun buildGitConfigurationProperty(initializer: @AwsCdkDsl
-    CfnPipeline.GitConfigurationProperty.Builder.() -> Unit = {}):
-    CfnPipeline.GitConfigurationProperty =
-    CfnPipeline.GitConfigurationProperty.Builder().apply(initializer).build()
+public fun buildGitConfigurationProperty(initializer: @AwsCdkDsl CfnPipeline.GitConfigurationProperty.Builder.() -> Unit = {}): CfnPipeline.GitConfigurationProperty = CfnPipeline.GitConfigurationProperty.Builder().apply(initializer).build()

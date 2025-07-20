@@ -16,6 +16,4 @@ public fun Construct.cfnAccessLogSubscription(
 ): CfnAccessLogSubscription = CfnAccessLogSubscription(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAccessLogSubscription(id: String, initializer: @AwsCdkDsl
-    CfnAccessLogSubscription.Builder.() -> Unit = {}): CfnAccessLogSubscription =
-    CfnAccessLogSubscription.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAccessLogSubscription(id: String, initializer: @AwsCdkDsl CfnAccessLogSubscription.Builder.() -> Unit = {}): CfnAccessLogSubscription = CfnAccessLogSubscription.Builder.create(this, id).apply(initializer).build()

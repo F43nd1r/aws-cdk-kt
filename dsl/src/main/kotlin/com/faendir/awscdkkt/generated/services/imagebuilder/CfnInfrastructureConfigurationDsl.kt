@@ -13,10 +13,7 @@ public fun Construct.cfnInfrastructureConfiguration(
   id: String,
   props: CfnInfrastructureConfigurationProps,
   initializer: @AwsCdkDsl CfnInfrastructureConfiguration.() -> Unit = {},
-): CfnInfrastructureConfiguration = CfnInfrastructureConfiguration(this, id,
-    props).apply(initializer)
+): CfnInfrastructureConfiguration = CfnInfrastructureConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnInfrastructureConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnInfrastructureConfiguration.Builder.() -> Unit = {}): CfnInfrastructureConfiguration =
-    CfnInfrastructureConfiguration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnInfrastructureConfiguration(id: String, initializer: @AwsCdkDsl CfnInfrastructureConfiguration.Builder.() -> Unit = {}): CfnInfrastructureConfiguration = CfnInfrastructureConfiguration.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnApplicationAssignment(
 ): CfnApplicationAssignment = CfnApplicationAssignment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnApplicationAssignment(id: String, initializer: @AwsCdkDsl
-    CfnApplicationAssignment.Builder.() -> Unit = {}): CfnApplicationAssignment =
-    CfnApplicationAssignment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnApplicationAssignment(id: String, initializer: @AwsCdkDsl CfnApplicationAssignment.Builder.() -> Unit = {}): CfnApplicationAssignment = CfnApplicationAssignment.Builder.create(this, id).apply(initializer).build()

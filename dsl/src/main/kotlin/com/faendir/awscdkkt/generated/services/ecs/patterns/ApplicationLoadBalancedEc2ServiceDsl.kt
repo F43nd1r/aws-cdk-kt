@@ -9,19 +9,14 @@ import software.amazon.awscdk.services.ecs.patterns.ApplicationLoadBalancedEc2Se
 import software.constructs.Construct
 
 @Generated
-public fun Construct.applicationLoadBalancedEc2Service(id: String, initializer: @AwsCdkDsl
-    ApplicationLoadBalancedEc2Service.() -> Unit = {}): ApplicationLoadBalancedEc2Service =
-    ApplicationLoadBalancedEc2Service(this, id).apply(initializer)
+public fun Construct.applicationLoadBalancedEc2Service(id: String, initializer: @AwsCdkDsl ApplicationLoadBalancedEc2Service.() -> Unit = {}): ApplicationLoadBalancedEc2Service = ApplicationLoadBalancedEc2Service(this, id).apply(initializer)
 
 @Generated
 public fun Construct.applicationLoadBalancedEc2Service(
   id: String,
   props: ApplicationLoadBalancedEc2ServiceProps,
   initializer: @AwsCdkDsl ApplicationLoadBalancedEc2Service.() -> Unit = {},
-): ApplicationLoadBalancedEc2Service = ApplicationLoadBalancedEc2Service(this, id,
-    props).apply(initializer)
+): ApplicationLoadBalancedEc2Service = ApplicationLoadBalancedEc2Service(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildApplicationLoadBalancedEc2Service(id: String, initializer: @AwsCdkDsl
-    ApplicationLoadBalancedEc2Service.Builder.() -> Unit = {}): ApplicationLoadBalancedEc2Service =
-    ApplicationLoadBalancedEc2Service.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildApplicationLoadBalancedEc2Service(id: String, initializer: @AwsCdkDsl ApplicationLoadBalancedEc2Service.Builder.() -> Unit = {}): ApplicationLoadBalancedEc2Service = ApplicationLoadBalancedEc2Service.Builder.create(this, id).apply(initializer).build()

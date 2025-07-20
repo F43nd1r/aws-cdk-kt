@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.route53recoveryreadiness.CfnCellProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnCell(id: String, initializer: @AwsCdkDsl CfnCell.() -> Unit = {}): CfnCell =
-    CfnCell(this, id).apply(initializer)
+public fun Construct.cfnCell(id: String, initializer: @AwsCdkDsl CfnCell.() -> Unit = {}): CfnCell = CfnCell(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnCell(
@@ -20,5 +19,4 @@ public fun Construct.cfnCell(
 ): CfnCell = CfnCell(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCell(id: String, initializer: @AwsCdkDsl CfnCell.Builder.() -> Unit =
-    {}): CfnCell = CfnCell.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCell(id: String, initializer: @AwsCdkDsl CfnCell.Builder.() -> Unit = {}): CfnCell = CfnCell.Builder.create(this, id).apply(initializer).build()

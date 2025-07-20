@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.shield.CfnProactiveEngagementProps
 
 @Generated
-public fun buildCfnProactiveEngagementProps(initializer: @AwsCdkDsl
-    CfnProactiveEngagementProps.Builder.() -> Unit = {}): CfnProactiveEngagementProps =
-    CfnProactiveEngagementProps.Builder().apply(initializer).build()
+public fun buildCfnProactiveEngagementProps(initializer: @AwsCdkDsl CfnProactiveEngagementProps.Builder.() -> Unit = {}): CfnProactiveEngagementProps = CfnProactiveEngagementProps.Builder().apply(initializer).build()

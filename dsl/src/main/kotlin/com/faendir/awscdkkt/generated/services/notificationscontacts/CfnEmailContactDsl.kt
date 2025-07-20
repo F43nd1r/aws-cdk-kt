@@ -16,6 +16,4 @@ public fun Construct.cfnEmailContact(
 ): CfnEmailContact = CfnEmailContact(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEmailContact(id: String, initializer: @AwsCdkDsl
-    CfnEmailContact.Builder.() -> Unit = {}): CfnEmailContact = CfnEmailContact.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnEmailContact(id: String, initializer: @AwsCdkDsl CfnEmailContact.Builder.() -> Unit = {}): CfnEmailContact = CfnEmailContact.Builder.create(this, id).apply(initializer).build()

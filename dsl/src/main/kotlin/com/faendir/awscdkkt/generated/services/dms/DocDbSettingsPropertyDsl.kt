@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dms.CfnEndpoint
 
 @Generated
-public fun buildDocDbSettingsProperty(initializer: @AwsCdkDsl
-    CfnEndpoint.DocDbSettingsProperty.Builder.() -> Unit = {}): CfnEndpoint.DocDbSettingsProperty =
-    CfnEndpoint.DocDbSettingsProperty.Builder().apply(initializer).build()
+public fun buildDocDbSettingsProperty(initializer: @AwsCdkDsl CfnEndpoint.DocDbSettingsProperty.Builder.() -> Unit = {}): CfnEndpoint.DocDbSettingsProperty = CfnEndpoint.DocDbSettingsProperty.Builder().apply(initializer).build()

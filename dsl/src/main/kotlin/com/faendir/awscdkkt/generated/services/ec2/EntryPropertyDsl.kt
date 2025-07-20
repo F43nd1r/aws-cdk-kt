@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnPrefixList
 
 @Generated
-public fun buildEntryProperty(initializer: @AwsCdkDsl CfnPrefixList.EntryProperty.Builder.() -> Unit
-    = {}): CfnPrefixList.EntryProperty =
-    CfnPrefixList.EntryProperty.Builder().apply(initializer).build()
+public fun buildEntryProperty(initializer: @AwsCdkDsl CfnPrefixList.EntryProperty.Builder.() -> Unit = {}): CfnPrefixList.EntryProperty = CfnPrefixList.EntryProperty.Builder().apply(initializer).build()

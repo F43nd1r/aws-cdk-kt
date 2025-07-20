@@ -9,8 +9,6 @@ import kotlin.Suppress
 import kotlin.Unit
 import software.amazon.awscdk.services.elasticsearch.DomainProps
 
-@Deprecated(message =
-    "software.amazon.awscdk.services.elasticsearch.DomainProps is deprecated in CDK.")
+@Deprecated(message = "software.amazon.awscdk.services.elasticsearch.DomainProps is deprecated in CDK.")
 @Generated
-public fun buildDomainProps(initializer: @AwsCdkDsl DomainProps.Builder.() -> Unit = {}):
-    DomainProps = DomainProps.Builder().apply(initializer).build()
+public fun buildDomainProps(initializer: @AwsCdkDsl DomainProps.Builder.() -> Unit = {}): DomainProps = DomainProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildMQBrokerAccessCredentialsProperty(initializer: @AwsCdkDsl
-    CfnPipe.MQBrokerAccessCredentialsProperty.Builder.() -> Unit = {}):
-    CfnPipe.MQBrokerAccessCredentialsProperty =
-    CfnPipe.MQBrokerAccessCredentialsProperty.Builder().apply(initializer).build()
+public fun buildMQBrokerAccessCredentialsProperty(initializer: @AwsCdkDsl CfnPipe.MQBrokerAccessCredentialsProperty.Builder.() -> Unit = {}): CfnPipe.MQBrokerAccessCredentialsProperty = CfnPipe.MQBrokerAccessCredentialsProperty.Builder().apply(initializer).build()

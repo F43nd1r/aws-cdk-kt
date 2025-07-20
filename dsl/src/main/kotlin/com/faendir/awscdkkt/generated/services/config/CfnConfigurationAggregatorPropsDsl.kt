@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.config.CfnConfigurationAggregatorProps
 
 @Generated
-public fun buildCfnConfigurationAggregatorProps(initializer: @AwsCdkDsl
-    CfnConfigurationAggregatorProps.Builder.() -> Unit = {}): CfnConfigurationAggregatorProps =
-    CfnConfigurationAggregatorProps.Builder().apply(initializer).build()
+public fun buildCfnConfigurationAggregatorProps(initializer: @AwsCdkDsl CfnConfigurationAggregatorProps.Builder.() -> Unit = {}): CfnConfigurationAggregatorProps = CfnConfigurationAggregatorProps.Builder().apply(initializer).build()

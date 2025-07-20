@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.GatewayRouteHostnameMatchConfig
 
 @Generated
-public fun buildGatewayRouteHostnameMatchConfig(initializer: @AwsCdkDsl
-    GatewayRouteHostnameMatchConfig.Builder.() -> Unit = {}): GatewayRouteHostnameMatchConfig =
-    GatewayRouteHostnameMatchConfig.Builder().apply(initializer).build()
+public fun buildGatewayRouteHostnameMatchConfig(initializer: @AwsCdkDsl GatewayRouteHostnameMatchConfig.Builder.() -> Unit = {}): GatewayRouteHostnameMatchConfig = GatewayRouteHostnameMatchConfig.Builder().apply(initializer).build()

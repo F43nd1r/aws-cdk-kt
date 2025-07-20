@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.waf.regional.CfnRegexPatternSetProps
 
 @Generated
-public fun buildCfnRegexPatternSetProps(initializer: @AwsCdkDsl
-    CfnRegexPatternSetProps.Builder.() -> Unit = {}): CfnRegexPatternSetProps =
-    CfnRegexPatternSetProps.Builder().apply(initializer).build()
+public fun buildCfnRegexPatternSetProps(initializer: @AwsCdkDsl CfnRegexPatternSetProps.Builder.() -> Unit = {}): CfnRegexPatternSetProps = CfnRegexPatternSetProps.Builder().apply(initializer).build()

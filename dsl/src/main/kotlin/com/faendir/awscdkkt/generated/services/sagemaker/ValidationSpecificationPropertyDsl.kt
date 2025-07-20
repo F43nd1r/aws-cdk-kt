@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnModelPackage
 
 @Generated
-public fun buildValidationSpecificationProperty(initializer: @AwsCdkDsl
-    CfnModelPackage.ValidationSpecificationProperty.Builder.() -> Unit = {}):
-    CfnModelPackage.ValidationSpecificationProperty =
-    CfnModelPackage.ValidationSpecificationProperty.Builder().apply(initializer).build()
+public fun buildValidationSpecificationProperty(initializer: @AwsCdkDsl CfnModelPackage.ValidationSpecificationProperty.Builder.() -> Unit = {}): CfnModelPackage.ValidationSpecificationProperty = CfnModelPackage.ValidationSpecificationProperty.Builder().apply(initializer).build()

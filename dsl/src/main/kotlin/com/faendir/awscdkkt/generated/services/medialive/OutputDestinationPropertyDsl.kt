@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildOutputDestinationProperty(initializer: @AwsCdkDsl
-    CfnChannel.OutputDestinationProperty.Builder.() -> Unit = {}):
-    CfnChannel.OutputDestinationProperty =
-    CfnChannel.OutputDestinationProperty.Builder().apply(initializer).build()
+public fun buildOutputDestinationProperty(initializer: @AwsCdkDsl CfnChannel.OutputDestinationProperty.Builder.() -> Unit = {}): CfnChannel.OutputDestinationProperty = CfnChannel.OutputDestinationProperty.Builder().apply(initializer).build()

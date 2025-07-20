@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codegurureviewer.CfnRepositoryAssociationProps
 
 @Generated
-public fun buildCfnRepositoryAssociationProps(initializer: @AwsCdkDsl
-    CfnRepositoryAssociationProps.Builder.() -> Unit = {}): CfnRepositoryAssociationProps =
-    CfnRepositoryAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnRepositoryAssociationProps(initializer: @AwsCdkDsl CfnRepositoryAssociationProps.Builder.() -> Unit = {}): CfnRepositoryAssociationProps = CfnRepositoryAssociationProps.Builder().apply(initializer).build()

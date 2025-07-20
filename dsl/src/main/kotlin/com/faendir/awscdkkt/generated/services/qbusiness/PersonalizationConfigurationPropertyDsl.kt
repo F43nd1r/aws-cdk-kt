@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnApplication
 
 @Generated
-public fun buildPersonalizationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnApplication.PersonalizationConfigurationProperty.Builder.() -> Unit = {}):
-    CfnApplication.PersonalizationConfigurationProperty =
-    CfnApplication.PersonalizationConfigurationProperty.Builder().apply(initializer).build()
+public fun buildPersonalizationConfigurationProperty(initializer: @AwsCdkDsl CfnApplication.PersonalizationConfigurationProperty.Builder.() -> Unit = {}): CfnApplication.PersonalizationConfigurationProperty = CfnApplication.PersonalizationConfigurationProperty.Builder().apply(initializer).build()

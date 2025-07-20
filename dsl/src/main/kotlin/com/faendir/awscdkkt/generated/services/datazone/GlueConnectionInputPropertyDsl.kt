@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnConnection
 
 @Generated
-public fun buildGlueConnectionInputProperty(initializer: @AwsCdkDsl
-    CfnConnection.GlueConnectionInputProperty.Builder.() -> Unit = {}):
-    CfnConnection.GlueConnectionInputProperty =
-    CfnConnection.GlueConnectionInputProperty.Builder().apply(initializer).build()
+public fun buildGlueConnectionInputProperty(initializer: @AwsCdkDsl CfnConnection.GlueConnectionInputProperty.Builder.() -> Unit = {}): CfnConnection.GlueConnectionInputProperty = CfnConnection.GlueConnectionInputProperty.Builder().apply(initializer).build()

@@ -9,9 +9,6 @@ import kotlin.Suppress
 import kotlin.Unit
 import software.amazon.awscdk.services.s3.deployment.UserDefinedObjectMetadata
 
-@Deprecated(message =
-    "software.amazon.awscdk.services.s3.deployment.UserDefinedObjectMetadata is deprecated in CDK.")
+@Deprecated(message = "software.amazon.awscdk.services.s3.deployment.UserDefinedObjectMetadata is deprecated in CDK.")
 @Generated
-public fun buildUserDefinedObjectMetadata(initializer: @AwsCdkDsl
-    UserDefinedObjectMetadata.Builder.() -> Unit = {}): UserDefinedObjectMetadata =
-    UserDefinedObjectMetadata.Builder().apply(initializer).build()
+public fun buildUserDefinedObjectMetadata(initializer: @AwsCdkDsl UserDefinedObjectMetadata.Builder.() -> Unit = {}): UserDefinedObjectMetadata = UserDefinedObjectMetadata.Builder().apply(initializer).build()

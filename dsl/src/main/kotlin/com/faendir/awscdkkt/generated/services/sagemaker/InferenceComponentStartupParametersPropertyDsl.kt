@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnInferenceComponent
 
 @Generated
-public fun buildInferenceComponentStartupParametersProperty(initializer: @AwsCdkDsl
-    CfnInferenceComponent.InferenceComponentStartupParametersProperty.Builder.() -> Unit = {}):
-    CfnInferenceComponent.InferenceComponentStartupParametersProperty =
-    CfnInferenceComponent.InferenceComponentStartupParametersProperty.Builder().apply(initializer).build()
+public fun buildInferenceComponentStartupParametersProperty(initializer: @AwsCdkDsl CfnInferenceComponent.InferenceComponentStartupParametersProperty.Builder.() -> Unit = {}): CfnInferenceComponent.InferenceComponentStartupParametersProperty = CfnInferenceComponent.InferenceComponentStartupParametersProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnCertificate(
 ): CfnCertificate = CfnCertificate(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCertificate(id: String, initializer: @AwsCdkDsl
-    CfnCertificate.Builder.() -> Unit = {}): CfnCertificate = CfnCertificate.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnCertificate(id: String, initializer: @AwsCdkDsl CfnCertificate.Builder.() -> Unit = {}): CfnCertificate = CfnCertificate.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnReportGroup(
 ): CfnReportGroup = CfnReportGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnReportGroup(id: String, initializer: @AwsCdkDsl
-    CfnReportGroup.Builder.() -> Unit = {}): CfnReportGroup = CfnReportGroup.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnReportGroup(id: String, initializer: @AwsCdkDsl CfnReportGroup.Builder.() -> Unit = {}): CfnReportGroup = CfnReportGroup.Builder.create(this, id).apply(initializer).build()

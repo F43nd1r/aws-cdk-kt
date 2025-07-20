@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkfirewall.CfnRuleGroup
 
 @Generated
-public fun buildActionDefinitionProperty(initializer: @AwsCdkDsl
-    CfnRuleGroup.ActionDefinitionProperty.Builder.() -> Unit = {}):
-    CfnRuleGroup.ActionDefinitionProperty =
-    CfnRuleGroup.ActionDefinitionProperty.Builder().apply(initializer).build()
+public fun buildActionDefinitionProperty(initializer: @AwsCdkDsl CfnRuleGroup.ActionDefinitionProperty.Builder.() -> Unit = {}): CfnRuleGroup.ActionDefinitionProperty = CfnRuleGroup.ActionDefinitionProperty.Builder().apply(initializer).build()

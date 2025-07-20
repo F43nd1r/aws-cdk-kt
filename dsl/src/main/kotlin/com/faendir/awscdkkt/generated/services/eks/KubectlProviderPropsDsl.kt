@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.KubectlProviderProps
 
 @Generated
-public fun buildKubectlProviderProps(initializer: @AwsCdkDsl KubectlProviderProps.Builder.() -> Unit
-    = {}): KubectlProviderProps = KubectlProviderProps.Builder().apply(initializer).build()
+public fun buildKubectlProviderProps(initializer: @AwsCdkDsl KubectlProviderProps.Builder.() -> Unit = {}): KubectlProviderProps = KubectlProviderProps.Builder().apply(initializer).build()

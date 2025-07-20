@@ -16,5 +16,4 @@ public fun Construct.addon(
 ): Addon = Addon(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAddon(id: String, initializer: @AwsCdkDsl Addon.Builder.() -> Unit = {}):
-    Addon = Addon.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildAddon(id: String, initializer: @AwsCdkDsl Addon.Builder.() -> Unit = {}): Addon = Addon.Builder.create(this, id).apply(initializer).build()

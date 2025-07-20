@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotwireless.CfnDestinationProps
 
 @Generated
-public fun buildCfnDestinationProps(initializer: @AwsCdkDsl CfnDestinationProps.Builder.() -> Unit =
-    {}): CfnDestinationProps = CfnDestinationProps.Builder().apply(initializer).build()
+public fun buildCfnDestinationProps(initializer: @AwsCdkDsl CfnDestinationProps.Builder.() -> Unit = {}): CfnDestinationProps = CfnDestinationProps.Builder().apply(initializer).build()

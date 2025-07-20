@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotfleetwise.CfnCampaign
 
 @Generated
-public fun buildDataPartitionProperty(initializer: @AwsCdkDsl
-    CfnCampaign.DataPartitionProperty.Builder.() -> Unit = {}): CfnCampaign.DataPartitionProperty =
-    CfnCampaign.DataPartitionProperty.Builder().apply(initializer).build()
+public fun buildDataPartitionProperty(initializer: @AwsCdkDsl CfnCampaign.DataPartitionProperty.Builder.() -> Unit = {}): CfnCampaign.DataPartitionProperty = CfnCampaign.DataPartitionProperty.Builder().apply(initializer).build()

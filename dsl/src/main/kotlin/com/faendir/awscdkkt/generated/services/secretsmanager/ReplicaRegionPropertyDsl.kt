@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.secretsmanager.CfnSecret
 
 @Generated
-public fun buildReplicaRegionProperty(initializer: @AwsCdkDsl
-    CfnSecret.ReplicaRegionProperty.Builder.() -> Unit = {}): CfnSecret.ReplicaRegionProperty =
-    CfnSecret.ReplicaRegionProperty.Builder().apply(initializer).build()
+public fun buildReplicaRegionProperty(initializer: @AwsCdkDsl CfnSecret.ReplicaRegionProperty.Builder.() -> Unit = {}): CfnSecret.ReplicaRegionProperty = CfnSecret.ReplicaRegionProperty.Builder().apply(initializer).build()

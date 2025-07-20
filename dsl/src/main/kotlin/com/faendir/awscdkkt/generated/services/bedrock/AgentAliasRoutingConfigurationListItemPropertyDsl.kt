@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnAgentAlias
 
 @Generated
-public fun buildAgentAliasRoutingConfigurationListItemProperty(initializer: @AwsCdkDsl
-    CfnAgentAlias.AgentAliasRoutingConfigurationListItemProperty.Builder.() -> Unit = {}):
-    CfnAgentAlias.AgentAliasRoutingConfigurationListItemProperty =
-    CfnAgentAlias.AgentAliasRoutingConfigurationListItemProperty.Builder().apply(initializer).build()
+public fun buildAgentAliasRoutingConfigurationListItemProperty(initializer: @AwsCdkDsl CfnAgentAlias.AgentAliasRoutingConfigurationListItemProperty.Builder.() -> Unit = {}): CfnAgentAlias.AgentAliasRoutingConfigurationListItemProperty = CfnAgentAlias.AgentAliasRoutingConfigurationListItemProperty.Builder().apply(initializer).build()

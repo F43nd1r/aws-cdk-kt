@@ -16,6 +16,4 @@ public fun Construct.cfnNetworkInsightsAnalysis(
 ): CfnNetworkInsightsAnalysis = CfnNetworkInsightsAnalysis(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnNetworkInsightsAnalysis(id: String, initializer: @AwsCdkDsl
-    CfnNetworkInsightsAnalysis.Builder.() -> Unit = {}): CfnNetworkInsightsAnalysis =
-    CfnNetworkInsightsAnalysis.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnNetworkInsightsAnalysis(id: String, initializer: @AwsCdkDsl CfnNetworkInsightsAnalysis.Builder.() -> Unit = {}): CfnNetworkInsightsAnalysis = CfnNetworkInsightsAnalysis.Builder.create(this, id).apply(initializer).build()

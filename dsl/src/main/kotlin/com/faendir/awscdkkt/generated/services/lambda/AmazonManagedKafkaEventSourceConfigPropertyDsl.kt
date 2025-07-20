@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.CfnEventSourceMapping
 
 @Generated
-public fun buildAmazonManagedKafkaEventSourceConfigProperty(initializer: @AwsCdkDsl
-    CfnEventSourceMapping.AmazonManagedKafkaEventSourceConfigProperty.Builder.() -> Unit = {}):
-    CfnEventSourceMapping.AmazonManagedKafkaEventSourceConfigProperty =
-    CfnEventSourceMapping.AmazonManagedKafkaEventSourceConfigProperty.Builder().apply(initializer).build()
+public fun buildAmazonManagedKafkaEventSourceConfigProperty(initializer: @AwsCdkDsl CfnEventSourceMapping.AmazonManagedKafkaEventSourceConfigProperty.Builder.() -> Unit = {}): CfnEventSourceMapping.AmazonManagedKafkaEventSourceConfigProperty = CfnEventSourceMapping.AmazonManagedKafkaEventSourceConfigProperty.Builder().apply(initializer).build()

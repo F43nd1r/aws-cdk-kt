@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codeartifact.CfnPackageGroup
 
 @Generated
-public fun buildOriginConfigurationProperty(initializer: @AwsCdkDsl
-    CfnPackageGroup.OriginConfigurationProperty.Builder.() -> Unit = {}):
-    CfnPackageGroup.OriginConfigurationProperty =
-    CfnPackageGroup.OriginConfigurationProperty.Builder().apply(initializer).build()
+public fun buildOriginConfigurationProperty(initializer: @AwsCdkDsl CfnPackageGroup.OriginConfigurationProperty.Builder.() -> Unit = {}): CfnPackageGroup.OriginConfigurationProperty = CfnPackageGroup.OriginConfigurationProperty.Builder().apply(initializer).build()

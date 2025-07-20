@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildAnchorDateConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.AnchorDateConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.AnchorDateConfigurationProperty =
-    CfnTemplate.AnchorDateConfigurationProperty.Builder().apply(initializer).build()
+public fun buildAnchorDateConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.AnchorDateConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.AnchorDateConfigurationProperty = CfnTemplate.AnchorDateConfigurationProperty.Builder().apply(initializer).build()

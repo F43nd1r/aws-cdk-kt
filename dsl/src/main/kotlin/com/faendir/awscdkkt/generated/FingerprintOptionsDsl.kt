@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.FingerprintOptions
 
 @Generated
-public fun buildFingerprintOptions(initializer: @AwsCdkDsl FingerprintOptions.Builder.() -> Unit =
-    {}): FingerprintOptions = FingerprintOptions.Builder().apply(initializer).build()
+public fun buildFingerprintOptions(initializer: @AwsCdkDsl FingerprintOptions.Builder.() -> Unit = {}): FingerprintOptions = FingerprintOptions.Builder().apply(initializer).build()

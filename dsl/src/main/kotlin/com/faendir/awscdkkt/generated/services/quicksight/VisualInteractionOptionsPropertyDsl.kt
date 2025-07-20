@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildVisualInteractionOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.VisualInteractionOptionsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.VisualInteractionOptionsProperty =
-    CfnTemplate.VisualInteractionOptionsProperty.Builder().apply(initializer).build()
+public fun buildVisualInteractionOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.VisualInteractionOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.VisualInteractionOptionsProperty = CfnTemplate.VisualInteractionOptionsProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.userPoolClient(
 ): UserPoolClient = UserPoolClient(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildUserPoolClient(id: String, initializer: @AwsCdkDsl
-    UserPoolClient.Builder.() -> Unit = {}): UserPoolClient = UserPoolClient.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildUserPoolClient(id: String, initializer: @AwsCdkDsl UserPoolClient.Builder.() -> Unit = {}): UserPoolClient = UserPoolClient.Builder.create(this, id).apply(initializer).build()

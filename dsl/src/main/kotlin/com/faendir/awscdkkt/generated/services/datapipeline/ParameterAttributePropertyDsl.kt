@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datapipeline.CfnPipeline
 
 @Generated
-public fun buildParameterAttributeProperty(initializer: @AwsCdkDsl
-    CfnPipeline.ParameterAttributeProperty.Builder.() -> Unit = {}):
-    CfnPipeline.ParameterAttributeProperty =
-    CfnPipeline.ParameterAttributeProperty.Builder().apply(initializer).build()
+public fun buildParameterAttributeProperty(initializer: @AwsCdkDsl CfnPipeline.ParameterAttributeProperty.Builder.() -> Unit = {}): CfnPipeline.ParameterAttributeProperty = CfnPipeline.ParameterAttributeProperty.Builder().apply(initializer).build()

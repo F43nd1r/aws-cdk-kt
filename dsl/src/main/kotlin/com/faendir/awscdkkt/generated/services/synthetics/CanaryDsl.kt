@@ -16,5 +16,4 @@ public fun Construct.canary(
 ): Canary = Canary(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCanary(id: String, initializer: @AwsCdkDsl Canary.Builder.() -> Unit =
-    {}): Canary = Canary.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCanary(id: String, initializer: @AwsCdkDsl Canary.Builder.() -> Unit = {}): Canary = Canary.Builder.create(this, id).apply(initializer).build()

@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.stepfunctions.CfnStateMachineAliasProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnStateMachineAlias(id: String, initializer: @AwsCdkDsl
-    CfnStateMachineAlias.() -> Unit = {}): CfnStateMachineAlias = CfnStateMachineAlias(this,
-    id).apply(initializer)
+public fun Construct.cfnStateMachineAlias(id: String, initializer: @AwsCdkDsl CfnStateMachineAlias.() -> Unit = {}): CfnStateMachineAlias = CfnStateMachineAlias(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnStateMachineAlias(
@@ -21,6 +19,4 @@ public fun Construct.cfnStateMachineAlias(
 ): CfnStateMachineAlias = CfnStateMachineAlias(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnStateMachineAlias(id: String, initializer: @AwsCdkDsl
-    CfnStateMachineAlias.Builder.() -> Unit = {}): CfnStateMachineAlias =
-    CfnStateMachineAlias.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnStateMachineAlias(id: String, initializer: @AwsCdkDsl CfnStateMachineAlias.Builder.() -> Unit = {}): CfnStateMachineAlias = CfnStateMachineAlias.Builder.create(this, id).apply(initializer).build()

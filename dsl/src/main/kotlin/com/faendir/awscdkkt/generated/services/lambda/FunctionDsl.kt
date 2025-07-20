@@ -16,5 +16,4 @@ public fun Construct.function(
 ): Function = Function(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildFunction(id: String, initializer: @AwsCdkDsl Function.Builder.() -> Unit =
-    {}): Function = Function.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildFunction(id: String, initializer: @AwsCdkDsl Function.Builder.() -> Unit = {}): Function = Function.Builder.create(this, id).apply(initializer).build()

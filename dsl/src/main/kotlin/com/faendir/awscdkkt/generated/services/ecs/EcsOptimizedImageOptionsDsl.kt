@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.EcsOptimizedImageOptions
 
 @Generated
-public fun buildEcsOptimizedImageOptions(initializer: @AwsCdkDsl
-    EcsOptimizedImageOptions.Builder.() -> Unit = {}): EcsOptimizedImageOptions =
-    EcsOptimizedImageOptions.Builder().apply(initializer).build()
+public fun buildEcsOptimizedImageOptions(initializer: @AwsCdkDsl EcsOptimizedImageOptions.Builder.() -> Unit = {}): EcsOptimizedImageOptions = EcsOptimizedImageOptions.Builder().apply(initializer).build()

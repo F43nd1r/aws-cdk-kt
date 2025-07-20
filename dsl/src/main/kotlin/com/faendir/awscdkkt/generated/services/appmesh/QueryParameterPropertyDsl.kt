@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnRoute
 
 @Generated
-public fun buildQueryParameterProperty(initializer: @AwsCdkDsl
-    CfnRoute.QueryParameterProperty.Builder.() -> Unit = {}): CfnRoute.QueryParameterProperty =
-    CfnRoute.QueryParameterProperty.Builder().apply(initializer).build()
+public fun buildQueryParameterProperty(initializer: @AwsCdkDsl CfnRoute.QueryParameterProperty.Builder.() -> Unit = {}): CfnRoute.QueryParameterProperty = CfnRoute.QueryParameterProperty.Builder().apply(initializer).build()

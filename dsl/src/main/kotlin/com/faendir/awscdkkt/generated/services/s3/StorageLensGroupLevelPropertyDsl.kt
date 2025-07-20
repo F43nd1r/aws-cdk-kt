@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnStorageLens
 
 @Generated
-public fun buildStorageLensGroupLevelProperty(initializer: @AwsCdkDsl
-    CfnStorageLens.StorageLensGroupLevelProperty.Builder.() -> Unit = {}):
-    CfnStorageLens.StorageLensGroupLevelProperty =
-    CfnStorageLens.StorageLensGroupLevelProperty.Builder().apply(initializer).build()
+public fun buildStorageLensGroupLevelProperty(initializer: @AwsCdkDsl CfnStorageLens.StorageLensGroupLevelProperty.Builder.() -> Unit = {}): CfnStorageLens.StorageLensGroupLevelProperty = CfnStorageLens.StorageLensGroupLevelProperty.Builder().apply(initializer).build()

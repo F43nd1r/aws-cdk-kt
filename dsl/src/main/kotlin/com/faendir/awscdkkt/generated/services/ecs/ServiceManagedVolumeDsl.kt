@@ -16,6 +16,4 @@ public fun Construct.serviceManagedVolume(
 ): ServiceManagedVolume = ServiceManagedVolume(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildServiceManagedVolume(id: String, initializer: @AwsCdkDsl
-    ServiceManagedVolume.Builder.() -> Unit = {}): ServiceManagedVolume =
-    ServiceManagedVolume.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildServiceManagedVolume(id: String, initializer: @AwsCdkDsl ServiceManagedVolume.Builder.() -> Unit = {}): ServiceManagedVolume = ServiceManagedVolume.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.ReceiptRuleActionConfig
 
 @Generated
-public fun buildReceiptRuleActionConfig(initializer: @AwsCdkDsl
-    ReceiptRuleActionConfig.Builder.() -> Unit = {}): ReceiptRuleActionConfig =
-    ReceiptRuleActionConfig.Builder().apply(initializer).build()
+public fun buildReceiptRuleActionConfig(initializer: @AwsCdkDsl ReceiptRuleActionConfig.Builder.() -> Unit = {}): ReceiptRuleActionConfig = ReceiptRuleActionConfig.Builder().apply(initializer).build()

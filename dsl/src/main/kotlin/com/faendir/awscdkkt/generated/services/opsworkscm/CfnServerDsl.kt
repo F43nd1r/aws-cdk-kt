@@ -16,5 +16,4 @@ public fun Construct.cfnServer(
 ): CfnServer = CfnServer(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnServer(id: String, initializer: @AwsCdkDsl CfnServer.Builder.() -> Unit
-    = {}): CfnServer = CfnServer.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnServer(id: String, initializer: @AwsCdkDsl CfnServer.Builder.() -> Unit = {}): CfnServer = CfnServer.Builder.create(this, id).apply(initializer).build()

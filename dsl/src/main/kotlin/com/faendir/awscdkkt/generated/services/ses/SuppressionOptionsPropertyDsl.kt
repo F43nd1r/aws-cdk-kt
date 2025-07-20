@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnConfigurationSet
 
 @Generated
-public fun buildSuppressionOptionsProperty(initializer: @AwsCdkDsl
-    CfnConfigurationSet.SuppressionOptionsProperty.Builder.() -> Unit = {}):
-    CfnConfigurationSet.SuppressionOptionsProperty =
-    CfnConfigurationSet.SuppressionOptionsProperty.Builder().apply(initializer).build()
+public fun buildSuppressionOptionsProperty(initializer: @AwsCdkDsl CfnConfigurationSet.SuppressionOptionsProperty.Builder.() -> Unit = {}): CfnConfigurationSet.SuppressionOptionsProperty = CfnConfigurationSet.SuppressionOptionsProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.GenericLogDriver
 
 @Generated
-public fun buildGenericLogDriver(initializer: @AwsCdkDsl GenericLogDriver.Builder.() -> Unit = {}):
-    GenericLogDriver = GenericLogDriver.Builder.create().apply(initializer).build()
+public fun buildGenericLogDriver(initializer: @AwsCdkDsl GenericLogDriver.Builder.() -> Unit = {}): GenericLogDriver = GenericLogDriver.Builder.create().apply(initializer).build()

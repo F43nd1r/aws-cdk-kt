@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnCodeRepositoryProps
 
 @Generated
-public fun buildCfnCodeRepositoryProps(initializer: @AwsCdkDsl
-    CfnCodeRepositoryProps.Builder.() -> Unit = {}): CfnCodeRepositoryProps =
-    CfnCodeRepositoryProps.Builder().apply(initializer).build()
+public fun buildCfnCodeRepositoryProps(initializer: @AwsCdkDsl CfnCodeRepositoryProps.Builder.() -> Unit = {}): CfnCodeRepositoryProps = CfnCodeRepositoryProps.Builder().apply(initializer).build()

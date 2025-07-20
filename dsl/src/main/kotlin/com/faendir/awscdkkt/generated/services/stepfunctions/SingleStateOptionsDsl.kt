@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.SingleStateOptions
 
 @Generated
-public fun buildSingleStateOptions(initializer: @AwsCdkDsl SingleStateOptions.Builder.() -> Unit =
-    {}): SingleStateOptions = SingleStateOptions.Builder().apply(initializer).build()
+public fun buildSingleStateOptions(initializer: @AwsCdkDsl SingleStateOptions.Builder.() -> Unit = {}): SingleStateOptions = SingleStateOptions.Builder().apply(initializer).build()

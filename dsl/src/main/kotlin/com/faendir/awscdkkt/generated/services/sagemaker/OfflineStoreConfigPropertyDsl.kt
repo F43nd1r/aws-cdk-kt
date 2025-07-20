@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnFeatureGroup
 
 @Generated
-public fun buildOfflineStoreConfigProperty(initializer: @AwsCdkDsl
-    CfnFeatureGroup.OfflineStoreConfigProperty.Builder.() -> Unit = {}):
-    CfnFeatureGroup.OfflineStoreConfigProperty =
-    CfnFeatureGroup.OfflineStoreConfigProperty.Builder().apply(initializer).build()
+public fun buildOfflineStoreConfigProperty(initializer: @AwsCdkDsl CfnFeatureGroup.OfflineStoreConfigProperty.Builder.() -> Unit = {}): CfnFeatureGroup.OfflineStoreConfigProperty = CfnFeatureGroup.OfflineStoreConfigProperty.Builder().apply(initializer).build()

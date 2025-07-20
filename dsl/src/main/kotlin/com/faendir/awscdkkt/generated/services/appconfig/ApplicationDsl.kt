@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.appconfig.ApplicationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.application(id: String, initializer: @AwsCdkDsl Application.() -> Unit = {}):
-    Application = Application(this, id).apply(initializer)
+public fun Construct.application(id: String, initializer: @AwsCdkDsl Application.() -> Unit = {}): Application = Application(this, id).apply(initializer)
 
 @Generated
 public fun Construct.application(
@@ -20,6 +19,4 @@ public fun Construct.application(
 ): Application = Application(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildApplication(id: String, initializer: @AwsCdkDsl
-    Application.Builder.() -> Unit = {}): Application = Application.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildApplication(id: String, initializer: @AwsCdkDsl Application.Builder.() -> Unit = {}): Application = Application.Builder.create(this, id).apply(initializer).build()

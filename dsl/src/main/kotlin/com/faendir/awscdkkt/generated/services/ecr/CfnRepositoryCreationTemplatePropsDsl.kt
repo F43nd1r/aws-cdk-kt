@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecr.CfnRepositoryCreationTemplateProps
 
 @Generated
-public fun buildCfnRepositoryCreationTemplateProps(initializer: @AwsCdkDsl
-    CfnRepositoryCreationTemplateProps.Builder.() -> Unit = {}): CfnRepositoryCreationTemplateProps
-    = CfnRepositoryCreationTemplateProps.Builder().apply(initializer).build()
+public fun buildCfnRepositoryCreationTemplateProps(initializer: @AwsCdkDsl CfnRepositoryCreationTemplateProps.Builder.() -> Unit = {}): CfnRepositoryCreationTemplateProps = CfnRepositoryCreationTemplateProps.Builder().apply(initializer).build()

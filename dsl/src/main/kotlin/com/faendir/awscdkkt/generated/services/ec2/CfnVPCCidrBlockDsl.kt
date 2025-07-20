@@ -16,6 +16,4 @@ public fun Construct.cfnVPCCidrBlock(
 ): CfnVPCCidrBlock = CfnVPCCidrBlock(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVPCCidrBlock(id: String, initializer: @AwsCdkDsl
-    CfnVPCCidrBlock.Builder.() -> Unit = {}): CfnVPCCidrBlock = CfnVPCCidrBlock.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnVPCCidrBlock(id: String, initializer: @AwsCdkDsl CfnVPCCidrBlock.Builder.() -> Unit = {}): CfnVPCCidrBlock = CfnVPCCidrBlock.Builder.create(this, id).apply(initializer).build()

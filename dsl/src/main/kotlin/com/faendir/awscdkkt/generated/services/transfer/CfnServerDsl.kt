@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.transfer.CfnServerProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnServer(id: String, initializer: @AwsCdkDsl CfnServer.() -> Unit = {}):
-    CfnServer = CfnServer(this, id).apply(initializer)
+public fun Construct.cfnServer(id: String, initializer: @AwsCdkDsl CfnServer.() -> Unit = {}): CfnServer = CfnServer(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnServer(
@@ -20,5 +19,4 @@ public fun Construct.cfnServer(
 ): CfnServer = CfnServer(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnServer(id: String, initializer: @AwsCdkDsl CfnServer.Builder.() -> Unit
-    = {}): CfnServer = CfnServer.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnServer(id: String, initializer: @AwsCdkDsl CfnServer.Builder.() -> Unit = {}): CfnServer = CfnServer.Builder.create(this, id).apply(initializer).build()

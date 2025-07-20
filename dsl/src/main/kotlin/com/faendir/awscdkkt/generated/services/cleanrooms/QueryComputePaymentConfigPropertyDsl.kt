@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cleanrooms.CfnCollaboration
 
 @Generated
-public fun buildQueryComputePaymentConfigProperty(initializer: @AwsCdkDsl
-    CfnCollaboration.QueryComputePaymentConfigProperty.Builder.() -> Unit = {}):
-    CfnCollaboration.QueryComputePaymentConfigProperty =
-    CfnCollaboration.QueryComputePaymentConfigProperty.Builder().apply(initializer).build()
+public fun buildQueryComputePaymentConfigProperty(initializer: @AwsCdkDsl CfnCollaboration.QueryComputePaymentConfigProperty.Builder.() -> Unit = {}): CfnCollaboration.QueryComputePaymentConfigProperty = CfnCollaboration.QueryComputePaymentConfigProperty.Builder().apply(initializer).build()

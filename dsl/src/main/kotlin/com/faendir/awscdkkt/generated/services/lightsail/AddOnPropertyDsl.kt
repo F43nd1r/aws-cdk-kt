@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lightsail.CfnInstance
 
 @Generated
-public fun buildAddOnProperty(initializer: @AwsCdkDsl CfnInstance.AddOnProperty.Builder.() -> Unit =
-    {}): CfnInstance.AddOnProperty = CfnInstance.AddOnProperty.Builder().apply(initializer).build()
+public fun buildAddOnProperty(initializer: @AwsCdkDsl CfnInstance.AddOnProperty.Builder.() -> Unit = {}): CfnInstance.AddOnProperty = CfnInstance.AddOnProperty.Builder().apply(initializer).build()

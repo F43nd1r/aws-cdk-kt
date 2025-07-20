@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.targets.AwsApiInput
 
 @Generated
-public fun buildAwsApiInput(initializer: @AwsCdkDsl AwsApiInput.Builder.() -> Unit = {}):
-    AwsApiInput = AwsApiInput.Builder().apply(initializer).build()
+public fun buildAwsApiInput(initializer: @AwsCdkDsl AwsApiInput.Builder.() -> Unit = {}): AwsApiInput = AwsApiInput.Builder().apply(initializer).build()

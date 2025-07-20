@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.CfnAddon
 
 @Generated
-public fun buildPodIdentityAssociationProperty(initializer: @AwsCdkDsl
-    CfnAddon.PodIdentityAssociationProperty.Builder.() -> Unit = {}):
-    CfnAddon.PodIdentityAssociationProperty =
-    CfnAddon.PodIdentityAssociationProperty.Builder().apply(initializer).build()
+public fun buildPodIdentityAssociationProperty(initializer: @AwsCdkDsl CfnAddon.PodIdentityAssociationProperty.Builder.() -> Unit = {}): CfnAddon.PodIdentityAssociationProperty = CfnAddon.PodIdentityAssociationProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnInferenceComponent(
 ): CfnInferenceComponent = CfnInferenceComponent(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnInferenceComponent(id: String, initializer: @AwsCdkDsl
-    CfnInferenceComponent.Builder.() -> Unit = {}): CfnInferenceComponent =
-    CfnInferenceComponent.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnInferenceComponent(id: String, initializer: @AwsCdkDsl CfnInferenceComponent.Builder.() -> Unit = {}): CfnInferenceComponent = CfnInferenceComponent.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnDashboard(
 ): CfnDashboard = CfnDashboard(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDashboard(id: String, initializer: @AwsCdkDsl
-    CfnDashboard.Builder.() -> Unit = {}): CfnDashboard = CfnDashboard.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnDashboard(id: String, initializer: @AwsCdkDsl CfnDashboard.Builder.() -> Unit = {}): CfnDashboard = CfnDashboard.Builder.create(this, id).apply(initializer).build()

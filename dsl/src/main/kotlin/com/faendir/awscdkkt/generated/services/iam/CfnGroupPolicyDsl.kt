@@ -16,6 +16,4 @@ public fun Construct.cfnGroupPolicy(
 ): CfnGroupPolicy = CfnGroupPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnGroupPolicy(id: String, initializer: @AwsCdkDsl
-    CfnGroupPolicy.Builder.() -> Unit = {}): CfnGroupPolicy = CfnGroupPolicy.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnGroupPolicy(id: String, initializer: @AwsCdkDsl CfnGroupPolicy.Builder.() -> Unit = {}): CfnGroupPolicy = CfnGroupPolicy.Builder.create(this, id).apply(initializer).build()

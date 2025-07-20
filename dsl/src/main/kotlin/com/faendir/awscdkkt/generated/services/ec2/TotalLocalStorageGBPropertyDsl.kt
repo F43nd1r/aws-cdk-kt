@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
-public fun buildTotalLocalStorageGBProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.TotalLocalStorageGBProperty.Builder.() -> Unit = {}):
-    CfnLaunchTemplate.TotalLocalStorageGBProperty =
-    CfnLaunchTemplate.TotalLocalStorageGBProperty.Builder().apply(initializer).build()
+public fun buildTotalLocalStorageGBProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.TotalLocalStorageGBProperty.Builder.() -> Unit = {}): CfnLaunchTemplate.TotalLocalStorageGBProperty = CfnLaunchTemplate.TotalLocalStorageGBProperty.Builder().apply(initializer).build()

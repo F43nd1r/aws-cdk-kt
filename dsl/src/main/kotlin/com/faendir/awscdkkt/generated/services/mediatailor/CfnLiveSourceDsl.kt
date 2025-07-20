@@ -16,6 +16,4 @@ public fun Construct.cfnLiveSource(
 ): CfnLiveSource = CfnLiveSource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLiveSource(id: String, initializer: @AwsCdkDsl
-    CfnLiveSource.Builder.() -> Unit = {}): CfnLiveSource = CfnLiveSource.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnLiveSource(id: String, initializer: @AwsCdkDsl CfnLiveSource.Builder.() -> Unit = {}): CfnLiveSource = CfnLiveSource.Builder.create(this, id).apply(initializer).build()

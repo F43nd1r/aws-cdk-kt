@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CloudFrontWebDistributionProps
 
 @Generated
-public fun buildCloudFrontWebDistributionProps(initializer: @AwsCdkDsl
-    CloudFrontWebDistributionProps.Builder.() -> Unit = {}): CloudFrontWebDistributionProps =
-    CloudFrontWebDistributionProps.Builder().apply(initializer).build()
+public fun buildCloudFrontWebDistributionProps(initializer: @AwsCdkDsl CloudFrontWebDistributionProps.Builder.() -> Unit = {}): CloudFrontWebDistributionProps = CloudFrontWebDistributionProps.Builder().apply(initializer).build()

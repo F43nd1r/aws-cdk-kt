@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.msk.CfnCluster
 
 @Generated
-public fun buildConnectivityInfoProperty(initializer: @AwsCdkDsl
-    CfnCluster.ConnectivityInfoProperty.Builder.() -> Unit = {}):
-    CfnCluster.ConnectivityInfoProperty =
-    CfnCluster.ConnectivityInfoProperty.Builder().apply(initializer).build()
+public fun buildConnectivityInfoProperty(initializer: @AwsCdkDsl CfnCluster.ConnectivityInfoProperty.Builder.() -> Unit = {}): CfnCluster.ConnectivityInfoProperty = CfnCluster.ConnectivityInfoProperty.Builder().apply(initializer).build()

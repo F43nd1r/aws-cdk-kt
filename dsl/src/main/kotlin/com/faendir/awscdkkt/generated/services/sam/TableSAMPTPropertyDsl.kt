@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
-public fun buildTableSAMPTProperty(initializer: @AwsCdkDsl
-    CfnFunction.TableSAMPTProperty.Builder.() -> Unit = {}): CfnFunction.TableSAMPTProperty =
-    CfnFunction.TableSAMPTProperty.Builder().apply(initializer).build()
+public fun buildTableSAMPTProperty(initializer: @AwsCdkDsl CfnFunction.TableSAMPTProperty.Builder.() -> Unit = {}): CfnFunction.TableSAMPTProperty = CfnFunction.TableSAMPTProperty.Builder().apply(initializer).build()

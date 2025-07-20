@@ -16,6 +16,4 @@ public fun Construct.cfnRecordSet(
 ): CfnRecordSet = CfnRecordSet(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRecordSet(id: String, initializer: @AwsCdkDsl
-    CfnRecordSet.Builder.() -> Unit = {}): CfnRecordSet = CfnRecordSet.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnRecordSet(id: String, initializer: @AwsCdkDsl CfnRecordSet.Builder.() -> Unit = {}): CfnRecordSet = CfnRecordSet.Builder.create(this, id).apply(initializer).build()

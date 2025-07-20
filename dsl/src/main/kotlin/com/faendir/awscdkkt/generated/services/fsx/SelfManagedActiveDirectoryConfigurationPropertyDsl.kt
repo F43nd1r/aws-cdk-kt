@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fsx.CfnStorageVirtualMachine
 
 @Generated
-public fun buildSelfManagedActiveDirectoryConfigurationProperty(initializer: @AwsCdkDsl
-    CfnStorageVirtualMachine.SelfManagedActiveDirectoryConfigurationProperty.Builder.() -> Unit =
-    {}): CfnStorageVirtualMachine.SelfManagedActiveDirectoryConfigurationProperty =
-    CfnStorageVirtualMachine.SelfManagedActiveDirectoryConfigurationProperty.Builder().apply(initializer).build()
+public fun buildSelfManagedActiveDirectoryConfigurationProperty(initializer: @AwsCdkDsl CfnStorageVirtualMachine.SelfManagedActiveDirectoryConfigurationProperty.Builder.() -> Unit = {}): CfnStorageVirtualMachine.SelfManagedActiveDirectoryConfigurationProperty = CfnStorageVirtualMachine.SelfManagedActiveDirectoryConfigurationProperty.Builder().apply(initializer).build()

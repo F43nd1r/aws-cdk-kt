@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicediscovery.IpInstanceProps
 
 @Generated
-public fun buildIpInstanceProps(initializer: @AwsCdkDsl IpInstanceProps.Builder.() -> Unit = {}):
-    IpInstanceProps = IpInstanceProps.Builder().apply(initializer).build()
+public fun buildIpInstanceProps(initializer: @AwsCdkDsl IpInstanceProps.Builder.() -> Unit = {}): IpInstanceProps = IpInstanceProps.Builder().apply(initializer).build()

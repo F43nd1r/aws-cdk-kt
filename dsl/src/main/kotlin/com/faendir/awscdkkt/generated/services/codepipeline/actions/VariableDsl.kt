@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.Variable
 
 @Generated
-public fun buildVariable(initializer: @AwsCdkDsl Variable.Builder.() -> Unit = {}): Variable =
-    Variable.Builder().apply(initializer).build()
+public fun buildVariable(initializer: @AwsCdkDsl Variable.Builder.() -> Unit = {}): Variable = Variable.Builder().apply(initializer).build()

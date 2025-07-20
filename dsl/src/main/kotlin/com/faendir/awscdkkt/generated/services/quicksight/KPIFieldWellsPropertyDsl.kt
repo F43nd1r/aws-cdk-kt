@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildKPIFieldWellsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.KPIFieldWellsProperty.Builder.() -> Unit = {}): CfnTemplate.KPIFieldWellsProperty =
-    CfnTemplate.KPIFieldWellsProperty.Builder().apply(initializer).build()
+public fun buildKPIFieldWellsProperty(initializer: @AwsCdkDsl CfnTemplate.KPIFieldWellsProperty.Builder.() -> Unit = {}): CfnTemplate.KPIFieldWellsProperty = CfnTemplate.KPIFieldWellsProperty.Builder().apply(initializer).build()

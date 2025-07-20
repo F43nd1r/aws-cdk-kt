@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
-public fun buildUntagColumnOperationProperty(initializer: @AwsCdkDsl
-    CfnDataSet.UntagColumnOperationProperty.Builder.() -> Unit = {}):
-    CfnDataSet.UntagColumnOperationProperty =
-    CfnDataSet.UntagColumnOperationProperty.Builder().apply(initializer).build()
+public fun buildUntagColumnOperationProperty(initializer: @AwsCdkDsl CfnDataSet.UntagColumnOperationProperty.Builder.() -> Unit = {}): CfnDataSet.UntagColumnOperationProperty = CfnDataSet.UntagColumnOperationProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.StepFunctionsStartExecutionJsonPathProps
 
 @Generated
-public fun buildStepFunctionsStartExecutionJsonPathProps(initializer: @AwsCdkDsl
-    StepFunctionsStartExecutionJsonPathProps.Builder.() -> Unit = {}):
-    StepFunctionsStartExecutionJsonPathProps =
-    StepFunctionsStartExecutionJsonPathProps.Builder().apply(initializer).build()
+public fun buildStepFunctionsStartExecutionJsonPathProps(initializer: @AwsCdkDsl StepFunctionsStartExecutionJsonPathProps.Builder.() -> Unit = {}): StepFunctionsStartExecutionJsonPathProps = StepFunctionsStartExecutionJsonPathProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appstream.CfnDirectoryConfig
 
 @Generated
-public fun buildCertificateBasedAuthPropertiesProperty(initializer: @AwsCdkDsl
-    CfnDirectoryConfig.CertificateBasedAuthPropertiesProperty.Builder.() -> Unit = {}):
-    CfnDirectoryConfig.CertificateBasedAuthPropertiesProperty =
-    CfnDirectoryConfig.CertificateBasedAuthPropertiesProperty.Builder().apply(initializer).build()
+public fun buildCertificateBasedAuthPropertiesProperty(initializer: @AwsCdkDsl CfnDirectoryConfig.CertificateBasedAuthPropertiesProperty.Builder.() -> Unit = {}): CfnDirectoryConfig.CertificateBasedAuthPropertiesProperty = CfnDirectoryConfig.CertificateBasedAuthPropertiesProperty.Builder().apply(initializer).build()

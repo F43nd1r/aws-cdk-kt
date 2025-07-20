@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opensearchservice.CfnDomain
 
 @Generated
-public fun buildLogPublishingOptionProperty(initializer: @AwsCdkDsl
-    CfnDomain.LogPublishingOptionProperty.Builder.() -> Unit = {}):
-    CfnDomain.LogPublishingOptionProperty =
-    CfnDomain.LogPublishingOptionProperty.Builder().apply(initializer).build()
+public fun buildLogPublishingOptionProperty(initializer: @AwsCdkDsl CfnDomain.LogPublishingOptionProperty.Builder.() -> Unit = {}): CfnDomain.LogPublishingOptionProperty = CfnDomain.LogPublishingOptionProperty.Builder().apply(initializer).build()

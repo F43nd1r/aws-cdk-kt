@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
-public fun buildHostEntryProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.HostEntryProperty.Builder.() -> Unit = {}):
-    CfnTaskDefinition.HostEntryProperty =
-    CfnTaskDefinition.HostEntryProperty.Builder().apply(initializer).build()
+public fun buildHostEntryProperty(initializer: @AwsCdkDsl CfnTaskDefinition.HostEntryProperty.Builder.() -> Unit = {}): CfnTaskDefinition.HostEntryProperty = CfnTaskDefinition.HostEntryProperty.Builder().apply(initializer).build()

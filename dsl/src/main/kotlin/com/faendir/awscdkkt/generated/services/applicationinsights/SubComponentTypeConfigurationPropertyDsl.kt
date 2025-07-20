@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.applicationinsights.CfnApplication
 
 @Generated
-public fun buildSubComponentTypeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnApplication.SubComponentTypeConfigurationProperty.Builder.() -> Unit = {}):
-    CfnApplication.SubComponentTypeConfigurationProperty =
-    CfnApplication.SubComponentTypeConfigurationProperty.Builder().apply(initializer).build()
+public fun buildSubComponentTypeConfigurationProperty(initializer: @AwsCdkDsl CfnApplication.SubComponentTypeConfigurationProperty.Builder.() -> Unit = {}): CfnApplication.SubComponentTypeConfigurationProperty = CfnApplication.SubComponentTypeConfigurationProperty.Builder().apply(initializer).build()

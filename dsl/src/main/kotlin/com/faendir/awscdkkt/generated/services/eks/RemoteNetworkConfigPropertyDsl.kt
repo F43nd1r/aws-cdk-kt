@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.CfnCluster
 
 @Generated
-public fun buildRemoteNetworkConfigProperty(initializer: @AwsCdkDsl
-    CfnCluster.RemoteNetworkConfigProperty.Builder.() -> Unit = {}):
-    CfnCluster.RemoteNetworkConfigProperty =
-    CfnCluster.RemoteNetworkConfigProperty.Builder().apply(initializer).build()
+public fun buildRemoteNetworkConfigProperty(initializer: @AwsCdkDsl CfnCluster.RemoteNetworkConfigProperty.Builder.() -> Unit = {}): CfnCluster.RemoteNetworkConfigProperty = CfnCluster.RemoteNetworkConfigProperty.Builder().apply(initializer).build()

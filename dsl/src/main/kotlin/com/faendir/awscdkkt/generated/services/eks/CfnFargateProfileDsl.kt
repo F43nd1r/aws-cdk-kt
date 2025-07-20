@@ -16,6 +16,4 @@ public fun Construct.cfnFargateProfile(
 ): CfnFargateProfile = CfnFargateProfile(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnFargateProfile(id: String, initializer: @AwsCdkDsl
-    CfnFargateProfile.Builder.() -> Unit = {}): CfnFargateProfile =
-    CfnFargateProfile.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnFargateProfile(id: String, initializer: @AwsCdkDsl CfnFargateProfile.Builder.() -> Unit = {}): CfnFargateProfile = CfnFargateProfile.Builder.create(this, id).apply(initializer).build()

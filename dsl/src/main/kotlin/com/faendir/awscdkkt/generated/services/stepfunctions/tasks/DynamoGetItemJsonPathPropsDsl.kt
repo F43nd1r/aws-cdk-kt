@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.DynamoGetItemJsonPathProps
 
 @Generated
-public fun buildDynamoGetItemJsonPathProps(initializer: @AwsCdkDsl
-    DynamoGetItemJsonPathProps.Builder.() -> Unit = {}): DynamoGetItemJsonPathProps =
-    DynamoGetItemJsonPathProps.Builder().apply(initializer).build()
+public fun buildDynamoGetItemJsonPathProps(initializer: @AwsCdkDsl DynamoGetItemJsonPathProps.Builder.() -> Unit = {}): DynamoGetItemJsonPathProps = DynamoGetItemJsonPathProps.Builder().apply(initializer).build()

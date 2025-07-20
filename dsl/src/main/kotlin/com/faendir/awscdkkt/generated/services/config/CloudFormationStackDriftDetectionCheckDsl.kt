@@ -9,20 +9,14 @@ import software.amazon.awscdk.services.config.CloudFormationStackDriftDetectionC
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cloudFormationStackDriftDetectionCheck(id: String, initializer: @AwsCdkDsl
-    CloudFormationStackDriftDetectionCheck.() -> Unit = {}): CloudFormationStackDriftDetectionCheck
-    = CloudFormationStackDriftDetectionCheck(this, id).apply(initializer)
+public fun Construct.cloudFormationStackDriftDetectionCheck(id: String, initializer: @AwsCdkDsl CloudFormationStackDriftDetectionCheck.() -> Unit = {}): CloudFormationStackDriftDetectionCheck = CloudFormationStackDriftDetectionCheck(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cloudFormationStackDriftDetectionCheck(
   id: String,
   props: CloudFormationStackDriftDetectionCheckProps,
   initializer: @AwsCdkDsl CloudFormationStackDriftDetectionCheck.() -> Unit = {},
-): CloudFormationStackDriftDetectionCheck = CloudFormationStackDriftDetectionCheck(this, id,
-    props).apply(initializer)
+): CloudFormationStackDriftDetectionCheck = CloudFormationStackDriftDetectionCheck(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCloudFormationStackDriftDetectionCheck(id: String, initializer: @AwsCdkDsl
-    CloudFormationStackDriftDetectionCheck.Builder.() -> Unit = {}):
-    CloudFormationStackDriftDetectionCheck =
-    CloudFormationStackDriftDetectionCheck.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCloudFormationStackDriftDetectionCheck(id: String, initializer: @AwsCdkDsl CloudFormationStackDriftDetectionCheck.Builder.() -> Unit = {}): CloudFormationStackDriftDetectionCheck = CloudFormationStackDriftDetectionCheck.Builder.create(this, id).apply(initializer).build()

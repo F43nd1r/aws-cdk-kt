@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildMpeg2SettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.Mpeg2SettingsProperty.Builder.() -> Unit = {}): CfnChannel.Mpeg2SettingsProperty =
-    CfnChannel.Mpeg2SettingsProperty.Builder().apply(initializer).build()
+public fun buildMpeg2SettingsProperty(initializer: @AwsCdkDsl CfnChannel.Mpeg2SettingsProperty.Builder.() -> Unit = {}): CfnChannel.Mpeg2SettingsProperty = CfnChannel.Mpeg2SettingsProperty.Builder().apply(initializer).build()

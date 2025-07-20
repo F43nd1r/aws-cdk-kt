@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnUserPoolRiskConfigurationAttachment
 
 @Generated
-public fun buildCompromisedCredentialsActionsTypeProperty(initializer: @AwsCdkDsl
-    CfnUserPoolRiskConfigurationAttachment.CompromisedCredentialsActionsTypeProperty.Builder.() -> Unit
-    = {}): CfnUserPoolRiskConfigurationAttachment.CompromisedCredentialsActionsTypeProperty =
-    CfnUserPoolRiskConfigurationAttachment.CompromisedCredentialsActionsTypeProperty.Builder().apply(initializer).build()
+public fun buildCompromisedCredentialsActionsTypeProperty(initializer: @AwsCdkDsl CfnUserPoolRiskConfigurationAttachment.CompromisedCredentialsActionsTypeProperty.Builder.() -> Unit = {}): CfnUserPoolRiskConfigurationAttachment.CompromisedCredentialsActionsTypeProperty = CfnUserPoolRiskConfigurationAttachment.CompromisedCredentialsActionsTypeProperty.Builder().apply(initializer).build()

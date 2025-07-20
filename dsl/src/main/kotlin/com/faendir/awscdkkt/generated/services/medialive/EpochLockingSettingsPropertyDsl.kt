@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildEpochLockingSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.EpochLockingSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.EpochLockingSettingsProperty =
-    CfnChannel.EpochLockingSettingsProperty.Builder().apply(initializer).build()
+public fun buildEpochLockingSettingsProperty(initializer: @AwsCdkDsl CfnChannel.EpochLockingSettingsProperty.Builder.() -> Unit = {}): CfnChannel.EpochLockingSettingsProperty = CfnChannel.EpochLockingSettingsProperty.Builder().apply(initializer).build()

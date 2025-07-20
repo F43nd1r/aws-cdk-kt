@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.ProxyTargetConfig
 
 @Generated
-public fun buildProxyTargetConfig(initializer: @AwsCdkDsl ProxyTargetConfig.Builder.() -> Unit =
-    {}): ProxyTargetConfig = ProxyTargetConfig.Builder().apply(initializer).build()
+public fun buildProxyTargetConfig(initializer: @AwsCdkDsl ProxyTargetConfig.Builder.() -> Unit = {}): ProxyTargetConfig = ProxyTargetConfig.Builder().apply(initializer).build()

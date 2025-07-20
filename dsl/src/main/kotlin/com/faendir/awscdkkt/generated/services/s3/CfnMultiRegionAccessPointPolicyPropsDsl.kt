@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnMultiRegionAccessPointPolicyProps
 
 @Generated
-public fun buildCfnMultiRegionAccessPointPolicyProps(initializer: @AwsCdkDsl
-    CfnMultiRegionAccessPointPolicyProps.Builder.() -> Unit = {}):
-    CfnMultiRegionAccessPointPolicyProps =
-    CfnMultiRegionAccessPointPolicyProps.Builder().apply(initializer).build()
+public fun buildCfnMultiRegionAccessPointPolicyProps(initializer: @AwsCdkDsl CfnMultiRegionAccessPointPolicyProps.Builder.() -> Unit = {}): CfnMultiRegionAccessPointPolicyProps = CfnMultiRegionAccessPointPolicyProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVerifiedAccessEndpoint
 
 @Generated
-public fun buildLoadBalancerOptionsProperty(initializer: @AwsCdkDsl
-    CfnVerifiedAccessEndpoint.LoadBalancerOptionsProperty.Builder.() -> Unit = {}):
-    CfnVerifiedAccessEndpoint.LoadBalancerOptionsProperty =
-    CfnVerifiedAccessEndpoint.LoadBalancerOptionsProperty.Builder().apply(initializer).build()
+public fun buildLoadBalancerOptionsProperty(initializer: @AwsCdkDsl CfnVerifiedAccessEndpoint.LoadBalancerOptionsProperty.Builder.() -> Unit = {}): CfnVerifiedAccessEndpoint.LoadBalancerOptionsProperty = CfnVerifiedAccessEndpoint.LoadBalancerOptionsProperty.Builder().apply(initializer).build()

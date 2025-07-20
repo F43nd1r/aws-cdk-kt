@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.internetmonitor.CfnMonitorProps
 
 @Generated
-public fun buildCfnMonitorProps(initializer: @AwsCdkDsl CfnMonitorProps.Builder.() -> Unit = {}):
-    CfnMonitorProps = CfnMonitorProps.Builder().apply(initializer).build()
+public fun buildCfnMonitorProps(initializer: @AwsCdkDsl CfnMonitorProps.Builder.() -> Unit = {}): CfnMonitorProps = CfnMonitorProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediaconnect.CfnGateway
 
 @Generated
-public fun buildGatewayNetworkProperty(initializer: @AwsCdkDsl
-    CfnGateway.GatewayNetworkProperty.Builder.() -> Unit = {}): CfnGateway.GatewayNetworkProperty =
-    CfnGateway.GatewayNetworkProperty.Builder().apply(initializer).build()
+public fun buildGatewayNetworkProperty(initializer: @AwsCdkDsl CfnGateway.GatewayNetworkProperty.Builder.() -> Unit = {}): CfnGateway.GatewayNetworkProperty = CfnGateway.GatewayNetworkProperty.Builder().apply(initializer).build()

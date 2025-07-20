@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.targets.SfnStateMachineProps
 
 @Generated
-public fun buildSfnStateMachineProps(initializer: @AwsCdkDsl SfnStateMachineProps.Builder.() -> Unit
-    = {}): SfnStateMachineProps = SfnStateMachineProps.Builder().apply(initializer).build()
+public fun buildSfnStateMachineProps(initializer: @AwsCdkDsl SfnStateMachineProps.Builder.() -> Unit = {}): SfnStateMachineProps = SfnStateMachineProps.Builder().apply(initializer).build()

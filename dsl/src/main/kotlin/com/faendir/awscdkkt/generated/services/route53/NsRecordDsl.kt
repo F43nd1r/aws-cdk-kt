@@ -16,5 +16,4 @@ public fun Construct.nsRecord(
 ): NsRecord = NsRecord(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildNsRecord(id: String, initializer: @AwsCdkDsl NsRecord.Builder.() -> Unit =
-    {}): NsRecord = NsRecord.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildNsRecord(id: String, initializer: @AwsCdkDsl NsRecord.Builder.() -> Unit = {}): NsRecord = NsRecord.Builder.create(this, id).apply(initializer).build()

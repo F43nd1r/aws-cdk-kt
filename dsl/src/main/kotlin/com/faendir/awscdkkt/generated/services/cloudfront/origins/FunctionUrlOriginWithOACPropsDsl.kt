@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.origins.FunctionUrlOriginWithOACProps
 
 @Generated
-public fun buildFunctionUrlOriginWithOACProps(initializer: @AwsCdkDsl
-    FunctionUrlOriginWithOACProps.Builder.() -> Unit = {}): FunctionUrlOriginWithOACProps =
-    FunctionUrlOriginWithOACProps.Builder().apply(initializer).build()
+public fun buildFunctionUrlOriginWithOACProps(initializer: @AwsCdkDsl FunctionUrlOriginWithOACProps.Builder.() -> Unit = {}): FunctionUrlOriginWithOACProps = FunctionUrlOriginWithOACProps.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnPatchBaseline(
 ): CfnPatchBaseline = CfnPatchBaseline(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPatchBaseline(id: String, initializer: @AwsCdkDsl
-    CfnPatchBaseline.Builder.() -> Unit = {}): CfnPatchBaseline =
-    CfnPatchBaseline.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPatchBaseline(id: String, initializer: @AwsCdkDsl CfnPatchBaseline.Builder.() -> Unit = {}): CfnPatchBaseline = CfnPatchBaseline.Builder.create(this, id).apply(initializer).build()

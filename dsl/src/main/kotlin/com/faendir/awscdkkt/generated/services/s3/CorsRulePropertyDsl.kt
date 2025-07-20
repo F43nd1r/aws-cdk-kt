@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
-public fun buildCorsRuleProperty(initializer: @AwsCdkDsl
-    CfnBucket.CorsRuleProperty.Builder.() -> Unit = {}): CfnBucket.CorsRuleProperty =
-    CfnBucket.CorsRuleProperty.Builder().apply(initializer).build()
+public fun buildCorsRuleProperty(initializer: @AwsCdkDsl CfnBucket.CorsRuleProperty.Builder.() -> Unit = {}): CfnBucket.CorsRuleProperty = CfnBucket.CorsRuleProperty.Builder().apply(initializer).build()

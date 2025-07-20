@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnConfigurationSet
 
 @Generated
-public fun buildReputationOptionsProperty(initializer: @AwsCdkDsl
-    CfnConfigurationSet.ReputationOptionsProperty.Builder.() -> Unit = {}):
-    CfnConfigurationSet.ReputationOptionsProperty =
-    CfnConfigurationSet.ReputationOptionsProperty.Builder().apply(initializer).build()
+public fun buildReputationOptionsProperty(initializer: @AwsCdkDsl CfnConfigurationSet.ReputationOptionsProperty.Builder.() -> Unit = {}): CfnConfigurationSet.ReputationOptionsProperty = CfnConfigurationSet.ReputationOptionsProperty.Builder().apply(initializer).build()

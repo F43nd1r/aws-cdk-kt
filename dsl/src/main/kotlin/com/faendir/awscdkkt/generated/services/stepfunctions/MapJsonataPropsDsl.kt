@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.MapJsonataProps
 
 @Generated
-public fun buildMapJsonataProps(initializer: @AwsCdkDsl MapJsonataProps.Builder.() -> Unit = {}):
-    MapJsonataProps = MapJsonataProps.Builder().apply(initializer).build()
+public fun buildMapJsonataProps(initializer: @AwsCdkDsl MapJsonataProps.Builder.() -> Unit = {}): MapJsonataProps = MapJsonataProps.Builder().apply(initializer).build()

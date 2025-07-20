@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkfirewall.CfnFirewallPolicy
 
 @Generated
-public fun buildStatefulRuleGroupOverrideProperty(initializer: @AwsCdkDsl
-    CfnFirewallPolicy.StatefulRuleGroupOverrideProperty.Builder.() -> Unit = {}):
-    CfnFirewallPolicy.StatefulRuleGroupOverrideProperty =
-    CfnFirewallPolicy.StatefulRuleGroupOverrideProperty.Builder().apply(initializer).build()
+public fun buildStatefulRuleGroupOverrideProperty(initializer: @AwsCdkDsl CfnFirewallPolicy.StatefulRuleGroupOverrideProperty.Builder.() -> Unit = {}): CfnFirewallPolicy.StatefulRuleGroupOverrideProperty = CfnFirewallPolicy.StatefulRuleGroupOverrideProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.billingconductor.CfnBillingGroup
 
 @Generated
-public fun buildAccountGroupingProperty(initializer: @AwsCdkDsl
-    CfnBillingGroup.AccountGroupingProperty.Builder.() -> Unit = {}):
-    CfnBillingGroup.AccountGroupingProperty =
-    CfnBillingGroup.AccountGroupingProperty.Builder().apply(initializer).build()
+public fun buildAccountGroupingProperty(initializer: @AwsCdkDsl CfnBillingGroup.AccountGroupingProperty.Builder.() -> Unit = {}): CfnBillingGroup.AccountGroupingProperty = CfnBillingGroup.AccountGroupingProperty.Builder().apply(initializer).build()

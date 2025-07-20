@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.AppSyncBackedDataSourceProps
 
 @Generated
-public fun buildAppSyncBackedDataSourceProps(initializer: @AwsCdkDsl
-    AppSyncBackedDataSourceProps.Builder.() -> Unit = {}): AppSyncBackedDataSourceProps =
-    AppSyncBackedDataSourceProps.Builder().apply(initializer).build()
+public fun buildAppSyncBackedDataSourceProps(initializer: @AwsCdkDsl AppSyncBackedDataSourceProps.Builder.() -> Unit = {}): AppSyncBackedDataSourceProps = AppSyncBackedDataSourceProps.Builder().apply(initializer).build()

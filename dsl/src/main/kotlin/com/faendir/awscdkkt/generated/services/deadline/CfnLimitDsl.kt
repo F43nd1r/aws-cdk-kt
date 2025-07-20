@@ -16,5 +16,4 @@ public fun Construct.cfnLimit(
 ): CfnLimit = CfnLimit(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLimit(id: String, initializer: @AwsCdkDsl CfnLimit.Builder.() -> Unit =
-    {}): CfnLimit = CfnLimit.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLimit(id: String, initializer: @AwsCdkDsl CfnLimit.Builder.() -> Unit = {}): CfnLimit = CfnLimit.Builder.create(this, id).apply(initializer).build()

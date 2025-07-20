@@ -16,6 +16,4 @@ public fun Construct.cnameInstance(
 ): CnameInstance = CnameInstance(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCnameInstance(id: String, initializer: @AwsCdkDsl
-    CnameInstance.Builder.() -> Unit = {}): CnameInstance = CnameInstance.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCnameInstance(id: String, initializer: @AwsCdkDsl CnameInstance.Builder.() -> Unit = {}): CnameInstance = CnameInstance.Builder.create(this, id).apply(initializer).build()

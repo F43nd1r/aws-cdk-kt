@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildAnywhereSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.AnywhereSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.AnywhereSettingsProperty =
-    CfnChannel.AnywhereSettingsProperty.Builder().apply(initializer).build()
+public fun buildAnywhereSettingsProperty(initializer: @AwsCdkDsl CfnChannel.AnywhereSettingsProperty.Builder.() -> Unit = {}): CfnChannel.AnywhereSettingsProperty = CfnChannel.AnywhereSettingsProperty.Builder().apply(initializer).build()

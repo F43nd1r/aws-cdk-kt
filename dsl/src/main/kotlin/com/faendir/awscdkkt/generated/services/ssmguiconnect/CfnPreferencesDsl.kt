@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.ssmguiconnect.CfnPreferencesProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnPreferences(id: String, initializer: @AwsCdkDsl CfnPreferences.() -> Unit =
-    {}): CfnPreferences = CfnPreferences(this, id).apply(initializer)
+public fun Construct.cfnPreferences(id: String, initializer: @AwsCdkDsl CfnPreferences.() -> Unit = {}): CfnPreferences = CfnPreferences(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnPreferences(
@@ -20,6 +19,4 @@ public fun Construct.cfnPreferences(
 ): CfnPreferences = CfnPreferences(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPreferences(id: String, initializer: @AwsCdkDsl
-    CfnPreferences.Builder.() -> Unit = {}): CfnPreferences = CfnPreferences.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnPreferences(id: String, initializer: @AwsCdkDsl CfnPreferences.Builder.() -> Unit = {}): CfnPreferences = CfnPreferences.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnResourceSet(
 ): CfnResourceSet = CfnResourceSet(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnResourceSet(id: String, initializer: @AwsCdkDsl
-    CfnResourceSet.Builder.() -> Unit = {}): CfnResourceSet = CfnResourceSet.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnResourceSet(id: String, initializer: @AwsCdkDsl CfnResourceSet.Builder.() -> Unit = {}): CfnResourceSet = CfnResourceSet.Builder.create(this, id).apply(initializer).build()

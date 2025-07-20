@@ -13,11 +13,7 @@ public fun Construct.cfnUserPoolUICustomizationAttachment(
   id: String,
   props: CfnUserPoolUICustomizationAttachmentProps,
   initializer: @AwsCdkDsl CfnUserPoolUICustomizationAttachment.() -> Unit = {},
-): CfnUserPoolUICustomizationAttachment = CfnUserPoolUICustomizationAttachment(this, id,
-    props).apply(initializer)
+): CfnUserPoolUICustomizationAttachment = CfnUserPoolUICustomizationAttachment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnUserPoolUICustomizationAttachment(id: String, initializer: @AwsCdkDsl
-    CfnUserPoolUICustomizationAttachment.Builder.() -> Unit = {}):
-    CfnUserPoolUICustomizationAttachment = CfnUserPoolUICustomizationAttachment.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnUserPoolUICustomizationAttachment(id: String, initializer: @AwsCdkDsl CfnUserPoolUICustomizationAttachment.Builder.() -> Unit = {}): CfnUserPoolUICustomizationAttachment = CfnUserPoolUICustomizationAttachment.Builder.create(this, id).apply(initializer).build()

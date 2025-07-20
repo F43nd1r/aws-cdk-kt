@@ -9,9 +9,7 @@ import software.amazon.awscdk.CfnPublicTypeVersionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnPublicTypeVersion(id: String, initializer: @AwsCdkDsl
-    CfnPublicTypeVersion.() -> Unit = {}): CfnPublicTypeVersion = CfnPublicTypeVersion(this,
-    id).apply(initializer)
+public fun Construct.cfnPublicTypeVersion(id: String, initializer: @AwsCdkDsl CfnPublicTypeVersion.() -> Unit = {}): CfnPublicTypeVersion = CfnPublicTypeVersion(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnPublicTypeVersion(
@@ -21,6 +19,4 @@ public fun Construct.cfnPublicTypeVersion(
 ): CfnPublicTypeVersion = CfnPublicTypeVersion(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPublicTypeVersion(id: String, initializer: @AwsCdkDsl
-    CfnPublicTypeVersion.Builder.() -> Unit = {}): CfnPublicTypeVersion =
-    CfnPublicTypeVersion.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPublicTypeVersion(id: String, initializer: @AwsCdkDsl CfnPublicTypeVersion.Builder.() -> Unit = {}): CfnPublicTypeVersion = CfnPublicTypeVersion.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.CfnRoutingRule
 
 @Generated
-public fun buildConditionProperty(initializer: @AwsCdkDsl
-    CfnRoutingRule.ConditionProperty.Builder.() -> Unit = {}): CfnRoutingRule.ConditionProperty =
-    CfnRoutingRule.ConditionProperty.Builder().apply(initializer).build()
+public fun buildConditionProperty(initializer: @AwsCdkDsl CfnRoutingRule.ConditionProperty.Builder.() -> Unit = {}): CfnRoutingRule.ConditionProperty = CfnRoutingRule.ConditionProperty.Builder().apply(initializer).build()

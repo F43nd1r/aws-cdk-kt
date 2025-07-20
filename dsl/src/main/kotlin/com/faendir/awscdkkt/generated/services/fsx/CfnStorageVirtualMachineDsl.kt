@@ -16,6 +16,4 @@ public fun Construct.cfnStorageVirtualMachine(
 ): CfnStorageVirtualMachine = CfnStorageVirtualMachine(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnStorageVirtualMachine(id: String, initializer: @AwsCdkDsl
-    CfnStorageVirtualMachine.Builder.() -> Unit = {}): CfnStorageVirtualMachine =
-    CfnStorageVirtualMachine.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnStorageVirtualMachine(id: String, initializer: @AwsCdkDsl CfnStorageVirtualMachine.Builder.() -> Unit = {}): CfnStorageVirtualMachine = CfnStorageVirtualMachine.Builder.create(this, id).apply(initializer).build()

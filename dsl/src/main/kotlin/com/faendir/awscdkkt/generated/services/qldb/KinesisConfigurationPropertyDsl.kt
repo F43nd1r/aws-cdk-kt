@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qldb.CfnStream
 
 @Generated
-public fun buildKinesisConfigurationProperty(initializer: @AwsCdkDsl
-    CfnStream.KinesisConfigurationProperty.Builder.() -> Unit = {}):
-    CfnStream.KinesisConfigurationProperty =
-    CfnStream.KinesisConfigurationProperty.Builder().apply(initializer).build()
+public fun buildKinesisConfigurationProperty(initializer: @AwsCdkDsl CfnStream.KinesisConfigurationProperty.Builder.() -> Unit = {}): CfnStream.KinesisConfigurationProperty = CfnStream.KinesisConfigurationProperty.Builder().apply(initializer).build()

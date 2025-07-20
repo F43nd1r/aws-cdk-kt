@@ -16,5 +16,4 @@ public fun Construct.method(
 ): Method = Method(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildMethod(id: String, initializer: @AwsCdkDsl Method.Builder.() -> Unit =
-    {}): Method = Method.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildMethod(id: String, initializer: @AwsCdkDsl Method.Builder.() -> Unit = {}): Method = Method.Builder.create(this, id).apply(initializer).build()

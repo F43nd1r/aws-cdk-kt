@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.ArchiveProps
 
 @Generated
-public fun buildArchiveProps(initializer: @AwsCdkDsl ArchiveProps.Builder.() -> Unit = {}):
-    ArchiveProps = ArchiveProps.Builder().apply(initializer).build()
+public fun buildArchiveProps(initializer: @AwsCdkDsl ArchiveProps.Builder.() -> Unit = {}): ArchiveProps = ArchiveProps.Builder().apply(initializer).build()

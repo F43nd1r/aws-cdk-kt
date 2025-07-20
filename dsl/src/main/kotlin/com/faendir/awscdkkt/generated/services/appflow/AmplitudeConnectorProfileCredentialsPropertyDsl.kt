@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnConnectorProfile
 
 @Generated
-public fun buildAmplitudeConnectorProfileCredentialsProperty(initializer: @AwsCdkDsl
-    CfnConnectorProfile.AmplitudeConnectorProfileCredentialsProperty.Builder.() -> Unit = {}):
-    CfnConnectorProfile.AmplitudeConnectorProfileCredentialsProperty =
-    CfnConnectorProfile.AmplitudeConnectorProfileCredentialsProperty.Builder().apply(initializer).build()
+public fun buildAmplitudeConnectorProfileCredentialsProperty(initializer: @AwsCdkDsl CfnConnectorProfile.AmplitudeConnectorProfileCredentialsProperty.Builder.() -> Unit = {}): CfnConnectorProfile.AmplitudeConnectorProfileCredentialsProperty = CfnConnectorProfile.AmplitudeConnectorProfileCredentialsProperty.Builder().apply(initializer).build()

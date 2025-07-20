@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.CustomActionRegistrationProps
 
 @Generated
-public fun buildCustomActionRegistrationProps(initializer: @AwsCdkDsl
-    CustomActionRegistrationProps.Builder.() -> Unit = {}): CustomActionRegistrationProps =
-    CustomActionRegistrationProps.Builder().apply(initializer).build()
+public fun buildCustomActionRegistrationProps(initializer: @AwsCdkDsl CustomActionRegistrationProps.Builder.() -> Unit = {}): CustomActionRegistrationProps = CustomActionRegistrationProps.Builder().apply(initializer).build()

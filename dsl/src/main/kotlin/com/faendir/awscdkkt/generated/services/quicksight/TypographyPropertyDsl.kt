@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTheme
 
 @Generated
-public fun buildTypographyProperty(initializer: @AwsCdkDsl
-    CfnTheme.TypographyProperty.Builder.() -> Unit = {}): CfnTheme.TypographyProperty =
-    CfnTheme.TypographyProperty.Builder().apply(initializer).build()
+public fun buildTypographyProperty(initializer: @AwsCdkDsl CfnTheme.TypographyProperty.Builder.() -> Unit = {}): CfnTheme.TypographyProperty = CfnTheme.TypographyProperty.Builder().apply(initializer).build()

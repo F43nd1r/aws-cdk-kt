@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkmanager.CfnConnectPeer
 
 @Generated
-public fun buildConnectPeerBgpConfigurationProperty(initializer: @AwsCdkDsl
-    CfnConnectPeer.ConnectPeerBgpConfigurationProperty.Builder.() -> Unit = {}):
-    CfnConnectPeer.ConnectPeerBgpConfigurationProperty =
-    CfnConnectPeer.ConnectPeerBgpConfigurationProperty.Builder().apply(initializer).build()
+public fun buildConnectPeerBgpConfigurationProperty(initializer: @AwsCdkDsl CfnConnectPeer.ConnectPeerBgpConfigurationProperty.Builder.() -> Unit = {}): CfnConnectPeer.ConnectPeerBgpConfigurationProperty = CfnConnectPeer.ConnectPeerBgpConfigurationProperty.Builder().apply(initializer).build()

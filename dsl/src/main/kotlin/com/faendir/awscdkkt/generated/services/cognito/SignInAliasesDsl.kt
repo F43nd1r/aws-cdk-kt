@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.SignInAliases
 
 @Generated
-public fun buildSignInAliases(initializer: @AwsCdkDsl SignInAliases.Builder.() -> Unit = {}):
-    SignInAliases = SignInAliases.Builder().apply(initializer).build()
+public fun buildSignInAliases(initializer: @AwsCdkDsl SignInAliases.Builder.() -> Unit = {}): SignInAliases = SignInAliases.Builder().apply(initializer).build()

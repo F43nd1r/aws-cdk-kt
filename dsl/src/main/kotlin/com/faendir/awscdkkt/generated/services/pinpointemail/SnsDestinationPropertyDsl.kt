@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpointemail.CfnConfigurationSetEventDestination
 
 @Generated
-public fun buildSnsDestinationProperty(initializer: @AwsCdkDsl
-    CfnConfigurationSetEventDestination.SnsDestinationProperty.Builder.() -> Unit = {}):
-    CfnConfigurationSetEventDestination.SnsDestinationProperty =
-    CfnConfigurationSetEventDestination.SnsDestinationProperty.Builder().apply(initializer).build()
+public fun buildSnsDestinationProperty(initializer: @AwsCdkDsl CfnConfigurationSetEventDestination.SnsDestinationProperty.Builder.() -> Unit = {}): CfnConfigurationSetEventDestination.SnsDestinationProperty = CfnConfigurationSetEventDestination.SnsDestinationProperty.Builder().apply(initializer).build()

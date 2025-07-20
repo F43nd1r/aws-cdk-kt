@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
-public fun buildCustomSqlProperty(initializer: @AwsCdkDsl
-    CfnDataSet.CustomSqlProperty.Builder.() -> Unit = {}): CfnDataSet.CustomSqlProperty =
-    CfnDataSet.CustomSqlProperty.Builder().apply(initializer).build()
+public fun buildCustomSqlProperty(initializer: @AwsCdkDsl CfnDataSet.CustomSqlProperty.Builder.() -> Unit = {}): CfnDataSet.CustomSqlProperty = CfnDataSet.CustomSqlProperty.Builder().apply(initializer).build()

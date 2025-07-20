@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.DockerVolume
 
 @Generated
-public fun buildDockerVolume(initializer: @AwsCdkDsl DockerVolume.Builder.() -> Unit = {}):
-    DockerVolume = DockerVolume.Builder().apply(initializer).build()
+public fun buildDockerVolume(initializer: @AwsCdkDsl DockerVolume.Builder.() -> Unit = {}): DockerVolume = DockerVolume.Builder().apply(initializer).build()

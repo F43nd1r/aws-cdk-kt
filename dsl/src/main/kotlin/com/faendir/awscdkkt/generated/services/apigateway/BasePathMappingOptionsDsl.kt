@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.BasePathMappingOptions
 
 @Generated
-public fun buildBasePathMappingOptions(initializer: @AwsCdkDsl
-    BasePathMappingOptions.Builder.() -> Unit = {}): BasePathMappingOptions =
-    BasePathMappingOptions.Builder().apply(initializer).build()
+public fun buildBasePathMappingOptions(initializer: @AwsCdkDsl BasePathMappingOptions.Builder.() -> Unit = {}): BasePathMappingOptions = BasePathMappingOptions.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.identitypool.IdentityPoolFacebookLoginProvider
 
 @Generated
-public fun buildIdentityPoolFacebookLoginProvider(initializer: @AwsCdkDsl
-    IdentityPoolFacebookLoginProvider.Builder.() -> Unit = {}): IdentityPoolFacebookLoginProvider =
-    IdentityPoolFacebookLoginProvider.Builder().apply(initializer).build()
+public fun buildIdentityPoolFacebookLoginProvider(initializer: @AwsCdkDsl IdentityPoolFacebookLoginProvider.Builder.() -> Unit = {}): IdentityPoolFacebookLoginProvider = IdentityPoolFacebookLoginProvider.Builder().apply(initializer).build()

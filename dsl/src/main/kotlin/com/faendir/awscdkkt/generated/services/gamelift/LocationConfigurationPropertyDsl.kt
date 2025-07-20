@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnFleet
 
 @Generated
-public fun buildLocationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFleet.LocationConfigurationProperty.Builder.() -> Unit = {}):
-    CfnFleet.LocationConfigurationProperty =
-    CfnFleet.LocationConfigurationProperty.Builder().apply(initializer).build()
+public fun buildLocationConfigurationProperty(initializer: @AwsCdkDsl CfnFleet.LocationConfigurationProperty.Builder.() -> Unit = {}): CfnFleet.LocationConfigurationProperty = CfnFleet.LocationConfigurationProperty.Builder().apply(initializer).build()

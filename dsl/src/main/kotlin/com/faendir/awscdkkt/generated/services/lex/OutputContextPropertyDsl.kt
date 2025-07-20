@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildOutputContextProperty(initializer: @AwsCdkDsl
-    CfnBot.OutputContextProperty.Builder.() -> Unit = {}): CfnBot.OutputContextProperty =
-    CfnBot.OutputContextProperty.Builder().apply(initializer).build()
+public fun buildOutputContextProperty(initializer: @AwsCdkDsl CfnBot.OutputContextProperty.Builder.() -> Unit = {}): CfnBot.OutputContextProperty = CfnBot.OutputContextProperty.Builder().apply(initializer).build()

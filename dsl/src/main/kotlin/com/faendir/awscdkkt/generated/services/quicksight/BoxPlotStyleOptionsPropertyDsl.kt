@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildBoxPlotStyleOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.BoxPlotStyleOptionsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.BoxPlotStyleOptionsProperty =
-    CfnTemplate.BoxPlotStyleOptionsProperty.Builder().apply(initializer).build()
+public fun buildBoxPlotStyleOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.BoxPlotStyleOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.BoxPlotStyleOptionsProperty = CfnTemplate.BoxPlotStyleOptionsProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnMetricStream(
 ): CfnMetricStream = CfnMetricStream(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMetricStream(id: String, initializer: @AwsCdkDsl
-    CfnMetricStream.Builder.() -> Unit = {}): CfnMetricStream = CfnMetricStream.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnMetricStream(id: String, initializer: @AwsCdkDsl CfnMetricStream.Builder.() -> Unit = {}): CfnMetricStream = CfnMetricStream.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnMultiRegionAccessPoint(
 ): CfnMultiRegionAccessPoint = CfnMultiRegionAccessPoint(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMultiRegionAccessPoint(id: String, initializer: @AwsCdkDsl
-    CfnMultiRegionAccessPoint.Builder.() -> Unit = {}): CfnMultiRegionAccessPoint =
-    CfnMultiRegionAccessPoint.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMultiRegionAccessPoint(id: String, initializer: @AwsCdkDsl CfnMultiRegionAccessPoint.Builder.() -> Unit = {}): CfnMultiRegionAccessPoint = CfnMultiRegionAccessPoint.Builder.create(this, id).apply(initializer).build()

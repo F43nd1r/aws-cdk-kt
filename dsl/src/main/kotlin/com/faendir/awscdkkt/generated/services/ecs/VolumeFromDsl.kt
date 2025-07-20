@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.VolumeFrom
 
 @Generated
-public fun buildVolumeFrom(initializer: @AwsCdkDsl VolumeFrom.Builder.() -> Unit = {}): VolumeFrom =
-    VolumeFrom.Builder().apply(initializer).build()
+public fun buildVolumeFrom(initializer: @AwsCdkDsl VolumeFrom.Builder.() -> Unit = {}): VolumeFrom = VolumeFrom.Builder().apply(initializer).build()

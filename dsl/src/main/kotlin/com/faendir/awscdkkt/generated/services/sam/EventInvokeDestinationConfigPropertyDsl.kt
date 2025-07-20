@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
-public fun buildEventInvokeDestinationConfigProperty(initializer: @AwsCdkDsl
-    CfnFunction.EventInvokeDestinationConfigProperty.Builder.() -> Unit = {}):
-    CfnFunction.EventInvokeDestinationConfigProperty =
-    CfnFunction.EventInvokeDestinationConfigProperty.Builder().apply(initializer).build()
+public fun buildEventInvokeDestinationConfigProperty(initializer: @AwsCdkDsl CfnFunction.EventInvokeDestinationConfigProperty.Builder.() -> Unit = {}): CfnFunction.EventInvokeDestinationConfigProperty = CfnFunction.EventInvokeDestinationConfigProperty.Builder().apply(initializer).build()

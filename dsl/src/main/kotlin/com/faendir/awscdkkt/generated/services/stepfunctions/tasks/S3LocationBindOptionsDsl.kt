@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.S3LocationBindOptions
 
 @Generated
-public fun buildS3LocationBindOptions(initializer: @AwsCdkDsl
-    S3LocationBindOptions.Builder.() -> Unit = {}): S3LocationBindOptions =
-    S3LocationBindOptions.Builder().apply(initializer).build()
+public fun buildS3LocationBindOptions(initializer: @AwsCdkDsl S3LocationBindOptions.Builder.() -> Unit = {}): S3LocationBindOptions = S3LocationBindOptions.Builder().apply(initializer).build()

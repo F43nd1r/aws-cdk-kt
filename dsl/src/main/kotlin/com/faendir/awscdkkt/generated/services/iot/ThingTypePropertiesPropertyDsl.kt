@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnThingType
 
 @Generated
-public fun buildThingTypePropertiesProperty(initializer: @AwsCdkDsl
-    CfnThingType.ThingTypePropertiesProperty.Builder.() -> Unit = {}):
-    CfnThingType.ThingTypePropertiesProperty =
-    CfnThingType.ThingTypePropertiesProperty.Builder().apply(initializer).build()
+public fun buildThingTypePropertiesProperty(initializer: @AwsCdkDsl CfnThingType.ThingTypePropertiesProperty.Builder.() -> Unit = {}): CfnThingType.ThingTypePropertiesProperty = CfnThingType.ThingTypePropertiesProperty.Builder().apply(initializer).build()

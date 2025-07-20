@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.CfnRecordSetGroupProps
 
 @Generated
-public fun buildCfnRecordSetGroupProps(initializer: @AwsCdkDsl
-    CfnRecordSetGroupProps.Builder.() -> Unit = {}): CfnRecordSetGroupProps =
-    CfnRecordSetGroupProps.Builder().apply(initializer).build()
+public fun buildCfnRecordSetGroupProps(initializer: @AwsCdkDsl CfnRecordSetGroupProps.Builder.() -> Unit = {}): CfnRecordSetGroupProps = CfnRecordSetGroupProps.Builder().apply(initializer).build()

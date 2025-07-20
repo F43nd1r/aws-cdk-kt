@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.ResponseHeadersContentTypeOptions
 
 @Generated
-public fun buildResponseHeadersContentTypeOptions(initializer: @AwsCdkDsl
-    ResponseHeadersContentTypeOptions.Builder.() -> Unit = {}): ResponseHeadersContentTypeOptions =
-    ResponseHeadersContentTypeOptions.Builder().apply(initializer).build()
+public fun buildResponseHeadersContentTypeOptions(initializer: @AwsCdkDsl ResponseHeadersContentTypeOptions.Builder.() -> Unit = {}): ResponseHeadersContentTypeOptions = ResponseHeadersContentTypeOptions.Builder().apply(initializer).build()

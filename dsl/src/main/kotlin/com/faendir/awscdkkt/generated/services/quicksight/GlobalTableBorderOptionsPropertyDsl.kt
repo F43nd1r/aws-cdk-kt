@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildGlobalTableBorderOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.GlobalTableBorderOptionsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.GlobalTableBorderOptionsProperty =
-    CfnTemplate.GlobalTableBorderOptionsProperty.Builder().apply(initializer).build()
+public fun buildGlobalTableBorderOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.GlobalTableBorderOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.GlobalTableBorderOptionsProperty = CfnTemplate.GlobalTableBorderOptionsProperty.Builder().apply(initializer).build()

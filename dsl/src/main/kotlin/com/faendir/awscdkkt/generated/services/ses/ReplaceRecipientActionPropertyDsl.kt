@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnMailManagerRuleSet
 
 @Generated
-public fun buildReplaceRecipientActionProperty(initializer: @AwsCdkDsl
-    CfnMailManagerRuleSet.ReplaceRecipientActionProperty.Builder.() -> Unit = {}):
-    CfnMailManagerRuleSet.ReplaceRecipientActionProperty =
-    CfnMailManagerRuleSet.ReplaceRecipientActionProperty.Builder().apply(initializer).build()
+public fun buildReplaceRecipientActionProperty(initializer: @AwsCdkDsl CfnMailManagerRuleSet.ReplaceRecipientActionProperty.Builder.() -> Unit = {}): CfnMailManagerRuleSet.ReplaceRecipientActionProperty = CfnMailManagerRuleSet.ReplaceRecipientActionProperty.Builder().apply(initializer).build()

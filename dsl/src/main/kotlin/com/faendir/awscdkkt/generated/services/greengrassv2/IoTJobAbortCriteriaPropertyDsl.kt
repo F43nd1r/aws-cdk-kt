@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.greengrassv2.CfnDeployment
 
 @Generated
-public fun buildIoTJobAbortCriteriaProperty(initializer: @AwsCdkDsl
-    CfnDeployment.IoTJobAbortCriteriaProperty.Builder.() -> Unit = {}):
-    CfnDeployment.IoTJobAbortCriteriaProperty =
-    CfnDeployment.IoTJobAbortCriteriaProperty.Builder().apply(initializer).build()
+public fun buildIoTJobAbortCriteriaProperty(initializer: @AwsCdkDsl CfnDeployment.IoTJobAbortCriteriaProperty.Builder.() -> Unit = {}): CfnDeployment.IoTJobAbortCriteriaProperty = CfnDeployment.IoTJobAbortCriteriaProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicediscovery.ServiceProps
 
 @Generated
-public fun buildServiceProps(initializer: @AwsCdkDsl ServiceProps.Builder.() -> Unit = {}):
-    ServiceProps = ServiceProps.Builder().apply(initializer).build()
+public fun buildServiceProps(initializer: @AwsCdkDsl ServiceProps.Builder.() -> Unit = {}): ServiceProps = ServiceProps.Builder().apply(initializer).build()

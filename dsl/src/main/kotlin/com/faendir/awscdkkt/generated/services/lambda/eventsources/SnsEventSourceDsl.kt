@@ -7,6 +7,4 @@ import software.amazon.awscdk.services.lambda.eventsources.SnsEventSource
 import software.amazon.awscdk.services.sns.ITopic
 
 @Generated
-public fun buildSnsEventSource(topic: ITopic, initializer: @AwsCdkDsl
-    SnsEventSource.Builder.() -> Unit = {}): SnsEventSource =
-    SnsEventSource.Builder.create(topic).apply(initializer).build()
+public fun buildSnsEventSource(topic: ITopic, initializer: @AwsCdkDsl SnsEventSource.Builder.() -> Unit = {}): SnsEventSource = SnsEventSource.Builder.create(topic).apply(initializer).build()

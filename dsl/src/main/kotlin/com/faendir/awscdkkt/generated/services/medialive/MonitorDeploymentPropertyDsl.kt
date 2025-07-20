@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnSignalMap
 
 @Generated
-public fun buildMonitorDeploymentProperty(initializer: @AwsCdkDsl
-    CfnSignalMap.MonitorDeploymentProperty.Builder.() -> Unit = {}):
-    CfnSignalMap.MonitorDeploymentProperty =
-    CfnSignalMap.MonitorDeploymentProperty.Builder().apply(initializer).build()
+public fun buildMonitorDeploymentProperty(initializer: @AwsCdkDsl CfnSignalMap.MonitorDeploymentProperty.Builder.() -> Unit = {}): CfnSignalMap.MonitorDeploymentProperty = CfnSignalMap.MonitorDeploymentProperty.Builder().apply(initializer).build()

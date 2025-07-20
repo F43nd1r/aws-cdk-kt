@@ -16,6 +16,4 @@ public fun Construct.cfnCoreDefinition(
 ): CfnCoreDefinition = CfnCoreDefinition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCoreDefinition(id: String, initializer: @AwsCdkDsl
-    CfnCoreDefinition.Builder.() -> Unit = {}): CfnCoreDefinition =
-    CfnCoreDefinition.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCoreDefinition(id: String, initializer: @AwsCdkDsl CfnCoreDefinition.Builder.() -> Unit = {}): CfnCoreDefinition = CfnCoreDefinition.Builder.create(this, id).apply(initializer).build()

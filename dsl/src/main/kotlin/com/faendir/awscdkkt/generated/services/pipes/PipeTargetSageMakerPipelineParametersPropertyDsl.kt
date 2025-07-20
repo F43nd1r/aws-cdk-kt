@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildPipeTargetSageMakerPipelineParametersProperty(initializer: @AwsCdkDsl
-    CfnPipe.PipeTargetSageMakerPipelineParametersProperty.Builder.() -> Unit = {}):
-    CfnPipe.PipeTargetSageMakerPipelineParametersProperty =
-    CfnPipe.PipeTargetSageMakerPipelineParametersProperty.Builder().apply(initializer).build()
+public fun buildPipeTargetSageMakerPipelineParametersProperty(initializer: @AwsCdkDsl CfnPipe.PipeTargetSageMakerPipelineParametersProperty.Builder.() -> Unit = {}): CfnPipe.PipeTargetSageMakerPipelineParametersProperty = CfnPipe.PipeTargetSageMakerPipelineParametersProperty.Builder().apply(initializer).build()

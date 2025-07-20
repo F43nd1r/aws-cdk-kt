@@ -16,6 +16,4 @@ public fun Construct.cfnTrafficMirrorSession(
 ): CfnTrafficMirrorSession = CfnTrafficMirrorSession(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTrafficMirrorSession(id: String, initializer: @AwsCdkDsl
-    CfnTrafficMirrorSession.Builder.() -> Unit = {}): CfnTrafficMirrorSession =
-    CfnTrafficMirrorSession.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTrafficMirrorSession(id: String, initializer: @AwsCdkDsl CfnTrafficMirrorSession.Builder.() -> Unit = {}): CfnTrafficMirrorSession = CfnTrafficMirrorSession.Builder.create(this, id).apply(initializer).build()

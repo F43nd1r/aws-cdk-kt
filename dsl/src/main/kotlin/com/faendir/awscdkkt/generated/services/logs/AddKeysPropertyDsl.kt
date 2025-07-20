@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnTransformer
 
 @Generated
-public fun buildAddKeysProperty(initializer: @AwsCdkDsl
-    CfnTransformer.AddKeysProperty.Builder.() -> Unit = {}): CfnTransformer.AddKeysProperty =
-    CfnTransformer.AddKeysProperty.Builder().apply(initializer).build()
+public fun buildAddKeysProperty(initializer: @AwsCdkDsl CfnTransformer.AddKeysProperty.Builder.() -> Unit = {}): CfnTransformer.AddKeysProperty = CfnTransformer.AddKeysProperty.Builder().apply(initializer).build()

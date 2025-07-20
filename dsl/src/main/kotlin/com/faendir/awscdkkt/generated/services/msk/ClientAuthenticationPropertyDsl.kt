@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.msk.CfnServerlessCluster
 
 @Generated
-public fun buildClientAuthenticationProperty(initializer: @AwsCdkDsl
-    CfnServerlessCluster.ClientAuthenticationProperty.Builder.() -> Unit = {}):
-    CfnServerlessCluster.ClientAuthenticationProperty =
-    CfnServerlessCluster.ClientAuthenticationProperty.Builder().apply(initializer).build()
+public fun buildClientAuthenticationProperty(initializer: @AwsCdkDsl CfnServerlessCluster.ClientAuthenticationProperty.Builder.() -> Unit = {}): CfnServerlessCluster.ClientAuthenticationProperty = CfnServerlessCluster.ClientAuthenticationProperty.Builder().apply(initializer).build()

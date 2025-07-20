@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildBatchJobDependencyProperty(initializer: @AwsCdkDsl
-    CfnPipe.BatchJobDependencyProperty.Builder.() -> Unit = {}): CfnPipe.BatchJobDependencyProperty
-    = CfnPipe.BatchJobDependencyProperty.Builder().apply(initializer).build()
+public fun buildBatchJobDependencyProperty(initializer: @AwsCdkDsl CfnPipe.BatchJobDependencyProperty.Builder.() -> Unit = {}): CfnPipe.BatchJobDependencyProperty = CfnPipe.BatchJobDependencyProperty.Builder().apply(initializer).build()

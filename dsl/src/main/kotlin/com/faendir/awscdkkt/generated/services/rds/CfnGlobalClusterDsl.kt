@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.rds.CfnGlobalClusterProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnGlobalCluster(id: String, initializer: @AwsCdkDsl
-    CfnGlobalCluster.() -> Unit = {}): CfnGlobalCluster = CfnGlobalCluster(this,
-    id).apply(initializer)
+public fun Construct.cfnGlobalCluster(id: String, initializer: @AwsCdkDsl CfnGlobalCluster.() -> Unit = {}): CfnGlobalCluster = CfnGlobalCluster(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnGlobalCluster(
@@ -21,6 +19,4 @@ public fun Construct.cfnGlobalCluster(
 ): CfnGlobalCluster = CfnGlobalCluster(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnGlobalCluster(id: String, initializer: @AwsCdkDsl
-    CfnGlobalCluster.Builder.() -> Unit = {}): CfnGlobalCluster =
-    CfnGlobalCluster.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnGlobalCluster(id: String, initializer: @AwsCdkDsl CfnGlobalCluster.Builder.() -> Unit = {}): CfnGlobalCluster = CfnGlobalCluster.Builder.create(this, id).apply(initializer).build()

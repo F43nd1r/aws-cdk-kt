@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnOwnerProps
 
 @Generated
-public fun buildCfnOwnerProps(initializer: @AwsCdkDsl CfnOwnerProps.Builder.() -> Unit = {}):
-    CfnOwnerProps = CfnOwnerProps.Builder().apply(initializer).build()
+public fun buildCfnOwnerProps(initializer: @AwsCdkDsl CfnOwnerProps.Builder.() -> Unit = {}): CfnOwnerProps = CfnOwnerProps.Builder().apply(initializer).build()

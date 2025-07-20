@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
-public fun buildAmplitudeSourcePropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.AmplitudeSourcePropertiesProperty.Builder.() -> Unit = {}):
-    CfnFlow.AmplitudeSourcePropertiesProperty =
-    CfnFlow.AmplitudeSourcePropertiesProperty.Builder().apply(initializer).build()
+public fun buildAmplitudeSourcePropertiesProperty(initializer: @AwsCdkDsl CfnFlow.AmplitudeSourcePropertiesProperty.Builder.() -> Unit = {}): CfnFlow.AmplitudeSourcePropertiesProperty = CfnFlow.AmplitudeSourcePropertiesProperty.Builder().apply(initializer).build()

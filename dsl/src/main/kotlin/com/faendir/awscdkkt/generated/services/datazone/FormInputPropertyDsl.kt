@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnDataSource
 
 @Generated
-public fun buildFormInputProperty(initializer: @AwsCdkDsl
-    CfnDataSource.FormInputProperty.Builder.() -> Unit = {}): CfnDataSource.FormInputProperty =
-    CfnDataSource.FormInputProperty.Builder().apply(initializer).build()
+public fun buildFormInputProperty(initializer: @AwsCdkDsl CfnDataSource.FormInputProperty.Builder.() -> Unit = {}): CfnDataSource.FormInputProperty = CfnDataSource.FormInputProperty.Builder().apply(initializer).build()

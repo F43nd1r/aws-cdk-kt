@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.FieldIndexPolicy
 
 @Generated
-public fun buildFieldIndexPolicy(initializer: @AwsCdkDsl FieldIndexPolicy.Builder.() -> Unit = {}):
-    FieldIndexPolicy = FieldIndexPolicy.Builder.create().apply(initializer).build()
+public fun buildFieldIndexPolicy(initializer: @AwsCdkDsl FieldIndexPolicy.Builder.() -> Unit = {}): FieldIndexPolicy = FieldIndexPolicy.Builder.create().apply(initializer).build()

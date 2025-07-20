@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.greengrass.CfnResourceDefinitionVersion
 
 @Generated
-public fun buildLocalDeviceResourceDataProperty(initializer: @AwsCdkDsl
-    CfnResourceDefinitionVersion.LocalDeviceResourceDataProperty.Builder.() -> Unit = {}):
-    CfnResourceDefinitionVersion.LocalDeviceResourceDataProperty =
-    CfnResourceDefinitionVersion.LocalDeviceResourceDataProperty.Builder().apply(initializer).build()
+public fun buildLocalDeviceResourceDataProperty(initializer: @AwsCdkDsl CfnResourceDefinitionVersion.LocalDeviceResourceDataProperty.Builder.() -> Unit = {}): CfnResourceDefinitionVersion.LocalDeviceResourceDataProperty = CfnResourceDefinitionVersion.LocalDeviceResourceDataProperty.Builder().apply(initializer).build()

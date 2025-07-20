@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnVirtualNode
 
 @Generated
-public fun buildVirtualNodeSpecProperty(initializer: @AwsCdkDsl
-    CfnVirtualNode.VirtualNodeSpecProperty.Builder.() -> Unit = {}):
-    CfnVirtualNode.VirtualNodeSpecProperty =
-    CfnVirtualNode.VirtualNodeSpecProperty.Builder().apply(initializer).build()
+public fun buildVirtualNodeSpecProperty(initializer: @AwsCdkDsl CfnVirtualNode.VirtualNodeSpecProperty.Builder.() -> Unit = {}): CfnVirtualNode.VirtualNodeSpecProperty = CfnVirtualNode.VirtualNodeSpecProperty.Builder().apply(initializer).build()

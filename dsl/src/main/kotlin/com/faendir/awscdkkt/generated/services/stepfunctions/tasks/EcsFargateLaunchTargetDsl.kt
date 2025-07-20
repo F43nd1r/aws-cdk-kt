@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EcsFargateLaunchTarget
 
 @Generated
-public fun buildEcsFargateLaunchTarget(initializer: @AwsCdkDsl
-    EcsFargateLaunchTarget.Builder.() -> Unit = {}): EcsFargateLaunchTarget =
-    EcsFargateLaunchTarget.Builder.create().apply(initializer).build()
+public fun buildEcsFargateLaunchTarget(initializer: @AwsCdkDsl EcsFargateLaunchTarget.Builder.() -> Unit = {}): EcsFargateLaunchTarget = EcsFargateLaunchTarget.Builder.create().apply(initializer).build()

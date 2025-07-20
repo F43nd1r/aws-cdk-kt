@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnGameSessionQueue
 
 @Generated
-public fun buildPriorityConfigurationProperty(initializer: @AwsCdkDsl
-    CfnGameSessionQueue.PriorityConfigurationProperty.Builder.() -> Unit = {}):
-    CfnGameSessionQueue.PriorityConfigurationProperty =
-    CfnGameSessionQueue.PriorityConfigurationProperty.Builder().apply(initializer).build()
+public fun buildPriorityConfigurationProperty(initializer: @AwsCdkDsl CfnGameSessionQueue.PriorityConfigurationProperty.Builder.() -> Unit = {}): CfnGameSessionQueue.PriorityConfigurationProperty = CfnGameSessionQueue.PriorityConfigurationProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cleanrooms.CfnConfiguredTable
 
 @Generated
-public fun buildAnalysisRuleCustomProperty(initializer: @AwsCdkDsl
-    CfnConfiguredTable.AnalysisRuleCustomProperty.Builder.() -> Unit = {}):
-    CfnConfiguredTable.AnalysisRuleCustomProperty =
-    CfnConfiguredTable.AnalysisRuleCustomProperty.Builder().apply(initializer).build()
+public fun buildAnalysisRuleCustomProperty(initializer: @AwsCdkDsl CfnConfiguredTable.AnalysisRuleCustomProperty.Builder.() -> Unit = {}): CfnConfiguredTable.AnalysisRuleCustomProperty = CfnConfiguredTable.AnalysisRuleCustomProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediaconnect.CfnFlow
 
 @Generated
-public fun buildVideoMonitoringSettingProperty(initializer: @AwsCdkDsl
-    CfnFlow.VideoMonitoringSettingProperty.Builder.() -> Unit = {}):
-    CfnFlow.VideoMonitoringSettingProperty =
-    CfnFlow.VideoMonitoringSettingProperty.Builder().apply(initializer).build()
+public fun buildVideoMonitoringSettingProperty(initializer: @AwsCdkDsl CfnFlow.VideoMonitoringSettingProperty.Builder.() -> Unit = {}): CfnFlow.VideoMonitoringSettingProperty = CfnFlow.VideoMonitoringSettingProperty.Builder().apply(initializer).build()

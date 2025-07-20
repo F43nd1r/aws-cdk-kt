@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.neptune.CfnEventSubscriptionProps
 
 @Generated
-public fun buildCfnEventSubscriptionProps(initializer: @AwsCdkDsl
-    CfnEventSubscriptionProps.Builder.() -> Unit = {}): CfnEventSubscriptionProps =
-    CfnEventSubscriptionProps.Builder().apply(initializer).build()
+public fun buildCfnEventSubscriptionProps(initializer: @AwsCdkDsl CfnEventSubscriptionProps.Builder.() -> Unit = {}): CfnEventSubscriptionProps = CfnEventSubscriptionProps.Builder().apply(initializer).build()

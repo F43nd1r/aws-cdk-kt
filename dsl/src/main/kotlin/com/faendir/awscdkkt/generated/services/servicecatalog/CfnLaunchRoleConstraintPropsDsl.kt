@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicecatalog.CfnLaunchRoleConstraintProps
 
 @Generated
-public fun buildCfnLaunchRoleConstraintProps(initializer: @AwsCdkDsl
-    CfnLaunchRoleConstraintProps.Builder.() -> Unit = {}): CfnLaunchRoleConstraintProps =
-    CfnLaunchRoleConstraintProps.Builder().apply(initializer).build()
+public fun buildCfnLaunchRoleConstraintProps(initializer: @AwsCdkDsl CfnLaunchRoleConstraintProps.Builder.() -> Unit = {}): CfnLaunchRoleConstraintProps = CfnLaunchRoleConstraintProps.Builder().apply(initializer).build()

@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.deadline.CfnMeteredProductProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnMeteredProduct(id: String, initializer: @AwsCdkDsl
-    CfnMeteredProduct.() -> Unit = {}): CfnMeteredProduct = CfnMeteredProduct(this,
-    id).apply(initializer)
+public fun Construct.cfnMeteredProduct(id: String, initializer: @AwsCdkDsl CfnMeteredProduct.() -> Unit = {}): CfnMeteredProduct = CfnMeteredProduct(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnMeteredProduct(
@@ -21,6 +19,4 @@ public fun Construct.cfnMeteredProduct(
 ): CfnMeteredProduct = CfnMeteredProduct(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMeteredProduct(id: String, initializer: @AwsCdkDsl
-    CfnMeteredProduct.Builder.() -> Unit = {}): CfnMeteredProduct =
-    CfnMeteredProduct.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMeteredProduct(id: String, initializer: @AwsCdkDsl CfnMeteredProduct.Builder.() -> Unit = {}): CfnMeteredProduct = CfnMeteredProduct.Builder.create(this, id).apply(initializer).build()

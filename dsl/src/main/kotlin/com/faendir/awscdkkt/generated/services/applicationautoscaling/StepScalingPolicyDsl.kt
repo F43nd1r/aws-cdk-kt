@@ -16,6 +16,4 @@ public fun Construct.stepScalingPolicy(
 ): StepScalingPolicy = StepScalingPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildStepScalingPolicy(id: String, initializer: @AwsCdkDsl
-    StepScalingPolicy.Builder.() -> Unit = {}): StepScalingPolicy =
-    StepScalingPolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildStepScalingPolicy(id: String, initializer: @AwsCdkDsl StepScalingPolicy.Builder.() -> Unit = {}): StepScalingPolicy = StepScalingPolicy.Builder.create(this, id).apply(initializer).build()

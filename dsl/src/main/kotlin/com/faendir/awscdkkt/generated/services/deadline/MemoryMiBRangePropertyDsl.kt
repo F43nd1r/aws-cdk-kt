@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.deadline.CfnFleet
 
 @Generated
-public fun buildMemoryMiBRangeProperty(initializer: @AwsCdkDsl
-    CfnFleet.MemoryMiBRangeProperty.Builder.() -> Unit = {}): CfnFleet.MemoryMiBRangeProperty =
-    CfnFleet.MemoryMiBRangeProperty.Builder().apply(initializer).build()
+public fun buildMemoryMiBRangeProperty(initializer: @AwsCdkDsl CfnFleet.MemoryMiBRangeProperty.Builder.() -> Unit = {}): CfnFleet.MemoryMiBRangeProperty = CfnFleet.MemoryMiBRangeProperty.Builder().apply(initializer).build()

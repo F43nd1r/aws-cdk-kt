@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVPCEndpointServicePermissionsProps
 
 @Generated
-public fun buildCfnVPCEndpointServicePermissionsProps(initializer: @AwsCdkDsl
-    CfnVPCEndpointServicePermissionsProps.Builder.() -> Unit = {}):
-    CfnVPCEndpointServicePermissionsProps =
-    CfnVPCEndpointServicePermissionsProps.Builder().apply(initializer).build()
+public fun buildCfnVPCEndpointServicePermissionsProps(initializer: @AwsCdkDsl CfnVPCEndpointServicePermissionsProps.Builder.() -> Unit = {}): CfnVPCEndpointServicePermissionsProps = CfnVPCEndpointServicePermissionsProps.Builder().apply(initializer).build()

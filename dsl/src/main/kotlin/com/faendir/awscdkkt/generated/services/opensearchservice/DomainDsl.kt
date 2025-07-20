@@ -16,5 +16,4 @@ public fun Construct.domain(
 ): Domain = Domain(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildDomain(id: String, initializer: @AwsCdkDsl Domain.Builder.() -> Unit =
-    {}): Domain = Domain.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildDomain(id: String, initializer: @AwsCdkDsl Domain.Builder.() -> Unit = {}): Domain = Domain.Builder.create(this, id).apply(initializer).build()

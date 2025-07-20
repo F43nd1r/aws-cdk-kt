@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.FindStateOptions
 
 @Generated
-public fun buildFindStateOptions(initializer: @AwsCdkDsl FindStateOptions.Builder.() -> Unit = {}):
-    FindStateOptions = FindStateOptions.Builder().apply(initializer).build()
+public fun buildFindStateOptions(initializer: @AwsCdkDsl FindStateOptions.Builder.() -> Unit = {}): FindStateOptions = FindStateOptions.Builder().apply(initializer).build()

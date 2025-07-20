@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.DataProcessorProps
 
 @Generated
-public fun buildDataProcessorProps(initializer: @AwsCdkDsl DataProcessorProps.Builder.() -> Unit =
-    {}): DataProcessorProps = DataProcessorProps.Builder().apply(initializer).build()
+public fun buildDataProcessorProps(initializer: @AwsCdkDsl DataProcessorProps.Builder.() -> Unit = {}): DataProcessorProps = DataProcessorProps.Builder().apply(initializer).build()

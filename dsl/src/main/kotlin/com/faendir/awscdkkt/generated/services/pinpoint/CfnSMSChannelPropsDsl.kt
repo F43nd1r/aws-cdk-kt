@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnSMSChannelProps
 
 @Generated
-public fun buildCfnSMSChannelProps(initializer: @AwsCdkDsl CfnSMSChannelProps.Builder.() -> Unit =
-    {}): CfnSMSChannelProps = CfnSMSChannelProps.Builder().apply(initializer).build()
+public fun buildCfnSMSChannelProps(initializer: @AwsCdkDsl CfnSMSChannelProps.Builder.() -> Unit = {}): CfnSMSChannelProps = CfnSMSChannelProps.Builder().apply(initializer).build()

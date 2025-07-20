@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticache.CfnUser
 
 @Generated
-public fun buildAuthenticationModeProperty(initializer: @AwsCdkDsl
-    CfnUser.AuthenticationModeProperty.Builder.() -> Unit = {}): CfnUser.AuthenticationModeProperty
-    = CfnUser.AuthenticationModeProperty.Builder().apply(initializer).build()
+public fun buildAuthenticationModeProperty(initializer: @AwsCdkDsl CfnUser.AuthenticationModeProperty.Builder.() -> Unit = {}): CfnUser.AuthenticationModeProperty = CfnUser.AuthenticationModeProperty.Builder().apply(initializer).build()

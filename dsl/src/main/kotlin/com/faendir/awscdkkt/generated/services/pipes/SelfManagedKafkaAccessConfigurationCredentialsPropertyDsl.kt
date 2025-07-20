@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildSelfManagedKafkaAccessConfigurationCredentialsProperty(initializer: @AwsCdkDsl
-    CfnPipe.SelfManagedKafkaAccessConfigurationCredentialsProperty.Builder.() -> Unit = {}):
-    CfnPipe.SelfManagedKafkaAccessConfigurationCredentialsProperty =
-    CfnPipe.SelfManagedKafkaAccessConfigurationCredentialsProperty.Builder().apply(initializer).build()
+public fun buildSelfManagedKafkaAccessConfigurationCredentialsProperty(initializer: @AwsCdkDsl CfnPipe.SelfManagedKafkaAccessConfigurationCredentialsProperty.Builder.() -> Unit = {}): CfnPipe.SelfManagedKafkaAccessConfigurationCredentialsProperty = CfnPipe.SelfManagedKafkaAccessConfigurationCredentialsProperty.Builder().apply(initializer).build()

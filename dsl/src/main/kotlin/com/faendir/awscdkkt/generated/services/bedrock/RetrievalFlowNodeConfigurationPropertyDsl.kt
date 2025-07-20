@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnFlowVersion
 
 @Generated
-public fun buildRetrievalFlowNodeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFlowVersion.RetrievalFlowNodeConfigurationProperty.Builder.() -> Unit = {}):
-    CfnFlowVersion.RetrievalFlowNodeConfigurationProperty =
-    CfnFlowVersion.RetrievalFlowNodeConfigurationProperty.Builder().apply(initializer).build()
+public fun buildRetrievalFlowNodeConfigurationProperty(initializer: @AwsCdkDsl CfnFlowVersion.RetrievalFlowNodeConfigurationProperty.Builder.() -> Unit = {}): CfnFlowVersion.RetrievalFlowNodeConfigurationProperty = CfnFlowVersion.RetrievalFlowNodeConfigurationProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.msk.CfnCluster
 
 @Generated
-public fun buildJmxExporterProperty(initializer: @AwsCdkDsl
-    CfnCluster.JmxExporterProperty.Builder.() -> Unit = {}): CfnCluster.JmxExporterProperty =
-    CfnCluster.JmxExporterProperty.Builder().apply(initializer).build()
+public fun buildJmxExporterProperty(initializer: @AwsCdkDsl CfnCluster.JmxExporterProperty.Builder.() -> Unit = {}): CfnCluster.JmxExporterProperty = CfnCluster.JmxExporterProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnRoute
 
 @Generated
-public fun buildHttpPathMatchProperty(initializer: @AwsCdkDsl
-    CfnRoute.HttpPathMatchProperty.Builder.() -> Unit = {}): CfnRoute.HttpPathMatchProperty =
-    CfnRoute.HttpPathMatchProperty.Builder().apply(initializer).build()
+public fun buildHttpPathMatchProperty(initializer: @AwsCdkDsl CfnRoute.HttpPathMatchProperty.Builder.() -> Unit = {}): CfnRoute.HttpPathMatchProperty = CfnRoute.HttpPathMatchProperty.Builder().apply(initializer).build()

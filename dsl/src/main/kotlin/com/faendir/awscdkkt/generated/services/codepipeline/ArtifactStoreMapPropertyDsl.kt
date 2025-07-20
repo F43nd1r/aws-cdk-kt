@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.CfnPipeline
 
 @Generated
-public fun buildArtifactStoreMapProperty(initializer: @AwsCdkDsl
-    CfnPipeline.ArtifactStoreMapProperty.Builder.() -> Unit = {}):
-    CfnPipeline.ArtifactStoreMapProperty =
-    CfnPipeline.ArtifactStoreMapProperty.Builder().apply(initializer).build()
+public fun buildArtifactStoreMapProperty(initializer: @AwsCdkDsl CfnPipeline.ArtifactStoreMapProperty.Builder.() -> Unit = {}): CfnPipeline.ArtifactStoreMapProperty = CfnPipeline.ArtifactStoreMapProperty.Builder().apply(initializer).build()

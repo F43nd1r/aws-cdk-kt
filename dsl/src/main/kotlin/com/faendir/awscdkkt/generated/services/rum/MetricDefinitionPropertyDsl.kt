@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rum.CfnAppMonitor
 
 @Generated
-public fun buildMetricDefinitionProperty(initializer: @AwsCdkDsl
-    CfnAppMonitor.MetricDefinitionProperty.Builder.() -> Unit = {}):
-    CfnAppMonitor.MetricDefinitionProperty =
-    CfnAppMonitor.MetricDefinitionProperty.Builder().apply(initializer).build()
+public fun buildMetricDefinitionProperty(initializer: @AwsCdkDsl CfnAppMonitor.MetricDefinitionProperty.Builder.() -> Unit = {}): CfnAppMonitor.MetricDefinitionProperty = CfnAppMonitor.MetricDefinitionProperty.Builder().apply(initializer).build()

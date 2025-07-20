@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildThousandSeparatorOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ThousandSeparatorOptionsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.ThousandSeparatorOptionsProperty =
-    CfnTemplate.ThousandSeparatorOptionsProperty.Builder().apply(initializer).build()
+public fun buildThousandSeparatorOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.ThousandSeparatorOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.ThousandSeparatorOptionsProperty = CfnTemplate.ThousandSeparatorOptionsProperty.Builder().apply(initializer).build()

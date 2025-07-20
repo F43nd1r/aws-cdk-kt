@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.billingconductor.CfnBillingGroup
 
 @Generated
-public fun buildComputationPreferenceProperty(initializer: @AwsCdkDsl
-    CfnBillingGroup.ComputationPreferenceProperty.Builder.() -> Unit = {}):
-    CfnBillingGroup.ComputationPreferenceProperty =
-    CfnBillingGroup.ComputationPreferenceProperty.Builder().apply(initializer).build()
+public fun buildComputationPreferenceProperty(initializer: @AwsCdkDsl CfnBillingGroup.ComputationPreferenceProperty.Builder.() -> Unit = {}): CfnBillingGroup.ComputationPreferenceProperty = CfnBillingGroup.ComputationPreferenceProperty.Builder().apply(initializer).build()

@@ -16,5 +16,4 @@ public fun Construct.cfnRecipe(
 ): CfnRecipe = CfnRecipe(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRecipe(id: String, initializer: @AwsCdkDsl CfnRecipe.Builder.() -> Unit
-    = {}): CfnRecipe = CfnRecipe.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRecipe(id: String, initializer: @AwsCdkDsl CfnRecipe.Builder.() -> Unit = {}): CfnRecipe = CfnRecipe.Builder.create(this, id).apply(initializer).build()

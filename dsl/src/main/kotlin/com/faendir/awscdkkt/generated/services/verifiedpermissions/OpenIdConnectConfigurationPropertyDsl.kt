@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.verifiedpermissions.CfnIdentitySource
 
 @Generated
-public fun buildOpenIdConnectConfigurationProperty(initializer: @AwsCdkDsl
-    CfnIdentitySource.OpenIdConnectConfigurationProperty.Builder.() -> Unit = {}):
-    CfnIdentitySource.OpenIdConnectConfigurationProperty =
-    CfnIdentitySource.OpenIdConnectConfigurationProperty.Builder().apply(initializer).build()
+public fun buildOpenIdConnectConfigurationProperty(initializer: @AwsCdkDsl CfnIdentitySource.OpenIdConnectConfigurationProperty.Builder.() -> Unit = {}): CfnIdentitySource.OpenIdConnectConfigurationProperty = CfnIdentitySource.OpenIdConnectConfigurationProperty.Builder().apply(initializer).build()

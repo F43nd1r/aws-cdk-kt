@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.AddRoutesOptions
 
 @Generated
-public fun buildAddRoutesOptions(initializer: @AwsCdkDsl AddRoutesOptions.Builder.() -> Unit = {}):
-    AddRoutesOptions = AddRoutesOptions.Builder().apply(initializer).build()
+public fun buildAddRoutesOptions(initializer: @AwsCdkDsl AddRoutesOptions.Builder.() -> Unit = {}): AddRoutesOptions = AddRoutesOptions.Builder().apply(initializer).build()

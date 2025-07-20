@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.CfnTable
 
 @Generated
-public fun buildS3BucketSourceProperty(initializer: @AwsCdkDsl
-    CfnTable.S3BucketSourceProperty.Builder.() -> Unit = {}): CfnTable.S3BucketSourceProperty =
-    CfnTable.S3BucketSourceProperty.Builder().apply(initializer).build()
+public fun buildS3BucketSourceProperty(initializer: @AwsCdkDsl CfnTable.S3BucketSourceProperty.Builder.() -> Unit = {}): CfnTable.S3BucketSourceProperty = CfnTable.S3BucketSourceProperty.Builder().apply(initializer).build()

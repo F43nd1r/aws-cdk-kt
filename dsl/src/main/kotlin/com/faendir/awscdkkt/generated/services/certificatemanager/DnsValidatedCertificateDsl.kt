@@ -12,8 +12,7 @@ import software.amazon.awscdk.services.certificatemanager.DnsValidatedCertificat
 import software.amazon.awscdk.services.certificatemanager.DnsValidatedCertificateProps
 import software.constructs.Construct
 
-@Deprecated(message =
-    "software.amazon.awscdk.services.certificatemanager.DnsValidatedCertificate is deprecated in CDK.")
+@Deprecated(message = "software.amazon.awscdk.services.certificatemanager.DnsValidatedCertificate is deprecated in CDK.")
 @Generated
 public fun Construct.dnsValidatedCertificate(
   id: String,
@@ -21,9 +20,6 @@ public fun Construct.dnsValidatedCertificate(
   initializer: @AwsCdkDsl DnsValidatedCertificate.() -> Unit = {},
 ): DnsValidatedCertificate = DnsValidatedCertificate(this, id, props).apply(initializer)
 
-@Deprecated(message =
-    "software.amazon.awscdk.services.certificatemanager.DnsValidatedCertificate is deprecated in CDK.")
+@Deprecated(message = "software.amazon.awscdk.services.certificatemanager.DnsValidatedCertificate is deprecated in CDK.")
 @Generated
-public fun Construct.buildDnsValidatedCertificate(id: String, initializer: @AwsCdkDsl
-    DnsValidatedCertificate.Builder.() -> Unit = {}): DnsValidatedCertificate =
-    DnsValidatedCertificate.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildDnsValidatedCertificate(id: String, initializer: @AwsCdkDsl DnsValidatedCertificate.Builder.() -> Unit = {}): DnsValidatedCertificate = DnsValidatedCertificate.Builder.create(this, id).apply(initializer).build()

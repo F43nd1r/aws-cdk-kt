@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildDefaultFilterControlConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DefaultFilterControlConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.DefaultFilterControlConfigurationProperty =
-    CfnTemplate.DefaultFilterControlConfigurationProperty.Builder().apply(initializer).build()
+public fun buildDefaultFilterControlConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.DefaultFilterControlConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.DefaultFilterControlConfigurationProperty = CfnTemplate.DefaultFilterControlConfigurationProperty.Builder().apply(initializer).build()

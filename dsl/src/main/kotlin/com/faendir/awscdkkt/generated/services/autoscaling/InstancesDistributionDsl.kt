@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.InstancesDistribution
 
 @Generated
-public fun buildInstancesDistribution(initializer: @AwsCdkDsl
-    InstancesDistribution.Builder.() -> Unit = {}): InstancesDistribution =
-    InstancesDistribution.Builder().apply(initializer).build()
+public fun buildInstancesDistribution(initializer: @AwsCdkDsl InstancesDistribution.Builder.() -> Unit = {}): InstancesDistribution = InstancesDistribution.Builder().apply(initializer).build()

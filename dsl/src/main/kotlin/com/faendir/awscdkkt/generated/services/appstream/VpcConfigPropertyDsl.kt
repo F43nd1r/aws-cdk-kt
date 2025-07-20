@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appstream.CfnImageBuilder
 
 @Generated
-public fun buildVpcConfigProperty(initializer: @AwsCdkDsl
-    CfnImageBuilder.VpcConfigProperty.Builder.() -> Unit = {}): CfnImageBuilder.VpcConfigProperty =
-    CfnImageBuilder.VpcConfigProperty.Builder().apply(initializer).build()
+public fun buildVpcConfigProperty(initializer: @AwsCdkDsl CfnImageBuilder.VpcConfigProperty.Builder.() -> Unit = {}): CfnImageBuilder.VpcConfigProperty = CfnImageBuilder.VpcConfigProperty.Builder().apply(initializer).build()

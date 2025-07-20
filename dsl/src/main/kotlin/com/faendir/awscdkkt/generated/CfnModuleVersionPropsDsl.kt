@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.CfnModuleVersionProps
 
 @Generated
-public fun buildCfnModuleVersionProps(initializer: @AwsCdkDsl
-    CfnModuleVersionProps.Builder.() -> Unit = {}): CfnModuleVersionProps =
-    CfnModuleVersionProps.Builder().apply(initializer).build()
+public fun buildCfnModuleVersionProps(initializer: @AwsCdkDsl CfnModuleVersionProps.Builder.() -> Unit = {}): CfnModuleVersionProps = CfnModuleVersionProps.Builder().apply(initializer).build()

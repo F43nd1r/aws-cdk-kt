@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnUserHierarchyStructure
 
 @Generated
-public fun buildUserHierarchyStructureProperty(initializer: @AwsCdkDsl
-    CfnUserHierarchyStructure.UserHierarchyStructureProperty.Builder.() -> Unit = {}):
-    CfnUserHierarchyStructure.UserHierarchyStructureProperty =
-    CfnUserHierarchyStructure.UserHierarchyStructureProperty.Builder().apply(initializer).build()
+public fun buildUserHierarchyStructureProperty(initializer: @AwsCdkDsl CfnUserHierarchyStructure.UserHierarchyStructureProperty.Builder.() -> Unit = {}): CfnUserHierarchyStructure.UserHierarchyStructureProperty = CfnUserHierarchyStructure.UserHierarchyStructureProperty.Builder().apply(initializer).build()

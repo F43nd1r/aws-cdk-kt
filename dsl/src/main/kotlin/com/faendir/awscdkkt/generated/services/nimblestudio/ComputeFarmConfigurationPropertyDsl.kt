@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.nimblestudio.CfnStudioComponent
 
 @Generated
-public fun buildComputeFarmConfigurationProperty(initializer: @AwsCdkDsl
-    CfnStudioComponent.ComputeFarmConfigurationProperty.Builder.() -> Unit = {}):
-    CfnStudioComponent.ComputeFarmConfigurationProperty =
-    CfnStudioComponent.ComputeFarmConfigurationProperty.Builder().apply(initializer).build()
+public fun buildComputeFarmConfigurationProperty(initializer: @AwsCdkDsl CfnStudioComponent.ComputeFarmConfigurationProperty.Builder.() -> Unit = {}): CfnStudioComponent.ComputeFarmConfigurationProperty = CfnStudioComponent.ComputeFarmConfigurationProperty.Builder().apply(initializer).build()

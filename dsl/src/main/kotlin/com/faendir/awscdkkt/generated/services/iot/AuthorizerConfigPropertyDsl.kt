@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnDomainConfiguration
 
 @Generated
-public fun buildAuthorizerConfigProperty(initializer: @AwsCdkDsl
-    CfnDomainConfiguration.AuthorizerConfigProperty.Builder.() -> Unit = {}):
-    CfnDomainConfiguration.AuthorizerConfigProperty =
-    CfnDomainConfiguration.AuthorizerConfigProperty.Builder().apply(initializer).build()
+public fun buildAuthorizerConfigProperty(initializer: @AwsCdkDsl CfnDomainConfiguration.AuthorizerConfigProperty.Builder.() -> Unit = {}): CfnDomainConfiguration.AuthorizerConfigProperty = CfnDomainConfiguration.AuthorizerConfigProperty.Builder().apply(initializer).build()

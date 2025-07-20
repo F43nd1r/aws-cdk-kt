@@ -16,6 +16,4 @@ public fun Construct.cfnRouteCalculator(
 ): CfnRouteCalculator = CfnRouteCalculator(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRouteCalculator(id: String, initializer: @AwsCdkDsl
-    CfnRouteCalculator.Builder.() -> Unit = {}): CfnRouteCalculator =
-    CfnRouteCalculator.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRouteCalculator(id: String, initializer: @AwsCdkDsl CfnRouteCalculator.Builder.() -> Unit = {}): CfnRouteCalculator = CfnRouteCalculator.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnReplicator(
 ): CfnReplicator = CfnReplicator(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnReplicator(id: String, initializer: @AwsCdkDsl
-    CfnReplicator.Builder.() -> Unit = {}): CfnReplicator = CfnReplicator.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnReplicator(id: String, initializer: @AwsCdkDsl CfnReplicator.Builder.() -> Unit = {}): CfnReplicator = CfnReplicator.Builder.create(this, id).apply(initializer).build()

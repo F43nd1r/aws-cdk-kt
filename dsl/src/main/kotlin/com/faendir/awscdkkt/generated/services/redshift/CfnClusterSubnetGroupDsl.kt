@@ -16,6 +16,4 @@ public fun Construct.cfnClusterSubnetGroup(
 ): CfnClusterSubnetGroup = CfnClusterSubnetGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnClusterSubnetGroup(id: String, initializer: @AwsCdkDsl
-    CfnClusterSubnetGroup.Builder.() -> Unit = {}): CfnClusterSubnetGroup =
-    CfnClusterSubnetGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnClusterSubnetGroup(id: String, initializer: @AwsCdkDsl CfnClusterSubnetGroup.Builder.() -> Unit = {}): CfnClusterSubnetGroup = CfnClusterSubnetGroup.Builder.create(this, id).apply(initializer).build()

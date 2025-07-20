@@ -16,5 +16,4 @@ public fun Construct.cfnAlarm(
 ): CfnAlarm = CfnAlarm(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAlarm(id: String, initializer: @AwsCdkDsl CfnAlarm.Builder.() -> Unit =
-    {}): CfnAlarm = CfnAlarm.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAlarm(id: String, initializer: @AwsCdkDsl CfnAlarm.Builder.() -> Unit = {}): CfnAlarm = CfnAlarm.Builder.create(this, id).apply(initializer).build()

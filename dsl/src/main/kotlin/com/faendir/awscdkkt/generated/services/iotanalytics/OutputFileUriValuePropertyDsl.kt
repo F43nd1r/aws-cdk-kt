@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotanalytics.CfnDataset
 
 @Generated
-public fun buildOutputFileUriValueProperty(initializer: @AwsCdkDsl
-    CfnDataset.OutputFileUriValueProperty.Builder.() -> Unit = {}):
-    CfnDataset.OutputFileUriValueProperty =
-    CfnDataset.OutputFileUriValueProperty.Builder().apply(initializer).build()
+public fun buildOutputFileUriValueProperty(initializer: @AwsCdkDsl CfnDataset.OutputFileUriValueProperty.Builder.() -> Unit = {}): CfnDataset.OutputFileUriValueProperty = CfnDataset.OutputFileUriValueProperty.Builder().apply(initializer).build()

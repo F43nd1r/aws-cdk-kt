@@ -16,6 +16,4 @@ public fun Construct.cfnSubscriberNotification(
 ): CfnSubscriberNotification = CfnSubscriberNotification(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSubscriberNotification(id: String, initializer: @AwsCdkDsl
-    CfnSubscriberNotification.Builder.() -> Unit = {}): CfnSubscriberNotification =
-    CfnSubscriberNotification.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSubscriberNotification(id: String, initializer: @AwsCdkDsl CfnSubscriberNotification.Builder.() -> Unit = {}): CfnSubscriberNotification = CfnSubscriberNotification.Builder.create(this, id).apply(initializer).build()

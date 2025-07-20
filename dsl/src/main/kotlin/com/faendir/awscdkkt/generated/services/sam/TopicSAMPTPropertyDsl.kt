@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
-public fun buildTopicSAMPTProperty(initializer: @AwsCdkDsl
-    CfnFunction.TopicSAMPTProperty.Builder.() -> Unit = {}): CfnFunction.TopicSAMPTProperty =
-    CfnFunction.TopicSAMPTProperty.Builder().apply(initializer).build()
+public fun buildTopicSAMPTProperty(initializer: @AwsCdkDsl CfnFunction.TopicSAMPTProperty.Builder.() -> Unit = {}): CfnFunction.TopicSAMPTProperty = CfnFunction.TopicSAMPTProperty.Builder().apply(initializer).build()

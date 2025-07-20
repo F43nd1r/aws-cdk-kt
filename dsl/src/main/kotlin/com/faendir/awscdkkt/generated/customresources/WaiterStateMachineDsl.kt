@@ -16,6 +16,4 @@ public fun Construct.waiterStateMachine(
 ): WaiterStateMachine = WaiterStateMachine(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildWaiterStateMachine(id: String, initializer: @AwsCdkDsl
-    WaiterStateMachine.Builder.() -> Unit = {}): WaiterStateMachine =
-    WaiterStateMachine.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildWaiterStateMachine(id: String, initializer: @AwsCdkDsl WaiterStateMachine.Builder.() -> Unit = {}): WaiterStateMachine = WaiterStateMachine.Builder.create(this, id).apply(initializer).build()

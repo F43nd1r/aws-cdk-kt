@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.UsagePlanPerApiStage
 
 @Generated
-public fun buildUsagePlanPerApiStage(initializer: @AwsCdkDsl UsagePlanPerApiStage.Builder.() -> Unit
-    = {}): UsagePlanPerApiStage = UsagePlanPerApiStage.Builder().apply(initializer).build()
+public fun buildUsagePlanPerApiStage(initializer: @AwsCdkDsl UsagePlanPerApiStage.Builder.() -> Unit = {}): UsagePlanPerApiStage = UsagePlanPerApiStage.Builder().apply(initializer).build()

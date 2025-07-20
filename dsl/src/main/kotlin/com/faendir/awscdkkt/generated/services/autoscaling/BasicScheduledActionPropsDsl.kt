@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.BasicScheduledActionProps
 
 @Generated
-public fun buildBasicScheduledActionProps(initializer: @AwsCdkDsl
-    BasicScheduledActionProps.Builder.() -> Unit = {}): BasicScheduledActionProps =
-    BasicScheduledActionProps.Builder().apply(initializer).build()
+public fun buildBasicScheduledActionProps(initializer: @AwsCdkDsl BasicScheduledActionProps.Builder.() -> Unit = {}): BasicScheduledActionProps = BasicScheduledActionProps.Builder().apply(initializer).build()

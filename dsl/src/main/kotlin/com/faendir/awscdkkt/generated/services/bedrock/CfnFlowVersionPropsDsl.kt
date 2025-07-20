@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnFlowVersionProps
 
 @Generated
-public fun buildCfnFlowVersionProps(initializer: @AwsCdkDsl CfnFlowVersionProps.Builder.() -> Unit =
-    {}): CfnFlowVersionProps = CfnFlowVersionProps.Builder().apply(initializer).build()
+public fun buildCfnFlowVersionProps(initializer: @AwsCdkDsl CfnFlowVersionProps.Builder.() -> Unit = {}): CfnFlowVersionProps = CfnFlowVersionProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnClusterCapacityProviderAssociationsProps
 
 @Generated
-public fun buildCfnClusterCapacityProviderAssociationsProps(initializer: @AwsCdkDsl
-    CfnClusterCapacityProviderAssociationsProps.Builder.() -> Unit = {}):
-    CfnClusterCapacityProviderAssociationsProps =
-    CfnClusterCapacityProviderAssociationsProps.Builder().apply(initializer).build()
+public fun buildCfnClusterCapacityProviderAssociationsProps(initializer: @AwsCdkDsl CfnClusterCapacityProviderAssociationsProps.Builder.() -> Unit = {}): CfnClusterCapacityProviderAssociationsProps = CfnClusterCapacityProviderAssociationsProps.Builder().apply(initializer).build()

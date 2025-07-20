@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.targets.RedshiftQueryProps
 
 @Generated
-public fun buildRedshiftQueryProps(initializer: @AwsCdkDsl RedshiftQueryProps.Builder.() -> Unit =
-    {}): RedshiftQueryProps = RedshiftQueryProps.Builder().apply(initializer).build()
+public fun buildRedshiftQueryProps(initializer: @AwsCdkDsl RedshiftQueryProps.Builder.() -> Unit = {}): RedshiftQueryProps = RedshiftQueryProps.Builder().apply(initializer).build()

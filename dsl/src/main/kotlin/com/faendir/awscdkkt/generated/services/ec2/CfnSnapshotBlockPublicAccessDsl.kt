@@ -16,6 +16,4 @@ public fun Construct.cfnSnapshotBlockPublicAccess(
 ): CfnSnapshotBlockPublicAccess = CfnSnapshotBlockPublicAccess(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSnapshotBlockPublicAccess(id: String, initializer: @AwsCdkDsl
-    CfnSnapshotBlockPublicAccess.Builder.() -> Unit = {}): CfnSnapshotBlockPublicAccess =
-    CfnSnapshotBlockPublicAccess.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSnapshotBlockPublicAccess(id: String, initializer: @AwsCdkDsl CfnSnapshotBlockPublicAccess.Builder.() -> Unit = {}): CfnSnapshotBlockPublicAccess = CfnSnapshotBlockPublicAccess.Builder.create(this, id).apply(initializer).build()

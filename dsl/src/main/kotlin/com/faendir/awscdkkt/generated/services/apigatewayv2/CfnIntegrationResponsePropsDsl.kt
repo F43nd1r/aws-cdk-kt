@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.CfnIntegrationResponseProps
 
 @Generated
-public fun buildCfnIntegrationResponseProps(initializer: @AwsCdkDsl
-    CfnIntegrationResponseProps.Builder.() -> Unit = {}): CfnIntegrationResponseProps =
-    CfnIntegrationResponseProps.Builder().apply(initializer).build()
+public fun buildCfnIntegrationResponseProps(initializer: @AwsCdkDsl CfnIntegrationResponseProps.Builder.() -> Unit = {}): CfnIntegrationResponseProps = CfnIntegrationResponseProps.Builder().apply(initializer).build()

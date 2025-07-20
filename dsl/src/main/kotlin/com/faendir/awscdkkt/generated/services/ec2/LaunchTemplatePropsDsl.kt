@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.LaunchTemplateProps
 
 @Generated
-public fun buildLaunchTemplateProps(initializer: @AwsCdkDsl LaunchTemplateProps.Builder.() -> Unit =
-    {}): LaunchTemplateProps = LaunchTemplateProps.Builder().apply(initializer).build()
+public fun buildLaunchTemplateProps(initializer: @AwsCdkDsl LaunchTemplateProps.Builder.() -> Unit = {}): LaunchTemplateProps = LaunchTemplateProps.Builder().apply(initializer).build()

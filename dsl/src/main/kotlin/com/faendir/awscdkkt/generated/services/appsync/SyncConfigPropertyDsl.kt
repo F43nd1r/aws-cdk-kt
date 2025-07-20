@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.CfnResolver
 
 @Generated
-public fun buildSyncConfigProperty(initializer: @AwsCdkDsl
-    CfnResolver.SyncConfigProperty.Builder.() -> Unit = {}): CfnResolver.SyncConfigProperty =
-    CfnResolver.SyncConfigProperty.Builder().apply(initializer).build()
+public fun buildSyncConfigProperty(initializer: @AwsCdkDsl CfnResolver.SyncConfigProperty.Builder.() -> Unit = {}): CfnResolver.SyncConfigProperty = CfnResolver.SyncConfigProperty.Builder().apply(initializer).build()

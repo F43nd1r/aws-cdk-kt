@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fsx.CfnVolume
 
 @Generated
-public fun buildClientConfigurationsProperty(initializer: @AwsCdkDsl
-    CfnVolume.ClientConfigurationsProperty.Builder.() -> Unit = {}):
-    CfnVolume.ClientConfigurationsProperty =
-    CfnVolume.ClientConfigurationsProperty.Builder().apply(initializer).build()
+public fun buildClientConfigurationsProperty(initializer: @AwsCdkDsl CfnVolume.ClientConfigurationsProperty.Builder.() -> Unit = {}): CfnVolume.ClientConfigurationsProperty = CfnVolume.ClientConfigurationsProperty.Builder().apply(initializer).build()

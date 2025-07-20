@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.pipelines.StackDeploymentProps
 
 @Generated
-public fun buildStackDeploymentProps(initializer: @AwsCdkDsl StackDeploymentProps.Builder.() -> Unit
-    = {}): StackDeploymentProps = StackDeploymentProps.Builder().apply(initializer).build()
+public fun buildStackDeploymentProps(initializer: @AwsCdkDsl StackDeploymentProps.Builder.() -> Unit = {}): StackDeploymentProps = StackDeploymentProps.Builder().apply(initializer).build()

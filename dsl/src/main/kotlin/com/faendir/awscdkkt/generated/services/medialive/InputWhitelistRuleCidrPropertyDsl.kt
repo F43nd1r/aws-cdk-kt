@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnInputSecurityGroup
 
 @Generated
-public fun buildInputWhitelistRuleCidrProperty(initializer: @AwsCdkDsl
-    CfnInputSecurityGroup.InputWhitelistRuleCidrProperty.Builder.() -> Unit = {}):
-    CfnInputSecurityGroup.InputWhitelistRuleCidrProperty =
-    CfnInputSecurityGroup.InputWhitelistRuleCidrProperty.Builder().apply(initializer).build()
+public fun buildInputWhitelistRuleCidrProperty(initializer: @AwsCdkDsl CfnInputSecurityGroup.InputWhitelistRuleCidrProperty.Builder.() -> Unit = {}): CfnInputSecurityGroup.InputWhitelistRuleCidrProperty = CfnInputSecurityGroup.InputWhitelistRuleCidrProperty.Builder().apply(initializer).build()

@@ -13,11 +13,7 @@ public fun Construct.cfnClusterCapacityProviderAssociations(
   id: String,
   props: CfnClusterCapacityProviderAssociationsProps,
   initializer: @AwsCdkDsl CfnClusterCapacityProviderAssociations.() -> Unit = {},
-): CfnClusterCapacityProviderAssociations = CfnClusterCapacityProviderAssociations(this, id,
-    props).apply(initializer)
+): CfnClusterCapacityProviderAssociations = CfnClusterCapacityProviderAssociations(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnClusterCapacityProviderAssociations(id: String, initializer: @AwsCdkDsl
-    CfnClusterCapacityProviderAssociations.Builder.() -> Unit = {}):
-    CfnClusterCapacityProviderAssociations =
-    CfnClusterCapacityProviderAssociations.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnClusterCapacityProviderAssociations(id: String, initializer: @AwsCdkDsl CfnClusterCapacityProviderAssociations.Builder.() -> Unit = {}): CfnClusterCapacityProviderAssociations = CfnClusterCapacityProviderAssociations.Builder.create(this, id).apply(initializer).build()

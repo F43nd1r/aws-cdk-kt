@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.groundstation.CfnConfig
 
 @Generated
-public fun buildEirpProperty(initializer: @AwsCdkDsl CfnConfig.EirpProperty.Builder.() -> Unit =
-    {}): CfnConfig.EirpProperty = CfnConfig.EirpProperty.Builder().apply(initializer).build()
+public fun buildEirpProperty(initializer: @AwsCdkDsl CfnConfig.EirpProperty.Builder.() -> Unit = {}): CfnConfig.EirpProperty = CfnConfig.EirpProperty.Builder().apply(initializer).build()

@@ -13,11 +13,7 @@ public fun Construct.cfnConfigurationSetEventDestination(
   id: String,
   props: CfnConfigurationSetEventDestinationProps,
   initializer: @AwsCdkDsl CfnConfigurationSetEventDestination.() -> Unit = {},
-): CfnConfigurationSetEventDestination = CfnConfigurationSetEventDestination(this, id,
-    props).apply(initializer)
+): CfnConfigurationSetEventDestination = CfnConfigurationSetEventDestination(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnConfigurationSetEventDestination(id: String, initializer: @AwsCdkDsl
-    CfnConfigurationSetEventDestination.Builder.() -> Unit = {}):
-    CfnConfigurationSetEventDestination = CfnConfigurationSetEventDestination.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnConfigurationSetEventDestination(id: String, initializer: @AwsCdkDsl CfnConfigurationSetEventDestination.Builder.() -> Unit = {}): CfnConfigurationSetEventDestination = CfnConfigurationSetEventDestination.Builder.create(this, id).apply(initializer).build()

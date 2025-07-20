@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apprunner.CfnService
 
 @Generated
-public fun buildIngressConfigurationProperty(initializer: @AwsCdkDsl
-    CfnService.IngressConfigurationProperty.Builder.() -> Unit = {}):
-    CfnService.IngressConfigurationProperty =
-    CfnService.IngressConfigurationProperty.Builder().apply(initializer).build()
+public fun buildIngressConfigurationProperty(initializer: @AwsCdkDsl CfnService.IngressConfigurationProperty.Builder.() -> Unit = {}): CfnService.IngressConfigurationProperty = CfnService.IngressConfigurationProperty.Builder().apply(initializer).build()

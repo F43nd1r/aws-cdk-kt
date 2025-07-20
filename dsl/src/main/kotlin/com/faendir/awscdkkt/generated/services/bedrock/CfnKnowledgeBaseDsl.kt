@@ -16,6 +16,4 @@ public fun Construct.cfnKnowledgeBase(
 ): CfnKnowledgeBase = CfnKnowledgeBase(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnKnowledgeBase(id: String, initializer: @AwsCdkDsl
-    CfnKnowledgeBase.Builder.() -> Unit = {}): CfnKnowledgeBase =
-    CfnKnowledgeBase.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnKnowledgeBase(id: String, initializer: @AwsCdkDsl CfnKnowledgeBase.Builder.() -> Unit = {}): CfnKnowledgeBase = CfnKnowledgeBase.Builder.create(this, id).apply(initializer).build()

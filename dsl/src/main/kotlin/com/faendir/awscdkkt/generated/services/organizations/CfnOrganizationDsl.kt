@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.organizations.CfnOrganizationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnOrganization(id: String, initializer: @AwsCdkDsl CfnOrganization.() -> Unit
-    = {}): CfnOrganization = CfnOrganization(this, id).apply(initializer)
+public fun Construct.cfnOrganization(id: String, initializer: @AwsCdkDsl CfnOrganization.() -> Unit = {}): CfnOrganization = CfnOrganization(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnOrganization(
@@ -20,6 +19,4 @@ public fun Construct.cfnOrganization(
 ): CfnOrganization = CfnOrganization(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnOrganization(id: String, initializer: @AwsCdkDsl
-    CfnOrganization.Builder.() -> Unit = {}): CfnOrganization = CfnOrganization.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnOrganization(id: String, initializer: @AwsCdkDsl CfnOrganization.Builder.() -> Unit = {}): CfnOrganization = CfnOrganization.Builder.create(this, id).apply(initializer).build()

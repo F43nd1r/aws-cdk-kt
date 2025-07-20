@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.ApplicationListenerAttributes
 
 @Generated
-public fun buildApplicationListenerAttributes(initializer: @AwsCdkDsl
-    ApplicationListenerAttributes.Builder.() -> Unit = {}): ApplicationListenerAttributes =
-    ApplicationListenerAttributes.Builder().apply(initializer).build()
+public fun buildApplicationListenerAttributes(initializer: @AwsCdkDsl ApplicationListenerAttributes.Builder.() -> Unit = {}): ApplicationListenerAttributes = ApplicationListenerAttributes.Builder().apply(initializer).build()

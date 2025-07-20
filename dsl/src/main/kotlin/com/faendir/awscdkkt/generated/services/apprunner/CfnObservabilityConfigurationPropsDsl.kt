@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apprunner.CfnObservabilityConfigurationProps
 
 @Generated
-public fun buildCfnObservabilityConfigurationProps(initializer: @AwsCdkDsl
-    CfnObservabilityConfigurationProps.Builder.() -> Unit = {}): CfnObservabilityConfigurationProps
-    = CfnObservabilityConfigurationProps.Builder().apply(initializer).build()
+public fun buildCfnObservabilityConfigurationProps(initializer: @AwsCdkDsl CfnObservabilityConfigurationProps.Builder.() -> Unit = {}): CfnObservabilityConfigurationProps = CfnObservabilityConfigurationProps.Builder().apply(initializer).build()

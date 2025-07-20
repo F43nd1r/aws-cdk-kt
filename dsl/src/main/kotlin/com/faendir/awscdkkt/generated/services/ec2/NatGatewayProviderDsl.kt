@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.NatGatewayProvider
 
 @Generated
-public fun buildNatGatewayProvider(initializer: @AwsCdkDsl NatGatewayProvider.Builder.() -> Unit =
-    {}): NatGatewayProvider = NatGatewayProvider.Builder.create().apply(initializer).build()
+public fun buildNatGatewayProvider(initializer: @AwsCdkDsl NatGatewayProvider.Builder.() -> Unit = {}): NatGatewayProvider = NatGatewayProvider.Builder.create().apply(initializer).build()

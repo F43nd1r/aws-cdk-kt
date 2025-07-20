@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnPromptVersion
 
 @Generated
-public fun buildCachePointBlockProperty(initializer: @AwsCdkDsl
-    CfnPromptVersion.CachePointBlockProperty.Builder.() -> Unit = {}):
-    CfnPromptVersion.CachePointBlockProperty =
-    CfnPromptVersion.CachePointBlockProperty.Builder().apply(initializer).build()
+public fun buildCachePointBlockProperty(initializer: @AwsCdkDsl CfnPromptVersion.CachePointBlockProperty.Builder.() -> Unit = {}): CfnPromptVersion.CachePointBlockProperty = CfnPromptVersion.CachePointBlockProperty.Builder().apply(initializer).build()

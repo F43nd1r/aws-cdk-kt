@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
-public fun buildSizeConstraintStatementProperty(initializer: @AwsCdkDsl
-    CfnWebACL.SizeConstraintStatementProperty.Builder.() -> Unit = {}):
-    CfnWebACL.SizeConstraintStatementProperty =
-    CfnWebACL.SizeConstraintStatementProperty.Builder().apply(initializer).build()
+public fun buildSizeConstraintStatementProperty(initializer: @AwsCdkDsl CfnWebACL.SizeConstraintStatementProperty.Builder.() -> Unit = {}): CfnWebACL.SizeConstraintStatementProperty = CfnWebACL.SizeConstraintStatementProperty.Builder().apply(initializer).build()

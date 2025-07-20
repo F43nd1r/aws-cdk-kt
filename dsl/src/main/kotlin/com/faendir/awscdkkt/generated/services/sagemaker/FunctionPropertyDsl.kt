@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnModelCard
 
 @Generated
-public fun buildFunctionProperty(initializer: @AwsCdkDsl
-    CfnModelCard.FunctionProperty.Builder.() -> Unit = {}): CfnModelCard.FunctionProperty =
-    CfnModelCard.FunctionProperty.Builder().apply(initializer).build()
+public fun buildFunctionProperty(initializer: @AwsCdkDsl CfnModelCard.FunctionProperty.Builder.() -> Unit = {}): CfnModelCard.FunctionProperty = CfnModelCard.FunctionProperty.Builder().apply(initializer).build()

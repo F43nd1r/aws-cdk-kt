@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.VirtualGatewayAttributes
 
 @Generated
-public fun buildVirtualGatewayAttributes(initializer: @AwsCdkDsl
-    VirtualGatewayAttributes.Builder.() -> Unit = {}): VirtualGatewayAttributes =
-    VirtualGatewayAttributes.Builder().apply(initializer).build()
+public fun buildVirtualGatewayAttributes(initializer: @AwsCdkDsl VirtualGatewayAttributes.Builder.() -> Unit = {}): VirtualGatewayAttributes = VirtualGatewayAttributes.Builder().apply(initializer).build()

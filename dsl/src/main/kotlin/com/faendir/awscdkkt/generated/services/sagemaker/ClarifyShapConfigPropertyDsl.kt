@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnEndpointConfig
 
 @Generated
-public fun buildClarifyShapConfigProperty(initializer: @AwsCdkDsl
-    CfnEndpointConfig.ClarifyShapConfigProperty.Builder.() -> Unit = {}):
-    CfnEndpointConfig.ClarifyShapConfigProperty =
-    CfnEndpointConfig.ClarifyShapConfigProperty.Builder().apply(initializer).build()
+public fun buildClarifyShapConfigProperty(initializer: @AwsCdkDsl CfnEndpointConfig.ClarifyShapConfigProperty.Builder.() -> Unit = {}): CfnEndpointConfig.ClarifyShapConfigProperty = CfnEndpointConfig.ClarifyShapConfigProperty.Builder().apply(initializer).build()

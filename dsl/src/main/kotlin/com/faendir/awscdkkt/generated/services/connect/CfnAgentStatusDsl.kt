@@ -16,6 +16,4 @@ public fun Construct.cfnAgentStatus(
 ): CfnAgentStatus = CfnAgentStatus(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAgentStatus(id: String, initializer: @AwsCdkDsl
-    CfnAgentStatus.Builder.() -> Unit = {}): CfnAgentStatus = CfnAgentStatus.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnAgentStatus(id: String, initializer: @AwsCdkDsl CfnAgentStatus.Builder.() -> Unit = {}): CfnAgentStatus = CfnAgentStatus.Builder.create(this, id).apply(initializer).build()

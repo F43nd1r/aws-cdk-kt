@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnVpcOriginProps
 
 @Generated
-public fun buildCfnVpcOriginProps(initializer: @AwsCdkDsl CfnVpcOriginProps.Builder.() -> Unit =
-    {}): CfnVpcOriginProps = CfnVpcOriginProps.Builder().apply(initializer).build()
+public fun buildCfnVpcOriginProps(initializer: @AwsCdkDsl CfnVpcOriginProps.Builder.() -> Unit = {}): CfnVpcOriginProps = CfnVpcOriginProps.Builder().apply(initializer).build()

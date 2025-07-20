@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.ec2.CfnEIPProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnEIP(id: String, initializer: @AwsCdkDsl CfnEIP.() -> Unit = {}): CfnEIP =
-    CfnEIP(this, id).apply(initializer)
+public fun Construct.cfnEIP(id: String, initializer: @AwsCdkDsl CfnEIP.() -> Unit = {}): CfnEIP = CfnEIP(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnEIP(
@@ -20,5 +19,4 @@ public fun Construct.cfnEIP(
 ): CfnEIP = CfnEIP(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEIP(id: String, initializer: @AwsCdkDsl CfnEIP.Builder.() -> Unit =
-    {}): CfnEIP = CfnEIP.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnEIP(id: String, initializer: @AwsCdkDsl CfnEIP.Builder.() -> Unit = {}): CfnEIP = CfnEIP.Builder.create(this, id).apply(initializer).build()

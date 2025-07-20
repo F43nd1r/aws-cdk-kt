@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildDefaultGridLayoutConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DefaultGridLayoutConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.DefaultGridLayoutConfigurationProperty =
-    CfnTemplate.DefaultGridLayoutConfigurationProperty.Builder().apply(initializer).build()
+public fun buildDefaultGridLayoutConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.DefaultGridLayoutConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.DefaultGridLayoutConfigurationProperty = CfnTemplate.DefaultGridLayoutConfigurationProperty.Builder().apply(initializer).build()

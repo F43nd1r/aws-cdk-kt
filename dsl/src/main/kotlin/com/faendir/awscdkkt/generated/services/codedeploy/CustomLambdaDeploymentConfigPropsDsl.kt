@@ -9,9 +9,6 @@ import kotlin.Suppress
 import kotlin.Unit
 import software.amazon.awscdk.services.codedeploy.CustomLambdaDeploymentConfigProps
 
-@Deprecated(message =
-    "software.amazon.awscdk.services.codedeploy.CustomLambdaDeploymentConfigProps is deprecated in CDK.")
+@Deprecated(message = "software.amazon.awscdk.services.codedeploy.CustomLambdaDeploymentConfigProps is deprecated in CDK.")
 @Generated
-public fun buildCustomLambdaDeploymentConfigProps(initializer: @AwsCdkDsl
-    CustomLambdaDeploymentConfigProps.Builder.() -> Unit = {}): CustomLambdaDeploymentConfigProps =
-    CustomLambdaDeploymentConfigProps.Builder().apply(initializer).build()
+public fun buildCustomLambdaDeploymentConfigProps(initializer: @AwsCdkDsl CustomLambdaDeploymentConfigProps.Builder.() -> Unit = {}): CustomLambdaDeploymentConfigProps = CustomLambdaDeploymentConfigProps.Builder().apply(initializer).build()

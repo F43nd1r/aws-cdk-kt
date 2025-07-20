@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.iot.CfnTopicRuleDestinationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnTopicRuleDestination(id: String, initializer: @AwsCdkDsl
-    CfnTopicRuleDestination.() -> Unit = {}): CfnTopicRuleDestination =
-    CfnTopicRuleDestination(this, id).apply(initializer)
+public fun Construct.cfnTopicRuleDestination(id: String, initializer: @AwsCdkDsl CfnTopicRuleDestination.() -> Unit = {}): CfnTopicRuleDestination = CfnTopicRuleDestination(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnTopicRuleDestination(
@@ -21,6 +19,4 @@ public fun Construct.cfnTopicRuleDestination(
 ): CfnTopicRuleDestination = CfnTopicRuleDestination(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTopicRuleDestination(id: String, initializer: @AwsCdkDsl
-    CfnTopicRuleDestination.Builder.() -> Unit = {}): CfnTopicRuleDestination =
-    CfnTopicRuleDestination.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTopicRuleDestination(id: String, initializer: @AwsCdkDsl CfnTopicRuleDestination.Builder.() -> Unit = {}): CfnTopicRuleDestination = CfnTopicRuleDestination.Builder.create(this, id).apply(initializer).build()

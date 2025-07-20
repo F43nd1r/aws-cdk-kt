@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.verifiedpermissions.CfnIdentitySource
 
 @Generated
-public fun buildIdentitySourceDetailsProperty(initializer: @AwsCdkDsl
-    CfnIdentitySource.IdentitySourceDetailsProperty.Builder.() -> Unit = {}):
-    CfnIdentitySource.IdentitySourceDetailsProperty =
-    CfnIdentitySource.IdentitySourceDetailsProperty.Builder().apply(initializer).build()
+public fun buildIdentitySourceDetailsProperty(initializer: @AwsCdkDsl CfnIdentitySource.IdentitySourceDetailsProperty.Builder.() -> Unit = {}): CfnIdentitySource.IdentitySourceDetailsProperty = CfnIdentitySource.IdentitySourceDetailsProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
-public fun buildCapacityReservationTargetProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.CapacityReservationTargetProperty.Builder.() -> Unit = {}):
-    CfnLaunchTemplate.CapacityReservationTargetProperty =
-    CfnLaunchTemplate.CapacityReservationTargetProperty.Builder().apply(initializer).build()
+public fun buildCapacityReservationTargetProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.CapacityReservationTargetProperty.Builder.() -> Unit = {}): CfnLaunchTemplate.CapacityReservationTargetProperty = CfnLaunchTemplate.CapacityReservationTargetProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.stepFunctionsInvokeActivity(
 ): StepFunctionsInvokeActivity = StepFunctionsInvokeActivity(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildStepFunctionsInvokeActivity(id: String, initializer: @AwsCdkDsl
-    StepFunctionsInvokeActivity.Builder.() -> Unit = {}): StepFunctionsInvokeActivity =
-    StepFunctionsInvokeActivity.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildStepFunctionsInvokeActivity(id: String, initializer: @AwsCdkDsl StepFunctionsInvokeActivity.Builder.() -> Unit = {}): StepFunctionsInvokeActivity = StepFunctionsInvokeActivity.Builder.create(this, id).apply(initializer).build()

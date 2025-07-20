@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotanalytics.CfnPipeline
 
 @Generated
-public fun buildFilterProperty(initializer: @AwsCdkDsl CfnPipeline.FilterProperty.Builder.() -> Unit
-    = {}): CfnPipeline.FilterProperty =
-    CfnPipeline.FilterProperty.Builder().apply(initializer).build()
+public fun buildFilterProperty(initializer: @AwsCdkDsl CfnPipeline.FilterProperty.Builder.() -> Unit = {}): CfnPipeline.FilterProperty = CfnPipeline.FilterProperty.Builder().apply(initializer).build()

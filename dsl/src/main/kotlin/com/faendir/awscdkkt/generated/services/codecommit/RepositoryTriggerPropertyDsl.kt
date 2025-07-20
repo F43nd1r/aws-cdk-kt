@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codecommit.CfnRepository
 
 @Generated
-public fun buildRepositoryTriggerProperty(initializer: @AwsCdkDsl
-    CfnRepository.RepositoryTriggerProperty.Builder.() -> Unit = {}):
-    CfnRepository.RepositoryTriggerProperty =
-    CfnRepository.RepositoryTriggerProperty.Builder().apply(initializer).build()
+public fun buildRepositoryTriggerProperty(initializer: @AwsCdkDsl CfnRepository.RepositoryTriggerProperty.Builder.() -> Unit = {}): CfnRepository.RepositoryTriggerProperty = CfnRepository.RepositoryTriggerProperty.Builder().apply(initializer).build()

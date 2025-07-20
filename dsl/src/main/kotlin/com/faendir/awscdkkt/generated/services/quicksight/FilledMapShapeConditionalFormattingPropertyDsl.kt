@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildFilledMapShapeConditionalFormattingProperty(initializer: @AwsCdkDsl
-    CfnTemplate.FilledMapShapeConditionalFormattingProperty.Builder.() -> Unit = {}):
-    CfnTemplate.FilledMapShapeConditionalFormattingProperty =
-    CfnTemplate.FilledMapShapeConditionalFormattingProperty.Builder().apply(initializer).build()
+public fun buildFilledMapShapeConditionalFormattingProperty(initializer: @AwsCdkDsl CfnTemplate.FilledMapShapeConditionalFormattingProperty.Builder.() -> Unit = {}): CfnTemplate.FilledMapShapeConditionalFormattingProperty = CfnTemplate.FilledMapShapeConditionalFormattingProperty.Builder().apply(initializer).build()

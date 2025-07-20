@@ -7,6 +7,4 @@ import software.amazon.awscdk.services.kinesisfirehose.LambdaFunctionProcessor
 import software.amazon.awscdk.services.lambda.IFunction
 
 @Generated
-public fun buildLambdaFunctionProcessor(lambdaFunction: IFunction, initializer: @AwsCdkDsl
-    LambdaFunctionProcessor.Builder.() -> Unit = {}): LambdaFunctionProcessor =
-    LambdaFunctionProcessor.Builder.create(lambdaFunction).apply(initializer).build()
+public fun buildLambdaFunctionProcessor(lambdaFunction: IFunction, initializer: @AwsCdkDsl LambdaFunctionProcessor.Builder.() -> Unit = {}): LambdaFunctionProcessor = LambdaFunctionProcessor.Builder.create(lambdaFunction).apply(initializer).build()

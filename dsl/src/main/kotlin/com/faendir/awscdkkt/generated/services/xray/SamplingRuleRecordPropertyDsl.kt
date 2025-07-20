@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.xray.CfnSamplingRule
 
 @Generated
-public fun buildSamplingRuleRecordProperty(initializer: @AwsCdkDsl
-    CfnSamplingRule.SamplingRuleRecordProperty.Builder.() -> Unit = {}):
-    CfnSamplingRule.SamplingRuleRecordProperty =
-    CfnSamplingRule.SamplingRuleRecordProperty.Builder().apply(initializer).build()
+public fun buildSamplingRuleRecordProperty(initializer: @AwsCdkDsl CfnSamplingRule.SamplingRuleRecordProperty.Builder.() -> Unit = {}): CfnSamplingRule.SamplingRuleRecordProperty = CfnSamplingRule.SamplingRuleRecordProperty.Builder().apply(initializer).build()

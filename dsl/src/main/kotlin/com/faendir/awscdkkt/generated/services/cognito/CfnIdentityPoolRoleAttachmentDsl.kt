@@ -16,6 +16,4 @@ public fun Construct.cfnIdentityPoolRoleAttachment(
 ): CfnIdentityPoolRoleAttachment = CfnIdentityPoolRoleAttachment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnIdentityPoolRoleAttachment(id: String, initializer: @AwsCdkDsl
-    CfnIdentityPoolRoleAttachment.Builder.() -> Unit = {}): CfnIdentityPoolRoleAttachment =
-    CfnIdentityPoolRoleAttachment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnIdentityPoolRoleAttachment(id: String, initializer: @AwsCdkDsl CfnIdentityPoolRoleAttachment.Builder.() -> Unit = {}): CfnIdentityPoolRoleAttachment = CfnIdentityPoolRoleAttachment.Builder.create(this, id).apply(initializer).build()

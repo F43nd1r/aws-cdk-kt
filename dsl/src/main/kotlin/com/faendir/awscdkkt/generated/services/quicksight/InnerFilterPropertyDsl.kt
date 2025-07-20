@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildInnerFilterProperty(initializer: @AwsCdkDsl
-    CfnTemplate.InnerFilterProperty.Builder.() -> Unit = {}): CfnTemplate.InnerFilterProperty =
-    CfnTemplate.InnerFilterProperty.Builder().apply(initializer).build()
+public fun buildInnerFilterProperty(initializer: @AwsCdkDsl CfnTemplate.InnerFilterProperty.Builder.() -> Unit = {}): CfnTemplate.InnerFilterProperty = CfnTemplate.InnerFilterProperty.Builder().apply(initializer).build()

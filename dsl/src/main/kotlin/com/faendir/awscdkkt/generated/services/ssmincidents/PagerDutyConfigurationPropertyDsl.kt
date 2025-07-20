@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssmincidents.CfnResponsePlan
 
 @Generated
-public fun buildPagerDutyConfigurationProperty(initializer: @AwsCdkDsl
-    CfnResponsePlan.PagerDutyConfigurationProperty.Builder.() -> Unit = {}):
-    CfnResponsePlan.PagerDutyConfigurationProperty =
-    CfnResponsePlan.PagerDutyConfigurationProperty.Builder().apply(initializer).build()
+public fun buildPagerDutyConfigurationProperty(initializer: @AwsCdkDsl CfnResponsePlan.PagerDutyConfigurationProperty.Builder.() -> Unit = {}): CfnResponsePlan.PagerDutyConfigurationProperty = CfnResponsePlan.PagerDutyConfigurationProperty.Builder().apply(initializer).build()

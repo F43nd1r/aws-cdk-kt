@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.InterfaceVpcEndpointAttributes
 
 @Generated
-public fun buildInterfaceVpcEndpointAttributes(initializer: @AwsCdkDsl
-    InterfaceVpcEndpointAttributes.Builder.() -> Unit = {}): InterfaceVpcEndpointAttributes =
-    InterfaceVpcEndpointAttributes.Builder().apply(initializer).build()
+public fun buildInterfaceVpcEndpointAttributes(initializer: @AwsCdkDsl InterfaceVpcEndpointAttributes.Builder.() -> Unit = {}): InterfaceVpcEndpointAttributes = InterfaceVpcEndpointAttributes.Builder().apply(initializer).build()

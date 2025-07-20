@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.CfnRule
 
 @Generated
-public fun buildSageMakerPipelineParameterProperty(initializer: @AwsCdkDsl
-    CfnRule.SageMakerPipelineParameterProperty.Builder.() -> Unit = {}):
-    CfnRule.SageMakerPipelineParameterProperty =
-    CfnRule.SageMakerPipelineParameterProperty.Builder().apply(initializer).build()
+public fun buildSageMakerPipelineParameterProperty(initializer: @AwsCdkDsl CfnRule.SageMakerPipelineParameterProperty.Builder.() -> Unit = {}): CfnRule.SageMakerPipelineParameterProperty = CfnRule.SageMakerPipelineParameterProperty.Builder().apply(initializer).build()

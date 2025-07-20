@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnTransitGatewayMulticastGroupSourceProps
 
 @Generated
-public fun buildCfnTransitGatewayMulticastGroupSourceProps(initializer: @AwsCdkDsl
-    CfnTransitGatewayMulticastGroupSourceProps.Builder.() -> Unit = {}):
-    CfnTransitGatewayMulticastGroupSourceProps =
-    CfnTransitGatewayMulticastGroupSourceProps.Builder().apply(initializer).build()
+public fun buildCfnTransitGatewayMulticastGroupSourceProps(initializer: @AwsCdkDsl CfnTransitGatewayMulticastGroupSourceProps.Builder.() -> Unit = {}): CfnTransitGatewayMulticastGroupSourceProps = CfnTransitGatewayMulticastGroupSourceProps.Builder().apply(initializer).build()

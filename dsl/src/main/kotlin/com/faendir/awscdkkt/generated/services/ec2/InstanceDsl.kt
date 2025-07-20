@@ -16,5 +16,4 @@ public fun Construct.instance(
 ): Instance = Instance(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildInstance(id: String, initializer: @AwsCdkDsl Instance.Builder.() -> Unit =
-    {}): Instance = Instance.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildInstance(id: String, initializer: @AwsCdkDsl Instance.Builder.() -> Unit = {}): Instance = Instance.Builder.create(this, id).apply(initializer).build()

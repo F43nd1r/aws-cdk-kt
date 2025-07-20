@@ -16,6 +16,4 @@ public fun Construct.cfnDBProxyTargetGroup(
 ): CfnDBProxyTargetGroup = CfnDBProxyTargetGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDBProxyTargetGroup(id: String, initializer: @AwsCdkDsl
-    CfnDBProxyTargetGroup.Builder.() -> Unit = {}): CfnDBProxyTargetGroup =
-    CfnDBProxyTargetGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDBProxyTargetGroup(id: String, initializer: @AwsCdkDsl CfnDBProxyTargetGroup.Builder.() -> Unit = {}): CfnDBProxyTargetGroup = CfnDBProxyTargetGroup.Builder.create(this, id).apply(initializer).build()

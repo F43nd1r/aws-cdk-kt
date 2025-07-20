@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
-public fun buildSingularSourcePropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.SingularSourcePropertiesProperty.Builder.() -> Unit = {}):
-    CfnFlow.SingularSourcePropertiesProperty =
-    CfnFlow.SingularSourcePropertiesProperty.Builder().apply(initializer).build()
+public fun buildSingularSourcePropertiesProperty(initializer: @AwsCdkDsl CfnFlow.SingularSourcePropertiesProperty.Builder.() -> Unit = {}): CfnFlow.SingularSourcePropertiesProperty = CfnFlow.SingularSourcePropertiesProperty.Builder().apply(initializer).build()

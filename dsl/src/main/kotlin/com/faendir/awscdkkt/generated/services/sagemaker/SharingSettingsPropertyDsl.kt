@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnUserProfile
 
 @Generated
-public fun buildSharingSettingsProperty(initializer: @AwsCdkDsl
-    CfnUserProfile.SharingSettingsProperty.Builder.() -> Unit = {}):
-    CfnUserProfile.SharingSettingsProperty =
-    CfnUserProfile.SharingSettingsProperty.Builder().apply(initializer).build()
+public fun buildSharingSettingsProperty(initializer: @AwsCdkDsl CfnUserProfile.SharingSettingsProperty.Builder.() -> Unit = {}): CfnUserProfile.SharingSettingsProperty = CfnUserProfile.SharingSettingsProperty.Builder().apply(initializer).build()

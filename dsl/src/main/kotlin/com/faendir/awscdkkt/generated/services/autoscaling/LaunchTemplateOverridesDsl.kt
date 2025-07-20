@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.LaunchTemplateOverrides
 
 @Generated
-public fun buildLaunchTemplateOverrides(initializer: @AwsCdkDsl
-    LaunchTemplateOverrides.Builder.() -> Unit = {}): LaunchTemplateOverrides =
-    LaunchTemplateOverrides.Builder().apply(initializer).build()
+public fun buildLaunchTemplateOverrides(initializer: @AwsCdkDsl LaunchTemplateOverrides.Builder.() -> Unit = {}): LaunchTemplateOverrides = LaunchTemplateOverrides.Builder().apply(initializer).build()

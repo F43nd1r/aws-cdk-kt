@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.FailJsonPathProps
 
 @Generated
-public fun buildFailJsonPathProps(initializer: @AwsCdkDsl FailJsonPathProps.Builder.() -> Unit =
-    {}): FailJsonPathProps = FailJsonPathProps.Builder().apply(initializer).build()
+public fun buildFailJsonPathProps(initializer: @AwsCdkDsl FailJsonPathProps.Builder.() -> Unit = {}): FailJsonPathProps = FailJsonPathProps.Builder().apply(initializer).build()

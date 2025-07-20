@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.codedeploy.ServerApplicationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.serverApplication(id: String, initializer: @AwsCdkDsl
-    ServerApplication.() -> Unit = {}): ServerApplication = ServerApplication(this,
-    id).apply(initializer)
+public fun Construct.serverApplication(id: String, initializer: @AwsCdkDsl ServerApplication.() -> Unit = {}): ServerApplication = ServerApplication(this, id).apply(initializer)
 
 @Generated
 public fun Construct.serverApplication(
@@ -21,6 +19,4 @@ public fun Construct.serverApplication(
 ): ServerApplication = ServerApplication(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildServerApplication(id: String, initializer: @AwsCdkDsl
-    ServerApplication.Builder.() -> Unit = {}): ServerApplication =
-    ServerApplication.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildServerApplication(id: String, initializer: @AwsCdkDsl ServerApplication.Builder.() -> Unit = {}): ServerApplication = ServerApplication.Builder.create(this, id).apply(initializer).build()

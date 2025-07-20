@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.arczonalshift.CfnAutoshiftObserverNotificationStatusProps
 
 @Generated
-public fun buildCfnAutoshiftObserverNotificationStatusProps(initializer: @AwsCdkDsl
-    CfnAutoshiftObserverNotificationStatusProps.Builder.() -> Unit = {}):
-    CfnAutoshiftObserverNotificationStatusProps =
-    CfnAutoshiftObserverNotificationStatusProps.Builder().apply(initializer).build()
+public fun buildCfnAutoshiftObserverNotificationStatusProps(initializer: @AwsCdkDsl CfnAutoshiftObserverNotificationStatusProps.Builder.() -> Unit = {}): CfnAutoshiftObserverNotificationStatusProps = CfnAutoshiftObserverNotificationStatusProps.Builder().apply(initializer).build()

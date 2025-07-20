@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.DataSourceOptions
 
 @Generated
-public fun buildDataSourceOptions(initializer: @AwsCdkDsl DataSourceOptions.Builder.() -> Unit =
-    {}): DataSourceOptions = DataSourceOptions.Builder().apply(initializer).build()
+public fun buildDataSourceOptions(initializer: @AwsCdkDsl DataSourceOptions.Builder.() -> Unit = {}): DataSourceOptions = DataSourceOptions.Builder().apply(initializer).build()

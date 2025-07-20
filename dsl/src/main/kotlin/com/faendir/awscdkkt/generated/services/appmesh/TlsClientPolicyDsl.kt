@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.TlsClientPolicy
 
 @Generated
-public fun buildTlsClientPolicy(initializer: @AwsCdkDsl TlsClientPolicy.Builder.() -> Unit = {}):
-    TlsClientPolicy = TlsClientPolicy.Builder().apply(initializer).build()
+public fun buildTlsClientPolicy(initializer: @AwsCdkDsl TlsClientPolicy.Builder.() -> Unit = {}): TlsClientPolicy = TlsClientPolicy.Builder().apply(initializer).build()

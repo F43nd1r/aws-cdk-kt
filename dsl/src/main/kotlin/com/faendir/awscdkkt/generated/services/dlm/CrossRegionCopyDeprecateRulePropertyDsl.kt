@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dlm.CfnLifecyclePolicy
 
 @Generated
-public fun buildCrossRegionCopyDeprecateRuleProperty(initializer: @AwsCdkDsl
-    CfnLifecyclePolicy.CrossRegionCopyDeprecateRuleProperty.Builder.() -> Unit = {}):
-    CfnLifecyclePolicy.CrossRegionCopyDeprecateRuleProperty =
-    CfnLifecyclePolicy.CrossRegionCopyDeprecateRuleProperty.Builder().apply(initializer).build()
+public fun buildCrossRegionCopyDeprecateRuleProperty(initializer: @AwsCdkDsl CfnLifecyclePolicy.CrossRegionCopyDeprecateRuleProperty.Builder.() -> Unit = {}): CfnLifecyclePolicy.CrossRegionCopyDeprecateRuleProperty = CfnLifecyclePolicy.CrossRegionCopyDeprecateRuleProperty.Builder().apply(initializer).build()

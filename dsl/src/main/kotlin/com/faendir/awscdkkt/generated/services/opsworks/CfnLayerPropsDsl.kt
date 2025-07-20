@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opsworks.CfnLayerProps
 
 @Generated
-public fun buildCfnLayerProps(initializer: @AwsCdkDsl CfnLayerProps.Builder.() -> Unit = {}):
-    CfnLayerProps = CfnLayerProps.Builder().apply(initializer).build()
+public fun buildCfnLayerProps(initializer: @AwsCdkDsl CfnLayerProps.Builder.() -> Unit = {}): CfnLayerProps = CfnLayerProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.CfnConnection
 
 @Generated
-public fun buildAuthParametersProperty(initializer: @AwsCdkDsl
-    CfnConnection.AuthParametersProperty.Builder.() -> Unit = {}):
-    CfnConnection.AuthParametersProperty =
-    CfnConnection.AuthParametersProperty.Builder().apply(initializer).build()
+public fun buildAuthParametersProperty(initializer: @AwsCdkDsl CfnConnection.AuthParametersProperty.Builder.() -> Unit = {}): CfnConnection.AuthParametersProperty = CfnConnection.AuthParametersProperty.Builder().apply(initializer).build()

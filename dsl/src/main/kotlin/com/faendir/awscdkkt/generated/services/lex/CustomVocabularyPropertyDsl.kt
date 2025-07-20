@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildCustomVocabularyProperty(initializer: @AwsCdkDsl
-    CfnBot.CustomVocabularyProperty.Builder.() -> Unit = {}): CfnBot.CustomVocabularyProperty =
-    CfnBot.CustomVocabularyProperty.Builder().apply(initializer).build()
+public fun buildCustomVocabularyProperty(initializer: @AwsCdkDsl CfnBot.CustomVocabularyProperty.Builder.() -> Unit = {}): CfnBot.CustomVocabularyProperty = CfnBot.CustomVocabularyProperty.Builder().apply(initializer).build()

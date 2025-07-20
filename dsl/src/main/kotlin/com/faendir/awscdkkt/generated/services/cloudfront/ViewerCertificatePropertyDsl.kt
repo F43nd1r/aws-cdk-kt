@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnDistribution
 
 @Generated
-public fun buildViewerCertificateProperty(initializer: @AwsCdkDsl
-    CfnDistribution.ViewerCertificateProperty.Builder.() -> Unit = {}):
-    CfnDistribution.ViewerCertificateProperty =
-    CfnDistribution.ViewerCertificateProperty.Builder().apply(initializer).build()
+public fun buildViewerCertificateProperty(initializer: @AwsCdkDsl CfnDistribution.ViewerCertificateProperty.Builder.() -> Unit = {}): CfnDistribution.ViewerCertificateProperty = CfnDistribution.ViewerCertificateProperty.Builder().apply(initializer).build()

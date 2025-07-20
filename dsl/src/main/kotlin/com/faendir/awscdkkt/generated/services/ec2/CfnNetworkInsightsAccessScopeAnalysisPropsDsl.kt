@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnNetworkInsightsAccessScopeAnalysisProps
 
 @Generated
-public fun buildCfnNetworkInsightsAccessScopeAnalysisProps(initializer: @AwsCdkDsl
-    CfnNetworkInsightsAccessScopeAnalysisProps.Builder.() -> Unit = {}):
-    CfnNetworkInsightsAccessScopeAnalysisProps =
-    CfnNetworkInsightsAccessScopeAnalysisProps.Builder().apply(initializer).build()
+public fun buildCfnNetworkInsightsAccessScopeAnalysisProps(initializer: @AwsCdkDsl CfnNetworkInsightsAccessScopeAnalysisProps.Builder.() -> Unit = {}): CfnNetworkInsightsAccessScopeAnalysisProps = CfnNetworkInsightsAccessScopeAnalysisProps.Builder().apply(initializer).build()

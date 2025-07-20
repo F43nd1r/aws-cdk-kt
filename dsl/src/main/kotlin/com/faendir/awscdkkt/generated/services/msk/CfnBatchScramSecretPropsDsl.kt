@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.msk.CfnBatchScramSecretProps
 
 @Generated
-public fun buildCfnBatchScramSecretProps(initializer: @AwsCdkDsl
-    CfnBatchScramSecretProps.Builder.() -> Unit = {}): CfnBatchScramSecretProps =
-    CfnBatchScramSecretProps.Builder().apply(initializer).build()
+public fun buildCfnBatchScramSecretProps(initializer: @AwsCdkDsl CfnBatchScramSecretProps.Builder.() -> Unit = {}): CfnBatchScramSecretProps = CfnBatchScramSecretProps.Builder().apply(initializer).build()

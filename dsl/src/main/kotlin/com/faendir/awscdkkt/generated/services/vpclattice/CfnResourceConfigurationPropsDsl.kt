@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.vpclattice.CfnResourceConfigurationProps
 
 @Generated
-public fun buildCfnResourceConfigurationProps(initializer: @AwsCdkDsl
-    CfnResourceConfigurationProps.Builder.() -> Unit = {}): CfnResourceConfigurationProps =
-    CfnResourceConfigurationProps.Builder().apply(initializer).build()
+public fun buildCfnResourceConfigurationProps(initializer: @AwsCdkDsl CfnResourceConfigurationProps.Builder.() -> Unit = {}): CfnResourceConfigurationProps = CfnResourceConfigurationProps.Builder().apply(initializer).build()

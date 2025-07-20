@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnContinuousDeploymentPolicy
 
 @Generated
-public fun buildSingleWeightConfigProperty(initializer: @AwsCdkDsl
-    CfnContinuousDeploymentPolicy.SingleWeightConfigProperty.Builder.() -> Unit = {}):
-    CfnContinuousDeploymentPolicy.SingleWeightConfigProperty =
-    CfnContinuousDeploymentPolicy.SingleWeightConfigProperty.Builder().apply(initializer).build()
+public fun buildSingleWeightConfigProperty(initializer: @AwsCdkDsl CfnContinuousDeploymentPolicy.SingleWeightConfigProperty.Builder.() -> Unit = {}): CfnContinuousDeploymentPolicy.SingleWeightConfigProperty = CfnContinuousDeploymentPolicy.SingleWeightConfigProperty.Builder().apply(initializer).build()

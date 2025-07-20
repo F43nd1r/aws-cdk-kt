@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.amplifyuibuilder.CfnTheme
 
 @Generated
-public fun buildThemeValuesProperty(initializer: @AwsCdkDsl
-    CfnTheme.ThemeValuesProperty.Builder.() -> Unit = {}): CfnTheme.ThemeValuesProperty =
-    CfnTheme.ThemeValuesProperty.Builder().apply(initializer).build()
+public fun buildThemeValuesProperty(initializer: @AwsCdkDsl CfnTheme.ThemeValuesProperty.Builder.() -> Unit = {}): CfnTheme.ThemeValuesProperty = CfnTheme.ThemeValuesProperty.Builder().apply(initializer).build()

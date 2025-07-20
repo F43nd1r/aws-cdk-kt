@@ -16,6 +16,4 @@ public fun Construct.cfnOptionGroup(
 ): CfnOptionGroup = CfnOptionGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnOptionGroup(id: String, initializer: @AwsCdkDsl
-    CfnOptionGroup.Builder.() -> Unit = {}): CfnOptionGroup = CfnOptionGroup.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnOptionGroup(id: String, initializer: @AwsCdkDsl CfnOptionGroup.Builder.() -> Unit = {}): CfnOptionGroup = CfnOptionGroup.Builder.create(this, id).apply(initializer).build()

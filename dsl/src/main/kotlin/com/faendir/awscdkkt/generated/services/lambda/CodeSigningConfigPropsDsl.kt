@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.CodeSigningConfigProps
 
 @Generated
-public fun buildCodeSigningConfigProps(initializer: @AwsCdkDsl
-    CodeSigningConfigProps.Builder.() -> Unit = {}): CodeSigningConfigProps =
-    CodeSigningConfigProps.Builder().apply(initializer).build()
+public fun buildCodeSigningConfigProps(initializer: @AwsCdkDsl CodeSigningConfigProps.Builder.() -> Unit = {}): CodeSigningConfigProps = CodeSigningConfigProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.amplifyuibuilder.CfnComponent
 
 @Generated
-public fun buildMutationActionSetStateParameterProperty(initializer: @AwsCdkDsl
-    CfnComponent.MutationActionSetStateParameterProperty.Builder.() -> Unit = {}):
-    CfnComponent.MutationActionSetStateParameterProperty =
-    CfnComponent.MutationActionSetStateParameterProperty.Builder().apply(initializer).build()
+public fun buildMutationActionSetStateParameterProperty(initializer: @AwsCdkDsl CfnComponent.MutationActionSetStateParameterProperty.Builder.() -> Unit = {}): CfnComponent.MutationActionSetStateParameterProperty = CfnComponent.MutationActionSetStateParameterProperty.Builder().apply(initializer).build()

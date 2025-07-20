@@ -16,6 +16,4 @@ public fun Construct.cfnPrimaryTaskSet(
 ): CfnPrimaryTaskSet = CfnPrimaryTaskSet(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPrimaryTaskSet(id: String, initializer: @AwsCdkDsl
-    CfnPrimaryTaskSet.Builder.() -> Unit = {}): CfnPrimaryTaskSet =
-    CfnPrimaryTaskSet.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPrimaryTaskSet(id: String, initializer: @AwsCdkDsl CfnPrimaryTaskSet.Builder.() -> Unit = {}): CfnPrimaryTaskSet = CfnPrimaryTaskSet.Builder.create(this, id).apply(initializer).build()

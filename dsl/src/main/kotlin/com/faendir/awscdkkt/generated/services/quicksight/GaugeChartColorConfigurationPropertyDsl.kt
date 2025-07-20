@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildGaugeChartColorConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.GaugeChartColorConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.GaugeChartColorConfigurationProperty =
-    CfnTemplate.GaugeChartColorConfigurationProperty.Builder().apply(initializer).build()
+public fun buildGaugeChartColorConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.GaugeChartColorConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.GaugeChartColorConfigurationProperty = CfnTemplate.GaugeChartColorConfigurationProperty.Builder().apply(initializer).build()

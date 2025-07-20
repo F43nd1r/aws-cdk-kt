@@ -16,6 +16,4 @@ public fun Construct.deployTimeSubstitutedFile(
 ): DeployTimeSubstitutedFile = DeployTimeSubstitutedFile(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildDeployTimeSubstitutedFile(id: String, initializer: @AwsCdkDsl
-    DeployTimeSubstitutedFile.Builder.() -> Unit = {}): DeployTimeSubstitutedFile =
-    DeployTimeSubstitutedFile.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildDeployTimeSubstitutedFile(id: String, initializer: @AwsCdkDsl DeployTimeSubstitutedFile.Builder.() -> Unit = {}): DeployTimeSubstitutedFile = DeployTimeSubstitutedFile.Builder.create(this, id).apply(initializer).build()

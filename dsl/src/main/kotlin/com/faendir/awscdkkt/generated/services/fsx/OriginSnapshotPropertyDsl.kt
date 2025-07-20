@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fsx.CfnVolume
 
 @Generated
-public fun buildOriginSnapshotProperty(initializer: @AwsCdkDsl
-    CfnVolume.OriginSnapshotProperty.Builder.() -> Unit = {}): CfnVolume.OriginSnapshotProperty =
-    CfnVolume.OriginSnapshotProperty.Builder().apply(initializer).build()
+public fun buildOriginSnapshotProperty(initializer: @AwsCdkDsl CfnVolume.OriginSnapshotProperty.Builder.() -> Unit = {}): CfnVolume.OriginSnapshotProperty = CfnVolume.OriginSnapshotProperty.Builder().apply(initializer).build()

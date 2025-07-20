@@ -16,6 +16,4 @@ public fun Construct.cfnMemberInvitation(
 ): CfnMemberInvitation = CfnMemberInvitation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMemberInvitation(id: String, initializer: @AwsCdkDsl
-    CfnMemberInvitation.Builder.() -> Unit = {}): CfnMemberInvitation =
-    CfnMemberInvitation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMemberInvitation(id: String, initializer: @AwsCdkDsl CfnMemberInvitation.Builder.() -> Unit = {}): CfnMemberInvitation = CfnMemberInvitation.Builder.create(this, id).apply(initializer).build()

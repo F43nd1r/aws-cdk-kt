@@ -16,6 +16,4 @@ public fun Construct.kubernetesPatch(
 ): KubernetesPatch = KubernetesPatch(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildKubernetesPatch(id: String, initializer: @AwsCdkDsl
-    KubernetesPatch.Builder.() -> Unit = {}): KubernetesPatch = KubernetesPatch.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildKubernetesPatch(id: String, initializer: @AwsCdkDsl KubernetesPatch.Builder.() -> Unit = {}): KubernetesPatch = KubernetesPatch.Builder.create(this, id).apply(initializer).build()

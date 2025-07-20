@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
-public fun buildSecretsManagerConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.SecretsManagerConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDeliveryStream.SecretsManagerConfigurationProperty =
-    CfnDeliveryStream.SecretsManagerConfigurationProperty.Builder().apply(initializer).build()
+public fun buildSecretsManagerConfigurationProperty(initializer: @AwsCdkDsl CfnDeliveryStream.SecretsManagerConfigurationProperty.Builder.() -> Unit = {}): CfnDeliveryStream.SecretsManagerConfigurationProperty = CfnDeliveryStream.SecretsManagerConfigurationProperty.Builder().apply(initializer).build()

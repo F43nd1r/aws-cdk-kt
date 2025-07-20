@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSource
 
 @Generated
-public fun buildRdsParametersProperty(initializer: @AwsCdkDsl
-    CfnDataSource.RdsParametersProperty.Builder.() -> Unit = {}):
-    CfnDataSource.RdsParametersProperty =
-    CfnDataSource.RdsParametersProperty.Builder().apply(initializer).build()
+public fun buildRdsParametersProperty(initializer: @AwsCdkDsl CfnDataSource.RdsParametersProperty.Builder.() -> Unit = {}): CfnDataSource.RdsParametersProperty = CfnDataSource.RdsParametersProperty.Builder().apply(initializer).build()

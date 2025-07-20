@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.ServiceCatalogDeployActionBeta1Props
 
 @Generated
-public fun buildServiceCatalogDeployActionBeta1Props(initializer: @AwsCdkDsl
-    ServiceCatalogDeployActionBeta1Props.Builder.() -> Unit = {}):
-    ServiceCatalogDeployActionBeta1Props =
-    ServiceCatalogDeployActionBeta1Props.Builder().apply(initializer).build()
+public fun buildServiceCatalogDeployActionBeta1Props(initializer: @AwsCdkDsl ServiceCatalogDeployActionBeta1Props.Builder.() -> Unit = {}): ServiceCatalogDeployActionBeta1Props = ServiceCatalogDeployActionBeta1Props.Builder().apply(initializer).build()

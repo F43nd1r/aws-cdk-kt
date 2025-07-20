@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.S3CsvItemReaderProps
 
 @Generated
-public fun buildS3CsvItemReaderProps(initializer: @AwsCdkDsl S3CsvItemReaderProps.Builder.() -> Unit
-    = {}): S3CsvItemReaderProps = S3CsvItemReaderProps.Builder().apply(initializer).build()
+public fun buildS3CsvItemReaderProps(initializer: @AwsCdkDsl S3CsvItemReaderProps.Builder.() -> Unit = {}): S3CsvItemReaderProps = S3CsvItemReaderProps.Builder().apply(initializer).build()

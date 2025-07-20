@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.AllowedFirstAuthFactors
 
 @Generated
-public fun buildAllowedFirstAuthFactors(initializer: @AwsCdkDsl
-    AllowedFirstAuthFactors.Builder.() -> Unit = {}): AllowedFirstAuthFactors =
-    AllowedFirstAuthFactors.Builder().apply(initializer).build()
+public fun buildAllowedFirstAuthFactors(initializer: @AwsCdkDsl AllowedFirstAuthFactors.Builder.() -> Unit = {}): AllowedFirstAuthFactors = AllowedFirstAuthFactors.Builder().apply(initializer).build()

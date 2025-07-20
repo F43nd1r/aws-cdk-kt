@@ -16,6 +16,4 @@ public fun Construct.cfnEventBusPolicy(
 ): CfnEventBusPolicy = CfnEventBusPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEventBusPolicy(id: String, initializer: @AwsCdkDsl
-    CfnEventBusPolicy.Builder.() -> Unit = {}): CfnEventBusPolicy =
-    CfnEventBusPolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnEventBusPolicy(id: String, initializer: @AwsCdkDsl CfnEventBusPolicy.Builder.() -> Unit = {}): CfnEventBusPolicy = CfnEventBusPolicy.Builder.create(this, id).apply(initializer).build()

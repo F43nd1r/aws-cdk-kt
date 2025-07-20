@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cxapi.EndpointServiceAvailabilityZonesContextQuery
 
 @Generated
-public fun buildEndpointServiceAvailabilityZonesContextQuery(initializer: @AwsCdkDsl
-    EndpointServiceAvailabilityZonesContextQuery.Builder.() -> Unit = {}):
-    EndpointServiceAvailabilityZonesContextQuery =
-    EndpointServiceAvailabilityZonesContextQuery.Builder().apply(initializer).build()
+public fun buildEndpointServiceAvailabilityZonesContextQuery(initializer: @AwsCdkDsl EndpointServiceAvailabilityZonesContextQuery.Builder.() -> Unit = {}): EndpointServiceAvailabilityZonesContextQuery = EndpointServiceAvailabilityZonesContextQuery.Builder().apply(initializer).build()

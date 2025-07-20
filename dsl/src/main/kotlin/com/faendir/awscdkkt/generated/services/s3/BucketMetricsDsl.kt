@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.BucketMetrics
 
 @Generated
-public fun buildBucketMetrics(initializer: @AwsCdkDsl BucketMetrics.Builder.() -> Unit = {}):
-    BucketMetrics = BucketMetrics.Builder().apply(initializer).build()
+public fun buildBucketMetrics(initializer: @AwsCdkDsl BucketMetrics.Builder.() -> Unit = {}): BucketMetrics = BucketMetrics.Builder().apply(initializer).build()

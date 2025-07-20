@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloudassembly.schema.DestroyOptions
 
 @Generated
-public fun buildDestroyOptions(initializer: @AwsCdkDsl DestroyOptions.Builder.() -> Unit = {}):
-    DestroyOptions = DestroyOptions.Builder().apply(initializer).build()
+public fun buildDestroyOptions(initializer: @AwsCdkDsl DestroyOptions.Builder.() -> Unit = {}): DestroyOptions = DestroyOptions.Builder().apply(initializer).build()

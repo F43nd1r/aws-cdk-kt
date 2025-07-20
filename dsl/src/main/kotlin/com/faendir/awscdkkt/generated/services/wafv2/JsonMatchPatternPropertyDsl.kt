@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
-public fun buildJsonMatchPatternProperty(initializer: @AwsCdkDsl
-    CfnWebACL.JsonMatchPatternProperty.Builder.() -> Unit = {}): CfnWebACL.JsonMatchPatternProperty
-    = CfnWebACL.JsonMatchPatternProperty.Builder().apply(initializer).build()
+public fun buildJsonMatchPatternProperty(initializer: @AwsCdkDsl CfnWebACL.JsonMatchPatternProperty.Builder.() -> Unit = {}): CfnWebACL.JsonMatchPatternProperty = CfnWebACL.JsonMatchPatternProperty.Builder().apply(initializer).build()

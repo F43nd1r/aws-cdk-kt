@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnFeatureGroup
 
 @Generated
-public fun buildTtlDurationProperty(initializer: @AwsCdkDsl
-    CfnFeatureGroup.TtlDurationProperty.Builder.() -> Unit = {}):
-    CfnFeatureGroup.TtlDurationProperty =
-    CfnFeatureGroup.TtlDurationProperty.Builder().apply(initializer).build()
+public fun buildTtlDurationProperty(initializer: @AwsCdkDsl CfnFeatureGroup.TtlDurationProperty.Builder.() -> Unit = {}): CfnFeatureGroup.TtlDurationProperty = CfnFeatureGroup.TtlDurationProperty.Builder().apply(initializer).build()

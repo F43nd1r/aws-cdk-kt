@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.billingconductor.CfnCustomLineItem
 
 @Generated
-public fun buildLineItemFilterProperty(initializer: @AwsCdkDsl
-    CfnCustomLineItem.LineItemFilterProperty.Builder.() -> Unit = {}):
-    CfnCustomLineItem.LineItemFilterProperty =
-    CfnCustomLineItem.LineItemFilterProperty.Builder().apply(initializer).build()
+public fun buildLineItemFilterProperty(initializer: @AwsCdkDsl CfnCustomLineItem.LineItemFilterProperty.Builder.() -> Unit = {}): CfnCustomLineItem.LineItemFilterProperty = CfnCustomLineItem.LineItemFilterProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.origins.HttpOriginProps
 
 @Generated
-public fun buildHttpOriginProps(initializer: @AwsCdkDsl HttpOriginProps.Builder.() -> Unit = {}):
-    HttpOriginProps = HttpOriginProps.Builder().apply(initializer).build()
+public fun buildHttpOriginProps(initializer: @AwsCdkDsl HttpOriginProps.Builder.() -> Unit = {}): HttpOriginProps = HttpOriginProps.Builder().apply(initializer).build()

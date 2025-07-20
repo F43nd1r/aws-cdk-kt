@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rolesanywhere.CfnTrustAnchor
 
 @Generated
-public fun buildSourceDataProperty(initializer: @AwsCdkDsl
-    CfnTrustAnchor.SourceDataProperty.Builder.() -> Unit = {}): CfnTrustAnchor.SourceDataProperty =
-    CfnTrustAnchor.SourceDataProperty.Builder().apply(initializer).build()
+public fun buildSourceDataProperty(initializer: @AwsCdkDsl CfnTrustAnchor.SourceDataProperty.Builder.() -> Unit = {}): CfnTrustAnchor.SourceDataProperty = CfnTrustAnchor.SourceDataProperty.Builder().apply(initializer).build()

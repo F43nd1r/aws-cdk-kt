@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildEac3SettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.Eac3SettingsProperty.Builder.() -> Unit = {}): CfnChannel.Eac3SettingsProperty =
-    CfnChannel.Eac3SettingsProperty.Builder().apply(initializer).build()
+public fun buildEac3SettingsProperty(initializer: @AwsCdkDsl CfnChannel.Eac3SettingsProperty.Builder.() -> Unit = {}): CfnChannel.Eac3SettingsProperty = CfnChannel.Eac3SettingsProperty.Builder().apply(initializer).build()

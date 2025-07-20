@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnSubnetNetworkAclAssociationProps
 
 @Generated
-public fun buildCfnSubnetNetworkAclAssociationProps(initializer: @AwsCdkDsl
-    CfnSubnetNetworkAclAssociationProps.Builder.() -> Unit = {}):
-    CfnSubnetNetworkAclAssociationProps =
-    CfnSubnetNetworkAclAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnSubnetNetworkAclAssociationProps(initializer: @AwsCdkDsl CfnSubnetNetworkAclAssociationProps.Builder.() -> Unit = {}): CfnSubnetNetworkAclAssociationProps = CfnSubnetNetworkAclAssociationProps.Builder().apply(initializer).build()

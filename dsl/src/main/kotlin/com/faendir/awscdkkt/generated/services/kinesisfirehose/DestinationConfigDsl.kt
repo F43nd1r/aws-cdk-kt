@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.DestinationConfig
 
 @Generated
-public fun buildDestinationConfig(initializer: @AwsCdkDsl DestinationConfig.Builder.() -> Unit =
-    {}): DestinationConfig = DestinationConfig.Builder().apply(initializer).build()
+public fun buildDestinationConfig(initializer: @AwsCdkDsl DestinationConfig.Builder.() -> Unit = {}): DestinationConfig = DestinationConfig.Builder().apply(initializer).build()

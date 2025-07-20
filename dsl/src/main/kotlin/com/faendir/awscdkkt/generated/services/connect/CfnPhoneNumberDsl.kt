@@ -16,6 +16,4 @@ public fun Construct.cfnPhoneNumber(
 ): CfnPhoneNumber = CfnPhoneNumber(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPhoneNumber(id: String, initializer: @AwsCdkDsl
-    CfnPhoneNumber.Builder.() -> Unit = {}): CfnPhoneNumber = CfnPhoneNumber.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnPhoneNumber(id: String, initializer: @AwsCdkDsl CfnPhoneNumber.Builder.() -> Unit = {}): CfnPhoneNumber = CfnPhoneNumber.Builder.create(this, id).apply(initializer).build()

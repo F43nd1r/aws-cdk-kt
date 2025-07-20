@@ -16,6 +16,4 @@ public fun Construct.httpAuthorizer(
 ): HttpAuthorizer = HttpAuthorizer(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildHttpAuthorizer(id: String, initializer: @AwsCdkDsl
-    HttpAuthorizer.Builder.() -> Unit = {}): HttpAuthorizer = HttpAuthorizer.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildHttpAuthorizer(id: String, initializer: @AwsCdkDsl HttpAuthorizer.Builder.() -> Unit = {}): HttpAuthorizer = HttpAuthorizer.Builder.create(this, id).apply(initializer).build()

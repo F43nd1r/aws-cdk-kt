@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.synthetics.CfnCanary
 
 @Generated
-public fun buildVPCConfigProperty(initializer: @AwsCdkDsl
-    CfnCanary.VPCConfigProperty.Builder.() -> Unit = {}): CfnCanary.VPCConfigProperty =
-    CfnCanary.VPCConfigProperty.Builder().apply(initializer).build()
+public fun buildVPCConfigProperty(initializer: @AwsCdkDsl CfnCanary.VPCConfigProperty.Builder.() -> Unit = {}): CfnCanary.VPCConfigProperty = CfnCanary.VPCConfigProperty.Builder().apply(initializer).build()

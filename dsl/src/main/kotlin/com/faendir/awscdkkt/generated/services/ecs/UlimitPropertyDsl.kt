@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
-public fun buildUlimitProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.UlimitProperty.Builder.() -> Unit = {}): CfnTaskDefinition.UlimitProperty =
-    CfnTaskDefinition.UlimitProperty.Builder().apply(initializer).build()
+public fun buildUlimitProperty(initializer: @AwsCdkDsl CfnTaskDefinition.UlimitProperty.Builder.() -> Unit = {}): CfnTaskDefinition.UlimitProperty = CfnTaskDefinition.UlimitProperty.Builder().apply(initializer).build()

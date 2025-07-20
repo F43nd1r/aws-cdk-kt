@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.timestream.CfnScheduledQuery
 
 @Generated
-public fun buildSnsConfigurationProperty(initializer: @AwsCdkDsl
-    CfnScheduledQuery.SnsConfigurationProperty.Builder.() -> Unit = {}):
-    CfnScheduledQuery.SnsConfigurationProperty =
-    CfnScheduledQuery.SnsConfigurationProperty.Builder().apply(initializer).build()
+public fun buildSnsConfigurationProperty(initializer: @AwsCdkDsl CfnScheduledQuery.SnsConfigurationProperty.Builder.() -> Unit = {}): CfnScheduledQuery.SnsConfigurationProperty = CfnScheduledQuery.SnsConfigurationProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnRemediationConfiguration(
 ): CfnRemediationConfiguration = CfnRemediationConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRemediationConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnRemediationConfiguration.Builder.() -> Unit = {}): CfnRemediationConfiguration =
-    CfnRemediationConfiguration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRemediationConfiguration(id: String, initializer: @AwsCdkDsl CfnRemediationConfiguration.Builder.() -> Unit = {}): CfnRemediationConfiguration = CfnRemediationConfiguration.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.MapBaseOptions
 
 @Generated
-public fun buildMapBaseOptions(initializer: @AwsCdkDsl MapBaseOptions.Builder.() -> Unit = {}):
-    MapBaseOptions = MapBaseOptions.Builder().apply(initializer).build()
+public fun buildMapBaseOptions(initializer: @AwsCdkDsl MapBaseOptions.Builder.() -> Unit = {}): MapBaseOptions = MapBaseOptions.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnCrawler
 
 @Generated
-public fun buildTargetsProperty(initializer: @AwsCdkDsl
-    CfnCrawler.TargetsProperty.Builder.() -> Unit = {}): CfnCrawler.TargetsProperty =
-    CfnCrawler.TargetsProperty.Builder().apply(initializer).build()
+public fun buildTargetsProperty(initializer: @AwsCdkDsl CfnCrawler.TargetsProperty.Builder.() -> Unit = {}): CfnCrawler.TargetsProperty = CfnCrawler.TargetsProperty.Builder().apply(initializer).build()

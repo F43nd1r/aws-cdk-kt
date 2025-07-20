@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.cloudfront.S3OriginAccessControlProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.s3OriginAccessControl(id: String, initializer: @AwsCdkDsl
-    S3OriginAccessControl.() -> Unit = {}): S3OriginAccessControl = S3OriginAccessControl(this,
-    id).apply(initializer)
+public fun Construct.s3OriginAccessControl(id: String, initializer: @AwsCdkDsl S3OriginAccessControl.() -> Unit = {}): S3OriginAccessControl = S3OriginAccessControl(this, id).apply(initializer)
 
 @Generated
 public fun Construct.s3OriginAccessControl(
@@ -21,6 +19,4 @@ public fun Construct.s3OriginAccessControl(
 ): S3OriginAccessControl = S3OriginAccessControl(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildS3OriginAccessControl(id: String, initializer: @AwsCdkDsl
-    S3OriginAccessControl.Builder.() -> Unit = {}): S3OriginAccessControl =
-    S3OriginAccessControl.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildS3OriginAccessControl(id: String, initializer: @AwsCdkDsl S3OriginAccessControl.Builder.() -> Unit = {}): S3OriginAccessControl = S3OriginAccessControl.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.StepFunctionsStartExecutionJsonataProps
 
 @Generated
-public fun buildStepFunctionsStartExecutionJsonataProps(initializer: @AwsCdkDsl
-    StepFunctionsStartExecutionJsonataProps.Builder.() -> Unit = {}):
-    StepFunctionsStartExecutionJsonataProps =
-    StepFunctionsStartExecutionJsonataProps.Builder().apply(initializer).build()
+public fun buildStepFunctionsStartExecutionJsonataProps(initializer: @AwsCdkDsl StepFunctionsStartExecutionJsonataProps.Builder.() -> Unit = {}): StepFunctionsStartExecutionJsonataProps = StepFunctionsStartExecutionJsonataProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnContactList
 
 @Generated
-public fun buildTopicProperty(initializer: @AwsCdkDsl
-    CfnContactList.TopicProperty.Builder.() -> Unit = {}): CfnContactList.TopicProperty =
-    CfnContactList.TopicProperty.Builder().apply(initializer).build()
+public fun buildTopicProperty(initializer: @AwsCdkDsl CfnContactList.TopicProperty.Builder.() -> Unit = {}): CfnContactList.TopicProperty = CfnContactList.TopicProperty.Builder().apply(initializer).build()

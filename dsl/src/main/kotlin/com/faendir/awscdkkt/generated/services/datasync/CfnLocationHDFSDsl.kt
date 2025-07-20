@@ -16,6 +16,4 @@ public fun Construct.cfnLocationHDFS(
 ): CfnLocationHDFS = CfnLocationHDFS(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLocationHDFS(id: String, initializer: @AwsCdkDsl
-    CfnLocationHDFS.Builder.() -> Unit = {}): CfnLocationHDFS = CfnLocationHDFS.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnLocationHDFS(id: String, initializer: @AwsCdkDsl CfnLocationHDFS.Builder.() -> Unit = {}): CfnLocationHDFS = CfnLocationHDFS.Builder.create(this, id).apply(initializer).build()

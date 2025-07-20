@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnFlowVersion
 
 @Generated
-public fun buildVectorSearchBedrockRerankingConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFlowVersion.VectorSearchBedrockRerankingConfigurationProperty.Builder.() -> Unit = {}):
-    CfnFlowVersion.VectorSearchBedrockRerankingConfigurationProperty =
-    CfnFlowVersion.VectorSearchBedrockRerankingConfigurationProperty.Builder().apply(initializer).build()
+public fun buildVectorSearchBedrockRerankingConfigurationProperty(initializer: @AwsCdkDsl CfnFlowVersion.VectorSearchBedrockRerankingConfigurationProperty.Builder.() -> Unit = {}): CfnFlowVersion.VectorSearchBedrockRerankingConfigurationProperty = CfnFlowVersion.VectorSearchBedrockRerankingConfigurationProperty.Builder().apply(initializer).build()

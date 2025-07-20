@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.notifications.CfnManagedNotificationAccountContactAssociationProps
 
 @Generated
-public fun buildCfnManagedNotificationAccountContactAssociationProps(initializer: @AwsCdkDsl
-    CfnManagedNotificationAccountContactAssociationProps.Builder.() -> Unit = {}):
-    CfnManagedNotificationAccountContactAssociationProps =
-    CfnManagedNotificationAccountContactAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnManagedNotificationAccountContactAssociationProps(initializer: @AwsCdkDsl CfnManagedNotificationAccountContactAssociationProps.Builder.() -> Unit = {}): CfnManagedNotificationAccountContactAssociationProps = CfnManagedNotificationAccountContactAssociationProps.Builder().apply(initializer).build()

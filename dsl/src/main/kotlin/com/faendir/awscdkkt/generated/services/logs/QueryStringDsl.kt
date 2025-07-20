@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.QueryString
 
 @Generated
-public fun buildQueryString(initializer: @AwsCdkDsl QueryString.Builder.() -> Unit = {}):
-    QueryString = QueryString.Builder.create().apply(initializer).build()
+public fun buildQueryString(initializer: @AwsCdkDsl QueryString.Builder.() -> Unit = {}): QueryString = QueryString.Builder.create().apply(initializer).build()

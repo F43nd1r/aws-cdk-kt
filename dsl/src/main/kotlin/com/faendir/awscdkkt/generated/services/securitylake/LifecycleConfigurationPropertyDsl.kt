@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securitylake.CfnDataLake
 
 @Generated
-public fun buildLifecycleConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataLake.LifecycleConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDataLake.LifecycleConfigurationProperty =
-    CfnDataLake.LifecycleConfigurationProperty.Builder().apply(initializer).build()
+public fun buildLifecycleConfigurationProperty(initializer: @AwsCdkDsl CfnDataLake.LifecycleConfigurationProperty.Builder.() -> Unit = {}): CfnDataLake.LifecycleConfigurationProperty = CfnDataLake.LifecycleConfigurationProperty.Builder().apply(initializer).build()

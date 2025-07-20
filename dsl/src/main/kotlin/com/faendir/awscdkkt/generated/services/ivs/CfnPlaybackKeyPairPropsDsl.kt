@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ivs.CfnPlaybackKeyPairProps
 
 @Generated
-public fun buildCfnPlaybackKeyPairProps(initializer: @AwsCdkDsl
-    CfnPlaybackKeyPairProps.Builder.() -> Unit = {}): CfnPlaybackKeyPairProps =
-    CfnPlaybackKeyPairProps.Builder().apply(initializer).build()
+public fun buildCfnPlaybackKeyPairProps(initializer: @AwsCdkDsl CfnPlaybackKeyPairProps.Builder.() -> Unit = {}): CfnPlaybackKeyPairProps = CfnPlaybackKeyPairProps.Builder().apply(initializer).build()

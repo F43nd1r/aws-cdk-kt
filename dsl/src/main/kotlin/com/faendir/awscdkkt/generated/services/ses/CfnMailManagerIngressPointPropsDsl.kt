@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnMailManagerIngressPointProps
 
 @Generated
-public fun buildCfnMailManagerIngressPointProps(initializer: @AwsCdkDsl
-    CfnMailManagerIngressPointProps.Builder.() -> Unit = {}): CfnMailManagerIngressPointProps =
-    CfnMailManagerIngressPointProps.Builder().apply(initializer).build()
+public fun buildCfnMailManagerIngressPointProps(initializer: @AwsCdkDsl CfnMailManagerIngressPointProps.Builder.() -> Unit = {}): CfnMailManagerIngressPointProps = CfnMailManagerIngressPointProps.Builder().apply(initializer).build()

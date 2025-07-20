@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnEvaluationForm
 
 @Generated
-public fun buildEvaluationFormNumericQuestionPropertiesProperty(initializer: @AwsCdkDsl
-    CfnEvaluationForm.EvaluationFormNumericQuestionPropertiesProperty.Builder.() -> Unit = {}):
-    CfnEvaluationForm.EvaluationFormNumericQuestionPropertiesProperty =
-    CfnEvaluationForm.EvaluationFormNumericQuestionPropertiesProperty.Builder().apply(initializer).build()
+public fun buildEvaluationFormNumericQuestionPropertiesProperty(initializer: @AwsCdkDsl CfnEvaluationForm.EvaluationFormNumericQuestionPropertiesProperty.Builder.() -> Unit = {}): CfnEvaluationForm.EvaluationFormNumericQuestionPropertiesProperty = CfnEvaluationForm.EvaluationFormNumericQuestionPropertiesProperty.Builder().apply(initializer).build()

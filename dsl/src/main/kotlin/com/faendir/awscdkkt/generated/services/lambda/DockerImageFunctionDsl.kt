@@ -16,6 +16,4 @@ public fun Construct.dockerImageFunction(
 ): DockerImageFunction = DockerImageFunction(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildDockerImageFunction(id: String, initializer: @AwsCdkDsl
-    DockerImageFunction.Builder.() -> Unit = {}): DockerImageFunction =
-    DockerImageFunction.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildDockerImageFunction(id: String, initializer: @AwsCdkDsl DockerImageFunction.Builder.() -> Unit = {}): DockerImageFunction = DockerImageFunction.Builder.create(this, id).apply(initializer).build()

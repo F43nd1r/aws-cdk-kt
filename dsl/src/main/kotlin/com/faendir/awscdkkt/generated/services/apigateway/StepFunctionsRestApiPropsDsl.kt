@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.StepFunctionsRestApiProps
 
 @Generated
-public fun buildStepFunctionsRestApiProps(initializer: @AwsCdkDsl
-    StepFunctionsRestApiProps.Builder.() -> Unit = {}): StepFunctionsRestApiProps =
-    StepFunctionsRestApiProps.Builder().apply(initializer).build()
+public fun buildStepFunctionsRestApiProps(initializer: @AwsCdkDsl StepFunctionsRestApiProps.Builder.() -> Unit = {}): StepFunctionsRestApiProps = StepFunctionsRestApiProps.Builder().apply(initializer).build()

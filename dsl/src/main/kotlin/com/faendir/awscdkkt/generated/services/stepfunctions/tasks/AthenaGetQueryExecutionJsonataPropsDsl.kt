@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.AthenaGetQueryExecutionJsonataProps
 
 @Generated
-public fun buildAthenaGetQueryExecutionJsonataProps(initializer: @AwsCdkDsl
-    AthenaGetQueryExecutionJsonataProps.Builder.() -> Unit = {}):
-    AthenaGetQueryExecutionJsonataProps =
-    AthenaGetQueryExecutionJsonataProps.Builder().apply(initializer).build()
+public fun buildAthenaGetQueryExecutionJsonataProps(initializer: @AwsCdkDsl AthenaGetQueryExecutionJsonataProps.Builder.() -> Unit = {}): AthenaGetQueryExecutionJsonataProps = AthenaGetQueryExecutionJsonataProps.Builder().apply(initializer).build()

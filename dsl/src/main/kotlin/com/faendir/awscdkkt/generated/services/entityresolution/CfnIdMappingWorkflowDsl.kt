@@ -16,6 +16,4 @@ public fun Construct.cfnIdMappingWorkflow(
 ): CfnIdMappingWorkflow = CfnIdMappingWorkflow(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnIdMappingWorkflow(id: String, initializer: @AwsCdkDsl
-    CfnIdMappingWorkflow.Builder.() -> Unit = {}): CfnIdMappingWorkflow =
-    CfnIdMappingWorkflow.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnIdMappingWorkflow(id: String, initializer: @AwsCdkDsl CfnIdMappingWorkflow.Builder.() -> Unit = {}): CfnIdMappingWorkflow = CfnIdMappingWorkflow.Builder.create(this, id).apply(initializer).build()

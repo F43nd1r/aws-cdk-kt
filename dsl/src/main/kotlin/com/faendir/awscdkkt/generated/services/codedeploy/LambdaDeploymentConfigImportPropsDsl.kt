@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codedeploy.LambdaDeploymentConfigImportProps
 
 @Generated
-public fun buildLambdaDeploymentConfigImportProps(initializer: @AwsCdkDsl
-    LambdaDeploymentConfigImportProps.Builder.() -> Unit = {}): LambdaDeploymentConfigImportProps =
-    LambdaDeploymentConfigImportProps.Builder().apply(initializer).build()
+public fun buildLambdaDeploymentConfigImportProps(initializer: @AwsCdkDsl LambdaDeploymentConfigImportProps.Builder.() -> Unit = {}): LambdaDeploymentConfigImportProps = LambdaDeploymentConfigImportProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildSlotPriorityProperty(initializer: @AwsCdkDsl
-    CfnBot.SlotPriorityProperty.Builder.() -> Unit = {}): CfnBot.SlotPriorityProperty =
-    CfnBot.SlotPriorityProperty.Builder().apply(initializer).build()
+public fun buildSlotPriorityProperty(initializer: @AwsCdkDsl CfnBot.SlotPriorityProperty.Builder.() -> Unit = {}): CfnBot.SlotPriorityProperty = CfnBot.SlotPriorityProperty.Builder().apply(initializer).build()

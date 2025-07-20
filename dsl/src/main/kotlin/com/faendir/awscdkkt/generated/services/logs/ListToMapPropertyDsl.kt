@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnTransformer
 
 @Generated
-public fun buildListToMapProperty(initializer: @AwsCdkDsl
-    CfnTransformer.ListToMapProperty.Builder.() -> Unit = {}): CfnTransformer.ListToMapProperty =
-    CfnTransformer.ListToMapProperty.Builder().apply(initializer).build()
+public fun buildListToMapProperty(initializer: @AwsCdkDsl CfnTransformer.ListToMapProperty.Builder.() -> Unit = {}): CfnTransformer.ListToMapProperty = CfnTransformer.ListToMapProperty.Builder().apply(initializer).build()

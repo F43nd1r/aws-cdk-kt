@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.FireLensLogDriverProps
 
 @Generated
-public fun buildFireLensLogDriverProps(initializer: @AwsCdkDsl
-    FireLensLogDriverProps.Builder.() -> Unit = {}): FireLensLogDriverProps =
-    FireLensLogDriverProps.Builder().apply(initializer).build()
+public fun buildFireLensLogDriverProps(initializer: @AwsCdkDsl FireLensLogDriverProps.Builder.() -> Unit = {}): FireLensLogDriverProps = FireLensLogDriverProps.Builder().apply(initializer).build()

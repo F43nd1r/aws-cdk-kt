@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnVirtualGateway
 
 @Generated
-public fun buildVirtualGatewayLoggingProperty(initializer: @AwsCdkDsl
-    CfnVirtualGateway.VirtualGatewayLoggingProperty.Builder.() -> Unit = {}):
-    CfnVirtualGateway.VirtualGatewayLoggingProperty =
-    CfnVirtualGateway.VirtualGatewayLoggingProperty.Builder().apply(initializer).build()
+public fun buildVirtualGatewayLoggingProperty(initializer: @AwsCdkDsl CfnVirtualGateway.VirtualGatewayLoggingProperty.Builder.() -> Unit = {}): CfnVirtualGateway.VirtualGatewayLoggingProperty = CfnVirtualGateway.VirtualGatewayLoggingProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.BitBucketSourceProps
 
 @Generated
-public fun buildBitBucketSourceProps(initializer: @AwsCdkDsl BitBucketSourceProps.Builder.() -> Unit
-    = {}): BitBucketSourceProps = BitBucketSourceProps.Builder().apply(initializer).build()
+public fun buildBitBucketSourceProps(initializer: @AwsCdkDsl BitBucketSourceProps.Builder.() -> Unit = {}): BitBucketSourceProps = BitBucketSourceProps.Builder().apply(initializer).build()

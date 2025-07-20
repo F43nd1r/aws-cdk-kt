@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.deadline.CfnFarmProps
 
 @Generated
-public fun buildCfnFarmProps(initializer: @AwsCdkDsl CfnFarmProps.Builder.() -> Unit = {}):
-    CfnFarmProps = CfnFarmProps.Builder().apply(initializer).build()
+public fun buildCfnFarmProps(initializer: @AwsCdkDsl CfnFarmProps.Builder.() -> Unit = {}): CfnFarmProps = CfnFarmProps.Builder().apply(initializer).build()

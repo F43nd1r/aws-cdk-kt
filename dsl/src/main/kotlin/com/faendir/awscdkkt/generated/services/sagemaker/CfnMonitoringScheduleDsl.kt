@@ -16,6 +16,4 @@ public fun Construct.cfnMonitoringSchedule(
 ): CfnMonitoringSchedule = CfnMonitoringSchedule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMonitoringSchedule(id: String, initializer: @AwsCdkDsl
-    CfnMonitoringSchedule.Builder.() -> Unit = {}): CfnMonitoringSchedule =
-    CfnMonitoringSchedule.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMonitoringSchedule(id: String, initializer: @AwsCdkDsl CfnMonitoringSchedule.Builder.() -> Unit = {}): CfnMonitoringSchedule = CfnMonitoringSchedule.Builder.create(this, id).apply(initializer).build()

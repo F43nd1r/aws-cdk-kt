@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildShapeConditionalFormatProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ShapeConditionalFormatProperty.Builder.() -> Unit = {}):
-    CfnTemplate.ShapeConditionalFormatProperty =
-    CfnTemplate.ShapeConditionalFormatProperty.Builder().apply(initializer).build()
+public fun buildShapeConditionalFormatProperty(initializer: @AwsCdkDsl CfnTemplate.ShapeConditionalFormatProperty.Builder.() -> Unit = {}): CfnTemplate.ShapeConditionalFormatProperty = CfnTemplate.ShapeConditionalFormatProperty.Builder().apply(initializer).build()

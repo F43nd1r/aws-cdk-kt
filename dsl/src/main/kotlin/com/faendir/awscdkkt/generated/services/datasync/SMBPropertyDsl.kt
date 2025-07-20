@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datasync.CfnLocationFSxONTAP
 
 @Generated
-public fun buildSMBProperty(initializer: @AwsCdkDsl
-    CfnLocationFSxONTAP.SMBProperty.Builder.() -> Unit = {}): CfnLocationFSxONTAP.SMBProperty =
-    CfnLocationFSxONTAP.SMBProperty.Builder().apply(initializer).build()
+public fun buildSMBProperty(initializer: @AwsCdkDsl CfnLocationFSxONTAP.SMBProperty.Builder.() -> Unit = {}): CfnLocationFSxONTAP.SMBProperty = CfnLocationFSxONTAP.SMBProperty.Builder().apply(initializer).build()

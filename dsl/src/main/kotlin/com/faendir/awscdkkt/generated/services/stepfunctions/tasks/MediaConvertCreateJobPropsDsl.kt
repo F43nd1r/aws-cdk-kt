@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.MediaConvertCreateJobProps
 
 @Generated
-public fun buildMediaConvertCreateJobProps(initializer: @AwsCdkDsl
-    MediaConvertCreateJobProps.Builder.() -> Unit = {}): MediaConvertCreateJobProps =
-    MediaConvertCreateJobProps.Builder().apply(initializer).build()
+public fun buildMediaConvertCreateJobProps(initializer: @AwsCdkDsl MediaConvertCreateJobProps.Builder.() -> Unit = {}): MediaConvertCreateJobProps = MediaConvertCreateJobProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.JobStateTimeLimitAction
 
 @Generated
-public fun buildJobStateTimeLimitAction(initializer: @AwsCdkDsl
-    JobStateTimeLimitAction.Builder.() -> Unit = {}): JobStateTimeLimitAction =
-    JobStateTimeLimitAction.Builder().apply(initializer).build()
+public fun buildJobStateTimeLimitAction(initializer: @AwsCdkDsl JobStateTimeLimitAction.Builder.() -> Unit = {}): JobStateTimeLimitAction = JobStateTimeLimitAction.Builder().apply(initializer).build()

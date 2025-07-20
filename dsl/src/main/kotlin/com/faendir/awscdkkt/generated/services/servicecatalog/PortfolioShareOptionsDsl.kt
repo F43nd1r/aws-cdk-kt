@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicecatalog.PortfolioShareOptions
 
 @Generated
-public fun buildPortfolioShareOptions(initializer: @AwsCdkDsl
-    PortfolioShareOptions.Builder.() -> Unit = {}): PortfolioShareOptions =
-    PortfolioShareOptions.Builder().apply(initializer).build()
+public fun buildPortfolioShareOptions(initializer: @AwsCdkDsl PortfolioShareOptions.Builder.() -> Unit = {}): PortfolioShareOptions = PortfolioShareOptions.Builder().apply(initializer).build()

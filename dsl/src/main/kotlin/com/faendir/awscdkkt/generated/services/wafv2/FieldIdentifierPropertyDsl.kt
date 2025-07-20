@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
-public fun buildFieldIdentifierProperty(initializer: @AwsCdkDsl
-    CfnWebACL.FieldIdentifierProperty.Builder.() -> Unit = {}): CfnWebACL.FieldIdentifierProperty =
-    CfnWebACL.FieldIdentifierProperty.Builder().apply(initializer).build()
+public fun buildFieldIdentifierProperty(initializer: @AwsCdkDsl CfnWebACL.FieldIdentifierProperty.Builder.() -> Unit = {}): CfnWebACL.FieldIdentifierProperty = CfnWebACL.FieldIdentifierProperty.Builder().apply(initializer).build()

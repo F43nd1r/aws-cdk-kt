@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
-public fun buildGeospatialSolidColorProperty(initializer: @AwsCdkDsl
-    CfnDashboard.GeospatialSolidColorProperty.Builder.() -> Unit = {}):
-    CfnDashboard.GeospatialSolidColorProperty =
-    CfnDashboard.GeospatialSolidColorProperty.Builder().apply(initializer).build()
+public fun buildGeospatialSolidColorProperty(initializer: @AwsCdkDsl CfnDashboard.GeospatialSolidColorProperty.Builder.() -> Unit = {}): CfnDashboard.GeospatialSolidColorProperty = CfnDashboard.GeospatialSolidColorProperty.Builder().apply(initializer).build()

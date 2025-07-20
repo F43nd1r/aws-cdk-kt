@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.OpenIdConnectConfig
 
 @Generated
-public fun buildOpenIdConnectConfig(initializer: @AwsCdkDsl OpenIdConnectConfig.Builder.() -> Unit =
-    {}): OpenIdConnectConfig = OpenIdConnectConfig.Builder().apply(initializer).build()
+public fun buildOpenIdConnectConfig(initializer: @AwsCdkDsl OpenIdConnectConfig.Builder.() -> Unit = {}): OpenIdConnectConfig = OpenIdConnectConfig.Builder().apply(initializer).build()

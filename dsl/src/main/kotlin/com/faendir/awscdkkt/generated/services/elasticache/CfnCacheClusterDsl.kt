@@ -16,6 +16,4 @@ public fun Construct.cfnCacheCluster(
 ): CfnCacheCluster = CfnCacheCluster(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCacheCluster(id: String, initializer: @AwsCdkDsl
-    CfnCacheCluster.Builder.() -> Unit = {}): CfnCacheCluster = CfnCacheCluster.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnCacheCluster(id: String, initializer: @AwsCdkDsl CfnCacheCluster.Builder.() -> Unit = {}): CfnCacheCluster = CfnCacheCluster.Builder.create(this, id).apply(initializer).build()

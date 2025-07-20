@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.TablePropsV2
 
 @Generated
-public fun buildTablePropsV2(initializer: @AwsCdkDsl TablePropsV2.Builder.() -> Unit = {}):
-    TablePropsV2 = TablePropsV2.Builder().apply(initializer).build()
+public fun buildTablePropsV2(initializer: @AwsCdkDsl TablePropsV2.Builder.() -> Unit = {}): TablePropsV2 = TablePropsV2.Builder().apply(initializer).build()

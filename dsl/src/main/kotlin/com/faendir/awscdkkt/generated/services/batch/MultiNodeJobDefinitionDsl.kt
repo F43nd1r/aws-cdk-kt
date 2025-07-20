@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.batch.MultiNodeJobDefinitionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.multiNodeJobDefinition(id: String, initializer: @AwsCdkDsl
-    MultiNodeJobDefinition.() -> Unit = {}): MultiNodeJobDefinition = MultiNodeJobDefinition(this,
-    id).apply(initializer)
+public fun Construct.multiNodeJobDefinition(id: String, initializer: @AwsCdkDsl MultiNodeJobDefinition.() -> Unit = {}): MultiNodeJobDefinition = MultiNodeJobDefinition(this, id).apply(initializer)
 
 @Generated
 public fun Construct.multiNodeJobDefinition(
@@ -21,6 +19,4 @@ public fun Construct.multiNodeJobDefinition(
 ): MultiNodeJobDefinition = MultiNodeJobDefinition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildMultiNodeJobDefinition(id: String, initializer: @AwsCdkDsl
-    MultiNodeJobDefinition.Builder.() -> Unit = {}): MultiNodeJobDefinition =
-    MultiNodeJobDefinition.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildMultiNodeJobDefinition(id: String, initializer: @AwsCdkDsl MultiNodeJobDefinition.Builder.() -> Unit = {}): MultiNodeJobDefinition = MultiNodeJobDefinition.Builder.create(this, id).apply(initializer).build()

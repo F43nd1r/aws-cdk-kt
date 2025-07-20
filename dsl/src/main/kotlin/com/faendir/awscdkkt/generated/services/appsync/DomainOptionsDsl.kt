@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.DomainOptions
 
 @Generated
-public fun buildDomainOptions(initializer: @AwsCdkDsl DomainOptions.Builder.() -> Unit = {}):
-    DomainOptions = DomainOptions.Builder().apply(initializer).build()
+public fun buildDomainOptions(initializer: @AwsCdkDsl DomainOptions.Builder.() -> Unit = {}): DomainOptions = DomainOptions.Builder().apply(initializer).build()

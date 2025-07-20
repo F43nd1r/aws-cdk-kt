@@ -16,6 +16,4 @@ public fun Construct.cfnCodeDeployBlueGreenHook(
 ): CfnCodeDeployBlueGreenHook = CfnCodeDeployBlueGreenHook(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCodeDeployBlueGreenHook(id: String, initializer: @AwsCdkDsl
-    CfnCodeDeployBlueGreenHook.Builder.() -> Unit = {}): CfnCodeDeployBlueGreenHook =
-    CfnCodeDeployBlueGreenHook.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCodeDeployBlueGreenHook(id: String, initializer: @AwsCdkDsl CfnCodeDeployBlueGreenHook.Builder.() -> Unit = {}): CfnCodeDeployBlueGreenHook = CfnCodeDeployBlueGreenHook.Builder.create(this, id).apply(initializer).build()

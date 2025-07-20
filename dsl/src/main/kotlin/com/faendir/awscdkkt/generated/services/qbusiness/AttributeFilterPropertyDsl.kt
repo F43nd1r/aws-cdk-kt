@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnDataAccessor
 
 @Generated
-public fun buildAttributeFilterProperty(initializer: @AwsCdkDsl
-    CfnDataAccessor.AttributeFilterProperty.Builder.() -> Unit = {}):
-    CfnDataAccessor.AttributeFilterProperty =
-    CfnDataAccessor.AttributeFilterProperty.Builder().apply(initializer).build()
+public fun buildAttributeFilterProperty(initializer: @AwsCdkDsl CfnDataAccessor.AttributeFilterProperty.Builder.() -> Unit = {}): CfnDataAccessor.AttributeFilterProperty = CfnDataAccessor.AttributeFilterProperty.Builder().apply(initializer).build()

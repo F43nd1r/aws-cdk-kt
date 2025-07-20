@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.RemotePodNetwork
 
 @Generated
-public fun buildRemotePodNetwork(initializer: @AwsCdkDsl RemotePodNetwork.Builder.() -> Unit = {}):
-    RemotePodNetwork = RemotePodNetwork.Builder().apply(initializer).build()
+public fun buildRemotePodNetwork(initializer: @AwsCdkDsl RemotePodNetwork.Builder.() -> Unit = {}): RemotePodNetwork = RemotePodNetwork.Builder().apply(initializer).build()

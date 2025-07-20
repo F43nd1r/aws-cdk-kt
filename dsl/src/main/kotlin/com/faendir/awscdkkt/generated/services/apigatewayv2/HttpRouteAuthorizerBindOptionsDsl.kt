@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.HttpRouteAuthorizerBindOptions
 
 @Generated
-public fun buildHttpRouteAuthorizerBindOptions(initializer: @AwsCdkDsl
-    HttpRouteAuthorizerBindOptions.Builder.() -> Unit = {}): HttpRouteAuthorizerBindOptions =
-    HttpRouteAuthorizerBindOptions.Builder().apply(initializer).build()
+public fun buildHttpRouteAuthorizerBindOptions(initializer: @AwsCdkDsl HttpRouteAuthorizerBindOptions.Builder.() -> Unit = {}): HttpRouteAuthorizerBindOptions = HttpRouteAuthorizerBindOptions.Builder().apply(initializer).build()

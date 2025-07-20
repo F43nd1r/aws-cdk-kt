@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildCdiInputSpecificationProperty(initializer: @AwsCdkDsl
-    CfnChannel.CdiInputSpecificationProperty.Builder.() -> Unit = {}):
-    CfnChannel.CdiInputSpecificationProperty =
-    CfnChannel.CdiInputSpecificationProperty.Builder().apply(initializer).build()
+public fun buildCdiInputSpecificationProperty(initializer: @AwsCdkDsl CfnChannel.CdiInputSpecificationProperty.Builder.() -> Unit = {}): CfnChannel.CdiInputSpecificationProperty = CfnChannel.CdiInputSpecificationProperty.Builder().apply(initializer).build()

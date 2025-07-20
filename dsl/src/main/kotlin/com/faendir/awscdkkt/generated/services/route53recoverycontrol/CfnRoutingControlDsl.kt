@@ -16,6 +16,4 @@ public fun Construct.cfnRoutingControl(
 ): CfnRoutingControl = CfnRoutingControl(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRoutingControl(id: String, initializer: @AwsCdkDsl
-    CfnRoutingControl.Builder.() -> Unit = {}): CfnRoutingControl =
-    CfnRoutingControl.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRoutingControl(id: String, initializer: @AwsCdkDsl CfnRoutingControl.Builder.() -> Unit = {}): CfnRoutingControl = CfnRoutingControl.Builder.create(this, id).apply(initializer).build()

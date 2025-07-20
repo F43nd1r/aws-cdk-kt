@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.iam.InstanceProfileProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.instanceProfile(id: String, initializer: @AwsCdkDsl InstanceProfile.() -> Unit
-    = {}): InstanceProfile = InstanceProfile(this, id).apply(initializer)
+public fun Construct.instanceProfile(id: String, initializer: @AwsCdkDsl InstanceProfile.() -> Unit = {}): InstanceProfile = InstanceProfile(this, id).apply(initializer)
 
 @Generated
 public fun Construct.instanceProfile(
@@ -20,6 +19,4 @@ public fun Construct.instanceProfile(
 ): InstanceProfile = InstanceProfile(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildInstanceProfile(id: String, initializer: @AwsCdkDsl
-    InstanceProfile.Builder.() -> Unit = {}): InstanceProfile = InstanceProfile.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildInstanceProfile(id: String, initializer: @AwsCdkDsl InstanceProfile.Builder.() -> Unit = {}): InstanceProfile = InstanceProfile.Builder.create(this, id).apply(initializer).build()

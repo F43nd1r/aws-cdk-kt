@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.resourcegroups.CfnGroup
 
 @Generated
-public fun buildConfigurationParameterProperty(initializer: @AwsCdkDsl
-    CfnGroup.ConfigurationParameterProperty.Builder.() -> Unit = {}):
-    CfnGroup.ConfigurationParameterProperty =
-    CfnGroup.ConfigurationParameterProperty.Builder().apply(initializer).build()
+public fun buildConfigurationParameterProperty(initializer: @AwsCdkDsl CfnGroup.ConfigurationParameterProperty.Builder.() -> Unit = {}): CfnGroup.ConfigurationParameterProperty = CfnGroup.ConfigurationParameterProperty.Builder().apply(initializer).build()

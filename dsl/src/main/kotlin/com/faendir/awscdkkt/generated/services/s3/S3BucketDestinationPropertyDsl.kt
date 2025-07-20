@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnStorageLens
 
 @Generated
-public fun buildS3BucketDestinationProperty(initializer: @AwsCdkDsl
-    CfnStorageLens.S3BucketDestinationProperty.Builder.() -> Unit = {}):
-    CfnStorageLens.S3BucketDestinationProperty =
-    CfnStorageLens.S3BucketDestinationProperty.Builder().apply(initializer).build()
+public fun buildS3BucketDestinationProperty(initializer: @AwsCdkDsl CfnStorageLens.S3BucketDestinationProperty.Builder.() -> Unit = {}): CfnStorageLens.S3BucketDestinationProperty = CfnStorageLens.S3BucketDestinationProperty.Builder().apply(initializer).build()

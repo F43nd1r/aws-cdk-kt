@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.b2bi.CfnCapability
 
 @Generated
-public fun buildEdiConfigurationProperty(initializer: @AwsCdkDsl
-    CfnCapability.EdiConfigurationProperty.Builder.() -> Unit = {}):
-    CfnCapability.EdiConfigurationProperty =
-    CfnCapability.EdiConfigurationProperty.Builder().apply(initializer).build()
+public fun buildEdiConfigurationProperty(initializer: @AwsCdkDsl CfnCapability.EdiConfigurationProperty.Builder.() -> Unit = {}): CfnCapability.EdiConfigurationProperty = CfnCapability.EdiConfigurationProperty.Builder().apply(initializer).build()

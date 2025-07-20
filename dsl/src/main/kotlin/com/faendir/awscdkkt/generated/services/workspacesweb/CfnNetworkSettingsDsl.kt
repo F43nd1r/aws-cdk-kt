@@ -16,6 +16,4 @@ public fun Construct.cfnNetworkSettings(
 ): CfnNetworkSettings = CfnNetworkSettings(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnNetworkSettings(id: String, initializer: @AwsCdkDsl
-    CfnNetworkSettings.Builder.() -> Unit = {}): CfnNetworkSettings =
-    CfnNetworkSettings.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnNetworkSettings(id: String, initializer: @AwsCdkDsl CfnNetworkSettings.Builder.() -> Unit = {}): CfnNetworkSettings = CfnNetworkSettings.Builder.create(this, id).apply(initializer).build()

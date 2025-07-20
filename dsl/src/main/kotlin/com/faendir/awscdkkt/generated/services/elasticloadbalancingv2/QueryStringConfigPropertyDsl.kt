@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.CfnListenerRule
 
 @Generated
-public fun buildQueryStringConfigProperty(initializer: @AwsCdkDsl
-    CfnListenerRule.QueryStringConfigProperty.Builder.() -> Unit = {}):
-    CfnListenerRule.QueryStringConfigProperty =
-    CfnListenerRule.QueryStringConfigProperty.Builder().apply(initializer).build()
+public fun buildQueryStringConfigProperty(initializer: @AwsCdkDsl CfnListenerRule.QueryStringConfigProperty.Builder.() -> Unit = {}): CfnListenerRule.QueryStringConfigProperty = CfnListenerRule.QueryStringConfigProperty.Builder().apply(initializer).build()

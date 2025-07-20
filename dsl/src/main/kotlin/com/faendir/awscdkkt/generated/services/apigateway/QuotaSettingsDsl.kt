@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.QuotaSettings
 
 @Generated
-public fun buildQuotaSettings(initializer: @AwsCdkDsl QuotaSettings.Builder.() -> Unit = {}):
-    QuotaSettings = QuotaSettings.Builder().apply(initializer).build()
+public fun buildQuotaSettings(initializer: @AwsCdkDsl QuotaSettings.Builder.() -> Unit = {}): QuotaSettings = QuotaSettings.Builder().apply(initializer).build()

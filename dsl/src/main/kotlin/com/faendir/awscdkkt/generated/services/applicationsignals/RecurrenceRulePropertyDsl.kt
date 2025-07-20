@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.applicationsignals.CfnServiceLevelObjective
 
 @Generated
-public fun buildRecurrenceRuleProperty(initializer: @AwsCdkDsl
-    CfnServiceLevelObjective.RecurrenceRuleProperty.Builder.() -> Unit = {}):
-    CfnServiceLevelObjective.RecurrenceRuleProperty =
-    CfnServiceLevelObjective.RecurrenceRuleProperty.Builder().apply(initializer).build()
+public fun buildRecurrenceRuleProperty(initializer: @AwsCdkDsl CfnServiceLevelObjective.RecurrenceRuleProperty.Builder.() -> Unit = {}): CfnServiceLevelObjective.RecurrenceRuleProperty = CfnServiceLevelObjective.RecurrenceRuleProperty.Builder().apply(initializer).build()

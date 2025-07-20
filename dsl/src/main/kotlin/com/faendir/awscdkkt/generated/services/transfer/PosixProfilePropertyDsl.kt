@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.transfer.CfnUser
 
 @Generated
-public fun buildPosixProfileProperty(initializer: @AwsCdkDsl
-    CfnUser.PosixProfileProperty.Builder.() -> Unit = {}): CfnUser.PosixProfileProperty =
-    CfnUser.PosixProfileProperty.Builder().apply(initializer).build()
+public fun buildPosixProfileProperty(initializer: @AwsCdkDsl CfnUser.PosixProfileProperty.Builder.() -> Unit = {}): CfnUser.PosixProfileProperty = CfnUser.PosixProfileProperty.Builder().apply(initializer).build()

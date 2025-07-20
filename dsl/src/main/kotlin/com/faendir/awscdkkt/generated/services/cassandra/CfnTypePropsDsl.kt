@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cassandra.CfnTypeProps
 
 @Generated
-public fun buildCfnTypeProps(initializer: @AwsCdkDsl CfnTypeProps.Builder.() -> Unit = {}):
-    CfnTypeProps = CfnTypeProps.Builder().apply(initializer).build()
+public fun buildCfnTypeProps(initializer: @AwsCdkDsl CfnTypeProps.Builder.() -> Unit = {}): CfnTypeProps = CfnTypeProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
-public fun buildTieringProperty(initializer: @AwsCdkDsl CfnBucket.TieringProperty.Builder.() -> Unit
-    = {}): CfnBucket.TieringProperty =
-    CfnBucket.TieringProperty.Builder().apply(initializer).build()
+public fun buildTieringProperty(initializer: @AwsCdkDsl CfnBucket.TieringProperty.Builder.() -> Unit = {}): CfnBucket.TieringProperty = CfnBucket.TieringProperty.Builder().apply(initializer).build()

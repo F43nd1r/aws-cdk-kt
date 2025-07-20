@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnDataSource
 
 @Generated
-public fun buildIntermediateStorageProperty(initializer: @AwsCdkDsl
-    CfnDataSource.IntermediateStorageProperty.Builder.() -> Unit = {}):
-    CfnDataSource.IntermediateStorageProperty =
-    CfnDataSource.IntermediateStorageProperty.Builder().apply(initializer).build()
+public fun buildIntermediateStorageProperty(initializer: @AwsCdkDsl CfnDataSource.IntermediateStorageProperty.Builder.() -> Unit = {}): CfnDataSource.IntermediateStorageProperty = CfnDataSource.IntermediateStorageProperty.Builder().apply(initializer).build()

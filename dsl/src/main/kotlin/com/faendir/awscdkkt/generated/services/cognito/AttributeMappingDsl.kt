@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.AttributeMapping
 
 @Generated
-public fun buildAttributeMapping(initializer: @AwsCdkDsl AttributeMapping.Builder.() -> Unit = {}):
-    AttributeMapping = AttributeMapping.Builder().apply(initializer).build()
+public fun buildAttributeMapping(initializer: @AwsCdkDsl AttributeMapping.Builder.() -> Unit = {}): AttributeMapping = AttributeMapping.Builder().apply(initializer).build()

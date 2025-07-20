@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnRule
 
 @Generated
-public fun buildSubmitAutoEvaluationActionProperty(initializer: @AwsCdkDsl
-    CfnRule.SubmitAutoEvaluationActionProperty.Builder.() -> Unit = {}):
-    CfnRule.SubmitAutoEvaluationActionProperty =
-    CfnRule.SubmitAutoEvaluationActionProperty.Builder().apply(initializer).build()
+public fun buildSubmitAutoEvaluationActionProperty(initializer: @AwsCdkDsl CfnRule.SubmitAutoEvaluationActionProperty.Builder.() -> Unit = {}): CfnRule.SubmitAutoEvaluationActionProperty = CfnRule.SubmitAutoEvaluationActionProperty.Builder().apply(initializer).build()

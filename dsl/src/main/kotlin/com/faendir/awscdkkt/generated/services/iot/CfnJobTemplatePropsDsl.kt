@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnJobTemplateProps
 
 @Generated
-public fun buildCfnJobTemplateProps(initializer: @AwsCdkDsl CfnJobTemplateProps.Builder.() -> Unit =
-    {}): CfnJobTemplateProps = CfnJobTemplateProps.Builder().apply(initializer).build()
+public fun buildCfnJobTemplateProps(initializer: @AwsCdkDsl CfnJobTemplateProps.Builder.() -> Unit = {}): CfnJobTemplateProps = CfnJobTemplateProps.Builder().apply(initializer).build()

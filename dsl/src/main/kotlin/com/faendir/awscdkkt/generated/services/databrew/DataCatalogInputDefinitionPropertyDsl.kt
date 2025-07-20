@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.databrew.CfnRecipe
 
 @Generated
-public fun buildDataCatalogInputDefinitionProperty(initializer: @AwsCdkDsl
-    CfnRecipe.DataCatalogInputDefinitionProperty.Builder.() -> Unit = {}):
-    CfnRecipe.DataCatalogInputDefinitionProperty =
-    CfnRecipe.DataCatalogInputDefinitionProperty.Builder().apply(initializer).build()
+public fun buildDataCatalogInputDefinitionProperty(initializer: @AwsCdkDsl CfnRecipe.DataCatalogInputDefinitionProperty.Builder.() -> Unit = {}): CfnRecipe.DataCatalogInputDefinitionProperty = CfnRecipe.DataCatalogInputDefinitionProperty.Builder().apply(initializer).build()

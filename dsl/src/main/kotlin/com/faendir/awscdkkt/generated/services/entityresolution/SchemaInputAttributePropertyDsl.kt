@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.entityresolution.CfnSchemaMapping
 
 @Generated
-public fun buildSchemaInputAttributeProperty(initializer: @AwsCdkDsl
-    CfnSchemaMapping.SchemaInputAttributeProperty.Builder.() -> Unit = {}):
-    CfnSchemaMapping.SchemaInputAttributeProperty =
-    CfnSchemaMapping.SchemaInputAttributeProperty.Builder().apply(initializer).build()
+public fun buildSchemaInputAttributeProperty(initializer: @AwsCdkDsl CfnSchemaMapping.SchemaInputAttributeProperty.Builder.() -> Unit = {}): CfnSchemaMapping.SchemaInputAttributeProperty = CfnSchemaMapping.SchemaInputAttributeProperty.Builder().apply(initializer).build()

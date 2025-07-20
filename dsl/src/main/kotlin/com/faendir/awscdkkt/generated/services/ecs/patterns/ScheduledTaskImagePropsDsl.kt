@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.patterns.ScheduledTaskImageProps
 
 @Generated
-public fun buildScheduledTaskImageProps(initializer: @AwsCdkDsl
-    ScheduledTaskImageProps.Builder.() -> Unit = {}): ScheduledTaskImageProps =
-    ScheduledTaskImageProps.Builder().apply(initializer).build()
+public fun buildScheduledTaskImageProps(initializer: @AwsCdkDsl ScheduledTaskImageProps.Builder.() -> Unit = {}): ScheduledTaskImageProps = ScheduledTaskImageProps.Builder().apply(initializer).build()

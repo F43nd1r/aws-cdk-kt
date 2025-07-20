@@ -16,6 +16,4 @@ public fun Construct.eventBusPolicy(
 ): EventBusPolicy = EventBusPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEventBusPolicy(id: String, initializer: @AwsCdkDsl
-    EventBusPolicy.Builder.() -> Unit = {}): EventBusPolicy = EventBusPolicy.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildEventBusPolicy(id: String, initializer: @AwsCdkDsl EventBusPolicy.Builder.() -> Unit = {}): EventBusPolicy = EventBusPolicy.Builder.create(this, id).apply(initializer).build()

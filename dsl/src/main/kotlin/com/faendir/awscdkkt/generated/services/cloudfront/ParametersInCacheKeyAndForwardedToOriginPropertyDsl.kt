@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnCachePolicy
 
 @Generated
-public fun buildParametersInCacheKeyAndForwardedToOriginProperty(initializer: @AwsCdkDsl
-    CfnCachePolicy.ParametersInCacheKeyAndForwardedToOriginProperty.Builder.() -> Unit = {}):
-    CfnCachePolicy.ParametersInCacheKeyAndForwardedToOriginProperty =
-    CfnCachePolicy.ParametersInCacheKeyAndForwardedToOriginProperty.Builder().apply(initializer).build()
+public fun buildParametersInCacheKeyAndForwardedToOriginProperty(initializer: @AwsCdkDsl CfnCachePolicy.ParametersInCacheKeyAndForwardedToOriginProperty.Builder.() -> Unit = {}): CfnCachePolicy.ParametersInCacheKeyAndForwardedToOriginProperty = CfnCachePolicy.ParametersInCacheKeyAndForwardedToOriginProperty.Builder().apply(initializer).build()

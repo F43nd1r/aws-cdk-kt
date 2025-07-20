@@ -16,5 +16,4 @@ public fun Construct.cfnPreset(
 ): CfnPreset = CfnPreset(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPreset(id: String, initializer: @AwsCdkDsl CfnPreset.Builder.() -> Unit
-    = {}): CfnPreset = CfnPreset.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPreset(id: String, initializer: @AwsCdkDsl CfnPreset.Builder.() -> Unit = {}): CfnPreset = CfnPreset.Builder.create(this, id).apply(initializer).build()

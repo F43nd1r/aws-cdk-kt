@@ -16,6 +16,4 @@ public fun Construct.cfnConfiguredTableAssociation(
 ): CfnConfiguredTableAssociation = CfnConfiguredTableAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnConfiguredTableAssociation(id: String, initializer: @AwsCdkDsl
-    CfnConfiguredTableAssociation.Builder.() -> Unit = {}): CfnConfiguredTableAssociation =
-    CfnConfiguredTableAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnConfiguredTableAssociation(id: String, initializer: @AwsCdkDsl CfnConfiguredTableAssociation.Builder.() -> Unit = {}): CfnConfiguredTableAssociation = CfnConfiguredTableAssociation.Builder.create(this, id).apply(initializer).build()

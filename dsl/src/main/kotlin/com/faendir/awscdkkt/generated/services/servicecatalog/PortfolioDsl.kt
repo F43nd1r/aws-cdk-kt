@@ -16,5 +16,4 @@ public fun Construct.portfolio(
 ): Portfolio = Portfolio(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildPortfolio(id: String, initializer: @AwsCdkDsl Portfolio.Builder.() -> Unit
-    = {}): Portfolio = Portfolio.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildPortfolio(id: String, initializer: @AwsCdkDsl Portfolio.Builder.() -> Unit = {}): Portfolio = Portfolio.Builder.create(this, id).apply(initializer).build()

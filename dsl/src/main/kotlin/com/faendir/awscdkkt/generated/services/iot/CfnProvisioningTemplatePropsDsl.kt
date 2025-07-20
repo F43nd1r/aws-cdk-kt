@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnProvisioningTemplateProps
 
 @Generated
-public fun buildCfnProvisioningTemplateProps(initializer: @AwsCdkDsl
-    CfnProvisioningTemplateProps.Builder.() -> Unit = {}): CfnProvisioningTemplateProps =
-    CfnProvisioningTemplateProps.Builder().apply(initializer).build()
+public fun buildCfnProvisioningTemplateProps(initializer: @AwsCdkDsl CfnProvisioningTemplateProps.Builder.() -> Unit = {}): CfnProvisioningTemplateProps = CfnProvisioningTemplateProps.Builder().apply(initializer).build()

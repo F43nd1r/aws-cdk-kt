@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloudassembly.schema.DeployCommand
 
 @Generated
-public fun buildDeployCommand(initializer: @AwsCdkDsl DeployCommand.Builder.() -> Unit = {}):
-    DeployCommand = DeployCommand.Builder().apply(initializer).build()
+public fun buildDeployCommand(initializer: @AwsCdkDsl DeployCommand.Builder.() -> Unit = {}): DeployCommand = DeployCommand.Builder().apply(initializer).build()

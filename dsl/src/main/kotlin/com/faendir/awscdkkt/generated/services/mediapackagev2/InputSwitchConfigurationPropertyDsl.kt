@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediapackagev2.CfnChannel
 
 @Generated
-public fun buildInputSwitchConfigurationProperty(initializer: @AwsCdkDsl
-    CfnChannel.InputSwitchConfigurationProperty.Builder.() -> Unit = {}):
-    CfnChannel.InputSwitchConfigurationProperty =
-    CfnChannel.InputSwitchConfigurationProperty.Builder().apply(initializer).build()
+public fun buildInputSwitchConfigurationProperty(initializer: @AwsCdkDsl CfnChannel.InputSwitchConfigurationProperty.Builder.() -> Unit = {}): CfnChannel.InputSwitchConfigurationProperty = CfnChannel.InputSwitchConfigurationProperty.Builder().apply(initializer).build()

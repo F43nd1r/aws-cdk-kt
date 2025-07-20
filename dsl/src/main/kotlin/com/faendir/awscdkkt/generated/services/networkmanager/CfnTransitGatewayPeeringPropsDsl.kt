@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkmanager.CfnTransitGatewayPeeringProps
 
 @Generated
-public fun buildCfnTransitGatewayPeeringProps(initializer: @AwsCdkDsl
-    CfnTransitGatewayPeeringProps.Builder.() -> Unit = {}): CfnTransitGatewayPeeringProps =
-    CfnTransitGatewayPeeringProps.Builder().apply(initializer).build()
+public fun buildCfnTransitGatewayPeeringProps(initializer: @AwsCdkDsl CfnTransitGatewayPeeringProps.Builder.() -> Unit = {}): CfnTransitGatewayPeeringProps = CfnTransitGatewayPeeringProps.Builder().apply(initializer).build()

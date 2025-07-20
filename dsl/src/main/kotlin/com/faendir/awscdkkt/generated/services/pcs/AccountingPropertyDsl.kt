@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pcs.CfnCluster
 
 @Generated
-public fun buildAccountingProperty(initializer: @AwsCdkDsl
-    CfnCluster.AccountingProperty.Builder.() -> Unit = {}): CfnCluster.AccountingProperty =
-    CfnCluster.AccountingProperty.Builder().apply(initializer).build()
+public fun buildAccountingProperty(initializer: @AwsCdkDsl CfnCluster.AccountingProperty.Builder.() -> Unit = {}): CfnCluster.AccountingProperty = CfnCluster.AccountingProperty.Builder().apply(initializer).build()

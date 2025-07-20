@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3objectlambda.CfnAccessPoint
 
 @Generated
-public fun buildPolicyStatusProperty(initializer: @AwsCdkDsl
-    CfnAccessPoint.PolicyStatusProperty.Builder.() -> Unit = {}):
-    CfnAccessPoint.PolicyStatusProperty =
-    CfnAccessPoint.PolicyStatusProperty.Builder().apply(initializer).build()
+public fun buildPolicyStatusProperty(initializer: @AwsCdkDsl CfnAccessPoint.PolicyStatusProperty.Builder.() -> Unit = {}): CfnAccessPoint.PolicyStatusProperty = CfnAccessPoint.PolicyStatusProperty.Builder().apply(initializer).build()

@@ -13,11 +13,7 @@ public fun Construct.cfnTransitGatewayMulticastGroupMember(
   id: String,
   props: CfnTransitGatewayMulticastGroupMemberProps,
   initializer: @AwsCdkDsl CfnTransitGatewayMulticastGroupMember.() -> Unit = {},
-): CfnTransitGatewayMulticastGroupMember = CfnTransitGatewayMulticastGroupMember(this, id,
-    props).apply(initializer)
+): CfnTransitGatewayMulticastGroupMember = CfnTransitGatewayMulticastGroupMember(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTransitGatewayMulticastGroupMember(id: String, initializer: @AwsCdkDsl
-    CfnTransitGatewayMulticastGroupMember.Builder.() -> Unit = {}):
-    CfnTransitGatewayMulticastGroupMember =
-    CfnTransitGatewayMulticastGroupMember.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTransitGatewayMulticastGroupMember(id: String, initializer: @AwsCdkDsl CfnTransitGatewayMulticastGroupMember.Builder.() -> Unit = {}): CfnTransitGatewayMulticastGroupMember = CfnTransitGatewayMulticastGroupMember.Builder.create(this, id).apply(initializer).build()

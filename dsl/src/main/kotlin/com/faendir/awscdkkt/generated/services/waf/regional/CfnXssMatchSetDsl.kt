@@ -16,6 +16,4 @@ public fun Construct.cfnXssMatchSet(
 ): CfnXssMatchSet = CfnXssMatchSet(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnXssMatchSet(id: String, initializer: @AwsCdkDsl
-    CfnXssMatchSet.Builder.() -> Unit = {}): CfnXssMatchSet = CfnXssMatchSet.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnXssMatchSet(id: String, initializer: @AwsCdkDsl CfnXssMatchSet.Builder.() -> Unit = {}): CfnXssMatchSet = CfnXssMatchSet.Builder.create(this, id).apply(initializer).build()

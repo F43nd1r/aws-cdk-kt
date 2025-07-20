@@ -16,6 +16,4 @@ public fun Construct.cfnStreamKey(
 ): CfnStreamKey = CfnStreamKey(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnStreamKey(id: String, initializer: @AwsCdkDsl
-    CfnStreamKey.Builder.() -> Unit = {}): CfnStreamKey = CfnStreamKey.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnStreamKey(id: String, initializer: @AwsCdkDsl CfnStreamKey.Builder.() -> Unit = {}): CfnStreamKey = CfnStreamKey.Builder.create(this, id).apply(initializer).build()

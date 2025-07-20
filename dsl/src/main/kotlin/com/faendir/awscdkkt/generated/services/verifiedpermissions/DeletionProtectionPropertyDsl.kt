@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.verifiedpermissions.CfnPolicyStore
 
 @Generated
-public fun buildDeletionProtectionProperty(initializer: @AwsCdkDsl
-    CfnPolicyStore.DeletionProtectionProperty.Builder.() -> Unit = {}):
-    CfnPolicyStore.DeletionProtectionProperty =
-    CfnPolicyStore.DeletionProtectionProperty.Builder().apply(initializer).build()
+public fun buildDeletionProtectionProperty(initializer: @AwsCdkDsl CfnPolicyStore.DeletionProtectionProperty.Builder.() -> Unit = {}): CfnPolicyStore.DeletionProtectionProperty = CfnPolicyStore.DeletionProtectionProperty.Builder().apply(initializer).build()

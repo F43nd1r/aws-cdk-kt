@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3tables.CfnTableBucketPolicyProps
 
 @Generated
-public fun buildCfnTableBucketPolicyProps(initializer: @AwsCdkDsl
-    CfnTableBucketPolicyProps.Builder.() -> Unit = {}): CfnTableBucketPolicyProps =
-    CfnTableBucketPolicyProps.Builder().apply(initializer).build()
+public fun buildCfnTableBucketPolicyProps(initializer: @AwsCdkDsl CfnTableBucketPolicyProps.Builder.() -> Unit = {}): CfnTableBucketPolicyProps = CfnTableBucketPolicyProps.Builder().apply(initializer).build()

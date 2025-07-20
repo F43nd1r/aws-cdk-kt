@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codeartifact.CfnPackageGroupProps
 
 @Generated
-public fun buildCfnPackageGroupProps(initializer: @AwsCdkDsl CfnPackageGroupProps.Builder.() -> Unit
-    = {}): CfnPackageGroupProps = CfnPackageGroupProps.Builder().apply(initializer).build()
+public fun buildCfnPackageGroupProps(initializer: @AwsCdkDsl CfnPackageGroupProps.Builder.() -> Unit = {}): CfnPackageGroupProps = CfnPackageGroupProps.Builder().apply(initializer).build()

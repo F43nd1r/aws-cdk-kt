@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotevents.CfnDetectorModel
 
 @Generated
-public fun buildIotTopicPublishProperty(initializer: @AwsCdkDsl
-    CfnDetectorModel.IotTopicPublishProperty.Builder.() -> Unit = {}):
-    CfnDetectorModel.IotTopicPublishProperty =
-    CfnDetectorModel.IotTopicPublishProperty.Builder().apply(initializer).build()
+public fun buildIotTopicPublishProperty(initializer: @AwsCdkDsl CfnDetectorModel.IotTopicPublishProperty.Builder.() -> Unit = {}): CfnDetectorModel.IotTopicPublishProperty = CfnDetectorModel.IotTopicPublishProperty.Builder().apply(initializer).build()

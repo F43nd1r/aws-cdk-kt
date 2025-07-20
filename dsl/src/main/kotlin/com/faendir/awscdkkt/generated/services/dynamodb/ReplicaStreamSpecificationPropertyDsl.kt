@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.CfnGlobalTable
 
 @Generated
-public fun buildReplicaStreamSpecificationProperty(initializer: @AwsCdkDsl
-    CfnGlobalTable.ReplicaStreamSpecificationProperty.Builder.() -> Unit = {}):
-    CfnGlobalTable.ReplicaStreamSpecificationProperty =
-    CfnGlobalTable.ReplicaStreamSpecificationProperty.Builder().apply(initializer).build()
+public fun buildReplicaStreamSpecificationProperty(initializer: @AwsCdkDsl CfnGlobalTable.ReplicaStreamSpecificationProperty.Builder.() -> Unit = {}): CfnGlobalTable.ReplicaStreamSpecificationProperty = CfnGlobalTable.ReplicaStreamSpecificationProperty.Builder().apply(initializer).build()

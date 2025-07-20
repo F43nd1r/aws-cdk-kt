@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.resourceexplorer2.CfnViewProps
 
 @Generated
-public fun buildCfnViewProps(initializer: @AwsCdkDsl CfnViewProps.Builder.() -> Unit = {}):
-    CfnViewProps = CfnViewProps.Builder().apply(initializer).build()
+public fun buildCfnViewProps(initializer: @AwsCdkDsl CfnViewProps.Builder.() -> Unit = {}): CfnViewProps = CfnViewProps.Builder().apply(initializer).build()

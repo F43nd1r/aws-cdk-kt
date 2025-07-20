@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connectcampaignsv2.CfnCampaign
 
 @Generated
-public fun buildCommunicationLimitsConfigProperty(initializer: @AwsCdkDsl
-    CfnCampaign.CommunicationLimitsConfigProperty.Builder.() -> Unit = {}):
-    CfnCampaign.CommunicationLimitsConfigProperty =
-    CfnCampaign.CommunicationLimitsConfigProperty.Builder().apply(initializer).build()
+public fun buildCommunicationLimitsConfigProperty(initializer: @AwsCdkDsl CfnCampaign.CommunicationLimitsConfigProperty.Builder.() -> Unit = {}): CfnCampaign.CommunicationLimitsConfigProperty = CfnCampaign.CommunicationLimitsConfigProperty.Builder().apply(initializer).build()

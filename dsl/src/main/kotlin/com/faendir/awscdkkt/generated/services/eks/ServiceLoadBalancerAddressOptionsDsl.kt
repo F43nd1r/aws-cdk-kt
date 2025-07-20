@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.ServiceLoadBalancerAddressOptions
 
 @Generated
-public fun buildServiceLoadBalancerAddressOptions(initializer: @AwsCdkDsl
-    ServiceLoadBalancerAddressOptions.Builder.() -> Unit = {}): ServiceLoadBalancerAddressOptions =
-    ServiceLoadBalancerAddressOptions.Builder().apply(initializer).build()
+public fun buildServiceLoadBalancerAddressOptions(initializer: @AwsCdkDsl ServiceLoadBalancerAddressOptions.Builder.() -> Unit = {}): ServiceLoadBalancerAddressOptions = ServiceLoadBalancerAddressOptions.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.customerprofiles.CfnEventTriggerProps
 
 @Generated
-public fun buildCfnEventTriggerProps(initializer: @AwsCdkDsl CfnEventTriggerProps.Builder.() -> Unit
-    = {}): CfnEventTriggerProps = CfnEventTriggerProps.Builder().apply(initializer).build()
+public fun buildCfnEventTriggerProps(initializer: @AwsCdkDsl CfnEventTriggerProps.Builder.() -> Unit = {}): CfnEventTriggerProps = CfnEventTriggerProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.scheduler.CronOptionsWithTimezone
 
 @Generated
-public fun buildCronOptionsWithTimezone(initializer: @AwsCdkDsl
-    CronOptionsWithTimezone.Builder.() -> Unit = {}): CronOptionsWithTimezone =
-    CronOptionsWithTimezone.Builder().apply(initializer).build()
+public fun buildCronOptionsWithTimezone(initializer: @AwsCdkDsl CronOptionsWithTimezone.Builder.() -> Unit = {}): CronOptionsWithTimezone = CronOptionsWithTimezone.Builder().apply(initializer).build()

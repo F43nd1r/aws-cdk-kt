@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.OriginAccessControlBaseProps
 
 @Generated
-public fun buildOriginAccessControlBaseProps(initializer: @AwsCdkDsl
-    OriginAccessControlBaseProps.Builder.() -> Unit = {}): OriginAccessControlBaseProps =
-    OriginAccessControlBaseProps.Builder().apply(initializer).build()
+public fun buildOriginAccessControlBaseProps(initializer: @AwsCdkDsl OriginAccessControlBaseProps.Builder.() -> Unit = {}): OriginAccessControlBaseProps = OriginAccessControlBaseProps.Builder().apply(initializer).build()

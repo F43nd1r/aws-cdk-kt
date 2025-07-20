@@ -16,6 +16,4 @@ public fun Construct.serverlessClusterFromSnapshot(
 ): ServerlessClusterFromSnapshot = ServerlessClusterFromSnapshot(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildServerlessClusterFromSnapshot(id: String, initializer: @AwsCdkDsl
-    ServerlessClusterFromSnapshot.Builder.() -> Unit = {}): ServerlessClusterFromSnapshot =
-    ServerlessClusterFromSnapshot.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildServerlessClusterFromSnapshot(id: String, initializer: @AwsCdkDsl ServerlessClusterFromSnapshot.Builder.() -> Unit = {}): ServerlessClusterFromSnapshot = ServerlessClusterFromSnapshot.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrModifyInstanceGroupByName
 
 @Generated
-public fun buildInstanceGroupModifyConfigProperty(initializer: @AwsCdkDsl
-    EmrModifyInstanceGroupByName.InstanceGroupModifyConfigProperty.Builder.() -> Unit = {}):
-    EmrModifyInstanceGroupByName.InstanceGroupModifyConfigProperty =
-    EmrModifyInstanceGroupByName.InstanceGroupModifyConfigProperty.Builder().apply(initializer).build()
+public fun buildInstanceGroupModifyConfigProperty(initializer: @AwsCdkDsl EmrModifyInstanceGroupByName.InstanceGroupModifyConfigProperty.Builder.() -> Unit = {}): EmrModifyInstanceGroupByName.InstanceGroupModifyConfigProperty = EmrModifyInstanceGroupByName.InstanceGroupModifyConfigProperty.Builder().apply(initializer).build()

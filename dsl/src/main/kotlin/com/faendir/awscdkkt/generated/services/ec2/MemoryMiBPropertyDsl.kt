@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
-public fun buildMemoryMiBProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.MemoryMiBProperty.Builder.() -> Unit = {}):
-    CfnLaunchTemplate.MemoryMiBProperty =
-    CfnLaunchTemplate.MemoryMiBProperty.Builder().apply(initializer).build()
+public fun buildMemoryMiBProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.MemoryMiBProperty.Builder.() -> Unit = {}): CfnLaunchTemplate.MemoryMiBProperty = CfnLaunchTemplate.MemoryMiBProperty.Builder().apply(initializer).build()

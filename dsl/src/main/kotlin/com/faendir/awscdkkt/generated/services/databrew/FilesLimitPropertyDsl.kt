@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.databrew.CfnDataset
 
 @Generated
-public fun buildFilesLimitProperty(initializer: @AwsCdkDsl
-    CfnDataset.FilesLimitProperty.Builder.() -> Unit = {}): CfnDataset.FilesLimitProperty =
-    CfnDataset.FilesLimitProperty.Builder().apply(initializer).build()
+public fun buildFilesLimitProperty(initializer: @AwsCdkDsl CfnDataset.FilesLimitProperty.Builder.() -> Unit = {}): CfnDataset.FilesLimitProperty = CfnDataset.FilesLimitProperty.Builder().apply(initializer).build()

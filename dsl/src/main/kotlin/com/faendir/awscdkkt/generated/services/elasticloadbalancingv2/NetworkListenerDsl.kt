@@ -16,6 +16,4 @@ public fun Construct.networkListener(
 ): NetworkListener = NetworkListener(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildNetworkListener(id: String, initializer: @AwsCdkDsl
-    NetworkListener.Builder.() -> Unit = {}): NetworkListener = NetworkListener.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildNetworkListener(id: String, initializer: @AwsCdkDsl NetworkListener.Builder.() -> Unit = {}): NetworkListener = NetworkListener.Builder.create(this, id).apply(initializer).build()

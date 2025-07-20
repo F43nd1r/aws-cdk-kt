@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datasync.CfnTask
 
 @Generated
-public fun buildOverridesProperty(initializer: @AwsCdkDsl
-    CfnTask.OverridesProperty.Builder.() -> Unit = {}): CfnTask.OverridesProperty =
-    CfnTask.OverridesProperty.Builder().apply(initializer).build()
+public fun buildOverridesProperty(initializer: @AwsCdkDsl CfnTask.OverridesProperty.Builder.() -> Unit = {}): CfnTask.OverridesProperty = CfnTask.OverridesProperty.Builder().apply(initializer).build()

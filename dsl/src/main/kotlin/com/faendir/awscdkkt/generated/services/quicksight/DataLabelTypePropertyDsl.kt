@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildDataLabelTypeProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DataLabelTypeProperty.Builder.() -> Unit = {}): CfnTemplate.DataLabelTypeProperty =
-    CfnTemplate.DataLabelTypeProperty.Builder().apply(initializer).build()
+public fun buildDataLabelTypeProperty(initializer: @AwsCdkDsl CfnTemplate.DataLabelTypeProperty.Builder.() -> Unit = {}): CfnTemplate.DataLabelTypeProperty = CfnTemplate.DataLabelTypeProperty.Builder().apply(initializer).build()

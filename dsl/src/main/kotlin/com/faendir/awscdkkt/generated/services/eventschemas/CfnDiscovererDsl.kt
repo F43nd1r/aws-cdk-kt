@@ -16,6 +16,4 @@ public fun Construct.cfnDiscoverer(
 ): CfnDiscoverer = CfnDiscoverer(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDiscoverer(id: String, initializer: @AwsCdkDsl
-    CfnDiscoverer.Builder.() -> Unit = {}): CfnDiscoverer = CfnDiscoverer.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnDiscoverer(id: String, initializer: @AwsCdkDsl CfnDiscoverer.Builder.() -> Unit = {}): CfnDiscoverer = CfnDiscoverer.Builder.create(this, id).apply(initializer).build()

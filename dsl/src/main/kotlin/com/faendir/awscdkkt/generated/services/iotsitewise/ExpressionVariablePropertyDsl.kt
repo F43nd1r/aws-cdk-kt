@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotsitewise.CfnAssetModel
 
 @Generated
-public fun buildExpressionVariableProperty(initializer: @AwsCdkDsl
-    CfnAssetModel.ExpressionVariableProperty.Builder.() -> Unit = {}):
-    CfnAssetModel.ExpressionVariableProperty =
-    CfnAssetModel.ExpressionVariableProperty.Builder().apply(initializer).build()
+public fun buildExpressionVariableProperty(initializer: @AwsCdkDsl CfnAssetModel.ExpressionVariableProperty.Builder.() -> Unit = {}): CfnAssetModel.ExpressionVariableProperty = CfnAssetModel.ExpressionVariableProperty.Builder().apply(initializer).build()

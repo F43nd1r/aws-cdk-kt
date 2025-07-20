@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.ContainerDefinition
 
 @Generated
-public fun buildContainerDefinition(initializer: @AwsCdkDsl ContainerDefinition.Builder.() -> Unit =
-    {}): ContainerDefinition = ContainerDefinition.Builder.create().apply(initializer).build()
+public fun buildContainerDefinition(initializer: @AwsCdkDsl ContainerDefinition.Builder.() -> Unit = {}): ContainerDefinition = ContainerDefinition.Builder.create().apply(initializer).build()

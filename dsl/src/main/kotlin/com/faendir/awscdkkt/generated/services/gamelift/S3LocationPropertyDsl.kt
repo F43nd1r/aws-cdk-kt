@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnScript
 
 @Generated
-public fun buildS3LocationProperty(initializer: @AwsCdkDsl
-    CfnScript.S3LocationProperty.Builder.() -> Unit = {}): CfnScript.S3LocationProperty =
-    CfnScript.S3LocationProperty.Builder().apply(initializer).build()
+public fun buildS3LocationProperty(initializer: @AwsCdkDsl CfnScript.S3LocationProperty.Builder.() -> Unit = {}): CfnScript.S3LocationProperty = CfnScript.S3LocationProperty.Builder().apply(initializer).build()

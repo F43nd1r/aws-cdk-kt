@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildPipeSourceManagedStreamingKafkaParametersProperty(initializer: @AwsCdkDsl
-    CfnPipe.PipeSourceManagedStreamingKafkaParametersProperty.Builder.() -> Unit = {}):
-    CfnPipe.PipeSourceManagedStreamingKafkaParametersProperty =
-    CfnPipe.PipeSourceManagedStreamingKafkaParametersProperty.Builder().apply(initializer).build()
+public fun buildPipeSourceManagedStreamingKafkaParametersProperty(initializer: @AwsCdkDsl CfnPipe.PipeSourceManagedStreamingKafkaParametersProperty.Builder.() -> Unit = {}): CfnPipe.PipeSourceManagedStreamingKafkaParametersProperty = CfnPipe.PipeSourceManagedStreamingKafkaParametersProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnResponseHeadersPolicy(
 ): CfnResponseHeadersPolicy = CfnResponseHeadersPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnResponseHeadersPolicy(id: String, initializer: @AwsCdkDsl
-    CfnResponseHeadersPolicy.Builder.() -> Unit = {}): CfnResponseHeadersPolicy =
-    CfnResponseHeadersPolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnResponseHeadersPolicy(id: String, initializer: @AwsCdkDsl CfnResponseHeadersPolicy.Builder.() -> Unit = {}): CfnResponseHeadersPolicy = CfnResponseHeadersPolicy.Builder.create(this, id).apply(initializer).build()

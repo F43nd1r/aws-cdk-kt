@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.imagebuilder.CfnLifecyclePolicy
 
 @Generated
-public fun buildPolicyDetailProperty(initializer: @AwsCdkDsl
-    CfnLifecyclePolicy.PolicyDetailProperty.Builder.() -> Unit = {}):
-    CfnLifecyclePolicy.PolicyDetailProperty =
-    CfnLifecyclePolicy.PolicyDetailProperty.Builder().apply(initializer).build()
+public fun buildPolicyDetailProperty(initializer: @AwsCdkDsl CfnLifecyclePolicy.PolicyDetailProperty.Builder.() -> Unit = {}): CfnLifecyclePolicy.PolicyDetailProperty = CfnLifecyclePolicy.PolicyDetailProperty.Builder().apply(initializer).build()

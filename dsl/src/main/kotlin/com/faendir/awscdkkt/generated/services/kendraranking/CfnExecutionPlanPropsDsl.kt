@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kendraranking.CfnExecutionPlanProps
 
 @Generated
-public fun buildCfnExecutionPlanProps(initializer: @AwsCdkDsl
-    CfnExecutionPlanProps.Builder.() -> Unit = {}): CfnExecutionPlanProps =
-    CfnExecutionPlanProps.Builder().apply(initializer).build()
+public fun buildCfnExecutionPlanProps(initializer: @AwsCdkDsl CfnExecutionPlanProps.Builder.() -> Unit = {}): CfnExecutionPlanProps = CfnExecutionPlanProps.Builder().apply(initializer).build()

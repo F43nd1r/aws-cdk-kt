@@ -16,6 +16,4 @@ public fun Construct.userPoolGroup(
 ): UserPoolGroup = UserPoolGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildUserPoolGroup(id: String, initializer: @AwsCdkDsl
-    UserPoolGroup.Builder.() -> Unit = {}): UserPoolGroup = UserPoolGroup.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildUserPoolGroup(id: String, initializer: @AwsCdkDsl UserPoolGroup.Builder.() -> Unit = {}): UserPoolGroup = UserPoolGroup.Builder.create(this, id).apply(initializer).build()

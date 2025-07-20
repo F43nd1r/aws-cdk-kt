@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildDvbSubDestinationSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.DvbSubDestinationSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.DvbSubDestinationSettingsProperty =
-    CfnChannel.DvbSubDestinationSettingsProperty.Builder().apply(initializer).build()
+public fun buildDvbSubDestinationSettingsProperty(initializer: @AwsCdkDsl CfnChannel.DvbSubDestinationSettingsProperty.Builder.() -> Unit = {}): CfnChannel.DvbSubDestinationSettingsProperty = CfnChannel.DvbSubDestinationSettingsProperty.Builder().apply(initializer).build()

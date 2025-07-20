@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.DynamoDeleteItemJsonataProps
 
 @Generated
-public fun buildDynamoDeleteItemJsonataProps(initializer: @AwsCdkDsl
-    DynamoDeleteItemJsonataProps.Builder.() -> Unit = {}): DynamoDeleteItemJsonataProps =
-    DynamoDeleteItemJsonataProps.Builder().apply(initializer).build()
+public fun buildDynamoDeleteItemJsonataProps(initializer: @AwsCdkDsl DynamoDeleteItemJsonataProps.Builder.() -> Unit = {}): DynamoDeleteItemJsonataProps = DynamoDeleteItemJsonataProps.Builder().apply(initializer).build()

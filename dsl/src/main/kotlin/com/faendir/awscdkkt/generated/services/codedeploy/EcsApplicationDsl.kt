@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.codedeploy.EcsApplicationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.ecsApplication(id: String, initializer: @AwsCdkDsl EcsApplication.() -> Unit =
-    {}): EcsApplication = EcsApplication(this, id).apply(initializer)
+public fun Construct.ecsApplication(id: String, initializer: @AwsCdkDsl EcsApplication.() -> Unit = {}): EcsApplication = EcsApplication(this, id).apply(initializer)
 
 @Generated
 public fun Construct.ecsApplication(
@@ -20,6 +19,4 @@ public fun Construct.ecsApplication(
 ): EcsApplication = EcsApplication(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEcsApplication(id: String, initializer: @AwsCdkDsl
-    EcsApplication.Builder.() -> Unit = {}): EcsApplication = EcsApplication.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildEcsApplication(id: String, initializer: @AwsCdkDsl EcsApplication.Builder.() -> Unit = {}): EcsApplication = EcsApplication.Builder.create(this, id).apply(initializer).build()

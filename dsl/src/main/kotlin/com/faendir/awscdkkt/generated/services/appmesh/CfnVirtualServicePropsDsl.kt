@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnVirtualServiceProps
 
 @Generated
-public fun buildCfnVirtualServiceProps(initializer: @AwsCdkDsl
-    CfnVirtualServiceProps.Builder.() -> Unit = {}): CfnVirtualServiceProps =
-    CfnVirtualServiceProps.Builder().apply(initializer).build()
+public fun buildCfnVirtualServiceProps(initializer: @AwsCdkDsl CfnVirtualServiceProps.Builder.() -> Unit = {}): CfnVirtualServiceProps = CfnVirtualServiceProps.Builder().apply(initializer).build()

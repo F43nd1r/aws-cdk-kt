@@ -16,6 +16,4 @@ public fun Construct.fargateCluster(
 ): FargateCluster = FargateCluster(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildFargateCluster(id: String, initializer: @AwsCdkDsl
-    FargateCluster.Builder.() -> Unit = {}): FargateCluster = FargateCluster.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildFargateCluster(id: String, initializer: @AwsCdkDsl FargateCluster.Builder.() -> Unit = {}): FargateCluster = FargateCluster.Builder.create(this, id).apply(initializer).build()

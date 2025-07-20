@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildMaintenanceCreateSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.MaintenanceCreateSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.MaintenanceCreateSettingsProperty =
-    CfnChannel.MaintenanceCreateSettingsProperty.Builder().apply(initializer).build()
+public fun buildMaintenanceCreateSettingsProperty(initializer: @AwsCdkDsl CfnChannel.MaintenanceCreateSettingsProperty.Builder.() -> Unit = {}): CfnChannel.MaintenanceCreateSettingsProperty = CfnChannel.MaintenanceCreateSettingsProperty.Builder().apply(initializer).build()

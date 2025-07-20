@@ -16,6 +16,4 @@ public fun Construct.cfnDBSubnetGroup(
 ): CfnDBSubnetGroup = CfnDBSubnetGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDBSubnetGroup(id: String, initializer: @AwsCdkDsl
-    CfnDBSubnetGroup.Builder.() -> Unit = {}): CfnDBSubnetGroup =
-    CfnDBSubnetGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDBSubnetGroup(id: String, initializer: @AwsCdkDsl CfnDBSubnetGroup.Builder.() -> Unit = {}): CfnDBSubnetGroup = CfnDBSubnetGroup.Builder.create(this, id).apply(initializer).build()

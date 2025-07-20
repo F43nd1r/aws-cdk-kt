@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.CfnApi
 
 @Generated
-public fun buildDnsMapProperty(initializer: @AwsCdkDsl CfnApi.DnsMapProperty.Builder.() -> Unit =
-    {}): CfnApi.DnsMapProperty = CfnApi.DnsMapProperty.Builder().apply(initializer).build()
+public fun buildDnsMapProperty(initializer: @AwsCdkDsl CfnApi.DnsMapProperty.Builder.() -> Unit = {}): CfnApi.DnsMapProperty = CfnApi.DnsMapProperty.Builder().apply(initializer).build()

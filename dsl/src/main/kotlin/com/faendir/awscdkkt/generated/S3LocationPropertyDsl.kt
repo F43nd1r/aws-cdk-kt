@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.CfnGuardHook
 
 @Generated
-public fun buildS3LocationProperty(initializer: @AwsCdkDsl
-    CfnGuardHook.S3LocationProperty.Builder.() -> Unit = {}): CfnGuardHook.S3LocationProperty =
-    CfnGuardHook.S3LocationProperty.Builder().apply(initializer).build()
+public fun buildS3LocationProperty(initializer: @AwsCdkDsl CfnGuardHook.S3LocationProperty.Builder.() -> Unit = {}): CfnGuardHook.S3LocationProperty = CfnGuardHook.S3LocationProperty.Builder().apply(initializer).build()

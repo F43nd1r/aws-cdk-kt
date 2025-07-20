@@ -16,6 +16,4 @@ public fun Construct.cfnUserHierarchyGroup(
 ): CfnUserHierarchyGroup = CfnUserHierarchyGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnUserHierarchyGroup(id: String, initializer: @AwsCdkDsl
-    CfnUserHierarchyGroup.Builder.() -> Unit = {}): CfnUserHierarchyGroup =
-    CfnUserHierarchyGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnUserHierarchyGroup(id: String, initializer: @AwsCdkDsl CfnUserHierarchyGroup.Builder.() -> Unit = {}): CfnUserHierarchyGroup = CfnUserHierarchyGroup.Builder.create(this, id).apply(initializer).build()

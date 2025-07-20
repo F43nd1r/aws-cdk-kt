@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicediscovery.HealthCheckCustomConfig
 
 @Generated
-public fun buildHealthCheckCustomConfig(initializer: @AwsCdkDsl
-    HealthCheckCustomConfig.Builder.() -> Unit = {}): HealthCheckCustomConfig =
-    HealthCheckCustomConfig.Builder().apply(initializer).build()
+public fun buildHealthCheckCustomConfig(initializer: @AwsCdkDsl HealthCheckCustomConfig.Builder.() -> Unit = {}): HealthCheckCustomConfig = HealthCheckCustomConfig.Builder().apply(initializer).build()

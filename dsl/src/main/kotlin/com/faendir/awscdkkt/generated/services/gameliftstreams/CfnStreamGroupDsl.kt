@@ -16,6 +16,4 @@ public fun Construct.cfnStreamGroup(
 ): CfnStreamGroup = CfnStreamGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnStreamGroup(id: String, initializer: @AwsCdkDsl
-    CfnStreamGroup.Builder.() -> Unit = {}): CfnStreamGroup = CfnStreamGroup.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnStreamGroup(id: String, initializer: @AwsCdkDsl CfnStreamGroup.Builder.() -> Unit = {}): CfnStreamGroup = CfnStreamGroup.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.CfnListener
 
 @Generated
-public fun buildMutualAuthenticationProperty(initializer: @AwsCdkDsl
-    CfnListener.MutualAuthenticationProperty.Builder.() -> Unit = {}):
-    CfnListener.MutualAuthenticationProperty =
-    CfnListener.MutualAuthenticationProperty.Builder().apply(initializer).build()
+public fun buildMutualAuthenticationProperty(initializer: @AwsCdkDsl CfnListener.MutualAuthenticationProperty.Builder.() -> Unit = {}): CfnListener.MutualAuthenticationProperty = CfnListener.MutualAuthenticationProperty.Builder().apply(initializer).build()

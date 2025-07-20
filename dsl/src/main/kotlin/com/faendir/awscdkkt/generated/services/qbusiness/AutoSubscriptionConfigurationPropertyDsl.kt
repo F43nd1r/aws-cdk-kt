@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnApplication
 
 @Generated
-public fun buildAutoSubscriptionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnApplication.AutoSubscriptionConfigurationProperty.Builder.() -> Unit = {}):
-    CfnApplication.AutoSubscriptionConfigurationProperty =
-    CfnApplication.AutoSubscriptionConfigurationProperty.Builder().apply(initializer).build()
+public fun buildAutoSubscriptionConfigurationProperty(initializer: @AwsCdkDsl CfnApplication.AutoSubscriptionConfigurationProperty.Builder.() -> Unit = {}): CfnApplication.AutoSubscriptionConfigurationProperty = CfnApplication.AutoSubscriptionConfigurationProperty.Builder().apply(initializer).build()

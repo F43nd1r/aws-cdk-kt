@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.CfnLambdaHook
 
 @Generated
-public fun buildHookTargetProperty(initializer: @AwsCdkDsl
-    CfnLambdaHook.HookTargetProperty.Builder.() -> Unit = {}): CfnLambdaHook.HookTargetProperty =
-    CfnLambdaHook.HookTargetProperty.Builder().apply(initializer).build()
+public fun buildHookTargetProperty(initializer: @AwsCdkDsl CfnLambdaHook.HookTargetProperty.Builder.() -> Unit = {}): CfnLambdaHook.HookTargetProperty = CfnLambdaHook.HookTargetProperty.Builder().apply(initializer).build()

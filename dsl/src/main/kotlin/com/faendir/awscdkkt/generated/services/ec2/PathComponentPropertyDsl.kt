@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnNetworkInsightsAnalysis
 
 @Generated
-public fun buildPathComponentProperty(initializer: @AwsCdkDsl
-    CfnNetworkInsightsAnalysis.PathComponentProperty.Builder.() -> Unit = {}):
-    CfnNetworkInsightsAnalysis.PathComponentProperty =
-    CfnNetworkInsightsAnalysis.PathComponentProperty.Builder().apply(initializer).build()
+public fun buildPathComponentProperty(initializer: @AwsCdkDsl CfnNetworkInsightsAnalysis.PathComponentProperty.Builder.() -> Unit = {}): CfnNetworkInsightsAnalysis.PathComponentProperty = CfnNetworkInsightsAnalysis.PathComponentProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ivs.CfnRecordingConfiguration
 
 @Generated
-public fun buildDestinationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnRecordingConfiguration.DestinationConfigurationProperty.Builder.() -> Unit = {}):
-    CfnRecordingConfiguration.DestinationConfigurationProperty =
-    CfnRecordingConfiguration.DestinationConfigurationProperty.Builder().apply(initializer).build()
+public fun buildDestinationConfigurationProperty(initializer: @AwsCdkDsl CfnRecordingConfiguration.DestinationConfigurationProperty.Builder.() -> Unit = {}): CfnRecordingConfiguration.DestinationConfigurationProperty = CfnRecordingConfiguration.DestinationConfigurationProperty.Builder().apply(initializer).build()

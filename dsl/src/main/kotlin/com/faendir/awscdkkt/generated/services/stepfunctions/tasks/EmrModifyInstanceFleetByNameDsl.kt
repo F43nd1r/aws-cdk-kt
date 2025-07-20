@@ -16,6 +16,4 @@ public fun Construct.emrModifyInstanceFleetByName(
 ): EmrModifyInstanceFleetByName = EmrModifyInstanceFleetByName(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEmrModifyInstanceFleetByName(id: String, initializer: @AwsCdkDsl
-    EmrModifyInstanceFleetByName.Builder.() -> Unit = {}): EmrModifyInstanceFleetByName =
-    EmrModifyInstanceFleetByName.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildEmrModifyInstanceFleetByName(id: String, initializer: @AwsCdkDsl EmrModifyInstanceFleetByName.Builder.() -> Unit = {}): EmrModifyInstanceFleetByName = EmrModifyInstanceFleetByName.Builder.create(this, id).apply(initializer).build()

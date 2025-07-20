@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.RemovalPolicyProps
 
 @Generated
-public fun buildRemovalPolicyProps(initializer: @AwsCdkDsl RemovalPolicyProps.Builder.() -> Unit =
-    {}): RemovalPolicyProps = RemovalPolicyProps.Builder().apply(initializer).build()
+public fun buildRemovalPolicyProps(initializer: @AwsCdkDsl RemovalPolicyProps.Builder.() -> Unit = {}): RemovalPolicyProps = RemovalPolicyProps.Builder().apply(initializer).build()

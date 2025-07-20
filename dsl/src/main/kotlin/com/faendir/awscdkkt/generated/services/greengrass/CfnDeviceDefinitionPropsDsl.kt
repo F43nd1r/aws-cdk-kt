@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.greengrass.CfnDeviceDefinitionProps
 
 @Generated
-public fun buildCfnDeviceDefinitionProps(initializer: @AwsCdkDsl
-    CfnDeviceDefinitionProps.Builder.() -> Unit = {}): CfnDeviceDefinitionProps =
-    CfnDeviceDefinitionProps.Builder().apply(initializer).build()
+public fun buildCfnDeviceDefinitionProps(initializer: @AwsCdkDsl CfnDeviceDefinitionProps.Builder.() -> Unit = {}): CfnDeviceDefinitionProps = CfnDeviceDefinitionProps.Builder().apply(initializer).build()

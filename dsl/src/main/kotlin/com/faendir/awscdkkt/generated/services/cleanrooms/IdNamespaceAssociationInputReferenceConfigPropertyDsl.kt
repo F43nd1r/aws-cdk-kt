@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cleanrooms.CfnIdNamespaceAssociation
 
 @Generated
-public fun buildIdNamespaceAssociationInputReferenceConfigProperty(initializer: @AwsCdkDsl
-    CfnIdNamespaceAssociation.IdNamespaceAssociationInputReferenceConfigProperty.Builder.() -> Unit
-    = {}): CfnIdNamespaceAssociation.IdNamespaceAssociationInputReferenceConfigProperty =
-    CfnIdNamespaceAssociation.IdNamespaceAssociationInputReferenceConfigProperty.Builder().apply(initializer).build()
+public fun buildIdNamespaceAssociationInputReferenceConfigProperty(initializer: @AwsCdkDsl CfnIdNamespaceAssociation.IdNamespaceAssociationInputReferenceConfigProperty.Builder.() -> Unit = {}): CfnIdNamespaceAssociation.IdNamespaceAssociationInputReferenceConfigProperty = CfnIdNamespaceAssociation.IdNamespaceAssociationInputReferenceConfigProperty.Builder().apply(initializer).build()

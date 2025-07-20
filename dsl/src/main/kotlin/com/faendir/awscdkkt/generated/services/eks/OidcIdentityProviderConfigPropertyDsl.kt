@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.CfnIdentityProviderConfig
 
 @Generated
-public fun buildOidcIdentityProviderConfigProperty(initializer: @AwsCdkDsl
-    CfnIdentityProviderConfig.OidcIdentityProviderConfigProperty.Builder.() -> Unit = {}):
-    CfnIdentityProviderConfig.OidcIdentityProviderConfigProperty =
-    CfnIdentityProviderConfig.OidcIdentityProviderConfigProperty.Builder().apply(initializer).build()
+public fun buildOidcIdentityProviderConfigProperty(initializer: @AwsCdkDsl CfnIdentityProviderConfig.OidcIdentityProviderConfigProperty.Builder.() -> Unit = {}): CfnIdentityProviderConfig.OidcIdentityProviderConfigProperty = CfnIdentityProviderConfig.OidcIdentityProviderConfigProperty.Builder().apply(initializer).build()

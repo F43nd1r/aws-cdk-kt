@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.b2bi.CfnPartnership
 
 @Generated
-public fun buildX12ControlNumbersProperty(initializer: @AwsCdkDsl
-    CfnPartnership.X12ControlNumbersProperty.Builder.() -> Unit = {}):
-    CfnPartnership.X12ControlNumbersProperty =
-    CfnPartnership.X12ControlNumbersProperty.Builder().apply(initializer).build()
+public fun buildX12ControlNumbersProperty(initializer: @AwsCdkDsl CfnPartnership.X12ControlNumbersProperty.Builder.() -> Unit = {}): CfnPartnership.X12ControlNumbersProperty = CfnPartnership.X12ControlNumbersProperty.Builder().apply(initializer).build()

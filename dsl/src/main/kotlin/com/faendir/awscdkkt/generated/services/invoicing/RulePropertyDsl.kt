@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.invoicing.CfnInvoiceUnit
 
 @Generated
-public fun buildRuleProperty(initializer: @AwsCdkDsl CfnInvoiceUnit.RuleProperty.Builder.() -> Unit
-    = {}): CfnInvoiceUnit.RuleProperty =
-    CfnInvoiceUnit.RuleProperty.Builder().apply(initializer).build()
+public fun buildRuleProperty(initializer: @AwsCdkDsl CfnInvoiceUnit.RuleProperty.Builder.() -> Unit = {}): CfnInvoiceUnit.RuleProperty = CfnInvoiceUnit.RuleProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnDataProvider(
 ): CfnDataProvider = CfnDataProvider(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDataProvider(id: String, initializer: @AwsCdkDsl
-    CfnDataProvider.Builder.() -> Unit = {}): CfnDataProvider = CfnDataProvider.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnDataProvider(id: String, initializer: @AwsCdkDsl CfnDataProvider.Builder.() -> Unit = {}): CfnDataProvider = CfnDataProvider.Builder.create(this, id).apply(initializer).build()

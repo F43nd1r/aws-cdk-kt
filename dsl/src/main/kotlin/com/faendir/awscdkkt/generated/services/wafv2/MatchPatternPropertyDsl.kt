@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnLoggingConfiguration
 
 @Generated
-public fun buildMatchPatternProperty(initializer: @AwsCdkDsl
-    CfnLoggingConfiguration.MatchPatternProperty.Builder.() -> Unit = {}):
-    CfnLoggingConfiguration.MatchPatternProperty =
-    CfnLoggingConfiguration.MatchPatternProperty.Builder().apply(initializer).build()
+public fun buildMatchPatternProperty(initializer: @AwsCdkDsl CfnLoggingConfiguration.MatchPatternProperty.Builder.() -> Unit = {}): CfnLoggingConfiguration.MatchPatternProperty = CfnLoggingConfiguration.MatchPatternProperty.Builder().apply(initializer).build()

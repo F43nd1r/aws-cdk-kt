@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.CfnAccessEntry
 
 @Generated
-public fun buildAccessPolicyProperty(initializer: @AwsCdkDsl
-    CfnAccessEntry.AccessPolicyProperty.Builder.() -> Unit = {}):
-    CfnAccessEntry.AccessPolicyProperty =
-    CfnAccessEntry.AccessPolicyProperty.Builder().apply(initializer).build()
+public fun buildAccessPolicyProperty(initializer: @AwsCdkDsl CfnAccessEntry.AccessPolicyProperty.Builder.() -> Unit = {}): CfnAccessEntry.AccessPolicyProperty = CfnAccessEntry.AccessPolicyProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnSpotFleet
 
 @Generated
-public fun buildPrivateIpAddressSpecificationProperty(initializer: @AwsCdkDsl
-    CfnSpotFleet.PrivateIpAddressSpecificationProperty.Builder.() -> Unit = {}):
-    CfnSpotFleet.PrivateIpAddressSpecificationProperty =
-    CfnSpotFleet.PrivateIpAddressSpecificationProperty.Builder().apply(initializer).build()
+public fun buildPrivateIpAddressSpecificationProperty(initializer: @AwsCdkDsl CfnSpotFleet.PrivateIpAddressSpecificationProperty.Builder.() -> Unit = {}): CfnSpotFleet.PrivateIpAddressSpecificationProperty = CfnSpotFleet.PrivateIpAddressSpecificationProperty.Builder().apply(initializer).build()

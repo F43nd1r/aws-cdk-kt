@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.vpclattice.CfnTargetGroup
 
 @Generated
-public fun buildTargetProperty(initializer: @AwsCdkDsl
-    CfnTargetGroup.TargetProperty.Builder.() -> Unit = {}): CfnTargetGroup.TargetProperty =
-    CfnTargetGroup.TargetProperty.Builder().apply(initializer).build()
+public fun buildTargetProperty(initializer: @AwsCdkDsl CfnTargetGroup.TargetProperty.Builder.() -> Unit = {}): CfnTargetGroup.TargetProperty = CfnTargetGroup.TargetProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnMitigationAction
 
 @Generated
-public fun buildAddThingsToThingGroupParamsProperty(initializer: @AwsCdkDsl
-    CfnMitigationAction.AddThingsToThingGroupParamsProperty.Builder.() -> Unit = {}):
-    CfnMitigationAction.AddThingsToThingGroupParamsProperty =
-    CfnMitigationAction.AddThingsToThingGroupParamsProperty.Builder().apply(initializer).build()
+public fun buildAddThingsToThingGroupParamsProperty(initializer: @AwsCdkDsl CfnMitigationAction.AddThingsToThingGroupParamsProperty.Builder.() -> Unit = {}): CfnMitigationAction.AddThingsToThingGroupParamsProperty = CfnMitigationAction.AddThingsToThingGroupParamsProperty.Builder().apply(initializer).build()

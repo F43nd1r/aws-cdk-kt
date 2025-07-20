@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codedeploy.BaseDeploymentConfigOptions
 
 @Generated
-public fun buildBaseDeploymentConfigOptions(initializer: @AwsCdkDsl
-    BaseDeploymentConfigOptions.Builder.() -> Unit = {}): BaseDeploymentConfigOptions =
-    BaseDeploymentConfigOptions.Builder().apply(initializer).build()
+public fun buildBaseDeploymentConfigOptions(initializer: @AwsCdkDsl BaseDeploymentConfigOptions.Builder.() -> Unit = {}): BaseDeploymentConfigOptions = BaseDeploymentConfigOptions.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildDataPathValueProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DataPathValueProperty.Builder.() -> Unit = {}): CfnTemplate.DataPathValueProperty =
-    CfnTemplate.DataPathValueProperty.Builder().apply(initializer).build()
+public fun buildDataPathValueProperty(initializer: @AwsCdkDsl CfnTemplate.DataPathValueProperty.Builder.() -> Unit = {}): CfnTemplate.DataPathValueProperty = CfnTemplate.DataPathValueProperty.Builder().apply(initializer).build()

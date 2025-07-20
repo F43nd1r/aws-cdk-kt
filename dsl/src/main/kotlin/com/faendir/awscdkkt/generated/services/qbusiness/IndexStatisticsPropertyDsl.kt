@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnIndex
 
 @Generated
-public fun buildIndexStatisticsProperty(initializer: @AwsCdkDsl
-    CfnIndex.IndexStatisticsProperty.Builder.() -> Unit = {}): CfnIndex.IndexStatisticsProperty =
-    CfnIndex.IndexStatisticsProperty.Builder().apply(initializer).build()
+public fun buildIndexStatisticsProperty(initializer: @AwsCdkDsl CfnIndex.IndexStatisticsProperty.Builder.() -> Unit = {}): CfnIndex.IndexStatisticsProperty = CfnIndex.IndexStatisticsProperty.Builder().apply(initializer).build()

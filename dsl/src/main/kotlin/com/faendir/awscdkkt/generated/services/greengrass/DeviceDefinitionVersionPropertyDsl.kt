@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.greengrass.CfnDeviceDefinition
 
 @Generated
-public fun buildDeviceDefinitionVersionProperty(initializer: @AwsCdkDsl
-    CfnDeviceDefinition.DeviceDefinitionVersionProperty.Builder.() -> Unit = {}):
-    CfnDeviceDefinition.DeviceDefinitionVersionProperty =
-    CfnDeviceDefinition.DeviceDefinitionVersionProperty.Builder().apply(initializer).build()
+public fun buildDeviceDefinitionVersionProperty(initializer: @AwsCdkDsl CfnDeviceDefinition.DeviceDefinitionVersionProperty.Builder.() -> Unit = {}): CfnDeviceDefinition.DeviceDefinitionVersionProperty = CfnDeviceDefinition.DeviceDefinitionVersionProperty.Builder().apply(initializer).build()

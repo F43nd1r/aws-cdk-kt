@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
-public fun buildRestartPolicyProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.RestartPolicyProperty.Builder.() -> Unit = {}):
-    CfnTaskDefinition.RestartPolicyProperty =
-    CfnTaskDefinition.RestartPolicyProperty.Builder().apply(initializer).build()
+public fun buildRestartPolicyProperty(initializer: @AwsCdkDsl CfnTaskDefinition.RestartPolicyProperty.Builder.() -> Unit = {}): CfnTaskDefinition.RestartPolicyProperty = CfnTaskDefinition.RestartPolicyProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnSyncConfiguration(
 ): CfnSyncConfiguration = CfnSyncConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSyncConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnSyncConfiguration.Builder.() -> Unit = {}): CfnSyncConfiguration =
-    CfnSyncConfiguration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSyncConfiguration(id: String, initializer: @AwsCdkDsl CfnSyncConfiguration.Builder.() -> Unit = {}): CfnSyncConfiguration = CfnSyncConfiguration.Builder.create(this, id).apply(initializer).build()

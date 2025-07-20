@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.aiops.CfnInvestigationGroup
 
 @Generated
-public fun buildCrossAccountConfigurationProperty(initializer: @AwsCdkDsl
-    CfnInvestigationGroup.CrossAccountConfigurationProperty.Builder.() -> Unit = {}):
-    CfnInvestigationGroup.CrossAccountConfigurationProperty =
-    CfnInvestigationGroup.CrossAccountConfigurationProperty.Builder().apply(initializer).build()
+public fun buildCrossAccountConfigurationProperty(initializer: @AwsCdkDsl CfnInvestigationGroup.CrossAccountConfigurationProperty.Builder.() -> Unit = {}): CfnInvestigationGroup.CrossAccountConfigurationProperty = CfnInvestigationGroup.CrossAccountConfigurationProperty.Builder().apply(initializer).build()

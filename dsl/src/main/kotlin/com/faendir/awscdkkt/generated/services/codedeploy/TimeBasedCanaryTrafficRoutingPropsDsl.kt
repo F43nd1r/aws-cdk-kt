@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codedeploy.TimeBasedCanaryTrafficRoutingProps
 
 @Generated
-public fun buildTimeBasedCanaryTrafficRoutingProps(initializer: @AwsCdkDsl
-    TimeBasedCanaryTrafficRoutingProps.Builder.() -> Unit = {}): TimeBasedCanaryTrafficRoutingProps
-    = TimeBasedCanaryTrafficRoutingProps.Builder().apply(initializer).build()
+public fun buildTimeBasedCanaryTrafficRoutingProps(initializer: @AwsCdkDsl TimeBasedCanaryTrafficRoutingProps.Builder.() -> Unit = {}): TimeBasedCanaryTrafficRoutingProps = TimeBasedCanaryTrafficRoutingProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotevents.CfnDetectorModel
 
 @Generated
-public fun buildOnInputProperty(initializer: @AwsCdkDsl
-    CfnDetectorModel.OnInputProperty.Builder.() -> Unit = {}): CfnDetectorModel.OnInputProperty =
-    CfnDetectorModel.OnInputProperty.Builder().apply(initializer).build()
+public fun buildOnInputProperty(initializer: @AwsCdkDsl CfnDetectorModel.OnInputProperty.Builder.() -> Unit = {}): CfnDetectorModel.OnInputProperty = CfnDetectorModel.OnInputProperty.Builder().apply(initializer).build()

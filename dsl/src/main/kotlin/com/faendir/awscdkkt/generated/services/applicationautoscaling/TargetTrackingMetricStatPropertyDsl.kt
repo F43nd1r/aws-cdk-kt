@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.applicationautoscaling.CfnScalingPolicy
 
 @Generated
-public fun buildTargetTrackingMetricStatProperty(initializer: @AwsCdkDsl
-    CfnScalingPolicy.TargetTrackingMetricStatProperty.Builder.() -> Unit = {}):
-    CfnScalingPolicy.TargetTrackingMetricStatProperty =
-    CfnScalingPolicy.TargetTrackingMetricStatProperty.Builder().apply(initializer).build()
+public fun buildTargetTrackingMetricStatProperty(initializer: @AwsCdkDsl CfnScalingPolicy.TargetTrackingMetricStatProperty.Builder.() -> Unit = {}): CfnScalingPolicy.TargetTrackingMetricStatProperty = CfnScalingPolicy.TargetTrackingMetricStatProperty.Builder().apply(initializer).build()

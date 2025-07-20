@@ -16,6 +16,4 @@ public fun Construct.customRule(
 ): CustomRule = CustomRule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCustomRule(id: String, initializer: @AwsCdkDsl
-    CustomRule.Builder.() -> Unit = {}): CustomRule = CustomRule.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCustomRule(id: String, initializer: @AwsCdkDsl CustomRule.Builder.() -> Unit = {}): CustomRule = CustomRule.Builder.create(this, id).apply(initializer).build()

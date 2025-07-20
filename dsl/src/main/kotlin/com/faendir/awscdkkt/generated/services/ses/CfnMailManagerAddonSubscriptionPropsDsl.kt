@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnMailManagerAddonSubscriptionProps
 
 @Generated
-public fun buildCfnMailManagerAddonSubscriptionProps(initializer: @AwsCdkDsl
-    CfnMailManagerAddonSubscriptionProps.Builder.() -> Unit = {}):
-    CfnMailManagerAddonSubscriptionProps =
-    CfnMailManagerAddonSubscriptionProps.Builder().apply(initializer).build()
+public fun buildCfnMailManagerAddonSubscriptionProps(initializer: @AwsCdkDsl CfnMailManagerAddonSubscriptionProps.Builder.() -> Unit = {}): CfnMailManagerAddonSubscriptionProps = CfnMailManagerAddonSubscriptionProps.Builder().apply(initializer).build()

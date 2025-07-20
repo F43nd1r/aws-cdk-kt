@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.ses.ReceiptFilterProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.receiptFilter(id: String, initializer: @AwsCdkDsl ReceiptFilter.() -> Unit =
-    {}): ReceiptFilter = ReceiptFilter(this, id).apply(initializer)
+public fun Construct.receiptFilter(id: String, initializer: @AwsCdkDsl ReceiptFilter.() -> Unit = {}): ReceiptFilter = ReceiptFilter(this, id).apply(initializer)
 
 @Generated
 public fun Construct.receiptFilter(
@@ -20,6 +19,4 @@ public fun Construct.receiptFilter(
 ): ReceiptFilter = ReceiptFilter(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildReceiptFilter(id: String, initializer: @AwsCdkDsl
-    ReceiptFilter.Builder.() -> Unit = {}): ReceiptFilter = ReceiptFilter.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildReceiptFilter(id: String, initializer: @AwsCdkDsl ReceiptFilter.Builder.() -> Unit = {}): ReceiptFilter = ReceiptFilter.Builder.create(this, id).apply(initializer).build()

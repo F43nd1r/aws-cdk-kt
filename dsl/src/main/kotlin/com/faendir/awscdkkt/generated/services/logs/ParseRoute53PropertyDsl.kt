@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnTransformer
 
 @Generated
-public fun buildParseRoute53Property(initializer: @AwsCdkDsl
-    CfnTransformer.ParseRoute53Property.Builder.() -> Unit = {}):
-    CfnTransformer.ParseRoute53Property =
-    CfnTransformer.ParseRoute53Property.Builder().apply(initializer).build()
+public fun buildParseRoute53Property(initializer: @AwsCdkDsl CfnTransformer.ParseRoute53Property.Builder.() -> Unit = {}): CfnTransformer.ParseRoute53Property = CfnTransformer.ParseRoute53Property.Builder().apply(initializer).build()

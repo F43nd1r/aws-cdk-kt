@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appconfig.HostedConfigurationProps
 
 @Generated
-public fun buildHostedConfigurationProps(initializer: @AwsCdkDsl
-    HostedConfigurationProps.Builder.() -> Unit = {}): HostedConfigurationProps =
-    HostedConfigurationProps.Builder().apply(initializer).build()
+public fun buildHostedConfigurationProps(initializer: @AwsCdkDsl HostedConfigurationProps.Builder.() -> Unit = {}): HostedConfigurationProps = HostedConfigurationProps.Builder().apply(initializer).build()

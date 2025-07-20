@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.scheduler.targets.UniversalTargetProps
 
 @Generated
-public fun buildUniversalTargetProps(initializer: @AwsCdkDsl UniversalTargetProps.Builder.() -> Unit
-    = {}): UniversalTargetProps = UniversalTargetProps.Builder().apply(initializer).build()
+public fun buildUniversalTargetProps(initializer: @AwsCdkDsl UniversalTargetProps.Builder.() -> Unit = {}): UniversalTargetProps = UniversalTargetProps.Builder().apply(initializer).build()

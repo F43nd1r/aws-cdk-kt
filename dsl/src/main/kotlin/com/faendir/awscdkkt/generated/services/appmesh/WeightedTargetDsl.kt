@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.WeightedTarget
 
 @Generated
-public fun buildWeightedTarget(initializer: @AwsCdkDsl WeightedTarget.Builder.() -> Unit = {}):
-    WeightedTarget = WeightedTarget.Builder().apply(initializer).build()
+public fun buildWeightedTarget(initializer: @AwsCdkDsl WeightedTarget.Builder.() -> Unit = {}): WeightedTarget = WeightedTarget.Builder().apply(initializer).build()

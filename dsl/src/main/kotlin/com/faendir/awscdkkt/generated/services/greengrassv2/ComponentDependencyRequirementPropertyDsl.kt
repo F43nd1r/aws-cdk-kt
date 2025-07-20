@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.greengrassv2.CfnComponentVersion
 
 @Generated
-public fun buildComponentDependencyRequirementProperty(initializer: @AwsCdkDsl
-    CfnComponentVersion.ComponentDependencyRequirementProperty.Builder.() -> Unit = {}):
-    CfnComponentVersion.ComponentDependencyRequirementProperty =
-    CfnComponentVersion.ComponentDependencyRequirementProperty.Builder().apply(initializer).build()
+public fun buildComponentDependencyRequirementProperty(initializer: @AwsCdkDsl CfnComponentVersion.ComponentDependencyRequirementProperty.Builder.() -> Unit = {}): CfnComponentVersion.ComponentDependencyRequirementProperty = CfnComponentVersion.ComponentDependencyRequirementProperty.Builder().apply(initializer).build()

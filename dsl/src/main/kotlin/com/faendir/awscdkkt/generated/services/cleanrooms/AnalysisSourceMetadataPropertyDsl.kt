@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cleanrooms.CfnAnalysisTemplate
 
 @Generated
-public fun buildAnalysisSourceMetadataProperty(initializer: @AwsCdkDsl
-    CfnAnalysisTemplate.AnalysisSourceMetadataProperty.Builder.() -> Unit = {}):
-    CfnAnalysisTemplate.AnalysisSourceMetadataProperty =
-    CfnAnalysisTemplate.AnalysisSourceMetadataProperty.Builder().apply(initializer).build()
+public fun buildAnalysisSourceMetadataProperty(initializer: @AwsCdkDsl CfnAnalysisTemplate.AnalysisSourceMetadataProperty.Builder.() -> Unit = {}): CfnAnalysisTemplate.AnalysisSourceMetadataProperty = CfnAnalysisTemplate.AnalysisSourceMetadataProperty.Builder().apply(initializer).build()

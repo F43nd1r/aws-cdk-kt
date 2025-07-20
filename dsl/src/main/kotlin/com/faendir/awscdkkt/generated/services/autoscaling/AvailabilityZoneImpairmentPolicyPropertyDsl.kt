@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.CfnAutoScalingGroup
 
 @Generated
-public fun buildAvailabilityZoneImpairmentPolicyProperty(initializer: @AwsCdkDsl
-    CfnAutoScalingGroup.AvailabilityZoneImpairmentPolicyProperty.Builder.() -> Unit = {}):
-    CfnAutoScalingGroup.AvailabilityZoneImpairmentPolicyProperty =
-    CfnAutoScalingGroup.AvailabilityZoneImpairmentPolicyProperty.Builder().apply(initializer).build()
+public fun buildAvailabilityZoneImpairmentPolicyProperty(initializer: @AwsCdkDsl CfnAutoScalingGroup.AvailabilityZoneImpairmentPolicyProperty.Builder.() -> Unit = {}): CfnAutoScalingGroup.AvailabilityZoneImpairmentPolicyProperty = CfnAutoScalingGroup.AvailabilityZoneImpairmentPolicyProperty.Builder().apply(initializer).build()

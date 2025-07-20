@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.CfnDeployment
 
 @Generated
-public fun buildStageDescriptionProperty(initializer: @AwsCdkDsl
-    CfnDeployment.StageDescriptionProperty.Builder.() -> Unit = {}):
-    CfnDeployment.StageDescriptionProperty =
-    CfnDeployment.StageDescriptionProperty.Builder().apply(initializer).build()
+public fun buildStageDescriptionProperty(initializer: @AwsCdkDsl CfnDeployment.StageDescriptionProperty.Builder.() -> Unit = {}): CfnDeployment.StageDescriptionProperty = CfnDeployment.StageDescriptionProperty.Builder().apply(initializer).build()

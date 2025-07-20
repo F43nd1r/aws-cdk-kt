@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
-public fun buildFSxWindowsFileServerVolumeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.FSxWindowsFileServerVolumeConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTaskDefinition.FSxWindowsFileServerVolumeConfigurationProperty =
-    CfnTaskDefinition.FSxWindowsFileServerVolumeConfigurationProperty.Builder().apply(initializer).build()
+public fun buildFSxWindowsFileServerVolumeConfigurationProperty(initializer: @AwsCdkDsl CfnTaskDefinition.FSxWindowsFileServerVolumeConfigurationProperty.Builder.() -> Unit = {}): CfnTaskDefinition.FSxWindowsFileServerVolumeConfigurationProperty = CfnTaskDefinition.FSxWindowsFileServerVolumeConfigurationProperty.Builder().apply(initializer).build()

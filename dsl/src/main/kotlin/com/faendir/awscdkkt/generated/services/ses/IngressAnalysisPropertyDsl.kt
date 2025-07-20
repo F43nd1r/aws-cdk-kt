@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnMailManagerTrafficPolicy
 
 @Generated
-public fun buildIngressAnalysisProperty(initializer: @AwsCdkDsl
-    CfnMailManagerTrafficPolicy.IngressAnalysisProperty.Builder.() -> Unit = {}):
-    CfnMailManagerTrafficPolicy.IngressAnalysisProperty =
-    CfnMailManagerTrafficPolicy.IngressAnalysisProperty.Builder().apply(initializer).build()
+public fun buildIngressAnalysisProperty(initializer: @AwsCdkDsl CfnMailManagerTrafficPolicy.IngressAnalysisProperty.Builder.() -> Unit = {}): CfnMailManagerTrafficPolicy.IngressAnalysisProperty = CfnMailManagerTrafficPolicy.IngressAnalysisProperty.Builder().apply(initializer).build()

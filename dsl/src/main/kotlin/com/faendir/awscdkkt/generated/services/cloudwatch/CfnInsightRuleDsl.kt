@@ -16,6 +16,4 @@ public fun Construct.cfnInsightRule(
 ): CfnInsightRule = CfnInsightRule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnInsightRule(id: String, initializer: @AwsCdkDsl
-    CfnInsightRule.Builder.() -> Unit = {}): CfnInsightRule = CfnInsightRule.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnInsightRule(id: String, initializer: @AwsCdkDsl CfnInsightRule.Builder.() -> Unit = {}): CfnInsightRule = CfnInsightRule.Builder.create(this, id).apply(initializer).build()

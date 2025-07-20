@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.CfnFleet
 
 @Generated
-public fun buildFleetProxyRuleProperty(initializer: @AwsCdkDsl
-    CfnFleet.FleetProxyRuleProperty.Builder.() -> Unit = {}): CfnFleet.FleetProxyRuleProperty =
-    CfnFleet.FleetProxyRuleProperty.Builder().apply(initializer).build()
+public fun buildFleetProxyRuleProperty(initializer: @AwsCdkDsl CfnFleet.FleetProxyRuleProperty.Builder.() -> Unit = {}): CfnFleet.FleetProxyRuleProperty = CfnFleet.FleetProxyRuleProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.inspectorv2.CfnCisScanConfiguration
 
 @Generated
-public fun buildCisTargetsProperty(initializer: @AwsCdkDsl
-    CfnCisScanConfiguration.CisTargetsProperty.Builder.() -> Unit = {}):
-    CfnCisScanConfiguration.CisTargetsProperty =
-    CfnCisScanConfiguration.CisTargetsProperty.Builder().apply(initializer).build()
+public fun buildCisTargetsProperty(initializer: @AwsCdkDsl CfnCisScanConfiguration.CisTargetsProperty.Builder.() -> Unit = {}): CfnCisScanConfiguration.CisTargetsProperty = CfnCisScanConfiguration.CisTargetsProperty.Builder().apply(initializer).build()

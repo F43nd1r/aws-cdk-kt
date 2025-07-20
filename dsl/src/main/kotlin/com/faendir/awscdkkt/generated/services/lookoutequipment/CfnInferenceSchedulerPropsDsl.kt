@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lookoutequipment.CfnInferenceSchedulerProps
 
 @Generated
-public fun buildCfnInferenceSchedulerProps(initializer: @AwsCdkDsl
-    CfnInferenceSchedulerProps.Builder.() -> Unit = {}): CfnInferenceSchedulerProps =
-    CfnInferenceSchedulerProps.Builder().apply(initializer).build()
+public fun buildCfnInferenceSchedulerProps(initializer: @AwsCdkDsl CfnInferenceSchedulerProps.Builder.() -> Unit = {}): CfnInferenceSchedulerProps = CfnInferenceSchedulerProps.Builder().apply(initializer).build()

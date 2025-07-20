@@ -16,5 +16,4 @@ public fun Construct.httpRoute(
 ): HttpRoute = HttpRoute(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildHttpRoute(id: String, initializer: @AwsCdkDsl HttpRoute.Builder.() -> Unit
-    = {}): HttpRoute = HttpRoute.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildHttpRoute(id: String, initializer: @AwsCdkDsl HttpRoute.Builder.() -> Unit = {}): HttpRoute = HttpRoute.Builder.create(this, id).apply(initializer).build()

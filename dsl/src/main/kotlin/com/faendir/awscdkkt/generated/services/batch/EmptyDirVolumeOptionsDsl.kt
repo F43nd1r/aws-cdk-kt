@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.EmptyDirVolumeOptions
 
 @Generated
-public fun buildEmptyDirVolumeOptions(initializer: @AwsCdkDsl
-    EmptyDirVolumeOptions.Builder.() -> Unit = {}): EmptyDirVolumeOptions =
-    EmptyDirVolumeOptions.Builder().apply(initializer).build()
+public fun buildEmptyDirVolumeOptions(initializer: @AwsCdkDsl EmptyDirVolumeOptions.Builder.() -> Unit = {}): EmptyDirVolumeOptions = EmptyDirVolumeOptions.Builder().apply(initializer).build()

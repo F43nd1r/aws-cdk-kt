@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3tables.CfnTableBucketProps
 
 @Generated
-public fun buildCfnTableBucketProps(initializer: @AwsCdkDsl CfnTableBucketProps.Builder.() -> Unit =
-    {}): CfnTableBucketProps = CfnTableBucketProps.Builder().apply(initializer).build()
+public fun buildCfnTableBucketProps(initializer: @AwsCdkDsl CfnTableBucketProps.Builder.() -> Unit = {}): CfnTableBucketProps = CfnTableBucketProps.Builder().apply(initializer).build()

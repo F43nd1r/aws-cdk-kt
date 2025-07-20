@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnSegment
 
 @Generated
-public fun buildDemographicProperty(initializer: @AwsCdkDsl
-    CfnSegment.DemographicProperty.Builder.() -> Unit = {}): CfnSegment.DemographicProperty =
-    CfnSegment.DemographicProperty.Builder().apply(initializer).build()
+public fun buildDemographicProperty(initializer: @AwsCdkDsl CfnSegment.DemographicProperty.Builder.() -> Unit = {}): CfnSegment.DemographicProperty = CfnSegment.DemographicProperty.Builder().apply(initializer).build()

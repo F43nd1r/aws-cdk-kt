@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.config.CfnOrganizationConformancePackProps
 
 @Generated
-public fun buildCfnOrganizationConformancePackProps(initializer: @AwsCdkDsl
-    CfnOrganizationConformancePackProps.Builder.() -> Unit = {}):
-    CfnOrganizationConformancePackProps =
-    CfnOrganizationConformancePackProps.Builder().apply(initializer).build()
+public fun buildCfnOrganizationConformancePackProps(initializer: @AwsCdkDsl CfnOrganizationConformancePackProps.Builder.() -> Unit = {}): CfnOrganizationConformancePackProps = CfnOrganizationConformancePackProps.Builder().apply(initializer).build()

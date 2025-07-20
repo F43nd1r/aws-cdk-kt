@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnTransformer
 
 @Generated
-public fun buildSplitStringEntryProperty(initializer: @AwsCdkDsl
-    CfnTransformer.SplitStringEntryProperty.Builder.() -> Unit = {}):
-    CfnTransformer.SplitStringEntryProperty =
-    CfnTransformer.SplitStringEntryProperty.Builder().apply(initializer).build()
+public fun buildSplitStringEntryProperty(initializer: @AwsCdkDsl CfnTransformer.SplitStringEntryProperty.Builder.() -> Unit = {}): CfnTransformer.SplitStringEntryProperty = CfnTransformer.SplitStringEntryProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnNetworkInterfacePermissionProps
 
 @Generated
-public fun buildCfnNetworkInterfacePermissionProps(initializer: @AwsCdkDsl
-    CfnNetworkInterfacePermissionProps.Builder.() -> Unit = {}): CfnNetworkInterfacePermissionProps
-    = CfnNetworkInterfacePermissionProps.Builder().apply(initializer).build()
+public fun buildCfnNetworkInterfacePermissionProps(initializer: @AwsCdkDsl CfnNetworkInterfacePermissionProps.Builder.() -> Unit = {}): CfnNetworkInterfacePermissionProps = CfnNetworkInterfacePermissionProps.Builder().apply(initializer).build()

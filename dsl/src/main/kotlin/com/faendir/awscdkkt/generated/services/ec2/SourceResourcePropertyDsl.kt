@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnIPAMPool
 
 @Generated
-public fun buildSourceResourceProperty(initializer: @AwsCdkDsl
-    CfnIPAMPool.SourceResourceProperty.Builder.() -> Unit = {}): CfnIPAMPool.SourceResourceProperty
-    = CfnIPAMPool.SourceResourceProperty.Builder().apply(initializer).build()
+public fun buildSourceResourceProperty(initializer: @AwsCdkDsl CfnIPAMPool.SourceResourceProperty.Builder.() -> Unit = {}): CfnIPAMPool.SourceResourceProperty = CfnIPAMPool.SourceResourceProperty.Builder().apply(initializer).build()

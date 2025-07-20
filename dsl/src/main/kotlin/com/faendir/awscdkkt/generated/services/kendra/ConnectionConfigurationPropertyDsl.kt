@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kendra.CfnDataSource
 
 @Generated
-public fun buildConnectionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.ConnectionConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDataSource.ConnectionConfigurationProperty =
-    CfnDataSource.ConnectionConfigurationProperty.Builder().apply(initializer).build()
+public fun buildConnectionConfigurationProperty(initializer: @AwsCdkDsl CfnDataSource.ConnectionConfigurationProperty.Builder.() -> Unit = {}): CfnDataSource.ConnectionConfigurationProperty = CfnDataSource.ConnectionConfigurationProperty.Builder().apply(initializer).build()

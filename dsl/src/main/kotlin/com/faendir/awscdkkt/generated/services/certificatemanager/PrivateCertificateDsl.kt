@@ -16,6 +16,4 @@ public fun Construct.privateCertificate(
 ): PrivateCertificate = PrivateCertificate(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildPrivateCertificate(id: String, initializer: @AwsCdkDsl
-    PrivateCertificate.Builder.() -> Unit = {}): PrivateCertificate =
-    PrivateCertificate.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildPrivateCertificate(id: String, initializer: @AwsCdkDsl PrivateCertificate.Builder.() -> Unit = {}): PrivateCertificate = PrivateCertificate.Builder.create(this, id).apply(initializer).build()

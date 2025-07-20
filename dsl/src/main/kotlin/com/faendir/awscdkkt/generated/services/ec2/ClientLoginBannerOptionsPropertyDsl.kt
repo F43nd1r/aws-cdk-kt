@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnClientVpnEndpoint
 
 @Generated
-public fun buildClientLoginBannerOptionsProperty(initializer: @AwsCdkDsl
-    CfnClientVpnEndpoint.ClientLoginBannerOptionsProperty.Builder.() -> Unit = {}):
-    CfnClientVpnEndpoint.ClientLoginBannerOptionsProperty =
-    CfnClientVpnEndpoint.ClientLoginBannerOptionsProperty.Builder().apply(initializer).build()
+public fun buildClientLoginBannerOptionsProperty(initializer: @AwsCdkDsl CfnClientVpnEndpoint.ClientLoginBannerOptionsProperty.Builder.() -> Unit = {}): CfnClientVpnEndpoint.ClientLoginBannerOptionsProperty = CfnClientVpnEndpoint.ClientLoginBannerOptionsProperty.Builder().apply(initializer).build()

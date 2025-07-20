@@ -16,6 +16,4 @@ public fun Construct.cfnImageRecipe(
 ): CfnImageRecipe = CfnImageRecipe(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnImageRecipe(id: String, initializer: @AwsCdkDsl
-    CfnImageRecipe.Builder.() -> Unit = {}): CfnImageRecipe = CfnImageRecipe.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnImageRecipe(id: String, initializer: @AwsCdkDsl CfnImageRecipe.Builder.() -> Unit = {}): CfnImageRecipe = CfnImageRecipe.Builder.create(this, id).apply(initializer).build()

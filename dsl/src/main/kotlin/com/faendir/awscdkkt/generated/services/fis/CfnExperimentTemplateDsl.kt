@@ -16,6 +16,4 @@ public fun Construct.cfnExperimentTemplate(
 ): CfnExperimentTemplate = CfnExperimentTemplate(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnExperimentTemplate(id: String, initializer: @AwsCdkDsl
-    CfnExperimentTemplate.Builder.() -> Unit = {}): CfnExperimentTemplate =
-    CfnExperimentTemplate.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnExperimentTemplate(id: String, initializer: @AwsCdkDsl CfnExperimentTemplate.Builder.() -> Unit = {}): CfnExperimentTemplate = CfnExperimentTemplate.Builder.create(this, id).apply(initializer).build()

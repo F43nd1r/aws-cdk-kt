@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnOriginAccessControlProps
 
 @Generated
-public fun buildCfnOriginAccessControlProps(initializer: @AwsCdkDsl
-    CfnOriginAccessControlProps.Builder.() -> Unit = {}): CfnOriginAccessControlProps =
-    CfnOriginAccessControlProps.Builder().apply(initializer).build()
+public fun buildCfnOriginAccessControlProps(initializer: @AwsCdkDsl CfnOriginAccessControlProps.Builder.() -> Unit = {}): CfnOriginAccessControlProps = CfnOriginAccessControlProps.Builder().apply(initializer).build()

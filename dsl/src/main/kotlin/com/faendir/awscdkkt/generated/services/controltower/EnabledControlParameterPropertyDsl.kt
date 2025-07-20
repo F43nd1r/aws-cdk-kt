@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.controltower.CfnEnabledControl
 
 @Generated
-public fun buildEnabledControlParameterProperty(initializer: @AwsCdkDsl
-    CfnEnabledControl.EnabledControlParameterProperty.Builder.() -> Unit = {}):
-    CfnEnabledControl.EnabledControlParameterProperty =
-    CfnEnabledControl.EnabledControlParameterProperty.Builder().apply(initializer).build()
+public fun buildEnabledControlParameterProperty(initializer: @AwsCdkDsl CfnEnabledControl.EnabledControlParameterProperty.Builder.() -> Unit = {}): CfnEnabledControl.EnabledControlParameterProperty = CfnEnabledControl.EnabledControlParameterProperty.Builder().apply(initializer).build()

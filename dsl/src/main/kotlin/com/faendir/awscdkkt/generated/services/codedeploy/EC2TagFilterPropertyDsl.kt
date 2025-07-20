@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codedeploy.CfnDeploymentGroup
 
 @Generated
-public fun buildEC2TagFilterProperty(initializer: @AwsCdkDsl
-    CfnDeploymentGroup.EC2TagFilterProperty.Builder.() -> Unit = {}):
-    CfnDeploymentGroup.EC2TagFilterProperty =
-    CfnDeploymentGroup.EC2TagFilterProperty.Builder().apply(initializer).build()
+public fun buildEC2TagFilterProperty(initializer: @AwsCdkDsl CfnDeploymentGroup.EC2TagFilterProperty.Builder.() -> Unit = {}): CfnDeploymentGroup.EC2TagFilterProperty = CfnDeploymentGroup.EC2TagFilterProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.config.CloudFormationStackDriftDetectionCheckProps
 
 @Generated
-public fun buildCloudFormationStackDriftDetectionCheckProps(initializer: @AwsCdkDsl
-    CloudFormationStackDriftDetectionCheckProps.Builder.() -> Unit = {}):
-    CloudFormationStackDriftDetectionCheckProps =
-    CloudFormationStackDriftDetectionCheckProps.Builder().apply(initializer).build()
+public fun buildCloudFormationStackDriftDetectionCheckProps(initializer: @AwsCdkDsl CloudFormationStackDriftDetectionCheckProps.Builder.() -> Unit = {}): CloudFormationStackDriftDetectionCheckProps = CloudFormationStackDriftDetectionCheckProps.Builder().apply(initializer).build()

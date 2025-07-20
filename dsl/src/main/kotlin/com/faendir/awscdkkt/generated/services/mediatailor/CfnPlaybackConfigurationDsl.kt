@@ -16,6 +16,4 @@ public fun Construct.cfnPlaybackConfiguration(
 ): CfnPlaybackConfiguration = CfnPlaybackConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPlaybackConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnPlaybackConfiguration.Builder.() -> Unit = {}): CfnPlaybackConfiguration =
-    CfnPlaybackConfiguration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPlaybackConfiguration(id: String, initializer: @AwsCdkDsl CfnPlaybackConfiguration.Builder.() -> Unit = {}): CfnPlaybackConfiguration = CfnPlaybackConfiguration.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnAIAgent
 
 @Generated
-public fun buildManualSearchAIAgentConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAIAgent.ManualSearchAIAgentConfigurationProperty.Builder.() -> Unit = {}):
-    CfnAIAgent.ManualSearchAIAgentConfigurationProperty =
-    CfnAIAgent.ManualSearchAIAgentConfigurationProperty.Builder().apply(initializer).build()
+public fun buildManualSearchAIAgentConfigurationProperty(initializer: @AwsCdkDsl CfnAIAgent.ManualSearchAIAgentConfigurationProperty.Builder.() -> Unit = {}): CfnAIAgent.ManualSearchAIAgentConfigurationProperty = CfnAIAgent.ManualSearchAIAgentConfigurationProperty.Builder().apply(initializer).build()

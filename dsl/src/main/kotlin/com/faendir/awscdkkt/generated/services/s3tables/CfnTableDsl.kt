@@ -16,5 +16,4 @@ public fun Construct.cfnTable(
 ): CfnTable = CfnTable(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTable(id: String, initializer: @AwsCdkDsl CfnTable.Builder.() -> Unit =
-    {}): CfnTable = CfnTable.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTable(id: String, initializer: @AwsCdkDsl CfnTable.Builder.() -> Unit = {}): CfnTable = CfnTable.Builder.create(this, id).apply(initializer).build()

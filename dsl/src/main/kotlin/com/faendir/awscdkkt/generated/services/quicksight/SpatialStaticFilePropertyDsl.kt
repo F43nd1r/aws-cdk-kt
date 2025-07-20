@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
-public fun buildSpatialStaticFileProperty(initializer: @AwsCdkDsl
-    CfnDashboard.SpatialStaticFileProperty.Builder.() -> Unit = {}):
-    CfnDashboard.SpatialStaticFileProperty =
-    CfnDashboard.SpatialStaticFileProperty.Builder().apply(initializer).build()
+public fun buildSpatialStaticFileProperty(initializer: @AwsCdkDsl CfnDashboard.SpatialStaticFileProperty.Builder.() -> Unit = {}): CfnDashboard.SpatialStaticFileProperty = CfnDashboard.SpatialStaticFileProperty.Builder().apply(initializer).build()

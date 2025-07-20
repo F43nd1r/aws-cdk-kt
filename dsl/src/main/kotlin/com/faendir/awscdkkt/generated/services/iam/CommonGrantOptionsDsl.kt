@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.CommonGrantOptions
 
 @Generated
-public fun buildCommonGrantOptions(initializer: @AwsCdkDsl CommonGrantOptions.Builder.() -> Unit =
-    {}): CommonGrantOptions = CommonGrantOptions.Builder().apply(initializer).build()
+public fun buildCommonGrantOptions(initializer: @AwsCdkDsl CommonGrantOptions.Builder.() -> Unit = {}): CommonGrantOptions = CommonGrantOptions.Builder().apply(initializer).build()

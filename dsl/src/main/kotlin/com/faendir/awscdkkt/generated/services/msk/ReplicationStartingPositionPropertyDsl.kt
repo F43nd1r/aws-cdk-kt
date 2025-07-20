@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.msk.CfnReplicator
 
 @Generated
-public fun buildReplicationStartingPositionProperty(initializer: @AwsCdkDsl
-    CfnReplicator.ReplicationStartingPositionProperty.Builder.() -> Unit = {}):
-    CfnReplicator.ReplicationStartingPositionProperty =
-    CfnReplicator.ReplicationStartingPositionProperty.Builder().apply(initializer).build()
+public fun buildReplicationStartingPositionProperty(initializer: @AwsCdkDsl CfnReplicator.ReplicationStartingPositionProperty.Builder.() -> Unit = {}): CfnReplicator.ReplicationStartingPositionProperty = CfnReplicator.ReplicationStartingPositionProperty.Builder().apply(initializer).build()

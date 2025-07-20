@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnModelBiasJobDefinitionProps
 
 @Generated
-public fun buildCfnModelBiasJobDefinitionProps(initializer: @AwsCdkDsl
-    CfnModelBiasJobDefinitionProps.Builder.() -> Unit = {}): CfnModelBiasJobDefinitionProps =
-    CfnModelBiasJobDefinitionProps.Builder().apply(initializer).build()
+public fun buildCfnModelBiasJobDefinitionProps(initializer: @AwsCdkDsl CfnModelBiasJobDefinitionProps.Builder.() -> Unit = {}): CfnModelBiasJobDefinitionProps = CfnModelBiasJobDefinitionProps.Builder().apply(initializer).build()

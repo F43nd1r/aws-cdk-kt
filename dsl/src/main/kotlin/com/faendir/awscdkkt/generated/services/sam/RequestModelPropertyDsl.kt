@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
-public fun buildRequestModelProperty(initializer: @AwsCdkDsl
-    CfnFunction.RequestModelProperty.Builder.() -> Unit = {}): CfnFunction.RequestModelProperty =
-    CfnFunction.RequestModelProperty.Builder().apply(initializer).build()
+public fun buildRequestModelProperty(initializer: @AwsCdkDsl CfnFunction.RequestModelProperty.Builder.() -> Unit = {}): CfnFunction.RequestModelProperty = CfnFunction.RequestModelProperty.Builder().apply(initializer).build()

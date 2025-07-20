@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.GrantPolicyWithResourceOptions
 
 @Generated
-public fun buildGrantPolicyWithResourceOptions(initializer: @AwsCdkDsl
-    GrantPolicyWithResourceOptions.Builder.() -> Unit = {}): GrantPolicyWithResourceOptions =
-    GrantPolicyWithResourceOptions.Builder().apply(initializer).build()
+public fun buildGrantPolicyWithResourceOptions(initializer: @AwsCdkDsl GrantPolicyWithResourceOptions.Builder.() -> Unit = {}): GrantPolicyWithResourceOptions = GrantPolicyWithResourceOptions.Builder().apply(initializer).build()

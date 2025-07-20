@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.TcpTimeout
 
 @Generated
-public fun buildTcpTimeout(initializer: @AwsCdkDsl TcpTimeout.Builder.() -> Unit = {}): TcpTimeout =
-    TcpTimeout.Builder().apply(initializer).build()
+public fun buildTcpTimeout(initializer: @AwsCdkDsl TcpTimeout.Builder.() -> Unit = {}): TcpTimeout = TcpTimeout.Builder().apply(initializer).build()

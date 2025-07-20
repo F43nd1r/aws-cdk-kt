@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnDistribution
 
 @Generated
-public fun buildRestrictionsProperty(initializer: @AwsCdkDsl
-    CfnDistribution.RestrictionsProperty.Builder.() -> Unit = {}):
-    CfnDistribution.RestrictionsProperty =
-    CfnDistribution.RestrictionsProperty.Builder().apply(initializer).build()
+public fun buildRestrictionsProperty(initializer: @AwsCdkDsl CfnDistribution.RestrictionsProperty.Builder.() -> Unit = {}): CfnDistribution.RestrictionsProperty = CfnDistribution.RestrictionsProperty.Builder().apply(initializer).build()

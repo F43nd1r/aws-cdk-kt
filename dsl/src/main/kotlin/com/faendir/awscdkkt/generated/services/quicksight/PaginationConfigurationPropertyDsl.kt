@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildPaginationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PaginationConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.PaginationConfigurationProperty =
-    CfnTemplate.PaginationConfigurationProperty.Builder().apply(initializer).build()
+public fun buildPaginationConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.PaginationConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.PaginationConfigurationProperty = CfnTemplate.PaginationConfigurationProperty.Builder().apply(initializer).build()

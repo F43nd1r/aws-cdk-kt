@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnSpace
 
 @Generated
-public fun buildFSxLustreFileSystemProperty(initializer: @AwsCdkDsl
-    CfnSpace.FSxLustreFileSystemProperty.Builder.() -> Unit = {}):
-    CfnSpace.FSxLustreFileSystemProperty =
-    CfnSpace.FSxLustreFileSystemProperty.Builder().apply(initializer).build()
+public fun buildFSxLustreFileSystemProperty(initializer: @AwsCdkDsl CfnSpace.FSxLustreFileSystemProperty.Builder.() -> Unit = {}): CfnSpace.FSxLustreFileSystemProperty = CfnSpace.FSxLustreFileSystemProperty.Builder().apply(initializer).build()

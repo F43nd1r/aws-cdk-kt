@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.VpcEndpointServiceDomainNameProps
 
 @Generated
-public fun buildVpcEndpointServiceDomainNameProps(initializer: @AwsCdkDsl
-    VpcEndpointServiceDomainNameProps.Builder.() -> Unit = {}): VpcEndpointServiceDomainNameProps =
-    VpcEndpointServiceDomainNameProps.Builder().apply(initializer).build()
+public fun buildVpcEndpointServiceDomainNameProps(initializer: @AwsCdkDsl VpcEndpointServiceDomainNameProps.Builder.() -> Unit = {}): VpcEndpointServiceDomainNameProps = VpcEndpointServiceDomainNameProps.Builder().apply(initializer).build()

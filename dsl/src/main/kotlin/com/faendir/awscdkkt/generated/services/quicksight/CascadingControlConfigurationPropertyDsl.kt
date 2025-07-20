@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildCascadingControlConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.CascadingControlConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.CascadingControlConfigurationProperty =
-    CfnTemplate.CascadingControlConfigurationProperty.Builder().apply(initializer).build()
+public fun buildCascadingControlConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.CascadingControlConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.CascadingControlConfigurationProperty = CfnTemplate.CascadingControlConfigurationProperty.Builder().apply(initializer).build()

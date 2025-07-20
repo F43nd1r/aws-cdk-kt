@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.OracleSe2CdbInstanceEngineProps
 
 @Generated
-public fun buildOracleSe2CdbInstanceEngineProps(initializer: @AwsCdkDsl
-    OracleSe2CdbInstanceEngineProps.Builder.() -> Unit = {}): OracleSe2CdbInstanceEngineProps =
-    OracleSe2CdbInstanceEngineProps.Builder().apply(initializer).build()
+public fun buildOracleSe2CdbInstanceEngineProps(initializer: @AwsCdkDsl OracleSe2CdbInstanceEngineProps.Builder.() -> Unit = {}): OracleSe2CdbInstanceEngineProps = OracleSe2CdbInstanceEngineProps.Builder().apply(initializer).build()

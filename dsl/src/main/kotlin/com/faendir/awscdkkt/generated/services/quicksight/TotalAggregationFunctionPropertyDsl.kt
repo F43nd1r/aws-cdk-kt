@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildTotalAggregationFunctionProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TotalAggregationFunctionProperty.Builder.() -> Unit = {}):
-    CfnTemplate.TotalAggregationFunctionProperty =
-    CfnTemplate.TotalAggregationFunctionProperty.Builder().apply(initializer).build()
+public fun buildTotalAggregationFunctionProperty(initializer: @AwsCdkDsl CfnTemplate.TotalAggregationFunctionProperty.Builder.() -> Unit = {}): CfnTemplate.TotalAggregationFunctionProperty = CfnTemplate.TotalAggregationFunctionProperty.Builder().apply(initializer).build()

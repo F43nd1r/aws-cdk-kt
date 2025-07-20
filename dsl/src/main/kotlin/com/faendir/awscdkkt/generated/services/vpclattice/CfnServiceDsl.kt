@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.vpclattice.CfnServiceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnService(id: String, initializer: @AwsCdkDsl CfnService.() -> Unit = {}):
-    CfnService = CfnService(this, id).apply(initializer)
+public fun Construct.cfnService(id: String, initializer: @AwsCdkDsl CfnService.() -> Unit = {}): CfnService = CfnService(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnService(
@@ -20,6 +19,4 @@ public fun Construct.cfnService(
 ): CfnService = CfnService(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnService(id: String, initializer: @AwsCdkDsl
-    CfnService.Builder.() -> Unit = {}): CfnService = CfnService.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnService(id: String, initializer: @AwsCdkDsl CfnService.Builder.() -> Unit = {}): CfnService = CfnService.Builder.create(this, id).apply(initializer).build()

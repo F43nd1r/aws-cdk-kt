@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnTable
 
 @Generated
-public fun buildOpenTableFormatInputProperty(initializer: @AwsCdkDsl
-    CfnTable.OpenTableFormatInputProperty.Builder.() -> Unit = {}):
-    CfnTable.OpenTableFormatInputProperty =
-    CfnTable.OpenTableFormatInputProperty.Builder().apply(initializer).build()
+public fun buildOpenTableFormatInputProperty(initializer: @AwsCdkDsl CfnTable.OpenTableFormatInputProperty.Builder.() -> Unit = {}): CfnTable.OpenTableFormatInputProperty = CfnTable.OpenTableFormatInputProperty.Builder().apply(initializer).build()

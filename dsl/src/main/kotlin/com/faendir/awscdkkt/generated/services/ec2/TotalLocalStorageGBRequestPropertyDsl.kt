@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnSpotFleet
 
 @Generated
-public fun buildTotalLocalStorageGBRequestProperty(initializer: @AwsCdkDsl
-    CfnSpotFleet.TotalLocalStorageGBRequestProperty.Builder.() -> Unit = {}):
-    CfnSpotFleet.TotalLocalStorageGBRequestProperty =
-    CfnSpotFleet.TotalLocalStorageGBRequestProperty.Builder().apply(initializer).build()
+public fun buildTotalLocalStorageGBRequestProperty(initializer: @AwsCdkDsl CfnSpotFleet.TotalLocalStorageGBRequestProperty.Builder.() -> Unit = {}): CfnSpotFleet.TotalLocalStorageGBRequestProperty = CfnSpotFleet.TotalLocalStorageGBRequestProperty.Builder().apply(initializer).build()

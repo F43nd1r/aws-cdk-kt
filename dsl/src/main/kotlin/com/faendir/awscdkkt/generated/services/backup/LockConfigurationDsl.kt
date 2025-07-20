@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.backup.LockConfiguration
 
 @Generated
-public fun buildLockConfiguration(initializer: @AwsCdkDsl LockConfiguration.Builder.() -> Unit =
-    {}): LockConfiguration = LockConfiguration.Builder().apply(initializer).build()
+public fun buildLockConfiguration(initializer: @AwsCdkDsl LockConfiguration.Builder.() -> Unit = {}): LockConfiguration = LockConfiguration.Builder().apply(initializer).build()

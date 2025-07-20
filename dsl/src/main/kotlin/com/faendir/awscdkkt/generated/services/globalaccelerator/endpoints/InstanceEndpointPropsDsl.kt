@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.globalaccelerator.endpoints.InstanceEndpointProps
 
 @Generated
-public fun buildInstanceEndpointProps(initializer: @AwsCdkDsl
-    InstanceEndpointProps.Builder.() -> Unit = {}): InstanceEndpointProps =
-    InstanceEndpointProps.Builder().apply(initializer).build()
+public fun buildInstanceEndpointProps(initializer: @AwsCdkDsl InstanceEndpointProps.Builder.() -> Unit = {}): InstanceEndpointProps = InstanceEndpointProps.Builder().apply(initializer).build()

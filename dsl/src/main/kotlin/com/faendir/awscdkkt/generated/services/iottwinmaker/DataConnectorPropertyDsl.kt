@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iottwinmaker.CfnComponentType
 
 @Generated
-public fun buildDataConnectorProperty(initializer: @AwsCdkDsl
-    CfnComponentType.DataConnectorProperty.Builder.() -> Unit = {}):
-    CfnComponentType.DataConnectorProperty =
-    CfnComponentType.DataConnectorProperty.Builder().apply(initializer).build()
+public fun buildDataConnectorProperty(initializer: @AwsCdkDsl CfnComponentType.DataConnectorProperty.Builder.() -> Unit = {}): CfnComponentType.DataConnectorProperty = CfnComponentType.DataConnectorProperty.Builder().apply(initializer).build()

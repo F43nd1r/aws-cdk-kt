@@ -16,5 +16,4 @@ public fun Construct.cfnTask(
 ): CfnTask = CfnTask(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTask(id: String, initializer: @AwsCdkDsl CfnTask.Builder.() -> Unit =
-    {}): CfnTask = CfnTask.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTask(id: String, initializer: @AwsCdkDsl CfnTask.Builder.() -> Unit = {}): CfnTask = CfnTask.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnMitigationAction
 
 @Generated
-public fun buildReplaceDefaultPolicyVersionParamsProperty(initializer: @AwsCdkDsl
-    CfnMitigationAction.ReplaceDefaultPolicyVersionParamsProperty.Builder.() -> Unit = {}):
-    CfnMitigationAction.ReplaceDefaultPolicyVersionParamsProperty =
-    CfnMitigationAction.ReplaceDefaultPolicyVersionParamsProperty.Builder().apply(initializer).build()
+public fun buildReplaceDefaultPolicyVersionParamsProperty(initializer: @AwsCdkDsl CfnMitigationAction.ReplaceDefaultPolicyVersionParamsProperty.Builder.() -> Unit = {}): CfnMitigationAction.ReplaceDefaultPolicyVersionParamsProperty = CfnMitigationAction.ReplaceDefaultPolicyVersionParamsProperty.Builder().apply(initializer).build()

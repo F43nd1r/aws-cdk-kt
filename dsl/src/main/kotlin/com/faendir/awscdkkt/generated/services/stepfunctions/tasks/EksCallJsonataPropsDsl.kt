@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EksCallJsonataProps
 
 @Generated
-public fun buildEksCallJsonataProps(initializer: @AwsCdkDsl EksCallJsonataProps.Builder.() -> Unit =
-    {}): EksCallJsonataProps = EksCallJsonataProps.Builder().apply(initializer).build()
+public fun buildEksCallJsonataProps(initializer: @AwsCdkDsl EksCallJsonataProps.Builder.() -> Unit = {}): EksCallJsonataProps = EksCallJsonataProps.Builder().apply(initializer).build()

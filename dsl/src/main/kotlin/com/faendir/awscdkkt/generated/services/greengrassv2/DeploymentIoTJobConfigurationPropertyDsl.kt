@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.greengrassv2.CfnDeployment
 
 @Generated
-public fun buildDeploymentIoTJobConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDeployment.DeploymentIoTJobConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDeployment.DeploymentIoTJobConfigurationProperty =
-    CfnDeployment.DeploymentIoTJobConfigurationProperty.Builder().apply(initializer).build()
+public fun buildDeploymentIoTJobConfigurationProperty(initializer: @AwsCdkDsl CfnDeployment.DeploymentIoTJobConfigurationProperty.Builder.() -> Unit = {}): CfnDeployment.DeploymentIoTJobConfigurationProperty = CfnDeployment.DeploymentIoTJobConfigurationProperty.Builder().apply(initializer).build()

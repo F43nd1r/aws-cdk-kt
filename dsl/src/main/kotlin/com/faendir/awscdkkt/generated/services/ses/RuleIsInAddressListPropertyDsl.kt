@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnMailManagerRuleSet
 
 @Generated
-public fun buildRuleIsInAddressListProperty(initializer: @AwsCdkDsl
-    CfnMailManagerRuleSet.RuleIsInAddressListProperty.Builder.() -> Unit = {}):
-    CfnMailManagerRuleSet.RuleIsInAddressListProperty =
-    CfnMailManagerRuleSet.RuleIsInAddressListProperty.Builder().apply(initializer).build()
+public fun buildRuleIsInAddressListProperty(initializer: @AwsCdkDsl CfnMailManagerRuleSet.RuleIsInAddressListProperty.Builder.() -> Unit = {}): CfnMailManagerRuleSet.RuleIsInAddressListProperty = CfnMailManagerRuleSet.RuleIsInAddressListProperty.Builder().apply(initializer).build()

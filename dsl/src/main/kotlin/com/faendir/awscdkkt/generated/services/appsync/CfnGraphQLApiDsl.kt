@@ -16,6 +16,4 @@ public fun Construct.cfnGraphQLApi(
 ): CfnGraphQLApi = CfnGraphQLApi(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnGraphQLApi(id: String, initializer: @AwsCdkDsl
-    CfnGraphQLApi.Builder.() -> Unit = {}): CfnGraphQLApi = CfnGraphQLApi.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnGraphQLApi(id: String, initializer: @AwsCdkDsl CfnGraphQLApi.Builder.() -> Unit = {}): CfnGraphQLApi = CfnGraphQLApi.Builder.create(this, id).apply(initializer).build()

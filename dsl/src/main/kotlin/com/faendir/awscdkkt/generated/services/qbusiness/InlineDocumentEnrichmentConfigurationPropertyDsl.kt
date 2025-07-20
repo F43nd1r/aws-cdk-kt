@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnDataSource
 
 @Generated
-public fun buildInlineDocumentEnrichmentConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.InlineDocumentEnrichmentConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDataSource.InlineDocumentEnrichmentConfigurationProperty =
-    CfnDataSource.InlineDocumentEnrichmentConfigurationProperty.Builder().apply(initializer).build()
+public fun buildInlineDocumentEnrichmentConfigurationProperty(initializer: @AwsCdkDsl CfnDataSource.InlineDocumentEnrichmentConfigurationProperty.Builder.() -> Unit = {}): CfnDataSource.InlineDocumentEnrichmentConfigurationProperty = CfnDataSource.InlineDocumentEnrichmentConfigurationProperty.Builder().apply(initializer).build()

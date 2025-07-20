@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appstream.CfnFleet
 
 @Generated
-public fun buildS3LocationProperty(initializer: @AwsCdkDsl
-    CfnFleet.S3LocationProperty.Builder.() -> Unit = {}): CfnFleet.S3LocationProperty =
-    CfnFleet.S3LocationProperty.Builder().apply(initializer).build()
+public fun buildS3LocationProperty(initializer: @AwsCdkDsl CfnFleet.S3LocationProperty.Builder.() -> Unit = {}): CfnFleet.S3LocationProperty = CfnFleet.S3LocationProperty.Builder().apply(initializer).build()

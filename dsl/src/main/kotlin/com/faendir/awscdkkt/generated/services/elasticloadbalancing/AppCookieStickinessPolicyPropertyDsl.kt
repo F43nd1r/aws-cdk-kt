@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancing.CfnLoadBalancer
 
 @Generated
-public fun buildAppCookieStickinessPolicyProperty(initializer: @AwsCdkDsl
-    CfnLoadBalancer.AppCookieStickinessPolicyProperty.Builder.() -> Unit = {}):
-    CfnLoadBalancer.AppCookieStickinessPolicyProperty =
-    CfnLoadBalancer.AppCookieStickinessPolicyProperty.Builder().apply(initializer).build()
+public fun buildAppCookieStickinessPolicyProperty(initializer: @AwsCdkDsl CfnLoadBalancer.AppCookieStickinessPolicyProperty.Builder.() -> Unit = {}): CfnLoadBalancer.AppCookieStickinessPolicyProperty = CfnLoadBalancer.AppCookieStickinessPolicyProperty.Builder().apply(initializer).build()

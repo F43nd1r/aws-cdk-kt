@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.guardduty.CfnMalwareProtectionPlan
 
 @Generated
-public fun buildCFNProtectedResourceProperty(initializer: @AwsCdkDsl
-    CfnMalwareProtectionPlan.CFNProtectedResourceProperty.Builder.() -> Unit = {}):
-    CfnMalwareProtectionPlan.CFNProtectedResourceProperty =
-    CfnMalwareProtectionPlan.CFNProtectedResourceProperty.Builder().apply(initializer).build()
+public fun buildCFNProtectedResourceProperty(initializer: @AwsCdkDsl CfnMalwareProtectionPlan.CFNProtectedResourceProperty.Builder.() -> Unit = {}): CfnMalwareProtectionPlan.CFNProtectedResourceProperty = CfnMalwareProtectionPlan.CFNProtectedResourceProperty.Builder().apply(initializer).build()

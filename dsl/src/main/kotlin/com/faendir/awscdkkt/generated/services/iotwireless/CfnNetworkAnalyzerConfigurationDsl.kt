@@ -13,10 +13,7 @@ public fun Construct.cfnNetworkAnalyzerConfiguration(
   id: String,
   props: CfnNetworkAnalyzerConfigurationProps,
   initializer: @AwsCdkDsl CfnNetworkAnalyzerConfiguration.() -> Unit = {},
-): CfnNetworkAnalyzerConfiguration = CfnNetworkAnalyzerConfiguration(this, id,
-    props).apply(initializer)
+): CfnNetworkAnalyzerConfiguration = CfnNetworkAnalyzerConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnNetworkAnalyzerConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnNetworkAnalyzerConfiguration.Builder.() -> Unit = {}): CfnNetworkAnalyzerConfiguration =
-    CfnNetworkAnalyzerConfiguration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnNetworkAnalyzerConfiguration(id: String, initializer: @AwsCdkDsl CfnNetworkAnalyzerConfiguration.Builder.() -> Unit = {}): CfnNetworkAnalyzerConfiguration = CfnNetworkAnalyzerConfiguration.Builder.create(this, id).apply(initializer).build()

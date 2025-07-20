@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticache.CfnGlobalReplicationGroup
 
 @Generated
-public fun buildReshardingConfigurationProperty(initializer: @AwsCdkDsl
-    CfnGlobalReplicationGroup.ReshardingConfigurationProperty.Builder.() -> Unit = {}):
-    CfnGlobalReplicationGroup.ReshardingConfigurationProperty =
-    CfnGlobalReplicationGroup.ReshardingConfigurationProperty.Builder().apply(initializer).build()
+public fun buildReshardingConfigurationProperty(initializer: @AwsCdkDsl CfnGlobalReplicationGroup.ReshardingConfigurationProperty.Builder.() -> Unit = {}): CfnGlobalReplicationGroup.ReshardingConfigurationProperty = CfnGlobalReplicationGroup.ReshardingConfigurationProperty.Builder().apply(initializer).build()

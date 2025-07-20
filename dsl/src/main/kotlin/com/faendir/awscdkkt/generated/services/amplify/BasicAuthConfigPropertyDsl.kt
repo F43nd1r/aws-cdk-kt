@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.amplify.CfnBranch
 
 @Generated
-public fun buildBasicAuthConfigProperty(initializer: @AwsCdkDsl
-    CfnBranch.BasicAuthConfigProperty.Builder.() -> Unit = {}): CfnBranch.BasicAuthConfigProperty =
-    CfnBranch.BasicAuthConfigProperty.Builder().apply(initializer).build()
+public fun buildBasicAuthConfigProperty(initializer: @AwsCdkDsl CfnBranch.BasicAuthConfigProperty.Builder.() -> Unit = {}): CfnBranch.BasicAuthConfigProperty = CfnBranch.BasicAuthConfigProperty.Builder().apply(initializer).build()

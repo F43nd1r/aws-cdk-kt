@@ -16,6 +16,4 @@ public fun Construct.singletonFunction(
 ): SingletonFunction = SingletonFunction(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildSingletonFunction(id: String, initializer: @AwsCdkDsl
-    SingletonFunction.Builder.() -> Unit = {}): SingletonFunction =
-    SingletonFunction.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildSingletonFunction(id: String, initializer: @AwsCdkDsl SingletonFunction.Builder.() -> Unit = {}): SingletonFunction = SingletonFunction.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.MapProps
 
 @Generated
-public fun buildMapProps(initializer: @AwsCdkDsl MapProps.Builder.() -> Unit = {}): MapProps =
-    MapProps.Builder().apply(initializer).build()
+public fun buildMapProps(initializer: @AwsCdkDsl MapProps.Builder.() -> Unit = {}): MapProps = MapProps.Builder().apply(initializer).build()

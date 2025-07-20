@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnCapacityReservation
 
 @Generated
-public fun buildCommitmentInfoProperty(initializer: @AwsCdkDsl
-    CfnCapacityReservation.CommitmentInfoProperty.Builder.() -> Unit = {}):
-    CfnCapacityReservation.CommitmentInfoProperty =
-    CfnCapacityReservation.CommitmentInfoProperty.Builder().apply(initializer).build()
+public fun buildCommitmentInfoProperty(initializer: @AwsCdkDsl CfnCapacityReservation.CommitmentInfoProperty.Builder.() -> Unit = {}): CfnCapacityReservation.CommitmentInfoProperty = CfnCapacityReservation.CommitmentInfoProperty.Builder().apply(initializer).build()

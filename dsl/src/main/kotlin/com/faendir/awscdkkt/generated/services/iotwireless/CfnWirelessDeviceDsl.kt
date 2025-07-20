@@ -16,6 +16,4 @@ public fun Construct.cfnWirelessDevice(
 ): CfnWirelessDevice = CfnWirelessDevice(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnWirelessDevice(id: String, initializer: @AwsCdkDsl
-    CfnWirelessDevice.Builder.() -> Unit = {}): CfnWirelessDevice =
-    CfnWirelessDevice.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnWirelessDevice(id: String, initializer: @AwsCdkDsl CfnWirelessDevice.Builder.() -> Unit = {}): CfnWirelessDevice = CfnWirelessDevice.Builder.create(this, id).apply(initializer).build()

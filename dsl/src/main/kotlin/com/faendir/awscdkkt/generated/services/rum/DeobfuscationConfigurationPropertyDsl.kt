@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rum.CfnAppMonitor
 
 @Generated
-public fun buildDeobfuscationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAppMonitor.DeobfuscationConfigurationProperty.Builder.() -> Unit = {}):
-    CfnAppMonitor.DeobfuscationConfigurationProperty =
-    CfnAppMonitor.DeobfuscationConfigurationProperty.Builder().apply(initializer).build()
+public fun buildDeobfuscationConfigurationProperty(initializer: @AwsCdkDsl CfnAppMonitor.DeobfuscationConfigurationProperty.Builder.() -> Unit = {}): CfnAppMonitor.DeobfuscationConfigurationProperty = CfnAppMonitor.DeobfuscationConfigurationProperty.Builder().apply(initializer).build()

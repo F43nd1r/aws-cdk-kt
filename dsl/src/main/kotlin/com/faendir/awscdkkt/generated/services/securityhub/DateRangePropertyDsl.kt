@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securityhub.CfnInsight
 
 @Generated
-public fun buildDateRangeProperty(initializer: @AwsCdkDsl
-    CfnInsight.DateRangeProperty.Builder.() -> Unit = {}): CfnInsight.DateRangeProperty =
-    CfnInsight.DateRangeProperty.Builder().apply(initializer).build()
+public fun buildDateRangeProperty(initializer: @AwsCdkDsl CfnInsight.DateRangeProperty.Builder.() -> Unit = {}): CfnInsight.DateRangeProperty = CfnInsight.DateRangeProperty.Builder().apply(initializer).build()

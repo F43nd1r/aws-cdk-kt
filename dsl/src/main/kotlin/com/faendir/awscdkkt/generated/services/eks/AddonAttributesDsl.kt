@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.AddonAttributes
 
 @Generated
-public fun buildAddonAttributes(initializer: @AwsCdkDsl AddonAttributes.Builder.() -> Unit = {}):
-    AddonAttributes = AddonAttributes.Builder().apply(initializer).build()
+public fun buildAddonAttributes(initializer: @AwsCdkDsl AddonAttributes.Builder.() -> Unit = {}): AddonAttributes = AddonAttributes.Builder().apply(initializer).build()

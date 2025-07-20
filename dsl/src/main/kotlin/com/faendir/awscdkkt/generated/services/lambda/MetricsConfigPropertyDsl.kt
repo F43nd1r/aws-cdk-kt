@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.CfnEventSourceMapping
 
 @Generated
-public fun buildMetricsConfigProperty(initializer: @AwsCdkDsl
-    CfnEventSourceMapping.MetricsConfigProperty.Builder.() -> Unit = {}):
-    CfnEventSourceMapping.MetricsConfigProperty =
-    CfnEventSourceMapping.MetricsConfigProperty.Builder().apply(initializer).build()
+public fun buildMetricsConfigProperty(initializer: @AwsCdkDsl CfnEventSourceMapping.MetricsConfigProperty.Builder.() -> Unit = {}): CfnEventSourceMapping.MetricsConfigProperty = CfnEventSourceMapping.MetricsConfigProperty.Builder().apply(initializer).build()

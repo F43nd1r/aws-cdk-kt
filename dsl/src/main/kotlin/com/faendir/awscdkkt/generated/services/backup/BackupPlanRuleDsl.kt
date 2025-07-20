@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.backup.BackupPlanRule
 
 @Generated
-public fun buildBackupPlanRule(initializer: @AwsCdkDsl BackupPlanRule.Builder.() -> Unit = {}):
-    BackupPlanRule = BackupPlanRule.Builder.create().apply(initializer).build()
+public fun buildBackupPlanRule(initializer: @AwsCdkDsl BackupPlanRule.Builder.() -> Unit = {}): BackupPlanRule = BackupPlanRule.Builder.create().apply(initializer).build()

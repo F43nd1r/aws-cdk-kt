@@ -13,10 +13,7 @@ public fun Construct.cfnOrganizationConformancePack(
   id: String,
   props: CfnOrganizationConformancePackProps,
   initializer: @AwsCdkDsl CfnOrganizationConformancePack.() -> Unit = {},
-): CfnOrganizationConformancePack = CfnOrganizationConformancePack(this, id,
-    props).apply(initializer)
+): CfnOrganizationConformancePack = CfnOrganizationConformancePack(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnOrganizationConformancePack(id: String, initializer: @AwsCdkDsl
-    CfnOrganizationConformancePack.Builder.() -> Unit = {}): CfnOrganizationConformancePack =
-    CfnOrganizationConformancePack.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnOrganizationConformancePack(id: String, initializer: @AwsCdkDsl CfnOrganizationConformancePack.Builder.() -> Unit = {}): CfnOrganizationConformancePack = CfnOrganizationConformancePack.Builder.create(this, id).apply(initializer).build()

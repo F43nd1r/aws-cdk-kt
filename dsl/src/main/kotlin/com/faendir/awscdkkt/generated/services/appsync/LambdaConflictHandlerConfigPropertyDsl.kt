@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.CfnResolver
 
 @Generated
-public fun buildLambdaConflictHandlerConfigProperty(initializer: @AwsCdkDsl
-    CfnResolver.LambdaConflictHandlerConfigProperty.Builder.() -> Unit = {}):
-    CfnResolver.LambdaConflictHandlerConfigProperty =
-    CfnResolver.LambdaConflictHandlerConfigProperty.Builder().apply(initializer).build()
+public fun buildLambdaConflictHandlerConfigProperty(initializer: @AwsCdkDsl CfnResolver.LambdaConflictHandlerConfigProperty.Builder.() -> Unit = {}): CfnResolver.LambdaConflictHandlerConfigProperty = CfnResolver.LambdaConflictHandlerConfigProperty.Builder().apply(initializer).build()

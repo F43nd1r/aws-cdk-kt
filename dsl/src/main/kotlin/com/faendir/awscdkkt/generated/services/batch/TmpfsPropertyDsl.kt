@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
-public fun buildTmpfsProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.TmpfsProperty.Builder.() -> Unit = {}): CfnJobDefinition.TmpfsProperty =
-    CfnJobDefinition.TmpfsProperty.Builder().apply(initializer).build()
+public fun buildTmpfsProperty(initializer: @AwsCdkDsl CfnJobDefinition.TmpfsProperty.Builder.() -> Unit = {}): CfnJobDefinition.TmpfsProperty = CfnJobDefinition.TmpfsProperty.Builder().apply(initializer).build()

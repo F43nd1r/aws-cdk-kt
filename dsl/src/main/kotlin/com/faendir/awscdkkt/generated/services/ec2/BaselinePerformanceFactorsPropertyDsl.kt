@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
-public fun buildBaselinePerformanceFactorsProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.BaselinePerformanceFactorsProperty.Builder.() -> Unit = {}):
-    CfnLaunchTemplate.BaselinePerformanceFactorsProperty =
-    CfnLaunchTemplate.BaselinePerformanceFactorsProperty.Builder().apply(initializer).build()
+public fun buildBaselinePerformanceFactorsProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.BaselinePerformanceFactorsProperty.Builder.() -> Unit = {}): CfnLaunchTemplate.BaselinePerformanceFactorsProperty = CfnLaunchTemplate.BaselinePerformanceFactorsProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildLegendOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.LegendOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.LegendOptionsProperty =
-    CfnTemplate.LegendOptionsProperty.Builder().apply(initializer).build()
+public fun buildLegendOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.LegendOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.LegendOptionsProperty = CfnTemplate.LegendOptionsProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssmcontacts.CfnPlanProps
 
 @Generated
-public fun buildCfnPlanProps(initializer: @AwsCdkDsl CfnPlanProps.Builder.() -> Unit = {}):
-    CfnPlanProps = CfnPlanProps.Builder().apply(initializer).build()
+public fun buildCfnPlanProps(initializer: @AwsCdkDsl CfnPlanProps.Builder.() -> Unit = {}): CfnPlanProps = CfnPlanProps.Builder().apply(initializer).build()

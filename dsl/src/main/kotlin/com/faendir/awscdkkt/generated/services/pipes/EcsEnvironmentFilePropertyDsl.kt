@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildEcsEnvironmentFileProperty(initializer: @AwsCdkDsl
-    CfnPipe.EcsEnvironmentFileProperty.Builder.() -> Unit = {}): CfnPipe.EcsEnvironmentFileProperty
-    = CfnPipe.EcsEnvironmentFileProperty.Builder().apply(initializer).build()
+public fun buildEcsEnvironmentFileProperty(initializer: @AwsCdkDsl CfnPipe.EcsEnvironmentFileProperty.Builder.() -> Unit = {}): CfnPipe.EcsEnvironmentFileProperty = CfnPipe.EcsEnvironmentFileProperty.Builder().apply(initializer).build()

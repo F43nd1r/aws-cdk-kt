@@ -16,6 +16,4 @@ public fun Construct.environment(
 ): Environment = Environment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEnvironment(id: String, initializer: @AwsCdkDsl
-    Environment.Builder.() -> Unit = {}): Environment = Environment.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildEnvironment(id: String, initializer: @AwsCdkDsl Environment.Builder.() -> Unit = {}): Environment = Environment.Builder.create(this, id).apply(initializer).build()

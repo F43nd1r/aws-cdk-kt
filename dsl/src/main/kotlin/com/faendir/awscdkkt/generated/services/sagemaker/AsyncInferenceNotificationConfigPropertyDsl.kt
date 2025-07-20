@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnEndpointConfig
 
 @Generated
-public fun buildAsyncInferenceNotificationConfigProperty(initializer: @AwsCdkDsl
-    CfnEndpointConfig.AsyncInferenceNotificationConfigProperty.Builder.() -> Unit = {}):
-    CfnEndpointConfig.AsyncInferenceNotificationConfigProperty =
-    CfnEndpointConfig.AsyncInferenceNotificationConfigProperty.Builder().apply(initializer).build()
+public fun buildAsyncInferenceNotificationConfigProperty(initializer: @AwsCdkDsl CfnEndpointConfig.AsyncInferenceNotificationConfigProperty.Builder.() -> Unit = {}): CfnEndpointConfig.AsyncInferenceNotificationConfigProperty = CfnEndpointConfig.AsyncInferenceNotificationConfigProperty.Builder().apply(initializer).build()

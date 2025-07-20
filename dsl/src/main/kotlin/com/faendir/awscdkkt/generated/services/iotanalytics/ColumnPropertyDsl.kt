@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotanalytics.CfnDatastore
 
 @Generated
-public fun buildColumnProperty(initializer: @AwsCdkDsl
-    CfnDatastore.ColumnProperty.Builder.() -> Unit = {}): CfnDatastore.ColumnProperty =
-    CfnDatastore.ColumnProperty.Builder().apply(initializer).build()
+public fun buildColumnProperty(initializer: @AwsCdkDsl CfnDatastore.ColumnProperty.Builder.() -> Unit = {}): CfnDatastore.ColumnProperty = CfnDatastore.ColumnProperty.Builder().apply(initializer).build()

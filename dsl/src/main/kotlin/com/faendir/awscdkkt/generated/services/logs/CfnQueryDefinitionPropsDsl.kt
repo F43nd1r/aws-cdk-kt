@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnQueryDefinitionProps
 
 @Generated
-public fun buildCfnQueryDefinitionProps(initializer: @AwsCdkDsl
-    CfnQueryDefinitionProps.Builder.() -> Unit = {}): CfnQueryDefinitionProps =
-    CfnQueryDefinitionProps.Builder().apply(initializer).build()
+public fun buildCfnQueryDefinitionProps(initializer: @AwsCdkDsl CfnQueryDefinitionProps.Builder.() -> Unit = {}): CfnQueryDefinitionProps = CfnQueryDefinitionProps.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnNetworkProfile(
 ): CfnNetworkProfile = CfnNetworkProfile(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnNetworkProfile(id: String, initializer: @AwsCdkDsl
-    CfnNetworkProfile.Builder.() -> Unit = {}): CfnNetworkProfile =
-    CfnNetworkProfile.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnNetworkProfile(id: String, initializer: @AwsCdkDsl CfnNetworkProfile.Builder.() -> Unit = {}): CfnNetworkProfile = CfnNetworkProfile.Builder.create(this, id).apply(initializer).build()

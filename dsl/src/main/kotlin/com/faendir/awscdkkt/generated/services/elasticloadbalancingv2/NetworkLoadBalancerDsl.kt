@@ -16,6 +16,4 @@ public fun Construct.networkLoadBalancer(
 ): NetworkLoadBalancer = NetworkLoadBalancer(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildNetworkLoadBalancer(id: String, initializer: @AwsCdkDsl
-    NetworkLoadBalancer.Builder.() -> Unit = {}): NetworkLoadBalancer =
-    NetworkLoadBalancer.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildNetworkLoadBalancer(id: String, initializer: @AwsCdkDsl NetworkLoadBalancer.Builder.() -> Unit = {}): NetworkLoadBalancer = NetworkLoadBalancer.Builder.create(this, id).apply(initializer).build()

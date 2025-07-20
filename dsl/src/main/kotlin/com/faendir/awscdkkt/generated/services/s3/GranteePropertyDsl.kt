@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnAccessGrant
 
 @Generated
-public fun buildGranteeProperty(initializer: @AwsCdkDsl
-    CfnAccessGrant.GranteeProperty.Builder.() -> Unit = {}): CfnAccessGrant.GranteeProperty =
-    CfnAccessGrant.GranteeProperty.Builder().apply(initializer).build()
+public fun buildGranteeProperty(initializer: @AwsCdkDsl CfnAccessGrant.GranteeProperty.Builder.() -> Unit = {}): CfnAccessGrant.GranteeProperty = CfnAccessGrant.GranteeProperty.Builder().apply(initializer).build()

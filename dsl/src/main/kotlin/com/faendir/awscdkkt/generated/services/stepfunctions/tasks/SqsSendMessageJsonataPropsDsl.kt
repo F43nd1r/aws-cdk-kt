@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.SqsSendMessageJsonataProps
 
 @Generated
-public fun buildSqsSendMessageJsonataProps(initializer: @AwsCdkDsl
-    SqsSendMessageJsonataProps.Builder.() -> Unit = {}): SqsSendMessageJsonataProps =
-    SqsSendMessageJsonataProps.Builder().apply(initializer).build()
+public fun buildSqsSendMessageJsonataProps(initializer: @AwsCdkDsl SqsSendMessageJsonataProps.Builder.() -> Unit = {}): SqsSendMessageJsonataProps = SqsSendMessageJsonataProps.Builder().apply(initializer).build()

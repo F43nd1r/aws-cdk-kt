@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnManagedLoginBrandingProps
 
 @Generated
-public fun buildCfnManagedLoginBrandingProps(initializer: @AwsCdkDsl
-    CfnManagedLoginBrandingProps.Builder.() -> Unit = {}): CfnManagedLoginBrandingProps =
-    CfnManagedLoginBrandingProps.Builder().apply(initializer).build()
+public fun buildCfnManagedLoginBrandingProps(initializer: @AwsCdkDsl CfnManagedLoginBrandingProps.Builder.() -> Unit = {}): CfnManagedLoginBrandingProps = CfnManagedLoginBrandingProps.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnRobotApplication(
 ): CfnRobotApplication = CfnRobotApplication(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRobotApplication(id: String, initializer: @AwsCdkDsl
-    CfnRobotApplication.Builder.() -> Unit = {}): CfnRobotApplication =
-    CfnRobotApplication.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRobotApplication(id: String, initializer: @AwsCdkDsl CfnRobotApplication.Builder.() -> Unit = {}): CfnRobotApplication = CfnRobotApplication.Builder.create(this, id).apply(initializer).build()

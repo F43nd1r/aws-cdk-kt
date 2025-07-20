@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.billingconductor.CfnPricingRuleProps
 
 @Generated
-public fun buildCfnPricingRuleProps(initializer: @AwsCdkDsl CfnPricingRuleProps.Builder.() -> Unit =
-    {}): CfnPricingRuleProps = CfnPricingRuleProps.Builder().apply(initializer).build()
+public fun buildCfnPricingRuleProps(initializer: @AwsCdkDsl CfnPricingRuleProps.Builder.() -> Unit = {}): CfnPricingRuleProps = CfnPricingRuleProps.Builder().apply(initializer).build()

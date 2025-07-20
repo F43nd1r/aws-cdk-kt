@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.AddCapacityOptions
 
 @Generated
-public fun buildAddCapacityOptions(initializer: @AwsCdkDsl AddCapacityOptions.Builder.() -> Unit =
-    {}): AddCapacityOptions = AddCapacityOptions.Builder().apply(initializer).build()
+public fun buildAddCapacityOptions(initializer: @AwsCdkDsl AddCapacityOptions.Builder.() -> Unit = {}): AddCapacityOptions = AddCapacityOptions.Builder().apply(initializer).build()

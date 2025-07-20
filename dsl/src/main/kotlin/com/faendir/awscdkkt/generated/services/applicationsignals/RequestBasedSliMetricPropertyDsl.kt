@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.applicationsignals.CfnServiceLevelObjective
 
 @Generated
-public fun buildRequestBasedSliMetricProperty(initializer: @AwsCdkDsl
-    CfnServiceLevelObjective.RequestBasedSliMetricProperty.Builder.() -> Unit = {}):
-    CfnServiceLevelObjective.RequestBasedSliMetricProperty =
-    CfnServiceLevelObjective.RequestBasedSliMetricProperty.Builder().apply(initializer).build()
+public fun buildRequestBasedSliMetricProperty(initializer: @AwsCdkDsl CfnServiceLevelObjective.RequestBasedSliMetricProperty.Builder.() -> Unit = {}): CfnServiceLevelObjective.RequestBasedSliMetricProperty = CfnServiceLevelObjective.RequestBasedSliMetricProperty.Builder().apply(initializer).build()

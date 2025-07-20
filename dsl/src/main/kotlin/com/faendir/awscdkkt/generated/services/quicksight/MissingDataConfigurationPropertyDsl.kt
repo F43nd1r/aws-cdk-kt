@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildMissingDataConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.MissingDataConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.MissingDataConfigurationProperty =
-    CfnTemplate.MissingDataConfigurationProperty.Builder().apply(initializer).build()
+public fun buildMissingDataConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.MissingDataConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.MissingDataConfigurationProperty = CfnTemplate.MissingDataConfigurationProperty.Builder().apply(initializer).build()

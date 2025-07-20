@@ -16,6 +16,4 @@ public fun Construct.cfnPackageGroup(
 ): CfnPackageGroup = CfnPackageGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPackageGroup(id: String, initializer: @AwsCdkDsl
-    CfnPackageGroup.Builder.() -> Unit = {}): CfnPackageGroup = CfnPackageGroup.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnPackageGroup(id: String, initializer: @AwsCdkDsl CfnPackageGroup.Builder.() -> Unit = {}): CfnPackageGroup = CfnPackageGroup.Builder.create(this, id).apply(initializer).build()

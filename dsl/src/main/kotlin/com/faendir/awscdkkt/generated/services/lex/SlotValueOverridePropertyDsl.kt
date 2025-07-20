@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildSlotValueOverrideProperty(initializer: @AwsCdkDsl
-    CfnBot.SlotValueOverrideProperty.Builder.() -> Unit = {}): CfnBot.SlotValueOverrideProperty =
-    CfnBot.SlotValueOverrideProperty.Builder().apply(initializer).build()
+public fun buildSlotValueOverrideProperty(initializer: @AwsCdkDsl CfnBot.SlotValueOverrideProperty.Builder.() -> Unit = {}): CfnBot.SlotValueOverrideProperty = CfnBot.SlotValueOverrideProperty.Builder().apply(initializer).build()

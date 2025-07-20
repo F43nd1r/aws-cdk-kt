@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediapackagev2.CfnChannelPolicyProps
 
 @Generated
-public fun buildCfnChannelPolicyProps(initializer: @AwsCdkDsl
-    CfnChannelPolicyProps.Builder.() -> Unit = {}): CfnChannelPolicyProps =
-    CfnChannelPolicyProps.Builder().apply(initializer).build()
+public fun buildCfnChannelPolicyProps(initializer: @AwsCdkDsl CfnChannelPolicyProps.Builder.() -> Unit = {}): CfnChannelPolicyProps = CfnChannelPolicyProps.Builder().apply(initializer).build()

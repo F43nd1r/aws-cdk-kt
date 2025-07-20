@@ -16,6 +16,4 @@ public fun Construct.cfnUserPoolResourceServer(
 ): CfnUserPoolResourceServer = CfnUserPoolResourceServer(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnUserPoolResourceServer(id: String, initializer: @AwsCdkDsl
-    CfnUserPoolResourceServer.Builder.() -> Unit = {}): CfnUserPoolResourceServer =
-    CfnUserPoolResourceServer.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnUserPoolResourceServer(id: String, initializer: @AwsCdkDsl CfnUserPoolResourceServer.Builder.() -> Unit = {}): CfnUserPoolResourceServer = CfnUserPoolResourceServer.Builder.create(this, id).apply(initializer).build()

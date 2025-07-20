@@ -16,6 +16,4 @@ public fun Construct.managedRule(
 ): ManagedRule = ManagedRule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildManagedRule(id: String, initializer: @AwsCdkDsl
-    ManagedRule.Builder.() -> Unit = {}): ManagedRule = ManagedRule.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildManagedRule(id: String, initializer: @AwsCdkDsl ManagedRule.Builder.() -> Unit = {}): ManagedRule = ManagedRule.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opensearchservice.NodeConfig
 
 @Generated
-public fun buildNodeConfig(initializer: @AwsCdkDsl NodeConfig.Builder.() -> Unit = {}): NodeConfig =
-    NodeConfig.Builder().apply(initializer).build()
+public fun buildNodeConfig(initializer: @AwsCdkDsl NodeConfig.Builder.() -> Unit = {}): NodeConfig = NodeConfig.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnMessageTemplate
 
 @Generated
-public fun buildAgentAttributesProperty(initializer: @AwsCdkDsl
-    CfnMessageTemplate.AgentAttributesProperty.Builder.() -> Unit = {}):
-    CfnMessageTemplate.AgentAttributesProperty =
-    CfnMessageTemplate.AgentAttributesProperty.Builder().apply(initializer).build()
+public fun buildAgentAttributesProperty(initializer: @AwsCdkDsl CfnMessageTemplate.AgentAttributesProperty.Builder.() -> Unit = {}): CfnMessageTemplate.AgentAttributesProperty = CfnMessageTemplate.AgentAttributesProperty.Builder().apply(initializer).build()

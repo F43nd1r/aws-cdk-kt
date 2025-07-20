@@ -16,6 +16,4 @@ public fun Construct.cfnMessageTemplate(
 ): CfnMessageTemplate = CfnMessageTemplate(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMessageTemplate(id: String, initializer: @AwsCdkDsl
-    CfnMessageTemplate.Builder.() -> Unit = {}): CfnMessageTemplate =
-    CfnMessageTemplate.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMessageTemplate(id: String, initializer: @AwsCdkDsl CfnMessageTemplate.Builder.() -> Unit = {}): CfnMessageTemplate = CfnMessageTemplate.Builder.create(this, id).apply(initializer).build()

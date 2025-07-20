@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnPromptVersion
 
 @Generated
-public fun buildPromptTemplateConfigurationProperty(initializer: @AwsCdkDsl
-    CfnPromptVersion.PromptTemplateConfigurationProperty.Builder.() -> Unit = {}):
-    CfnPromptVersion.PromptTemplateConfigurationProperty =
-    CfnPromptVersion.PromptTemplateConfigurationProperty.Builder().apply(initializer).build()
+public fun buildPromptTemplateConfigurationProperty(initializer: @AwsCdkDsl CfnPromptVersion.PromptTemplateConfigurationProperty.Builder.() -> Unit = {}): CfnPromptVersion.PromptTemplateConfigurationProperty = CfnPromptVersion.PromptTemplateConfigurationProperty.Builder().apply(initializer).build()

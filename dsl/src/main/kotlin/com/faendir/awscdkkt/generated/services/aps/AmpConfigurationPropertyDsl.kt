@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.aps.CfnScraper
 
 @Generated
-public fun buildAmpConfigurationProperty(initializer: @AwsCdkDsl
-    CfnScraper.AmpConfigurationProperty.Builder.() -> Unit = {}):
-    CfnScraper.AmpConfigurationProperty =
-    CfnScraper.AmpConfigurationProperty.Builder().apply(initializer).build()
+public fun buildAmpConfigurationProperty(initializer: @AwsCdkDsl CfnScraper.AmpConfigurationProperty.Builder.() -> Unit = {}): CfnScraper.AmpConfigurationProperty = CfnScraper.AmpConfigurationProperty.Builder().apply(initializer).build()

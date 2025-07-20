@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildNumericFormatConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.NumericFormatConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.NumericFormatConfigurationProperty =
-    CfnTemplate.NumericFormatConfigurationProperty.Builder().apply(initializer).build()
+public fun buildNumericFormatConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.NumericFormatConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.NumericFormatConfigurationProperty = CfnTemplate.NumericFormatConfigurationProperty.Builder().apply(initializer).build()

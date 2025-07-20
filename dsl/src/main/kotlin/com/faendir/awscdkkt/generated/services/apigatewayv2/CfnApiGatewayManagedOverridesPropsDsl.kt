@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.CfnApiGatewayManagedOverridesProps
 
 @Generated
-public fun buildCfnApiGatewayManagedOverridesProps(initializer: @AwsCdkDsl
-    CfnApiGatewayManagedOverridesProps.Builder.() -> Unit = {}): CfnApiGatewayManagedOverridesProps
-    = CfnApiGatewayManagedOverridesProps.Builder().apply(initializer).build()
+public fun buildCfnApiGatewayManagedOverridesProps(initializer: @AwsCdkDsl CfnApiGatewayManagedOverridesProps.Builder.() -> Unit = {}): CfnApiGatewayManagedOverridesProps = CfnApiGatewayManagedOverridesProps.Builder().apply(initializer).build()

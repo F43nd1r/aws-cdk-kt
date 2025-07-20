@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrContainersCreateVirtualClusterProps
 
 @Generated
-public fun buildEmrContainersCreateVirtualClusterProps(initializer: @AwsCdkDsl
-    EmrContainersCreateVirtualClusterProps.Builder.() -> Unit = {}):
-    EmrContainersCreateVirtualClusterProps =
-    EmrContainersCreateVirtualClusterProps.Builder().apply(initializer).build()
+public fun buildEmrContainersCreateVirtualClusterProps(initializer: @AwsCdkDsl EmrContainersCreateVirtualClusterProps.Builder.() -> Unit = {}): EmrContainersCreateVirtualClusterProps = EmrContainersCreateVirtualClusterProps.Builder().apply(initializer).build()

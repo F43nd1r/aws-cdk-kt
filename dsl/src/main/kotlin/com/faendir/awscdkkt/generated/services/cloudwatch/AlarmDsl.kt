@@ -16,5 +16,4 @@ public fun Construct.alarm(
 ): Alarm = Alarm(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAlarm(id: String, initializer: @AwsCdkDsl Alarm.Builder.() -> Unit = {}):
-    Alarm = Alarm.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildAlarm(id: String, initializer: @AwsCdkDsl Alarm.Builder.() -> Unit = {}): Alarm = Alarm.Builder.create(this, id).apply(initializer).build()

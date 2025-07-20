@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.workspaces.CfnWorkspacesPool
 
 @Generated
-public fun buildApplicationSettingsProperty(initializer: @AwsCdkDsl
-    CfnWorkspacesPool.ApplicationSettingsProperty.Builder.() -> Unit = {}):
-    CfnWorkspacesPool.ApplicationSettingsProperty =
-    CfnWorkspacesPool.ApplicationSettingsProperty.Builder().apply(initializer).build()
+public fun buildApplicationSettingsProperty(initializer: @AwsCdkDsl CfnWorkspacesPool.ApplicationSettingsProperty.Builder.() -> Unit = {}): CfnWorkspacesPool.ApplicationSettingsProperty = CfnWorkspacesPool.ApplicationSettingsProperty.Builder().apply(initializer).build()

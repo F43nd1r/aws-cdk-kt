@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnService
 
 @Generated
-public fun buildServiceConnectTlsConfigurationProperty(initializer: @AwsCdkDsl
-    CfnService.ServiceConnectTlsConfigurationProperty.Builder.() -> Unit = {}):
-    CfnService.ServiceConnectTlsConfigurationProperty =
-    CfnService.ServiceConnectTlsConfigurationProperty.Builder().apply(initializer).build()
+public fun buildServiceConnectTlsConfigurationProperty(initializer: @AwsCdkDsl CfnService.ServiceConnectTlsConfigurationProperty.Builder.() -> Unit = {}): CfnService.ServiceConnectTlsConfigurationProperty = CfnService.ServiceConnectTlsConfigurationProperty.Builder().apply(initializer).build()

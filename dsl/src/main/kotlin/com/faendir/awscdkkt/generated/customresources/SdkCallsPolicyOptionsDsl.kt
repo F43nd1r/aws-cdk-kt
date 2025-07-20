@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.customresources.SdkCallsPolicyOptions
 
 @Generated
-public fun buildSdkCallsPolicyOptions(initializer: @AwsCdkDsl
-    SdkCallsPolicyOptions.Builder.() -> Unit = {}): SdkCallsPolicyOptions =
-    SdkCallsPolicyOptions.Builder().apply(initializer).build()
+public fun buildSdkCallsPolicyOptions(initializer: @AwsCdkDsl SdkCallsPolicyOptions.Builder.() -> Unit = {}): SdkCallsPolicyOptions = SdkCallsPolicyOptions.Builder().apply(initializer).build()

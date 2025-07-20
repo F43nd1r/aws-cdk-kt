@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.databrew.CfnRecipe
 
 @Generated
-public fun buildRecipeParametersProperty(initializer: @AwsCdkDsl
-    CfnRecipe.RecipeParametersProperty.Builder.() -> Unit = {}): CfnRecipe.RecipeParametersProperty
-    = CfnRecipe.RecipeParametersProperty.Builder().apply(initializer).build()
+public fun buildRecipeParametersProperty(initializer: @AwsCdkDsl CfnRecipe.RecipeParametersProperty.Builder.() -> Unit = {}): CfnRecipe.RecipeParametersProperty = CfnRecipe.RecipeParametersProperty.Builder().apply(initializer).build()

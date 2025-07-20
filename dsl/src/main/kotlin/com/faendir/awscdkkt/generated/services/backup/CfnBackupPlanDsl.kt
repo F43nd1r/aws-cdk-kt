@@ -16,6 +16,4 @@ public fun Construct.cfnBackupPlan(
 ): CfnBackupPlan = CfnBackupPlan(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnBackupPlan(id: String, initializer: @AwsCdkDsl
-    CfnBackupPlan.Builder.() -> Unit = {}): CfnBackupPlan = CfnBackupPlan.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnBackupPlan(id: String, initializer: @AwsCdkDsl CfnBackupPlan.Builder.() -> Unit = {}): CfnBackupPlan = CfnBackupPlan.Builder.create(this, id).apply(initializer).build()

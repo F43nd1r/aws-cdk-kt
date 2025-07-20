@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnOwner
 
 @Generated
-public fun buildOwnerGroupPropertiesProperty(initializer: @AwsCdkDsl
-    CfnOwner.OwnerGroupPropertiesProperty.Builder.() -> Unit = {}):
-    CfnOwner.OwnerGroupPropertiesProperty =
-    CfnOwner.OwnerGroupPropertiesProperty.Builder().apply(initializer).build()
+public fun buildOwnerGroupPropertiesProperty(initializer: @AwsCdkDsl CfnOwner.OwnerGroupPropertiesProperty.Builder.() -> Unit = {}): CfnOwner.OwnerGroupPropertiesProperty = CfnOwner.OwnerGroupPropertiesProperty.Builder().apply(initializer).build()

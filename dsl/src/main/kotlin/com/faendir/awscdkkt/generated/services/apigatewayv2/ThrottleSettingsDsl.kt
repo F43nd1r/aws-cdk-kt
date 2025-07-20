@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.ThrottleSettings
 
 @Generated
-public fun buildThrottleSettings(initializer: @AwsCdkDsl ThrottleSettings.Builder.() -> Unit = {}):
-    ThrottleSettings = ThrottleSettings.Builder().apply(initializer).build()
+public fun buildThrottleSettings(initializer: @AwsCdkDsl ThrottleSettings.Builder.() -> Unit = {}): ThrottleSettings = ThrottleSettings.Builder().apply(initializer).build()

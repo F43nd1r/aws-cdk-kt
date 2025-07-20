@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnInferenceComponent
 
 @Generated
-public fun buildAutoRollbackConfigurationProperty(initializer: @AwsCdkDsl
-    CfnInferenceComponent.AutoRollbackConfigurationProperty.Builder.() -> Unit = {}):
-    CfnInferenceComponent.AutoRollbackConfigurationProperty =
-    CfnInferenceComponent.AutoRollbackConfigurationProperty.Builder().apply(initializer).build()
+public fun buildAutoRollbackConfigurationProperty(initializer: @AwsCdkDsl CfnInferenceComponent.AutoRollbackConfigurationProperty.Builder.() -> Unit = {}): CfnInferenceComponent.AutoRollbackConfigurationProperty = CfnInferenceComponent.AutoRollbackConfigurationProperty.Builder().apply(initializer).build()

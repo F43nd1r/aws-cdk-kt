@@ -16,6 +16,4 @@ public fun Construct.cfnRateBasedRule(
 ): CfnRateBasedRule = CfnRateBasedRule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRateBasedRule(id: String, initializer: @AwsCdkDsl
-    CfnRateBasedRule.Builder.() -> Unit = {}): CfnRateBasedRule =
-    CfnRateBasedRule.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRateBasedRule(id: String, initializer: @AwsCdkDsl CfnRateBasedRule.Builder.() -> Unit = {}): CfnRateBasedRule = CfnRateBasedRule.Builder.create(this, id).apply(initializer).build()

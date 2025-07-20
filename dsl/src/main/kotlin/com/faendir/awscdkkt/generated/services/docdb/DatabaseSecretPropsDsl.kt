@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.docdb.DatabaseSecretProps
 
 @Generated
-public fun buildDatabaseSecretProps(initializer: @AwsCdkDsl DatabaseSecretProps.Builder.() -> Unit =
-    {}): DatabaseSecretProps = DatabaseSecretProps.Builder().apply(initializer).build()
+public fun buildDatabaseSecretProps(initializer: @AwsCdkDsl DatabaseSecretProps.Builder.() -> Unit = {}): DatabaseSecretProps = DatabaseSecretProps.Builder().apply(initializer).build()

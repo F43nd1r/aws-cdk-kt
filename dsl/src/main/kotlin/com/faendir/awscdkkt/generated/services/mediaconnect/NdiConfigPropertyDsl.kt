@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediaconnect.CfnFlow
 
 @Generated
-public fun buildNdiConfigProperty(initializer: @AwsCdkDsl
-    CfnFlow.NdiConfigProperty.Builder.() -> Unit = {}): CfnFlow.NdiConfigProperty =
-    CfnFlow.NdiConfigProperty.Builder().apply(initializer).build()
+public fun buildNdiConfigProperty(initializer: @AwsCdkDsl CfnFlow.NdiConfigProperty.Builder.() -> Unit = {}): CfnFlow.NdiConfigProperty = CfnFlow.NdiConfigProperty.Builder().apply(initializer).build()

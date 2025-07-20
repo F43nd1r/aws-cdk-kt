@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticbeanstalk.CfnApplication
 
 @Generated
-public fun buildApplicationResourceLifecycleConfigProperty(initializer: @AwsCdkDsl
-    CfnApplication.ApplicationResourceLifecycleConfigProperty.Builder.() -> Unit = {}):
-    CfnApplication.ApplicationResourceLifecycleConfigProperty =
-    CfnApplication.ApplicationResourceLifecycleConfigProperty.Builder().apply(initializer).build()
+public fun buildApplicationResourceLifecycleConfigProperty(initializer: @AwsCdkDsl CfnApplication.ApplicationResourceLifecycleConfigProperty.Builder.() -> Unit = {}): CfnApplication.ApplicationResourceLifecycleConfigProperty = CfnApplication.ApplicationResourceLifecycleConfigProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnUserPoolClient
 
 @Generated
-public fun buildRefreshTokenRotationProperty(initializer: @AwsCdkDsl
-    CfnUserPoolClient.RefreshTokenRotationProperty.Builder.() -> Unit = {}):
-    CfnUserPoolClient.RefreshTokenRotationProperty =
-    CfnUserPoolClient.RefreshTokenRotationProperty.Builder().apply(initializer).build()
+public fun buildRefreshTokenRotationProperty(initializer: @AwsCdkDsl CfnUserPoolClient.RefreshTokenRotationProperty.Builder.() -> Unit = {}): CfnUserPoolClient.RefreshTokenRotationProperty = CfnUserPoolClient.RefreshTokenRotationProperty.Builder().apply(initializer).build()

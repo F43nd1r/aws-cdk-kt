@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.timestream.CfnScheduledQuery
 
 @Generated
-public fun buildMultiMeasureMappingsProperty(initializer: @AwsCdkDsl
-    CfnScheduledQuery.MultiMeasureMappingsProperty.Builder.() -> Unit = {}):
-    CfnScheduledQuery.MultiMeasureMappingsProperty =
-    CfnScheduledQuery.MultiMeasureMappingsProperty.Builder().apply(initializer).build()
+public fun buildMultiMeasureMappingsProperty(initializer: @AwsCdkDsl CfnScheduledQuery.MultiMeasureMappingsProperty.Builder.() -> Unit = {}): CfnScheduledQuery.MultiMeasureMappingsProperty = CfnScheduledQuery.MultiMeasureMappingsProperty.Builder().apply(initializer).build()

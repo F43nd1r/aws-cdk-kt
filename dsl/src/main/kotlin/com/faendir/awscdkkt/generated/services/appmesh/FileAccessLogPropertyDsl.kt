@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnVirtualNode
 
 @Generated
-public fun buildFileAccessLogProperty(initializer: @AwsCdkDsl
-    CfnVirtualNode.FileAccessLogProperty.Builder.() -> Unit = {}):
-    CfnVirtualNode.FileAccessLogProperty =
-    CfnVirtualNode.FileAccessLogProperty.Builder().apply(initializer).build()
+public fun buildFileAccessLogProperty(initializer: @AwsCdkDsl CfnVirtualNode.FileAccessLogProperty.Builder.() -> Unit = {}): CfnVirtualNode.FileAccessLogProperty = CfnVirtualNode.FileAccessLogProperty.Builder().apply(initializer).build()

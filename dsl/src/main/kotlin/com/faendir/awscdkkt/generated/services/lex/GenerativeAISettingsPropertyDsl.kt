@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildGenerativeAISettingsProperty(initializer: @AwsCdkDsl
-    CfnBot.GenerativeAISettingsProperty.Builder.() -> Unit = {}):
-    CfnBot.GenerativeAISettingsProperty =
-    CfnBot.GenerativeAISettingsProperty.Builder().apply(initializer).build()
+public fun buildGenerativeAISettingsProperty(initializer: @AwsCdkDsl CfnBot.GenerativeAISettingsProperty.Builder.() -> Unit = {}): CfnBot.GenerativeAISettingsProperty = CfnBot.GenerativeAISettingsProperty.Builder().apply(initializer).build()

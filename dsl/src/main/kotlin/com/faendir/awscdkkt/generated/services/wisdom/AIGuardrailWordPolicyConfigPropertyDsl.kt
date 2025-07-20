@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnAIGuardrail
 
 @Generated
-public fun buildAIGuardrailWordPolicyConfigProperty(initializer: @AwsCdkDsl
-    CfnAIGuardrail.AIGuardrailWordPolicyConfigProperty.Builder.() -> Unit = {}):
-    CfnAIGuardrail.AIGuardrailWordPolicyConfigProperty =
-    CfnAIGuardrail.AIGuardrailWordPolicyConfigProperty.Builder().apply(initializer).build()
+public fun buildAIGuardrailWordPolicyConfigProperty(initializer: @AwsCdkDsl CfnAIGuardrail.AIGuardrailWordPolicyConfigProperty.Builder.() -> Unit = {}): CfnAIGuardrail.AIGuardrailWordPolicyConfigProperty = CfnAIGuardrail.AIGuardrailWordPolicyConfigProperty.Builder().apply(initializer).build()

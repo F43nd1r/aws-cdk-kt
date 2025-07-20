@@ -16,6 +16,4 @@ public fun Construct.cfnAttributeGroupAssociation(
 ): CfnAttributeGroupAssociation = CfnAttributeGroupAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAttributeGroupAssociation(id: String, initializer: @AwsCdkDsl
-    CfnAttributeGroupAssociation.Builder.() -> Unit = {}): CfnAttributeGroupAssociation =
-    CfnAttributeGroupAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAttributeGroupAssociation(id: String, initializer: @AwsCdkDsl CfnAttributeGroupAssociation.Builder.() -> Unit = {}): CfnAttributeGroupAssociation = CfnAttributeGroupAssociation.Builder.create(this, id).apply(initializer).build()

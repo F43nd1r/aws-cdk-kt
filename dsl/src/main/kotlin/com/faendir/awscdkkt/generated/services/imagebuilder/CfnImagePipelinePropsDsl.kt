@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.imagebuilder.CfnImagePipelineProps
 
 @Generated
-public fun buildCfnImagePipelineProps(initializer: @AwsCdkDsl
-    CfnImagePipelineProps.Builder.() -> Unit = {}): CfnImagePipelineProps =
-    CfnImagePipelineProps.Builder().apply(initializer).build()
+public fun buildCfnImagePipelineProps(initializer: @AwsCdkDsl CfnImagePipelineProps.Builder.() -> Unit = {}): CfnImagePipelineProps = CfnImagePipelineProps.Builder().apply(initializer).build()

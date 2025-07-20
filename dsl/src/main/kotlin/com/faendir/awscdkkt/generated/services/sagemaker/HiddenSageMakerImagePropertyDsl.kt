@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnUserProfile
 
 @Generated
-public fun buildHiddenSageMakerImageProperty(initializer: @AwsCdkDsl
-    CfnUserProfile.HiddenSageMakerImageProperty.Builder.() -> Unit = {}):
-    CfnUserProfile.HiddenSageMakerImageProperty =
-    CfnUserProfile.HiddenSageMakerImageProperty.Builder().apply(initializer).build()
+public fun buildHiddenSageMakerImageProperty(initializer: @AwsCdkDsl CfnUserProfile.HiddenSageMakerImageProperty.Builder.() -> Unit = {}): CfnUserProfile.HiddenSageMakerImageProperty = CfnUserProfile.HiddenSageMakerImageProperty.Builder().apply(initializer).build()

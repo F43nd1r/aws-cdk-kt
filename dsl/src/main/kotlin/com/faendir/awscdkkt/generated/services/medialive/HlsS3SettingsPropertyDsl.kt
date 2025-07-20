@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildHlsS3SettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.HlsS3SettingsProperty.Builder.() -> Unit = {}): CfnChannel.HlsS3SettingsProperty =
-    CfnChannel.HlsS3SettingsProperty.Builder().apply(initializer).build()
+public fun buildHlsS3SettingsProperty(initializer: @AwsCdkDsl CfnChannel.HlsS3SettingsProperty.Builder.() -> Unit = {}): CfnChannel.HlsS3SettingsProperty = CfnChannel.HlsS3SettingsProperty.Builder().apply(initializer).build()

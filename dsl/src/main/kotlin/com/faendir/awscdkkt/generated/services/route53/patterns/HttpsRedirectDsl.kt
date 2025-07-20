@@ -16,6 +16,4 @@ public fun Construct.httpsRedirect(
 ): HttpsRedirect = HttpsRedirect(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildHttpsRedirect(id: String, initializer: @AwsCdkDsl
-    HttpsRedirect.Builder.() -> Unit = {}): HttpsRedirect = HttpsRedirect.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildHttpsRedirect(id: String, initializer: @AwsCdkDsl HttpsRedirect.Builder.() -> Unit = {}): HttpsRedirect = HttpsRedirect.Builder.create(this, id).apply(initializer).build()

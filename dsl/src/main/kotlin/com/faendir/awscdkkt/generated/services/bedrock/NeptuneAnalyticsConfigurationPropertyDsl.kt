@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnKnowledgeBase
 
 @Generated
-public fun buildNeptuneAnalyticsConfigurationProperty(initializer: @AwsCdkDsl
-    CfnKnowledgeBase.NeptuneAnalyticsConfigurationProperty.Builder.() -> Unit = {}):
-    CfnKnowledgeBase.NeptuneAnalyticsConfigurationProperty =
-    CfnKnowledgeBase.NeptuneAnalyticsConfigurationProperty.Builder().apply(initializer).build()
+public fun buildNeptuneAnalyticsConfigurationProperty(initializer: @AwsCdkDsl CfnKnowledgeBase.NeptuneAnalyticsConfigurationProperty.Builder.() -> Unit = {}): CfnKnowledgeBase.NeptuneAnalyticsConfigurationProperty = CfnKnowledgeBase.NeptuneAnalyticsConfigurationProperty.Builder().apply(initializer).build()

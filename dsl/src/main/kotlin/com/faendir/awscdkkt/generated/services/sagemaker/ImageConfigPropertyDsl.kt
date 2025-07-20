@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnModel
 
 @Generated
-public fun buildImageConfigProperty(initializer: @AwsCdkDsl
-    CfnModel.ImageConfigProperty.Builder.() -> Unit = {}): CfnModel.ImageConfigProperty =
-    CfnModel.ImageConfigProperty.Builder().apply(initializer).build()
+public fun buildImageConfigProperty(initializer: @AwsCdkDsl CfnModel.ImageConfigProperty.Builder.() -> Unit = {}): CfnModel.ImageConfigProperty = CfnModel.ImageConfigProperty.Builder().apply(initializer).build()

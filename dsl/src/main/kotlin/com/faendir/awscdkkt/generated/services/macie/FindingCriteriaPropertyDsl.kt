@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.macie.CfnFindingsFilter
 
 @Generated
-public fun buildFindingCriteriaProperty(initializer: @AwsCdkDsl
-    CfnFindingsFilter.FindingCriteriaProperty.Builder.() -> Unit = {}):
-    CfnFindingsFilter.FindingCriteriaProperty =
-    CfnFindingsFilter.FindingCriteriaProperty.Builder().apply(initializer).build()
+public fun buildFindingCriteriaProperty(initializer: @AwsCdkDsl CfnFindingsFilter.FindingCriteriaProperty.Builder.() -> Unit = {}): CfnFindingsFilter.FindingCriteriaProperty = CfnFindingsFilter.FindingCriteriaProperty.Builder().apply(initializer).build()

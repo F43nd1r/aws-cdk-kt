@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
-public fun buildIcebergDestinationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.IcebergDestinationConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDeliveryStream.IcebergDestinationConfigurationProperty =
-    CfnDeliveryStream.IcebergDestinationConfigurationProperty.Builder().apply(initializer).build()
+public fun buildIcebergDestinationConfigurationProperty(initializer: @AwsCdkDsl CfnDeliveryStream.IcebergDestinationConfigurationProperty.Builder.() -> Unit = {}): CfnDeliveryStream.IcebergDestinationConfigurationProperty = CfnDeliveryStream.IcebergDestinationConfigurationProperty.Builder().apply(initializer).build()

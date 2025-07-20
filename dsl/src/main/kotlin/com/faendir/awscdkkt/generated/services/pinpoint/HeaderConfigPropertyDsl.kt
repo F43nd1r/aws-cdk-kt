@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnInAppTemplate
 
 @Generated
-public fun buildHeaderConfigProperty(initializer: @AwsCdkDsl
-    CfnInAppTemplate.HeaderConfigProperty.Builder.() -> Unit = {}):
-    CfnInAppTemplate.HeaderConfigProperty =
-    CfnInAppTemplate.HeaderConfigProperty.Builder().apply(initializer).build()
+public fun buildHeaderConfigProperty(initializer: @AwsCdkDsl CfnInAppTemplate.HeaderConfigProperty.Builder.() -> Unit = {}): CfnInAppTemplate.HeaderConfigProperty = CfnInAppTemplate.HeaderConfigProperty.Builder().apply(initializer).build()

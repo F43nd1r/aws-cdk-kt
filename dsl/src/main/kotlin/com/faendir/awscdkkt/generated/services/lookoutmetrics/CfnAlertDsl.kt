@@ -16,5 +16,4 @@ public fun Construct.cfnAlert(
 ): CfnAlert = CfnAlert(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAlert(id: String, initializer: @AwsCdkDsl CfnAlert.Builder.() -> Unit =
-    {}): CfnAlert = CfnAlert.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAlert(id: String, initializer: @AwsCdkDsl CfnAlert.Builder.() -> Unit = {}): CfnAlert = CfnAlert.Builder.create(this, id).apply(initializer).build()

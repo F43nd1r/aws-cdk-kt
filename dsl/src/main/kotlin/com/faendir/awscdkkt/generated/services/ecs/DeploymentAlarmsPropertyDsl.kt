@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnService
 
 @Generated
-public fun buildDeploymentAlarmsProperty(initializer: @AwsCdkDsl
-    CfnService.DeploymentAlarmsProperty.Builder.() -> Unit = {}):
-    CfnService.DeploymentAlarmsProperty =
-    CfnService.DeploymentAlarmsProperty.Builder().apply(initializer).build()
+public fun buildDeploymentAlarmsProperty(initializer: @AwsCdkDsl CfnService.DeploymentAlarmsProperty.Builder.() -> Unit = {}): CfnService.DeploymentAlarmsProperty = CfnService.DeploymentAlarmsProperty.Builder().apply(initializer).build()

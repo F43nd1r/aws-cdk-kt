@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CorsRule
 
 @Generated
-public fun buildCorsRule(initializer: @AwsCdkDsl CorsRule.Builder.() -> Unit = {}): CorsRule =
-    CorsRule.Builder().apply(initializer).build()
+public fun buildCorsRule(initializer: @AwsCdkDsl CorsRule.Builder.() -> Unit = {}): CorsRule = CorsRule.Builder().apply(initializer).build()

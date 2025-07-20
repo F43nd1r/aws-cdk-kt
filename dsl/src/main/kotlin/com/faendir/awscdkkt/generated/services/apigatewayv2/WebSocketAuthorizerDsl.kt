@@ -16,6 +16,4 @@ public fun Construct.webSocketAuthorizer(
 ): WebSocketAuthorizer = WebSocketAuthorizer(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildWebSocketAuthorizer(id: String, initializer: @AwsCdkDsl
-    WebSocketAuthorizer.Builder.() -> Unit = {}): WebSocketAuthorizer =
-    WebSocketAuthorizer.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildWebSocketAuthorizer(id: String, initializer: @AwsCdkDsl WebSocketAuthorizer.Builder.() -> Unit = {}): WebSocketAuthorizer = WebSocketAuthorizer.Builder.create(this, id).apply(initializer).build()

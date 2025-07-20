@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.AuthorizationMode
 
 @Generated
-public fun buildAuthorizationMode(initializer: @AwsCdkDsl AuthorizationMode.Builder.() -> Unit =
-    {}): AuthorizationMode = AuthorizationMode.Builder().apply(initializer).build()
+public fun buildAuthorizationMode(initializer: @AwsCdkDsl AuthorizationMode.Builder.() -> Unit = {}): AuthorizationMode = AuthorizationMode.Builder().apply(initializer).build()

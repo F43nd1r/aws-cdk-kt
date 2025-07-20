@@ -16,6 +16,4 @@ public fun Construct.awsCustomResource(
 ): AwsCustomResource = AwsCustomResource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAwsCustomResource(id: String, initializer: @AwsCdkDsl
-    AwsCustomResource.Builder.() -> Unit = {}): AwsCustomResource =
-    AwsCustomResource.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildAwsCustomResource(id: String, initializer: @AwsCdkDsl AwsCustomResource.Builder.() -> Unit = {}): AwsCustomResource = AwsCustomResource.Builder.create(this, id).apply(initializer).build()

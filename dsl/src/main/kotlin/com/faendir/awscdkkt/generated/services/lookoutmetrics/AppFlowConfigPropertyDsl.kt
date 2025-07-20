@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lookoutmetrics.CfnAnomalyDetector
 
 @Generated
-public fun buildAppFlowConfigProperty(initializer: @AwsCdkDsl
-    CfnAnomalyDetector.AppFlowConfigProperty.Builder.() -> Unit = {}):
-    CfnAnomalyDetector.AppFlowConfigProperty =
-    CfnAnomalyDetector.AppFlowConfigProperty.Builder().apply(initializer).build()
+public fun buildAppFlowConfigProperty(initializer: @AwsCdkDsl CfnAnomalyDetector.AppFlowConfigProperty.Builder.() -> Unit = {}): CfnAnomalyDetector.AppFlowConfigProperty = CfnAnomalyDetector.AppFlowConfigProperty.Builder().apply(initializer).build()

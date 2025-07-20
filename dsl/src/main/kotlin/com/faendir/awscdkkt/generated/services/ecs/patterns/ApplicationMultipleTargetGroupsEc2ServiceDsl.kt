@@ -9,21 +9,14 @@ import software.amazon.awscdk.services.ecs.patterns.ApplicationMultipleTargetGro
 import software.constructs.Construct
 
 @Generated
-public fun Construct.applicationMultipleTargetGroupsEc2Service(id: String, initializer: @AwsCdkDsl
-    ApplicationMultipleTargetGroupsEc2Service.() -> Unit = {}):
-    ApplicationMultipleTargetGroupsEc2Service = ApplicationMultipleTargetGroupsEc2Service(this,
-    id).apply(initializer)
+public fun Construct.applicationMultipleTargetGroupsEc2Service(id: String, initializer: @AwsCdkDsl ApplicationMultipleTargetGroupsEc2Service.() -> Unit = {}): ApplicationMultipleTargetGroupsEc2Service = ApplicationMultipleTargetGroupsEc2Service(this, id).apply(initializer)
 
 @Generated
 public fun Construct.applicationMultipleTargetGroupsEc2Service(
   id: String,
   props: ApplicationMultipleTargetGroupsEc2ServiceProps,
   initializer: @AwsCdkDsl ApplicationMultipleTargetGroupsEc2Service.() -> Unit = {},
-): ApplicationMultipleTargetGroupsEc2Service = ApplicationMultipleTargetGroupsEc2Service(this, id,
-    props).apply(initializer)
+): ApplicationMultipleTargetGroupsEc2Service = ApplicationMultipleTargetGroupsEc2Service(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildApplicationMultipleTargetGroupsEc2Service(id: String,
-    initializer: @AwsCdkDsl ApplicationMultipleTargetGroupsEc2Service.Builder.() -> Unit = {}):
-    ApplicationMultipleTargetGroupsEc2Service =
-    ApplicationMultipleTargetGroupsEc2Service.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildApplicationMultipleTargetGroupsEc2Service(id: String, initializer: @AwsCdkDsl ApplicationMultipleTargetGroupsEc2Service.Builder.() -> Unit = {}): ApplicationMultipleTargetGroupsEc2Service = ApplicationMultipleTargetGroupsEc2Service.Builder.create(this, id).apply(initializer).build()

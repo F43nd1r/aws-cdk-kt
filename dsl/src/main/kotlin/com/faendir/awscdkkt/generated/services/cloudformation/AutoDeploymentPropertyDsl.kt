@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudformation.CfnStackSet
 
 @Generated
-public fun buildAutoDeploymentProperty(initializer: @AwsCdkDsl
-    CfnStackSet.AutoDeploymentProperty.Builder.() -> Unit = {}): CfnStackSet.AutoDeploymentProperty
-    = CfnStackSet.AutoDeploymentProperty.Builder().apply(initializer).build()
+public fun buildAutoDeploymentProperty(initializer: @AwsCdkDsl CfnStackSet.AutoDeploymentProperty.Builder.() -> Unit = {}): CfnStackSet.AutoDeploymentProperty = CfnStackSet.AutoDeploymentProperty.Builder().apply(initializer).build()

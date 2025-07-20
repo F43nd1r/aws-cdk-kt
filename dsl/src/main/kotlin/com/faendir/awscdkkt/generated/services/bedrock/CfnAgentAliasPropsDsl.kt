@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnAgentAliasProps
 
 @Generated
-public fun buildCfnAgentAliasProps(initializer: @AwsCdkDsl CfnAgentAliasProps.Builder.() -> Unit =
-    {}): CfnAgentAliasProps = CfnAgentAliasProps.Builder().apply(initializer).build()
+public fun buildCfnAgentAliasProps(initializer: @AwsCdkDsl CfnAgentAliasProps.Builder.() -> Unit = {}): CfnAgentAliasProps = CfnAgentAliasProps.Builder().apply(initializer).build()

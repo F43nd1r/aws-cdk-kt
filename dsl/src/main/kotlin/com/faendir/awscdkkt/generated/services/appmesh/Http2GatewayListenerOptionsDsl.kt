@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.Http2GatewayListenerOptions
 
 @Generated
-public fun buildHttp2GatewayListenerOptions(initializer: @AwsCdkDsl
-    Http2GatewayListenerOptions.Builder.() -> Unit = {}): Http2GatewayListenerOptions =
-    Http2GatewayListenerOptions.Builder().apply(initializer).build()
+public fun buildHttp2GatewayListenerOptions(initializer: @AwsCdkDsl Http2GatewayListenerOptions.Builder.() -> Unit = {}): Http2GatewayListenerOptions = Http2GatewayListenerOptions.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildMultiplexOutputSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.MultiplexOutputSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.MultiplexOutputSettingsProperty =
-    CfnChannel.MultiplexOutputSettingsProperty.Builder().apply(initializer).build()
+public fun buildMultiplexOutputSettingsProperty(initializer: @AwsCdkDsl CfnChannel.MultiplexOutputSettingsProperty.Builder.() -> Unit = {}): CfnChannel.MultiplexOutputSettingsProperty = CfnChannel.MultiplexOutputSettingsProperty.Builder().apply(initializer).build()

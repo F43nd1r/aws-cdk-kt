@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnCampaign
 
 @Generated
-public fun buildTemplateProperty(initializer: @AwsCdkDsl
-    CfnCampaign.TemplateProperty.Builder.() -> Unit = {}): CfnCampaign.TemplateProperty =
-    CfnCampaign.TemplateProperty.Builder().apply(initializer).build()
+public fun buildTemplateProperty(initializer: @AwsCdkDsl CfnCampaign.TemplateProperty.Builder.() -> Unit = {}): CfnCampaign.TemplateProperty = CfnCampaign.TemplateProperty.Builder().apply(initializer).build()

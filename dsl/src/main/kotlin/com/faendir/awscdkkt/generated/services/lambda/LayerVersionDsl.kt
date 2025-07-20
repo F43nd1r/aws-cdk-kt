@@ -16,6 +16,4 @@ public fun Construct.layerVersion(
 ): LayerVersion = LayerVersion(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildLayerVersion(id: String, initializer: @AwsCdkDsl
-    LayerVersion.Builder.() -> Unit = {}): LayerVersion = LayerVersion.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildLayerVersion(id: String, initializer: @AwsCdkDsl LayerVersion.Builder.() -> Unit = {}): LayerVersion = LayerVersion.Builder.create(this, id).apply(initializer).build()

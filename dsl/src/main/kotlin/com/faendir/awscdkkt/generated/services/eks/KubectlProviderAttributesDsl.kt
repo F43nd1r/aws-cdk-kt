@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.KubectlProviderAttributes
 
 @Generated
-public fun buildKubectlProviderAttributes(initializer: @AwsCdkDsl
-    KubectlProviderAttributes.Builder.() -> Unit = {}): KubectlProviderAttributes =
-    KubectlProviderAttributes.Builder().apply(initializer).build()
+public fun buildKubectlProviderAttributes(initializer: @AwsCdkDsl KubectlProviderAttributes.Builder.() -> Unit = {}): KubectlProviderAttributes = KubectlProviderAttributes.Builder().apply(initializer).build()

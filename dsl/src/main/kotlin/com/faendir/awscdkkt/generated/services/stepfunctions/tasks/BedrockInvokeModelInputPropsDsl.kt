@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.BedrockInvokeModelInputProps
 
 @Generated
-public fun buildBedrockInvokeModelInputProps(initializer: @AwsCdkDsl
-    BedrockInvokeModelInputProps.Builder.() -> Unit = {}): BedrockInvokeModelInputProps =
-    BedrockInvokeModelInputProps.Builder().apply(initializer).build()
+public fun buildBedrockInvokeModelInputProps(initializer: @AwsCdkDsl BedrockInvokeModelInputProps.Builder.() -> Unit = {}): BedrockInvokeModelInputProps = BedrockInvokeModelInputProps.Builder().apply(initializer).build()

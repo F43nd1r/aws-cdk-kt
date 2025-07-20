@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.StandardAttribute
 
 @Generated
-public fun buildStandardAttribute(initializer: @AwsCdkDsl StandardAttribute.Builder.() -> Unit =
-    {}): StandardAttribute = StandardAttribute.Builder().apply(initializer).build()
+public fun buildStandardAttribute(initializer: @AwsCdkDsl StandardAttribute.Builder.() -> Unit = {}): StandardAttribute = StandardAttribute.Builder().apply(initializer).build()

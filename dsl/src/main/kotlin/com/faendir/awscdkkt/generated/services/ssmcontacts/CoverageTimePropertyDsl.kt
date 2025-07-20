@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssmcontacts.CfnRotation
 
 @Generated
-public fun buildCoverageTimeProperty(initializer: @AwsCdkDsl
-    CfnRotation.CoverageTimeProperty.Builder.() -> Unit = {}): CfnRotation.CoverageTimeProperty =
-    CfnRotation.CoverageTimeProperty.Builder().apply(initializer).build()
+public fun buildCoverageTimeProperty(initializer: @AwsCdkDsl CfnRotation.CoverageTimeProperty.Builder.() -> Unit = {}): CfnRotation.CoverageTimeProperty = CfnRotation.CoverageTimeProperty.Builder().apply(initializer).build()

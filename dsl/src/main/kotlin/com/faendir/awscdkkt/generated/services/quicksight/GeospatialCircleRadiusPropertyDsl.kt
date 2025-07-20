@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
-public fun buildGeospatialCircleRadiusProperty(initializer: @AwsCdkDsl
-    CfnDashboard.GeospatialCircleRadiusProperty.Builder.() -> Unit = {}):
-    CfnDashboard.GeospatialCircleRadiusProperty =
-    CfnDashboard.GeospatialCircleRadiusProperty.Builder().apply(initializer).build()
+public fun buildGeospatialCircleRadiusProperty(initializer: @AwsCdkDsl CfnDashboard.GeospatialCircleRadiusProperty.Builder.() -> Unit = {}): CfnDashboard.GeospatialCircleRadiusProperty = CfnDashboard.GeospatialCircleRadiusProperty.Builder().apply(initializer).build()

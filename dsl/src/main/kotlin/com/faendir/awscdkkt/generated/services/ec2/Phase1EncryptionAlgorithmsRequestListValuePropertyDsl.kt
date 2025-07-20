@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVPNConnection
 
 @Generated
-public fun buildPhase1EncryptionAlgorithmsRequestListValueProperty(initializer: @AwsCdkDsl
-    CfnVPNConnection.Phase1EncryptionAlgorithmsRequestListValueProperty.Builder.() -> Unit = {}):
-    CfnVPNConnection.Phase1EncryptionAlgorithmsRequestListValueProperty =
-    CfnVPNConnection.Phase1EncryptionAlgorithmsRequestListValueProperty.Builder().apply(initializer).build()
+public fun buildPhase1EncryptionAlgorithmsRequestListValueProperty(initializer: @AwsCdkDsl CfnVPNConnection.Phase1EncryptionAlgorithmsRequestListValueProperty.Builder.() -> Unit = {}): CfnVPNConnection.Phase1EncryptionAlgorithmsRequestListValueProperty = CfnVPNConnection.Phase1EncryptionAlgorithmsRequestListValueProperty.Builder().apply(initializer).build()

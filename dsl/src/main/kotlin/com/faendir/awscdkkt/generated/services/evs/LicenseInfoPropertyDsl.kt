@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.evs.CfnEnvironment
 
 @Generated
-public fun buildLicenseInfoProperty(initializer: @AwsCdkDsl
-    CfnEnvironment.LicenseInfoProperty.Builder.() -> Unit = {}): CfnEnvironment.LicenseInfoProperty
-    = CfnEnvironment.LicenseInfoProperty.Builder().apply(initializer).build()
+public fun buildLicenseInfoProperty(initializer: @AwsCdkDsl CfnEnvironment.LicenseInfoProperty.Builder.() -> Unit = {}): CfnEnvironment.LicenseInfoProperty = CfnEnvironment.LicenseInfoProperty.Builder().apply(initializer).build()

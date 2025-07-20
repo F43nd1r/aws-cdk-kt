@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnModelPackage
 
 @Generated
-public fun buildTransformJobDefinitionProperty(initializer: @AwsCdkDsl
-    CfnModelPackage.TransformJobDefinitionProperty.Builder.() -> Unit = {}):
-    CfnModelPackage.TransformJobDefinitionProperty =
-    CfnModelPackage.TransformJobDefinitionProperty.Builder().apply(initializer).build()
+public fun buildTransformJobDefinitionProperty(initializer: @AwsCdkDsl CfnModelPackage.TransformJobDefinitionProperty.Builder.() -> Unit = {}): CfnModelPackage.TransformJobDefinitionProperty = CfnModelPackage.TransformJobDefinitionProperty.Builder().apply(initializer).build()

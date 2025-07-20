@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildCustomValuesConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.CustomValuesConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.CustomValuesConfigurationProperty =
-    CfnTemplate.CustomValuesConfigurationProperty.Builder().apply(initializer).build()
+public fun buildCustomValuesConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.CustomValuesConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.CustomValuesConfigurationProperty = CfnTemplate.CustomValuesConfigurationProperty.Builder().apply(initializer).build()

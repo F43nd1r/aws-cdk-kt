@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.HttpAuthorizerAttributes
 
 @Generated
-public fun buildHttpAuthorizerAttributes(initializer: @AwsCdkDsl
-    HttpAuthorizerAttributes.Builder.() -> Unit = {}): HttpAuthorizerAttributes =
-    HttpAuthorizerAttributes.Builder().apply(initializer).build()
+public fun buildHttpAuthorizerAttributes(initializer: @AwsCdkDsl HttpAuthorizerAttributes.Builder.() -> Unit = {}): HttpAuthorizerAttributes = HttpAuthorizerAttributes.Builder().apply(initializer).build()

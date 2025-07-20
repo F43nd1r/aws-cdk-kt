@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildPlacementConstraintProperty(initializer: @AwsCdkDsl
-    CfnPipe.PlacementConstraintProperty.Builder.() -> Unit = {}):
-    CfnPipe.PlacementConstraintProperty =
-    CfnPipe.PlacementConstraintProperty.Builder().apply(initializer).build()
+public fun buildPlacementConstraintProperty(initializer: @AwsCdkDsl CfnPipe.PlacementConstraintProperty.Builder.() -> Unit = {}): CfnPipe.PlacementConstraintProperty = CfnPipe.PlacementConstraintProperty.Builder().apply(initializer).build()

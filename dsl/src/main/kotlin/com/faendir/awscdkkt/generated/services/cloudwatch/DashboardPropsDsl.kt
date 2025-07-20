@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.DashboardProps
 
 @Generated
-public fun buildDashboardProps(initializer: @AwsCdkDsl DashboardProps.Builder.() -> Unit = {}):
-    DashboardProps = DashboardProps.Builder().apply(initializer).build()
+public fun buildDashboardProps(initializer: @AwsCdkDsl DashboardProps.Builder.() -> Unit = {}): DashboardProps = DashboardProps.Builder().apply(initializer).build()

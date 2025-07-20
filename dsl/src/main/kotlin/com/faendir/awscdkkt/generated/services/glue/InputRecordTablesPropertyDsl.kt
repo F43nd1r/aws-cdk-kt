@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnMLTransform
 
 @Generated
-public fun buildInputRecordTablesProperty(initializer: @AwsCdkDsl
-    CfnMLTransform.InputRecordTablesProperty.Builder.() -> Unit = {}):
-    CfnMLTransform.InputRecordTablesProperty =
-    CfnMLTransform.InputRecordTablesProperty.Builder().apply(initializer).build()
+public fun buildInputRecordTablesProperty(initializer: @AwsCdkDsl CfnMLTransform.InputRecordTablesProperty.Builder.() -> Unit = {}): CfnMLTransform.InputRecordTablesProperty = CfnMLTransform.InputRecordTablesProperty.Builder().apply(initializer).build()

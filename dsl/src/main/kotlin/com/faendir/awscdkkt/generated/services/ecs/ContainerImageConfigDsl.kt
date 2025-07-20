@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.ContainerImageConfig
 
 @Generated
-public fun buildContainerImageConfig(initializer: @AwsCdkDsl ContainerImageConfig.Builder.() -> Unit
-    = {}): ContainerImageConfig = ContainerImageConfig.Builder().apply(initializer).build()
+public fun buildContainerImageConfig(initializer: @AwsCdkDsl ContainerImageConfig.Builder.() -> Unit = {}): ContainerImageConfig = ContainerImageConfig.Builder().apply(initializer).build()

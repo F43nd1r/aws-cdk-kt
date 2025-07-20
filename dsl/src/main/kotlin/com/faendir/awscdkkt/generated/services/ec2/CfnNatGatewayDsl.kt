@@ -16,6 +16,4 @@ public fun Construct.cfnNatGateway(
 ): CfnNatGateway = CfnNatGateway(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnNatGateway(id: String, initializer: @AwsCdkDsl
-    CfnNatGateway.Builder.() -> Unit = {}): CfnNatGateway = CfnNatGateway.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnNatGateway(id: String, initializer: @AwsCdkDsl CfnNatGateway.Builder.() -> Unit = {}): CfnNatGateway = CfnNatGateway.Builder.create(this, id).apply(initializer).build()

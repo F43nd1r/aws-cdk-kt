@@ -16,6 +16,4 @@ public fun Construct.cfnFirewall(
 ): CfnFirewall = CfnFirewall(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnFirewall(id: String, initializer: @AwsCdkDsl
-    CfnFirewall.Builder.() -> Unit = {}): CfnFirewall = CfnFirewall.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnFirewall(id: String, initializer: @AwsCdkDsl CfnFirewall.Builder.() -> Unit = {}): CfnFirewall = CfnFirewall.Builder.create(this, id).apply(initializer).build()

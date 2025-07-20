@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apptest.CfnTestCaseProps
 
 @Generated
-public fun buildCfnTestCaseProps(initializer: @AwsCdkDsl CfnTestCaseProps.Builder.() -> Unit = {}):
-    CfnTestCaseProps = CfnTestCaseProps.Builder().apply(initializer).build()
+public fun buildCfnTestCaseProps(initializer: @AwsCdkDsl CfnTestCaseProps.Builder.() -> Unit = {}): CfnTestCaseProps = CfnTestCaseProps.Builder().apply(initializer).build()

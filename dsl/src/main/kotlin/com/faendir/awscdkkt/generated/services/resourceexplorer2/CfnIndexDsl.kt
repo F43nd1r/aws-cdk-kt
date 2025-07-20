@@ -16,5 +16,4 @@ public fun Construct.cfnIndex(
 ): CfnIndex = CfnIndex(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnIndex(id: String, initializer: @AwsCdkDsl CfnIndex.Builder.() -> Unit =
-    {}): CfnIndex = CfnIndex.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnIndex(id: String, initializer: @AwsCdkDsl CfnIndex.Builder.() -> Unit = {}): CfnIndex = CfnIndex.Builder.create(this, id).apply(initializer).build()

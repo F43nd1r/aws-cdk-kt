@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.amplifyuibuilder.CfnForm
 
 @Generated
-public fun buildFieldConfigProperty(initializer: @AwsCdkDsl
-    CfnForm.FieldConfigProperty.Builder.() -> Unit = {}): CfnForm.FieldConfigProperty =
-    CfnForm.FieldConfigProperty.Builder().apply(initializer).build()
+public fun buildFieldConfigProperty(initializer: @AwsCdkDsl CfnForm.FieldConfigProperty.Builder.() -> Unit = {}): CfnForm.FieldConfigProperty = CfnForm.FieldConfigProperty.Builder().apply(initializer).build()

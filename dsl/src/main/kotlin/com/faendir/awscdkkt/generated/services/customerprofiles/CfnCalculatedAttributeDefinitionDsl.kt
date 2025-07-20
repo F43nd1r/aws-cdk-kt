@@ -13,10 +13,7 @@ public fun Construct.cfnCalculatedAttributeDefinition(
   id: String,
   props: CfnCalculatedAttributeDefinitionProps,
   initializer: @AwsCdkDsl CfnCalculatedAttributeDefinition.() -> Unit = {},
-): CfnCalculatedAttributeDefinition = CfnCalculatedAttributeDefinition(this, id,
-    props).apply(initializer)
+): CfnCalculatedAttributeDefinition = CfnCalculatedAttributeDefinition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCalculatedAttributeDefinition(id: String, initializer: @AwsCdkDsl
-    CfnCalculatedAttributeDefinition.Builder.() -> Unit = {}): CfnCalculatedAttributeDefinition =
-    CfnCalculatedAttributeDefinition.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCalculatedAttributeDefinition(id: String, initializer: @AwsCdkDsl CfnCalculatedAttributeDefinition.Builder.() -> Unit = {}): CfnCalculatedAttributeDefinition = CfnCalculatedAttributeDefinition.Builder.create(this, id).apply(initializer).build()

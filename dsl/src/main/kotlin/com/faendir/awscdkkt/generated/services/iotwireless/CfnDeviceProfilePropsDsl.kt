@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotwireless.CfnDeviceProfileProps
 
 @Generated
-public fun buildCfnDeviceProfileProps(initializer: @AwsCdkDsl
-    CfnDeviceProfileProps.Builder.() -> Unit = {}): CfnDeviceProfileProps =
-    CfnDeviceProfileProps.Builder().apply(initializer).build()
+public fun buildCfnDeviceProfileProps(initializer: @AwsCdkDsl CfnDeviceProfileProps.Builder.() -> Unit = {}): CfnDeviceProfileProps = CfnDeviceProfileProps.Builder().apply(initializer).build()

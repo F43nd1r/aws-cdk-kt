@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cleanrooms.CfnMembership
 
 @Generated
-public fun buildMembershipPaymentConfigurationProperty(initializer: @AwsCdkDsl
-    CfnMembership.MembershipPaymentConfigurationProperty.Builder.() -> Unit = {}):
-    CfnMembership.MembershipPaymentConfigurationProperty =
-    CfnMembership.MembershipPaymentConfigurationProperty.Builder().apply(initializer).build()
+public fun buildMembershipPaymentConfigurationProperty(initializer: @AwsCdkDsl CfnMembership.MembershipPaymentConfigurationProperty.Builder.() -> Unit = {}): CfnMembership.MembershipPaymentConfigurationProperty = CfnMembership.MembershipPaymentConfigurationProperty.Builder().apply(initializer).build()

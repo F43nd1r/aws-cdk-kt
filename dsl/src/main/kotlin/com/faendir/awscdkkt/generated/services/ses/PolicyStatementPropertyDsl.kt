@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnMailManagerTrafficPolicy
 
 @Generated
-public fun buildPolicyStatementProperty(initializer: @AwsCdkDsl
-    CfnMailManagerTrafficPolicy.PolicyStatementProperty.Builder.() -> Unit = {}):
-    CfnMailManagerTrafficPolicy.PolicyStatementProperty =
-    CfnMailManagerTrafficPolicy.PolicyStatementProperty.Builder().apply(initializer).build()
+public fun buildPolicyStatementProperty(initializer: @AwsCdkDsl CfnMailManagerTrafficPolicy.PolicyStatementProperty.Builder.() -> Unit = {}): CfnMailManagerTrafficPolicy.PolicyStatementProperty = CfnMailManagerTrafficPolicy.PolicyStatementProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kms.KeyProps
 
 @Generated
-public fun buildKeyProps(initializer: @AwsCdkDsl KeyProps.Builder.() -> Unit = {}): KeyProps =
-    KeyProps.Builder().apply(initializer).build()
+public fun buildKeyProps(initializer: @AwsCdkDsl KeyProps.Builder.() -> Unit = {}): KeyProps = KeyProps.Builder().apply(initializer).build()

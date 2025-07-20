@@ -16,6 +16,4 @@ public fun Construct.cfnPolicyAssociation(
 ): CfnPolicyAssociation = CfnPolicyAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPolicyAssociation(id: String, initializer: @AwsCdkDsl
-    CfnPolicyAssociation.Builder.() -> Unit = {}): CfnPolicyAssociation =
-    CfnPolicyAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPolicyAssociation(id: String, initializer: @AwsCdkDsl CfnPolicyAssociation.Builder.() -> Unit = {}): CfnPolicyAssociation = CfnPolicyAssociation.Builder.create(this, id).apply(initializer).build()

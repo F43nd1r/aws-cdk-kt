@@ -16,6 +16,4 @@ public fun Construct.cfnPartition(
 ): CfnPartition = CfnPartition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPartition(id: String, initializer: @AwsCdkDsl
-    CfnPartition.Builder.() -> Unit = {}): CfnPartition = CfnPartition.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnPartition(id: String, initializer: @AwsCdkDsl CfnPartition.Builder.() -> Unit = {}): CfnPartition = CfnPartition.Builder.create(this, id).apply(initializer).build()

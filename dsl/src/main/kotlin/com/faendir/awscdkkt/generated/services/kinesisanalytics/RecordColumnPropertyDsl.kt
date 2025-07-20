@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisanalytics.CfnApplicationV2
 
 @Generated
-public fun buildRecordColumnProperty(initializer: @AwsCdkDsl
-    CfnApplicationV2.RecordColumnProperty.Builder.() -> Unit = {}):
-    CfnApplicationV2.RecordColumnProperty =
-    CfnApplicationV2.RecordColumnProperty.Builder().apply(initializer).build()
+public fun buildRecordColumnProperty(initializer: @AwsCdkDsl CfnApplicationV2.RecordColumnProperty.Builder.() -> Unit = {}): CfnApplicationV2.RecordColumnProperty = CfnApplicationV2.RecordColumnProperty.Builder().apply(initializer).build()

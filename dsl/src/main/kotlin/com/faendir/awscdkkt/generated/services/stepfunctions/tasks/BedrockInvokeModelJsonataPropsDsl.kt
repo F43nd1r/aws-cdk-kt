@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.BedrockInvokeModelJsonataProps
 
 @Generated
-public fun buildBedrockInvokeModelJsonataProps(initializer: @AwsCdkDsl
-    BedrockInvokeModelJsonataProps.Builder.() -> Unit = {}): BedrockInvokeModelJsonataProps =
-    BedrockInvokeModelJsonataProps.Builder().apply(initializer).build()
+public fun buildBedrockInvokeModelJsonataProps(initializer: @AwsCdkDsl BedrockInvokeModelJsonataProps.Builder.() -> Unit = {}): BedrockInvokeModelJsonataProps = BedrockInvokeModelJsonataProps.Builder().apply(initializer).build()

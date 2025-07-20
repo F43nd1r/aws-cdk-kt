@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.CfnProject
 
 @Generated
-public fun buildSourceProperty(initializer: @AwsCdkDsl CfnProject.SourceProperty.Builder.() -> Unit
-    = {}): CfnProject.SourceProperty =
-    CfnProject.SourceProperty.Builder().apply(initializer).build()
+public fun buildSourceProperty(initializer: @AwsCdkDsl CfnProject.SourceProperty.Builder.() -> Unit = {}): CfnProject.SourceProperty = CfnProject.SourceProperty.Builder().apply(initializer).build()

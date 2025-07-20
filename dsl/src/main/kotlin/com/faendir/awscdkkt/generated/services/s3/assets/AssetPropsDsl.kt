@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.assets.AssetProps
 
 @Generated
-public fun buildAssetProps(initializer: @AwsCdkDsl AssetProps.Builder.() -> Unit = {}): AssetProps =
-    AssetProps.Builder().apply(initializer).build()
+public fun buildAssetProps(initializer: @AwsCdkDsl AssetProps.Builder.() -> Unit = {}): AssetProps = AssetProps.Builder().apply(initializer).build()

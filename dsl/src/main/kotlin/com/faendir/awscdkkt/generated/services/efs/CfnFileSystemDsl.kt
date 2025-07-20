@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.efs.CfnFileSystemProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnFileSystem(id: String, initializer: @AwsCdkDsl CfnFileSystem.() -> Unit =
-    {}): CfnFileSystem = CfnFileSystem(this, id).apply(initializer)
+public fun Construct.cfnFileSystem(id: String, initializer: @AwsCdkDsl CfnFileSystem.() -> Unit = {}): CfnFileSystem = CfnFileSystem(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnFileSystem(
@@ -20,6 +19,4 @@ public fun Construct.cfnFileSystem(
 ): CfnFileSystem = CfnFileSystem(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnFileSystem(id: String, initializer: @AwsCdkDsl
-    CfnFileSystem.Builder.() -> Unit = {}): CfnFileSystem = CfnFileSystem.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnFileSystem(id: String, initializer: @AwsCdkDsl CfnFileSystem.Builder.() -> Unit = {}): CfnFileSystem = CfnFileSystem.Builder.create(this, id).apply(initializer).build()

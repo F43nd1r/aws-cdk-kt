@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apptest.CfnTestCase
 
 @Generated
-public fun buildResourceActionProperty(initializer: @AwsCdkDsl
-    CfnTestCase.ResourceActionProperty.Builder.() -> Unit = {}): CfnTestCase.ResourceActionProperty
-    = CfnTestCase.ResourceActionProperty.Builder().apply(initializer).build()
+public fun buildResourceActionProperty(initializer: @AwsCdkDsl CfnTestCase.ResourceActionProperty.Builder.() -> Unit = {}): CfnTestCase.ResourceActionProperty = CfnTestCase.ResourceActionProperty.Builder().apply(initializer).build()

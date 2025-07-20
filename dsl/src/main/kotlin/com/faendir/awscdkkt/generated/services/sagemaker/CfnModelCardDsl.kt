@@ -16,6 +16,4 @@ public fun Construct.cfnModelCard(
 ): CfnModelCard = CfnModelCard(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnModelCard(id: String, initializer: @AwsCdkDsl
-    CfnModelCard.Builder.() -> Unit = {}): CfnModelCard = CfnModelCard.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnModelCard(id: String, initializer: @AwsCdkDsl CfnModelCard.Builder.() -> Unit = {}): CfnModelCard = CfnModelCard.Builder.create(this, id).apply(initializer).build()

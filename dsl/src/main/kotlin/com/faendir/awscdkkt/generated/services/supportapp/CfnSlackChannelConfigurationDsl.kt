@@ -16,6 +16,4 @@ public fun Construct.cfnSlackChannelConfiguration(
 ): CfnSlackChannelConfiguration = CfnSlackChannelConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSlackChannelConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnSlackChannelConfiguration.Builder.() -> Unit = {}): CfnSlackChannelConfiguration =
-    CfnSlackChannelConfiguration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSlackChannelConfiguration(id: String, initializer: @AwsCdkDsl CfnSlackChannelConfiguration.Builder.() -> Unit = {}): CfnSlackChannelConfiguration = CfnSlackChannelConfiguration.Builder.create(this, id).apply(initializer).build()

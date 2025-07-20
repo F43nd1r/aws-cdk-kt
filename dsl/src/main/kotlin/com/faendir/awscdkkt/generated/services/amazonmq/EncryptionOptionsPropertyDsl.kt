@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.amazonmq.CfnBroker
 
 @Generated
-public fun buildEncryptionOptionsProperty(initializer: @AwsCdkDsl
-    CfnBroker.EncryptionOptionsProperty.Builder.() -> Unit = {}):
-    CfnBroker.EncryptionOptionsProperty =
-    CfnBroker.EncryptionOptionsProperty.Builder().apply(initializer).build()
+public fun buildEncryptionOptionsProperty(initializer: @AwsCdkDsl CfnBroker.EncryptionOptionsProperty.Builder.() -> Unit = {}): CfnBroker.EncryptionOptionsProperty = CfnBroker.EncryptionOptionsProperty.Builder().apply(initializer).build()

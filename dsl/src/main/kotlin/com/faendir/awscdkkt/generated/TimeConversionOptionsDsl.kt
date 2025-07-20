@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.TimeConversionOptions
 
 @Generated
-public fun buildTimeConversionOptions(initializer: @AwsCdkDsl
-    TimeConversionOptions.Builder.() -> Unit = {}): TimeConversionOptions =
-    TimeConversionOptions.Builder().apply(initializer).build()
+public fun buildTimeConversionOptions(initializer: @AwsCdkDsl TimeConversionOptions.Builder.() -> Unit = {}): TimeConversionOptions = TimeConversionOptions.Builder().apply(initializer).build()

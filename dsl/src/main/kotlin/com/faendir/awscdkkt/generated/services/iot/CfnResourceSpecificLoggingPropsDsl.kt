@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnResourceSpecificLoggingProps
 
 @Generated
-public fun buildCfnResourceSpecificLoggingProps(initializer: @AwsCdkDsl
-    CfnResourceSpecificLoggingProps.Builder.() -> Unit = {}): CfnResourceSpecificLoggingProps =
-    CfnResourceSpecificLoggingProps.Builder().apply(initializer).build()
+public fun buildCfnResourceSpecificLoggingProps(initializer: @AwsCdkDsl CfnResourceSpecificLoggingProps.Builder.() -> Unit = {}): CfnResourceSpecificLoggingProps = CfnResourceSpecificLoggingProps.Builder().apply(initializer).build()

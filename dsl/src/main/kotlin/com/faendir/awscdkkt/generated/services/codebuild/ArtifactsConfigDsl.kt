@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.ArtifactsConfig
 
 @Generated
-public fun buildArtifactsConfig(initializer: @AwsCdkDsl ArtifactsConfig.Builder.() -> Unit = {}):
-    ArtifactsConfig = ArtifactsConfig.Builder().apply(initializer).build()
+public fun buildArtifactsConfig(initializer: @AwsCdkDsl ArtifactsConfig.Builder.() -> Unit = {}): ArtifactsConfig = ArtifactsConfig.Builder().apply(initializer).build()

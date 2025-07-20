@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnModelCard
 
 @Generated
-public fun buildInferenceEnvironmentProperty(initializer: @AwsCdkDsl
-    CfnModelCard.InferenceEnvironmentProperty.Builder.() -> Unit = {}):
-    CfnModelCard.InferenceEnvironmentProperty =
-    CfnModelCard.InferenceEnvironmentProperty.Builder().apply(initializer).build()
+public fun buildInferenceEnvironmentProperty(initializer: @AwsCdkDsl CfnModelCard.InferenceEnvironmentProperty.Builder.() -> Unit = {}): CfnModelCard.InferenceEnvironmentProperty = CfnModelCard.InferenceEnvironmentProperty.Builder().apply(initializer).build()

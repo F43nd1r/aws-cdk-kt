@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnMultiplexprogram
 
 @Generated
-public fun buildMultiplexProgramServiceDescriptorProperty(initializer: @AwsCdkDsl
-    CfnMultiplexprogram.MultiplexProgramServiceDescriptorProperty.Builder.() -> Unit = {}):
-    CfnMultiplexprogram.MultiplexProgramServiceDescriptorProperty =
-    CfnMultiplexprogram.MultiplexProgramServiceDescriptorProperty.Builder().apply(initializer).build()
+public fun buildMultiplexProgramServiceDescriptorProperty(initializer: @AwsCdkDsl CfnMultiplexprogram.MultiplexProgramServiceDescriptorProperty.Builder.() -> Unit = {}): CfnMultiplexprogram.MultiplexProgramServiceDescriptorProperty = CfnMultiplexprogram.MultiplexProgramServiceDescriptorProperty.Builder().apply(initializer).build()

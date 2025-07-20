@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.ServiceConnectService
 
 @Generated
-public fun buildServiceConnectService(initializer: @AwsCdkDsl
-    ServiceConnectService.Builder.() -> Unit = {}): ServiceConnectService =
-    ServiceConnectService.Builder().apply(initializer).build()
+public fun buildServiceConnectService(initializer: @AwsCdkDsl ServiceConnectService.Builder.() -> Unit = {}): ServiceConnectService = ServiceConnectService.Builder().apply(initializer).build()

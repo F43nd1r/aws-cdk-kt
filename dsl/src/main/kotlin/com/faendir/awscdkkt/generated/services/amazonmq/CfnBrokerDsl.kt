@@ -16,5 +16,4 @@ public fun Construct.cfnBroker(
 ): CfnBroker = CfnBroker(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnBroker(id: String, initializer: @AwsCdkDsl CfnBroker.Builder.() -> Unit
-    = {}): CfnBroker = CfnBroker.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnBroker(id: String, initializer: @AwsCdkDsl CfnBroker.Builder.() -> Unit = {}): CfnBroker = CfnBroker.Builder.create(this, id).apply(initializer).build()

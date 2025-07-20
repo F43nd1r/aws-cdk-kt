@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.acmpca.CfnCertificateAuthority
 
 @Generated
-public fun buildKeyUsageProperty(initializer: @AwsCdkDsl
-    CfnCertificateAuthority.KeyUsageProperty.Builder.() -> Unit = {}):
-    CfnCertificateAuthority.KeyUsageProperty =
-    CfnCertificateAuthority.KeyUsageProperty.Builder().apply(initializer).build()
+public fun buildKeyUsageProperty(initializer: @AwsCdkDsl CfnCertificateAuthority.KeyUsageProperty.Builder.() -> Unit = {}): CfnCertificateAuthority.KeyUsageProperty = CfnCertificateAuthority.KeyUsageProperty.Builder().apply(initializer).build()

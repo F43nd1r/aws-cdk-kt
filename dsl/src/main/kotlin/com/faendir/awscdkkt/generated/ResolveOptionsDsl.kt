@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.ResolveOptions
 
 @Generated
-public fun buildResolveOptions(initializer: @AwsCdkDsl ResolveOptions.Builder.() -> Unit = {}):
-    ResolveOptions = ResolveOptions.Builder().apply(initializer).build()
+public fun buildResolveOptions(initializer: @AwsCdkDsl ResolveOptions.Builder.() -> Unit = {}): ResolveOptions = ResolveOptions.Builder().apply(initializer).build()

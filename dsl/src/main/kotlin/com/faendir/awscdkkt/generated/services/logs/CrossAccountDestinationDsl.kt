@@ -16,6 +16,4 @@ public fun Construct.crossAccountDestination(
 ): CrossAccountDestination = CrossAccountDestination(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCrossAccountDestination(id: String, initializer: @AwsCdkDsl
-    CrossAccountDestination.Builder.() -> Unit = {}): CrossAccountDestination =
-    CrossAccountDestination.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCrossAccountDestination(id: String, initializer: @AwsCdkDsl CrossAccountDestination.Builder.() -> Unit = {}): CrossAccountDestination = CrossAccountDestination.Builder.create(this, id).apply(initializer).build()

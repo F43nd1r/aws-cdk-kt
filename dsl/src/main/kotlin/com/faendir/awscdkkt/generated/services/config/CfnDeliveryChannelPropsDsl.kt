@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.config.CfnDeliveryChannelProps
 
 @Generated
-public fun buildCfnDeliveryChannelProps(initializer: @AwsCdkDsl
-    CfnDeliveryChannelProps.Builder.() -> Unit = {}): CfnDeliveryChannelProps =
-    CfnDeliveryChannelProps.Builder().apply(initializer).build()
+public fun buildCfnDeliveryChannelProps(initializer: @AwsCdkDsl CfnDeliveryChannelProps.Builder.() -> Unit = {}): CfnDeliveryChannelProps = CfnDeliveryChannelProps.Builder().apply(initializer).build()

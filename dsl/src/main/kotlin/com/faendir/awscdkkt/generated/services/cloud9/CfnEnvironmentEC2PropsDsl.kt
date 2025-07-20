@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloud9.CfnEnvironmentEC2Props
 
 @Generated
-public fun buildCfnEnvironmentEC2Props(initializer: @AwsCdkDsl
-    CfnEnvironmentEC2Props.Builder.() -> Unit = {}): CfnEnvironmentEC2Props =
-    CfnEnvironmentEC2Props.Builder().apply(initializer).build()
+public fun buildCfnEnvironmentEC2Props(initializer: @AwsCdkDsl CfnEnvironmentEC2Props.Builder.() -> Unit = {}): CfnEnvironmentEC2Props = CfnEnvironmentEC2Props.Builder().apply(initializer).build()

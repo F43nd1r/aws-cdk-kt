@@ -16,6 +16,4 @@ public fun Construct.cfnObjectType(
 ): CfnObjectType = CfnObjectType(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnObjectType(id: String, initializer: @AwsCdkDsl
-    CfnObjectType.Builder.() -> Unit = {}): CfnObjectType = CfnObjectType.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnObjectType(id: String, initializer: @AwsCdkDsl CfnObjectType.Builder.() -> Unit = {}): CfnObjectType = CfnObjectType.Builder.create(this, id).apply(initializer).build()

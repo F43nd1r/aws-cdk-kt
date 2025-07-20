@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fsx.LustreFileSystemProps
 
 @Generated
-public fun buildLustreFileSystemProps(initializer: @AwsCdkDsl
-    LustreFileSystemProps.Builder.() -> Unit = {}): LustreFileSystemProps =
-    LustreFileSystemProps.Builder().apply(initializer).build()
+public fun buildLustreFileSystemProps(initializer: @AwsCdkDsl LustreFileSystemProps.Builder.() -> Unit = {}): LustreFileSystemProps = LustreFileSystemProps.Builder().apply(initializer).build()

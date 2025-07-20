@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.ZoneDelegationOptions
 
 @Generated
-public fun buildZoneDelegationOptions(initializer: @AwsCdkDsl
-    ZoneDelegationOptions.Builder.() -> Unit = {}): ZoneDelegationOptions =
-    ZoneDelegationOptions.Builder().apply(initializer).build()
+public fun buildZoneDelegationOptions(initializer: @AwsCdkDsl ZoneDelegationOptions.Builder.() -> Unit = {}): ZoneDelegationOptions = ZoneDelegationOptions.Builder().apply(initializer).build()

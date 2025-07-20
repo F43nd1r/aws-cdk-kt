@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.customerprofiles.CfnEventTrigger
 
 @Generated
-public fun buildPeriodProperty(initializer: @AwsCdkDsl
-    CfnEventTrigger.PeriodProperty.Builder.() -> Unit = {}): CfnEventTrigger.PeriodProperty =
-    CfnEventTrigger.PeriodProperty.Builder().apply(initializer).build()
+public fun buildPeriodProperty(initializer: @AwsCdkDsl CfnEventTrigger.PeriodProperty.Builder.() -> Unit = {}): CfnEventTrigger.PeriodProperty = CfnEventTrigger.PeriodProperty.Builder().apply(initializer).build()

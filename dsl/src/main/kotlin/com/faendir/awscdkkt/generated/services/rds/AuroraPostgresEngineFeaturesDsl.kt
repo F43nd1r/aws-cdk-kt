@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.AuroraPostgresEngineFeatures
 
 @Generated
-public fun buildAuroraPostgresEngineFeatures(initializer: @AwsCdkDsl
-    AuroraPostgresEngineFeatures.Builder.() -> Unit = {}): AuroraPostgresEngineFeatures =
-    AuroraPostgresEngineFeatures.Builder().apply(initializer).build()
+public fun buildAuroraPostgresEngineFeatures(initializer: @AwsCdkDsl AuroraPostgresEngineFeatures.Builder.() -> Unit = {}): AuroraPostgresEngineFeatures = AuroraPostgresEngineFeatures.Builder().apply(initializer).build()

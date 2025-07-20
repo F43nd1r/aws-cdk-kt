@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnGameSessionQueue
 
 @Generated
-public fun buildGameSessionQueueDestinationProperty(initializer: @AwsCdkDsl
-    CfnGameSessionQueue.GameSessionQueueDestinationProperty.Builder.() -> Unit = {}):
-    CfnGameSessionQueue.GameSessionQueueDestinationProperty =
-    CfnGameSessionQueue.GameSessionQueueDestinationProperty.Builder().apply(initializer).build()
+public fun buildGameSessionQueueDestinationProperty(initializer: @AwsCdkDsl CfnGameSessionQueue.GameSessionQueueDestinationProperty.Builder.() -> Unit = {}): CfnGameSessionQueue.GameSessionQueueDestinationProperty = CfnGameSessionQueue.GameSessionQueueDestinationProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnClientVpnAuthorizationRuleProps
 
 @Generated
-public fun buildCfnClientVpnAuthorizationRuleProps(initializer: @AwsCdkDsl
-    CfnClientVpnAuthorizationRuleProps.Builder.() -> Unit = {}): CfnClientVpnAuthorizationRuleProps
-    = CfnClientVpnAuthorizationRuleProps.Builder().apply(initializer).build()
+public fun buildCfnClientVpnAuthorizationRuleProps(initializer: @AwsCdkDsl CfnClientVpnAuthorizationRuleProps.Builder.() -> Unit = {}): CfnClientVpnAuthorizationRuleProps = CfnClientVpnAuthorizationRuleProps.Builder().apply(initializer).build()

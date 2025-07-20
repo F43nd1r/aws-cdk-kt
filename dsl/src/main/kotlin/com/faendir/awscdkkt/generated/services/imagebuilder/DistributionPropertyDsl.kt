@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.imagebuilder.CfnDistributionConfiguration
 
 @Generated
-public fun buildDistributionProperty(initializer: @AwsCdkDsl
-    CfnDistributionConfiguration.DistributionProperty.Builder.() -> Unit = {}):
-    CfnDistributionConfiguration.DistributionProperty =
-    CfnDistributionConfiguration.DistributionProperty.Builder().apply(initializer).build()
+public fun buildDistributionProperty(initializer: @AwsCdkDsl CfnDistributionConfiguration.DistributionProperty.Builder.() -> Unit = {}): CfnDistributionConfiguration.DistributionProperty = CfnDistributionConfiguration.DistributionProperty.Builder().apply(initializer).build()

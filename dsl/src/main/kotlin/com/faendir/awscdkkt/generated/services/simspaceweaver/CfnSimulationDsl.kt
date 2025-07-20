@@ -16,6 +16,4 @@ public fun Construct.cfnSimulation(
 ): CfnSimulation = CfnSimulation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSimulation(id: String, initializer: @AwsCdkDsl
-    CfnSimulation.Builder.() -> Unit = {}): CfnSimulation = CfnSimulation.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnSimulation(id: String, initializer: @AwsCdkDsl CfnSimulation.Builder.() -> Unit = {}): CfnSimulation = CfnSimulation.Builder.create(this, id).apply(initializer).build()

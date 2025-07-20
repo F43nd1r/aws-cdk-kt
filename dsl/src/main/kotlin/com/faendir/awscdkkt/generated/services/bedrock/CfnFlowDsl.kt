@@ -16,5 +16,4 @@ public fun Construct.cfnFlow(
 ): CfnFlow = CfnFlow(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnFlow(id: String, initializer: @AwsCdkDsl CfnFlow.Builder.() -> Unit =
-    {}): CfnFlow = CfnFlow.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnFlow(id: String, initializer: @AwsCdkDsl CfnFlow.Builder.() -> Unit = {}): CfnFlow = CfnFlow.Builder.create(this, id).apply(initializer).build()

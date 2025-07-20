@@ -16,6 +16,4 @@ public fun Construct.secretRotation(
 ): SecretRotation = SecretRotation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildSecretRotation(id: String, initializer: @AwsCdkDsl
-    SecretRotation.Builder.() -> Unit = {}): SecretRotation = SecretRotation.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildSecretRotation(id: String, initializer: @AwsCdkDsl SecretRotation.Builder.() -> Unit = {}): SecretRotation = SecretRotation.Builder.create(this, id).apply(initializer).build()

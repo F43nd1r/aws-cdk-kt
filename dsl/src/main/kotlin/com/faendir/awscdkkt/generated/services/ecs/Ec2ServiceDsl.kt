@@ -16,6 +16,4 @@ public fun Construct.ec2Service(
 ): Ec2Service = Ec2Service(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEc2Service(id: String, initializer: @AwsCdkDsl
-    Ec2Service.Builder.() -> Unit = {}): Ec2Service = Ec2Service.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildEc2Service(id: String, initializer: @AwsCdkDsl Ec2Service.Builder.() -> Unit = {}): Ec2Service = Ec2Service.Builder.create(this, id).apply(initializer).build()

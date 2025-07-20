@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildFieldSortOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.FieldSortOptionsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.FieldSortOptionsProperty =
-    CfnTemplate.FieldSortOptionsProperty.Builder().apply(initializer).build()
+public fun buildFieldSortOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.FieldSortOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.FieldSortOptionsProperty = CfnTemplate.FieldSortOptionsProperty.Builder().apply(initializer).build()

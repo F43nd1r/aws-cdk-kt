@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3express.CfnAccessPoint
 
 @Generated
-public fun buildPublicAccessBlockConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAccessPoint.PublicAccessBlockConfigurationProperty.Builder.() -> Unit = {}):
-    CfnAccessPoint.PublicAccessBlockConfigurationProperty =
-    CfnAccessPoint.PublicAccessBlockConfigurationProperty.Builder().apply(initializer).build()
+public fun buildPublicAccessBlockConfigurationProperty(initializer: @AwsCdkDsl CfnAccessPoint.PublicAccessBlockConfigurationProperty.Builder.() -> Unit = {}): CfnAccessPoint.PublicAccessBlockConfigurationProperty = CfnAccessPoint.PublicAccessBlockConfigurationProperty.Builder().apply(initializer).build()

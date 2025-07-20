@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.CfnSchedulingPolicyProps
 
 @Generated
-public fun buildCfnSchedulingPolicyProps(initializer: @AwsCdkDsl
-    CfnSchedulingPolicyProps.Builder.() -> Unit = {}): CfnSchedulingPolicyProps =
-    CfnSchedulingPolicyProps.Builder().apply(initializer).build()
+public fun buildCfnSchedulingPolicyProps(initializer: @AwsCdkDsl CfnSchedulingPolicyProps.Builder.() -> Unit = {}): CfnSchedulingPolicyProps = CfnSchedulingPolicyProps.Builder().apply(initializer).build()

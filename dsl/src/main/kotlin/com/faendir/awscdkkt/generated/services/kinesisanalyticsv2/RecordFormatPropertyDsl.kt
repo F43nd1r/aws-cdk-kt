@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisanalyticsv2.CfnApplicationReferenceDataSource
 
 @Generated
-public fun buildRecordFormatProperty(initializer: @AwsCdkDsl
-    CfnApplicationReferenceDataSource.RecordFormatProperty.Builder.() -> Unit = {}):
-    CfnApplicationReferenceDataSource.RecordFormatProperty =
-    CfnApplicationReferenceDataSource.RecordFormatProperty.Builder().apply(initializer).build()
+public fun buildRecordFormatProperty(initializer: @AwsCdkDsl CfnApplicationReferenceDataSource.RecordFormatProperty.Builder.() -> Unit = {}): CfnApplicationReferenceDataSource.RecordFormatProperty = CfnApplicationReferenceDataSource.RecordFormatProperty.Builder().apply(initializer).build()

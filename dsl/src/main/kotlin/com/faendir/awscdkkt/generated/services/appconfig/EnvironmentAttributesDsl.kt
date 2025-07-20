@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appconfig.EnvironmentAttributes
 
 @Generated
-public fun buildEnvironmentAttributes(initializer: @AwsCdkDsl
-    EnvironmentAttributes.Builder.() -> Unit = {}): EnvironmentAttributes =
-    EnvironmentAttributes.Builder().apply(initializer).build()
+public fun buildEnvironmentAttributes(initializer: @AwsCdkDsl EnvironmentAttributes.Builder.() -> Unit = {}): EnvironmentAttributes = EnvironmentAttributes.Builder().apply(initializer).build()

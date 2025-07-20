@@ -16,6 +16,4 @@ public fun Construct.cfnApiMapping(
 ): CfnApiMapping = CfnApiMapping(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnApiMapping(id: String, initializer: @AwsCdkDsl
-    CfnApiMapping.Builder.() -> Unit = {}): CfnApiMapping = CfnApiMapping.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnApiMapping(id: String, initializer: @AwsCdkDsl CfnApiMapping.Builder.() -> Unit = {}): CfnApiMapping = CfnApiMapping.Builder.create(this, id).apply(initializer).build()

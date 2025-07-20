@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kendra.CfnDataSource
 
 @Generated
-public fun buildOneDriveConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.OneDriveConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDataSource.OneDriveConfigurationProperty =
-    CfnDataSource.OneDriveConfigurationProperty.Builder().apply(initializer).build()
+public fun buildOneDriveConfigurationProperty(initializer: @AwsCdkDsl CfnDataSource.OneDriveConfigurationProperty.Builder.() -> Unit = {}): CfnDataSource.OneDriveConfigurationProperty = CfnDataSource.OneDriveConfigurationProperty.Builder().apply(initializer).build()

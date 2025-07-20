@@ -16,6 +16,4 @@ public fun Construct.cfnVpcConnector(
 ): CfnVpcConnector = CfnVpcConnector(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVpcConnector(id: String, initializer: @AwsCdkDsl
-    CfnVpcConnector.Builder.() -> Unit = {}): CfnVpcConnector = CfnVpcConnector.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnVpcConnector(id: String, initializer: @AwsCdkDsl CfnVpcConnector.Builder.() -> Unit = {}): CfnVpcConnector = CfnVpcConnector.Builder.create(this, id).apply(initializer).build()

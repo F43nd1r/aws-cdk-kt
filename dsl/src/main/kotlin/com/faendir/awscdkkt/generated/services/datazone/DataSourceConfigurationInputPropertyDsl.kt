@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnDataSource
 
 @Generated
-public fun buildDataSourceConfigurationInputProperty(initializer: @AwsCdkDsl
-    CfnDataSource.DataSourceConfigurationInputProperty.Builder.() -> Unit = {}):
-    CfnDataSource.DataSourceConfigurationInputProperty =
-    CfnDataSource.DataSourceConfigurationInputProperty.Builder().apply(initializer).build()
+public fun buildDataSourceConfigurationInputProperty(initializer: @AwsCdkDsl CfnDataSource.DataSourceConfigurationInputProperty.Builder.() -> Unit = {}): CfnDataSource.DataSourceConfigurationInputProperty = CfnDataSource.DataSourceConfigurationInputProperty.Builder().apply(initializer).build()

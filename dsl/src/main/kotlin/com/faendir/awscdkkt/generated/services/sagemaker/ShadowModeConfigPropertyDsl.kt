@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnInferenceExperiment
 
 @Generated
-public fun buildShadowModeConfigProperty(initializer: @AwsCdkDsl
-    CfnInferenceExperiment.ShadowModeConfigProperty.Builder.() -> Unit = {}):
-    CfnInferenceExperiment.ShadowModeConfigProperty =
-    CfnInferenceExperiment.ShadowModeConfigProperty.Builder().apply(initializer).build()
+public fun buildShadowModeConfigProperty(initializer: @AwsCdkDsl CfnInferenceExperiment.ShadowModeConfigProperty.Builder.() -> Unit = {}): CfnInferenceExperiment.ShadowModeConfigProperty = CfnInferenceExperiment.ShadowModeConfigProperty.Builder().apply(initializer).build()

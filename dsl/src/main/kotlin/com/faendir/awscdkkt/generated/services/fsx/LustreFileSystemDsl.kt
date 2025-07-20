@@ -16,6 +16,4 @@ public fun Construct.lustreFileSystem(
 ): LustreFileSystem = LustreFileSystem(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildLustreFileSystem(id: String, initializer: @AwsCdkDsl
-    LustreFileSystem.Builder.() -> Unit = {}): LustreFileSystem =
-    LustreFileSystem.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildLustreFileSystem(id: String, initializer: @AwsCdkDsl LustreFileSystem.Builder.() -> Unit = {}): LustreFileSystem = LustreFileSystem.Builder.create(this, id).apply(initializer).build()

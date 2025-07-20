@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.workspaces.CfnConnectionAlias
 
 @Generated
-public fun buildConnectionAliasAssociationProperty(initializer: @AwsCdkDsl
-    CfnConnectionAlias.ConnectionAliasAssociationProperty.Builder.() -> Unit = {}):
-    CfnConnectionAlias.ConnectionAliasAssociationProperty =
-    CfnConnectionAlias.ConnectionAliasAssociationProperty.Builder().apply(initializer).build()
+public fun buildConnectionAliasAssociationProperty(initializer: @AwsCdkDsl CfnConnectionAlias.ConnectionAliasAssociationProperty.Builder.() -> Unit = {}): CfnConnectionAlias.ConnectionAliasAssociationProperty = CfnConnectionAlias.ConnectionAliasAssociationProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.pipelines.ProduceActionOptions
 
 @Generated
-public fun buildProduceActionOptions(initializer: @AwsCdkDsl ProduceActionOptions.Builder.() -> Unit
-    = {}): ProduceActionOptions = ProduceActionOptions.Builder().apply(initializer).build()
+public fun buildProduceActionOptions(initializer: @AwsCdkDsl ProduceActionOptions.Builder.() -> Unit = {}): ProduceActionOptions = ProduceActionOptions.Builder().apply(initializer).build()

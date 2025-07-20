@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.CallAwsServiceCrossRegionProps
 
 @Generated
-public fun buildCallAwsServiceCrossRegionProps(initializer: @AwsCdkDsl
-    CallAwsServiceCrossRegionProps.Builder.() -> Unit = {}): CallAwsServiceCrossRegionProps =
-    CallAwsServiceCrossRegionProps.Builder().apply(initializer).build()
+public fun buildCallAwsServiceCrossRegionProps(initializer: @AwsCdkDsl CallAwsServiceCrossRegionProps.Builder.() -> Unit = {}): CallAwsServiceCrossRegionProps = CallAwsServiceCrossRegionProps.Builder().apply(initializer).build()

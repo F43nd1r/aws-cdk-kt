@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildKPIActualValueConditionalFormattingProperty(initializer: @AwsCdkDsl
-    CfnTemplate.KPIActualValueConditionalFormattingProperty.Builder.() -> Unit = {}):
-    CfnTemplate.KPIActualValueConditionalFormattingProperty =
-    CfnTemplate.KPIActualValueConditionalFormattingProperty.Builder().apply(initializer).build()
+public fun buildKPIActualValueConditionalFormattingProperty(initializer: @AwsCdkDsl CfnTemplate.KPIActualValueConditionalFormattingProperty.Builder.() -> Unit = {}): CfnTemplate.KPIActualValueConditionalFormattingProperty = CfnTemplate.KPIActualValueConditionalFormattingProperty.Builder().apply(initializer).build()

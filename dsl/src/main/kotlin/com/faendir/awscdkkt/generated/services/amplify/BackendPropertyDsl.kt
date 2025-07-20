@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.amplify.CfnBranch
 
 @Generated
-public fun buildBackendProperty(initializer: @AwsCdkDsl CfnBranch.BackendProperty.Builder.() -> Unit
-    = {}): CfnBranch.BackendProperty =
-    CfnBranch.BackendProperty.Builder().apply(initializer).build()
+public fun buildBackendProperty(initializer: @AwsCdkDsl CfnBranch.BackendProperty.Builder.() -> Unit = {}): CfnBranch.BackendProperty = CfnBranch.BackendProperty.Builder().apply(initializer).build()

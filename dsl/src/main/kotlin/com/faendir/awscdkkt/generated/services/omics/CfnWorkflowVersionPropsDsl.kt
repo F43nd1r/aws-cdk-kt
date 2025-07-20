@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.omics.CfnWorkflowVersionProps
 
 @Generated
-public fun buildCfnWorkflowVersionProps(initializer: @AwsCdkDsl
-    CfnWorkflowVersionProps.Builder.() -> Unit = {}): CfnWorkflowVersionProps =
-    CfnWorkflowVersionProps.Builder().apply(initializer).build()
+public fun buildCfnWorkflowVersionProps(initializer: @AwsCdkDsl CfnWorkflowVersionProps.Builder.() -> Unit = {}): CfnWorkflowVersionProps = CfnWorkflowVersionProps.Builder().apply(initializer).build()

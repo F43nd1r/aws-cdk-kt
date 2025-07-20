@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.MeshServiceDiscovery
 
 @Generated
-public fun buildMeshServiceDiscovery(initializer: @AwsCdkDsl MeshServiceDiscovery.Builder.() -> Unit
-    = {}): MeshServiceDiscovery = MeshServiceDiscovery.Builder().apply(initializer).build()
+public fun buildMeshServiceDiscovery(initializer: @AwsCdkDsl MeshServiceDiscovery.Builder.() -> Unit = {}): MeshServiceDiscovery = MeshServiceDiscovery.Builder().apply(initializer).build()

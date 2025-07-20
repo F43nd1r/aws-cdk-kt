@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnRoute
 
 @Generated
-public fun buildWeightedTargetProperty(initializer: @AwsCdkDsl
-    CfnRoute.WeightedTargetProperty.Builder.() -> Unit = {}): CfnRoute.WeightedTargetProperty =
-    CfnRoute.WeightedTargetProperty.Builder().apply(initializer).build()
+public fun buildWeightedTargetProperty(initializer: @AwsCdkDsl CfnRoute.WeightedTargetProperty.Builder.() -> Unit = {}): CfnRoute.WeightedTargetProperty = CfnRoute.WeightedTargetProperty.Builder().apply(initializer).build()

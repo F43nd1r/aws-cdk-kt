@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticache.CfnGlobalReplicationGroup
 
 @Generated
-public fun buildGlobalReplicationGroupMemberProperty(initializer: @AwsCdkDsl
-    CfnGlobalReplicationGroup.GlobalReplicationGroupMemberProperty.Builder.() -> Unit = {}):
-    CfnGlobalReplicationGroup.GlobalReplicationGroupMemberProperty =
-    CfnGlobalReplicationGroup.GlobalReplicationGroupMemberProperty.Builder().apply(initializer).build()
+public fun buildGlobalReplicationGroupMemberProperty(initializer: @AwsCdkDsl CfnGlobalReplicationGroup.GlobalReplicationGroupMemberProperty.Builder.() -> Unit = {}): CfnGlobalReplicationGroup.GlobalReplicationGroupMemberProperty = CfnGlobalReplicationGroup.GlobalReplicationGroupMemberProperty.Builder().apply(initializer).build()

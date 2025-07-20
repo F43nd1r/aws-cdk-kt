@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.ivs.CfnStageProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnStage(id: String, initializer: @AwsCdkDsl CfnStage.() -> Unit = {}):
-    CfnStage = CfnStage(this, id).apply(initializer)
+public fun Construct.cfnStage(id: String, initializer: @AwsCdkDsl CfnStage.() -> Unit = {}): CfnStage = CfnStage(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnStage(
@@ -20,5 +19,4 @@ public fun Construct.cfnStage(
 ): CfnStage = CfnStage(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnStage(id: String, initializer: @AwsCdkDsl CfnStage.Builder.() -> Unit =
-    {}): CfnStage = CfnStage.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnStage(id: String, initializer: @AwsCdkDsl CfnStage.Builder.() -> Unit = {}): CfnStage = CfnStage.Builder.create(this, id).apply(initializer).build()

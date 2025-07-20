@@ -16,6 +16,4 @@ public fun Construct.cfnHoursOfOperation(
 ): CfnHoursOfOperation = CfnHoursOfOperation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnHoursOfOperation(id: String, initializer: @AwsCdkDsl
-    CfnHoursOfOperation.Builder.() -> Unit = {}): CfnHoursOfOperation =
-    CfnHoursOfOperation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnHoursOfOperation(id: String, initializer: @AwsCdkDsl CfnHoursOfOperation.Builder.() -> Unit = {}): CfnHoursOfOperation = CfnHoursOfOperation.Builder.create(this, id).apply(initializer).build()

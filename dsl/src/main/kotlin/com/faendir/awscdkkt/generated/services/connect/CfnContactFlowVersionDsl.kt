@@ -16,6 +16,4 @@ public fun Construct.cfnContactFlowVersion(
 ): CfnContactFlowVersion = CfnContactFlowVersion(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnContactFlowVersion(id: String, initializer: @AwsCdkDsl
-    CfnContactFlowVersion.Builder.() -> Unit = {}): CfnContactFlowVersion =
-    CfnContactFlowVersion.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnContactFlowVersion(id: String, initializer: @AwsCdkDsl CfnContactFlowVersion.Builder.() -> Unit = {}): CfnContactFlowVersion = CfnContactFlowVersion.Builder.create(this, id).apply(initializer).build()

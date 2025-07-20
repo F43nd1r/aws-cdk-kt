@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.customerprofiles.CfnSegmentDefinition
 
 @Generated
-public fun buildProfileDimensionProperty(initializer: @AwsCdkDsl
-    CfnSegmentDefinition.ProfileDimensionProperty.Builder.() -> Unit = {}):
-    CfnSegmentDefinition.ProfileDimensionProperty =
-    CfnSegmentDefinition.ProfileDimensionProperty.Builder().apply(initializer).build()
+public fun buildProfileDimensionProperty(initializer: @AwsCdkDsl CfnSegmentDefinition.ProfileDimensionProperty.Builder.() -> Unit = {}): CfnSegmentDefinition.ProfileDimensionProperty = CfnSegmentDefinition.ProfileDimensionProperty.Builder().apply(initializer).build()

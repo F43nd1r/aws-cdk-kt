@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apptest.CfnTestCase
 
 @Generated
-public fun buildBatchProperty(initializer: @AwsCdkDsl CfnTestCase.BatchProperty.Builder.() -> Unit =
-    {}): CfnTestCase.BatchProperty = CfnTestCase.BatchProperty.Builder().apply(initializer).build()
+public fun buildBatchProperty(initializer: @AwsCdkDsl CfnTestCase.BatchProperty.Builder.() -> Unit = {}): CfnTestCase.BatchProperty = CfnTestCase.BatchProperty.Builder().apply(initializer).build()

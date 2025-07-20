@@ -16,6 +16,4 @@ public fun Construct.cfnBucketPolicy(
 ): CfnBucketPolicy = CfnBucketPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnBucketPolicy(id: String, initializer: @AwsCdkDsl
-    CfnBucketPolicy.Builder.() -> Unit = {}): CfnBucketPolicy = CfnBucketPolicy.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnBucketPolicy(id: String, initializer: @AwsCdkDsl CfnBucketPolicy.Builder.() -> Unit = {}): CfnBucketPolicy = CfnBucketPolicy.Builder.create(this, id).apply(initializer).build()

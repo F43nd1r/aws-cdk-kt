@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bcmdataexports.CfnExport
 
 @Generated
-public fun buildExportProperty(initializer: @AwsCdkDsl CfnExport.ExportProperty.Builder.() -> Unit =
-    {}): CfnExport.ExportProperty = CfnExport.ExportProperty.Builder().apply(initializer).build()
+public fun buildExportProperty(initializer: @AwsCdkDsl CfnExport.ExportProperty.Builder.() -> Unit = {}): CfnExport.ExportProperty = CfnExport.ExportProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EventBridgeSchedulerCreateScheduleTaskJsonPathProps
 
 @Generated
-public fun buildEventBridgeSchedulerCreateScheduleTaskJsonPathProps(initializer: @AwsCdkDsl
-    EventBridgeSchedulerCreateScheduleTaskJsonPathProps.Builder.() -> Unit = {}):
-    EventBridgeSchedulerCreateScheduleTaskJsonPathProps =
-    EventBridgeSchedulerCreateScheduleTaskJsonPathProps.Builder().apply(initializer).build()
+public fun buildEventBridgeSchedulerCreateScheduleTaskJsonPathProps(initializer: @AwsCdkDsl EventBridgeSchedulerCreateScheduleTaskJsonPathProps.Builder.() -> Unit = {}): EventBridgeSchedulerCreateScheduleTaskJsonPathProps = EventBridgeSchedulerCreateScheduleTaskJsonPathProps.Builder().apply(initializer).build()

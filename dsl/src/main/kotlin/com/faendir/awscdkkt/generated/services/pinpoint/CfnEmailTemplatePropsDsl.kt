@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnEmailTemplateProps
 
 @Generated
-public fun buildCfnEmailTemplateProps(initializer: @AwsCdkDsl
-    CfnEmailTemplateProps.Builder.() -> Unit = {}): CfnEmailTemplateProps =
-    CfnEmailTemplateProps.Builder().apply(initializer).build()
+public fun buildCfnEmailTemplateProps(initializer: @AwsCdkDsl CfnEmailTemplateProps.Builder.() -> Unit = {}): CfnEmailTemplateProps = CfnEmailTemplateProps.Builder().apply(initializer).build()

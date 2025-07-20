@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisanalytics.CfnApplicationV2
 
 @Generated
-public fun buildZeppelinApplicationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnApplicationV2.ZeppelinApplicationConfigurationProperty.Builder.() -> Unit = {}):
-    CfnApplicationV2.ZeppelinApplicationConfigurationProperty =
-    CfnApplicationV2.ZeppelinApplicationConfigurationProperty.Builder().apply(initializer).build()
+public fun buildZeppelinApplicationConfigurationProperty(initializer: @AwsCdkDsl CfnApplicationV2.ZeppelinApplicationConfigurationProperty.Builder.() -> Unit = {}): CfnApplicationV2.ZeppelinApplicationConfigurationProperty = CfnApplicationV2.ZeppelinApplicationConfigurationProperty.Builder().apply(initializer).build()

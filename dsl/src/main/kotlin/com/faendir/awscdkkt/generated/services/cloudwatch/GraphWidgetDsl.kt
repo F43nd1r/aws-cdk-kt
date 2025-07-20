@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.GraphWidget
 
 @Generated
-public fun buildGraphWidget(initializer: @AwsCdkDsl GraphWidget.Builder.() -> Unit = {}):
-    GraphWidget = GraphWidget.Builder.create().apply(initializer).build()
+public fun buildGraphWidget(initializer: @AwsCdkDsl GraphWidget.Builder.() -> Unit = {}): GraphWidget = GraphWidget.Builder.create().apply(initializer).build()

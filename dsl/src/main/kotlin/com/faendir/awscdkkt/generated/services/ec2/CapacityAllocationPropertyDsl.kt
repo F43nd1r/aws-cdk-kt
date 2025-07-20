@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnCapacityReservation
 
 @Generated
-public fun buildCapacityAllocationProperty(initializer: @AwsCdkDsl
-    CfnCapacityReservation.CapacityAllocationProperty.Builder.() -> Unit = {}):
-    CfnCapacityReservation.CapacityAllocationProperty =
-    CfnCapacityReservation.CapacityAllocationProperty.Builder().apply(initializer).build()
+public fun buildCapacityAllocationProperty(initializer: @AwsCdkDsl CfnCapacityReservation.CapacityAllocationProperty.Builder.() -> Unit = {}): CfnCapacityReservation.CapacityAllocationProperty = CfnCapacityReservation.CapacityAllocationProperty.Builder().apply(initializer).build()

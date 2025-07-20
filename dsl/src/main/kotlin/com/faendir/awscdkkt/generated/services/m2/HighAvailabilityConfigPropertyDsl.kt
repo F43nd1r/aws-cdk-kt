@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.m2.CfnEnvironment
 
 @Generated
-public fun buildHighAvailabilityConfigProperty(initializer: @AwsCdkDsl
-    CfnEnvironment.HighAvailabilityConfigProperty.Builder.() -> Unit = {}):
-    CfnEnvironment.HighAvailabilityConfigProperty =
-    CfnEnvironment.HighAvailabilityConfigProperty.Builder().apply(initializer).build()
+public fun buildHighAvailabilityConfigProperty(initializer: @AwsCdkDsl CfnEnvironment.HighAvailabilityConfigProperty.Builder.() -> Unit = {}): CfnEnvironment.HighAvailabilityConfigProperty = CfnEnvironment.HighAvailabilityConfigProperty.Builder().apply(initializer).build()

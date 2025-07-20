@@ -16,6 +16,4 @@ public fun Construct.cfnEnabledBaseline(
 ): CfnEnabledBaseline = CfnEnabledBaseline(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEnabledBaseline(id: String, initializer: @AwsCdkDsl
-    CfnEnabledBaseline.Builder.() -> Unit = {}): CfnEnabledBaseline =
-    CfnEnabledBaseline.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnEnabledBaseline(id: String, initializer: @AwsCdkDsl CfnEnabledBaseline.Builder.() -> Unit = {}): CfnEnabledBaseline = CfnEnabledBaseline.Builder.create(this, id).apply(initializer).build()

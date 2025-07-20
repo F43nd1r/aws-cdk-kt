@@ -16,6 +16,4 @@ public fun Construct.cfnChannelPolicy(
 ): CfnChannelPolicy = CfnChannelPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnChannelPolicy(id: String, initializer: @AwsCdkDsl
-    CfnChannelPolicy.Builder.() -> Unit = {}): CfnChannelPolicy =
-    CfnChannelPolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnChannelPolicy(id: String, initializer: @AwsCdkDsl CfnChannelPolicy.Builder.() -> Unit = {}): CfnChannelPolicy = CfnChannelPolicy.Builder.create(this, id).apply(initializer).build()

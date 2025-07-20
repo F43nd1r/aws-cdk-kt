@@ -16,6 +16,4 @@ public fun Construct.cfnIdMappingTable(
 ): CfnIdMappingTable = CfnIdMappingTable(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnIdMappingTable(id: String, initializer: @AwsCdkDsl
-    CfnIdMappingTable.Builder.() -> Unit = {}): CfnIdMappingTable =
-    CfnIdMappingTable.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnIdMappingTable(id: String, initializer: @AwsCdkDsl CfnIdMappingTable.Builder.() -> Unit = {}): CfnIdMappingTable = CfnIdMappingTable.Builder.create(this, id).apply(initializer).build()

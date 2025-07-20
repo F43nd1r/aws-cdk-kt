@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.QueryStringProps
 
 @Generated
-public fun buildQueryStringProps(initializer: @AwsCdkDsl QueryStringProps.Builder.() -> Unit = {}):
-    QueryStringProps = QueryStringProps.Builder().apply(initializer).build()
+public fun buildQueryStringProps(initializer: @AwsCdkDsl QueryStringProps.Builder.() -> Unit = {}): QueryStringProps = QueryStringProps.Builder().apply(initializer).build()

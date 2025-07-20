@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnDistribution
 
 @Generated
-public fun buildStringSchemaProperty(initializer: @AwsCdkDsl
-    CfnDistribution.StringSchemaProperty.Builder.() -> Unit = {}):
-    CfnDistribution.StringSchemaProperty =
-    CfnDistribution.StringSchemaProperty.Builder().apply(initializer).build()
+public fun buildStringSchemaProperty(initializer: @AwsCdkDsl CfnDistribution.StringSchemaProperty.Builder.() -> Unit = {}): CfnDistribution.StringSchemaProperty = CfnDistribution.StringSchemaProperty.Builder().apply(initializer).build()

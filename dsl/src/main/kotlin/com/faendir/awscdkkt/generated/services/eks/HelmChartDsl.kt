@@ -16,5 +16,4 @@ public fun Construct.helmChart(
 ): HelmChart = HelmChart(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildHelmChart(id: String, initializer: @AwsCdkDsl HelmChart.Builder.() -> Unit
-    = {}): HelmChart = HelmChart.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildHelmChart(id: String, initializer: @AwsCdkDsl HelmChart.Builder.() -> Unit = {}): HelmChart = HelmChart.Builder.create(this, id).apply(initializer).build()

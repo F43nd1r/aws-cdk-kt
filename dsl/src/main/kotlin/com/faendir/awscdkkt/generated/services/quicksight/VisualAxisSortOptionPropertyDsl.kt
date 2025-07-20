@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
-public fun buildVisualAxisSortOptionProperty(initializer: @AwsCdkDsl
-    CfnDashboard.VisualAxisSortOptionProperty.Builder.() -> Unit = {}):
-    CfnDashboard.VisualAxisSortOptionProperty =
-    CfnDashboard.VisualAxisSortOptionProperty.Builder().apply(initializer).build()
+public fun buildVisualAxisSortOptionProperty(initializer: @AwsCdkDsl CfnDashboard.VisualAxisSortOptionProperty.Builder.() -> Unit = {}): CfnDashboard.VisualAxisSortOptionProperty = CfnDashboard.VisualAxisSortOptionProperty.Builder().apply(initializer).build()

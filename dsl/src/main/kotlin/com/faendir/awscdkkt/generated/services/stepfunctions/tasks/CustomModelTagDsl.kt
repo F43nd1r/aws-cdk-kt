@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.CustomModelTag
 
 @Generated
-public fun buildCustomModelTag(initializer: @AwsCdkDsl CustomModelTag.Builder.() -> Unit = {}):
-    CustomModelTag = CustomModelTag.Builder().apply(initializer).build()
+public fun buildCustomModelTag(initializer: @AwsCdkDsl CustomModelTag.Builder.() -> Unit = {}): CustomModelTag = CustomModelTag.Builder().apply(initializer).build()

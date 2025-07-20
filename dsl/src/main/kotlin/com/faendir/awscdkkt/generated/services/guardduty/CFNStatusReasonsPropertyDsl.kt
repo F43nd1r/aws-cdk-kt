@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.guardduty.CfnMalwareProtectionPlan
 
 @Generated
-public fun buildCFNStatusReasonsProperty(initializer: @AwsCdkDsl
-    CfnMalwareProtectionPlan.CFNStatusReasonsProperty.Builder.() -> Unit = {}):
-    CfnMalwareProtectionPlan.CFNStatusReasonsProperty =
-    CfnMalwareProtectionPlan.CFNStatusReasonsProperty.Builder().apply(initializer).build()
+public fun buildCFNStatusReasonsProperty(initializer: @AwsCdkDsl CfnMalwareProtectionPlan.CFNStatusReasonsProperty.Builder.() -> Unit = {}): CfnMalwareProtectionPlan.CFNStatusReasonsProperty = CfnMalwareProtectionPlan.CFNStatusReasonsProperty.Builder().apply(initializer).build()

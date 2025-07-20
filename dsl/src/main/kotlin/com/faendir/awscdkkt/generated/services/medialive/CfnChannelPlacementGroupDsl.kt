@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.medialive.CfnChannelPlacementGroupProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnChannelPlacementGroup(id: String, initializer: @AwsCdkDsl
-    CfnChannelPlacementGroup.() -> Unit = {}): CfnChannelPlacementGroup =
-    CfnChannelPlacementGroup(this, id).apply(initializer)
+public fun Construct.cfnChannelPlacementGroup(id: String, initializer: @AwsCdkDsl CfnChannelPlacementGroup.() -> Unit = {}): CfnChannelPlacementGroup = CfnChannelPlacementGroup(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnChannelPlacementGroup(
@@ -21,6 +19,4 @@ public fun Construct.cfnChannelPlacementGroup(
 ): CfnChannelPlacementGroup = CfnChannelPlacementGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnChannelPlacementGroup(id: String, initializer: @AwsCdkDsl
-    CfnChannelPlacementGroup.Builder.() -> Unit = {}): CfnChannelPlacementGroup =
-    CfnChannelPlacementGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnChannelPlacementGroup(id: String, initializer: @AwsCdkDsl CfnChannelPlacementGroup.Builder.() -> Unit = {}): CfnChannelPlacementGroup = CfnChannelPlacementGroup.Builder.create(this, id).apply(initializer).build()

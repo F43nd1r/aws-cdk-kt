@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.targets.KinesisStreamProps
 
 @Generated
-public fun buildKinesisStreamProps(initializer: @AwsCdkDsl KinesisStreamProps.Builder.() -> Unit =
-    {}): KinesisStreamProps = KinesisStreamProps.Builder().apply(initializer).build()
+public fun buildKinesisStreamProps(initializer: @AwsCdkDsl KinesisStreamProps.Builder.() -> Unit = {}): KinesisStreamProps = KinesisStreamProps.Builder().apply(initializer).build()

@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.appconfig.CfnExtensionAssociationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnExtensionAssociation(id: String, initializer: @AwsCdkDsl
-    CfnExtensionAssociation.() -> Unit = {}): CfnExtensionAssociation =
-    CfnExtensionAssociation(this, id).apply(initializer)
+public fun Construct.cfnExtensionAssociation(id: String, initializer: @AwsCdkDsl CfnExtensionAssociation.() -> Unit = {}): CfnExtensionAssociation = CfnExtensionAssociation(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnExtensionAssociation(
@@ -21,6 +19,4 @@ public fun Construct.cfnExtensionAssociation(
 ): CfnExtensionAssociation = CfnExtensionAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnExtensionAssociation(id: String, initializer: @AwsCdkDsl
-    CfnExtensionAssociation.Builder.() -> Unit = {}): CfnExtensionAssociation =
-    CfnExtensionAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnExtensionAssociation(id: String, initializer: @AwsCdkDsl CfnExtensionAssociation.Builder.() -> Unit = {}): CfnExtensionAssociation = CfnExtensionAssociation.Builder.create(this, id).apply(initializer).build()

@@ -13,11 +13,7 @@ public fun Construct.eventBridgeSchedulerCreateScheduleTask(
   id: String,
   props: EventBridgeSchedulerCreateScheduleTaskProps,
   initializer: @AwsCdkDsl EventBridgeSchedulerCreateScheduleTask.() -> Unit = {},
-): EventBridgeSchedulerCreateScheduleTask = EventBridgeSchedulerCreateScheduleTask(this, id,
-    props).apply(initializer)
+): EventBridgeSchedulerCreateScheduleTask = EventBridgeSchedulerCreateScheduleTask(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEventBridgeSchedulerCreateScheduleTask(id: String, initializer: @AwsCdkDsl
-    EventBridgeSchedulerCreateScheduleTask.Builder.() -> Unit = {}):
-    EventBridgeSchedulerCreateScheduleTask =
-    EventBridgeSchedulerCreateScheduleTask.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildEventBridgeSchedulerCreateScheduleTask(id: String, initializer: @AwsCdkDsl EventBridgeSchedulerCreateScheduleTask.Builder.() -> Unit = {}): EventBridgeSchedulerCreateScheduleTask = EventBridgeSchedulerCreateScheduleTask.Builder.create(this, id).apply(initializer).build()

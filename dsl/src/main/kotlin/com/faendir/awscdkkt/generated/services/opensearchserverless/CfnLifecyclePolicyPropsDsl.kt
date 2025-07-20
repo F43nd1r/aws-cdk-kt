@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opensearchserverless.CfnLifecyclePolicyProps
 
 @Generated
-public fun buildCfnLifecyclePolicyProps(initializer: @AwsCdkDsl
-    CfnLifecyclePolicyProps.Builder.() -> Unit = {}): CfnLifecyclePolicyProps =
-    CfnLifecyclePolicyProps.Builder().apply(initializer).build()
+public fun buildCfnLifecyclePolicyProps(initializer: @AwsCdkDsl CfnLifecyclePolicyProps.Builder.() -> Unit = {}): CfnLifecyclePolicyProps = CfnLifecyclePolicyProps.Builder().apply(initializer).build()

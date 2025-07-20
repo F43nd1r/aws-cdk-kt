@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.CfnResourceAutoScalingCreationPolicy
 
 @Generated
-public fun buildCfnResourceAutoScalingCreationPolicy(initializer: @AwsCdkDsl
-    CfnResourceAutoScalingCreationPolicy.Builder.() -> Unit = {}):
-    CfnResourceAutoScalingCreationPolicy =
-    CfnResourceAutoScalingCreationPolicy.Builder().apply(initializer).build()
+public fun buildCfnResourceAutoScalingCreationPolicy(initializer: @AwsCdkDsl CfnResourceAutoScalingCreationPolicy.Builder.() -> Unit = {}): CfnResourceAutoScalingCreationPolicy = CfnResourceAutoScalingCreationPolicy.Builder().apply(initializer).build()

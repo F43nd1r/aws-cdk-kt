@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnKnowledgeBase
 
 @Generated
-public fun buildRdsConfigurationProperty(initializer: @AwsCdkDsl
-    CfnKnowledgeBase.RdsConfigurationProperty.Builder.() -> Unit = {}):
-    CfnKnowledgeBase.RdsConfigurationProperty =
-    CfnKnowledgeBase.RdsConfigurationProperty.Builder().apply(initializer).build()
+public fun buildRdsConfigurationProperty(initializer: @AwsCdkDsl CfnKnowledgeBase.RdsConfigurationProperty.Builder.() -> Unit = {}): CfnKnowledgeBase.RdsConfigurationProperty = CfnKnowledgeBase.RdsConfigurationProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnLocalGatewayRoute(
 ): CfnLocalGatewayRoute = CfnLocalGatewayRoute(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLocalGatewayRoute(id: String, initializer: @AwsCdkDsl
-    CfnLocalGatewayRoute.Builder.() -> Unit = {}): CfnLocalGatewayRoute =
-    CfnLocalGatewayRoute.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLocalGatewayRoute(id: String, initializer: @AwsCdkDsl CfnLocalGatewayRoute.Builder.() -> Unit = {}): CfnLocalGatewayRoute = CfnLocalGatewayRoute.Builder.create(this, id).apply(initializer).build()

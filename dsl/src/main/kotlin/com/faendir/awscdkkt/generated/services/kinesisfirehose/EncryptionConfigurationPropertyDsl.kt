@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
-public fun buildEncryptionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.EncryptionConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDeliveryStream.EncryptionConfigurationProperty =
-    CfnDeliveryStream.EncryptionConfigurationProperty.Builder().apply(initializer).build()
+public fun buildEncryptionConfigurationProperty(initializer: @AwsCdkDsl CfnDeliveryStream.EncryptionConfigurationProperty.Builder.() -> Unit = {}): CfnDeliveryStream.EncryptionConfigurationProperty = CfnDeliveryStream.EncryptionConfigurationProperty.Builder().apply(initializer).build()

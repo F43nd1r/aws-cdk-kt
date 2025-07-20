@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.CfnApi
 
 @Generated
-public fun buildCognitoConfigProperty(initializer: @AwsCdkDsl
-    CfnApi.CognitoConfigProperty.Builder.() -> Unit = {}): CfnApi.CognitoConfigProperty =
-    CfnApi.CognitoConfigProperty.Builder().apply(initializer).build()
+public fun buildCognitoConfigProperty(initializer: @AwsCdkDsl CfnApi.CognitoConfigProperty.Builder.() -> Unit = {}): CfnApi.CognitoConfigProperty = CfnApi.CognitoConfigProperty.Builder().apply(initializer).build()

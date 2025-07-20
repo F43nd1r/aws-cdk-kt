@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.config.CfnConfigurationRecorder
 
 @Generated
-public fun buildRecordingModeProperty(initializer: @AwsCdkDsl
-    CfnConfigurationRecorder.RecordingModeProperty.Builder.() -> Unit = {}):
-    CfnConfigurationRecorder.RecordingModeProperty =
-    CfnConfigurationRecorder.RecordingModeProperty.Builder().apply(initializer).build()
+public fun buildRecordingModeProperty(initializer: @AwsCdkDsl CfnConfigurationRecorder.RecordingModeProperty.Builder.() -> Unit = {}): CfnConfigurationRecorder.RecordingModeProperty = CfnConfigurationRecorder.RecordingModeProperty.Builder().apply(initializer).build()

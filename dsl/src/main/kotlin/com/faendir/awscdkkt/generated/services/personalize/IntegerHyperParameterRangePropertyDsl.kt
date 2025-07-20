@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.personalize.CfnSolution
 
 @Generated
-public fun buildIntegerHyperParameterRangeProperty(initializer: @AwsCdkDsl
-    CfnSolution.IntegerHyperParameterRangeProperty.Builder.() -> Unit = {}):
-    CfnSolution.IntegerHyperParameterRangeProperty =
-    CfnSolution.IntegerHyperParameterRangeProperty.Builder().apply(initializer).build()
+public fun buildIntegerHyperParameterRangeProperty(initializer: @AwsCdkDsl CfnSolution.IntegerHyperParameterRangeProperty.Builder.() -> Unit = {}): CfnSolution.IntegerHyperParameterRangeProperty = CfnSolution.IntegerHyperParameterRangeProperty.Builder().apply(initializer).build()

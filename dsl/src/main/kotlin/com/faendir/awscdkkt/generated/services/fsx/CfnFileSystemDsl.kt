@@ -16,6 +16,4 @@ public fun Construct.cfnFileSystem(
 ): CfnFileSystem = CfnFileSystem(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnFileSystem(id: String, initializer: @AwsCdkDsl
-    CfnFileSystem.Builder.() -> Unit = {}): CfnFileSystem = CfnFileSystem.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnFileSystem(id: String, initializer: @AwsCdkDsl CfnFileSystem.Builder.() -> Unit = {}): CfnFileSystem = CfnFileSystem.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnPlugin
 
 @Generated
-public fun buildS3Property(initializer: @AwsCdkDsl CfnPlugin.S3Property.Builder.() -> Unit = {}):
-    CfnPlugin.S3Property = CfnPlugin.S3Property.Builder().apply(initializer).build()
+public fun buildS3Property(initializer: @AwsCdkDsl CfnPlugin.S3Property.Builder.() -> Unit = {}): CfnPlugin.S3Property = CfnPlugin.S3Property.Builder().apply(initializer).build()

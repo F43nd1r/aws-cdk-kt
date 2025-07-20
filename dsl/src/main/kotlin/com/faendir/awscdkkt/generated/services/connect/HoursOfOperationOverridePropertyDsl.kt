@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnHoursOfOperation
 
 @Generated
-public fun buildHoursOfOperationOverrideProperty(initializer: @AwsCdkDsl
-    CfnHoursOfOperation.HoursOfOperationOverrideProperty.Builder.() -> Unit = {}):
-    CfnHoursOfOperation.HoursOfOperationOverrideProperty =
-    CfnHoursOfOperation.HoursOfOperationOverrideProperty.Builder().apply(initializer).build()
+public fun buildHoursOfOperationOverrideProperty(initializer: @AwsCdkDsl CfnHoursOfOperation.HoursOfOperationOverrideProperty.Builder.() -> Unit = {}): CfnHoursOfOperation.HoursOfOperationOverrideProperty = CfnHoursOfOperation.HoursOfOperationOverrideProperty.Builder().apply(initializer).build()

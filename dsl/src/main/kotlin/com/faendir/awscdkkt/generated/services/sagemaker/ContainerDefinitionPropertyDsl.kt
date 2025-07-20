@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnModel
 
 @Generated
-public fun buildContainerDefinitionProperty(initializer: @AwsCdkDsl
-    CfnModel.ContainerDefinitionProperty.Builder.() -> Unit = {}):
-    CfnModel.ContainerDefinitionProperty =
-    CfnModel.ContainerDefinitionProperty.Builder().apply(initializer).build()
+public fun buildContainerDefinitionProperty(initializer: @AwsCdkDsl CfnModel.ContainerDefinitionProperty.Builder.() -> Unit = {}): CfnModel.ContainerDefinitionProperty = CfnModel.ContainerDefinitionProperty.Builder().apply(initializer).build()

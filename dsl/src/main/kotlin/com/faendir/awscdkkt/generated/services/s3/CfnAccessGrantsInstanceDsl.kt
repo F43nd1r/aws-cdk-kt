@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.s3.CfnAccessGrantsInstanceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnAccessGrantsInstance(id: String, initializer: @AwsCdkDsl
-    CfnAccessGrantsInstance.() -> Unit = {}): CfnAccessGrantsInstance =
-    CfnAccessGrantsInstance(this, id).apply(initializer)
+public fun Construct.cfnAccessGrantsInstance(id: String, initializer: @AwsCdkDsl CfnAccessGrantsInstance.() -> Unit = {}): CfnAccessGrantsInstance = CfnAccessGrantsInstance(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnAccessGrantsInstance(
@@ -21,6 +19,4 @@ public fun Construct.cfnAccessGrantsInstance(
 ): CfnAccessGrantsInstance = CfnAccessGrantsInstance(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAccessGrantsInstance(id: String, initializer: @AwsCdkDsl
-    CfnAccessGrantsInstance.Builder.() -> Unit = {}): CfnAccessGrantsInstance =
-    CfnAccessGrantsInstance.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAccessGrantsInstance(id: String, initializer: @AwsCdkDsl CfnAccessGrantsInstance.Builder.() -> Unit = {}): CfnAccessGrantsInstance = CfnAccessGrantsInstance.Builder.create(this, id).apply(initializer).build()

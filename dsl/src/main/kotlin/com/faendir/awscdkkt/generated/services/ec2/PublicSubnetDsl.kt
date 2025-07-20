@@ -16,6 +16,4 @@ public fun Construct.publicSubnet(
 ): PublicSubnet = PublicSubnet(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildPublicSubnet(id: String, initializer: @AwsCdkDsl
-    PublicSubnet.Builder.() -> Unit = {}): PublicSubnet = PublicSubnet.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildPublicSubnet(id: String, initializer: @AwsCdkDsl PublicSubnet.Builder.() -> Unit = {}): PublicSubnet = PublicSubnet.Builder.create(this, id).apply(initializer).build()

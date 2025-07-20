@@ -16,6 +16,4 @@ public fun Construct.cfnKeyPair(
 ): CfnKeyPair = CfnKeyPair(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnKeyPair(id: String, initializer: @AwsCdkDsl
-    CfnKeyPair.Builder.() -> Unit = {}): CfnKeyPair = CfnKeyPair.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnKeyPair(id: String, initializer: @AwsCdkDsl CfnKeyPair.Builder.() -> Unit = {}): CfnKeyPair = CfnKeyPair.Builder.create(this, id).apply(initializer).build()

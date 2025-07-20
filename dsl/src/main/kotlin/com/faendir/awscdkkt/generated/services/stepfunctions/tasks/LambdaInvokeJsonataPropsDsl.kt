@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.LambdaInvokeJsonataProps
 
 @Generated
-public fun buildLambdaInvokeJsonataProps(initializer: @AwsCdkDsl
-    LambdaInvokeJsonataProps.Builder.() -> Unit = {}): LambdaInvokeJsonataProps =
-    LambdaInvokeJsonataProps.Builder().apply(initializer).build()
+public fun buildLambdaInvokeJsonataProps(initializer: @AwsCdkDsl LambdaInvokeJsonataProps.Builder.() -> Unit = {}): LambdaInvokeJsonataProps = LambdaInvokeJsonataProps.Builder().apply(initializer).build()

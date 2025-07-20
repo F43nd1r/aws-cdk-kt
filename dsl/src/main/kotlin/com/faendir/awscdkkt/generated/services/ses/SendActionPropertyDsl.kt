@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnMailManagerRuleSet
 
 @Generated
-public fun buildSendActionProperty(initializer: @AwsCdkDsl
-    CfnMailManagerRuleSet.SendActionProperty.Builder.() -> Unit = {}):
-    CfnMailManagerRuleSet.SendActionProperty =
-    CfnMailManagerRuleSet.SendActionProperty.Builder().apply(initializer).build()
+public fun buildSendActionProperty(initializer: @AwsCdkDsl CfnMailManagerRuleSet.SendActionProperty.Builder.() -> Unit = {}): CfnMailManagerRuleSet.SendActionProperty = CfnMailManagerRuleSet.SendActionProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnMonitoringSchedule
 
 @Generated
-public fun buildMonitoringOutputProperty(initializer: @AwsCdkDsl
-    CfnMonitoringSchedule.MonitoringOutputProperty.Builder.() -> Unit = {}):
-    CfnMonitoringSchedule.MonitoringOutputProperty =
-    CfnMonitoringSchedule.MonitoringOutputProperty.Builder().apply(initializer).build()
+public fun buildMonitoringOutputProperty(initializer: @AwsCdkDsl CfnMonitoringSchedule.MonitoringOutputProperty.Builder.() -> Unit = {}): CfnMonitoringSchedule.MonitoringOutputProperty = CfnMonitoringSchedule.MonitoringOutputProperty.Builder().apply(initializer).build()

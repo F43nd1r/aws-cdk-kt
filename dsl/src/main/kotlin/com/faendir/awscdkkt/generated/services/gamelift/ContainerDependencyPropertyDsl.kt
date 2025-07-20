@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnContainerGroupDefinition
 
 @Generated
-public fun buildContainerDependencyProperty(initializer: @AwsCdkDsl
-    CfnContainerGroupDefinition.ContainerDependencyProperty.Builder.() -> Unit = {}):
-    CfnContainerGroupDefinition.ContainerDependencyProperty =
-    CfnContainerGroupDefinition.ContainerDependencyProperty.Builder().apply(initializer).build()
+public fun buildContainerDependencyProperty(initializer: @AwsCdkDsl CfnContainerGroupDefinition.ContainerDependencyProperty.Builder.() -> Unit = {}): CfnContainerGroupDefinition.ContainerDependencyProperty = CfnContainerGroupDefinition.ContainerDependencyProperty.Builder().apply(initializer).build()

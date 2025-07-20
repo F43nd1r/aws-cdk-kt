@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fis.CfnExperimentTemplate
 
 @Generated
-public fun buildExperimentTemplateExperimentReportConfigurationProperty(initializer: @AwsCdkDsl
-    CfnExperimentTemplate.ExperimentTemplateExperimentReportConfigurationProperty.Builder.() -> Unit
-    = {}): CfnExperimentTemplate.ExperimentTemplateExperimentReportConfigurationProperty =
-    CfnExperimentTemplate.ExperimentTemplateExperimentReportConfigurationProperty.Builder().apply(initializer).build()
+public fun buildExperimentTemplateExperimentReportConfigurationProperty(initializer: @AwsCdkDsl CfnExperimentTemplate.ExperimentTemplateExperimentReportConfigurationProperty.Builder.() -> Unit = {}): CfnExperimentTemplate.ExperimentTemplateExperimentReportConfigurationProperty = CfnExperimentTemplate.ExperimentTemplateExperimentReportConfigurationProperty.Builder().apply(initializer).build()

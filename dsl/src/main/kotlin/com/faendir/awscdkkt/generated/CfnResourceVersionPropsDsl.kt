@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.CfnResourceVersionProps
 
 @Generated
-public fun buildCfnResourceVersionProps(initializer: @AwsCdkDsl
-    CfnResourceVersionProps.Builder.() -> Unit = {}): CfnResourceVersionProps =
-    CfnResourceVersionProps.Builder().apply(initializer).build()
+public fun buildCfnResourceVersionProps(initializer: @AwsCdkDsl CfnResourceVersionProps.Builder.() -> Unit = {}): CfnResourceVersionProps = CfnResourceVersionProps.Builder().apply(initializer).build()

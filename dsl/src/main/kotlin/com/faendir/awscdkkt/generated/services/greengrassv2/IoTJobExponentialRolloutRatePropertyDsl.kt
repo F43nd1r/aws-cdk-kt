@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.greengrassv2.CfnDeployment
 
 @Generated
-public fun buildIoTJobExponentialRolloutRateProperty(initializer: @AwsCdkDsl
-    CfnDeployment.IoTJobExponentialRolloutRateProperty.Builder.() -> Unit = {}):
-    CfnDeployment.IoTJobExponentialRolloutRateProperty =
-    CfnDeployment.IoTJobExponentialRolloutRateProperty.Builder().apply(initializer).build()
+public fun buildIoTJobExponentialRolloutRateProperty(initializer: @AwsCdkDsl CfnDeployment.IoTJobExponentialRolloutRateProperty.Builder.() -> Unit = {}): CfnDeployment.IoTJobExponentialRolloutRateProperty = CfnDeployment.IoTJobExponentialRolloutRateProperty.Builder().apply(initializer).build()

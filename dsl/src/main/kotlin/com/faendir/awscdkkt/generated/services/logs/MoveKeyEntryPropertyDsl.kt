@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnTransformer
 
 @Generated
-public fun buildMoveKeyEntryProperty(initializer: @AwsCdkDsl
-    CfnTransformer.MoveKeyEntryProperty.Builder.() -> Unit = {}):
-    CfnTransformer.MoveKeyEntryProperty =
-    CfnTransformer.MoveKeyEntryProperty.Builder().apply(initializer).build()
+public fun buildMoveKeyEntryProperty(initializer: @AwsCdkDsl CfnTransformer.MoveKeyEntryProperty.Builder.() -> Unit = {}): CfnTransformer.MoveKeyEntryProperty = CfnTransformer.MoveKeyEntryProperty.Builder().apply(initializer).build()

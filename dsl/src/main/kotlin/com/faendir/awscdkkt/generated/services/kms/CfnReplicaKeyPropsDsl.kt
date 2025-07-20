@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kms.CfnReplicaKeyProps
 
 @Generated
-public fun buildCfnReplicaKeyProps(initializer: @AwsCdkDsl CfnReplicaKeyProps.Builder.() -> Unit =
-    {}): CfnReplicaKeyProps = CfnReplicaKeyProps.Builder().apply(initializer).build()
+public fun buildCfnReplicaKeyProps(initializer: @AwsCdkDsl CfnReplicaKeyProps.Builder.() -> Unit = {}): CfnReplicaKeyProps = CfnReplicaKeyProps.Builder().apply(initializer).build()

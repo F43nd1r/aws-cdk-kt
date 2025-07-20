@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnTrafficMirrorFilterProps
 
 @Generated
-public fun buildCfnTrafficMirrorFilterProps(initializer: @AwsCdkDsl
-    CfnTrafficMirrorFilterProps.Builder.() -> Unit = {}): CfnTrafficMirrorFilterProps =
-    CfnTrafficMirrorFilterProps.Builder().apply(initializer).build()
+public fun buildCfnTrafficMirrorFilterProps(initializer: @AwsCdkDsl CfnTrafficMirrorFilterProps.Builder.() -> Unit = {}): CfnTrafficMirrorFilterProps = CfnTrafficMirrorFilterProps.Builder().apply(initializer).build()

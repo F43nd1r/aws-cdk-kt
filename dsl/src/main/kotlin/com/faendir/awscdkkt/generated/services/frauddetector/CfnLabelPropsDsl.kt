@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.frauddetector.CfnLabelProps
 
 @Generated
-public fun buildCfnLabelProps(initializer: @AwsCdkDsl CfnLabelProps.Builder.() -> Unit = {}):
-    CfnLabelProps = CfnLabelProps.Builder().apply(initializer).build()
+public fun buildCfnLabelProps(initializer: @AwsCdkDsl CfnLabelProps.Builder.() -> Unit = {}): CfnLabelProps = CfnLabelProps.Builder().apply(initializer).build()

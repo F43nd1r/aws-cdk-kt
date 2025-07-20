@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.SubnetSelection
 
 @Generated
-public fun buildSubnetSelection(initializer: @AwsCdkDsl SubnetSelection.Builder.() -> Unit = {}):
-    SubnetSelection = SubnetSelection.Builder().apply(initializer).build()
+public fun buildSubnetSelection(initializer: @AwsCdkDsl SubnetSelection.Builder.() -> Unit = {}): SubnetSelection = SubnetSelection.Builder().apply(initializer).build()

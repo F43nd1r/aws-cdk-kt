@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.LogRetentionProps
 
 @Generated
-public fun buildLogRetentionProps(initializer: @AwsCdkDsl LogRetentionProps.Builder.() -> Unit =
-    {}): LogRetentionProps = LogRetentionProps.Builder().apply(initializer).build()
+public fun buildLogRetentionProps(initializer: @AwsCdkDsl LogRetentionProps.Builder.() -> Unit = {}): LogRetentionProps = LogRetentionProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.CfnDataSource
 
 @Generated
-public fun buildElasticsearchConfigProperty(initializer: @AwsCdkDsl
-    CfnDataSource.ElasticsearchConfigProperty.Builder.() -> Unit = {}):
-    CfnDataSource.ElasticsearchConfigProperty =
-    CfnDataSource.ElasticsearchConfigProperty.Builder().apply(initializer).build()
+public fun buildElasticsearchConfigProperty(initializer: @AwsCdkDsl CfnDataSource.ElasticsearchConfigProperty.Builder.() -> Unit = {}): CfnDataSource.ElasticsearchConfigProperty = CfnDataSource.ElasticsearchConfigProperty.Builder().apply(initializer).build()

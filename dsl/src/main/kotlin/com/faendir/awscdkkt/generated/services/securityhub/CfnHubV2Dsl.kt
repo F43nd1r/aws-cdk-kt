@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.securityhub.CfnHubV2Props
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnHubV2(id: String, initializer: @AwsCdkDsl CfnHubV2.() -> Unit = {}):
-    CfnHubV2 = CfnHubV2(this, id).apply(initializer)
+public fun Construct.cfnHubV2(id: String, initializer: @AwsCdkDsl CfnHubV2.() -> Unit = {}): CfnHubV2 = CfnHubV2(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnHubV2(
@@ -20,5 +19,4 @@ public fun Construct.cfnHubV2(
 ): CfnHubV2 = CfnHubV2(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnHubV2(id: String, initializer: @AwsCdkDsl CfnHubV2.Builder.() -> Unit =
-    {}): CfnHubV2 = CfnHubV2.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnHubV2(id: String, initializer: @AwsCdkDsl CfnHubV2.Builder.() -> Unit = {}): CfnHubV2 = CfnHubV2.Builder.create(this, id).apply(initializer).build()

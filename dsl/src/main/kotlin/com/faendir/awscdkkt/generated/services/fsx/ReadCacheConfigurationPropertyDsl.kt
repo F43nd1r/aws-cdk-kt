@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fsx.CfnFileSystem
 
 @Generated
-public fun buildReadCacheConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFileSystem.ReadCacheConfigurationProperty.Builder.() -> Unit = {}):
-    CfnFileSystem.ReadCacheConfigurationProperty =
-    CfnFileSystem.ReadCacheConfigurationProperty.Builder().apply(initializer).build()
+public fun buildReadCacheConfigurationProperty(initializer: @AwsCdkDsl CfnFileSystem.ReadCacheConfigurationProperty.Builder.() -> Unit = {}): CfnFileSystem.ReadCacheConfigurationProperty = CfnFileSystem.ReadCacheConfigurationProperty.Builder().apply(initializer).build()

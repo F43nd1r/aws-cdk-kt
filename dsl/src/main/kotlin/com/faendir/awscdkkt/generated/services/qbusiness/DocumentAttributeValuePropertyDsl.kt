@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnDataSource
 
 @Generated
-public fun buildDocumentAttributeValueProperty(initializer: @AwsCdkDsl
-    CfnDataSource.DocumentAttributeValueProperty.Builder.() -> Unit = {}):
-    CfnDataSource.DocumentAttributeValueProperty =
-    CfnDataSource.DocumentAttributeValueProperty.Builder().apply(initializer).build()
+public fun buildDocumentAttributeValueProperty(initializer: @AwsCdkDsl CfnDataSource.DocumentAttributeValueProperty.Builder.() -> Unit = {}): CfnDataSource.DocumentAttributeValueProperty = CfnDataSource.DocumentAttributeValueProperty.Builder().apply(initializer).build()

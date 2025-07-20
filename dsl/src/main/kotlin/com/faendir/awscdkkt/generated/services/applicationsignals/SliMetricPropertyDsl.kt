@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.applicationsignals.CfnServiceLevelObjective
 
 @Generated
-public fun buildSliMetricProperty(initializer: @AwsCdkDsl
-    CfnServiceLevelObjective.SliMetricProperty.Builder.() -> Unit = {}):
-    CfnServiceLevelObjective.SliMetricProperty =
-    CfnServiceLevelObjective.SliMetricProperty.Builder().apply(initializer).build()
+public fun buildSliMetricProperty(initializer: @AwsCdkDsl CfnServiceLevelObjective.SliMetricProperty.Builder.() -> Unit = {}): CfnServiceLevelObjective.SliMetricProperty = CfnServiceLevelObjective.SliMetricProperty.Builder().apply(initializer).build()

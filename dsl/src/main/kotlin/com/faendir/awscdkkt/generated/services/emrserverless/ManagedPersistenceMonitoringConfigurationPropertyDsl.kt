@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.emrserverless.CfnApplication
 
 @Generated
-public fun buildManagedPersistenceMonitoringConfigurationProperty(initializer: @AwsCdkDsl
-    CfnApplication.ManagedPersistenceMonitoringConfigurationProperty.Builder.() -> Unit = {}):
-    CfnApplication.ManagedPersistenceMonitoringConfigurationProperty =
-    CfnApplication.ManagedPersistenceMonitoringConfigurationProperty.Builder().apply(initializer).build()
+public fun buildManagedPersistenceMonitoringConfigurationProperty(initializer: @AwsCdkDsl CfnApplication.ManagedPersistenceMonitoringConfigurationProperty.Builder.() -> Unit = {}): CfnApplication.ManagedPersistenceMonitoringConfigurationProperty = CfnApplication.ManagedPersistenceMonitoringConfigurationProperty.Builder().apply(initializer).build()

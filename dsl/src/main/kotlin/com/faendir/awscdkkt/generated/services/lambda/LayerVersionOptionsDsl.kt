@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.LayerVersionOptions
 
 @Generated
-public fun buildLayerVersionOptions(initializer: @AwsCdkDsl LayerVersionOptions.Builder.() -> Unit =
-    {}): LayerVersionOptions = LayerVersionOptions.Builder().apply(initializer).build()
+public fun buildLayerVersionOptions(initializer: @AwsCdkDsl LayerVersionOptions.Builder.() -> Unit = {}): LayerVersionOptions = LayerVersionOptions.Builder().apply(initializer).build()

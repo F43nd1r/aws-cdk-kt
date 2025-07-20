@@ -16,6 +16,4 @@ public fun Construct.cfnCustomDataIdentifier(
 ): CfnCustomDataIdentifier = CfnCustomDataIdentifier(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCustomDataIdentifier(id: String, initializer: @AwsCdkDsl
-    CfnCustomDataIdentifier.Builder.() -> Unit = {}): CfnCustomDataIdentifier =
-    CfnCustomDataIdentifier.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCustomDataIdentifier(id: String, initializer: @AwsCdkDsl CfnCustomDataIdentifier.Builder.() -> Unit = {}): CfnCustomDataIdentifier = CfnCustomDataIdentifier.Builder.create(this, id).apply(initializer).build()

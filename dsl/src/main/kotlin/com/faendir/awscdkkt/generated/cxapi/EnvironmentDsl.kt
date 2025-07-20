@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cxapi.Environment
 
 @Generated
-public fun buildEnvironment(initializer: @AwsCdkDsl Environment.Builder.() -> Unit = {}):
-    Environment = Environment.Builder().apply(initializer).build()
+public fun buildEnvironment(initializer: @AwsCdkDsl Environment.Builder.() -> Unit = {}): Environment = Environment.Builder().apply(initializer).build()

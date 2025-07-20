@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.amplify.CfnApp
 
 @Generated
-public fun buildCustomRuleProperty(initializer: @AwsCdkDsl
-    CfnApp.CustomRuleProperty.Builder.() -> Unit = {}): CfnApp.CustomRuleProperty =
-    CfnApp.CustomRuleProperty.Builder().apply(initializer).build()
+public fun buildCustomRuleProperty(initializer: @AwsCdkDsl CfnApp.CustomRuleProperty.Builder.() -> Unit = {}): CfnApp.CustomRuleProperty = CfnApp.CustomRuleProperty.Builder().apply(initializer).build()

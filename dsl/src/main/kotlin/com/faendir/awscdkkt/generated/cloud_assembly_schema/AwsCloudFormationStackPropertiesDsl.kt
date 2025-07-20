@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloud_assembly_schema.AwsCloudFormationStackProperties
 
 @Generated
-public fun buildAwsCloudFormationStackProperties(initializer: @AwsCdkDsl
-    AwsCloudFormationStackProperties.Builder.() -> Unit = {}): AwsCloudFormationStackProperties =
-    AwsCloudFormationStackProperties.Builder().apply(initializer).build()
+public fun buildAwsCloudFormationStackProperties(initializer: @AwsCdkDsl AwsCloudFormationStackProperties.Builder.() -> Unit = {}): AwsCloudFormationStackProperties = AwsCloudFormationStackProperties.Builder().apply(initializer).build()

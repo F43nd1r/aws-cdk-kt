@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnSecurityGroupIngressProps
 
 @Generated
-public fun buildCfnSecurityGroupIngressProps(initializer: @AwsCdkDsl
-    CfnSecurityGroupIngressProps.Builder.() -> Unit = {}): CfnSecurityGroupIngressProps =
-    CfnSecurityGroupIngressProps.Builder().apply(initializer).build()
+public fun buildCfnSecurityGroupIngressProps(initializer: @AwsCdkDsl CfnSecurityGroupIngressProps.Builder.() -> Unit = {}): CfnSecurityGroupIngressProps = CfnSecurityGroupIngressProps.Builder().apply(initializer).build()

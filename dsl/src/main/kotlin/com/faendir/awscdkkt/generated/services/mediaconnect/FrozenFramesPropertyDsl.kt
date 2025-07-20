@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediaconnect.CfnFlow
 
 @Generated
-public fun buildFrozenFramesProperty(initializer: @AwsCdkDsl
-    CfnFlow.FrozenFramesProperty.Builder.() -> Unit = {}): CfnFlow.FrozenFramesProperty =
-    CfnFlow.FrozenFramesProperty.Builder().apply(initializer).build()
+public fun buildFrozenFramesProperty(initializer: @AwsCdkDsl CfnFlow.FrozenFramesProperty.Builder.() -> Unit = {}): CfnFlow.FrozenFramesProperty = CfnFlow.FrozenFramesProperty.Builder().apply(initializer).build()

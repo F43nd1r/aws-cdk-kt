@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.config.CfnConfigRule
 
 @Generated
-public fun buildSourceProperty(initializer: @AwsCdkDsl
-    CfnConfigRule.SourceProperty.Builder.() -> Unit = {}): CfnConfigRule.SourceProperty =
-    CfnConfigRule.SourceProperty.Builder().apply(initializer).build()
+public fun buildSourceProperty(initializer: @AwsCdkDsl CfnConfigRule.SourceProperty.Builder.() -> Unit = {}): CfnConfigRule.SourceProperty = CfnConfigRule.SourceProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnFunctionProps
 
 @Generated
-public fun buildCfnFunctionProps(initializer: @AwsCdkDsl CfnFunctionProps.Builder.() -> Unit = {}):
-    CfnFunctionProps = CfnFunctionProps.Builder().apply(initializer).build()
+public fun buildCfnFunctionProps(initializer: @AwsCdkDsl CfnFunctionProps.Builder.() -> Unit = {}): CfnFunctionProps = CfnFunctionProps.Builder().apply(initializer).build()

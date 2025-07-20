@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.InitCommandOptions
 
 @Generated
-public fun buildInitCommandOptions(initializer: @AwsCdkDsl InitCommandOptions.Builder.() -> Unit =
-    {}): InitCommandOptions = InitCommandOptions.Builder().apply(initializer).build()
+public fun buildInitCommandOptions(initializer: @AwsCdkDsl InitCommandOptions.Builder.() -> Unit = {}): InitCommandOptions = InitCommandOptions.Builder().apply(initializer).build()

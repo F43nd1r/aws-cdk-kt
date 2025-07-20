@@ -13,10 +13,7 @@ public fun Construct.cfnTransitGatewayPeeringAttachment(
   id: String,
   props: CfnTransitGatewayPeeringAttachmentProps,
   initializer: @AwsCdkDsl CfnTransitGatewayPeeringAttachment.() -> Unit = {},
-): CfnTransitGatewayPeeringAttachment = CfnTransitGatewayPeeringAttachment(this, id,
-    props).apply(initializer)
+): CfnTransitGatewayPeeringAttachment = CfnTransitGatewayPeeringAttachment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTransitGatewayPeeringAttachment(id: String, initializer: @AwsCdkDsl
-    CfnTransitGatewayPeeringAttachment.Builder.() -> Unit = {}): CfnTransitGatewayPeeringAttachment
-    = CfnTransitGatewayPeeringAttachment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTransitGatewayPeeringAttachment(id: String, initializer: @AwsCdkDsl CfnTransitGatewayPeeringAttachment.Builder.() -> Unit = {}): CfnTransitGatewayPeeringAttachment = CfnTransitGatewayPeeringAttachment.Builder.create(this, id).apply(initializer).build()

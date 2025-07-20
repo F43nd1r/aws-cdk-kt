@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.MxRecordProps
 
 @Generated
-public fun buildMxRecordProps(initializer: @AwsCdkDsl MxRecordProps.Builder.() -> Unit = {}):
-    MxRecordProps = MxRecordProps.Builder().apply(initializer).build()
+public fun buildMxRecordProps(initializer: @AwsCdkDsl MxRecordProps.Builder.() -> Unit = {}): MxRecordProps = MxRecordProps.Builder().apply(initializer).build()

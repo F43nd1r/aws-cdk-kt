@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.emrserverless.CfnApplication
 
 @Generated
-public fun buildCloudWatchLoggingConfigurationProperty(initializer: @AwsCdkDsl
-    CfnApplication.CloudWatchLoggingConfigurationProperty.Builder.() -> Unit = {}):
-    CfnApplication.CloudWatchLoggingConfigurationProperty =
-    CfnApplication.CloudWatchLoggingConfigurationProperty.Builder().apply(initializer).build()
+public fun buildCloudWatchLoggingConfigurationProperty(initializer: @AwsCdkDsl CfnApplication.CloudWatchLoggingConfigurationProperty.Builder.() -> Unit = {}): CfnApplication.CloudWatchLoggingConfigurationProperty = CfnApplication.CloudWatchLoggingConfigurationProperty.Builder().apply(initializer).build()

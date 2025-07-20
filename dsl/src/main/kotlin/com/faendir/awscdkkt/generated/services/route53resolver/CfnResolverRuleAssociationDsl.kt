@@ -16,6 +16,4 @@ public fun Construct.cfnResolverRuleAssociation(
 ): CfnResolverRuleAssociation = CfnResolverRuleAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnResolverRuleAssociation(id: String, initializer: @AwsCdkDsl
-    CfnResolverRuleAssociation.Builder.() -> Unit = {}): CfnResolverRuleAssociation =
-    CfnResolverRuleAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnResolverRuleAssociation(id: String, initializer: @AwsCdkDsl CfnResolverRuleAssociation.Builder.() -> Unit = {}): CfnResolverRuleAssociation = CfnResolverRuleAssociation.Builder.create(this, id).apply(initializer).build()

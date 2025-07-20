@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.targets.EphemeralStorageOverride
 
 @Generated
-public fun buildEphemeralStorageOverride(initializer: @AwsCdkDsl
-    EphemeralStorageOverride.Builder.() -> Unit = {}): EphemeralStorageOverride =
-    EphemeralStorageOverride.Builder().apply(initializer).build()
+public fun buildEphemeralStorageOverride(initializer: @AwsCdkDsl EphemeralStorageOverride.Builder.() -> Unit = {}): EphemeralStorageOverride = EphemeralStorageOverride.Builder().apply(initializer).build()

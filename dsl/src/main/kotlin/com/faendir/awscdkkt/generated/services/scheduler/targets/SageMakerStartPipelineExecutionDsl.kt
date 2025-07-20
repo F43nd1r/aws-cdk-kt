@@ -7,6 +7,4 @@ import software.amazon.awscdk.services.sagemaker.IPipeline
 import software.amazon.awscdk.services.scheduler.targets.SageMakerStartPipelineExecution
 
 @Generated
-public fun buildSageMakerStartPipelineExecution(pipeline: IPipeline, initializer: @AwsCdkDsl
-    SageMakerStartPipelineExecution.Builder.() -> Unit = {}): SageMakerStartPipelineExecution =
-    SageMakerStartPipelineExecution.Builder.create(pipeline).apply(initializer).build()
+public fun buildSageMakerStartPipelineExecution(pipeline: IPipeline, initializer: @AwsCdkDsl SageMakerStartPipelineExecution.Builder.() -> Unit = {}): SageMakerStartPipelineExecution = SageMakerStartPipelineExecution.Builder.create(pipeline).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.entityresolution.CfnPolicyStatementProps
 
 @Generated
-public fun buildCfnPolicyStatementProps(initializer: @AwsCdkDsl
-    CfnPolicyStatementProps.Builder.() -> Unit = {}): CfnPolicyStatementProps =
-    CfnPolicyStatementProps.Builder().apply(initializer).build()
+public fun buildCfnPolicyStatementProps(initializer: @AwsCdkDsl CfnPolicyStatementProps.Builder.() -> Unit = {}): CfnPolicyStatementProps = CfnPolicyStatementProps.Builder().apply(initializer).build()

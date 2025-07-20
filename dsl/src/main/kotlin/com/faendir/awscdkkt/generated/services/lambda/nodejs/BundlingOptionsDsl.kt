@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.nodejs.BundlingOptions
 
 @Generated
-public fun buildBundlingOptions(initializer: @AwsCdkDsl BundlingOptions.Builder.() -> Unit = {}):
-    BundlingOptions = BundlingOptions.Builder().apply(initializer).build()
+public fun buildBundlingOptions(initializer: @AwsCdkDsl BundlingOptions.Builder.() -> Unit = {}): BundlingOptions = BundlingOptions.Builder().apply(initializer).build()

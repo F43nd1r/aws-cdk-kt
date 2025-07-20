@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotsitewise.CfnAssetModel
 
 @Generated
-public fun buildPropertyPathDefinitionProperty(initializer: @AwsCdkDsl
-    CfnAssetModel.PropertyPathDefinitionProperty.Builder.() -> Unit = {}):
-    CfnAssetModel.PropertyPathDefinitionProperty =
-    CfnAssetModel.PropertyPathDefinitionProperty.Builder().apply(initializer).build()
+public fun buildPropertyPathDefinitionProperty(initializer: @AwsCdkDsl CfnAssetModel.PropertyPathDefinitionProperty.Builder.() -> Unit = {}): CfnAssetModel.PropertyPathDefinitionProperty = CfnAssetModel.PropertyPathDefinitionProperty.Builder().apply(initializer).build()

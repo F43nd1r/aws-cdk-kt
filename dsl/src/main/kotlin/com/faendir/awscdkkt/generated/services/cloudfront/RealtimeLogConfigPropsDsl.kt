@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.RealtimeLogConfigProps
 
 @Generated
-public fun buildRealtimeLogConfigProps(initializer: @AwsCdkDsl
-    RealtimeLogConfigProps.Builder.() -> Unit = {}): RealtimeLogConfigProps =
-    RealtimeLogConfigProps.Builder().apply(initializer).build()
+public fun buildRealtimeLogConfigProps(initializer: @AwsCdkDsl RealtimeLogConfigProps.Builder.() -> Unit = {}): RealtimeLogConfigProps = RealtimeLogConfigProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opsworks.CfnStack
 
 @Generated
-public fun buildStackConfigurationManagerProperty(initializer: @AwsCdkDsl
-    CfnStack.StackConfigurationManagerProperty.Builder.() -> Unit = {}):
-    CfnStack.StackConfigurationManagerProperty =
-    CfnStack.StackConfigurationManagerProperty.Builder().apply(initializer).build()
+public fun buildStackConfigurationManagerProperty(initializer: @AwsCdkDsl CfnStack.StackConfigurationManagerProperty.Builder.() -> Unit = {}): CfnStack.StackConfigurationManagerProperty = CfnStack.StackConfigurationManagerProperty.Builder().apply(initializer).build()

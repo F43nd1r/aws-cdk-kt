@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnMessageTemplate
 
 @Generated
-public fun buildGroupingConfigurationProperty(initializer: @AwsCdkDsl
-    CfnMessageTemplate.GroupingConfigurationProperty.Builder.() -> Unit = {}):
-    CfnMessageTemplate.GroupingConfigurationProperty =
-    CfnMessageTemplate.GroupingConfigurationProperty.Builder().apply(initializer).build()
+public fun buildGroupingConfigurationProperty(initializer: @AwsCdkDsl CfnMessageTemplate.GroupingConfigurationProperty.Builder.() -> Unit = {}): CfnMessageTemplate.GroupingConfigurationProperty = CfnMessageTemplate.GroupingConfigurationProperty.Builder().apply(initializer).build()

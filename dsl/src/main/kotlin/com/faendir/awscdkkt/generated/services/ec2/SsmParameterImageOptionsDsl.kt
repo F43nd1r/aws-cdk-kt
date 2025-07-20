@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.SsmParameterImageOptions
 
 @Generated
-public fun buildSsmParameterImageOptions(initializer: @AwsCdkDsl
-    SsmParameterImageOptions.Builder.() -> Unit = {}): SsmParameterImageOptions =
-    SsmParameterImageOptions.Builder().apply(initializer).build()
+public fun buildSsmParameterImageOptions(initializer: @AwsCdkDsl SsmParameterImageOptions.Builder.() -> Unit = {}): SsmParameterImageOptions = SsmParameterImageOptions.Builder().apply(initializer).build()

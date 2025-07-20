@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.RouteAttributes
 
 @Generated
-public fun buildRouteAttributes(initializer: @AwsCdkDsl RouteAttributes.Builder.() -> Unit = {}):
-    RouteAttributes = RouteAttributes.Builder().apply(initializer).build()
+public fun buildRouteAttributes(initializer: @AwsCdkDsl RouteAttributes.Builder.() -> Unit = {}): RouteAttributes = RouteAttributes.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.identitypool.IdentityPoolTwitterLoginProvider
 
 @Generated
-public fun buildIdentityPoolTwitterLoginProvider(initializer: @AwsCdkDsl
-    IdentityPoolTwitterLoginProvider.Builder.() -> Unit = {}): IdentityPoolTwitterLoginProvider =
-    IdentityPoolTwitterLoginProvider.Builder().apply(initializer).build()
+public fun buildIdentityPoolTwitterLoginProvider(initializer: @AwsCdkDsl IdentityPoolTwitterLoginProvider.Builder.() -> Unit = {}): IdentityPoolTwitterLoginProvider = IdentityPoolTwitterLoginProvider.Builder().apply(initializer).build()

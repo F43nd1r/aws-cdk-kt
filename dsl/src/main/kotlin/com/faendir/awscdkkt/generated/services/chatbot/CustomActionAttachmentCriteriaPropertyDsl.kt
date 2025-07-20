@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.chatbot.CfnCustomAction
 
 @Generated
-public fun buildCustomActionAttachmentCriteriaProperty(initializer: @AwsCdkDsl
-    CfnCustomAction.CustomActionAttachmentCriteriaProperty.Builder.() -> Unit = {}):
-    CfnCustomAction.CustomActionAttachmentCriteriaProperty =
-    CfnCustomAction.CustomActionAttachmentCriteriaProperty.Builder().apply(initializer).build()
+public fun buildCustomActionAttachmentCriteriaProperty(initializer: @AwsCdkDsl CfnCustomAction.CustomActionAttachmentCriteriaProperty.Builder.() -> Unit = {}): CfnCustomAction.CustomActionAttachmentCriteriaProperty = CfnCustomAction.CustomActionAttachmentCriteriaProperty.Builder().apply(initializer).build()

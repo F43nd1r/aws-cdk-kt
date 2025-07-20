@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.ses.DedicatedIpPoolProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.dedicatedIpPool(id: String, initializer: @AwsCdkDsl DedicatedIpPool.() -> Unit
-    = {}): DedicatedIpPool = DedicatedIpPool(this, id).apply(initializer)
+public fun Construct.dedicatedIpPool(id: String, initializer: @AwsCdkDsl DedicatedIpPool.() -> Unit = {}): DedicatedIpPool = DedicatedIpPool(this, id).apply(initializer)
 
 @Generated
 public fun Construct.dedicatedIpPool(
@@ -20,6 +19,4 @@ public fun Construct.dedicatedIpPool(
 ): DedicatedIpPool = DedicatedIpPool(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildDedicatedIpPool(id: String, initializer: @AwsCdkDsl
-    DedicatedIpPool.Builder.() -> Unit = {}): DedicatedIpPool = DedicatedIpPool.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildDedicatedIpPool(id: String, initializer: @AwsCdkDsl DedicatedIpPool.Builder.() -> Unit = {}): DedicatedIpPool = DedicatedIpPool.Builder.create(this, id).apply(initializer).build()

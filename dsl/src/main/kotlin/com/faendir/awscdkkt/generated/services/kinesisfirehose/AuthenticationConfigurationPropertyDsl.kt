@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
-public fun buildAuthenticationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.AuthenticationConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDeliveryStream.AuthenticationConfigurationProperty =
-    CfnDeliveryStream.AuthenticationConfigurationProperty.Builder().apply(initializer).build()
+public fun buildAuthenticationConfigurationProperty(initializer: @AwsCdkDsl CfnDeliveryStream.AuthenticationConfigurationProperty.Builder.() -> Unit = {}): CfnDeliveryStream.AuthenticationConfigurationProperty = CfnDeliveryStream.AuthenticationConfigurationProperty.Builder().apply(initializer).build()

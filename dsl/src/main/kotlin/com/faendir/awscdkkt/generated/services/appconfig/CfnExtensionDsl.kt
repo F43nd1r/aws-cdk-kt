@@ -16,6 +16,4 @@ public fun Construct.cfnExtension(
 ): CfnExtension = CfnExtension(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnExtension(id: String, initializer: @AwsCdkDsl
-    CfnExtension.Builder.() -> Unit = {}): CfnExtension = CfnExtension.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnExtension(id: String, initializer: @AwsCdkDsl CfnExtension.Builder.() -> Unit = {}): CfnExtension = CfnExtension.Builder.create(this, id).apply(initializer).build()

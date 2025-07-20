@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.emr.CfnStep
 
 @Generated
-public fun buildKeyValueProperty(initializer: @AwsCdkDsl CfnStep.KeyValueProperty.Builder.() -> Unit
-    = {}): CfnStep.KeyValueProperty = CfnStep.KeyValueProperty.Builder().apply(initializer).build()
+public fun buildKeyValueProperty(initializer: @AwsCdkDsl CfnStep.KeyValueProperty.Builder.() -> Unit = {}): CfnStep.KeyValueProperty = CfnStep.KeyValueProperty.Builder().apply(initializer).build()

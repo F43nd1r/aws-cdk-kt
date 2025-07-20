@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
-public fun buildLayerMapVisualProperty(initializer: @AwsCdkDsl
-    CfnDashboard.LayerMapVisualProperty.Builder.() -> Unit = {}):
-    CfnDashboard.LayerMapVisualProperty =
-    CfnDashboard.LayerMapVisualProperty.Builder().apply(initializer).build()
+public fun buildLayerMapVisualProperty(initializer: @AwsCdkDsl CfnDashboard.LayerMapVisualProperty.Builder.() -> Unit = {}): CfnDashboard.LayerMapVisualProperty = CfnDashboard.LayerMapVisualProperty.Builder().apply(initializer).build()

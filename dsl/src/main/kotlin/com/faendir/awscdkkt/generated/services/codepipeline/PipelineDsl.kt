@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.codepipeline.PipelineProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.pipeline(id: String, initializer: @AwsCdkDsl Pipeline.() -> Unit = {}):
-    Pipeline = Pipeline(this, id).apply(initializer)
+public fun Construct.pipeline(id: String, initializer: @AwsCdkDsl Pipeline.() -> Unit = {}): Pipeline = Pipeline(this, id).apply(initializer)
 
 @Generated
 public fun Construct.pipeline(
@@ -20,5 +19,4 @@ public fun Construct.pipeline(
 ): Pipeline = Pipeline(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildPipeline(id: String, initializer: @AwsCdkDsl Pipeline.Builder.() -> Unit =
-    {}): Pipeline = Pipeline.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildPipeline(id: String, initializer: @AwsCdkDsl Pipeline.Builder.() -> Unit = {}): Pipeline = Pipeline.Builder.create(this, id).apply(initializer).build()

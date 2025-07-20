@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53recoverycontrol.CfnRoutingControlProps
 
 @Generated
-public fun buildCfnRoutingControlProps(initializer: @AwsCdkDsl
-    CfnRoutingControlProps.Builder.() -> Unit = {}): CfnRoutingControlProps =
-    CfnRoutingControlProps.Builder().apply(initializer).build()
+public fun buildCfnRoutingControlProps(initializer: @AwsCdkDsl CfnRoutingControlProps.Builder.() -> Unit = {}): CfnRoutingControlProps = CfnRoutingControlProps.Builder().apply(initializer).build()

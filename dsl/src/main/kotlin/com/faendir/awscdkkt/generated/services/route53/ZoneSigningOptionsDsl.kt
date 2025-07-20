@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.ZoneSigningOptions
 
 @Generated
-public fun buildZoneSigningOptions(initializer: @AwsCdkDsl ZoneSigningOptions.Builder.() -> Unit =
-    {}): ZoneSigningOptions = ZoneSigningOptions.Builder().apply(initializer).build()
+public fun buildZoneSigningOptions(initializer: @AwsCdkDsl ZoneSigningOptions.Builder.() -> Unit = {}): ZoneSigningOptions = ZoneSigningOptions.Builder().apply(initializer).build()

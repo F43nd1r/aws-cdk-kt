@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSource
 
 @Generated
-public fun buildTrinoParametersProperty(initializer: @AwsCdkDsl
-    CfnDataSource.TrinoParametersProperty.Builder.() -> Unit = {}):
-    CfnDataSource.TrinoParametersProperty =
-    CfnDataSource.TrinoParametersProperty.Builder().apply(initializer).build()
+public fun buildTrinoParametersProperty(initializer: @AwsCdkDsl CfnDataSource.TrinoParametersProperty.Builder.() -> Unit = {}): CfnDataSource.TrinoParametersProperty = CfnDataSource.TrinoParametersProperty.Builder().apply(initializer).build()

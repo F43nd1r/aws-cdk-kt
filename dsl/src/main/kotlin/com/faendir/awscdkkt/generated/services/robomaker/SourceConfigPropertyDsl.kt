@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.robomaker.CfnSimulationApplication
 
 @Generated
-public fun buildSourceConfigProperty(initializer: @AwsCdkDsl
-    CfnSimulationApplication.SourceConfigProperty.Builder.() -> Unit = {}):
-    CfnSimulationApplication.SourceConfigProperty =
-    CfnSimulationApplication.SourceConfigProperty.Builder().apply(initializer).build()
+public fun buildSourceConfigProperty(initializer: @AwsCdkDsl CfnSimulationApplication.SourceConfigProperty.Builder.() -> Unit = {}): CfnSimulationApplication.SourceConfigProperty = CfnSimulationApplication.SourceConfigProperty.Builder().apply(initializer).build()

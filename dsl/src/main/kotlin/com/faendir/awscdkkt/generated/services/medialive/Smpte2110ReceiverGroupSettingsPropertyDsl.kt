@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnInput
 
 @Generated
-public fun buildSmpte2110ReceiverGroupSettingsProperty(initializer: @AwsCdkDsl
-    CfnInput.Smpte2110ReceiverGroupSettingsProperty.Builder.() -> Unit = {}):
-    CfnInput.Smpte2110ReceiverGroupSettingsProperty =
-    CfnInput.Smpte2110ReceiverGroupSettingsProperty.Builder().apply(initializer).build()
+public fun buildSmpte2110ReceiverGroupSettingsProperty(initializer: @AwsCdkDsl CfnInput.Smpte2110ReceiverGroupSettingsProperty.Builder.() -> Unit = {}): CfnInput.Smpte2110ReceiverGroupSettingsProperty = CfnInput.Smpte2110ReceiverGroupSettingsProperty.Builder().apply(initializer).build()

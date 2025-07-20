@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.eventsources.ConfluentSchemaRegistryProps
 
 @Generated
-public fun buildConfluentSchemaRegistryProps(initializer: @AwsCdkDsl
-    ConfluentSchemaRegistryProps.Builder.() -> Unit = {}): ConfluentSchemaRegistryProps =
-    ConfluentSchemaRegistryProps.Builder().apply(initializer).build()
+public fun buildConfluentSchemaRegistryProps(initializer: @AwsCdkDsl ConfluentSchemaRegistryProps.Builder.() -> Unit = {}): ConfluentSchemaRegistryProps = ConfluentSchemaRegistryProps.Builder().apply(initializer).build()

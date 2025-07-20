@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVPCEndpoint
 
 @Generated
-public fun buildDnsOptionsSpecificationProperty(initializer: @AwsCdkDsl
-    CfnVPCEndpoint.DnsOptionsSpecificationProperty.Builder.() -> Unit = {}):
-    CfnVPCEndpoint.DnsOptionsSpecificationProperty =
-    CfnVPCEndpoint.DnsOptionsSpecificationProperty.Builder().apply(initializer).build()
+public fun buildDnsOptionsSpecificationProperty(initializer: @AwsCdkDsl CfnVPCEndpoint.DnsOptionsSpecificationProperty.Builder.() -> Unit = {}): CfnVPCEndpoint.DnsOptionsSpecificationProperty = CfnVPCEndpoint.DnsOptionsSpecificationProperty.Builder().apply(initializer).build()

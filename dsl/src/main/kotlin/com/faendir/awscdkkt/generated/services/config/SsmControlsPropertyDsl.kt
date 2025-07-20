@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.config.CfnRemediationConfiguration
 
 @Generated
-public fun buildSsmControlsProperty(initializer: @AwsCdkDsl
-    CfnRemediationConfiguration.SsmControlsProperty.Builder.() -> Unit = {}):
-    CfnRemediationConfiguration.SsmControlsProperty =
-    CfnRemediationConfiguration.SsmControlsProperty.Builder().apply(initializer).build()
+public fun buildSsmControlsProperty(initializer: @AwsCdkDsl CfnRemediationConfiguration.SsmControlsProperty.Builder.() -> Unit = {}): CfnRemediationConfiguration.SsmControlsProperty = CfnRemediationConfiguration.SsmControlsProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnProvisioningTemplate(
 ): CfnProvisioningTemplate = CfnProvisioningTemplate(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnProvisioningTemplate(id: String, initializer: @AwsCdkDsl
-    CfnProvisioningTemplate.Builder.() -> Unit = {}): CfnProvisioningTemplate =
-    CfnProvisioningTemplate.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnProvisioningTemplate(id: String, initializer: @AwsCdkDsl CfnProvisioningTemplate.Builder.() -> Unit = {}): CfnProvisioningTemplate = CfnProvisioningTemplate.Builder.create(this, id).apply(initializer).build()

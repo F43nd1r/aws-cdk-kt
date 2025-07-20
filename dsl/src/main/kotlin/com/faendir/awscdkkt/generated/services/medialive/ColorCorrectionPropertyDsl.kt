@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildColorCorrectionProperty(initializer: @AwsCdkDsl
-    CfnChannel.ColorCorrectionProperty.Builder.() -> Unit = {}): CfnChannel.ColorCorrectionProperty
-    = CfnChannel.ColorCorrectionProperty.Builder().apply(initializer).build()
+public fun buildColorCorrectionProperty(initializer: @AwsCdkDsl CfnChannel.ColorCorrectionProperty.Builder.() -> Unit = {}): CfnChannel.ColorCorrectionProperty = CfnChannel.ColorCorrectionProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnListenerRule(
 ): CfnListenerRule = CfnListenerRule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnListenerRule(id: String, initializer: @AwsCdkDsl
-    CfnListenerRule.Builder.() -> Unit = {}): CfnListenerRule = CfnListenerRule.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnListenerRule(id: String, initializer: @AwsCdkDsl CfnListenerRule.Builder.() -> Unit = {}): CfnListenerRule = CfnListenerRule.Builder.create(this, id).apply(initializer).build()

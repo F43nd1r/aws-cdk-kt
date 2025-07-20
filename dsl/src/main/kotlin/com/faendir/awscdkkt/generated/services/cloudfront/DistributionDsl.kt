@@ -16,6 +16,4 @@ public fun Construct.distribution(
 ): Distribution = Distribution(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildDistribution(id: String, initializer: @AwsCdkDsl
-    Distribution.Builder.() -> Unit = {}): Distribution = Distribution.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildDistribution(id: String, initializer: @AwsCdkDsl Distribution.Builder.() -> Unit = {}): Distribution = Distribution.Builder.create(this, id).apply(initializer).build()

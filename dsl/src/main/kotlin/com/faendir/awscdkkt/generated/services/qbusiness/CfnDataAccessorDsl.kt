@@ -16,6 +16,4 @@ public fun Construct.cfnDataAccessor(
 ): CfnDataAccessor = CfnDataAccessor(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDataAccessor(id: String, initializer: @AwsCdkDsl
-    CfnDataAccessor.Builder.() -> Unit = {}): CfnDataAccessor = CfnDataAccessor.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnDataAccessor(id: String, initializer: @AwsCdkDsl CfnDataAccessor.Builder.() -> Unit = {}): CfnDataAccessor = CfnDataAccessor.Builder.create(this, id).apply(initializer).build()

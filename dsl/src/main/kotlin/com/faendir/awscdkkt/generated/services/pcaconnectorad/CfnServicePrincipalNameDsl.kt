@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.pcaconnectorad.CfnServicePrincipalNamePro
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnServicePrincipalName(id: String, initializer: @AwsCdkDsl
-    CfnServicePrincipalName.() -> Unit = {}): CfnServicePrincipalName =
-    CfnServicePrincipalName(this, id).apply(initializer)
+public fun Construct.cfnServicePrincipalName(id: String, initializer: @AwsCdkDsl CfnServicePrincipalName.() -> Unit = {}): CfnServicePrincipalName = CfnServicePrincipalName(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnServicePrincipalName(
@@ -21,6 +19,4 @@ public fun Construct.cfnServicePrincipalName(
 ): CfnServicePrincipalName = CfnServicePrincipalName(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnServicePrincipalName(id: String, initializer: @AwsCdkDsl
-    CfnServicePrincipalName.Builder.() -> Unit = {}): CfnServicePrincipalName =
-    CfnServicePrincipalName.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnServicePrincipalName(id: String, initializer: @AwsCdkDsl CfnServicePrincipalName.Builder.() -> Unit = {}): CfnServicePrincipalName = CfnServicePrincipalName.Builder.create(this, id).apply(initializer).build()

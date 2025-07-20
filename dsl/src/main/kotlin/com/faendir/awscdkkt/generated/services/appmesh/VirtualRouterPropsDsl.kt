@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.VirtualRouterProps
 
 @Generated
-public fun buildVirtualRouterProps(initializer: @AwsCdkDsl VirtualRouterProps.Builder.() -> Unit =
-    {}): VirtualRouterProps = VirtualRouterProps.Builder().apply(initializer).build()
+public fun buildVirtualRouterProps(initializer: @AwsCdkDsl VirtualRouterProps.Builder.() -> Unit = {}): VirtualRouterProps = VirtualRouterProps.Builder().apply(initializer).build()

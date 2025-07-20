@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTopic
 
 @Generated
-public fun buildCollectiveConstantProperty(initializer: @AwsCdkDsl
-    CfnTopic.CollectiveConstantProperty.Builder.() -> Unit = {}):
-    CfnTopic.CollectiveConstantProperty =
-    CfnTopic.CollectiveConstantProperty.Builder().apply(initializer).build()
+public fun buildCollectiveConstantProperty(initializer: @AwsCdkDsl CfnTopic.CollectiveConstantProperty.Builder.() -> Unit = {}): CfnTopic.CollectiveConstantProperty = CfnTopic.CollectiveConstantProperty.Builder().apply(initializer).build()

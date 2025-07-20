@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.omics.CfnAnnotationStoreProps
 
 @Generated
-public fun buildCfnAnnotationStoreProps(initializer: @AwsCdkDsl
-    CfnAnnotationStoreProps.Builder.() -> Unit = {}): CfnAnnotationStoreProps =
-    CfnAnnotationStoreProps.Builder().apply(initializer).build()
+public fun buildCfnAnnotationStoreProps(initializer: @AwsCdkDsl CfnAnnotationStoreProps.Builder.() -> Unit = {}): CfnAnnotationStoreProps = CfnAnnotationStoreProps.Builder().apply(initializer).build()

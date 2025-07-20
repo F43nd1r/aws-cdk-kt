@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.deadline.CfnFleet
 
 @Generated
-public fun buildAcceleratorSelectionProperty(initializer: @AwsCdkDsl
-    CfnFleet.AcceleratorSelectionProperty.Builder.() -> Unit = {}):
-    CfnFleet.AcceleratorSelectionProperty =
-    CfnFleet.AcceleratorSelectionProperty.Builder().apply(initializer).build()
+public fun buildAcceleratorSelectionProperty(initializer: @AwsCdkDsl CfnFleet.AcceleratorSelectionProperty.Builder.() -> Unit = {}): CfnFleet.AcceleratorSelectionProperty = CfnFleet.AcceleratorSelectionProperty.Builder().apply(initializer).build()

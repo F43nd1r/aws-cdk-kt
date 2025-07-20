@@ -16,6 +16,4 @@ public fun Construct.cfnSizeConstraintSet(
 ): CfnSizeConstraintSet = CfnSizeConstraintSet(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSizeConstraintSet(id: String, initializer: @AwsCdkDsl
-    CfnSizeConstraintSet.Builder.() -> Unit = {}): CfnSizeConstraintSet =
-    CfnSizeConstraintSet.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSizeConstraintSet(id: String, initializer: @AwsCdkDsl CfnSizeConstraintSet.Builder.() -> Unit = {}): CfnSizeConstraintSet = CfnSizeConstraintSet.Builder.create(this, id).apply(initializer).build()

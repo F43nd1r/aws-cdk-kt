@@ -16,5 +16,4 @@ public fun Construct.listener(
 ): Listener = Listener(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildListener(id: String, initializer: @AwsCdkDsl Listener.Builder.() -> Unit =
-    {}): Listener = Listener.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildListener(id: String, initializer: @AwsCdkDsl Listener.Builder.() -> Unit = {}): Listener = Listener.Builder.create(this, id).apply(initializer).build()

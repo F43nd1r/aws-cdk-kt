@@ -16,6 +16,4 @@ public fun Construct.cfnLaunchRoleConstraint(
 ): CfnLaunchRoleConstraint = CfnLaunchRoleConstraint(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLaunchRoleConstraint(id: String, initializer: @AwsCdkDsl
-    CfnLaunchRoleConstraint.Builder.() -> Unit = {}): CfnLaunchRoleConstraint =
-    CfnLaunchRoleConstraint.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLaunchRoleConstraint(id: String, initializer: @AwsCdkDsl CfnLaunchRoleConstraint.Builder.() -> Unit = {}): CfnLaunchRoleConstraint = CfnLaunchRoleConstraint.Builder.create(this, id).apply(initializer).build()

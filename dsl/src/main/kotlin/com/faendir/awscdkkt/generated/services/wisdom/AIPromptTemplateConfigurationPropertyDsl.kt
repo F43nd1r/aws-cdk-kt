@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnAIPrompt
 
 @Generated
-public fun buildAIPromptTemplateConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAIPrompt.AIPromptTemplateConfigurationProperty.Builder.() -> Unit = {}):
-    CfnAIPrompt.AIPromptTemplateConfigurationProperty =
-    CfnAIPrompt.AIPromptTemplateConfigurationProperty.Builder().apply(initializer).build()
+public fun buildAIPromptTemplateConfigurationProperty(initializer: @AwsCdkDsl CfnAIPrompt.AIPromptTemplateConfigurationProperty.Builder.() -> Unit = {}): CfnAIPrompt.AIPromptTemplateConfigurationProperty = CfnAIPrompt.AIPromptTemplateConfigurationProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.efs.CfnFileSystem
 
 @Generated
-public fun buildBackupPolicyProperty(initializer: @AwsCdkDsl
-    CfnFileSystem.BackupPolicyProperty.Builder.() -> Unit = {}): CfnFileSystem.BackupPolicyProperty
-    = CfnFileSystem.BackupPolicyProperty.Builder().apply(initializer).build()
+public fun buildBackupPolicyProperty(initializer: @AwsCdkDsl CfnFileSystem.BackupPolicyProperty.Builder.() -> Unit = {}): CfnFileSystem.BackupPolicyProperty = CfnFileSystem.BackupPolicyProperty.Builder().apply(initializer).build()

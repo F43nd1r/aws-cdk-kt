@@ -13,10 +13,7 @@ public fun Construct.cfnLogicallyAirGappedBackupVault(
   id: String,
   props: CfnLogicallyAirGappedBackupVaultProps,
   initializer: @AwsCdkDsl CfnLogicallyAirGappedBackupVault.() -> Unit = {},
-): CfnLogicallyAirGappedBackupVault = CfnLogicallyAirGappedBackupVault(this, id,
-    props).apply(initializer)
+): CfnLogicallyAirGappedBackupVault = CfnLogicallyAirGappedBackupVault(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLogicallyAirGappedBackupVault(id: String, initializer: @AwsCdkDsl
-    CfnLogicallyAirGappedBackupVault.Builder.() -> Unit = {}): CfnLogicallyAirGappedBackupVault =
-    CfnLogicallyAirGappedBackupVault.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLogicallyAirGappedBackupVault(id: String, initializer: @AwsCdkDsl CfnLogicallyAirGappedBackupVault.Builder.() -> Unit = {}): CfnLogicallyAirGappedBackupVault = CfnLogicallyAirGappedBackupVault.Builder.create(this, id).apply(initializer).build()

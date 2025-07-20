@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloud_assembly_schema.LoadBalancerListenerContextQuery
 
 @Generated
-public fun buildLoadBalancerListenerContextQuery(initializer: @AwsCdkDsl
-    LoadBalancerListenerContextQuery.Builder.() -> Unit = {}): LoadBalancerListenerContextQuery =
-    LoadBalancerListenerContextQuery.Builder().apply(initializer).build()
+public fun buildLoadBalancerListenerContextQuery(initializer: @AwsCdkDsl LoadBalancerListenerContextQuery.Builder.() -> Unit = {}): LoadBalancerListenerContextQuery = LoadBalancerListenerContextQuery.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnUserPool
 
 @Generated
-public fun buildPreTokenGenerationConfigProperty(initializer: @AwsCdkDsl
-    CfnUserPool.PreTokenGenerationConfigProperty.Builder.() -> Unit = {}):
-    CfnUserPool.PreTokenGenerationConfigProperty =
-    CfnUserPool.PreTokenGenerationConfigProperty.Builder().apply(initializer).build()
+public fun buildPreTokenGenerationConfigProperty(initializer: @AwsCdkDsl CfnUserPool.PreTokenGenerationConfigProperty.Builder.() -> Unit = {}): CfnUserPool.PreTokenGenerationConfigProperty = CfnUserPool.PreTokenGenerationConfigProperty.Builder().apply(initializer).build()

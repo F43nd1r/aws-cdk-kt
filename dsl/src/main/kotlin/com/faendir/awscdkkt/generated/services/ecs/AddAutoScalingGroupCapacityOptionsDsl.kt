@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.AddAutoScalingGroupCapacityOptions
 
 @Generated
-public fun buildAddAutoScalingGroupCapacityOptions(initializer: @AwsCdkDsl
-    AddAutoScalingGroupCapacityOptions.Builder.() -> Unit = {}): AddAutoScalingGroupCapacityOptions
-    = AddAutoScalingGroupCapacityOptions.Builder().apply(initializer).build()
+public fun buildAddAutoScalingGroupCapacityOptions(initializer: @AwsCdkDsl AddAutoScalingGroupCapacityOptions.Builder.() -> Unit = {}): AddAutoScalingGroupCapacityOptions = AddAutoScalingGroupCapacityOptions.Builder().apply(initializer).build()

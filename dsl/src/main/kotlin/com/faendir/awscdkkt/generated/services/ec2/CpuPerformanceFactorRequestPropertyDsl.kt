@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnSpotFleet
 
 @Generated
-public fun buildCpuPerformanceFactorRequestProperty(initializer: @AwsCdkDsl
-    CfnSpotFleet.CpuPerformanceFactorRequestProperty.Builder.() -> Unit = {}):
-    CfnSpotFleet.CpuPerformanceFactorRequestProperty =
-    CfnSpotFleet.CpuPerformanceFactorRequestProperty.Builder().apply(initializer).build()
+public fun buildCpuPerformanceFactorRequestProperty(initializer: @AwsCdkDsl CfnSpotFleet.CpuPerformanceFactorRequestProperty.Builder.() -> Unit = {}): CfnSpotFleet.CpuPerformanceFactorRequestProperty = CfnSpotFleet.CpuPerformanceFactorRequestProperty.Builder().apply(initializer).build()

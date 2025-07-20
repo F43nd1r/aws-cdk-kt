@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.CfnStage
 
 @Generated
-public fun buildMethodSettingProperty(initializer: @AwsCdkDsl
-    CfnStage.MethodSettingProperty.Builder.() -> Unit = {}): CfnStage.MethodSettingProperty =
-    CfnStage.MethodSettingProperty.Builder().apply(initializer).build()
+public fun buildMethodSettingProperty(initializer: @AwsCdkDsl CfnStage.MethodSettingProperty.Builder.() -> Unit = {}): CfnStage.MethodSettingProperty = CfnStage.MethodSettingProperty.Builder().apply(initializer).build()

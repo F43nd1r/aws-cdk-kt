@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildFrameCaptureOutputSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.FrameCaptureOutputSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.FrameCaptureOutputSettingsProperty =
-    CfnChannel.FrameCaptureOutputSettingsProperty.Builder().apply(initializer).build()
+public fun buildFrameCaptureOutputSettingsProperty(initializer: @AwsCdkDsl CfnChannel.FrameCaptureOutputSettingsProperty.Builder.() -> Unit = {}): CfnChannel.FrameCaptureOutputSettingsProperty = CfnChannel.FrameCaptureOutputSettingsProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnInAppTemplateProps
 
 @Generated
-public fun buildCfnInAppTemplateProps(initializer: @AwsCdkDsl
-    CfnInAppTemplateProps.Builder.() -> Unit = {}): CfnInAppTemplateProps =
-    CfnInAppTemplateProps.Builder().apply(initializer).build()
+public fun buildCfnInAppTemplateProps(initializer: @AwsCdkDsl CfnInAppTemplateProps.Builder.() -> Unit = {}): CfnInAppTemplateProps = CfnInAppTemplateProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildExternalSourceSettingProperty(initializer: @AwsCdkDsl
-    CfnBot.ExternalSourceSettingProperty.Builder.() -> Unit = {}):
-    CfnBot.ExternalSourceSettingProperty =
-    CfnBot.ExternalSourceSettingProperty.Builder().apply(initializer).build()
+public fun buildExternalSourceSettingProperty(initializer: @AwsCdkDsl CfnBot.ExternalSourceSettingProperty.Builder.() -> Unit = {}): CfnBot.ExternalSourceSettingProperty = CfnBot.ExternalSourceSettingProperty.Builder().apply(initializer).build()

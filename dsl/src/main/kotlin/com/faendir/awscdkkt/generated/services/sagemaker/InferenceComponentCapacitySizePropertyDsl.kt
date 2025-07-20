@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnInferenceComponent
 
 @Generated
-public fun buildInferenceComponentCapacitySizeProperty(initializer: @AwsCdkDsl
-    CfnInferenceComponent.InferenceComponentCapacitySizeProperty.Builder.() -> Unit = {}):
-    CfnInferenceComponent.InferenceComponentCapacitySizeProperty =
-    CfnInferenceComponent.InferenceComponentCapacitySizeProperty.Builder().apply(initializer).build()
+public fun buildInferenceComponentCapacitySizeProperty(initializer: @AwsCdkDsl CfnInferenceComponent.InferenceComponentCapacitySizeProperty.Builder.() -> Unit = {}): CfnInferenceComponent.InferenceComponentCapacitySizeProperty = CfnInferenceComponent.InferenceComponentCapacitySizeProperty.Builder().apply(initializer).build()

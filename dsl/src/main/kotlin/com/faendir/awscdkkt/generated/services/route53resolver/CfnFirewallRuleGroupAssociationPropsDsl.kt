@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53resolver.CfnFirewallRuleGroupAssociationProps
 
 @Generated
-public fun buildCfnFirewallRuleGroupAssociationProps(initializer: @AwsCdkDsl
-    CfnFirewallRuleGroupAssociationProps.Builder.() -> Unit = {}):
-    CfnFirewallRuleGroupAssociationProps =
-    CfnFirewallRuleGroupAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnFirewallRuleGroupAssociationProps(initializer: @AwsCdkDsl CfnFirewallRuleGroupAssociationProps.Builder.() -> Unit = {}): CfnFirewallRuleGroupAssociationProps = CfnFirewallRuleGroupAssociationProps.Builder().apply(initializer).build()

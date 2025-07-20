@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.CodeBuildStartBuildBatchProps
 
 @Generated
-public fun buildCodeBuildStartBuildBatchProps(initializer: @AwsCdkDsl
-    CodeBuildStartBuildBatchProps.Builder.() -> Unit = {}): CodeBuildStartBuildBatchProps =
-    CodeBuildStartBuildBatchProps.Builder().apply(initializer).build()
+public fun buildCodeBuildStartBuildBatchProps(initializer: @AwsCdkDsl CodeBuildStartBuildBatchProps.Builder.() -> Unit = {}): CodeBuildStartBuildBatchProps = CodeBuildStartBuildBatchProps.Builder().apply(initializer).build()

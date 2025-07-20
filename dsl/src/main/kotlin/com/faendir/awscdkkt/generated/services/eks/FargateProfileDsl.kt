@@ -16,6 +16,4 @@ public fun Construct.fargateProfile(
 ): FargateProfile = FargateProfile(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildFargateProfile(id: String, initializer: @AwsCdkDsl
-    FargateProfile.Builder.() -> Unit = {}): FargateProfile = FargateProfile.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildFargateProfile(id: String, initializer: @AwsCdkDsl FargateProfile.Builder.() -> Unit = {}): FargateProfile = FargateProfile.Builder.create(this, id).apply(initializer).build()

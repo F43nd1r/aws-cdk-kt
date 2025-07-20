@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnUserHierarchyGroupProps
 
 @Generated
-public fun buildCfnUserHierarchyGroupProps(initializer: @AwsCdkDsl
-    CfnUserHierarchyGroupProps.Builder.() -> Unit = {}): CfnUserHierarchyGroupProps =
-    CfnUserHierarchyGroupProps.Builder().apply(initializer).build()
+public fun buildCfnUserHierarchyGroupProps(initializer: @AwsCdkDsl CfnUserHierarchyGroupProps.Builder.() -> Unit = {}): CfnUserHierarchyGroupProps = CfnUserHierarchyGroupProps.Builder().apply(initializer).build()

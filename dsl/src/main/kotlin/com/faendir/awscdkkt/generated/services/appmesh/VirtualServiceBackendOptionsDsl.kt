@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.VirtualServiceBackendOptions
 
 @Generated
-public fun buildVirtualServiceBackendOptions(initializer: @AwsCdkDsl
-    VirtualServiceBackendOptions.Builder.() -> Unit = {}): VirtualServiceBackendOptions =
-    VirtualServiceBackendOptions.Builder().apply(initializer).build()
+public fun buildVirtualServiceBackendOptions(initializer: @AwsCdkDsl VirtualServiceBackendOptions.Builder.() -> Unit = {}): VirtualServiceBackendOptions = VirtualServiceBackendOptions.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticsearch.CfnDomain
 
 @Generated
-public fun buildNodeToNodeEncryptionOptionsProperty(initializer: @AwsCdkDsl
-    CfnDomain.NodeToNodeEncryptionOptionsProperty.Builder.() -> Unit = {}):
-    CfnDomain.NodeToNodeEncryptionOptionsProperty =
-    CfnDomain.NodeToNodeEncryptionOptionsProperty.Builder().apply(initializer).build()
+public fun buildNodeToNodeEncryptionOptionsProperty(initializer: @AwsCdkDsl CfnDomain.NodeToNodeEncryptionOptionsProperty.Builder.() -> Unit = {}): CfnDomain.NodeToNodeEncryptionOptionsProperty = CfnDomain.NodeToNodeEncryptionOptionsProperty.Builder().apply(initializer).build()

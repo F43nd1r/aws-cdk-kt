@@ -16,6 +16,4 @@ public fun Construct.cfnEC2Fleet(
 ): CfnEC2Fleet = CfnEC2Fleet(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEC2Fleet(id: String, initializer: @AwsCdkDsl
-    CfnEC2Fleet.Builder.() -> Unit = {}): CfnEC2Fleet = CfnEC2Fleet.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnEC2Fleet(id: String, initializer: @AwsCdkDsl CfnEC2Fleet.Builder.() -> Unit = {}): CfnEC2Fleet = CfnEC2Fleet.Builder.create(this, id).apply(initializer).build()

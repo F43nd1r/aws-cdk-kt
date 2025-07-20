@@ -16,6 +16,4 @@ public fun Construct.topicPolicy(
 ): TopicPolicy = TopicPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildTopicPolicy(id: String, initializer: @AwsCdkDsl
-    TopicPolicy.Builder.() -> Unit = {}): TopicPolicy = TopicPolicy.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildTopicPolicy(id: String, initializer: @AwsCdkDsl TopicPolicy.Builder.() -> Unit = {}): TopicPolicy = TopicPolicy.Builder.create(this, id).apply(initializer).build()

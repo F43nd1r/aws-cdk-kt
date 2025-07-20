@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.GitHubEnterpriseSourceCredentialsProps
 
 @Generated
-public fun buildGitHubEnterpriseSourceCredentialsProps(initializer: @AwsCdkDsl
-    GitHubEnterpriseSourceCredentialsProps.Builder.() -> Unit = {}):
-    GitHubEnterpriseSourceCredentialsProps =
-    GitHubEnterpriseSourceCredentialsProps.Builder().apply(initializer).build()
+public fun buildGitHubEnterpriseSourceCredentialsProps(initializer: @AwsCdkDsl GitHubEnterpriseSourceCredentialsProps.Builder.() -> Unit = {}): GitHubEnterpriseSourceCredentialsProps = GitHubEnterpriseSourceCredentialsProps.Builder().apply(initializer).build()

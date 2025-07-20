@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.AllocateCidrRequest
 
 @Generated
-public fun buildAllocateCidrRequest(initializer: @AwsCdkDsl AllocateCidrRequest.Builder.() -> Unit =
-    {}): AllocateCidrRequest = AllocateCidrRequest.Builder().apply(initializer).build()
+public fun buildAllocateCidrRequest(initializer: @AwsCdkDsl AllocateCidrRequest.Builder.() -> Unit = {}): AllocateCidrRequest = AllocateCidrRequest.Builder().apply(initializer).build()

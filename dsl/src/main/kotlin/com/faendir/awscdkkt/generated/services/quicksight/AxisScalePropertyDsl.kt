@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildAxisScaleProperty(initializer: @AwsCdkDsl
-    CfnTemplate.AxisScaleProperty.Builder.() -> Unit = {}): CfnTemplate.AxisScaleProperty =
-    CfnTemplate.AxisScaleProperty.Builder().apply(initializer).build()
+public fun buildAxisScaleProperty(initializer: @AwsCdkDsl CfnTemplate.AxisScaleProperty.Builder.() -> Unit = {}): CfnTemplate.AxisScaleProperty = CfnTemplate.AxisScaleProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnSpotFleet
 
 @Generated
-public fun buildBaselineEbsBandwidthMbpsRequestProperty(initializer: @AwsCdkDsl
-    CfnSpotFleet.BaselineEbsBandwidthMbpsRequestProperty.Builder.() -> Unit = {}):
-    CfnSpotFleet.BaselineEbsBandwidthMbpsRequestProperty =
-    CfnSpotFleet.BaselineEbsBandwidthMbpsRequestProperty.Builder().apply(initializer).build()
+public fun buildBaselineEbsBandwidthMbpsRequestProperty(initializer: @AwsCdkDsl CfnSpotFleet.BaselineEbsBandwidthMbpsRequestProperty.Builder.() -> Unit = {}): CfnSpotFleet.BaselineEbsBandwidthMbpsRequestProperty = CfnSpotFleet.BaselineEbsBandwidthMbpsRequestProperty.Builder().apply(initializer).build()

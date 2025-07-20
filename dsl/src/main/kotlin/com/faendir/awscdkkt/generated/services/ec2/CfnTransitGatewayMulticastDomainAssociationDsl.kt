@@ -13,11 +13,7 @@ public fun Construct.cfnTransitGatewayMulticastDomainAssociation(
   id: String,
   props: CfnTransitGatewayMulticastDomainAssociationProps,
   initializer: @AwsCdkDsl CfnTransitGatewayMulticastDomainAssociation.() -> Unit = {},
-): CfnTransitGatewayMulticastDomainAssociation = CfnTransitGatewayMulticastDomainAssociation(this,
-    id, props).apply(initializer)
+): CfnTransitGatewayMulticastDomainAssociation = CfnTransitGatewayMulticastDomainAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTransitGatewayMulticastDomainAssociation(id: String,
-    initializer: @AwsCdkDsl CfnTransitGatewayMulticastDomainAssociation.Builder.() -> Unit = {}):
-    CfnTransitGatewayMulticastDomainAssociation =
-    CfnTransitGatewayMulticastDomainAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTransitGatewayMulticastDomainAssociation(id: String, initializer: @AwsCdkDsl CfnTransitGatewayMulticastDomainAssociation.Builder.() -> Unit = {}): CfnTransitGatewayMulticastDomainAssociation = CfnTransitGatewayMulticastDomainAssociation.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrContainersStartJobRunProps
 
 @Generated
-public fun buildEmrContainersStartJobRunProps(initializer: @AwsCdkDsl
-    EmrContainersStartJobRunProps.Builder.() -> Unit = {}): EmrContainersStartJobRunProps =
-    EmrContainersStartJobRunProps.Builder().apply(initializer).build()
+public fun buildEmrContainersStartJobRunProps(initializer: @AwsCdkDsl EmrContainersStartJobRunProps.Builder.() -> Unit = {}): EmrContainersStartJobRunProps = EmrContainersStartJobRunProps.Builder().apply(initializer).build()

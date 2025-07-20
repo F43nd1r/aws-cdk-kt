@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnFeatureGroup
 
 @Generated
-public fun buildDataCatalogConfigProperty(initializer: @AwsCdkDsl
-    CfnFeatureGroup.DataCatalogConfigProperty.Builder.() -> Unit = {}):
-    CfnFeatureGroup.DataCatalogConfigProperty =
-    CfnFeatureGroup.DataCatalogConfigProperty.Builder().apply(initializer).build()
+public fun buildDataCatalogConfigProperty(initializer: @AwsCdkDsl CfnFeatureGroup.DataCatalogConfigProperty.Builder.() -> Unit = {}): CfnFeatureGroup.DataCatalogConfigProperty = CfnFeatureGroup.DataCatalogConfigProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.codeBuildStartBuildBatch(
 ): CodeBuildStartBuildBatch = CodeBuildStartBuildBatch(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCodeBuildStartBuildBatch(id: String, initializer: @AwsCdkDsl
-    CodeBuildStartBuildBatch.Builder.() -> Unit = {}): CodeBuildStartBuildBatch =
-    CodeBuildStartBuildBatch.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCodeBuildStartBuildBatch(id: String, initializer: @AwsCdkDsl CodeBuildStartBuildBatch.Builder.() -> Unit = {}): CodeBuildStartBuildBatch = CodeBuildStartBuildBatch.Builder.create(this, id).apply(initializer).build()

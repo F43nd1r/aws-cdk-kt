@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.SourceRevision
 
 @Generated
-public fun buildSourceRevision(initializer: @AwsCdkDsl SourceRevision.Builder.() -> Unit = {}):
-    SourceRevision = SourceRevision.Builder().apply(initializer).build()
+public fun buildSourceRevision(initializer: @AwsCdkDsl SourceRevision.Builder.() -> Unit = {}): SourceRevision = SourceRevision.Builder().apply(initializer).build()

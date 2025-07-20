@@ -16,6 +16,4 @@ public fun Construct.cfnInvoiceUnit(
 ): CfnInvoiceUnit = CfnInvoiceUnit(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnInvoiceUnit(id: String, initializer: @AwsCdkDsl
-    CfnInvoiceUnit.Builder.() -> Unit = {}): CfnInvoiceUnit = CfnInvoiceUnit.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnInvoiceUnit(id: String, initializer: @AwsCdkDsl CfnInvoiceUnit.Builder.() -> Unit = {}): CfnInvoiceUnit = CfnInvoiceUnit.Builder.create(this, id).apply(initializer).build()

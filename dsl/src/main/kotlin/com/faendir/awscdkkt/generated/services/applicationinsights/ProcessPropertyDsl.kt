@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.applicationinsights.CfnApplication
 
 @Generated
-public fun buildProcessProperty(initializer: @AwsCdkDsl
-    CfnApplication.ProcessProperty.Builder.() -> Unit = {}): CfnApplication.ProcessProperty =
-    CfnApplication.ProcessProperty.Builder().apply(initializer).build()
+public fun buildProcessProperty(initializer: @AwsCdkDsl CfnApplication.ProcessProperty.Builder.() -> Unit = {}): CfnApplication.ProcessProperty = CfnApplication.ProcessProperty.Builder().apply(initializer).build()

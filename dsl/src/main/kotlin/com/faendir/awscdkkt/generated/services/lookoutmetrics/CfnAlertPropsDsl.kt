@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lookoutmetrics.CfnAlertProps
 
 @Generated
-public fun buildCfnAlertProps(initializer: @AwsCdkDsl CfnAlertProps.Builder.() -> Unit = {}):
-    CfnAlertProps = CfnAlertProps.Builder().apply(initializer).build()
+public fun buildCfnAlertProps(initializer: @AwsCdkDsl CfnAlertProps.Builder.() -> Unit = {}): CfnAlertProps = CfnAlertProps.Builder().apply(initializer).build()

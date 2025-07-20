@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotfleetwise.CfnSignalCatalog
 
 @Generated
-public fun buildNodeCountsProperty(initializer: @AwsCdkDsl
-    CfnSignalCatalog.NodeCountsProperty.Builder.() -> Unit = {}):
-    CfnSignalCatalog.NodeCountsProperty =
-    CfnSignalCatalog.NodeCountsProperty.Builder().apply(initializer).build()
+public fun buildNodeCountsProperty(initializer: @AwsCdkDsl CfnSignalCatalog.NodeCountsProperty.Builder.() -> Unit = {}): CfnSignalCatalog.NodeCountsProperty = CfnSignalCatalog.NodeCountsProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediaconnect.CfnFlow
 
 @Generated
-public fun buildMaintenanceProperty(initializer: @AwsCdkDsl
-    CfnFlow.MaintenanceProperty.Builder.() -> Unit = {}): CfnFlow.MaintenanceProperty =
-    CfnFlow.MaintenanceProperty.Builder().apply(initializer).build()
+public fun buildMaintenanceProperty(initializer: @AwsCdkDsl CfnFlow.MaintenanceProperty.Builder.() -> Unit = {}): CfnFlow.MaintenanceProperty = CfnFlow.MaintenanceProperty.Builder().apply(initializer).build()

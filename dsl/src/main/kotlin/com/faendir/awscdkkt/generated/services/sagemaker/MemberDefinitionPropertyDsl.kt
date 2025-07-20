@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnWorkteam
 
 @Generated
-public fun buildMemberDefinitionProperty(initializer: @AwsCdkDsl
-    CfnWorkteam.MemberDefinitionProperty.Builder.() -> Unit = {}):
-    CfnWorkteam.MemberDefinitionProperty =
-    CfnWorkteam.MemberDefinitionProperty.Builder().apply(initializer).build()
+public fun buildMemberDefinitionProperty(initializer: @AwsCdkDsl CfnWorkteam.MemberDefinitionProperty.Builder.() -> Unit = {}): CfnWorkteam.MemberDefinitionProperty = CfnWorkteam.MemberDefinitionProperty.Builder().apply(initializer).build()

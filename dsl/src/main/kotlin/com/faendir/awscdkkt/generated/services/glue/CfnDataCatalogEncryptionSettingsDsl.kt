@@ -13,10 +13,7 @@ public fun Construct.cfnDataCatalogEncryptionSettings(
   id: String,
   props: CfnDataCatalogEncryptionSettingsProps,
   initializer: @AwsCdkDsl CfnDataCatalogEncryptionSettings.() -> Unit = {},
-): CfnDataCatalogEncryptionSettings = CfnDataCatalogEncryptionSettings(this, id,
-    props).apply(initializer)
+): CfnDataCatalogEncryptionSettings = CfnDataCatalogEncryptionSettings(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDataCatalogEncryptionSettings(id: String, initializer: @AwsCdkDsl
-    CfnDataCatalogEncryptionSettings.Builder.() -> Unit = {}): CfnDataCatalogEncryptionSettings =
-    CfnDataCatalogEncryptionSettings.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDataCatalogEncryptionSettings(id: String, initializer: @AwsCdkDsl CfnDataCatalogEncryptionSettings.Builder.() -> Unit = {}): CfnDataCatalogEncryptionSettings = CfnDataCatalogEncryptionSettings.Builder.create(this, id).apply(initializer).build()

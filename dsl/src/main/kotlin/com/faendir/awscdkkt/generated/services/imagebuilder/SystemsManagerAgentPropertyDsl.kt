@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.imagebuilder.CfnImageRecipe
 
 @Generated
-public fun buildSystemsManagerAgentProperty(initializer: @AwsCdkDsl
-    CfnImageRecipe.SystemsManagerAgentProperty.Builder.() -> Unit = {}):
-    CfnImageRecipe.SystemsManagerAgentProperty =
-    CfnImageRecipe.SystemsManagerAgentProperty.Builder().apply(initializer).build()
+public fun buildSystemsManagerAgentProperty(initializer: @AwsCdkDsl CfnImageRecipe.SystemsManagerAgentProperty.Builder.() -> Unit = {}): CfnImageRecipe.SystemsManagerAgentProperty = CfnImageRecipe.SystemsManagerAgentProperty.Builder().apply(initializer).build()

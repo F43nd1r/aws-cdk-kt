@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.CfnLayerVersionProps
 
 @Generated
-public fun buildCfnLayerVersionProps(initializer: @AwsCdkDsl CfnLayerVersionProps.Builder.() -> Unit
-    = {}): CfnLayerVersionProps = CfnLayerVersionProps.Builder().apply(initializer).build()
+public fun buildCfnLayerVersionProps(initializer: @AwsCdkDsl CfnLayerVersionProps.Builder.() -> Unit = {}): CfnLayerVersionProps = CfnLayerVersionProps.Builder().apply(initializer).build()

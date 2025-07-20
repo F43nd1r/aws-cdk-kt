@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudformation.CfnStack
 
 @Generated
-public fun buildOutputProperty(initializer: @AwsCdkDsl CfnStack.OutputProperty.Builder.() -> Unit =
-    {}): CfnStack.OutputProperty = CfnStack.OutputProperty.Builder().apply(initializer).build()
+public fun buildOutputProperty(initializer: @AwsCdkDsl CfnStack.OutputProperty.Builder.() -> Unit = {}): CfnStack.OutputProperty = CfnStack.OutputProperty.Builder().apply(initializer).build()

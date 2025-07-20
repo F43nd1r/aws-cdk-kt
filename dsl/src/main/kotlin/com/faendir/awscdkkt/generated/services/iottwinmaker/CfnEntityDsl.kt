@@ -16,5 +16,4 @@ public fun Construct.cfnEntity(
 ): CfnEntity = CfnEntity(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEntity(id: String, initializer: @AwsCdkDsl CfnEntity.Builder.() -> Unit
-    = {}): CfnEntity = CfnEntity.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnEntity(id: String, initializer: @AwsCdkDsl CfnEntity.Builder.() -> Unit = {}): CfnEntity = CfnEntity.Builder.create(this, id).apply(initializer).build()

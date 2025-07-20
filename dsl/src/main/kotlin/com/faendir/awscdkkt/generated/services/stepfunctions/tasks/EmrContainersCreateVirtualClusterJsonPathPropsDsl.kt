@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrContainersCreateVirtualClusterJsonPathProps
 
 @Generated
-public fun buildEmrContainersCreateVirtualClusterJsonPathProps(initializer: @AwsCdkDsl
-    EmrContainersCreateVirtualClusterJsonPathProps.Builder.() -> Unit = {}):
-    EmrContainersCreateVirtualClusterJsonPathProps =
-    EmrContainersCreateVirtualClusterJsonPathProps.Builder().apply(initializer).build()
+public fun buildEmrContainersCreateVirtualClusterJsonPathProps(initializer: @AwsCdkDsl EmrContainersCreateVirtualClusterJsonPathProps.Builder.() -> Unit = {}): EmrContainersCreateVirtualClusterJsonPathProps = EmrContainersCreateVirtualClusterJsonPathProps.Builder().apply(initializer).build()

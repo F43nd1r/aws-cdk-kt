@@ -16,6 +16,4 @@ public fun Construct.cfnAppBlockBuilder(
 ): CfnAppBlockBuilder = CfnAppBlockBuilder(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAppBlockBuilder(id: String, initializer: @AwsCdkDsl
-    CfnAppBlockBuilder.Builder.() -> Unit = {}): CfnAppBlockBuilder =
-    CfnAppBlockBuilder.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAppBlockBuilder(id: String, initializer: @AwsCdkDsl CfnAppBlockBuilder.Builder.() -> Unit = {}): CfnAppBlockBuilder = CfnAppBlockBuilder.Builder.create(this, id).apply(initializer).build()

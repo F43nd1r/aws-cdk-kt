@@ -16,6 +16,4 @@ public fun Construct.cfnMountTarget(
 ): CfnMountTarget = CfnMountTarget(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMountTarget(id: String, initializer: @AwsCdkDsl
-    CfnMountTarget.Builder.() -> Unit = {}): CfnMountTarget = CfnMountTarget.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnMountTarget(id: String, initializer: @AwsCdkDsl CfnMountTarget.Builder.() -> Unit = {}): CfnMountTarget = CfnMountTarget.Builder.create(this, id).apply(initializer).build()

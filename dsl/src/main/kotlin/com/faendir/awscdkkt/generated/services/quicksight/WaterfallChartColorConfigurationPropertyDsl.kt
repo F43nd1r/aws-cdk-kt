@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildWaterfallChartColorConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.WaterfallChartColorConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.WaterfallChartColorConfigurationProperty =
-    CfnTemplate.WaterfallChartColorConfigurationProperty.Builder().apply(initializer).build()
+public fun buildWaterfallChartColorConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.WaterfallChartColorConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.WaterfallChartColorConfigurationProperty = CfnTemplate.WaterfallChartColorConfigurationProperty.Builder().apply(initializer).build()

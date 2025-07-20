@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.JsonataCommonOptions
 
 @Generated
-public fun buildJsonataCommonOptions(initializer: @AwsCdkDsl JsonataCommonOptions.Builder.() -> Unit
-    = {}): JsonataCommonOptions = JsonataCommonOptions.Builder().apply(initializer).build()
+public fun buildJsonataCommonOptions(initializer: @AwsCdkDsl JsonataCommonOptions.Builder.() -> Unit = {}): JsonataCommonOptions = JsonataCommonOptions.Builder().apply(initializer).build()

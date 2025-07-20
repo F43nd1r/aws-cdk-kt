@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnIndex
 
 @Generated
-public fun buildDocumentAttributeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnIndex.DocumentAttributeConfigurationProperty.Builder.() -> Unit = {}):
-    CfnIndex.DocumentAttributeConfigurationProperty =
-    CfnIndex.DocumentAttributeConfigurationProperty.Builder().apply(initializer).build()
+public fun buildDocumentAttributeConfigurationProperty(initializer: @AwsCdkDsl CfnIndex.DocumentAttributeConfigurationProperty.Builder.() -> Unit = {}): CfnIndex.DocumentAttributeConfigurationProperty = CfnIndex.DocumentAttributeConfigurationProperty.Builder().apply(initializer).build()

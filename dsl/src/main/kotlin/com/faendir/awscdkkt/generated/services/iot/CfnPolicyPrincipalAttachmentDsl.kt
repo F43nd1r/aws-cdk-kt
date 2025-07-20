@@ -16,6 +16,4 @@ public fun Construct.cfnPolicyPrincipalAttachment(
 ): CfnPolicyPrincipalAttachment = CfnPolicyPrincipalAttachment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPolicyPrincipalAttachment(id: String, initializer: @AwsCdkDsl
-    CfnPolicyPrincipalAttachment.Builder.() -> Unit = {}): CfnPolicyPrincipalAttachment =
-    CfnPolicyPrincipalAttachment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPolicyPrincipalAttachment(id: String, initializer: @AwsCdkDsl CfnPolicyPrincipalAttachment.Builder.() -> Unit = {}): CfnPolicyPrincipalAttachment = CfnPolicyPrincipalAttachment.Builder.create(this, id).apply(initializer).build()

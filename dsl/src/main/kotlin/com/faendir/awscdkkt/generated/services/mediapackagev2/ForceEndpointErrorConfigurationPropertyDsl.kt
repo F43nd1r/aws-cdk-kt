@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediapackagev2.CfnOriginEndpoint
 
 @Generated
-public fun buildForceEndpointErrorConfigurationProperty(initializer: @AwsCdkDsl
-    CfnOriginEndpoint.ForceEndpointErrorConfigurationProperty.Builder.() -> Unit = {}):
-    CfnOriginEndpoint.ForceEndpointErrorConfigurationProperty =
-    CfnOriginEndpoint.ForceEndpointErrorConfigurationProperty.Builder().apply(initializer).build()
+public fun buildForceEndpointErrorConfigurationProperty(initializer: @AwsCdkDsl CfnOriginEndpoint.ForceEndpointErrorConfigurationProperty.Builder.() -> Unit = {}): CfnOriginEndpoint.ForceEndpointErrorConfigurationProperty = CfnOriginEndpoint.ForceEndpointErrorConfigurationProperty.Builder().apply(initializer).build()

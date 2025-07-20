@@ -16,6 +16,4 @@ public fun Construct.cfnCollection(
 ): CfnCollection = CfnCollection(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCollection(id: String, initializer: @AwsCdkDsl
-    CfnCollection.Builder.() -> Unit = {}): CfnCollection = CfnCollection.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnCollection(id: String, initializer: @AwsCdkDsl CfnCollection.Builder.() -> Unit = {}): CfnCollection = CfnCollection.Builder.create(this, id).apply(initializer).build()

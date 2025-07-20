@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.GetContextKeyResult
 
 @Generated
-public fun buildGetContextKeyResult(initializer: @AwsCdkDsl GetContextKeyResult.Builder.() -> Unit =
-    {}): GetContextKeyResult = GetContextKeyResult.Builder().apply(initializer).build()
+public fun buildGetContextKeyResult(initializer: @AwsCdkDsl GetContextKeyResult.Builder.() -> Unit = {}): GetContextKeyResult = GetContextKeyResult.Builder().apply(initializer).build()

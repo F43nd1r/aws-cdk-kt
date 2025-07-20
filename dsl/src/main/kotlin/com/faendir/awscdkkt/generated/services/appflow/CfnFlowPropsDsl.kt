@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnFlowProps
 
 @Generated
-public fun buildCfnFlowProps(initializer: @AwsCdkDsl CfnFlowProps.Builder.() -> Unit = {}):
-    CfnFlowProps = CfnFlowProps.Builder().apply(initializer).build()
+public fun buildCfnFlowProps(initializer: @AwsCdkDsl CfnFlowProps.Builder.() -> Unit = {}): CfnFlowProps = CfnFlowProps.Builder().apply(initializer).build()

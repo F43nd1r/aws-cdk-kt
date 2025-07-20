@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.aps.CfnWorkspace
 
 @Generated
-public fun buildLoggingDestinationProperty(initializer: @AwsCdkDsl
-    CfnWorkspace.LoggingDestinationProperty.Builder.() -> Unit = {}):
-    CfnWorkspace.LoggingDestinationProperty =
-    CfnWorkspace.LoggingDestinationProperty.Builder().apply(initializer).build()
+public fun buildLoggingDestinationProperty(initializer: @AwsCdkDsl CfnWorkspace.LoggingDestinationProperty.Builder.() -> Unit = {}): CfnWorkspace.LoggingDestinationProperty = CfnWorkspace.LoggingDestinationProperty.Builder().apply(initializer).build()

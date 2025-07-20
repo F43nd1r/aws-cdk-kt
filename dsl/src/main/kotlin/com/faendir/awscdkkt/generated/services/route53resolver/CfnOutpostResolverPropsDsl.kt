@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53resolver.CfnOutpostResolverProps
 
 @Generated
-public fun buildCfnOutpostResolverProps(initializer: @AwsCdkDsl
-    CfnOutpostResolverProps.Builder.() -> Unit = {}): CfnOutpostResolverProps =
-    CfnOutpostResolverProps.Builder().apply(initializer).build()
+public fun buildCfnOutpostResolverProps(initializer: @AwsCdkDsl CfnOutpostResolverProps.Builder.() -> Unit = {}): CfnOutpostResolverProps = CfnOutpostResolverProps.Builder().apply(initializer).build()

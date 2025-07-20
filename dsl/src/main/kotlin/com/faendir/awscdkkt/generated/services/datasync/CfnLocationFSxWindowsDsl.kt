@@ -16,6 +16,4 @@ public fun Construct.cfnLocationFSxWindows(
 ): CfnLocationFSxWindows = CfnLocationFSxWindows(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLocationFSxWindows(id: String, initializer: @AwsCdkDsl
-    CfnLocationFSxWindows.Builder.() -> Unit = {}): CfnLocationFSxWindows =
-    CfnLocationFSxWindows.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLocationFSxWindows(id: String, initializer: @AwsCdkDsl CfnLocationFSxWindows.Builder.() -> Unit = {}): CfnLocationFSxWindows = CfnLocationFSxWindows.Builder.create(this, id).apply(initializer).build()

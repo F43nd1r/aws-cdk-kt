@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
-public fun buildLinuxParametersProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.LinuxParametersProperty.Builder.() -> Unit = {}):
-    CfnTaskDefinition.LinuxParametersProperty =
-    CfnTaskDefinition.LinuxParametersProperty.Builder().apply(initializer).build()
+public fun buildLinuxParametersProperty(initializer: @AwsCdkDsl CfnTaskDefinition.LinuxParametersProperty.Builder.() -> Unit = {}): CfnTaskDefinition.LinuxParametersProperty = CfnTaskDefinition.LinuxParametersProperty.Builder().apply(initializer).build()

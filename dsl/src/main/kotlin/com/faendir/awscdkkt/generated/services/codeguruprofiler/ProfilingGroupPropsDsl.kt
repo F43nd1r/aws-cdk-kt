@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codeguruprofiler.ProfilingGroupProps
 
 @Generated
-public fun buildProfilingGroupProps(initializer: @AwsCdkDsl ProfilingGroupProps.Builder.() -> Unit =
-    {}): ProfilingGroupProps = ProfilingGroupProps.Builder().apply(initializer).build()
+public fun buildProfilingGroupProps(initializer: @AwsCdkDsl ProfilingGroupProps.Builder.() -> Unit = {}): ProfilingGroupProps = ProfilingGroupProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediaconnect.CfnFlow
 
 @Generated
-public fun buildSilentAudioProperty(initializer: @AwsCdkDsl
-    CfnFlow.SilentAudioProperty.Builder.() -> Unit = {}): CfnFlow.SilentAudioProperty =
-    CfnFlow.SilentAudioProperty.Builder().apply(initializer).build()
+public fun buildSilentAudioProperty(initializer: @AwsCdkDsl CfnFlow.SilentAudioProperty.Builder.() -> Unit = {}): CfnFlow.SilentAudioProperty = CfnFlow.SilentAudioProperty.Builder().apply(initializer).build()

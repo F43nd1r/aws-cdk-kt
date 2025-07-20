@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.shield.CfnProactiveEngagement
 
 @Generated
-public fun buildEmergencyContactProperty(initializer: @AwsCdkDsl
-    CfnProactiveEngagement.EmergencyContactProperty.Builder.() -> Unit = {}):
-    CfnProactiveEngagement.EmergencyContactProperty =
-    CfnProactiveEngagement.EmergencyContactProperty.Builder().apply(initializer).build()
+public fun buildEmergencyContactProperty(initializer: @AwsCdkDsl CfnProactiveEngagement.EmergencyContactProperty.Builder.() -> Unit = {}): CfnProactiveEngagement.EmergencyContactProperty = CfnProactiveEngagement.EmergencyContactProperty.Builder().apply(initializer).build()

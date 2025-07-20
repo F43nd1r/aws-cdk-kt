@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.b2bi.CfnTransformer
 
 @Generated
-public fun buildFormatOptionsProperty(initializer: @AwsCdkDsl
-    CfnTransformer.FormatOptionsProperty.Builder.() -> Unit = {}):
-    CfnTransformer.FormatOptionsProperty =
-    CfnTransformer.FormatOptionsProperty.Builder().apply(initializer).build()
+public fun buildFormatOptionsProperty(initializer: @AwsCdkDsl CfnTransformer.FormatOptionsProperty.Builder.() -> Unit = {}): CfnTransformer.FormatOptionsProperty = CfnTransformer.FormatOptionsProperty.Builder().apply(initializer).build()

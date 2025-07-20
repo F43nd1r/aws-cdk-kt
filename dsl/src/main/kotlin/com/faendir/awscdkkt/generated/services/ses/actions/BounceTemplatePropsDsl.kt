@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.actions.BounceTemplateProps
 
 @Generated
-public fun buildBounceTemplateProps(initializer: @AwsCdkDsl BounceTemplateProps.Builder.() -> Unit =
-    {}): BounceTemplateProps = BounceTemplateProps.Builder().apply(initializer).build()
+public fun buildBounceTemplateProps(initializer: @AwsCdkDsl BounceTemplateProps.Builder.() -> Unit = {}): BounceTemplateProps = BounceTemplateProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssm.CfnMaintenanceWindowTask
 
 @Generated
-public fun buildMaintenanceWindowLambdaParametersProperty(initializer: @AwsCdkDsl
-    CfnMaintenanceWindowTask.MaintenanceWindowLambdaParametersProperty.Builder.() -> Unit = {}):
-    CfnMaintenanceWindowTask.MaintenanceWindowLambdaParametersProperty =
-    CfnMaintenanceWindowTask.MaintenanceWindowLambdaParametersProperty.Builder().apply(initializer).build()
+public fun buildMaintenanceWindowLambdaParametersProperty(initializer: @AwsCdkDsl CfnMaintenanceWindowTask.MaintenanceWindowLambdaParametersProperty.Builder.() -> Unit = {}): CfnMaintenanceWindowTask.MaintenanceWindowLambdaParametersProperty = CfnMaintenanceWindowTask.MaintenanceWindowLambdaParametersProperty.Builder().apply(initializer).build()

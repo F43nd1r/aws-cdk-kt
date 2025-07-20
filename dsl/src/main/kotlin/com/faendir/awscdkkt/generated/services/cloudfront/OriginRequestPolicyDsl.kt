@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.cloudfront.OriginRequestPolicyProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.originRequestPolicy(id: String, initializer: @AwsCdkDsl
-    OriginRequestPolicy.() -> Unit = {}): OriginRequestPolicy = OriginRequestPolicy(this,
-    id).apply(initializer)
+public fun Construct.originRequestPolicy(id: String, initializer: @AwsCdkDsl OriginRequestPolicy.() -> Unit = {}): OriginRequestPolicy = OriginRequestPolicy(this, id).apply(initializer)
 
 @Generated
 public fun Construct.originRequestPolicy(
@@ -21,6 +19,4 @@ public fun Construct.originRequestPolicy(
 ): OriginRequestPolicy = OriginRequestPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildOriginRequestPolicy(id: String, initializer: @AwsCdkDsl
-    OriginRequestPolicy.Builder.() -> Unit = {}): OriginRequestPolicy =
-    OriginRequestPolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildOriginRequestPolicy(id: String, initializer: @AwsCdkDsl OriginRequestPolicy.Builder.() -> Unit = {}): OriginRequestPolicy = OriginRequestPolicy.Builder.create(this, id).apply(initializer).build()

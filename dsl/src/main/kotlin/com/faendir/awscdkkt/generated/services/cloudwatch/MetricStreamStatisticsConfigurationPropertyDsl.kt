@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.CfnMetricStream
 
 @Generated
-public fun buildMetricStreamStatisticsConfigurationProperty(initializer: @AwsCdkDsl
-    CfnMetricStream.MetricStreamStatisticsConfigurationProperty.Builder.() -> Unit = {}):
-    CfnMetricStream.MetricStreamStatisticsConfigurationProperty =
-    CfnMetricStream.MetricStreamStatisticsConfigurationProperty.Builder().apply(initializer).build()
+public fun buildMetricStreamStatisticsConfigurationProperty(initializer: @AwsCdkDsl CfnMetricStream.MetricStreamStatisticsConfigurationProperty.Builder.() -> Unit = {}): CfnMetricStream.MetricStreamStatisticsConfigurationProperty = CfnMetricStream.MetricStreamStatisticsConfigurationProperty.Builder().apply(initializer).build()

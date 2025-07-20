@@ -16,5 +16,4 @@ public fun Construct.provider(
 ): Provider = Provider(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildProvider(id: String, initializer: @AwsCdkDsl Provider.Builder.() -> Unit =
-    {}): Provider = Provider.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildProvider(id: String, initializer: @AwsCdkDsl Provider.Builder.() -> Unit = {}): Provider = Provider.Builder.create(this, id).apply(initializer).build()

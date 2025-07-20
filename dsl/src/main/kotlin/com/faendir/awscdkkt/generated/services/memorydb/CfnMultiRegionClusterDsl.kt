@@ -16,6 +16,4 @@ public fun Construct.cfnMultiRegionCluster(
 ): CfnMultiRegionCluster = CfnMultiRegionCluster(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMultiRegionCluster(id: String, initializer: @AwsCdkDsl
-    CfnMultiRegionCluster.Builder.() -> Unit = {}): CfnMultiRegionCluster =
-    CfnMultiRegionCluster.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMultiRegionCluster(id: String, initializer: @AwsCdkDsl CfnMultiRegionCluster.Builder.() -> Unit = {}): CfnMultiRegionCluster = CfnMultiRegionCluster.Builder.create(this, id).apply(initializer).build()

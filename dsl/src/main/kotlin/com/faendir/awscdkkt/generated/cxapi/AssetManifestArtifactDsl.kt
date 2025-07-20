@@ -12,5 +12,4 @@ public fun buildAssetManifestArtifact(
   assembly: CloudAssembly,
   name: String,
   initializer: @AwsCdkDsl AssetManifestArtifact.Builder.() -> Unit = {},
-): AssetManifestArtifact = AssetManifestArtifact.Builder.create(assembly,
-    name).apply(initializer).build()
+): AssetManifestArtifact = AssetManifestArtifact.Builder.create(assembly, name).apply(initializer).build()

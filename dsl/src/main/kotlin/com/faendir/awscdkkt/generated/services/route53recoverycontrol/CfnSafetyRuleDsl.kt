@@ -16,6 +16,4 @@ public fun Construct.cfnSafetyRule(
 ): CfnSafetyRule = CfnSafetyRule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSafetyRule(id: String, initializer: @AwsCdkDsl
-    CfnSafetyRule.Builder.() -> Unit = {}): CfnSafetyRule = CfnSafetyRule.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnSafetyRule(id: String, initializer: @AwsCdkDsl CfnSafetyRule.Builder.() -> Unit = {}): CfnSafetyRule = CfnSafetyRule.Builder.create(this, id).apply(initializer).build()

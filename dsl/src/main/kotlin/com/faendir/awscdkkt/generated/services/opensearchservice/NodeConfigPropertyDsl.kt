@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opensearchservice.CfnDomain
 
 @Generated
-public fun buildNodeConfigProperty(initializer: @AwsCdkDsl
-    CfnDomain.NodeConfigProperty.Builder.() -> Unit = {}): CfnDomain.NodeConfigProperty =
-    CfnDomain.NodeConfigProperty.Builder().apply(initializer).build()
+public fun buildNodeConfigProperty(initializer: @AwsCdkDsl CfnDomain.NodeConfigProperty.Builder.() -> Unit = {}): CfnDomain.NodeConfigProperty = CfnDomain.NodeConfigProperty.Builder().apply(initializer).build()

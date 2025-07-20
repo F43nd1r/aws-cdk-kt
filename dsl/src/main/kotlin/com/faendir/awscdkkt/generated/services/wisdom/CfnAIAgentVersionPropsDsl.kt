@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnAIAgentVersionProps
 
 @Generated
-public fun buildCfnAIAgentVersionProps(initializer: @AwsCdkDsl
-    CfnAIAgentVersionProps.Builder.() -> Unit = {}): CfnAIAgentVersionProps =
-    CfnAIAgentVersionProps.Builder().apply(initializer).build()
+public fun buildCfnAIAgentVersionProps(initializer: @AwsCdkDsl CfnAIAgentVersionProps.Builder.() -> Unit = {}): CfnAIAgentVersionProps = CfnAIAgentVersionProps.Builder().apply(initializer).build()

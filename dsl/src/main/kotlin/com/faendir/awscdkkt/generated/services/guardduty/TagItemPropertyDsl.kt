@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.guardduty.CfnPublishingDestination
 
 @Generated
-public fun buildTagItemProperty(initializer: @AwsCdkDsl
-    CfnPublishingDestination.TagItemProperty.Builder.() -> Unit = {}):
-    CfnPublishingDestination.TagItemProperty =
-    CfnPublishingDestination.TagItemProperty.Builder().apply(initializer).build()
+public fun buildTagItemProperty(initializer: @AwsCdkDsl CfnPublishingDestination.TagItemProperty.Builder.() -> Unit = {}): CfnPublishingDestination.TagItemProperty = CfnPublishingDestination.TagItemProperty.Builder().apply(initializer).build()

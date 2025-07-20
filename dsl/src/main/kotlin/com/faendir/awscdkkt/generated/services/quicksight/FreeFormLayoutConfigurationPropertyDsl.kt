@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildFreeFormLayoutConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.FreeFormLayoutConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.FreeFormLayoutConfigurationProperty =
-    CfnTemplate.FreeFormLayoutConfigurationProperty.Builder().apply(initializer).build()
+public fun buildFreeFormLayoutConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.FreeFormLayoutConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.FreeFormLayoutConfigurationProperty = CfnTemplate.FreeFormLayoutConfigurationProperty.Builder().apply(initializer).build()

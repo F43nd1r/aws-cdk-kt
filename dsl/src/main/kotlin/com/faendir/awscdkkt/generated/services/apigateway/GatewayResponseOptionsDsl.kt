@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.GatewayResponseOptions
 
 @Generated
-public fun buildGatewayResponseOptions(initializer: @AwsCdkDsl
-    GatewayResponseOptions.Builder.() -> Unit = {}): GatewayResponseOptions =
-    GatewayResponseOptions.Builder().apply(initializer).build()
+public fun buildGatewayResponseOptions(initializer: @AwsCdkDsl GatewayResponseOptions.Builder.() -> Unit = {}): GatewayResponseOptions = GatewayResponseOptions.Builder().apply(initializer).build()

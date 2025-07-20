@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildBoxPlotAggregatedFieldWellsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.BoxPlotAggregatedFieldWellsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.BoxPlotAggregatedFieldWellsProperty =
-    CfnTemplate.BoxPlotAggregatedFieldWellsProperty.Builder().apply(initializer).build()
+public fun buildBoxPlotAggregatedFieldWellsProperty(initializer: @AwsCdkDsl CfnTemplate.BoxPlotAggregatedFieldWellsProperty.Builder.() -> Unit = {}): CfnTemplate.BoxPlotAggregatedFieldWellsProperty = CfnTemplate.BoxPlotAggregatedFieldWellsProperty.Builder().apply(initializer).build()

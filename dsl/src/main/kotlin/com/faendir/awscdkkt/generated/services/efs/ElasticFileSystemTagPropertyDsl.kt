@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.efs.CfnFileSystem
 
 @Generated
-public fun buildElasticFileSystemTagProperty(initializer: @AwsCdkDsl
-    CfnFileSystem.ElasticFileSystemTagProperty.Builder.() -> Unit = {}):
-    CfnFileSystem.ElasticFileSystemTagProperty =
-    CfnFileSystem.ElasticFileSystemTagProperty.Builder().apply(initializer).build()
+public fun buildElasticFileSystemTagProperty(initializer: @AwsCdkDsl CfnFileSystem.ElasticFileSystemTagProperty.Builder.() -> Unit = {}): CfnFileSystem.ElasticFileSystemTagProperty = CfnFileSystem.ElasticFileSystemTagProperty.Builder().apply(initializer).build()

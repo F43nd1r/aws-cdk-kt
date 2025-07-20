@@ -16,6 +16,4 @@ public fun Construct.streamConsumer(
 ): StreamConsumer = StreamConsumer(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildStreamConsumer(id: String, initializer: @AwsCdkDsl
-    StreamConsumer.Builder.() -> Unit = {}): StreamConsumer = StreamConsumer.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildStreamConsumer(id: String, initializer: @AwsCdkDsl StreamConsumer.Builder.() -> Unit = {}): StreamConsumer = StreamConsumer.Builder.create(this, id).apply(initializer).build()

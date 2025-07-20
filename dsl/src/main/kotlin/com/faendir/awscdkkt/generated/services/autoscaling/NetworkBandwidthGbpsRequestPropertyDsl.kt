@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.CfnAutoScalingGroup
 
 @Generated
-public fun buildNetworkBandwidthGbpsRequestProperty(initializer: @AwsCdkDsl
-    CfnAutoScalingGroup.NetworkBandwidthGbpsRequestProperty.Builder.() -> Unit = {}):
-    CfnAutoScalingGroup.NetworkBandwidthGbpsRequestProperty =
-    CfnAutoScalingGroup.NetworkBandwidthGbpsRequestProperty.Builder().apply(initializer).build()
+public fun buildNetworkBandwidthGbpsRequestProperty(initializer: @AwsCdkDsl CfnAutoScalingGroup.NetworkBandwidthGbpsRequestProperty.Builder.() -> Unit = {}): CfnAutoScalingGroup.NetworkBandwidthGbpsRequestProperty = CfnAutoScalingGroup.NetworkBandwidthGbpsRequestProperty.Builder().apply(initializer).build()

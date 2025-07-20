@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.LambdaAuthorizerProps
 
 @Generated
-public fun buildLambdaAuthorizerProps(initializer: @AwsCdkDsl
-    LambdaAuthorizerProps.Builder.() -> Unit = {}): LambdaAuthorizerProps =
-    LambdaAuthorizerProps.Builder().apply(initializer).build()
+public fun buildLambdaAuthorizerProps(initializer: @AwsCdkDsl LambdaAuthorizerProps.Builder.() -> Unit = {}): LambdaAuthorizerProps = LambdaAuthorizerProps.Builder().apply(initializer).build()

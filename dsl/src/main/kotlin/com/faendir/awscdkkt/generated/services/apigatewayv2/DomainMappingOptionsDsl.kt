@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.DomainMappingOptions
 
 @Generated
-public fun buildDomainMappingOptions(initializer: @AwsCdkDsl DomainMappingOptions.Builder.() -> Unit
-    = {}): DomainMappingOptions = DomainMappingOptions.Builder().apply(initializer).build()
+public fun buildDomainMappingOptions(initializer: @AwsCdkDsl DomainMappingOptions.Builder.() -> Unit = {}): DomainMappingOptions = DomainMappingOptions.Builder().apply(initializer).build()

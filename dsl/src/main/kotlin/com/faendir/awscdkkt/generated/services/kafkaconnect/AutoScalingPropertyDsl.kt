@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kafkaconnect.CfnConnector
 
 @Generated
-public fun buildAutoScalingProperty(initializer: @AwsCdkDsl
-    CfnConnector.AutoScalingProperty.Builder.() -> Unit = {}): CfnConnector.AutoScalingProperty =
-    CfnConnector.AutoScalingProperty.Builder().apply(initializer).build()
+public fun buildAutoScalingProperty(initializer: @AwsCdkDsl CfnConnector.AutoScalingProperty.Builder.() -> Unit = {}): CfnConnector.AutoScalingProperty = CfnConnector.AutoScalingProperty.Builder().apply(initializer).build()

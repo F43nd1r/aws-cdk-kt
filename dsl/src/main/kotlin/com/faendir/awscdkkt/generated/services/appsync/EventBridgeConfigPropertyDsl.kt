@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.CfnDataSource
 
 @Generated
-public fun buildEventBridgeConfigProperty(initializer: @AwsCdkDsl
-    CfnDataSource.EventBridgeConfigProperty.Builder.() -> Unit = {}):
-    CfnDataSource.EventBridgeConfigProperty =
-    CfnDataSource.EventBridgeConfigProperty.Builder().apply(initializer).build()
+public fun buildEventBridgeConfigProperty(initializer: @AwsCdkDsl CfnDataSource.EventBridgeConfigProperty.Builder.() -> Unit = {}): CfnDataSource.EventBridgeConfigProperty = CfnDataSource.EventBridgeConfigProperty.Builder().apply(initializer).build()

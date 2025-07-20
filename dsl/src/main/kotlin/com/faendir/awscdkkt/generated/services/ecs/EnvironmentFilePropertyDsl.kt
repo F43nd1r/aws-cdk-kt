@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
-public fun buildEnvironmentFileProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.EnvironmentFileProperty.Builder.() -> Unit = {}):
-    CfnTaskDefinition.EnvironmentFileProperty =
-    CfnTaskDefinition.EnvironmentFileProperty.Builder().apply(initializer).build()
+public fun buildEnvironmentFileProperty(initializer: @AwsCdkDsl CfnTaskDefinition.EnvironmentFileProperty.Builder.() -> Unit = {}): CfnTaskDefinition.EnvironmentFileProperty = CfnTaskDefinition.EnvironmentFileProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildBodySectionDynamicCategoryDimensionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.BodySectionDynamicCategoryDimensionConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.BodySectionDynamicCategoryDimensionConfigurationProperty =
-    CfnTemplate.BodySectionDynamicCategoryDimensionConfigurationProperty.Builder().apply(initializer).build()
+public fun buildBodySectionDynamicCategoryDimensionConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.BodySectionDynamicCategoryDimensionConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.BodySectionDynamicCategoryDimensionConfigurationProperty = CfnTemplate.BodySectionDynamicCategoryDimensionConfigurationProperty.Builder().apply(initializer).build()

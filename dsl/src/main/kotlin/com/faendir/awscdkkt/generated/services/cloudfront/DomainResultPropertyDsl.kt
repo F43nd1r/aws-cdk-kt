@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnDistributionTenant
 
 @Generated
-public fun buildDomainResultProperty(initializer: @AwsCdkDsl
-    CfnDistributionTenant.DomainResultProperty.Builder.() -> Unit = {}):
-    CfnDistributionTenant.DomainResultProperty =
-    CfnDistributionTenant.DomainResultProperty.Builder().apply(initializer).build()
+public fun buildDomainResultProperty(initializer: @AwsCdkDsl CfnDistributionTenant.DomainResultProperty.Builder.() -> Unit = {}): CfnDistributionTenant.DomainResultProperty = CfnDistributionTenant.DomainResultProperty.Builder().apply(initializer).build()

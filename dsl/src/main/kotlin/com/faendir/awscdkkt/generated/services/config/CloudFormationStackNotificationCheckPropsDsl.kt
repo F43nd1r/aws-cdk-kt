@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.config.CloudFormationStackNotificationCheckProps
 
 @Generated
-public fun buildCloudFormationStackNotificationCheckProps(initializer: @AwsCdkDsl
-    CloudFormationStackNotificationCheckProps.Builder.() -> Unit = {}):
-    CloudFormationStackNotificationCheckProps =
-    CloudFormationStackNotificationCheckProps.Builder().apply(initializer).build()
+public fun buildCloudFormationStackNotificationCheckProps(initializer: @AwsCdkDsl CloudFormationStackNotificationCheckProps.Builder.() -> Unit = {}): CloudFormationStackNotificationCheckProps = CloudFormationStackNotificationCheckProps.Builder().apply(initializer).build()

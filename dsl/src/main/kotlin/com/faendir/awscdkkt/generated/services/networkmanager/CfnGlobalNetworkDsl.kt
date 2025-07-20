@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.networkmanager.CfnGlobalNetworkProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnGlobalNetwork(id: String, initializer: @AwsCdkDsl
-    CfnGlobalNetwork.() -> Unit = {}): CfnGlobalNetwork = CfnGlobalNetwork(this,
-    id).apply(initializer)
+public fun Construct.cfnGlobalNetwork(id: String, initializer: @AwsCdkDsl CfnGlobalNetwork.() -> Unit = {}): CfnGlobalNetwork = CfnGlobalNetwork(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnGlobalNetwork(
@@ -21,6 +19,4 @@ public fun Construct.cfnGlobalNetwork(
 ): CfnGlobalNetwork = CfnGlobalNetwork(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnGlobalNetwork(id: String, initializer: @AwsCdkDsl
-    CfnGlobalNetwork.Builder.() -> Unit = {}): CfnGlobalNetwork =
-    CfnGlobalNetwork.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnGlobalNetwork(id: String, initializer: @AwsCdkDsl CfnGlobalNetwork.Builder.() -> Unit = {}): CfnGlobalNetwork = CfnGlobalNetwork.Builder.create(this, id).apply(initializer).build()

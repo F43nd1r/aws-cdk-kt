@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
-public fun buildLookbackWindowProperty(initializer: @AwsCdkDsl
-    CfnDataSet.LookbackWindowProperty.Builder.() -> Unit = {}): CfnDataSet.LookbackWindowProperty =
-    CfnDataSet.LookbackWindowProperty.Builder().apply(initializer).build()
+public fun buildLookbackWindowProperty(initializer: @AwsCdkDsl CfnDataSet.LookbackWindowProperty.Builder.() -> Unit = {}): CfnDataSet.LookbackWindowProperty = CfnDataSet.LookbackWindowProperty.Builder().apply(initializer).build()

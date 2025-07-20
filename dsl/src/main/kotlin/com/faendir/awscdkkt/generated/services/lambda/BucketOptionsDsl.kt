@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.BucketOptions
 
 @Generated
-public fun buildBucketOptions(initializer: @AwsCdkDsl BucketOptions.Builder.() -> Unit = {}):
-    BucketOptions = BucketOptions.Builder().apply(initializer).build()
+public fun buildBucketOptions(initializer: @AwsCdkDsl BucketOptions.Builder.() -> Unit = {}): BucketOptions = BucketOptions.Builder().apply(initializer).build()

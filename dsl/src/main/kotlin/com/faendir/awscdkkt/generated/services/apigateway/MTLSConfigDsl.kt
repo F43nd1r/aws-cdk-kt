@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.MTLSConfig
 
 @Generated
-public fun buildMTLSConfig(initializer: @AwsCdkDsl MTLSConfig.Builder.() -> Unit = {}): MTLSConfig =
-    MTLSConfig.Builder().apply(initializer).build()
+public fun buildMTLSConfig(initializer: @AwsCdkDsl MTLSConfig.Builder.() -> Unit = {}): MTLSConfig = MTLSConfig.Builder().apply(initializer).build()

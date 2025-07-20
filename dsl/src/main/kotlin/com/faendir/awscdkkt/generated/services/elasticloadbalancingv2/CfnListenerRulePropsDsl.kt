@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.CfnListenerRuleProps
 
 @Generated
-public fun buildCfnListenerRuleProps(initializer: @AwsCdkDsl CfnListenerRuleProps.Builder.() -> Unit
-    = {}): CfnListenerRuleProps = CfnListenerRuleProps.Builder().apply(initializer).build()
+public fun buildCfnListenerRuleProps(initializer: @AwsCdkDsl CfnListenerRuleProps.Builder.() -> Unit = {}): CfnListenerRuleProps = CfnListenerRuleProps.Builder().apply(initializer).build()

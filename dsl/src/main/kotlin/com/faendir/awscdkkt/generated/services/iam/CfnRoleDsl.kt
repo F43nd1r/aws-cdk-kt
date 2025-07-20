@@ -16,5 +16,4 @@ public fun Construct.cfnRole(
 ): CfnRole = CfnRole(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRole(id: String, initializer: @AwsCdkDsl CfnRole.Builder.() -> Unit =
-    {}): CfnRole = CfnRole.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRole(id: String, initializer: @AwsCdkDsl CfnRole.Builder.() -> Unit = {}): CfnRole = CfnRole.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnVpcAttachment(
 ): CfnVpcAttachment = CfnVpcAttachment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVpcAttachment(id: String, initializer: @AwsCdkDsl
-    CfnVpcAttachment.Builder.() -> Unit = {}): CfnVpcAttachment =
-    CfnVpcAttachment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnVpcAttachment(id: String, initializer: @AwsCdkDsl CfnVpcAttachment.Builder.() -> Unit = {}): CfnVpcAttachment = CfnVpcAttachment.Builder.create(this, id).apply(initializer).build()

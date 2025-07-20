@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.CfnSAMLProvider
 
 @Generated
-public fun buildSAMLPrivateKeyProperty(initializer: @AwsCdkDsl
-    CfnSAMLProvider.SAMLPrivateKeyProperty.Builder.() -> Unit = {}):
-    CfnSAMLProvider.SAMLPrivateKeyProperty =
-    CfnSAMLProvider.SAMLPrivateKeyProperty.Builder().apply(initializer).build()
+public fun buildSAMLPrivateKeyProperty(initializer: @AwsCdkDsl CfnSAMLProvider.SAMLPrivateKeyProperty.Builder.() -> Unit = {}): CfnSAMLProvider.SAMLPrivateKeyProperty = CfnSAMLProvider.SAMLPrivateKeyProperty.Builder().apply(initializer).build()

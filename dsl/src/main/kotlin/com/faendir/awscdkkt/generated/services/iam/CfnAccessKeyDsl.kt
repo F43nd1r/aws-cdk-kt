@@ -16,6 +16,4 @@ public fun Construct.cfnAccessKey(
 ): CfnAccessKey = CfnAccessKey(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAccessKey(id: String, initializer: @AwsCdkDsl
-    CfnAccessKey.Builder.() -> Unit = {}): CfnAccessKey = CfnAccessKey.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnAccessKey(id: String, initializer: @AwsCdkDsl CfnAccessKey.Builder.() -> Unit = {}): CfnAccessKey = CfnAccessKey.Builder.create(this, id).apply(initializer).build()

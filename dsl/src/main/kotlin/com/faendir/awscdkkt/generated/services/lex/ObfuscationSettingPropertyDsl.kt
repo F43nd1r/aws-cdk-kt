@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildObfuscationSettingProperty(initializer: @AwsCdkDsl
-    CfnBot.ObfuscationSettingProperty.Builder.() -> Unit = {}): CfnBot.ObfuscationSettingProperty =
-    CfnBot.ObfuscationSettingProperty.Builder().apply(initializer).build()
+public fun buildObfuscationSettingProperty(initializer: @AwsCdkDsl CfnBot.ObfuscationSettingProperty.Builder.() -> Unit = {}): CfnBot.ObfuscationSettingProperty = CfnBot.ObfuscationSettingProperty.Builder().apply(initializer).build()

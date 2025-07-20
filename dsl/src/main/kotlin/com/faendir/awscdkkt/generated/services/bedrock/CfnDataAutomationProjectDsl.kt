@@ -16,6 +16,4 @@ public fun Construct.cfnDataAutomationProject(
 ): CfnDataAutomationProject = CfnDataAutomationProject(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDataAutomationProject(id: String, initializer: @AwsCdkDsl
-    CfnDataAutomationProject.Builder.() -> Unit = {}): CfnDataAutomationProject =
-    CfnDataAutomationProject.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDataAutomationProject(id: String, initializer: @AwsCdkDsl CfnDataAutomationProject.Builder.() -> Unit = {}): CfnDataAutomationProject = CfnDataAutomationProject.Builder.create(this, id).apply(initializer).build()

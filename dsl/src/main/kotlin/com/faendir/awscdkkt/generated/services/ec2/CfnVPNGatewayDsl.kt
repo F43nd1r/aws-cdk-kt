@@ -16,6 +16,4 @@ public fun Construct.cfnVPNGateway(
 ): CfnVPNGateway = CfnVPNGateway(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVPNGateway(id: String, initializer: @AwsCdkDsl
-    CfnVPNGateway.Builder.() -> Unit = {}): CfnVPNGateway = CfnVPNGateway.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnVPNGateway(id: String, initializer: @AwsCdkDsl CfnVPNGateway.Builder.() -> Unit = {}): CfnVPNGateway = CfnVPNGateway.Builder.create(this, id).apply(initializer).build()

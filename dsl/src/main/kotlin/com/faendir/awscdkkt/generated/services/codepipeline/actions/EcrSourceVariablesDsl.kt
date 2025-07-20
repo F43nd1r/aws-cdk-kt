@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.EcrSourceVariables
 
 @Generated
-public fun buildEcrSourceVariables(initializer: @AwsCdkDsl EcrSourceVariables.Builder.() -> Unit =
-    {}): EcrSourceVariables = EcrSourceVariables.Builder().apply(initializer).build()
+public fun buildEcrSourceVariables(initializer: @AwsCdkDsl EcrSourceVariables.Builder.() -> Unit = {}): EcrSourceVariables = EcrSourceVariables.Builder().apply(initializer).build()

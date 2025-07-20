@@ -16,6 +16,4 @@ public fun Construct.cfnLandingZone(
 ): CfnLandingZone = CfnLandingZone(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLandingZone(id: String, initializer: @AwsCdkDsl
-    CfnLandingZone.Builder.() -> Unit = {}): CfnLandingZone = CfnLandingZone.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnLandingZone(id: String, initializer: @AwsCdkDsl CfnLandingZone.Builder.() -> Unit = {}): CfnLandingZone = CfnLandingZone.Builder.create(this, id).apply(initializer).build()

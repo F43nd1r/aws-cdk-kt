@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EncryptionConfiguration
 
 @Generated
-public fun buildEncryptionConfiguration(initializer: @AwsCdkDsl
-    EncryptionConfiguration.Builder.() -> Unit = {}): EncryptionConfiguration =
-    EncryptionConfiguration.Builder().apply(initializer).build()
+public fun buildEncryptionConfiguration(initializer: @AwsCdkDsl EncryptionConfiguration.Builder.() -> Unit = {}): EncryptionConfiguration = EncryptionConfiguration.Builder().apply(initializer).build()

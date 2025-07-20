@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cassandra.CfnTable
 
 @Generated
-public fun buildCdcSpecificationProperty(initializer: @AwsCdkDsl
-    CfnTable.CdcSpecificationProperty.Builder.() -> Unit = {}): CfnTable.CdcSpecificationProperty =
-    CfnTable.CdcSpecificationProperty.Builder().apply(initializer).build()
+public fun buildCdcSpecificationProperty(initializer: @AwsCdkDsl CfnTable.CdcSpecificationProperty.Builder.() -> Unit = {}): CfnTable.CdcSpecificationProperty = CfnTable.CdcSpecificationProperty.Builder().apply(initializer).build()

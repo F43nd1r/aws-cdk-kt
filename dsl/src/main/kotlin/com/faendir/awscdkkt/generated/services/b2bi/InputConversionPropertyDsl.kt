@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.b2bi.CfnTransformer
 
 @Generated
-public fun buildInputConversionProperty(initializer: @AwsCdkDsl
-    CfnTransformer.InputConversionProperty.Builder.() -> Unit = {}):
-    CfnTransformer.InputConversionProperty =
-    CfnTransformer.InputConversionProperty.Builder().apply(initializer).build()
+public fun buildInputConversionProperty(initializer: @AwsCdkDsl CfnTransformer.InputConversionProperty.Builder.() -> Unit = {}): CfnTransformer.InputConversionProperty = CfnTransformer.InputConversionProperty.Builder().apply(initializer).build()

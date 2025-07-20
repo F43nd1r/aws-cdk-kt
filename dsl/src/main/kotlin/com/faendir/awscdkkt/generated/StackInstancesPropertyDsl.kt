@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.CfnStackSet
 
 @Generated
-public fun buildStackInstancesProperty(initializer: @AwsCdkDsl
-    CfnStackSet.StackInstancesProperty.Builder.() -> Unit = {}): CfnStackSet.StackInstancesProperty
-    = CfnStackSet.StackInstancesProperty.Builder().apply(initializer).build()
+public fun buildStackInstancesProperty(initializer: @AwsCdkDsl CfnStackSet.StackInstancesProperty.Builder.() -> Unit = {}): CfnStackSet.StackInstancesProperty = CfnStackSet.StackInstancesProperty.Builder().apply(initializer).build()

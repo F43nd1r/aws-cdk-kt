@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.SNSActionConfig
 
 @Generated
-public fun buildSNSActionConfig(initializer: @AwsCdkDsl SNSActionConfig.Builder.() -> Unit = {}):
-    SNSActionConfig = SNSActionConfig.Builder().apply(initializer).build()
+public fun buildSNSActionConfig(initializer: @AwsCdkDsl SNSActionConfig.Builder.() -> Unit = {}): SNSActionConfig = SNSActionConfig.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.greengrass.CfnResourceDefinitionVersion
 
 @Generated
-public fun buildGroupOwnerSettingProperty(initializer: @AwsCdkDsl
-    CfnResourceDefinitionVersion.GroupOwnerSettingProperty.Builder.() -> Unit = {}):
-    CfnResourceDefinitionVersion.GroupOwnerSettingProperty =
-    CfnResourceDefinitionVersion.GroupOwnerSettingProperty.Builder().apply(initializer).build()
+public fun buildGroupOwnerSettingProperty(initializer: @AwsCdkDsl CfnResourceDefinitionVersion.GroupOwnerSettingProperty.Builder.() -> Unit = {}): CfnResourceDefinitionVersion.GroupOwnerSettingProperty = CfnResourceDefinitionVersion.GroupOwnerSettingProperty.Builder().apply(initializer).build()

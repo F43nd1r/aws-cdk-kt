@@ -7,6 +7,4 @@ import software.amazon.awscdk.services.events.targets.IDeliveryStream
 import software.amazon.awscdk.services.events.targets.KinesisFirehoseStreamV2
 
 @Generated
-public fun buildKinesisFirehoseStreamV2(stream: IDeliveryStream, initializer: @AwsCdkDsl
-    KinesisFirehoseStreamV2.Builder.() -> Unit = {}): KinesisFirehoseStreamV2 =
-    KinesisFirehoseStreamV2.Builder.create(stream).apply(initializer).build()
+public fun buildKinesisFirehoseStreamV2(stream: IDeliveryStream, initializer: @AwsCdkDsl KinesisFirehoseStreamV2.Builder.() -> Unit = {}): KinesisFirehoseStreamV2 = KinesisFirehoseStreamV2.Builder.create(stream).apply(initializer).build()

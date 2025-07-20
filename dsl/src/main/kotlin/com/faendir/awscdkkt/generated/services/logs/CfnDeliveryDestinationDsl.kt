@@ -16,6 +16,4 @@ public fun Construct.cfnDeliveryDestination(
 ): CfnDeliveryDestination = CfnDeliveryDestination(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDeliveryDestination(id: String, initializer: @AwsCdkDsl
-    CfnDeliveryDestination.Builder.() -> Unit = {}): CfnDeliveryDestination =
-    CfnDeliveryDestination.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDeliveryDestination(id: String, initializer: @AwsCdkDsl CfnDeliveryDestination.Builder.() -> Unit = {}): CfnDeliveryDestination = CfnDeliveryDestination.Builder.create(this, id).apply(initializer).build()

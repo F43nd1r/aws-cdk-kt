@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.RetryPolicy
 
 @Generated
-public fun buildRetryPolicy(initializer: @AwsCdkDsl RetryPolicy.Builder.() -> Unit = {}):
-    RetryPolicy = RetryPolicy.Builder().apply(initializer).build()
+public fun buildRetryPolicy(initializer: @AwsCdkDsl RetryPolicy.Builder.() -> Unit = {}): RetryPolicy = RetryPolicy.Builder().apply(initializer).build()

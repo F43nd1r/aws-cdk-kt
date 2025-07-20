@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.PointInTimeRecoverySpecification
 
 @Generated
-public fun buildPointInTimeRecoverySpecification(initializer: @AwsCdkDsl
-    PointInTimeRecoverySpecification.Builder.() -> Unit = {}): PointInTimeRecoverySpecification =
-    PointInTimeRecoverySpecification.Builder().apply(initializer).build()
+public fun buildPointInTimeRecoverySpecification(initializer: @AwsCdkDsl PointInTimeRecoverySpecification.Builder.() -> Unit = {}): PointInTimeRecoverySpecification = PointInTimeRecoverySpecification.Builder().apply(initializer).build()

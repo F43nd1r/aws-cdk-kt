@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.DeploymentAlarmOptions
 
 @Generated
-public fun buildDeploymentAlarmOptions(initializer: @AwsCdkDsl
-    DeploymentAlarmOptions.Builder.() -> Unit = {}): DeploymentAlarmOptions =
-    DeploymentAlarmOptions.Builder().apply(initializer).build()
+public fun buildDeploymentAlarmOptions(initializer: @AwsCdkDsl DeploymentAlarmOptions.Builder.() -> Unit = {}): DeploymentAlarmOptions = DeploymentAlarmOptions.Builder().apply(initializer).build()

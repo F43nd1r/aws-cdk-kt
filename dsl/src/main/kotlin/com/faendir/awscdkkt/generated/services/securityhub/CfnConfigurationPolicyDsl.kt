@@ -16,6 +16,4 @@ public fun Construct.cfnConfigurationPolicy(
 ): CfnConfigurationPolicy = CfnConfigurationPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnConfigurationPolicy(id: String, initializer: @AwsCdkDsl
-    CfnConfigurationPolicy.Builder.() -> Unit = {}): CfnConfigurationPolicy =
-    CfnConfigurationPolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnConfigurationPolicy(id: String, initializer: @AwsCdkDsl CfnConfigurationPolicy.Builder.() -> Unit = {}): CfnConfigurationPolicy = CfnConfigurationPolicy.Builder.create(this, id).apply(initializer).build()

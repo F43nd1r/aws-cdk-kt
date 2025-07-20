@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.proton.CfnEnvironmentAccountConnectionProps
 
 @Generated
-public fun buildCfnEnvironmentAccountConnectionProps(initializer: @AwsCdkDsl
-    CfnEnvironmentAccountConnectionProps.Builder.() -> Unit = {}):
-    CfnEnvironmentAccountConnectionProps =
-    CfnEnvironmentAccountConnectionProps.Builder().apply(initializer).build()
+public fun buildCfnEnvironmentAccountConnectionProps(initializer: @AwsCdkDsl CfnEnvironmentAccountConnectionProps.Builder.() -> Unit = {}): CfnEnvironmentAccountConnectionProps = CfnEnvironmentAccountConnectionProps.Builder().apply(initializer).build()

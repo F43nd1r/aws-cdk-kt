@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildVideoDescriptionProperty(initializer: @AwsCdkDsl
-    CfnChannel.VideoDescriptionProperty.Builder.() -> Unit = {}):
-    CfnChannel.VideoDescriptionProperty =
-    CfnChannel.VideoDescriptionProperty.Builder().apply(initializer).build()
+public fun buildVideoDescriptionProperty(initializer: @AwsCdkDsl CfnChannel.VideoDescriptionProperty.Builder.() -> Unit = {}): CfnChannel.VideoDescriptionProperty = CfnChannel.VideoDescriptionProperty.Builder().apply(initializer).build()

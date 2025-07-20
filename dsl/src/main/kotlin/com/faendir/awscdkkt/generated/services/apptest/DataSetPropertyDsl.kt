@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apptest.CfnTestCase
 
 @Generated
-public fun buildDataSetProperty(initializer: @AwsCdkDsl
-    CfnTestCase.DataSetProperty.Builder.() -> Unit = {}): CfnTestCase.DataSetProperty =
-    CfnTestCase.DataSetProperty.Builder().apply(initializer).build()
+public fun buildDataSetProperty(initializer: @AwsCdkDsl CfnTestCase.DataSetProperty.Builder.() -> Unit = {}): CfnTestCase.DataSetProperty = CfnTestCase.DataSetProperty.Builder().apply(initializer).build()

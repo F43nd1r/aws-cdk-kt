@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnMessageTemplateVersionProps
 
 @Generated
-public fun buildCfnMessageTemplateVersionProps(initializer: @AwsCdkDsl
-    CfnMessageTemplateVersionProps.Builder.() -> Unit = {}): CfnMessageTemplateVersionProps =
-    CfnMessageTemplateVersionProps.Builder().apply(initializer).build()
+public fun buildCfnMessageTemplateVersionProps(initializer: @AwsCdkDsl CfnMessageTemplateVersionProps.Builder.() -> Unit = {}): CfnMessageTemplateVersionProps = CfnMessageTemplateVersionProps.Builder().apply(initializer).build()

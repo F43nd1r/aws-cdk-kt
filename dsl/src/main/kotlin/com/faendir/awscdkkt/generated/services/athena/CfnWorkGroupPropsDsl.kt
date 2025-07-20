@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.athena.CfnWorkGroupProps
 
 @Generated
-public fun buildCfnWorkGroupProps(initializer: @AwsCdkDsl CfnWorkGroupProps.Builder.() -> Unit =
-    {}): CfnWorkGroupProps = CfnWorkGroupProps.Builder().apply(initializer).build()
+public fun buildCfnWorkGroupProps(initializer: @AwsCdkDsl CfnWorkGroupProps.Builder.() -> Unit = {}): CfnWorkGroupProps = CfnWorkGroupProps.Builder().apply(initializer).build()

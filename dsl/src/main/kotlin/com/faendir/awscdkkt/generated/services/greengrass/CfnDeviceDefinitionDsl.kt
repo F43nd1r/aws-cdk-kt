@@ -16,6 +16,4 @@ public fun Construct.cfnDeviceDefinition(
 ): CfnDeviceDefinition = CfnDeviceDefinition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDeviceDefinition(id: String, initializer: @AwsCdkDsl
-    CfnDeviceDefinition.Builder.() -> Unit = {}): CfnDeviceDefinition =
-    CfnDeviceDefinition.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDeviceDefinition(id: String, initializer: @AwsCdkDsl CfnDeviceDefinition.Builder.() -> Unit = {}): CfnDeviceDefinition = CfnDeviceDefinition.Builder.create(this, id).apply(initializer).build()

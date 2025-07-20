@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.ParallelJsonataProps
 
 @Generated
-public fun buildParallelJsonataProps(initializer: @AwsCdkDsl ParallelJsonataProps.Builder.() -> Unit
-    = {}): ParallelJsonataProps = ParallelJsonataProps.Builder().apply(initializer).build()
+public fun buildParallelJsonataProps(initializer: @AwsCdkDsl ParallelJsonataProps.Builder.() -> Unit = {}): ParallelJsonataProps = ParallelJsonataProps.Builder().apply(initializer).build()

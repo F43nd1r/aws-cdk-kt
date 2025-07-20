@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.ManualApprovalAction
 
 @Generated
-public fun buildManualApprovalAction(initializer: @AwsCdkDsl ManualApprovalAction.Builder.() -> Unit
-    = {}): ManualApprovalAction = ManualApprovalAction.Builder.create().apply(initializer).build()
+public fun buildManualApprovalAction(initializer: @AwsCdkDsl ManualApprovalAction.Builder.() -> Unit = {}): ManualApprovalAction = ManualApprovalAction.Builder.create().apply(initializer).build()

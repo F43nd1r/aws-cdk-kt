@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildFulfillmentUpdateResponseSpecificationProperty(initializer: @AwsCdkDsl
-    CfnBot.FulfillmentUpdateResponseSpecificationProperty.Builder.() -> Unit = {}):
-    CfnBot.FulfillmentUpdateResponseSpecificationProperty =
-    CfnBot.FulfillmentUpdateResponseSpecificationProperty.Builder().apply(initializer).build()
+public fun buildFulfillmentUpdateResponseSpecificationProperty(initializer: @AwsCdkDsl CfnBot.FulfillmentUpdateResponseSpecificationProperty.Builder.() -> Unit = {}): CfnBot.FulfillmentUpdateResponseSpecificationProperty = CfnBot.FulfillmentUpdateResponseSpecificationProperty.Builder().apply(initializer).build()

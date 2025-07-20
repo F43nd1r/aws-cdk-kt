@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnAppImageConfig
 
 @Generated
-public fun buildCustomImageContainerEnvironmentVariableProperty(initializer: @AwsCdkDsl
-    CfnAppImageConfig.CustomImageContainerEnvironmentVariableProperty.Builder.() -> Unit = {}):
-    CfnAppImageConfig.CustomImageContainerEnvironmentVariableProperty =
-    CfnAppImageConfig.CustomImageContainerEnvironmentVariableProperty.Builder().apply(initializer).build()
+public fun buildCustomImageContainerEnvironmentVariableProperty(initializer: @AwsCdkDsl CfnAppImageConfig.CustomImageContainerEnvironmentVariableProperty.Builder.() -> Unit = {}): CfnAppImageConfig.CustomImageContainerEnvironmentVariableProperty = CfnAppImageConfig.CustomImageContainerEnvironmentVariableProperty.Builder().apply(initializer).build()

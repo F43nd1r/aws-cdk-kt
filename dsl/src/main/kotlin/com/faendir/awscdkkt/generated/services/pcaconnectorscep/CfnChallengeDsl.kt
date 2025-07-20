@@ -16,6 +16,4 @@ public fun Construct.cfnChallenge(
 ): CfnChallenge = CfnChallenge(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnChallenge(id: String, initializer: @AwsCdkDsl
-    CfnChallenge.Builder.() -> Unit = {}): CfnChallenge = CfnChallenge.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnChallenge(id: String, initializer: @AwsCdkDsl CfnChallenge.Builder.() -> Unit = {}): CfnChallenge = CfnChallenge.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnRouteResponse(
 ): CfnRouteResponse = CfnRouteResponse(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRouteResponse(id: String, initializer: @AwsCdkDsl
-    CfnRouteResponse.Builder.() -> Unit = {}): CfnRouteResponse =
-    CfnRouteResponse.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRouteResponse(id: String, initializer: @AwsCdkDsl CfnRouteResponse.Builder.() -> Unit = {}): CfnRouteResponse = CfnRouteResponse.Builder.create(this, id).apply(initializer).build()

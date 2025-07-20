@@ -16,6 +16,4 @@ public fun Construct.cfnPolicyStore(
 ): CfnPolicyStore = CfnPolicyStore(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPolicyStore(id: String, initializer: @AwsCdkDsl
-    CfnPolicyStore.Builder.() -> Unit = {}): CfnPolicyStore = CfnPolicyStore.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnPolicyStore(id: String, initializer: @AwsCdkDsl CfnPolicyStore.Builder.() -> Unit = {}): CfnPolicyStore = CfnPolicyStore.Builder.create(this, id).apply(initializer).build()

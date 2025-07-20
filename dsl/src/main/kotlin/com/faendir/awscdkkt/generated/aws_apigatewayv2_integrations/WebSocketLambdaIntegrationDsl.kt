@@ -12,5 +12,4 @@ public fun buildWebSocketLambdaIntegration(
   id: String,
   handler: IFunction,
   initializer: @AwsCdkDsl WebSocketLambdaIntegration.Builder.() -> Unit = {},
-): WebSocketLambdaIntegration = WebSocketLambdaIntegration.Builder.create(id,
-    handler).apply(initializer).build()
+): WebSocketLambdaIntegration = WebSocketLambdaIntegration.Builder.create(id, handler).apply(initializer).build()

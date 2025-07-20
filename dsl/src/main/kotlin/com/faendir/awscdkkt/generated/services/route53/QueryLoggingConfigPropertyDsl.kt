@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.CfnHostedZone
 
 @Generated
-public fun buildQueryLoggingConfigProperty(initializer: @AwsCdkDsl
-    CfnHostedZone.QueryLoggingConfigProperty.Builder.() -> Unit = {}):
-    CfnHostedZone.QueryLoggingConfigProperty =
-    CfnHostedZone.QueryLoggingConfigProperty.Builder().apply(initializer).build()
+public fun buildQueryLoggingConfigProperty(initializer: @AwsCdkDsl CfnHostedZone.QueryLoggingConfigProperty.Builder.() -> Unit = {}): CfnHostedZone.QueryLoggingConfigProperty = CfnHostedZone.QueryLoggingConfigProperty.Builder().apply(initializer).build()

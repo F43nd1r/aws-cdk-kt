@@ -7,6 +7,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.actions.LambdaAction
 
 @Generated
-public fun buildLambdaAction(lambdaFunction: Any, initializer: @AwsCdkDsl
-    LambdaAction.Builder.() -> Unit = {}): LambdaAction =
-    LambdaAction.Builder.create(lambdaFunction).apply(initializer).build()
+public fun buildLambdaAction(lambdaFunction: Any, initializer: @AwsCdkDsl LambdaAction.Builder.() -> Unit = {}): LambdaAction = LambdaAction.Builder.create(lambdaFunction).apply(initializer).build()

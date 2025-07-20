@@ -16,6 +16,4 @@ public fun Construct.cfnDeploymentGroup(
 ): CfnDeploymentGroup = CfnDeploymentGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDeploymentGroup(id: String, initializer: @AwsCdkDsl
-    CfnDeploymentGroup.Builder.() -> Unit = {}): CfnDeploymentGroup =
-    CfnDeploymentGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDeploymentGroup(id: String, initializer: @AwsCdkDsl CfnDeploymentGroup.Builder.() -> Unit = {}): CfnDeploymentGroup = CfnDeploymentGroup.Builder.create(this, id).apply(initializer).build()

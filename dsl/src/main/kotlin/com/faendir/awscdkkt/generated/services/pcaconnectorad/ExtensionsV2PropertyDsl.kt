@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pcaconnectorad.CfnTemplate
 
 @Generated
-public fun buildExtensionsV2Property(initializer: @AwsCdkDsl
-    CfnTemplate.ExtensionsV2Property.Builder.() -> Unit = {}): CfnTemplate.ExtensionsV2Property =
-    CfnTemplate.ExtensionsV2Property.Builder().apply(initializer).build()
+public fun buildExtensionsV2Property(initializer: @AwsCdkDsl CfnTemplate.ExtensionsV2Property.Builder.() -> Unit = {}): CfnTemplate.ExtensionsV2Property = CfnTemplate.ExtensionsV2Property.Builder().apply(initializer).build()

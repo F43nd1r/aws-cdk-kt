@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.identitypool.UserPoolAuthenticationProviderProps
 
 @Generated
-public fun buildUserPoolAuthenticationProviderProps(initializer: @AwsCdkDsl
-    UserPoolAuthenticationProviderProps.Builder.() -> Unit = {}):
-    UserPoolAuthenticationProviderProps =
-    UserPoolAuthenticationProviderProps.Builder().apply(initializer).build()
+public fun buildUserPoolAuthenticationProviderProps(initializer: @AwsCdkDsl UserPoolAuthenticationProviderProps.Builder.() -> Unit = {}): UserPoolAuthenticationProviderProps = UserPoolAuthenticationProviderProps.Builder().apply(initializer).build()

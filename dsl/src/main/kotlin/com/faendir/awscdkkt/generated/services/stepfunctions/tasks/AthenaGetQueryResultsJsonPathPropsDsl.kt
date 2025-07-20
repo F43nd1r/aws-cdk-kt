@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.AthenaGetQueryResultsJsonPathProps
 
 @Generated
-public fun buildAthenaGetQueryResultsJsonPathProps(initializer: @AwsCdkDsl
-    AthenaGetQueryResultsJsonPathProps.Builder.() -> Unit = {}): AthenaGetQueryResultsJsonPathProps
-    = AthenaGetQueryResultsJsonPathProps.Builder().apply(initializer).build()
+public fun buildAthenaGetQueryResultsJsonPathProps(initializer: @AwsCdkDsl AthenaGetQueryResultsJsonPathProps.Builder.() -> Unit = {}): AthenaGetQueryResultsJsonPathProps = AthenaGetQueryResultsJsonPathProps.Builder().apply(initializer).build()

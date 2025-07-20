@@ -16,6 +16,4 @@ public fun Construct.cfnAccountAuditConfiguration(
 ): CfnAccountAuditConfiguration = CfnAccountAuditConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAccountAuditConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnAccountAuditConfiguration.Builder.() -> Unit = {}): CfnAccountAuditConfiguration =
-    CfnAccountAuditConfiguration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAccountAuditConfiguration(id: String, initializer: @AwsCdkDsl CfnAccountAuditConfiguration.Builder.() -> Unit = {}): CfnAccountAuditConfiguration = CfnAccountAuditConfiguration.Builder.create(this, id).apply(initializer).build()

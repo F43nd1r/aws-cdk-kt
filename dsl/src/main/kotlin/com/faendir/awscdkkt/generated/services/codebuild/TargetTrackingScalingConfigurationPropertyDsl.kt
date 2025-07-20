@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.CfnFleet
 
 @Generated
-public fun buildTargetTrackingScalingConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFleet.TargetTrackingScalingConfigurationProperty.Builder.() -> Unit = {}):
-    CfnFleet.TargetTrackingScalingConfigurationProperty =
-    CfnFleet.TargetTrackingScalingConfigurationProperty.Builder().apply(initializer).build()
+public fun buildTargetTrackingScalingConfigurationProperty(initializer: @AwsCdkDsl CfnFleet.TargetTrackingScalingConfigurationProperty.Builder.() -> Unit = {}): CfnFleet.TargetTrackingScalingConfigurationProperty = CfnFleet.TargetTrackingScalingConfigurationProperty.Builder().apply(initializer).build()

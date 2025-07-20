@@ -16,6 +16,4 @@ public fun Construct.cfnAutomationRule(
 ): CfnAutomationRule = CfnAutomationRule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAutomationRule(id: String, initializer: @AwsCdkDsl
-    CfnAutomationRule.Builder.() -> Unit = {}): CfnAutomationRule =
-    CfnAutomationRule.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAutomationRule(id: String, initializer: @AwsCdkDsl CfnAutomationRule.Builder.() -> Unit = {}): CfnAutomationRule = CfnAutomationRule.Builder.create(this, id).apply(initializer).build()

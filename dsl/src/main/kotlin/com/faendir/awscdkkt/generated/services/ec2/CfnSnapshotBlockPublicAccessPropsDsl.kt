@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnSnapshotBlockPublicAccessProps
 
 @Generated
-public fun buildCfnSnapshotBlockPublicAccessProps(initializer: @AwsCdkDsl
-    CfnSnapshotBlockPublicAccessProps.Builder.() -> Unit = {}): CfnSnapshotBlockPublicAccessProps =
-    CfnSnapshotBlockPublicAccessProps.Builder().apply(initializer).build()
+public fun buildCfnSnapshotBlockPublicAccessProps(initializer: @AwsCdkDsl CfnSnapshotBlockPublicAccessProps.Builder.() -> Unit = {}): CfnSnapshotBlockPublicAccessProps = CfnSnapshotBlockPublicAccessProps.Builder().apply(initializer).build()

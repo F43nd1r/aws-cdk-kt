@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrCreateCluster
 
 @Generated
-public fun buildVolumeSpecificationProperty(initializer: @AwsCdkDsl
-    EmrCreateCluster.VolumeSpecificationProperty.Builder.() -> Unit = {}):
-    EmrCreateCluster.VolumeSpecificationProperty =
-    EmrCreateCluster.VolumeSpecificationProperty.Builder().apply(initializer).build()
+public fun buildVolumeSpecificationProperty(initializer: @AwsCdkDsl EmrCreateCluster.VolumeSpecificationProperty.Builder.() -> Unit = {}): EmrCreateCluster.VolumeSpecificationProperty = EmrCreateCluster.VolumeSpecificationProperty.Builder().apply(initializer).build()

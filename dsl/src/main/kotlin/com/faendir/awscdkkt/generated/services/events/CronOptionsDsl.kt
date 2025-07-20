@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.CronOptions
 
 @Generated
-public fun buildCronOptions(initializer: @AwsCdkDsl CronOptions.Builder.() -> Unit = {}):
-    CronOptions = CronOptions.Builder().apply(initializer).build()
+public fun buildCronOptions(initializer: @AwsCdkDsl CronOptions.Builder.() -> Unit = {}): CronOptions = CronOptions.Builder().apply(initializer).build()

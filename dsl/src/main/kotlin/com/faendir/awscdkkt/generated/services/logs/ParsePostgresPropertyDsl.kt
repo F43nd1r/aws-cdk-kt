@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnTransformer
 
 @Generated
-public fun buildParsePostgresProperty(initializer: @AwsCdkDsl
-    CfnTransformer.ParsePostgresProperty.Builder.() -> Unit = {}):
-    CfnTransformer.ParsePostgresProperty =
-    CfnTransformer.ParsePostgresProperty.Builder().apply(initializer).build()
+public fun buildParsePostgresProperty(initializer: @AwsCdkDsl CfnTransformer.ParsePostgresProperty.Builder.() -> Unit = {}): CfnTransformer.ParsePostgresProperty = CfnTransformer.ParsePostgresProperty.Builder().apply(initializer).build()

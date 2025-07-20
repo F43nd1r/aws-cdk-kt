@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloud_assembly_schema.TreeArtifactProperties
 
 @Generated
-public fun buildTreeArtifactProperties(initializer: @AwsCdkDsl
-    TreeArtifactProperties.Builder.() -> Unit = {}): TreeArtifactProperties =
-    TreeArtifactProperties.Builder().apply(initializer).build()
+public fun buildTreeArtifactProperties(initializer: @AwsCdkDsl TreeArtifactProperties.Builder.() -> Unit = {}): TreeArtifactProperties = TreeArtifactProperties.Builder().apply(initializer).build()

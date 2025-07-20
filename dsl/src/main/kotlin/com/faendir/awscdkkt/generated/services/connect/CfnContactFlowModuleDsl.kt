@@ -16,6 +16,4 @@ public fun Construct.cfnContactFlowModule(
 ): CfnContactFlowModule = CfnContactFlowModule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnContactFlowModule(id: String, initializer: @AwsCdkDsl
-    CfnContactFlowModule.Builder.() -> Unit = {}): CfnContactFlowModule =
-    CfnContactFlowModule.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnContactFlowModule(id: String, initializer: @AwsCdkDsl CfnContactFlowModule.Builder.() -> Unit = {}): CfnContactFlowModule = CfnContactFlowModule.Builder.create(this, id).apply(initializer).build()

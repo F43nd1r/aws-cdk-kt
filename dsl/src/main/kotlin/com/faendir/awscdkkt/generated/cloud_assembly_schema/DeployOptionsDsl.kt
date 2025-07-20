@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloud_assembly_schema.DeployOptions
 
 @Generated
-public fun buildDeployOptions(initializer: @AwsCdkDsl DeployOptions.Builder.() -> Unit = {}):
-    DeployOptions = DeployOptions.Builder().apply(initializer).build()
+public fun buildDeployOptions(initializer: @AwsCdkDsl DeployOptions.Builder.() -> Unit = {}): DeployOptions = DeployOptions.Builder().apply(initializer).build()

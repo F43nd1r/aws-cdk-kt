@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
-public fun buildLaunchTemplateElasticInferenceAcceleratorProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.LaunchTemplateElasticInferenceAcceleratorProperty.Builder.() -> Unit = {}):
-    CfnLaunchTemplate.LaunchTemplateElasticInferenceAcceleratorProperty =
-    CfnLaunchTemplate.LaunchTemplateElasticInferenceAcceleratorProperty.Builder().apply(initializer).build()
+public fun buildLaunchTemplateElasticInferenceAcceleratorProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.LaunchTemplateElasticInferenceAcceleratorProperty.Builder.() -> Unit = {}): CfnLaunchTemplate.LaunchTemplateElasticInferenceAcceleratorProperty = CfnLaunchTemplate.LaunchTemplateElasticInferenceAcceleratorProperty.Builder().apply(initializer).build()

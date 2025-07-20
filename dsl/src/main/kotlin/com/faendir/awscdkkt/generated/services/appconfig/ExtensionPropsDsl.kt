@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appconfig.ExtensionProps
 
 @Generated
-public fun buildExtensionProps(initializer: @AwsCdkDsl ExtensionProps.Builder.() -> Unit = {}):
-    ExtensionProps = ExtensionProps.Builder().apply(initializer).build()
+public fun buildExtensionProps(initializer: @AwsCdkDsl ExtensionProps.Builder.() -> Unit = {}): ExtensionProps = ExtensionProps.Builder().apply(initializer).build()

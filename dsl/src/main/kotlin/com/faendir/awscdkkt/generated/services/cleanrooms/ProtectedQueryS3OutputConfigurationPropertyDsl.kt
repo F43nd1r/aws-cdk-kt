@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cleanrooms.CfnMembership
 
 @Generated
-public fun buildProtectedQueryS3OutputConfigurationProperty(initializer: @AwsCdkDsl
-    CfnMembership.ProtectedQueryS3OutputConfigurationProperty.Builder.() -> Unit = {}):
-    CfnMembership.ProtectedQueryS3OutputConfigurationProperty =
-    CfnMembership.ProtectedQueryS3OutputConfigurationProperty.Builder().apply(initializer).build()
+public fun buildProtectedQueryS3OutputConfigurationProperty(initializer: @AwsCdkDsl CfnMembership.ProtectedQueryS3OutputConfigurationProperty.Builder.() -> Unit = {}): CfnMembership.ProtectedQueryS3OutputConfigurationProperty = CfnMembership.ProtectedQueryS3OutputConfigurationProperty.Builder().apply(initializer).build()

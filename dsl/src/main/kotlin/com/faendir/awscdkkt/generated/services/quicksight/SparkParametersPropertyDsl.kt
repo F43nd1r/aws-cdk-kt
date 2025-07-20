@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSource
 
 @Generated
-public fun buildSparkParametersProperty(initializer: @AwsCdkDsl
-    CfnDataSource.SparkParametersProperty.Builder.() -> Unit = {}):
-    CfnDataSource.SparkParametersProperty =
-    CfnDataSource.SparkParametersProperty.Builder().apply(initializer).build()
+public fun buildSparkParametersProperty(initializer: @AwsCdkDsl CfnDataSource.SparkParametersProperty.Builder.() -> Unit = {}): CfnDataSource.SparkParametersProperty = CfnDataSource.SparkParametersProperty.Builder().apply(initializer).build()

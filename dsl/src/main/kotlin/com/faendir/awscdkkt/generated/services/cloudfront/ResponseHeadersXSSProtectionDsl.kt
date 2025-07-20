@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.ResponseHeadersXSSProtection
 
 @Generated
-public fun buildResponseHeadersXSSProtection(initializer: @AwsCdkDsl
-    ResponseHeadersXSSProtection.Builder.() -> Unit = {}): ResponseHeadersXSSProtection =
-    ResponseHeadersXSSProtection.Builder().apply(initializer).build()
+public fun buildResponseHeadersXSSProtection(initializer: @AwsCdkDsl ResponseHeadersXSSProtection.Builder.() -> Unit = {}): ResponseHeadersXSSProtection = ResponseHeadersXSSProtection.Builder().apply(initializer).build()

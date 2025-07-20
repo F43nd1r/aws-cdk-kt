@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fsx.CfnDataRepositoryAssociation
 
 @Generated
-public fun buildAutoImportPolicyProperty(initializer: @AwsCdkDsl
-    CfnDataRepositoryAssociation.AutoImportPolicyProperty.Builder.() -> Unit = {}):
-    CfnDataRepositoryAssociation.AutoImportPolicyProperty =
-    CfnDataRepositoryAssociation.AutoImportPolicyProperty.Builder().apply(initializer).build()
+public fun buildAutoImportPolicyProperty(initializer: @AwsCdkDsl CfnDataRepositoryAssociation.AutoImportPolicyProperty.Builder.() -> Unit = {}): CfnDataRepositoryAssociation.AutoImportPolicyProperty = CfnDataRepositoryAssociation.AutoImportPolicyProperty.Builder().apply(initializer).build()

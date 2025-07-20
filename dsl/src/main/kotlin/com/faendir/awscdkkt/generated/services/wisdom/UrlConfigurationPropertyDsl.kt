@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnKnowledgeBase
 
 @Generated
-public fun buildUrlConfigurationProperty(initializer: @AwsCdkDsl
-    CfnKnowledgeBase.UrlConfigurationProperty.Builder.() -> Unit = {}):
-    CfnKnowledgeBase.UrlConfigurationProperty =
-    CfnKnowledgeBase.UrlConfigurationProperty.Builder().apply(initializer).build()
+public fun buildUrlConfigurationProperty(initializer: @AwsCdkDsl CfnKnowledgeBase.UrlConfigurationProperty.Builder.() -> Unit = {}): CfnKnowledgeBase.UrlConfigurationProperty = CfnKnowledgeBase.UrlConfigurationProperty.Builder().apply(initializer).build()

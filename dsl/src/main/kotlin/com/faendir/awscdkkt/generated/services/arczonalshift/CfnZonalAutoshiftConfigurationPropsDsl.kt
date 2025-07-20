@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.arczonalshift.CfnZonalAutoshiftConfigurationProps
 
 @Generated
-public fun buildCfnZonalAutoshiftConfigurationProps(initializer: @AwsCdkDsl
-    CfnZonalAutoshiftConfigurationProps.Builder.() -> Unit = {}):
-    CfnZonalAutoshiftConfigurationProps =
-    CfnZonalAutoshiftConfigurationProps.Builder().apply(initializer).build()
+public fun buildCfnZonalAutoshiftConfigurationProps(initializer: @AwsCdkDsl CfnZonalAutoshiftConfigurationProps.Builder.() -> Unit = {}): CfnZonalAutoshiftConfigurationProps = CfnZonalAutoshiftConfigurationProps.Builder().apply(initializer).build()

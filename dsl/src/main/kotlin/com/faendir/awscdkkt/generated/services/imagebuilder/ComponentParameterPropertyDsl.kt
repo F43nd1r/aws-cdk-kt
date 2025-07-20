@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.imagebuilder.CfnImageRecipe
 
 @Generated
-public fun buildComponentParameterProperty(initializer: @AwsCdkDsl
-    CfnImageRecipe.ComponentParameterProperty.Builder.() -> Unit = {}):
-    CfnImageRecipe.ComponentParameterProperty =
-    CfnImageRecipe.ComponentParameterProperty.Builder().apply(initializer).build()
+public fun buildComponentParameterProperty(initializer: @AwsCdkDsl CfnImageRecipe.ComponentParameterProperty.Builder.() -> Unit = {}): CfnImageRecipe.ComponentParameterProperty = CfnImageRecipe.ComponentParameterProperty.Builder().apply(initializer).build()

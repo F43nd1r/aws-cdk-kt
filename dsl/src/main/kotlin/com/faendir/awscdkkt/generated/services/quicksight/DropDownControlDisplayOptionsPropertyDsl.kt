@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildDropDownControlDisplayOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DropDownControlDisplayOptionsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.DropDownControlDisplayOptionsProperty =
-    CfnTemplate.DropDownControlDisplayOptionsProperty.Builder().apply(initializer).build()
+public fun buildDropDownControlDisplayOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.DropDownControlDisplayOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.DropDownControlDisplayOptionsProperty = CfnTemplate.DropDownControlDisplayOptionsProperty.Builder().apply(initializer).build()

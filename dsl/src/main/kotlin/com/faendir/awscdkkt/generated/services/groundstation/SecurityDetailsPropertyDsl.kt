@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.groundstation.CfnDataflowEndpointGroup
 
 @Generated
-public fun buildSecurityDetailsProperty(initializer: @AwsCdkDsl
-    CfnDataflowEndpointGroup.SecurityDetailsProperty.Builder.() -> Unit = {}):
-    CfnDataflowEndpointGroup.SecurityDetailsProperty =
-    CfnDataflowEndpointGroup.SecurityDetailsProperty.Builder().apply(initializer).build()
+public fun buildSecurityDetailsProperty(initializer: @AwsCdkDsl CfnDataflowEndpointGroup.SecurityDetailsProperty.Builder.() -> Unit = {}): CfnDataflowEndpointGroup.SecurityDetailsProperty = CfnDataflowEndpointGroup.SecurityDetailsProperty.Builder().apply(initializer).build()

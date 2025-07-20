@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.HealthCheckConfig
 
 @Generated
-public fun buildHealthCheckConfig(initializer: @AwsCdkDsl HealthCheckConfig.Builder.() -> Unit =
-    {}): HealthCheckConfig = HealthCheckConfig.Builder().apply(initializer).build()
+public fun buildHealthCheckConfig(initializer: @AwsCdkDsl HealthCheckConfig.Builder.() -> Unit = {}): HealthCheckConfig = HealthCheckConfig.Builder().apply(initializer).build()

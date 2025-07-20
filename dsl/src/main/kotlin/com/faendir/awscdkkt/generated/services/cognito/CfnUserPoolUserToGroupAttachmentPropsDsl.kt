@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnUserPoolUserToGroupAttachmentProps
 
 @Generated
-public fun buildCfnUserPoolUserToGroupAttachmentProps(initializer: @AwsCdkDsl
-    CfnUserPoolUserToGroupAttachmentProps.Builder.() -> Unit = {}):
-    CfnUserPoolUserToGroupAttachmentProps =
-    CfnUserPoolUserToGroupAttachmentProps.Builder().apply(initializer).build()
+public fun buildCfnUserPoolUserToGroupAttachmentProps(initializer: @AwsCdkDsl CfnUserPoolUserToGroupAttachmentProps.Builder.() -> Unit = {}): CfnUserPoolUserToGroupAttachmentProps = CfnUserPoolUserToGroupAttachmentProps.Builder().apply(initializer).build()

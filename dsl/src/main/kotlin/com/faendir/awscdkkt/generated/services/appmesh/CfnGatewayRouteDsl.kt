@@ -16,6 +16,4 @@ public fun Construct.cfnGatewayRoute(
 ): CfnGatewayRoute = CfnGatewayRoute(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnGatewayRoute(id: String, initializer: @AwsCdkDsl
-    CfnGatewayRoute.Builder.() -> Unit = {}): CfnGatewayRoute = CfnGatewayRoute.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnGatewayRoute(id: String, initializer: @AwsCdkDsl CfnGatewayRoute.Builder.() -> Unit = {}): CfnGatewayRoute = CfnGatewayRoute.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnInvestigationGroup(
 ): CfnInvestigationGroup = CfnInvestigationGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnInvestigationGroup(id: String, initializer: @AwsCdkDsl
-    CfnInvestigationGroup.Builder.() -> Unit = {}): CfnInvestigationGroup =
-    CfnInvestigationGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnInvestigationGroup(id: String, initializer: @AwsCdkDsl CfnInvestigationGroup.Builder.() -> Unit = {}): CfnInvestigationGroup = CfnInvestigationGroup.Builder.create(this, id).apply(initializer).build()

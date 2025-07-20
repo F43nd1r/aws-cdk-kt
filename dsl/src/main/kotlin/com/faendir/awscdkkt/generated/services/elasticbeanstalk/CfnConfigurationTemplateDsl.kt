@@ -16,6 +16,4 @@ public fun Construct.cfnConfigurationTemplate(
 ): CfnConfigurationTemplate = CfnConfigurationTemplate(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnConfigurationTemplate(id: String, initializer: @AwsCdkDsl
-    CfnConfigurationTemplate.Builder.() -> Unit = {}): CfnConfigurationTemplate =
-    CfnConfigurationTemplate.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnConfigurationTemplate(id: String, initializer: @AwsCdkDsl CfnConfigurationTemplate.Builder.() -> Unit = {}): CfnConfigurationTemplate = CfnConfigurationTemplate.Builder.create(this, id).apply(initializer).build()

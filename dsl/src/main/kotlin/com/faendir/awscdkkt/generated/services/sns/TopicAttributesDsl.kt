@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sns.TopicAttributes
 
 @Generated
-public fun buildTopicAttributes(initializer: @AwsCdkDsl TopicAttributes.Builder.() -> Unit = {}):
-    TopicAttributes = TopicAttributes.Builder().apply(initializer).build()
+public fun buildTopicAttributes(initializer: @AwsCdkDsl TopicAttributes.Builder.() -> Unit = {}): TopicAttributes = TopicAttributes.Builder().apply(initializer).build()

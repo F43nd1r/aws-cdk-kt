@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnLoggingConfiguration
 
 @Generated
-public fun buildFilterProperty(initializer: @AwsCdkDsl
-    CfnLoggingConfiguration.FilterProperty.Builder.() -> Unit = {}):
-    CfnLoggingConfiguration.FilterProperty =
-    CfnLoggingConfiguration.FilterProperty.Builder().apply(initializer).build()
+public fun buildFilterProperty(initializer: @AwsCdkDsl CfnLoggingConfiguration.FilterProperty.Builder.() -> Unit = {}): CfnLoggingConfiguration.FilterProperty = CfnLoggingConfiguration.FilterProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.CfnEventBusProps
 
 @Generated
-public fun buildCfnEventBusProps(initializer: @AwsCdkDsl CfnEventBusProps.Builder.() -> Unit = {}):
-    CfnEventBusProps = CfnEventBusProps.Builder().apply(initializer).build()
+public fun buildCfnEventBusProps(initializer: @AwsCdkDsl CfnEventBusProps.Builder.() -> Unit = {}): CfnEventBusProps = CfnEventBusProps.Builder().apply(initializer).build()

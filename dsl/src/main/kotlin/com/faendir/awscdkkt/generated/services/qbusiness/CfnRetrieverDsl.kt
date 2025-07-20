@@ -16,6 +16,4 @@ public fun Construct.cfnRetriever(
 ): CfnRetriever = CfnRetriever(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRetriever(id: String, initializer: @AwsCdkDsl
-    CfnRetriever.Builder.() -> Unit = {}): CfnRetriever = CfnRetriever.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnRetriever(id: String, initializer: @AwsCdkDsl CfnRetriever.Builder.() -> Unit = {}): CfnRetriever = CfnRetriever.Builder.create(this, id).apply(initializer).build()

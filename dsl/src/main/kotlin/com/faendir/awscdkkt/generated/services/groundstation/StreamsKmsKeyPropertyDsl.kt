@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.groundstation.CfnMissionProfile
 
 @Generated
-public fun buildStreamsKmsKeyProperty(initializer: @AwsCdkDsl
-    CfnMissionProfile.StreamsKmsKeyProperty.Builder.() -> Unit = {}):
-    CfnMissionProfile.StreamsKmsKeyProperty =
-    CfnMissionProfile.StreamsKmsKeyProperty.Builder().apply(initializer).build()
+public fun buildStreamsKmsKeyProperty(initializer: @AwsCdkDsl CfnMissionProfile.StreamsKmsKeyProperty.Builder.() -> Unit = {}): CfnMissionProfile.StreamsKmsKeyProperty = CfnMissionProfile.StreamsKmsKeyProperty.Builder().apply(initializer).build()

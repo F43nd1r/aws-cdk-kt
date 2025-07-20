@@ -16,6 +16,4 @@ public fun Construct.vpcEndpointService(
 ): VpcEndpointService = VpcEndpointService(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildVpcEndpointService(id: String, initializer: @AwsCdkDsl
-    VpcEndpointService.Builder.() -> Unit = {}): VpcEndpointService =
-    VpcEndpointService.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildVpcEndpointService(id: String, initializer: @AwsCdkDsl VpcEndpointService.Builder.() -> Unit = {}): VpcEndpointService = VpcEndpointService.Builder.create(this, id).apply(initializer).build()

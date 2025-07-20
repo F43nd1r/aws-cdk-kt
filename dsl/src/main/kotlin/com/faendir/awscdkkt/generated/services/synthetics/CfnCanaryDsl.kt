@@ -16,5 +16,4 @@ public fun Construct.cfnCanary(
 ): CfnCanary = CfnCanary(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCanary(id: String, initializer: @AwsCdkDsl CfnCanary.Builder.() -> Unit
-    = {}): CfnCanary = CfnCanary.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCanary(id: String, initializer: @AwsCdkDsl CfnCanary.Builder.() -> Unit = {}): CfnCanary = CfnCanary.Builder.create(this, id).apply(initializer).build()

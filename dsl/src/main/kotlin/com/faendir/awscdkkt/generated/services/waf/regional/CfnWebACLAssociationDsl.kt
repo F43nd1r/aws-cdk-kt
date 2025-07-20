@@ -16,6 +16,4 @@ public fun Construct.cfnWebACLAssociation(
 ): CfnWebACLAssociation = CfnWebACLAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnWebACLAssociation(id: String, initializer: @AwsCdkDsl
-    CfnWebACLAssociation.Builder.() -> Unit = {}): CfnWebACLAssociation =
-    CfnWebACLAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnWebACLAssociation(id: String, initializer: @AwsCdkDsl CfnWebACLAssociation.Builder.() -> Unit = {}): CfnWebACLAssociation = CfnWebACLAssociation.Builder.create(this, id).apply(initializer).build()

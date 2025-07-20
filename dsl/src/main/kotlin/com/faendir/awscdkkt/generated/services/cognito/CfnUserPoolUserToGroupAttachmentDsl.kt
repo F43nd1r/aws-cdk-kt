@@ -13,10 +13,7 @@ public fun Construct.cfnUserPoolUserToGroupAttachment(
   id: String,
   props: CfnUserPoolUserToGroupAttachmentProps,
   initializer: @AwsCdkDsl CfnUserPoolUserToGroupAttachment.() -> Unit = {},
-): CfnUserPoolUserToGroupAttachment = CfnUserPoolUserToGroupAttachment(this, id,
-    props).apply(initializer)
+): CfnUserPoolUserToGroupAttachment = CfnUserPoolUserToGroupAttachment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnUserPoolUserToGroupAttachment(id: String, initializer: @AwsCdkDsl
-    CfnUserPoolUserToGroupAttachment.Builder.() -> Unit = {}): CfnUserPoolUserToGroupAttachment =
-    CfnUserPoolUserToGroupAttachment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnUserPoolUserToGroupAttachment(id: String, initializer: @AwsCdkDsl CfnUserPoolUserToGroupAttachment.Builder.() -> Unit = {}): CfnUserPoolUserToGroupAttachment = CfnUserPoolUserToGroupAttachment.Builder.create(this, id).apply(initializer).build()

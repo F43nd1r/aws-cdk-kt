@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
-public fun buildTagSpecificationProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.TagSpecificationProperty.Builder.() -> Unit = {}):
-    CfnLaunchTemplate.TagSpecificationProperty =
-    CfnLaunchTemplate.TagSpecificationProperty.Builder().apply(initializer).build()
+public fun buildTagSpecificationProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.TagSpecificationProperty.Builder.() -> Unit = {}): CfnLaunchTemplate.TagSpecificationProperty = CfnLaunchTemplate.TagSpecificationProperty.Builder().apply(initializer).build()

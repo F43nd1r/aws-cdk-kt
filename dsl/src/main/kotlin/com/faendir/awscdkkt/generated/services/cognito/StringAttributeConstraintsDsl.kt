@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.StringAttributeConstraints
 
 @Generated
-public fun buildStringAttributeConstraints(initializer: @AwsCdkDsl
-    StringAttributeConstraints.Builder.() -> Unit = {}): StringAttributeConstraints =
-    StringAttributeConstraints.Builder().apply(initializer).build()
+public fun buildStringAttributeConstraints(initializer: @AwsCdkDsl StringAttributeConstraints.Builder.() -> Unit = {}): StringAttributeConstraints = StringAttributeConstraints.Builder().apply(initializer).build()

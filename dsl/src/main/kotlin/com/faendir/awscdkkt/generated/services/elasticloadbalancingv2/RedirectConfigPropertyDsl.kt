@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.CfnListenerRule
 
 @Generated
-public fun buildRedirectConfigProperty(initializer: @AwsCdkDsl
-    CfnListenerRule.RedirectConfigProperty.Builder.() -> Unit = {}):
-    CfnListenerRule.RedirectConfigProperty =
-    CfnListenerRule.RedirectConfigProperty.Builder().apply(initializer).build()
+public fun buildRedirectConfigProperty(initializer: @AwsCdkDsl CfnListenerRule.RedirectConfigProperty.Builder.() -> Unit = {}): CfnListenerRule.RedirectConfigProperty = CfnListenerRule.RedirectConfigProperty.Builder().apply(initializer).build()

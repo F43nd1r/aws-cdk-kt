@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloudassembly.schema.CdkCommands
 
 @Generated
-public fun buildCdkCommands(initializer: @AwsCdkDsl CdkCommands.Builder.() -> Unit = {}):
-    CdkCommands = CdkCommands.Builder().apply(initializer).build()
+public fun buildCdkCommands(initializer: @AwsCdkDsl CdkCommands.Builder.() -> Unit = {}): CdkCommands = CdkCommands.Builder().apply(initializer).build()

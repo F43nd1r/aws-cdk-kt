@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloudassembly.schema.ArtifactManifest
 
 @Generated
-public fun buildArtifactManifest(initializer: @AwsCdkDsl ArtifactManifest.Builder.() -> Unit = {}):
-    ArtifactManifest = ArtifactManifest.Builder().apply(initializer).build()
+public fun buildArtifactManifest(initializer: @AwsCdkDsl ArtifactManifest.Builder.() -> Unit = {}): ArtifactManifest = ArtifactManifest.Builder().apply(initializer).build()

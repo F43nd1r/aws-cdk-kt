@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.CaaRecordProps
 
 @Generated
-public fun buildCaaRecordProps(initializer: @AwsCdkDsl CaaRecordProps.Builder.() -> Unit = {}):
-    CaaRecordProps = CaaRecordProps.Builder().apply(initializer).build()
+public fun buildCaaRecordProps(initializer: @AwsCdkDsl CaaRecordProps.Builder.() -> Unit = {}): CaaRecordProps = CaaRecordProps.Builder().apply(initializer).build()

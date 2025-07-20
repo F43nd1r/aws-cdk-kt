@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnMLTransformProps
 
 @Generated
-public fun buildCfnMLTransformProps(initializer: @AwsCdkDsl CfnMLTransformProps.Builder.() -> Unit =
-    {}): CfnMLTransformProps = CfnMLTransformProps.Builder().apply(initializer).build()
+public fun buildCfnMLTransformProps(initializer: @AwsCdkDsl CfnMLTransformProps.Builder.() -> Unit = {}): CfnMLTransformProps = CfnMLTransformProps.Builder().apply(initializer).build()

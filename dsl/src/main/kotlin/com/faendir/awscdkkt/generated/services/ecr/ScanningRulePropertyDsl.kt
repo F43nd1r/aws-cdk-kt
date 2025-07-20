@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecr.CfnRegistryScanningConfiguration
 
 @Generated
-public fun buildScanningRuleProperty(initializer: @AwsCdkDsl
-    CfnRegistryScanningConfiguration.ScanningRuleProperty.Builder.() -> Unit = {}):
-    CfnRegistryScanningConfiguration.ScanningRuleProperty =
-    CfnRegistryScanningConfiguration.ScanningRuleProperty.Builder().apply(initializer).build()
+public fun buildScanningRuleProperty(initializer: @AwsCdkDsl CfnRegistryScanningConfiguration.ScanningRuleProperty.Builder.() -> Unit = {}): CfnRegistryScanningConfiguration.ScanningRuleProperty = CfnRegistryScanningConfiguration.ScanningRuleProperty.Builder().apply(initializer).build()

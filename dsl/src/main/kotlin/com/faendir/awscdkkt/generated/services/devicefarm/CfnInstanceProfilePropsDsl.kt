@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.devicefarm.CfnInstanceProfileProps
 
 @Generated
-public fun buildCfnInstanceProfileProps(initializer: @AwsCdkDsl
-    CfnInstanceProfileProps.Builder.() -> Unit = {}): CfnInstanceProfileProps =
-    CfnInstanceProfileProps.Builder().apply(initializer).build()
+public fun buildCfnInstanceProfileProps(initializer: @AwsCdkDsl CfnInstanceProfileProps.Builder.() -> Unit = {}): CfnInstanceProfileProps = CfnInstanceProfileProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildSubSlotSettingProperty(initializer: @AwsCdkDsl
-    CfnBot.SubSlotSettingProperty.Builder.() -> Unit = {}): CfnBot.SubSlotSettingProperty =
-    CfnBot.SubSlotSettingProperty.Builder().apply(initializer).build()
+public fun buildSubSlotSettingProperty(initializer: @AwsCdkDsl CfnBot.SubSlotSettingProperty.Builder.() -> Unit = {}): CfnBot.SubSlotSettingProperty = CfnBot.SubSlotSettingProperty.Builder().apply(initializer).build()

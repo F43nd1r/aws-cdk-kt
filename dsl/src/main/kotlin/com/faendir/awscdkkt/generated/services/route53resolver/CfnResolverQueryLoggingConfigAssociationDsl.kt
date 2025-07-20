@@ -9,21 +9,14 @@ import software.amazon.awscdk.services.route53resolver.CfnResolverQueryLoggingCo
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnResolverQueryLoggingConfigAssociation(id: String, initializer: @AwsCdkDsl
-    CfnResolverQueryLoggingConfigAssociation.() -> Unit = {}):
-    CfnResolverQueryLoggingConfigAssociation = CfnResolverQueryLoggingConfigAssociation(this,
-    id).apply(initializer)
+public fun Construct.cfnResolverQueryLoggingConfigAssociation(id: String, initializer: @AwsCdkDsl CfnResolverQueryLoggingConfigAssociation.() -> Unit = {}): CfnResolverQueryLoggingConfigAssociation = CfnResolverQueryLoggingConfigAssociation(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnResolverQueryLoggingConfigAssociation(
   id: String,
   props: CfnResolverQueryLoggingConfigAssociationProps,
   initializer: @AwsCdkDsl CfnResolverQueryLoggingConfigAssociation.() -> Unit = {},
-): CfnResolverQueryLoggingConfigAssociation = CfnResolverQueryLoggingConfigAssociation(this, id,
-    props).apply(initializer)
+): CfnResolverQueryLoggingConfigAssociation = CfnResolverQueryLoggingConfigAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnResolverQueryLoggingConfigAssociation(id: String,
-    initializer: @AwsCdkDsl CfnResolverQueryLoggingConfigAssociation.Builder.() -> Unit = {}):
-    CfnResolverQueryLoggingConfigAssociation =
-    CfnResolverQueryLoggingConfigAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnResolverQueryLoggingConfigAssociation(id: String, initializer: @AwsCdkDsl CfnResolverQueryLoggingConfigAssociation.Builder.() -> Unit = {}): CfnResolverQueryLoggingConfigAssociation = CfnResolverQueryLoggingConfigAssociation.Builder.create(this, id).apply(initializer).build()

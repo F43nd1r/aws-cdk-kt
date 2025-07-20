@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.groundstation.CfnConfig
 
 @Generated
-public fun buildAntennaUplinkConfigProperty(initializer: @AwsCdkDsl
-    CfnConfig.AntennaUplinkConfigProperty.Builder.() -> Unit = {}):
-    CfnConfig.AntennaUplinkConfigProperty =
-    CfnConfig.AntennaUplinkConfigProperty.Builder().apply(initializer).build()
+public fun buildAntennaUplinkConfigProperty(initializer: @AwsCdkDsl CfnConfig.AntennaUplinkConfigProperty.Builder.() -> Unit = {}): CfnConfig.AntennaUplinkConfigProperty = CfnConfig.AntennaUplinkConfigProperty.Builder().apply(initializer).build()

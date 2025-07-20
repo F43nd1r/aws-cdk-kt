@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.ResponseHeadersContentSecurityPolicy
 
 @Generated
-public fun buildResponseHeadersContentSecurityPolicy(initializer: @AwsCdkDsl
-    ResponseHeadersContentSecurityPolicy.Builder.() -> Unit = {}):
-    ResponseHeadersContentSecurityPolicy =
-    ResponseHeadersContentSecurityPolicy.Builder().apply(initializer).build()
+public fun buildResponseHeadersContentSecurityPolicy(initializer: @AwsCdkDsl ResponseHeadersContentSecurityPolicy.Builder.() -> Unit = {}): ResponseHeadersContentSecurityPolicy = ResponseHeadersContentSecurityPolicy.Builder().apply(initializer).build()

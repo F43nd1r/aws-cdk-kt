@@ -16,5 +16,4 @@ public fun Construct.cfnPlan(
 ): CfnPlan = CfnPlan(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPlan(id: String, initializer: @AwsCdkDsl CfnPlan.Builder.() -> Unit =
-    {}): CfnPlan = CfnPlan.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPlan(id: String, initializer: @AwsCdkDsl CfnPlan.Builder.() -> Unit = {}): CfnPlan = CfnPlan.Builder.create(this, id).apply(initializer).build()

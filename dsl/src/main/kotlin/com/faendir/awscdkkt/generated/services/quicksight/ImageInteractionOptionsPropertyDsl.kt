@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildImageInteractionOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ImageInteractionOptionsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.ImageInteractionOptionsProperty =
-    CfnTemplate.ImageInteractionOptionsProperty.Builder().apply(initializer).build()
+public fun buildImageInteractionOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.ImageInteractionOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.ImageInteractionOptionsProperty = CfnTemplate.ImageInteractionOptionsProperty.Builder().apply(initializer).build()

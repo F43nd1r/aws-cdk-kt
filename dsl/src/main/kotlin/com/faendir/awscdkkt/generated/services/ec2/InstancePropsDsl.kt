@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.InstanceProps
 
 @Generated
-public fun buildInstanceProps(initializer: @AwsCdkDsl InstanceProps.Builder.() -> Unit = {}):
-    InstanceProps = InstanceProps.Builder().apply(initializer).build()
+public fun buildInstanceProps(initializer: @AwsCdkDsl InstanceProps.Builder.() -> Unit = {}): InstanceProps = InstanceProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securityhub.CfnInsight
 
 @Generated
-public fun buildMapFilterProperty(initializer: @AwsCdkDsl
-    CfnInsight.MapFilterProperty.Builder.() -> Unit = {}): CfnInsight.MapFilterProperty =
-    CfnInsight.MapFilterProperty.Builder().apply(initializer).build()
+public fun buildMapFilterProperty(initializer: @AwsCdkDsl CfnInsight.MapFilterProperty.Builder.() -> Unit = {}): CfnInsight.MapFilterProperty = CfnInsight.MapFilterProperty.Builder().apply(initializer).build()

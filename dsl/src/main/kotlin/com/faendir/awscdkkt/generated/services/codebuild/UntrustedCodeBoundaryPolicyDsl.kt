@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.codebuild.UntrustedCodeBoundaryPolicyProp
 import software.constructs.Construct
 
 @Generated
-public fun Construct.untrustedCodeBoundaryPolicy(id: String, initializer: @AwsCdkDsl
-    UntrustedCodeBoundaryPolicy.() -> Unit = {}): UntrustedCodeBoundaryPolicy =
-    UntrustedCodeBoundaryPolicy(this, id).apply(initializer)
+public fun Construct.untrustedCodeBoundaryPolicy(id: String, initializer: @AwsCdkDsl UntrustedCodeBoundaryPolicy.() -> Unit = {}): UntrustedCodeBoundaryPolicy = UntrustedCodeBoundaryPolicy(this, id).apply(initializer)
 
 @Generated
 public fun Construct.untrustedCodeBoundaryPolicy(
@@ -21,6 +19,4 @@ public fun Construct.untrustedCodeBoundaryPolicy(
 ): UntrustedCodeBoundaryPolicy = UntrustedCodeBoundaryPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildUntrustedCodeBoundaryPolicy(id: String, initializer: @AwsCdkDsl
-    UntrustedCodeBoundaryPolicy.Builder.() -> Unit = {}): UntrustedCodeBoundaryPolicy =
-    UntrustedCodeBoundaryPolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildUntrustedCodeBoundaryPolicy(id: String, initializer: @AwsCdkDsl UntrustedCodeBoundaryPolicy.Builder.() -> Unit = {}): UntrustedCodeBoundaryPolicy = UntrustedCodeBoundaryPolicy.Builder.create(this, id).apply(initializer).build()

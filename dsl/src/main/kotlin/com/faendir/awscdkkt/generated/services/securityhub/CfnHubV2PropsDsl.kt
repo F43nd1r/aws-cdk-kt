@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securityhub.CfnHubV2Props
 
 @Generated
-public fun buildCfnHubV2Props(initializer: @AwsCdkDsl CfnHubV2Props.Builder.() -> Unit = {}):
-    CfnHubV2Props = CfnHubV2Props.Builder().apply(initializer).build()
+public fun buildCfnHubV2Props(initializer: @AwsCdkDsl CfnHubV2Props.Builder.() -> Unit = {}): CfnHubV2Props = CfnHubV2Props.Builder().apply(initializer).build()

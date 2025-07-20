@@ -16,6 +16,4 @@ public fun Construct.cfnGitHubRepository(
 ): CfnGitHubRepository = CfnGitHubRepository(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnGitHubRepository(id: String, initializer: @AwsCdkDsl
-    CfnGitHubRepository.Builder.() -> Unit = {}): CfnGitHubRepository =
-    CfnGitHubRepository.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnGitHubRepository(id: String, initializer: @AwsCdkDsl CfnGitHubRepository.Builder.() -> Unit = {}): CfnGitHubRepository = CfnGitHubRepository.Builder.create(this, id).apply(initializer).build()

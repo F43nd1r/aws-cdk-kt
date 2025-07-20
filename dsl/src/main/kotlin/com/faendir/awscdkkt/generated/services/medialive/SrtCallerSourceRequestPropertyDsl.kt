@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnInput
 
 @Generated
-public fun buildSrtCallerSourceRequestProperty(initializer: @AwsCdkDsl
-    CfnInput.SrtCallerSourceRequestProperty.Builder.() -> Unit = {}):
-    CfnInput.SrtCallerSourceRequestProperty =
-    CfnInput.SrtCallerSourceRequestProperty.Builder().apply(initializer).build()
+public fun buildSrtCallerSourceRequestProperty(initializer: @AwsCdkDsl CfnInput.SrtCallerSourceRequestProperty.Builder.() -> Unit = {}): CfnInput.SrtCallerSourceRequestProperty = CfnInput.SrtCallerSourceRequestProperty.Builder().apply(initializer).build()

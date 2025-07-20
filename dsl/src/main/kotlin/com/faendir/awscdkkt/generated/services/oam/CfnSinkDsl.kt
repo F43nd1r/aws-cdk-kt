@@ -16,5 +16,4 @@ public fun Construct.cfnSink(
 ): CfnSink = CfnSink(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSink(id: String, initializer: @AwsCdkDsl CfnSink.Builder.() -> Unit =
-    {}): CfnSink = CfnSink.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSink(id: String, initializer: @AwsCdkDsl CfnSink.Builder.() -> Unit = {}): CfnSink = CfnSink.Builder.create(this, id).apply(initializer).build()

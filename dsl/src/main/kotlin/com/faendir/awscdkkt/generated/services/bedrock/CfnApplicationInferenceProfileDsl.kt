@@ -13,10 +13,7 @@ public fun Construct.cfnApplicationInferenceProfile(
   id: String,
   props: CfnApplicationInferenceProfileProps,
   initializer: @AwsCdkDsl CfnApplicationInferenceProfile.() -> Unit = {},
-): CfnApplicationInferenceProfile = CfnApplicationInferenceProfile(this, id,
-    props).apply(initializer)
+): CfnApplicationInferenceProfile = CfnApplicationInferenceProfile(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnApplicationInferenceProfile(id: String, initializer: @AwsCdkDsl
-    CfnApplicationInferenceProfile.Builder.() -> Unit = {}): CfnApplicationInferenceProfile =
-    CfnApplicationInferenceProfile.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnApplicationInferenceProfile(id: String, initializer: @AwsCdkDsl CfnApplicationInferenceProfile.Builder.() -> Unit = {}): CfnApplicationInferenceProfile = CfnApplicationInferenceProfile.Builder.create(this, id).apply(initializer).build()

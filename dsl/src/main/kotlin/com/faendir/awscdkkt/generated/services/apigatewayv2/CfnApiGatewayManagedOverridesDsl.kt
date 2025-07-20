@@ -16,6 +16,4 @@ public fun Construct.cfnApiGatewayManagedOverrides(
 ): CfnApiGatewayManagedOverrides = CfnApiGatewayManagedOverrides(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnApiGatewayManagedOverrides(id: String, initializer: @AwsCdkDsl
-    CfnApiGatewayManagedOverrides.Builder.() -> Unit = {}): CfnApiGatewayManagedOverrides =
-    CfnApiGatewayManagedOverrides.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnApiGatewayManagedOverrides(id: String, initializer: @AwsCdkDsl CfnApiGatewayManagedOverrides.Builder.() -> Unit = {}): CfnApiGatewayManagedOverrides = CfnApiGatewayManagedOverrides.Builder.create(this, id).apply(initializer).build()

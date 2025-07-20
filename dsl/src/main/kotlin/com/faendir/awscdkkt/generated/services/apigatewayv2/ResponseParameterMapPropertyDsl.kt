@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.CfnIntegration
 
 @Generated
-public fun buildResponseParameterMapProperty(initializer: @AwsCdkDsl
-    CfnIntegration.ResponseParameterMapProperty.Builder.() -> Unit = {}):
-    CfnIntegration.ResponseParameterMapProperty =
-    CfnIntegration.ResponseParameterMapProperty.Builder().apply(initializer).build()
+public fun buildResponseParameterMapProperty(initializer: @AwsCdkDsl CfnIntegration.ResponseParameterMapProperty.Builder.() -> Unit = {}): CfnIntegration.ResponseParameterMapProperty = CfnIntegration.ResponseParameterMapProperty.Builder().apply(initializer).build()

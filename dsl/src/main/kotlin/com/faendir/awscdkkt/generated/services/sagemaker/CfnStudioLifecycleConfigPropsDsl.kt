@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnStudioLifecycleConfigProps
 
 @Generated
-public fun buildCfnStudioLifecycleConfigProps(initializer: @AwsCdkDsl
-    CfnStudioLifecycleConfigProps.Builder.() -> Unit = {}): CfnStudioLifecycleConfigProps =
-    CfnStudioLifecycleConfigProps.Builder().apply(initializer).build()
+public fun buildCfnStudioLifecycleConfigProps(initializer: @AwsCdkDsl CfnStudioLifecycleConfigProps.Builder.() -> Unit = {}): CfnStudioLifecycleConfigProps = CfnStudioLifecycleConfigProps.Builder().apply(initializer).build()

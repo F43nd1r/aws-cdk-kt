@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnSignalMap
 
 @Generated
-public fun buildMediaResourceNeighborProperty(initializer: @AwsCdkDsl
-    CfnSignalMap.MediaResourceNeighborProperty.Builder.() -> Unit = {}):
-    CfnSignalMap.MediaResourceNeighborProperty =
-    CfnSignalMap.MediaResourceNeighborProperty.Builder().apply(initializer).build()
+public fun buildMediaResourceNeighborProperty(initializer: @AwsCdkDsl CfnSignalMap.MediaResourceNeighborProperty.Builder.() -> Unit = {}): CfnSignalMap.MediaResourceNeighborProperty = CfnSignalMap.MediaResourceNeighborProperty.Builder().apply(initializer).build()

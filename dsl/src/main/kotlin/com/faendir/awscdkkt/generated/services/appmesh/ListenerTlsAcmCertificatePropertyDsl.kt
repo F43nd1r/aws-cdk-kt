@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnVirtualNode
 
 @Generated
-public fun buildListenerTlsAcmCertificateProperty(initializer: @AwsCdkDsl
-    CfnVirtualNode.ListenerTlsAcmCertificateProperty.Builder.() -> Unit = {}):
-    CfnVirtualNode.ListenerTlsAcmCertificateProperty =
-    CfnVirtualNode.ListenerTlsAcmCertificateProperty.Builder().apply(initializer).build()
+public fun buildListenerTlsAcmCertificateProperty(initializer: @AwsCdkDsl CfnVirtualNode.ListenerTlsAcmCertificateProperty.Builder.() -> Unit = {}): CfnVirtualNode.ListenerTlsAcmCertificateProperty = CfnVirtualNode.ListenerTlsAcmCertificateProperty.Builder().apply(initializer).build()

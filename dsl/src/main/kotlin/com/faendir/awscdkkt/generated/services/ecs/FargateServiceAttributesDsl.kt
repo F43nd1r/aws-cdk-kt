@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.FargateServiceAttributes
 
 @Generated
-public fun buildFargateServiceAttributes(initializer: @AwsCdkDsl
-    FargateServiceAttributes.Builder.() -> Unit = {}): FargateServiceAttributes =
-    FargateServiceAttributes.Builder().apply(initializer).build()
+public fun buildFargateServiceAttributes(initializer: @AwsCdkDsl FargateServiceAttributes.Builder.() -> Unit = {}): FargateServiceAttributes = FargateServiceAttributes.Builder().apply(initializer).build()

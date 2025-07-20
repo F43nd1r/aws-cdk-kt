@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVPNConnection
 
 @Generated
-public fun buildPhase1DHGroupNumbersRequestListValueProperty(initializer: @AwsCdkDsl
-    CfnVPNConnection.Phase1DHGroupNumbersRequestListValueProperty.Builder.() -> Unit = {}):
-    CfnVPNConnection.Phase1DHGroupNumbersRequestListValueProperty =
-    CfnVPNConnection.Phase1DHGroupNumbersRequestListValueProperty.Builder().apply(initializer).build()
+public fun buildPhase1DHGroupNumbersRequestListValueProperty(initializer: @AwsCdkDsl CfnVPNConnection.Phase1DHGroupNumbersRequestListValueProperty.Builder.() -> Unit = {}): CfnVPNConnection.Phase1DHGroupNumbersRequestListValueProperty = CfnVPNConnection.Phase1DHGroupNumbersRequestListValueProperty.Builder().apply(initializer).build()

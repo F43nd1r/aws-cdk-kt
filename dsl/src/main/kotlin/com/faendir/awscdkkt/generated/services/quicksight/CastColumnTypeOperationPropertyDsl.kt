@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
-public fun buildCastColumnTypeOperationProperty(initializer: @AwsCdkDsl
-    CfnDataSet.CastColumnTypeOperationProperty.Builder.() -> Unit = {}):
-    CfnDataSet.CastColumnTypeOperationProperty =
-    CfnDataSet.CastColumnTypeOperationProperty.Builder().apply(initializer).build()
+public fun buildCastColumnTypeOperationProperty(initializer: @AwsCdkDsl CfnDataSet.CastColumnTypeOperationProperty.Builder.() -> Unit = {}): CfnDataSet.CastColumnTypeOperationProperty = CfnDataSet.CastColumnTypeOperationProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecr.CfnRepositoryCreationTemplate
 
 @Generated
-public fun buildEncryptionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnRepositoryCreationTemplate.EncryptionConfigurationProperty.Builder.() -> Unit = {}):
-    CfnRepositoryCreationTemplate.EncryptionConfigurationProperty =
-    CfnRepositoryCreationTemplate.EncryptionConfigurationProperty.Builder().apply(initializer).build()
+public fun buildEncryptionConfigurationProperty(initializer: @AwsCdkDsl CfnRepositoryCreationTemplate.EncryptionConfigurationProperty.Builder.() -> Unit = {}): CfnRepositoryCreationTemplate.EncryptionConfigurationProperty = CfnRepositoryCreationTemplate.EncryptionConfigurationProperty.Builder().apply(initializer).build()

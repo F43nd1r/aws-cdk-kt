@@ -16,6 +16,4 @@ public fun Construct.httpInvoke(
 ): HttpInvoke = HttpInvoke(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildHttpInvoke(id: String, initializer: @AwsCdkDsl
-    HttpInvoke.Builder.() -> Unit = {}): HttpInvoke = HttpInvoke.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildHttpInvoke(id: String, initializer: @AwsCdkDsl HttpInvoke.Builder.() -> Unit = {}): HttpInvoke = HttpInvoke.Builder.create(this, id).apply(initializer).build()

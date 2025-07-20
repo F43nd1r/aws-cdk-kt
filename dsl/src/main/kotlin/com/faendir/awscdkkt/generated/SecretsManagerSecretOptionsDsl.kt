@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.SecretsManagerSecretOptions
 
 @Generated
-public fun buildSecretsManagerSecretOptions(initializer: @AwsCdkDsl
-    SecretsManagerSecretOptions.Builder.() -> Unit = {}): SecretsManagerSecretOptions =
-    SecretsManagerSecretOptions.Builder().apply(initializer).build()
+public fun buildSecretsManagerSecretOptions(initializer: @AwsCdkDsl SecretsManagerSecretOptions.Builder.() -> Unit = {}): SecretsManagerSecretOptions = SecretsManagerSecretOptions.Builder().apply(initializer).build()

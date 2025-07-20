@@ -16,6 +16,4 @@ public fun Construct.cfnStateMachineVersion(
 ): CfnStateMachineVersion = CfnStateMachineVersion(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnStateMachineVersion(id: String, initializer: @AwsCdkDsl
-    CfnStateMachineVersion.Builder.() -> Unit = {}): CfnStateMachineVersion =
-    CfnStateMachineVersion.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnStateMachineVersion(id: String, initializer: @AwsCdkDsl CfnStateMachineVersion.Builder.() -> Unit = {}): CfnStateMachineVersion = CfnStateMachineVersion.Builder.create(this, id).apply(initializer).build()

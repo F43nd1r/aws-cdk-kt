@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.sam.CfnStateMachineProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnStateMachine(id: String, initializer: @AwsCdkDsl CfnStateMachine.() -> Unit
-    = {}): CfnStateMachine = CfnStateMachine(this, id).apply(initializer)
+public fun Construct.cfnStateMachine(id: String, initializer: @AwsCdkDsl CfnStateMachine.() -> Unit = {}): CfnStateMachine = CfnStateMachine(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnStateMachine(
@@ -20,6 +19,4 @@ public fun Construct.cfnStateMachine(
 ): CfnStateMachine = CfnStateMachine(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnStateMachine(id: String, initializer: @AwsCdkDsl
-    CfnStateMachine.Builder.() -> Unit = {}): CfnStateMachine = CfnStateMachine.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnStateMachine(id: String, initializer: @AwsCdkDsl CfnStateMachine.Builder.() -> Unit = {}): CfnStateMachine = CfnStateMachine.Builder.create(this, id).apply(initializer).build()

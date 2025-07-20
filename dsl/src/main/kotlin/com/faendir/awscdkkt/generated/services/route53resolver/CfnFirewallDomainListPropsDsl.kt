@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53resolver.CfnFirewallDomainListProps
 
 @Generated
-public fun buildCfnFirewallDomainListProps(initializer: @AwsCdkDsl
-    CfnFirewallDomainListProps.Builder.() -> Unit = {}): CfnFirewallDomainListProps =
-    CfnFirewallDomainListProps.Builder().apply(initializer).build()
+public fun buildCfnFirewallDomainListProps(initializer: @AwsCdkDsl CfnFirewallDomainListProps.Builder.() -> Unit = {}): CfnFirewallDomainListProps = CfnFirewallDomainListProps.Builder().apply(initializer).build()

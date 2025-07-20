@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicediscovery.CnameInstanceProps
 
 @Generated
-public fun buildCnameInstanceProps(initializer: @AwsCdkDsl CnameInstanceProps.Builder.() -> Unit =
-    {}): CnameInstanceProps = CnameInstanceProps.Builder().apply(initializer).build()
+public fun buildCnameInstanceProps(initializer: @AwsCdkDsl CnameInstanceProps.Builder.() -> Unit = {}): CnameInstanceProps = CnameInstanceProps.Builder().apply(initializer).build()

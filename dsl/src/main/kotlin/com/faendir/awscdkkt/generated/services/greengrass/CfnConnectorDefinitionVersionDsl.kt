@@ -16,6 +16,4 @@ public fun Construct.cfnConnectorDefinitionVersion(
 ): CfnConnectorDefinitionVersion = CfnConnectorDefinitionVersion(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnConnectorDefinitionVersion(id: String, initializer: @AwsCdkDsl
-    CfnConnectorDefinitionVersion.Builder.() -> Unit = {}): CfnConnectorDefinitionVersion =
-    CfnConnectorDefinitionVersion.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnConnectorDefinitionVersion(id: String, initializer: @AwsCdkDsl CfnConnectorDefinitionVersion.Builder.() -> Unit = {}): CfnConnectorDefinitionVersion = CfnConnectorDefinitionVersion.Builder.create(this, id).apply(initializer).build()

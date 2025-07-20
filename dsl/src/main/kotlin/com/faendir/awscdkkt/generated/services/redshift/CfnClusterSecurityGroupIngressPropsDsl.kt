@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.redshift.CfnClusterSecurityGroupIngressProps
 
 @Generated
-public fun buildCfnClusterSecurityGroupIngressProps(initializer: @AwsCdkDsl
-    CfnClusterSecurityGroupIngressProps.Builder.() -> Unit = {}):
-    CfnClusterSecurityGroupIngressProps =
-    CfnClusterSecurityGroupIngressProps.Builder().apply(initializer).build()
+public fun buildCfnClusterSecurityGroupIngressProps(initializer: @AwsCdkDsl CfnClusterSecurityGroupIngressProps.Builder.() -> Unit = {}): CfnClusterSecurityGroupIngressProps = CfnClusterSecurityGroupIngressProps.Builder().apply(initializer).build()

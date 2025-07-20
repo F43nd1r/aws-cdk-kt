@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnFleet
 
 @Generated
-public fun buildScalingPolicyProperty(initializer: @AwsCdkDsl
-    CfnFleet.ScalingPolicyProperty.Builder.() -> Unit = {}): CfnFleet.ScalingPolicyProperty =
-    CfnFleet.ScalingPolicyProperty.Builder().apply(initializer).build()
+public fun buildScalingPolicyProperty(initializer: @AwsCdkDsl CfnFleet.ScalingPolicyProperty.Builder.() -> Unit = {}): CfnFleet.ScalingPolicyProperty = CfnFleet.ScalingPolicyProperty.Builder().apply(initializer).build()

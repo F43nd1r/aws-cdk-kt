@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opensearchserverless.CfnSecurityConfigProps
 
 @Generated
-public fun buildCfnSecurityConfigProps(initializer: @AwsCdkDsl
-    CfnSecurityConfigProps.Builder.() -> Unit = {}): CfnSecurityConfigProps =
-    CfnSecurityConfigProps.Builder().apply(initializer).build()
+public fun buildCfnSecurityConfigProps(initializer: @AwsCdkDsl CfnSecurityConfigProps.Builder.() -> Unit = {}): CfnSecurityConfigProps = CfnSecurityConfigProps.Builder().apply(initializer).build()

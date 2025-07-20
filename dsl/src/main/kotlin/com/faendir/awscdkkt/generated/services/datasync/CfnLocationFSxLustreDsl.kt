@@ -16,6 +16,4 @@ public fun Construct.cfnLocationFSxLustre(
 ): CfnLocationFSxLustre = CfnLocationFSxLustre(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLocationFSxLustre(id: String, initializer: @AwsCdkDsl
-    CfnLocationFSxLustre.Builder.() -> Unit = {}): CfnLocationFSxLustre =
-    CfnLocationFSxLustre.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLocationFSxLustre(id: String, initializer: @AwsCdkDsl CfnLocationFSxLustre.Builder.() -> Unit = {}): CfnLocationFSxLustre = CfnLocationFSxLustre.Builder.create(this, id).apply(initializer).build()

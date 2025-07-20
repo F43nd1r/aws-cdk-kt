@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ivs.CfnStorageConfiguration
 
 @Generated
-public fun buildS3StorageConfigurationProperty(initializer: @AwsCdkDsl
-    CfnStorageConfiguration.S3StorageConfigurationProperty.Builder.() -> Unit = {}):
-    CfnStorageConfiguration.S3StorageConfigurationProperty =
-    CfnStorageConfiguration.S3StorageConfigurationProperty.Builder().apply(initializer).build()
+public fun buildS3StorageConfigurationProperty(initializer: @AwsCdkDsl CfnStorageConfiguration.S3StorageConfigurationProperty.Builder.() -> Unit = {}): CfnStorageConfiguration.S3StorageConfigurationProperty = CfnStorageConfiguration.S3StorageConfigurationProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnCustomerGateway(
 ): CfnCustomerGateway = CfnCustomerGateway(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCustomerGateway(id: String, initializer: @AwsCdkDsl
-    CfnCustomerGateway.Builder.() -> Unit = {}): CfnCustomerGateway =
-    CfnCustomerGateway.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCustomerGateway(id: String, initializer: @AwsCdkDsl CfnCustomerGateway.Builder.() -> Unit = {}): CfnCustomerGateway = CfnCustomerGateway.Builder.create(this, id).apply(initializer).build()

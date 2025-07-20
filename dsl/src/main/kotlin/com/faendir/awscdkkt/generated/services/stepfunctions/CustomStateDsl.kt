@@ -16,6 +16,4 @@ public fun Construct.customState(
 ): CustomState = CustomState(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCustomState(id: String, initializer: @AwsCdkDsl
-    CustomState.Builder.() -> Unit = {}): CustomState = CustomState.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCustomState(id: String, initializer: @AwsCdkDsl CustomState.Builder.() -> Unit = {}): CustomState = CustomState.Builder.create(this, id).apply(initializer).build()

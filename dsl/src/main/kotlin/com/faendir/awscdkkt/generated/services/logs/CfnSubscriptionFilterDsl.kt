@@ -16,6 +16,4 @@ public fun Construct.cfnSubscriptionFilter(
 ): CfnSubscriptionFilter = CfnSubscriptionFilter(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSubscriptionFilter(id: String, initializer: @AwsCdkDsl
-    CfnSubscriptionFilter.Builder.() -> Unit = {}): CfnSubscriptionFilter =
-    CfnSubscriptionFilter.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSubscriptionFilter(id: String, initializer: @AwsCdkDsl CfnSubscriptionFilter.Builder.() -> Unit = {}): CfnSubscriptionFilter = CfnSubscriptionFilter.Builder.create(this, id).apply(initializer).build()

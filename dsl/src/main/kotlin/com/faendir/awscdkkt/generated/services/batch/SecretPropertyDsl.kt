@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
-public fun buildSecretProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.SecretProperty.Builder.() -> Unit = {}): CfnJobDefinition.SecretProperty =
-    CfnJobDefinition.SecretProperty.Builder().apply(initializer).build()
+public fun buildSecretProperty(initializer: @AwsCdkDsl CfnJobDefinition.SecretProperty.Builder.() -> Unit = {}): CfnJobDefinition.SecretProperty = CfnJobDefinition.SecretProperty.Builder().apply(initializer).build()

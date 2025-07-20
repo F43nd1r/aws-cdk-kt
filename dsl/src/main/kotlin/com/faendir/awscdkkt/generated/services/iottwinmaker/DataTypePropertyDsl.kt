@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iottwinmaker.CfnEntity
 
 @Generated
-public fun buildDataTypeProperty(initializer: @AwsCdkDsl
-    CfnEntity.DataTypeProperty.Builder.() -> Unit = {}): CfnEntity.DataTypeProperty =
-    CfnEntity.DataTypeProperty.Builder().apply(initializer).build()
+public fun buildDataTypeProperty(initializer: @AwsCdkDsl CfnEntity.DataTypeProperty.Builder.() -> Unit = {}): CfnEntity.DataTypeProperty = CfnEntity.DataTypeProperty.Builder().apply(initializer).build()

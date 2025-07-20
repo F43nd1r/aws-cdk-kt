@@ -16,6 +16,4 @@ public fun Construct.codePipeline(
 ): CodePipeline = CodePipeline(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCodePipeline(id: String, initializer: @AwsCdkDsl
-    CodePipeline.Builder.() -> Unit = {}): CodePipeline = CodePipeline.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCodePipeline(id: String, initializer: @AwsCdkDsl CodePipeline.Builder.() -> Unit = {}): CodePipeline = CodePipeline.Builder.create(this, id).apply(initializer).build()

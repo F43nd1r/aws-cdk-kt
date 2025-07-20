@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloud_assembly_schema.FileAssetMetadataEntry
 
 @Generated
-public fun buildFileAssetMetadataEntry(initializer: @AwsCdkDsl
-    FileAssetMetadataEntry.Builder.() -> Unit = {}): FileAssetMetadataEntry =
-    FileAssetMetadataEntry.Builder().apply(initializer).build()
+public fun buildFileAssetMetadataEntry(initializer: @AwsCdkDsl FileAssetMetadataEntry.Builder.() -> Unit = {}): FileAssetMetadataEntry = FileAssetMetadataEntry.Builder().apply(initializer).build()

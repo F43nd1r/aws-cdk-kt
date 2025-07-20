@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appstream.CfnEntitlement
 
 @Generated
-public fun buildAttributeProperty(initializer: @AwsCdkDsl
-    CfnEntitlement.AttributeProperty.Builder.() -> Unit = {}): CfnEntitlement.AttributeProperty =
-    CfnEntitlement.AttributeProperty.Builder().apply(initializer).build()
+public fun buildAttributeProperty(initializer: @AwsCdkDsl CfnEntitlement.AttributeProperty.Builder.() -> Unit = {}): CfnEntitlement.AttributeProperty = CfnEntitlement.AttributeProperty.Builder().apply(initializer).build()

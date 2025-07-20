@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.QueryParameterMatchConfig
 
 @Generated
-public fun buildQueryParameterMatchConfig(initializer: @AwsCdkDsl
-    QueryParameterMatchConfig.Builder.() -> Unit = {}): QueryParameterMatchConfig =
-    QueryParameterMatchConfig.Builder().apply(initializer).build()
+public fun buildQueryParameterMatchConfig(initializer: @AwsCdkDsl QueryParameterMatchConfig.Builder.() -> Unit = {}): QueryParameterMatchConfig = QueryParameterMatchConfig.Builder().apply(initializer).build()

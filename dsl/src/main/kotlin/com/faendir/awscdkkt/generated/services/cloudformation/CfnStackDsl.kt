@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.cloudformation.CfnStackProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnStack(id: String, initializer: @AwsCdkDsl CfnStack.() -> Unit = {}):
-    CfnStack = CfnStack(this, id).apply(initializer)
+public fun Construct.cfnStack(id: String, initializer: @AwsCdkDsl CfnStack.() -> Unit = {}): CfnStack = CfnStack(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnStack(
@@ -20,5 +19,4 @@ public fun Construct.cfnStack(
 ): CfnStack = CfnStack(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnStack(id: String, initializer: @AwsCdkDsl CfnStack.Builder.() -> Unit =
-    {}): CfnStack = CfnStack.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnStack(id: String, initializer: @AwsCdkDsl CfnStack.Builder.() -> Unit = {}): CfnStack = CfnStack.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.CfnAutoScalingGroup
 
 @Generated
-public fun buildInstanceMaintenancePolicyProperty(initializer: @AwsCdkDsl
-    CfnAutoScalingGroup.InstanceMaintenancePolicyProperty.Builder.() -> Unit = {}):
-    CfnAutoScalingGroup.InstanceMaintenancePolicyProperty =
-    CfnAutoScalingGroup.InstanceMaintenancePolicyProperty.Builder().apply(initializer).build()
+public fun buildInstanceMaintenancePolicyProperty(initializer: @AwsCdkDsl CfnAutoScalingGroup.InstanceMaintenancePolicyProperty.Builder.() -> Unit = {}): CfnAutoScalingGroup.InstanceMaintenancePolicyProperty = CfnAutoScalingGroup.InstanceMaintenancePolicyProperty.Builder().apply(initializer).build()

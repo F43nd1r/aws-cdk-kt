@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildTestBotAliasSettingsProperty(initializer: @AwsCdkDsl
-    CfnBot.TestBotAliasSettingsProperty.Builder.() -> Unit = {}):
-    CfnBot.TestBotAliasSettingsProperty =
-    CfnBot.TestBotAliasSettingsProperty.Builder().apply(initializer).build()
+public fun buildTestBotAliasSettingsProperty(initializer: @AwsCdkDsl CfnBot.TestBotAliasSettingsProperty.Builder.() -> Unit = {}): CfnBot.TestBotAliasSettingsProperty = CfnBot.TestBotAliasSettingsProperty.Builder().apply(initializer).build()

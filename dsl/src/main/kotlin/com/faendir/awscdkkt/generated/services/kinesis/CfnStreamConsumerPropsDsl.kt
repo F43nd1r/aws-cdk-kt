@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesis.CfnStreamConsumerProps
 
 @Generated
-public fun buildCfnStreamConsumerProps(initializer: @AwsCdkDsl
-    CfnStreamConsumerProps.Builder.() -> Unit = {}): CfnStreamConsumerProps =
-    CfnStreamConsumerProps.Builder().apply(initializer).build()
+public fun buildCfnStreamConsumerProps(initializer: @AwsCdkDsl CfnStreamConsumerProps.Builder.() -> Unit = {}): CfnStreamConsumerProps = CfnStreamConsumerProps.Builder().apply(initializer).build()

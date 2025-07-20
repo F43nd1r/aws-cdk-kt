@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildWhatIfRangeScenarioProperty(initializer: @AwsCdkDsl
-    CfnTemplate.WhatIfRangeScenarioProperty.Builder.() -> Unit = {}):
-    CfnTemplate.WhatIfRangeScenarioProperty =
-    CfnTemplate.WhatIfRangeScenarioProperty.Builder().apply(initializer).build()
+public fun buildWhatIfRangeScenarioProperty(initializer: @AwsCdkDsl CfnTemplate.WhatIfRangeScenarioProperty.Builder.() -> Unit = {}): CfnTemplate.WhatIfRangeScenarioProperty = CfnTemplate.WhatIfRangeScenarioProperty.Builder().apply(initializer).build()

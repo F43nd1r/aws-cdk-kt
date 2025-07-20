@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.greengrassv2.CfnDeployment
 
 @Generated
-public fun buildIoTJobTimeoutConfigProperty(initializer: @AwsCdkDsl
-    CfnDeployment.IoTJobTimeoutConfigProperty.Builder.() -> Unit = {}):
-    CfnDeployment.IoTJobTimeoutConfigProperty =
-    CfnDeployment.IoTJobTimeoutConfigProperty.Builder().apply(initializer).build()
+public fun buildIoTJobTimeoutConfigProperty(initializer: @AwsCdkDsl CfnDeployment.IoTJobTimeoutConfigProperty.Builder.() -> Unit = {}): CfnDeployment.IoTJobTimeoutConfigProperty = CfnDeployment.IoTJobTimeoutConfigProperty.Builder().apply(initializer).build()

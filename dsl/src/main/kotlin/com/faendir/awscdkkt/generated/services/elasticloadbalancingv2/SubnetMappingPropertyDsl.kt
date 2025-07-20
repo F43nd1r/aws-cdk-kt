@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.CfnLoadBalancer
 
 @Generated
-public fun buildSubnetMappingProperty(initializer: @AwsCdkDsl
-    CfnLoadBalancer.SubnetMappingProperty.Builder.() -> Unit = {}):
-    CfnLoadBalancer.SubnetMappingProperty =
-    CfnLoadBalancer.SubnetMappingProperty.Builder().apply(initializer).build()
+public fun buildSubnetMappingProperty(initializer: @AwsCdkDsl CfnLoadBalancer.SubnetMappingProperty.Builder.() -> Unit = {}): CfnLoadBalancer.SubnetMappingProperty = CfnLoadBalancer.SubnetMappingProperty.Builder().apply(initializer).build()

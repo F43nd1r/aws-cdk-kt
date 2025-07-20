@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnUserProfile
 
 @Generated
-public fun buildIdleSettingsProperty(initializer: @AwsCdkDsl
-    CfnUserProfile.IdleSettingsProperty.Builder.() -> Unit = {}):
-    CfnUserProfile.IdleSettingsProperty =
-    CfnUserProfile.IdleSettingsProperty.Builder().apply(initializer).build()
+public fun buildIdleSettingsProperty(initializer: @AwsCdkDsl CfnUserProfile.IdleSettingsProperty.Builder.() -> Unit = {}): CfnUserProfile.IdleSettingsProperty = CfnUserProfile.IdleSettingsProperty.Builder().apply(initializer).build()

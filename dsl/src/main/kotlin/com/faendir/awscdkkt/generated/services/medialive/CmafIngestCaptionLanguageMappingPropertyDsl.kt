@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildCmafIngestCaptionLanguageMappingProperty(initializer: @AwsCdkDsl
-    CfnChannel.CmafIngestCaptionLanguageMappingProperty.Builder.() -> Unit = {}):
-    CfnChannel.CmafIngestCaptionLanguageMappingProperty =
-    CfnChannel.CmafIngestCaptionLanguageMappingProperty.Builder().apply(initializer).build()
+public fun buildCmafIngestCaptionLanguageMappingProperty(initializer: @AwsCdkDsl CfnChannel.CmafIngestCaptionLanguageMappingProperty.Builder.() -> Unit = {}): CfnChannel.CmafIngestCaptionLanguageMappingProperty = CfnChannel.CmafIngestCaptionLanguageMappingProperty.Builder().apply(initializer).build()

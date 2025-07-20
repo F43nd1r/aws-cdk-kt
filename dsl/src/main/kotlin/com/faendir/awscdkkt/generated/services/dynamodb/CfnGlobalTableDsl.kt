@@ -16,6 +16,4 @@ public fun Construct.cfnGlobalTable(
 ): CfnGlobalTable = CfnGlobalTable(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnGlobalTable(id: String, initializer: @AwsCdkDsl
-    CfnGlobalTable.Builder.() -> Unit = {}): CfnGlobalTable = CfnGlobalTable.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnGlobalTable(id: String, initializer: @AwsCdkDsl CfnGlobalTable.Builder.() -> Unit = {}): CfnGlobalTable = CfnGlobalTable.Builder.create(this, id).apply(initializer).build()

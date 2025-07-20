@@ -16,6 +16,4 @@ public fun Construct.cfnConnectAttachment(
 ): CfnConnectAttachment = CfnConnectAttachment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnConnectAttachment(id: String, initializer: @AwsCdkDsl
-    CfnConnectAttachment.Builder.() -> Unit = {}): CfnConnectAttachment =
-    CfnConnectAttachment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnConnectAttachment(id: String, initializer: @AwsCdkDsl CfnConnectAttachment.Builder.() -> Unit = {}): CfnConnectAttachment = CfnConnectAttachment.Builder.create(this, id).apply(initializer).build()

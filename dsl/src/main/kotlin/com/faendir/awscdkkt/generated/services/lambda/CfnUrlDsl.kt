@@ -16,5 +16,4 @@ public fun Construct.cfnUrl(
 ): CfnUrl = CfnUrl(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnUrl(id: String, initializer: @AwsCdkDsl CfnUrl.Builder.() -> Unit =
-    {}): CfnUrl = CfnUrl.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnUrl(id: String, initializer: @AwsCdkDsl CfnUrl.Builder.() -> Unit = {}): CfnUrl = CfnUrl.Builder.create(this, id).apply(initializer).build()

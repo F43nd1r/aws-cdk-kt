@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.CfnAccessKeyProps
 
 @Generated
-public fun buildCfnAccessKeyProps(initializer: @AwsCdkDsl CfnAccessKeyProps.Builder.() -> Unit =
-    {}): CfnAccessKeyProps = CfnAccessKeyProps.Builder().apply(initializer).build()
+public fun buildCfnAccessKeyProps(initializer: @AwsCdkDsl CfnAccessKeyProps.Builder.() -> Unit = {}): CfnAccessKeyProps = CfnAccessKeyProps.Builder().apply(initializer).build()

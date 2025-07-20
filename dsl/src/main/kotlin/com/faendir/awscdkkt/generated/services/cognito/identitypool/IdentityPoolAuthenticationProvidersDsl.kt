@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.identitypool.IdentityPoolAuthenticationProviders
 
 @Generated
-public fun buildIdentityPoolAuthenticationProviders(initializer: @AwsCdkDsl
-    IdentityPoolAuthenticationProviders.Builder.() -> Unit = {}):
-    IdentityPoolAuthenticationProviders =
-    IdentityPoolAuthenticationProviders.Builder().apply(initializer).build()
+public fun buildIdentityPoolAuthenticationProviders(initializer: @AwsCdkDsl IdentityPoolAuthenticationProviders.Builder.() -> Unit = {}): IdentityPoolAuthenticationProviders = IdentityPoolAuthenticationProviders.Builder().apply(initializer).build()

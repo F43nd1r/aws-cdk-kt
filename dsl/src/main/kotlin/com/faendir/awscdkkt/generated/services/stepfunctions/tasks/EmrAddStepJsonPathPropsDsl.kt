@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrAddStepJsonPathProps
 
 @Generated
-public fun buildEmrAddStepJsonPathProps(initializer: @AwsCdkDsl
-    EmrAddStepJsonPathProps.Builder.() -> Unit = {}): EmrAddStepJsonPathProps =
-    EmrAddStepJsonPathProps.Builder().apply(initializer).build()
+public fun buildEmrAddStepJsonPathProps(initializer: @AwsCdkDsl EmrAddStepJsonPathProps.Builder.() -> Unit = {}): EmrAddStepJsonPathProps = EmrAddStepJsonPathProps.Builder().apply(initializer).build()

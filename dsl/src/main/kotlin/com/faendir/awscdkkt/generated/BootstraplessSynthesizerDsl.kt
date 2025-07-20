@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.BootstraplessSynthesizer
 
 @Generated
-public fun buildBootstraplessSynthesizer(initializer: @AwsCdkDsl
-    BootstraplessSynthesizer.Builder.() -> Unit = {}): BootstraplessSynthesizer =
-    BootstraplessSynthesizer.Builder.create().apply(initializer).build()
+public fun buildBootstraplessSynthesizer(initializer: @AwsCdkDsl BootstraplessSynthesizer.Builder.() -> Unit = {}): BootstraplessSynthesizer = BootstraplessSynthesizer.Builder.create().apply(initializer).build()

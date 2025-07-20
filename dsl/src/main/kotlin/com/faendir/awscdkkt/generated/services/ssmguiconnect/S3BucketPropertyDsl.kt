@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssmguiconnect.CfnPreferences
 
 @Generated
-public fun buildS3BucketProperty(initializer: @AwsCdkDsl
-    CfnPreferences.S3BucketProperty.Builder.() -> Unit = {}): CfnPreferences.S3BucketProperty =
-    CfnPreferences.S3BucketProperty.Builder().apply(initializer).build()
+public fun buildS3BucketProperty(initializer: @AwsCdkDsl CfnPreferences.S3BucketProperty.Builder.() -> Unit = {}): CfnPreferences.S3BucketProperty = CfnPreferences.S3BucketProperty.Builder().apply(initializer).build()

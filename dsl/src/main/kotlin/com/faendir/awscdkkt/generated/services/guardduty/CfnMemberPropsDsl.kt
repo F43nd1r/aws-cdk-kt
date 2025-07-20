@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.guardduty.CfnMemberProps
 
 @Generated
-public fun buildCfnMemberProps(initializer: @AwsCdkDsl CfnMemberProps.Builder.() -> Unit = {}):
-    CfnMemberProps = CfnMemberProps.Builder().apply(initializer).build()
+public fun buildCfnMemberProps(initializer: @AwsCdkDsl CfnMemberProps.Builder.() -> Unit = {}): CfnMemberProps = CfnMemberProps.Builder().apply(initializer).build()

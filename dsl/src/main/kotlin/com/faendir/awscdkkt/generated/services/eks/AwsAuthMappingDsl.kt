@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.AwsAuthMapping
 
 @Generated
-public fun buildAwsAuthMapping(initializer: @AwsCdkDsl AwsAuthMapping.Builder.() -> Unit = {}):
-    AwsAuthMapping = AwsAuthMapping.Builder().apply(initializer).build()
+public fun buildAwsAuthMapping(initializer: @AwsCdkDsl AwsAuthMapping.Builder.() -> Unit = {}): AwsAuthMapping = AwsAuthMapping.Builder().apply(initializer).build()

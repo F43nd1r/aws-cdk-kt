@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.customerprofiles.CfnSegmentDefinition
 
 @Generated
-public fun buildDateDimensionProperty(initializer: @AwsCdkDsl
-    CfnSegmentDefinition.DateDimensionProperty.Builder.() -> Unit = {}):
-    CfnSegmentDefinition.DateDimensionProperty =
-    CfnSegmentDefinition.DateDimensionProperty.Builder().apply(initializer).build()
+public fun buildDateDimensionProperty(initializer: @AwsCdkDsl CfnSegmentDefinition.DateDimensionProperty.Builder.() -> Unit = {}): CfnSegmentDefinition.DateDimensionProperty = CfnSegmentDefinition.DateDimensionProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.accessPoint(
 ): AccessPoint = AccessPoint(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAccessPoint(id: String, initializer: @AwsCdkDsl
-    AccessPoint.Builder.() -> Unit = {}): AccessPoint = AccessPoint.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildAccessPoint(id: String, initializer: @AwsCdkDsl AccessPoint.Builder.() -> Unit = {}): AccessPoint = AccessPoint.Builder.create(this, id).apply(initializer).build()

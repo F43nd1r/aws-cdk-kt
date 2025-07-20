@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.amplifyuibuilder.CfnForm
 
 @Generated
-public fun buildFormInputValuePropertyBindingPropertiesProperty(initializer: @AwsCdkDsl
-    CfnForm.FormInputValuePropertyBindingPropertiesProperty.Builder.() -> Unit = {}):
-    CfnForm.FormInputValuePropertyBindingPropertiesProperty =
-    CfnForm.FormInputValuePropertyBindingPropertiesProperty.Builder().apply(initializer).build()
+public fun buildFormInputValuePropertyBindingPropertiesProperty(initializer: @AwsCdkDsl CfnForm.FormInputValuePropertyBindingPropertiesProperty.Builder.() -> Unit = {}): CfnForm.FormInputValuePropertyBindingPropertiesProperty = CfnForm.FormInputValuePropertyBindingPropertiesProperty.Builder().apply(initializer).build()

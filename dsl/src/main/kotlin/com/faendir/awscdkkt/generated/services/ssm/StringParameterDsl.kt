@@ -16,6 +16,4 @@ public fun Construct.stringParameter(
 ): StringParameter = StringParameter(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildStringParameter(id: String, initializer: @AwsCdkDsl
-    StringParameter.Builder.() -> Unit = {}): StringParameter = StringParameter.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildStringParameter(id: String, initializer: @AwsCdkDsl StringParameter.Builder.() -> Unit = {}): StringParameter = StringParameter.Builder.create(this, id).apply(initializer).build()

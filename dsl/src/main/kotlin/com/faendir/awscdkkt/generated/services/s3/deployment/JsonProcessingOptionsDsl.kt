@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.deployment.JsonProcessingOptions
 
 @Generated
-public fun buildJsonProcessingOptions(initializer: @AwsCdkDsl
-    JsonProcessingOptions.Builder.() -> Unit = {}): JsonProcessingOptions =
-    JsonProcessingOptions.Builder().apply(initializer).build()
+public fun buildJsonProcessingOptions(initializer: @AwsCdkDsl JsonProcessingOptions.Builder.() -> Unit = {}): JsonProcessingOptions = JsonProcessingOptions.Builder().apply(initializer).build()

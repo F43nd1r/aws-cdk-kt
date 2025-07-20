@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrCancelStepJsonataProps
 
 @Generated
-public fun buildEmrCancelStepJsonataProps(initializer: @AwsCdkDsl
-    EmrCancelStepJsonataProps.Builder.() -> Unit = {}): EmrCancelStepJsonataProps =
-    EmrCancelStepJsonataProps.Builder().apply(initializer).build()
+public fun buildEmrCancelStepJsonataProps(initializer: @AwsCdkDsl EmrCancelStepJsonataProps.Builder.() -> Unit = {}): EmrCancelStepJsonataProps = EmrCancelStepJsonataProps.Builder().apply(initializer).build()

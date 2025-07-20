@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opensearchservice.AdvancedSecurityOptions
 
 @Generated
-public fun buildAdvancedSecurityOptions(initializer: @AwsCdkDsl
-    AdvancedSecurityOptions.Builder.() -> Unit = {}): AdvancedSecurityOptions =
-    AdvancedSecurityOptions.Builder().apply(initializer).build()
+public fun buildAdvancedSecurityOptions(initializer: @AwsCdkDsl AdvancedSecurityOptions.Builder.() -> Unit = {}): AdvancedSecurityOptions = AdvancedSecurityOptions.Builder().apply(initializer).build()

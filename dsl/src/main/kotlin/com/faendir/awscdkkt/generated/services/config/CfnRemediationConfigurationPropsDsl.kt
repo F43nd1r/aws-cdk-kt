@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.config.CfnRemediationConfigurationProps
 
 @Generated
-public fun buildCfnRemediationConfigurationProps(initializer: @AwsCdkDsl
-    CfnRemediationConfigurationProps.Builder.() -> Unit = {}): CfnRemediationConfigurationProps =
-    CfnRemediationConfigurationProps.Builder().apply(initializer).build()
+public fun buildCfnRemediationConfigurationProps(initializer: @AwsCdkDsl CfnRemediationConfigurationProps.Builder.() -> Unit = {}): CfnRemediationConfigurationProps = CfnRemediationConfigurationProps.Builder().apply(initializer).build()

@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.CfnTrustStoreRevoc
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnTrustStoreRevocation(id: String, initializer: @AwsCdkDsl
-    CfnTrustStoreRevocation.() -> Unit = {}): CfnTrustStoreRevocation =
-    CfnTrustStoreRevocation(this, id).apply(initializer)
+public fun Construct.cfnTrustStoreRevocation(id: String, initializer: @AwsCdkDsl CfnTrustStoreRevocation.() -> Unit = {}): CfnTrustStoreRevocation = CfnTrustStoreRevocation(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnTrustStoreRevocation(
@@ -21,6 +19,4 @@ public fun Construct.cfnTrustStoreRevocation(
 ): CfnTrustStoreRevocation = CfnTrustStoreRevocation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTrustStoreRevocation(id: String, initializer: @AwsCdkDsl
-    CfnTrustStoreRevocation.Builder.() -> Unit = {}): CfnTrustStoreRevocation =
-    CfnTrustStoreRevocation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTrustStoreRevocation(id: String, initializer: @AwsCdkDsl CfnTrustStoreRevocation.Builder.() -> Unit = {}): CfnTrustStoreRevocation = CfnTrustStoreRevocation.Builder.create(this, id).apply(initializer).build()

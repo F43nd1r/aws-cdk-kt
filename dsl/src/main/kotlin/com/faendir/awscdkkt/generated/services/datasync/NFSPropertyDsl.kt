@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datasync.CfnLocationFSxOpenZFS
 
 @Generated
-public fun buildNFSProperty(initializer: @AwsCdkDsl
-    CfnLocationFSxOpenZFS.NFSProperty.Builder.() -> Unit = {}): CfnLocationFSxOpenZFS.NFSProperty =
-    CfnLocationFSxOpenZFS.NFSProperty.Builder().apply(initializer).build()
+public fun buildNFSProperty(initializer: @AwsCdkDsl CfnLocationFSxOpenZFS.NFSProperty.Builder.() -> Unit = {}): CfnLocationFSxOpenZFS.NFSProperty = CfnLocationFSxOpenZFS.NFSProperty.Builder().apply(initializer).build()

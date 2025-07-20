@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appconfig.ConfigurationProps
 
 @Generated
-public fun buildConfigurationProps(initializer: @AwsCdkDsl ConfigurationProps.Builder.() -> Unit =
-    {}): ConfigurationProps = ConfigurationProps.Builder().apply(initializer).build()
+public fun buildConfigurationProps(initializer: @AwsCdkDsl ConfigurationProps.Builder.() -> Unit = {}): ConfigurationProps = ConfigurationProps.Builder().apply(initializer).build()

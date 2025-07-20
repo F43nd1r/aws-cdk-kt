@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.CommonProjectProps
 
 @Generated
-public fun buildCommonProjectProps(initializer: @AwsCdkDsl CommonProjectProps.Builder.() -> Unit =
-    {}): CommonProjectProps = CommonProjectProps.Builder().apply(initializer).build()
+public fun buildCommonProjectProps(initializer: @AwsCdkDsl CommonProjectProps.Builder.() -> Unit = {}): CommonProjectProps = CommonProjectProps.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CredentialSpecConfig
 
 @Generated
-public fun buildCredentialSpecConfig(initializer: @AwsCdkDsl CredentialSpecConfig.Builder.() -> Unit
-    = {}): CredentialSpecConfig = CredentialSpecConfig.Builder().apply(initializer).build()
+public fun buildCredentialSpecConfig(initializer: @AwsCdkDsl CredentialSpecConfig.Builder.() -> Unit = {}): CredentialSpecConfig = CredentialSpecConfig.Builder().apply(initializer).build()

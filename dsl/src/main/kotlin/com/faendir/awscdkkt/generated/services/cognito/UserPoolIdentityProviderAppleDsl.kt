@@ -16,6 +16,4 @@ public fun Construct.userPoolIdentityProviderApple(
 ): UserPoolIdentityProviderApple = UserPoolIdentityProviderApple(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildUserPoolIdentityProviderApple(id: String, initializer: @AwsCdkDsl
-    UserPoolIdentityProviderApple.Builder.() -> Unit = {}): UserPoolIdentityProviderApple =
-    UserPoolIdentityProviderApple.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildUserPoolIdentityProviderApple(id: String, initializer: @AwsCdkDsl UserPoolIdentityProviderApple.Builder.() -> Unit = {}): UserPoolIdentityProviderApple = UserPoolIdentityProviderApple.Builder.create(this, id).apply(initializer).build()

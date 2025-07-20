@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisanalyticsv2.CfnApplicationReferenceDataSource
 
 @Generated
-public fun buildJSONMappingParametersProperty(initializer: @AwsCdkDsl
-    CfnApplicationReferenceDataSource.JSONMappingParametersProperty.Builder.() -> Unit = {}):
-    CfnApplicationReferenceDataSource.JSONMappingParametersProperty =
-    CfnApplicationReferenceDataSource.JSONMappingParametersProperty.Builder().apply(initializer).build()
+public fun buildJSONMappingParametersProperty(initializer: @AwsCdkDsl CfnApplicationReferenceDataSource.JSONMappingParametersProperty.Builder.() -> Unit = {}): CfnApplicationReferenceDataSource.JSONMappingParametersProperty = CfnApplicationReferenceDataSource.JSONMappingParametersProperty.Builder().apply(initializer).build()

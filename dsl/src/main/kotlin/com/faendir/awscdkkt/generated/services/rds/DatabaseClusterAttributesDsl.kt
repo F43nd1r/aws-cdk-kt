@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.DatabaseClusterAttributes
 
 @Generated
-public fun buildDatabaseClusterAttributes(initializer: @AwsCdkDsl
-    DatabaseClusterAttributes.Builder.() -> Unit = {}): DatabaseClusterAttributes =
-    DatabaseClusterAttributes.Builder().apply(initializer).build()
+public fun buildDatabaseClusterAttributes(initializer: @AwsCdkDsl DatabaseClusterAttributes.Builder.() -> Unit = {}): DatabaseClusterAttributes = DatabaseClusterAttributes.Builder().apply(initializer).build()

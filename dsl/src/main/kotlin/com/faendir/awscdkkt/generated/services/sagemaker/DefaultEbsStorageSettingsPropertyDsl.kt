@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnUserProfile
 
 @Generated
-public fun buildDefaultEbsStorageSettingsProperty(initializer: @AwsCdkDsl
-    CfnUserProfile.DefaultEbsStorageSettingsProperty.Builder.() -> Unit = {}):
-    CfnUserProfile.DefaultEbsStorageSettingsProperty =
-    CfnUserProfile.DefaultEbsStorageSettingsProperty.Builder().apply(initializer).build()
+public fun buildDefaultEbsStorageSettingsProperty(initializer: @AwsCdkDsl CfnUserProfile.DefaultEbsStorageSettingsProperty.Builder.() -> Unit = {}): CfnUserProfile.DefaultEbsStorageSettingsProperty = CfnUserProfile.DefaultEbsStorageSettingsProperty.Builder().apply(initializer).build()

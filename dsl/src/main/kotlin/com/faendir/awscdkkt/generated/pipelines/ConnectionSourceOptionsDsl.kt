@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.pipelines.ConnectionSourceOptions
 
 @Generated
-public fun buildConnectionSourceOptions(initializer: @AwsCdkDsl
-    ConnectionSourceOptions.Builder.() -> Unit = {}): ConnectionSourceOptions =
-    ConnectionSourceOptions.Builder().apply(initializer).build()
+public fun buildConnectionSourceOptions(initializer: @AwsCdkDsl ConnectionSourceOptions.Builder.() -> Unit = {}): ConnectionSourceOptions = ConnectionSourceOptions.Builder().apply(initializer).build()

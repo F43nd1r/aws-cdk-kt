@@ -16,6 +16,4 @@ public fun Construct.serviceAccount(
 ): ServiceAccount = ServiceAccount(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildServiceAccount(id: String, initializer: @AwsCdkDsl
-    ServiceAccount.Builder.() -> Unit = {}): ServiceAccount = ServiceAccount.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildServiceAccount(id: String, initializer: @AwsCdkDsl ServiceAccount.Builder.() -> Unit = {}): ServiceAccount = ServiceAccount.Builder.create(this, id).apply(initializer).build()

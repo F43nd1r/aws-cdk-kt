@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediatailor.CfnSourceLocation
 
 @Generated
-public fun buildSecretsManagerAccessTokenConfigurationProperty(initializer: @AwsCdkDsl
-    CfnSourceLocation.SecretsManagerAccessTokenConfigurationProperty.Builder.() -> Unit = {}):
-    CfnSourceLocation.SecretsManagerAccessTokenConfigurationProperty =
-    CfnSourceLocation.SecretsManagerAccessTokenConfigurationProperty.Builder().apply(initializer).build()
+public fun buildSecretsManagerAccessTokenConfigurationProperty(initializer: @AwsCdkDsl CfnSourceLocation.SecretsManagerAccessTokenConfigurationProperty.Builder.() -> Unit = {}): CfnSourceLocation.SecretsManagerAccessTokenConfigurationProperty = CfnSourceLocation.SecretsManagerAccessTokenConfigurationProperty.Builder().apply(initializer).build()

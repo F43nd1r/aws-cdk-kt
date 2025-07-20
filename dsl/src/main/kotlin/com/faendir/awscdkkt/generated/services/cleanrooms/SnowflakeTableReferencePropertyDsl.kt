@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cleanrooms.CfnConfiguredTable
 
 @Generated
-public fun buildSnowflakeTableReferenceProperty(initializer: @AwsCdkDsl
-    CfnConfiguredTable.SnowflakeTableReferenceProperty.Builder.() -> Unit = {}):
-    CfnConfiguredTable.SnowflakeTableReferenceProperty =
-    CfnConfiguredTable.SnowflakeTableReferenceProperty.Builder().apply(initializer).build()
+public fun buildSnowflakeTableReferenceProperty(initializer: @AwsCdkDsl CfnConfiguredTable.SnowflakeTableReferenceProperty.Builder.() -> Unit = {}): CfnConfiguredTable.SnowflakeTableReferenceProperty = CfnConfiguredTable.SnowflakeTableReferenceProperty.Builder().apply(initializer).build()

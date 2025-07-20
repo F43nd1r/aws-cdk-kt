@@ -16,6 +16,4 @@ public fun Construct.cfnLocationS3(
 ): CfnLocationS3 = CfnLocationS3(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLocationS3(id: String, initializer: @AwsCdkDsl
-    CfnLocationS3.Builder.() -> Unit = {}): CfnLocationS3 = CfnLocationS3.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnLocationS3(id: String, initializer: @AwsCdkDsl CfnLocationS3.Builder.() -> Unit = {}): CfnLocationS3 = CfnLocationS3.Builder.create(this, id).apply(initializer).build()

@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.dms.CfnMigrationProjectProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnMigrationProject(id: String, initializer: @AwsCdkDsl
-    CfnMigrationProject.() -> Unit = {}): CfnMigrationProject = CfnMigrationProject(this,
-    id).apply(initializer)
+public fun Construct.cfnMigrationProject(id: String, initializer: @AwsCdkDsl CfnMigrationProject.() -> Unit = {}): CfnMigrationProject = CfnMigrationProject(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnMigrationProject(
@@ -21,6 +19,4 @@ public fun Construct.cfnMigrationProject(
 ): CfnMigrationProject = CfnMigrationProject(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMigrationProject(id: String, initializer: @AwsCdkDsl
-    CfnMigrationProject.Builder.() -> Unit = {}): CfnMigrationProject =
-    CfnMigrationProject.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMigrationProject(id: String, initializer: @AwsCdkDsl CfnMigrationProject.Builder.() -> Unit = {}): CfnMigrationProject = CfnMigrationProject.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.SnsPublishJsonPathProps
 
 @Generated
-public fun buildSnsPublishJsonPathProps(initializer: @AwsCdkDsl
-    SnsPublishJsonPathProps.Builder.() -> Unit = {}): SnsPublishJsonPathProps =
-    SnsPublishJsonPathProps.Builder().apply(initializer).build()
+public fun buildSnsPublishJsonPathProps(initializer: @AwsCdkDsl SnsPublishJsonPathProps.Builder.() -> Unit = {}): SnsPublishJsonPathProps = SnsPublishJsonPathProps.Builder().apply(initializer).build()

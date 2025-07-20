@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildInitialResponseSettingProperty(initializer: @AwsCdkDsl
-    CfnBot.InitialResponseSettingProperty.Builder.() -> Unit = {}):
-    CfnBot.InitialResponseSettingProperty =
-    CfnBot.InitialResponseSettingProperty.Builder().apply(initializer).build()
+public fun buildInitialResponseSettingProperty(initializer: @AwsCdkDsl CfnBot.InitialResponseSettingProperty.Builder.() -> Unit = {}): CfnBot.InitialResponseSettingProperty = CfnBot.InitialResponseSettingProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apptest.CfnTestCase
 
 @Generated
-public fun buildStepProperty(initializer: @AwsCdkDsl CfnTestCase.StepProperty.Builder.() -> Unit =
-    {}): CfnTestCase.StepProperty = CfnTestCase.StepProperty.Builder().apply(initializer).build()
+public fun buildStepProperty(initializer: @AwsCdkDsl CfnTestCase.StepProperty.Builder.() -> Unit = {}): CfnTestCase.StepProperty = CfnTestCase.StepProperty.Builder().apply(initializer).build()

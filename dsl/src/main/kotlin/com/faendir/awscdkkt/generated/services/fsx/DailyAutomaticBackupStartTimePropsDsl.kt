@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fsx.DailyAutomaticBackupStartTimeProps
 
 @Generated
-public fun buildDailyAutomaticBackupStartTimeProps(initializer: @AwsCdkDsl
-    DailyAutomaticBackupStartTimeProps.Builder.() -> Unit = {}): DailyAutomaticBackupStartTimeProps
-    = DailyAutomaticBackupStartTimeProps.Builder().apply(initializer).build()
+public fun buildDailyAutomaticBackupStartTimeProps(initializer: @AwsCdkDsl DailyAutomaticBackupStartTimeProps.Builder.() -> Unit = {}): DailyAutomaticBackupStartTimeProps = DailyAutomaticBackupStartTimeProps.Builder().apply(initializer).build()

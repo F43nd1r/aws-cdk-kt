@@ -16,6 +16,4 @@ public fun Construct.ecsDeploymentGroup(
 ): EcsDeploymentGroup = EcsDeploymentGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEcsDeploymentGroup(id: String, initializer: @AwsCdkDsl
-    EcsDeploymentGroup.Builder.() -> Unit = {}): EcsDeploymentGroup =
-    EcsDeploymentGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildEcsDeploymentGroup(id: String, initializer: @AwsCdkDsl EcsDeploymentGroup.Builder.() -> Unit = {}): EcsDeploymentGroup = EcsDeploymentGroup.Builder.create(this, id).apply(initializer).build()

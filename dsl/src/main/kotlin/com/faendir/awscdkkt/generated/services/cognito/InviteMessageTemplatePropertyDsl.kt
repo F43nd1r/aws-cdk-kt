@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnUserPool
 
 @Generated
-public fun buildInviteMessageTemplateProperty(initializer: @AwsCdkDsl
-    CfnUserPool.InviteMessageTemplateProperty.Builder.() -> Unit = {}):
-    CfnUserPool.InviteMessageTemplateProperty =
-    CfnUserPool.InviteMessageTemplateProperty.Builder().apply(initializer).build()
+public fun buildInviteMessageTemplateProperty(initializer: @AwsCdkDsl CfnUserPool.InviteMessageTemplateProperty.Builder.() -> Unit = {}): CfnUserPool.InviteMessageTemplateProperty = CfnUserPool.InviteMessageTemplateProperty.Builder().apply(initializer).build()

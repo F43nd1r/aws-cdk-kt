@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.CfnDataSource
 
 @Generated
-public fun buildDynamoDBConfigProperty(initializer: @AwsCdkDsl
-    CfnDataSource.DynamoDBConfigProperty.Builder.() -> Unit = {}):
-    CfnDataSource.DynamoDBConfigProperty =
-    CfnDataSource.DynamoDBConfigProperty.Builder().apply(initializer).build()
+public fun buildDynamoDBConfigProperty(initializer: @AwsCdkDsl CfnDataSource.DynamoDBConfigProperty.Builder.() -> Unit = {}): CfnDataSource.DynamoDBConfigProperty = CfnDataSource.DynamoDBConfigProperty.Builder().apply(initializer).build()

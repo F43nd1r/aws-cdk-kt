@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
-public fun buildCpuOptionsProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.CpuOptionsProperty.Builder.() -> Unit = {}):
-    CfnLaunchTemplate.CpuOptionsProperty =
-    CfnLaunchTemplate.CpuOptionsProperty.Builder().apply(initializer).build()
+public fun buildCpuOptionsProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.CpuOptionsProperty.Builder.() -> Unit = {}): CfnLaunchTemplate.CpuOptionsProperty = CfnLaunchTemplate.CpuOptionsProperty.Builder().apply(initializer).build()

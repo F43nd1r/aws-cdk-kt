@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticsearch.CfnDomain
 
 @Generated
-public fun buildZoneAwarenessConfigProperty(initializer: @AwsCdkDsl
-    CfnDomain.ZoneAwarenessConfigProperty.Builder.() -> Unit = {}):
-    CfnDomain.ZoneAwarenessConfigProperty =
-    CfnDomain.ZoneAwarenessConfigProperty.Builder().apply(initializer).build()
+public fun buildZoneAwarenessConfigProperty(initializer: @AwsCdkDsl CfnDomain.ZoneAwarenessConfigProperty.Builder.() -> Unit = {}): CfnDomain.ZoneAwarenessConfigProperty = CfnDomain.ZoneAwarenessConfigProperty.Builder().apply(initializer).build()

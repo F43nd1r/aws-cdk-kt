@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildDataPathLabelTypeProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DataPathLabelTypeProperty.Builder.() -> Unit = {}):
-    CfnTemplate.DataPathLabelTypeProperty =
-    CfnTemplate.DataPathLabelTypeProperty.Builder().apply(initializer).build()
+public fun buildDataPathLabelTypeProperty(initializer: @AwsCdkDsl CfnTemplate.DataPathLabelTypeProperty.Builder.() -> Unit = {}): CfnTemplate.DataPathLabelTypeProperty = CfnTemplate.DataPathLabelTypeProperty.Builder().apply(initializer).build()

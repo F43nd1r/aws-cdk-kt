@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lightsail.CfnInstance
 
 @Generated
-public fun buildNetworkingProperty(initializer: @AwsCdkDsl
-    CfnInstance.NetworkingProperty.Builder.() -> Unit = {}): CfnInstance.NetworkingProperty =
-    CfnInstance.NetworkingProperty.Builder().apply(initializer).build()
+public fun buildNetworkingProperty(initializer: @AwsCdkDsl CfnInstance.NetworkingProperty.Builder.() -> Unit = {}): CfnInstance.NetworkingProperty = CfnInstance.NetworkingProperty.Builder().apply(initializer).build()

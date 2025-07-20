@@ -16,6 +16,4 @@ public fun Construct.cfnAnalysis(
 ): CfnAnalysis = CfnAnalysis(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAnalysis(id: String, initializer: @AwsCdkDsl
-    CfnAnalysis.Builder.() -> Unit = {}): CfnAnalysis = CfnAnalysis.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnAnalysis(id: String, initializer: @AwsCdkDsl CfnAnalysis.Builder.() -> Unit = {}): CfnAnalysis = CfnAnalysis.Builder.create(this, id).apply(initializer).build()

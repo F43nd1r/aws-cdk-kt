@@ -16,6 +16,4 @@ public fun Construct.parameterGroup(
 ): ParameterGroup = ParameterGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildParameterGroup(id: String, initializer: @AwsCdkDsl
-    ParameterGroup.Builder.() -> Unit = {}): ParameterGroup = ParameterGroup.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildParameterGroup(id: String, initializer: @AwsCdkDsl ParameterGroup.Builder.() -> Unit = {}): ParameterGroup = ParameterGroup.Builder.create(this, id).apply(initializer).build()

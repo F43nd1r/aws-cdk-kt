@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkmanager.CfnSiteToSiteVpnAttachmentProps
 
 @Generated
-public fun buildCfnSiteToSiteVpnAttachmentProps(initializer: @AwsCdkDsl
-    CfnSiteToSiteVpnAttachmentProps.Builder.() -> Unit = {}): CfnSiteToSiteVpnAttachmentProps =
-    CfnSiteToSiteVpnAttachmentProps.Builder().apply(initializer).build()
+public fun buildCfnSiteToSiteVpnAttachmentProps(initializer: @AwsCdkDsl CfnSiteToSiteVpnAttachmentProps.Builder.() -> Unit = {}): CfnSiteToSiteVpnAttachmentProps = CfnSiteToSiteVpnAttachmentProps.Builder().apply(initializer).build()

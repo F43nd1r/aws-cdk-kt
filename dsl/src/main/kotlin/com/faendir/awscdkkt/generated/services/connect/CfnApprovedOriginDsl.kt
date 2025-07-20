@@ -16,6 +16,4 @@ public fun Construct.cfnApprovedOrigin(
 ): CfnApprovedOrigin = CfnApprovedOrigin(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnApprovedOrigin(id: String, initializer: @AwsCdkDsl
-    CfnApprovedOrigin.Builder.() -> Unit = {}): CfnApprovedOrigin =
-    CfnApprovedOrigin.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnApprovedOrigin(id: String, initializer: @AwsCdkDsl CfnApprovedOrigin.Builder.() -> Unit = {}): CfnApprovedOrigin = CfnApprovedOrigin.Builder.create(this, id).apply(initializer).build()

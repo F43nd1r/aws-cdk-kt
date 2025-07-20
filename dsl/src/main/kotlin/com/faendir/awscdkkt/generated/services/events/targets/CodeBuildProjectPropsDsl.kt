@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.targets.CodeBuildProjectProps
 
 @Generated
-public fun buildCodeBuildProjectProps(initializer: @AwsCdkDsl
-    CodeBuildProjectProps.Builder.() -> Unit = {}): CodeBuildProjectProps =
-    CodeBuildProjectProps.Builder().apply(initializer).build()
+public fun buildCodeBuildProjectProps(initializer: @AwsCdkDsl CodeBuildProjectProps.Builder.() -> Unit = {}): CodeBuildProjectProps = CodeBuildProjectProps.Builder().apply(initializer).build()

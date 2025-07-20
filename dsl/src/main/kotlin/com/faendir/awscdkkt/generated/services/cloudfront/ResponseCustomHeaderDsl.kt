@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.ResponseCustomHeader
 
 @Generated
-public fun buildResponseCustomHeader(initializer: @AwsCdkDsl ResponseCustomHeader.Builder.() -> Unit
-    = {}): ResponseCustomHeader = ResponseCustomHeader.Builder().apply(initializer).build()
+public fun buildResponseCustomHeader(initializer: @AwsCdkDsl ResponseCustomHeader.Builder.() -> Unit = {}): ResponseCustomHeader = ResponseCustomHeader.Builder().apply(initializer).build()

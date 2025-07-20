@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnNetworkProps
 
 @Generated
-public fun buildCfnNetworkProps(initializer: @AwsCdkDsl CfnNetworkProps.Builder.() -> Unit = {}):
-    CfnNetworkProps = CfnNetworkProps.Builder().apply(initializer).build()
+public fun buildCfnNetworkProps(initializer: @AwsCdkDsl CfnNetworkProps.Builder.() -> Unit = {}): CfnNetworkProps = CfnNetworkProps.Builder().apply(initializer).build()

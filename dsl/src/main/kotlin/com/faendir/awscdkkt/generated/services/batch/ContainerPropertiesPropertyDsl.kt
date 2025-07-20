@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
-public fun buildContainerPropertiesProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.ContainerPropertiesProperty.Builder.() -> Unit = {}):
-    CfnJobDefinition.ContainerPropertiesProperty =
-    CfnJobDefinition.ContainerPropertiesProperty.Builder().apply(initializer).build()
+public fun buildContainerPropertiesProperty(initializer: @AwsCdkDsl CfnJobDefinition.ContainerPropertiesProperty.Builder.() -> Unit = {}): CfnJobDefinition.ContainerPropertiesProperty = CfnJobDefinition.ContainerPropertiesProperty.Builder().apply(initializer).build()

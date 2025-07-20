@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnCrawler
 
 @Generated
-public fun buildMongoDBTargetProperty(initializer: @AwsCdkDsl
-    CfnCrawler.MongoDBTargetProperty.Builder.() -> Unit = {}): CfnCrawler.MongoDBTargetProperty =
-    CfnCrawler.MongoDBTargetProperty.Builder().apply(initializer).build()
+public fun buildMongoDBTargetProperty(initializer: @AwsCdkDsl CfnCrawler.MongoDBTargetProperty.Builder.() -> Unit = {}): CfnCrawler.MongoDBTargetProperty = CfnCrawler.MongoDBTargetProperty.Builder().apply(initializer).build()

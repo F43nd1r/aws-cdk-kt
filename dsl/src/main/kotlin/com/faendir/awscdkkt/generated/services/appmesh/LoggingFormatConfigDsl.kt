@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.LoggingFormatConfig
 
 @Generated
-public fun buildLoggingFormatConfig(initializer: @AwsCdkDsl LoggingFormatConfig.Builder.() -> Unit =
-    {}): LoggingFormatConfig = LoggingFormatConfig.Builder().apply(initializer).build()
+public fun buildLoggingFormatConfig(initializer: @AwsCdkDsl LoggingFormatConfig.Builder.() -> Unit = {}): LoggingFormatConfig = LoggingFormatConfig.Builder().apply(initializer).build()

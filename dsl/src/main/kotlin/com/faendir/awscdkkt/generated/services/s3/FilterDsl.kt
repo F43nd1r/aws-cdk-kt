@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.Filter
 
 @Generated
-public fun buildFilter(initializer: @AwsCdkDsl Filter.Builder.() -> Unit = {}): Filter =
-    Filter.Builder().apply(initializer).build()
+public fun buildFilter(initializer: @AwsCdkDsl Filter.Builder.() -> Unit = {}): Filter = Filter.Builder().apply(initializer).build()

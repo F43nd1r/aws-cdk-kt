@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.vpclattice.CfnRule
 
 @Generated
-public fun buildForwardProperty(initializer: @AwsCdkDsl CfnRule.ForwardProperty.Builder.() -> Unit =
-    {}): CfnRule.ForwardProperty = CfnRule.ForwardProperty.Builder().apply(initializer).build()
+public fun buildForwardProperty(initializer: @AwsCdkDsl CfnRule.ForwardProperty.Builder.() -> Unit = {}): CfnRule.ForwardProperty = CfnRule.ForwardProperty.Builder().apply(initializer).build()

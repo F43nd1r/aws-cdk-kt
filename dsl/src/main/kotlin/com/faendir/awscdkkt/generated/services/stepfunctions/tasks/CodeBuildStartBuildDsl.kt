@@ -16,6 +16,4 @@ public fun Construct.codeBuildStartBuild(
 ): CodeBuildStartBuild = CodeBuildStartBuild(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCodeBuildStartBuild(id: String, initializer: @AwsCdkDsl
-    CodeBuildStartBuild.Builder.() -> Unit = {}): CodeBuildStartBuild =
-    CodeBuildStartBuild.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCodeBuildStartBuild(id: String, initializer: @AwsCdkDsl CodeBuildStartBuild.Builder.() -> Unit = {}): CodeBuildStartBuild = CodeBuildStartBuild.Builder.create(this, id).apply(initializer).build()

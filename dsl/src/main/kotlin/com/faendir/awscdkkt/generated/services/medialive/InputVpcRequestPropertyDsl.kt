@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnInput
 
 @Generated
-public fun buildInputVpcRequestProperty(initializer: @AwsCdkDsl
-    CfnInput.InputVpcRequestProperty.Builder.() -> Unit = {}): CfnInput.InputVpcRequestProperty =
-    CfnInput.InputVpcRequestProperty.Builder().apply(initializer).build()
+public fun buildInputVpcRequestProperty(initializer: @AwsCdkDsl CfnInput.InputVpcRequestProperty.Builder.() -> Unit = {}): CfnInput.InputVpcRequestProperty = CfnInput.InputVpcRequestProperty.Builder().apply(initializer).build()

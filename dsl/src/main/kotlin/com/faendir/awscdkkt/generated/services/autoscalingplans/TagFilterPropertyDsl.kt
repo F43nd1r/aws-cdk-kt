@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscalingplans.CfnScalingPlan
 
 @Generated
-public fun buildTagFilterProperty(initializer: @AwsCdkDsl
-    CfnScalingPlan.TagFilterProperty.Builder.() -> Unit = {}): CfnScalingPlan.TagFilterProperty =
-    CfnScalingPlan.TagFilterProperty.Builder().apply(initializer).build()
+public fun buildTagFilterProperty(initializer: @AwsCdkDsl CfnScalingPlan.TagFilterProperty.Builder.() -> Unit = {}): CfnScalingPlan.TagFilterProperty = CfnScalingPlan.TagFilterProperty.Builder().apply(initializer).build()

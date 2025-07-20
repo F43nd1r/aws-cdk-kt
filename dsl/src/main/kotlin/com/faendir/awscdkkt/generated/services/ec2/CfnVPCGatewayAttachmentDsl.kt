@@ -16,6 +16,4 @@ public fun Construct.cfnVPCGatewayAttachment(
 ): CfnVPCGatewayAttachment = CfnVPCGatewayAttachment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVPCGatewayAttachment(id: String, initializer: @AwsCdkDsl
-    CfnVPCGatewayAttachment.Builder.() -> Unit = {}): CfnVPCGatewayAttachment =
-    CfnVPCGatewayAttachment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnVPCGatewayAttachment(id: String, initializer: @AwsCdkDsl CfnVPCGatewayAttachment.Builder.() -> Unit = {}): CfnVPCGatewayAttachment = CfnVPCGatewayAttachment.Builder.create(this, id).apply(initializer).build()

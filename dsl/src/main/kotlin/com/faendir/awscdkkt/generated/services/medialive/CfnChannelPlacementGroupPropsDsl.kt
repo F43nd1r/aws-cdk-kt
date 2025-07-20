@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannelPlacementGroupProps
 
 @Generated
-public fun buildCfnChannelPlacementGroupProps(initializer: @AwsCdkDsl
-    CfnChannelPlacementGroupProps.Builder.() -> Unit = {}): CfnChannelPlacementGroupProps =
-    CfnChannelPlacementGroupProps.Builder().apply(initializer).build()
+public fun buildCfnChannelPlacementGroupProps(initializer: @AwsCdkDsl CfnChannelPlacementGroupProps.Builder.() -> Unit = {}): CfnChannelPlacementGroupProps = CfnChannelPlacementGroupProps.Builder().apply(initializer).build()

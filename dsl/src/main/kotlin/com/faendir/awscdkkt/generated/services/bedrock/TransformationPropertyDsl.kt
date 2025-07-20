@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnDataSource
 
 @Generated
-public fun buildTransformationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.TransformationProperty.Builder.() -> Unit = {}):
-    CfnDataSource.TransformationProperty =
-    CfnDataSource.TransformationProperty.Builder().apply(initializer).build()
+public fun buildTransformationProperty(initializer: @AwsCdkDsl CfnDataSource.TransformationProperty.Builder.() -> Unit = {}): CfnDataSource.TransformationProperty = CfnDataSource.TransformationProperty.Builder().apply(initializer).build()

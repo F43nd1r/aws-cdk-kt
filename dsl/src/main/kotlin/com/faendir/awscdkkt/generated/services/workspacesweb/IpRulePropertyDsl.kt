@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.workspacesweb.CfnIpAccessSettings
 
 @Generated
-public fun buildIpRuleProperty(initializer: @AwsCdkDsl
-    CfnIpAccessSettings.IpRuleProperty.Builder.() -> Unit = {}): CfnIpAccessSettings.IpRuleProperty
-    = CfnIpAccessSettings.IpRuleProperty.Builder().apply(initializer).build()
+public fun buildIpRuleProperty(initializer: @AwsCdkDsl CfnIpAccessSettings.IpRuleProperty.Builder.() -> Unit = {}): CfnIpAccessSettings.IpRuleProperty = CfnIpAccessSettings.IpRuleProperty.Builder().apply(initializer).build()

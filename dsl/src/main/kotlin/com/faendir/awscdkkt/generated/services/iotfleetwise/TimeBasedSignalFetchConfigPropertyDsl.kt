@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotfleetwise.CfnCampaign
 
 @Generated
-public fun buildTimeBasedSignalFetchConfigProperty(initializer: @AwsCdkDsl
-    CfnCampaign.TimeBasedSignalFetchConfigProperty.Builder.() -> Unit = {}):
-    CfnCampaign.TimeBasedSignalFetchConfigProperty =
-    CfnCampaign.TimeBasedSignalFetchConfigProperty.Builder().apply(initializer).build()
+public fun buildTimeBasedSignalFetchConfigProperty(initializer: @AwsCdkDsl CfnCampaign.TimeBasedSignalFetchConfigProperty.Builder.() -> Unit = {}): CfnCampaign.TimeBasedSignalFetchConfigProperty = CfnCampaign.TimeBasedSignalFetchConfigProperty.Builder().apply(initializer).build()

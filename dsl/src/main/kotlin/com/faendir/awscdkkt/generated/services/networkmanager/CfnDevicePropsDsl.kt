@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkmanager.CfnDeviceProps
 
 @Generated
-public fun buildCfnDeviceProps(initializer: @AwsCdkDsl CfnDeviceProps.Builder.() -> Unit = {}):
-    CfnDeviceProps = CfnDeviceProps.Builder().apply(initializer).build()
+public fun buildCfnDeviceProps(initializer: @AwsCdkDsl CfnDeviceProps.Builder.() -> Unit = {}): CfnDeviceProps = CfnDeviceProps.Builder().apply(initializer).build()

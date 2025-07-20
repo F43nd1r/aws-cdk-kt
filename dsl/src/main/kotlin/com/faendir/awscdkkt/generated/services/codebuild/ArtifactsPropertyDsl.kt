@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.CfnProject
 
 @Generated
-public fun buildArtifactsProperty(initializer: @AwsCdkDsl
-    CfnProject.ArtifactsProperty.Builder.() -> Unit = {}): CfnProject.ArtifactsProperty =
-    CfnProject.ArtifactsProperty.Builder().apply(initializer).build()
+public fun buildArtifactsProperty(initializer: @AwsCdkDsl CfnProject.ArtifactsProperty.Builder.() -> Unit = {}): CfnProject.ArtifactsProperty = CfnProject.ArtifactsProperty.Builder().apply(initializer).build()

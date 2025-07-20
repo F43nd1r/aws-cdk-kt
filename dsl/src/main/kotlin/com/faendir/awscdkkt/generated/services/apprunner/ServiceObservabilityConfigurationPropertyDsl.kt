@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apprunner.CfnService
 
 @Generated
-public fun buildServiceObservabilityConfigurationProperty(initializer: @AwsCdkDsl
-    CfnService.ServiceObservabilityConfigurationProperty.Builder.() -> Unit = {}):
-    CfnService.ServiceObservabilityConfigurationProperty =
-    CfnService.ServiceObservabilityConfigurationProperty.Builder().apply(initializer).build()
+public fun buildServiceObservabilityConfigurationProperty(initializer: @AwsCdkDsl CfnService.ServiceObservabilityConfigurationProperty.Builder.() -> Unit = {}): CfnService.ServiceObservabilityConfigurationProperty = CfnService.ServiceObservabilityConfigurationProperty.Builder().apply(initializer).build()

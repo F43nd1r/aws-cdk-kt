@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securitylake.CfnSubscriber
 
 @Generated
-public fun buildAwsLogSourceProperty(initializer: @AwsCdkDsl
-    CfnSubscriber.AwsLogSourceProperty.Builder.() -> Unit = {}): CfnSubscriber.AwsLogSourceProperty
-    = CfnSubscriber.AwsLogSourceProperty.Builder().apply(initializer).build()
+public fun buildAwsLogSourceProperty(initializer: @AwsCdkDsl CfnSubscriber.AwsLogSourceProperty.Builder.() -> Unit = {}): CfnSubscriber.AwsLogSourceProperty = CfnSubscriber.AwsLogSourceProperty.Builder().apply(initializer).build()

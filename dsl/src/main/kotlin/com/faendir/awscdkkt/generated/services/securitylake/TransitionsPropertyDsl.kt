@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securitylake.CfnDataLake
 
 @Generated
-public fun buildTransitionsProperty(initializer: @AwsCdkDsl
-    CfnDataLake.TransitionsProperty.Builder.() -> Unit = {}): CfnDataLake.TransitionsProperty =
-    CfnDataLake.TransitionsProperty.Builder().apply(initializer).build()
+public fun buildTransitionsProperty(initializer: @AwsCdkDsl CfnDataLake.TransitionsProperty.Builder.() -> Unit = {}): CfnDataLake.TransitionsProperty = CfnDataLake.TransitionsProperty.Builder().apply(initializer).build()

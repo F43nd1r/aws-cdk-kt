@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.timestream.CfnTable
 
 @Generated
-public fun buildMagneticStoreWritePropertiesProperty(initializer: @AwsCdkDsl
-    CfnTable.MagneticStoreWritePropertiesProperty.Builder.() -> Unit = {}):
-    CfnTable.MagneticStoreWritePropertiesProperty =
-    CfnTable.MagneticStoreWritePropertiesProperty.Builder().apply(initializer).build()
+public fun buildMagneticStoreWritePropertiesProperty(initializer: @AwsCdkDsl CfnTable.MagneticStoreWritePropertiesProperty.Builder.() -> Unit = {}): CfnTable.MagneticStoreWritePropertiesProperty = CfnTable.MagneticStoreWritePropertiesProperty.Builder().apply(initializer).build()

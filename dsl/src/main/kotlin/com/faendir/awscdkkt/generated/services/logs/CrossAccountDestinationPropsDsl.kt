@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CrossAccountDestinationProps
 
 @Generated
-public fun buildCrossAccountDestinationProps(initializer: @AwsCdkDsl
-    CrossAccountDestinationProps.Builder.() -> Unit = {}): CrossAccountDestinationProps =
-    CrossAccountDestinationProps.Builder().apply(initializer).build()
+public fun buildCrossAccountDestinationProps(initializer: @AwsCdkDsl CrossAccountDestinationProps.Builder.() -> Unit = {}): CrossAccountDestinationProps = CrossAccountDestinationProps.Builder().apply(initializer).build()

@@ -16,5 +16,4 @@ public fun Construct.cfnHook(
 ): CfnHook = CfnHook(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnHook(id: String, initializer: @AwsCdkDsl CfnHook.Builder.() -> Unit =
-    {}): CfnHook = CfnHook.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnHook(id: String, initializer: @AwsCdkDsl CfnHook.Builder.() -> Unit = {}): CfnHook = CfnHook.Builder.create(this, id).apply(initializer).build()

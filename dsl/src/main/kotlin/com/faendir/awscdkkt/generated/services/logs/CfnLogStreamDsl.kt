@@ -16,6 +16,4 @@ public fun Construct.cfnLogStream(
 ): CfnLogStream = CfnLogStream(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLogStream(id: String, initializer: @AwsCdkDsl
-    CfnLogStream.Builder.() -> Unit = {}): CfnLogStream = CfnLogStream.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnLogStream(id: String, initializer: @AwsCdkDsl CfnLogStream.Builder.() -> Unit = {}): CfnLogStream = CfnLogStream.Builder.create(this, id).apply(initializer).build()

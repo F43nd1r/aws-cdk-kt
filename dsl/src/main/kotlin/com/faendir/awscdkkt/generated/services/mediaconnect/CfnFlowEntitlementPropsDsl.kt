@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediaconnect.CfnFlowEntitlementProps
 
 @Generated
-public fun buildCfnFlowEntitlementProps(initializer: @AwsCdkDsl
-    CfnFlowEntitlementProps.Builder.() -> Unit = {}): CfnFlowEntitlementProps =
-    CfnFlowEntitlementProps.Builder().apply(initializer).build()
+public fun buildCfnFlowEntitlementProps(initializer: @AwsCdkDsl CfnFlowEntitlementProps.Builder.() -> Unit = {}): CfnFlowEntitlementProps = CfnFlowEntitlementProps.Builder().apply(initializer).build()

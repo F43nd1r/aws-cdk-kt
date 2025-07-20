@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.TransferAccelerationUrlOptions
 
 @Generated
-public fun buildTransferAccelerationUrlOptions(initializer: @AwsCdkDsl
-    TransferAccelerationUrlOptions.Builder.() -> Unit = {}): TransferAccelerationUrlOptions =
-    TransferAccelerationUrlOptions.Builder().apply(initializer).build()
+public fun buildTransferAccelerationUrlOptions(initializer: @AwsCdkDsl TransferAccelerationUrlOptions.Builder.() -> Unit = {}): TransferAccelerationUrlOptions = TransferAccelerationUrlOptions.Builder().apply(initializer).build()

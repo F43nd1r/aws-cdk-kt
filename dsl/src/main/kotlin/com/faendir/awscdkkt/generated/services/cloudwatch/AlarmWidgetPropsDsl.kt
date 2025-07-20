@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.AlarmWidgetProps
 
 @Generated
-public fun buildAlarmWidgetProps(initializer: @AwsCdkDsl AlarmWidgetProps.Builder.() -> Unit = {}):
-    AlarmWidgetProps = AlarmWidgetProps.Builder().apply(initializer).build()
+public fun buildAlarmWidgetProps(initializer: @AwsCdkDsl AlarmWidgetProps.Builder.() -> Unit = {}): AlarmWidgetProps = AlarmWidgetProps.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnEmailIdentity(
 ): CfnEmailIdentity = CfnEmailIdentity(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEmailIdentity(id: String, initializer: @AwsCdkDsl
-    CfnEmailIdentity.Builder.() -> Unit = {}): CfnEmailIdentity =
-    CfnEmailIdentity.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnEmailIdentity(id: String, initializer: @AwsCdkDsl CfnEmailIdentity.Builder.() -> Unit = {}): CfnEmailIdentity = CfnEmailIdentity.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.CfnInsightRuleProps
 
 @Generated
-public fun buildCfnInsightRuleProps(initializer: @AwsCdkDsl CfnInsightRuleProps.Builder.() -> Unit =
-    {}): CfnInsightRuleProps = CfnInsightRuleProps.Builder().apply(initializer).build()
+public fun buildCfnInsightRuleProps(initializer: @AwsCdkDsl CfnInsightRuleProps.Builder.() -> Unit = {}): CfnInsightRuleProps = CfnInsightRuleProps.Builder().apply(initializer).build()

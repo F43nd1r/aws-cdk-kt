@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.ClientVpnEndpointAttributes
 
 @Generated
-public fun buildClientVpnEndpointAttributes(initializer: @AwsCdkDsl
-    ClientVpnEndpointAttributes.Builder.() -> Unit = {}): ClientVpnEndpointAttributes =
-    ClientVpnEndpointAttributes.Builder().apply(initializer).build()
+public fun buildClientVpnEndpointAttributes(initializer: @AwsCdkDsl ClientVpnEndpointAttributes.Builder.() -> Unit = {}): ClientVpnEndpointAttributes = ClientVpnEndpointAttributes.Builder().apply(initializer).build()

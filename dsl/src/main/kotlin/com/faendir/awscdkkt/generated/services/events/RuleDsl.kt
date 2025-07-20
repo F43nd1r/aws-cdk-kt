@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.events.RuleProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.rule(id: String, initializer: @AwsCdkDsl Rule.() -> Unit = {}): Rule =
-    Rule(this, id).apply(initializer)
+public fun Construct.rule(id: String, initializer: @AwsCdkDsl Rule.() -> Unit = {}): Rule = Rule(this, id).apply(initializer)
 
 @Generated
 public fun Construct.rule(
@@ -20,5 +19,4 @@ public fun Construct.rule(
 ): Rule = Rule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildRule(id: String, initializer: @AwsCdkDsl Rule.Builder.() -> Unit = {}):
-    Rule = Rule.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildRule(id: String, initializer: @AwsCdkDsl Rule.Builder.() -> Unit = {}): Rule = Rule.Builder.create(this, id).apply(initializer).build()

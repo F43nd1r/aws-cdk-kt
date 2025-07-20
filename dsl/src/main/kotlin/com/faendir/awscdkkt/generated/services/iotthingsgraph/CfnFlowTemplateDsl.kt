@@ -16,6 +16,4 @@ public fun Construct.cfnFlowTemplate(
 ): CfnFlowTemplate = CfnFlowTemplate(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnFlowTemplate(id: String, initializer: @AwsCdkDsl
-    CfnFlowTemplate.Builder.() -> Unit = {}): CfnFlowTemplate = CfnFlowTemplate.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnFlowTemplate(id: String, initializer: @AwsCdkDsl CfnFlowTemplate.Builder.() -> Unit = {}): CfnFlowTemplate = CfnFlowTemplate.Builder.create(this, id).apply(initializer).build()

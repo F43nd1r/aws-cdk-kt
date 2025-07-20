@@ -16,6 +16,4 @@ public fun Construct.cfnContainerGroupDefinition(
 ): CfnContainerGroupDefinition = CfnContainerGroupDefinition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnContainerGroupDefinition(id: String, initializer: @AwsCdkDsl
-    CfnContainerGroupDefinition.Builder.() -> Unit = {}): CfnContainerGroupDefinition =
-    CfnContainerGroupDefinition.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnContainerGroupDefinition(id: String, initializer: @AwsCdkDsl CfnContainerGroupDefinition.Builder.() -> Unit = {}): CfnContainerGroupDefinition = CfnContainerGroupDefinition.Builder.create(this, id).apply(initializer).build()

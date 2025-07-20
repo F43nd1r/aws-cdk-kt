@@ -16,6 +16,4 @@ public fun Construct.cfnSecurityGroup(
 ): CfnSecurityGroup = CfnSecurityGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSecurityGroup(id: String, initializer: @AwsCdkDsl
-    CfnSecurityGroup.Builder.() -> Unit = {}): CfnSecurityGroup =
-    CfnSecurityGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSecurityGroup(id: String, initializer: @AwsCdkDsl CfnSecurityGroup.Builder.() -> Unit = {}): CfnSecurityGroup = CfnSecurityGroup.Builder.create(this, id).apply(initializer).build()

@@ -16,5 +16,4 @@ public fun Construct.cfnDisk(
 ): CfnDisk = CfnDisk(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDisk(id: String, initializer: @AwsCdkDsl CfnDisk.Builder.() -> Unit =
-    {}): CfnDisk = CfnDisk.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDisk(id: String, initializer: @AwsCdkDsl CfnDisk.Builder.() -> Unit = {}): CfnDisk = CfnDisk.Builder.create(this, id).apply(initializer).build()

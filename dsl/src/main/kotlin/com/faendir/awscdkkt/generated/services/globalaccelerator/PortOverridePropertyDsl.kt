@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.globalaccelerator.CfnEndpointGroup
 
 @Generated
-public fun buildPortOverrideProperty(initializer: @AwsCdkDsl
-    CfnEndpointGroup.PortOverrideProperty.Builder.() -> Unit = {}):
-    CfnEndpointGroup.PortOverrideProperty =
-    CfnEndpointGroup.PortOverrideProperty.Builder().apply(initializer).build()
+public fun buildPortOverrideProperty(initializer: @AwsCdkDsl CfnEndpointGroup.PortOverrideProperty.Builder.() -> Unit = {}): CfnEndpointGroup.PortOverrideProperty = CfnEndpointGroup.PortOverrideProperty.Builder().apply(initializer).build()

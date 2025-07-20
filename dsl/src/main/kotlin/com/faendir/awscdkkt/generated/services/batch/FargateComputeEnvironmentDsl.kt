@@ -16,6 +16,4 @@ public fun Construct.fargateComputeEnvironment(
 ): FargateComputeEnvironment = FargateComputeEnvironment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildFargateComputeEnvironment(id: String, initializer: @AwsCdkDsl
-    FargateComputeEnvironment.Builder.() -> Unit = {}): FargateComputeEnvironment =
-    FargateComputeEnvironment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildFargateComputeEnvironment(id: String, initializer: @AwsCdkDsl FargateComputeEnvironment.Builder.() -> Unit = {}): FargateComputeEnvironment = FargateComputeEnvironment.Builder.create(this, id).apply(initializer).build()

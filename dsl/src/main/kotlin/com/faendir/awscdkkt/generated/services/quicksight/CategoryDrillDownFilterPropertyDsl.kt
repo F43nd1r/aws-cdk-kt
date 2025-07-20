@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildCategoryDrillDownFilterProperty(initializer: @AwsCdkDsl
-    CfnTemplate.CategoryDrillDownFilterProperty.Builder.() -> Unit = {}):
-    CfnTemplate.CategoryDrillDownFilterProperty =
-    CfnTemplate.CategoryDrillDownFilterProperty.Builder().apply(initializer).build()
+public fun buildCategoryDrillDownFilterProperty(initializer: @AwsCdkDsl CfnTemplate.CategoryDrillDownFilterProperty.Builder.() -> Unit = {}): CfnTemplate.CategoryDrillDownFilterProperty = CfnTemplate.CategoryDrillDownFilterProperty.Builder().apply(initializer).build()

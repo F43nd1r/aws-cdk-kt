@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVPNGatewayRoutePropagationProps
 
 @Generated
-public fun buildCfnVPNGatewayRoutePropagationProps(initializer: @AwsCdkDsl
-    CfnVPNGatewayRoutePropagationProps.Builder.() -> Unit = {}): CfnVPNGatewayRoutePropagationProps
-    = CfnVPNGatewayRoutePropagationProps.Builder().apply(initializer).build()
+public fun buildCfnVPNGatewayRoutePropagationProps(initializer: @AwsCdkDsl CfnVPNGatewayRoutePropagationProps.Builder.() -> Unit = {}): CfnVPNGatewayRoutePropagationProps = CfnVPNGatewayRoutePropagationProps.Builder().apply(initializer).build()

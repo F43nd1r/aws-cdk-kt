@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.EcrBuildAndPublishVariables
 
 @Generated
-public fun buildEcrBuildAndPublishVariables(initializer: @AwsCdkDsl
-    EcrBuildAndPublishVariables.Builder.() -> Unit = {}): EcrBuildAndPublishVariables =
-    EcrBuildAndPublishVariables.Builder().apply(initializer).build()
+public fun buildEcrBuildAndPublishVariables(initializer: @AwsCdkDsl EcrBuildAndPublishVariables.Builder.() -> Unit = {}): EcrBuildAndPublishVariables = EcrBuildAndPublishVariables.Builder().apply(initializer).build()

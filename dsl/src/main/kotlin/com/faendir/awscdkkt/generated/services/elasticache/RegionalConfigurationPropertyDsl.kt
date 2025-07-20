@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticache.CfnGlobalReplicationGroup
 
 @Generated
-public fun buildRegionalConfigurationProperty(initializer: @AwsCdkDsl
-    CfnGlobalReplicationGroup.RegionalConfigurationProperty.Builder.() -> Unit = {}):
-    CfnGlobalReplicationGroup.RegionalConfigurationProperty =
-    CfnGlobalReplicationGroup.RegionalConfigurationProperty.Builder().apply(initializer).build()
+public fun buildRegionalConfigurationProperty(initializer: @AwsCdkDsl CfnGlobalReplicationGroup.RegionalConfigurationProperty.Builder.() -> Unit = {}): CfnGlobalReplicationGroup.RegionalConfigurationProperty = CfnGlobalReplicationGroup.RegionalConfigurationProperty.Builder().apply(initializer).build()

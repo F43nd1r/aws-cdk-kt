@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.EfsFileSystemLocationProps
 
 @Generated
-public fun buildEfsFileSystemLocationProps(initializer: @AwsCdkDsl
-    EfsFileSystemLocationProps.Builder.() -> Unit = {}): EfsFileSystemLocationProps =
-    EfsFileSystemLocationProps.Builder().apply(initializer).build()
+public fun buildEfsFileSystemLocationProps(initializer: @AwsCdkDsl EfsFileSystemLocationProps.Builder.() -> Unit = {}): EfsFileSystemLocationProps = EfsFileSystemLocationProps.Builder().apply(initializer).build()

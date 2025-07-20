@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fms.CfnPolicy
 
 @Generated
-public fun buildIcmpTypeCodeProperty(initializer: @AwsCdkDsl
-    CfnPolicy.IcmpTypeCodeProperty.Builder.() -> Unit = {}): CfnPolicy.IcmpTypeCodeProperty =
-    CfnPolicy.IcmpTypeCodeProperty.Builder().apply(initializer).build()
+public fun buildIcmpTypeCodeProperty(initializer: @AwsCdkDsl CfnPolicy.IcmpTypeCodeProperty.Builder.() -> Unit = {}): CfnPolicy.IcmpTypeCodeProperty = CfnPolicy.IcmpTypeCodeProperty.Builder().apply(initializer).build()

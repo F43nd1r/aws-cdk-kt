@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSource
 
 @Generated
-public fun buildDataSourceCredentialsProperty(initializer: @AwsCdkDsl
-    CfnDataSource.DataSourceCredentialsProperty.Builder.() -> Unit = {}):
-    CfnDataSource.DataSourceCredentialsProperty =
-    CfnDataSource.DataSourceCredentialsProperty.Builder().apply(initializer).build()
+public fun buildDataSourceCredentialsProperty(initializer: @AwsCdkDsl CfnDataSource.DataSourceCredentialsProperty.Builder.() -> Unit = {}): CfnDataSource.DataSourceCredentialsProperty = CfnDataSource.DataSourceCredentialsProperty.Builder().apply(initializer).build()

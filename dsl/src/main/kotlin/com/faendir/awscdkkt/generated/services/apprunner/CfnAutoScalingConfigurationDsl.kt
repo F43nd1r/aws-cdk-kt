@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.apprunner.CfnAutoScalingConfigurationProp
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnAutoScalingConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnAutoScalingConfiguration.() -> Unit = {}): CfnAutoScalingConfiguration =
-    CfnAutoScalingConfiguration(this, id).apply(initializer)
+public fun Construct.cfnAutoScalingConfiguration(id: String, initializer: @AwsCdkDsl CfnAutoScalingConfiguration.() -> Unit = {}): CfnAutoScalingConfiguration = CfnAutoScalingConfiguration(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnAutoScalingConfiguration(
@@ -21,6 +19,4 @@ public fun Construct.cfnAutoScalingConfiguration(
 ): CfnAutoScalingConfiguration = CfnAutoScalingConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAutoScalingConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnAutoScalingConfiguration.Builder.() -> Unit = {}): CfnAutoScalingConfiguration =
-    CfnAutoScalingConfiguration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAutoScalingConfiguration(id: String, initializer: @AwsCdkDsl CfnAutoScalingConfiguration.Builder.() -> Unit = {}): CfnAutoScalingConfiguration = CfnAutoScalingConfiguration.Builder.create(this, id).apply(initializer).build()

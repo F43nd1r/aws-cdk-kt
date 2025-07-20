@@ -16,6 +16,4 @@ public fun Construct.cfnVpcEndpointAssociation(
 ): CfnVpcEndpointAssociation = CfnVpcEndpointAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVpcEndpointAssociation(id: String, initializer: @AwsCdkDsl
-    CfnVpcEndpointAssociation.Builder.() -> Unit = {}): CfnVpcEndpointAssociation =
-    CfnVpcEndpointAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnVpcEndpointAssociation(id: String, initializer: @AwsCdkDsl CfnVpcEndpointAssociation.Builder.() -> Unit = {}): CfnVpcEndpointAssociation = CfnVpcEndpointAssociation.Builder.create(this, id).apply(initializer).build()

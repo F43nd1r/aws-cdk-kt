@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
-public fun buildParametersProperty(initializer: @AwsCdkDsl
-    CfnDashboard.ParametersProperty.Builder.() -> Unit = {}): CfnDashboard.ParametersProperty =
-    CfnDashboard.ParametersProperty.Builder().apply(initializer).build()
+public fun buildParametersProperty(initializer: @AwsCdkDsl CfnDashboard.ParametersProperty.Builder.() -> Unit = {}): CfnDashboard.ParametersProperty = CfnDashboard.ParametersProperty.Builder().apply(initializer).build()

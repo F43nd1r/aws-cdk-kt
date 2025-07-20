@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datasync.CfnLocationSMBProps
 
 @Generated
-public fun buildCfnLocationSMBProps(initializer: @AwsCdkDsl CfnLocationSMBProps.Builder.() -> Unit =
-    {}): CfnLocationSMBProps = CfnLocationSMBProps.Builder().apply(initializer).build()
+public fun buildCfnLocationSMBProps(initializer: @AwsCdkDsl CfnLocationSMBProps.Builder.() -> Unit = {}): CfnLocationSMBProps = CfnLocationSMBProps.Builder().apply(initializer).build()

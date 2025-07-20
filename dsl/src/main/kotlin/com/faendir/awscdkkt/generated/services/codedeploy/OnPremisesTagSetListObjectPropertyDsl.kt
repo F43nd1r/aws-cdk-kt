@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codedeploy.CfnDeploymentGroup
 
 @Generated
-public fun buildOnPremisesTagSetListObjectProperty(initializer: @AwsCdkDsl
-    CfnDeploymentGroup.OnPremisesTagSetListObjectProperty.Builder.() -> Unit = {}):
-    CfnDeploymentGroup.OnPremisesTagSetListObjectProperty =
-    CfnDeploymentGroup.OnPremisesTagSetListObjectProperty.Builder().apply(initializer).build()
+public fun buildOnPremisesTagSetListObjectProperty(initializer: @AwsCdkDsl CfnDeploymentGroup.OnPremisesTagSetListObjectProperty.Builder.() -> Unit = {}): CfnDeploymentGroup.OnPremisesTagSetListObjectProperty = CfnDeploymentGroup.OnPremisesTagSetListObjectProperty.Builder().apply(initializer).build()

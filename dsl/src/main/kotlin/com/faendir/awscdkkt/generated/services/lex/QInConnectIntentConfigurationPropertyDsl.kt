@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildQInConnectIntentConfigurationProperty(initializer: @AwsCdkDsl
-    CfnBot.QInConnectIntentConfigurationProperty.Builder.() -> Unit = {}):
-    CfnBot.QInConnectIntentConfigurationProperty =
-    CfnBot.QInConnectIntentConfigurationProperty.Builder().apply(initializer).build()
+public fun buildQInConnectIntentConfigurationProperty(initializer: @AwsCdkDsl CfnBot.QInConnectIntentConfigurationProperty.Builder.() -> Unit = {}): CfnBot.QInConnectIntentConfigurationProperty = CfnBot.QInConnectIntentConfigurationProperty.Builder().apply(initializer).build()

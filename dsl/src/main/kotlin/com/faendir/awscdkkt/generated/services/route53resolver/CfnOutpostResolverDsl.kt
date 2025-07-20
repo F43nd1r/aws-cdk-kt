@@ -16,6 +16,4 @@ public fun Construct.cfnOutpostResolver(
 ): CfnOutpostResolver = CfnOutpostResolver(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnOutpostResolver(id: String, initializer: @AwsCdkDsl
-    CfnOutpostResolver.Builder.() -> Unit = {}): CfnOutpostResolver =
-    CfnOutpostResolver.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnOutpostResolver(id: String, initializer: @AwsCdkDsl CfnOutpostResolver.Builder.() -> Unit = {}): CfnOutpostResolver = CfnOutpostResolver.Builder.create(this, id).apply(initializer).build()

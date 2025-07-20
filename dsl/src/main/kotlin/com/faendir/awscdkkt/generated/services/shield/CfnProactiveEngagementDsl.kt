@@ -16,6 +16,4 @@ public fun Construct.cfnProactiveEngagement(
 ): CfnProactiveEngagement = CfnProactiveEngagement(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnProactiveEngagement(id: String, initializer: @AwsCdkDsl
-    CfnProactiveEngagement.Builder.() -> Unit = {}): CfnProactiveEngagement =
-    CfnProactiveEngagement.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnProactiveEngagement(id: String, initializer: @AwsCdkDsl CfnProactiveEngagement.Builder.() -> Unit = {}): CfnProactiveEngagement = CfnProactiveEngagement.Builder.create(this, id).apply(initializer).build()

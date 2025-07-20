@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVerifiedAccessEndpoint
 
 @Generated
-public fun buildRdsOptionsProperty(initializer: @AwsCdkDsl
-    CfnVerifiedAccessEndpoint.RdsOptionsProperty.Builder.() -> Unit = {}):
-    CfnVerifiedAccessEndpoint.RdsOptionsProperty =
-    CfnVerifiedAccessEndpoint.RdsOptionsProperty.Builder().apply(initializer).build()
+public fun buildRdsOptionsProperty(initializer: @AwsCdkDsl CfnVerifiedAccessEndpoint.RdsOptionsProperty.Builder.() -> Unit = {}): CfnVerifiedAccessEndpoint.RdsOptionsProperty = CfnVerifiedAccessEndpoint.RdsOptionsProperty.Builder().apply(initializer).build()

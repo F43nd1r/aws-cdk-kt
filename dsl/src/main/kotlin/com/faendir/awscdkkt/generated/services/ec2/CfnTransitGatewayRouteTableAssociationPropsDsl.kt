@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnTransitGatewayRouteTableAssociationProps
 
 @Generated
-public fun buildCfnTransitGatewayRouteTableAssociationProps(initializer: @AwsCdkDsl
-    CfnTransitGatewayRouteTableAssociationProps.Builder.() -> Unit = {}):
-    CfnTransitGatewayRouteTableAssociationProps =
-    CfnTransitGatewayRouteTableAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnTransitGatewayRouteTableAssociationProps(initializer: @AwsCdkDsl CfnTransitGatewayRouteTableAssociationProps.Builder.() -> Unit = {}): CfnTransitGatewayRouteTableAssociationProps = CfnTransitGatewayRouteTableAssociationProps.Builder().apply(initializer).build()

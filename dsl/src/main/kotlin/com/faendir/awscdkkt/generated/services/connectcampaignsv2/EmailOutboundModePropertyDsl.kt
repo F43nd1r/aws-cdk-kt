@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connectcampaignsv2.CfnCampaign
 
 @Generated
-public fun buildEmailOutboundModeProperty(initializer: @AwsCdkDsl
-    CfnCampaign.EmailOutboundModeProperty.Builder.() -> Unit = {}):
-    CfnCampaign.EmailOutboundModeProperty =
-    CfnCampaign.EmailOutboundModeProperty.Builder().apply(initializer).build()
+public fun buildEmailOutboundModeProperty(initializer: @AwsCdkDsl CfnCampaign.EmailOutboundModeProperty.Builder.() -> Unit = {}): CfnCampaign.EmailOutboundModeProperty = CfnCampaign.EmailOutboundModeProperty.Builder().apply(initializer).build()

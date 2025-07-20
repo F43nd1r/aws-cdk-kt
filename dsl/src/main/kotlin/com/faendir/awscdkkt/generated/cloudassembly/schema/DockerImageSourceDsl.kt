@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloudassembly.schema.DockerImageSource
 
 @Generated
-public fun buildDockerImageSource(initializer: @AwsCdkDsl DockerImageSource.Builder.() -> Unit =
-    {}): DockerImageSource = DockerImageSource.Builder().apply(initializer).build()
+public fun buildDockerImageSource(initializer: @AwsCdkDsl DockerImageSource.Builder.() -> Unit = {}): DockerImageSource = DockerImageSource.Builder().apply(initializer).build()

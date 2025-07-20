@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.databrew.CfnDataset
 
 @Generated
-public fun buildExcelOptionsProperty(initializer: @AwsCdkDsl
-    CfnDataset.ExcelOptionsProperty.Builder.() -> Unit = {}): CfnDataset.ExcelOptionsProperty =
-    CfnDataset.ExcelOptionsProperty.Builder().apply(initializer).build()
+public fun buildExcelOptionsProperty(initializer: @AwsCdkDsl CfnDataset.ExcelOptionsProperty.Builder.() -> Unit = {}): CfnDataset.ExcelOptionsProperty = CfnDataset.ExcelOptionsProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.targets.ApiDestinationProps
 
 @Generated
-public fun buildApiDestinationProps(initializer: @AwsCdkDsl ApiDestinationProps.Builder.() -> Unit =
-    {}): ApiDestinationProps = ApiDestinationProps.Builder().apply(initializer).build()
+public fun buildApiDestinationProps(initializer: @AwsCdkDsl ApiDestinationProps.Builder.() -> Unit = {}): ApiDestinationProps = ApiDestinationProps.Builder().apply(initializer).build()

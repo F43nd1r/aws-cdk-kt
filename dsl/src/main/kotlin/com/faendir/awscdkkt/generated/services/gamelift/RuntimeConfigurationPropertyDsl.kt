@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnFleet
 
 @Generated
-public fun buildRuntimeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFleet.RuntimeConfigurationProperty.Builder.() -> Unit = {}):
-    CfnFleet.RuntimeConfigurationProperty =
-    CfnFleet.RuntimeConfigurationProperty.Builder().apply(initializer).build()
+public fun buildRuntimeConfigurationProperty(initializer: @AwsCdkDsl CfnFleet.RuntimeConfigurationProperty.Builder.() -> Unit = {}): CfnFleet.RuntimeConfigurationProperty = CfnFleet.RuntimeConfigurationProperty.Builder().apply(initializer).build()

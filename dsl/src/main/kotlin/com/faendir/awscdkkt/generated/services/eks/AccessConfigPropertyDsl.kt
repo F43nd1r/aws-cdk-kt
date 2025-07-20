@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.CfnCluster
 
 @Generated
-public fun buildAccessConfigProperty(initializer: @AwsCdkDsl
-    CfnCluster.AccessConfigProperty.Builder.() -> Unit = {}): CfnCluster.AccessConfigProperty =
-    CfnCluster.AccessConfigProperty.Builder().apply(initializer).build()
+public fun buildAccessConfigProperty(initializer: @AwsCdkDsl CfnCluster.AccessConfigProperty.Builder.() -> Unit = {}): CfnCluster.AccessConfigProperty = CfnCluster.AccessConfigProperty.Builder().apply(initializer).build()

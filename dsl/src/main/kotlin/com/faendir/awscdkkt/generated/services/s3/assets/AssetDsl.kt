@@ -16,5 +16,4 @@ public fun Construct.asset(
 ): Asset = Asset(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAsset(id: String, initializer: @AwsCdkDsl Asset.Builder.() -> Unit = {}):
-    Asset = Asset.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildAsset(id: String, initializer: @AwsCdkDsl Asset.Builder.() -> Unit = {}): Asset = Asset.Builder.create(this, id).apply(initializer).build()

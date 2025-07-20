@@ -16,6 +16,4 @@ public fun Construct.ecsFargateContainerDefinition(
 ): EcsFargateContainerDefinition = EcsFargateContainerDefinition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEcsFargateContainerDefinition(id: String, initializer: @AwsCdkDsl
-    EcsFargateContainerDefinition.Builder.() -> Unit = {}): EcsFargateContainerDefinition =
-    EcsFargateContainerDefinition.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildEcsFargateContainerDefinition(id: String, initializer: @AwsCdkDsl EcsFargateContainerDefinition.Builder.() -> Unit = {}): EcsFargateContainerDefinition = EcsFargateContainerDefinition.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.BatchSubmitJobJsonataProps
 
 @Generated
-public fun buildBatchSubmitJobJsonataProps(initializer: @AwsCdkDsl
-    BatchSubmitJobJsonataProps.Builder.() -> Unit = {}): BatchSubmitJobJsonataProps =
-    BatchSubmitJobJsonataProps.Builder().apply(initializer).build()
+public fun buildBatchSubmitJobJsonataProps(initializer: @AwsCdkDsl BatchSubmitJobJsonataProps.Builder.() -> Unit = {}): BatchSubmitJobJsonataProps = BatchSubmitJobJsonataProps.Builder().apply(initializer).build()

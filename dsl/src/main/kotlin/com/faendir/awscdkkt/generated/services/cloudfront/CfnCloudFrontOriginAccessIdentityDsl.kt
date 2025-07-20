@@ -13,10 +13,7 @@ public fun Construct.cfnCloudFrontOriginAccessIdentity(
   id: String,
   props: CfnCloudFrontOriginAccessIdentityProps,
   initializer: @AwsCdkDsl CfnCloudFrontOriginAccessIdentity.() -> Unit = {},
-): CfnCloudFrontOriginAccessIdentity = CfnCloudFrontOriginAccessIdentity(this, id,
-    props).apply(initializer)
+): CfnCloudFrontOriginAccessIdentity = CfnCloudFrontOriginAccessIdentity(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCloudFrontOriginAccessIdentity(id: String, initializer: @AwsCdkDsl
-    CfnCloudFrontOriginAccessIdentity.Builder.() -> Unit = {}): CfnCloudFrontOriginAccessIdentity =
-    CfnCloudFrontOriginAccessIdentity.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCloudFrontOriginAccessIdentity(id: String, initializer: @AwsCdkDsl CfnCloudFrontOriginAccessIdentity.Builder.() -> Unit = {}): CfnCloudFrontOriginAccessIdentity = CfnCloudFrontOriginAccessIdentity.Builder.create(this, id).apply(initializer).build()

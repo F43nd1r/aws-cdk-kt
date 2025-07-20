@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnTaskSet
 
 @Generated
-public fun buildCapacityProviderStrategyItemProperty(initializer: @AwsCdkDsl
-    CfnTaskSet.CapacityProviderStrategyItemProperty.Builder.() -> Unit = {}):
-    CfnTaskSet.CapacityProviderStrategyItemProperty =
-    CfnTaskSet.CapacityProviderStrategyItemProperty.Builder().apply(initializer).build()
+public fun buildCapacityProviderStrategyItemProperty(initializer: @AwsCdkDsl CfnTaskSet.CapacityProviderStrategyItemProperty.Builder.() -> Unit = {}): CfnTaskSet.CapacityProviderStrategyItemProperty = CfnTaskSet.CapacityProviderStrategyItemProperty.Builder().apply(initializer).build()

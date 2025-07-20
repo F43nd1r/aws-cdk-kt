@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.CfnTable
 
 @Generated
-public fun buildAttributeDefinitionProperty(initializer: @AwsCdkDsl
-    CfnTable.AttributeDefinitionProperty.Builder.() -> Unit = {}):
-    CfnTable.AttributeDefinitionProperty =
-    CfnTable.AttributeDefinitionProperty.Builder().apply(initializer).build()
+public fun buildAttributeDefinitionProperty(initializer: @AwsCdkDsl CfnTable.AttributeDefinitionProperty.Builder.() -> Unit = {}): CfnTable.AttributeDefinitionProperty = CfnTable.AttributeDefinitionProperty.Builder().apply(initializer).build()

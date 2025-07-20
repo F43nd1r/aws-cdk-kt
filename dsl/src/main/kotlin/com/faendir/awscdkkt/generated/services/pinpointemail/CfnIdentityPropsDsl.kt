@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpointemail.CfnIdentityProps
 
 @Generated
-public fun buildCfnIdentityProps(initializer: @AwsCdkDsl CfnIdentityProps.Builder.() -> Unit = {}):
-    CfnIdentityProps = CfnIdentityProps.Builder().apply(initializer).build()
+public fun buildCfnIdentityProps(initializer: @AwsCdkDsl CfnIdentityProps.Builder.() -> Unit = {}): CfnIdentityProps = CfnIdentityProps.Builder().apply(initializer).build()

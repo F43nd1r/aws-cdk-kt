@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnService
 
 @Generated
-public fun buildServiceVolumeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnService.ServiceVolumeConfigurationProperty.Builder.() -> Unit = {}):
-    CfnService.ServiceVolumeConfigurationProperty =
-    CfnService.ServiceVolumeConfigurationProperty.Builder().apply(initializer).build()
+public fun buildServiceVolumeConfigurationProperty(initializer: @AwsCdkDsl CfnService.ServiceVolumeConfigurationProperty.Builder.() -> Unit = {}): CfnService.ServiceVolumeConfigurationProperty = CfnService.ServiceVolumeConfigurationProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnWorkflowVersion(
 ): CfnWorkflowVersion = CfnWorkflowVersion(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnWorkflowVersion(id: String, initializer: @AwsCdkDsl
-    CfnWorkflowVersion.Builder.() -> Unit = {}): CfnWorkflowVersion =
-    CfnWorkflowVersion.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnWorkflowVersion(id: String, initializer: @AwsCdkDsl CfnWorkflowVersion.Builder.() -> Unit = {}): CfnWorkflowVersion = CfnWorkflowVersion.Builder.create(this, id).apply(initializer).build()

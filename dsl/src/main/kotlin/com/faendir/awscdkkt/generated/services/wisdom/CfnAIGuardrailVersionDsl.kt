@@ -16,6 +16,4 @@ public fun Construct.cfnAIGuardrailVersion(
 ): CfnAIGuardrailVersion = CfnAIGuardrailVersion(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAIGuardrailVersion(id: String, initializer: @AwsCdkDsl
-    CfnAIGuardrailVersion.Builder.() -> Unit = {}): CfnAIGuardrailVersion =
-    CfnAIGuardrailVersion.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAIGuardrailVersion(id: String, initializer: @AwsCdkDsl CfnAIGuardrailVersion.Builder.() -> Unit = {}): CfnAIGuardrailVersion = CfnAIGuardrailVersion.Builder.create(this, id).apply(initializer).build()

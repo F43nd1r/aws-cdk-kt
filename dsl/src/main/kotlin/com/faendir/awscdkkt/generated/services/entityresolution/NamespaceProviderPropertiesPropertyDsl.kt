@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.entityresolution.CfnIdNamespace
 
 @Generated
-public fun buildNamespaceProviderPropertiesProperty(initializer: @AwsCdkDsl
-    CfnIdNamespace.NamespaceProviderPropertiesProperty.Builder.() -> Unit = {}):
-    CfnIdNamespace.NamespaceProviderPropertiesProperty =
-    CfnIdNamespace.NamespaceProviderPropertiesProperty.Builder().apply(initializer).build()
+public fun buildNamespaceProviderPropertiesProperty(initializer: @AwsCdkDsl CfnIdNamespace.NamespaceProviderPropertiesProperty.Builder.() -> Unit = {}): CfnIdNamespace.NamespaceProviderPropertiesProperty = CfnIdNamespace.NamespaceProviderPropertiesProperty.Builder().apply(initializer).build()

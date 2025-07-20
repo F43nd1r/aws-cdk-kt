@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.emr.CfnInstanceFleetConfig
 
 @Generated
-public fun buildOnDemandProvisioningSpecificationProperty(initializer: @AwsCdkDsl
-    CfnInstanceFleetConfig.OnDemandProvisioningSpecificationProperty.Builder.() -> Unit = {}):
-    CfnInstanceFleetConfig.OnDemandProvisioningSpecificationProperty =
-    CfnInstanceFleetConfig.OnDemandProvisioningSpecificationProperty.Builder().apply(initializer).build()
+public fun buildOnDemandProvisioningSpecificationProperty(initializer: @AwsCdkDsl CfnInstanceFleetConfig.OnDemandProvisioningSpecificationProperty.Builder.() -> Unit = {}): CfnInstanceFleetConfig.OnDemandProvisioningSpecificationProperty = CfnInstanceFleetConfig.OnDemandProvisioningSpecificationProperty.Builder().apply(initializer).build()

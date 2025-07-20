@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.transfer.CfnUser
 
 @Generated
-public fun buildHomeDirectoryMapEntryProperty(initializer: @AwsCdkDsl
-    CfnUser.HomeDirectoryMapEntryProperty.Builder.() -> Unit = {}):
-    CfnUser.HomeDirectoryMapEntryProperty =
-    CfnUser.HomeDirectoryMapEntryProperty.Builder().apply(initializer).build()
+public fun buildHomeDirectoryMapEntryProperty(initializer: @AwsCdkDsl CfnUser.HomeDirectoryMapEntryProperty.Builder.() -> Unit = {}): CfnUser.HomeDirectoryMapEntryProperty = CfnUser.HomeDirectoryMapEntryProperty.Builder().apply(initializer).build()

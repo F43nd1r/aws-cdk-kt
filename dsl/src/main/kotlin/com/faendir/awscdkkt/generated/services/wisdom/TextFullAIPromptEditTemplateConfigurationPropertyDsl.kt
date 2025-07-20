@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnAIPrompt
 
 @Generated
-public fun buildTextFullAIPromptEditTemplateConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAIPrompt.TextFullAIPromptEditTemplateConfigurationProperty.Builder.() -> Unit = {}):
-    CfnAIPrompt.TextFullAIPromptEditTemplateConfigurationProperty =
-    CfnAIPrompt.TextFullAIPromptEditTemplateConfigurationProperty.Builder().apply(initializer).build()
+public fun buildTextFullAIPromptEditTemplateConfigurationProperty(initializer: @AwsCdkDsl CfnAIPrompt.TextFullAIPromptEditTemplateConfigurationProperty.Builder.() -> Unit = {}): CfnAIPrompt.TextFullAIPromptEditTemplateConfigurationProperty = CfnAIPrompt.TextFullAIPromptEditTemplateConfigurationProperty.Builder().apply(initializer).build()

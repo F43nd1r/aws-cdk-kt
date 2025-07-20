@@ -16,6 +16,4 @@ public fun Construct.optionGroup(
 ): OptionGroup = OptionGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildOptionGroup(id: String, initializer: @AwsCdkDsl
-    OptionGroup.Builder.() -> Unit = {}): OptionGroup = OptionGroup.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildOptionGroup(id: String, initializer: @AwsCdkDsl OptionGroup.Builder.() -> Unit = {}): OptionGroup = OptionGroup.Builder.create(this, id).apply(initializer).build()

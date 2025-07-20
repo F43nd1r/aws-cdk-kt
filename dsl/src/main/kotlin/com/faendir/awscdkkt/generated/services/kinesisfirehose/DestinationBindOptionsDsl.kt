@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.DestinationBindOptions
 
 @Generated
-public fun buildDestinationBindOptions(initializer: @AwsCdkDsl
-    DestinationBindOptions.Builder.() -> Unit = {}): DestinationBindOptions =
-    DestinationBindOptions.Builder().apply(initializer).build()
+public fun buildDestinationBindOptions(initializer: @AwsCdkDsl DestinationBindOptions.Builder.() -> Unit = {}): DestinationBindOptions = DestinationBindOptions.Builder().apply(initializer).build()

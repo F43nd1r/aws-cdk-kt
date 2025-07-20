@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lakeformation.CfnTagAssociation
 
 @Generated
-public fun buildDatabaseResourceProperty(initializer: @AwsCdkDsl
-    CfnTagAssociation.DatabaseResourceProperty.Builder.() -> Unit = {}):
-    CfnTagAssociation.DatabaseResourceProperty =
-    CfnTagAssociation.DatabaseResourceProperty.Builder().apply(initializer).build()
+public fun buildDatabaseResourceProperty(initializer: @AwsCdkDsl CfnTagAssociation.DatabaseResourceProperty.Builder.() -> Unit = {}): CfnTagAssociation.DatabaseResourceProperty = CfnTagAssociation.DatabaseResourceProperty.Builder().apply(initializer).build()

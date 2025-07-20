@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
-public fun buildSheetControlsOptionProperty(initializer: @AwsCdkDsl
-    CfnDashboard.SheetControlsOptionProperty.Builder.() -> Unit = {}):
-    CfnDashboard.SheetControlsOptionProperty =
-    CfnDashboard.SheetControlsOptionProperty.Builder().apply(initializer).build()
+public fun buildSheetControlsOptionProperty(initializer: @AwsCdkDsl CfnDashboard.SheetControlsOptionProperty.Builder.() -> Unit = {}): CfnDashboard.SheetControlsOptionProperty = CfnDashboard.SheetControlsOptionProperty.Builder().apply(initializer).build()

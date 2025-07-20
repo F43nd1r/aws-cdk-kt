@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.ServiceDiscoveryConfig
 
 @Generated
-public fun buildServiceDiscoveryConfig(initializer: @AwsCdkDsl
-    ServiceDiscoveryConfig.Builder.() -> Unit = {}): ServiceDiscoveryConfig =
-    ServiceDiscoveryConfig.Builder().apply(initializer).build()
+public fun buildServiceDiscoveryConfig(initializer: @AwsCdkDsl ServiceDiscoveryConfig.Builder.() -> Unit = {}): ServiceDiscoveryConfig = ServiceDiscoveryConfig.Builder().apply(initializer).build()

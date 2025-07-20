@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.GatewayConfig
 
 @Generated
-public fun buildGatewayConfig(initializer: @AwsCdkDsl GatewayConfig.Builder.() -> Unit = {}):
-    GatewayConfig = GatewayConfig.Builder().apply(initializer).build()
+public fun buildGatewayConfig(initializer: @AwsCdkDsl GatewayConfig.Builder.() -> Unit = {}): GatewayConfig = GatewayConfig.Builder().apply(initializer).build()

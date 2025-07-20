@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.EcsContainerDefinitionProps
 
 @Generated
-public fun buildEcsContainerDefinitionProps(initializer: @AwsCdkDsl
-    EcsContainerDefinitionProps.Builder.() -> Unit = {}): EcsContainerDefinitionProps =
-    EcsContainerDefinitionProps.Builder().apply(initializer).build()
+public fun buildEcsContainerDefinitionProps(initializer: @AwsCdkDsl EcsContainerDefinitionProps.Builder.() -> Unit = {}): EcsContainerDefinitionProps = EcsContainerDefinitionProps.Builder().apply(initializer).build()

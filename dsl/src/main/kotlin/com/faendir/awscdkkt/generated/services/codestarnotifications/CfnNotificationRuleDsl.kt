@@ -16,6 +16,4 @@ public fun Construct.cfnNotificationRule(
 ): CfnNotificationRule = CfnNotificationRule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnNotificationRule(id: String, initializer: @AwsCdkDsl
-    CfnNotificationRule.Builder.() -> Unit = {}): CfnNotificationRule =
-    CfnNotificationRule.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnNotificationRule(id: String, initializer: @AwsCdkDsl CfnNotificationRule.Builder.() -> Unit = {}): CfnNotificationRule = CfnNotificationRule.Builder.create(this, id).apply(initializer).build()

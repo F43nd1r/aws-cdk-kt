@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.BatchContainerOverrides
 
 @Generated
-public fun buildBatchContainerOverrides(initializer: @AwsCdkDsl
-    BatchContainerOverrides.Builder.() -> Unit = {}): BatchContainerOverrides =
-    BatchContainerOverrides.Builder().apply(initializer).build()
+public fun buildBatchContainerOverrides(initializer: @AwsCdkDsl BatchContainerOverrides.Builder.() -> Unit = {}): BatchContainerOverrides = BatchContainerOverrides.Builder().apply(initializer).build()

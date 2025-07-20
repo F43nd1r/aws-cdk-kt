@@ -16,6 +16,4 @@ public fun Construct.metricFilter(
 ): MetricFilter = MetricFilter(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildMetricFilter(id: String, initializer: @AwsCdkDsl
-    MetricFilter.Builder.() -> Unit = {}): MetricFilter = MetricFilter.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildMetricFilter(id: String, initializer: @AwsCdkDsl MetricFilter.Builder.() -> Unit = {}): MetricFilter = MetricFilter.Builder.create(this, id).apply(initializer).build()

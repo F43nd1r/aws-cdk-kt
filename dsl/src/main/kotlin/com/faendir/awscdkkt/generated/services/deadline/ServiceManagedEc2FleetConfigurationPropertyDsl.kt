@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.deadline.CfnFleet
 
 @Generated
-public fun buildServiceManagedEc2FleetConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFleet.ServiceManagedEc2FleetConfigurationProperty.Builder.() -> Unit = {}):
-    CfnFleet.ServiceManagedEc2FleetConfigurationProperty =
-    CfnFleet.ServiceManagedEc2FleetConfigurationProperty.Builder().apply(initializer).build()
+public fun buildServiceManagedEc2FleetConfigurationProperty(initializer: @AwsCdkDsl CfnFleet.ServiceManagedEc2FleetConfigurationProperty.Builder.() -> Unit = {}): CfnFleet.ServiceManagedEc2FleetConfigurationProperty = CfnFleet.ServiceManagedEc2FleetConfigurationProperty.Builder().apply(initializer).build()

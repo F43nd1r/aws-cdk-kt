@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.CfnListenerRule
 
 @Generated
-public fun buildPathPatternConfigProperty(initializer: @AwsCdkDsl
-    CfnListenerRule.PathPatternConfigProperty.Builder.() -> Unit = {}):
-    CfnListenerRule.PathPatternConfigProperty =
-    CfnListenerRule.PathPatternConfigProperty.Builder().apply(initializer).build()
+public fun buildPathPatternConfigProperty(initializer: @AwsCdkDsl CfnListenerRule.PathPatternConfigProperty.Builder.() -> Unit = {}): CfnListenerRule.PathPatternConfigProperty = CfnListenerRule.PathPatternConfigProperty.Builder().apply(initializer).build()

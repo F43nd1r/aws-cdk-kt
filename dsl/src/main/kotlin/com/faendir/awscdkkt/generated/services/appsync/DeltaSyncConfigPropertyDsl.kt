@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.CfnDataSource
 
 @Generated
-public fun buildDeltaSyncConfigProperty(initializer: @AwsCdkDsl
-    CfnDataSource.DeltaSyncConfigProperty.Builder.() -> Unit = {}):
-    CfnDataSource.DeltaSyncConfigProperty =
-    CfnDataSource.DeltaSyncConfigProperty.Builder().apply(initializer).build()
+public fun buildDeltaSyncConfigProperty(initializer: @AwsCdkDsl CfnDataSource.DeltaSyncConfigProperty.Builder.() -> Unit = {}): CfnDataSource.DeltaSyncConfigProperty = CfnDataSource.DeltaSyncConfigProperty.Builder().apply(initializer).build()

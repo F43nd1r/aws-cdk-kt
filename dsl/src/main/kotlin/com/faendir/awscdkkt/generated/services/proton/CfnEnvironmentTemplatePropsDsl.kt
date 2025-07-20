@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.proton.CfnEnvironmentTemplateProps
 
 @Generated
-public fun buildCfnEnvironmentTemplateProps(initializer: @AwsCdkDsl
-    CfnEnvironmentTemplateProps.Builder.() -> Unit = {}): CfnEnvironmentTemplateProps =
-    CfnEnvironmentTemplateProps.Builder().apply(initializer).build()
+public fun buildCfnEnvironmentTemplateProps(initializer: @AwsCdkDsl CfnEnvironmentTemplateProps.Builder.() -> Unit = {}): CfnEnvironmentTemplateProps = CfnEnvironmentTemplateProps.Builder().apply(initializer).build()

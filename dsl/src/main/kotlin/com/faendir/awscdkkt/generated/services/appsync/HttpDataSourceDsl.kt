@@ -16,6 +16,4 @@ public fun Construct.httpDataSource(
 ): HttpDataSource = HttpDataSource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildHttpDataSource(id: String, initializer: @AwsCdkDsl
-    HttpDataSource.Builder.() -> Unit = {}): HttpDataSource = HttpDataSource.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildHttpDataSource(id: String, initializer: @AwsCdkDsl HttpDataSource.Builder.() -> Unit = {}): HttpDataSource = HttpDataSource.Builder.create(this, id).apply(initializer).build()

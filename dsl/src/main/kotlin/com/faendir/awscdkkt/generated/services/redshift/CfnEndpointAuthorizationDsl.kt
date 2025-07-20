@@ -16,6 +16,4 @@ public fun Construct.cfnEndpointAuthorization(
 ): CfnEndpointAuthorization = CfnEndpointAuthorization(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEndpointAuthorization(id: String, initializer: @AwsCdkDsl
-    CfnEndpointAuthorization.Builder.() -> Unit = {}): CfnEndpointAuthorization =
-    CfnEndpointAuthorization.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnEndpointAuthorization(id: String, initializer: @AwsCdkDsl CfnEndpointAuthorization.Builder.() -> Unit = {}): CfnEndpointAuthorization = CfnEndpointAuthorization.Builder.create(this, id).apply(initializer).build()

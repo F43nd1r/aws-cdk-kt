@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.CfnHostedZone
 
 @Generated
-public fun buildVPCProperty(initializer: @AwsCdkDsl CfnHostedZone.VPCProperty.Builder.() -> Unit =
-    {}): CfnHostedZone.VPCProperty = CfnHostedZone.VPCProperty.Builder().apply(initializer).build()
+public fun buildVPCProperty(initializer: @AwsCdkDsl CfnHostedZone.VPCProperty.Builder.() -> Unit = {}): CfnHostedZone.VPCProperty = CfnHostedZone.VPCProperty.Builder().apply(initializer).build()

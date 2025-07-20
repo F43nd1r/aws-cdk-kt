@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnSubscriptionFilterProps
 
 @Generated
-public fun buildCfnSubscriptionFilterProps(initializer: @AwsCdkDsl
-    CfnSubscriptionFilterProps.Builder.() -> Unit = {}): CfnSubscriptionFilterProps =
-    CfnSubscriptionFilterProps.Builder().apply(initializer).build()
+public fun buildCfnSubscriptionFilterProps(initializer: @AwsCdkDsl CfnSubscriptionFilterProps.Builder.() -> Unit = {}): CfnSubscriptionFilterProps = CfnSubscriptionFilterProps.Builder().apply(initializer).build()

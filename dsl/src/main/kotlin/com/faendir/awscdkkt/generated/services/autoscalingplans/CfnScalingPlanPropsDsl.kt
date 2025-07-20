@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscalingplans.CfnScalingPlanProps
 
 @Generated
-public fun buildCfnScalingPlanProps(initializer: @AwsCdkDsl CfnScalingPlanProps.Builder.() -> Unit =
-    {}): CfnScalingPlanProps = CfnScalingPlanProps.Builder().apply(initializer).build()
+public fun buildCfnScalingPlanProps(initializer: @AwsCdkDsl CfnScalingPlanProps.Builder.() -> Unit = {}): CfnScalingPlanProps = CfnScalingPlanProps.Builder().apply(initializer).build()

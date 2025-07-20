@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnFlowVersion
 
 @Generated
-public fun buildFlowNodeOutputProperty(initializer: @AwsCdkDsl
-    CfnFlowVersion.FlowNodeOutputProperty.Builder.() -> Unit = {}):
-    CfnFlowVersion.FlowNodeOutputProperty =
-    CfnFlowVersion.FlowNodeOutputProperty.Builder().apply(initializer).build()
+public fun buildFlowNodeOutputProperty(initializer: @AwsCdkDsl CfnFlowVersion.FlowNodeOutputProperty.Builder.() -> Unit = {}): CfnFlowVersion.FlowNodeOutputProperty = CfnFlowVersion.FlowNodeOutputProperty.Builder().apply(initializer).build()

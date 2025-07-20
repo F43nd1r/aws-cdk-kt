@@ -16,6 +16,4 @@ public fun Construct.certificate(
 ): Certificate = Certificate(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCertificate(id: String, initializer: @AwsCdkDsl
-    Certificate.Builder.() -> Unit = {}): Certificate = Certificate.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCertificate(id: String, initializer: @AwsCdkDsl Certificate.Builder.() -> Unit = {}): Certificate = Certificate.Builder.create(this, id).apply(initializer).build()

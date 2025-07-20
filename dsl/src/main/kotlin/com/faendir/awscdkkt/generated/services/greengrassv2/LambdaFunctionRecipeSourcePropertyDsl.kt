@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.greengrassv2.CfnComponentVersion
 
 @Generated
-public fun buildLambdaFunctionRecipeSourceProperty(initializer: @AwsCdkDsl
-    CfnComponentVersion.LambdaFunctionRecipeSourceProperty.Builder.() -> Unit = {}):
-    CfnComponentVersion.LambdaFunctionRecipeSourceProperty =
-    CfnComponentVersion.LambdaFunctionRecipeSourceProperty.Builder().apply(initializer).build()
+public fun buildLambdaFunctionRecipeSourceProperty(initializer: @AwsCdkDsl CfnComponentVersion.LambdaFunctionRecipeSourceProperty.Builder.() -> Unit = {}): CfnComponentVersion.LambdaFunctionRecipeSourceProperty = CfnComponentVersion.LambdaFunctionRecipeSourceProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
-public fun buildOnSourceDDoSProtectionConfigProperty(initializer: @AwsCdkDsl
-    CfnWebACL.OnSourceDDoSProtectionConfigProperty.Builder.() -> Unit = {}):
-    CfnWebACL.OnSourceDDoSProtectionConfigProperty =
-    CfnWebACL.OnSourceDDoSProtectionConfigProperty.Builder().apply(initializer).build()
+public fun buildOnSourceDDoSProtectionConfigProperty(initializer: @AwsCdkDsl CfnWebACL.OnSourceDDoSProtectionConfigProperty.Builder.() -> Unit = {}): CfnWebACL.OnSourceDDoSProtectionConfigProperty = CfnWebACL.OnSourceDDoSProtectionConfigProperty.Builder().apply(initializer).build()

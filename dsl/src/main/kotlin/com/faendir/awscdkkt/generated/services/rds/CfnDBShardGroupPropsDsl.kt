@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.CfnDBShardGroupProps
 
 @Generated
-public fun buildCfnDBShardGroupProps(initializer: @AwsCdkDsl CfnDBShardGroupProps.Builder.() -> Unit
-    = {}): CfnDBShardGroupProps = CfnDBShardGroupProps.Builder().apply(initializer).build()
+public fun buildCfnDBShardGroupProps(initializer: @AwsCdkDsl CfnDBShardGroupProps.Builder.() -> Unit = {}): CfnDBShardGroupProps = CfnDBShardGroupProps.Builder().apply(initializer).build()

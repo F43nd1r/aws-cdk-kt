@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.backup.BackupSelectionOptions
 
 @Generated
-public fun buildBackupSelectionOptions(initializer: @AwsCdkDsl
-    BackupSelectionOptions.Builder.() -> Unit = {}): BackupSelectionOptions =
-    BackupSelectionOptions.Builder().apply(initializer).build()
+public fun buildBackupSelectionOptions(initializer: @AwsCdkDsl BackupSelectionOptions.Builder.() -> Unit = {}): BackupSelectionOptions = BackupSelectionOptions.Builder().apply(initializer).build()

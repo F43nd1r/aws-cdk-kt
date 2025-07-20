@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnMitigationAction
 
 @Generated
-public fun buildEnableIoTLoggingParamsProperty(initializer: @AwsCdkDsl
-    CfnMitigationAction.EnableIoTLoggingParamsProperty.Builder.() -> Unit = {}):
-    CfnMitigationAction.EnableIoTLoggingParamsProperty =
-    CfnMitigationAction.EnableIoTLoggingParamsProperty.Builder().apply(initializer).build()
+public fun buildEnableIoTLoggingParamsProperty(initializer: @AwsCdkDsl CfnMitigationAction.EnableIoTLoggingParamsProperty.Builder.() -> Unit = {}): CfnMitigationAction.EnableIoTLoggingParamsProperty = CfnMitigationAction.EnableIoTLoggingParamsProperty.Builder().apply(initializer).build()

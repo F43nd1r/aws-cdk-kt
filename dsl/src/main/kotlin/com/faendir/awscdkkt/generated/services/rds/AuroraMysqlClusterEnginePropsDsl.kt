@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.AuroraMysqlClusterEngineProps
 
 @Generated
-public fun buildAuroraMysqlClusterEngineProps(initializer: @AwsCdkDsl
-    AuroraMysqlClusterEngineProps.Builder.() -> Unit = {}): AuroraMysqlClusterEngineProps =
-    AuroraMysqlClusterEngineProps.Builder().apply(initializer).build()
+public fun buildAuroraMysqlClusterEngineProps(initializer: @AwsCdkDsl AuroraMysqlClusterEngineProps.Builder.() -> Unit = {}): AuroraMysqlClusterEngineProps = AuroraMysqlClusterEngineProps.Builder().apply(initializer).build()

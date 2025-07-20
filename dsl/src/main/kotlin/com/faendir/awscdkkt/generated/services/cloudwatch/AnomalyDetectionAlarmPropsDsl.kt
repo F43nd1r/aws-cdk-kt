@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.AnomalyDetectionAlarmProps
 
 @Generated
-public fun buildAnomalyDetectionAlarmProps(initializer: @AwsCdkDsl
-    AnomalyDetectionAlarmProps.Builder.() -> Unit = {}): AnomalyDetectionAlarmProps =
-    AnomalyDetectionAlarmProps.Builder().apply(initializer).build()
+public fun buildAnomalyDetectionAlarmProps(initializer: @AwsCdkDsl AnomalyDetectionAlarmProps.Builder.() -> Unit = {}): AnomalyDetectionAlarmProps = AnomalyDetectionAlarmProps.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3outposts.CfnBucket
 
 @Generated
-public fun buildRuleProperty(initializer: @AwsCdkDsl CfnBucket.RuleProperty.Builder.() -> Unit =
-    {}): CfnBucket.RuleProperty = CfnBucket.RuleProperty.Builder().apply(initializer).build()
+public fun buildRuleProperty(initializer: @AwsCdkDsl CfnBucket.RuleProperty.Builder.() -> Unit = {}): CfnBucket.RuleProperty = CfnBucket.RuleProperty.Builder().apply(initializer).build()

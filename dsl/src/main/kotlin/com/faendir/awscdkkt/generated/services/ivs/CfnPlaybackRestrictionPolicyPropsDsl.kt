@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ivs.CfnPlaybackRestrictionPolicyProps
 
 @Generated
-public fun buildCfnPlaybackRestrictionPolicyProps(initializer: @AwsCdkDsl
-    CfnPlaybackRestrictionPolicyProps.Builder.() -> Unit = {}): CfnPlaybackRestrictionPolicyProps =
-    CfnPlaybackRestrictionPolicyProps.Builder().apply(initializer).build()
+public fun buildCfnPlaybackRestrictionPolicyProps(initializer: @AwsCdkDsl CfnPlaybackRestrictionPolicyProps.Builder.() -> Unit = {}): CfnPlaybackRestrictionPolicyProps = CfnPlaybackRestrictionPolicyProps.Builder().apply(initializer).build()

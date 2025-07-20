@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.WebSocketApiAttributes
 
 @Generated
-public fun buildWebSocketApiAttributes(initializer: @AwsCdkDsl
-    WebSocketApiAttributes.Builder.() -> Unit = {}): WebSocketApiAttributes =
-    WebSocketApiAttributes.Builder().apply(initializer).build()
+public fun buildWebSocketApiAttributes(initializer: @AwsCdkDsl WebSocketApiAttributes.Builder.() -> Unit = {}): WebSocketApiAttributes = WebSocketApiAttributes.Builder().apply(initializer).build()

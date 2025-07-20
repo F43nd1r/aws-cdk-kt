@@ -16,6 +16,4 @@ public fun Construct.cfnAgreement(
 ): CfnAgreement = CfnAgreement(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAgreement(id: String, initializer: @AwsCdkDsl
-    CfnAgreement.Builder.() -> Unit = {}): CfnAgreement = CfnAgreement.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnAgreement(id: String, initializer: @AwsCdkDsl CfnAgreement.Builder.() -> Unit = {}): CfnAgreement = CfnAgreement.Builder.create(this, id).apply(initializer).build()

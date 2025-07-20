@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.arczonalshift.CfnZonalAutoshiftConfiguration
 
 @Generated
-public fun buildPracticeRunConfigurationProperty(initializer: @AwsCdkDsl
-    CfnZonalAutoshiftConfiguration.PracticeRunConfigurationProperty.Builder.() -> Unit = {}):
-    CfnZonalAutoshiftConfiguration.PracticeRunConfigurationProperty =
-    CfnZonalAutoshiftConfiguration.PracticeRunConfigurationProperty.Builder().apply(initializer).build()
+public fun buildPracticeRunConfigurationProperty(initializer: @AwsCdkDsl CfnZonalAutoshiftConfiguration.PracticeRunConfigurationProperty.Builder.() -> Unit = {}): CfnZonalAutoshiftConfiguration.PracticeRunConfigurationProperty = CfnZonalAutoshiftConfiguration.PracticeRunConfigurationProperty.Builder().apply(initializer).build()

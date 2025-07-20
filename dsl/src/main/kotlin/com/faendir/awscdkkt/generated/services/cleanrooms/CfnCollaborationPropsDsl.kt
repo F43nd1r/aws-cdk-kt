@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cleanrooms.CfnCollaborationProps
 
 @Generated
-public fun buildCfnCollaborationProps(initializer: @AwsCdkDsl
-    CfnCollaborationProps.Builder.() -> Unit = {}): CfnCollaborationProps =
-    CfnCollaborationProps.Builder().apply(initializer).build()
+public fun buildCfnCollaborationProps(initializer: @AwsCdkDsl CfnCollaborationProps.Builder.() -> Unit = {}): CfnCollaborationProps = CfnCollaborationProps.Builder().apply(initializer).build()

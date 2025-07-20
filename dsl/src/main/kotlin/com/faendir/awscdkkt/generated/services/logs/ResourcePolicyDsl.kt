@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.logs.ResourcePolicyProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.resourcePolicy(id: String, initializer: @AwsCdkDsl ResourcePolicy.() -> Unit =
-    {}): ResourcePolicy = ResourcePolicy(this, id).apply(initializer)
+public fun Construct.resourcePolicy(id: String, initializer: @AwsCdkDsl ResourcePolicy.() -> Unit = {}): ResourcePolicy = ResourcePolicy(this, id).apply(initializer)
 
 @Generated
 public fun Construct.resourcePolicy(
@@ -20,6 +19,4 @@ public fun Construct.resourcePolicy(
 ): ResourcePolicy = ResourcePolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildResourcePolicy(id: String, initializer: @AwsCdkDsl
-    ResourcePolicy.Builder.() -> Unit = {}): ResourcePolicy = ResourcePolicy.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildResourcePolicy(id: String, initializer: @AwsCdkDsl ResourcePolicy.Builder.() -> Unit = {}): ResourcePolicy = ResourcePolicy.Builder.create(this, id).apply(initializer).build()

@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.secretsmanager.SecretProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.secret(id: String, initializer: @AwsCdkDsl Secret.() -> Unit = {}): Secret =
-    Secret(this, id).apply(initializer)
+public fun Construct.secret(id: String, initializer: @AwsCdkDsl Secret.() -> Unit = {}): Secret = Secret(this, id).apply(initializer)
 
 @Generated
 public fun Construct.secret(
@@ -20,5 +19,4 @@ public fun Construct.secret(
 ): Secret = Secret(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildSecret(id: String, initializer: @AwsCdkDsl Secret.Builder.() -> Unit =
-    {}): Secret = Secret.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildSecret(id: String, initializer: @AwsCdkDsl Secret.Builder.() -> Unit = {}): Secret = Secret.Builder.create(this, id).apply(initializer).build()

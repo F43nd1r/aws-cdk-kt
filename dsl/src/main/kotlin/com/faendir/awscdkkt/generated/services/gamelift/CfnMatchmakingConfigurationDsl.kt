@@ -16,6 +16,4 @@ public fun Construct.cfnMatchmakingConfiguration(
 ): CfnMatchmakingConfiguration = CfnMatchmakingConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMatchmakingConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnMatchmakingConfiguration.Builder.() -> Unit = {}): CfnMatchmakingConfiguration =
-    CfnMatchmakingConfiguration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMatchmakingConfiguration(id: String, initializer: @AwsCdkDsl CfnMatchmakingConfiguration.Builder.() -> Unit = {}): CfnMatchmakingConfiguration = CfnMatchmakingConfiguration.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fsx.CfnFileSystemProps
 
 @Generated
-public fun buildCfnFileSystemProps(initializer: @AwsCdkDsl CfnFileSystemProps.Builder.() -> Unit =
-    {}): CfnFileSystemProps = CfnFileSystemProps.Builder().apply(initializer).build()
+public fun buildCfnFileSystemProps(initializer: @AwsCdkDsl CfnFileSystemProps.Builder.() -> Unit = {}): CfnFileSystemProps = CfnFileSystemProps.Builder().apply(initializer).build()

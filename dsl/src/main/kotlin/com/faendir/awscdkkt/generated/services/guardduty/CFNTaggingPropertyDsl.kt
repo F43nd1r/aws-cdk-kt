@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.guardduty.CfnMalwareProtectionPlan
 
 @Generated
-public fun buildCFNTaggingProperty(initializer: @AwsCdkDsl
-    CfnMalwareProtectionPlan.CFNTaggingProperty.Builder.() -> Unit = {}):
-    CfnMalwareProtectionPlan.CFNTaggingProperty =
-    CfnMalwareProtectionPlan.CFNTaggingProperty.Builder().apply(initializer).build()
+public fun buildCFNTaggingProperty(initializer: @AwsCdkDsl CfnMalwareProtectionPlan.CFNTaggingProperty.Builder.() -> Unit = {}): CfnMalwareProtectionPlan.CFNTaggingProperty = CfnMalwareProtectionPlan.CFNTaggingProperty.Builder().apply(initializer).build()

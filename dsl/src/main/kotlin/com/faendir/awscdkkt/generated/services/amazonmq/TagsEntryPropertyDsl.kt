@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.amazonmq.CfnConfiguration
 
 @Generated
-public fun buildTagsEntryProperty(initializer: @AwsCdkDsl
-    CfnConfiguration.TagsEntryProperty.Builder.() -> Unit = {}): CfnConfiguration.TagsEntryProperty
-    = CfnConfiguration.TagsEntryProperty.Builder().apply(initializer).build()
+public fun buildTagsEntryProperty(initializer: @AwsCdkDsl CfnConfiguration.TagsEntryProperty.Builder.() -> Unit = {}): CfnConfiguration.TagsEntryProperty = CfnConfiguration.TagsEntryProperty.Builder().apply(initializer).build()

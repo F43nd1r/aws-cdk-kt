@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
-public fun buildFirelensConfigurationProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.FirelensConfigurationProperty.Builder.() -> Unit = {}):
-    CfnJobDefinition.FirelensConfigurationProperty =
-    CfnJobDefinition.FirelensConfigurationProperty.Builder().apply(initializer).build()
+public fun buildFirelensConfigurationProperty(initializer: @AwsCdkDsl CfnJobDefinition.FirelensConfigurationProperty.Builder.() -> Unit = {}): CfnJobDefinition.FirelensConfigurationProperty = CfnJobDefinition.FirelensConfigurationProperty.Builder().apply(initializer).build()

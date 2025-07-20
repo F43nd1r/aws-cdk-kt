@@ -16,6 +16,4 @@ public fun Construct.cfnStreamConsumer(
 ): CfnStreamConsumer = CfnStreamConsumer(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnStreamConsumer(id: String, initializer: @AwsCdkDsl
-    CfnStreamConsumer.Builder.() -> Unit = {}): CfnStreamConsumer =
-    CfnStreamConsumer.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnStreamConsumer(id: String, initializer: @AwsCdkDsl CfnStreamConsumer.Builder.() -> Unit = {}): CfnStreamConsumer = CfnStreamConsumer.Builder.create(this, id).apply(initializer).build()

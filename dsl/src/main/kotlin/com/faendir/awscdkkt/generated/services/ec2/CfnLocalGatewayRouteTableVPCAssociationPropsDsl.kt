@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLocalGatewayRouteTableVPCAssociationProps
 
 @Generated
-public fun buildCfnLocalGatewayRouteTableVPCAssociationProps(initializer: @AwsCdkDsl
-    CfnLocalGatewayRouteTableVPCAssociationProps.Builder.() -> Unit = {}):
-    CfnLocalGatewayRouteTableVPCAssociationProps =
-    CfnLocalGatewayRouteTableVPCAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnLocalGatewayRouteTableVPCAssociationProps(initializer: @AwsCdkDsl CfnLocalGatewayRouteTableVPCAssociationProps.Builder.() -> Unit = {}): CfnLocalGatewayRouteTableVPCAssociationProps = CfnLocalGatewayRouteTableVPCAssociationProps.Builder().apply(initializer).build()

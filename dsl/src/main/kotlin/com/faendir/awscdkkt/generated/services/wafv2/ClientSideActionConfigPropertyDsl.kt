@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
-public fun buildClientSideActionConfigProperty(initializer: @AwsCdkDsl
-    CfnWebACL.ClientSideActionConfigProperty.Builder.() -> Unit = {}):
-    CfnWebACL.ClientSideActionConfigProperty =
-    CfnWebACL.ClientSideActionConfigProperty.Builder().apply(initializer).build()
+public fun buildClientSideActionConfigProperty(initializer: @AwsCdkDsl CfnWebACL.ClientSideActionConfigProperty.Builder.() -> Unit = {}): CfnWebACL.ClientSideActionConfigProperty = CfnWebACL.ClientSideActionConfigProperty.Builder().apply(initializer).build()

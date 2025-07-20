@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildArcConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ArcConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.ArcConfigurationProperty =
-    CfnTemplate.ArcConfigurationProperty.Builder().apply(initializer).build()
+public fun buildArcConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.ArcConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.ArcConfigurationProperty = CfnTemplate.ArcConfigurationProperty.Builder().apply(initializer).build()

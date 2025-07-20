@@ -16,6 +16,4 @@ public fun Construct.cfnDataRepositoryAssociation(
 ): CfnDataRepositoryAssociation = CfnDataRepositoryAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDataRepositoryAssociation(id: String, initializer: @AwsCdkDsl
-    CfnDataRepositoryAssociation.Builder.() -> Unit = {}): CfnDataRepositoryAssociation =
-    CfnDataRepositoryAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDataRepositoryAssociation(id: String, initializer: @AwsCdkDsl CfnDataRepositoryAssociation.Builder.() -> Unit = {}): CfnDataRepositoryAssociation = CfnDataRepositoryAssociation.Builder.create(this, id).apply(initializer).build()

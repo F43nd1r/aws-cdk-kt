@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codestarconnections.CfnRepositoryLinkProps
 
 @Generated
-public fun buildCfnRepositoryLinkProps(initializer: @AwsCdkDsl
-    CfnRepositoryLinkProps.Builder.() -> Unit = {}): CfnRepositoryLinkProps =
-    CfnRepositoryLinkProps.Builder().apply(initializer).build()
+public fun buildCfnRepositoryLinkProps(initializer: @AwsCdkDsl CfnRepositoryLinkProps.Builder.() -> Unit = {}): CfnRepositoryLinkProps = CfnRepositoryLinkProps.Builder().apply(initializer).build()

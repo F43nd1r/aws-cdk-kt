@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSource
 
 @Generated
-public fun buildStarburstParametersProperty(initializer: @AwsCdkDsl
-    CfnDataSource.StarburstParametersProperty.Builder.() -> Unit = {}):
-    CfnDataSource.StarburstParametersProperty =
-    CfnDataSource.StarburstParametersProperty.Builder().apply(initializer).build()
+public fun buildStarburstParametersProperty(initializer: @AwsCdkDsl CfnDataSource.StarburstParametersProperty.Builder.() -> Unit = {}): CfnDataSource.StarburstParametersProperty = CfnDataSource.StarburstParametersProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnDataSource(
 ): CfnDataSource = CfnDataSource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDataSource(id: String, initializer: @AwsCdkDsl
-    CfnDataSource.Builder.() -> Unit = {}): CfnDataSource = CfnDataSource.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnDataSource(id: String, initializer: @AwsCdkDsl CfnDataSource.Builder.() -> Unit = {}): CfnDataSource = CfnDataSource.Builder.create(this, id).apply(initializer).build()

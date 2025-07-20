@@ -16,6 +16,4 @@ public fun Construct.cfnTracker(
 ): CfnTracker = CfnTracker(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTracker(id: String, initializer: @AwsCdkDsl
-    CfnTracker.Builder.() -> Unit = {}): CfnTracker = CfnTracker.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnTracker(id: String, initializer: @AwsCdkDsl CfnTracker.Builder.() -> Unit = {}): CfnTracker = CfnTracker.Builder.create(this, id).apply(initializer).build()

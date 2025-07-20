@@ -16,6 +16,4 @@ public fun Construct.cfnPrivacyBudgetTemplate(
 ): CfnPrivacyBudgetTemplate = CfnPrivacyBudgetTemplate(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPrivacyBudgetTemplate(id: String, initializer: @AwsCdkDsl
-    CfnPrivacyBudgetTemplate.Builder.() -> Unit = {}): CfnPrivacyBudgetTemplate =
-    CfnPrivacyBudgetTemplate.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPrivacyBudgetTemplate(id: String, initializer: @AwsCdkDsl CfnPrivacyBudgetTemplate.Builder.() -> Unit = {}): CfnPrivacyBudgetTemplate = CfnPrivacyBudgetTemplate.Builder.create(this, id).apply(initializer).build()

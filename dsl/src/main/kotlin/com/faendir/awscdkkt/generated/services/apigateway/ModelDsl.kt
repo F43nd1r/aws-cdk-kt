@@ -16,5 +16,4 @@ public fun Construct.model(
 ): Model = Model(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildModel(id: String, initializer: @AwsCdkDsl Model.Builder.() -> Unit = {}):
-    Model = Model.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildModel(id: String, initializer: @AwsCdkDsl Model.Builder.() -> Unit = {}): Model = Model.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.devopsguru.CfnNotificationChannel
 
 @Generated
-public fun buildNotificationChannelConfigProperty(initializer: @AwsCdkDsl
-    CfnNotificationChannel.NotificationChannelConfigProperty.Builder.() -> Unit = {}):
-    CfnNotificationChannel.NotificationChannelConfigProperty =
-    CfnNotificationChannel.NotificationChannelConfigProperty.Builder().apply(initializer).build()
+public fun buildNotificationChannelConfigProperty(initializer: @AwsCdkDsl CfnNotificationChannel.NotificationChannelConfigProperty.Builder.() -> Unit = {}): CfnNotificationChannel.NotificationChannelConfigProperty = CfnNotificationChannel.NotificationChannelConfigProperty.Builder().apply(initializer).build()

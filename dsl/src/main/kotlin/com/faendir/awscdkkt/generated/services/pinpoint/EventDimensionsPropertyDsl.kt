@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnCampaign
 
 @Generated
-public fun buildEventDimensionsProperty(initializer: @AwsCdkDsl
-    CfnCampaign.EventDimensionsProperty.Builder.() -> Unit = {}):
-    CfnCampaign.EventDimensionsProperty =
-    CfnCampaign.EventDimensionsProperty.Builder().apply(initializer).build()
+public fun buildEventDimensionsProperty(initializer: @AwsCdkDsl CfnCampaign.EventDimensionsProperty.Builder.() -> Unit = {}): CfnCampaign.EventDimensionsProperty = CfnCampaign.EventDimensionsProperty.Builder().apply(initializer).build()

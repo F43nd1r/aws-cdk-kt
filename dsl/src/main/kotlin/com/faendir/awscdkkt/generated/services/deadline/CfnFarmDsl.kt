@@ -16,5 +16,4 @@ public fun Construct.cfnFarm(
 ): CfnFarm = CfnFarm(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnFarm(id: String, initializer: @AwsCdkDsl CfnFarm.Builder.() -> Unit =
-    {}): CfnFarm = CfnFarm.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnFarm(id: String, initializer: @AwsCdkDsl CfnFarm.Builder.() -> Unit = {}): CfnFarm = CfnFarm.Builder.create(this, id).apply(initializer).build()

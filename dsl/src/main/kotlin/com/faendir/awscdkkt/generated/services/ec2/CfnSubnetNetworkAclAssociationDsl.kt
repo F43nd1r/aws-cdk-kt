@@ -13,10 +13,7 @@ public fun Construct.cfnSubnetNetworkAclAssociation(
   id: String,
   props: CfnSubnetNetworkAclAssociationProps,
   initializer: @AwsCdkDsl CfnSubnetNetworkAclAssociation.() -> Unit = {},
-): CfnSubnetNetworkAclAssociation = CfnSubnetNetworkAclAssociation(this, id,
-    props).apply(initializer)
+): CfnSubnetNetworkAclAssociation = CfnSubnetNetworkAclAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSubnetNetworkAclAssociation(id: String, initializer: @AwsCdkDsl
-    CfnSubnetNetworkAclAssociation.Builder.() -> Unit = {}): CfnSubnetNetworkAclAssociation =
-    CfnSubnetNetworkAclAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSubnetNetworkAclAssociation(id: String, initializer: @AwsCdkDsl CfnSubnetNetworkAclAssociation.Builder.() -> Unit = {}): CfnSubnetNetworkAclAssociation = CfnSubnetNetworkAclAssociation.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnSecurityProfile
 
 @Generated
-public fun buildBehaviorProperty(initializer: @AwsCdkDsl
-    CfnSecurityProfile.BehaviorProperty.Builder.() -> Unit = {}):
-    CfnSecurityProfile.BehaviorProperty =
-    CfnSecurityProfile.BehaviorProperty.Builder().apply(initializer).build()
+public fun buildBehaviorProperty(initializer: @AwsCdkDsl CfnSecurityProfile.BehaviorProperty.Builder.() -> Unit = {}): CfnSecurityProfile.BehaviorProperty = CfnSecurityProfile.BehaviorProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.evidently.CfnLaunch
 
 @Generated
-public fun buildExecutionStatusObjectProperty(initializer: @AwsCdkDsl
-    CfnLaunch.ExecutionStatusObjectProperty.Builder.() -> Unit = {}):
-    CfnLaunch.ExecutionStatusObjectProperty =
-    CfnLaunch.ExecutionStatusObjectProperty.Builder().apply(initializer).build()
+public fun buildExecutionStatusObjectProperty(initializer: @AwsCdkDsl CfnLaunch.ExecutionStatusObjectProperty.Builder.() -> Unit = {}): CfnLaunch.ExecutionStatusObjectProperty = CfnLaunch.ExecutionStatusObjectProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnApiDestination(
 ): CfnApiDestination = CfnApiDestination(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnApiDestination(id: String, initializer: @AwsCdkDsl
-    CfnApiDestination.Builder.() -> Unit = {}): CfnApiDestination =
-    CfnApiDestination.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnApiDestination(id: String, initializer: @AwsCdkDsl CfnApiDestination.Builder.() -> Unit = {}): CfnApiDestination = CfnApiDestination.Builder.create(this, id).apply(initializer).build()

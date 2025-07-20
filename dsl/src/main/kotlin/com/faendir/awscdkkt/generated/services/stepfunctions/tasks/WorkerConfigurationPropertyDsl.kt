@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.WorkerConfigurationProperty
 
 @Generated
-public fun buildWorkerConfigurationProperty(initializer: @AwsCdkDsl
-    WorkerConfigurationProperty.Builder.() -> Unit = {}): WorkerConfigurationProperty =
-    WorkerConfigurationProperty.Builder().apply(initializer).build()
+public fun buildWorkerConfigurationProperty(initializer: @AwsCdkDsl WorkerConfigurationProperty.Builder.() -> Unit = {}): WorkerConfigurationProperty = WorkerConfigurationProperty.Builder().apply(initializer).build()

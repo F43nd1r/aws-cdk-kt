@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.ResponseSecurityHeadersBehavior
 
 @Generated
-public fun buildResponseSecurityHeadersBehavior(initializer: @AwsCdkDsl
-    ResponseSecurityHeadersBehavior.Builder.() -> Unit = {}): ResponseSecurityHeadersBehavior =
-    ResponseSecurityHeadersBehavior.Builder().apply(initializer).build()
+public fun buildResponseSecurityHeadersBehavior(initializer: @AwsCdkDsl ResponseSecurityHeadersBehavior.Builder.() -> Unit = {}): ResponseSecurityHeadersBehavior = ResponseSecurityHeadersBehavior.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicecatalog.ProductStackHistoryProps
 
 @Generated
-public fun buildProductStackHistoryProps(initializer: @AwsCdkDsl
-    ProductStackHistoryProps.Builder.() -> Unit = {}): ProductStackHistoryProps =
-    ProductStackHistoryProps.Builder().apply(initializer).build()
+public fun buildProductStackHistoryProps(initializer: @AwsCdkDsl ProductStackHistoryProps.Builder.() -> Unit = {}): ProductStackHistoryProps = ProductStackHistoryProps.Builder().apply(initializer).build()

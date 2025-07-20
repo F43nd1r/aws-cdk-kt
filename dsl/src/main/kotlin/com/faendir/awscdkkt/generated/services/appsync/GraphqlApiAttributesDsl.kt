@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.GraphqlApiAttributes
 
 @Generated
-public fun buildGraphqlApiAttributes(initializer: @AwsCdkDsl GraphqlApiAttributes.Builder.() -> Unit
-    = {}): GraphqlApiAttributes = GraphqlApiAttributes.Builder().apply(initializer).build()
+public fun buildGraphqlApiAttributes(initializer: @AwsCdkDsl GraphqlApiAttributes.Builder.() -> Unit = {}): GraphqlApiAttributes = GraphqlApiAttributes.Builder().apply(initializer).build()

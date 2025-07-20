@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildQnAIntentConfigurationProperty(initializer: @AwsCdkDsl
-    CfnBot.QnAIntentConfigurationProperty.Builder.() -> Unit = {}):
-    CfnBot.QnAIntentConfigurationProperty =
-    CfnBot.QnAIntentConfigurationProperty.Builder().apply(initializer).build()
+public fun buildQnAIntentConfigurationProperty(initializer: @AwsCdkDsl CfnBot.QnAIntentConfigurationProperty.Builder.() -> Unit = {}): CfnBot.QnAIntentConfigurationProperty = CfnBot.QnAIntentConfigurationProperty.Builder().apply(initializer).build()

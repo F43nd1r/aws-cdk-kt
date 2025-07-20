@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.eventsources.SelfManagedKafkaEventSource
 
 @Generated
-public fun buildSelfManagedKafkaEventSource(initializer: @AwsCdkDsl
-    SelfManagedKafkaEventSource.Builder.() -> Unit = {}): SelfManagedKafkaEventSource =
-    SelfManagedKafkaEventSource.Builder.create().apply(initializer).build()
+public fun buildSelfManagedKafkaEventSource(initializer: @AwsCdkDsl SelfManagedKafkaEventSource.Builder.() -> Unit = {}): SelfManagedKafkaEventSource = SelfManagedKafkaEventSource.Builder.create().apply(initializer).build()

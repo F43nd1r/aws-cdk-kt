@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildInsightConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.InsightConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.InsightConfigurationProperty =
-    CfnTemplate.InsightConfigurationProperty.Builder().apply(initializer).build()
+public fun buildInsightConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.InsightConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.InsightConfigurationProperty = CfnTemplate.InsightConfigurationProperty.Builder().apply(initializer).build()

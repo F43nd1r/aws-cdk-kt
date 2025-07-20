@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.controltower.CfnLandingZoneProps
 
 @Generated
-public fun buildCfnLandingZoneProps(initializer: @AwsCdkDsl CfnLandingZoneProps.Builder.() -> Unit =
-    {}): CfnLandingZoneProps = CfnLandingZoneProps.Builder().apply(initializer).build()
+public fun buildCfnLandingZoneProps(initializer: @AwsCdkDsl CfnLandingZoneProps.Builder.() -> Unit = {}): CfnLandingZoneProps = CfnLandingZoneProps.Builder().apply(initializer).build()

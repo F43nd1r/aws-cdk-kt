@@ -16,6 +16,4 @@ public fun Construct.cfnS3AccessPointAttachment(
 ): CfnS3AccessPointAttachment = CfnS3AccessPointAttachment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnS3AccessPointAttachment(id: String, initializer: @AwsCdkDsl
-    CfnS3AccessPointAttachment.Builder.() -> Unit = {}): CfnS3AccessPointAttachment =
-    CfnS3AccessPointAttachment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnS3AccessPointAttachment(id: String, initializer: @AwsCdkDsl CfnS3AccessPointAttachment.Builder.() -> Unit = {}): CfnS3AccessPointAttachment = CfnS3AccessPointAttachment.Builder.create(this, id).apply(initializer).build()

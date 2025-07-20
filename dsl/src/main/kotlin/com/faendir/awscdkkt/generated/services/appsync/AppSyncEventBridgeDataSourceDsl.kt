@@ -16,6 +16,4 @@ public fun Construct.appSyncEventBridgeDataSource(
 ): AppSyncEventBridgeDataSource = AppSyncEventBridgeDataSource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAppSyncEventBridgeDataSource(id: String, initializer: @AwsCdkDsl
-    AppSyncEventBridgeDataSource.Builder.() -> Unit = {}): AppSyncEventBridgeDataSource =
-    AppSyncEventBridgeDataSource.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildAppSyncEventBridgeDataSource(id: String, initializer: @AwsCdkDsl AppSyncEventBridgeDataSource.Builder.() -> Unit = {}): AppSyncEventBridgeDataSource = AppSyncEventBridgeDataSource.Builder.create(this, id).apply(initializer).build()

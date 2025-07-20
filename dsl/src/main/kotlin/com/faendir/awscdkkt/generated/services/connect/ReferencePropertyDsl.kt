@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnRule
 
 @Generated
-public fun buildReferenceProperty(initializer: @AwsCdkDsl
-    CfnRule.ReferenceProperty.Builder.() -> Unit = {}): CfnRule.ReferenceProperty =
-    CfnRule.ReferenceProperty.Builder().apply(initializer).build()
+public fun buildReferenceProperty(initializer: @AwsCdkDsl CfnRule.ReferenceProperty.Builder.() -> Unit = {}): CfnRule.ReferenceProperty = CfnRule.ReferenceProperty.Builder().apply(initializer).build()

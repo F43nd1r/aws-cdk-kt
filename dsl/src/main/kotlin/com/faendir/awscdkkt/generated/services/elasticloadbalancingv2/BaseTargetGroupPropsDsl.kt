@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.BaseTargetGroupProps
 
 @Generated
-public fun buildBaseTargetGroupProps(initializer: @AwsCdkDsl BaseTargetGroupProps.Builder.() -> Unit
-    = {}): BaseTargetGroupProps = BaseTargetGroupProps.Builder().apply(initializer).build()
+public fun buildBaseTargetGroupProps(initializer: @AwsCdkDsl BaseTargetGroupProps.Builder.() -> Unit = {}): BaseTargetGroupProps = BaseTargetGroupProps.Builder().apply(initializer).build()

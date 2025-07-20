@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.CfnRule
 
 @Generated
-public fun buildEcsParametersProperty(initializer: @AwsCdkDsl
-    CfnRule.EcsParametersProperty.Builder.() -> Unit = {}): CfnRule.EcsParametersProperty =
-    CfnRule.EcsParametersProperty.Builder().apply(initializer).build()
+public fun buildEcsParametersProperty(initializer: @AwsCdkDsl CfnRule.EcsParametersProperty.Builder.() -> Unit = {}): CfnRule.EcsParametersProperty = CfnRule.EcsParametersProperty.Builder().apply(initializer).build()

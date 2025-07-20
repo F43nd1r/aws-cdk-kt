@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildRtmpGroupSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.RtmpGroupSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.RtmpGroupSettingsProperty =
-    CfnChannel.RtmpGroupSettingsProperty.Builder().apply(initializer).build()
+public fun buildRtmpGroupSettingsProperty(initializer: @AwsCdkDsl CfnChannel.RtmpGroupSettingsProperty.Builder.() -> Unit = {}): CfnChannel.RtmpGroupSettingsProperty = CfnChannel.RtmpGroupSettingsProperty.Builder().apply(initializer).build()

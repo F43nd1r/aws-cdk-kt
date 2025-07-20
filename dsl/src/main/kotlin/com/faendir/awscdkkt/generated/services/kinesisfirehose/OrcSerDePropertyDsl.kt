@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
-public fun buildOrcSerDeProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.OrcSerDeProperty.Builder.() -> Unit = {}): CfnDeliveryStream.OrcSerDeProperty
-    = CfnDeliveryStream.OrcSerDeProperty.Builder().apply(initializer).build()
+public fun buildOrcSerDeProperty(initializer: @AwsCdkDsl CfnDeliveryStream.OrcSerDeProperty.Builder.() -> Unit = {}): CfnDeliveryStream.OrcSerDeProperty = CfnDeliveryStream.OrcSerDeProperty.Builder().apply(initializer).build()

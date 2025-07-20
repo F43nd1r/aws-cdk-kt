@@ -16,6 +16,4 @@ public fun Construct.virtualGateway(
 ): VirtualGateway = VirtualGateway(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildVirtualGateway(id: String, initializer: @AwsCdkDsl
-    VirtualGateway.Builder.() -> Unit = {}): VirtualGateway = VirtualGateway.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildVirtualGateway(id: String, initializer: @AwsCdkDsl VirtualGateway.Builder.() -> Unit = {}): VirtualGateway = VirtualGateway.Builder.create(this, id).apply(initializer).build()

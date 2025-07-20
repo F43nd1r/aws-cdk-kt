@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.workspacesinstances.CfnWorkspaceInstance
 
 @Generated
-public fun buildEnclaveOptionsRequestProperty(initializer: @AwsCdkDsl
-    CfnWorkspaceInstance.EnclaveOptionsRequestProperty.Builder.() -> Unit = {}):
-    CfnWorkspaceInstance.EnclaveOptionsRequestProperty =
-    CfnWorkspaceInstance.EnclaveOptionsRequestProperty.Builder().apply(initializer).build()
+public fun buildEnclaveOptionsRequestProperty(initializer: @AwsCdkDsl CfnWorkspaceInstance.EnclaveOptionsRequestProperty.Builder.() -> Unit = {}): CfnWorkspaceInstance.EnclaveOptionsRequestProperty = CfnWorkspaceInstance.EnclaveOptionsRequestProperty.Builder().apply(initializer).build()

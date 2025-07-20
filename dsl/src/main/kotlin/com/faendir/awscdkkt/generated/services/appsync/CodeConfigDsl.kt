@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.CodeConfig
 
 @Generated
-public fun buildCodeConfig(initializer: @AwsCdkDsl CodeConfig.Builder.() -> Unit = {}): CodeConfig =
-    CodeConfig.Builder().apply(initializer).build()
+public fun buildCodeConfig(initializer: @AwsCdkDsl CodeConfig.Builder.() -> Unit = {}): CodeConfig = CodeConfig.Builder().apply(initializer).build()

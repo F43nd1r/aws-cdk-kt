@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.aiops.CfnInvestigationGroup
 
 @Generated
-public fun buildEncryptionConfigMapProperty(initializer: @AwsCdkDsl
-    CfnInvestigationGroup.EncryptionConfigMapProperty.Builder.() -> Unit = {}):
-    CfnInvestigationGroup.EncryptionConfigMapProperty =
-    CfnInvestigationGroup.EncryptionConfigMapProperty.Builder().apply(initializer).build()
+public fun buildEncryptionConfigMapProperty(initializer: @AwsCdkDsl CfnInvestigationGroup.EncryptionConfigMapProperty.Builder.() -> Unit = {}): CfnInvestigationGroup.EncryptionConfigMapProperty = CfnInvestigationGroup.EncryptionConfigMapProperty.Builder().apply(initializer).build()

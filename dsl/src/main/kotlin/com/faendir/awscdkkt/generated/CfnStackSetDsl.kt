@@ -16,6 +16,4 @@ public fun Construct.cfnStackSet(
 ): CfnStackSet = CfnStackSet(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnStackSet(id: String, initializer: @AwsCdkDsl
-    CfnStackSet.Builder.() -> Unit = {}): CfnStackSet = CfnStackSet.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnStackSet(id: String, initializer: @AwsCdkDsl CfnStackSet.Builder.() -> Unit = {}): CfnStackSet = CfnStackSet.Builder.create(this, id).apply(initializer).build()

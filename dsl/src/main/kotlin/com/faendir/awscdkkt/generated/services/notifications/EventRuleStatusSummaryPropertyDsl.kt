@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.notifications.CfnEventRule
 
 @Generated
-public fun buildEventRuleStatusSummaryProperty(initializer: @AwsCdkDsl
-    CfnEventRule.EventRuleStatusSummaryProperty.Builder.() -> Unit = {}):
-    CfnEventRule.EventRuleStatusSummaryProperty =
-    CfnEventRule.EventRuleStatusSummaryProperty.Builder().apply(initializer).build()
+public fun buildEventRuleStatusSummaryProperty(initializer: @AwsCdkDsl CfnEventRule.EventRuleStatusSummaryProperty.Builder.() -> Unit = {}): CfnEventRule.EventRuleStatusSummaryProperty = CfnEventRule.EventRuleStatusSummaryProperty.Builder().apply(initializer).build()

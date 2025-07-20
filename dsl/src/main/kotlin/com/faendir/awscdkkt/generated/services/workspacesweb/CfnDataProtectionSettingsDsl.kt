@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.workspacesweb.CfnDataProtectionSettingsPr
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDataProtectionSettings(id: String, initializer: @AwsCdkDsl
-    CfnDataProtectionSettings.() -> Unit = {}): CfnDataProtectionSettings =
-    CfnDataProtectionSettings(this, id).apply(initializer)
+public fun Construct.cfnDataProtectionSettings(id: String, initializer: @AwsCdkDsl CfnDataProtectionSettings.() -> Unit = {}): CfnDataProtectionSettings = CfnDataProtectionSettings(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnDataProtectionSettings(
@@ -21,6 +19,4 @@ public fun Construct.cfnDataProtectionSettings(
 ): CfnDataProtectionSettings = CfnDataProtectionSettings(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDataProtectionSettings(id: String, initializer: @AwsCdkDsl
-    CfnDataProtectionSettings.Builder.() -> Unit = {}): CfnDataProtectionSettings =
-    CfnDataProtectionSettings.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDataProtectionSettings(id: String, initializer: @AwsCdkDsl CfnDataProtectionSettings.Builder.() -> Unit = {}): CfnDataProtectionSettings = CfnDataProtectionSettings.Builder.create(this, id).apply(initializer).build()

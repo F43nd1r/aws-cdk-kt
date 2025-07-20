@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3express.CfnDirectoryBucket
 
 @Generated
-public fun buildBucketEncryptionProperty(initializer: @AwsCdkDsl
-    CfnDirectoryBucket.BucketEncryptionProperty.Builder.() -> Unit = {}):
-    CfnDirectoryBucket.BucketEncryptionProperty =
-    CfnDirectoryBucket.BucketEncryptionProperty.Builder().apply(initializer).build()
+public fun buildBucketEncryptionProperty(initializer: @AwsCdkDsl CfnDirectoryBucket.BucketEncryptionProperty.Builder.() -> Unit = {}): CfnDirectoryBucket.BucketEncryptionProperty = CfnDirectoryBucket.BucketEncryptionProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnResiliencyPolicy(
 ): CfnResiliencyPolicy = CfnResiliencyPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnResiliencyPolicy(id: String, initializer: @AwsCdkDsl
-    CfnResiliencyPolicy.Builder.() -> Unit = {}): CfnResiliencyPolicy =
-    CfnResiliencyPolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnResiliencyPolicy(id: String, initializer: @AwsCdkDsl CfnResiliencyPolicy.Builder.() -> Unit = {}): CfnResiliencyPolicy = CfnResiliencyPolicy.Builder.create(this, id).apply(initializer).build()

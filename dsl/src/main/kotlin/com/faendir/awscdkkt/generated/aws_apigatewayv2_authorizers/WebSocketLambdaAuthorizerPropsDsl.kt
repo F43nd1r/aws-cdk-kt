@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.aws_apigatewayv2_authorizers.WebSocketLambdaAuthorizerProps
 
 @Generated
-public fun buildWebSocketLambdaAuthorizerProps(initializer: @AwsCdkDsl
-    WebSocketLambdaAuthorizerProps.Builder.() -> Unit = {}): WebSocketLambdaAuthorizerProps =
-    WebSocketLambdaAuthorizerProps.Builder().apply(initializer).build()
+public fun buildWebSocketLambdaAuthorizerProps(initializer: @AwsCdkDsl WebSocketLambdaAuthorizerProps.Builder.() -> Unit = {}): WebSocketLambdaAuthorizerProps = WebSocketLambdaAuthorizerProps.Builder().apply(initializer).build()

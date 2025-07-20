@@ -16,5 +16,4 @@ public fun Construct.cfnVolume(
 ): CfnVolume = CfnVolume(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVolume(id: String, initializer: @AwsCdkDsl CfnVolume.Builder.() -> Unit
-    = {}): CfnVolume = CfnVolume.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnVolume(id: String, initializer: @AwsCdkDsl CfnVolume.Builder.() -> Unit = {}): CfnVolume = CfnVolume.Builder.create(this, id).apply(initializer).build()

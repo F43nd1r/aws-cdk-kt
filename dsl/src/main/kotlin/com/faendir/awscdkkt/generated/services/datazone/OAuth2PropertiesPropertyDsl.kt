@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnConnection
 
 @Generated
-public fun buildOAuth2PropertiesProperty(initializer: @AwsCdkDsl
-    CfnConnection.OAuth2PropertiesProperty.Builder.() -> Unit = {}):
-    CfnConnection.OAuth2PropertiesProperty =
-    CfnConnection.OAuth2PropertiesProperty.Builder().apply(initializer).build()
+public fun buildOAuth2PropertiesProperty(initializer: @AwsCdkDsl CfnConnection.OAuth2PropertiesProperty.Builder.() -> Unit = {}): CfnConnection.OAuth2PropertiesProperty = CfnConnection.OAuth2PropertiesProperty.Builder().apply(initializer).build()

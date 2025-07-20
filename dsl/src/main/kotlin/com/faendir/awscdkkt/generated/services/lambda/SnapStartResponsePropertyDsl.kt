@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.CfnFunction
 
 @Generated
-public fun buildSnapStartResponseProperty(initializer: @AwsCdkDsl
-    CfnFunction.SnapStartResponseProperty.Builder.() -> Unit = {}):
-    CfnFunction.SnapStartResponseProperty =
-    CfnFunction.SnapStartResponseProperty.Builder().apply(initializer).build()
+public fun buildSnapStartResponseProperty(initializer: @AwsCdkDsl CfnFunction.SnapStartResponseProperty.Builder.() -> Unit = {}): CfnFunction.SnapStartResponseProperty = CfnFunction.SnapStartResponseProperty.Builder().apply(initializer).build()

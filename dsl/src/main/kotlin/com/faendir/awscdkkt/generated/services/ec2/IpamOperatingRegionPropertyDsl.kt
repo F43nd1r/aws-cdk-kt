@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnIPAMResourceDiscovery
 
 @Generated
-public fun buildIpamOperatingRegionProperty(initializer: @AwsCdkDsl
-    CfnIPAMResourceDiscovery.IpamOperatingRegionProperty.Builder.() -> Unit = {}):
-    CfnIPAMResourceDiscovery.IpamOperatingRegionProperty =
-    CfnIPAMResourceDiscovery.IpamOperatingRegionProperty.Builder().apply(initializer).build()
+public fun buildIpamOperatingRegionProperty(initializer: @AwsCdkDsl CfnIPAMResourceDiscovery.IpamOperatingRegionProperty.Builder.() -> Unit = {}): CfnIPAMResourceDiscovery.IpamOperatingRegionProperty = CfnIPAMResourceDiscovery.IpamOperatingRegionProperty.Builder().apply(initializer).build()

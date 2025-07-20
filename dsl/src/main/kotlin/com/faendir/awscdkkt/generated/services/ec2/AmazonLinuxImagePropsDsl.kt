@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.AmazonLinuxImageProps
 
 @Generated
-public fun buildAmazonLinuxImageProps(initializer: @AwsCdkDsl
-    AmazonLinuxImageProps.Builder.() -> Unit = {}): AmazonLinuxImageProps =
-    AmazonLinuxImageProps.Builder().apply(initializer).build()
+public fun buildAmazonLinuxImageProps(initializer: @AwsCdkDsl AmazonLinuxImageProps.Builder.() -> Unit = {}): AmazonLinuxImageProps = AmazonLinuxImageProps.Builder().apply(initializer).build()

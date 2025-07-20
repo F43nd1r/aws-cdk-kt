@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.ServiceManagedVolumeProps
 
 @Generated
-public fun buildServiceManagedVolumeProps(initializer: @AwsCdkDsl
-    ServiceManagedVolumeProps.Builder.() -> Unit = {}): ServiceManagedVolumeProps =
-    ServiceManagedVolumeProps.Builder().apply(initializer).build()
+public fun buildServiceManagedVolumeProps(initializer: @AwsCdkDsl ServiceManagedVolumeProps.Builder.() -> Unit = {}): ServiceManagedVolumeProps = ServiceManagedVolumeProps.Builder().apply(initializer).build()

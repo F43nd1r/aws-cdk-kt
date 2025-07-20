@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVerifiedAccessEndpoint
 
 @Generated
-public fun buildCidrOptionsProperty(initializer: @AwsCdkDsl
-    CfnVerifiedAccessEndpoint.CidrOptionsProperty.Builder.() -> Unit = {}):
-    CfnVerifiedAccessEndpoint.CidrOptionsProperty =
-    CfnVerifiedAccessEndpoint.CidrOptionsProperty.Builder().apply(initializer).build()
+public fun buildCidrOptionsProperty(initializer: @AwsCdkDsl CfnVerifiedAccessEndpoint.CidrOptionsProperty.Builder.() -> Unit = {}): CfnVerifiedAccessEndpoint.CidrOptionsProperty = CfnVerifiedAccessEndpoint.CidrOptionsProperty.Builder().apply(initializer).build()

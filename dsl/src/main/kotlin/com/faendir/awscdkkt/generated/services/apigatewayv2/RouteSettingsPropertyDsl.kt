@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.CfnStage
 
 @Generated
-public fun buildRouteSettingsProperty(initializer: @AwsCdkDsl
-    CfnStage.RouteSettingsProperty.Builder.() -> Unit = {}): CfnStage.RouteSettingsProperty =
-    CfnStage.RouteSettingsProperty.Builder().apply(initializer).build()
+public fun buildRouteSettingsProperty(initializer: @AwsCdkDsl CfnStage.RouteSettingsProperty.Builder.() -> Unit = {}): CfnStage.RouteSettingsProperty = CfnStage.RouteSettingsProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.targets.AppSyncGraphQLApiProps
 
 @Generated
-public fun buildAppSyncGraphQLApiProps(initializer: @AwsCdkDsl
-    AppSyncGraphQLApiProps.Builder.() -> Unit = {}): AppSyncGraphQLApiProps =
-    AppSyncGraphQLApiProps.Builder().apply(initializer).build()
+public fun buildAppSyncGraphQLApiProps(initializer: @AwsCdkDsl AppSyncGraphQLApiProps.Builder.() -> Unit = {}): AppSyncGraphQLApiProps = AppSyncGraphQLApiProps.Builder().apply(initializer).build()

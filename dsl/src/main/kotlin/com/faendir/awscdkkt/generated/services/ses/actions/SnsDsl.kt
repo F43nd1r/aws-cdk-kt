@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.actions.Sns
 
 @Generated
-public fun buildSns(initializer: @AwsCdkDsl Sns.Builder.() -> Unit = {}): Sns =
-    Sns.Builder.create().apply(initializer).build()
+public fun buildSns(initializer: @AwsCdkDsl Sns.Builder.() -> Unit = {}): Sns = Sns.Builder.create().apply(initializer).build()

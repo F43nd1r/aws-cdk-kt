@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.ContainerMountPoint
 
 @Generated
-public fun buildContainerMountPoint(initializer: @AwsCdkDsl ContainerMountPoint.Builder.() -> Unit =
-    {}): ContainerMountPoint = ContainerMountPoint.Builder().apply(initializer).build()
+public fun buildContainerMountPoint(initializer: @AwsCdkDsl ContainerMountPoint.Builder.() -> Unit = {}): ContainerMountPoint = ContainerMountPoint.Builder().apply(initializer).build()

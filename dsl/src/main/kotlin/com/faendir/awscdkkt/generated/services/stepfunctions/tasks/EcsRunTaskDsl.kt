@@ -16,6 +16,4 @@ public fun Construct.ecsRunTask(
 ): EcsRunTask = EcsRunTask(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEcsRunTask(id: String, initializer: @AwsCdkDsl
-    EcsRunTask.Builder.() -> Unit = {}): EcsRunTask = EcsRunTask.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildEcsRunTask(id: String, initializer: @AwsCdkDsl EcsRunTask.Builder.() -> Unit = {}): EcsRunTask = EcsRunTask.Builder.create(this, id).apply(initializer).build()

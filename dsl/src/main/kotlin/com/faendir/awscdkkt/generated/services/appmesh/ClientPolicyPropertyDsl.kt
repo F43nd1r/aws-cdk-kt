@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnVirtualNode
 
 @Generated
-public fun buildClientPolicyProperty(initializer: @AwsCdkDsl
-    CfnVirtualNode.ClientPolicyProperty.Builder.() -> Unit = {}):
-    CfnVirtualNode.ClientPolicyProperty =
-    CfnVirtualNode.ClientPolicyProperty.Builder().apply(initializer).build()
+public fun buildClientPolicyProperty(initializer: @AwsCdkDsl CfnVirtualNode.ClientPolicyProperty.Builder.() -> Unit = {}): CfnVirtualNode.ClientPolicyProperty = CfnVirtualNode.ClientPolicyProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnAuthorizer(
 ): CfnAuthorizer = CfnAuthorizer(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAuthorizer(id: String, initializer: @AwsCdkDsl
-    CfnAuthorizer.Builder.() -> Unit = {}): CfnAuthorizer = CfnAuthorizer.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnAuthorizer(id: String, initializer: @AwsCdkDsl CfnAuthorizer.Builder.() -> Unit = {}): CfnAuthorizer = CfnAuthorizer.Builder.create(this, id).apply(initializer).build()

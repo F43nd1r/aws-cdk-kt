@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnAIPromptVersionProps
 
 @Generated
-public fun buildCfnAIPromptVersionProps(initializer: @AwsCdkDsl
-    CfnAIPromptVersionProps.Builder.() -> Unit = {}): CfnAIPromptVersionProps =
-    CfnAIPromptVersionProps.Builder().apply(initializer).build()
+public fun buildCfnAIPromptVersionProps(initializer: @AwsCdkDsl CfnAIPromptVersionProps.Builder.() -> Unit = {}): CfnAIPromptVersionProps = CfnAIPromptVersionProps.Builder().apply(initializer).build()

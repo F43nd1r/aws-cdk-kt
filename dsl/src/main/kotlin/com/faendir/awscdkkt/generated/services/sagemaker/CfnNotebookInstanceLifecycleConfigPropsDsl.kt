@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnNotebookInstanceLifecycleConfigProps
 
 @Generated
-public fun buildCfnNotebookInstanceLifecycleConfigProps(initializer: @AwsCdkDsl
-    CfnNotebookInstanceLifecycleConfigProps.Builder.() -> Unit = {}):
-    CfnNotebookInstanceLifecycleConfigProps =
-    CfnNotebookInstanceLifecycleConfigProps.Builder().apply(initializer).build()
+public fun buildCfnNotebookInstanceLifecycleConfigProps(initializer: @AwsCdkDsl CfnNotebookInstanceLifecycleConfigProps.Builder.() -> Unit = {}): CfnNotebookInstanceLifecycleConfigProps = CfnNotebookInstanceLifecycleConfigProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediaconnect.CfnBridgeOutput
 
 @Generated
-public fun buildBridgeNetworkOutputProperty(initializer: @AwsCdkDsl
-    CfnBridgeOutput.BridgeNetworkOutputProperty.Builder.() -> Unit = {}):
-    CfnBridgeOutput.BridgeNetworkOutputProperty =
-    CfnBridgeOutput.BridgeNetworkOutputProperty.Builder().apply(initializer).build()
+public fun buildBridgeNetworkOutputProperty(initializer: @AwsCdkDsl CfnBridgeOutput.BridgeNetworkOutputProperty.Builder.() -> Unit = {}): CfnBridgeOutput.BridgeNetworkOutputProperty = CfnBridgeOutput.BridgeNetworkOutputProperty.Builder().apply(initializer).build()

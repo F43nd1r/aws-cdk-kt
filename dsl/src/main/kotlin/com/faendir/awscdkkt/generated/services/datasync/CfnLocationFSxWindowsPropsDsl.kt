@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datasync.CfnLocationFSxWindowsProps
 
 @Generated
-public fun buildCfnLocationFSxWindowsProps(initializer: @AwsCdkDsl
-    CfnLocationFSxWindowsProps.Builder.() -> Unit = {}): CfnLocationFSxWindowsProps =
-    CfnLocationFSxWindowsProps.Builder().apply(initializer).build()
+public fun buildCfnLocationFSxWindowsProps(initializer: @AwsCdkDsl CfnLocationFSxWindowsProps.Builder.() -> Unit = {}): CfnLocationFSxWindowsProps = CfnLocationFSxWindowsProps.Builder().apply(initializer).build()

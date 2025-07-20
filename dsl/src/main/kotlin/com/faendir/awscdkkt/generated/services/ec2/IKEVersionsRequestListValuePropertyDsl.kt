@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVPNConnection
 
 @Generated
-public fun buildIKEVersionsRequestListValueProperty(initializer: @AwsCdkDsl
-    CfnVPNConnection.IKEVersionsRequestListValueProperty.Builder.() -> Unit = {}):
-    CfnVPNConnection.IKEVersionsRequestListValueProperty =
-    CfnVPNConnection.IKEVersionsRequestListValueProperty.Builder().apply(initializer).build()
+public fun buildIKEVersionsRequestListValueProperty(initializer: @AwsCdkDsl CfnVPNConnection.IKEVersionsRequestListValueProperty.Builder.() -> Unit = {}): CfnVPNConnection.IKEVersionsRequestListValueProperty = CfnVPNConnection.IKEVersionsRequestListValueProperty.Builder().apply(initializer).build()

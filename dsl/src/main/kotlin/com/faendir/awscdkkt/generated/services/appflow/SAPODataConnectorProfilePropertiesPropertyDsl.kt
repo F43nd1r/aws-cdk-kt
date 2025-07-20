@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnConnectorProfile
 
 @Generated
-public fun buildSAPODataConnectorProfilePropertiesProperty(initializer: @AwsCdkDsl
-    CfnConnectorProfile.SAPODataConnectorProfilePropertiesProperty.Builder.() -> Unit = {}):
-    CfnConnectorProfile.SAPODataConnectorProfilePropertiesProperty =
-    CfnConnectorProfile.SAPODataConnectorProfilePropertiesProperty.Builder().apply(initializer).build()
+public fun buildSAPODataConnectorProfilePropertiesProperty(initializer: @AwsCdkDsl CfnConnectorProfile.SAPODataConnectorProfilePropertiesProperty.Builder.() -> Unit = {}): CfnConnectorProfile.SAPODataConnectorProfilePropertiesProperty = CfnConnectorProfile.SAPODataConnectorProfilePropertiesProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnFlowAlias
 
 @Generated
-public fun buildFlowAliasRoutingConfigurationListItemProperty(initializer: @AwsCdkDsl
-    CfnFlowAlias.FlowAliasRoutingConfigurationListItemProperty.Builder.() -> Unit = {}):
-    CfnFlowAlias.FlowAliasRoutingConfigurationListItemProperty =
-    CfnFlowAlias.FlowAliasRoutingConfigurationListItemProperty.Builder().apply(initializer).build()
+public fun buildFlowAliasRoutingConfigurationListItemProperty(initializer: @AwsCdkDsl CfnFlowAlias.FlowAliasRoutingConfigurationListItemProperty.Builder.() -> Unit = {}): CfnFlowAlias.FlowAliasRoutingConfigurationListItemProperty = CfnFlowAlias.FlowAliasRoutingConfigurationListItemProperty.Builder().apply(initializer).build()

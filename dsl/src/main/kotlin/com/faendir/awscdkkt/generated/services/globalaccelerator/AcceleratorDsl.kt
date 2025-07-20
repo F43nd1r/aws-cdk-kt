@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.globalaccelerator.AcceleratorProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.accelerator(id: String, initializer: @AwsCdkDsl Accelerator.() -> Unit = {}):
-    Accelerator = Accelerator(this, id).apply(initializer)
+public fun Construct.accelerator(id: String, initializer: @AwsCdkDsl Accelerator.() -> Unit = {}): Accelerator = Accelerator(this, id).apply(initializer)
 
 @Generated
 public fun Construct.accelerator(
@@ -20,6 +19,4 @@ public fun Construct.accelerator(
 ): Accelerator = Accelerator(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAccelerator(id: String, initializer: @AwsCdkDsl
-    Accelerator.Builder.() -> Unit = {}): Accelerator = Accelerator.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildAccelerator(id: String, initializer: @AwsCdkDsl Accelerator.Builder.() -> Unit = {}): Accelerator = Accelerator.Builder.create(this, id).apply(initializer).build()

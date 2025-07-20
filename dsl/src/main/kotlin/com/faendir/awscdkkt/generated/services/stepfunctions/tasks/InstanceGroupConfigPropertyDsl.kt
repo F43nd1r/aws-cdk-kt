@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrCreateCluster
 
 @Generated
-public fun buildInstanceGroupConfigProperty(initializer: @AwsCdkDsl
-    EmrCreateCluster.InstanceGroupConfigProperty.Builder.() -> Unit = {}):
-    EmrCreateCluster.InstanceGroupConfigProperty =
-    EmrCreateCluster.InstanceGroupConfigProperty.Builder().apply(initializer).build()
+public fun buildInstanceGroupConfigProperty(initializer: @AwsCdkDsl EmrCreateCluster.InstanceGroupConfigProperty.Builder.() -> Unit = {}): EmrCreateCluster.InstanceGroupConfigProperty = EmrCreateCluster.InstanceGroupConfigProperty.Builder().apply(initializer).build()

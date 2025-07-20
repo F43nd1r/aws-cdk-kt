@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrContainersStartJobRunJsonPathProps
 
 @Generated
-public fun buildEmrContainersStartJobRunJsonPathProps(initializer: @AwsCdkDsl
-    EmrContainersStartJobRunJsonPathProps.Builder.() -> Unit = {}):
-    EmrContainersStartJobRunJsonPathProps =
-    EmrContainersStartJobRunJsonPathProps.Builder().apply(initializer).build()
+public fun buildEmrContainersStartJobRunJsonPathProps(initializer: @AwsCdkDsl EmrContainersStartJobRunJsonPathProps.Builder.() -> Unit = {}): EmrContainersStartJobRunJsonPathProps = EmrContainersStartJobRunJsonPathProps.Builder().apply(initializer).build()

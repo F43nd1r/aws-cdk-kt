@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mpa.CfnApprovalTeam
 
 @Generated
-public fun buildPolicyProperty(initializer: @AwsCdkDsl
-    CfnApprovalTeam.PolicyProperty.Builder.() -> Unit = {}): CfnApprovalTeam.PolicyProperty =
-    CfnApprovalTeam.PolicyProperty.Builder().apply(initializer).build()
+public fun buildPolicyProperty(initializer: @AwsCdkDsl CfnApprovalTeam.PolicyProperty.Builder.() -> Unit = {}): CfnApprovalTeam.PolicyProperty = CfnApprovalTeam.PolicyProperty.Builder().apply(initializer).build()

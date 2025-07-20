@@ -16,6 +16,4 @@ public fun Construct.databaseInstanceReadReplica(
 ): DatabaseInstanceReadReplica = DatabaseInstanceReadReplica(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildDatabaseInstanceReadReplica(id: String, initializer: @AwsCdkDsl
-    DatabaseInstanceReadReplica.Builder.() -> Unit = {}): DatabaseInstanceReadReplica =
-    DatabaseInstanceReadReplica.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildDatabaseInstanceReadReplica(id: String, initializer: @AwsCdkDsl DatabaseInstanceReadReplica.Builder.() -> Unit = {}): DatabaseInstanceReadReplica = DatabaseInstanceReadReplica.Builder.create(this, id).apply(initializer).build()

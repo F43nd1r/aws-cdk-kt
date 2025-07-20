@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildTimeRangeFilterValueProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TimeRangeFilterValueProperty.Builder.() -> Unit = {}):
-    CfnTemplate.TimeRangeFilterValueProperty =
-    CfnTemplate.TimeRangeFilterValueProperty.Builder().apply(initializer).build()
+public fun buildTimeRangeFilterValueProperty(initializer: @AwsCdkDsl CfnTemplate.TimeRangeFilterValueProperty.Builder.() -> Unit = {}): CfnTemplate.TimeRangeFilterValueProperty = CfnTemplate.TimeRangeFilterValueProperty.Builder().apply(initializer).build()

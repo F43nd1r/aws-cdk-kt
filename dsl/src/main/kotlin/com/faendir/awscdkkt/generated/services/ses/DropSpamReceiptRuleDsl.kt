@@ -16,6 +16,4 @@ public fun Construct.dropSpamReceiptRule(
 ): DropSpamReceiptRule = DropSpamReceiptRule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildDropSpamReceiptRule(id: String, initializer: @AwsCdkDsl
-    DropSpamReceiptRule.Builder.() -> Unit = {}): DropSpamReceiptRule =
-    DropSpamReceiptRule.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildDropSpamReceiptRule(id: String, initializer: @AwsCdkDsl DropSpamReceiptRule.Builder.() -> Unit = {}): DropSpamReceiptRule = DropSpamReceiptRule.Builder.create(this, id).apply(initializer).build()

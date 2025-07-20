@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mpa.CfnIdentitySourceProps
 
 @Generated
-public fun buildCfnIdentitySourceProps(initializer: @AwsCdkDsl
-    CfnIdentitySourceProps.Builder.() -> Unit = {}): CfnIdentitySourceProps =
-    CfnIdentitySourceProps.Builder().apply(initializer).build()
+public fun buildCfnIdentitySourceProps(initializer: @AwsCdkDsl CfnIdentitySourceProps.Builder.() -> Unit = {}): CfnIdentitySourceProps = CfnIdentitySourceProps.Builder().apply(initializer).build()

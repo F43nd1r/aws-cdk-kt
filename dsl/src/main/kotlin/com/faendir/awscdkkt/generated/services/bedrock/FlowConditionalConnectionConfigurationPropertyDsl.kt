@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnFlowVersion
 
 @Generated
-public fun buildFlowConditionalConnectionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFlowVersion.FlowConditionalConnectionConfigurationProperty.Builder.() -> Unit = {}):
-    CfnFlowVersion.FlowConditionalConnectionConfigurationProperty =
-    CfnFlowVersion.FlowConditionalConnectionConfigurationProperty.Builder().apply(initializer).build()
+public fun buildFlowConditionalConnectionConfigurationProperty(initializer: @AwsCdkDsl CfnFlowVersion.FlowConditionalConnectionConfigurationProperty.Builder.() -> Unit = {}): CfnFlowVersion.FlowConditionalConnectionConfigurationProperty = CfnFlowVersion.FlowConditionalConnectionConfigurationProperty.Builder().apply(initializer).build()

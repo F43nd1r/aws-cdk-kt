@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.resiliencehub.CfnApp
 
 @Generated
-public fun buildPermissionModelProperty(initializer: @AwsCdkDsl
-    CfnApp.PermissionModelProperty.Builder.() -> Unit = {}): CfnApp.PermissionModelProperty =
-    CfnApp.PermissionModelProperty.Builder().apply(initializer).build()
+public fun buildPermissionModelProperty(initializer: @AwsCdkDsl CfnApp.PermissionModelProperty.Builder.() -> Unit = {}): CfnApp.PermissionModelProperty = CfnApp.PermissionModelProperty.Builder().apply(initializer).build()

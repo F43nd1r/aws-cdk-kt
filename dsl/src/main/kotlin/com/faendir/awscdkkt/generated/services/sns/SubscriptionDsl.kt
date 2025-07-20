@@ -16,6 +16,4 @@ public fun Construct.subscription(
 ): Subscription = Subscription(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildSubscription(id: String, initializer: @AwsCdkDsl
-    Subscription.Builder.() -> Unit = {}): Subscription = Subscription.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildSubscription(id: String, initializer: @AwsCdkDsl Subscription.Builder.() -> Unit = {}): Subscription = Subscription.Builder.create(this, id).apply(initializer).build()

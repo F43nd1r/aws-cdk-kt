@@ -16,5 +16,4 @@ public fun Construct.cfnOutput(
 ): CfnOutput = CfnOutput(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnOutput(id: String, initializer: @AwsCdkDsl CfnOutput.Builder.() -> Unit
-    = {}): CfnOutput = CfnOutput.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnOutput(id: String, initializer: @AwsCdkDsl CfnOutput.Builder.() -> Unit = {}): CfnOutput = CfnOutput.Builder.create(this, id).apply(initializer).build()

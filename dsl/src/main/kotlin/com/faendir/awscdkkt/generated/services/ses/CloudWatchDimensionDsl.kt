@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CloudWatchDimension
 
 @Generated
-public fun buildCloudWatchDimension(initializer: @AwsCdkDsl CloudWatchDimension.Builder.() -> Unit =
-    {}): CloudWatchDimension = CloudWatchDimension.Builder().apply(initializer).build()
+public fun buildCloudWatchDimension(initializer: @AwsCdkDsl CloudWatchDimension.Builder.() -> Unit = {}): CloudWatchDimension = CloudWatchDimension.Builder().apply(initializer).build()

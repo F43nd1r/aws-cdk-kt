@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datasync.CfnTask
 
 @Generated
-public fun buildDeletedProperty(initializer: @AwsCdkDsl CfnTask.DeletedProperty.Builder.() -> Unit =
-    {}): CfnTask.DeletedProperty = CfnTask.DeletedProperty.Builder().apply(initializer).build()
+public fun buildDeletedProperty(initializer: @AwsCdkDsl CfnTask.DeletedProperty.Builder.() -> Unit = {}): CfnTask.DeletedProperty = CfnTask.DeletedProperty.Builder().apply(initializer).build()

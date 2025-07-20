@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.DataSource
 
 @Generated
-public fun buildDataSource(initializer: @AwsCdkDsl DataSource.Builder.() -> Unit = {}): DataSource =
-    DataSource.Builder().apply(initializer).build()
+public fun buildDataSource(initializer: @AwsCdkDsl DataSource.Builder.() -> Unit = {}): DataSource = DataSource.Builder().apply(initializer).build()

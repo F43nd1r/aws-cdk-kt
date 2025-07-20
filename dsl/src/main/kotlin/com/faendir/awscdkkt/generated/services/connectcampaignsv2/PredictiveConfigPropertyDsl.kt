@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connectcampaignsv2.CfnCampaign
 
 @Generated
-public fun buildPredictiveConfigProperty(initializer: @AwsCdkDsl
-    CfnCampaign.PredictiveConfigProperty.Builder.() -> Unit = {}):
-    CfnCampaign.PredictiveConfigProperty =
-    CfnCampaign.PredictiveConfigProperty.Builder().apply(initializer).build()
+public fun buildPredictiveConfigProperty(initializer: @AwsCdkDsl CfnCampaign.PredictiveConfigProperty.Builder.() -> Unit = {}): CfnCampaign.PredictiveConfigProperty = CfnCampaign.PredictiveConfigProperty.Builder().apply(initializer).build()

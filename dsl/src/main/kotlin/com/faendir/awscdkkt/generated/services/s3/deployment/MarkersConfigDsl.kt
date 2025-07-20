@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.deployment.MarkersConfig
 
 @Generated
-public fun buildMarkersConfig(initializer: @AwsCdkDsl MarkersConfig.Builder.() -> Unit = {}):
-    MarkersConfig = MarkersConfig.Builder().apply(initializer).build()
+public fun buildMarkersConfig(initializer: @AwsCdkDsl MarkersConfig.Builder.() -> Unit = {}): MarkersConfig = MarkersConfig.Builder().apply(initializer).build()

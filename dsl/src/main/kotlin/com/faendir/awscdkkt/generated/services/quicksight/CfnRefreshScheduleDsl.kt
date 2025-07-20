@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.quicksight.CfnRefreshScheduleProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnRefreshSchedule(id: String, initializer: @AwsCdkDsl
-    CfnRefreshSchedule.() -> Unit = {}): CfnRefreshSchedule = CfnRefreshSchedule(this,
-    id).apply(initializer)
+public fun Construct.cfnRefreshSchedule(id: String, initializer: @AwsCdkDsl CfnRefreshSchedule.() -> Unit = {}): CfnRefreshSchedule = CfnRefreshSchedule(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnRefreshSchedule(
@@ -21,6 +19,4 @@ public fun Construct.cfnRefreshSchedule(
 ): CfnRefreshSchedule = CfnRefreshSchedule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRefreshSchedule(id: String, initializer: @AwsCdkDsl
-    CfnRefreshSchedule.Builder.() -> Unit = {}): CfnRefreshSchedule =
-    CfnRefreshSchedule.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRefreshSchedule(id: String, initializer: @AwsCdkDsl CfnRefreshSchedule.Builder.() -> Unit = {}): CfnRefreshSchedule = CfnRefreshSchedule.Builder.create(this, id).apply(initializer).build()

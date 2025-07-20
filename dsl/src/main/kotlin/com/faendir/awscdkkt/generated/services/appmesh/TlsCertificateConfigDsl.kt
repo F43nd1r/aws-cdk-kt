@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.TlsCertificateConfig
 
 @Generated
-public fun buildTlsCertificateConfig(initializer: @AwsCdkDsl TlsCertificateConfig.Builder.() -> Unit
-    = {}): TlsCertificateConfig = TlsCertificateConfig.Builder().apply(initializer).build()
+public fun buildTlsCertificateConfig(initializer: @AwsCdkDsl TlsCertificateConfig.Builder.() -> Unit = {}): TlsCertificateConfig = TlsCertificateConfig.Builder().apply(initializer).build()

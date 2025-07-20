@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnMonitoringSchedule
 
 @Generated
-public fun buildNetworkConfigProperty(initializer: @AwsCdkDsl
-    CfnMonitoringSchedule.NetworkConfigProperty.Builder.() -> Unit = {}):
-    CfnMonitoringSchedule.NetworkConfigProperty =
-    CfnMonitoringSchedule.NetworkConfigProperty.Builder().apply(initializer).build()
+public fun buildNetworkConfigProperty(initializer: @AwsCdkDsl CfnMonitoringSchedule.NetworkConfigProperty.Builder.() -> Unit = {}): CfnMonitoringSchedule.NetworkConfigProperty = CfnMonitoringSchedule.NetworkConfigProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.CfnRule
 
 @Generated
-public fun buildDeadLetterConfigProperty(initializer: @AwsCdkDsl
-    CfnRule.DeadLetterConfigProperty.Builder.() -> Unit = {}): CfnRule.DeadLetterConfigProperty =
-    CfnRule.DeadLetterConfigProperty.Builder().apply(initializer).build()
+public fun buildDeadLetterConfigProperty(initializer: @AwsCdkDsl CfnRule.DeadLetterConfigProperty.Builder.() -> Unit = {}): CfnRule.DeadLetterConfigProperty = CfnRule.DeadLetterConfigProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssmcontacts.CfnPlan
 
 @Generated
-public fun buildContactTargetInfoProperty(initializer: @AwsCdkDsl
-    CfnPlan.ContactTargetInfoProperty.Builder.() -> Unit = {}): CfnPlan.ContactTargetInfoProperty =
-    CfnPlan.ContactTargetInfoProperty.Builder().apply(initializer).build()
+public fun buildContactTargetInfoProperty(initializer: @AwsCdkDsl CfnPlan.ContactTargetInfoProperty.Builder.() -> Unit = {}): CfnPlan.ContactTargetInfoProperty = CfnPlan.ContactTargetInfoProperty.Builder().apply(initializer).build()

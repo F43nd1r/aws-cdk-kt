@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lakeformation.CfnDataLakeSettingsProps
 
 @Generated
-public fun buildCfnDataLakeSettingsProps(initializer: @AwsCdkDsl
-    CfnDataLakeSettingsProps.Builder.() -> Unit = {}): CfnDataLakeSettingsProps =
-    CfnDataLakeSettingsProps.Builder().apply(initializer).build()
+public fun buildCfnDataLakeSettingsProps(initializer: @AwsCdkDsl CfnDataLakeSettingsProps.Builder.() -> Unit = {}): CfnDataLakeSettingsProps = CfnDataLakeSettingsProps.Builder().apply(initializer).build()

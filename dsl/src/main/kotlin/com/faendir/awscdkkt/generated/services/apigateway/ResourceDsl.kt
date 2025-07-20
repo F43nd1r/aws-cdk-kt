@@ -16,5 +16,4 @@ public fun Construct.resource(
 ): Resource = Resource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildResource(id: String, initializer: @AwsCdkDsl Resource.Builder.() -> Unit =
-    {}): Resource = Resource.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildResource(id: String, initializer: @AwsCdkDsl Resource.Builder.() -> Unit = {}): Resource = Resource.Builder.create(this, id).apply(initializer).build()

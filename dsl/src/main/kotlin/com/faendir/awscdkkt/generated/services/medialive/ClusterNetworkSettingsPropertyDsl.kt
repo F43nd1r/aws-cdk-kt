@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnCluster
 
 @Generated
-public fun buildClusterNetworkSettingsProperty(initializer: @AwsCdkDsl
-    CfnCluster.ClusterNetworkSettingsProperty.Builder.() -> Unit = {}):
-    CfnCluster.ClusterNetworkSettingsProperty =
-    CfnCluster.ClusterNetworkSettingsProperty.Builder().apply(initializer).build()
+public fun buildClusterNetworkSettingsProperty(initializer: @AwsCdkDsl CfnCluster.ClusterNetworkSettingsProperty.Builder.() -> Unit = {}): CfnCluster.ClusterNetworkSettingsProperty = CfnCluster.ClusterNetworkSettingsProperty.Builder().apply(initializer).build()

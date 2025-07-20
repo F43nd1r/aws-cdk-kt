@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnTopicRule
 
 @Generated
-public fun buildHttpActionHeaderProperty(initializer: @AwsCdkDsl
-    CfnTopicRule.HttpActionHeaderProperty.Builder.() -> Unit = {}):
-    CfnTopicRule.HttpActionHeaderProperty =
-    CfnTopicRule.HttpActionHeaderProperty.Builder().apply(initializer).build()
+public fun buildHttpActionHeaderProperty(initializer: @AwsCdkDsl CfnTopicRule.HttpActionHeaderProperty.Builder.() -> Unit = {}): CfnTopicRule.HttpActionHeaderProperty = CfnTopicRule.HttpActionHeaderProperty.Builder().apply(initializer).build()

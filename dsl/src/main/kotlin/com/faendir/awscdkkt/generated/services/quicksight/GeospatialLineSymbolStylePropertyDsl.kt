@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
-public fun buildGeospatialLineSymbolStyleProperty(initializer: @AwsCdkDsl
-    CfnDashboard.GeospatialLineSymbolStyleProperty.Builder.() -> Unit = {}):
-    CfnDashboard.GeospatialLineSymbolStyleProperty =
-    CfnDashboard.GeospatialLineSymbolStyleProperty.Builder().apply(initializer).build()
+public fun buildGeospatialLineSymbolStyleProperty(initializer: @AwsCdkDsl CfnDashboard.GeospatialLineSymbolStyleProperty.Builder.() -> Unit = {}): CfnDashboard.GeospatialLineSymbolStyleProperty = CfnDashboard.GeospatialLineSymbolStyleProperty.Builder().apply(initializer).build()

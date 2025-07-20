@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.EbsDeviceProps
 
 @Generated
-public fun buildEbsDeviceProps(initializer: @AwsCdkDsl EbsDeviceProps.Builder.() -> Unit = {}):
-    EbsDeviceProps = EbsDeviceProps.Builder().apply(initializer).build()
+public fun buildEbsDeviceProps(initializer: @AwsCdkDsl EbsDeviceProps.Builder.() -> Unit = {}): EbsDeviceProps = EbsDeviceProps.Builder().apply(initializer).build()

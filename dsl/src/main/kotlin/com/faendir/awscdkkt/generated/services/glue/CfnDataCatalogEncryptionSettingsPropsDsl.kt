@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnDataCatalogEncryptionSettingsProps
 
 @Generated
-public fun buildCfnDataCatalogEncryptionSettingsProps(initializer: @AwsCdkDsl
-    CfnDataCatalogEncryptionSettingsProps.Builder.() -> Unit = {}):
-    CfnDataCatalogEncryptionSettingsProps =
-    CfnDataCatalogEncryptionSettingsProps.Builder().apply(initializer).build()
+public fun buildCfnDataCatalogEncryptionSettingsProps(initializer: @AwsCdkDsl CfnDataCatalogEncryptionSettingsProps.Builder.() -> Unit = {}): CfnDataCatalogEncryptionSettingsProps = CfnDataCatalogEncryptionSettingsProps.Builder().apply(initializer).build()

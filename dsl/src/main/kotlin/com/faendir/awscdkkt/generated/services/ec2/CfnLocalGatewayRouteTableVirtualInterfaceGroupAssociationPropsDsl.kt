@@ -6,8 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociationProps
 
 @Generated
-public
-    fun buildCfnLocalGatewayRouteTableVirtualInterfaceGroupAssociationProps(initializer: @AwsCdkDsl
-    CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociationProps.Builder.() -> Unit = {}):
-    CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociationProps =
-    CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnLocalGatewayRouteTableVirtualInterfaceGroupAssociationProps(initializer: @AwsCdkDsl CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociationProps.Builder.() -> Unit = {}): CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociationProps = CfnLocalGatewayRouteTableVirtualInterfaceGroupAssociationProps.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnContinuousDeploymentPolicy(
 ): CfnContinuousDeploymentPolicy = CfnContinuousDeploymentPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnContinuousDeploymentPolicy(id: String, initializer: @AwsCdkDsl
-    CfnContinuousDeploymentPolicy.Builder.() -> Unit = {}): CfnContinuousDeploymentPolicy =
-    CfnContinuousDeploymentPolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnContinuousDeploymentPolicy(id: String, initializer: @AwsCdkDsl CfnContinuousDeploymentPolicy.Builder.() -> Unit = {}): CfnContinuousDeploymentPolicy = CfnContinuousDeploymentPolicy.Builder.create(this, id).apply(initializer).build()

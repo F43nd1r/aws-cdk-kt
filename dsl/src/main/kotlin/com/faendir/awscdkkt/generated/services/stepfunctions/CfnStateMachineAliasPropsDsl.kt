@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.CfnStateMachineAliasProps
 
 @Generated
-public fun buildCfnStateMachineAliasProps(initializer: @AwsCdkDsl
-    CfnStateMachineAliasProps.Builder.() -> Unit = {}): CfnStateMachineAliasProps =
-    CfnStateMachineAliasProps.Builder().apply(initializer).build()
+public fun buildCfnStateMachineAliasProps(initializer: @AwsCdkDsl CfnStateMachineAliasProps.Builder.() -> Unit = {}): CfnStateMachineAliasProps = CfnStateMachineAliasProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cassandra.CfnTable
 
 @Generated
-public fun buildAutoScalingSpecificationProperty(initializer: @AwsCdkDsl
-    CfnTable.AutoScalingSpecificationProperty.Builder.() -> Unit = {}):
-    CfnTable.AutoScalingSpecificationProperty =
-    CfnTable.AutoScalingSpecificationProperty.Builder().apply(initializer).build()
+public fun buildAutoScalingSpecificationProperty(initializer: @AwsCdkDsl CfnTable.AutoScalingSpecificationProperty.Builder.() -> Unit = {}): CfnTable.AutoScalingSpecificationProperty = CfnTable.AutoScalingSpecificationProperty.Builder().apply(initializer).build()

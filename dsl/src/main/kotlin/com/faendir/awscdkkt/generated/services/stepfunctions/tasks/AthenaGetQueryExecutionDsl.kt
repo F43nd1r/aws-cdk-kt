@@ -16,6 +16,4 @@ public fun Construct.athenaGetQueryExecution(
 ): AthenaGetQueryExecution = AthenaGetQueryExecution(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAthenaGetQueryExecution(id: String, initializer: @AwsCdkDsl
-    AthenaGetQueryExecution.Builder.() -> Unit = {}): AthenaGetQueryExecution =
-    AthenaGetQueryExecution.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildAthenaGetQueryExecution(id: String, initializer: @AwsCdkDsl AthenaGetQueryExecution.Builder.() -> Unit = {}): AthenaGetQueryExecution = AthenaGetQueryExecution.Builder.create(this, id).apply(initializer).build()

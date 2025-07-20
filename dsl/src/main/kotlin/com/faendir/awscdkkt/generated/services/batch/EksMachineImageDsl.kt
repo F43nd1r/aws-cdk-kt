@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.EksMachineImage
 
 @Generated
-public fun buildEksMachineImage(initializer: @AwsCdkDsl EksMachineImage.Builder.() -> Unit = {}):
-    EksMachineImage = EksMachineImage.Builder().apply(initializer).build()
+public fun buildEksMachineImage(initializer: @AwsCdkDsl EksMachineImage.Builder.() -> Unit = {}): EksMachineImage = EksMachineImage.Builder().apply(initializer).build()

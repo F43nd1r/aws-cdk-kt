@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sqs.RedriveAllowPolicy
 
 @Generated
-public fun buildRedriveAllowPolicy(initializer: @AwsCdkDsl RedriveAllowPolicy.Builder.() -> Unit =
-    {}): RedriveAllowPolicy = RedriveAllowPolicy.Builder().apply(initializer).build()
+public fun buildRedriveAllowPolicy(initializer: @AwsCdkDsl RedriveAllowPolicy.Builder.() -> Unit = {}): RedriveAllowPolicy = RedriveAllowPolicy.Builder().apply(initializer).build()

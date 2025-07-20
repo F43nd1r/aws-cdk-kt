@@ -16,6 +16,4 @@ public fun Construct.cfnWorkflow(
 ): CfnWorkflow = CfnWorkflow(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnWorkflow(id: String, initializer: @AwsCdkDsl
-    CfnWorkflow.Builder.() -> Unit = {}): CfnWorkflow = CfnWorkflow.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnWorkflow(id: String, initializer: @AwsCdkDsl CfnWorkflow.Builder.() -> Unit = {}): CfnWorkflow = CfnWorkflow.Builder.create(this, id).apply(initializer).build()

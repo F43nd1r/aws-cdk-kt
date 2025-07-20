@@ -13,10 +13,7 @@ public fun Construct.cfnCloudWatchAlarmTemplateGroup(
   id: String,
   props: CfnCloudWatchAlarmTemplateGroupProps,
   initializer: @AwsCdkDsl CfnCloudWatchAlarmTemplateGroup.() -> Unit = {},
-): CfnCloudWatchAlarmTemplateGroup = CfnCloudWatchAlarmTemplateGroup(this, id,
-    props).apply(initializer)
+): CfnCloudWatchAlarmTemplateGroup = CfnCloudWatchAlarmTemplateGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCloudWatchAlarmTemplateGroup(id: String, initializer: @AwsCdkDsl
-    CfnCloudWatchAlarmTemplateGroup.Builder.() -> Unit = {}): CfnCloudWatchAlarmTemplateGroup =
-    CfnCloudWatchAlarmTemplateGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCloudWatchAlarmTemplateGroup(id: String, initializer: @AwsCdkDsl CfnCloudWatchAlarmTemplateGroup.Builder.() -> Unit = {}): CfnCloudWatchAlarmTemplateGroup = CfnCloudWatchAlarmTemplateGroup.Builder.create(this, id).apply(initializer).build()

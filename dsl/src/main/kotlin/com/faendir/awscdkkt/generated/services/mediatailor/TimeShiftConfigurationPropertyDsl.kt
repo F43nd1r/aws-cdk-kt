@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediatailor.CfnChannel
 
 @Generated
-public fun buildTimeShiftConfigurationProperty(initializer: @AwsCdkDsl
-    CfnChannel.TimeShiftConfigurationProperty.Builder.() -> Unit = {}):
-    CfnChannel.TimeShiftConfigurationProperty =
-    CfnChannel.TimeShiftConfigurationProperty.Builder().apply(initializer).build()
+public fun buildTimeShiftConfigurationProperty(initializer: @AwsCdkDsl CfnChannel.TimeShiftConfigurationProperty.Builder.() -> Unit = {}): CfnChannel.TimeShiftConfigurationProperty = CfnChannel.TimeShiftConfigurationProperty.Builder().apply(initializer).build()

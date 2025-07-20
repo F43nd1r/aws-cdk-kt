@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildNetworkConfigurationProperty(initializer: @AwsCdkDsl
-    CfnPipe.NetworkConfigurationProperty.Builder.() -> Unit = {}):
-    CfnPipe.NetworkConfigurationProperty =
-    CfnPipe.NetworkConfigurationProperty.Builder().apply(initializer).build()
+public fun buildNetworkConfigurationProperty(initializer: @AwsCdkDsl CfnPipe.NetworkConfigurationProperty.Builder.() -> Unit = {}): CfnPipe.NetworkConfigurationProperty = CfnPipe.NetworkConfigurationProperty.Builder().apply(initializer).build()

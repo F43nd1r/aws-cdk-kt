@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicecatalog.CfnCloudFormationProvisionedProduct
 
 @Generated
-public fun buildProvisioningParameterProperty(initializer: @AwsCdkDsl
-    CfnCloudFormationProvisionedProduct.ProvisioningParameterProperty.Builder.() -> Unit = {}):
-    CfnCloudFormationProvisionedProduct.ProvisioningParameterProperty =
-    CfnCloudFormationProvisionedProduct.ProvisioningParameterProperty.Builder().apply(initializer).build()
+public fun buildProvisioningParameterProperty(initializer: @AwsCdkDsl CfnCloudFormationProvisionedProduct.ProvisioningParameterProperty.Builder.() -> Unit = {}): CfnCloudFormationProvisionedProduct.ProvisioningParameterProperty = CfnCloudFormationProvisionedProduct.ProvisioningParameterProperty.Builder().apply(initializer).build()

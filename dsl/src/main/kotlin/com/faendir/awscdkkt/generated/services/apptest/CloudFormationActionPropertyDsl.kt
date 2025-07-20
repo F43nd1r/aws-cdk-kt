@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apptest.CfnTestCase
 
 @Generated
-public fun buildCloudFormationActionProperty(initializer: @AwsCdkDsl
-    CfnTestCase.CloudFormationActionProperty.Builder.() -> Unit = {}):
-    CfnTestCase.CloudFormationActionProperty =
-    CfnTestCase.CloudFormationActionProperty.Builder().apply(initializer).build()
+public fun buildCloudFormationActionProperty(initializer: @AwsCdkDsl CfnTestCase.CloudFormationActionProperty.Builder.() -> Unit = {}): CfnTestCase.CloudFormationActionProperty = CfnTestCase.CloudFormationActionProperty.Builder().apply(initializer).build()

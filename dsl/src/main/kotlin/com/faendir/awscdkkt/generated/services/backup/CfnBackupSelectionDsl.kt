@@ -16,6 +16,4 @@ public fun Construct.cfnBackupSelection(
 ): CfnBackupSelection = CfnBackupSelection(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnBackupSelection(id: String, initializer: @AwsCdkDsl
-    CfnBackupSelection.Builder.() -> Unit = {}): CfnBackupSelection =
-    CfnBackupSelection.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnBackupSelection(id: String, initializer: @AwsCdkDsl CfnBackupSelection.Builder.() -> Unit = {}): CfnBackupSelection = CfnBackupSelection.Builder.create(this, id).apply(initializer).build()

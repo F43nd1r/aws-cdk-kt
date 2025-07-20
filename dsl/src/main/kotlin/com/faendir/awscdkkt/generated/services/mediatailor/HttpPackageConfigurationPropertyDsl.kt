@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediatailor.CfnVodSource
 
 @Generated
-public fun buildHttpPackageConfigurationProperty(initializer: @AwsCdkDsl
-    CfnVodSource.HttpPackageConfigurationProperty.Builder.() -> Unit = {}):
-    CfnVodSource.HttpPackageConfigurationProperty =
-    CfnVodSource.HttpPackageConfigurationProperty.Builder().apply(initializer).build()
+public fun buildHttpPackageConfigurationProperty(initializer: @AwsCdkDsl CfnVodSource.HttpPackageConfigurationProperty.Builder.() -> Unit = {}): CfnVodSource.HttpPackageConfigurationProperty = CfnVodSource.HttpPackageConfigurationProperty.Builder().apply(initializer).build()

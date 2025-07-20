@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connectcampaignsv2.CfnCampaign
 
 @Generated
-public fun buildAnswerMachineDetectionConfigProperty(initializer: @AwsCdkDsl
-    CfnCampaign.AnswerMachineDetectionConfigProperty.Builder.() -> Unit = {}):
-    CfnCampaign.AnswerMachineDetectionConfigProperty =
-    CfnCampaign.AnswerMachineDetectionConfigProperty.Builder().apply(initializer).build()
+public fun buildAnswerMachineDetectionConfigProperty(initializer: @AwsCdkDsl CfnCampaign.AnswerMachineDetectionConfigProperty.Builder.() -> Unit = {}): CfnCampaign.AnswerMachineDetectionConfigProperty = CfnCampaign.AnswerMachineDetectionConfigProperty.Builder().apply(initializer).build()

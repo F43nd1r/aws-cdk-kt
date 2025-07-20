@@ -16,6 +16,4 @@ public fun Construct.clientVpnRoute(
 ): ClientVpnRoute = ClientVpnRoute(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildClientVpnRoute(id: String, initializer: @AwsCdkDsl
-    ClientVpnRoute.Builder.() -> Unit = {}): ClientVpnRoute = ClientVpnRoute.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildClientVpnRoute(id: String, initializer: @AwsCdkDsl ClientVpnRoute.Builder.() -> Unit = {}): ClientVpnRoute = ClientVpnRoute.Builder.create(this, id).apply(initializer).build()

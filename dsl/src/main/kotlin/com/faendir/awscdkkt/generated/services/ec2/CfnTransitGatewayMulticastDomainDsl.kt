@@ -13,10 +13,7 @@ public fun Construct.cfnTransitGatewayMulticastDomain(
   id: String,
   props: CfnTransitGatewayMulticastDomainProps,
   initializer: @AwsCdkDsl CfnTransitGatewayMulticastDomain.() -> Unit = {},
-): CfnTransitGatewayMulticastDomain = CfnTransitGatewayMulticastDomain(this, id,
-    props).apply(initializer)
+): CfnTransitGatewayMulticastDomain = CfnTransitGatewayMulticastDomain(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTransitGatewayMulticastDomain(id: String, initializer: @AwsCdkDsl
-    CfnTransitGatewayMulticastDomain.Builder.() -> Unit = {}): CfnTransitGatewayMulticastDomain =
-    CfnTransitGatewayMulticastDomain.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTransitGatewayMulticastDomain(id: String, initializer: @AwsCdkDsl CfnTransitGatewayMulticastDomain.Builder.() -> Unit = {}): CfnTransitGatewayMulticastDomain = CfnTransitGatewayMulticastDomain.Builder.create(this, id).apply(initializer).build()

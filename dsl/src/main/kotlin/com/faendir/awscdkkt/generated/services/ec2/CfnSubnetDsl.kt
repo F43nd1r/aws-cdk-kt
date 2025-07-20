@@ -16,5 +16,4 @@ public fun Construct.cfnSubnet(
 ): CfnSubnet = CfnSubnet(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSubnet(id: String, initializer: @AwsCdkDsl CfnSubnet.Builder.() -> Unit
-    = {}): CfnSubnet = CfnSubnet.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSubnet(id: String, initializer: @AwsCdkDsl CfnSubnet.Builder.() -> Unit = {}): CfnSubnet = CfnSubnet.Builder.create(this, id).apply(initializer).build()

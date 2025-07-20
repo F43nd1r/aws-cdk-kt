@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.TrainingBucketConfiguration
 
 @Generated
-public fun buildTrainingBucketConfiguration(initializer: @AwsCdkDsl
-    TrainingBucketConfiguration.Builder.() -> Unit = {}): TrainingBucketConfiguration =
-    TrainingBucketConfiguration.Builder().apply(initializer).build()
+public fun buildTrainingBucketConfiguration(initializer: @AwsCdkDsl TrainingBucketConfiguration.Builder.() -> Unit = {}): TrainingBucketConfiguration = TrainingBucketConfiguration.Builder().apply(initializer).build()

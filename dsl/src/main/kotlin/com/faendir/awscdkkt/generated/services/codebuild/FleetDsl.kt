@@ -16,5 +16,4 @@ public fun Construct.fleet(
 ): Fleet = Fleet(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildFleet(id: String, initializer: @AwsCdkDsl Fleet.Builder.() -> Unit = {}):
-    Fleet = Fleet.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildFleet(id: String, initializer: @AwsCdkDsl Fleet.Builder.() -> Unit = {}): Fleet = Fleet.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.ItemBatcher
 
 @Generated
-public fun buildItemBatcher(initializer: @AwsCdkDsl ItemBatcher.Builder.() -> Unit = {}):
-    ItemBatcher = ItemBatcher.Builder.create().apply(initializer).build()
+public fun buildItemBatcher(initializer: @AwsCdkDsl ItemBatcher.Builder.() -> Unit = {}): ItemBatcher = ItemBatcher.Builder.create().apply(initializer).build()

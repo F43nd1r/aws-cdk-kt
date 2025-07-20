@@ -16,6 +16,4 @@ public fun Construct.cfnThreatIntelSet(
 ): CfnThreatIntelSet = CfnThreatIntelSet(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnThreatIntelSet(id: String, initializer: @AwsCdkDsl
-    CfnThreatIntelSet.Builder.() -> Unit = {}): CfnThreatIntelSet =
-    CfnThreatIntelSet.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnThreatIntelSet(id: String, initializer: @AwsCdkDsl CfnThreatIntelSet.Builder.() -> Unit = {}): CfnThreatIntelSet = CfnThreatIntelSet.Builder.create(this, id).apply(initializer).build()

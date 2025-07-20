@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkfirewall.CfnTLSInspectionConfiguration
 
 @Generated
-public fun buildTLSInspectionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTLSInspectionConfiguration.TLSInspectionConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTLSInspectionConfiguration.TLSInspectionConfigurationProperty =
-    CfnTLSInspectionConfiguration.TLSInspectionConfigurationProperty.Builder().apply(initializer).build()
+public fun buildTLSInspectionConfigurationProperty(initializer: @AwsCdkDsl CfnTLSInspectionConfiguration.TLSInspectionConfigurationProperty.Builder.() -> Unit = {}): CfnTLSInspectionConfiguration.TLSInspectionConfigurationProperty = CfnTLSInspectionConfiguration.TLSInspectionConfigurationProperty.Builder().apply(initializer).build()

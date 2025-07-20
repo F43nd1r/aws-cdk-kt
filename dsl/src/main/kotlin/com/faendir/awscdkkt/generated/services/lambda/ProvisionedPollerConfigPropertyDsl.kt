@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.CfnEventSourceMapping
 
 @Generated
-public fun buildProvisionedPollerConfigProperty(initializer: @AwsCdkDsl
-    CfnEventSourceMapping.ProvisionedPollerConfigProperty.Builder.() -> Unit = {}):
-    CfnEventSourceMapping.ProvisionedPollerConfigProperty =
-    CfnEventSourceMapping.ProvisionedPollerConfigProperty.Builder().apply(initializer).build()
+public fun buildProvisionedPollerConfigProperty(initializer: @AwsCdkDsl CfnEventSourceMapping.ProvisionedPollerConfigProperty.Builder.() -> Unit = {}): CfnEventSourceMapping.ProvisionedPollerConfigProperty = CfnEventSourceMapping.ProvisionedPollerConfigProperty.Builder().apply(initializer).build()

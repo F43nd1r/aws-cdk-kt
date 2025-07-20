@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.workspacesinstances.CfnWorkspaceInstance
 
 @Generated
-public fun buildBlockDeviceMappingProperty(initializer: @AwsCdkDsl
-    CfnWorkspaceInstance.BlockDeviceMappingProperty.Builder.() -> Unit = {}):
-    CfnWorkspaceInstance.BlockDeviceMappingProperty =
-    CfnWorkspaceInstance.BlockDeviceMappingProperty.Builder().apply(initializer).build()
+public fun buildBlockDeviceMappingProperty(initializer: @AwsCdkDsl CfnWorkspaceInstance.BlockDeviceMappingProperty.Builder.() -> Unit = {}): CfnWorkspaceInstance.BlockDeviceMappingProperty = CfnWorkspaceInstance.BlockDeviceMappingProperty.Builder().apply(initializer).build()

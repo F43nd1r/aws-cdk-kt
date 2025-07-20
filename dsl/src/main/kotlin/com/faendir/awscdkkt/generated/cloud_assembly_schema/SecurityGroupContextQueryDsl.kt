@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloud_assembly_schema.SecurityGroupContextQuery
 
 @Generated
-public fun buildSecurityGroupContextQuery(initializer: @AwsCdkDsl
-    SecurityGroupContextQuery.Builder.() -> Unit = {}): SecurityGroupContextQuery =
-    SecurityGroupContextQuery.Builder().apply(initializer).build()
+public fun buildSecurityGroupContextQuery(initializer: @AwsCdkDsl SecurityGroupContextQuery.Builder.() -> Unit = {}): SecurityGroupContextQuery = SecurityGroupContextQuery.Builder().apply(initializer).build()

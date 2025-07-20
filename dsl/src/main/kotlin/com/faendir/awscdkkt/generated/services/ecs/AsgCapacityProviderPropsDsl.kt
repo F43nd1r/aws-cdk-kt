@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.AsgCapacityProviderProps
 
 @Generated
-public fun buildAsgCapacityProviderProps(initializer: @AwsCdkDsl
-    AsgCapacityProviderProps.Builder.() -> Unit = {}): AsgCapacityProviderProps =
-    AsgCapacityProviderProps.Builder().apply(initializer).build()
+public fun buildAsgCapacityProviderProps(initializer: @AwsCdkDsl AsgCapacityProviderProps.Builder.() -> Unit = {}): AsgCapacityProviderProps = AsgCapacityProviderProps.Builder().apply(initializer).build()

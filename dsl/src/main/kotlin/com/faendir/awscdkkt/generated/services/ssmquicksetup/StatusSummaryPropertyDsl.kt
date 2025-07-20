@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssmquicksetup.CfnConfigurationManager
 
 @Generated
-public fun buildStatusSummaryProperty(initializer: @AwsCdkDsl
-    CfnConfigurationManager.StatusSummaryProperty.Builder.() -> Unit = {}):
-    CfnConfigurationManager.StatusSummaryProperty =
-    CfnConfigurationManager.StatusSummaryProperty.Builder().apply(initializer).build()
+public fun buildStatusSummaryProperty(initializer: @AwsCdkDsl CfnConfigurationManager.StatusSummaryProperty.Builder.() -> Unit = {}): CfnConfigurationManager.StatusSummaryProperty = CfnConfigurationManager.StatusSummaryProperty.Builder().apply(initializer).build()

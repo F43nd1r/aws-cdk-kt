@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnEndpointConfig
 
 @Generated
-public fun buildClarifyExplainerConfigProperty(initializer: @AwsCdkDsl
-    CfnEndpointConfig.ClarifyExplainerConfigProperty.Builder.() -> Unit = {}):
-    CfnEndpointConfig.ClarifyExplainerConfigProperty =
-    CfnEndpointConfig.ClarifyExplainerConfigProperty.Builder().apply(initializer).build()
+public fun buildClarifyExplainerConfigProperty(initializer: @AwsCdkDsl CfnEndpointConfig.ClarifyExplainerConfigProperty.Builder.() -> Unit = {}): CfnEndpointConfig.ClarifyExplainerConfigProperty = CfnEndpointConfig.ClarifyExplainerConfigProperty.Builder().apply(initializer).build()

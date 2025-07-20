@@ -21,5 +21,4 @@ public fun buildTagManager(
   resourceTypeName: String,
   initialTags: Any,
   initializer: @AwsCdkDsl TagManager.Builder.() -> Unit = {},
-): TagManager = TagManager.Builder.create(tagType, resourceTypeName,
-    initialTags).apply(initializer).build()
+): TagManager = TagManager.Builder.create(tagType, resourceTypeName, initialTags).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnEndpoint
 
 @Generated
-public fun buildCapacitySizeProperty(initializer: @AwsCdkDsl
-    CfnEndpoint.CapacitySizeProperty.Builder.() -> Unit = {}): CfnEndpoint.CapacitySizeProperty =
-    CfnEndpoint.CapacitySizeProperty.Builder().apply(initializer).build()
+public fun buildCapacitySizeProperty(initializer: @AwsCdkDsl CfnEndpoint.CapacitySizeProperty.Builder.() -> Unit = {}): CfnEndpoint.CapacitySizeProperty = CfnEndpoint.CapacitySizeProperty.Builder().apply(initializer).build()

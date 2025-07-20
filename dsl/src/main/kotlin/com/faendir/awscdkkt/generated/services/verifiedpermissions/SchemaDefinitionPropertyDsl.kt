@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.verifiedpermissions.CfnPolicyStore
 
 @Generated
-public fun buildSchemaDefinitionProperty(initializer: @AwsCdkDsl
-    CfnPolicyStore.SchemaDefinitionProperty.Builder.() -> Unit = {}):
-    CfnPolicyStore.SchemaDefinitionProperty =
-    CfnPolicyStore.SchemaDefinitionProperty.Builder().apply(initializer).build()
+public fun buildSchemaDefinitionProperty(initializer: @AwsCdkDsl CfnPolicyStore.SchemaDefinitionProperty.Builder.() -> Unit = {}): CfnPolicyStore.SchemaDefinitionProperty = CfnPolicyStore.SchemaDefinitionProperty.Builder().apply(initializer).build()

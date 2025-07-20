@@ -16,6 +16,4 @@ public fun Construct.webSocketStage(
 ): WebSocketStage = WebSocketStage(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildWebSocketStage(id: String, initializer: @AwsCdkDsl
-    WebSocketStage.Builder.() -> Unit = {}): WebSocketStage = WebSocketStage.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildWebSocketStage(id: String, initializer: @AwsCdkDsl WebSocketStage.Builder.() -> Unit = {}): WebSocketStage = WebSocketStage.Builder.create(this, id).apply(initializer).build()

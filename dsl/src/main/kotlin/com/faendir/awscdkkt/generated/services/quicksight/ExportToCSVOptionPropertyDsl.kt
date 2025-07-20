@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
-public fun buildExportToCSVOptionProperty(initializer: @AwsCdkDsl
-    CfnDashboard.ExportToCSVOptionProperty.Builder.() -> Unit = {}):
-    CfnDashboard.ExportToCSVOptionProperty =
-    CfnDashboard.ExportToCSVOptionProperty.Builder().apply(initializer).build()
+public fun buildExportToCSVOptionProperty(initializer: @AwsCdkDsl CfnDashboard.ExportToCSVOptionProperty.Builder.() -> Unit = {}): CfnDashboard.ExportToCSVOptionProperty = CfnDashboard.ExportToCSVOptionProperty.Builder().apply(initializer).build()

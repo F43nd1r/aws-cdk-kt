@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.DataProcessorBindOptions
 
 @Generated
-public fun buildDataProcessorBindOptions(initializer: @AwsCdkDsl
-    DataProcessorBindOptions.Builder.() -> Unit = {}): DataProcessorBindOptions =
-    DataProcessorBindOptions.Builder().apply(initializer).build()
+public fun buildDataProcessorBindOptions(initializer: @AwsCdkDsl DataProcessorBindOptions.Builder.() -> Unit = {}): DataProcessorBindOptions = DataProcessorBindOptions.Builder().apply(initializer).build()

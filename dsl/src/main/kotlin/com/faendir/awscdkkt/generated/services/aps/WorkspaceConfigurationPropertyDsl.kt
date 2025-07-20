@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.aps.CfnWorkspace
 
 @Generated
-public fun buildWorkspaceConfigurationProperty(initializer: @AwsCdkDsl
-    CfnWorkspace.WorkspaceConfigurationProperty.Builder.() -> Unit = {}):
-    CfnWorkspace.WorkspaceConfigurationProperty =
-    CfnWorkspace.WorkspaceConfigurationProperty.Builder().apply(initializer).build()
+public fun buildWorkspaceConfigurationProperty(initializer: @AwsCdkDsl CfnWorkspace.WorkspaceConfigurationProperty.Builder.() -> Unit = {}): CfnWorkspace.WorkspaceConfigurationProperty = CfnWorkspace.WorkspaceConfigurationProperty.Builder().apply(initializer).build()

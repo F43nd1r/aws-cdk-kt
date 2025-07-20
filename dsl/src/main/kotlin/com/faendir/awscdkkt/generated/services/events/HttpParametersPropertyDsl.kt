@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.CfnRule
 
 @Generated
-public fun buildHttpParametersProperty(initializer: @AwsCdkDsl
-    CfnRule.HttpParametersProperty.Builder.() -> Unit = {}): CfnRule.HttpParametersProperty =
-    CfnRule.HttpParametersProperty.Builder().apply(initializer).build()
+public fun buildHttpParametersProperty(initializer: @AwsCdkDsl CfnRule.HttpParametersProperty.Builder.() -> Unit = {}): CfnRule.HttpParametersProperty = CfnRule.HttpParametersProperty.Builder().apply(initializer).build()

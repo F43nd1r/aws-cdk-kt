@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.VpcLinkAttributes
 
 @Generated
-public fun buildVpcLinkAttributes(initializer: @AwsCdkDsl VpcLinkAttributes.Builder.() -> Unit =
-    {}): VpcLinkAttributes = VpcLinkAttributes.Builder().apply(initializer).build()
+public fun buildVpcLinkAttributes(initializer: @AwsCdkDsl VpcLinkAttributes.Builder.() -> Unit = {}): VpcLinkAttributes = VpcLinkAttributes.Builder().apply(initializer).build()

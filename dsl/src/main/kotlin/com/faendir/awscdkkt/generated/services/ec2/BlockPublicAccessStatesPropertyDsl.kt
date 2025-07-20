@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnSubnet
 
 @Generated
-public fun buildBlockPublicAccessStatesProperty(initializer: @AwsCdkDsl
-    CfnSubnet.BlockPublicAccessStatesProperty.Builder.() -> Unit = {}):
-    CfnSubnet.BlockPublicAccessStatesProperty =
-    CfnSubnet.BlockPublicAccessStatesProperty.Builder().apply(initializer).build()
+public fun buildBlockPublicAccessStatesProperty(initializer: @AwsCdkDsl CfnSubnet.BlockPublicAccessStatesProperty.Builder.() -> Unit = {}): CfnSubnet.BlockPublicAccessStatesProperty = CfnSubnet.BlockPublicAccessStatesProperty.Builder().apply(initializer).build()

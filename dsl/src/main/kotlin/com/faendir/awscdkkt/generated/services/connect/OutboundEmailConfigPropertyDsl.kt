@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnQueue
 
 @Generated
-public fun buildOutboundEmailConfigProperty(initializer: @AwsCdkDsl
-    CfnQueue.OutboundEmailConfigProperty.Builder.() -> Unit = {}):
-    CfnQueue.OutboundEmailConfigProperty =
-    CfnQueue.OutboundEmailConfigProperty.Builder().apply(initializer).build()
+public fun buildOutboundEmailConfigProperty(initializer: @AwsCdkDsl CfnQueue.OutboundEmailConfigProperty.Builder.() -> Unit = {}): CfnQueue.OutboundEmailConfigProperty = CfnQueue.OutboundEmailConfigProperty.Builder().apply(initializer).build()

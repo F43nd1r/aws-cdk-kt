@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.CfnStateMachineVersionProps
 
 @Generated
-public fun buildCfnStateMachineVersionProps(initializer: @AwsCdkDsl
-    CfnStateMachineVersionProps.Builder.() -> Unit = {}): CfnStateMachineVersionProps =
-    CfnStateMachineVersionProps.Builder().apply(initializer).build()
+public fun buildCfnStateMachineVersionProps(initializer: @AwsCdkDsl CfnStateMachineVersionProps.Builder.() -> Unit = {}): CfnStateMachineVersionProps = CfnStateMachineVersionProps.Builder().apply(initializer).build()

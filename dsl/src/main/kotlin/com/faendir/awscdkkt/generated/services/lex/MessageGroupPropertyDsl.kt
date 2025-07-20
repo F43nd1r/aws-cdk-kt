@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildMessageGroupProperty(initializer: @AwsCdkDsl
-    CfnBot.MessageGroupProperty.Builder.() -> Unit = {}): CfnBot.MessageGroupProperty =
-    CfnBot.MessageGroupProperty.Builder().apply(initializer).build()
+public fun buildMessageGroupProperty(initializer: @AwsCdkDsl CfnBot.MessageGroupProperty.Builder.() -> Unit = {}): CfnBot.MessageGroupProperty = CfnBot.MessageGroupProperty.Builder().apply(initializer).build()

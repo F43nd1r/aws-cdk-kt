@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnInferenceExperiment
 
 @Generated
-public fun buildRealTimeInferenceConfigProperty(initializer: @AwsCdkDsl
-    CfnInferenceExperiment.RealTimeInferenceConfigProperty.Builder.() -> Unit = {}):
-    CfnInferenceExperiment.RealTimeInferenceConfigProperty =
-    CfnInferenceExperiment.RealTimeInferenceConfigProperty.Builder().apply(initializer).build()
+public fun buildRealTimeInferenceConfigProperty(initializer: @AwsCdkDsl CfnInferenceExperiment.RealTimeInferenceConfigProperty.Builder.() -> Unit = {}): CfnInferenceExperiment.RealTimeInferenceConfigProperty = CfnInferenceExperiment.RealTimeInferenceConfigProperty.Builder().apply(initializer).build()

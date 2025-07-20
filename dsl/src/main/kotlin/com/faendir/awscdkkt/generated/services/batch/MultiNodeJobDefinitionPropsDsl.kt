@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.MultiNodeJobDefinitionProps
 
 @Generated
-public fun buildMultiNodeJobDefinitionProps(initializer: @AwsCdkDsl
-    MultiNodeJobDefinitionProps.Builder.() -> Unit = {}): MultiNodeJobDefinitionProps =
-    MultiNodeJobDefinitionProps.Builder().apply(initializer).build()
+public fun buildMultiNodeJobDefinitionProps(initializer: @AwsCdkDsl MultiNodeJobDefinitionProps.Builder.() -> Unit = {}): MultiNodeJobDefinitionProps = MultiNodeJobDefinitionProps.Builder().apply(initializer).build()

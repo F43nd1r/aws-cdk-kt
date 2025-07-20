@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.LogSubscriptionDestinationConfig
 
 @Generated
-public fun buildLogSubscriptionDestinationConfig(initializer: @AwsCdkDsl
-    LogSubscriptionDestinationConfig.Builder.() -> Unit = {}): LogSubscriptionDestinationConfig =
-    LogSubscriptionDestinationConfig.Builder().apply(initializer).build()
+public fun buildLogSubscriptionDestinationConfig(initializer: @AwsCdkDsl LogSubscriptionDestinationConfig.Builder.() -> Unit = {}): LogSubscriptionDestinationConfig = LogSubscriptionDestinationConfig.Builder().apply(initializer).build()

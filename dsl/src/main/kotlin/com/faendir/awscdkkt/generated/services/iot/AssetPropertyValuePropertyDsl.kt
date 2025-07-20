@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnTopicRule
 
 @Generated
-public fun buildAssetPropertyValueProperty(initializer: @AwsCdkDsl
-    CfnTopicRule.AssetPropertyValueProperty.Builder.() -> Unit = {}):
-    CfnTopicRule.AssetPropertyValueProperty =
-    CfnTopicRule.AssetPropertyValueProperty.Builder().apply(initializer).build()
+public fun buildAssetPropertyValueProperty(initializer: @AwsCdkDsl CfnTopicRule.AssetPropertyValueProperty.Builder.() -> Unit = {}): CfnTopicRule.AssetPropertyValueProperty = CfnTopicRule.AssetPropertyValueProperty.Builder().apply(initializer).build()

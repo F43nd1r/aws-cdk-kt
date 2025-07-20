@@ -16,6 +16,4 @@ public fun Construct.cfnEventTrigger(
 ): CfnEventTrigger = CfnEventTrigger(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEventTrigger(id: String, initializer: @AwsCdkDsl
-    CfnEventTrigger.Builder.() -> Unit = {}): CfnEventTrigger = CfnEventTrigger.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnEventTrigger(id: String, initializer: @AwsCdkDsl CfnEventTrigger.Builder.() -> Unit = {}): CfnEventTrigger = CfnEventTrigger.Builder.create(this, id).apply(initializer).build()

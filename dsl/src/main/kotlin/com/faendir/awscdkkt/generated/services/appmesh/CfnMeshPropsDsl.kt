@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnMeshProps
 
 @Generated
-public fun buildCfnMeshProps(initializer: @AwsCdkDsl CfnMeshProps.Builder.() -> Unit = {}):
-    CfnMeshProps = CfnMeshProps.Builder().apply(initializer).build()
+public fun buildCfnMeshProps(initializer: @AwsCdkDsl CfnMeshProps.Builder.() -> Unit = {}): CfnMeshProps = CfnMeshProps.Builder().apply(initializer).build()

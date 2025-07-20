@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securityhub.CfnAutomationRuleV2Props
 
 @Generated
-public fun buildCfnAutomationRuleV2Props(initializer: @AwsCdkDsl
-    CfnAutomationRuleV2Props.Builder.() -> Unit = {}): CfnAutomationRuleV2Props =
-    CfnAutomationRuleV2Props.Builder().apply(initializer).build()
+public fun buildCfnAutomationRuleV2Props(initializer: @AwsCdkDsl CfnAutomationRuleV2Props.Builder.() -> Unit = {}): CfnAutomationRuleV2Props = CfnAutomationRuleV2Props.Builder().apply(initializer).build()

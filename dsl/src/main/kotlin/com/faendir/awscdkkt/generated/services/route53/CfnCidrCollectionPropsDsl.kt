@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.CfnCidrCollectionProps
 
 @Generated
-public fun buildCfnCidrCollectionProps(initializer: @AwsCdkDsl
-    CfnCidrCollectionProps.Builder.() -> Unit = {}): CfnCidrCollectionProps =
-    CfnCidrCollectionProps.Builder().apply(initializer).build()
+public fun buildCfnCidrCollectionProps(initializer: @AwsCdkDsl CfnCidrCollectionProps.Builder.() -> Unit = {}): CfnCidrCollectionProps = CfnCidrCollectionProps.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.tagOptions(
 ): TagOptions = TagOptions(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildTagOptions(id: String, initializer: @AwsCdkDsl
-    TagOptions.Builder.() -> Unit = {}): TagOptions = TagOptions.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildTagOptions(id: String, initializer: @AwsCdkDsl TagOptions.Builder.() -> Unit = {}): TagOptions = TagOptions.Builder.create(this, id).apply(initializer).build()

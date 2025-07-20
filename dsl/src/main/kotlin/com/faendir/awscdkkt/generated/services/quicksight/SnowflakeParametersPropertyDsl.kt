@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSource
 
 @Generated
-public fun buildSnowflakeParametersProperty(initializer: @AwsCdkDsl
-    CfnDataSource.SnowflakeParametersProperty.Builder.() -> Unit = {}):
-    CfnDataSource.SnowflakeParametersProperty =
-    CfnDataSource.SnowflakeParametersProperty.Builder().apply(initializer).build()
+public fun buildSnowflakeParametersProperty(initializer: @AwsCdkDsl CfnDataSource.SnowflakeParametersProperty.Builder.() -> Unit = {}): CfnDataSource.SnowflakeParametersProperty = CfnDataSource.SnowflakeParametersProperty.Builder().apply(initializer).build()

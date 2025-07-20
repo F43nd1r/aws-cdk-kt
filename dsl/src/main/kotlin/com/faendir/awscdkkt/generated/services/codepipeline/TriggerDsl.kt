@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.Trigger
 
 @Generated
-public fun buildTrigger(initializer: @AwsCdkDsl Trigger.Builder.() -> Unit = {}): Trigger =
-    Trigger.Builder.create().apply(initializer).build()
+public fun buildTrigger(initializer: @AwsCdkDsl Trigger.Builder.() -> Unit = {}): Trigger = Trigger.Builder.create().apply(initializer).build()

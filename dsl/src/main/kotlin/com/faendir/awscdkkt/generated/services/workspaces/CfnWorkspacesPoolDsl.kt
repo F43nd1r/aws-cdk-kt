@@ -16,6 +16,4 @@ public fun Construct.cfnWorkspacesPool(
 ): CfnWorkspacesPool = CfnWorkspacesPool(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnWorkspacesPool(id: String, initializer: @AwsCdkDsl
-    CfnWorkspacesPool.Builder.() -> Unit = {}): CfnWorkspacesPool =
-    CfnWorkspacesPool.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnWorkspacesPool(id: String, initializer: @AwsCdkDsl CfnWorkspacesPool.Builder.() -> Unit = {}): CfnWorkspacesPool = CfnWorkspacesPool.Builder.create(this, id).apply(initializer).build()

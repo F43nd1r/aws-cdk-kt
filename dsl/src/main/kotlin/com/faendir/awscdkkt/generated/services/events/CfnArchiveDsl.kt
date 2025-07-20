@@ -16,6 +16,4 @@ public fun Construct.cfnArchive(
 ): CfnArchive = CfnArchive(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnArchive(id: String, initializer: @AwsCdkDsl
-    CfnArchive.Builder.() -> Unit = {}): CfnArchive = CfnArchive.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnArchive(id: String, initializer: @AwsCdkDsl CfnArchive.Builder.() -> Unit = {}): CfnArchive = CfnArchive.Builder.create(this, id).apply(initializer).build()

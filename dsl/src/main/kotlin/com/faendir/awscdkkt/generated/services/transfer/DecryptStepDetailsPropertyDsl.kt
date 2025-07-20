@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.transfer.CfnWorkflow
 
 @Generated
-public fun buildDecryptStepDetailsProperty(initializer: @AwsCdkDsl
-    CfnWorkflow.DecryptStepDetailsProperty.Builder.() -> Unit = {}):
-    CfnWorkflow.DecryptStepDetailsProperty =
-    CfnWorkflow.DecryptStepDetailsProperty.Builder().apply(initializer).build()
+public fun buildDecryptStepDetailsProperty(initializer: @AwsCdkDsl CfnWorkflow.DecryptStepDetailsProperty.Builder.() -> Unit = {}): CfnWorkflow.DecryptStepDetailsProperty = CfnWorkflow.DecryptStepDetailsProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnControlPanel(
 ): CfnControlPanel = CfnControlPanel(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnControlPanel(id: String, initializer: @AwsCdkDsl
-    CfnControlPanel.Builder.() -> Unit = {}): CfnControlPanel = CfnControlPanel.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnControlPanel(id: String, initializer: @AwsCdkDsl CfnControlPanel.Builder.() -> Unit = {}): CfnControlPanel = CfnControlPanel.Builder.create(this, id).apply(initializer).build()

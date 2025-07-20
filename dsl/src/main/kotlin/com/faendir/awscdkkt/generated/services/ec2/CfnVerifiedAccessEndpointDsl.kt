@@ -16,6 +16,4 @@ public fun Construct.cfnVerifiedAccessEndpoint(
 ): CfnVerifiedAccessEndpoint = CfnVerifiedAccessEndpoint(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVerifiedAccessEndpoint(id: String, initializer: @AwsCdkDsl
-    CfnVerifiedAccessEndpoint.Builder.() -> Unit = {}): CfnVerifiedAccessEndpoint =
-    CfnVerifiedAccessEndpoint.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnVerifiedAccessEndpoint(id: String, initializer: @AwsCdkDsl CfnVerifiedAccessEndpoint.Builder.() -> Unit = {}): CfnVerifiedAccessEndpoint = CfnVerifiedAccessEndpoint.Builder.create(this, id).apply(initializer).build()

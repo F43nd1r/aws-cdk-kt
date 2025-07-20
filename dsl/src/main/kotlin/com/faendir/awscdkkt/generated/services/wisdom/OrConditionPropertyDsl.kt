@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnAIAgent
 
 @Generated
-public fun buildOrConditionProperty(initializer: @AwsCdkDsl
-    CfnAIAgent.OrConditionProperty.Builder.() -> Unit = {}): CfnAIAgent.OrConditionProperty =
-    CfnAIAgent.OrConditionProperty.Builder().apply(initializer).build()
+public fun buildOrConditionProperty(initializer: @AwsCdkDsl CfnAIAgent.OrConditionProperty.Builder.() -> Unit = {}): CfnAIAgent.OrConditionProperty = CfnAIAgent.OrConditionProperty.Builder().apply(initializer).build()

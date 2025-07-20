@@ -13,11 +13,7 @@ public fun Construct.cfnNetworkInsightsAccessScopeAnalysis(
   id: String,
   props: CfnNetworkInsightsAccessScopeAnalysisProps,
   initializer: @AwsCdkDsl CfnNetworkInsightsAccessScopeAnalysis.() -> Unit = {},
-): CfnNetworkInsightsAccessScopeAnalysis = CfnNetworkInsightsAccessScopeAnalysis(this, id,
-    props).apply(initializer)
+): CfnNetworkInsightsAccessScopeAnalysis = CfnNetworkInsightsAccessScopeAnalysis(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnNetworkInsightsAccessScopeAnalysis(id: String, initializer: @AwsCdkDsl
-    CfnNetworkInsightsAccessScopeAnalysis.Builder.() -> Unit = {}):
-    CfnNetworkInsightsAccessScopeAnalysis =
-    CfnNetworkInsightsAccessScopeAnalysis.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnNetworkInsightsAccessScopeAnalysis(id: String, initializer: @AwsCdkDsl CfnNetworkInsightsAccessScopeAnalysis.Builder.() -> Unit = {}): CfnNetworkInsightsAccessScopeAnalysis = CfnNetworkInsightsAccessScopeAnalysis.Builder.create(this, id).apply(initializer).build()

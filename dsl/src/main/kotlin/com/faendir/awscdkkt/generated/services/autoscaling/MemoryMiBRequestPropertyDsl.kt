@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.CfnAutoScalingGroup
 
 @Generated
-public fun buildMemoryMiBRequestProperty(initializer: @AwsCdkDsl
-    CfnAutoScalingGroup.MemoryMiBRequestProperty.Builder.() -> Unit = {}):
-    CfnAutoScalingGroup.MemoryMiBRequestProperty =
-    CfnAutoScalingGroup.MemoryMiBRequestProperty.Builder().apply(initializer).build()
+public fun buildMemoryMiBRequestProperty(initializer: @AwsCdkDsl CfnAutoScalingGroup.MemoryMiBRequestProperty.Builder.() -> Unit = {}): CfnAutoScalingGroup.MemoryMiBRequestProperty = CfnAutoScalingGroup.MemoryMiBRequestProperty.Builder().apply(initializer).build()

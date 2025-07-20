@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkmanager.CfnVpcAttachment
 
 @Generated
-public fun buildProposedNetworkFunctionGroupChangeProperty(initializer: @AwsCdkDsl
-    CfnVpcAttachment.ProposedNetworkFunctionGroupChangeProperty.Builder.() -> Unit = {}):
-    CfnVpcAttachment.ProposedNetworkFunctionGroupChangeProperty =
-    CfnVpcAttachment.ProposedNetworkFunctionGroupChangeProperty.Builder().apply(initializer).build()
+public fun buildProposedNetworkFunctionGroupChangeProperty(initializer: @AwsCdkDsl CfnVpcAttachment.ProposedNetworkFunctionGroupChangeProperty.Builder.() -> Unit = {}): CfnVpcAttachment.ProposedNetworkFunctionGroupChangeProperty = CfnVpcAttachment.ProposedNetworkFunctionGroupChangeProperty.Builder().apply(initializer).build()

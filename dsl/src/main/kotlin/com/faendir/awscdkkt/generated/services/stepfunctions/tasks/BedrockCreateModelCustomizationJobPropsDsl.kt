@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.BedrockCreateModelCustomizationJobProps
 
 @Generated
-public fun buildBedrockCreateModelCustomizationJobProps(initializer: @AwsCdkDsl
-    BedrockCreateModelCustomizationJobProps.Builder.() -> Unit = {}):
-    BedrockCreateModelCustomizationJobProps =
-    BedrockCreateModelCustomizationJobProps.Builder().apply(initializer).build()
+public fun buildBedrockCreateModelCustomizationJobProps(initializer: @AwsCdkDsl BedrockCreateModelCustomizationJobProps.Builder.() -> Unit = {}): BedrockCreateModelCustomizationJobProps = BedrockCreateModelCustomizationJobProps.Builder().apply(initializer).build()

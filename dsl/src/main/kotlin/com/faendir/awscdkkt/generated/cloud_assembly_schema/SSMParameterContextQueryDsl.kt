@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloud_assembly_schema.SSMParameterContextQuery
 
 @Generated
-public fun buildSSMParameterContextQuery(initializer: @AwsCdkDsl
-    SSMParameterContextQuery.Builder.() -> Unit = {}): SSMParameterContextQuery =
-    SSMParameterContextQuery.Builder().apply(initializer).build()
+public fun buildSSMParameterContextQuery(initializer: @AwsCdkDsl SSMParameterContextQuery.Builder.() -> Unit = {}): SSMParameterContextQuery = SSMParameterContextQuery.Builder().apply(initializer).build()

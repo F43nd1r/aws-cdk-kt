@@ -16,5 +16,4 @@ public fun Construct.cfnCRL(
 ): CfnCRL = CfnCRL(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCRL(id: String, initializer: @AwsCdkDsl CfnCRL.Builder.() -> Unit =
-    {}): CfnCRL = CfnCRL.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCRL(id: String, initializer: @AwsCdkDsl CfnCRL.Builder.() -> Unit = {}): CfnCRL = CfnCRL.Builder.create(this, id).apply(initializer).build()

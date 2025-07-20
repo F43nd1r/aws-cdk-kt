@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kendra.CfnDataSource
 
 @Generated
-public fun buildConfluenceBlogToIndexFieldMappingProperty(initializer: @AwsCdkDsl
-    CfnDataSource.ConfluenceBlogToIndexFieldMappingProperty.Builder.() -> Unit = {}):
-    CfnDataSource.ConfluenceBlogToIndexFieldMappingProperty =
-    CfnDataSource.ConfluenceBlogToIndexFieldMappingProperty.Builder().apply(initializer).build()
+public fun buildConfluenceBlogToIndexFieldMappingProperty(initializer: @AwsCdkDsl CfnDataSource.ConfluenceBlogToIndexFieldMappingProperty.Builder.() -> Unit = {}): CfnDataSource.ConfluenceBlogToIndexFieldMappingProperty = CfnDataSource.ConfluenceBlogToIndexFieldMappingProperty.Builder().apply(initializer).build()

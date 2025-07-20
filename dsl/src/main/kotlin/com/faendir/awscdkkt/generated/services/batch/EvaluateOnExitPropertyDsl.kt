@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
-public fun buildEvaluateOnExitProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.EvaluateOnExitProperty.Builder.() -> Unit = {}):
-    CfnJobDefinition.EvaluateOnExitProperty =
-    CfnJobDefinition.EvaluateOnExitProperty.Builder().apply(initializer).build()
+public fun buildEvaluateOnExitProperty(initializer: @AwsCdkDsl CfnJobDefinition.EvaluateOnExitProperty.Builder.() -> Unit = {}): CfnJobDefinition.EvaluateOnExitProperty = CfnJobDefinition.EvaluateOnExitProperty.Builder().apply(initializer).build()

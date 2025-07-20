@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.CfnPipeline
 
 @Generated
-public fun buildPipelineTriggerDeclarationProperty(initializer: @AwsCdkDsl
-    CfnPipeline.PipelineTriggerDeclarationProperty.Builder.() -> Unit = {}):
-    CfnPipeline.PipelineTriggerDeclarationProperty =
-    CfnPipeline.PipelineTriggerDeclarationProperty.Builder().apply(initializer).build()
+public fun buildPipelineTriggerDeclarationProperty(initializer: @AwsCdkDsl CfnPipeline.PipelineTriggerDeclarationProperty.Builder.() -> Unit = {}): CfnPipeline.PipelineTriggerDeclarationProperty = CfnPipeline.PipelineTriggerDeclarationProperty.Builder().apply(initializer).build()

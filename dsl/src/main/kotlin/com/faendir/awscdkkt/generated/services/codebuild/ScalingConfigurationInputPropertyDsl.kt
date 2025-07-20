@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.CfnFleet
 
 @Generated
-public fun buildScalingConfigurationInputProperty(initializer: @AwsCdkDsl
-    CfnFleet.ScalingConfigurationInputProperty.Builder.() -> Unit = {}):
-    CfnFleet.ScalingConfigurationInputProperty =
-    CfnFleet.ScalingConfigurationInputProperty.Builder().apply(initializer).build()
+public fun buildScalingConfigurationInputProperty(initializer: @AwsCdkDsl CfnFleet.ScalingConfigurationInputProperty.Builder.() -> Unit = {}): CfnFleet.ScalingConfigurationInputProperty = CfnFleet.ScalingConfigurationInputProperty.Builder().apply(initializer).build()

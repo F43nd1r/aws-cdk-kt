@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildEmbeddedSourceSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.EmbeddedSourceSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.EmbeddedSourceSettingsProperty =
-    CfnChannel.EmbeddedSourceSettingsProperty.Builder().apply(initializer).build()
+public fun buildEmbeddedSourceSettingsProperty(initializer: @AwsCdkDsl CfnChannel.EmbeddedSourceSettingsProperty.Builder.() -> Unit = {}): CfnChannel.EmbeddedSourceSettingsProperty = CfnChannel.EmbeddedSourceSettingsProperty.Builder().apply(initializer).build()

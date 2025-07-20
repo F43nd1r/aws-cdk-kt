@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnMessageTemplate
 
 @Generated
-public fun buildEmailMessageTemplateContentProperty(initializer: @AwsCdkDsl
-    CfnMessageTemplate.EmailMessageTemplateContentProperty.Builder.() -> Unit = {}):
-    CfnMessageTemplate.EmailMessageTemplateContentProperty =
-    CfnMessageTemplate.EmailMessageTemplateContentProperty.Builder().apply(initializer).build()
+public fun buildEmailMessageTemplateContentProperty(initializer: @AwsCdkDsl CfnMessageTemplate.EmailMessageTemplateContentProperty.Builder.() -> Unit = {}): CfnMessageTemplate.EmailMessageTemplateContentProperty = CfnMessageTemplate.EmailMessageTemplateContentProperty.Builder().apply(initializer).build()

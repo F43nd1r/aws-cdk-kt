@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnDomain
 
 @Generated
-public fun buildUnifiedStudioSettingsProperty(initializer: @AwsCdkDsl
-    CfnDomain.UnifiedStudioSettingsProperty.Builder.() -> Unit = {}):
-    CfnDomain.UnifiedStudioSettingsProperty =
-    CfnDomain.UnifiedStudioSettingsProperty.Builder().apply(initializer).build()
+public fun buildUnifiedStudioSettingsProperty(initializer: @AwsCdkDsl CfnDomain.UnifiedStudioSettingsProperty.Builder.() -> Unit = {}): CfnDomain.UnifiedStudioSettingsProperty = CfnDomain.UnifiedStudioSettingsProperty.Builder().apply(initializer).build()

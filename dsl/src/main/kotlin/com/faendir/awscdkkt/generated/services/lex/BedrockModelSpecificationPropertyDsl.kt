@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildBedrockModelSpecificationProperty(initializer: @AwsCdkDsl
-    CfnBot.BedrockModelSpecificationProperty.Builder.() -> Unit = {}):
-    CfnBot.BedrockModelSpecificationProperty =
-    CfnBot.BedrockModelSpecificationProperty.Builder().apply(initializer).build()
+public fun buildBedrockModelSpecificationProperty(initializer: @AwsCdkDsl CfnBot.BedrockModelSpecificationProperty.Builder.() -> Unit = {}): CfnBot.BedrockModelSpecificationProperty = CfnBot.BedrockModelSpecificationProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.msk.CfnCluster
 
 @Generated
-public fun buildOpenMonitoringProperty(initializer: @AwsCdkDsl
-    CfnCluster.OpenMonitoringProperty.Builder.() -> Unit = {}): CfnCluster.OpenMonitoringProperty =
-    CfnCluster.OpenMonitoringProperty.Builder().apply(initializer).build()
+public fun buildOpenMonitoringProperty(initializer: @AwsCdkDsl CfnCluster.OpenMonitoringProperty.Builder.() -> Unit = {}): CfnCluster.OpenMonitoringProperty = CfnCluster.OpenMonitoringProperty.Builder().apply(initializer).build()

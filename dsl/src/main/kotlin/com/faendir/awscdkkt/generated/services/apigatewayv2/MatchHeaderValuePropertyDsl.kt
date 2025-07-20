@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.CfnRoutingRule
 
 @Generated
-public fun buildMatchHeaderValueProperty(initializer: @AwsCdkDsl
-    CfnRoutingRule.MatchHeaderValueProperty.Builder.() -> Unit = {}):
-    CfnRoutingRule.MatchHeaderValueProperty =
-    CfnRoutingRule.MatchHeaderValueProperty.Builder().apply(initializer).build()
+public fun buildMatchHeaderValueProperty(initializer: @AwsCdkDsl CfnRoutingRule.MatchHeaderValueProperty.Builder.() -> Unit = {}): CfnRoutingRule.MatchHeaderValueProperty = CfnRoutingRule.MatchHeaderValueProperty.Builder().apply(initializer).build()

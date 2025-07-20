@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pcs.CfnCluster
 
 @Generated
-public fun buildNetworkingProperty(initializer: @AwsCdkDsl
-    CfnCluster.NetworkingProperty.Builder.() -> Unit = {}): CfnCluster.NetworkingProperty =
-    CfnCluster.NetworkingProperty.Builder().apply(initializer).build()
+public fun buildNetworkingProperty(initializer: @AwsCdkDsl CfnCluster.NetworkingProperty.Builder.() -> Unit = {}): CfnCluster.NetworkingProperty = CfnCluster.NetworkingProperty.Builder().apply(initializer).build()

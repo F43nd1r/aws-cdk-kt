@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.CfnRecordSetGroup
 
 @Generated
-public fun buildCoordinatesProperty(initializer: @AwsCdkDsl
-    CfnRecordSetGroup.CoordinatesProperty.Builder.() -> Unit = {}):
-    CfnRecordSetGroup.CoordinatesProperty =
-    CfnRecordSetGroup.CoordinatesProperty.Builder().apply(initializer).build()
+public fun buildCoordinatesProperty(initializer: @AwsCdkDsl CfnRecordSetGroup.CoordinatesProperty.Builder.() -> Unit = {}): CfnRecordSetGroup.CoordinatesProperty = CfnRecordSetGroup.CoordinatesProperty.Builder().apply(initializer).build()

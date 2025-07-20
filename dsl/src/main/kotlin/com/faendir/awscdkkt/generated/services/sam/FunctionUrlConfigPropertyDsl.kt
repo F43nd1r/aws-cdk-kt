@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
-public fun buildFunctionUrlConfigProperty(initializer: @AwsCdkDsl
-    CfnFunction.FunctionUrlConfigProperty.Builder.() -> Unit = {}):
-    CfnFunction.FunctionUrlConfigProperty =
-    CfnFunction.FunctionUrlConfigProperty.Builder().apply(initializer).build()
+public fun buildFunctionUrlConfigProperty(initializer: @AwsCdkDsl CfnFunction.FunctionUrlConfigProperty.Builder.() -> Unit = {}): CfnFunction.FunctionUrlConfigProperty = CfnFunction.FunctionUrlConfigProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnWirelessGateway(
 ): CfnWirelessGateway = CfnWirelessGateway(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnWirelessGateway(id: String, initializer: @AwsCdkDsl
-    CfnWirelessGateway.Builder.() -> Unit = {}): CfnWirelessGateway =
-    CfnWirelessGateway.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnWirelessGateway(id: String, initializer: @AwsCdkDsl CfnWirelessGateway.Builder.() -> Unit = {}): CfnWirelessGateway = CfnWirelessGateway.Builder.create(this, id).apply(initializer).build()

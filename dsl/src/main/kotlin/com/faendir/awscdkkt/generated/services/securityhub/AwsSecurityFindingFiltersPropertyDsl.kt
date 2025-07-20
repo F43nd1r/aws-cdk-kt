@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securityhub.CfnInsight
 
 @Generated
-public fun buildAwsSecurityFindingFiltersProperty(initializer: @AwsCdkDsl
-    CfnInsight.AwsSecurityFindingFiltersProperty.Builder.() -> Unit = {}):
-    CfnInsight.AwsSecurityFindingFiltersProperty =
-    CfnInsight.AwsSecurityFindingFiltersProperty.Builder().apply(initializer).build()
+public fun buildAwsSecurityFindingFiltersProperty(initializer: @AwsCdkDsl CfnInsight.AwsSecurityFindingFiltersProperty.Builder.() -> Unit = {}): CfnInsight.AwsSecurityFindingFiltersProperty = CfnInsight.AwsSecurityFindingFiltersProperty.Builder().apply(initializer).build()

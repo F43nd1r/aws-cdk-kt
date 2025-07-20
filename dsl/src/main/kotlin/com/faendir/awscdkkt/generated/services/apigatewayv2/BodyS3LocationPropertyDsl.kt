@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.CfnApi
 
 @Generated
-public fun buildBodyS3LocationProperty(initializer: @AwsCdkDsl
-    CfnApi.BodyS3LocationProperty.Builder.() -> Unit = {}): CfnApi.BodyS3LocationProperty =
-    CfnApi.BodyS3LocationProperty.Builder().apply(initializer).build()
+public fun buildBodyS3LocationProperty(initializer: @AwsCdkDsl CfnApi.BodyS3LocationProperty.Builder.() -> Unit = {}): CfnApi.BodyS3LocationProperty = CfnApi.BodyS3LocationProperty.Builder().apply(initializer).build()

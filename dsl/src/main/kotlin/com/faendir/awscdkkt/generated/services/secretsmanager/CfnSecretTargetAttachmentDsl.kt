@@ -16,6 +16,4 @@ public fun Construct.cfnSecretTargetAttachment(
 ): CfnSecretTargetAttachment = CfnSecretTargetAttachment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSecretTargetAttachment(id: String, initializer: @AwsCdkDsl
-    CfnSecretTargetAttachment.Builder.() -> Unit = {}): CfnSecretTargetAttachment =
-    CfnSecretTargetAttachment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSecretTargetAttachment(id: String, initializer: @AwsCdkDsl CfnSecretTargetAttachment.Builder.() -> Unit = {}): CfnSecretTargetAttachment = CfnSecretTargetAttachment.Builder.create(this, id).apply(initializer).build()

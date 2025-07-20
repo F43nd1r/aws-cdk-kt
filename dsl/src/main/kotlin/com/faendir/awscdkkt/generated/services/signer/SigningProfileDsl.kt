@@ -16,6 +16,4 @@ public fun Construct.signingProfile(
 ): SigningProfile = SigningProfile(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildSigningProfile(id: String, initializer: @AwsCdkDsl
-    SigningProfile.Builder.() -> Unit = {}): SigningProfile = SigningProfile.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildSigningProfile(id: String, initializer: @AwsCdkDsl SigningProfile.Builder.() -> Unit = {}): SigningProfile = SigningProfile.Builder.create(this, id).apply(initializer).build()

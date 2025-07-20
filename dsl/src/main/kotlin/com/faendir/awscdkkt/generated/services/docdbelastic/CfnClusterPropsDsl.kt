@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.docdbelastic.CfnClusterProps
 
 @Generated
-public fun buildCfnClusterProps(initializer: @AwsCdkDsl CfnClusterProps.Builder.() -> Unit = {}):
-    CfnClusterProps = CfnClusterProps.Builder().apply(initializer).build()
+public fun buildCfnClusterProps(initializer: @AwsCdkDsl CfnClusterProps.Builder.() -> Unit = {}): CfnClusterProps = CfnClusterProps.Builder().apply(initializer).build()

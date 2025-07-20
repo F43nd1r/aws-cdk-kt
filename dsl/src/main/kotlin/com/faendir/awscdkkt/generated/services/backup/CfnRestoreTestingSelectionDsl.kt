@@ -16,6 +16,4 @@ public fun Construct.cfnRestoreTestingSelection(
 ): CfnRestoreTestingSelection = CfnRestoreTestingSelection(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRestoreTestingSelection(id: String, initializer: @AwsCdkDsl
-    CfnRestoreTestingSelection.Builder.() -> Unit = {}): CfnRestoreTestingSelection =
-    CfnRestoreTestingSelection.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRestoreTestingSelection(id: String, initializer: @AwsCdkDsl CfnRestoreTestingSelection.Builder.() -> Unit = {}): CfnRestoreTestingSelection = CfnRestoreTestingSelection.Builder.create(this, id).apply(initializer).build()

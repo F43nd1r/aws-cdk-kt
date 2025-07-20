@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildSlotValueRegexFilterProperty(initializer: @AwsCdkDsl
-    CfnBot.SlotValueRegexFilterProperty.Builder.() -> Unit = {}):
-    CfnBot.SlotValueRegexFilterProperty =
-    CfnBot.SlotValueRegexFilterProperty.Builder().apply(initializer).build()
+public fun buildSlotValueRegexFilterProperty(initializer: @AwsCdkDsl CfnBot.SlotValueRegexFilterProperty.Builder.() -> Unit = {}): CfnBot.SlotValueRegexFilterProperty = CfnBot.SlotValueRegexFilterProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.backupSelection(
 ): BackupSelection = BackupSelection(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildBackupSelection(id: String, initializer: @AwsCdkDsl
-    BackupSelection.Builder.() -> Unit = {}): BackupSelection = BackupSelection.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildBackupSelection(id: String, initializer: @AwsCdkDsl BackupSelection.Builder.() -> Unit = {}): BackupSelection = BackupSelection.Builder.create(this, id).apply(initializer).build()

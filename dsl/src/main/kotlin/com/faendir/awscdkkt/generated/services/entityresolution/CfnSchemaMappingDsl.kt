@@ -16,6 +16,4 @@ public fun Construct.cfnSchemaMapping(
 ): CfnSchemaMapping = CfnSchemaMapping(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSchemaMapping(id: String, initializer: @AwsCdkDsl
-    CfnSchemaMapping.Builder.() -> Unit = {}): CfnSchemaMapping =
-    CfnSchemaMapping.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSchemaMapping(id: String, initializer: @AwsCdkDsl CfnSchemaMapping.Builder.() -> Unit = {}): CfnSchemaMapping = CfnSchemaMapping.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildColumnIdentifierProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ColumnIdentifierProperty.Builder.() -> Unit = {}):
-    CfnTemplate.ColumnIdentifierProperty =
-    CfnTemplate.ColumnIdentifierProperty.Builder().apply(initializer).build()
+public fun buildColumnIdentifierProperty(initializer: @AwsCdkDsl CfnTemplate.ColumnIdentifierProperty.Builder.() -> Unit = {}): CfnTemplate.ColumnIdentifierProperty = CfnTemplate.ColumnIdentifierProperty.Builder().apply(initializer).build()

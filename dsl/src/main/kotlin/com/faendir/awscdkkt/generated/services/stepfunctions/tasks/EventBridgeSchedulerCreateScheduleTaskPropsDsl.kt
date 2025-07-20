@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EventBridgeSchedulerCreateScheduleTaskProps
 
 @Generated
-public fun buildEventBridgeSchedulerCreateScheduleTaskProps(initializer: @AwsCdkDsl
-    EventBridgeSchedulerCreateScheduleTaskProps.Builder.() -> Unit = {}):
-    EventBridgeSchedulerCreateScheduleTaskProps =
-    EventBridgeSchedulerCreateScheduleTaskProps.Builder().apply(initializer).build()
+public fun buildEventBridgeSchedulerCreateScheduleTaskProps(initializer: @AwsCdkDsl EventBridgeSchedulerCreateScheduleTaskProps.Builder.() -> Unit = {}): EventBridgeSchedulerCreateScheduleTaskProps = EventBridgeSchedulerCreateScheduleTaskProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
-public fun buildHeaderMatchPatternProperty(initializer: @AwsCdkDsl
-    CfnWebACL.HeaderMatchPatternProperty.Builder.() -> Unit = {}):
-    CfnWebACL.HeaderMatchPatternProperty =
-    CfnWebACL.HeaderMatchPatternProperty.Builder().apply(initializer).build()
+public fun buildHeaderMatchPatternProperty(initializer: @AwsCdkDsl CfnWebACL.HeaderMatchPatternProperty.Builder.() -> Unit = {}): CfnWebACL.HeaderMatchPatternProperty = CfnWebACL.HeaderMatchPatternProperty.Builder().apply(initializer).build()

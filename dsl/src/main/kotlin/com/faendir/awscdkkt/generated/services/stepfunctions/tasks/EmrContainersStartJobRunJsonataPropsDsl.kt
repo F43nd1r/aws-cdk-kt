@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrContainersStartJobRunJsonataProps
 
 @Generated
-public fun buildEmrContainersStartJobRunJsonataProps(initializer: @AwsCdkDsl
-    EmrContainersStartJobRunJsonataProps.Builder.() -> Unit = {}):
-    EmrContainersStartJobRunJsonataProps =
-    EmrContainersStartJobRunJsonataProps.Builder().apply(initializer).build()
+public fun buildEmrContainersStartJobRunJsonataProps(initializer: @AwsCdkDsl EmrContainersStartJobRunJsonataProps.Builder.() -> Unit = {}): EmrContainersStartJobRunJsonataProps = EmrContainersStartJobRunJsonataProps.Builder().apply(initializer).build()

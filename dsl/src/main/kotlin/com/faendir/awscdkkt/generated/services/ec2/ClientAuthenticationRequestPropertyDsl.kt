@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnClientVpnEndpoint
 
 @Generated
-public fun buildClientAuthenticationRequestProperty(initializer: @AwsCdkDsl
-    CfnClientVpnEndpoint.ClientAuthenticationRequestProperty.Builder.() -> Unit = {}):
-    CfnClientVpnEndpoint.ClientAuthenticationRequestProperty =
-    CfnClientVpnEndpoint.ClientAuthenticationRequestProperty.Builder().apply(initializer).build()
+public fun buildClientAuthenticationRequestProperty(initializer: @AwsCdkDsl CfnClientVpnEndpoint.ClientAuthenticationRequestProperty.Builder.() -> Unit = {}): CfnClientVpnEndpoint.ClientAuthenticationRequestProperty = CfnClientVpnEndpoint.ClientAuthenticationRequestProperty.Builder().apply(initializer).build()

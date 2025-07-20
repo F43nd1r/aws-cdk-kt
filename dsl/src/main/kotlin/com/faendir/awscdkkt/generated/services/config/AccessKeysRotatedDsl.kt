@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.config.AccessKeysRotatedProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.accessKeysRotated(id: String, initializer: @AwsCdkDsl
-    AccessKeysRotated.() -> Unit = {}): AccessKeysRotated = AccessKeysRotated(this,
-    id).apply(initializer)
+public fun Construct.accessKeysRotated(id: String, initializer: @AwsCdkDsl AccessKeysRotated.() -> Unit = {}): AccessKeysRotated = AccessKeysRotated(this, id).apply(initializer)
 
 @Generated
 public fun Construct.accessKeysRotated(
@@ -21,6 +19,4 @@ public fun Construct.accessKeysRotated(
 ): AccessKeysRotated = AccessKeysRotated(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAccessKeysRotated(id: String, initializer: @AwsCdkDsl
-    AccessKeysRotated.Builder.() -> Unit = {}): AccessKeysRotated =
-    AccessKeysRotated.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildAccessKeysRotated(id: String, initializer: @AwsCdkDsl AccessKeysRotated.Builder.() -> Unit = {}): AccessKeysRotated = AccessKeysRotated.Builder.create(this, id).apply(initializer).build()

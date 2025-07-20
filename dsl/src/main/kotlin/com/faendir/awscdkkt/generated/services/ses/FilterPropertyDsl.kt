@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnReceiptFilter
 
 @Generated
-public fun buildFilterProperty(initializer: @AwsCdkDsl
-    CfnReceiptFilter.FilterProperty.Builder.() -> Unit = {}): CfnReceiptFilter.FilterProperty =
-    CfnReceiptFilter.FilterProperty.Builder().apply(initializer).build()
+public fun buildFilterProperty(initializer: @AwsCdkDsl CfnReceiptFilter.FilterProperty.Builder.() -> Unit = {}): CfnReceiptFilter.FilterProperty = CfnReceiptFilter.FilterProperty.Builder().apply(initializer).build()

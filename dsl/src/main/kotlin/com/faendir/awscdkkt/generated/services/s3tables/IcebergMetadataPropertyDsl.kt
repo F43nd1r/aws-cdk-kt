@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3tables.CfnTable
 
 @Generated
-public fun buildIcebergMetadataProperty(initializer: @AwsCdkDsl
-    CfnTable.IcebergMetadataProperty.Builder.() -> Unit = {}): CfnTable.IcebergMetadataProperty =
-    CfnTable.IcebergMetadataProperty.Builder().apply(initializer).build()
+public fun buildIcebergMetadataProperty(initializer: @AwsCdkDsl CfnTable.IcebergMetadataProperty.Builder.() -> Unit = {}): CfnTable.IcebergMetadataProperty = CfnTable.IcebergMetadataProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.config.CustomRuleProps
 
 @Generated
-public fun buildCustomRuleProps(initializer: @AwsCdkDsl CustomRuleProps.Builder.() -> Unit = {}):
-    CustomRuleProps = CustomRuleProps.Builder().apply(initializer).build()
+public fun buildCustomRuleProps(initializer: @AwsCdkDsl CustomRuleProps.Builder.() -> Unit = {}): CustomRuleProps = CustomRuleProps.Builder().apply(initializer).build()

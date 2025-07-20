@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnSpotFleet
 
 @Generated
-public fun buildSpotFleetLaunchSpecificationProperty(initializer: @AwsCdkDsl
-    CfnSpotFleet.SpotFleetLaunchSpecificationProperty.Builder.() -> Unit = {}):
-    CfnSpotFleet.SpotFleetLaunchSpecificationProperty =
-    CfnSpotFleet.SpotFleetLaunchSpecificationProperty.Builder().apply(initializer).build()
+public fun buildSpotFleetLaunchSpecificationProperty(initializer: @AwsCdkDsl CfnSpotFleet.SpotFleetLaunchSpecificationProperty.Builder.() -> Unit = {}): CfnSpotFleet.SpotFleetLaunchSpecificationProperty = CfnSpotFleet.SpotFleetLaunchSpecificationProperty.Builder().apply(initializer).build()

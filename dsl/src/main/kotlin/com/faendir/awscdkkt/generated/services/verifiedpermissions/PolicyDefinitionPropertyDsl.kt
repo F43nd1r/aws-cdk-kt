@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.verifiedpermissions.CfnPolicy
 
 @Generated
-public fun buildPolicyDefinitionProperty(initializer: @AwsCdkDsl
-    CfnPolicy.PolicyDefinitionProperty.Builder.() -> Unit = {}): CfnPolicy.PolicyDefinitionProperty
-    = CfnPolicy.PolicyDefinitionProperty.Builder().apply(initializer).build()
+public fun buildPolicyDefinitionProperty(initializer: @AwsCdkDsl CfnPolicy.PolicyDefinitionProperty.Builder.() -> Unit = {}): CfnPolicy.PolicyDefinitionProperty = CfnPolicy.PolicyDefinitionProperty.Builder().apply(initializer).build()

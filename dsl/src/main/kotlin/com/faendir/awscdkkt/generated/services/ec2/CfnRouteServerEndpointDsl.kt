@@ -16,6 +16,4 @@ public fun Construct.cfnRouteServerEndpoint(
 ): CfnRouteServerEndpoint = CfnRouteServerEndpoint(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRouteServerEndpoint(id: String, initializer: @AwsCdkDsl
-    CfnRouteServerEndpoint.Builder.() -> Unit = {}): CfnRouteServerEndpoint =
-    CfnRouteServerEndpoint.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRouteServerEndpoint(id: String, initializer: @AwsCdkDsl CfnRouteServerEndpoint.Builder.() -> Unit = {}): CfnRouteServerEndpoint = CfnRouteServerEndpoint.Builder.create(this, id).apply(initializer).build()

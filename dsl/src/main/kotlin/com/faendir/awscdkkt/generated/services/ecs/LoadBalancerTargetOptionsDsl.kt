@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.LoadBalancerTargetOptions
 
 @Generated
-public fun buildLoadBalancerTargetOptions(initializer: @AwsCdkDsl
-    LoadBalancerTargetOptions.Builder.() -> Unit = {}): LoadBalancerTargetOptions =
-    LoadBalancerTargetOptions.Builder().apply(initializer).build()
+public fun buildLoadBalancerTargetOptions(initializer: @AwsCdkDsl LoadBalancerTargetOptions.Builder.() -> Unit = {}): LoadBalancerTargetOptions = LoadBalancerTargetOptions.Builder().apply(initializer).build()

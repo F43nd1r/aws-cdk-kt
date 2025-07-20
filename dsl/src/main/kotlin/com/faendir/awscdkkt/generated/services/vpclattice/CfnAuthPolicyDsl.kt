@@ -16,6 +16,4 @@ public fun Construct.cfnAuthPolicy(
 ): CfnAuthPolicy = CfnAuthPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAuthPolicy(id: String, initializer: @AwsCdkDsl
-    CfnAuthPolicy.Builder.() -> Unit = {}): CfnAuthPolicy = CfnAuthPolicy.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnAuthPolicy(id: String, initializer: @AwsCdkDsl CfnAuthPolicy.Builder.() -> Unit = {}): CfnAuthPolicy = CfnAuthPolicy.Builder.create(this, id).apply(initializer).build()

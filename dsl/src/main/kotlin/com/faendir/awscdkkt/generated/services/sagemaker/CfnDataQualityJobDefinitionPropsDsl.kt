@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnDataQualityJobDefinitionProps
 
 @Generated
-public fun buildCfnDataQualityJobDefinitionProps(initializer: @AwsCdkDsl
-    CfnDataQualityJobDefinitionProps.Builder.() -> Unit = {}): CfnDataQualityJobDefinitionProps =
-    CfnDataQualityJobDefinitionProps.Builder().apply(initializer).build()
+public fun buildCfnDataQualityJobDefinitionProps(initializer: @AwsCdkDsl CfnDataQualityJobDefinitionProps.Builder.() -> Unit = {}): CfnDataQualityJobDefinitionProps = CfnDataQualityJobDefinitionProps.Builder().apply(initializer).build()

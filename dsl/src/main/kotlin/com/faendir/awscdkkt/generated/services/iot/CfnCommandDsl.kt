@@ -16,6 +16,4 @@ public fun Construct.cfnCommand(
 ): CfnCommand = CfnCommand(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCommand(id: String, initializer: @AwsCdkDsl
-    CfnCommand.Builder.() -> Unit = {}): CfnCommand = CfnCommand.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnCommand(id: String, initializer: @AwsCdkDsl CfnCommand.Builder.() -> Unit = {}): CfnCommand = CfnCommand.Builder.create(this, id).apply(initializer).build()

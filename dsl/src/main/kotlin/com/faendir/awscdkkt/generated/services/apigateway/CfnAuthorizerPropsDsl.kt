@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.CfnAuthorizerProps
 
 @Generated
-public fun buildCfnAuthorizerProps(initializer: @AwsCdkDsl CfnAuthorizerProps.Builder.() -> Unit =
-    {}): CfnAuthorizerProps = CfnAuthorizerProps.Builder().apply(initializer).build()
+public fun buildCfnAuthorizerProps(initializer: @AwsCdkDsl CfnAuthorizerProps.Builder.() -> Unit = {}): CfnAuthorizerProps = CfnAuthorizerProps.Builder().apply(initializer).build()

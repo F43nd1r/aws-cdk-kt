@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.groundstation.CfnDataflowEndpointGroup
 
 @Generated
-public fun buildRangedConnectionDetailsProperty(initializer: @AwsCdkDsl
-    CfnDataflowEndpointGroup.RangedConnectionDetailsProperty.Builder.() -> Unit = {}):
-    CfnDataflowEndpointGroup.RangedConnectionDetailsProperty =
-    CfnDataflowEndpointGroup.RangedConnectionDetailsProperty.Builder().apply(initializer).build()
+public fun buildRangedConnectionDetailsProperty(initializer: @AwsCdkDsl CfnDataflowEndpointGroup.RangedConnectionDetailsProperty.Builder.() -> Unit = {}): CfnDataflowEndpointGroup.RangedConnectionDetailsProperty = CfnDataflowEndpointGroup.RangedConnectionDetailsProperty.Builder().apply(initializer).build()

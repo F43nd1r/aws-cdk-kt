@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.WorkmailActionConfig
 
 @Generated
-public fun buildWorkmailActionConfig(initializer: @AwsCdkDsl WorkmailActionConfig.Builder.() -> Unit
-    = {}): WorkmailActionConfig = WorkmailActionConfig.Builder().apply(initializer).build()
+public fun buildWorkmailActionConfig(initializer: @AwsCdkDsl WorkmailActionConfig.Builder.() -> Unit = {}): WorkmailActionConfig = WorkmailActionConfig.Builder().apply(initializer).build()

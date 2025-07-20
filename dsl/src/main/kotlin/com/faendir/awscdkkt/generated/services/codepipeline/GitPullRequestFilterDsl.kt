@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.GitPullRequestFilter
 
 @Generated
-public fun buildGitPullRequestFilter(initializer: @AwsCdkDsl GitPullRequestFilter.Builder.() -> Unit
-    = {}): GitPullRequestFilter = GitPullRequestFilter.Builder().apply(initializer).build()
+public fun buildGitPullRequestFilter(initializer: @AwsCdkDsl GitPullRequestFilter.Builder.() -> Unit = {}): GitPullRequestFilter = GitPullRequestFilter.Builder().apply(initializer).build()

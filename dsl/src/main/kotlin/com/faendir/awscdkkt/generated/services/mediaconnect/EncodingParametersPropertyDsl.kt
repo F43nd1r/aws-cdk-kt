@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediaconnect.CfnFlowOutput
 
 @Generated
-public fun buildEncodingParametersProperty(initializer: @AwsCdkDsl
-    CfnFlowOutput.EncodingParametersProperty.Builder.() -> Unit = {}):
-    CfnFlowOutput.EncodingParametersProperty =
-    CfnFlowOutput.EncodingParametersProperty.Builder().apply(initializer).build()
+public fun buildEncodingParametersProperty(initializer: @AwsCdkDsl CfnFlowOutput.EncodingParametersProperty.Builder.() -> Unit = {}): CfnFlowOutput.EncodingParametersProperty = CfnFlowOutput.EncodingParametersProperty.Builder().apply(initializer).build()

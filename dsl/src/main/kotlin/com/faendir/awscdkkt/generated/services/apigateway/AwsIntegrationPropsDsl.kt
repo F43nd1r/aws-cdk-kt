@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.AwsIntegrationProps
 
 @Generated
-public fun buildAwsIntegrationProps(initializer: @AwsCdkDsl AwsIntegrationProps.Builder.() -> Unit =
-    {}): AwsIntegrationProps = AwsIntegrationProps.Builder().apply(initializer).build()
+public fun buildAwsIntegrationProps(initializer: @AwsCdkDsl AwsIntegrationProps.Builder.() -> Unit = {}): AwsIntegrationProps = AwsIntegrationProps.Builder().apply(initializer).build()

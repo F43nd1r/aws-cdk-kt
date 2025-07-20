@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.budgets.CfnBudgetsAction
 
 @Generated
-public fun buildScpActionDefinitionProperty(initializer: @AwsCdkDsl
-    CfnBudgetsAction.ScpActionDefinitionProperty.Builder.() -> Unit = {}):
-    CfnBudgetsAction.ScpActionDefinitionProperty =
-    CfnBudgetsAction.ScpActionDefinitionProperty.Builder().apply(initializer).build()
+public fun buildScpActionDefinitionProperty(initializer: @AwsCdkDsl CfnBudgetsAction.ScpActionDefinitionProperty.Builder.() -> Unit = {}): CfnBudgetsAction.ScpActionDefinitionProperty = CfnBudgetsAction.ScpActionDefinitionProperty.Builder().apply(initializer).build()

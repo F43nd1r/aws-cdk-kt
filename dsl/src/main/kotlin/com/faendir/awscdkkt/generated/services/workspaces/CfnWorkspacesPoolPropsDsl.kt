@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.workspaces.CfnWorkspacesPoolProps
 
 @Generated
-public fun buildCfnWorkspacesPoolProps(initializer: @AwsCdkDsl
-    CfnWorkspacesPoolProps.Builder.() -> Unit = {}): CfnWorkspacesPoolProps =
-    CfnWorkspacesPoolProps.Builder().apply(initializer).build()
+public fun buildCfnWorkspacesPoolProps(initializer: @AwsCdkDsl CfnWorkspacesPoolProps.Builder.() -> Unit = {}): CfnWorkspacesPoolProps = CfnWorkspacesPoolProps.Builder().apply(initializer).build()

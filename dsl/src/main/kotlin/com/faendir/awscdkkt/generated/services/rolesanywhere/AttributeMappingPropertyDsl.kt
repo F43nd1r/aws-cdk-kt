@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rolesanywhere.CfnProfile
 
 @Generated
-public fun buildAttributeMappingProperty(initializer: @AwsCdkDsl
-    CfnProfile.AttributeMappingProperty.Builder.() -> Unit = {}):
-    CfnProfile.AttributeMappingProperty =
-    CfnProfile.AttributeMappingProperty.Builder().apply(initializer).build()
+public fun buildAttributeMappingProperty(initializer: @AwsCdkDsl CfnProfile.AttributeMappingProperty.Builder.() -> Unit = {}): CfnProfile.AttributeMappingProperty = CfnProfile.AttributeMappingProperty.Builder().apply(initializer).build()

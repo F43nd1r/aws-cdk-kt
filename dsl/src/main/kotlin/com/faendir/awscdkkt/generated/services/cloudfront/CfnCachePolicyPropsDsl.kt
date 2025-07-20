@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnCachePolicyProps
 
 @Generated
-public fun buildCfnCachePolicyProps(initializer: @AwsCdkDsl CfnCachePolicyProps.Builder.() -> Unit =
-    {}): CfnCachePolicyProps = CfnCachePolicyProps.Builder().apply(initializer).build()
+public fun buildCfnCachePolicyProps(initializer: @AwsCdkDsl CfnCachePolicyProps.Builder.() -> Unit = {}): CfnCachePolicyProps = CfnCachePolicyProps.Builder().apply(initializer).build()

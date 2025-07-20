@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotfleetwise.CfnCampaign
 
 @Generated
-public fun buildSignalFetchInformationProperty(initializer: @AwsCdkDsl
-    CfnCampaign.SignalFetchInformationProperty.Builder.() -> Unit = {}):
-    CfnCampaign.SignalFetchInformationProperty =
-    CfnCampaign.SignalFetchInformationProperty.Builder().apply(initializer).build()
+public fun buildSignalFetchInformationProperty(initializer: @AwsCdkDsl CfnCampaign.SignalFetchInformationProperty.Builder.() -> Unit = {}): CfnCampaign.SignalFetchInformationProperty = CfnCampaign.SignalFetchInformationProperty.Builder().apply(initializer).build()

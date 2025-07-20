@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.CallApiGatewayRestApiEndpointOptions
 
 @Generated
-public fun buildCallApiGatewayRestApiEndpointOptions(initializer: @AwsCdkDsl
-    CallApiGatewayRestApiEndpointOptions.Builder.() -> Unit = {}):
-    CallApiGatewayRestApiEndpointOptions =
-    CallApiGatewayRestApiEndpointOptions.Builder().apply(initializer).build()
+public fun buildCallApiGatewayRestApiEndpointOptions(initializer: @AwsCdkDsl CallApiGatewayRestApiEndpointOptions.Builder.() -> Unit = {}): CallApiGatewayRestApiEndpointOptions = CallApiGatewayRestApiEndpointOptions.Builder().apply(initializer).build()

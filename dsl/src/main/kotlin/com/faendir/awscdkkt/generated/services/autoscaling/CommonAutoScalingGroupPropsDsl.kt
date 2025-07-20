@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.CommonAutoScalingGroupProps
 
 @Generated
-public fun buildCommonAutoScalingGroupProps(initializer: @AwsCdkDsl
-    CommonAutoScalingGroupProps.Builder.() -> Unit = {}): CommonAutoScalingGroupProps =
-    CommonAutoScalingGroupProps.Builder().apply(initializer).build()
+public fun buildCommonAutoScalingGroupProps(initializer: @AwsCdkDsl CommonAutoScalingGroupProps.Builder.() -> Unit = {}): CommonAutoScalingGroupProps = CommonAutoScalingGroupProps.Builder().apply(initializer).build()

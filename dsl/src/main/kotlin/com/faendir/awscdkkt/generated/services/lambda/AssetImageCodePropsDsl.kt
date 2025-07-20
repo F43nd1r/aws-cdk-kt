@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.AssetImageCodeProps
 
 @Generated
-public fun buildAssetImageCodeProps(initializer: @AwsCdkDsl AssetImageCodeProps.Builder.() -> Unit =
-    {}): AssetImageCodeProps = AssetImageCodeProps.Builder().apply(initializer).build()
+public fun buildAssetImageCodeProps(initializer: @AwsCdkDsl AssetImageCodeProps.Builder.() -> Unit = {}): AssetImageCodeProps = AssetImageCodeProps.Builder().apply(initializer).build()

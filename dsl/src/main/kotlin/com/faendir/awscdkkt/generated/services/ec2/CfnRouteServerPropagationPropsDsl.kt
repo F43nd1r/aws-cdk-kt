@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnRouteServerPropagationProps
 
 @Generated
-public fun buildCfnRouteServerPropagationProps(initializer: @AwsCdkDsl
-    CfnRouteServerPropagationProps.Builder.() -> Unit = {}): CfnRouteServerPropagationProps =
-    CfnRouteServerPropagationProps.Builder().apply(initializer).build()
+public fun buildCfnRouteServerPropagationProps(initializer: @AwsCdkDsl CfnRouteServerPropagationProps.Builder.() -> Unit = {}): CfnRouteServerPropagationProps = CfnRouteServerPropagationProps.Builder().apply(initializer).build()

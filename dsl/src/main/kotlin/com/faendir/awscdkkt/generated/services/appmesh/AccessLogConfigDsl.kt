@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.AccessLogConfig
 
 @Generated
-public fun buildAccessLogConfig(initializer: @AwsCdkDsl AccessLogConfig.Builder.() -> Unit = {}):
-    AccessLogConfig = AccessLogConfig.Builder().apply(initializer).build()
+public fun buildAccessLogConfig(initializer: @AwsCdkDsl AccessLogConfig.Builder.() -> Unit = {}): AccessLogConfig = AccessLogConfig.Builder().apply(initializer).build()

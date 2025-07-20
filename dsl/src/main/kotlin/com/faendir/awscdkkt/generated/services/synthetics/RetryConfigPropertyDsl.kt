@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.synthetics.CfnCanary
 
 @Generated
-public fun buildRetryConfigProperty(initializer: @AwsCdkDsl
-    CfnCanary.RetryConfigProperty.Builder.() -> Unit = {}): CfnCanary.RetryConfigProperty =
-    CfnCanary.RetryConfigProperty.Builder().apply(initializer).build()
+public fun buildRetryConfigProperty(initializer: @AwsCdkDsl CfnCanary.RetryConfigProperty.Builder.() -> Unit = {}): CfnCanary.RetryConfigProperty = CfnCanary.RetryConfigProperty.Builder().apply(initializer).build()

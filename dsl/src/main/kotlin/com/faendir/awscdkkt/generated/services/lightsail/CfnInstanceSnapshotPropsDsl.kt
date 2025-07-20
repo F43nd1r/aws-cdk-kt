@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lightsail.CfnInstanceSnapshotProps
 
 @Generated
-public fun buildCfnInstanceSnapshotProps(initializer: @AwsCdkDsl
-    CfnInstanceSnapshotProps.Builder.() -> Unit = {}): CfnInstanceSnapshotProps =
-    CfnInstanceSnapshotProps.Builder().apply(initializer).build()
+public fun buildCfnInstanceSnapshotProps(initializer: @AwsCdkDsl CfnInstanceSnapshotProps.Builder.() -> Unit = {}): CfnInstanceSnapshotProps = CfnInstanceSnapshotProps.Builder().apply(initializer).build()

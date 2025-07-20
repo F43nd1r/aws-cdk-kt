@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.managedblockchain.CfnAccessorProps
 
 @Generated
-public fun buildCfnAccessorProps(initializer: @AwsCdkDsl CfnAccessorProps.Builder.() -> Unit = {}):
-    CfnAccessorProps = CfnAccessorProps.Builder().apply(initializer).build()
+public fun buildCfnAccessorProps(initializer: @AwsCdkDsl CfnAccessorProps.Builder.() -> Unit = {}): CfnAccessorProps = CfnAccessorProps.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnPushTemplate(
 ): CfnPushTemplate = CfnPushTemplate(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPushTemplate(id: String, initializer: @AwsCdkDsl
-    CfnPushTemplate.Builder.() -> Unit = {}): CfnPushTemplate = CfnPushTemplate.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnPushTemplate(id: String, initializer: @AwsCdkDsl CfnPushTemplate.Builder.() -> Unit = {}): CfnPushTemplate = CfnPushTemplate.Builder.create(this, id).apply(initializer).build()

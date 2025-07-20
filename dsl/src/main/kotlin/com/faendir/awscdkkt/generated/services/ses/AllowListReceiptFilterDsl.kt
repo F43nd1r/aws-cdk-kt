@@ -16,6 +16,4 @@ public fun Construct.allowListReceiptFilter(
 ): AllowListReceiptFilter = AllowListReceiptFilter(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAllowListReceiptFilter(id: String, initializer: @AwsCdkDsl
-    AllowListReceiptFilter.Builder.() -> Unit = {}): AllowListReceiptFilter =
-    AllowListReceiptFilter.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildAllowListReceiptFilter(id: String, initializer: @AwsCdkDsl AllowListReceiptFilter.Builder.() -> Unit = {}): AllowListReceiptFilter = AllowListReceiptFilter.Builder.create(this, id).apply(initializer).build()

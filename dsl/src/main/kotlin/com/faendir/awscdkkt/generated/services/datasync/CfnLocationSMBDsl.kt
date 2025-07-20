@@ -16,6 +16,4 @@ public fun Construct.cfnLocationSMB(
 ): CfnLocationSMB = CfnLocationSMB(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLocationSMB(id: String, initializer: @AwsCdkDsl
-    CfnLocationSMB.Builder.() -> Unit = {}): CfnLocationSMB = CfnLocationSMB.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnLocationSMB(id: String, initializer: @AwsCdkDsl CfnLocationSMB.Builder.() -> Unit = {}): CfnLocationSMB = CfnLocationSMB.Builder.create(this, id).apply(initializer).build()

@@ -13,10 +13,7 @@ public fun Construct.cfnDirectConnectGatewayAttachment(
   id: String,
   props: CfnDirectConnectGatewayAttachmentProps,
   initializer: @AwsCdkDsl CfnDirectConnectGatewayAttachment.() -> Unit = {},
-): CfnDirectConnectGatewayAttachment = CfnDirectConnectGatewayAttachment(this, id,
-    props).apply(initializer)
+): CfnDirectConnectGatewayAttachment = CfnDirectConnectGatewayAttachment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDirectConnectGatewayAttachment(id: String, initializer: @AwsCdkDsl
-    CfnDirectConnectGatewayAttachment.Builder.() -> Unit = {}): CfnDirectConnectGatewayAttachment =
-    CfnDirectConnectGatewayAttachment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDirectConnectGatewayAttachment(id: String, initializer: @AwsCdkDsl CfnDirectConnectGatewayAttachment.Builder.() -> Unit = {}): CfnDirectConnectGatewayAttachment = CfnDirectConnectGatewayAttachment.Builder.create(this, id).apply(initializer).build()

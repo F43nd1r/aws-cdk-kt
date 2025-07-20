@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.HealthCheckProps
 
 @Generated
-public fun buildHealthCheckProps(initializer: @AwsCdkDsl HealthCheckProps.Builder.() -> Unit = {}):
-    HealthCheckProps = HealthCheckProps.Builder().apply(initializer).build()
+public fun buildHealthCheckProps(initializer: @AwsCdkDsl HealthCheckProps.Builder.() -> Unit = {}): HealthCheckProps = HealthCheckProps.Builder().apply(initializer).build()

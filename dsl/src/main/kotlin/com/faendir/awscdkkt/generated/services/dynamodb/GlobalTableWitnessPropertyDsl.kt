@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.CfnGlobalTable
 
 @Generated
-public fun buildGlobalTableWitnessProperty(initializer: @AwsCdkDsl
-    CfnGlobalTable.GlobalTableWitnessProperty.Builder.() -> Unit = {}):
-    CfnGlobalTable.GlobalTableWitnessProperty =
-    CfnGlobalTable.GlobalTableWitnessProperty.Builder().apply(initializer).build()
+public fun buildGlobalTableWitnessProperty(initializer: @AwsCdkDsl CfnGlobalTable.GlobalTableWitnessProperty.Builder.() -> Unit = {}): CfnGlobalTable.GlobalTableWitnessProperty = CfnGlobalTable.GlobalTableWitnessProperty.Builder().apply(initializer).build()

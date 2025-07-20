@@ -16,6 +16,4 @@ public fun Construct.userPoolDomain(
 ): UserPoolDomain = UserPoolDomain(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildUserPoolDomain(id: String, initializer: @AwsCdkDsl
-    UserPoolDomain.Builder.() -> Unit = {}): UserPoolDomain = UserPoolDomain.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildUserPoolDomain(id: String, initializer: @AwsCdkDsl UserPoolDomain.Builder.() -> Unit = {}): UserPoolDomain = UserPoolDomain.Builder.create(this, id).apply(initializer).build()

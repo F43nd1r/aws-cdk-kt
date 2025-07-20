@@ -16,5 +16,4 @@ public fun Construct.cfnRule(
 ): CfnRule = CfnRule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRule(id: String, initializer: @AwsCdkDsl CfnRule.Builder.() -> Unit =
-    {}): CfnRule = CfnRule.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRule(id: String, initializer: @AwsCdkDsl CfnRule.Builder.() -> Unit = {}): CfnRule = CfnRule.Builder.create(this, id).apply(initializer).build()

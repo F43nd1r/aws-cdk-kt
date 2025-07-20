@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnGameSessionQueueProps
 
 @Generated
-public fun buildCfnGameSessionQueueProps(initializer: @AwsCdkDsl
-    CfnGameSessionQueueProps.Builder.() -> Unit = {}): CfnGameSessionQueueProps =
-    CfnGameSessionQueueProps.Builder().apply(initializer).build()
+public fun buildCfnGameSessionQueueProps(initializer: @AwsCdkDsl CfnGameSessionQueueProps.Builder.() -> Unit = {}): CfnGameSessionQueueProps = CfnGameSessionQueueProps.Builder().apply(initializer).build()

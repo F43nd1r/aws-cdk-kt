@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.verifiedpermissions.CfnPolicy
 
 @Generated
-public fun buildTemplateLinkedPolicyDefinitionProperty(initializer: @AwsCdkDsl
-    CfnPolicy.TemplateLinkedPolicyDefinitionProperty.Builder.() -> Unit = {}):
-    CfnPolicy.TemplateLinkedPolicyDefinitionProperty =
-    CfnPolicy.TemplateLinkedPolicyDefinitionProperty.Builder().apply(initializer).build()
+public fun buildTemplateLinkedPolicyDefinitionProperty(initializer: @AwsCdkDsl CfnPolicy.TemplateLinkedPolicyDefinitionProperty.Builder.() -> Unit = {}): CfnPolicy.TemplateLinkedPolicyDefinitionProperty = CfnPolicy.TemplateLinkedPolicyDefinitionProperty.Builder().apply(initializer).build()

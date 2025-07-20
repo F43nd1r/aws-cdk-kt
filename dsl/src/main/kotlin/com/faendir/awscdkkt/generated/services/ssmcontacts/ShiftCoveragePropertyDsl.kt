@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssmcontacts.CfnRotation
 
 @Generated
-public fun buildShiftCoverageProperty(initializer: @AwsCdkDsl
-    CfnRotation.ShiftCoverageProperty.Builder.() -> Unit = {}): CfnRotation.ShiftCoverageProperty =
-    CfnRotation.ShiftCoverageProperty.Builder().apply(initializer).build()
+public fun buildShiftCoverageProperty(initializer: @AwsCdkDsl CfnRotation.ShiftCoverageProperty.Builder.() -> Unit = {}): CfnRotation.ShiftCoverageProperty = CfnRotation.ShiftCoverageProperty.Builder().apply(initializer).build()

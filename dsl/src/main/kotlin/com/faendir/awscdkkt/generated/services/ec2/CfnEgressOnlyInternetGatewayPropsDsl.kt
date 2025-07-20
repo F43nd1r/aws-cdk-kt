@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnEgressOnlyInternetGatewayProps
 
 @Generated
-public fun buildCfnEgressOnlyInternetGatewayProps(initializer: @AwsCdkDsl
-    CfnEgressOnlyInternetGatewayProps.Builder.() -> Unit = {}): CfnEgressOnlyInternetGatewayProps =
-    CfnEgressOnlyInternetGatewayProps.Builder().apply(initializer).build()
+public fun buildCfnEgressOnlyInternetGatewayProps(initializer: @AwsCdkDsl CfnEgressOnlyInternetGatewayProps.Builder.() -> Unit = {}): CfnEgressOnlyInternetGatewayProps = CfnEgressOnlyInternetGatewayProps.Builder().apply(initializer).build()

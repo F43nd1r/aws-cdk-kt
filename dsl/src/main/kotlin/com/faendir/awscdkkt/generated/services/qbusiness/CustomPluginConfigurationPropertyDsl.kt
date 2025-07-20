@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnPlugin
 
 @Generated
-public fun buildCustomPluginConfigurationProperty(initializer: @AwsCdkDsl
-    CfnPlugin.CustomPluginConfigurationProperty.Builder.() -> Unit = {}):
-    CfnPlugin.CustomPluginConfigurationProperty =
-    CfnPlugin.CustomPluginConfigurationProperty.Builder().apply(initializer).build()
+public fun buildCustomPluginConfigurationProperty(initializer: @AwsCdkDsl CfnPlugin.CustomPluginConfigurationProperty.Builder.() -> Unit = {}): CfnPlugin.CustomPluginConfigurationProperty = CfnPlugin.CustomPluginConfigurationProperty.Builder().apply(initializer).build()

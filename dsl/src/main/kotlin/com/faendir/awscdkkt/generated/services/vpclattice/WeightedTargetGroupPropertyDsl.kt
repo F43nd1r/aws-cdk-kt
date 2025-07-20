@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.vpclattice.CfnRule
 
 @Generated
-public fun buildWeightedTargetGroupProperty(initializer: @AwsCdkDsl
-    CfnRule.WeightedTargetGroupProperty.Builder.() -> Unit = {}):
-    CfnRule.WeightedTargetGroupProperty =
-    CfnRule.WeightedTargetGroupProperty.Builder().apply(initializer).build()
+public fun buildWeightedTargetGroupProperty(initializer: @AwsCdkDsl CfnRule.WeightedTargetGroupProperty.Builder.() -> Unit = {}): CfnRule.WeightedTargetGroupProperty = CfnRule.WeightedTargetGroupProperty.Builder().apply(initializer).build()

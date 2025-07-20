@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.redshiftserverless.CfnWorkgroup
 
 @Generated
-public fun buildEndpointProperty(initializer: @AwsCdkDsl
-    CfnWorkgroup.EndpointProperty.Builder.() -> Unit = {}): CfnWorkgroup.EndpointProperty =
-    CfnWorkgroup.EndpointProperty.Builder().apply(initializer).build()
+public fun buildEndpointProperty(initializer: @AwsCdkDsl CfnWorkgroup.EndpointProperty.Builder.() -> Unit = {}): CfnWorkgroup.EndpointProperty = CfnWorkgroup.EndpointProperty.Builder().apply(initializer).build()

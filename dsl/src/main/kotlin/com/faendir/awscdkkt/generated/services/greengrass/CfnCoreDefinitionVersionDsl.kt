@@ -16,6 +16,4 @@ public fun Construct.cfnCoreDefinitionVersion(
 ): CfnCoreDefinitionVersion = CfnCoreDefinitionVersion(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCoreDefinitionVersion(id: String, initializer: @AwsCdkDsl
-    CfnCoreDefinitionVersion.Builder.() -> Unit = {}): CfnCoreDefinitionVersion =
-    CfnCoreDefinitionVersion.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCoreDefinitionVersion(id: String, initializer: @AwsCdkDsl CfnCoreDefinitionVersion.Builder.() -> Unit = {}): CfnCoreDefinitionVersion = CfnCoreDefinitionVersion.Builder.create(this, id).apply(initializer).build()

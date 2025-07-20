@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.CfnJobQueue
 
 @Generated
-public fun buildJobStateTimeLimitActionProperty(initializer: @AwsCdkDsl
-    CfnJobQueue.JobStateTimeLimitActionProperty.Builder.() -> Unit = {}):
-    CfnJobQueue.JobStateTimeLimitActionProperty =
-    CfnJobQueue.JobStateTimeLimitActionProperty.Builder().apply(initializer).build()
+public fun buildJobStateTimeLimitActionProperty(initializer: @AwsCdkDsl CfnJobQueue.JobStateTimeLimitActionProperty.Builder.() -> Unit = {}): CfnJobQueue.JobStateTimeLimitActionProperty = CfnJobQueue.JobStateTimeLimitActionProperty.Builder().apply(initializer).build()

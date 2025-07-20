@@ -16,5 +16,4 @@ public fun Construct.table(
 ): Table = Table(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildTable(id: String, initializer: @AwsCdkDsl Table.Builder.() -> Unit = {}):
-    Table = Table.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildTable(id: String, initializer: @AwsCdkDsl Table.Builder.() -> Unit = {}): Table = Table.Builder.create(this, id).apply(initializer).build()

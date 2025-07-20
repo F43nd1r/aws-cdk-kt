@@ -16,6 +16,4 @@ public fun Construct.cfnEndpoint(
 ): CfnEndpoint = CfnEndpoint(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEndpoint(id: String, initializer: @AwsCdkDsl
-    CfnEndpoint.Builder.() -> Unit = {}): CfnEndpoint = CfnEndpoint.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnEndpoint(id: String, initializer: @AwsCdkDsl CfnEndpoint.Builder.() -> Unit = {}): CfnEndpoint = CfnEndpoint.Builder.create(this, id).apply(initializer).build()

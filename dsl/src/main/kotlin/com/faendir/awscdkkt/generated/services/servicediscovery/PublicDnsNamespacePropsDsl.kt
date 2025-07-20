@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicediscovery.PublicDnsNamespaceProps
 
 @Generated
-public fun buildPublicDnsNamespaceProps(initializer: @AwsCdkDsl
-    PublicDnsNamespaceProps.Builder.() -> Unit = {}): PublicDnsNamespaceProps =
-    PublicDnsNamespaceProps.Builder().apply(initializer).build()
+public fun buildPublicDnsNamespaceProps(initializer: @AwsCdkDsl PublicDnsNamespaceProps.Builder.() -> Unit = {}): PublicDnsNamespaceProps = PublicDnsNamespaceProps.Builder().apply(initializer).build()

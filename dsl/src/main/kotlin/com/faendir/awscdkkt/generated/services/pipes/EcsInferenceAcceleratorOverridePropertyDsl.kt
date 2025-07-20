@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildEcsInferenceAcceleratorOverrideProperty(initializer: @AwsCdkDsl
-    CfnPipe.EcsInferenceAcceleratorOverrideProperty.Builder.() -> Unit = {}):
-    CfnPipe.EcsInferenceAcceleratorOverrideProperty =
-    CfnPipe.EcsInferenceAcceleratorOverrideProperty.Builder().apply(initializer).build()
+public fun buildEcsInferenceAcceleratorOverrideProperty(initializer: @AwsCdkDsl CfnPipe.EcsInferenceAcceleratorOverrideProperty.Builder.() -> Unit = {}): CfnPipe.EcsInferenceAcceleratorOverrideProperty = CfnPipe.EcsInferenceAcceleratorOverrideProperty.Builder().apply(initializer).build()

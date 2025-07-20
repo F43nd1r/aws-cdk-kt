@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrAddStepProps
 
 @Generated
-public fun buildEmrAddStepProps(initializer: @AwsCdkDsl EmrAddStepProps.Builder.() -> Unit = {}):
-    EmrAddStepProps = EmrAddStepProps.Builder().apply(initializer).build()
+public fun buildEmrAddStepProps(initializer: @AwsCdkDsl EmrAddStepProps.Builder.() -> Unit = {}): EmrAddStepProps = EmrAddStepProps.Builder().apply(initializer).build()

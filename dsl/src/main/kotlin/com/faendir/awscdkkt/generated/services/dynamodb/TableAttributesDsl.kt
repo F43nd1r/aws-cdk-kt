@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.TableAttributes
 
 @Generated
-public fun buildTableAttributes(initializer: @AwsCdkDsl TableAttributes.Builder.() -> Unit = {}):
-    TableAttributes = TableAttributes.Builder().apply(initializer).build()
+public fun buildTableAttributes(initializer: @AwsCdkDsl TableAttributes.Builder.() -> Unit = {}): TableAttributes = TableAttributes.Builder().apply(initializer).build()

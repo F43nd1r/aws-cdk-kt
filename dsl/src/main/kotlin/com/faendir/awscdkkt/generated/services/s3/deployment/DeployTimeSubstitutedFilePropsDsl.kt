@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.deployment.DeployTimeSubstitutedFileProps
 
 @Generated
-public fun buildDeployTimeSubstitutedFileProps(initializer: @AwsCdkDsl
-    DeployTimeSubstitutedFileProps.Builder.() -> Unit = {}): DeployTimeSubstitutedFileProps =
-    DeployTimeSubstitutedFileProps.Builder().apply(initializer).build()
+public fun buildDeployTimeSubstitutedFileProps(initializer: @AwsCdkDsl DeployTimeSubstitutedFileProps.Builder.() -> Unit = {}): DeployTimeSubstitutedFileProps = DeployTimeSubstitutedFileProps.Builder().apply(initializer).build()

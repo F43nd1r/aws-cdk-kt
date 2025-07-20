@@ -13,10 +13,7 @@ public fun Construct.cfnFirewallRuleGroupAssociation(
   id: String,
   props: CfnFirewallRuleGroupAssociationProps,
   initializer: @AwsCdkDsl CfnFirewallRuleGroupAssociation.() -> Unit = {},
-): CfnFirewallRuleGroupAssociation = CfnFirewallRuleGroupAssociation(this, id,
-    props).apply(initializer)
+): CfnFirewallRuleGroupAssociation = CfnFirewallRuleGroupAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnFirewallRuleGroupAssociation(id: String, initializer: @AwsCdkDsl
-    CfnFirewallRuleGroupAssociation.Builder.() -> Unit = {}): CfnFirewallRuleGroupAssociation =
-    CfnFirewallRuleGroupAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnFirewallRuleGroupAssociation(id: String, initializer: @AwsCdkDsl CfnFirewallRuleGroupAssociation.Builder.() -> Unit = {}): CfnFirewallRuleGroupAssociation = CfnFirewallRuleGroupAssociation.Builder.create(this, id).apply(initializer).build()

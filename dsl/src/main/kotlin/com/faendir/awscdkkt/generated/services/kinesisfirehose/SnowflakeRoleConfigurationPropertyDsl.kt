@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
-public fun buildSnowflakeRoleConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.SnowflakeRoleConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDeliveryStream.SnowflakeRoleConfigurationProperty =
-    CfnDeliveryStream.SnowflakeRoleConfigurationProperty.Builder().apply(initializer).build()
+public fun buildSnowflakeRoleConfigurationProperty(initializer: @AwsCdkDsl CfnDeliveryStream.SnowflakeRoleConfigurationProperty.Builder.() -> Unit = {}): CfnDeliveryStream.SnowflakeRoleConfigurationProperty = CfnDeliveryStream.SnowflakeRoleConfigurationProperty.Builder().apply(initializer).build()

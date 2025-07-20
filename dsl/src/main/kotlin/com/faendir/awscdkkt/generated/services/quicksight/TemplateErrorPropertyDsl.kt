@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildTemplateErrorProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TemplateErrorProperty.Builder.() -> Unit = {}): CfnTemplate.TemplateErrorProperty =
-    CfnTemplate.TemplateErrorProperty.Builder().apply(initializer).build()
+public fun buildTemplateErrorProperty(initializer: @AwsCdkDsl CfnTemplate.TemplateErrorProperty.Builder.() -> Unit = {}): CfnTemplate.TemplateErrorProperty = CfnTemplate.TemplateErrorProperty.Builder().apply(initializer).build()

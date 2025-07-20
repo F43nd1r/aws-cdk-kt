@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securityhub.CfnDelegatedAdminProps
 
 @Generated
-public fun buildCfnDelegatedAdminProps(initializer: @AwsCdkDsl
-    CfnDelegatedAdminProps.Builder.() -> Unit = {}): CfnDelegatedAdminProps =
-    CfnDelegatedAdminProps.Builder().apply(initializer).build()
+public fun buildCfnDelegatedAdminProps(initializer: @AwsCdkDsl CfnDelegatedAdminProps.Builder.() -> Unit = {}): CfnDelegatedAdminProps = CfnDelegatedAdminProps.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloudassembly.schema.MetadataEntry
 
 @Generated
-public fun buildMetadataEntry(initializer: @AwsCdkDsl MetadataEntry.Builder.() -> Unit = {}):
-    MetadataEntry = MetadataEntry.Builder().apply(initializer).build()
+public fun buildMetadataEntry(initializer: @AwsCdkDsl MetadataEntry.Builder.() -> Unit = {}): MetadataEntry = MetadataEntry.Builder().apply(initializer).build()

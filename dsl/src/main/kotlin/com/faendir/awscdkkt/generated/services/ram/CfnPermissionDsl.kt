@@ -16,6 +16,4 @@ public fun Construct.cfnPermission(
 ): CfnPermission = CfnPermission(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPermission(id: String, initializer: @AwsCdkDsl
-    CfnPermission.Builder.() -> Unit = {}): CfnPermission = CfnPermission.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnPermission(id: String, initializer: @AwsCdkDsl CfnPermission.Builder.() -> Unit = {}): CfnPermission = CfnPermission.Builder.create(this, id).apply(initializer).build()

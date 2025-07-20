@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.redshiftserverless.CfnWorkgroup
 
 @Generated
-public fun buildNetworkInterfaceProperty(initializer: @AwsCdkDsl
-    CfnWorkgroup.NetworkInterfaceProperty.Builder.() -> Unit = {}):
-    CfnWorkgroup.NetworkInterfaceProperty =
-    CfnWorkgroup.NetworkInterfaceProperty.Builder().apply(initializer).build()
+public fun buildNetworkInterfaceProperty(initializer: @AwsCdkDsl CfnWorkgroup.NetworkInterfaceProperty.Builder.() -> Unit = {}): CfnWorkgroup.NetworkInterfaceProperty = CfnWorkgroup.NetworkInterfaceProperty.Builder().apply(initializer).build()

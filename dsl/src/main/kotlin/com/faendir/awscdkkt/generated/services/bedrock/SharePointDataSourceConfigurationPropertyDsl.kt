@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnDataSource
 
 @Generated
-public fun buildSharePointDataSourceConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.SharePointDataSourceConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDataSource.SharePointDataSourceConfigurationProperty =
-    CfnDataSource.SharePointDataSourceConfigurationProperty.Builder().apply(initializer).build()
+public fun buildSharePointDataSourceConfigurationProperty(initializer: @AwsCdkDsl CfnDataSource.SharePointDataSourceConfigurationProperty.Builder.() -> Unit = {}): CfnDataSource.SharePointDataSourceConfigurationProperty = CfnDataSource.SharePointDataSourceConfigurationProperty.Builder().apply(initializer).build()

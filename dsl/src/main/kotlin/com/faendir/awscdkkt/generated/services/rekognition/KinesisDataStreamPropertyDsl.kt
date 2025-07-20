@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rekognition.CfnStreamProcessor
 
 @Generated
-public fun buildKinesisDataStreamProperty(initializer: @AwsCdkDsl
-    CfnStreamProcessor.KinesisDataStreamProperty.Builder.() -> Unit = {}):
-    CfnStreamProcessor.KinesisDataStreamProperty =
-    CfnStreamProcessor.KinesisDataStreamProperty.Builder().apply(initializer).build()
+public fun buildKinesisDataStreamProperty(initializer: @AwsCdkDsl CfnStreamProcessor.KinesisDataStreamProperty.Builder.() -> Unit = {}): CfnStreamProcessor.KinesisDataStreamProperty = CfnStreamProcessor.KinesisDataStreamProperty.Builder().apply(initializer).build()

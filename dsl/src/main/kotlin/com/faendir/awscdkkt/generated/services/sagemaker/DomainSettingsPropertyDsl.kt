@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnDomain
 
 @Generated
-public fun buildDomainSettingsProperty(initializer: @AwsCdkDsl
-    CfnDomain.DomainSettingsProperty.Builder.() -> Unit = {}): CfnDomain.DomainSettingsProperty =
-    CfnDomain.DomainSettingsProperty.Builder().apply(initializer).build()
+public fun buildDomainSettingsProperty(initializer: @AwsCdkDsl CfnDomain.DomainSettingsProperty.Builder.() -> Unit = {}): CfnDomain.DomainSettingsProperty = CfnDomain.DomainSettingsProperty.Builder().apply(initializer).build()

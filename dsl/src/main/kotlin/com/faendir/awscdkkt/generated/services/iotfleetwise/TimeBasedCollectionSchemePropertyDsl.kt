@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotfleetwise.CfnCampaign
 
 @Generated
-public fun buildTimeBasedCollectionSchemeProperty(initializer: @AwsCdkDsl
-    CfnCampaign.TimeBasedCollectionSchemeProperty.Builder.() -> Unit = {}):
-    CfnCampaign.TimeBasedCollectionSchemeProperty =
-    CfnCampaign.TimeBasedCollectionSchemeProperty.Builder().apply(initializer).build()
+public fun buildTimeBasedCollectionSchemeProperty(initializer: @AwsCdkDsl CfnCampaign.TimeBasedCollectionSchemeProperty.Builder.() -> Unit = {}): CfnCampaign.TimeBasedCollectionSchemeProperty = CfnCampaign.TimeBasedCollectionSchemeProperty.Builder().apply(initializer).build()

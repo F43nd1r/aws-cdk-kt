@@ -16,6 +16,4 @@ public fun Construct.cfnInferenceExperiment(
 ): CfnInferenceExperiment = CfnInferenceExperiment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnInferenceExperiment(id: String, initializer: @AwsCdkDsl
-    CfnInferenceExperiment.Builder.() -> Unit = {}): CfnInferenceExperiment =
-    CfnInferenceExperiment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnInferenceExperiment(id: String, initializer: @AwsCdkDsl CfnInferenceExperiment.Builder.() -> Unit = {}): CfnInferenceExperiment = CfnInferenceExperiment.Builder.create(this, id).apply(initializer).build()

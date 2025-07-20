@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.patterns.ApplicationMultipleTargetGroupsFargateServiceProps
 
 @Generated
-public fun buildApplicationMultipleTargetGroupsFargateServiceProps(initializer: @AwsCdkDsl
-    ApplicationMultipleTargetGroupsFargateServiceProps.Builder.() -> Unit = {}):
-    ApplicationMultipleTargetGroupsFargateServiceProps =
-    ApplicationMultipleTargetGroupsFargateServiceProps.Builder().apply(initializer).build()
+public fun buildApplicationMultipleTargetGroupsFargateServiceProps(initializer: @AwsCdkDsl ApplicationMultipleTargetGroupsFargateServiceProps.Builder.() -> Unit = {}): ApplicationMultipleTargetGroupsFargateServiceProps = ApplicationMultipleTargetGroupsFargateServiceProps.Builder().apply(initializer).build()

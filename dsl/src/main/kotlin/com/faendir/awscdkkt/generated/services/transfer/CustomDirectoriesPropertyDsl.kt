@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.transfer.CfnAgreement
 
 @Generated
-public fun buildCustomDirectoriesProperty(initializer: @AwsCdkDsl
-    CfnAgreement.CustomDirectoriesProperty.Builder.() -> Unit = {}):
-    CfnAgreement.CustomDirectoriesProperty =
-    CfnAgreement.CustomDirectoriesProperty.Builder().apply(initializer).build()
+public fun buildCustomDirectoriesProperty(initializer: @AwsCdkDsl CfnAgreement.CustomDirectoriesProperty.Builder.() -> Unit = {}): CfnAgreement.CustomDirectoriesProperty = CfnAgreement.CustomDirectoriesProperty.Builder().apply(initializer).build()

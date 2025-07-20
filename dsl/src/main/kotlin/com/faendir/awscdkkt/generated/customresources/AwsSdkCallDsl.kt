@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.customresources.AwsSdkCall
 
 @Generated
-public fun buildAwsSdkCall(initializer: @AwsCdkDsl AwsSdkCall.Builder.() -> Unit = {}): AwsSdkCall =
-    AwsSdkCall.Builder().apply(initializer).build()
+public fun buildAwsSdkCall(initializer: @AwsCdkDsl AwsSdkCall.Builder.() -> Unit = {}): AwsSdkCall = AwsSdkCall.Builder().apply(initializer).build()

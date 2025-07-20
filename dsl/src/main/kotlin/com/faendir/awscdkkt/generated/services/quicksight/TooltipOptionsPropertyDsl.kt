@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildTooltipOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TooltipOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.TooltipOptionsProperty
-    = CfnTemplate.TooltipOptionsProperty.Builder().apply(initializer).build()
+public fun buildTooltipOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.TooltipOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.TooltipOptionsProperty = CfnTemplate.TooltipOptionsProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mpa.CfnApprovalTeamProps
 
 @Generated
-public fun buildCfnApprovalTeamProps(initializer: @AwsCdkDsl CfnApprovalTeamProps.Builder.() -> Unit
-    = {}): CfnApprovalTeamProps = CfnApprovalTeamProps.Builder().apply(initializer).build()
+public fun buildCfnApprovalTeamProps(initializer: @AwsCdkDsl CfnApprovalTeamProps.Builder.() -> Unit = {}): CfnApprovalTeamProps = CfnApprovalTeamProps.Builder().apply(initializer).build()

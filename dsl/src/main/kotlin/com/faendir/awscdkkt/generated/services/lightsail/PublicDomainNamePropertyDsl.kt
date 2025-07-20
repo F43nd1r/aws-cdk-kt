@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lightsail.CfnContainer
 
 @Generated
-public fun buildPublicDomainNameProperty(initializer: @AwsCdkDsl
-    CfnContainer.PublicDomainNameProperty.Builder.() -> Unit = {}):
-    CfnContainer.PublicDomainNameProperty =
-    CfnContainer.PublicDomainNameProperty.Builder().apply(initializer).build()
+public fun buildPublicDomainNameProperty(initializer: @AwsCdkDsl CfnContainer.PublicDomainNameProperty.Builder.() -> Unit = {}): CfnContainer.PublicDomainNameProperty = CfnContainer.PublicDomainNameProperty.Builder().apply(initializer).build()

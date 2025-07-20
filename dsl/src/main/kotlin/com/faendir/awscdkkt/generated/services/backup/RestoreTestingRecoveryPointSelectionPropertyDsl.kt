@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.backup.CfnRestoreTestingPlan
 
 @Generated
-public fun buildRestoreTestingRecoveryPointSelectionProperty(initializer: @AwsCdkDsl
-    CfnRestoreTestingPlan.RestoreTestingRecoveryPointSelectionProperty.Builder.() -> Unit = {}):
-    CfnRestoreTestingPlan.RestoreTestingRecoveryPointSelectionProperty =
-    CfnRestoreTestingPlan.RestoreTestingRecoveryPointSelectionProperty.Builder().apply(initializer).build()
+public fun buildRestoreTestingRecoveryPointSelectionProperty(initializer: @AwsCdkDsl CfnRestoreTestingPlan.RestoreTestingRecoveryPointSelectionProperty.Builder.() -> Unit = {}): CfnRestoreTestingPlan.RestoreTestingRecoveryPointSelectionProperty = CfnRestoreTestingPlan.RestoreTestingRecoveryPointSelectionProperty.Builder().apply(initializer).build()

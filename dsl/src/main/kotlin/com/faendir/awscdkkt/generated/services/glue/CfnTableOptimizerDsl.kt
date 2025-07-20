@@ -16,6 +16,4 @@ public fun Construct.cfnTableOptimizer(
 ): CfnTableOptimizer = CfnTableOptimizer(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTableOptimizer(id: String, initializer: @AwsCdkDsl
-    CfnTableOptimizer.Builder.() -> Unit = {}): CfnTableOptimizer =
-    CfnTableOptimizer.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTableOptimizer(id: String, initializer: @AwsCdkDsl CfnTableOptimizer.Builder.() -> Unit = {}): CfnTableOptimizer = CfnTableOptimizer.Builder.create(this, id).apply(initializer).build()

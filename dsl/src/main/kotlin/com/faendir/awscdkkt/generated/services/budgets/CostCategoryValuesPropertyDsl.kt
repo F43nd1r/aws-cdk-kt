@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.budgets.CfnBudget
 
 @Generated
-public fun buildCostCategoryValuesProperty(initializer: @AwsCdkDsl
-    CfnBudget.CostCategoryValuesProperty.Builder.() -> Unit = {}):
-    CfnBudget.CostCategoryValuesProperty =
-    CfnBudget.CostCategoryValuesProperty.Builder().apply(initializer).build()
+public fun buildCostCategoryValuesProperty(initializer: @AwsCdkDsl CfnBudget.CostCategoryValuesProperty.Builder.() -> Unit = {}): CfnBudget.CostCategoryValuesProperty = CfnBudget.CostCategoryValuesProperty.Builder().apply(initializer).build()

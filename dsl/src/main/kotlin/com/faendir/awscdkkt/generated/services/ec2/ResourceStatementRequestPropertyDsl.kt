@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnNetworkInsightsAccessScope
 
 @Generated
-public fun buildResourceStatementRequestProperty(initializer: @AwsCdkDsl
-    CfnNetworkInsightsAccessScope.ResourceStatementRequestProperty.Builder.() -> Unit = {}):
-    CfnNetworkInsightsAccessScope.ResourceStatementRequestProperty =
-    CfnNetworkInsightsAccessScope.ResourceStatementRequestProperty.Builder().apply(initializer).build()
+public fun buildResourceStatementRequestProperty(initializer: @AwsCdkDsl CfnNetworkInsightsAccessScope.ResourceStatementRequestProperty.Builder.() -> Unit = {}): CfnNetworkInsightsAccessScope.ResourceStatementRequestProperty = CfnNetworkInsightsAccessScope.ResourceStatementRequestProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssm.StringParameterLookupOptions
 
 @Generated
-public fun buildStringParameterLookupOptions(initializer: @AwsCdkDsl
-    StringParameterLookupOptions.Builder.() -> Unit = {}): StringParameterLookupOptions =
-    StringParameterLookupOptions.Builder().apply(initializer).build()
+public fun buildStringParameterLookupOptions(initializer: @AwsCdkDsl StringParameterLookupOptions.Builder.() -> Unit = {}): StringParameterLookupOptions = StringParameterLookupOptions.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.common.ArbitraryIntervals
 
 @Generated
-public fun buildArbitraryIntervals(initializer: @AwsCdkDsl ArbitraryIntervals.Builder.() -> Unit =
-    {}): ArbitraryIntervals = ArbitraryIntervals.Builder().apply(initializer).build()
+public fun buildArbitraryIntervals(initializer: @AwsCdkDsl ArbitraryIntervals.Builder.() -> Unit = {}): ArbitraryIntervals = ArbitraryIntervals.Builder().apply(initializer).build()

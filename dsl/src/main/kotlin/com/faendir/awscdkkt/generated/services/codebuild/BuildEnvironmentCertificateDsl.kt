@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.BuildEnvironmentCertificate
 
 @Generated
-public fun buildBuildEnvironmentCertificate(initializer: @AwsCdkDsl
-    BuildEnvironmentCertificate.Builder.() -> Unit = {}): BuildEnvironmentCertificate =
-    BuildEnvironmentCertificate.Builder().apply(initializer).build()
+public fun buildBuildEnvironmentCertificate(initializer: @AwsCdkDsl BuildEnvironmentCertificate.Builder.() -> Unit = {}): BuildEnvironmentCertificate = BuildEnvironmentCertificate.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnConfigurationSet
 
 @Generated
-public fun buildGuardianOptionsProperty(initializer: @AwsCdkDsl
-    CfnConfigurationSet.GuardianOptionsProperty.Builder.() -> Unit = {}):
-    CfnConfigurationSet.GuardianOptionsProperty =
-    CfnConfigurationSet.GuardianOptionsProperty.Builder().apply(initializer).build()
+public fun buildGuardianOptionsProperty(initializer: @AwsCdkDsl CfnConfigurationSet.GuardianOptionsProperty.Builder.() -> Unit = {}): CfnConfigurationSet.GuardianOptionsProperty = CfnConfigurationSet.GuardianOptionsProperty.Builder().apply(initializer).build()

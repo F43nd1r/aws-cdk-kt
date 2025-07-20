@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildBatchEnvironmentVariableProperty(initializer: @AwsCdkDsl
-    CfnPipe.BatchEnvironmentVariableProperty.Builder.() -> Unit = {}):
-    CfnPipe.BatchEnvironmentVariableProperty =
-    CfnPipe.BatchEnvironmentVariableProperty.Builder().apply(initializer).build()
+public fun buildBatchEnvironmentVariableProperty(initializer: @AwsCdkDsl CfnPipe.BatchEnvironmentVariableProperty.Builder.() -> Unit = {}): CfnPipe.BatchEnvironmentVariableProperty = CfnPipe.BatchEnvironmentVariableProperty.Builder().apply(initializer).build()

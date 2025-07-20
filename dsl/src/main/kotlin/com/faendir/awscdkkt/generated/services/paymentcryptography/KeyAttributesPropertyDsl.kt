@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.paymentcryptography.CfnKey
 
 @Generated
-public fun buildKeyAttributesProperty(initializer: @AwsCdkDsl
-    CfnKey.KeyAttributesProperty.Builder.() -> Unit = {}): CfnKey.KeyAttributesProperty =
-    CfnKey.KeyAttributesProperty.Builder().apply(initializer).build()
+public fun buildKeyAttributesProperty(initializer: @AwsCdkDsl CfnKey.KeyAttributesProperty.Builder.() -> Unit = {}): CfnKey.KeyAttributesProperty = CfnKey.KeyAttributesProperty.Builder().apply(initializer).build()

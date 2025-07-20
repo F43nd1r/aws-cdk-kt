@@ -16,6 +16,4 @@ public fun Construct.cfnLaunchTemplate(
 ): CfnLaunchTemplate = CfnLaunchTemplate(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLaunchTemplate(id: String, initializer: @AwsCdkDsl
-    CfnLaunchTemplate.Builder.() -> Unit = {}): CfnLaunchTemplate =
-    CfnLaunchTemplate.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLaunchTemplate(id: String, initializer: @AwsCdkDsl CfnLaunchTemplate.Builder.() -> Unit = {}): CfnLaunchTemplate = CfnLaunchTemplate.Builder.create(this, id).apply(initializer).build()

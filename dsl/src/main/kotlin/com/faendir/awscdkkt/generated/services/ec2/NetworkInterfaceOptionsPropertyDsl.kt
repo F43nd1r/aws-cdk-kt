@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVerifiedAccessEndpoint
 
 @Generated
-public fun buildNetworkInterfaceOptionsProperty(initializer: @AwsCdkDsl
-    CfnVerifiedAccessEndpoint.NetworkInterfaceOptionsProperty.Builder.() -> Unit = {}):
-    CfnVerifiedAccessEndpoint.NetworkInterfaceOptionsProperty =
-    CfnVerifiedAccessEndpoint.NetworkInterfaceOptionsProperty.Builder().apply(initializer).build()
+public fun buildNetworkInterfaceOptionsProperty(initializer: @AwsCdkDsl CfnVerifiedAccessEndpoint.NetworkInterfaceOptionsProperty.Builder.() -> Unit = {}): CfnVerifiedAccessEndpoint.NetworkInterfaceOptionsProperty = CfnVerifiedAccessEndpoint.NetworkInterfaceOptionsProperty.Builder().apply(initializer).build()

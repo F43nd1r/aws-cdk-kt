@@ -16,5 +16,4 @@ public fun Construct.cfnLabel(
 ): CfnLabel = CfnLabel(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLabel(id: String, initializer: @AwsCdkDsl CfnLabel.Builder.() -> Unit =
-    {}): CfnLabel = CfnLabel.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLabel(id: String, initializer: @AwsCdkDsl CfnLabel.Builder.() -> Unit = {}): CfnLabel = CfnLabel.Builder.create(this, id).apply(initializer).build()

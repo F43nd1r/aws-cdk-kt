@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
-public fun buildLookoutMetricsDestinationPropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.LookoutMetricsDestinationPropertiesProperty.Builder.() -> Unit = {}):
-    CfnFlow.LookoutMetricsDestinationPropertiesProperty =
-    CfnFlow.LookoutMetricsDestinationPropertiesProperty.Builder().apply(initializer).build()
+public fun buildLookoutMetricsDestinationPropertiesProperty(initializer: @AwsCdkDsl CfnFlow.LookoutMetricsDestinationPropertiesProperty.Builder.() -> Unit = {}): CfnFlow.LookoutMetricsDestinationPropertiesProperty = CfnFlow.LookoutMetricsDestinationPropertiesProperty.Builder().apply(initializer).build()

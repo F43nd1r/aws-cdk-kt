@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.certificatemanager.DnsValidatedCertificateProps
 
 @Generated
-public fun buildDnsValidatedCertificateProps(initializer: @AwsCdkDsl
-    DnsValidatedCertificateProps.Builder.() -> Unit = {}): DnsValidatedCertificateProps =
-    DnsValidatedCertificateProps.Builder().apply(initializer).build()
+public fun buildDnsValidatedCertificateProps(initializer: @AwsCdkDsl DnsValidatedCertificateProps.Builder.() -> Unit = {}): DnsValidatedCertificateProps = DnsValidatedCertificateProps.Builder().apply(initializer).build()

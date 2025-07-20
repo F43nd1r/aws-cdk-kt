@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnSpace
 
 @Generated
-public fun buildSpaceIdleSettingsProperty(initializer: @AwsCdkDsl
-    CfnSpace.SpaceIdleSettingsProperty.Builder.() -> Unit = {}): CfnSpace.SpaceIdleSettingsProperty
-    = CfnSpace.SpaceIdleSettingsProperty.Builder().apply(initializer).build()
+public fun buildSpaceIdleSettingsProperty(initializer: @AwsCdkDsl CfnSpace.SpaceIdleSettingsProperty.Builder.() -> Unit = {}): CfnSpace.SpaceIdleSettingsProperty = CfnSpace.SpaceIdleSettingsProperty.Builder().apply(initializer).build()

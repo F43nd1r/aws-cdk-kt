@@ -16,6 +16,4 @@ public fun Construct.cfnSecurityKey(
 ): CfnSecurityKey = CfnSecurityKey(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSecurityKey(id: String, initializer: @AwsCdkDsl
-    CfnSecurityKey.Builder.() -> Unit = {}): CfnSecurityKey = CfnSecurityKey.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnSecurityKey(id: String, initializer: @AwsCdkDsl CfnSecurityKey.Builder.() -> Unit = {}): CfnSecurityKey = CfnSecurityKey.Builder.create(this, id).apply(initializer).build()

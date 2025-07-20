@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildBatchArrayPropertiesProperty(initializer: @AwsCdkDsl
-    CfnPipe.BatchArrayPropertiesProperty.Builder.() -> Unit = {}):
-    CfnPipe.BatchArrayPropertiesProperty =
-    CfnPipe.BatchArrayPropertiesProperty.Builder().apply(initializer).build()
+public fun buildBatchArrayPropertiesProperty(initializer: @AwsCdkDsl CfnPipe.BatchArrayPropertiesProperty.Builder.() -> Unit = {}): CfnPipe.BatchArrayPropertiesProperty = CfnPipe.BatchArrayPropertiesProperty.Builder().apply(initializer).build()

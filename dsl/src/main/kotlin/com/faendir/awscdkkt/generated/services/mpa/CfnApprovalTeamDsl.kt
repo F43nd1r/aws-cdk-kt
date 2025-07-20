@@ -16,6 +16,4 @@ public fun Construct.cfnApprovalTeam(
 ): CfnApprovalTeam = CfnApprovalTeam(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnApprovalTeam(id: String, initializer: @AwsCdkDsl
-    CfnApprovalTeam.Builder.() -> Unit = {}): CfnApprovalTeam = CfnApprovalTeam.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnApprovalTeam(id: String, initializer: @AwsCdkDsl CfnApprovalTeam.Builder.() -> Unit = {}): CfnApprovalTeam = CfnApprovalTeam.Builder.create(this, id).apply(initializer).build()

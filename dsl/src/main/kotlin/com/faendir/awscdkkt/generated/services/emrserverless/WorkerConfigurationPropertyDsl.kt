@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.emrserverless.CfnApplication
 
 @Generated
-public fun buildWorkerConfigurationProperty(initializer: @AwsCdkDsl
-    CfnApplication.WorkerConfigurationProperty.Builder.() -> Unit = {}):
-    CfnApplication.WorkerConfigurationProperty =
-    CfnApplication.WorkerConfigurationProperty.Builder().apply(initializer).build()
+public fun buildWorkerConfigurationProperty(initializer: @AwsCdkDsl CfnApplication.WorkerConfigurationProperty.Builder.() -> Unit = {}): CfnApplication.WorkerConfigurationProperty = CfnApplication.WorkerConfigurationProperty.Builder().apply(initializer).build()

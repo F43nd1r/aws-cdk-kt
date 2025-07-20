@@ -16,6 +16,4 @@ public fun Construct.apiDestination(
 ): ApiDestination = ApiDestination(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildApiDestination(id: String, initializer: @AwsCdkDsl
-    ApiDestination.Builder.() -> Unit = {}): ApiDestination = ApiDestination.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildApiDestination(id: String, initializer: @AwsCdkDsl ApiDestination.Builder.() -> Unit = {}): ApiDestination = ApiDestination.Builder.create(this, id).apply(initializer).build()

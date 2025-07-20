@@ -16,6 +16,4 @@ public fun Construct.cfnLayerVersionPermission(
 ): CfnLayerVersionPermission = CfnLayerVersionPermission(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLayerVersionPermission(id: String, initializer: @AwsCdkDsl
-    CfnLayerVersionPermission.Builder.() -> Unit = {}): CfnLayerVersionPermission =
-    CfnLayerVersionPermission.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLayerVersionPermission(id: String, initializer: @AwsCdkDsl CfnLayerVersionPermission.Builder.() -> Unit = {}): CfnLayerVersionPermission = CfnLayerVersionPermission.Builder.create(this, id).apply(initializer).build()

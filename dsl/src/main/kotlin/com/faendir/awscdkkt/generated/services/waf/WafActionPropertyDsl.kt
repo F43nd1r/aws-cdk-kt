@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.waf.CfnWebACL
 
 @Generated
-public fun buildWafActionProperty(initializer: @AwsCdkDsl
-    CfnWebACL.WafActionProperty.Builder.() -> Unit = {}): CfnWebACL.WafActionProperty =
-    CfnWebACL.WafActionProperty.Builder().apply(initializer).build()
+public fun buildWafActionProperty(initializer: @AwsCdkDsl CfnWebACL.WafActionProperty.Builder.() -> Unit = {}): CfnWebACL.WafActionProperty = CfnWebACL.WafActionProperty.Builder().apply(initializer).build()

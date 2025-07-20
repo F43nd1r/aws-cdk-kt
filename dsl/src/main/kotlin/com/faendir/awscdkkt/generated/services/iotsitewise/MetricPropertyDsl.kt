@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotsitewise.CfnAssetModel
 
 @Generated
-public fun buildMetricProperty(initializer: @AwsCdkDsl
-    CfnAssetModel.MetricProperty.Builder.() -> Unit = {}): CfnAssetModel.MetricProperty =
-    CfnAssetModel.MetricProperty.Builder().apply(initializer).build()
+public fun buildMetricProperty(initializer: @AwsCdkDsl CfnAssetModel.MetricProperty.Builder.() -> Unit = {}): CfnAssetModel.MetricProperty = CfnAssetModel.MetricProperty.Builder().apply(initializer).build()

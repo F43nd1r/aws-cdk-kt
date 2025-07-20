@@ -16,5 +16,4 @@ public fun Construct.stage(
 ): Stage = Stage(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildStage(id: String, initializer: @AwsCdkDsl Stage.Builder.() -> Unit = {}):
-    Stage = Stage.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildStage(id: String, initializer: @AwsCdkDsl Stage.Builder.() -> Unit = {}): Stage = Stage.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connectcampaignsv2.CfnCampaign
 
 @Generated
-public fun buildTelephonyChannelSubtypeConfigProperty(initializer: @AwsCdkDsl
-    CfnCampaign.TelephonyChannelSubtypeConfigProperty.Builder.() -> Unit = {}):
-    CfnCampaign.TelephonyChannelSubtypeConfigProperty =
-    CfnCampaign.TelephonyChannelSubtypeConfigProperty.Builder().apply(initializer).build()
+public fun buildTelephonyChannelSubtypeConfigProperty(initializer: @AwsCdkDsl CfnCampaign.TelephonyChannelSubtypeConfigProperty.Builder.() -> Unit = {}): CfnCampaign.TelephonyChannelSubtypeConfigProperty = CfnCampaign.TelephonyChannelSubtypeConfigProperty.Builder().apply(initializer).build()

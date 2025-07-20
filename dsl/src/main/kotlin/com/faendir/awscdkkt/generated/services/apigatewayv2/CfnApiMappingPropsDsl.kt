@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.CfnApiMappingProps
 
 @Generated
-public fun buildCfnApiMappingProps(initializer: @AwsCdkDsl CfnApiMappingProps.Builder.() -> Unit =
-    {}): CfnApiMappingProps = CfnApiMappingProps.Builder().apply(initializer).build()
+public fun buildCfnApiMappingProps(initializer: @AwsCdkDsl CfnApiMappingProps.Builder.() -> Unit = {}): CfnApiMappingProps = CfnApiMappingProps.Builder().apply(initializer).build()

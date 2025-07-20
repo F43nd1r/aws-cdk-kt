@@ -16,6 +16,4 @@ public fun Construct.cfnAccount(
 ): CfnAccount = CfnAccount(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAccount(id: String, initializer: @AwsCdkDsl
-    CfnAccount.Builder.() -> Unit = {}): CfnAccount = CfnAccount.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnAccount(id: String, initializer: @AwsCdkDsl CfnAccount.Builder.() -> Unit = {}): CfnAccount = CfnAccount.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.patterns.QueueProcessingEc2ServiceProps
 
 @Generated
-public fun buildQueueProcessingEc2ServiceProps(initializer: @AwsCdkDsl
-    QueueProcessingEc2ServiceProps.Builder.() -> Unit = {}): QueueProcessingEc2ServiceProps =
-    QueueProcessingEc2ServiceProps.Builder().apply(initializer).build()
+public fun buildQueueProcessingEc2ServiceProps(initializer: @AwsCdkDsl QueueProcessingEc2ServiceProps.Builder.() -> Unit = {}): QueueProcessingEc2ServiceProps = QueueProcessingEc2ServiceProps.Builder().apply(initializer).build()

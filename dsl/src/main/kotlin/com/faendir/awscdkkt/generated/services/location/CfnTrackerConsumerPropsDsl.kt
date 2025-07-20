@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.location.CfnTrackerConsumerProps
 
 @Generated
-public fun buildCfnTrackerConsumerProps(initializer: @AwsCdkDsl
-    CfnTrackerConsumerProps.Builder.() -> Unit = {}): CfnTrackerConsumerProps =
-    CfnTrackerConsumerProps.Builder().apply(initializer).build()
+public fun buildCfnTrackerConsumerProps(initializer: @AwsCdkDsl CfnTrackerConsumerProps.Builder.() -> Unit = {}): CfnTrackerConsumerProps = CfnTrackerConsumerProps.Builder().apply(initializer).build()

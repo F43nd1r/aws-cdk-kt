@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
-public fun buildRegexPatternSetReferenceStatementProperty(initializer: @AwsCdkDsl
-    CfnWebACL.RegexPatternSetReferenceStatementProperty.Builder.() -> Unit = {}):
-    CfnWebACL.RegexPatternSetReferenceStatementProperty =
-    CfnWebACL.RegexPatternSetReferenceStatementProperty.Builder().apply(initializer).build()
+public fun buildRegexPatternSetReferenceStatementProperty(initializer: @AwsCdkDsl CfnWebACL.RegexPatternSetReferenceStatementProperty.Builder.() -> Unit = {}): CfnWebACL.RegexPatternSetReferenceStatementProperty = CfnWebACL.RegexPatternSetReferenceStatementProperty.Builder().apply(initializer).build()

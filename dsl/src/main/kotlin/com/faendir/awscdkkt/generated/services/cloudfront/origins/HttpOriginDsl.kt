@@ -7,5 +7,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.origins.HttpOrigin
 
 @Generated
-public fun buildHttpOrigin(domainName: String, initializer: @AwsCdkDsl HttpOrigin.Builder.() -> Unit
-    = {}): HttpOrigin = HttpOrigin.Builder.create(domainName).apply(initializer).build()
+public fun buildHttpOrigin(domainName: String, initializer: @AwsCdkDsl HttpOrigin.Builder.() -> Unit = {}): HttpOrigin = HttpOrigin.Builder.create(domainName).apply(initializer).build()

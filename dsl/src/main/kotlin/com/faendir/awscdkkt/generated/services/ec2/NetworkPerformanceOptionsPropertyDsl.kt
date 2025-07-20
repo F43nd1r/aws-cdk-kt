@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
-public fun buildNetworkPerformanceOptionsProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.NetworkPerformanceOptionsProperty.Builder.() -> Unit = {}):
-    CfnLaunchTemplate.NetworkPerformanceOptionsProperty =
-    CfnLaunchTemplate.NetworkPerformanceOptionsProperty.Builder().apply(initializer).build()
+public fun buildNetworkPerformanceOptionsProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.NetworkPerformanceOptionsProperty.Builder.() -> Unit = {}): CfnLaunchTemplate.NetworkPerformanceOptionsProperty = CfnLaunchTemplate.NetworkPerformanceOptionsProperty.Builder().apply(initializer).build()

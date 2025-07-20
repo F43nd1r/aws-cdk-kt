@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloud_assembly_schema.RuntimeInfo
 
 @Generated
-public fun buildRuntimeInfo(initializer: @AwsCdkDsl RuntimeInfo.Builder.() -> Unit = {}):
-    RuntimeInfo = RuntimeInfo.Builder().apply(initializer).build()
+public fun buildRuntimeInfo(initializer: @AwsCdkDsl RuntimeInfo.Builder.() -> Unit = {}): RuntimeInfo = RuntimeInfo.Builder().apply(initializer).build()

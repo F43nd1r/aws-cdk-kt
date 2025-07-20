@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildUdpContainerSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.UdpContainerSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.UdpContainerSettingsProperty =
-    CfnChannel.UdpContainerSettingsProperty.Builder().apply(initializer).build()
+public fun buildUdpContainerSettingsProperty(initializer: @AwsCdkDsl CfnChannel.UdpContainerSettingsProperty.Builder.() -> Unit = {}): CfnChannel.UdpContainerSettingsProperty = CfnChannel.UdpContainerSettingsProperty.Builder().apply(initializer).build()

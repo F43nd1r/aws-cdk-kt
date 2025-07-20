@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.InitSourceAssetOptions
 
 @Generated
-public fun buildInitSourceAssetOptions(initializer: @AwsCdkDsl
-    InitSourceAssetOptions.Builder.() -> Unit = {}): InitSourceAssetOptions =
-    InitSourceAssetOptions.Builder().apply(initializer).build()
+public fun buildInitSourceAssetOptions(initializer: @AwsCdkDsl InitSourceAssetOptions.Builder.() -> Unit = {}): InitSourceAssetOptions = InitSourceAssetOptions.Builder().apply(initializer).build()

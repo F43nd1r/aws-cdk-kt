@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnMatchmakingRuleSetProps
 
 @Generated
-public fun buildCfnMatchmakingRuleSetProps(initializer: @AwsCdkDsl
-    CfnMatchmakingRuleSetProps.Builder.() -> Unit = {}): CfnMatchmakingRuleSetProps =
-    CfnMatchmakingRuleSetProps.Builder().apply(initializer).build()
+public fun buildCfnMatchmakingRuleSetProps(initializer: @AwsCdkDsl CfnMatchmakingRuleSetProps.Builder.() -> Unit = {}): CfnMatchmakingRuleSetProps = CfnMatchmakingRuleSetProps.Builder().apply(initializer).build()

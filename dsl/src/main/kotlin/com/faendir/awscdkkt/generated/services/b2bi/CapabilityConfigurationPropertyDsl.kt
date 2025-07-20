@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.b2bi.CfnCapability
 
 @Generated
-public fun buildCapabilityConfigurationProperty(initializer: @AwsCdkDsl
-    CfnCapability.CapabilityConfigurationProperty.Builder.() -> Unit = {}):
-    CfnCapability.CapabilityConfigurationProperty =
-    CfnCapability.CapabilityConfigurationProperty.Builder().apply(initializer).build()
+public fun buildCapabilityConfigurationProperty(initializer: @AwsCdkDsl CfnCapability.CapabilityConfigurationProperty.Builder.() -> Unit = {}): CfnCapability.CapabilityConfigurationProperty = CfnCapability.CapabilityConfigurationProperty.Builder().apply(initializer).build()

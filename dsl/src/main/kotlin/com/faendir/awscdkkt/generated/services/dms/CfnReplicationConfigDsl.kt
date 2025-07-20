@@ -16,6 +16,4 @@ public fun Construct.cfnReplicationConfig(
 ): CfnReplicationConfig = CfnReplicationConfig(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnReplicationConfig(id: String, initializer: @AwsCdkDsl
-    CfnReplicationConfig.Builder.() -> Unit = {}): CfnReplicationConfig =
-    CfnReplicationConfig.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnReplicationConfig(id: String, initializer: @AwsCdkDsl CfnReplicationConfig.Builder.() -> Unit = {}): CfnReplicationConfig = CfnReplicationConfig.Builder.create(this, id).apply(initializer).build()

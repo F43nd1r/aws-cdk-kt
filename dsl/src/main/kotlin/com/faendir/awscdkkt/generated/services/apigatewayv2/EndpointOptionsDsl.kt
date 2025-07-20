@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.EndpointOptions
 
 @Generated
-public fun buildEndpointOptions(initializer: @AwsCdkDsl EndpointOptions.Builder.() -> Unit = {}):
-    EndpointOptions = EndpointOptions.Builder().apply(initializer).build()
+public fun buildEndpointOptions(initializer: @AwsCdkDsl EndpointOptions.Builder.() -> Unit = {}): EndpointOptions = EndpointOptions.Builder().apply(initializer).build()

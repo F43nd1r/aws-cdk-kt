@@ -13,11 +13,7 @@ public fun Construct.cfnModelExplainabilityJobDefinition(
   id: String,
   props: CfnModelExplainabilityJobDefinitionProps,
   initializer: @AwsCdkDsl CfnModelExplainabilityJobDefinition.() -> Unit = {},
-): CfnModelExplainabilityJobDefinition = CfnModelExplainabilityJobDefinition(this, id,
-    props).apply(initializer)
+): CfnModelExplainabilityJobDefinition = CfnModelExplainabilityJobDefinition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnModelExplainabilityJobDefinition(id: String, initializer: @AwsCdkDsl
-    CfnModelExplainabilityJobDefinition.Builder.() -> Unit = {}):
-    CfnModelExplainabilityJobDefinition = CfnModelExplainabilityJobDefinition.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnModelExplainabilityJobDefinition(id: String, initializer: @AwsCdkDsl CfnModelExplainabilityJobDefinition.Builder.() -> Unit = {}): CfnModelExplainabilityJobDefinition = CfnModelExplainabilityJobDefinition.Builder.create(this, id).apply(initializer).build()

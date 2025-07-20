@@ -16,6 +16,4 @@ public fun Construct.cfnStreamingDistribution(
 ): CfnStreamingDistribution = CfnStreamingDistribution(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnStreamingDistribution(id: String, initializer: @AwsCdkDsl
-    CfnStreamingDistribution.Builder.() -> Unit = {}): CfnStreamingDistribution =
-    CfnStreamingDistribution.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnStreamingDistribution(id: String, initializer: @AwsCdkDsl CfnStreamingDistribution.Builder.() -> Unit = {}): CfnStreamingDistribution = CfnStreamingDistribution.Builder.create(this, id).apply(initializer).build()

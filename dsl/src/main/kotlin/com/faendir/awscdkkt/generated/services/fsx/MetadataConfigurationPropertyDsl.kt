@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fsx.CfnFileSystem
 
 @Generated
-public fun buildMetadataConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFileSystem.MetadataConfigurationProperty.Builder.() -> Unit = {}):
-    CfnFileSystem.MetadataConfigurationProperty =
-    CfnFileSystem.MetadataConfigurationProperty.Builder().apply(initializer).build()
+public fun buildMetadataConfigurationProperty(initializer: @AwsCdkDsl CfnFileSystem.MetadataConfigurationProperty.Builder.() -> Unit = {}): CfnFileSystem.MetadataConfigurationProperty = CfnFileSystem.MetadataConfigurationProperty.Builder().apply(initializer).build()

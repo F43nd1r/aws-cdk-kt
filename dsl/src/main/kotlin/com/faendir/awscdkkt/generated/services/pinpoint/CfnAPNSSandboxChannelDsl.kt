@@ -16,6 +16,4 @@ public fun Construct.cfnAPNSSandboxChannel(
 ): CfnAPNSSandboxChannel = CfnAPNSSandboxChannel(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAPNSSandboxChannel(id: String, initializer: @AwsCdkDsl
-    CfnAPNSSandboxChannel.Builder.() -> Unit = {}): CfnAPNSSandboxChannel =
-    CfnAPNSSandboxChannel.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAPNSSandboxChannel(id: String, initializer: @AwsCdkDsl CfnAPNSSandboxChannel.Builder.() -> Unit = {}): CfnAPNSSandboxChannel = CfnAPNSSandboxChannel.Builder.create(this, id).apply(initializer).build()

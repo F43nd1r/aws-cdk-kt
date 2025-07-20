@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildTableSortConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TableSortConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.TableSortConfigurationProperty =
-    CfnTemplate.TableSortConfigurationProperty.Builder().apply(initializer).build()
+public fun buildTableSortConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.TableSortConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.TableSortConfigurationProperty = CfnTemplate.TableSortConfigurationProperty.Builder().apply(initializer).build()

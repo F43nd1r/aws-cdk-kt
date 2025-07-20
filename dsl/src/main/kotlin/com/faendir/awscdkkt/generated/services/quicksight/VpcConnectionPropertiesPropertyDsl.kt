@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSource
 
 @Generated
-public fun buildVpcConnectionPropertiesProperty(initializer: @AwsCdkDsl
-    CfnDataSource.VpcConnectionPropertiesProperty.Builder.() -> Unit = {}):
-    CfnDataSource.VpcConnectionPropertiesProperty =
-    CfnDataSource.VpcConnectionPropertiesProperty.Builder().apply(initializer).build()
+public fun buildVpcConnectionPropertiesProperty(initializer: @AwsCdkDsl CfnDataSource.VpcConnectionPropertiesProperty.Builder.() -> Unit = {}): CfnDataSource.VpcConnectionPropertiesProperty = CfnDataSource.VpcConnectionPropertiesProperty.Builder().apply(initializer).build()

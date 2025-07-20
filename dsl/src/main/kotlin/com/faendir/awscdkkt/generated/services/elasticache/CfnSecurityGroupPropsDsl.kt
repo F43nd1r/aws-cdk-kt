@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticache.CfnSecurityGroupProps
 
 @Generated
-public fun buildCfnSecurityGroupProps(initializer: @AwsCdkDsl
-    CfnSecurityGroupProps.Builder.() -> Unit = {}): CfnSecurityGroupProps =
-    CfnSecurityGroupProps.Builder().apply(initializer).build()
+public fun buildCfnSecurityGroupProps(initializer: @AwsCdkDsl CfnSecurityGroupProps.Builder.() -> Unit = {}): CfnSecurityGroupProps = CfnSecurityGroupProps.Builder().apply(initializer).build()

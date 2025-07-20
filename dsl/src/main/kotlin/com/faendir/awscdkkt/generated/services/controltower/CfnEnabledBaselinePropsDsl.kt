@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.controltower.CfnEnabledBaselineProps
 
 @Generated
-public fun buildCfnEnabledBaselineProps(initializer: @AwsCdkDsl
-    CfnEnabledBaselineProps.Builder.() -> Unit = {}): CfnEnabledBaselineProps =
-    CfnEnabledBaselineProps.Builder().apply(initializer).build()
+public fun buildCfnEnabledBaselineProps(initializer: @AwsCdkDsl CfnEnabledBaselineProps.Builder.() -> Unit = {}): CfnEnabledBaselineProps = CfnEnabledBaselineProps.Builder().apply(initializer).build()

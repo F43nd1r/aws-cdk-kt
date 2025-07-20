@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.CfnLambdaHookProps
 
 @Generated
-public fun buildCfnLambdaHookProps(initializer: @AwsCdkDsl CfnLambdaHookProps.Builder.() -> Unit =
-    {}): CfnLambdaHookProps = CfnLambdaHookProps.Builder().apply(initializer).build()
+public fun buildCfnLambdaHookProps(initializer: @AwsCdkDsl CfnLambdaHookProps.Builder.() -> Unit = {}): CfnLambdaHookProps = CfnLambdaHookProps.Builder().apply(initializer).build()

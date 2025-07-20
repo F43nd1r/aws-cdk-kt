@@ -16,6 +16,4 @@ public fun Construct.cfnCustomPlugin(
 ): CfnCustomPlugin = CfnCustomPlugin(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCustomPlugin(id: String, initializer: @AwsCdkDsl
-    CfnCustomPlugin.Builder.() -> Unit = {}): CfnCustomPlugin = CfnCustomPlugin.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnCustomPlugin(id: String, initializer: @AwsCdkDsl CfnCustomPlugin.Builder.() -> Unit = {}): CfnCustomPlugin = CfnCustomPlugin.Builder.create(this, id).apply(initializer).build()

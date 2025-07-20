@@ -16,6 +16,4 @@ public fun Construct.keySigningKey(
 ): KeySigningKey = KeySigningKey(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildKeySigningKey(id: String, initializer: @AwsCdkDsl
-    KeySigningKey.Builder.() -> Unit = {}): KeySigningKey = KeySigningKey.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildKeySigningKey(id: String, initializer: @AwsCdkDsl KeySigningKey.Builder.() -> Unit = {}): KeySigningKey = KeySigningKey.Builder.create(this, id).apply(initializer).build()

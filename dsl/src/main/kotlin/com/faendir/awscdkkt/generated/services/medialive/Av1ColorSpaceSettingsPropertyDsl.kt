@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildAv1ColorSpaceSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.Av1ColorSpaceSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.Av1ColorSpaceSettingsProperty =
-    CfnChannel.Av1ColorSpaceSettingsProperty.Builder().apply(initializer).build()
+public fun buildAv1ColorSpaceSettingsProperty(initializer: @AwsCdkDsl CfnChannel.Av1ColorSpaceSettingsProperty.Builder.() -> Unit = {}): CfnChannel.Av1ColorSpaceSettingsProperty = CfnChannel.Av1ColorSpaceSettingsProperty.Builder().apply(initializer).build()

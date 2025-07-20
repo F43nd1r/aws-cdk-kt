@@ -12,5 +12,4 @@ public fun buildCloudFormationStackArtifact(
   assembly: CloudAssembly,
   artifactId: String,
   initializer: @AwsCdkDsl CloudFormationStackArtifact.Builder.() -> Unit = {},
-): CloudFormationStackArtifact = CloudFormationStackArtifact.Builder.create(assembly,
-    artifactId).apply(initializer).build()
+): CloudFormationStackArtifact = CloudFormationStackArtifact.Builder.create(assembly, artifactId).apply(initializer).build()

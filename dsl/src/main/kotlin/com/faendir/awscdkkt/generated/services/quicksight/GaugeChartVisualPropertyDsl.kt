@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildGaugeChartVisualProperty(initializer: @AwsCdkDsl
-    CfnTemplate.GaugeChartVisualProperty.Builder.() -> Unit = {}):
-    CfnTemplate.GaugeChartVisualProperty =
-    CfnTemplate.GaugeChartVisualProperty.Builder().apply(initializer).build()
+public fun buildGaugeChartVisualProperty(initializer: @AwsCdkDsl CfnTemplate.GaugeChartVisualProperty.Builder.() -> Unit = {}): CfnTemplate.GaugeChartVisualProperty = CfnTemplate.GaugeChartVisualProperty.Builder().apply(initializer).build()

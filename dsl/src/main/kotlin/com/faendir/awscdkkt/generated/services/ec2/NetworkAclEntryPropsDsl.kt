@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.NetworkAclEntryProps
 
 @Generated
-public fun buildNetworkAclEntryProps(initializer: @AwsCdkDsl NetworkAclEntryProps.Builder.() -> Unit
-    = {}): NetworkAclEntryProps = NetworkAclEntryProps.Builder().apply(initializer).build()
+public fun buildNetworkAclEntryProps(initializer: @AwsCdkDsl NetworkAclEntryProps.Builder.() -> Unit = {}): NetworkAclEntryProps = NetworkAclEntryProps.Builder().apply(initializer).build()

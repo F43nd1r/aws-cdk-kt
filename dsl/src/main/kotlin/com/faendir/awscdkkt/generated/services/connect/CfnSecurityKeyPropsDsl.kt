@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnSecurityKeyProps
 
 @Generated
-public fun buildCfnSecurityKeyProps(initializer: @AwsCdkDsl CfnSecurityKeyProps.Builder.() -> Unit =
-    {}): CfnSecurityKeyProps = CfnSecurityKeyProps.Builder().apply(initializer).build()
+public fun buildCfnSecurityKeyProps(initializer: @AwsCdkDsl CfnSecurityKeyProps.Builder.() -> Unit = {}): CfnSecurityKeyProps = CfnSecurityKeyProps.Builder().apply(initializer).build()

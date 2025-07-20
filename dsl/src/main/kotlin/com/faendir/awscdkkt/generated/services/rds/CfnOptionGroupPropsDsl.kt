@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.CfnOptionGroupProps
 
 @Generated
-public fun buildCfnOptionGroupProps(initializer: @AwsCdkDsl CfnOptionGroupProps.Builder.() -> Unit =
-    {}): CfnOptionGroupProps = CfnOptionGroupProps.Builder().apply(initializer).build()
+public fun buildCfnOptionGroupProps(initializer: @AwsCdkDsl CfnOptionGroupProps.Builder.() -> Unit = {}): CfnOptionGroupProps = CfnOptionGroupProps.Builder().apply(initializer).build()

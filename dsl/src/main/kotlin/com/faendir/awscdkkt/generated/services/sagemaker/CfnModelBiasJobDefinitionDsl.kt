@@ -16,6 +16,4 @@ public fun Construct.cfnModelBiasJobDefinition(
 ): CfnModelBiasJobDefinition = CfnModelBiasJobDefinition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnModelBiasJobDefinition(id: String, initializer: @AwsCdkDsl
-    CfnModelBiasJobDefinition.Builder.() -> Unit = {}): CfnModelBiasJobDefinition =
-    CfnModelBiasJobDefinition.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnModelBiasJobDefinition(id: String, initializer: @AwsCdkDsl CfnModelBiasJobDefinition.Builder.() -> Unit = {}): CfnModelBiasJobDefinition = CfnModelBiasJobDefinition.Builder.create(this, id).apply(initializer).build()

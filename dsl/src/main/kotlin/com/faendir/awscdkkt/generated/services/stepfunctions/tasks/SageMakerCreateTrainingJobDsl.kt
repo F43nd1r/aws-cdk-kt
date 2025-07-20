@@ -16,6 +16,4 @@ public fun Construct.sageMakerCreateTrainingJob(
 ): SageMakerCreateTrainingJob = SageMakerCreateTrainingJob(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildSageMakerCreateTrainingJob(id: String, initializer: @AwsCdkDsl
-    SageMakerCreateTrainingJob.Builder.() -> Unit = {}): SageMakerCreateTrainingJob =
-    SageMakerCreateTrainingJob.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildSageMakerCreateTrainingJob(id: String, initializer: @AwsCdkDsl SageMakerCreateTrainingJob.Builder.() -> Unit = {}): SageMakerCreateTrainingJob = SageMakerCreateTrainingJob.Builder.create(this, id).apply(initializer).build()

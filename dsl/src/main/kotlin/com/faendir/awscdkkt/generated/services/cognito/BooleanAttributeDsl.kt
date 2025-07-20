@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.BooleanAttribute
 
 @Generated
-public fun buildBooleanAttribute(initializer: @AwsCdkDsl BooleanAttribute.Builder.() -> Unit = {}):
-    BooleanAttribute = BooleanAttribute.Builder.create().apply(initializer).build()
+public fun buildBooleanAttribute(initializer: @AwsCdkDsl BooleanAttribute.Builder.() -> Unit = {}): BooleanAttribute = BooleanAttribute.Builder.create().apply(initializer).build()

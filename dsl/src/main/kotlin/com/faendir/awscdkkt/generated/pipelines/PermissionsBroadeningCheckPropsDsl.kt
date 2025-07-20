@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.pipelines.PermissionsBroadeningCheckProps
 
 @Generated
-public fun buildPermissionsBroadeningCheckProps(initializer: @AwsCdkDsl
-    PermissionsBroadeningCheckProps.Builder.() -> Unit = {}): PermissionsBroadeningCheckProps =
-    PermissionsBroadeningCheckProps.Builder().apply(initializer).build()
+public fun buildPermissionsBroadeningCheckProps(initializer: @AwsCdkDsl PermissionsBroadeningCheckProps.Builder.() -> Unit = {}): PermissionsBroadeningCheckProps = PermissionsBroadeningCheckProps.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnADMChannel(
 ): CfnADMChannel = CfnADMChannel(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnADMChannel(id: String, initializer: @AwsCdkDsl
-    CfnADMChannel.Builder.() -> Unit = {}): CfnADMChannel = CfnADMChannel.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnADMChannel(id: String, initializer: @AwsCdkDsl CfnADMChannel.Builder.() -> Unit = {}): CfnADMChannel = CfnADMChannel.Builder.create(this, id).apply(initializer).build()

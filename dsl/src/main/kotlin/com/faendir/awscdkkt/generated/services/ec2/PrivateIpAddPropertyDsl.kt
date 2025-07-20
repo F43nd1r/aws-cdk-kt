@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
-public fun buildPrivateIpAddProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.PrivateIpAddProperty.Builder.() -> Unit = {}):
-    CfnLaunchTemplate.PrivateIpAddProperty =
-    CfnLaunchTemplate.PrivateIpAddProperty.Builder().apply(initializer).build()
+public fun buildPrivateIpAddProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.PrivateIpAddProperty.Builder.() -> Unit = {}): CfnLaunchTemplate.PrivateIpAddProperty = CfnLaunchTemplate.PrivateIpAddProperty.Builder().apply(initializer).build()

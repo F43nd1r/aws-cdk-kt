@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.efs.AccessPointOptions
 
 @Generated
-public fun buildAccessPointOptions(initializer: @AwsCdkDsl AccessPointOptions.Builder.() -> Unit =
-    {}): AccessPointOptions = AccessPointOptions.Builder().apply(initializer).build()
+public fun buildAccessPointOptions(initializer: @AwsCdkDsl AccessPointOptions.Builder.() -> Unit = {}): AccessPointOptions = AccessPointOptions.Builder().apply(initializer).build()

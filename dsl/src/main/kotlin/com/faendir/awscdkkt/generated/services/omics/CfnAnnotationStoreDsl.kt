@@ -16,6 +16,4 @@ public fun Construct.cfnAnnotationStore(
 ): CfnAnnotationStore = CfnAnnotationStore(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAnnotationStore(id: String, initializer: @AwsCdkDsl
-    CfnAnnotationStore.Builder.() -> Unit = {}): CfnAnnotationStore =
-    CfnAnnotationStore.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAnnotationStore(id: String, initializer: @AwsCdkDsl CfnAnnotationStore.Builder.() -> Unit = {}): CfnAnnotationStore = CfnAnnotationStore.Builder.create(this, id).apply(initializer).build()

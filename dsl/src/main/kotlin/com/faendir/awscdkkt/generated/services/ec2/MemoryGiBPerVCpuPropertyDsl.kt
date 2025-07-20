@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
-public fun buildMemoryGiBPerVCpuProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.MemoryGiBPerVCpuProperty.Builder.() -> Unit = {}):
-    CfnLaunchTemplate.MemoryGiBPerVCpuProperty =
-    CfnLaunchTemplate.MemoryGiBPerVCpuProperty.Builder().apply(initializer).build()
+public fun buildMemoryGiBPerVCpuProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.MemoryGiBPerVCpuProperty.Builder.() -> Unit = {}): CfnLaunchTemplate.MemoryGiBPerVCpuProperty = CfnLaunchTemplate.MemoryGiBPerVCpuProperty.Builder().apply(initializer).build()

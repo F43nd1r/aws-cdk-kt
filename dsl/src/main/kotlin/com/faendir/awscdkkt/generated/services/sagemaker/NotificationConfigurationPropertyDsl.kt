@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnWorkteam
 
 @Generated
-public fun buildNotificationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnWorkteam.NotificationConfigurationProperty.Builder.() -> Unit = {}):
-    CfnWorkteam.NotificationConfigurationProperty =
-    CfnWorkteam.NotificationConfigurationProperty.Builder().apply(initializer).build()
+public fun buildNotificationConfigurationProperty(initializer: @AwsCdkDsl CfnWorkteam.NotificationConfigurationProperty.Builder.() -> Unit = {}): CfnWorkteam.NotificationConfigurationProperty = CfnWorkteam.NotificationConfigurationProperty.Builder().apply(initializer).build()

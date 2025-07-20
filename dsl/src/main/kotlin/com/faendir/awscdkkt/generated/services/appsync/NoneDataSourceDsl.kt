@@ -16,6 +16,4 @@ public fun Construct.noneDataSource(
 ): NoneDataSource = NoneDataSource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildNoneDataSource(id: String, initializer: @AwsCdkDsl
-    NoneDataSource.Builder.() -> Unit = {}): NoneDataSource = NoneDataSource.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildNoneDataSource(id: String, initializer: @AwsCdkDsl NoneDataSource.Builder.() -> Unit = {}): NoneDataSource = NoneDataSource.Builder.create(this, id).apply(initializer).build()

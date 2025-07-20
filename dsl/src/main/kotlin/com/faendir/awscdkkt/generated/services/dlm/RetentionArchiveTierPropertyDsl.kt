@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dlm.CfnLifecyclePolicy
 
 @Generated
-public fun buildRetentionArchiveTierProperty(initializer: @AwsCdkDsl
-    CfnLifecyclePolicy.RetentionArchiveTierProperty.Builder.() -> Unit = {}):
-    CfnLifecyclePolicy.RetentionArchiveTierProperty =
-    CfnLifecyclePolicy.RetentionArchiveTierProperty.Builder().apply(initializer).build()
+public fun buildRetentionArchiveTierProperty(initializer: @AwsCdkDsl CfnLifecyclePolicy.RetentionArchiveTierProperty.Builder.() -> Unit = {}): CfnLifecyclePolicy.RetentionArchiveTierProperty = CfnLifecyclePolicy.RetentionArchiveTierProperty.Builder().apply(initializer).build()

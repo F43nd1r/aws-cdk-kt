@@ -16,6 +16,4 @@ public fun Construct.cfnInstanceStorageConfig(
 ): CfnInstanceStorageConfig = CfnInstanceStorageConfig(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnInstanceStorageConfig(id: String, initializer: @AwsCdkDsl
-    CfnInstanceStorageConfig.Builder.() -> Unit = {}): CfnInstanceStorageConfig =
-    CfnInstanceStorageConfig.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnInstanceStorageConfig(id: String, initializer: @AwsCdkDsl CfnInstanceStorageConfig.Builder.() -> Unit = {}): CfnInstanceStorageConfig = CfnInstanceStorageConfig.Builder.create(this, id).apply(initializer).build()

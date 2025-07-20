@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnDomainConfiguration
 
 @Generated
-public fun buildServerCertificateSummaryProperty(initializer: @AwsCdkDsl
-    CfnDomainConfiguration.ServerCertificateSummaryProperty.Builder.() -> Unit = {}):
-    CfnDomainConfiguration.ServerCertificateSummaryProperty =
-    CfnDomainConfiguration.ServerCertificateSummaryProperty.Builder().apply(initializer).build()
+public fun buildServerCertificateSummaryProperty(initializer: @AwsCdkDsl CfnDomainConfiguration.ServerCertificateSummaryProperty.Builder.() -> Unit = {}): CfnDomainConfiguration.ServerCertificateSummaryProperty = CfnDomainConfiguration.ServerCertificateSummaryProperty.Builder().apply(initializer).build()

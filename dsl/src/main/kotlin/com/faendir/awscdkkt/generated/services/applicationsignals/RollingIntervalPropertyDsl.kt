@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.applicationsignals.CfnServiceLevelObjective
 
 @Generated
-public fun buildRollingIntervalProperty(initializer: @AwsCdkDsl
-    CfnServiceLevelObjective.RollingIntervalProperty.Builder.() -> Unit = {}):
-    CfnServiceLevelObjective.RollingIntervalProperty =
-    CfnServiceLevelObjective.RollingIntervalProperty.Builder().apply(initializer).build()
+public fun buildRollingIntervalProperty(initializer: @AwsCdkDsl CfnServiceLevelObjective.RollingIntervalProperty.Builder.() -> Unit = {}): CfnServiceLevelObjective.RollingIntervalProperty = CfnServiceLevelObjective.RollingIntervalProperty.Builder().apply(initializer).build()

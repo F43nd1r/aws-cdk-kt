@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildPluginVisualFieldWellProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PluginVisualFieldWellProperty.Builder.() -> Unit = {}):
-    CfnTemplate.PluginVisualFieldWellProperty =
-    CfnTemplate.PluginVisualFieldWellProperty.Builder().apply(initializer).build()
+public fun buildPluginVisualFieldWellProperty(initializer: @AwsCdkDsl CfnTemplate.PluginVisualFieldWellProperty.Builder.() -> Unit = {}): CfnTemplate.PluginVisualFieldWellProperty = CfnTemplate.PluginVisualFieldWellProperty.Builder().apply(initializer).build()

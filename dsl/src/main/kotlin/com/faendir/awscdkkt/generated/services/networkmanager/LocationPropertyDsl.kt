@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkmanager.CfnSite
 
 @Generated
-public fun buildLocationProperty(initializer: @AwsCdkDsl CfnSite.LocationProperty.Builder.() -> Unit
-    = {}): CfnSite.LocationProperty = CfnSite.LocationProperty.Builder().apply(initializer).build()
+public fun buildLocationProperty(initializer: @AwsCdkDsl CfnSite.LocationProperty.Builder.() -> Unit = {}): CfnSite.LocationProperty = CfnSite.LocationProperty.Builder().apply(initializer).build()

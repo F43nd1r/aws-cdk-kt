@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
-public fun buildReferenceProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.ReferenceProperty.Builder.() -> Unit = {}):
-    CfnLaunchTemplate.ReferenceProperty =
-    CfnLaunchTemplate.ReferenceProperty.Builder().apply(initializer).build()
+public fun buildReferenceProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.ReferenceProperty.Builder.() -> Unit = {}): CfnLaunchTemplate.ReferenceProperty = CfnLaunchTemplate.ReferenceProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnStorageLens
 
 @Generated
-public fun buildAdvancedCostOptimizationMetricsProperty(initializer: @AwsCdkDsl
-    CfnStorageLens.AdvancedCostOptimizationMetricsProperty.Builder.() -> Unit = {}):
-    CfnStorageLens.AdvancedCostOptimizationMetricsProperty =
-    CfnStorageLens.AdvancedCostOptimizationMetricsProperty.Builder().apply(initializer).build()
+public fun buildAdvancedCostOptimizationMetricsProperty(initializer: @AwsCdkDsl CfnStorageLens.AdvancedCostOptimizationMetricsProperty.Builder.() -> Unit = {}): CfnStorageLens.AdvancedCostOptimizationMetricsProperty = CfnStorageLens.AdvancedCostOptimizationMetricsProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mpa.CfnApprovalTeam
 
 @Generated
-public fun buildApproverProperty(initializer: @AwsCdkDsl
-    CfnApprovalTeam.ApproverProperty.Builder.() -> Unit = {}): CfnApprovalTeam.ApproverProperty =
-    CfnApprovalTeam.ApproverProperty.Builder().apply(initializer).build()
+public fun buildApproverProperty(initializer: @AwsCdkDsl CfnApprovalTeam.ApproverProperty.Builder.() -> Unit = {}): CfnApprovalTeam.ApproverProperty = CfnApprovalTeam.ApproverProperty.Builder().apply(initializer).build()

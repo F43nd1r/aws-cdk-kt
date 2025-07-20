@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnDistribution
 
 @Generated
-public fun buildOriginCustomHeaderProperty(initializer: @AwsCdkDsl
-    CfnDistribution.OriginCustomHeaderProperty.Builder.() -> Unit = {}):
-    CfnDistribution.OriginCustomHeaderProperty =
-    CfnDistribution.OriginCustomHeaderProperty.Builder().apply(initializer).build()
+public fun buildOriginCustomHeaderProperty(initializer: @AwsCdkDsl CfnDistribution.OriginCustomHeaderProperty.Builder.() -> Unit = {}): CfnDistribution.OriginCustomHeaderProperty = CfnDistribution.OriginCustomHeaderProperty.Builder().apply(initializer).build()

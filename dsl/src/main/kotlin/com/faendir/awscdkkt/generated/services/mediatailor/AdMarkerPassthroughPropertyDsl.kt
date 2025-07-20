@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediatailor.CfnPlaybackConfiguration
 
 @Generated
-public fun buildAdMarkerPassthroughProperty(initializer: @AwsCdkDsl
-    CfnPlaybackConfiguration.AdMarkerPassthroughProperty.Builder.() -> Unit = {}):
-    CfnPlaybackConfiguration.AdMarkerPassthroughProperty =
-    CfnPlaybackConfiguration.AdMarkerPassthroughProperty.Builder().apply(initializer).build()
+public fun buildAdMarkerPassthroughProperty(initializer: @AwsCdkDsl CfnPlaybackConfiguration.AdMarkerPassthroughProperty.Builder.() -> Unit = {}): CfnPlaybackConfiguration.AdMarkerPassthroughProperty = CfnPlaybackConfiguration.AdMarkerPassthroughProperty.Builder().apply(initializer).build()

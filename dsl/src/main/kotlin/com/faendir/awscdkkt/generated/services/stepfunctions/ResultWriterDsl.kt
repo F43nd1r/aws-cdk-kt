@@ -9,8 +9,6 @@ import kotlin.Suppress
 import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.ResultWriter
 
-@Deprecated(message =
-    "software.amazon.awscdk.services.stepfunctions.ResultWriter is deprecated in CDK.")
+@Deprecated(message = "software.amazon.awscdk.services.stepfunctions.ResultWriter is deprecated in CDK.")
 @Generated
-public fun buildResultWriter(initializer: @AwsCdkDsl ResultWriter.Builder.() -> Unit = {}):
-    ResultWriter = ResultWriter.Builder.create().apply(initializer).build()
+public fun buildResultWriter(initializer: @AwsCdkDsl ResultWriter.Builder.() -> Unit = {}): ResultWriter = ResultWriter.Builder.create().apply(initializer).build()

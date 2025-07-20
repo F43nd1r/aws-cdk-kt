@@ -16,6 +16,4 @@ public fun Construct.cfnResourceAssociation(
 ): CfnResourceAssociation = CfnResourceAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnResourceAssociation(id: String, initializer: @AwsCdkDsl
-    CfnResourceAssociation.Builder.() -> Unit = {}): CfnResourceAssociation =
-    CfnResourceAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnResourceAssociation(id: String, initializer: @AwsCdkDsl CfnResourceAssociation.Builder.() -> Unit = {}): CfnResourceAssociation = CfnResourceAssociation.Builder.create(this, id).apply(initializer).build()

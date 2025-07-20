@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildScte20SourceSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.Scte20SourceSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.Scte20SourceSettingsProperty =
-    CfnChannel.Scte20SourceSettingsProperty.Builder().apply(initializer).build()
+public fun buildScte20SourceSettingsProperty(initializer: @AwsCdkDsl CfnChannel.Scte20SourceSettingsProperty.Builder.() -> Unit = {}): CfnChannel.Scte20SourceSettingsProperty = CfnChannel.Scte20SourceSettingsProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.CfnScalingPolicy
 
 @Generated
-public fun buildMetricDimensionProperty(initializer: @AwsCdkDsl
-    CfnScalingPolicy.MetricDimensionProperty.Builder.() -> Unit = {}):
-    CfnScalingPolicy.MetricDimensionProperty =
-    CfnScalingPolicy.MetricDimensionProperty.Builder().apply(initializer).build()
+public fun buildMetricDimensionProperty(initializer: @AwsCdkDsl CfnScalingPolicy.MetricDimensionProperty.Builder.() -> Unit = {}): CfnScalingPolicy.MetricDimensionProperty = CfnScalingPolicy.MetricDimensionProperty.Builder().apply(initializer).build()

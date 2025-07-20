@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.databrew.CfnDataset
 
 @Generated
-public fun buildFormatOptionsProperty(initializer: @AwsCdkDsl
-    CfnDataset.FormatOptionsProperty.Builder.() -> Unit = {}): CfnDataset.FormatOptionsProperty =
-    CfnDataset.FormatOptionsProperty.Builder().apply(initializer).build()
+public fun buildFormatOptionsProperty(initializer: @AwsCdkDsl CfnDataset.FormatOptionsProperty.Builder.() -> Unit = {}): CfnDataset.FormatOptionsProperty = CfnDataset.FormatOptionsProperty.Builder().apply(initializer).build()

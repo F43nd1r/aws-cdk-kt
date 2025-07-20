@@ -16,6 +16,4 @@ public fun Construct.cfnPodIdentityAssociation(
 ): CfnPodIdentityAssociation = CfnPodIdentityAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPodIdentityAssociation(id: String, initializer: @AwsCdkDsl
-    CfnPodIdentityAssociation.Builder.() -> Unit = {}): CfnPodIdentityAssociation =
-    CfnPodIdentityAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPodIdentityAssociation(id: String, initializer: @AwsCdkDsl CfnPodIdentityAssociation.Builder.() -> Unit = {}): CfnPodIdentityAssociation = CfnPodIdentityAssociation.Builder.create(this, id).apply(initializer).build()

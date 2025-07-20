@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotfleetwise.CfnSignalCatalogProps
 
 @Generated
-public fun buildCfnSignalCatalogProps(initializer: @AwsCdkDsl
-    CfnSignalCatalogProps.Builder.() -> Unit = {}): CfnSignalCatalogProps =
-    CfnSignalCatalogProps.Builder().apply(initializer).build()
+public fun buildCfnSignalCatalogProps(initializer: @AwsCdkDsl CfnSignalCatalogProps.Builder.() -> Unit = {}): CfnSignalCatalogProps = CfnSignalCatalogProps.Builder().apply(initializer).build()

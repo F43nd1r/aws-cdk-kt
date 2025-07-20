@@ -16,6 +16,4 @@ public fun Construct.cfnServerlessCache(
 ): CfnServerlessCache = CfnServerlessCache(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnServerlessCache(id: String, initializer: @AwsCdkDsl
-    CfnServerlessCache.Builder.() -> Unit = {}): CfnServerlessCache =
-    CfnServerlessCache.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnServerlessCache(id: String, initializer: @AwsCdkDsl CfnServerlessCache.Builder.() -> Unit = {}): CfnServerlessCache = CfnServerlessCache.Builder.create(this, id).apply(initializer).build()

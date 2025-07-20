@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.CodeStarSourceVariables
 
 @Generated
-public fun buildCodeStarSourceVariables(initializer: @AwsCdkDsl
-    CodeStarSourceVariables.Builder.() -> Unit = {}): CodeStarSourceVariables =
-    CodeStarSourceVariables.Builder().apply(initializer).build()
+public fun buildCodeStarSourceVariables(initializer: @AwsCdkDsl CodeStarSourceVariables.Builder.() -> Unit = {}): CodeStarSourceVariables = CodeStarSourceVariables.Builder().apply(initializer).build()

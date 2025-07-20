@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.CfnEndpoint
 
 @Generated
-public fun buildEndpointEventBusProperty(initializer: @AwsCdkDsl
-    CfnEndpoint.EndpointEventBusProperty.Builder.() -> Unit = {}):
-    CfnEndpoint.EndpointEventBusProperty =
-    CfnEndpoint.EndpointEventBusProperty.Builder().apply(initializer).build()
+public fun buildEndpointEventBusProperty(initializer: @AwsCdkDsl CfnEndpoint.EndpointEventBusProperty.Builder.() -> Unit = {}): CfnEndpoint.EndpointEventBusProperty = CfnEndpoint.EndpointEventBusProperty.Builder().apply(initializer).build()

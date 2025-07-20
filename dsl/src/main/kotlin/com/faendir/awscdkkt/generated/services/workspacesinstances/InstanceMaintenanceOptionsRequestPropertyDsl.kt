@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.workspacesinstances.CfnWorkspaceInstance
 
 @Generated
-public fun buildInstanceMaintenanceOptionsRequestProperty(initializer: @AwsCdkDsl
-    CfnWorkspaceInstance.InstanceMaintenanceOptionsRequestProperty.Builder.() -> Unit = {}):
-    CfnWorkspaceInstance.InstanceMaintenanceOptionsRequestProperty =
-    CfnWorkspaceInstance.InstanceMaintenanceOptionsRequestProperty.Builder().apply(initializer).build()
+public fun buildInstanceMaintenanceOptionsRequestProperty(initializer: @AwsCdkDsl CfnWorkspaceInstance.InstanceMaintenanceOptionsRequestProperty.Builder.() -> Unit = {}): CfnWorkspaceInstance.InstanceMaintenanceOptionsRequestProperty = CfnWorkspaceInstance.InstanceMaintenanceOptionsRequestProperty.Builder().apply(initializer).build()

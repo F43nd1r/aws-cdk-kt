@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotfleetwise.CfnCampaign
 
 @Generated
-public fun buildMqttTopicConfigProperty(initializer: @AwsCdkDsl
-    CfnCampaign.MqttTopicConfigProperty.Builder.() -> Unit = {}):
-    CfnCampaign.MqttTopicConfigProperty =
-    CfnCampaign.MqttTopicConfigProperty.Builder().apply(initializer).build()
+public fun buildMqttTopicConfigProperty(initializer: @AwsCdkDsl CfnCampaign.MqttTopicConfigProperty.Builder.() -> Unit = {}): CfnCampaign.MqttTopicConfigProperty = CfnCampaign.MqttTopicConfigProperty.Builder().apply(initializer).build()

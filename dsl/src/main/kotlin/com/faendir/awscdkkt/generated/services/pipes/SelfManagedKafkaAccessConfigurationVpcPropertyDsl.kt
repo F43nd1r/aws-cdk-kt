@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildSelfManagedKafkaAccessConfigurationVpcProperty(initializer: @AwsCdkDsl
-    CfnPipe.SelfManagedKafkaAccessConfigurationVpcProperty.Builder.() -> Unit = {}):
-    CfnPipe.SelfManagedKafkaAccessConfigurationVpcProperty =
-    CfnPipe.SelfManagedKafkaAccessConfigurationVpcProperty.Builder().apply(initializer).build()
+public fun buildSelfManagedKafkaAccessConfigurationVpcProperty(initializer: @AwsCdkDsl CfnPipe.SelfManagedKafkaAccessConfigurationVpcProperty.Builder.() -> Unit = {}): CfnPipe.SelfManagedKafkaAccessConfigurationVpcProperty = CfnPipe.SelfManagedKafkaAccessConfigurationVpcProperty.Builder().apply(initializer).build()

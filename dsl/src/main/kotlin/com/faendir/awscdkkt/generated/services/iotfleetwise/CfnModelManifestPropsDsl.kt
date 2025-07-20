@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotfleetwise.CfnModelManifestProps
 
 @Generated
-public fun buildCfnModelManifestProps(initializer: @AwsCdkDsl
-    CfnModelManifestProps.Builder.() -> Unit = {}): CfnModelManifestProps =
-    CfnModelManifestProps.Builder().apply(initializer).build()
+public fun buildCfnModelManifestProps(initializer: @AwsCdkDsl CfnModelManifestProps.Builder.() -> Unit = {}): CfnModelManifestProps = CfnModelManifestProps.Builder().apply(initializer).build()

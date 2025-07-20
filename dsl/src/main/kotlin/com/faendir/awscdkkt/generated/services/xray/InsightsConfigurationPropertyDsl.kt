@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.xray.CfnGroup
 
 @Generated
-public fun buildInsightsConfigurationProperty(initializer: @AwsCdkDsl
-    CfnGroup.InsightsConfigurationProperty.Builder.() -> Unit = {}):
-    CfnGroup.InsightsConfigurationProperty =
-    CfnGroup.InsightsConfigurationProperty.Builder().apply(initializer).build()
+public fun buildInsightsConfigurationProperty(initializer: @AwsCdkDsl CfnGroup.InsightsConfigurationProperty.Builder.() -> Unit = {}): CfnGroup.InsightsConfigurationProperty = CfnGroup.InsightsConfigurationProperty.Builder().apply(initializer).build()

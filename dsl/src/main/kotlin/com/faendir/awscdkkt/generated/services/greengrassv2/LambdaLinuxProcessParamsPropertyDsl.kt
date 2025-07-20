@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.greengrassv2.CfnComponentVersion
 
 @Generated
-public fun buildLambdaLinuxProcessParamsProperty(initializer: @AwsCdkDsl
-    CfnComponentVersion.LambdaLinuxProcessParamsProperty.Builder.() -> Unit = {}):
-    CfnComponentVersion.LambdaLinuxProcessParamsProperty =
-    CfnComponentVersion.LambdaLinuxProcessParamsProperty.Builder().apply(initializer).build()
+public fun buildLambdaLinuxProcessParamsProperty(initializer: @AwsCdkDsl CfnComponentVersion.LambdaLinuxProcessParamsProperty.Builder.() -> Unit = {}): CfnComponentVersion.LambdaLinuxProcessParamsProperty = CfnComponentVersion.LambdaLinuxProcessParamsProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnService
 
 @Generated
-public fun buildVpcLatticeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnService.VpcLatticeConfigurationProperty.Builder.() -> Unit = {}):
-    CfnService.VpcLatticeConfigurationProperty =
-    CfnService.VpcLatticeConfigurationProperty.Builder().apply(initializer).build()
+public fun buildVpcLatticeConfigurationProperty(initializer: @AwsCdkDsl CfnService.VpcLatticeConfigurationProperty.Builder.() -> Unit = {}): CfnService.VpcLatticeConfigurationProperty = CfnService.VpcLatticeConfigurationProperty.Builder().apply(initializer).build()

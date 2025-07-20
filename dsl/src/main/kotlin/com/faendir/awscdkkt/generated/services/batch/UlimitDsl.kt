@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.Ulimit
 
 @Generated
-public fun buildUlimit(initializer: @AwsCdkDsl Ulimit.Builder.() -> Unit = {}): Ulimit =
-    Ulimit.Builder().apply(initializer).build()
+public fun buildUlimit(initializer: @AwsCdkDsl Ulimit.Builder.() -> Unit = {}): Ulimit = Ulimit.Builder().apply(initializer).build()

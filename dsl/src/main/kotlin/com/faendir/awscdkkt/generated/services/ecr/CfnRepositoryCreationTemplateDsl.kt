@@ -16,6 +16,4 @@ public fun Construct.cfnRepositoryCreationTemplate(
 ): CfnRepositoryCreationTemplate = CfnRepositoryCreationTemplate(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRepositoryCreationTemplate(id: String, initializer: @AwsCdkDsl
-    CfnRepositoryCreationTemplate.Builder.() -> Unit = {}): CfnRepositoryCreationTemplate =
-    CfnRepositoryCreationTemplate.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRepositoryCreationTemplate(id: String, initializer: @AwsCdkDsl CfnRepositoryCreationTemplate.Builder.() -> Unit = {}): CfnRepositoryCreationTemplate = CfnRepositoryCreationTemplate.Builder.create(this, id).apply(initializer).build()

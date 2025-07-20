@@ -16,5 +16,4 @@ public fun Construct.cfnMacro(
 ): CfnMacro = CfnMacro(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMacro(id: String, initializer: @AwsCdkDsl CfnMacro.Builder.() -> Unit =
-    {}): CfnMacro = CfnMacro.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMacro(id: String, initializer: @AwsCdkDsl CfnMacro.Builder.() -> Unit = {}): CfnMacro = CfnMacro.Builder.create(this, id).apply(initializer).build()

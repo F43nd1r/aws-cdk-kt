@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildEac3AtmosSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.Eac3AtmosSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.Eac3AtmosSettingsProperty =
-    CfnChannel.Eac3AtmosSettingsProperty.Builder().apply(initializer).build()
+public fun buildEac3AtmosSettingsProperty(initializer: @AwsCdkDsl CfnChannel.Eac3AtmosSettingsProperty.Builder.() -> Unit = {}): CfnChannel.Eac3AtmosSettingsProperty = CfnChannel.Eac3AtmosSettingsProperty.Builder().apply(initializer).build()

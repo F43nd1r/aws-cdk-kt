@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kafkaconnect.CfnConnector
 
 @Generated
-public fun buildS3LogDeliveryProperty(initializer: @AwsCdkDsl
-    CfnConnector.S3LogDeliveryProperty.Builder.() -> Unit = {}): CfnConnector.S3LogDeliveryProperty
-    = CfnConnector.S3LogDeliveryProperty.Builder().apply(initializer).build()
+public fun buildS3LogDeliveryProperty(initializer: @AwsCdkDsl CfnConnector.S3LogDeliveryProperty.Builder.() -> Unit = {}): CfnConnector.S3LogDeliveryProperty = CfnConnector.S3LogDeliveryProperty.Builder().apply(initializer).build()

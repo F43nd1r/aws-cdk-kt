@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.CfnCodeDeployBlueGreenApplication
 
 @Generated
-public fun buildCfnCodeDeployBlueGreenApplication(initializer: @AwsCdkDsl
-    CfnCodeDeployBlueGreenApplication.Builder.() -> Unit = {}): CfnCodeDeployBlueGreenApplication =
-    CfnCodeDeployBlueGreenApplication.Builder().apply(initializer).build()
+public fun buildCfnCodeDeployBlueGreenApplication(initializer: @AwsCdkDsl CfnCodeDeployBlueGreenApplication.Builder.() -> Unit = {}): CfnCodeDeployBlueGreenApplication = CfnCodeDeployBlueGreenApplication.Builder().apply(initializer).build()

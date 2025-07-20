@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.MetricsConfig
 
 @Generated
-public fun buildMetricsConfig(initializer: @AwsCdkDsl MetricsConfig.Builder.() -> Unit = {}):
-    MetricsConfig = MetricsConfig.Builder().apply(initializer).build()
+public fun buildMetricsConfig(initializer: @AwsCdkDsl MetricsConfig.Builder.() -> Unit = {}): MetricsConfig = MetricsConfig.Builder().apply(initializer).build()

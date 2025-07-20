@@ -16,6 +16,4 @@ public fun Construct.cfnPredefinedAttribute(
 ): CfnPredefinedAttribute = CfnPredefinedAttribute(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPredefinedAttribute(id: String, initializer: @AwsCdkDsl
-    CfnPredefinedAttribute.Builder.() -> Unit = {}): CfnPredefinedAttribute =
-    CfnPredefinedAttribute.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPredefinedAttribute(id: String, initializer: @AwsCdkDsl CfnPredefinedAttribute.Builder.() -> Unit = {}): CfnPredefinedAttribute = CfnPredefinedAttribute.Builder.create(this, id).apply(initializer).build()

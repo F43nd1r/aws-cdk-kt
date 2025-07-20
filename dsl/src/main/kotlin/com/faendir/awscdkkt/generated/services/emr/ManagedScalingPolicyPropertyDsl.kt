@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.emr.CfnCluster
 
 @Generated
-public fun buildManagedScalingPolicyProperty(initializer: @AwsCdkDsl
-    CfnCluster.ManagedScalingPolicyProperty.Builder.() -> Unit = {}):
-    CfnCluster.ManagedScalingPolicyProperty =
-    CfnCluster.ManagedScalingPolicyProperty.Builder().apply(initializer).build()
+public fun buildManagedScalingPolicyProperty(initializer: @AwsCdkDsl CfnCluster.ManagedScalingPolicyProperty.Builder.() -> Unit = {}): CfnCluster.ManagedScalingPolicyProperty = CfnCluster.ManagedScalingPolicyProperty.Builder().apply(initializer).build()

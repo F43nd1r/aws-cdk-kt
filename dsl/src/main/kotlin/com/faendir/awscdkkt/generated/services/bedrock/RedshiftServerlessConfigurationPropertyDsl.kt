@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnKnowledgeBase
 
 @Generated
-public fun buildRedshiftServerlessConfigurationProperty(initializer: @AwsCdkDsl
-    CfnKnowledgeBase.RedshiftServerlessConfigurationProperty.Builder.() -> Unit = {}):
-    CfnKnowledgeBase.RedshiftServerlessConfigurationProperty =
-    CfnKnowledgeBase.RedshiftServerlessConfigurationProperty.Builder().apply(initializer).build()
+public fun buildRedshiftServerlessConfigurationProperty(initializer: @AwsCdkDsl CfnKnowledgeBase.RedshiftServerlessConfigurationProperty.Builder.() -> Unit = {}): CfnKnowledgeBase.RedshiftServerlessConfigurationProperty = CfnKnowledgeBase.RedshiftServerlessConfigurationProperty.Builder().apply(initializer).build()

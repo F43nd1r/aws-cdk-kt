@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.securitylake.CfnDataLakeProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDataLake(id: String, initializer: @AwsCdkDsl CfnDataLake.() -> Unit = {}):
-    CfnDataLake = CfnDataLake(this, id).apply(initializer)
+public fun Construct.cfnDataLake(id: String, initializer: @AwsCdkDsl CfnDataLake.() -> Unit = {}): CfnDataLake = CfnDataLake(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnDataLake(
@@ -20,6 +19,4 @@ public fun Construct.cfnDataLake(
 ): CfnDataLake = CfnDataLake(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDataLake(id: String, initializer: @AwsCdkDsl
-    CfnDataLake.Builder.() -> Unit = {}): CfnDataLake = CfnDataLake.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnDataLake(id: String, initializer: @AwsCdkDsl CfnDataLake.Builder.() -> Unit = {}): CfnDataLake = CfnDataLake.Builder.create(this, id).apply(initializer).build()

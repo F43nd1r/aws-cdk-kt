@@ -16,6 +16,4 @@ public fun Construct.cfnConnectionAlias(
 ): CfnConnectionAlias = CfnConnectionAlias(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnConnectionAlias(id: String, initializer: @AwsCdkDsl
-    CfnConnectionAlias.Builder.() -> Unit = {}): CfnConnectionAlias =
-    CfnConnectionAlias.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnConnectionAlias(id: String, initializer: @AwsCdkDsl CfnConnectionAlias.Builder.() -> Unit = {}): CfnConnectionAlias = CfnConnectionAlias.Builder.create(this, id).apply(initializer).build()

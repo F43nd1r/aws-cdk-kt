@@ -16,6 +16,4 @@ public fun Construct.cfnLicenseEndpoint(
 ): CfnLicenseEndpoint = CfnLicenseEndpoint(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLicenseEndpoint(id: String, initializer: @AwsCdkDsl
-    CfnLicenseEndpoint.Builder.() -> Unit = {}): CfnLicenseEndpoint =
-    CfnLicenseEndpoint.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLicenseEndpoint(id: String, initializer: @AwsCdkDsl CfnLicenseEndpoint.Builder.() -> Unit = {}): CfnLicenseEndpoint = CfnLicenseEndpoint.Builder.create(this, id).apply(initializer).build()

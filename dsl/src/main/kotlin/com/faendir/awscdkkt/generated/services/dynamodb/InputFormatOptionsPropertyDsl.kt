@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.CfnTable
 
 @Generated
-public fun buildInputFormatOptionsProperty(initializer: @AwsCdkDsl
-    CfnTable.InputFormatOptionsProperty.Builder.() -> Unit = {}):
-    CfnTable.InputFormatOptionsProperty =
-    CfnTable.InputFormatOptionsProperty.Builder().apply(initializer).build()
+public fun buildInputFormatOptionsProperty(initializer: @AwsCdkDsl CfnTable.InputFormatOptionsProperty.Builder.() -> Unit = {}): CfnTable.InputFormatOptionsProperty = CfnTable.InputFormatOptionsProperty.Builder().apply(initializer).build()

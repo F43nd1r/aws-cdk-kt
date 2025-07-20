@@ -16,6 +16,4 @@ public fun Construct.appSyncRdsDataSource(
 ): AppSyncRdsDataSource = AppSyncRdsDataSource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAppSyncRdsDataSource(id: String, initializer: @AwsCdkDsl
-    AppSyncRdsDataSource.Builder.() -> Unit = {}): AppSyncRdsDataSource =
-    AppSyncRdsDataSource.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildAppSyncRdsDataSource(id: String, initializer: @AwsCdkDsl AppSyncRdsDataSource.Builder.() -> Unit = {}): AppSyncRdsDataSource = AppSyncRdsDataSource.Builder.create(this, id).apply(initializer).build()

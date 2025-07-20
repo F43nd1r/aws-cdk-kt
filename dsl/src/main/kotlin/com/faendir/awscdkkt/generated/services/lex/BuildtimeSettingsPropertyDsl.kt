@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildBuildtimeSettingsProperty(initializer: @AwsCdkDsl
-    CfnBot.BuildtimeSettingsProperty.Builder.() -> Unit = {}): CfnBot.BuildtimeSettingsProperty =
-    CfnBot.BuildtimeSettingsProperty.Builder().apply(initializer).build()
+public fun buildBuildtimeSettingsProperty(initializer: @AwsCdkDsl CfnBot.BuildtimeSettingsProperty.Builder.() -> Unit = {}): CfnBot.BuildtimeSettingsProperty = CfnBot.BuildtimeSettingsProperty.Builder().apply(initializer).build()

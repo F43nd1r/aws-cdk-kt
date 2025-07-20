@@ -16,6 +16,4 @@ public fun Construct.cfnKeyValueStore(
 ): CfnKeyValueStore = CfnKeyValueStore(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnKeyValueStore(id: String, initializer: @AwsCdkDsl
-    CfnKeyValueStore.Builder.() -> Unit = {}): CfnKeyValueStore =
-    CfnKeyValueStore.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnKeyValueStore(id: String, initializer: @AwsCdkDsl CfnKeyValueStore.Builder.() -> Unit = {}): CfnKeyValueStore = CfnKeyValueStore.Builder.create(this, id).apply(initializer).build()

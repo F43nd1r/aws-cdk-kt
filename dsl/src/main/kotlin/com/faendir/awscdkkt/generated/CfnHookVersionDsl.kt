@@ -16,6 +16,4 @@ public fun Construct.cfnHookVersion(
 ): CfnHookVersion = CfnHookVersion(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnHookVersion(id: String, initializer: @AwsCdkDsl
-    CfnHookVersion.Builder.() -> Unit = {}): CfnHookVersion = CfnHookVersion.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnHookVersion(id: String, initializer: @AwsCdkDsl CfnHookVersion.Builder.() -> Unit = {}): CfnHookVersion = CfnHookVersion.Builder.create(this, id).apply(initializer).build()

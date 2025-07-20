@@ -13,10 +13,7 @@ public fun Construct.bedrockCreateModelCustomizationJob(
   id: String,
   props: BedrockCreateModelCustomizationJobProps,
   initializer: @AwsCdkDsl BedrockCreateModelCustomizationJob.() -> Unit = {},
-): BedrockCreateModelCustomizationJob = BedrockCreateModelCustomizationJob(this, id,
-    props).apply(initializer)
+): BedrockCreateModelCustomizationJob = BedrockCreateModelCustomizationJob(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildBedrockCreateModelCustomizationJob(id: String, initializer: @AwsCdkDsl
-    BedrockCreateModelCustomizationJob.Builder.() -> Unit = {}): BedrockCreateModelCustomizationJob
-    = BedrockCreateModelCustomizationJob.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildBedrockCreateModelCustomizationJob(id: String, initializer: @AwsCdkDsl BedrockCreateModelCustomizationJob.Builder.() -> Unit = {}): BedrockCreateModelCustomizationJob = BedrockCreateModelCustomizationJob.Builder.create(this, id).apply(initializer).build()

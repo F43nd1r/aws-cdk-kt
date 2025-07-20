@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.emr.CfnInstanceGroupConfig
 
 @Generated
-public fun buildScalingActionProperty(initializer: @AwsCdkDsl
-    CfnInstanceGroupConfig.ScalingActionProperty.Builder.() -> Unit = {}):
-    CfnInstanceGroupConfig.ScalingActionProperty =
-    CfnInstanceGroupConfig.ScalingActionProperty.Builder().apply(initializer).build()
+public fun buildScalingActionProperty(initializer: @AwsCdkDsl CfnInstanceGroupConfig.ScalingActionProperty.Builder.() -> Unit = {}): CfnInstanceGroupConfig.ScalingActionProperty = CfnInstanceGroupConfig.ScalingActionProperty.Builder().apply(initializer).build()

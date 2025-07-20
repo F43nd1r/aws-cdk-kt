@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBotVersion
 
 @Generated
-public fun buildBotVersionLocaleSpecificationProperty(initializer: @AwsCdkDsl
-    CfnBotVersion.BotVersionLocaleSpecificationProperty.Builder.() -> Unit = {}):
-    CfnBotVersion.BotVersionLocaleSpecificationProperty =
-    CfnBotVersion.BotVersionLocaleSpecificationProperty.Builder().apply(initializer).build()
+public fun buildBotVersionLocaleSpecificationProperty(initializer: @AwsCdkDsl CfnBotVersion.BotVersionLocaleSpecificationProperty.Builder.() -> Unit = {}): CfnBotVersion.BotVersionLocaleSpecificationProperty = CfnBotVersion.BotVersionLocaleSpecificationProperty.Builder().apply(initializer).build()

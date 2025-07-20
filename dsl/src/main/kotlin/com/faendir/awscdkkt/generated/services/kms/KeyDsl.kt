@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.kms.KeyProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.key(id: String, initializer: @AwsCdkDsl Key.() -> Unit = {}): Key = Key(this,
-    id).apply(initializer)
+public fun Construct.key(id: String, initializer: @AwsCdkDsl Key.() -> Unit = {}): Key = Key(this, id).apply(initializer)
 
 @Generated
 public fun Construct.key(
@@ -20,5 +19,4 @@ public fun Construct.key(
 ): Key = Key(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildKey(id: String, initializer: @AwsCdkDsl Key.Builder.() -> Unit = {}): Key
-    = Key.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildKey(id: String, initializer: @AwsCdkDsl Key.Builder.() -> Unit = {}): Key = Key.Builder.create(this, id).apply(initializer).build()

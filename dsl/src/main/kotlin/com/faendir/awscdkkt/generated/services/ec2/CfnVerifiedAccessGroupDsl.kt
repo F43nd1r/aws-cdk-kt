@@ -16,6 +16,4 @@ public fun Construct.cfnVerifiedAccessGroup(
 ): CfnVerifiedAccessGroup = CfnVerifiedAccessGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVerifiedAccessGroup(id: String, initializer: @AwsCdkDsl
-    CfnVerifiedAccessGroup.Builder.() -> Unit = {}): CfnVerifiedAccessGroup =
-    CfnVerifiedAccessGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnVerifiedAccessGroup(id: String, initializer: @AwsCdkDsl CfnVerifiedAccessGroup.Builder.() -> Unit = {}): CfnVerifiedAccessGroup = CfnVerifiedAccessGroup.Builder.create(this, id).apply(initializer).build()

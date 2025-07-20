@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildFeatureActivationsProperty(initializer: @AwsCdkDsl
-    CfnChannel.FeatureActivationsProperty.Builder.() -> Unit = {}):
-    CfnChannel.FeatureActivationsProperty =
-    CfnChannel.FeatureActivationsProperty.Builder().apply(initializer).build()
+public fun buildFeatureActivationsProperty(initializer: @AwsCdkDsl CfnChannel.FeatureActivationsProperty.Builder.() -> Unit = {}): CfnChannel.FeatureActivationsProperty = CfnChannel.FeatureActivationsProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
-public fun buildTopicConfigurationProperty(initializer: @AwsCdkDsl
-    CfnBucket.TopicConfigurationProperty.Builder.() -> Unit = {}):
-    CfnBucket.TopicConfigurationProperty =
-    CfnBucket.TopicConfigurationProperty.Builder().apply(initializer).build()
+public fun buildTopicConfigurationProperty(initializer: @AwsCdkDsl CfnBucket.TopicConfigurationProperty.Builder.() -> Unit = {}): CfnBucket.TopicConfigurationProperty = CfnBucket.TopicConfigurationProperty.Builder().apply(initializer).build()

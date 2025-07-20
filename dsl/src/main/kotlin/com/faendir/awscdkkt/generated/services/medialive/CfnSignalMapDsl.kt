@@ -16,6 +16,4 @@ public fun Construct.cfnSignalMap(
 ): CfnSignalMap = CfnSignalMap(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSignalMap(id: String, initializer: @AwsCdkDsl
-    CfnSignalMap.Builder.() -> Unit = {}): CfnSignalMap = CfnSignalMap.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnSignalMap(id: String, initializer: @AwsCdkDsl CfnSignalMap.Builder.() -> Unit = {}): CfnSignalMap = CfnSignalMap.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSource
 
 @Generated
-public fun buildMySqlParametersProperty(initializer: @AwsCdkDsl
-    CfnDataSource.MySqlParametersProperty.Builder.() -> Unit = {}):
-    CfnDataSource.MySqlParametersProperty =
-    CfnDataSource.MySqlParametersProperty.Builder().apply(initializer).build()
+public fun buildMySqlParametersProperty(initializer: @AwsCdkDsl CfnDataSource.MySqlParametersProperty.Builder.() -> Unit = {}): CfnDataSource.MySqlParametersProperty = CfnDataSource.MySqlParametersProperty.Builder().apply(initializer).build()

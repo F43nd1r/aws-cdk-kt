@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codeartifact.CfnPackageGroup
 
 @Generated
-public fun buildRestrictionsProperty(initializer: @AwsCdkDsl
-    CfnPackageGroup.RestrictionsProperty.Builder.() -> Unit = {}):
-    CfnPackageGroup.RestrictionsProperty =
-    CfnPackageGroup.RestrictionsProperty.Builder().apply(initializer).build()
+public fun buildRestrictionsProperty(initializer: @AwsCdkDsl CfnPackageGroup.RestrictionsProperty.Builder.() -> Unit = {}): CfnPackageGroup.RestrictionsProperty = CfnPackageGroup.RestrictionsProperty.Builder().apply(initializer).build()

@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.stepfunctions.FailProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.fail(id: String, initializer: @AwsCdkDsl Fail.() -> Unit = {}): Fail =
-    Fail(this, id).apply(initializer)
+public fun Construct.fail(id: String, initializer: @AwsCdkDsl Fail.() -> Unit = {}): Fail = Fail(this, id).apply(initializer)
 
 @Generated
 public fun Construct.fail(
@@ -20,5 +19,4 @@ public fun Construct.fail(
 ): Fail = Fail(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildFail(id: String, initializer: @AwsCdkDsl Fail.Builder.() -> Unit = {}):
-    Fail = Fail.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildFail(id: String, initializer: @AwsCdkDsl Fail.Builder.() -> Unit = {}): Fail = Fail.Builder.create(this, id).apply(initializer).build()

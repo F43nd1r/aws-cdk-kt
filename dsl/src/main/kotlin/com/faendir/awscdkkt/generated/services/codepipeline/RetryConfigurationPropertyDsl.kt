@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.CfnPipeline
 
 @Generated
-public fun buildRetryConfigurationProperty(initializer: @AwsCdkDsl
-    CfnPipeline.RetryConfigurationProperty.Builder.() -> Unit = {}):
-    CfnPipeline.RetryConfigurationProperty =
-    CfnPipeline.RetryConfigurationProperty.Builder().apply(initializer).build()
+public fun buildRetryConfigurationProperty(initializer: @AwsCdkDsl CfnPipeline.RetryConfigurationProperty.Builder.() -> Unit = {}): CfnPipeline.RetryConfigurationProperty = CfnPipeline.RetryConfigurationProperty.Builder().apply(initializer).build()

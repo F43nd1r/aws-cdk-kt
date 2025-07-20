@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildAllowedInputTypesProperty(initializer: @AwsCdkDsl
-    CfnBot.AllowedInputTypesProperty.Builder.() -> Unit = {}): CfnBot.AllowedInputTypesProperty =
-    CfnBot.AllowedInputTypesProperty.Builder().apply(initializer).build()
+public fun buildAllowedInputTypesProperty(initializer: @AwsCdkDsl CfnBot.AllowedInputTypesProperty.Builder.() -> Unit = {}): CfnBot.AllowedInputTypesProperty = CfnBot.AllowedInputTypesProperty.Builder().apply(initializer).build()

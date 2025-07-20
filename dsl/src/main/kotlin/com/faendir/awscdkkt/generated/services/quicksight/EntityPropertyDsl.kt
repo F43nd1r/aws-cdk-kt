@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildEntityProperty(initializer: @AwsCdkDsl CfnTemplate.EntityProperty.Builder.() -> Unit
-    = {}): CfnTemplate.EntityProperty =
-    CfnTemplate.EntityProperty.Builder().apply(initializer).build()
+public fun buildEntityProperty(initializer: @AwsCdkDsl CfnTemplate.EntityProperty.Builder.() -> Unit = {}): CfnTemplate.EntityProperty = CfnTemplate.EntityProperty.Builder().apply(initializer).build()

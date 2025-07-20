@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildVisualPaletteProperty(initializer: @AwsCdkDsl
-    CfnTemplate.VisualPaletteProperty.Builder.() -> Unit = {}): CfnTemplate.VisualPaletteProperty =
-    CfnTemplate.VisualPaletteProperty.Builder().apply(initializer).build()
+public fun buildVisualPaletteProperty(initializer: @AwsCdkDsl CfnTemplate.VisualPaletteProperty.Builder.() -> Unit = {}): CfnTemplate.VisualPaletteProperty = CfnTemplate.VisualPaletteProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnAlias
 
 @Generated
-public fun buildRoutingStrategyProperty(initializer: @AwsCdkDsl
-    CfnAlias.RoutingStrategyProperty.Builder.() -> Unit = {}): CfnAlias.RoutingStrategyProperty =
-    CfnAlias.RoutingStrategyProperty.Builder().apply(initializer).build()
+public fun buildRoutingStrategyProperty(initializer: @AwsCdkDsl CfnAlias.RoutingStrategyProperty.Builder.() -> Unit = {}): CfnAlias.RoutingStrategyProperty = CfnAlias.RoutingStrategyProperty.Builder().apply(initializer).build()

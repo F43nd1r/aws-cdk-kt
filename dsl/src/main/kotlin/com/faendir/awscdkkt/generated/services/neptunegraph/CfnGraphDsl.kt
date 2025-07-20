@@ -16,5 +16,4 @@ public fun Construct.cfnGraph(
 ): CfnGraph = CfnGraph(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnGraph(id: String, initializer: @AwsCdkDsl CfnGraph.Builder.() -> Unit =
-    {}): CfnGraph = CfnGraph.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnGraph(id: String, initializer: @AwsCdkDsl CfnGraph.Builder.() -> Unit = {}): CfnGraph = CfnGraph.Builder.create(this, id).apply(initializer).build()

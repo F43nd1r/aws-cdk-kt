@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.RecordSetProps
 
 @Generated
-public fun buildRecordSetProps(initializer: @AwsCdkDsl RecordSetProps.Builder.() -> Unit = {}):
-    RecordSetProps = RecordSetProps.Builder().apply(initializer).build()
+public fun buildRecordSetProps(initializer: @AwsCdkDsl RecordSetProps.Builder.() -> Unit = {}): RecordSetProps = RecordSetProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnDomain
 
 @Generated
-public fun buildSingleSignOnProperty(initializer: @AwsCdkDsl
-    CfnDomain.SingleSignOnProperty.Builder.() -> Unit = {}): CfnDomain.SingleSignOnProperty =
-    CfnDomain.SingleSignOnProperty.Builder().apply(initializer).build()
+public fun buildSingleSignOnProperty(initializer: @AwsCdkDsl CfnDomain.SingleSignOnProperty.Builder.() -> Unit = {}): CfnDomain.SingleSignOnProperty = CfnDomain.SingleSignOnProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnAIGuardrailVersionProps
 
 @Generated
-public fun buildCfnAIGuardrailVersionProps(initializer: @AwsCdkDsl
-    CfnAIGuardrailVersionProps.Builder.() -> Unit = {}): CfnAIGuardrailVersionProps =
-    CfnAIGuardrailVersionProps.Builder().apply(initializer).build()
+public fun buildCfnAIGuardrailVersionProps(initializer: @AwsCdkDsl CfnAIGuardrailVersionProps.Builder.() -> Unit = {}): CfnAIGuardrailVersionProps = CfnAIGuardrailVersionProps.Builder().apply(initializer).build()

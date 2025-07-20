@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotevents.CfnDetectorModel
 
 @Generated
-public fun buildSetTimerProperty(initializer: @AwsCdkDsl
-    CfnDetectorModel.SetTimerProperty.Builder.() -> Unit = {}): CfnDetectorModel.SetTimerProperty =
-    CfnDetectorModel.SetTimerProperty.Builder().apply(initializer).build()
+public fun buildSetTimerProperty(initializer: @AwsCdkDsl CfnDetectorModel.SetTimerProperty.Builder.() -> Unit = {}): CfnDetectorModel.SetTimerProperty = CfnDetectorModel.SetTimerProperty.Builder().apply(initializer).build()

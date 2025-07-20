@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.stepfunctions.ChoiceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.choice(id: String, initializer: @AwsCdkDsl Choice.() -> Unit = {}): Choice =
-    Choice(this, id).apply(initializer)
+public fun Construct.choice(id: String, initializer: @AwsCdkDsl Choice.() -> Unit = {}): Choice = Choice(this, id).apply(initializer)
 
 @Generated
 public fun Construct.choice(
@@ -20,5 +19,4 @@ public fun Construct.choice(
 ): Choice = Choice(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildChoice(id: String, initializer: @AwsCdkDsl Choice.Builder.() -> Unit =
-    {}): Choice = Choice.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildChoice(id: String, initializer: @AwsCdkDsl Choice.Builder.() -> Unit = {}): Choice = Choice.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.DeliveryStreamProps
 
 @Generated
-public fun buildDeliveryStreamProps(initializer: @AwsCdkDsl DeliveryStreamProps.Builder.() -> Unit =
-    {}): DeliveryStreamProps = DeliveryStreamProps.Builder().apply(initializer).build()
+public fun buildDeliveryStreamProps(initializer: @AwsCdkDsl DeliveryStreamProps.Builder.() -> Unit = {}): DeliveryStreamProps = DeliveryStreamProps.Builder().apply(initializer).build()

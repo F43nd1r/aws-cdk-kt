@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildPieChartConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PieChartConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.PieChartConfigurationProperty =
-    CfnTemplate.PieChartConfigurationProperty.Builder().apply(initializer).build()
+public fun buildPieChartConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.PieChartConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.PieChartConfigurationProperty = CfnTemplate.PieChartConfigurationProperty.Builder().apply(initializer).build()

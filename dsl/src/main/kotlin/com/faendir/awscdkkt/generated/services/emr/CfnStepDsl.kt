@@ -16,5 +16,4 @@ public fun Construct.cfnStep(
 ): CfnStep = CfnStep(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnStep(id: String, initializer: @AwsCdkDsl CfnStep.Builder.() -> Unit =
-    {}): CfnStep = CfnStep.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnStep(id: String, initializer: @AwsCdkDsl CfnStep.Builder.() -> Unit = {}): CfnStep = CfnStep.Builder.create(this, id).apply(initializer).build()

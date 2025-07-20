@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.applicationinsights.CfnApplication
 
 @Generated
-public fun buildAlarmMetricProperty(initializer: @AwsCdkDsl
-    CfnApplication.AlarmMetricProperty.Builder.() -> Unit = {}): CfnApplication.AlarmMetricProperty
-    = CfnApplication.AlarmMetricProperty.Builder().apply(initializer).build()
+public fun buildAlarmMetricProperty(initializer: @AwsCdkDsl CfnApplication.AlarmMetricProperty.Builder.() -> Unit = {}): CfnApplication.AlarmMetricProperty = CfnApplication.AlarmMetricProperty.Builder().apply(initializer).build()

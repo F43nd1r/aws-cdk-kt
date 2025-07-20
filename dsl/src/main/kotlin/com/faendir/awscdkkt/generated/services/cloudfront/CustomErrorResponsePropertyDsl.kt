@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnDistribution
 
 @Generated
-public fun buildCustomErrorResponseProperty(initializer: @AwsCdkDsl
-    CfnDistribution.CustomErrorResponseProperty.Builder.() -> Unit = {}):
-    CfnDistribution.CustomErrorResponseProperty =
-    CfnDistribution.CustomErrorResponseProperty.Builder().apply(initializer).build()
+public fun buildCustomErrorResponseProperty(initializer: @AwsCdkDsl CfnDistribution.CustomErrorResponseProperty.Builder.() -> Unit = {}): CfnDistribution.CustomErrorResponseProperty = CfnDistribution.CustomErrorResponseProperty.Builder().apply(initializer).build()

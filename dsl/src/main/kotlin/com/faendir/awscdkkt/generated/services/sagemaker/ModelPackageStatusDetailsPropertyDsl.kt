@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnModelPackage
 
 @Generated
-public fun buildModelPackageStatusDetailsProperty(initializer: @AwsCdkDsl
-    CfnModelPackage.ModelPackageStatusDetailsProperty.Builder.() -> Unit = {}):
-    CfnModelPackage.ModelPackageStatusDetailsProperty =
-    CfnModelPackage.ModelPackageStatusDetailsProperty.Builder().apply(initializer).build()
+public fun buildModelPackageStatusDetailsProperty(initializer: @AwsCdkDsl CfnModelPackage.ModelPackageStatusDetailsProperty.Builder.() -> Unit = {}): CfnModelPackage.ModelPackageStatusDetailsProperty = CfnModelPackage.ModelPackageStatusDetailsProperty.Builder().apply(initializer).build()

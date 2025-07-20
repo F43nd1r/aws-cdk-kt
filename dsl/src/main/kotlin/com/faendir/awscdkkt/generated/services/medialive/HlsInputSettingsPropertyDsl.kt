@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildHlsInputSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.HlsInputSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.HlsInputSettingsProperty =
-    CfnChannel.HlsInputSettingsProperty.Builder().apply(initializer).build()
+public fun buildHlsInputSettingsProperty(initializer: @AwsCdkDsl CfnChannel.HlsInputSettingsProperty.Builder.() -> Unit = {}): CfnChannel.HlsInputSettingsProperty = CfnChannel.HlsInputSettingsProperty.Builder().apply(initializer).build()

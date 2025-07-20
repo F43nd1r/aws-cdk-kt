@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnKeyPairProps
 
 @Generated
-public fun buildCfnKeyPairProps(initializer: @AwsCdkDsl CfnKeyPairProps.Builder.() -> Unit = {}):
-    CfnKeyPairProps = CfnKeyPairProps.Builder().apply(initializer).build()
+public fun buildCfnKeyPairProps(initializer: @AwsCdkDsl CfnKeyPairProps.Builder.() -> Unit = {}): CfnKeyPairProps = CfnKeyPairProps.Builder().apply(initializer).build()

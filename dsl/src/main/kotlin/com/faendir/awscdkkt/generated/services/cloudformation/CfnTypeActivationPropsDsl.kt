@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudformation.CfnTypeActivationProps
 
 @Generated
-public fun buildCfnTypeActivationProps(initializer: @AwsCdkDsl
-    CfnTypeActivationProps.Builder.() -> Unit = {}): CfnTypeActivationProps =
-    CfnTypeActivationProps.Builder().apply(initializer).build()
+public fun buildCfnTypeActivationProps(initializer: @AwsCdkDsl CfnTypeActivationProps.Builder.() -> Unit = {}): CfnTypeActivationProps = CfnTypeActivationProps.Builder().apply(initializer).build()

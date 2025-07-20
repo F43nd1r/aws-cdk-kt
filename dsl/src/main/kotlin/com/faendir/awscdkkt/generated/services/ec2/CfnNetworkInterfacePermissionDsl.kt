@@ -16,6 +16,4 @@ public fun Construct.cfnNetworkInterfacePermission(
 ): CfnNetworkInterfacePermission = CfnNetworkInterfacePermission(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnNetworkInterfacePermission(id: String, initializer: @AwsCdkDsl
-    CfnNetworkInterfacePermission.Builder.() -> Unit = {}): CfnNetworkInterfacePermission =
-    CfnNetworkInterfacePermission.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnNetworkInterfacePermission(id: String, initializer: @AwsCdkDsl CfnNetworkInterfacePermission.Builder.() -> Unit = {}): CfnNetworkInterfacePermission = CfnNetworkInterfacePermission.Builder.create(this, id).apply(initializer).build()

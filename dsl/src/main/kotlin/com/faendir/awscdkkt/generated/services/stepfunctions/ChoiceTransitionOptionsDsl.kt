@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.ChoiceTransitionOptions
 
 @Generated
-public fun buildChoiceTransitionOptions(initializer: @AwsCdkDsl
-    ChoiceTransitionOptions.Builder.() -> Unit = {}): ChoiceTransitionOptions =
-    ChoiceTransitionOptions.Builder().apply(initializer).build()
+public fun buildChoiceTransitionOptions(initializer: @AwsCdkDsl ChoiceTransitionOptions.Builder.() -> Unit = {}): ChoiceTransitionOptions = ChoiceTransitionOptions.Builder().apply(initializer).build()

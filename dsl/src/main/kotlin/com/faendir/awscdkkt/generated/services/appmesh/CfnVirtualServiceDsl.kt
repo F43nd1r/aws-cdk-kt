@@ -16,6 +16,4 @@ public fun Construct.cfnVirtualService(
 ): CfnVirtualService = CfnVirtualService(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVirtualService(id: String, initializer: @AwsCdkDsl
-    CfnVirtualService.Builder.() -> Unit = {}): CfnVirtualService =
-    CfnVirtualService.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnVirtualService(id: String, initializer: @AwsCdkDsl CfnVirtualService.Builder.() -> Unit = {}): CfnVirtualService = CfnVirtualService.Builder.create(this, id).apply(initializer).build()

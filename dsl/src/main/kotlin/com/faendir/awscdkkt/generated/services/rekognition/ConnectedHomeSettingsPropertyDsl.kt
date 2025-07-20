@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rekognition.CfnStreamProcessor
 
 @Generated
-public fun buildConnectedHomeSettingsProperty(initializer: @AwsCdkDsl
-    CfnStreamProcessor.ConnectedHomeSettingsProperty.Builder.() -> Unit = {}):
-    CfnStreamProcessor.ConnectedHomeSettingsProperty =
-    CfnStreamProcessor.ConnectedHomeSettingsProperty.Builder().apply(initializer).build()
+public fun buildConnectedHomeSettingsProperty(initializer: @AwsCdkDsl CfnStreamProcessor.ConnectedHomeSettingsProperty.Builder.() -> Unit = {}): CfnStreamProcessor.ConnectedHomeSettingsProperty = CfnStreamProcessor.ConnectedHomeSettingsProperty.Builder().apply(initializer).build()

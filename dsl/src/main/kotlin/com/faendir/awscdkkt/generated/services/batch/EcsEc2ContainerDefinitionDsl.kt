@@ -16,6 +16,4 @@ public fun Construct.ecsEc2ContainerDefinition(
 ): EcsEc2ContainerDefinition = EcsEc2ContainerDefinition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEcsEc2ContainerDefinition(id: String, initializer: @AwsCdkDsl
-    EcsEc2ContainerDefinition.Builder.() -> Unit = {}): EcsEc2ContainerDefinition =
-    EcsEc2ContainerDefinition.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildEcsEc2ContainerDefinition(id: String, initializer: @AwsCdkDsl EcsEc2ContainerDefinition.Builder.() -> Unit = {}): EcsEc2ContainerDefinition = EcsEc2ContainerDefinition.Builder.create(this, id).apply(initializer).build()

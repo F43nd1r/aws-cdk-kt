@@ -16,6 +16,4 @@ public fun Construct.cfnVirtualMFADevice(
 ): CfnVirtualMFADevice = CfnVirtualMFADevice(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVirtualMFADevice(id: String, initializer: @AwsCdkDsl
-    CfnVirtualMFADevice.Builder.() -> Unit = {}): CfnVirtualMFADevice =
-    CfnVirtualMFADevice.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnVirtualMFADevice(id: String, initializer: @AwsCdkDsl CfnVirtualMFADevice.Builder.() -> Unit = {}): CfnVirtualMFADevice = CfnVirtualMFADevice.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnDataSource
 
 @Generated
-public fun buildImageExtractionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.ImageExtractionConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDataSource.ImageExtractionConfigurationProperty =
-    CfnDataSource.ImageExtractionConfigurationProperty.Builder().apply(initializer).build()
+public fun buildImageExtractionConfigurationProperty(initializer: @AwsCdkDsl CfnDataSource.ImageExtractionConfigurationProperty.Builder.() -> Unit = {}): CfnDataSource.ImageExtractionConfigurationProperty = CfnDataSource.ImageExtractionConfigurationProperty.Builder().apply(initializer).build()

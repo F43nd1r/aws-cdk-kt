@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnKnowledgeBase
 
 @Generated
-public fun buildKnowledgeBaseConfigurationProperty(initializer: @AwsCdkDsl
-    CfnKnowledgeBase.KnowledgeBaseConfigurationProperty.Builder.() -> Unit = {}):
-    CfnKnowledgeBase.KnowledgeBaseConfigurationProperty =
-    CfnKnowledgeBase.KnowledgeBaseConfigurationProperty.Builder().apply(initializer).build()
+public fun buildKnowledgeBaseConfigurationProperty(initializer: @AwsCdkDsl CfnKnowledgeBase.KnowledgeBaseConfigurationProperty.Builder.() -> Unit = {}): CfnKnowledgeBase.KnowledgeBaseConfigurationProperty = CfnKnowledgeBase.KnowledgeBaseConfigurationProperty.Builder().apply(initializer).build()

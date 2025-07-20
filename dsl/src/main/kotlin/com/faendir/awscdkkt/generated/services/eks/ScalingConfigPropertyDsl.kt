@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.CfnNodegroup
 
 @Generated
-public fun buildScalingConfigProperty(initializer: @AwsCdkDsl
-    CfnNodegroup.ScalingConfigProperty.Builder.() -> Unit = {}): CfnNodegroup.ScalingConfigProperty
-    = CfnNodegroup.ScalingConfigProperty.Builder().apply(initializer).build()
+public fun buildScalingConfigProperty(initializer: @AwsCdkDsl CfnNodegroup.ScalingConfigProperty.Builder.() -> Unit = {}): CfnNodegroup.ScalingConfigProperty = CfnNodegroup.ScalingConfigProperty.Builder().apply(initializer).build()

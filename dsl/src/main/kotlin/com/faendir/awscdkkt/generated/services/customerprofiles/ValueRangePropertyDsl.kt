@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.customerprofiles.CfnCalculatedAttributeDefinition
 
 @Generated
-public fun buildValueRangeProperty(initializer: @AwsCdkDsl
-    CfnCalculatedAttributeDefinition.ValueRangeProperty.Builder.() -> Unit = {}):
-    CfnCalculatedAttributeDefinition.ValueRangeProperty =
-    CfnCalculatedAttributeDefinition.ValueRangeProperty.Builder().apply(initializer).build()
+public fun buildValueRangeProperty(initializer: @AwsCdkDsl CfnCalculatedAttributeDefinition.ValueRangeProperty.Builder.() -> Unit = {}): CfnCalculatedAttributeDefinition.ValueRangeProperty = CfnCalculatedAttributeDefinition.ValueRangeProperty.Builder().apply(initializer).build()

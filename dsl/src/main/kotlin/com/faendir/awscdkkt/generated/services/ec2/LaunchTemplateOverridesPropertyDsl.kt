@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnSpotFleet
 
 @Generated
-public fun buildLaunchTemplateOverridesProperty(initializer: @AwsCdkDsl
-    CfnSpotFleet.LaunchTemplateOverridesProperty.Builder.() -> Unit = {}):
-    CfnSpotFleet.LaunchTemplateOverridesProperty =
-    CfnSpotFleet.LaunchTemplateOverridesProperty.Builder().apply(initializer).build()
+public fun buildLaunchTemplateOverridesProperty(initializer: @AwsCdkDsl CfnSpotFleet.LaunchTemplateOverridesProperty.Builder.() -> Unit = {}): CfnSpotFleet.LaunchTemplateOverridesProperty = CfnSpotFleet.LaunchTemplateOverridesProperty.Builder().apply(initializer).build()

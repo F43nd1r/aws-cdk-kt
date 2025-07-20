@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnSpotFleet
 
 @Generated
-public fun buildLoadBalancersConfigProperty(initializer: @AwsCdkDsl
-    CfnSpotFleet.LoadBalancersConfigProperty.Builder.() -> Unit = {}):
-    CfnSpotFleet.LoadBalancersConfigProperty =
-    CfnSpotFleet.LoadBalancersConfigProperty.Builder().apply(initializer).build()
+public fun buildLoadBalancersConfigProperty(initializer: @AwsCdkDsl CfnSpotFleet.LoadBalancersConfigProperty.Builder.() -> Unit = {}): CfnSpotFleet.LoadBalancersConfigProperty = CfnSpotFleet.LoadBalancersConfigProperty.Builder().apply(initializer).build()

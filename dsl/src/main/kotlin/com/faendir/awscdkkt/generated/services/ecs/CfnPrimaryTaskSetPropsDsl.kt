@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnPrimaryTaskSetProps
 
 @Generated
-public fun buildCfnPrimaryTaskSetProps(initializer: @AwsCdkDsl
-    CfnPrimaryTaskSetProps.Builder.() -> Unit = {}): CfnPrimaryTaskSetProps =
-    CfnPrimaryTaskSetProps.Builder().apply(initializer).build()
+public fun buildCfnPrimaryTaskSetProps(initializer: @AwsCdkDsl CfnPrimaryTaskSetProps.Builder.() -> Unit = {}): CfnPrimaryTaskSetProps = CfnPrimaryTaskSetProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securitylake.CfnDataLake
 
 @Generated
-public fun buildEncryptionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataLake.EncryptionConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDataLake.EncryptionConfigurationProperty =
-    CfnDataLake.EncryptionConfigurationProperty.Builder().apply(initializer).build()
+public fun buildEncryptionConfigurationProperty(initializer: @AwsCdkDsl CfnDataLake.EncryptionConfigurationProperty.Builder.() -> Unit = {}): CfnDataLake.EncryptionConfigurationProperty = CfnDataLake.EncryptionConfigurationProperty.Builder().apply(initializer).build()

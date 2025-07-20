@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.actions.Bounce
 
 @Generated
-public fun buildBounce(initializer: @AwsCdkDsl Bounce.Builder.() -> Unit = {}): Bounce =
-    Bounce.Builder.create().apply(initializer).build()
+public fun buildBounce(initializer: @AwsCdkDsl Bounce.Builder.() -> Unit = {}): Bounce = Bounce.Builder.create().apply(initializer).build()

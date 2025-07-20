@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnClientVpnTargetNetworkAssociationProps
 
 @Generated
-public fun buildCfnClientVpnTargetNetworkAssociationProps(initializer: @AwsCdkDsl
-    CfnClientVpnTargetNetworkAssociationProps.Builder.() -> Unit = {}):
-    CfnClientVpnTargetNetworkAssociationProps =
-    CfnClientVpnTargetNetworkAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnClientVpnTargetNetworkAssociationProps(initializer: @AwsCdkDsl CfnClientVpnTargetNetworkAssociationProps.Builder.() -> Unit = {}): CfnClientVpnTargetNetworkAssociationProps = CfnClientVpnTargetNetworkAssociationProps.Builder().apply(initializer).build()

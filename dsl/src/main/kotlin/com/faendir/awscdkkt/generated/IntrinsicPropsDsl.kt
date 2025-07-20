@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.IntrinsicProps
 
 @Generated
-public fun buildIntrinsicProps(initializer: @AwsCdkDsl IntrinsicProps.Builder.() -> Unit = {}):
-    IntrinsicProps = IntrinsicProps.Builder().apply(initializer).build()
+public fun buildIntrinsicProps(initializer: @AwsCdkDsl IntrinsicProps.Builder.() -> Unit = {}): IntrinsicProps = IntrinsicProps.Builder().apply(initializer).build()

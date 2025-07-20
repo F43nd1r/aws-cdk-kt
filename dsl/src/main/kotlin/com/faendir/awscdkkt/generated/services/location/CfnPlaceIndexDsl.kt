@@ -16,6 +16,4 @@ public fun Construct.cfnPlaceIndex(
 ): CfnPlaceIndex = CfnPlaceIndex(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPlaceIndex(id: String, initializer: @AwsCdkDsl
-    CfnPlaceIndex.Builder.() -> Unit = {}): CfnPlaceIndex = CfnPlaceIndex.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnPlaceIndex(id: String, initializer: @AwsCdkDsl CfnPlaceIndex.Builder.() -> Unit = {}): CfnPlaceIndex = CfnPlaceIndex.Builder.create(this, id).apply(initializer).build()

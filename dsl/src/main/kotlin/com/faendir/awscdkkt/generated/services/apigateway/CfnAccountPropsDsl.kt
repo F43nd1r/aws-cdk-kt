@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.CfnAccountProps
 
 @Generated
-public fun buildCfnAccountProps(initializer: @AwsCdkDsl CfnAccountProps.Builder.() -> Unit = {}):
-    CfnAccountProps = CfnAccountProps.Builder().apply(initializer).build()
+public fun buildCfnAccountProps(initializer: @AwsCdkDsl CfnAccountProps.Builder.() -> Unit = {}): CfnAccountProps = CfnAccountProps.Builder().apply(initializer).build()

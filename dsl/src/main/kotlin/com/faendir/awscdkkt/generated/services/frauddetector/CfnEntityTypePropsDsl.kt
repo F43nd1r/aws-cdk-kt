@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.frauddetector.CfnEntityTypeProps
 
 @Generated
-public fun buildCfnEntityTypeProps(initializer: @AwsCdkDsl CfnEntityTypeProps.Builder.() -> Unit =
-    {}): CfnEntityTypeProps = CfnEntityTypeProps.Builder().apply(initializer).build()
+public fun buildCfnEntityTypeProps(initializer: @AwsCdkDsl CfnEntityTypeProps.Builder.() -> Unit = {}): CfnEntityTypeProps = CfnEntityTypeProps.Builder().apply(initializer).build()

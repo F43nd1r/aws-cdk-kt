@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datasync.CfnLocationAzureBlobProps
 
 @Generated
-public fun buildCfnLocationAzureBlobProps(initializer: @AwsCdkDsl
-    CfnLocationAzureBlobProps.Builder.() -> Unit = {}): CfnLocationAzureBlobProps =
-    CfnLocationAzureBlobProps.Builder().apply(initializer).build()
+public fun buildCfnLocationAzureBlobProps(initializer: @AwsCdkDsl CfnLocationAzureBlobProps.Builder.() -> Unit = {}): CfnLocationAzureBlobProps = CfnLocationAzureBlobProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnNetworkInterfaceAttachment
 
 @Generated
-public fun buildEnaSrdSpecificationProperty(initializer: @AwsCdkDsl
-    CfnNetworkInterfaceAttachment.EnaSrdSpecificationProperty.Builder.() -> Unit = {}):
-    CfnNetworkInterfaceAttachment.EnaSrdSpecificationProperty =
-    CfnNetworkInterfaceAttachment.EnaSrdSpecificationProperty.Builder().apply(initializer).build()
+public fun buildEnaSrdSpecificationProperty(initializer: @AwsCdkDsl CfnNetworkInterfaceAttachment.EnaSrdSpecificationProperty.Builder.() -> Unit = {}): CfnNetworkInterfaceAttachment.EnaSrdSpecificationProperty = CfnNetworkInterfaceAttachment.EnaSrdSpecificationProperty.Builder().apply(initializer).build()

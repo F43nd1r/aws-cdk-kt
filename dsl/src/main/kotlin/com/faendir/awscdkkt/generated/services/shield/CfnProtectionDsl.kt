@@ -16,6 +16,4 @@ public fun Construct.cfnProtection(
 ): CfnProtection = CfnProtection(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnProtection(id: String, initializer: @AwsCdkDsl
-    CfnProtection.Builder.() -> Unit = {}): CfnProtection = CfnProtection.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnProtection(id: String, initializer: @AwsCdkDsl CfnProtection.Builder.() -> Unit = {}): CfnProtection = CfnProtection.Builder.create(this, id).apply(initializer).build()

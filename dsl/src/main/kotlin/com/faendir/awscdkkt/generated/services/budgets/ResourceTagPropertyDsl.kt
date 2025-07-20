@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.budgets.CfnBudgetsAction
 
 @Generated
-public fun buildResourceTagProperty(initializer: @AwsCdkDsl
-    CfnBudgetsAction.ResourceTagProperty.Builder.() -> Unit = {}):
-    CfnBudgetsAction.ResourceTagProperty =
-    CfnBudgetsAction.ResourceTagProperty.Builder().apply(initializer).build()
+public fun buildResourceTagProperty(initializer: @AwsCdkDsl CfnBudgetsAction.ResourceTagProperty.Builder.() -> Unit = {}): CfnBudgetsAction.ResourceTagProperty = CfnBudgetsAction.ResourceTagProperty.Builder().apply(initializer).build()

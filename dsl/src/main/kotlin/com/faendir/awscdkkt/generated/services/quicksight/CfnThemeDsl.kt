@@ -16,5 +16,4 @@ public fun Construct.cfnTheme(
 ): CfnTheme = CfnTheme(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTheme(id: String, initializer: @AwsCdkDsl CfnTheme.Builder.() -> Unit =
-    {}): CfnTheme = CfnTheme.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTheme(id: String, initializer: @AwsCdkDsl CfnTheme.Builder.() -> Unit = {}): CfnTheme = CfnTheme.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.healthlake.CfnFHIRDatastore
 
 @Generated
-public fun buildKmsEncryptionConfigProperty(initializer: @AwsCdkDsl
-    CfnFHIRDatastore.KmsEncryptionConfigProperty.Builder.() -> Unit = {}):
-    CfnFHIRDatastore.KmsEncryptionConfigProperty =
-    CfnFHIRDatastore.KmsEncryptionConfigProperty.Builder().apply(initializer).build()
+public fun buildKmsEncryptionConfigProperty(initializer: @AwsCdkDsl CfnFHIRDatastore.KmsEncryptionConfigProperty.Builder.() -> Unit = {}): CfnFHIRDatastore.KmsEncryptionConfigProperty = CfnFHIRDatastore.KmsEncryptionConfigProperty.Builder().apply(initializer).build()

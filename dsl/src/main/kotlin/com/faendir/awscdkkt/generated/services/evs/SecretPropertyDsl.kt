@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.evs.CfnEnvironment
 
 @Generated
-public fun buildSecretProperty(initializer: @AwsCdkDsl
-    CfnEnvironment.SecretProperty.Builder.() -> Unit = {}): CfnEnvironment.SecretProperty =
-    CfnEnvironment.SecretProperty.Builder().apply(initializer).build()
+public fun buildSecretProperty(initializer: @AwsCdkDsl CfnEnvironment.SecretProperty.Builder.() -> Unit = {}): CfnEnvironment.SecretProperty = CfnEnvironment.SecretProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnIntegration(
 ): CfnIntegration = CfnIntegration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnIntegration(id: String, initializer: @AwsCdkDsl
-    CfnIntegration.Builder.() -> Unit = {}): CfnIntegration = CfnIntegration.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnIntegration(id: String, initializer: @AwsCdkDsl CfnIntegration.Builder.() -> Unit = {}): CfnIntegration = CfnIntegration.Builder.create(this, id).apply(initializer).build()

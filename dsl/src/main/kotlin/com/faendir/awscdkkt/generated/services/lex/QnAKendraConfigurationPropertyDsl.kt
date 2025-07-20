@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildQnAKendraConfigurationProperty(initializer: @AwsCdkDsl
-    CfnBot.QnAKendraConfigurationProperty.Builder.() -> Unit = {}):
-    CfnBot.QnAKendraConfigurationProperty =
-    CfnBot.QnAKendraConfigurationProperty.Builder().apply(initializer).build()
+public fun buildQnAKendraConfigurationProperty(initializer: @AwsCdkDsl CfnBot.QnAKendraConfigurationProperty.Builder.() -> Unit = {}): CfnBot.QnAKendraConfigurationProperty = CfnBot.QnAKendraConfigurationProperty.Builder().apply(initializer).build()

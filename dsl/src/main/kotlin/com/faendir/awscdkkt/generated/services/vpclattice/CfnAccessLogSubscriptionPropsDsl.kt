@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.vpclattice.CfnAccessLogSubscriptionProps
 
 @Generated
-public fun buildCfnAccessLogSubscriptionProps(initializer: @AwsCdkDsl
-    CfnAccessLogSubscriptionProps.Builder.() -> Unit = {}): CfnAccessLogSubscriptionProps =
-    CfnAccessLogSubscriptionProps.Builder().apply(initializer).build()
+public fun buildCfnAccessLogSubscriptionProps(initializer: @AwsCdkDsl CfnAccessLogSubscriptionProps.Builder.() -> Unit = {}): CfnAccessLogSubscriptionProps = CfnAccessLogSubscriptionProps.Builder().apply(initializer).build()

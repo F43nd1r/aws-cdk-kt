@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
-public fun buildSnowflakeDestinationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.SnowflakeDestinationConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDeliveryStream.SnowflakeDestinationConfigurationProperty =
-    CfnDeliveryStream.SnowflakeDestinationConfigurationProperty.Builder().apply(initializer).build()
+public fun buildSnowflakeDestinationConfigurationProperty(initializer: @AwsCdkDsl CfnDeliveryStream.SnowflakeDestinationConfigurationProperty.Builder.() -> Unit = {}): CfnDeliveryStream.SnowflakeDestinationConfigurationProperty = CfnDeliveryStream.SnowflakeDestinationConfigurationProperty.Builder().apply(initializer).build()

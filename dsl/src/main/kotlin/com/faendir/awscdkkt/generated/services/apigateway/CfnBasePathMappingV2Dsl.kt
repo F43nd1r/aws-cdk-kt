@@ -16,6 +16,4 @@ public fun Construct.cfnBasePathMappingV2(
 ): CfnBasePathMappingV2 = CfnBasePathMappingV2(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnBasePathMappingV2(id: String, initializer: @AwsCdkDsl
-    CfnBasePathMappingV2.Builder.() -> Unit = {}): CfnBasePathMappingV2 =
-    CfnBasePathMappingV2.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnBasePathMappingV2(id: String, initializer: @AwsCdkDsl CfnBasePathMappingV2.Builder.() -> Unit = {}): CfnBasePathMappingV2 = CfnBasePathMappingV2.Builder.create(this, id).apply(initializer).build()

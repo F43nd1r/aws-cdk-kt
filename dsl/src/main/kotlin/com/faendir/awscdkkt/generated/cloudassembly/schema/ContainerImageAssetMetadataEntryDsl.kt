@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloudassembly.schema.ContainerImageAssetMetadataEntry
 
 @Generated
-public fun buildContainerImageAssetMetadataEntry(initializer: @AwsCdkDsl
-    ContainerImageAssetMetadataEntry.Builder.() -> Unit = {}): ContainerImageAssetMetadataEntry =
-    ContainerImageAssetMetadataEntry.Builder().apply(initializer).build()
+public fun buildContainerImageAssetMetadataEntry(initializer: @AwsCdkDsl ContainerImageAssetMetadataEntry.Builder.() -> Unit = {}): ContainerImageAssetMetadataEntry = ContainerImageAssetMetadataEntry.Builder().apply(initializer).build()

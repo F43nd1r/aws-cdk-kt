@@ -16,6 +16,4 @@ public fun Construct.cfnAPNSChannel(
 ): CfnAPNSChannel = CfnAPNSChannel(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAPNSChannel(id: String, initializer: @AwsCdkDsl
-    CfnAPNSChannel.Builder.() -> Unit = {}): CfnAPNSChannel = CfnAPNSChannel.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnAPNSChannel(id: String, initializer: @AwsCdkDsl CfnAPNSChannel.Builder.() -> Unit = {}): CfnAPNSChannel = CfnAPNSChannel.Builder.create(this, id).apply(initializer).build()

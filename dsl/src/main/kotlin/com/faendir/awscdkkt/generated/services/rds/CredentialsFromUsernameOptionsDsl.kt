@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.CredentialsFromUsernameOptions
 
 @Generated
-public fun buildCredentialsFromUsernameOptions(initializer: @AwsCdkDsl
-    CredentialsFromUsernameOptions.Builder.() -> Unit = {}): CredentialsFromUsernameOptions =
-    CredentialsFromUsernameOptions.Builder().apply(initializer).build()
+public fun buildCredentialsFromUsernameOptions(initializer: @AwsCdkDsl CredentialsFromUsernameOptions.Builder.() -> Unit = {}): CredentialsFromUsernameOptions = CredentialsFromUsernameOptions.Builder().apply(initializer).build()

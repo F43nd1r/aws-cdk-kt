@@ -13,10 +13,7 @@ public fun Construct.cfnEventBridgeRuleTemplateGroup(
   id: String,
   props: CfnEventBridgeRuleTemplateGroupProps,
   initializer: @AwsCdkDsl CfnEventBridgeRuleTemplateGroup.() -> Unit = {},
-): CfnEventBridgeRuleTemplateGroup = CfnEventBridgeRuleTemplateGroup(this, id,
-    props).apply(initializer)
+): CfnEventBridgeRuleTemplateGroup = CfnEventBridgeRuleTemplateGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEventBridgeRuleTemplateGroup(id: String, initializer: @AwsCdkDsl
-    CfnEventBridgeRuleTemplateGroup.Builder.() -> Unit = {}): CfnEventBridgeRuleTemplateGroup =
-    CfnEventBridgeRuleTemplateGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnEventBridgeRuleTemplateGroup(id: String, initializer: @AwsCdkDsl CfnEventBridgeRuleTemplateGroup.Builder.() -> Unit = {}): CfnEventBridgeRuleTemplateGroup = CfnEventBridgeRuleTemplateGroup.Builder.create(this, id).apply(initializer).build()

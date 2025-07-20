@@ -16,6 +16,4 @@ public fun Construct.cfnTransitGatewayAttachment(
 ): CfnTransitGatewayAttachment = CfnTransitGatewayAttachment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTransitGatewayAttachment(id: String, initializer: @AwsCdkDsl
-    CfnTransitGatewayAttachment.Builder.() -> Unit = {}): CfnTransitGatewayAttachment =
-    CfnTransitGatewayAttachment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTransitGatewayAttachment(id: String, initializer: @AwsCdkDsl CfnTransitGatewayAttachment.Builder.() -> Unit = {}): CfnTransitGatewayAttachment = CfnTransitGatewayAttachment.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTopic
 
 @Generated
-public fun buildTopicNamedEntityProperty(initializer: @AwsCdkDsl
-    CfnTopic.TopicNamedEntityProperty.Builder.() -> Unit = {}): CfnTopic.TopicNamedEntityProperty =
-    CfnTopic.TopicNamedEntityProperty.Builder().apply(initializer).build()
+public fun buildTopicNamedEntityProperty(initializer: @AwsCdkDsl CfnTopic.TopicNamedEntityProperty.Builder.() -> Unit = {}): CfnTopic.TopicNamedEntityProperty = CfnTopic.TopicNamedEntityProperty.Builder().apply(initializer).build()

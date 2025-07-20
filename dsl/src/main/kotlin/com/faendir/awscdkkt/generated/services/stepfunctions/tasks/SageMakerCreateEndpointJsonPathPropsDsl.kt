@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.SageMakerCreateEndpointJsonPathProps
 
 @Generated
-public fun buildSageMakerCreateEndpointJsonPathProps(initializer: @AwsCdkDsl
-    SageMakerCreateEndpointJsonPathProps.Builder.() -> Unit = {}):
-    SageMakerCreateEndpointJsonPathProps =
-    SageMakerCreateEndpointJsonPathProps.Builder().apply(initializer).build()
+public fun buildSageMakerCreateEndpointJsonPathProps(initializer: @AwsCdkDsl SageMakerCreateEndpointJsonPathProps.Builder.() -> Unit = {}): SageMakerCreateEndpointJsonPathProps = SageMakerCreateEndpointJsonPathProps.Builder().apply(initializer).build()

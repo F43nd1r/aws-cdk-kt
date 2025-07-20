@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildFrameCaptureS3SettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.FrameCaptureS3SettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.FrameCaptureS3SettingsProperty =
-    CfnChannel.FrameCaptureS3SettingsProperty.Builder().apply(initializer).build()
+public fun buildFrameCaptureS3SettingsProperty(initializer: @AwsCdkDsl CfnChannel.FrameCaptureS3SettingsProperty.Builder.() -> Unit = {}): CfnChannel.FrameCaptureS3SettingsProperty = CfnChannel.FrameCaptureS3SettingsProperty.Builder().apply(initializer).build()

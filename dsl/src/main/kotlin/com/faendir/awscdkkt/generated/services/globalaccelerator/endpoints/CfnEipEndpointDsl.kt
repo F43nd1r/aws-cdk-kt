@@ -7,6 +7,4 @@ import software.amazon.awscdk.services.ec2.CfnEIP
 import software.amazon.awscdk.services.globalaccelerator.endpoints.CfnEipEndpoint
 
 @Generated
-public fun buildCfnEipEndpoint(eip: CfnEIP, initializer: @AwsCdkDsl
-    CfnEipEndpoint.Builder.() -> Unit = {}): CfnEipEndpoint =
-    CfnEipEndpoint.Builder.create(eip).apply(initializer).build()
+public fun buildCfnEipEndpoint(eip: CfnEIP, initializer: @AwsCdkDsl CfnEipEndpoint.Builder.() -> Unit = {}): CfnEipEndpoint = CfnEipEndpoint.Builder.create(eip).apply(initializer).build()

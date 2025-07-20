@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildDefaultInteractiveLayoutConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DefaultInteractiveLayoutConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.DefaultInteractiveLayoutConfigurationProperty =
-    CfnTemplate.DefaultInteractiveLayoutConfigurationProperty.Builder().apply(initializer).build()
+public fun buildDefaultInteractiveLayoutConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.DefaultInteractiveLayoutConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.DefaultInteractiveLayoutConfigurationProperty = CfnTemplate.DefaultInteractiveLayoutConfigurationProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnThingPrincipalAttachmentProps
 
 @Generated
-public fun buildCfnThingPrincipalAttachmentProps(initializer: @AwsCdkDsl
-    CfnThingPrincipalAttachmentProps.Builder.() -> Unit = {}): CfnThingPrincipalAttachmentProps =
-    CfnThingPrincipalAttachmentProps.Builder().apply(initializer).build()
+public fun buildCfnThingPrincipalAttachmentProps(initializer: @AwsCdkDsl CfnThingPrincipalAttachmentProps.Builder.() -> Unit = {}): CfnThingPrincipalAttachmentProps = CfnThingPrincipalAttachmentProps.Builder().apply(initializer).build()

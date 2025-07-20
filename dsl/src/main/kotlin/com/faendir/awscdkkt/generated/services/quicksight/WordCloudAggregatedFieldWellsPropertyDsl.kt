@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildWordCloudAggregatedFieldWellsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.WordCloudAggregatedFieldWellsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.WordCloudAggregatedFieldWellsProperty =
-    CfnTemplate.WordCloudAggregatedFieldWellsProperty.Builder().apply(initializer).build()
+public fun buildWordCloudAggregatedFieldWellsProperty(initializer: @AwsCdkDsl CfnTemplate.WordCloudAggregatedFieldWellsProperty.Builder.() -> Unit = {}): CfnTemplate.WordCloudAggregatedFieldWellsProperty = CfnTemplate.WordCloudAggregatedFieldWellsProperty.Builder().apply(initializer).build()

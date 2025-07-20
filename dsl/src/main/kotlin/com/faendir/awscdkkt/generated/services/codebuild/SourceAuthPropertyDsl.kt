@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.CfnProject
 
 @Generated
-public fun buildSourceAuthProperty(initializer: @AwsCdkDsl
-    CfnProject.SourceAuthProperty.Builder.() -> Unit = {}): CfnProject.SourceAuthProperty =
-    CfnProject.SourceAuthProperty.Builder().apply(initializer).build()
+public fun buildSourceAuthProperty(initializer: @AwsCdkDsl CfnProject.SourceAuthProperty.Builder.() -> Unit = {}): CfnProject.SourceAuthProperty = CfnProject.SourceAuthProperty.Builder().apply(initializer).build()

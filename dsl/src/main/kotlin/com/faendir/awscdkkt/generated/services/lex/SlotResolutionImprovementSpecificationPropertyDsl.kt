@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildSlotResolutionImprovementSpecificationProperty(initializer: @AwsCdkDsl
-    CfnBot.SlotResolutionImprovementSpecificationProperty.Builder.() -> Unit = {}):
-    CfnBot.SlotResolutionImprovementSpecificationProperty =
-    CfnBot.SlotResolutionImprovementSpecificationProperty.Builder().apply(initializer).build()
+public fun buildSlotResolutionImprovementSpecificationProperty(initializer: @AwsCdkDsl CfnBot.SlotResolutionImprovementSpecificationProperty.Builder.() -> Unit = {}): CfnBot.SlotResolutionImprovementSpecificationProperty = CfnBot.SlotResolutionImprovementSpecificationProperty.Builder().apply(initializer).build()

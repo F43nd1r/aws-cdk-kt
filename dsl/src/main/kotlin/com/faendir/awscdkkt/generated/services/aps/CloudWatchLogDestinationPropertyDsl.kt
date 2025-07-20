@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.aps.CfnWorkspace
 
 @Generated
-public fun buildCloudWatchLogDestinationProperty(initializer: @AwsCdkDsl
-    CfnWorkspace.CloudWatchLogDestinationProperty.Builder.() -> Unit = {}):
-    CfnWorkspace.CloudWatchLogDestinationProperty =
-    CfnWorkspace.CloudWatchLogDestinationProperty.Builder().apply(initializer).build()
+public fun buildCloudWatchLogDestinationProperty(initializer: @AwsCdkDsl CfnWorkspace.CloudWatchLogDestinationProperty.Builder.() -> Unit = {}): CfnWorkspace.CloudWatchLogDestinationProperty = CfnWorkspace.CloudWatchLogDestinationProperty.Builder().apply(initializer).build()

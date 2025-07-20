@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnJobTemplate
 
 @Generated
-public fun buildJobExecutionsRetryConfigProperty(initializer: @AwsCdkDsl
-    CfnJobTemplate.JobExecutionsRetryConfigProperty.Builder.() -> Unit = {}):
-    CfnJobTemplate.JobExecutionsRetryConfigProperty =
-    CfnJobTemplate.JobExecutionsRetryConfigProperty.Builder().apply(initializer).build()
+public fun buildJobExecutionsRetryConfigProperty(initializer: @AwsCdkDsl CfnJobTemplate.JobExecutionsRetryConfigProperty.Builder.() -> Unit = {}): CfnJobTemplate.JobExecutionsRetryConfigProperty = CfnJobTemplate.JobExecutionsRetryConfigProperty.Builder().apply(initializer).build()

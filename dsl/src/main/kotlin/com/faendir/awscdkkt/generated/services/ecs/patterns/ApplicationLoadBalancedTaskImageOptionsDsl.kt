@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.patterns.ApplicationLoadBalancedTaskImageOptions
 
 @Generated
-public fun buildApplicationLoadBalancedTaskImageOptions(initializer: @AwsCdkDsl
-    ApplicationLoadBalancedTaskImageOptions.Builder.() -> Unit = {}):
-    ApplicationLoadBalancedTaskImageOptions =
-    ApplicationLoadBalancedTaskImageOptions.Builder().apply(initializer).build()
+public fun buildApplicationLoadBalancedTaskImageOptions(initializer: @AwsCdkDsl ApplicationLoadBalancedTaskImageOptions.Builder.() -> Unit = {}): ApplicationLoadBalancedTaskImageOptions = ApplicationLoadBalancedTaskImageOptions.Builder().apply(initializer).build()

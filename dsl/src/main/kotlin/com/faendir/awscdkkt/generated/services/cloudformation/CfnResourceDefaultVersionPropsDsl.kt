@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudformation.CfnResourceDefaultVersionProps
 
 @Generated
-public fun buildCfnResourceDefaultVersionProps(initializer: @AwsCdkDsl
-    CfnResourceDefaultVersionProps.Builder.() -> Unit = {}): CfnResourceDefaultVersionProps =
-    CfnResourceDefaultVersionProps.Builder().apply(initializer).build()
+public fun buildCfnResourceDefaultVersionProps(initializer: @AwsCdkDsl CfnResourceDefaultVersionProps.Builder.() -> Unit = {}): CfnResourceDefaultVersionProps = CfnResourceDefaultVersionProps.Builder().apply(initializer).build()

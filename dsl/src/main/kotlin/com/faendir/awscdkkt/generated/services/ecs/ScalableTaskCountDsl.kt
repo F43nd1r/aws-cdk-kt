@@ -16,6 +16,4 @@ public fun Construct.scalableTaskCount(
 ): ScalableTaskCount = ScalableTaskCount(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildScalableTaskCount(id: String, initializer: @AwsCdkDsl
-    ScalableTaskCount.Builder.() -> Unit = {}): ScalableTaskCount =
-    ScalableTaskCount.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildScalableTaskCount(id: String, initializer: @AwsCdkDsl ScalableTaskCount.Builder.() -> Unit = {}): ScalableTaskCount = ScalableTaskCount.Builder.create(this, id).apply(initializer).build()

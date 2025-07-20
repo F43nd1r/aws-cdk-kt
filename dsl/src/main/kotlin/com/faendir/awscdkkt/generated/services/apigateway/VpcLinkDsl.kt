@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.apigateway.VpcLinkProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.vpcLink(id: String, initializer: @AwsCdkDsl VpcLink.() -> Unit = {}): VpcLink =
-    VpcLink(this, id).apply(initializer)
+public fun Construct.vpcLink(id: String, initializer: @AwsCdkDsl VpcLink.() -> Unit = {}): VpcLink = VpcLink(this, id).apply(initializer)
 
 @Generated
 public fun Construct.vpcLink(
@@ -20,5 +19,4 @@ public fun Construct.vpcLink(
 ): VpcLink = VpcLink(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildVpcLink(id: String, initializer: @AwsCdkDsl VpcLink.Builder.() -> Unit =
-    {}): VpcLink = VpcLink.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildVpcLink(id: String, initializer: @AwsCdkDsl VpcLink.Builder.() -> Unit = {}): VpcLink = VpcLink.Builder.create(this, id).apply(initializer).build()

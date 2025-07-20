@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.efs.CfnAccessPoint
 
 @Generated
-public fun buildPosixUserProperty(initializer: @AwsCdkDsl
-    CfnAccessPoint.PosixUserProperty.Builder.() -> Unit = {}): CfnAccessPoint.PosixUserProperty =
-    CfnAccessPoint.PosixUserProperty.Builder().apply(initializer).build()
+public fun buildPosixUserProperty(initializer: @AwsCdkDsl CfnAccessPoint.PosixUserProperty.Builder.() -> Unit = {}): CfnAccessPoint.PosixUserProperty = CfnAccessPoint.PosixUserProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVPCBlockPublicAccessExclusionProps
 
 @Generated
-public fun buildCfnVPCBlockPublicAccessExclusionProps(initializer: @AwsCdkDsl
-    CfnVPCBlockPublicAccessExclusionProps.Builder.() -> Unit = {}):
-    CfnVPCBlockPublicAccessExclusionProps =
-    CfnVPCBlockPublicAccessExclusionProps.Builder().apply(initializer).build()
+public fun buildCfnVPCBlockPublicAccessExclusionProps(initializer: @AwsCdkDsl CfnVPCBlockPublicAccessExclusionProps.Builder.() -> Unit = {}): CfnVPCBlockPublicAccessExclusionProps = CfnVPCBlockPublicAccessExclusionProps.Builder().apply(initializer).build()

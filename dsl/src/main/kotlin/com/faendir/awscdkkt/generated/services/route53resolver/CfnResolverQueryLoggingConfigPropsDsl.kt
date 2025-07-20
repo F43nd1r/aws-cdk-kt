@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53resolver.CfnResolverQueryLoggingConfigProps
 
 @Generated
-public fun buildCfnResolverQueryLoggingConfigProps(initializer: @AwsCdkDsl
-    CfnResolverQueryLoggingConfigProps.Builder.() -> Unit = {}): CfnResolverQueryLoggingConfigProps
-    = CfnResolverQueryLoggingConfigProps.Builder().apply(initializer).build()
+public fun buildCfnResolverQueryLoggingConfigProps(initializer: @AwsCdkDsl CfnResolverQueryLoggingConfigProps.Builder.() -> Unit = {}): CfnResolverQueryLoggingConfigProps = CfnResolverQueryLoggingConfigProps.Builder().apply(initializer).build()

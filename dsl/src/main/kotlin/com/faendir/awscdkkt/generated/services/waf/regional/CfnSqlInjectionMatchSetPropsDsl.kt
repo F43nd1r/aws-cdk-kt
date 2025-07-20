@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.waf.regional.CfnSqlInjectionMatchSetProps
 
 @Generated
-public fun buildCfnSqlInjectionMatchSetProps(initializer: @AwsCdkDsl
-    CfnSqlInjectionMatchSetProps.Builder.() -> Unit = {}): CfnSqlInjectionMatchSetProps =
-    CfnSqlInjectionMatchSetProps.Builder().apply(initializer).build()
+public fun buildCfnSqlInjectionMatchSetProps(initializer: @AwsCdkDsl CfnSqlInjectionMatchSetProps.Builder.() -> Unit = {}): CfnSqlInjectionMatchSetProps = CfnSqlInjectionMatchSetProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnKnowledgeBase
 
 @Generated
-public fun buildQueryGenerationTableProperty(initializer: @AwsCdkDsl
-    CfnKnowledgeBase.QueryGenerationTableProperty.Builder.() -> Unit = {}):
-    CfnKnowledgeBase.QueryGenerationTableProperty =
-    CfnKnowledgeBase.QueryGenerationTableProperty.Builder().apply(initializer).build()
+public fun buildQueryGenerationTableProperty(initializer: @AwsCdkDsl CfnKnowledgeBase.QueryGenerationTableProperty.Builder.() -> Unit = {}): CfnKnowledgeBase.QueryGenerationTableProperty = CfnKnowledgeBase.QueryGenerationTableProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lakeformation.CfnPrincipalPermissions
 
 @Generated
-public fun buildDataLocationResourceProperty(initializer: @AwsCdkDsl
-    CfnPrincipalPermissions.DataLocationResourceProperty.Builder.() -> Unit = {}):
-    CfnPrincipalPermissions.DataLocationResourceProperty =
-    CfnPrincipalPermissions.DataLocationResourceProperty.Builder().apply(initializer).build()
+public fun buildDataLocationResourceProperty(initializer: @AwsCdkDsl CfnPrincipalPermissions.DataLocationResourceProperty.Builder.() -> Unit = {}): CfnPrincipalPermissions.DataLocationResourceProperty = CfnPrincipalPermissions.DataLocationResourceProperty.Builder().apply(initializer).build()

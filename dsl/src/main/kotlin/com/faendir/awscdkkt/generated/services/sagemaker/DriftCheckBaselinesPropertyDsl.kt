@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnModelPackage
 
 @Generated
-public fun buildDriftCheckBaselinesProperty(initializer: @AwsCdkDsl
-    CfnModelPackage.DriftCheckBaselinesProperty.Builder.() -> Unit = {}):
-    CfnModelPackage.DriftCheckBaselinesProperty =
-    CfnModelPackage.DriftCheckBaselinesProperty.Builder().apply(initializer).build()
+public fun buildDriftCheckBaselinesProperty(initializer: @AwsCdkDsl CfnModelPackage.DriftCheckBaselinesProperty.Builder.() -> Unit = {}): CfnModelPackage.DriftCheckBaselinesProperty = CfnModelPackage.DriftCheckBaselinesProperty.Builder().apply(initializer).build()

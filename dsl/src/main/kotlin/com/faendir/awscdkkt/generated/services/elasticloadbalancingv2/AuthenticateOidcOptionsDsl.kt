@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.AuthenticateOidcOptions
 
 @Generated
-public fun buildAuthenticateOidcOptions(initializer: @AwsCdkDsl
-    AuthenticateOidcOptions.Builder.() -> Unit = {}): AuthenticateOidcOptions =
-    AuthenticateOidcOptions.Builder().apply(initializer).build()
+public fun buildAuthenticateOidcOptions(initializer: @AwsCdkDsl AuthenticateOidcOptions.Builder.() -> Unit = {}): AuthenticateOidcOptions = AuthenticateOidcOptions.Builder().apply(initializer).build()

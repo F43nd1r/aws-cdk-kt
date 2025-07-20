@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
-public fun buildLicenseSpecificationProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.LicenseSpecificationProperty.Builder.() -> Unit = {}):
-    CfnLaunchTemplate.LicenseSpecificationProperty =
-    CfnLaunchTemplate.LicenseSpecificationProperty.Builder().apply(initializer).build()
+public fun buildLicenseSpecificationProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.LicenseSpecificationProperty.Builder.() -> Unit = {}): CfnLaunchTemplate.LicenseSpecificationProperty = CfnLaunchTemplate.LicenseSpecificationProperty.Builder().apply(initializer).build()

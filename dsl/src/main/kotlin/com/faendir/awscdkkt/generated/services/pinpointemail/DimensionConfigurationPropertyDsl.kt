@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpointemail.CfnConfigurationSetEventDestination
 
 @Generated
-public fun buildDimensionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnConfigurationSetEventDestination.DimensionConfigurationProperty.Builder.() -> Unit = {}):
-    CfnConfigurationSetEventDestination.DimensionConfigurationProperty =
-    CfnConfigurationSetEventDestination.DimensionConfigurationProperty.Builder().apply(initializer).build()
+public fun buildDimensionConfigurationProperty(initializer: @AwsCdkDsl CfnConfigurationSetEventDestination.DimensionConfigurationProperty.Builder.() -> Unit = {}): CfnConfigurationSetEventDestination.DimensionConfigurationProperty = CfnConfigurationSetEventDestination.DimensionConfigurationProperty.Builder().apply(initializer).build()

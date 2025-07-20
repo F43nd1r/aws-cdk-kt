@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.config.CfnConfigurationAggregator
 
 @Generated
-public fun buildAccountAggregationSourceProperty(initializer: @AwsCdkDsl
-    CfnConfigurationAggregator.AccountAggregationSourceProperty.Builder.() -> Unit = {}):
-    CfnConfigurationAggregator.AccountAggregationSourceProperty =
-    CfnConfigurationAggregator.AccountAggregationSourceProperty.Builder().apply(initializer).build()
+public fun buildAccountAggregationSourceProperty(initializer: @AwsCdkDsl CfnConfigurationAggregator.AccountAggregationSourceProperty.Builder.() -> Unit = {}): CfnConfigurationAggregator.AccountAggregationSourceProperty = CfnConfigurationAggregator.AccountAggregationSourceProperty.Builder().apply(initializer).build()

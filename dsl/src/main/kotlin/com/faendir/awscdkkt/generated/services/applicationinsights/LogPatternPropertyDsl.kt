@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.applicationinsights.CfnApplication
 
 @Generated
-public fun buildLogPatternProperty(initializer: @AwsCdkDsl
-    CfnApplication.LogPatternProperty.Builder.() -> Unit = {}): CfnApplication.LogPatternProperty =
-    CfnApplication.LogPatternProperty.Builder().apply(initializer).build()
+public fun buildLogPatternProperty(initializer: @AwsCdkDsl CfnApplication.LogPatternProperty.Builder.() -> Unit = {}): CfnApplication.LogPatternProperty = CfnApplication.LogPatternProperty.Builder().apply(initializer).build()

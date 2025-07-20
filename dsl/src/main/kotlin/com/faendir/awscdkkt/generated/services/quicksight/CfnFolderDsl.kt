@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.quicksight.CfnFolderProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnFolder(id: String, initializer: @AwsCdkDsl CfnFolder.() -> Unit = {}):
-    CfnFolder = CfnFolder(this, id).apply(initializer)
+public fun Construct.cfnFolder(id: String, initializer: @AwsCdkDsl CfnFolder.() -> Unit = {}): CfnFolder = CfnFolder(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnFolder(
@@ -20,5 +19,4 @@ public fun Construct.cfnFolder(
 ): CfnFolder = CfnFolder(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnFolder(id: String, initializer: @AwsCdkDsl CfnFolder.Builder.() -> Unit
-    = {}): CfnFolder = CfnFolder.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnFolder(id: String, initializer: @AwsCdkDsl CfnFolder.Builder.() -> Unit = {}): CfnFolder = CfnFolder.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.CfnAccessEntry
 
 @Generated
-public fun buildAccessScopeProperty(initializer: @AwsCdkDsl
-    CfnAccessEntry.AccessScopeProperty.Builder.() -> Unit = {}): CfnAccessEntry.AccessScopeProperty
-    = CfnAccessEntry.AccessScopeProperty.Builder().apply(initializer).build()
+public fun buildAccessScopeProperty(initializer: @AwsCdkDsl CfnAccessEntry.AccessScopeProperty.Builder.() -> Unit = {}): CfnAccessEntry.AccessScopeProperty = CfnAccessEntry.AccessScopeProperty.Builder().apply(initializer).build()

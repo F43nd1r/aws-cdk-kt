@@ -16,6 +16,4 @@ public fun Construct.queuePolicy(
 ): QueuePolicy = QueuePolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildQueuePolicy(id: String, initializer: @AwsCdkDsl
-    QueuePolicy.Builder.() -> Unit = {}): QueuePolicy = QueuePolicy.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildQueuePolicy(id: String, initializer: @AwsCdkDsl QueuePolicy.Builder.() -> Unit = {}): QueuePolicy = QueuePolicy.Builder.create(this, id).apply(initializer).build()

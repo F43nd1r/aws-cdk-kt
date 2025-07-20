@@ -16,6 +16,4 @@ public fun Construct.compositeAlarm(
 ): CompositeAlarm = CompositeAlarm(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCompositeAlarm(id: String, initializer: @AwsCdkDsl
-    CompositeAlarm.Builder.() -> Unit = {}): CompositeAlarm = CompositeAlarm.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCompositeAlarm(id: String, initializer: @AwsCdkDsl CompositeAlarm.Builder.() -> Unit = {}): CompositeAlarm = CompositeAlarm.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnInAppTemplate(
 ): CfnInAppTemplate = CfnInAppTemplate(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnInAppTemplate(id: String, initializer: @AwsCdkDsl
-    CfnInAppTemplate.Builder.() -> Unit = {}): CfnInAppTemplate =
-    CfnInAppTemplate.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnInAppTemplate(id: String, initializer: @AwsCdkDsl CfnInAppTemplate.Builder.() -> Unit = {}): CfnInAppTemplate = CfnInAppTemplate.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.workspacesthinclient.CfnEnvironment
 
 @Generated
-public fun buildMaintenanceWindowProperty(initializer: @AwsCdkDsl
-    CfnEnvironment.MaintenanceWindowProperty.Builder.() -> Unit = {}):
-    CfnEnvironment.MaintenanceWindowProperty =
-    CfnEnvironment.MaintenanceWindowProperty.Builder().apply(initializer).build()
+public fun buildMaintenanceWindowProperty(initializer: @AwsCdkDsl CfnEnvironment.MaintenanceWindowProperty.Builder.() -> Unit = {}): CfnEnvironment.MaintenanceWindowProperty = CfnEnvironment.MaintenanceWindowProperty.Builder().apply(initializer).build()

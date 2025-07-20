@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.ArnComponents
 
 @Generated
-public fun buildArnComponents(initializer: @AwsCdkDsl ArnComponents.Builder.() -> Unit = {}):
-    ArnComponents = ArnComponents.Builder().apply(initializer).build()
+public fun buildArnComponents(initializer: @AwsCdkDsl ArnComponents.Builder.() -> Unit = {}): ArnComponents = ArnComponents.Builder().apply(initializer).build()

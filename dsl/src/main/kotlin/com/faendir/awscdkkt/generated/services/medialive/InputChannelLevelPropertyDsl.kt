@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildInputChannelLevelProperty(initializer: @AwsCdkDsl
-    CfnChannel.InputChannelLevelProperty.Builder.() -> Unit = {}):
-    CfnChannel.InputChannelLevelProperty =
-    CfnChannel.InputChannelLevelProperty.Builder().apply(initializer).build()
+public fun buildInputChannelLevelProperty(initializer: @AwsCdkDsl CfnChannel.InputChannelLevelProperty.Builder.() -> Unit = {}): CfnChannel.InputChannelLevelProperty = CfnChannel.InputChannelLevelProperty.Builder().apply(initializer).build()

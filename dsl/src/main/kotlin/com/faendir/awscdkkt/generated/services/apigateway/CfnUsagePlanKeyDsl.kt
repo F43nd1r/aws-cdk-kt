@@ -16,6 +16,4 @@ public fun Construct.cfnUsagePlanKey(
 ): CfnUsagePlanKey = CfnUsagePlanKey(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnUsagePlanKey(id: String, initializer: @AwsCdkDsl
-    CfnUsagePlanKey.Builder.() -> Unit = {}): CfnUsagePlanKey = CfnUsagePlanKey.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnUsagePlanKey(id: String, initializer: @AwsCdkDsl CfnUsagePlanKey.Builder.() -> Unit = {}): CfnUsagePlanKey = CfnUsagePlanKey.Builder.create(this, id).apply(initializer).build()

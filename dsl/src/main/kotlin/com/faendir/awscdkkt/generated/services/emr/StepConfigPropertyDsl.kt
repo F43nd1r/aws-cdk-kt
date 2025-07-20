@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.emr.CfnCluster
 
 @Generated
-public fun buildStepConfigProperty(initializer: @AwsCdkDsl
-    CfnCluster.StepConfigProperty.Builder.() -> Unit = {}): CfnCluster.StepConfigProperty =
-    CfnCluster.StepConfigProperty.Builder().apply(initializer).build()
+public fun buildStepConfigProperty(initializer: @AwsCdkDsl CfnCluster.StepConfigProperty.Builder.() -> Unit = {}): CfnCluster.StepConfigProperty = CfnCluster.StepConfigProperty.Builder().apply(initializer).build()

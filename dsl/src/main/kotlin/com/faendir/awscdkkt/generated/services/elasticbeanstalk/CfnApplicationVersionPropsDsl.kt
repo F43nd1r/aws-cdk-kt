@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticbeanstalk.CfnApplicationVersionProps
 
 @Generated
-public fun buildCfnApplicationVersionProps(initializer: @AwsCdkDsl
-    CfnApplicationVersionProps.Builder.() -> Unit = {}): CfnApplicationVersionProps =
-    CfnApplicationVersionProps.Builder().apply(initializer).build()
+public fun buildCfnApplicationVersionProps(initializer: @AwsCdkDsl CfnApplicationVersionProps.Builder.() -> Unit = {}): CfnApplicationVersionProps = CfnApplicationVersionProps.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.timestream.CfnTable
 
 @Generated
-public fun buildSchemaProperty(initializer: @AwsCdkDsl CfnTable.SchemaProperty.Builder.() -> Unit =
-    {}): CfnTable.SchemaProperty = CfnTable.SchemaProperty.Builder().apply(initializer).build()
+public fun buildSchemaProperty(initializer: @AwsCdkDsl CfnTable.SchemaProperty.Builder.() -> Unit = {}): CfnTable.SchemaProperty = CfnTable.SchemaProperty.Builder().apply(initializer).build()

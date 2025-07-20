@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securityhub.CfnConfigurationPolicy
 
 @Generated
-public fun buildSecurityControlsConfigurationProperty(initializer: @AwsCdkDsl
-    CfnConfigurationPolicy.SecurityControlsConfigurationProperty.Builder.() -> Unit = {}):
-    CfnConfigurationPolicy.SecurityControlsConfigurationProperty =
-    CfnConfigurationPolicy.SecurityControlsConfigurationProperty.Builder().apply(initializer).build()
+public fun buildSecurityControlsConfigurationProperty(initializer: @AwsCdkDsl CfnConfigurationPolicy.SecurityControlsConfigurationProperty.Builder.() -> Unit = {}): CfnConfigurationPolicy.SecurityControlsConfigurationProperty = CfnConfigurationPolicy.SecurityControlsConfigurationProperty.Builder().apply(initializer).build()

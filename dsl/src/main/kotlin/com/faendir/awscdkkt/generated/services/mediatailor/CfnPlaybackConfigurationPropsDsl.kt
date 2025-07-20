@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediatailor.CfnPlaybackConfigurationProps
 
 @Generated
-public fun buildCfnPlaybackConfigurationProps(initializer: @AwsCdkDsl
-    CfnPlaybackConfigurationProps.Builder.() -> Unit = {}): CfnPlaybackConfigurationProps =
-    CfnPlaybackConfigurationProps.Builder().apply(initializer).build()
+public fun buildCfnPlaybackConfigurationProps(initializer: @AwsCdkDsl CfnPlaybackConfigurationProps.Builder.() -> Unit = {}): CfnPlaybackConfigurationProps = CfnPlaybackConfigurationProps.Builder().apply(initializer).build()

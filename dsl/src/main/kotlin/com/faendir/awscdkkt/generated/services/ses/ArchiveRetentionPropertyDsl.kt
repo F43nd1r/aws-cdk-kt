@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnMailManagerArchive
 
 @Generated
-public fun buildArchiveRetentionProperty(initializer: @AwsCdkDsl
-    CfnMailManagerArchive.ArchiveRetentionProperty.Builder.() -> Unit = {}):
-    CfnMailManagerArchive.ArchiveRetentionProperty =
-    CfnMailManagerArchive.ArchiveRetentionProperty.Builder().apply(initializer).build()
+public fun buildArchiveRetentionProperty(initializer: @AwsCdkDsl CfnMailManagerArchive.ArchiveRetentionProperty.Builder.() -> Unit = {}): CfnMailManagerArchive.ArchiveRetentionProperty = CfnMailManagerArchive.ArchiveRetentionProperty.Builder().apply(initializer).build()

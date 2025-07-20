@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.evs.CfnEnvironment
 
 @Generated
-public fun buildConnectivityInfoProperty(initializer: @AwsCdkDsl
-    CfnEnvironment.ConnectivityInfoProperty.Builder.() -> Unit = {}):
-    CfnEnvironment.ConnectivityInfoProperty =
-    CfnEnvironment.ConnectivityInfoProperty.Builder().apply(initializer).build()
+public fun buildConnectivityInfoProperty(initializer: @AwsCdkDsl CfnEnvironment.ConnectivityInfoProperty.Builder.() -> Unit = {}): CfnEnvironment.ConnectivityInfoProperty = CfnEnvironment.ConnectivityInfoProperty.Builder().apply(initializer).build()

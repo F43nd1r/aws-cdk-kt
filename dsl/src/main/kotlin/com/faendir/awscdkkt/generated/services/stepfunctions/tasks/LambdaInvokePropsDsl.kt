@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.LambdaInvokeProps
 
 @Generated
-public fun buildLambdaInvokeProps(initializer: @AwsCdkDsl LambdaInvokeProps.Builder.() -> Unit =
-    {}): LambdaInvokeProps = LambdaInvokeProps.Builder().apply(initializer).build()
+public fun buildLambdaInvokeProps(initializer: @AwsCdkDsl LambdaInvokeProps.Builder.() -> Unit = {}): LambdaInvokeProps = LambdaInvokeProps.Builder().apply(initializer).build()

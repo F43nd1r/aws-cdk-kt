@@ -16,6 +16,4 @@ public fun Construct.cfnFramework(
 ): CfnFramework = CfnFramework(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnFramework(id: String, initializer: @AwsCdkDsl
-    CfnFramework.Builder.() -> Unit = {}): CfnFramework = CfnFramework.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnFramework(id: String, initializer: @AwsCdkDsl CfnFramework.Builder.() -> Unit = {}): CfnFramework = CfnFramework.Builder.create(this, id).apply(initializer).build()

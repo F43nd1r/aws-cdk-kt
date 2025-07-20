@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
-public fun buildCustomConnectorSourcePropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.CustomConnectorSourcePropertiesProperty.Builder.() -> Unit = {}):
-    CfnFlow.CustomConnectorSourcePropertiesProperty =
-    CfnFlow.CustomConnectorSourcePropertiesProperty.Builder().apply(initializer).build()
+public fun buildCustomConnectorSourcePropertiesProperty(initializer: @AwsCdkDsl CfnFlow.CustomConnectorSourcePropertiesProperty.Builder.() -> Unit = {}): CfnFlow.CustomConnectorSourcePropertiesProperty = CfnFlow.CustomConnectorSourcePropertiesProperty.Builder().apply(initializer).build()

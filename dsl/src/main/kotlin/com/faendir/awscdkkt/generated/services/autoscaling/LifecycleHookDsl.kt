@@ -16,6 +16,4 @@ public fun Construct.lifecycleHook(
 ): LifecycleHook = LifecycleHook(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildLifecycleHook(id: String, initializer: @AwsCdkDsl
-    LifecycleHook.Builder.() -> Unit = {}): LifecycleHook = LifecycleHook.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildLifecycleHook(id: String, initializer: @AwsCdkDsl LifecycleHook.Builder.() -> Unit = {}): LifecycleHook = LifecycleHook.Builder.create(this, id).apply(initializer).build()

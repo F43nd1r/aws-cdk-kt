@@ -16,6 +16,4 @@ public fun Construct.rotationSchedule(
 ): RotationSchedule = RotationSchedule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildRotationSchedule(id: String, initializer: @AwsCdkDsl
-    RotationSchedule.Builder.() -> Unit = {}): RotationSchedule =
-    RotationSchedule.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildRotationSchedule(id: String, initializer: @AwsCdkDsl RotationSchedule.Builder.() -> Unit = {}): RotationSchedule = RotationSchedule.Builder.create(this, id).apply(initializer).build()

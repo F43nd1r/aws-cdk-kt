@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.KeyPairProps
 
 @Generated
-public fun buildKeyPairProps(initializer: @AwsCdkDsl KeyPairProps.Builder.() -> Unit = {}):
-    KeyPairProps = KeyPairProps.Builder().apply(initializer).build()
+public fun buildKeyPairProps(initializer: @AwsCdkDsl KeyPairProps.Builder.() -> Unit = {}): KeyPairProps = KeyPairProps.Builder().apply(initializer).build()

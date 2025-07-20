@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.ShuffleConfig
 
 @Generated
-public fun buildShuffleConfig(initializer: @AwsCdkDsl ShuffleConfig.Builder.() -> Unit = {}):
-    ShuffleConfig = ShuffleConfig.Builder().apply(initializer).build()
+public fun buildShuffleConfig(initializer: @AwsCdkDsl ShuffleConfig.Builder.() -> Unit = {}): ShuffleConfig = ShuffleConfig.Builder().apply(initializer).build()

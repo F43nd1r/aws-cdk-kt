@@ -16,6 +16,4 @@ public fun Construct.cfnLayerVersion(
 ): CfnLayerVersion = CfnLayerVersion(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLayerVersion(id: String, initializer: @AwsCdkDsl
-    CfnLayerVersion.Builder.() -> Unit = {}): CfnLayerVersion = CfnLayerVersion.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnLayerVersion(id: String, initializer: @AwsCdkDsl CfnLayerVersion.Builder.() -> Unit = {}): CfnLayerVersion = CfnLayerVersion.Builder.create(this, id).apply(initializer).build()

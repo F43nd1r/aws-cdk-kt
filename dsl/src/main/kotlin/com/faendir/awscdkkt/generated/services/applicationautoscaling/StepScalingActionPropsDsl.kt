@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.applicationautoscaling.StepScalingActionProps
 
 @Generated
-public fun buildStepScalingActionProps(initializer: @AwsCdkDsl
-    StepScalingActionProps.Builder.() -> Unit = {}): StepScalingActionProps =
-    StepScalingActionProps.Builder().apply(initializer).build()
+public fun buildStepScalingActionProps(initializer: @AwsCdkDsl StepScalingActionProps.Builder.() -> Unit = {}): StepScalingActionProps = StepScalingActionProps.Builder().apply(initializer).build()

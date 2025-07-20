@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnResponseHeadersPolicy
 
 @Generated
-public fun buildServerTimingHeadersConfigProperty(initializer: @AwsCdkDsl
-    CfnResponseHeadersPolicy.ServerTimingHeadersConfigProperty.Builder.() -> Unit = {}):
-    CfnResponseHeadersPolicy.ServerTimingHeadersConfigProperty =
-    CfnResponseHeadersPolicy.ServerTimingHeadersConfigProperty.Builder().apply(initializer).build()
+public fun buildServerTimingHeadersConfigProperty(initializer: @AwsCdkDsl CfnResponseHeadersPolicy.ServerTimingHeadersConfigProperty.Builder.() -> Unit = {}): CfnResponseHeadersPolicy.ServerTimingHeadersConfigProperty = CfnResponseHeadersPolicy.ServerTimingHeadersConfigProperty.Builder().apply(initializer).build()

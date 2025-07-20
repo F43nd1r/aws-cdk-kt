@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnPartnerAppProps
 
 @Generated
-public fun buildCfnPartnerAppProps(initializer: @AwsCdkDsl CfnPartnerAppProps.Builder.() -> Unit =
-    {}): CfnPartnerAppProps = CfnPartnerAppProps.Builder().apply(initializer).build()
+public fun buildCfnPartnerAppProps(initializer: @AwsCdkDsl CfnPartnerAppProps.Builder.() -> Unit = {}): CfnPartnerAppProps = CfnPartnerAppProps.Builder().apply(initializer).build()

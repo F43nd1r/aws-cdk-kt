@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.EcsFargateContainerDefinitionProps
 
 @Generated
-public fun buildEcsFargateContainerDefinitionProps(initializer: @AwsCdkDsl
-    EcsFargateContainerDefinitionProps.Builder.() -> Unit = {}): EcsFargateContainerDefinitionProps
-    = EcsFargateContainerDefinitionProps.Builder().apply(initializer).build()
+public fun buildEcsFargateContainerDefinitionProps(initializer: @AwsCdkDsl EcsFargateContainerDefinitionProps.Builder.() -> Unit = {}): EcsFargateContainerDefinitionProps = EcsFargateContainerDefinitionProps.Builder().apply(initializer).build()

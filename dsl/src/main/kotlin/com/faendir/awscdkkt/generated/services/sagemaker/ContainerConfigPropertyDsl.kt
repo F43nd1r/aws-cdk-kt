@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnAppImageConfig
 
 @Generated
-public fun buildContainerConfigProperty(initializer: @AwsCdkDsl
-    CfnAppImageConfig.ContainerConfigProperty.Builder.() -> Unit = {}):
-    CfnAppImageConfig.ContainerConfigProperty =
-    CfnAppImageConfig.ContainerConfigProperty.Builder().apply(initializer).build()
+public fun buildContainerConfigProperty(initializer: @AwsCdkDsl CfnAppImageConfig.ContainerConfigProperty.Builder.() -> Unit = {}): CfnAppImageConfig.ContainerConfigProperty = CfnAppImageConfig.ContainerConfigProperty.Builder().apply(initializer).build()

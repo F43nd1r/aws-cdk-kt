@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildDecimalParameterDeclarationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DecimalParameterDeclarationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.DecimalParameterDeclarationProperty =
-    CfnTemplate.DecimalParameterDeclarationProperty.Builder().apply(initializer).build()
+public fun buildDecimalParameterDeclarationProperty(initializer: @AwsCdkDsl CfnTemplate.DecimalParameterDeclarationProperty.Builder.() -> Unit = {}): CfnTemplate.DecimalParameterDeclarationProperty = CfnTemplate.DecimalParameterDeclarationProperty.Builder().apply(initializer).build()

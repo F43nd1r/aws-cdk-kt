@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.apigateway.RateLimitedApiKeyProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.rateLimitedApiKey(id: String, initializer: @AwsCdkDsl
-    RateLimitedApiKey.() -> Unit = {}): RateLimitedApiKey = RateLimitedApiKey(this,
-    id).apply(initializer)
+public fun Construct.rateLimitedApiKey(id: String, initializer: @AwsCdkDsl RateLimitedApiKey.() -> Unit = {}): RateLimitedApiKey = RateLimitedApiKey(this, id).apply(initializer)
 
 @Generated
 public fun Construct.rateLimitedApiKey(
@@ -21,6 +19,4 @@ public fun Construct.rateLimitedApiKey(
 ): RateLimitedApiKey = RateLimitedApiKey(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildRateLimitedApiKey(id: String, initializer: @AwsCdkDsl
-    RateLimitedApiKey.Builder.() -> Unit = {}): RateLimitedApiKey =
-    RateLimitedApiKey.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildRateLimitedApiKey(id: String, initializer: @AwsCdkDsl RateLimitedApiKey.Builder.() -> Unit = {}): RateLimitedApiKey = RateLimitedApiKey.Builder.create(this, id).apply(initializer).build()

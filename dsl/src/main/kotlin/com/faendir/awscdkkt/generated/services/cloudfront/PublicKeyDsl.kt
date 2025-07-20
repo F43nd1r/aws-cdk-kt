@@ -16,5 +16,4 @@ public fun Construct.publicKey(
 ): PublicKey = PublicKey(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildPublicKey(id: String, initializer: @AwsCdkDsl PublicKey.Builder.() -> Unit
-    = {}): PublicKey = PublicKey.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildPublicKey(id: String, initializer: @AwsCdkDsl PublicKey.Builder.() -> Unit = {}): PublicKey = PublicKey.Builder.create(this, id).apply(initializer).build()

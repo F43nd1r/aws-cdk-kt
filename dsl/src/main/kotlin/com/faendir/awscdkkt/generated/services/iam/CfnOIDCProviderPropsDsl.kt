@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.CfnOIDCProviderProps
 
 @Generated
-public fun buildCfnOIDCProviderProps(initializer: @AwsCdkDsl CfnOIDCProviderProps.Builder.() -> Unit
-    = {}): CfnOIDCProviderProps = CfnOIDCProviderProps.Builder().apply(initializer).build()
+public fun buildCfnOIDCProviderProps(initializer: @AwsCdkDsl CfnOIDCProviderProps.Builder.() -> Unit = {}): CfnOIDCProviderProps = CfnOIDCProviderProps.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnFindingsFilter(
 ): CfnFindingsFilter = CfnFindingsFilter(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnFindingsFilter(id: String, initializer: @AwsCdkDsl
-    CfnFindingsFilter.Builder.() -> Unit = {}): CfnFindingsFilter =
-    CfnFindingsFilter.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnFindingsFilter(id: String, initializer: @AwsCdkDsl CfnFindingsFilter.Builder.() -> Unit = {}): CfnFindingsFilter = CfnFindingsFilter.Builder.create(this, id).apply(initializer).build()

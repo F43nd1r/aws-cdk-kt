@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.amplify.CfnApp
 
 @Generated
-public fun buildJobConfigProperty(initializer: @AwsCdkDsl
-    CfnApp.JobConfigProperty.Builder.() -> Unit = {}): CfnApp.JobConfigProperty =
-    CfnApp.JobConfigProperty.Builder().apply(initializer).build()
+public fun buildJobConfigProperty(initializer: @AwsCdkDsl CfnApp.JobConfigProperty.Builder.() -> Unit = {}): CfnApp.JobConfigProperty = CfnApp.JobConfigProperty.Builder().apply(initializer).build()

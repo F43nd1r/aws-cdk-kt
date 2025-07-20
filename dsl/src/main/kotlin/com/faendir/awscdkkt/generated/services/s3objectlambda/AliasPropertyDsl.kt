@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3objectlambda.CfnAccessPoint
 
 @Generated
-public fun buildAliasProperty(initializer: @AwsCdkDsl
-    CfnAccessPoint.AliasProperty.Builder.() -> Unit = {}): CfnAccessPoint.AliasProperty =
-    CfnAccessPoint.AliasProperty.Builder().apply(initializer).build()
+public fun buildAliasProperty(initializer: @AwsCdkDsl CfnAccessPoint.AliasProperty.Builder.() -> Unit = {}): CfnAccessPoint.AliasProperty = CfnAccessPoint.AliasProperty.Builder().apply(initializer).build()

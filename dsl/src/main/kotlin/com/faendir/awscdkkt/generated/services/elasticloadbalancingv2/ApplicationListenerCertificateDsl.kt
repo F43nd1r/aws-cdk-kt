@@ -13,10 +13,7 @@ public fun Construct.applicationListenerCertificate(
   id: String,
   props: ApplicationListenerCertificateProps,
   initializer: @AwsCdkDsl ApplicationListenerCertificate.() -> Unit = {},
-): ApplicationListenerCertificate = ApplicationListenerCertificate(this, id,
-    props).apply(initializer)
+): ApplicationListenerCertificate = ApplicationListenerCertificate(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildApplicationListenerCertificate(id: String, initializer: @AwsCdkDsl
-    ApplicationListenerCertificate.Builder.() -> Unit = {}): ApplicationListenerCertificate =
-    ApplicationListenerCertificate.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildApplicationListenerCertificate(id: String, initializer: @AwsCdkDsl ApplicationListenerCertificate.Builder.() -> Unit = {}): ApplicationListenerCertificate = ApplicationListenerCertificate.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.eventBridgeDataSource(
 ): EventBridgeDataSource = EventBridgeDataSource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEventBridgeDataSource(id: String, initializer: @AwsCdkDsl
-    EventBridgeDataSource.Builder.() -> Unit = {}): EventBridgeDataSource =
-    EventBridgeDataSource.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildEventBridgeDataSource(id: String, initializer: @AwsCdkDsl EventBridgeDataSource.Builder.() -> Unit = {}): EventBridgeDataSource = EventBridgeDataSource.Builder.create(this, id).apply(initializer).build()

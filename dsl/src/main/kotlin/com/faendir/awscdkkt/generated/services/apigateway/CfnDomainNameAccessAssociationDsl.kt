@@ -13,10 +13,7 @@ public fun Construct.cfnDomainNameAccessAssociation(
   id: String,
   props: CfnDomainNameAccessAssociationProps,
   initializer: @AwsCdkDsl CfnDomainNameAccessAssociation.() -> Unit = {},
-): CfnDomainNameAccessAssociation = CfnDomainNameAccessAssociation(this, id,
-    props).apply(initializer)
+): CfnDomainNameAccessAssociation = CfnDomainNameAccessAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDomainNameAccessAssociation(id: String, initializer: @AwsCdkDsl
-    CfnDomainNameAccessAssociation.Builder.() -> Unit = {}): CfnDomainNameAccessAssociation =
-    CfnDomainNameAccessAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDomainNameAccessAssociation(id: String, initializer: @AwsCdkDsl CfnDomainNameAccessAssociation.Builder.() -> Unit = {}): CfnDomainNameAccessAssociation = CfnDomainNameAccessAssociation.Builder.create(this, id).apply(initializer).build()

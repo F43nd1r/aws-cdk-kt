@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.RuntimePlatform
 
 @Generated
-public fun buildRuntimePlatform(initializer: @AwsCdkDsl RuntimePlatform.Builder.() -> Unit = {}):
-    RuntimePlatform = RuntimePlatform.Builder().apply(initializer).build()
+public fun buildRuntimePlatform(initializer: @AwsCdkDsl RuntimePlatform.Builder.() -> Unit = {}): RuntimePlatform = RuntimePlatform.Builder().apply(initializer).build()

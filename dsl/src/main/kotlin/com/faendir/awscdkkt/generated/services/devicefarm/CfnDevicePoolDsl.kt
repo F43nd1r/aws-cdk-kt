@@ -16,6 +16,4 @@ public fun Construct.cfnDevicePool(
 ): CfnDevicePool = CfnDevicePool(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDevicePool(id: String, initializer: @AwsCdkDsl
-    CfnDevicePool.Builder.() -> Unit = {}): CfnDevicePool = CfnDevicePool.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnDevicePool(id: String, initializer: @AwsCdkDsl CfnDevicePool.Builder.() -> Unit = {}): CfnDevicePool = CfnDevicePool.Builder.create(this, id).apply(initializer).build()

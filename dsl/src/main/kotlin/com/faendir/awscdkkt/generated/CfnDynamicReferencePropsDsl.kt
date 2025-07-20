@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.CfnDynamicReferenceProps
 
 @Generated
-public fun buildCfnDynamicReferenceProps(initializer: @AwsCdkDsl
-    CfnDynamicReferenceProps.Builder.() -> Unit = {}): CfnDynamicReferenceProps =
-    CfnDynamicReferenceProps.Builder().apply(initializer).build()
+public fun buildCfnDynamicReferenceProps(initializer: @AwsCdkDsl CfnDynamicReferenceProps.Builder.() -> Unit = {}): CfnDynamicReferenceProps = CfnDynamicReferenceProps.Builder().apply(initializer).build()

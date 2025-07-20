@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securityhub.CfnAutomationRuleV2
 
 @Generated
-public fun buildOcsfStringFilterProperty(initializer: @AwsCdkDsl
-    CfnAutomationRuleV2.OcsfStringFilterProperty.Builder.() -> Unit = {}):
-    CfnAutomationRuleV2.OcsfStringFilterProperty =
-    CfnAutomationRuleV2.OcsfStringFilterProperty.Builder().apply(initializer).build()
+public fun buildOcsfStringFilterProperty(initializer: @AwsCdkDsl CfnAutomationRuleV2.OcsfStringFilterProperty.Builder.() -> Unit = {}): CfnAutomationRuleV2.OcsfStringFilterProperty = CfnAutomationRuleV2.OcsfStringFilterProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrModifyInstanceFleetByNameProps
 
 @Generated
-public fun buildEmrModifyInstanceFleetByNameProps(initializer: @AwsCdkDsl
-    EmrModifyInstanceFleetByNameProps.Builder.() -> Unit = {}): EmrModifyInstanceFleetByNameProps =
-    EmrModifyInstanceFleetByNameProps.Builder().apply(initializer).build()
+public fun buildEmrModifyInstanceFleetByNameProps(initializer: @AwsCdkDsl EmrModifyInstanceFleetByNameProps.Builder.() -> Unit = {}): EmrModifyInstanceFleetByNameProps = EmrModifyInstanceFleetByNameProps.Builder().apply(initializer).build()

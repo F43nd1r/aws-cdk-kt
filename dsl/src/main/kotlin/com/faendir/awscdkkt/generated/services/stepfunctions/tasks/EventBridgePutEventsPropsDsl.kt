@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EventBridgePutEventsProps
 
 @Generated
-public fun buildEventBridgePutEventsProps(initializer: @AwsCdkDsl
-    EventBridgePutEventsProps.Builder.() -> Unit = {}): EventBridgePutEventsProps =
-    EventBridgePutEventsProps.Builder().apply(initializer).build()
+public fun buildEventBridgePutEventsProps(initializer: @AwsCdkDsl EventBridgePutEventsProps.Builder.() -> Unit = {}): EventBridgePutEventsProps = EventBridgePutEventsProps.Builder().apply(initializer).build()

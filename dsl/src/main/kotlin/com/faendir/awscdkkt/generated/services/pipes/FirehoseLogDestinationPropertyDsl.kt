@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildFirehoseLogDestinationProperty(initializer: @AwsCdkDsl
-    CfnPipe.FirehoseLogDestinationProperty.Builder.() -> Unit = {}):
-    CfnPipe.FirehoseLogDestinationProperty =
-    CfnPipe.FirehoseLogDestinationProperty.Builder().apply(initializer).build()
+public fun buildFirehoseLogDestinationProperty(initializer: @AwsCdkDsl CfnPipe.FirehoseLogDestinationProperty.Builder.() -> Unit = {}): CfnPipe.FirehoseLogDestinationProperty = CfnPipe.FirehoseLogDestinationProperty.Builder().apply(initializer).build()

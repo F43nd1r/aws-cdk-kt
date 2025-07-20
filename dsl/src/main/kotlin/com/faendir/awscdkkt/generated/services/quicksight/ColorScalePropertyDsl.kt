@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildColorScaleProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ColorScaleProperty.Builder.() -> Unit = {}): CfnTemplate.ColorScaleProperty =
-    CfnTemplate.ColorScaleProperty.Builder().apply(initializer).build()
+public fun buildColorScaleProperty(initializer: @AwsCdkDsl CfnTemplate.ColorScaleProperty.Builder.() -> Unit = {}): CfnTemplate.ColorScaleProperty = CfnTemplate.ColorScaleProperty.Builder().apply(initializer).build()

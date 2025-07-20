@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.ResourceEnvironment
 
 @Generated
-public fun buildResourceEnvironment(initializer: @AwsCdkDsl ResourceEnvironment.Builder.() -> Unit =
-    {}): ResourceEnvironment = ResourceEnvironment.Builder().apply(initializer).build()
+public fun buildResourceEnvironment(initializer: @AwsCdkDsl ResourceEnvironment.Builder.() -> Unit = {}): ResourceEnvironment = ResourceEnvironment.Builder().apply(initializer).build()

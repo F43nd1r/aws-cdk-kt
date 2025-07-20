@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
-public fun buildMountPointProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.MountPointProperty.Builder.() -> Unit = {}):
-    CfnJobDefinition.MountPointProperty =
-    CfnJobDefinition.MountPointProperty.Builder().apply(initializer).build()
+public fun buildMountPointProperty(initializer: @AwsCdkDsl CfnJobDefinition.MountPointProperty.Builder.() -> Unit = {}): CfnJobDefinition.MountPointProperty = CfnJobDefinition.MountPointProperty.Builder().apply(initializer).build()

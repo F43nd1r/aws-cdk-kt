@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnCampaign
 
 @Generated
-public fun buildLimitsProperty(initializer: @AwsCdkDsl CfnCampaign.LimitsProperty.Builder.() -> Unit
-    = {}): CfnCampaign.LimitsProperty =
-    CfnCampaign.LimitsProperty.Builder().apply(initializer).build()
+public fun buildLimitsProperty(initializer: @AwsCdkDsl CfnCampaign.LimitsProperty.Builder.() -> Unit = {}): CfnCampaign.LimitsProperty = CfnCampaign.LimitsProperty.Builder().apply(initializer).build()

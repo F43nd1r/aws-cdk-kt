@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnTableOptimizer
 
 @Generated
-public fun buildRetentionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTableOptimizer.RetentionConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTableOptimizer.RetentionConfigurationProperty =
-    CfnTableOptimizer.RetentionConfigurationProperty.Builder().apply(initializer).build()
+public fun buildRetentionConfigurationProperty(initializer: @AwsCdkDsl CfnTableOptimizer.RetentionConfigurationProperty.Builder.() -> Unit = {}): CfnTableOptimizer.RetentionConfigurationProperty = CfnTableOptimizer.RetentionConfigurationProperty.Builder().apply(initializer).build()

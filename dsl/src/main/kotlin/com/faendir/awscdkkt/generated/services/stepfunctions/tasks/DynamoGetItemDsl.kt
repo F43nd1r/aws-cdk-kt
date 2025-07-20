@@ -16,6 +16,4 @@ public fun Construct.dynamoGetItem(
 ): DynamoGetItem = DynamoGetItem(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildDynamoGetItem(id: String, initializer: @AwsCdkDsl
-    DynamoGetItem.Builder.() -> Unit = {}): DynamoGetItem = DynamoGetItem.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildDynamoGetItem(id: String, initializer: @AwsCdkDsl DynamoGetItem.Builder.() -> Unit = {}): DynamoGetItem = DynamoGetItem.Builder.create(this, id).apply(initializer).build()

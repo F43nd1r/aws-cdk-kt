@@ -16,6 +16,4 @@ public fun Construct.cfnWebhook(
 ): CfnWebhook = CfnWebhook(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnWebhook(id: String, initializer: @AwsCdkDsl
-    CfnWebhook.Builder.() -> Unit = {}): CfnWebhook = CfnWebhook.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnWebhook(id: String, initializer: @AwsCdkDsl CfnWebhook.Builder.() -> Unit = {}): CfnWebhook = CfnWebhook.Builder.create(this, id).apply(initializer).build()

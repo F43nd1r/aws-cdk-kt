@@ -13,11 +13,7 @@ public fun Construct.cfnTransitGatewayMulticastGroupSource(
   id: String,
   props: CfnTransitGatewayMulticastGroupSourceProps,
   initializer: @AwsCdkDsl CfnTransitGatewayMulticastGroupSource.() -> Unit = {},
-): CfnTransitGatewayMulticastGroupSource = CfnTransitGatewayMulticastGroupSource(this, id,
-    props).apply(initializer)
+): CfnTransitGatewayMulticastGroupSource = CfnTransitGatewayMulticastGroupSource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTransitGatewayMulticastGroupSource(id: String, initializer: @AwsCdkDsl
-    CfnTransitGatewayMulticastGroupSource.Builder.() -> Unit = {}):
-    CfnTransitGatewayMulticastGroupSource =
-    CfnTransitGatewayMulticastGroupSource.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTransitGatewayMulticastGroupSource(id: String, initializer: @AwsCdkDsl CfnTransitGatewayMulticastGroupSource.Builder.() -> Unit = {}): CfnTransitGatewayMulticastGroupSource = CfnTransitGatewayMulticastGroupSource.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.macie.CfnAllowList
 
 @Generated
-public fun buildCriteriaProperty(initializer: @AwsCdkDsl
-    CfnAllowList.CriteriaProperty.Builder.() -> Unit = {}): CfnAllowList.CriteriaProperty =
-    CfnAllowList.CriteriaProperty.Builder().apply(initializer).build()
+public fun buildCriteriaProperty(initializer: @AwsCdkDsl CfnAllowList.CriteriaProperty.Builder.() -> Unit = {}): CfnAllowList.CriteriaProperty = CfnAllowList.CriteriaProperty.Builder().apply(initializer).build()

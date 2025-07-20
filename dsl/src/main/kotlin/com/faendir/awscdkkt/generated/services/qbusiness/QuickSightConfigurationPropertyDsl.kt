@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnApplication
 
 @Generated
-public fun buildQuickSightConfigurationProperty(initializer: @AwsCdkDsl
-    CfnApplication.QuickSightConfigurationProperty.Builder.() -> Unit = {}):
-    CfnApplication.QuickSightConfigurationProperty =
-    CfnApplication.QuickSightConfigurationProperty.Builder().apply(initializer).build()
+public fun buildQuickSightConfigurationProperty(initializer: @AwsCdkDsl CfnApplication.QuickSightConfigurationProperty.Builder.() -> Unit = {}): CfnApplication.QuickSightConfigurationProperty = CfnApplication.QuickSightConfigurationProperty.Builder().apply(initializer).build()

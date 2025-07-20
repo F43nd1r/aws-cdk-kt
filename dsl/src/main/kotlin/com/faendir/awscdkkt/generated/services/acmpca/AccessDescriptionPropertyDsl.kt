@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.acmpca.CfnCertificateAuthority
 
 @Generated
-public fun buildAccessDescriptionProperty(initializer: @AwsCdkDsl
-    CfnCertificateAuthority.AccessDescriptionProperty.Builder.() -> Unit = {}):
-    CfnCertificateAuthority.AccessDescriptionProperty =
-    CfnCertificateAuthority.AccessDescriptionProperty.Builder().apply(initializer).build()
+public fun buildAccessDescriptionProperty(initializer: @AwsCdkDsl CfnCertificateAuthority.AccessDescriptionProperty.Builder.() -> Unit = {}): CfnCertificateAuthority.AccessDescriptionProperty = CfnCertificateAuthority.AccessDescriptionProperty.Builder().apply(initializer).build()

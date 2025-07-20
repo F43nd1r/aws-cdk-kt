@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnGatewayRoute
 
 @Generated
-public fun buildHttpGatewayRoutePathRewriteProperty(initializer: @AwsCdkDsl
-    CfnGatewayRoute.HttpGatewayRoutePathRewriteProperty.Builder.() -> Unit = {}):
-    CfnGatewayRoute.HttpGatewayRoutePathRewriteProperty =
-    CfnGatewayRoute.HttpGatewayRoutePathRewriteProperty.Builder().apply(initializer).build()
+public fun buildHttpGatewayRoutePathRewriteProperty(initializer: @AwsCdkDsl CfnGatewayRoute.HttpGatewayRoutePathRewriteProperty.Builder.() -> Unit = {}): CfnGatewayRoute.HttpGatewayRoutePathRewriteProperty = CfnGatewayRoute.HttpGatewayRoutePathRewriteProperty.Builder().apply(initializer).build()

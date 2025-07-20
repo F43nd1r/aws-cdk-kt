@@ -22,5 +22,4 @@ public fun Construct.domain(
 
 @Deprecated(message = "software.amazon.awscdk.services.elasticsearch.Domain is deprecated in CDK.")
 @Generated
-public fun Construct.buildDomain(id: String, initializer: @AwsCdkDsl Domain.Builder.() -> Unit =
-    {}): Domain = Domain.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildDomain(id: String, initializer: @AwsCdkDsl Domain.Builder.() -> Unit = {}): Domain = Domain.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.UntrustedCodeBoundaryPolicyProps
 
 @Generated
-public fun buildUntrustedCodeBoundaryPolicyProps(initializer: @AwsCdkDsl
-    UntrustedCodeBoundaryPolicyProps.Builder.() -> Unit = {}): UntrustedCodeBoundaryPolicyProps =
-    UntrustedCodeBoundaryPolicyProps.Builder().apply(initializer).build()
+public fun buildUntrustedCodeBoundaryPolicyProps(initializer: @AwsCdkDsl UntrustedCodeBoundaryPolicyProps.Builder.() -> Unit = {}): UntrustedCodeBoundaryPolicyProps = UntrustedCodeBoundaryPolicyProps.Builder().apply(initializer).build()

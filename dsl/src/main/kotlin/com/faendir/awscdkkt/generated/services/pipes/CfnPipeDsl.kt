@@ -16,5 +16,4 @@ public fun Construct.cfnPipe(
 ): CfnPipe = CfnPipe(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPipe(id: String, initializer: @AwsCdkDsl CfnPipe.Builder.() -> Unit =
-    {}): CfnPipe = CfnPipe.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPipe(id: String, initializer: @AwsCdkDsl CfnPipe.Builder.() -> Unit = {}): CfnPipe = CfnPipe.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.clientVpnEndpoint(
 ): ClientVpnEndpoint = ClientVpnEndpoint(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildClientVpnEndpoint(id: String, initializer: @AwsCdkDsl
-    ClientVpnEndpoint.Builder.() -> Unit = {}): ClientVpnEndpoint =
-    ClientVpnEndpoint.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildClientVpnEndpoint(id: String, initializer: @AwsCdkDsl ClientVpnEndpoint.Builder.() -> Unit = {}): ClientVpnEndpoint = ClientVpnEndpoint.Builder.create(this, id).apply(initializer).build()

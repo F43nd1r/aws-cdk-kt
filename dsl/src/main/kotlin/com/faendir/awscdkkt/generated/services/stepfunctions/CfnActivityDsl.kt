@@ -16,6 +16,4 @@ public fun Construct.cfnActivity(
 ): CfnActivity = CfnActivity(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnActivity(id: String, initializer: @AwsCdkDsl
-    CfnActivity.Builder.() -> Unit = {}): CfnActivity = CfnActivity.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnActivity(id: String, initializer: @AwsCdkDsl CfnActivity.Builder.() -> Unit = {}): CfnActivity = CfnActivity.Builder.create(this, id).apply(initializer).build()

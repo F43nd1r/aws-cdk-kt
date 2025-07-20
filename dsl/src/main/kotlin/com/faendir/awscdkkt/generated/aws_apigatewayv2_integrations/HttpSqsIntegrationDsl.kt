@@ -7,6 +7,4 @@ import kotlin.Unit
 import software.amazon.awscdk.aws_apigatewayv2_integrations.HttpSqsIntegration
 
 @Generated
-public fun buildHttpSqsIntegration(id: String, initializer: @AwsCdkDsl
-    HttpSqsIntegration.Builder.() -> Unit = {}): HttpSqsIntegration =
-    HttpSqsIntegration.Builder.create(id).apply(initializer).build()
+public fun buildHttpSqsIntegration(id: String, initializer: @AwsCdkDsl HttpSqsIntegration.Builder.() -> Unit = {}): HttpSqsIntegration = HttpSqsIntegration.Builder.create(id).apply(initializer).build()

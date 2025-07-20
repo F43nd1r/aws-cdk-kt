@@ -16,6 +16,4 @@ public fun Construct.cfnConfiguredTable(
 ): CfnConfiguredTable = CfnConfiguredTable(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnConfiguredTable(id: String, initializer: @AwsCdkDsl
-    CfnConfiguredTable.Builder.() -> Unit = {}): CfnConfiguredTable =
-    CfnConfiguredTable.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnConfiguredTable(id: String, initializer: @AwsCdkDsl CfnConfiguredTable.Builder.() -> Unit = {}): CfnConfiguredTable = CfnConfiguredTable.Builder.create(this, id).apply(initializer).build()

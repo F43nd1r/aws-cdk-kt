@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.efs.ReplicationConfigurationProps
 
 @Generated
-public fun buildReplicationConfigurationProps(initializer: @AwsCdkDsl
-    ReplicationConfigurationProps.Builder.() -> Unit = {}): ReplicationConfigurationProps =
-    ReplicationConfigurationProps.Builder().apply(initializer).build()
+public fun buildReplicationConfigurationProps(initializer: @AwsCdkDsl ReplicationConfigurationProps.Builder.() -> Unit = {}): ReplicationConfigurationProps = ReplicationConfigurationProps.Builder().apply(initializer).build()

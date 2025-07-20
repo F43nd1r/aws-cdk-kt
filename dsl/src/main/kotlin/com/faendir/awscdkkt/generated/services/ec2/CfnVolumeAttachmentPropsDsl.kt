@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVolumeAttachmentProps
 
 @Generated
-public fun buildCfnVolumeAttachmentProps(initializer: @AwsCdkDsl
-    CfnVolumeAttachmentProps.Builder.() -> Unit = {}): CfnVolumeAttachmentProps =
-    CfnVolumeAttachmentProps.Builder().apply(initializer).build()
+public fun buildCfnVolumeAttachmentProps(initializer: @AwsCdkDsl CfnVolumeAttachmentProps.Builder.() -> Unit = {}): CfnVolumeAttachmentProps = CfnVolumeAttachmentProps.Builder().apply(initializer).build()

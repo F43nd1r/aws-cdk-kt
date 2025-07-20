@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildAncillarySourceSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.AncillarySourceSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.AncillarySourceSettingsProperty =
-    CfnChannel.AncillarySourceSettingsProperty.Builder().apply(initializer).build()
+public fun buildAncillarySourceSettingsProperty(initializer: @AwsCdkDsl CfnChannel.AncillarySourceSettingsProperty.Builder.() -> Unit = {}): CfnChannel.AncillarySourceSettingsProperty = CfnChannel.AncillarySourceSettingsProperty.Builder().apply(initializer).build()

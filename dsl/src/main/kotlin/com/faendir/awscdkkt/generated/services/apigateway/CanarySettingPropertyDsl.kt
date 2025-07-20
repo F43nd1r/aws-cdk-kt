@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.CfnStage
 
 @Generated
-public fun buildCanarySettingProperty(initializer: @AwsCdkDsl
-    CfnStage.CanarySettingProperty.Builder.() -> Unit = {}): CfnStage.CanarySettingProperty =
-    CfnStage.CanarySettingProperty.Builder().apply(initializer).build()
+public fun buildCanarySettingProperty(initializer: @AwsCdkDsl CfnStage.CanarySettingProperty.Builder.() -> Unit = {}): CfnStage.CanarySettingProperty = CfnStage.CanarySettingProperty.Builder().apply(initializer).build()

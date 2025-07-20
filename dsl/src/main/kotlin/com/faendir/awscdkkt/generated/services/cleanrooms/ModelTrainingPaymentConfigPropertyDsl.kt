@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cleanrooms.CfnCollaboration
 
 @Generated
-public fun buildModelTrainingPaymentConfigProperty(initializer: @AwsCdkDsl
-    CfnCollaboration.ModelTrainingPaymentConfigProperty.Builder.() -> Unit = {}):
-    CfnCollaboration.ModelTrainingPaymentConfigProperty =
-    CfnCollaboration.ModelTrainingPaymentConfigProperty.Builder().apply(initializer).build()
+public fun buildModelTrainingPaymentConfigProperty(initializer: @AwsCdkDsl CfnCollaboration.ModelTrainingPaymentConfigProperty.Builder.() -> Unit = {}): CfnCollaboration.ModelTrainingPaymentConfigProperty = CfnCollaboration.ModelTrainingPaymentConfigProperty.Builder().apply(initializer).build()

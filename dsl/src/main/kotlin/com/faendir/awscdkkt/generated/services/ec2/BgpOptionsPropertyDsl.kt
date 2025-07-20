@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnRouteServerPeer
 
 @Generated
-public fun buildBgpOptionsProperty(initializer: @AwsCdkDsl
-    CfnRouteServerPeer.BgpOptionsProperty.Builder.() -> Unit = {}):
-    CfnRouteServerPeer.BgpOptionsProperty =
-    CfnRouteServerPeer.BgpOptionsProperty.Builder().apply(initializer).build()
+public fun buildBgpOptionsProperty(initializer: @AwsCdkDsl CfnRouteServerPeer.BgpOptionsProperty.Builder.() -> Unit = {}): CfnRouteServerPeer.BgpOptionsProperty = CfnRouteServerPeer.BgpOptionsProperty.Builder().apply(initializer).build()

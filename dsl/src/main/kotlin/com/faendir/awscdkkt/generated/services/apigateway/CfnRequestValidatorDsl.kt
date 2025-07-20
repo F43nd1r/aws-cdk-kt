@@ -16,6 +16,4 @@ public fun Construct.cfnRequestValidator(
 ): CfnRequestValidator = CfnRequestValidator(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRequestValidator(id: String, initializer: @AwsCdkDsl
-    CfnRequestValidator.Builder.() -> Unit = {}): CfnRequestValidator =
-    CfnRequestValidator.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRequestValidator(id: String, initializer: @AwsCdkDsl CfnRequestValidator.Builder.() -> Unit = {}): CfnRequestValidator = CfnRequestValidator.Builder.create(this, id).apply(initializer).build()

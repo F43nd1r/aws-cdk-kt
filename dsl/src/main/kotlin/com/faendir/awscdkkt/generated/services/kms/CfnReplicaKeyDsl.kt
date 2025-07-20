@@ -16,6 +16,4 @@ public fun Construct.cfnReplicaKey(
 ): CfnReplicaKey = CfnReplicaKey(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnReplicaKey(id: String, initializer: @AwsCdkDsl
-    CfnReplicaKey.Builder.() -> Unit = {}): CfnReplicaKey = CfnReplicaKey.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnReplicaKey(id: String, initializer: @AwsCdkDsl CfnReplicaKey.Builder.() -> Unit = {}): CfnReplicaKey = CfnReplicaKey.Builder.create(this, id).apply(initializer).build()

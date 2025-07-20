@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnSpotFleet
 
 @Generated
-public fun buildGroupIdentifierProperty(initializer: @AwsCdkDsl
-    CfnSpotFleet.GroupIdentifierProperty.Builder.() -> Unit = {}):
-    CfnSpotFleet.GroupIdentifierProperty =
-    CfnSpotFleet.GroupIdentifierProperty.Builder().apply(initializer).build()
+public fun buildGroupIdentifierProperty(initializer: @AwsCdkDsl CfnSpotFleet.GroupIdentifierProperty.Builder.() -> Unit = {}): CfnSpotFleet.GroupIdentifierProperty = CfnSpotFleet.GroupIdentifierProperty.Builder().apply(initializer).build()

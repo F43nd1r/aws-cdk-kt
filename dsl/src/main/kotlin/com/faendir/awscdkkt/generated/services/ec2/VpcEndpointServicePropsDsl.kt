@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.VpcEndpointServiceProps
 
 @Generated
-public fun buildVpcEndpointServiceProps(initializer: @AwsCdkDsl
-    VpcEndpointServiceProps.Builder.() -> Unit = {}): VpcEndpointServiceProps =
-    VpcEndpointServiceProps.Builder().apply(initializer).build()
+public fun buildVpcEndpointServiceProps(initializer: @AwsCdkDsl VpcEndpointServiceProps.Builder.() -> Unit = {}): VpcEndpointServiceProps = VpcEndpointServiceProps.Builder().apply(initializer).build()

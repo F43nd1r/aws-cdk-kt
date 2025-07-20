@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotevents.CfnInput
 
 @Generated
-public fun buildAttributeProperty(initializer: @AwsCdkDsl
-    CfnInput.AttributeProperty.Builder.() -> Unit = {}): CfnInput.AttributeProperty =
-    CfnInput.AttributeProperty.Builder().apply(initializer).build()
+public fun buildAttributeProperty(initializer: @AwsCdkDsl CfnInput.AttributeProperty.Builder.() -> Unit = {}): CfnInput.AttributeProperty = CfnInput.AttributeProperty.Builder().apply(initializer).build()

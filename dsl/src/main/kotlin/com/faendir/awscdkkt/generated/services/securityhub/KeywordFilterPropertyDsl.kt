@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securityhub.CfnInsight
 
 @Generated
-public fun buildKeywordFilterProperty(initializer: @AwsCdkDsl
-    CfnInsight.KeywordFilterProperty.Builder.() -> Unit = {}): CfnInsight.KeywordFilterProperty =
-    CfnInsight.KeywordFilterProperty.Builder().apply(initializer).build()
+public fun buildKeywordFilterProperty(initializer: @AwsCdkDsl CfnInsight.KeywordFilterProperty.Builder.() -> Unit = {}): CfnInsight.KeywordFilterProperty = CfnInsight.KeywordFilterProperty.Builder().apply(initializer).build()

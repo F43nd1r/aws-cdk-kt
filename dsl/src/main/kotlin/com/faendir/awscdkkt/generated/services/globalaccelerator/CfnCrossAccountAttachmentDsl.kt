@@ -16,6 +16,4 @@ public fun Construct.cfnCrossAccountAttachment(
 ): CfnCrossAccountAttachment = CfnCrossAccountAttachment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCrossAccountAttachment(id: String, initializer: @AwsCdkDsl
-    CfnCrossAccountAttachment.Builder.() -> Unit = {}): CfnCrossAccountAttachment =
-    CfnCrossAccountAttachment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCrossAccountAttachment(id: String, initializer: @AwsCdkDsl CfnCrossAccountAttachment.Builder.() -> Unit = {}): CfnCrossAccountAttachment = CfnCrossAccountAttachment.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appstream.CfnStack
 
 @Generated
-public fun buildStorageConnectorProperty(initializer: @AwsCdkDsl
-    CfnStack.StorageConnectorProperty.Builder.() -> Unit = {}): CfnStack.StorageConnectorProperty =
-    CfnStack.StorageConnectorProperty.Builder().apply(initializer).build()
+public fun buildStorageConnectorProperty(initializer: @AwsCdkDsl CfnStack.StorageConnectorProperty.Builder.() -> Unit = {}): CfnStack.StorageConnectorProperty = CfnStack.StorageConnectorProperty.Builder().apply(initializer).build()

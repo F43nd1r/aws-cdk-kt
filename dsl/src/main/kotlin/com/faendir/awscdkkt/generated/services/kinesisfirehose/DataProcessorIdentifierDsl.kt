@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.DataProcessorIdentifier
 
 @Generated
-public fun buildDataProcessorIdentifier(initializer: @AwsCdkDsl
-    DataProcessorIdentifier.Builder.() -> Unit = {}): DataProcessorIdentifier =
-    DataProcessorIdentifier.Builder().apply(initializer).build()
+public fun buildDataProcessorIdentifier(initializer: @AwsCdkDsl DataProcessorIdentifier.Builder.() -> Unit = {}): DataProcessorIdentifier = DataProcessorIdentifier.Builder().apply(initializer).build()

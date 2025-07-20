@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildDateTimeParameterDeclarationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DateTimeParameterDeclarationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.DateTimeParameterDeclarationProperty =
-    CfnTemplate.DateTimeParameterDeclarationProperty.Builder().apply(initializer).build()
+public fun buildDateTimeParameterDeclarationProperty(initializer: @AwsCdkDsl CfnTemplate.DateTimeParameterDeclarationProperty.Builder.() -> Unit = {}): CfnTemplate.DateTimeParameterDeclarationProperty = CfnTemplate.DateTimeParameterDeclarationProperty.Builder().apply(initializer).build()

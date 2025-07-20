@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnMonitoringSchedule
 
 @Generated
-public fun buildVpcConfigProperty(initializer: @AwsCdkDsl
-    CfnMonitoringSchedule.VpcConfigProperty.Builder.() -> Unit = {}):
-    CfnMonitoringSchedule.VpcConfigProperty =
-    CfnMonitoringSchedule.VpcConfigProperty.Builder().apply(initializer).build()
+public fun buildVpcConfigProperty(initializer: @AwsCdkDsl CfnMonitoringSchedule.VpcConfigProperty.Builder.() -> Unit = {}): CfnMonitoringSchedule.VpcConfigProperty = CfnMonitoringSchedule.VpcConfigProperty.Builder().apply(initializer).build()

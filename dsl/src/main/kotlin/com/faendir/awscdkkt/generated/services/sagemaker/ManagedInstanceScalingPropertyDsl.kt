@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnEndpointConfig
 
 @Generated
-public fun buildManagedInstanceScalingProperty(initializer: @AwsCdkDsl
-    CfnEndpointConfig.ManagedInstanceScalingProperty.Builder.() -> Unit = {}):
-    CfnEndpointConfig.ManagedInstanceScalingProperty =
-    CfnEndpointConfig.ManagedInstanceScalingProperty.Builder().apply(initializer).build()
+public fun buildManagedInstanceScalingProperty(initializer: @AwsCdkDsl CfnEndpointConfig.ManagedInstanceScalingProperty.Builder.() -> Unit = {}): CfnEndpointConfig.ManagedInstanceScalingProperty = CfnEndpointConfig.ManagedInstanceScalingProperty.Builder().apply(initializer).build()

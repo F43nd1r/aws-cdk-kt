@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53resolver.CfnResolverRule
 
 @Generated
-public fun buildTargetAddressProperty(initializer: @AwsCdkDsl
-    CfnResolverRule.TargetAddressProperty.Builder.() -> Unit = {}):
-    CfnResolverRule.TargetAddressProperty =
-    CfnResolverRule.TargetAddressProperty.Builder().apply(initializer).build()
+public fun buildTargetAddressProperty(initializer: @AwsCdkDsl CfnResolverRule.TargetAddressProperty.Builder.() -> Unit = {}): CfnResolverRule.TargetAddressProperty = CfnResolverRule.TargetAddressProperty.Builder().apply(initializer).build()

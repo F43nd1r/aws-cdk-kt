@@ -16,6 +16,4 @@ public fun Construct.userPoolIdentityProviderOidc(
 ): UserPoolIdentityProviderOidc = UserPoolIdentityProviderOidc(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildUserPoolIdentityProviderOidc(id: String, initializer: @AwsCdkDsl
-    UserPoolIdentityProviderOidc.Builder.() -> Unit = {}): UserPoolIdentityProviderOidc =
-    UserPoolIdentityProviderOidc.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildUserPoolIdentityProviderOidc(id: String, initializer: @AwsCdkDsl UserPoolIdentityProviderOidc.Builder.() -> Unit = {}): UserPoolIdentityProviderOidc = UserPoolIdentityProviderOidc.Builder.create(this, id).apply(initializer).build()

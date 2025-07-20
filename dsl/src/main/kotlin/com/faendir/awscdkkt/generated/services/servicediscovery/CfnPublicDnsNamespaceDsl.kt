@@ -16,6 +16,4 @@ public fun Construct.cfnPublicDnsNamespace(
 ): CfnPublicDnsNamespace = CfnPublicDnsNamespace(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPublicDnsNamespace(id: String, initializer: @AwsCdkDsl
-    CfnPublicDnsNamespace.Builder.() -> Unit = {}): CfnPublicDnsNamespace =
-    CfnPublicDnsNamespace.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPublicDnsNamespace(id: String, initializer: @AwsCdkDsl CfnPublicDnsNamespace.Builder.() -> Unit = {}): CfnPublicDnsNamespace = CfnPublicDnsNamespace.Builder.create(this, id).apply(initializer).build()

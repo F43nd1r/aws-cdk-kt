@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appstream.CfnStack
 
 @Generated
-public fun buildApplicationSettingsProperty(initializer: @AwsCdkDsl
-    CfnStack.ApplicationSettingsProperty.Builder.() -> Unit = {}):
-    CfnStack.ApplicationSettingsProperty =
-    CfnStack.ApplicationSettingsProperty.Builder().apply(initializer).build()
+public fun buildApplicationSettingsProperty(initializer: @AwsCdkDsl CfnStack.ApplicationSettingsProperty.Builder.() -> Unit = {}): CfnStack.ApplicationSettingsProperty = CfnStack.ApplicationSettingsProperty.Builder().apply(initializer).build()

@@ -16,5 +16,4 @@ public fun Construct.flowLog(
 ): FlowLog = FlowLog(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildFlowLog(id: String, initializer: @AwsCdkDsl FlowLog.Builder.() -> Unit =
-    {}): FlowLog = FlowLog.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildFlowLog(id: String, initializer: @AwsCdkDsl FlowLog.Builder.() -> Unit = {}): FlowLog = FlowLog.Builder.create(this, id).apply(initializer).build()

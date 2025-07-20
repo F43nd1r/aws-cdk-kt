@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kafkaconnect.CfnConnector
 
 @Generated
-public fun buildFirehoseLogDeliveryProperty(initializer: @AwsCdkDsl
-    CfnConnector.FirehoseLogDeliveryProperty.Builder.() -> Unit = {}):
-    CfnConnector.FirehoseLogDeliveryProperty =
-    CfnConnector.FirehoseLogDeliveryProperty.Builder().apply(initializer).build()
+public fun buildFirehoseLogDeliveryProperty(initializer: @AwsCdkDsl CfnConnector.FirehoseLogDeliveryProperty.Builder.() -> Unit = {}): CfnConnector.FirehoseLogDeliveryProperty = CfnConnector.FirehoseLogDeliveryProperty.Builder().apply(initializer).build()

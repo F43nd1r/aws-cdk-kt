@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.applicationsignals.CfnDiscoveryProps
 
 @Generated
-public fun buildCfnDiscoveryProps(initializer: @AwsCdkDsl CfnDiscoveryProps.Builder.() -> Unit =
-    {}): CfnDiscoveryProps = CfnDiscoveryProps.Builder().apply(initializer).build()
+public fun buildCfnDiscoveryProps(initializer: @AwsCdkDsl CfnDiscoveryProps.Builder.() -> Unit = {}): CfnDiscoveryProps = CfnDiscoveryProps.Builder().apply(initializer).build()

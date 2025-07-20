@@ -16,6 +16,4 @@ public fun Construct.openIdConnectProvider(
 ): OpenIdConnectProvider = OpenIdConnectProvider(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildOpenIdConnectProvider(id: String, initializer: @AwsCdkDsl
-    OpenIdConnectProvider.Builder.() -> Unit = {}): OpenIdConnectProvider =
-    OpenIdConnectProvider.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildOpenIdConnectProvider(id: String, initializer: @AwsCdkDsl OpenIdConnectProvider.Builder.() -> Unit = {}): OpenIdConnectProvider = OpenIdConnectProvider.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnCisScanConfiguration(
 ): CfnCisScanConfiguration = CfnCisScanConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCisScanConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnCisScanConfiguration.Builder.() -> Unit = {}): CfnCisScanConfiguration =
-    CfnCisScanConfiguration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCisScanConfiguration(id: String, initializer: @AwsCdkDsl CfnCisScanConfiguration.Builder.() -> Unit = {}): CfnCisScanConfiguration = CfnCisScanConfiguration.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticache.CfnReplicationGroupProps
 
 @Generated
-public fun buildCfnReplicationGroupProps(initializer: @AwsCdkDsl
-    CfnReplicationGroupProps.Builder.() -> Unit = {}): CfnReplicationGroupProps =
-    CfnReplicationGroupProps.Builder().apply(initializer).build()
+public fun buildCfnReplicationGroupProps(initializer: @AwsCdkDsl CfnReplicationGroupProps.Builder.() -> Unit = {}): CfnReplicationGroupProps = CfnReplicationGroupProps.Builder().apply(initializer).build()

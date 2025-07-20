@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codedeploy.CfnDeploymentGroup
 
 @Generated
-public fun buildAutoRollbackConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDeploymentGroup.AutoRollbackConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDeploymentGroup.AutoRollbackConfigurationProperty =
-    CfnDeploymentGroup.AutoRollbackConfigurationProperty.Builder().apply(initializer).build()
+public fun buildAutoRollbackConfigurationProperty(initializer: @AwsCdkDsl CfnDeploymentGroup.AutoRollbackConfigurationProperty.Builder.() -> Unit = {}): CfnDeploymentGroup.AutoRollbackConfigurationProperty = CfnDeploymentGroup.AutoRollbackConfigurationProperty.Builder().apply(initializer).build()

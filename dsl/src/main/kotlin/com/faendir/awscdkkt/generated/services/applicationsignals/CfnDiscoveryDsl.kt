@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.applicationsignals.CfnDiscoveryProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDiscovery(id: String, initializer: @AwsCdkDsl CfnDiscovery.() -> Unit = {}):
-    CfnDiscovery = CfnDiscovery(this, id).apply(initializer)
+public fun Construct.cfnDiscovery(id: String, initializer: @AwsCdkDsl CfnDiscovery.() -> Unit = {}): CfnDiscovery = CfnDiscovery(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnDiscovery(
@@ -20,6 +19,4 @@ public fun Construct.cfnDiscovery(
 ): CfnDiscovery = CfnDiscovery(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDiscovery(id: String, initializer: @AwsCdkDsl
-    CfnDiscovery.Builder.() -> Unit = {}): CfnDiscovery = CfnDiscovery.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnDiscovery(id: String, initializer: @AwsCdkDsl CfnDiscovery.Builder.() -> Unit = {}): CfnDiscovery = CfnDiscovery.Builder.create(this, id).apply(initializer).build()

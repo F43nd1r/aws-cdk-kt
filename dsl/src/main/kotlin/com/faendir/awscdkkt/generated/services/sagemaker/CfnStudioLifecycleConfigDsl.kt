@@ -16,6 +16,4 @@ public fun Construct.cfnStudioLifecycleConfig(
 ): CfnStudioLifecycleConfig = CfnStudioLifecycleConfig(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnStudioLifecycleConfig(id: String, initializer: @AwsCdkDsl
-    CfnStudioLifecycleConfig.Builder.() -> Unit = {}): CfnStudioLifecycleConfig =
-    CfnStudioLifecycleConfig.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnStudioLifecycleConfig(id: String, initializer: @AwsCdkDsl CfnStudioLifecycleConfig.Builder.() -> Unit = {}): CfnStudioLifecycleConfig = CfnStudioLifecycleConfig.Builder.create(this, id).apply(initializer).build()

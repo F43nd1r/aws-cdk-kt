@@ -16,6 +16,4 @@ public fun Construct.cfnVpcOrigin(
 ): CfnVpcOrigin = CfnVpcOrigin(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVpcOrigin(id: String, initializer: @AwsCdkDsl
-    CfnVpcOrigin.Builder.() -> Unit = {}): CfnVpcOrigin = CfnVpcOrigin.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnVpcOrigin(id: String, initializer: @AwsCdkDsl CfnVpcOrigin.Builder.() -> Unit = {}): CfnVpcOrigin = CfnVpcOrigin.Builder.create(this, id).apply(initializer).build()

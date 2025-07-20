@@ -16,6 +16,4 @@ public fun Construct.cfnAccessGrant(
 ): CfnAccessGrant = CfnAccessGrant(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAccessGrant(id: String, initializer: @AwsCdkDsl
-    CfnAccessGrant.Builder.() -> Unit = {}): CfnAccessGrant = CfnAccessGrant.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnAccessGrant(id: String, initializer: @AwsCdkDsl CfnAccessGrant.Builder.() -> Unit = {}): CfnAccessGrant = CfnAccessGrant.Builder.create(this, id).apply(initializer).build()

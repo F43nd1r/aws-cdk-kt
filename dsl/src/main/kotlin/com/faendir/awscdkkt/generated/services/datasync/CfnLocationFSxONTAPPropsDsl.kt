@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datasync.CfnLocationFSxONTAPProps
 
 @Generated
-public fun buildCfnLocationFSxONTAPProps(initializer: @AwsCdkDsl
-    CfnLocationFSxONTAPProps.Builder.() -> Unit = {}): CfnLocationFSxONTAPProps =
-    CfnLocationFSxONTAPProps.Builder().apply(initializer).build()
+public fun buildCfnLocationFSxONTAPProps(initializer: @AwsCdkDsl CfnLocationFSxONTAPProps.Builder.() -> Unit = {}): CfnLocationFSxONTAPProps = CfnLocationFSxONTAPProps.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codedeploy.TrafficRoutingConfig
 
 @Generated
-public fun buildTrafficRoutingConfig(initializer: @AwsCdkDsl TrafficRoutingConfig.Builder.() -> Unit
-    = {}): TrafficRoutingConfig = TrafficRoutingConfig.Builder().apply(initializer).build()
+public fun buildTrafficRoutingConfig(initializer: @AwsCdkDsl TrafficRoutingConfig.Builder.() -> Unit = {}): TrafficRoutingConfig = TrafficRoutingConfig.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.scheduler.targets.ScheduleTargetBaseProps
 
 @Generated
-public fun buildScheduleTargetBaseProps(initializer: @AwsCdkDsl
-    ScheduleTargetBaseProps.Builder.() -> Unit = {}): ScheduleTargetBaseProps =
-    ScheduleTargetBaseProps.Builder().apply(initializer).build()
+public fun buildScheduleTargetBaseProps(initializer: @AwsCdkDsl ScheduleTargetBaseProps.Builder.() -> Unit = {}): ScheduleTargetBaseProps = ScheduleTargetBaseProps.Builder().apply(initializer).build()

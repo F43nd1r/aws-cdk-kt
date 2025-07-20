@@ -16,6 +16,4 @@ public fun Construct.cfnResponsePlan(
 ): CfnResponsePlan = CfnResponsePlan(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnResponsePlan(id: String, initializer: @AwsCdkDsl
-    CfnResponsePlan.Builder.() -> Unit = {}): CfnResponsePlan = CfnResponsePlan.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnResponsePlan(id: String, initializer: @AwsCdkDsl CfnResponsePlan.Builder.() -> Unit = {}): CfnResponsePlan = CfnResponsePlan.Builder.create(this, id).apply(initializer).build()

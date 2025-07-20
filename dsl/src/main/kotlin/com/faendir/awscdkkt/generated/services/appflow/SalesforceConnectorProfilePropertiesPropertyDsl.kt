@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnConnectorProfile
 
 @Generated
-public fun buildSalesforceConnectorProfilePropertiesProperty(initializer: @AwsCdkDsl
-    CfnConnectorProfile.SalesforceConnectorProfilePropertiesProperty.Builder.() -> Unit = {}):
-    CfnConnectorProfile.SalesforceConnectorProfilePropertiesProperty =
-    CfnConnectorProfile.SalesforceConnectorProfilePropertiesProperty.Builder().apply(initializer).build()
+public fun buildSalesforceConnectorProfilePropertiesProperty(initializer: @AwsCdkDsl CfnConnectorProfile.SalesforceConnectorProfilePropertiesProperty.Builder.() -> Unit = {}): CfnConnectorProfile.SalesforceConnectorProfilePropertiesProperty = CfnConnectorProfile.SalesforceConnectorProfilePropertiesProperty.Builder().apply(initializer).build()

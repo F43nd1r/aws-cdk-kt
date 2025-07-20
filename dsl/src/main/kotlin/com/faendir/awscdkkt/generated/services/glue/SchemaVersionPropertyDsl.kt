@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnSchema
 
 @Generated
-public fun buildSchemaVersionProperty(initializer: @AwsCdkDsl
-    CfnSchema.SchemaVersionProperty.Builder.() -> Unit = {}): CfnSchema.SchemaVersionProperty =
-    CfnSchema.SchemaVersionProperty.Builder().apply(initializer).build()
+public fun buildSchemaVersionProperty(initializer: @AwsCdkDsl CfnSchema.SchemaVersionProperty.Builder.() -> Unit = {}): CfnSchema.SchemaVersionProperty = CfnSchema.SchemaVersionProperty.Builder().apply(initializer).build()

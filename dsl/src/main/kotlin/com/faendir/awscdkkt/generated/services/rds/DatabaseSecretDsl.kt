@@ -16,6 +16,4 @@ public fun Construct.databaseSecret(
 ): DatabaseSecret = DatabaseSecret(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildDatabaseSecret(id: String, initializer: @AwsCdkDsl
-    DatabaseSecret.Builder.() -> Unit = {}): DatabaseSecret = DatabaseSecret.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildDatabaseSecret(id: String, initializer: @AwsCdkDsl DatabaseSecret.Builder.() -> Unit = {}): DatabaseSecret = DatabaseSecret.Builder.create(this, id).apply(initializer).build()

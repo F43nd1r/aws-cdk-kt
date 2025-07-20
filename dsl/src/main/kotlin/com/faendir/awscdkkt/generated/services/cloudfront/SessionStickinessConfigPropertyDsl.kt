@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnContinuousDeploymentPolicy
 
 @Generated
-public fun buildSessionStickinessConfigProperty(initializer: @AwsCdkDsl
-    CfnContinuousDeploymentPolicy.SessionStickinessConfigProperty.Builder.() -> Unit = {}):
-    CfnContinuousDeploymentPolicy.SessionStickinessConfigProperty =
-    CfnContinuousDeploymentPolicy.SessionStickinessConfigProperty.Builder().apply(initializer).build()
+public fun buildSessionStickinessConfigProperty(initializer: @AwsCdkDsl CfnContinuousDeploymentPolicy.SessionStickinessConfigProperty.Builder.() -> Unit = {}): CfnContinuousDeploymentPolicy.SessionStickinessConfigProperty = CfnContinuousDeploymentPolicy.SessionStickinessConfigProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.invoicing.CfnInvoiceUnit
 
 @Generated
-public fun buildResourceTagProperty(initializer: @AwsCdkDsl
-    CfnInvoiceUnit.ResourceTagProperty.Builder.() -> Unit = {}): CfnInvoiceUnit.ResourceTagProperty
-    = CfnInvoiceUnit.ResourceTagProperty.Builder().apply(initializer).build()
+public fun buildResourceTagProperty(initializer: @AwsCdkDsl CfnInvoiceUnit.ResourceTagProperty.Builder.() -> Unit = {}): CfnInvoiceUnit.ResourceTagProperty = CfnInvoiceUnit.ResourceTagProperty.Builder().apply(initializer).build()

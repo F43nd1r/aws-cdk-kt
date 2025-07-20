@@ -16,6 +16,4 @@ public fun Construct.webSocketIntegration(
 ): WebSocketIntegration = WebSocketIntegration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildWebSocketIntegration(id: String, initializer: @AwsCdkDsl
-    WebSocketIntegration.Builder.() -> Unit = {}): WebSocketIntegration =
-    WebSocketIntegration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildWebSocketIntegration(id: String, initializer: @AwsCdkDsl WebSocketIntegration.Builder.() -> Unit = {}): WebSocketIntegration = WebSocketIntegration.Builder.create(this, id).apply(initializer).build()

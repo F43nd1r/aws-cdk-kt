@@ -16,5 +16,4 @@ public fun Construct.cfnLedger(
 ): CfnLedger = CfnLedger(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLedger(id: String, initializer: @AwsCdkDsl CfnLedger.Builder.() -> Unit
-    = {}): CfnLedger = CfnLedger.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLedger(id: String, initializer: @AwsCdkDsl CfnLedger.Builder.() -> Unit = {}): CfnLedger = CfnLedger.Builder.create(this, id).apply(initializer).build()

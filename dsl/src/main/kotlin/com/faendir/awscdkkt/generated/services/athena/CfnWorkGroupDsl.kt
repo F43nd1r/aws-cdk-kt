@@ -16,6 +16,4 @@ public fun Construct.cfnWorkGroup(
 ): CfnWorkGroup = CfnWorkGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnWorkGroup(id: String, initializer: @AwsCdkDsl
-    CfnWorkGroup.Builder.() -> Unit = {}): CfnWorkGroup = CfnWorkGroup.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnWorkGroup(id: String, initializer: @AwsCdkDsl CfnWorkGroup.Builder.() -> Unit = {}): CfnWorkGroup = CfnWorkGroup.Builder.create(this, id).apply(initializer).build()

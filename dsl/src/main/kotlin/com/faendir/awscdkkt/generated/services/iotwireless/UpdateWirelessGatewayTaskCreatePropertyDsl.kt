@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotwireless.CfnTaskDefinition
 
 @Generated
-public fun buildUpdateWirelessGatewayTaskCreateProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.UpdateWirelessGatewayTaskCreateProperty.Builder.() -> Unit = {}):
-    CfnTaskDefinition.UpdateWirelessGatewayTaskCreateProperty =
-    CfnTaskDefinition.UpdateWirelessGatewayTaskCreateProperty.Builder().apply(initializer).build()
+public fun buildUpdateWirelessGatewayTaskCreateProperty(initializer: @AwsCdkDsl CfnTaskDefinition.UpdateWirelessGatewayTaskCreateProperty.Builder.() -> Unit = {}): CfnTaskDefinition.UpdateWirelessGatewayTaskCreateProperty = CfnTaskDefinition.UpdateWirelessGatewayTaskCreateProperty.Builder().apply(initializer).build()

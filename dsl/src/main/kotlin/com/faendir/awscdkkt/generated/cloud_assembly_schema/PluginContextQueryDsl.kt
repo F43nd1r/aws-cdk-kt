@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloud_assembly_schema.PluginContextQuery
 
 @Generated
-public fun buildPluginContextQuery(initializer: @AwsCdkDsl PluginContextQuery.Builder.() -> Unit =
-    {}): PluginContextQuery = PluginContextQuery.Builder().apply(initializer).build()
+public fun buildPluginContextQuery(initializer: @AwsCdkDsl PluginContextQuery.Builder.() -> Unit = {}): PluginContextQuery = PluginContextQuery.Builder().apply(initializer).build()

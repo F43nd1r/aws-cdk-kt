@@ -16,6 +16,4 @@ public fun Construct.scheduledFargateTask(
 ): ScheduledFargateTask = ScheduledFargateTask(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildScheduledFargateTask(id: String, initializer: @AwsCdkDsl
-    ScheduledFargateTask.Builder.() -> Unit = {}): ScheduledFargateTask =
-    ScheduledFargateTask.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildScheduledFargateTask(id: String, initializer: @AwsCdkDsl ScheduledFargateTask.Builder.() -> Unit = {}): ScheduledFargateTask = ScheduledFargateTask.Builder.create(this, id).apply(initializer).build()

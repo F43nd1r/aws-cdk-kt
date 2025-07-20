@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.shield.CfnDRTAccessProps
 
 @Generated
-public fun buildCfnDRTAccessProps(initializer: @AwsCdkDsl CfnDRTAccessProps.Builder.() -> Unit =
-    {}): CfnDRTAccessProps = CfnDRTAccessProps.Builder().apply(initializer).build()
+public fun buildCfnDRTAccessProps(initializer: @AwsCdkDsl CfnDRTAccessProps.Builder.() -> Unit = {}): CfnDRTAccessProps = CfnDRTAccessProps.Builder().apply(initializer).build()

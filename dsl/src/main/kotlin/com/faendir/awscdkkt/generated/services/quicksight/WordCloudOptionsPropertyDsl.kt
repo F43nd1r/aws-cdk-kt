@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildWordCloudOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.WordCloudOptionsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.WordCloudOptionsProperty =
-    CfnTemplate.WordCloudOptionsProperty.Builder().apply(initializer).build()
+public fun buildWordCloudOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.WordCloudOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.WordCloudOptionsProperty = CfnTemplate.WordCloudOptionsProperty.Builder().apply(initializer).build()

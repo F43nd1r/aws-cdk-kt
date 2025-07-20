@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnDistribution
 
 @Generated
-public fun buildOriginProperty(initializer: @AwsCdkDsl
-    CfnDistribution.OriginProperty.Builder.() -> Unit = {}): CfnDistribution.OriginProperty =
-    CfnDistribution.OriginProperty.Builder().apply(initializer).build()
+public fun buildOriginProperty(initializer: @AwsCdkDsl CfnDistribution.OriginProperty.Builder.() -> Unit = {}): CfnDistribution.OriginProperty = CfnDistribution.OriginProperty.Builder().apply(initializer).build()

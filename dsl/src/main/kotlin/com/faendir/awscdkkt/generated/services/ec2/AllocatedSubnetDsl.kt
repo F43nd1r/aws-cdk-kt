@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.AllocatedSubnet
 
 @Generated
-public fun buildAllocatedSubnet(initializer: @AwsCdkDsl AllocatedSubnet.Builder.() -> Unit = {}):
-    AllocatedSubnet = AllocatedSubnet.Builder().apply(initializer).build()
+public fun buildAllocatedSubnet(initializer: @AwsCdkDsl AllocatedSubnet.Builder.() -> Unit = {}): AllocatedSubnet = AllocatedSubnet.Builder().apply(initializer).build()

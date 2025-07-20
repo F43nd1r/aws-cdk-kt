@@ -16,6 +16,4 @@ public fun Construct.cfnNamespace(
 ): CfnNamespace = CfnNamespace(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnNamespace(id: String, initializer: @AwsCdkDsl
-    CfnNamespace.Builder.() -> Unit = {}): CfnNamespace = CfnNamespace.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnNamespace(id: String, initializer: @AwsCdkDsl CfnNamespace.Builder.() -> Unit = {}): CfnNamespace = CfnNamespace.Builder.create(this, id).apply(initializer).build()

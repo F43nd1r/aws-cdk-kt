@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.CfnGlobalTable
 
 @Generated
-public fun buildReplicaGlobalSecondaryIndexSpecificationProperty(initializer: @AwsCdkDsl
-    CfnGlobalTable.ReplicaGlobalSecondaryIndexSpecificationProperty.Builder.() -> Unit = {}):
-    CfnGlobalTable.ReplicaGlobalSecondaryIndexSpecificationProperty =
-    CfnGlobalTable.ReplicaGlobalSecondaryIndexSpecificationProperty.Builder().apply(initializer).build()
+public fun buildReplicaGlobalSecondaryIndexSpecificationProperty(initializer: @AwsCdkDsl CfnGlobalTable.ReplicaGlobalSecondaryIndexSpecificationProperty.Builder.() -> Unit = {}): CfnGlobalTable.ReplicaGlobalSecondaryIndexSpecificationProperty = CfnGlobalTable.ReplicaGlobalSecondaryIndexSpecificationProperty.Builder().apply(initializer).build()

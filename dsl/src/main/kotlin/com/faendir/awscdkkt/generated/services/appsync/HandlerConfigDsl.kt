@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.HandlerConfig
 
 @Generated
-public fun buildHandlerConfig(initializer: @AwsCdkDsl HandlerConfig.Builder.() -> Unit = {}):
-    HandlerConfig = HandlerConfig.Builder().apply(initializer).build()
+public fun buildHandlerConfig(initializer: @AwsCdkDsl HandlerConfig.Builder.() -> Unit = {}): HandlerConfig = HandlerConfig.Builder().apply(initializer).build()

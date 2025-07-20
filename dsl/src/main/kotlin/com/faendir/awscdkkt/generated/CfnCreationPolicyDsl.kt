@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.CfnCreationPolicy
 
 @Generated
-public fun buildCfnCreationPolicy(initializer: @AwsCdkDsl CfnCreationPolicy.Builder.() -> Unit =
-    {}): CfnCreationPolicy = CfnCreationPolicy.Builder().apply(initializer).build()
+public fun buildCfnCreationPolicy(initializer: @AwsCdkDsl CfnCreationPolicy.Builder.() -> Unit = {}): CfnCreationPolicy = CfnCreationPolicy.Builder().apply(initializer).build()

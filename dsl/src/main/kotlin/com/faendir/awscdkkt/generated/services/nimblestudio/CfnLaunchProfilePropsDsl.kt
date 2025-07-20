@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.nimblestudio.CfnLaunchProfileProps
 
 @Generated
-public fun buildCfnLaunchProfileProps(initializer: @AwsCdkDsl
-    CfnLaunchProfileProps.Builder.() -> Unit = {}): CfnLaunchProfileProps =
-    CfnLaunchProfileProps.Builder().apply(initializer).build()
+public fun buildCfnLaunchProfileProps(initializer: @AwsCdkDsl CfnLaunchProfileProps.Builder.() -> Unit = {}): CfnLaunchProfileProps = CfnLaunchProfileProps.Builder().apply(initializer).build()

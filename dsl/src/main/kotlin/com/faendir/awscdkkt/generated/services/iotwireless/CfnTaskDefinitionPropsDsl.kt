@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotwireless.CfnTaskDefinitionProps
 
 @Generated
-public fun buildCfnTaskDefinitionProps(initializer: @AwsCdkDsl
-    CfnTaskDefinitionProps.Builder.() -> Unit = {}): CfnTaskDefinitionProps =
-    CfnTaskDefinitionProps.Builder().apply(initializer).build()
+public fun buildCfnTaskDefinitionProps(initializer: @AwsCdkDsl CfnTaskDefinitionProps.Builder.() -> Unit = {}): CfnTaskDefinitionProps = CfnTaskDefinitionProps.Builder().apply(initializer).build()

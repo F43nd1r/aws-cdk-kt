@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnCrawler
 
 @Generated
-public fun buildLakeFormationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnCrawler.LakeFormationConfigurationProperty.Builder.() -> Unit = {}):
-    CfnCrawler.LakeFormationConfigurationProperty =
-    CfnCrawler.LakeFormationConfigurationProperty.Builder().apply(initializer).build()
+public fun buildLakeFormationConfigurationProperty(initializer: @AwsCdkDsl CfnCrawler.LakeFormationConfigurationProperty.Builder.() -> Unit = {}): CfnCrawler.LakeFormationConfigurationProperty = CfnCrawler.LakeFormationConfigurationProperty.Builder().apply(initializer).build()

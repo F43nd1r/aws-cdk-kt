@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.ses.CfnConfigurationSetProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnConfigurationSet(id: String, initializer: @AwsCdkDsl
-    CfnConfigurationSet.() -> Unit = {}): CfnConfigurationSet = CfnConfigurationSet(this,
-    id).apply(initializer)
+public fun Construct.cfnConfigurationSet(id: String, initializer: @AwsCdkDsl CfnConfigurationSet.() -> Unit = {}): CfnConfigurationSet = CfnConfigurationSet(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnConfigurationSet(
@@ -21,6 +19,4 @@ public fun Construct.cfnConfigurationSet(
 ): CfnConfigurationSet = CfnConfigurationSet(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnConfigurationSet(id: String, initializer: @AwsCdkDsl
-    CfnConfigurationSet.Builder.() -> Unit = {}): CfnConfigurationSet =
-    CfnConfigurationSet.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnConfigurationSet(id: String, initializer: @AwsCdkDsl CfnConfigurationSet.Builder.() -> Unit = {}): CfnConfigurationSet = CfnConfigurationSet.Builder.create(this, id).apply(initializer).build()

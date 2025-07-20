@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnGuardrail
 
 @Generated
-public fun buildWordConfigProperty(initializer: @AwsCdkDsl
-    CfnGuardrail.WordConfigProperty.Builder.() -> Unit = {}): CfnGuardrail.WordConfigProperty =
-    CfnGuardrail.WordConfigProperty.Builder().apply(initializer).build()
+public fun buildWordConfigProperty(initializer: @AwsCdkDsl CfnGuardrail.WordConfigProperty.Builder.() -> Unit = {}): CfnGuardrail.WordConfigProperty = CfnGuardrail.WordConfigProperty.Builder().apply(initializer).build()

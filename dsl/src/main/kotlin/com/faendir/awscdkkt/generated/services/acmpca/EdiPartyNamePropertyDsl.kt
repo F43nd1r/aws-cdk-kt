@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.acmpca.CfnCertificateAuthority
 
 @Generated
-public fun buildEdiPartyNameProperty(initializer: @AwsCdkDsl
-    CfnCertificateAuthority.EdiPartyNameProperty.Builder.() -> Unit = {}):
-    CfnCertificateAuthority.EdiPartyNameProperty =
-    CfnCertificateAuthority.EdiPartyNameProperty.Builder().apply(initializer).build()
+public fun buildEdiPartyNameProperty(initializer: @AwsCdkDsl CfnCertificateAuthority.EdiPartyNameProperty.Builder.() -> Unit = {}): CfnCertificateAuthority.EdiPartyNameProperty = CfnCertificateAuthority.EdiPartyNameProperty.Builder().apply(initializer).build()

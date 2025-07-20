@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnFlowVersion
 
 @Generated
-public fun buildPromptFlowNodeInlineConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFlowVersion.PromptFlowNodeInlineConfigurationProperty.Builder.() -> Unit = {}):
-    CfnFlowVersion.PromptFlowNodeInlineConfigurationProperty =
-    CfnFlowVersion.PromptFlowNodeInlineConfigurationProperty.Builder().apply(initializer).build()
+public fun buildPromptFlowNodeInlineConfigurationProperty(initializer: @AwsCdkDsl CfnFlowVersion.PromptFlowNodeInlineConfigurationProperty.Builder.() -> Unit = {}): CfnFlowVersion.PromptFlowNodeInlineConfigurationProperty = CfnFlowVersion.PromptFlowNodeInlineConfigurationProperty.Builder().apply(initializer).build()

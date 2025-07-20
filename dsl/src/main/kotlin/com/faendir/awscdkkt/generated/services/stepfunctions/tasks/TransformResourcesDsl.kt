@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.TransformResources
 
 @Generated
-public fun buildTransformResources(initializer: @AwsCdkDsl TransformResources.Builder.() -> Unit =
-    {}): TransformResources = TransformResources.Builder().apply(initializer).build()
+public fun buildTransformResources(initializer: @AwsCdkDsl TransformResources.Builder.() -> Unit = {}): TransformResources = TransformResources.Builder().apply(initializer).build()

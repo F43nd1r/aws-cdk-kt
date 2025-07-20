@@ -16,6 +16,4 @@ public fun Construct.networkAcl(
 ): NetworkAcl = NetworkAcl(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildNetworkAcl(id: String, initializer: @AwsCdkDsl
-    NetworkAcl.Builder.() -> Unit = {}): NetworkAcl = NetworkAcl.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildNetworkAcl(id: String, initializer: @AwsCdkDsl NetworkAcl.Builder.() -> Unit = {}): NetworkAcl = NetworkAcl.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.ResolverProps
 
 @Generated
-public fun buildResolverProps(initializer: @AwsCdkDsl ResolverProps.Builder.() -> Unit = {}):
-    ResolverProps = ResolverProps.Builder().apply(initializer).build()
+public fun buildResolverProps(initializer: @AwsCdkDsl ResolverProps.Builder.() -> Unit = {}): ResolverProps = ResolverProps.Builder().apply(initializer).build()

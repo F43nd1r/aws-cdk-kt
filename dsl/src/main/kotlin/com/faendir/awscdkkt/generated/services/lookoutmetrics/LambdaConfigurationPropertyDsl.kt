@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lookoutmetrics.CfnAlert
 
 @Generated
-public fun buildLambdaConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAlert.LambdaConfigurationProperty.Builder.() -> Unit = {}):
-    CfnAlert.LambdaConfigurationProperty =
-    CfnAlert.LambdaConfigurationProperty.Builder().apply(initializer).build()
+public fun buildLambdaConfigurationProperty(initializer: @AwsCdkDsl CfnAlert.LambdaConfigurationProperty.Builder.() -> Unit = {}): CfnAlert.LambdaConfigurationProperty = CfnAlert.LambdaConfigurationProperty.Builder().apply(initializer).build()

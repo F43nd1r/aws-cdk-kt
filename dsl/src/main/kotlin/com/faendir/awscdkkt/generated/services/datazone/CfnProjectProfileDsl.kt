@@ -16,6 +16,4 @@ public fun Construct.cfnProjectProfile(
 ): CfnProjectProfile = CfnProjectProfile(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnProjectProfile(id: String, initializer: @AwsCdkDsl
-    CfnProjectProfile.Builder.() -> Unit = {}): CfnProjectProfile =
-    CfnProjectProfile.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnProjectProfile(id: String, initializer: @AwsCdkDsl CfnProjectProfile.Builder.() -> Unit = {}): CfnProjectProfile = CfnProjectProfile.Builder.create(this, id).apply(initializer).build()

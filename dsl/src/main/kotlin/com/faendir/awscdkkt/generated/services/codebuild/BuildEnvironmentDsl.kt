@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.BuildEnvironment
 
 @Generated
-public fun buildBuildEnvironment(initializer: @AwsCdkDsl BuildEnvironment.Builder.() -> Unit = {}):
-    BuildEnvironment = BuildEnvironment.Builder().apply(initializer).build()
+public fun buildBuildEnvironment(initializer: @AwsCdkDsl BuildEnvironment.Builder.() -> Unit = {}): BuildEnvironment = BuildEnvironment.Builder().apply(initializer).build()

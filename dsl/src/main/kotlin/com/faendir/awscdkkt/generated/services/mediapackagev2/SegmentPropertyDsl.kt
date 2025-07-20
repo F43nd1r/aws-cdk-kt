@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediapackagev2.CfnOriginEndpoint
 
 @Generated
-public fun buildSegmentProperty(initializer: @AwsCdkDsl
-    CfnOriginEndpoint.SegmentProperty.Builder.() -> Unit = {}): CfnOriginEndpoint.SegmentProperty =
-    CfnOriginEndpoint.SegmentProperty.Builder().apply(initializer).build()
+public fun buildSegmentProperty(initializer: @AwsCdkDsl CfnOriginEndpoint.SegmentProperty.Builder.() -> Unit = {}): CfnOriginEndpoint.SegmentProperty = CfnOriginEndpoint.SegmentProperty.Builder().apply(initializer).build()

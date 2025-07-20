@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildPivotTableConditionalFormattingOptionProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PivotTableConditionalFormattingOptionProperty.Builder.() -> Unit = {}):
-    CfnTemplate.PivotTableConditionalFormattingOptionProperty =
-    CfnTemplate.PivotTableConditionalFormattingOptionProperty.Builder().apply(initializer).build()
+public fun buildPivotTableConditionalFormattingOptionProperty(initializer: @AwsCdkDsl CfnTemplate.PivotTableConditionalFormattingOptionProperty.Builder.() -> Unit = {}): CfnTemplate.PivotTableConditionalFormattingOptionProperty = CfnTemplate.PivotTableConditionalFormattingOptionProperty.Builder().apply(initializer).build()

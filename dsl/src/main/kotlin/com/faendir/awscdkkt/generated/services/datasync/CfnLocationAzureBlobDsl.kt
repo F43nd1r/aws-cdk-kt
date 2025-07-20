@@ -16,6 +16,4 @@ public fun Construct.cfnLocationAzureBlob(
 ): CfnLocationAzureBlob = CfnLocationAzureBlob(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLocationAzureBlob(id: String, initializer: @AwsCdkDsl
-    CfnLocationAzureBlob.Builder.() -> Unit = {}): CfnLocationAzureBlob =
-    CfnLocationAzureBlob.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLocationAzureBlob(id: String, initializer: @AwsCdkDsl CfnLocationAzureBlob.Builder.() -> Unit = {}): CfnLocationAzureBlob = CfnLocationAzureBlob.Builder.create(this, id).apply(initializer).build()

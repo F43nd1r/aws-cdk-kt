@@ -16,6 +16,4 @@ public fun Construct.cfnVariable(
 ): CfnVariable = CfnVariable(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVariable(id: String, initializer: @AwsCdkDsl
-    CfnVariable.Builder.() -> Unit = {}): CfnVariable = CfnVariable.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnVariable(id: String, initializer: @AwsCdkDsl CfnVariable.Builder.() -> Unit = {}): CfnVariable = CfnVariable.Builder.create(this, id).apply(initializer).build()

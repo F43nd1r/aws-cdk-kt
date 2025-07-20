@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.DeviceTracking
 
 @Generated
-public fun buildDeviceTracking(initializer: @AwsCdkDsl DeviceTracking.Builder.() -> Unit = {}):
-    DeviceTracking = DeviceTracking.Builder().apply(initializer).build()
+public fun buildDeviceTracking(initializer: @AwsCdkDsl DeviceTracking.Builder.() -> Unit = {}): DeviceTracking = DeviceTracking.Builder().apply(initializer).build()

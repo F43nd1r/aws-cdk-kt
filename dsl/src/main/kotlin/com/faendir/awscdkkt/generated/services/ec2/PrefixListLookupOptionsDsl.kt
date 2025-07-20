@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.PrefixListLookupOptions
 
 @Generated
-public fun buildPrefixListLookupOptions(initializer: @AwsCdkDsl
-    PrefixListLookupOptions.Builder.() -> Unit = {}): PrefixListLookupOptions =
-    PrefixListLookupOptions.Builder().apply(initializer).build()
+public fun buildPrefixListLookupOptions(initializer: @AwsCdkDsl PrefixListLookupOptions.Builder.() -> Unit = {}): PrefixListLookupOptions = PrefixListLookupOptions.Builder().apply(initializer).build()

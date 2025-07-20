@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.CfnAnomalyDetector
 
 @Generated
-public fun buildMetricStatProperty(initializer: @AwsCdkDsl
-    CfnAnomalyDetector.MetricStatProperty.Builder.() -> Unit = {}):
-    CfnAnomalyDetector.MetricStatProperty =
-    CfnAnomalyDetector.MetricStatProperty.Builder().apply(initializer).build()
+public fun buildMetricStatProperty(initializer: @AwsCdkDsl CfnAnomalyDetector.MetricStatProperty.Builder.() -> Unit = {}): CfnAnomalyDetector.MetricStatProperty = CfnAnomalyDetector.MetricStatProperty.Builder().apply(initializer).build()

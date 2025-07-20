@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lookoutvision.CfnProjectProps
 
 @Generated
-public fun buildCfnProjectProps(initializer: @AwsCdkDsl CfnProjectProps.Builder.() -> Unit = {}):
-    CfnProjectProps = CfnProjectProps.Builder().apply(initializer).build()
+public fun buildCfnProjectProps(initializer: @AwsCdkDsl CfnProjectProps.Builder.() -> Unit = {}): CfnProjectProps = CfnProjectProps.Builder().apply(initializer).build()

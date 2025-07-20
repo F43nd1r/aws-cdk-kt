@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pcs.CfnComputeNodeGroup
 
 @Generated
-public fun buildSlurmConfigurationProperty(initializer: @AwsCdkDsl
-    CfnComputeNodeGroup.SlurmConfigurationProperty.Builder.() -> Unit = {}):
-    CfnComputeNodeGroup.SlurmConfigurationProperty =
-    CfnComputeNodeGroup.SlurmConfigurationProperty.Builder().apply(initializer).build()
+public fun buildSlurmConfigurationProperty(initializer: @AwsCdkDsl CfnComputeNodeGroup.SlurmConfigurationProperty.Builder.() -> Unit = {}): CfnComputeNodeGroup.SlurmConfigurationProperty = CfnComputeNodeGroup.SlurmConfigurationProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CloudMapOptions
 
 @Generated
-public fun buildCloudMapOptions(initializer: @AwsCdkDsl CloudMapOptions.Builder.() -> Unit = {}):
-    CloudMapOptions = CloudMapOptions.Builder().apply(initializer).build()
+public fun buildCloudMapOptions(initializer: @AwsCdkDsl CloudMapOptions.Builder.() -> Unit = {}): CloudMapOptions = CloudMapOptions.Builder().apply(initializer).build()

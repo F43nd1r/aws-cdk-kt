@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.StackProps
 
 @Generated
-public fun buildStackProps(initializer: @AwsCdkDsl StackProps.Builder.() -> Unit = {}): StackProps =
-    StackProps.Builder().apply(initializer).build()
+public fun buildStackProps(initializer: @AwsCdkDsl StackProps.Builder.() -> Unit = {}): StackProps = StackProps.Builder().apply(initializer).build()

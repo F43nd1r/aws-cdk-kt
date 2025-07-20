@@ -16,6 +16,4 @@ public fun Construct.cfnGeofenceCollection(
 ): CfnGeofenceCollection = CfnGeofenceCollection(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnGeofenceCollection(id: String, initializer: @AwsCdkDsl
-    CfnGeofenceCollection.Builder.() -> Unit = {}): CfnGeofenceCollection =
-    CfnGeofenceCollection.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnGeofenceCollection(id: String, initializer: @AwsCdkDsl CfnGeofenceCollection.Builder.() -> Unit = {}): CfnGeofenceCollection = CfnGeofenceCollection.Builder.create(this, id).apply(initializer).build()

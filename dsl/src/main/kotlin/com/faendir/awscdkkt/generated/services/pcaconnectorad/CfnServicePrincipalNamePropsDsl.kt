@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pcaconnectorad.CfnServicePrincipalNameProps
 
 @Generated
-public fun buildCfnServicePrincipalNameProps(initializer: @AwsCdkDsl
-    CfnServicePrincipalNameProps.Builder.() -> Unit = {}): CfnServicePrincipalNameProps =
-    CfnServicePrincipalNameProps.Builder().apply(initializer).build()
+public fun buildCfnServicePrincipalNameProps(initializer: @AwsCdkDsl CfnServicePrincipalNameProps.Builder.() -> Unit = {}): CfnServicePrincipalNameProps = CfnServicePrincipalNameProps.Builder().apply(initializer).build()

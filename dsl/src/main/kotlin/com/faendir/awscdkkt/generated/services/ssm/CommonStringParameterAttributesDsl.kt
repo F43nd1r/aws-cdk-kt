@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssm.CommonStringParameterAttributes
 
 @Generated
-public fun buildCommonStringParameterAttributes(initializer: @AwsCdkDsl
-    CommonStringParameterAttributes.Builder.() -> Unit = {}): CommonStringParameterAttributes =
-    CommonStringParameterAttributes.Builder().apply(initializer).build()
+public fun buildCommonStringParameterAttributes(initializer: @AwsCdkDsl CommonStringParameterAttributes.Builder.() -> Unit = {}): CommonStringParameterAttributes = CommonStringParameterAttributes.Builder().apply(initializer).build()

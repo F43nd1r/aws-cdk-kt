@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrSetClusterTerminationProtectionJsonataProps
 
 @Generated
-public fun buildEmrSetClusterTerminationProtectionJsonataProps(initializer: @AwsCdkDsl
-    EmrSetClusterTerminationProtectionJsonataProps.Builder.() -> Unit = {}):
-    EmrSetClusterTerminationProtectionJsonataProps =
-    EmrSetClusterTerminationProtectionJsonataProps.Builder().apply(initializer).build()
+public fun buildEmrSetClusterTerminationProtectionJsonataProps(initializer: @AwsCdkDsl EmrSetClusterTerminationProtectionJsonataProps.Builder.() -> Unit = {}): EmrSetClusterTerminationProtectionJsonataProps = EmrSetClusterTerminationProtectionJsonataProps.Builder().apply(initializer).build()

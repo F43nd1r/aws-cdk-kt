@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
-public fun buildProcessingConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.ProcessingConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDeliveryStream.ProcessingConfigurationProperty =
-    CfnDeliveryStream.ProcessingConfigurationProperty.Builder().apply(initializer).build()
+public fun buildProcessingConfigurationProperty(initializer: @AwsCdkDsl CfnDeliveryStream.ProcessingConfigurationProperty.Builder.() -> Unit = {}): CfnDeliveryStream.ProcessingConfigurationProperty = CfnDeliveryStream.ProcessingConfigurationProperty.Builder().apply(initializer).build()

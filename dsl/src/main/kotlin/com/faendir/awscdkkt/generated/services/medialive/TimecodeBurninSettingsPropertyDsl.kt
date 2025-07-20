@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildTimecodeBurninSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.TimecodeBurninSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.TimecodeBurninSettingsProperty =
-    CfnChannel.TimecodeBurninSettingsProperty.Builder().apply(initializer).build()
+public fun buildTimecodeBurninSettingsProperty(initializer: @AwsCdkDsl CfnChannel.TimecodeBurninSettingsProperty.Builder.() -> Unit = {}): CfnChannel.TimecodeBurninSettingsProperty = CfnChannel.TimecodeBurninSettingsProperty.Builder().apply(initializer).build()

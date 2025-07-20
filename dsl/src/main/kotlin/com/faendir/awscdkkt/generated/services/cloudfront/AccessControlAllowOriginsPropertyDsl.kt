@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnResponseHeadersPolicy
 
 @Generated
-public fun buildAccessControlAllowOriginsProperty(initializer: @AwsCdkDsl
-    CfnResponseHeadersPolicy.AccessControlAllowOriginsProperty.Builder.() -> Unit = {}):
-    CfnResponseHeadersPolicy.AccessControlAllowOriginsProperty =
-    CfnResponseHeadersPolicy.AccessControlAllowOriginsProperty.Builder().apply(initializer).build()
+public fun buildAccessControlAllowOriginsProperty(initializer: @AwsCdkDsl CfnResponseHeadersPolicy.AccessControlAllowOriginsProperty.Builder.() -> Unit = {}): CfnResponseHeadersPolicy.AccessControlAllowOriginsProperty = CfnResponseHeadersPolicy.AccessControlAllowOriginsProperty.Builder().apply(initializer).build()

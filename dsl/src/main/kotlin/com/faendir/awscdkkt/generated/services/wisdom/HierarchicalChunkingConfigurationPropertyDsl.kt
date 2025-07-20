@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnKnowledgeBase
 
 @Generated
-public fun buildHierarchicalChunkingConfigurationProperty(initializer: @AwsCdkDsl
-    CfnKnowledgeBase.HierarchicalChunkingConfigurationProperty.Builder.() -> Unit = {}):
-    CfnKnowledgeBase.HierarchicalChunkingConfigurationProperty =
-    CfnKnowledgeBase.HierarchicalChunkingConfigurationProperty.Builder().apply(initializer).build()
+public fun buildHierarchicalChunkingConfigurationProperty(initializer: @AwsCdkDsl CfnKnowledgeBase.HierarchicalChunkingConfigurationProperty.Builder.() -> Unit = {}): CfnKnowledgeBase.HierarchicalChunkingConfigurationProperty = CfnKnowledgeBase.HierarchicalChunkingConfigurationProperty.Builder().apply(initializer).build()

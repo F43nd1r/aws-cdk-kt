@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnSoftwarePackageVersion
 
 @Generated
-public fun buildS3LocationProperty(initializer: @AwsCdkDsl
-    CfnSoftwarePackageVersion.S3LocationProperty.Builder.() -> Unit = {}):
-    CfnSoftwarePackageVersion.S3LocationProperty =
-    CfnSoftwarePackageVersion.S3LocationProperty.Builder().apply(initializer).build()
+public fun buildS3LocationProperty(initializer: @AwsCdkDsl CfnSoftwarePackageVersion.S3LocationProperty.Builder.() -> Unit = {}): CfnSoftwarePackageVersion.S3LocationProperty = CfnSoftwarePackageVersion.S3LocationProperty.Builder().apply(initializer).build()

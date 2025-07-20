@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
-public fun buildVolumeFromProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.VolumeFromProperty.Builder.() -> Unit = {}):
-    CfnTaskDefinition.VolumeFromProperty =
-    CfnTaskDefinition.VolumeFromProperty.Builder().apply(initializer).build()
+public fun buildVolumeFromProperty(initializer: @AwsCdkDsl CfnTaskDefinition.VolumeFromProperty.Builder.() -> Unit = {}): CfnTaskDefinition.VolumeFromProperty = CfnTaskDefinition.VolumeFromProperty.Builder().apply(initializer).build()

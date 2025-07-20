@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnSegment
 
 @Generated
-public fun buildAttributeDimensionProperty(initializer: @AwsCdkDsl
-    CfnSegment.AttributeDimensionProperty.Builder.() -> Unit = {}):
-    CfnSegment.AttributeDimensionProperty =
-    CfnSegment.AttributeDimensionProperty.Builder().apply(initializer).build()
+public fun buildAttributeDimensionProperty(initializer: @AwsCdkDsl CfnSegment.AttributeDimensionProperty.Builder.() -> Unit = {}): CfnSegment.AttributeDimensionProperty = CfnSegment.AttributeDimensionProperty.Builder().apply(initializer).build()

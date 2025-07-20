@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnInputSecurityGroupProps
 
 @Generated
-public fun buildCfnInputSecurityGroupProps(initializer: @AwsCdkDsl
-    CfnInputSecurityGroupProps.Builder.() -> Unit = {}): CfnInputSecurityGroupProps =
-    CfnInputSecurityGroupProps.Builder().apply(initializer).build()
+public fun buildCfnInputSecurityGroupProps(initializer: @AwsCdkDsl CfnInputSecurityGroupProps.Builder.() -> Unit = {}): CfnInputSecurityGroupProps = CfnInputSecurityGroupProps.Builder().apply(initializer).build()

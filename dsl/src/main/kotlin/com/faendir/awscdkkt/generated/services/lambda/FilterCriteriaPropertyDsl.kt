@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.CfnEventSourceMapping
 
 @Generated
-public fun buildFilterCriteriaProperty(initializer: @AwsCdkDsl
-    CfnEventSourceMapping.FilterCriteriaProperty.Builder.() -> Unit = {}):
-    CfnEventSourceMapping.FilterCriteriaProperty =
-    CfnEventSourceMapping.FilterCriteriaProperty.Builder().apply(initializer).build()
+public fun buildFilterCriteriaProperty(initializer: @AwsCdkDsl CfnEventSourceMapping.FilterCriteriaProperty.Builder.() -> Unit = {}): CfnEventSourceMapping.FilterCriteriaProperty = CfnEventSourceMapping.FilterCriteriaProperty.Builder().apply(initializer).build()

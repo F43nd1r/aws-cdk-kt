@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildProgressBarOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ProgressBarOptionsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.ProgressBarOptionsProperty =
-    CfnTemplate.ProgressBarOptionsProperty.Builder().apply(initializer).build()
+public fun buildProgressBarOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.ProgressBarOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.ProgressBarOptionsProperty = CfnTemplate.ProgressBarOptionsProperty.Builder().apply(initializer).build()

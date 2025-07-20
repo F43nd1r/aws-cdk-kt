@@ -16,6 +16,4 @@ public fun Construct.cfnSchemaVersionMetadata(
 ): CfnSchemaVersionMetadata = CfnSchemaVersionMetadata(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSchemaVersionMetadata(id: String, initializer: @AwsCdkDsl
-    CfnSchemaVersionMetadata.Builder.() -> Unit = {}): CfnSchemaVersionMetadata =
-    CfnSchemaVersionMetadata.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSchemaVersionMetadata(id: String, initializer: @AwsCdkDsl CfnSchemaVersionMetadata.Builder.() -> Unit = {}): CfnSchemaVersionMetadata = CfnSchemaVersionMetadata.Builder.create(this, id).apply(initializer).build()

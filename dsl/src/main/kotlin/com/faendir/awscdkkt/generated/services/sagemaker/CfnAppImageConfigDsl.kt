@@ -16,6 +16,4 @@ public fun Construct.cfnAppImageConfig(
 ): CfnAppImageConfig = CfnAppImageConfig(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAppImageConfig(id: String, initializer: @AwsCdkDsl
-    CfnAppImageConfig.Builder.() -> Unit = {}): CfnAppImageConfig =
-    CfnAppImageConfig.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAppImageConfig(id: String, initializer: @AwsCdkDsl CfnAppImageConfig.Builder.() -> Unit = {}): CfnAppImageConfig = CfnAppImageConfig.Builder.create(this, id).apply(initializer).build()

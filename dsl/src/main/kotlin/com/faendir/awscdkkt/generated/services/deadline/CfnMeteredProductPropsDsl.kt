@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.deadline.CfnMeteredProductProps
 
 @Generated
-public fun buildCfnMeteredProductProps(initializer: @AwsCdkDsl
-    CfnMeteredProductProps.Builder.() -> Unit = {}): CfnMeteredProductProps =
-    CfnMeteredProductProps.Builder().apply(initializer).build()
+public fun buildCfnMeteredProductProps(initializer: @AwsCdkDsl CfnMeteredProductProps.Builder.() -> Unit = {}): CfnMeteredProductProps = CfnMeteredProductProps.Builder().apply(initializer).build()

@@ -16,5 +16,4 @@ public fun Construct.archive(
 ): Archive = Archive(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildArchive(id: String, initializer: @AwsCdkDsl Archive.Builder.() -> Unit =
-    {}): Archive = Archive.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildArchive(id: String, initializer: @AwsCdkDsl Archive.Builder.() -> Unit = {}): Archive = Archive.Builder.create(this, id).apply(initializer).build()

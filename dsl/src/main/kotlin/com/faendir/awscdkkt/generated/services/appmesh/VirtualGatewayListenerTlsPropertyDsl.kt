@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnVirtualGateway
 
 @Generated
-public fun buildVirtualGatewayListenerTlsProperty(initializer: @AwsCdkDsl
-    CfnVirtualGateway.VirtualGatewayListenerTlsProperty.Builder.() -> Unit = {}):
-    CfnVirtualGateway.VirtualGatewayListenerTlsProperty =
-    CfnVirtualGateway.VirtualGatewayListenerTlsProperty.Builder().apply(initializer).build()
+public fun buildVirtualGatewayListenerTlsProperty(initializer: @AwsCdkDsl CfnVirtualGateway.VirtualGatewayListenerTlsProperty.Builder.() -> Unit = {}): CfnVirtualGateway.VirtualGatewayListenerTlsProperty = CfnVirtualGateway.VirtualGatewayListenerTlsProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.licensemanager.CfnGrantProps
 
 @Generated
-public fun buildCfnGrantProps(initializer: @AwsCdkDsl CfnGrantProps.Builder.() -> Unit = {}):
-    CfnGrantProps = CfnGrantProps.Builder().apply(initializer).build()
+public fun buildCfnGrantProps(initializer: @AwsCdkDsl CfnGrantProps.Builder.() -> Unit = {}): CfnGrantProps = CfnGrantProps.Builder().apply(initializer).build()

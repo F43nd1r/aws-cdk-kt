@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pcaconnectorad.CfnDirectoryRegistrationProps
 
 @Generated
-public fun buildCfnDirectoryRegistrationProps(initializer: @AwsCdkDsl
-    CfnDirectoryRegistrationProps.Builder.() -> Unit = {}): CfnDirectoryRegistrationProps =
-    CfnDirectoryRegistrationProps.Builder().apply(initializer).build()
+public fun buildCfnDirectoryRegistrationProps(initializer: @AwsCdkDsl CfnDirectoryRegistrationProps.Builder.() -> Unit = {}): CfnDirectoryRegistrationProps = CfnDirectoryRegistrationProps.Builder().apply(initializer).build()

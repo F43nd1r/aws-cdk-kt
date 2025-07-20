@@ -16,6 +16,4 @@ public fun Construct.callAwsServiceCrossRegion(
 ): CallAwsServiceCrossRegion = CallAwsServiceCrossRegion(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCallAwsServiceCrossRegion(id: String, initializer: @AwsCdkDsl
-    CallAwsServiceCrossRegion.Builder.() -> Unit = {}): CallAwsServiceCrossRegion =
-    CallAwsServiceCrossRegion.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCallAwsServiceCrossRegion(id: String, initializer: @AwsCdkDsl CallAwsServiceCrossRegion.Builder.() -> Unit = {}): CallAwsServiceCrossRegion = CallAwsServiceCrossRegion.Builder.create(this, id).apply(initializer).build()

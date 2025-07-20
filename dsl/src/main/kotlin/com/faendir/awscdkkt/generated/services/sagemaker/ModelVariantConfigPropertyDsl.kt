@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnInferenceExperiment
 
 @Generated
-public fun buildModelVariantConfigProperty(initializer: @AwsCdkDsl
-    CfnInferenceExperiment.ModelVariantConfigProperty.Builder.() -> Unit = {}):
-    CfnInferenceExperiment.ModelVariantConfigProperty =
-    CfnInferenceExperiment.ModelVariantConfigProperty.Builder().apply(initializer).build()
+public fun buildModelVariantConfigProperty(initializer: @AwsCdkDsl CfnInferenceExperiment.ModelVariantConfigProperty.Builder.() -> Unit = {}): CfnInferenceExperiment.ModelVariantConfigProperty = CfnInferenceExperiment.ModelVariantConfigProperty.Builder().apply(initializer).build()

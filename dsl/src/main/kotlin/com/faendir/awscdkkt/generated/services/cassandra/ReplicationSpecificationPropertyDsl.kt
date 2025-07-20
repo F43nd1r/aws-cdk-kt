@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cassandra.CfnKeyspace
 
 @Generated
-public fun buildReplicationSpecificationProperty(initializer: @AwsCdkDsl
-    CfnKeyspace.ReplicationSpecificationProperty.Builder.() -> Unit = {}):
-    CfnKeyspace.ReplicationSpecificationProperty =
-    CfnKeyspace.ReplicationSpecificationProperty.Builder().apply(initializer).build()
+public fun buildReplicationSpecificationProperty(initializer: @AwsCdkDsl CfnKeyspace.ReplicationSpecificationProperty.Builder.() -> Unit = {}): CfnKeyspace.ReplicationSpecificationProperty = CfnKeyspace.ReplicationSpecificationProperty.Builder().apply(initializer).build()

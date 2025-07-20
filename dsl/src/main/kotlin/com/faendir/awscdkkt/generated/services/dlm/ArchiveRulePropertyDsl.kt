@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dlm.CfnLifecyclePolicy
 
 @Generated
-public fun buildArchiveRuleProperty(initializer: @AwsCdkDsl
-    CfnLifecyclePolicy.ArchiveRuleProperty.Builder.() -> Unit = {}):
-    CfnLifecyclePolicy.ArchiveRuleProperty =
-    CfnLifecyclePolicy.ArchiveRuleProperty.Builder().apply(initializer).build()
+public fun buildArchiveRuleProperty(initializer: @AwsCdkDsl CfnLifecyclePolicy.ArchiveRuleProperty.Builder.() -> Unit = {}): CfnLifecyclePolicy.ArchiveRuleProperty = CfnLifecyclePolicy.ArchiveRuleProperty.Builder().apply(initializer).build()

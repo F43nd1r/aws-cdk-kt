@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.BackendDefaults
 
 @Generated
-public fun buildBackendDefaults(initializer: @AwsCdkDsl BackendDefaults.Builder.() -> Unit = {}):
-    BackendDefaults = BackendDefaults.Builder().apply(initializer).build()
+public fun buildBackendDefaults(initializer: @AwsCdkDsl BackendDefaults.Builder.() -> Unit = {}): BackendDefaults = BackendDefaults.Builder().apply(initializer).build()

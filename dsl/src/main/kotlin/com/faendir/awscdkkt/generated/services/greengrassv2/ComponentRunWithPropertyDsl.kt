@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.greengrassv2.CfnDeployment
 
 @Generated
-public fun buildComponentRunWithProperty(initializer: @AwsCdkDsl
-    CfnDeployment.ComponentRunWithProperty.Builder.() -> Unit = {}):
-    CfnDeployment.ComponentRunWithProperty =
-    CfnDeployment.ComponentRunWithProperty.Builder().apply(initializer).build()
+public fun buildComponentRunWithProperty(initializer: @AwsCdkDsl CfnDeployment.ComponentRunWithProperty.Builder.() -> Unit = {}): CfnDeployment.ComponentRunWithProperty = CfnDeployment.ComponentRunWithProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrModifyInstanceGroupByName
 
 @Generated
-public fun buildShrinkPolicyProperty(initializer: @AwsCdkDsl
-    EmrModifyInstanceGroupByName.ShrinkPolicyProperty.Builder.() -> Unit = {}):
-    EmrModifyInstanceGroupByName.ShrinkPolicyProperty =
-    EmrModifyInstanceGroupByName.ShrinkPolicyProperty.Builder().apply(initializer).build()
+public fun buildShrinkPolicyProperty(initializer: @AwsCdkDsl EmrModifyInstanceGroupByName.ShrinkPolicyProperty.Builder.() -> Unit = {}): EmrModifyInstanceGroupByName.ShrinkPolicyProperty = EmrModifyInstanceGroupByName.ShrinkPolicyProperty.Builder().apply(initializer).build()

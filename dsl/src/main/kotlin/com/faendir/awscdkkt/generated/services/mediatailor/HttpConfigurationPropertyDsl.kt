@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediatailor.CfnSourceLocation
 
 @Generated
-public fun buildHttpConfigurationProperty(initializer: @AwsCdkDsl
-    CfnSourceLocation.HttpConfigurationProperty.Builder.() -> Unit = {}):
-    CfnSourceLocation.HttpConfigurationProperty =
-    CfnSourceLocation.HttpConfigurationProperty.Builder().apply(initializer).build()
+public fun buildHttpConfigurationProperty(initializer: @AwsCdkDsl CfnSourceLocation.HttpConfigurationProperty.Builder.() -> Unit = {}): CfnSourceLocation.HttpConfigurationProperty = CfnSourceLocation.HttpConfigurationProperty.Builder().apply(initializer).build()

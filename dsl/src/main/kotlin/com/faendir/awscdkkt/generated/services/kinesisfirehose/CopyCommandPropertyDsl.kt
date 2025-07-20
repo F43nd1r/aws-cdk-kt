@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
-public fun buildCopyCommandProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.CopyCommandProperty.Builder.() -> Unit = {}):
-    CfnDeliveryStream.CopyCommandProperty =
-    CfnDeliveryStream.CopyCommandProperty.Builder().apply(initializer).build()
+public fun buildCopyCommandProperty(initializer: @AwsCdkDsl CfnDeliveryStream.CopyCommandProperty.Builder.() -> Unit = {}): CfnDeliveryStream.CopyCommandProperty = CfnDeliveryStream.CopyCommandProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.deadline.CfnFleet
 
 @Generated
-public fun buildVCpuCountRangeProperty(initializer: @AwsCdkDsl
-    CfnFleet.VCpuCountRangeProperty.Builder.() -> Unit = {}): CfnFleet.VCpuCountRangeProperty =
-    CfnFleet.VCpuCountRangeProperty.Builder().apply(initializer).build()
+public fun buildVCpuCountRangeProperty(initializer: @AwsCdkDsl CfnFleet.VCpuCountRangeProperty.Builder.() -> Unit = {}): CfnFleet.VCpuCountRangeProperty = CfnFleet.VCpuCountRangeProperty.Builder().apply(initializer).build()

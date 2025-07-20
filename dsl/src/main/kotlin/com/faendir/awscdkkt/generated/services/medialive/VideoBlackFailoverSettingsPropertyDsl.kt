@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildVideoBlackFailoverSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.VideoBlackFailoverSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.VideoBlackFailoverSettingsProperty =
-    CfnChannel.VideoBlackFailoverSettingsProperty.Builder().apply(initializer).build()
+public fun buildVideoBlackFailoverSettingsProperty(initializer: @AwsCdkDsl CfnChannel.VideoBlackFailoverSettingsProperty.Builder.() -> Unit = {}): CfnChannel.VideoBlackFailoverSettingsProperty = CfnChannel.VideoBlackFailoverSettingsProperty.Builder().apply(initializer).build()

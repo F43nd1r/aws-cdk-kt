@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.osis.CfnPipeline
 
 @Generated
-public fun buildEncryptionAtRestOptionsProperty(initializer: @AwsCdkDsl
-    CfnPipeline.EncryptionAtRestOptionsProperty.Builder.() -> Unit = {}):
-    CfnPipeline.EncryptionAtRestOptionsProperty =
-    CfnPipeline.EncryptionAtRestOptionsProperty.Builder().apply(initializer).build()
+public fun buildEncryptionAtRestOptionsProperty(initializer: @AwsCdkDsl CfnPipeline.EncryptionAtRestOptionsProperty.Builder.() -> Unit = {}): CfnPipeline.EncryptionAtRestOptionsProperty = CfnPipeline.EncryptionAtRestOptionsProperty.Builder().apply(initializer).build()

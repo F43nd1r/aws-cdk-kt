@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.DatabaseInstanceReadReplicaProps
 
 @Generated
-public fun buildDatabaseInstanceReadReplicaProps(initializer: @AwsCdkDsl
-    DatabaseInstanceReadReplicaProps.Builder.() -> Unit = {}): DatabaseInstanceReadReplicaProps =
-    DatabaseInstanceReadReplicaProps.Builder().apply(initializer).build()
+public fun buildDatabaseInstanceReadReplicaProps(initializer: @AwsCdkDsl DatabaseInstanceReadReplicaProps.Builder.() -> Unit = {}): DatabaseInstanceReadReplicaProps = DatabaseInstanceReadReplicaProps.Builder().apply(initializer).build()

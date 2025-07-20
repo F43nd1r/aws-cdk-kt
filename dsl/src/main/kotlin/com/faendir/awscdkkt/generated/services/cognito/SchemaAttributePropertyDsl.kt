@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnUserPool
 
 @Generated
-public fun buildSchemaAttributeProperty(initializer: @AwsCdkDsl
-    CfnUserPool.SchemaAttributeProperty.Builder.() -> Unit = {}):
-    CfnUserPool.SchemaAttributeProperty =
-    CfnUserPool.SchemaAttributeProperty.Builder().apply(initializer).build()
+public fun buildSchemaAttributeProperty(initializer: @AwsCdkDsl CfnUserPool.SchemaAttributeProperty.Builder.() -> Unit = {}): CfnUserPool.SchemaAttributeProperty = CfnUserPool.SchemaAttributeProperty.Builder().apply(initializer).build()

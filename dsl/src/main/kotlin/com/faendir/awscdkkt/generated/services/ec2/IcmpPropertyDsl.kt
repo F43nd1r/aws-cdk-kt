@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnNetworkAclEntry
 
 @Generated
-public fun buildIcmpProperty(initializer: @AwsCdkDsl
-    CfnNetworkAclEntry.IcmpProperty.Builder.() -> Unit = {}): CfnNetworkAclEntry.IcmpProperty =
-    CfnNetworkAclEntry.IcmpProperty.Builder().apply(initializer).build()
+public fun buildIcmpProperty(initializer: @AwsCdkDsl CfnNetworkAclEntry.IcmpProperty.Builder.() -> Unit = {}): CfnNetworkAclEntry.IcmpProperty = CfnNetworkAclEntry.IcmpProperty.Builder().apply(initializer).build()

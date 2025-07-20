@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnSpace
 
 @Generated
-public fun buildSpaceCodeEditorAppSettingsProperty(initializer: @AwsCdkDsl
-    CfnSpace.SpaceCodeEditorAppSettingsProperty.Builder.() -> Unit = {}):
-    CfnSpace.SpaceCodeEditorAppSettingsProperty =
-    CfnSpace.SpaceCodeEditorAppSettingsProperty.Builder().apply(initializer).build()
+public fun buildSpaceCodeEditorAppSettingsProperty(initializer: @AwsCdkDsl CfnSpace.SpaceCodeEditorAppSettingsProperty.Builder.() -> Unit = {}): CfnSpace.SpaceCodeEditorAppSettingsProperty = CfnSpace.SpaceCodeEditorAppSettingsProperty.Builder().apply(initializer).build()

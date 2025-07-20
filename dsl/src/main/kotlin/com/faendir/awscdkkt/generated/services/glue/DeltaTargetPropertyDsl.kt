@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnCrawler
 
 @Generated
-public fun buildDeltaTargetProperty(initializer: @AwsCdkDsl
-    CfnCrawler.DeltaTargetProperty.Builder.() -> Unit = {}): CfnCrawler.DeltaTargetProperty =
-    CfnCrawler.DeltaTargetProperty.Builder().apply(initializer).build()
+public fun buildDeltaTargetProperty(initializer: @AwsCdkDsl CfnCrawler.DeltaTargetProperty.Builder.() -> Unit = {}): CfnCrawler.DeltaTargetProperty = CfnCrawler.DeltaTargetProperty.Builder().apply(initializer).build()

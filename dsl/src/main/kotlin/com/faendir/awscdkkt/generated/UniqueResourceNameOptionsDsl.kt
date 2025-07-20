@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.UniqueResourceNameOptions
 
 @Generated
-public fun buildUniqueResourceNameOptions(initializer: @AwsCdkDsl
-    UniqueResourceNameOptions.Builder.() -> Unit = {}): UniqueResourceNameOptions =
-    UniqueResourceNameOptions.Builder().apply(initializer).build()
+public fun buildUniqueResourceNameOptions(initializer: @AwsCdkDsl UniqueResourceNameOptions.Builder.() -> Unit = {}): UniqueResourceNameOptions = UniqueResourceNameOptions.Builder().apply(initializer).build()

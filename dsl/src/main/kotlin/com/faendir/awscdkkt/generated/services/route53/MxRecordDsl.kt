@@ -16,5 +16,4 @@ public fun Construct.mxRecord(
 ): MxRecord = MxRecord(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildMxRecord(id: String, initializer: @AwsCdkDsl MxRecord.Builder.() -> Unit =
-    {}): MxRecord = MxRecord.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildMxRecord(id: String, initializer: @AwsCdkDsl MxRecord.Builder.() -> Unit = {}): MxRecord = MxRecord.Builder.create(this, id).apply(initializer).build()

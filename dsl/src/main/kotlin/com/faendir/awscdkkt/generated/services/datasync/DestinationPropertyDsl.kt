@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datasync.CfnTask
 
 @Generated
-public fun buildDestinationProperty(initializer: @AwsCdkDsl
-    CfnTask.DestinationProperty.Builder.() -> Unit = {}): CfnTask.DestinationProperty =
-    CfnTask.DestinationProperty.Builder().apply(initializer).build()
+public fun buildDestinationProperty(initializer: @AwsCdkDsl CfnTask.DestinationProperty.Builder.() -> Unit = {}): CfnTask.DestinationProperty = CfnTask.DestinationProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnConnectorProfile
 
 @Generated
-public fun buildPardotConnectorProfileCredentialsProperty(initializer: @AwsCdkDsl
-    CfnConnectorProfile.PardotConnectorProfileCredentialsProperty.Builder.() -> Unit = {}):
-    CfnConnectorProfile.PardotConnectorProfileCredentialsProperty =
-    CfnConnectorProfile.PardotConnectorProfileCredentialsProperty.Builder().apply(initializer).build()
+public fun buildPardotConnectorProfileCredentialsProperty(initializer: @AwsCdkDsl CfnConnectorProfile.PardotConnectorProfileCredentialsProperty.Builder.() -> Unit = {}): CfnConnectorProfile.PardotConnectorProfileCredentialsProperty = CfnConnectorProfile.PardotConnectorProfileCredentialsProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lightsail.CfnLoadBalancerTlsCertificateProps
 
 @Generated
-public fun buildCfnLoadBalancerTlsCertificateProps(initializer: @AwsCdkDsl
-    CfnLoadBalancerTlsCertificateProps.Builder.() -> Unit = {}): CfnLoadBalancerTlsCertificateProps
-    = CfnLoadBalancerTlsCertificateProps.Builder().apply(initializer).build()
+public fun buildCfnLoadBalancerTlsCertificateProps(initializer: @AwsCdkDsl CfnLoadBalancerTlsCertificateProps.Builder.() -> Unit = {}): CfnLoadBalancerTlsCertificateProps = CfnLoadBalancerTlsCertificateProps.Builder().apply(initializer).build()

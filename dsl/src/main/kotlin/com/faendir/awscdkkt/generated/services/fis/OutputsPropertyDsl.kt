@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fis.CfnExperimentTemplate
 
 @Generated
-public fun buildOutputsProperty(initializer: @AwsCdkDsl
-    CfnExperimentTemplate.OutputsProperty.Builder.() -> Unit = {}):
-    CfnExperimentTemplate.OutputsProperty =
-    CfnExperimentTemplate.OutputsProperty.Builder().apply(initializer).build()
+public fun buildOutputsProperty(initializer: @AwsCdkDsl CfnExperimentTemplate.OutputsProperty.Builder.() -> Unit = {}): CfnExperimentTemplate.OutputsProperty = CfnExperimentTemplate.OutputsProperty.Builder().apply(initializer).build()

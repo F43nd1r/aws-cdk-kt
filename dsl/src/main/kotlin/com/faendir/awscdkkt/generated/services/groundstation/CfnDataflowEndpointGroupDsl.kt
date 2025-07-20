@@ -16,6 +16,4 @@ public fun Construct.cfnDataflowEndpointGroup(
 ): CfnDataflowEndpointGroup = CfnDataflowEndpointGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDataflowEndpointGroup(id: String, initializer: @AwsCdkDsl
-    CfnDataflowEndpointGroup.Builder.() -> Unit = {}): CfnDataflowEndpointGroup =
-    CfnDataflowEndpointGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDataflowEndpointGroup(id: String, initializer: @AwsCdkDsl CfnDataflowEndpointGroup.Builder.() -> Unit = {}): CfnDataflowEndpointGroup = CfnDataflowEndpointGroup.Builder.create(this, id).apply(initializer).build()

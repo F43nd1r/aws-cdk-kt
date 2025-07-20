@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnNetworkInterfaceAttachmentProps
 
 @Generated
-public fun buildCfnNetworkInterfaceAttachmentProps(initializer: @AwsCdkDsl
-    CfnNetworkInterfaceAttachmentProps.Builder.() -> Unit = {}): CfnNetworkInterfaceAttachmentProps
-    = CfnNetworkInterfaceAttachmentProps.Builder().apply(initializer).build()
+public fun buildCfnNetworkInterfaceAttachmentProps(initializer: @AwsCdkDsl CfnNetworkInterfaceAttachmentProps.Builder.() -> Unit = {}): CfnNetworkInterfaceAttachmentProps = CfnNetworkInterfaceAttachmentProps.Builder().apply(initializer).build()

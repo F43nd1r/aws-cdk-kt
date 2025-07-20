@@ -16,5 +16,4 @@ public fun Construct.accessKey(
 ): AccessKey = AccessKey(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAccessKey(id: String, initializer: @AwsCdkDsl AccessKey.Builder.() -> Unit
-    = {}): AccessKey = AccessKey.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildAccessKey(id: String, initializer: @AwsCdkDsl AccessKey.Builder.() -> Unit = {}): AccessKey = AccessKey.Builder.create(this, id).apply(initializer).build()

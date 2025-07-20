@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildDateTimeFormatConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DateTimeFormatConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.DateTimeFormatConfigurationProperty =
-    CfnTemplate.DateTimeFormatConfigurationProperty.Builder().apply(initializer).build()
+public fun buildDateTimeFormatConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.DateTimeFormatConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.DateTimeFormatConfigurationProperty = CfnTemplate.DateTimeFormatConfigurationProperty.Builder().apply(initializer).build()

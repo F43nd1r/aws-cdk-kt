@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.WarmThroughput
 
 @Generated
-public fun buildWarmThroughput(initializer: @AwsCdkDsl WarmThroughput.Builder.() -> Unit = {}):
-    WarmThroughput = WarmThroughput.Builder().apply(initializer).build()
+public fun buildWarmThroughput(initializer: @AwsCdkDsl WarmThroughput.Builder.() -> Unit = {}): WarmThroughput = WarmThroughput.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.deadline.CfnFleet
 
 @Generated
-public fun buildHostConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFleet.HostConfigurationProperty.Builder.() -> Unit = {}): CfnFleet.HostConfigurationProperty
-    = CfnFleet.HostConfigurationProperty.Builder().apply(initializer).build()
+public fun buildHostConfigurationProperty(initializer: @AwsCdkDsl CfnFleet.HostConfigurationProperty.Builder.() -> Unit = {}): CfnFleet.HostConfigurationProperty = CfnFleet.HostConfigurationProperty.Builder().apply(initializer).build()

@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.ec2.CfnEIPAssociationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnEIPAssociation(id: String, initializer: @AwsCdkDsl
-    CfnEIPAssociation.() -> Unit = {}): CfnEIPAssociation = CfnEIPAssociation(this,
-    id).apply(initializer)
+public fun Construct.cfnEIPAssociation(id: String, initializer: @AwsCdkDsl CfnEIPAssociation.() -> Unit = {}): CfnEIPAssociation = CfnEIPAssociation(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnEIPAssociation(
@@ -21,6 +19,4 @@ public fun Construct.cfnEIPAssociation(
 ): CfnEIPAssociation = CfnEIPAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEIPAssociation(id: String, initializer: @AwsCdkDsl
-    CfnEIPAssociation.Builder.() -> Unit = {}): CfnEIPAssociation =
-    CfnEIPAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnEIPAssociation(id: String, initializer: @AwsCdkDsl CfnEIPAssociation.Builder.() -> Unit = {}): CfnEIPAssociation = CfnEIPAssociation.Builder.create(this, id).apply(initializer).build()

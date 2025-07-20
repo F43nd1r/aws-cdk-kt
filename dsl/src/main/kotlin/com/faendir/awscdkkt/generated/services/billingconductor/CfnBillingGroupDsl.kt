@@ -16,6 +16,4 @@ public fun Construct.cfnBillingGroup(
 ): CfnBillingGroup = CfnBillingGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnBillingGroup(id: String, initializer: @AwsCdkDsl
-    CfnBillingGroup.Builder.() -> Unit = {}): CfnBillingGroup = CfnBillingGroup.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnBillingGroup(id: String, initializer: @AwsCdkDsl CfnBillingGroup.Builder.() -> Unit = {}): CfnBillingGroup = CfnBillingGroup.Builder.create(this, id).apply(initializer).build()

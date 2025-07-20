@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.billingconductor.CfnPricingRule
 
 @Generated
-public fun buildFreeTierProperty(initializer: @AwsCdkDsl
-    CfnPricingRule.FreeTierProperty.Builder.() -> Unit = {}): CfnPricingRule.FreeTierProperty =
-    CfnPricingRule.FreeTierProperty.Builder().apply(initializer).build()
+public fun buildFreeTierProperty(initializer: @AwsCdkDsl CfnPricingRule.FreeTierProperty.Builder.() -> Unit = {}): CfnPricingRule.FreeTierProperty = CfnPricingRule.FreeTierProperty.Builder().apply(initializer).build()

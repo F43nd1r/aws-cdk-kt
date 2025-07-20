@@ -16,6 +16,4 @@ public fun Construct.cfnAssociation(
 ): CfnAssociation = CfnAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAssociation(id: String, initializer: @AwsCdkDsl
-    CfnAssociation.Builder.() -> Unit = {}): CfnAssociation = CfnAssociation.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnAssociation(id: String, initializer: @AwsCdkDsl CfnAssociation.Builder.() -> Unit = {}): CfnAssociation = CfnAssociation.Builder.create(this, id).apply(initializer).build()

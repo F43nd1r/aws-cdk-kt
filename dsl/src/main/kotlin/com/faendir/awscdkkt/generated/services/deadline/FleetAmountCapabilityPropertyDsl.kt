@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.deadline.CfnFleet
 
 @Generated
-public fun buildFleetAmountCapabilityProperty(initializer: @AwsCdkDsl
-    CfnFleet.FleetAmountCapabilityProperty.Builder.() -> Unit = {}):
-    CfnFleet.FleetAmountCapabilityProperty =
-    CfnFleet.FleetAmountCapabilityProperty.Builder().apply(initializer).build()
+public fun buildFleetAmountCapabilityProperty(initializer: @AwsCdkDsl CfnFleet.FleetAmountCapabilityProperty.Builder.() -> Unit = {}): CfnFleet.FleetAmountCapabilityProperty = CfnFleet.FleetAmountCapabilityProperty.Builder().apply(initializer).build()

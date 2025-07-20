@@ -16,6 +16,4 @@ public fun Construct.cfnCostCategory(
 ): CfnCostCategory = CfnCostCategory(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCostCategory(id: String, initializer: @AwsCdkDsl
-    CfnCostCategory.Builder.() -> Unit = {}): CfnCostCategory = CfnCostCategory.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnCostCategory(id: String, initializer: @AwsCdkDsl CfnCostCategory.Builder.() -> Unit = {}): CfnCostCategory = CfnCostCategory.Builder.create(this, id).apply(initializer).build()

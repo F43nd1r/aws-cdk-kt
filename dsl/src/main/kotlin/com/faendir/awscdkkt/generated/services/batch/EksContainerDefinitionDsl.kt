@@ -16,6 +16,4 @@ public fun Construct.eksContainerDefinition(
 ): EksContainerDefinition = EksContainerDefinition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEksContainerDefinition(id: String, initializer: @AwsCdkDsl
-    EksContainerDefinition.Builder.() -> Unit = {}): EksContainerDefinition =
-    EksContainerDefinition.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildEksContainerDefinition(id: String, initializer: @AwsCdkDsl EksContainerDefinition.Builder.() -> Unit = {}): EksContainerDefinition = EksContainerDefinition.Builder.create(this, id).apply(initializer).build()

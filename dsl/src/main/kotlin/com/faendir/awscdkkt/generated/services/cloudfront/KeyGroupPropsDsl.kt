@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.KeyGroupProps
 
 @Generated
-public fun buildKeyGroupProps(initializer: @AwsCdkDsl KeyGroupProps.Builder.() -> Unit = {}):
-    KeyGroupProps = KeyGroupProps.Builder().apply(initializer).build()
+public fun buildKeyGroupProps(initializer: @AwsCdkDsl KeyGroupProps.Builder.() -> Unit = {}): KeyGroupProps = KeyGroupProps.Builder().apply(initializer).build()

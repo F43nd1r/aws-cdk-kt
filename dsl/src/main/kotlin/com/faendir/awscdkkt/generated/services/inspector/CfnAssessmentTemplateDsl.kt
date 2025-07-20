@@ -16,6 +16,4 @@ public fun Construct.cfnAssessmentTemplate(
 ): CfnAssessmentTemplate = CfnAssessmentTemplate(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAssessmentTemplate(id: String, initializer: @AwsCdkDsl
-    CfnAssessmentTemplate.Builder.() -> Unit = {}): CfnAssessmentTemplate =
-    CfnAssessmentTemplate.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAssessmentTemplate(id: String, initializer: @AwsCdkDsl CfnAssessmentTemplate.Builder.() -> Unit = {}): CfnAssessmentTemplate = CfnAssessmentTemplate.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codestarnotifications.CfnNotificationRuleProps
 
 @Generated
-public fun buildCfnNotificationRuleProps(initializer: @AwsCdkDsl
-    CfnNotificationRuleProps.Builder.() -> Unit = {}): CfnNotificationRuleProps =
-    CfnNotificationRuleProps.Builder().apply(initializer).build()
+public fun buildCfnNotificationRuleProps(initializer: @AwsCdkDsl CfnNotificationRuleProps.Builder.() -> Unit = {}): CfnNotificationRuleProps = CfnNotificationRuleProps.Builder().apply(initializer).build()

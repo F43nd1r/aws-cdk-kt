@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnVirtualNode
 
 @Generated
-public fun buildServiceDiscoveryProperty(initializer: @AwsCdkDsl
-    CfnVirtualNode.ServiceDiscoveryProperty.Builder.() -> Unit = {}):
-    CfnVirtualNode.ServiceDiscoveryProperty =
-    CfnVirtualNode.ServiceDiscoveryProperty.Builder().apply(initializer).build()
+public fun buildServiceDiscoveryProperty(initializer: @AwsCdkDsl CfnVirtualNode.ServiceDiscoveryProperty.Builder.() -> Unit = {}): CfnVirtualNode.ServiceDiscoveryProperty = CfnVirtualNode.ServiceDiscoveryProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnMLTransform(
 ): CfnMLTransform = CfnMLTransform(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMLTransform(id: String, initializer: @AwsCdkDsl
-    CfnMLTransform.Builder.() -> Unit = {}): CfnMLTransform = CfnMLTransform.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnMLTransform(id: String, initializer: @AwsCdkDsl CfnMLTransform.Builder.() -> Unit = {}): CfnMLTransform = CfnMLTransform.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnRecordingConfiguration(
 ): CfnRecordingConfiguration = CfnRecordingConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRecordingConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnRecordingConfiguration.Builder.() -> Unit = {}): CfnRecordingConfiguration =
-    CfnRecordingConfiguration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRecordingConfiguration(id: String, initializer: @AwsCdkDsl CfnRecordingConfiguration.Builder.() -> Unit = {}): CfnRecordingConfiguration = CfnRecordingConfiguration.Builder.create(this, id).apply(initializer).build()

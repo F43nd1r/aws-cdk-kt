@@ -16,6 +16,4 @@ public fun Construct.cfnServiceAction(
 ): CfnServiceAction = CfnServiceAction(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnServiceAction(id: String, initializer: @AwsCdkDsl
-    CfnServiceAction.Builder.() -> Unit = {}): CfnServiceAction =
-    CfnServiceAction.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnServiceAction(id: String, initializer: @AwsCdkDsl CfnServiceAction.Builder.() -> Unit = {}): CfnServiceAction = CfnServiceAction.Builder.create(this, id).apply(initializer).build()

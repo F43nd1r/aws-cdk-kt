@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildPeriodOverPeriodComputationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PeriodOverPeriodComputationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.PeriodOverPeriodComputationProperty =
-    CfnTemplate.PeriodOverPeriodComputationProperty.Builder().apply(initializer).build()
+public fun buildPeriodOverPeriodComputationProperty(initializer: @AwsCdkDsl CfnTemplate.PeriodOverPeriodComputationProperty.Builder.() -> Unit = {}): CfnTemplate.PeriodOverPeriodComputationProperty = CfnTemplate.PeriodOverPeriodComputationProperty.Builder().apply(initializer).build()

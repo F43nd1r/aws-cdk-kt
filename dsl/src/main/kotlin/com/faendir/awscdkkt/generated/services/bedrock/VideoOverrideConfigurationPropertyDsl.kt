@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnDataAutomationProject
 
 @Generated
-public fun buildVideoOverrideConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataAutomationProject.VideoOverrideConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDataAutomationProject.VideoOverrideConfigurationProperty =
-    CfnDataAutomationProject.VideoOverrideConfigurationProperty.Builder().apply(initializer).build()
+public fun buildVideoOverrideConfigurationProperty(initializer: @AwsCdkDsl CfnDataAutomationProject.VideoOverrideConfigurationProperty.Builder.() -> Unit = {}): CfnDataAutomationProject.VideoOverrideConfigurationProperty = CfnDataAutomationProject.VideoOverrideConfigurationProperty.Builder().apply(initializer).build()

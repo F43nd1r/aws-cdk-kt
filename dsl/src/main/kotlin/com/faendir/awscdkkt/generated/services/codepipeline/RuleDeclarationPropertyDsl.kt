@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.CfnPipeline
 
 @Generated
-public fun buildRuleDeclarationProperty(initializer: @AwsCdkDsl
-    CfnPipeline.RuleDeclarationProperty.Builder.() -> Unit = {}):
-    CfnPipeline.RuleDeclarationProperty =
-    CfnPipeline.RuleDeclarationProperty.Builder().apply(initializer).build()
+public fun buildRuleDeclarationProperty(initializer: @AwsCdkDsl CfnPipeline.RuleDeclarationProperty.Builder.() -> Unit = {}): CfnPipeline.RuleDeclarationProperty = CfnPipeline.RuleDeclarationProperty.Builder().apply(initializer).build()

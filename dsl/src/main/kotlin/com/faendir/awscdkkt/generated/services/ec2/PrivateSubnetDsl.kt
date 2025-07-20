@@ -16,6 +16,4 @@ public fun Construct.privateSubnet(
 ): PrivateSubnet = PrivateSubnet(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildPrivateSubnet(id: String, initializer: @AwsCdkDsl
-    PrivateSubnet.Builder.() -> Unit = {}): PrivateSubnet = PrivateSubnet.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildPrivateSubnet(id: String, initializer: @AwsCdkDsl PrivateSubnet.Builder.() -> Unit = {}): PrivateSubnet = PrivateSubnet.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.evs.CfnEnvironment
 
 @Generated
-public fun buildInitialVlanInfoProperty(initializer: @AwsCdkDsl
-    CfnEnvironment.InitialVlanInfoProperty.Builder.() -> Unit = {}):
-    CfnEnvironment.InitialVlanInfoProperty =
-    CfnEnvironment.InitialVlanInfoProperty.Builder().apply(initializer).build()
+public fun buildInitialVlanInfoProperty(initializer: @AwsCdkDsl CfnEnvironment.InitialVlanInfoProperty.Builder.() -> Unit = {}): CfnEnvironment.InitialVlanInfoProperty = CfnEnvironment.InitialVlanInfoProperty.Builder().apply(initializer).build()

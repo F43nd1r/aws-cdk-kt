@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.ClusterProps
 
 @Generated
-public fun buildClusterProps(initializer: @AwsCdkDsl ClusterProps.Builder.() -> Unit = {}):
-    ClusterProps = ClusterProps.Builder().apply(initializer).build()
+public fun buildClusterProps(initializer: @AwsCdkDsl ClusterProps.Builder.() -> Unit = {}): ClusterProps = ClusterProps.Builder().apply(initializer).build()

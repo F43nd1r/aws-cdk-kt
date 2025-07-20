@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnIdentityPoolRoleAttachmentProps
 
 @Generated
-public fun buildCfnIdentityPoolRoleAttachmentProps(initializer: @AwsCdkDsl
-    CfnIdentityPoolRoleAttachmentProps.Builder.() -> Unit = {}): CfnIdentityPoolRoleAttachmentProps
-    = CfnIdentityPoolRoleAttachmentProps.Builder().apply(initializer).build()
+public fun buildCfnIdentityPoolRoleAttachmentProps(initializer: @AwsCdkDsl CfnIdentityPoolRoleAttachmentProps.Builder.() -> Unit = {}): CfnIdentityPoolRoleAttachmentProps = CfnIdentityPoolRoleAttachmentProps.Builder().apply(initializer).build()

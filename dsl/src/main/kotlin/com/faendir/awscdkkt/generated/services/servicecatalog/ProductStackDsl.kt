@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.servicecatalog.ProductStackProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.productStack(id: String, initializer: @AwsCdkDsl ProductStack.() -> Unit = {}):
-    ProductStack = ProductStack(this, id).apply(initializer)
+public fun Construct.productStack(id: String, initializer: @AwsCdkDsl ProductStack.() -> Unit = {}): ProductStack = ProductStack(this, id).apply(initializer)
 
 @Generated
 public fun Construct.productStack(
@@ -20,6 +19,4 @@ public fun Construct.productStack(
 ): ProductStack = ProductStack(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildProductStack(id: String, initializer: @AwsCdkDsl
-    ProductStack.Builder.() -> Unit = {}): ProductStack = ProductStack.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildProductStack(id: String, initializer: @AwsCdkDsl ProductStack.Builder.() -> Unit = {}): ProductStack = ProductStack.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnMailManagerRelay(
 ): CfnMailManagerRelay = CfnMailManagerRelay(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMailManagerRelay(id: String, initializer: @AwsCdkDsl
-    CfnMailManagerRelay.Builder.() -> Unit = {}): CfnMailManagerRelay =
-    CfnMailManagerRelay.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMailManagerRelay(id: String, initializer: @AwsCdkDsl CfnMailManagerRelay.Builder.() -> Unit = {}): CfnMailManagerRelay = CfnMailManagerRelay.Builder.create(this, id).apply(initializer).build()

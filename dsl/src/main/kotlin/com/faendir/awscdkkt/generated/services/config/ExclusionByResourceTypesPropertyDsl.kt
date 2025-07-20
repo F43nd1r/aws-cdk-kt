@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.config.CfnConfigurationRecorder
 
 @Generated
-public fun buildExclusionByResourceTypesProperty(initializer: @AwsCdkDsl
-    CfnConfigurationRecorder.ExclusionByResourceTypesProperty.Builder.() -> Unit = {}):
-    CfnConfigurationRecorder.ExclusionByResourceTypesProperty =
-    CfnConfigurationRecorder.ExclusionByResourceTypesProperty.Builder().apply(initializer).build()
+public fun buildExclusionByResourceTypesProperty(initializer: @AwsCdkDsl CfnConfigurationRecorder.ExclusionByResourceTypesProperty.Builder.() -> Unit = {}): CfnConfigurationRecorder.ExclusionByResourceTypesProperty = CfnConfigurationRecorder.ExclusionByResourceTypesProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
-public fun buildFieldToProtectProperty(initializer: @AwsCdkDsl
-    CfnWebACL.FieldToProtectProperty.Builder.() -> Unit = {}): CfnWebACL.FieldToProtectProperty =
-    CfnWebACL.FieldToProtectProperty.Builder().apply(initializer).build()
+public fun buildFieldToProtectProperty(initializer: @AwsCdkDsl CfnWebACL.FieldToProtectProperty.Builder.() -> Unit = {}): CfnWebACL.FieldToProtectProperty = CfnWebACL.FieldToProtectProperty.Builder().apply(initializer).build()

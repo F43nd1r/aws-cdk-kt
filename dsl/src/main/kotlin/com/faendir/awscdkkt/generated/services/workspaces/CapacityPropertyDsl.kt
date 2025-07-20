@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.workspaces.CfnWorkspacesPool
 
 @Generated
-public fun buildCapacityProperty(initializer: @AwsCdkDsl
-    CfnWorkspacesPool.CapacityProperty.Builder.() -> Unit = {}): CfnWorkspacesPool.CapacityProperty
-    = CfnWorkspacesPool.CapacityProperty.Builder().apply(initializer).build()
+public fun buildCapacityProperty(initializer: @AwsCdkDsl CfnWorkspacesPool.CapacityProperty.Builder.() -> Unit = {}): CfnWorkspacesPool.CapacityProperty = CfnWorkspacesPool.CapacityProperty.Builder().apply(initializer).build()

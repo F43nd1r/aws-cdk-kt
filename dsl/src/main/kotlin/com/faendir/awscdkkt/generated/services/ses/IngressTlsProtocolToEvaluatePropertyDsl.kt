@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnMailManagerTrafficPolicy
 
 @Generated
-public fun buildIngressTlsProtocolToEvaluateProperty(initializer: @AwsCdkDsl
-    CfnMailManagerTrafficPolicy.IngressTlsProtocolToEvaluateProperty.Builder.() -> Unit = {}):
-    CfnMailManagerTrafficPolicy.IngressTlsProtocolToEvaluateProperty =
-    CfnMailManagerTrafficPolicy.IngressTlsProtocolToEvaluateProperty.Builder().apply(initializer).build()
+public fun buildIngressTlsProtocolToEvaluateProperty(initializer: @AwsCdkDsl CfnMailManagerTrafficPolicy.IngressTlsProtocolToEvaluateProperty.Builder.() -> Unit = {}): CfnMailManagerTrafficPolicy.IngressTlsProtocolToEvaluateProperty = CfnMailManagerTrafficPolicy.IngressTlsProtocolToEvaluateProperty.Builder().apply(initializer).build()

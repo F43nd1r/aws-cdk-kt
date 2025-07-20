@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnSpotFleet
 
 @Generated
-public fun buildNetworkInterfaceCountRequestProperty(initializer: @AwsCdkDsl
-    CfnSpotFleet.NetworkInterfaceCountRequestProperty.Builder.() -> Unit = {}):
-    CfnSpotFleet.NetworkInterfaceCountRequestProperty =
-    CfnSpotFleet.NetworkInterfaceCountRequestProperty.Builder().apply(initializer).build()
+public fun buildNetworkInterfaceCountRequestProperty(initializer: @AwsCdkDsl CfnSpotFleet.NetworkInterfaceCountRequestProperty.Builder.() -> Unit = {}): CfnSpotFleet.NetworkInterfaceCountRequestProperty = CfnSpotFleet.NetworkInterfaceCountRequestProperty.Builder().apply(initializer).build()

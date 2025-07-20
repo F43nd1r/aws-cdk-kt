@@ -16,5 +16,4 @@ public fun Construct.eventApi(
 ): EventApi = EventApi(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEventApi(id: String, initializer: @AwsCdkDsl EventApi.Builder.() -> Unit =
-    {}): EventApi = EventApi.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildEventApi(id: String, initializer: @AwsCdkDsl EventApi.Builder.() -> Unit = {}): EventApi = EventApi.Builder.create(this, id).apply(initializer).build()

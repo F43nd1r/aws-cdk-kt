@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnOriginRequestPolicyProps
 
 @Generated
-public fun buildCfnOriginRequestPolicyProps(initializer: @AwsCdkDsl
-    CfnOriginRequestPolicyProps.Builder.() -> Unit = {}): CfnOriginRequestPolicyProps =
-    CfnOriginRequestPolicyProps.Builder().apply(initializer).build()
+public fun buildCfnOriginRequestPolicyProps(initializer: @AwsCdkDsl CfnOriginRequestPolicyProps.Builder.() -> Unit = {}): CfnOriginRequestPolicyProps = CfnOriginRequestPolicyProps.Builder().apply(initializer).build()

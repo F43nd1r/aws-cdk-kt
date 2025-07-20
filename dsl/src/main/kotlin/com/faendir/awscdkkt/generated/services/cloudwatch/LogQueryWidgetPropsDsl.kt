@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.LogQueryWidgetProps
 
 @Generated
-public fun buildLogQueryWidgetProps(initializer: @AwsCdkDsl LogQueryWidgetProps.Builder.() -> Unit =
-    {}): LogQueryWidgetProps = LogQueryWidgetProps.Builder().apply(initializer).build()
+public fun buildLogQueryWidgetProps(initializer: @AwsCdkDsl LogQueryWidgetProps.Builder.() -> Unit = {}): LogQueryWidgetProps = LogQueryWidgetProps.Builder().apply(initializer).build()

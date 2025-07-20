@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.HttpConnectionPool
 
 @Generated
-public fun buildHttpConnectionPool(initializer: @AwsCdkDsl HttpConnectionPool.Builder.() -> Unit =
-    {}): HttpConnectionPool = HttpConnectionPool.Builder().apply(initializer).build()
+public fun buildHttpConnectionPool(initializer: @AwsCdkDsl HttpConnectionPool.Builder.() -> Unit = {}): HttpConnectionPool = HttpConnectionPool.Builder().apply(initializer).build()

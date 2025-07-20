@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildDateTimeValueWhenUnsetConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DateTimeValueWhenUnsetConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.DateTimeValueWhenUnsetConfigurationProperty =
-    CfnTemplate.DateTimeValueWhenUnsetConfigurationProperty.Builder().apply(initializer).build()
+public fun buildDateTimeValueWhenUnsetConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.DateTimeValueWhenUnsetConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.DateTimeValueWhenUnsetConfigurationProperty = CfnTemplate.DateTimeValueWhenUnsetConfigurationProperty.Builder().apply(initializer).build()

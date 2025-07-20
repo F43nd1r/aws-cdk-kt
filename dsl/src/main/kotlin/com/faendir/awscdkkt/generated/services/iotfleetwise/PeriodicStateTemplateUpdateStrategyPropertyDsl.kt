@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotfleetwise.CfnVehicle
 
 @Generated
-public fun buildPeriodicStateTemplateUpdateStrategyProperty(initializer: @AwsCdkDsl
-    CfnVehicle.PeriodicStateTemplateUpdateStrategyProperty.Builder.() -> Unit = {}):
-    CfnVehicle.PeriodicStateTemplateUpdateStrategyProperty =
-    CfnVehicle.PeriodicStateTemplateUpdateStrategyProperty.Builder().apply(initializer).build()
+public fun buildPeriodicStateTemplateUpdateStrategyProperty(initializer: @AwsCdkDsl CfnVehicle.PeriodicStateTemplateUpdateStrategyProperty.Builder.() -> Unit = {}): CfnVehicle.PeriodicStateTemplateUpdateStrategyProperty = CfnVehicle.PeriodicStateTemplateUpdateStrategyProperty.Builder().apply(initializer).build()

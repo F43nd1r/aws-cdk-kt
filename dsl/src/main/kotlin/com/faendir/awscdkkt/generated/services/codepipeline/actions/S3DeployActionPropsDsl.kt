@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.S3DeployActionProps
 
 @Generated
-public fun buildS3DeployActionProps(initializer: @AwsCdkDsl S3DeployActionProps.Builder.() -> Unit =
-    {}): S3DeployActionProps = S3DeployActionProps.Builder().apply(initializer).build()
+public fun buildS3DeployActionProps(initializer: @AwsCdkDsl S3DeployActionProps.Builder.() -> Unit = {}): S3DeployActionProps = S3DeployActionProps.Builder().apply(initializer).build()

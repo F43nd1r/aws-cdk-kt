@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloudassembly.schema.FeatureFlag
 
 @Generated
-public fun buildFeatureFlag(initializer: @AwsCdkDsl FeatureFlag.Builder.() -> Unit = {}):
-    FeatureFlag = FeatureFlag.Builder().apply(initializer).build()
+public fun buildFeatureFlag(initializer: @AwsCdkDsl FeatureFlag.Builder.() -> Unit = {}): FeatureFlag = FeatureFlag.Builder().apply(initializer).build()

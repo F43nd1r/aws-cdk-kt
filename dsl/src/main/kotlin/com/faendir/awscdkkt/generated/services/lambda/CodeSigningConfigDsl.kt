@@ -16,6 +16,4 @@ public fun Construct.codeSigningConfig(
 ): CodeSigningConfig = CodeSigningConfig(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCodeSigningConfig(id: String, initializer: @AwsCdkDsl
-    CodeSigningConfig.Builder.() -> Unit = {}): CodeSigningConfig =
-    CodeSigningConfig.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCodeSigningConfig(id: String, initializer: @AwsCdkDsl CodeSigningConfig.Builder.() -> Unit = {}): CodeSigningConfig = CodeSigningConfig.Builder.create(this, id).apply(initializer).build()

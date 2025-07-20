@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloud_assembly_schema.AmiContextQuery
 
 @Generated
-public fun buildAmiContextQuery(initializer: @AwsCdkDsl AmiContextQuery.Builder.() -> Unit = {}):
-    AmiContextQuery = AmiContextQuery.Builder().apply(initializer).build()
+public fun buildAmiContextQuery(initializer: @AwsCdkDsl AmiContextQuery.Builder.() -> Unit = {}): AmiContextQuery = AmiContextQuery.Builder().apply(initializer).build()

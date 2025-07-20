@@ -7,6 +7,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.AssetApiDefinition
 
 @Generated
-public fun buildAssetApiDefinition(path: String, initializer: @AwsCdkDsl
-    AssetApiDefinition.Builder.() -> Unit = {}): AssetApiDefinition =
-    AssetApiDefinition.Builder.create(path).apply(initializer).build()
+public fun buildAssetApiDefinition(path: String, initializer: @AwsCdkDsl AssetApiDefinition.Builder.() -> Unit = {}): AssetApiDefinition = AssetApiDefinition.Builder.create(path).apply(initializer).build()

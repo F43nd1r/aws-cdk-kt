@@ -9,19 +9,14 @@ import software.amazon.awscdk.services.devopsguru.CfnLogAnomalyDetectionIntegrat
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnLogAnomalyDetectionIntegration(id: String, initializer: @AwsCdkDsl
-    CfnLogAnomalyDetectionIntegration.() -> Unit = {}): CfnLogAnomalyDetectionIntegration =
-    CfnLogAnomalyDetectionIntegration(this, id).apply(initializer)
+public fun Construct.cfnLogAnomalyDetectionIntegration(id: String, initializer: @AwsCdkDsl CfnLogAnomalyDetectionIntegration.() -> Unit = {}): CfnLogAnomalyDetectionIntegration = CfnLogAnomalyDetectionIntegration(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnLogAnomalyDetectionIntegration(
   id: String,
   props: CfnLogAnomalyDetectionIntegrationProps,
   initializer: @AwsCdkDsl CfnLogAnomalyDetectionIntegration.() -> Unit = {},
-): CfnLogAnomalyDetectionIntegration = CfnLogAnomalyDetectionIntegration(this, id,
-    props).apply(initializer)
+): CfnLogAnomalyDetectionIntegration = CfnLogAnomalyDetectionIntegration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLogAnomalyDetectionIntegration(id: String, initializer: @AwsCdkDsl
-    CfnLogAnomalyDetectionIntegration.Builder.() -> Unit = {}): CfnLogAnomalyDetectionIntegration =
-    CfnLogAnomalyDetectionIntegration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLogAnomalyDetectionIntegration(id: String, initializer: @AwsCdkDsl CfnLogAnomalyDetectionIntegration.Builder.() -> Unit = {}): CfnLogAnomalyDetectionIntegration = CfnLogAnomalyDetectionIntegration.Builder.create(this, id).apply(initializer).build()

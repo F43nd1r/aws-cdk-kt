@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.customresources.LoggingProps
 
 @Generated
-public fun buildLoggingProps(initializer: @AwsCdkDsl LoggingProps.Builder.() -> Unit = {}):
-    LoggingProps = LoggingProps.Builder().apply(initializer).build()
+public fun buildLoggingProps(initializer: @AwsCdkDsl LoggingProps.Builder.() -> Unit = {}): LoggingProps = LoggingProps.Builder().apply(initializer).build()

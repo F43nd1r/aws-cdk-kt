@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ivs.CfnRecordingConfigurationProps
 
 @Generated
-public fun buildCfnRecordingConfigurationProps(initializer: @AwsCdkDsl
-    CfnRecordingConfigurationProps.Builder.() -> Unit = {}): CfnRecordingConfigurationProps =
-    CfnRecordingConfigurationProps.Builder().apply(initializer).build()
+public fun buildCfnRecordingConfigurationProps(initializer: @AwsCdkDsl CfnRecordingConfigurationProps.Builder.() -> Unit = {}): CfnRecordingConfigurationProps = CfnRecordingConfigurationProps.Builder().apply(initializer).build()

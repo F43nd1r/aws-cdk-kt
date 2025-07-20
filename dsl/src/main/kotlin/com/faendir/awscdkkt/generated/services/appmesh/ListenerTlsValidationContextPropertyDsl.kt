@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnVirtualNode
 
 @Generated
-public fun buildListenerTlsValidationContextProperty(initializer: @AwsCdkDsl
-    CfnVirtualNode.ListenerTlsValidationContextProperty.Builder.() -> Unit = {}):
-    CfnVirtualNode.ListenerTlsValidationContextProperty =
-    CfnVirtualNode.ListenerTlsValidationContextProperty.Builder().apply(initializer).build()
+public fun buildListenerTlsValidationContextProperty(initializer: @AwsCdkDsl CfnVirtualNode.ListenerTlsValidationContextProperty.Builder.() -> Unit = {}): CfnVirtualNode.ListenerTlsValidationContextProperty = CfnVirtualNode.ListenerTlsValidationContextProperty.Builder().apply(initializer).build()

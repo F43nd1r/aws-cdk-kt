@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rolesanywhere.CfnCRLProps
 
 @Generated
-public fun buildCfnCRLProps(initializer: @AwsCdkDsl CfnCRLProps.Builder.() -> Unit = {}):
-    CfnCRLProps = CfnCRLProps.Builder().apply(initializer).build()
+public fun buildCfnCRLProps(initializer: @AwsCdkDsl CfnCRLProps.Builder.() -> Unit = {}): CfnCRLProps = CfnCRLProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appstream.CfnStack
 
 @Generated
-public fun buildAccessEndpointProperty(initializer: @AwsCdkDsl
-    CfnStack.AccessEndpointProperty.Builder.() -> Unit = {}): CfnStack.AccessEndpointProperty =
-    CfnStack.AccessEndpointProperty.Builder().apply(initializer).build()
+public fun buildAccessEndpointProperty(initializer: @AwsCdkDsl CfnStack.AccessEndpointProperty.Builder.() -> Unit = {}): CfnStack.AccessEndpointProperty = CfnStack.AccessEndpointProperty.Builder().apply(initializer).build()

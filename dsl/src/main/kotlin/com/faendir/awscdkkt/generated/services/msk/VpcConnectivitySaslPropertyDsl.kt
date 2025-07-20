@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.msk.CfnCluster
 
 @Generated
-public fun buildVpcConnectivitySaslProperty(initializer: @AwsCdkDsl
-    CfnCluster.VpcConnectivitySaslProperty.Builder.() -> Unit = {}):
-    CfnCluster.VpcConnectivitySaslProperty =
-    CfnCluster.VpcConnectivitySaslProperty.Builder().apply(initializer).build()
+public fun buildVpcConnectivitySaslProperty(initializer: @AwsCdkDsl CfnCluster.VpcConnectivitySaslProperty.Builder.() -> Unit = {}): CfnCluster.VpcConnectivitySaslProperty = CfnCluster.VpcConnectivitySaslProperty.Builder().apply(initializer).build()

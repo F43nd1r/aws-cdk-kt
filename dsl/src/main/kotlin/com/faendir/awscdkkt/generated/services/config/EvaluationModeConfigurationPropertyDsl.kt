@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.config.CfnConfigRule
 
 @Generated
-public fun buildEvaluationModeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnConfigRule.EvaluationModeConfigurationProperty.Builder.() -> Unit = {}):
-    CfnConfigRule.EvaluationModeConfigurationProperty =
-    CfnConfigRule.EvaluationModeConfigurationProperty.Builder().apply(initializer).build()
+public fun buildEvaluationModeConfigurationProperty(initializer: @AwsCdkDsl CfnConfigRule.EvaluationModeConfigurationProperty.Builder.() -> Unit = {}): CfnConfigRule.EvaluationModeConfigurationProperty = CfnConfigRule.EvaluationModeConfigurationProperty.Builder().apply(initializer).build()

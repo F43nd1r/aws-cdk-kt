@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sns.subscriptions.LambdaSubscriptionProps
 
 @Generated
-public fun buildLambdaSubscriptionProps(initializer: @AwsCdkDsl
-    LambdaSubscriptionProps.Builder.() -> Unit = {}): LambdaSubscriptionProps =
-    LambdaSubscriptionProps.Builder().apply(initializer).build()
+public fun buildLambdaSubscriptionProps(initializer: @AwsCdkDsl LambdaSubscriptionProps.Builder.() -> Unit = {}): LambdaSubscriptionProps = LambdaSubscriptionProps.Builder().apply(initializer).build()

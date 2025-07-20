@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datasync.CfnLocationEFS
 
 @Generated
-public fun buildEc2ConfigProperty(initializer: @AwsCdkDsl
-    CfnLocationEFS.Ec2ConfigProperty.Builder.() -> Unit = {}): CfnLocationEFS.Ec2ConfigProperty =
-    CfnLocationEFS.Ec2ConfigProperty.Builder().apply(initializer).build()
+public fun buildEc2ConfigProperty(initializer: @AwsCdkDsl CfnLocationEFS.Ec2ConfigProperty.Builder.() -> Unit = {}): CfnLocationEFS.Ec2ConfigProperty = CfnLocationEFS.Ec2ConfigProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.origins.S3BucketOriginBaseProps
 
 @Generated
-public fun buildS3BucketOriginBaseProps(initializer: @AwsCdkDsl
-    S3BucketOriginBaseProps.Builder.() -> Unit = {}): S3BucketOriginBaseProps =
-    S3BucketOriginBaseProps.Builder().apply(initializer).build()
+public fun buildS3BucketOriginBaseProps(initializer: @AwsCdkDsl S3BucketOriginBaseProps.Builder.() -> Unit = {}): S3BucketOriginBaseProps = S3BucketOriginBaseProps.Builder().apply(initializer).build()

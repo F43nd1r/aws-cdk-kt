@@ -16,6 +16,4 @@ public fun Construct.cfnDeploymentStrategy(
 ): CfnDeploymentStrategy = CfnDeploymentStrategy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDeploymentStrategy(id: String, initializer: @AwsCdkDsl
-    CfnDeploymentStrategy.Builder.() -> Unit = {}): CfnDeploymentStrategy =
-    CfnDeploymentStrategy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDeploymentStrategy(id: String, initializer: @AwsCdkDsl CfnDeploymentStrategy.Builder.() -> Unit = {}): CfnDeploymentStrategy = CfnDeploymentStrategy.Builder.create(this, id).apply(initializer).build()

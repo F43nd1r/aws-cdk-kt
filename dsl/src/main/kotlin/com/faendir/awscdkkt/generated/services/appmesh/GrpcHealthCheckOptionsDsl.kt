@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.GrpcHealthCheckOptions
 
 @Generated
-public fun buildGrpcHealthCheckOptions(initializer: @AwsCdkDsl
-    GrpcHealthCheckOptions.Builder.() -> Unit = {}): GrpcHealthCheckOptions =
-    GrpcHealthCheckOptions.Builder().apply(initializer).build()
+public fun buildGrpcHealthCheckOptions(initializer: @AwsCdkDsl GrpcHealthCheckOptions.Builder.() -> Unit = {}): GrpcHealthCheckOptions = GrpcHealthCheckOptions.Builder().apply(initializer).build()

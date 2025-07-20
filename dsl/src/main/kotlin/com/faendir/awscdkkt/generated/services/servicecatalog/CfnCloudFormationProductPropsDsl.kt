@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicecatalog.CfnCloudFormationProductProps
 
 @Generated
-public fun buildCfnCloudFormationProductProps(initializer: @AwsCdkDsl
-    CfnCloudFormationProductProps.Builder.() -> Unit = {}): CfnCloudFormationProductProps =
-    CfnCloudFormationProductProps.Builder().apply(initializer).build()
+public fun buildCfnCloudFormationProductProps(initializer: @AwsCdkDsl CfnCloudFormationProductProps.Builder.() -> Unit = {}): CfnCloudFormationProductProps = CfnCloudFormationProductProps.Builder().apply(initializer).build()

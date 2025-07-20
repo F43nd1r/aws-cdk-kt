@@ -16,6 +16,4 @@ public fun Construct.dynamoUpdateItem(
 ): DynamoUpdateItem = DynamoUpdateItem(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildDynamoUpdateItem(id: String, initializer: @AwsCdkDsl
-    DynamoUpdateItem.Builder.() -> Unit = {}): DynamoUpdateItem =
-    DynamoUpdateItem.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildDynamoUpdateItem(id: String, initializer: @AwsCdkDsl DynamoUpdateItem.Builder.() -> Unit = {}): DynamoUpdateItem = DynamoUpdateItem.Builder.create(this, id).apply(initializer).build()

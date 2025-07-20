@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnCloudWatchAlarmTemplateGroupProps
 
 @Generated
-public fun buildCfnCloudWatchAlarmTemplateGroupProps(initializer: @AwsCdkDsl
-    CfnCloudWatchAlarmTemplateGroupProps.Builder.() -> Unit = {}):
-    CfnCloudWatchAlarmTemplateGroupProps =
-    CfnCloudWatchAlarmTemplateGroupProps.Builder().apply(initializer).build()
+public fun buildCfnCloudWatchAlarmTemplateGroupProps(initializer: @AwsCdkDsl CfnCloudWatchAlarmTemplateGroupProps.Builder.() -> Unit = {}): CfnCloudWatchAlarmTemplateGroupProps = CfnCloudWatchAlarmTemplateGroupProps.Builder().apply(initializer).build()

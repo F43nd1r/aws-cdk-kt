@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnLogDeliveryConfiguration
 
 @Generated
-public fun buildFirehoseConfigurationProperty(initializer: @AwsCdkDsl
-    CfnLogDeliveryConfiguration.FirehoseConfigurationProperty.Builder.() -> Unit = {}):
-    CfnLogDeliveryConfiguration.FirehoseConfigurationProperty =
-    CfnLogDeliveryConfiguration.FirehoseConfigurationProperty.Builder().apply(initializer).build()
+public fun buildFirehoseConfigurationProperty(initializer: @AwsCdkDsl CfnLogDeliveryConfiguration.FirehoseConfigurationProperty.Builder.() -> Unit = {}): CfnLogDeliveryConfiguration.FirehoseConfigurationProperty = CfnLogDeliveryConfiguration.FirehoseConfigurationProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.AthenaGetQueryExecutionJsonPathProps
 
 @Generated
-public fun buildAthenaGetQueryExecutionJsonPathProps(initializer: @AwsCdkDsl
-    AthenaGetQueryExecutionJsonPathProps.Builder.() -> Unit = {}):
-    AthenaGetQueryExecutionJsonPathProps =
-    AthenaGetQueryExecutionJsonPathProps.Builder().apply(initializer).build()
+public fun buildAthenaGetQueryExecutionJsonPathProps(initializer: @AwsCdkDsl AthenaGetQueryExecutionJsonPathProps.Builder.() -> Unit = {}): AthenaGetQueryExecutionJsonPathProps = AthenaGetQueryExecutionJsonPathProps.Builder().apply(initializer).build()

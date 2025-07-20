@@ -16,6 +16,4 @@ public fun Construct.customActionRegistration(
 ): CustomActionRegistration = CustomActionRegistration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCustomActionRegistration(id: String, initializer: @AwsCdkDsl
-    CustomActionRegistration.Builder.() -> Unit = {}): CustomActionRegistration =
-    CustomActionRegistration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCustomActionRegistration(id: String, initializer: @AwsCdkDsl CustomActionRegistration.Builder.() -> Unit = {}): CustomActionRegistration = CustomActionRegistration.Builder.create(this, id).apply(initializer).build()

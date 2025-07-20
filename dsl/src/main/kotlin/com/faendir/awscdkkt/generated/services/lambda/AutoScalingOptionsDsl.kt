@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.AutoScalingOptions
 
 @Generated
-public fun buildAutoScalingOptions(initializer: @AwsCdkDsl AutoScalingOptions.Builder.() -> Unit =
-    {}): AutoScalingOptions = AutoScalingOptions.Builder().apply(initializer).build()
+public fun buildAutoScalingOptions(initializer: @AwsCdkDsl AutoScalingOptions.Builder.() -> Unit = {}): AutoScalingOptions = AutoScalingOptions.Builder().apply(initializer).build()

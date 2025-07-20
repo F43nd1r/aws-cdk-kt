@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.AllocateVpcIpv6CidrRequest
 
 @Generated
-public fun buildAllocateVpcIpv6CidrRequest(initializer: @AwsCdkDsl
-    AllocateVpcIpv6CidrRequest.Builder.() -> Unit = {}): AllocateVpcIpv6CidrRequest =
-    AllocateVpcIpv6CidrRequest.Builder().apply(initializer).build()
+public fun buildAllocateVpcIpv6CidrRequest(initializer: @AwsCdkDsl AllocateVpcIpv6CidrRequest.Builder.() -> Unit = {}): AllocateVpcIpv6CidrRequest = AllocateVpcIpv6CidrRequest.Builder().apply(initializer).build()

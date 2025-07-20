@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EvaluateExpressionProps
 
 @Generated
-public fun buildEvaluateExpressionProps(initializer: @AwsCdkDsl
-    EvaluateExpressionProps.Builder.() -> Unit = {}): EvaluateExpressionProps =
-    EvaluateExpressionProps.Builder().apply(initializer).build()
+public fun buildEvaluateExpressionProps(initializer: @AwsCdkDsl EvaluateExpressionProps.Builder.() -> Unit = {}): EvaluateExpressionProps = EvaluateExpressionProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3express.CfnDirectoryBucket
 
 @Generated
-public fun buildAbortIncompleteMultipartUploadProperty(initializer: @AwsCdkDsl
-    CfnDirectoryBucket.AbortIncompleteMultipartUploadProperty.Builder.() -> Unit = {}):
-    CfnDirectoryBucket.AbortIncompleteMultipartUploadProperty =
-    CfnDirectoryBucket.AbortIncompleteMultipartUploadProperty.Builder().apply(initializer).build()
+public fun buildAbortIncompleteMultipartUploadProperty(initializer: @AwsCdkDsl CfnDirectoryBucket.AbortIncompleteMultipartUploadProperty.Builder.() -> Unit = {}): CfnDirectoryBucket.AbortIncompleteMultipartUploadProperty = CfnDirectoryBucket.AbortIncompleteMultipartUploadProperty.Builder().apply(initializer).build()

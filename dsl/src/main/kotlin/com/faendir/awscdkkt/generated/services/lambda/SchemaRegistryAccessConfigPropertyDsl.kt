@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.CfnEventSourceMapping
 
 @Generated
-public fun buildSchemaRegistryAccessConfigProperty(initializer: @AwsCdkDsl
-    CfnEventSourceMapping.SchemaRegistryAccessConfigProperty.Builder.() -> Unit = {}):
-    CfnEventSourceMapping.SchemaRegistryAccessConfigProperty =
-    CfnEventSourceMapping.SchemaRegistryAccessConfigProperty.Builder().apply(initializer).build()
+public fun buildSchemaRegistryAccessConfigProperty(initializer: @AwsCdkDsl CfnEventSourceMapping.SchemaRegistryAccessConfigProperty.Builder.() -> Unit = {}): CfnEventSourceMapping.SchemaRegistryAccessConfigProperty = CfnEventSourceMapping.SchemaRegistryAccessConfigProperty.Builder().apply(initializer).build()

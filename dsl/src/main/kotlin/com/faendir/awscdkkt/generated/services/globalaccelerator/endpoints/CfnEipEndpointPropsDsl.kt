@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.globalaccelerator.endpoints.CfnEipEndpointProps
 
 @Generated
-public fun buildCfnEipEndpointProps(initializer: @AwsCdkDsl CfnEipEndpointProps.Builder.() -> Unit =
-    {}): CfnEipEndpointProps = CfnEipEndpointProps.Builder().apply(initializer).build()
+public fun buildCfnEipEndpointProps(initializer: @AwsCdkDsl CfnEipEndpointProps.Builder.() -> Unit = {}): CfnEipEndpointProps = CfnEipEndpointProps.Builder().apply(initializer).build()

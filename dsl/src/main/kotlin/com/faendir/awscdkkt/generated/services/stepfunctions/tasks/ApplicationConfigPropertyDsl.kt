@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrCreateCluster
 
 @Generated
-public fun buildApplicationConfigProperty(initializer: @AwsCdkDsl
-    EmrCreateCluster.ApplicationConfigProperty.Builder.() -> Unit = {}):
-    EmrCreateCluster.ApplicationConfigProperty =
-    EmrCreateCluster.ApplicationConfigProperty.Builder().apply(initializer).build()
+public fun buildApplicationConfigProperty(initializer: @AwsCdkDsl EmrCreateCluster.ApplicationConfigProperty.Builder.() -> Unit = {}): EmrCreateCluster.ApplicationConfigProperty = EmrCreateCluster.ApplicationConfigProperty.Builder().apply(initializer).build()

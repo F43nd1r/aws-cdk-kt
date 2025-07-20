@@ -16,6 +16,4 @@ public fun Construct.cfnSMSChannel(
 ): CfnSMSChannel = CfnSMSChannel(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSMSChannel(id: String, initializer: @AwsCdkDsl
-    CfnSMSChannel.Builder.() -> Unit = {}): CfnSMSChannel = CfnSMSChannel.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnSMSChannel(id: String, initializer: @AwsCdkDsl CfnSMSChannel.Builder.() -> Unit = {}): CfnSMSChannel = CfnSMSChannel.Builder.create(this, id).apply(initializer).build()

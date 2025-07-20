@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.CfnDataSource
 
 @Generated
-public fun buildAwsIamConfigProperty(initializer: @AwsCdkDsl
-    CfnDataSource.AwsIamConfigProperty.Builder.() -> Unit = {}): CfnDataSource.AwsIamConfigProperty
-    = CfnDataSource.AwsIamConfigProperty.Builder().apply(initializer).build()
+public fun buildAwsIamConfigProperty(initializer: @AwsCdkDsl CfnDataSource.AwsIamConfigProperty.Builder.() -> Unit = {}): CfnDataSource.AwsIamConfigProperty = CfnDataSource.AwsIamConfigProperty.Builder().apply(initializer).build()

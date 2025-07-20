@@ -16,6 +16,4 @@ public fun Construct.cfnVodSource(
 ): CfnVodSource = CfnVodSource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVodSource(id: String, initializer: @AwsCdkDsl
-    CfnVodSource.Builder.() -> Unit = {}): CfnVodSource = CfnVodSource.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnVodSource(id: String, initializer: @AwsCdkDsl CfnVodSource.Builder.() -> Unit = {}): CfnVodSource = CfnVodSource.Builder.create(this, id).apply(initializer).build()

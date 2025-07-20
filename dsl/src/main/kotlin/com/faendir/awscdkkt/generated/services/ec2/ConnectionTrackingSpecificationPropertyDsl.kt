@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnNetworkInterface
 
 @Generated
-public fun buildConnectionTrackingSpecificationProperty(initializer: @AwsCdkDsl
-    CfnNetworkInterface.ConnectionTrackingSpecificationProperty.Builder.() -> Unit = {}):
-    CfnNetworkInterface.ConnectionTrackingSpecificationProperty =
-    CfnNetworkInterface.ConnectionTrackingSpecificationProperty.Builder().apply(initializer).build()
+public fun buildConnectionTrackingSpecificationProperty(initializer: @AwsCdkDsl CfnNetworkInterface.ConnectionTrackingSpecificationProperty.Builder.() -> Unit = {}): CfnNetworkInterface.ConnectionTrackingSpecificationProperty = CfnNetworkInterface.ConnectionTrackingSpecificationProperty.Builder().apply(initializer).build()

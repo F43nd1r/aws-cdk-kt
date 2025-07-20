@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildDimensionMappingProperty(initializer: @AwsCdkDsl
-    CfnPipe.DimensionMappingProperty.Builder.() -> Unit = {}): CfnPipe.DimensionMappingProperty =
-    CfnPipe.DimensionMappingProperty.Builder().apply(initializer).build()
+public fun buildDimensionMappingProperty(initializer: @AwsCdkDsl CfnPipe.DimensionMappingProperty.Builder.() -> Unit = {}): CfnPipe.DimensionMappingProperty = CfnPipe.DimensionMappingProperty.Builder().apply(initializer).build()

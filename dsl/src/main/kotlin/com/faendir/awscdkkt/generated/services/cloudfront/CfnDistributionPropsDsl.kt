@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnDistributionProps
 
 @Generated
-public fun buildCfnDistributionProps(initializer: @AwsCdkDsl CfnDistributionProps.Builder.() -> Unit
-    = {}): CfnDistributionProps = CfnDistributionProps.Builder().apply(initializer).build()
+public fun buildCfnDistributionProps(initializer: @AwsCdkDsl CfnDistributionProps.Builder.() -> Unit = {}): CfnDistributionProps = CfnDistributionProps.Builder().apply(initializer).build()

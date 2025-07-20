@@ -16,6 +16,4 @@ public fun Construct.cfnVolumeAssociation(
 ): CfnVolumeAssociation = CfnVolumeAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVolumeAssociation(id: String, initializer: @AwsCdkDsl
-    CfnVolumeAssociation.Builder.() -> Unit = {}): CfnVolumeAssociation =
-    CfnVolumeAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnVolumeAssociation(id: String, initializer: @AwsCdkDsl CfnVolumeAssociation.Builder.() -> Unit = {}): CfnVolumeAssociation = CfnVolumeAssociation.Builder.create(this, id).apply(initializer).build()

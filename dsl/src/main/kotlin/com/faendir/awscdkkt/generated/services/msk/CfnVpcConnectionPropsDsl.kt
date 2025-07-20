@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.msk.CfnVpcConnectionProps
 
 @Generated
-public fun buildCfnVpcConnectionProps(initializer: @AwsCdkDsl
-    CfnVpcConnectionProps.Builder.() -> Unit = {}): CfnVpcConnectionProps =
-    CfnVpcConnectionProps.Builder().apply(initializer).build()
+public fun buildCfnVpcConnectionProps(initializer: @AwsCdkDsl CfnVpcConnectionProps.Builder.() -> Unit = {}): CfnVpcConnectionProps = CfnVpcConnectionProps.Builder().apply(initializer).build()

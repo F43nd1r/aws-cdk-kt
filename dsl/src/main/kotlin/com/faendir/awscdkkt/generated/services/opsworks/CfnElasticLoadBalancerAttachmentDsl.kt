@@ -13,10 +13,7 @@ public fun Construct.cfnElasticLoadBalancerAttachment(
   id: String,
   props: CfnElasticLoadBalancerAttachmentProps,
   initializer: @AwsCdkDsl CfnElasticLoadBalancerAttachment.() -> Unit = {},
-): CfnElasticLoadBalancerAttachment = CfnElasticLoadBalancerAttachment(this, id,
-    props).apply(initializer)
+): CfnElasticLoadBalancerAttachment = CfnElasticLoadBalancerAttachment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnElasticLoadBalancerAttachment(id: String, initializer: @AwsCdkDsl
-    CfnElasticLoadBalancerAttachment.Builder.() -> Unit = {}): CfnElasticLoadBalancerAttachment =
-    CfnElasticLoadBalancerAttachment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnElasticLoadBalancerAttachment(id: String, initializer: @AwsCdkDsl CfnElasticLoadBalancerAttachment.Builder.() -> Unit = {}): CfnElasticLoadBalancerAttachment = CfnElasticLoadBalancerAttachment.Builder.create(this, id).apply(initializer).build()

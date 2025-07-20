@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.customerprofiles.CfnEventTrigger
 
 @Generated
-public fun buildEventTriggerLimitsProperty(initializer: @AwsCdkDsl
-    CfnEventTrigger.EventTriggerLimitsProperty.Builder.() -> Unit = {}):
-    CfnEventTrigger.EventTriggerLimitsProperty =
-    CfnEventTrigger.EventTriggerLimitsProperty.Builder().apply(initializer).build()
+public fun buildEventTriggerLimitsProperty(initializer: @AwsCdkDsl CfnEventTrigger.EventTriggerLimitsProperty.Builder.() -> Unit = {}): CfnEventTrigger.EventTriggerLimitsProperty = CfnEventTrigger.EventTriggerLimitsProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.CfnDBProxy
 
 @Generated
-public fun buildAuthFormatProperty(initializer: @AwsCdkDsl
-    CfnDBProxy.AuthFormatProperty.Builder.() -> Unit = {}): CfnDBProxy.AuthFormatProperty =
-    CfnDBProxy.AuthFormatProperty.Builder().apply(initializer).build()
+public fun buildAuthFormatProperty(initializer: @AwsCdkDsl CfnDBProxy.AuthFormatProperty.Builder.() -> Unit = {}): CfnDBProxy.AuthFormatProperty = CfnDBProxy.AuthFormatProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.patterns.ApplicationLoadBalancedServiceBaseProps
 
 @Generated
-public fun buildApplicationLoadBalancedServiceBaseProps(initializer: @AwsCdkDsl
-    ApplicationLoadBalancedServiceBaseProps.Builder.() -> Unit = {}):
-    ApplicationLoadBalancedServiceBaseProps =
-    ApplicationLoadBalancedServiceBaseProps.Builder().apply(initializer).build()
+public fun buildApplicationLoadBalancedServiceBaseProps(initializer: @AwsCdkDsl ApplicationLoadBalancedServiceBaseProps.Builder.() -> Unit = {}): ApplicationLoadBalancedServiceBaseProps = ApplicationLoadBalancedServiceBaseProps.Builder().apply(initializer).build()

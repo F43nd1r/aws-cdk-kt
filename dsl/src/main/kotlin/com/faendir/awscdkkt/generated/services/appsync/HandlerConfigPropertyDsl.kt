@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.CfnChannelNamespace
 
 @Generated
-public fun buildHandlerConfigProperty(initializer: @AwsCdkDsl
-    CfnChannelNamespace.HandlerConfigProperty.Builder.() -> Unit = {}):
-    CfnChannelNamespace.HandlerConfigProperty =
-    CfnChannelNamespace.HandlerConfigProperty.Builder().apply(initializer).build()
+public fun buildHandlerConfigProperty(initializer: @AwsCdkDsl CfnChannelNamespace.HandlerConfigProperty.Builder.() -> Unit = {}): CfnChannelNamespace.HandlerConfigProperty = CfnChannelNamespace.HandlerConfigProperty.Builder().apply(initializer).build()

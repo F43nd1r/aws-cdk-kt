@@ -16,6 +16,4 @@ public fun Construct.cfnLocationFSxOpenZFS(
 ): CfnLocationFSxOpenZFS = CfnLocationFSxOpenZFS(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLocationFSxOpenZFS(id: String, initializer: @AwsCdkDsl
-    CfnLocationFSxOpenZFS.Builder.() -> Unit = {}): CfnLocationFSxOpenZFS =
-    CfnLocationFSxOpenZFS.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLocationFSxOpenZFS(id: String, initializer: @AwsCdkDsl CfnLocationFSxOpenZFS.Builder.() -> Unit = {}): CfnLocationFSxOpenZFS = CfnLocationFSxOpenZFS.Builder.create(this, id).apply(initializer).build()

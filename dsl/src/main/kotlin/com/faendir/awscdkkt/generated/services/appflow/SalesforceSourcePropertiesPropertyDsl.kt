@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
-public fun buildSalesforceSourcePropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.SalesforceSourcePropertiesProperty.Builder.() -> Unit = {}):
-    CfnFlow.SalesforceSourcePropertiesProperty =
-    CfnFlow.SalesforceSourcePropertiesProperty.Builder().apply(initializer).build()
+public fun buildSalesforceSourcePropertiesProperty(initializer: @AwsCdkDsl CfnFlow.SalesforceSourcePropertiesProperty.Builder.() -> Unit = {}): CfnFlow.SalesforceSourcePropertiesProperty = CfnFlow.SalesforceSourcePropertiesProperty.Builder().apply(initializer).build()

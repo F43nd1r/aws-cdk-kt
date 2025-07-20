@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.waf.regional.CfnRule
 
 @Generated
-public fun buildPredicateProperty(initializer: @AwsCdkDsl
-    CfnRule.PredicateProperty.Builder.() -> Unit = {}): CfnRule.PredicateProperty =
-    CfnRule.PredicateProperty.Builder().apply(initializer).build()
+public fun buildPredicateProperty(initializer: @AwsCdkDsl CfnRule.PredicateProperty.Builder.() -> Unit = {}): CfnRule.PredicateProperty = CfnRule.PredicateProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudformation.CfnWaitConditionProps
 
 @Generated
-public fun buildCfnWaitConditionProps(initializer: @AwsCdkDsl
-    CfnWaitConditionProps.Builder.() -> Unit = {}): CfnWaitConditionProps =
-    CfnWaitConditionProps.Builder().apply(initializer).build()
+public fun buildCfnWaitConditionProps(initializer: @AwsCdkDsl CfnWaitConditionProps.Builder.() -> Unit = {}): CfnWaitConditionProps = CfnWaitConditionProps.Builder().apply(initializer).build()

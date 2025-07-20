@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.InitFileOptions
 
 @Generated
-public fun buildInitFileOptions(initializer: @AwsCdkDsl InitFileOptions.Builder.() -> Unit = {}):
-    InitFileOptions = InitFileOptions.Builder().apply(initializer).build()
+public fun buildInitFileOptions(initializer: @AwsCdkDsl InitFileOptions.Builder.() -> Unit = {}): InitFileOptions = InitFileOptions.Builder().apply(initializer).build()

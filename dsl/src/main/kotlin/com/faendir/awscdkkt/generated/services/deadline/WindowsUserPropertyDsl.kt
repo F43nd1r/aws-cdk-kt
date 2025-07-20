@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.deadline.CfnQueue
 
 @Generated
-public fun buildWindowsUserProperty(initializer: @AwsCdkDsl
-    CfnQueue.WindowsUserProperty.Builder.() -> Unit = {}): CfnQueue.WindowsUserProperty =
-    CfnQueue.WindowsUserProperty.Builder().apply(initializer).build()
+public fun buildWindowsUserProperty(initializer: @AwsCdkDsl CfnQueue.WindowsUserProperty.Builder.() -> Unit = {}): CfnQueue.WindowsUserProperty = CfnQueue.WindowsUserProperty.Builder().apply(initializer).build()

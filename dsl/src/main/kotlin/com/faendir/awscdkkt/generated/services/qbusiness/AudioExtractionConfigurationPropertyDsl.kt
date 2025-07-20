@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnDataSource
 
 @Generated
-public fun buildAudioExtractionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.AudioExtractionConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDataSource.AudioExtractionConfigurationProperty =
-    CfnDataSource.AudioExtractionConfigurationProperty.Builder().apply(initializer).build()
+public fun buildAudioExtractionConfigurationProperty(initializer: @AwsCdkDsl CfnDataSource.AudioExtractionConfigurationProperty.Builder.() -> Unit = {}): CfnDataSource.AudioExtractionConfigurationProperty = CfnDataSource.AudioExtractionConfigurationProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnUserPoolDomain(
 ): CfnUserPoolDomain = CfnUserPoolDomain(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnUserPoolDomain(id: String, initializer: @AwsCdkDsl
-    CfnUserPoolDomain.Builder.() -> Unit = {}): CfnUserPoolDomain =
-    CfnUserPoolDomain.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnUserPoolDomain(id: String, initializer: @AwsCdkDsl CfnUserPoolDomain.Builder.() -> Unit = {}): CfnUserPoolDomain = CfnUserPoolDomain.Builder.create(this, id).apply(initializer).build()

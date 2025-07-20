@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipeProps
 
 @Generated
-public fun buildCfnPipeProps(initializer: @AwsCdkDsl CfnPipeProps.Builder.() -> Unit = {}):
-    CfnPipeProps = CfnPipeProps.Builder().apply(initializer).build()
+public fun buildCfnPipeProps(initializer: @AwsCdkDsl CfnPipeProps.Builder.() -> Unit = {}): CfnPipeProps = CfnPipeProps.Builder().apply(initializer).build()

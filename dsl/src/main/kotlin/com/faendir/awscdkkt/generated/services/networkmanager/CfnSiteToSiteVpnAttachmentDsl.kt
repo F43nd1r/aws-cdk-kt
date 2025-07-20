@@ -16,6 +16,4 @@ public fun Construct.cfnSiteToSiteVpnAttachment(
 ): CfnSiteToSiteVpnAttachment = CfnSiteToSiteVpnAttachment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSiteToSiteVpnAttachment(id: String, initializer: @AwsCdkDsl
-    CfnSiteToSiteVpnAttachment.Builder.() -> Unit = {}): CfnSiteToSiteVpnAttachment =
-    CfnSiteToSiteVpnAttachment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSiteToSiteVpnAttachment(id: String, initializer: @AwsCdkDsl CfnSiteToSiteVpnAttachment.Builder.() -> Unit = {}): CfnSiteToSiteVpnAttachment = CfnSiteToSiteVpnAttachment.Builder.create(this, id).apply(initializer).build()

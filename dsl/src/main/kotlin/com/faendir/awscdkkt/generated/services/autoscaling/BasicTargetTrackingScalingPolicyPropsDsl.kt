@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.BasicTargetTrackingScalingPolicyProps
 
 @Generated
-public fun buildBasicTargetTrackingScalingPolicyProps(initializer: @AwsCdkDsl
-    BasicTargetTrackingScalingPolicyProps.Builder.() -> Unit = {}):
-    BasicTargetTrackingScalingPolicyProps =
-    BasicTargetTrackingScalingPolicyProps.Builder().apply(initializer).build()
+public fun buildBasicTargetTrackingScalingPolicyProps(initializer: @AwsCdkDsl BasicTargetTrackingScalingPolicyProps.Builder.() -> Unit = {}): BasicTargetTrackingScalingPolicyProps = BasicTargetTrackingScalingPolicyProps.Builder().apply(initializer).build()

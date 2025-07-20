@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotsitewise.CfnAssetModel
 
 @Generated
-public fun buildTransformProperty(initializer: @AwsCdkDsl
-    CfnAssetModel.TransformProperty.Builder.() -> Unit = {}): CfnAssetModel.TransformProperty =
-    CfnAssetModel.TransformProperty.Builder().apply(initializer).build()
+public fun buildTransformProperty(initializer: @AwsCdkDsl CfnAssetModel.TransformProperty.Builder.() -> Unit = {}): CfnAssetModel.TransformProperty = CfnAssetModel.TransformProperty.Builder().apply(initializer).build()

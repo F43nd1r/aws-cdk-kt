@@ -16,6 +16,4 @@ public fun Construct.scalableTarget(
 ): ScalableTarget = ScalableTarget(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildScalableTarget(id: String, initializer: @AwsCdkDsl
-    ScalableTarget.Builder.() -> Unit = {}): ScalableTarget = ScalableTarget.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildScalableTarget(id: String, initializer: @AwsCdkDsl ScalableTarget.Builder.() -> Unit = {}): ScalableTarget = ScalableTarget.Builder.create(this, id).apply(initializer).build()

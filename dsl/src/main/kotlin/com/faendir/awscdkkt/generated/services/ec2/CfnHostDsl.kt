@@ -16,5 +16,4 @@ public fun Construct.cfnHost(
 ): CfnHost = CfnHost(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnHost(id: String, initializer: @AwsCdkDsl CfnHost.Builder.() -> Unit =
-    {}): CfnHost = CfnHost.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnHost(id: String, initializer: @AwsCdkDsl CfnHost.Builder.() -> Unit = {}): CfnHost = CfnHost.Builder.create(this, id).apply(initializer).build()

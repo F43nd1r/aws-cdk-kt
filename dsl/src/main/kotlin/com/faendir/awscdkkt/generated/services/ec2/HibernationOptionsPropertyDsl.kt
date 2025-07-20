@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
-public fun buildHibernationOptionsProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.HibernationOptionsProperty.Builder.() -> Unit = {}):
-    CfnLaunchTemplate.HibernationOptionsProperty =
-    CfnLaunchTemplate.HibernationOptionsProperty.Builder().apply(initializer).build()
+public fun buildHibernationOptionsProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.HibernationOptionsProperty.Builder.() -> Unit = {}): CfnLaunchTemplate.HibernationOptionsProperty = CfnLaunchTemplate.HibernationOptionsProperty.Builder().apply(initializer).build()

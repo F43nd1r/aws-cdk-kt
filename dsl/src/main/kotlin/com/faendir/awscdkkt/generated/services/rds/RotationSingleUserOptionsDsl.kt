@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.RotationSingleUserOptions
 
 @Generated
-public fun buildRotationSingleUserOptions(initializer: @AwsCdkDsl
-    RotationSingleUserOptions.Builder.() -> Unit = {}): RotationSingleUserOptions =
-    RotationSingleUserOptions.Builder().apply(initializer).build()
+public fun buildRotationSingleUserOptions(initializer: @AwsCdkDsl RotationSingleUserOptions.Builder.() -> Unit = {}): RotationSingleUserOptions = RotationSingleUserOptions.Builder().apply(initializer).build()

@@ -16,5 +16,4 @@ public fun Construct.cfnTrail(
 ): CfnTrail = CfnTrail(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTrail(id: String, initializer: @AwsCdkDsl CfnTrail.Builder.() -> Unit =
-    {}): CfnTrail = CfnTrail.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTrail(id: String, initializer: @AwsCdkDsl CfnTrail.Builder.() -> Unit = {}): CfnTrail = CfnTrail.Builder.create(this, id).apply(initializer).build()

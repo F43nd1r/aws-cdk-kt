@@ -13,10 +13,7 @@ public fun Construct.gitHubEnterpriseSourceCredentials(
   id: String,
   props: GitHubEnterpriseSourceCredentialsProps,
   initializer: @AwsCdkDsl GitHubEnterpriseSourceCredentials.() -> Unit = {},
-): GitHubEnterpriseSourceCredentials = GitHubEnterpriseSourceCredentials(this, id,
-    props).apply(initializer)
+): GitHubEnterpriseSourceCredentials = GitHubEnterpriseSourceCredentials(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildGitHubEnterpriseSourceCredentials(id: String, initializer: @AwsCdkDsl
-    GitHubEnterpriseSourceCredentials.Builder.() -> Unit = {}): GitHubEnterpriseSourceCredentials =
-    GitHubEnterpriseSourceCredentials.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildGitHubEnterpriseSourceCredentials(id: String, initializer: @AwsCdkDsl GitHubEnterpriseSourceCredentials.Builder.() -> Unit = {}): GitHubEnterpriseSourceCredentials = GitHubEnterpriseSourceCredentials.Builder.create(this, id).apply(initializer).build()

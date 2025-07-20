@@ -16,6 +16,4 @@ public fun Construct.cfnConfigurationAssociation(
 ): CfnConfigurationAssociation = CfnConfigurationAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnConfigurationAssociation(id: String, initializer: @AwsCdkDsl
-    CfnConfigurationAssociation.Builder.() -> Unit = {}): CfnConfigurationAssociation =
-    CfnConfigurationAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnConfigurationAssociation(id: String, initializer: @AwsCdkDsl CfnConfigurationAssociation.Builder.() -> Unit = {}): CfnConfigurationAssociation = CfnConfigurationAssociation.Builder.create(this, id).apply(initializer).build()

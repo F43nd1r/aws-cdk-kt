@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnInput
 
 @Generated
-public fun buildInputDestinationRequestProperty(initializer: @AwsCdkDsl
-    CfnInput.InputDestinationRequestProperty.Builder.() -> Unit = {}):
-    CfnInput.InputDestinationRequestProperty =
-    CfnInput.InputDestinationRequestProperty.Builder().apply(initializer).build()
+public fun buildInputDestinationRequestProperty(initializer: @AwsCdkDsl CfnInput.InputDestinationRequestProperty.Builder.() -> Unit = {}): CfnInput.InputDestinationRequestProperty = CfnInput.InputDestinationRequestProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnTopicRule
 
 @Generated
-public fun buildKinesisActionProperty(initializer: @AwsCdkDsl
-    CfnTopicRule.KinesisActionProperty.Builder.() -> Unit = {}): CfnTopicRule.KinesisActionProperty
-    = CfnTopicRule.KinesisActionProperty.Builder().apply(initializer).build()
+public fun buildKinesisActionProperty(initializer: @AwsCdkDsl CfnTopicRule.KinesisActionProperty.Builder.() -> Unit = {}): CfnTopicRule.KinesisActionProperty = CfnTopicRule.KinesisActionProperty.Builder().apply(initializer).build()

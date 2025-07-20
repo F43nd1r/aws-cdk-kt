@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnDistribution
 
 @Generated
-public fun buildS3OriginConfigProperty(initializer: @AwsCdkDsl
-    CfnDistribution.S3OriginConfigProperty.Builder.() -> Unit = {}):
-    CfnDistribution.S3OriginConfigProperty =
-    CfnDistribution.S3OriginConfigProperty.Builder().apply(initializer).build()
+public fun buildS3OriginConfigProperty(initializer: @AwsCdkDsl CfnDistribution.S3OriginConfigProperty.Builder.() -> Unit = {}): CfnDistribution.S3OriginConfigProperty = CfnDistribution.S3OriginConfigProperty.Builder().apply(initializer).build()

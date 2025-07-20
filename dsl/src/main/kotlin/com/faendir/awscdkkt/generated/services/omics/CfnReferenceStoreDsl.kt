@@ -16,6 +16,4 @@ public fun Construct.cfnReferenceStore(
 ): CfnReferenceStore = CfnReferenceStore(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnReferenceStore(id: String, initializer: @AwsCdkDsl
-    CfnReferenceStore.Builder.() -> Unit = {}): CfnReferenceStore =
-    CfnReferenceStore.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnReferenceStore(id: String, initializer: @AwsCdkDsl CfnReferenceStore.Builder.() -> Unit = {}): CfnReferenceStore = CfnReferenceStore.Builder.create(this, id).apply(initializer).build()

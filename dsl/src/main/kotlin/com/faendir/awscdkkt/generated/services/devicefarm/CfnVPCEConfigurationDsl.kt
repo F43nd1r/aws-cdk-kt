@@ -16,6 +16,4 @@ public fun Construct.cfnVPCEConfiguration(
 ): CfnVPCEConfiguration = CfnVPCEConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVPCEConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnVPCEConfiguration.Builder.() -> Unit = {}): CfnVPCEConfiguration =
-    CfnVPCEConfiguration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnVPCEConfiguration(id: String, initializer: @AwsCdkDsl CfnVPCEConfiguration.Builder.() -> Unit = {}): CfnVPCEConfiguration = CfnVPCEConfiguration.Builder.create(this, id).apply(initializer).build()

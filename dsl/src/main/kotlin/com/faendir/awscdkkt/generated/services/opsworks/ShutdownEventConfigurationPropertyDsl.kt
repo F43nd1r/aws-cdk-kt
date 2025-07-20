@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opsworks.CfnLayer
 
 @Generated
-public fun buildShutdownEventConfigurationProperty(initializer: @AwsCdkDsl
-    CfnLayer.ShutdownEventConfigurationProperty.Builder.() -> Unit = {}):
-    CfnLayer.ShutdownEventConfigurationProperty =
-    CfnLayer.ShutdownEventConfigurationProperty.Builder().apply(initializer).build()
+public fun buildShutdownEventConfigurationProperty(initializer: @AwsCdkDsl CfnLayer.ShutdownEventConfigurationProperty.Builder.() -> Unit = {}): CfnLayer.ShutdownEventConfigurationProperty = CfnLayer.ShutdownEventConfigurationProperty.Builder().apply(initializer).build()

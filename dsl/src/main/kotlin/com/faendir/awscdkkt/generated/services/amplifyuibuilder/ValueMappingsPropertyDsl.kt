@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.amplifyuibuilder.CfnForm
 
 @Generated
-public fun buildValueMappingsProperty(initializer: @AwsCdkDsl
-    CfnForm.ValueMappingsProperty.Builder.() -> Unit = {}): CfnForm.ValueMappingsProperty =
-    CfnForm.ValueMappingsProperty.Builder().apply(initializer).build()
+public fun buildValueMappingsProperty(initializer: @AwsCdkDsl CfnForm.ValueMappingsProperty.Builder.() -> Unit = {}): CfnForm.ValueMappingsProperty = CfnForm.ValueMappingsProperty.Builder().apply(initializer).build()

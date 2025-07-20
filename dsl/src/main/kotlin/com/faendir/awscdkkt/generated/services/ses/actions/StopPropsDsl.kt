@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.actions.StopProps
 
 @Generated
-public fun buildStopProps(initializer: @AwsCdkDsl StopProps.Builder.() -> Unit = {}): StopProps =
-    StopProps.Builder().apply(initializer).build()
+public fun buildStopProps(initializer: @AwsCdkDsl StopProps.Builder.() -> Unit = {}): StopProps = StopProps.Builder().apply(initializer).build()

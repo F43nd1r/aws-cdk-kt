@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.HttpRouteProps
 
 @Generated
-public fun buildHttpRouteProps(initializer: @AwsCdkDsl HttpRouteProps.Builder.() -> Unit = {}):
-    HttpRouteProps = HttpRouteProps.Builder().apply(initializer).build()
+public fun buildHttpRouteProps(initializer: @AwsCdkDsl HttpRouteProps.Builder.() -> Unit = {}): HttpRouteProps = HttpRouteProps.Builder().apply(initializer).build()

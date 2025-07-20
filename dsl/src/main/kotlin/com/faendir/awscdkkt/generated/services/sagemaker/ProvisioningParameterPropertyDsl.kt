@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnProject
 
 @Generated
-public fun buildProvisioningParameterProperty(initializer: @AwsCdkDsl
-    CfnProject.ProvisioningParameterProperty.Builder.() -> Unit = {}):
-    CfnProject.ProvisioningParameterProperty =
-    CfnProject.ProvisioningParameterProperty.Builder().apply(initializer).build()
+public fun buildProvisioningParameterProperty(initializer: @AwsCdkDsl CfnProject.ProvisioningParameterProperty.Builder.() -> Unit = {}): CfnProject.ProvisioningParameterProperty = CfnProject.ProvisioningParameterProperty.Builder().apply(initializer).build()

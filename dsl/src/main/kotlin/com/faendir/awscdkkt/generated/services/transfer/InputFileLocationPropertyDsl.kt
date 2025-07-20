@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.transfer.CfnWorkflow
 
 @Generated
-public fun buildInputFileLocationProperty(initializer: @AwsCdkDsl
-    CfnWorkflow.InputFileLocationProperty.Builder.() -> Unit = {}):
-    CfnWorkflow.InputFileLocationProperty =
-    CfnWorkflow.InputFileLocationProperty.Builder().apply(initializer).build()
+public fun buildInputFileLocationProperty(initializer: @AwsCdkDsl CfnWorkflow.InputFileLocationProperty.Builder.() -> Unit = {}): CfnWorkflow.InputFileLocationProperty = CfnWorkflow.InputFileLocationProperty.Builder().apply(initializer).build()

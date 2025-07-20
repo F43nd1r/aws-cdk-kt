@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
-public fun buildDashboardSourceTemplateProperty(initializer: @AwsCdkDsl
-    CfnDashboard.DashboardSourceTemplateProperty.Builder.() -> Unit = {}):
-    CfnDashboard.DashboardSourceTemplateProperty =
-    CfnDashboard.DashboardSourceTemplateProperty.Builder().apply(initializer).build()
+public fun buildDashboardSourceTemplateProperty(initializer: @AwsCdkDsl CfnDashboard.DashboardSourceTemplateProperty.Builder.() -> Unit = {}): CfnDashboard.DashboardSourceTemplateProperty = CfnDashboard.DashboardSourceTemplateProperty.Builder().apply(initializer).build()

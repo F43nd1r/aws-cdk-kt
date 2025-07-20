@@ -16,6 +16,4 @@ public fun Construct.cfnGeoMatchSet(
 ): CfnGeoMatchSet = CfnGeoMatchSet(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnGeoMatchSet(id: String, initializer: @AwsCdkDsl
-    CfnGeoMatchSet.Builder.() -> Unit = {}): CfnGeoMatchSet = CfnGeoMatchSet.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnGeoMatchSet(id: String, initializer: @AwsCdkDsl CfnGeoMatchSet.Builder.() -> Unit = {}): CfnGeoMatchSet = CfnGeoMatchSet.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fsx.CfnS3AccessPointAttachment
 
 @Generated
-public fun buildFileSystemGIDProperty(initializer: @AwsCdkDsl
-    CfnS3AccessPointAttachment.FileSystemGIDProperty.Builder.() -> Unit = {}):
-    CfnS3AccessPointAttachment.FileSystemGIDProperty =
-    CfnS3AccessPointAttachment.FileSystemGIDProperty.Builder().apply(initializer).build()
+public fun buildFileSystemGIDProperty(initializer: @AwsCdkDsl CfnS3AccessPointAttachment.FileSystemGIDProperty.Builder.() -> Unit = {}): CfnS3AccessPointAttachment.FileSystemGIDProperty = CfnS3AccessPointAttachment.FileSystemGIDProperty.Builder().apply(initializer).build()

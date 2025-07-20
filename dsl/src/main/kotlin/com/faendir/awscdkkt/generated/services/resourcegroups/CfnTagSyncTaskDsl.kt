@@ -16,6 +16,4 @@ public fun Construct.cfnTagSyncTask(
 ): CfnTagSyncTask = CfnTagSyncTask(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTagSyncTask(id: String, initializer: @AwsCdkDsl
-    CfnTagSyncTask.Builder.() -> Unit = {}): CfnTagSyncTask = CfnTagSyncTask.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnTagSyncTask(id: String, initializer: @AwsCdkDsl CfnTagSyncTask.Builder.() -> Unit = {}): CfnTagSyncTask = CfnTagSyncTask.Builder.create(this, id).apply(initializer).build()

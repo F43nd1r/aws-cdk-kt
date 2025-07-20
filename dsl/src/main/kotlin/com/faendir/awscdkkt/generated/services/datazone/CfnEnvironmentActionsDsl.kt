@@ -16,6 +16,4 @@ public fun Construct.cfnEnvironmentActions(
 ): CfnEnvironmentActions = CfnEnvironmentActions(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEnvironmentActions(id: String, initializer: @AwsCdkDsl
-    CfnEnvironmentActions.Builder.() -> Unit = {}): CfnEnvironmentActions =
-    CfnEnvironmentActions.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnEnvironmentActions(id: String, initializer: @AwsCdkDsl CfnEnvironmentActions.Builder.() -> Unit = {}): CfnEnvironmentActions = CfnEnvironmentActions.Builder.create(this, id).apply(initializer).build()

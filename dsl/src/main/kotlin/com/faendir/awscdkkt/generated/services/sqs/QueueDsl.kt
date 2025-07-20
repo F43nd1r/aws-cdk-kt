@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.sqs.QueueProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.queue(id: String, initializer: @AwsCdkDsl Queue.() -> Unit = {}): Queue =
-    Queue(this, id).apply(initializer)
+public fun Construct.queue(id: String, initializer: @AwsCdkDsl Queue.() -> Unit = {}): Queue = Queue(this, id).apply(initializer)
 
 @Generated
 public fun Construct.queue(
@@ -20,5 +19,4 @@ public fun Construct.queue(
 ): Queue = Queue(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildQueue(id: String, initializer: @AwsCdkDsl Queue.Builder.() -> Unit = {}):
-    Queue = Queue.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildQueue(id: String, initializer: @AwsCdkDsl Queue.Builder.() -> Unit = {}): Queue = Queue.Builder.create(this, id).apply(initializer).build()

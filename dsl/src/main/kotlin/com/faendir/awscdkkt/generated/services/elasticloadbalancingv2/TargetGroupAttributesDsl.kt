@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.TargetGroupAttributes
 
 @Generated
-public fun buildTargetGroupAttributes(initializer: @AwsCdkDsl
-    TargetGroupAttributes.Builder.() -> Unit = {}): TargetGroupAttributes =
-    TargetGroupAttributes.Builder().apply(initializer).build()
+public fun buildTargetGroupAttributes(initializer: @AwsCdkDsl TargetGroupAttributes.Builder.() -> Unit = {}): TargetGroupAttributes = TargetGroupAttributes.Builder().apply(initializer).build()

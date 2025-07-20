@@ -16,6 +16,4 @@ public fun Construct.cfnStaticIp(
 ): CfnStaticIp = CfnStaticIp(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnStaticIp(id: String, initializer: @AwsCdkDsl
-    CfnStaticIp.Builder.() -> Unit = {}): CfnStaticIp = CfnStaticIp.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnStaticIp(id: String, initializer: @AwsCdkDsl CfnStaticIp.Builder.() -> Unit = {}): CfnStaticIp = CfnStaticIp.Builder.create(this, id).apply(initializer).build()

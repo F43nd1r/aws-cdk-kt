@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrCancelStepJsonPathProps
 
 @Generated
-public fun buildEmrCancelStepJsonPathProps(initializer: @AwsCdkDsl
-    EmrCancelStepJsonPathProps.Builder.() -> Unit = {}): EmrCancelStepJsonPathProps =
-    EmrCancelStepJsonPathProps.Builder().apply(initializer).build()
+public fun buildEmrCancelStepJsonPathProps(initializer: @AwsCdkDsl EmrCancelStepJsonPathProps.Builder.() -> Unit = {}): EmrCancelStepJsonPathProps = EmrCancelStepJsonPathProps.Builder().apply(initializer).build()

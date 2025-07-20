@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.ReplicaGlobalSecondaryIndexOptions
 
 @Generated
-public fun buildReplicaGlobalSecondaryIndexOptions(initializer: @AwsCdkDsl
-    ReplicaGlobalSecondaryIndexOptions.Builder.() -> Unit = {}): ReplicaGlobalSecondaryIndexOptions
-    = ReplicaGlobalSecondaryIndexOptions.Builder().apply(initializer).build()
+public fun buildReplicaGlobalSecondaryIndexOptions(initializer: @AwsCdkDsl ReplicaGlobalSecondaryIndexOptions.Builder.() -> Unit = {}): ReplicaGlobalSecondaryIndexOptions = ReplicaGlobalSecondaryIndexOptions.Builder().apply(initializer).build()

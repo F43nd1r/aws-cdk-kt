@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnNetworkInsightsAccessScope
 
 @Generated
-public fun buildPacketHeaderStatementRequestProperty(initializer: @AwsCdkDsl
-    CfnNetworkInsightsAccessScope.PacketHeaderStatementRequestProperty.Builder.() -> Unit = {}):
-    CfnNetworkInsightsAccessScope.PacketHeaderStatementRequestProperty =
-    CfnNetworkInsightsAccessScope.PacketHeaderStatementRequestProperty.Builder().apply(initializer).build()
+public fun buildPacketHeaderStatementRequestProperty(initializer: @AwsCdkDsl CfnNetworkInsightsAccessScope.PacketHeaderStatementRequestProperty.Builder.() -> Unit = {}): CfnNetworkInsightsAccessScope.PacketHeaderStatementRequestProperty = CfnNetworkInsightsAccessScope.PacketHeaderStatementRequestProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnVPNConnection(
 ): CfnVPNConnection = CfnVPNConnection(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVPNConnection(id: String, initializer: @AwsCdkDsl
-    CfnVPNConnection.Builder.() -> Unit = {}): CfnVPNConnection =
-    CfnVPNConnection.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnVPNConnection(id: String, initializer: @AwsCdkDsl CfnVPNConnection.Builder.() -> Unit = {}): CfnVPNConnection = CfnVPNConnection.Builder.create(this, id).apply(initializer).build()

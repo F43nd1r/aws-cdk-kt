@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnInferenceComponent
 
 @Generated
-public fun buildDeployedImageProperty(initializer: @AwsCdkDsl
-    CfnInferenceComponent.DeployedImageProperty.Builder.() -> Unit = {}):
-    CfnInferenceComponent.DeployedImageProperty =
-    CfnInferenceComponent.DeployedImageProperty.Builder().apply(initializer).build()
+public fun buildDeployedImageProperty(initializer: @AwsCdkDsl CfnInferenceComponent.DeployedImageProperty.Builder.() -> Unit = {}): CfnInferenceComponent.DeployedImageProperty = CfnInferenceComponent.DeployedImageProperty.Builder().apply(initializer).build()

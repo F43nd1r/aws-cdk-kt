@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rekognition.CfnStreamProcessor
 
 @Generated
-public fun buildBoundingBoxProperty(initializer: @AwsCdkDsl
-    CfnStreamProcessor.BoundingBoxProperty.Builder.() -> Unit = {}):
-    CfnStreamProcessor.BoundingBoxProperty =
-    CfnStreamProcessor.BoundingBoxProperty.Builder().apply(initializer).build()
+public fun buildBoundingBoxProperty(initializer: @AwsCdkDsl CfnStreamProcessor.BoundingBoxProperty.Builder.() -> Unit = {}): CfnStreamProcessor.BoundingBoxProperty = CfnStreamProcessor.BoundingBoxProperty.Builder().apply(initializer).build()

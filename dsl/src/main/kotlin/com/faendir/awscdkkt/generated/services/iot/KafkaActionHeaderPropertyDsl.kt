@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnTopicRule
 
 @Generated
-public fun buildKafkaActionHeaderProperty(initializer: @AwsCdkDsl
-    CfnTopicRule.KafkaActionHeaderProperty.Builder.() -> Unit = {}):
-    CfnTopicRule.KafkaActionHeaderProperty =
-    CfnTopicRule.KafkaActionHeaderProperty.Builder().apply(initializer).build()
+public fun buildKafkaActionHeaderProperty(initializer: @AwsCdkDsl CfnTopicRule.KafkaActionHeaderProperty.Builder.() -> Unit = {}): CfnTopicRule.KafkaActionHeaderProperty = CfnTopicRule.KafkaActionHeaderProperty.Builder().apply(initializer).build()

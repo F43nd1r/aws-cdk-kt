@@ -13,12 +13,7 @@ public fun Construct.cfnInstanceAccessControlAttributeConfiguration(
   id: String,
   props: CfnInstanceAccessControlAttributeConfigurationProps,
   initializer: @AwsCdkDsl CfnInstanceAccessControlAttributeConfiguration.() -> Unit = {},
-): CfnInstanceAccessControlAttributeConfiguration =
-    CfnInstanceAccessControlAttributeConfiguration(this, id, props).apply(initializer)
+): CfnInstanceAccessControlAttributeConfiguration = CfnInstanceAccessControlAttributeConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnInstanceAccessControlAttributeConfiguration(id: String,
-    initializer: @AwsCdkDsl CfnInstanceAccessControlAttributeConfiguration.Builder.() -> Unit = {}):
-    CfnInstanceAccessControlAttributeConfiguration =
-    CfnInstanceAccessControlAttributeConfiguration.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnInstanceAccessControlAttributeConfiguration(id: String, initializer: @AwsCdkDsl CfnInstanceAccessControlAttributeConfiguration.Builder.() -> Unit = {}): CfnInstanceAccessControlAttributeConfiguration = CfnInstanceAccessControlAttributeConfiguration.Builder.create(this, id).apply(initializer).build()

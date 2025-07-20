@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kendra.CfnIndex
 
 @Generated
-public fun buildDocumentMetadataConfigurationProperty(initializer: @AwsCdkDsl
-    CfnIndex.DocumentMetadataConfigurationProperty.Builder.() -> Unit = {}):
-    CfnIndex.DocumentMetadataConfigurationProperty =
-    CfnIndex.DocumentMetadataConfigurationProperty.Builder().apply(initializer).build()
+public fun buildDocumentMetadataConfigurationProperty(initializer: @AwsCdkDsl CfnIndex.DocumentMetadataConfigurationProperty.Builder.() -> Unit = {}): CfnIndex.DocumentMetadataConfigurationProperty = CfnIndex.DocumentMetadataConfigurationProperty.Builder().apply(initializer).build()

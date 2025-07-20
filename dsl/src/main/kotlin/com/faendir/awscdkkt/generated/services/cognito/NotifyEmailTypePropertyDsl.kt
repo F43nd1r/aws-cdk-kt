@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnUserPoolRiskConfigurationAttachment
 
 @Generated
-public fun buildNotifyEmailTypeProperty(initializer: @AwsCdkDsl
-    CfnUserPoolRiskConfigurationAttachment.NotifyEmailTypeProperty.Builder.() -> Unit = {}):
-    CfnUserPoolRiskConfigurationAttachment.NotifyEmailTypeProperty =
-    CfnUserPoolRiskConfigurationAttachment.NotifyEmailTypeProperty.Builder().apply(initializer).build()
+public fun buildNotifyEmailTypeProperty(initializer: @AwsCdkDsl CfnUserPoolRiskConfigurationAttachment.NotifyEmailTypeProperty.Builder.() -> Unit = {}): CfnUserPoolRiskConfigurationAttachment.NotifyEmailTypeProperty = CfnUserPoolRiskConfigurationAttachment.NotifyEmailTypeProperty.Builder().apply(initializer).build()

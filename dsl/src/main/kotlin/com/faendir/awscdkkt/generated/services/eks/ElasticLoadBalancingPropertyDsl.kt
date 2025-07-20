@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.CfnCluster
 
 @Generated
-public fun buildElasticLoadBalancingProperty(initializer: @AwsCdkDsl
-    CfnCluster.ElasticLoadBalancingProperty.Builder.() -> Unit = {}):
-    CfnCluster.ElasticLoadBalancingProperty =
-    CfnCluster.ElasticLoadBalancingProperty.Builder().apply(initializer).build()
+public fun buildElasticLoadBalancingProperty(initializer: @AwsCdkDsl CfnCluster.ElasticLoadBalancingProperty.Builder.() -> Unit = {}): CfnCluster.ElasticLoadBalancingProperty = CfnCluster.ElasticLoadBalancingProperty.Builder().apply(initializer).build()

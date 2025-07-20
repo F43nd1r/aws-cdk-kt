@@ -13,10 +13,7 @@ public fun Construct.cfnVPCBlockPublicAccessExclusion(
   id: String,
   props: CfnVPCBlockPublicAccessExclusionProps,
   initializer: @AwsCdkDsl CfnVPCBlockPublicAccessExclusion.() -> Unit = {},
-): CfnVPCBlockPublicAccessExclusion = CfnVPCBlockPublicAccessExclusion(this, id,
-    props).apply(initializer)
+): CfnVPCBlockPublicAccessExclusion = CfnVPCBlockPublicAccessExclusion(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVPCBlockPublicAccessExclusion(id: String, initializer: @AwsCdkDsl
-    CfnVPCBlockPublicAccessExclusion.Builder.() -> Unit = {}): CfnVPCBlockPublicAccessExclusion =
-    CfnVPCBlockPublicAccessExclusion.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnVPCBlockPublicAccessExclusion(id: String, initializer: @AwsCdkDsl CfnVPCBlockPublicAccessExclusion.Builder.() -> Unit = {}): CfnVPCBlockPublicAccessExclusion = CfnVPCBlockPublicAccessExclusion.Builder.create(this, id).apply(initializer).build()

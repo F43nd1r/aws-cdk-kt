@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnPromptVersion
 
 @Generated
-public fun buildPromptMetadataEntryProperty(initializer: @AwsCdkDsl
-    CfnPromptVersion.PromptMetadataEntryProperty.Builder.() -> Unit = {}):
-    CfnPromptVersion.PromptMetadataEntryProperty =
-    CfnPromptVersion.PromptMetadataEntryProperty.Builder().apply(initializer).build()
+public fun buildPromptMetadataEntryProperty(initializer: @AwsCdkDsl CfnPromptVersion.PromptMetadataEntryProperty.Builder.() -> Unit = {}): CfnPromptVersion.PromptMetadataEntryProperty = CfnPromptVersion.PromptMetadataEntryProperty.Builder().apply(initializer).build()

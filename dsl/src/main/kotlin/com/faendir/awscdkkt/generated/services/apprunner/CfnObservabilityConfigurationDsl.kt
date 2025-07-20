@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.apprunner.CfnObservabilityConfigurationPr
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnObservabilityConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnObservabilityConfiguration.() -> Unit = {}): CfnObservabilityConfiguration =
-    CfnObservabilityConfiguration(this, id).apply(initializer)
+public fun Construct.cfnObservabilityConfiguration(id: String, initializer: @AwsCdkDsl CfnObservabilityConfiguration.() -> Unit = {}): CfnObservabilityConfiguration = CfnObservabilityConfiguration(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnObservabilityConfiguration(
@@ -21,6 +19,4 @@ public fun Construct.cfnObservabilityConfiguration(
 ): CfnObservabilityConfiguration = CfnObservabilityConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnObservabilityConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnObservabilityConfiguration.Builder.() -> Unit = {}): CfnObservabilityConfiguration =
-    CfnObservabilityConfiguration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnObservabilityConfiguration(id: String, initializer: @AwsCdkDsl CfnObservabilityConfiguration.Builder.() -> Unit = {}): CfnObservabilityConfiguration = CfnObservabilityConfiguration.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnNotificationHub(
 ): CfnNotificationHub = CfnNotificationHub(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnNotificationHub(id: String, initializer: @AwsCdkDsl
-    CfnNotificationHub.Builder.() -> Unit = {}): CfnNotificationHub =
-    CfnNotificationHub.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnNotificationHub(id: String, initializer: @AwsCdkDsl CfnNotificationHub.Builder.() -> Unit = {}): CfnNotificationHub = CfnNotificationHub.Builder.create(this, id).apply(initializer).build()

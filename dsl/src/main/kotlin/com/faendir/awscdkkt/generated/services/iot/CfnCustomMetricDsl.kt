@@ -16,6 +16,4 @@ public fun Construct.cfnCustomMetric(
 ): CfnCustomMetric = CfnCustomMetric(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCustomMetric(id: String, initializer: @AwsCdkDsl
-    CfnCustomMetric.Builder.() -> Unit = {}): CfnCustomMetric = CfnCustomMetric.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnCustomMetric(id: String, initializer: @AwsCdkDsl CfnCustomMetric.Builder.() -> Unit = {}): CfnCustomMetric = CfnCustomMetric.Builder.create(this, id).apply(initializer).build()

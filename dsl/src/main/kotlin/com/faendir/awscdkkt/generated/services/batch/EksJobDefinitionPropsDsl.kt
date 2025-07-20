@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.EksJobDefinitionProps
 
 @Generated
-public fun buildEksJobDefinitionProps(initializer: @AwsCdkDsl
-    EksJobDefinitionProps.Builder.() -> Unit = {}): EksJobDefinitionProps =
-    EksJobDefinitionProps.Builder().apply(initializer).build()
+public fun buildEksJobDefinitionProps(initializer: @AwsCdkDsl EksJobDefinitionProps.Builder.() -> Unit = {}): EksJobDefinitionProps = EksJobDefinitionProps.Builder().apply(initializer).build()

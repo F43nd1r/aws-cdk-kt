@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
-public fun buildFileSystemConfigProperty(initializer: @AwsCdkDsl
-    CfnFunction.FileSystemConfigProperty.Builder.() -> Unit = {}):
-    CfnFunction.FileSystemConfigProperty =
-    CfnFunction.FileSystemConfigProperty.Builder().apply(initializer).build()
+public fun buildFileSystemConfigProperty(initializer: @AwsCdkDsl CfnFunction.FileSystemConfigProperty.Builder.() -> Unit = {}): CfnFunction.FileSystemConfigProperty = CfnFunction.FileSystemConfigProperty.Builder().apply(initializer).build()

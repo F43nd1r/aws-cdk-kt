@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.CfnFunction
 
 @Generated
-public fun buildTracingConfigProperty(initializer: @AwsCdkDsl
-    CfnFunction.TracingConfigProperty.Builder.() -> Unit = {}): CfnFunction.TracingConfigProperty =
-    CfnFunction.TracingConfigProperty.Builder().apply(initializer).build()
+public fun buildTracingConfigProperty(initializer: @AwsCdkDsl CfnFunction.TracingConfigProperty.Builder.() -> Unit = {}): CfnFunction.TracingConfigProperty = CfnFunction.TracingConfigProperty.Builder().apply(initializer).build()

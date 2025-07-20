@@ -16,6 +16,4 @@ public fun Construct.cfnPricingRule(
 ): CfnPricingRule = CfnPricingRule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPricingRule(id: String, initializer: @AwsCdkDsl
-    CfnPricingRule.Builder.() -> Unit = {}): CfnPricingRule = CfnPricingRule.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnPricingRule(id: String, initializer: @AwsCdkDsl CfnPricingRule.Builder.() -> Unit = {}): CfnPricingRule = CfnPricingRule.Builder.create(this, id).apply(initializer).build()

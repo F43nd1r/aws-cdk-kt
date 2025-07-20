@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnKnowledgeBase
 
 @Generated
-public fun buildOpenSearchManagedClusterFieldMappingProperty(initializer: @AwsCdkDsl
-    CfnKnowledgeBase.OpenSearchManagedClusterFieldMappingProperty.Builder.() -> Unit = {}):
-    CfnKnowledgeBase.OpenSearchManagedClusterFieldMappingProperty =
-    CfnKnowledgeBase.OpenSearchManagedClusterFieldMappingProperty.Builder().apply(initializer).build()
+public fun buildOpenSearchManagedClusterFieldMappingProperty(initializer: @AwsCdkDsl CfnKnowledgeBase.OpenSearchManagedClusterFieldMappingProperty.Builder.() -> Unit = {}): CfnKnowledgeBase.OpenSearchManagedClusterFieldMappingProperty = CfnKnowledgeBase.OpenSearchManagedClusterFieldMappingProperty.Builder().apply(initializer).build()

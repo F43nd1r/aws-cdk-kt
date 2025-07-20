@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.VolumeAttributes
 
 @Generated
-public fun buildVolumeAttributes(initializer: @AwsCdkDsl VolumeAttributes.Builder.() -> Unit = {}):
-    VolumeAttributes = VolumeAttributes.Builder().apply(initializer).build()
+public fun buildVolumeAttributes(initializer: @AwsCdkDsl VolumeAttributes.Builder.() -> Unit = {}): VolumeAttributes = VolumeAttributes.Builder().apply(initializer).build()

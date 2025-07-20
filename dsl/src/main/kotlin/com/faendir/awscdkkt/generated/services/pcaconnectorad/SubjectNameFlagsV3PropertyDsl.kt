@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pcaconnectorad.CfnTemplate
 
 @Generated
-public fun buildSubjectNameFlagsV3Property(initializer: @AwsCdkDsl
-    CfnTemplate.SubjectNameFlagsV3Property.Builder.() -> Unit = {}):
-    CfnTemplate.SubjectNameFlagsV3Property =
-    CfnTemplate.SubjectNameFlagsV3Property.Builder().apply(initializer).build()
+public fun buildSubjectNameFlagsV3Property(initializer: @AwsCdkDsl CfnTemplate.SubjectNameFlagsV3Property.Builder.() -> Unit = {}): CfnTemplate.SubjectNameFlagsV3Property = CfnTemplate.SubjectNameFlagsV3Property.Builder().apply(initializer).build()

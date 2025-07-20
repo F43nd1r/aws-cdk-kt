@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
-public fun buildVCpuCountProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.VCpuCountProperty.Builder.() -> Unit = {}):
-    CfnLaunchTemplate.VCpuCountProperty =
-    CfnLaunchTemplate.VCpuCountProperty.Builder().apply(initializer).build()
+public fun buildVCpuCountProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.VCpuCountProperty.Builder.() -> Unit = {}): CfnLaunchTemplate.VCpuCountProperty = CfnLaunchTemplate.VCpuCountProperty.Builder().apply(initializer).build()

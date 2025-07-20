@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildPluginVisualPropertyProperty(initializer: @AwsCdkDsl
-    CfnTemplate.PluginVisualPropertyProperty.Builder.() -> Unit = {}):
-    CfnTemplate.PluginVisualPropertyProperty =
-    CfnTemplate.PluginVisualPropertyProperty.Builder().apply(initializer).build()
+public fun buildPluginVisualPropertyProperty(initializer: @AwsCdkDsl CfnTemplate.PluginVisualPropertyProperty.Builder.() -> Unit = {}): CfnTemplate.PluginVisualPropertyProperty = CfnTemplate.PluginVisualPropertyProperty.Builder().apply(initializer).build()

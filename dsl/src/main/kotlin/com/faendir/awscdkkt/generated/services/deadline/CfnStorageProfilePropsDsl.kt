@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.deadline.CfnStorageProfileProps
 
 @Generated
-public fun buildCfnStorageProfileProps(initializer: @AwsCdkDsl
-    CfnStorageProfileProps.Builder.() -> Unit = {}): CfnStorageProfileProps =
-    CfnStorageProfileProps.Builder().apply(initializer).build()
+public fun buildCfnStorageProfileProps(initializer: @AwsCdkDsl CfnStorageProfileProps.Builder.() -> Unit = {}): CfnStorageProfileProps = CfnStorageProfileProps.Builder().apply(initializer).build()

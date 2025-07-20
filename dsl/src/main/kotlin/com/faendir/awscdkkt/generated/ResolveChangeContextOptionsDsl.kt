@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.ResolveChangeContextOptions
 
 @Generated
-public fun buildResolveChangeContextOptions(initializer: @AwsCdkDsl
-    ResolveChangeContextOptions.Builder.() -> Unit = {}): ResolveChangeContextOptions =
-    ResolveChangeContextOptions.Builder().apply(initializer).build()
+public fun buildResolveChangeContextOptions(initializer: @AwsCdkDsl ResolveChangeContextOptions.Builder.() -> Unit = {}): ResolveChangeContextOptions = ResolveChangeContextOptions.Builder().apply(initializer).build()

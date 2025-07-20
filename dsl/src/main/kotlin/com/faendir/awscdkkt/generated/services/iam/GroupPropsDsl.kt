@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.GroupProps
 
 @Generated
-public fun buildGroupProps(initializer: @AwsCdkDsl GroupProps.Builder.() -> Unit = {}): GroupProps =
-    GroupProps.Builder().apply(initializer).build()
+public fun buildGroupProps(initializer: @AwsCdkDsl GroupProps.Builder.() -> Unit = {}): GroupProps = GroupProps.Builder().apply(initializer).build()

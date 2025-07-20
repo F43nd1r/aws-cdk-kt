@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.UserInvitationConfig
 
 @Generated
-public fun buildUserInvitationConfig(initializer: @AwsCdkDsl UserInvitationConfig.Builder.() -> Unit
-    = {}): UserInvitationConfig = UserInvitationConfig.Builder().apply(initializer).build()
+public fun buildUserInvitationConfig(initializer: @AwsCdkDsl UserInvitationConfig.Builder.() -> Unit = {}): UserInvitationConfig = UserInvitationConfig.Builder().apply(initializer).build()

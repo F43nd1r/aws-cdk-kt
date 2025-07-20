@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.CfnProject
 
 @Generated
-public fun buildEnvironmentVariableProperty(initializer: @AwsCdkDsl
-    CfnProject.EnvironmentVariableProperty.Builder.() -> Unit = {}):
-    CfnProject.EnvironmentVariableProperty =
-    CfnProject.EnvironmentVariableProperty.Builder().apply(initializer).build()
+public fun buildEnvironmentVariableProperty(initializer: @AwsCdkDsl CfnProject.EnvironmentVariableProperty.Builder.() -> Unit = {}): CfnProject.EnvironmentVariableProperty = CfnProject.EnvironmentVariableProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.patterns.ScheduledEc2TaskImageOptions
 
 @Generated
-public fun buildScheduledEc2TaskImageOptions(initializer: @AwsCdkDsl
-    ScheduledEc2TaskImageOptions.Builder.() -> Unit = {}): ScheduledEc2TaskImageOptions =
-    ScheduledEc2TaskImageOptions.Builder().apply(initializer).build()
+public fun buildScheduledEc2TaskImageOptions(initializer: @AwsCdkDsl ScheduledEc2TaskImageOptions.Builder.() -> Unit = {}): ScheduledEc2TaskImageOptions = ScheduledEc2TaskImageOptions.Builder().apply(initializer).build()

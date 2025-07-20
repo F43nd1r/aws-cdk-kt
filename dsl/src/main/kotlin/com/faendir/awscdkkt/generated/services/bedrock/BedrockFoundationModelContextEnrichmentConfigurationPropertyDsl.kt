@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnDataSource
 
 @Generated
-public fun buildBedrockFoundationModelContextEnrichmentConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.BedrockFoundationModelContextEnrichmentConfigurationProperty.Builder.() -> Unit =
-    {}): CfnDataSource.BedrockFoundationModelContextEnrichmentConfigurationProperty =
-    CfnDataSource.BedrockFoundationModelContextEnrichmentConfigurationProperty.Builder().apply(initializer).build()
+public fun buildBedrockFoundationModelContextEnrichmentConfigurationProperty(initializer: @AwsCdkDsl CfnDataSource.BedrockFoundationModelContextEnrichmentConfigurationProperty.Builder.() -> Unit = {}): CfnDataSource.BedrockFoundationModelContextEnrichmentConfigurationProperty = CfnDataSource.BedrockFoundationModelContextEnrichmentConfigurationProperty.Builder().apply(initializer).build()

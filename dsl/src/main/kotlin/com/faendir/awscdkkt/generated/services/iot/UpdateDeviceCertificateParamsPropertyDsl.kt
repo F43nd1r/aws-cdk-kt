@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnMitigationAction
 
 @Generated
-public fun buildUpdateDeviceCertificateParamsProperty(initializer: @AwsCdkDsl
-    CfnMitigationAction.UpdateDeviceCertificateParamsProperty.Builder.() -> Unit = {}):
-    CfnMitigationAction.UpdateDeviceCertificateParamsProperty =
-    CfnMitigationAction.UpdateDeviceCertificateParamsProperty.Builder().apply(initializer).build()
+public fun buildUpdateDeviceCertificateParamsProperty(initializer: @AwsCdkDsl CfnMitigationAction.UpdateDeviceCertificateParamsProperty.Builder.() -> Unit = {}): CfnMitigationAction.UpdateDeviceCertificateParamsProperty = CfnMitigationAction.UpdateDeviceCertificateParamsProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.batchSubmitJob(
 ): BatchSubmitJob = BatchSubmitJob(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildBatchSubmitJob(id: String, initializer: @AwsCdkDsl
-    BatchSubmitJob.Builder.() -> Unit = {}): BatchSubmitJob = BatchSubmitJob.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildBatchSubmitJob(id: String, initializer: @AwsCdkDsl BatchSubmitJob.Builder.() -> Unit = {}): BatchSubmitJob = BatchSubmitJob.Builder.create(this, id).apply(initializer).build()

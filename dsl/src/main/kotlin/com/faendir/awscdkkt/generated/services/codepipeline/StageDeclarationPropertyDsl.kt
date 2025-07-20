@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.CfnPipeline
 
 @Generated
-public fun buildStageDeclarationProperty(initializer: @AwsCdkDsl
-    CfnPipeline.StageDeclarationProperty.Builder.() -> Unit = {}):
-    CfnPipeline.StageDeclarationProperty =
-    CfnPipeline.StageDeclarationProperty.Builder().apply(initializer).build()
+public fun buildStageDeclarationProperty(initializer: @AwsCdkDsl CfnPipeline.StageDeclarationProperty.Builder.() -> Unit = {}): CfnPipeline.StageDeclarationProperty = CfnPipeline.StageDeclarationProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rbin.CfnRule
 
 @Generated
-public fun buildResourceTagProperty(initializer: @AwsCdkDsl
-    CfnRule.ResourceTagProperty.Builder.() -> Unit = {}): CfnRule.ResourceTagProperty =
-    CfnRule.ResourceTagProperty.Builder().apply(initializer).build()
+public fun buildResourceTagProperty(initializer: @AwsCdkDsl CfnRule.ResourceTagProperty.Builder.() -> Unit = {}): CfnRule.ResourceTagProperty = CfnRule.ResourceTagProperty.Builder().apply(initializer).build()

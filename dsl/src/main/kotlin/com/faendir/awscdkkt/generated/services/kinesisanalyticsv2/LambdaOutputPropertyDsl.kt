@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisanalyticsv2.CfnApplicationOutput
 
 @Generated
-public fun buildLambdaOutputProperty(initializer: @AwsCdkDsl
-    CfnApplicationOutput.LambdaOutputProperty.Builder.() -> Unit = {}):
-    CfnApplicationOutput.LambdaOutputProperty =
-    CfnApplicationOutput.LambdaOutputProperty.Builder().apply(initializer).build()
+public fun buildLambdaOutputProperty(initializer: @AwsCdkDsl CfnApplicationOutput.LambdaOutputProperty.Builder.() -> Unit = {}): CfnApplicationOutput.LambdaOutputProperty = CfnApplicationOutput.LambdaOutputProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.appSyncHttpDataSource(
 ): AppSyncHttpDataSource = AppSyncHttpDataSource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAppSyncHttpDataSource(id: String, initializer: @AwsCdkDsl
-    AppSyncHttpDataSource.Builder.() -> Unit = {}): AppSyncHttpDataSource =
-    AppSyncHttpDataSource.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildAppSyncHttpDataSource(id: String, initializer: @AwsCdkDsl AppSyncHttpDataSource.Builder.() -> Unit = {}): AppSyncHttpDataSource = AppSyncHttpDataSource.Builder.create(this, id).apply(initializer).build()

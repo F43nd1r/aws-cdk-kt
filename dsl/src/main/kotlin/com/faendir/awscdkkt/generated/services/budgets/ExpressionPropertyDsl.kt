@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.budgets.CfnBudget
 
 @Generated
-public fun buildExpressionProperty(initializer: @AwsCdkDsl
-    CfnBudget.ExpressionProperty.Builder.() -> Unit = {}): CfnBudget.ExpressionProperty =
-    CfnBudget.ExpressionProperty.Builder().apply(initializer).build()
+public fun buildExpressionProperty(initializer: @AwsCdkDsl CfnBudget.ExpressionProperty.Builder.() -> Unit = {}): CfnBudget.ExpressionProperty = CfnBudget.ExpressionProperty.Builder().apply(initializer).build()

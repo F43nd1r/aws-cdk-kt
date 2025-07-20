@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ivs.CfnEncoderConfigurationProps
 
 @Generated
-public fun buildCfnEncoderConfigurationProps(initializer: @AwsCdkDsl
-    CfnEncoderConfigurationProps.Builder.() -> Unit = {}): CfnEncoderConfigurationProps =
-    CfnEncoderConfigurationProps.Builder().apply(initializer).build()
+public fun buildCfnEncoderConfigurationProps(initializer: @AwsCdkDsl CfnEncoderConfigurationProps.Builder.() -> Unit = {}): CfnEncoderConfigurationProps = CfnEncoderConfigurationProps.Builder().apply(initializer).build()

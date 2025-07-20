@@ -16,6 +16,4 @@ public fun Construct.bucketPolicy(
 ): BucketPolicy = BucketPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildBucketPolicy(id: String, initializer: @AwsCdkDsl
-    BucketPolicy.Builder.() -> Unit = {}): BucketPolicy = BucketPolicy.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildBucketPolicy(id: String, initializer: @AwsCdkDsl BucketPolicy.Builder.() -> Unit = {}): BucketPolicy = BucketPolicy.Builder.create(this, id).apply(initializer).build()

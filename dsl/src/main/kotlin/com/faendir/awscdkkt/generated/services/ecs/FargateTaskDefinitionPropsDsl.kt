@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.FargateTaskDefinitionProps
 
 @Generated
-public fun buildFargateTaskDefinitionProps(initializer: @AwsCdkDsl
-    FargateTaskDefinitionProps.Builder.() -> Unit = {}): FargateTaskDefinitionProps =
-    FargateTaskDefinitionProps.Builder().apply(initializer).build()
+public fun buildFargateTaskDefinitionProps(initializer: @AwsCdkDsl FargateTaskDefinitionProps.Builder.() -> Unit = {}): FargateTaskDefinitionProps = FargateTaskDefinitionProps.Builder().apply(initializer).build()

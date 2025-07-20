@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildParameterSelectableValuesProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ParameterSelectableValuesProperty.Builder.() -> Unit = {}):
-    CfnTemplate.ParameterSelectableValuesProperty =
-    CfnTemplate.ParameterSelectableValuesProperty.Builder().apply(initializer).build()
+public fun buildParameterSelectableValuesProperty(initializer: @AwsCdkDsl CfnTemplate.ParameterSelectableValuesProperty.Builder.() -> Unit = {}): CfnTemplate.ParameterSelectableValuesProperty = CfnTemplate.ParameterSelectableValuesProperty.Builder().apply(initializer).build()

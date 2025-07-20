@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.CrossAccountZoneDelegationRecordProps
 
 @Generated
-public fun buildCrossAccountZoneDelegationRecordProps(initializer: @AwsCdkDsl
-    CrossAccountZoneDelegationRecordProps.Builder.() -> Unit = {}):
-    CrossAccountZoneDelegationRecordProps =
-    CrossAccountZoneDelegationRecordProps.Builder().apply(initializer).build()
+public fun buildCrossAccountZoneDelegationRecordProps(initializer: @AwsCdkDsl CrossAccountZoneDelegationRecordProps.Builder.() -> Unit = {}): CrossAccountZoneDelegationRecordProps = CrossAccountZoneDelegationRecordProps.Builder().apply(initializer).build()

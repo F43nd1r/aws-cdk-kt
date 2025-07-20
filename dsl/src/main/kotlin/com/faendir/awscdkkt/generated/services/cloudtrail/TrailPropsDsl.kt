@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudtrail.TrailProps
 
 @Generated
-public fun buildTrailProps(initializer: @AwsCdkDsl TrailProps.Builder.() -> Unit = {}): TrailProps =
-    TrailProps.Builder().apply(initializer).build()
+public fun buildTrailProps(initializer: @AwsCdkDsl TrailProps.Builder.() -> Unit = {}): TrailProps = TrailProps.Builder().apply(initializer).build()

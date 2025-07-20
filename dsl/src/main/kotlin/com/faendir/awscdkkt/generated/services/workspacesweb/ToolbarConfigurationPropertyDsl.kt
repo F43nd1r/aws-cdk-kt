@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.workspacesweb.CfnUserSettings
 
 @Generated
-public fun buildToolbarConfigurationProperty(initializer: @AwsCdkDsl
-    CfnUserSettings.ToolbarConfigurationProperty.Builder.() -> Unit = {}):
-    CfnUserSettings.ToolbarConfigurationProperty =
-    CfnUserSettings.ToolbarConfigurationProperty.Builder().apply(initializer).build()
+public fun buildToolbarConfigurationProperty(initializer: @AwsCdkDsl CfnUserSettings.ToolbarConfigurationProperty.Builder.() -> Unit = {}): CfnUserSettings.ToolbarConfigurationProperty = CfnUserSettings.ToolbarConfigurationProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnTransformer
 
 @Generated
-public fun buildCsvProperty(initializer: @AwsCdkDsl CfnTransformer.CsvProperty.Builder.() -> Unit =
-    {}): CfnTransformer.CsvProperty =
-    CfnTransformer.CsvProperty.Builder().apply(initializer).build()
+public fun buildCsvProperty(initializer: @AwsCdkDsl CfnTransformer.CsvProperty.Builder.() -> Unit = {}): CfnTransformer.CsvProperty = CfnTransformer.CsvProperty.Builder().apply(initializer).build()

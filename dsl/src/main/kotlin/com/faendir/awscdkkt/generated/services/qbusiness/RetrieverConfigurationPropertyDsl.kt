@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnRetriever
 
 @Generated
-public fun buildRetrieverConfigurationProperty(initializer: @AwsCdkDsl
-    CfnRetriever.RetrieverConfigurationProperty.Builder.() -> Unit = {}):
-    CfnRetriever.RetrieverConfigurationProperty =
-    CfnRetriever.RetrieverConfigurationProperty.Builder().apply(initializer).build()
+public fun buildRetrieverConfigurationProperty(initializer: @AwsCdkDsl CfnRetriever.RetrieverConfigurationProperty.Builder.() -> Unit = {}): CfnRetriever.RetrieverConfigurationProperty = CfnRetriever.RetrieverConfigurationProperty.Builder().apply(initializer).build()

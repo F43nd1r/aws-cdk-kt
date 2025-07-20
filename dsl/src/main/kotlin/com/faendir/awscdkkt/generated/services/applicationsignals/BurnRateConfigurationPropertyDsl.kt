@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.applicationsignals.CfnServiceLevelObjective
 
 @Generated
-public fun buildBurnRateConfigurationProperty(initializer: @AwsCdkDsl
-    CfnServiceLevelObjective.BurnRateConfigurationProperty.Builder.() -> Unit = {}):
-    CfnServiceLevelObjective.BurnRateConfigurationProperty =
-    CfnServiceLevelObjective.BurnRateConfigurationProperty.Builder().apply(initializer).build()
+public fun buildBurnRateConfigurationProperty(initializer: @AwsCdkDsl CfnServiceLevelObjective.BurnRateConfigurationProperty.Builder.() -> Unit = {}): CfnServiceLevelObjective.BurnRateConfigurationProperty = CfnServiceLevelObjective.BurnRateConfigurationProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
-public fun buildProvisionedConcurrencyConfigProperty(initializer: @AwsCdkDsl
-    CfnFunction.ProvisionedConcurrencyConfigProperty.Builder.() -> Unit = {}):
-    CfnFunction.ProvisionedConcurrencyConfigProperty =
-    CfnFunction.ProvisionedConcurrencyConfigProperty.Builder().apply(initializer).build()
+public fun buildProvisionedConcurrencyConfigProperty(initializer: @AwsCdkDsl CfnFunction.ProvisionedConcurrencyConfigProperty.Builder.() -> Unit = {}): CfnFunction.ProvisionedConcurrencyConfigProperty = CfnFunction.ProvisionedConcurrencyConfigProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kendra.CfnIndex
 
 @Generated
-public fun buildUserTokenConfigurationProperty(initializer: @AwsCdkDsl
-    CfnIndex.UserTokenConfigurationProperty.Builder.() -> Unit = {}):
-    CfnIndex.UserTokenConfigurationProperty =
-    CfnIndex.UserTokenConfigurationProperty.Builder().apply(initializer).build()
+public fun buildUserTokenConfigurationProperty(initializer: @AwsCdkDsl CfnIndex.UserTokenConfigurationProperty.Builder.() -> Unit = {}): CfnIndex.UserTokenConfigurationProperty = CfnIndex.UserTokenConfigurationProperty.Builder().apply(initializer).build()

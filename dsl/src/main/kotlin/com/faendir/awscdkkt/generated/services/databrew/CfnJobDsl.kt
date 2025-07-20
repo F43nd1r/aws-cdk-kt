@@ -16,5 +16,4 @@ public fun Construct.cfnJob(
 ): CfnJob = CfnJob(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnJob(id: String, initializer: @AwsCdkDsl CfnJob.Builder.() -> Unit =
-    {}): CfnJob = CfnJob.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnJob(id: String, initializer: @AwsCdkDsl CfnJob.Builder.() -> Unit = {}): CfnJob = CfnJob.Builder.create(this, id).apply(initializer).build()

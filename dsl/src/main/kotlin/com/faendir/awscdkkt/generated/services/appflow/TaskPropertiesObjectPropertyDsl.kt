@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
-public fun buildTaskPropertiesObjectProperty(initializer: @AwsCdkDsl
-    CfnFlow.TaskPropertiesObjectProperty.Builder.() -> Unit = {}):
-    CfnFlow.TaskPropertiesObjectProperty =
-    CfnFlow.TaskPropertiesObjectProperty.Builder().apply(initializer).build()
+public fun buildTaskPropertiesObjectProperty(initializer: @AwsCdkDsl CfnFlow.TaskPropertiesObjectProperty.Builder.() -> Unit = {}): CfnFlow.TaskPropertiesObjectProperty = CfnFlow.TaskPropertiesObjectProperty.Builder().apply(initializer).build()

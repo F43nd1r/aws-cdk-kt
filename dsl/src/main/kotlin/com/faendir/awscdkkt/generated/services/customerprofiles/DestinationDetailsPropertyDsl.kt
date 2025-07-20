@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.customerprofiles.CfnEventStream
 
 @Generated
-public fun buildDestinationDetailsProperty(initializer: @AwsCdkDsl
-    CfnEventStream.DestinationDetailsProperty.Builder.() -> Unit = {}):
-    CfnEventStream.DestinationDetailsProperty =
-    CfnEventStream.DestinationDetailsProperty.Builder().apply(initializer).build()
+public fun buildDestinationDetailsProperty(initializer: @AwsCdkDsl CfnEventStream.DestinationDetailsProperty.Builder.() -> Unit = {}): CfnEventStream.DestinationDetailsProperty = CfnEventStream.DestinationDetailsProperty.Builder().apply(initializer).build()

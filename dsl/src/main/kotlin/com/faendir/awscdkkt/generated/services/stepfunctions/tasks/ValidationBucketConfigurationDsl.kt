@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.ValidationBucketConfiguration
 
 @Generated
-public fun buildValidationBucketConfiguration(initializer: @AwsCdkDsl
-    ValidationBucketConfiguration.Builder.() -> Unit = {}): ValidationBucketConfiguration =
-    ValidationBucketConfiguration.Builder().apply(initializer).build()
+public fun buildValidationBucketConfiguration(initializer: @AwsCdkDsl ValidationBucketConfiguration.Builder.() -> Unit = {}): ValidationBucketConfiguration = ValidationBucketConfiguration.Builder().apply(initializer).build()

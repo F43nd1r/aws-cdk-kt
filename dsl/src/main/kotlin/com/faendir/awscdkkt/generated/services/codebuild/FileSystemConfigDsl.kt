@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.FileSystemConfig
 
 @Generated
-public fun buildFileSystemConfig(initializer: @AwsCdkDsl FileSystemConfig.Builder.() -> Unit = {}):
-    FileSystemConfig = FileSystemConfig.Builder().apply(initializer).build()
+public fun buildFileSystemConfig(initializer: @AwsCdkDsl FileSystemConfig.Builder.() -> Unit = {}): FileSystemConfig = FileSystemConfig.Builder().apply(initializer).build()

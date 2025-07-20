@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudformation.CfnHookTypeConfigProps
 
 @Generated
-public fun buildCfnHookTypeConfigProps(initializer: @AwsCdkDsl
-    CfnHookTypeConfigProps.Builder.() -> Unit = {}): CfnHookTypeConfigProps =
-    CfnHookTypeConfigProps.Builder().apply(initializer).build()
+public fun buildCfnHookTypeConfigProps(initializer: @AwsCdkDsl CfnHookTypeConfigProps.Builder.() -> Unit = {}): CfnHookTypeConfigProps = CfnHookTypeConfigProps.Builder().apply(initializer).build()

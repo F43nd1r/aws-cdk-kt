@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.neptunegraph.CfnPrivateGraphEndpointProps
 
 @Generated
-public fun buildCfnPrivateGraphEndpointProps(initializer: @AwsCdkDsl
-    CfnPrivateGraphEndpointProps.Builder.() -> Unit = {}): CfnPrivateGraphEndpointProps =
-    CfnPrivateGraphEndpointProps.Builder().apply(initializer).build()
+public fun buildCfnPrivateGraphEndpointProps(initializer: @AwsCdkDsl CfnPrivateGraphEndpointProps.Builder.() -> Unit = {}): CfnPrivateGraphEndpointProps = CfnPrivateGraphEndpointProps.Builder().apply(initializer).build()

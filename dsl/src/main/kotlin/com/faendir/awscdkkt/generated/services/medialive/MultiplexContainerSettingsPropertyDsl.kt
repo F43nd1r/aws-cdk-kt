@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildMultiplexContainerSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.MultiplexContainerSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.MultiplexContainerSettingsProperty =
-    CfnChannel.MultiplexContainerSettingsProperty.Builder().apply(initializer).build()
+public fun buildMultiplexContainerSettingsProperty(initializer: @AwsCdkDsl CfnChannel.MultiplexContainerSettingsProperty.Builder.() -> Unit = {}): CfnChannel.MultiplexContainerSettingsProperty = CfnChannel.MultiplexContainerSettingsProperty.Builder().apply(initializer).build()

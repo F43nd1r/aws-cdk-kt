@@ -16,6 +16,4 @@ public fun Construct.cfnBaiduChannel(
 ): CfnBaiduChannel = CfnBaiduChannel(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnBaiduChannel(id: String, initializer: @AwsCdkDsl
-    CfnBaiduChannel.Builder.() -> Unit = {}): CfnBaiduChannel = CfnBaiduChannel.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnBaiduChannel(id: String, initializer: @AwsCdkDsl CfnBaiduChannel.Builder.() -> Unit = {}): CfnBaiduChannel = CfnBaiduChannel.Builder.create(this, id).apply(initializer).build()

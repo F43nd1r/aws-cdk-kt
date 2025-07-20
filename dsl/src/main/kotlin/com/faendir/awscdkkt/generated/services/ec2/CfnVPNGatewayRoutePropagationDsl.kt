@@ -16,6 +16,4 @@ public fun Construct.cfnVPNGatewayRoutePropagation(
 ): CfnVPNGatewayRoutePropagation = CfnVPNGatewayRoutePropagation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVPNGatewayRoutePropagation(id: String, initializer: @AwsCdkDsl
-    CfnVPNGatewayRoutePropagation.Builder.() -> Unit = {}): CfnVPNGatewayRoutePropagation =
-    CfnVPNGatewayRoutePropagation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnVPNGatewayRoutePropagation(id: String, initializer: @AwsCdkDsl CfnVPNGatewayRoutePropagation.Builder.() -> Unit = {}): CfnVPNGatewayRoutePropagation = CfnVPNGatewayRoutePropagation.Builder.create(this, id).apply(initializer).build()

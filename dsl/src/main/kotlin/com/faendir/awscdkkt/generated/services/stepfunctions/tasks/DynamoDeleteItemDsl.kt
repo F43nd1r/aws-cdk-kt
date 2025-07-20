@@ -16,6 +16,4 @@ public fun Construct.dynamoDeleteItem(
 ): DynamoDeleteItem = DynamoDeleteItem(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildDynamoDeleteItem(id: String, initializer: @AwsCdkDsl
-    DynamoDeleteItem.Builder.() -> Unit = {}): DynamoDeleteItem =
-    DynamoDeleteItem.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildDynamoDeleteItem(id: String, initializer: @AwsCdkDsl DynamoDeleteItem.Builder.() -> Unit = {}): DynamoDeleteItem = DynamoDeleteItem.Builder.create(this, id).apply(initializer).build()

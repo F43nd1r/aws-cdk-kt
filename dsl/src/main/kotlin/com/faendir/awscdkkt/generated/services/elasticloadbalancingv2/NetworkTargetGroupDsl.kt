@@ -16,6 +16,4 @@ public fun Construct.networkTargetGroup(
 ): NetworkTargetGroup = NetworkTargetGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildNetworkTargetGroup(id: String, initializer: @AwsCdkDsl
-    NetworkTargetGroup.Builder.() -> Unit = {}): NetworkTargetGroup =
-    NetworkTargetGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildNetworkTargetGroup(id: String, initializer: @AwsCdkDsl NetworkTargetGroup.Builder.() -> Unit = {}): NetworkTargetGroup = NetworkTargetGroup.Builder.create(this, id).apply(initializer).build()

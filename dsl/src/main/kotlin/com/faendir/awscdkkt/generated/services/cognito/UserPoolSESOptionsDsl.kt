@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.UserPoolSESOptions
 
 @Generated
-public fun buildUserPoolSESOptions(initializer: @AwsCdkDsl UserPoolSESOptions.Builder.() -> Unit =
-    {}): UserPoolSESOptions = UserPoolSESOptions.Builder().apply(initializer).build()
+public fun buildUserPoolSESOptions(initializer: @AwsCdkDsl UserPoolSESOptions.Builder.() -> Unit = {}): UserPoolSESOptions = UserPoolSESOptions.Builder().apply(initializer).build()

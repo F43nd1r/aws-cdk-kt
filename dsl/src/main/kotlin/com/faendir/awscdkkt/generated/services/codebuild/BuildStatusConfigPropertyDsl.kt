@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.CfnProject
 
 @Generated
-public fun buildBuildStatusConfigProperty(initializer: @AwsCdkDsl
-    CfnProject.BuildStatusConfigProperty.Builder.() -> Unit = {}):
-    CfnProject.BuildStatusConfigProperty =
-    CfnProject.BuildStatusConfigProperty.Builder().apply(initializer).build()
+public fun buildBuildStatusConfigProperty(initializer: @AwsCdkDsl CfnProject.BuildStatusConfigProperty.Builder.() -> Unit = {}): CfnProject.BuildStatusConfigProperty = CfnProject.BuildStatusConfigProperty.Builder().apply(initializer).build()

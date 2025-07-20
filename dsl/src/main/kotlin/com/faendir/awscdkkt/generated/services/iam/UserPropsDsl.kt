@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.UserProps
 
 @Generated
-public fun buildUserProps(initializer: @AwsCdkDsl UserProps.Builder.() -> Unit = {}): UserProps =
-    UserProps.Builder().apply(initializer).build()
+public fun buildUserProps(initializer: @AwsCdkDsl UserProps.Builder.() -> Unit = {}): UserProps = UserProps.Builder().apply(initializer).build()

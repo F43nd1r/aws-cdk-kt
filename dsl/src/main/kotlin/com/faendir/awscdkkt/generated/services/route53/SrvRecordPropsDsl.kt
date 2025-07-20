@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.SrvRecordProps
 
 @Generated
-public fun buildSrvRecordProps(initializer: @AwsCdkDsl SrvRecordProps.Builder.() -> Unit = {}):
-    SrvRecordProps = SrvRecordProps.Builder().apply(initializer).build()
+public fun buildSrvRecordProps(initializer: @AwsCdkDsl SrvRecordProps.Builder.() -> Unit = {}): SrvRecordProps = SrvRecordProps.Builder().apply(initializer).build()

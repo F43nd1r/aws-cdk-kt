@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appstream.CfnStackUserAssociationProps
 
 @Generated
-public fun buildCfnStackUserAssociationProps(initializer: @AwsCdkDsl
-    CfnStackUserAssociationProps.Builder.() -> Unit = {}): CfnStackUserAssociationProps =
-    CfnStackUserAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnStackUserAssociationProps(initializer: @AwsCdkDsl CfnStackUserAssociationProps.Builder.() -> Unit = {}): CfnStackUserAssociationProps = CfnStackUserAssociationProps.Builder().apply(initializer).build()

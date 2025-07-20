@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnTopicRule
 
 @Generated
-public fun buildTimestreamDimensionProperty(initializer: @AwsCdkDsl
-    CfnTopicRule.TimestreamDimensionProperty.Builder.() -> Unit = {}):
-    CfnTopicRule.TimestreamDimensionProperty =
-    CfnTopicRule.TimestreamDimensionProperty.Builder().apply(initializer).build()
+public fun buildTimestreamDimensionProperty(initializer: @AwsCdkDsl CfnTopicRule.TimestreamDimensionProperty.Builder.() -> Unit = {}): CfnTopicRule.TimestreamDimensionProperty = CfnTopicRule.TimestreamDimensionProperty.Builder().apply(initializer).build()

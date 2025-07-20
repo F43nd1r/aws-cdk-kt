@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrCreateClusterJsonPathProps
 
 @Generated
-public fun buildEmrCreateClusterJsonPathProps(initializer: @AwsCdkDsl
-    EmrCreateClusterJsonPathProps.Builder.() -> Unit = {}): EmrCreateClusterJsonPathProps =
-    EmrCreateClusterJsonPathProps.Builder().apply(initializer).build()
+public fun buildEmrCreateClusterJsonPathProps(initializer: @AwsCdkDsl EmrCreateClusterJsonPathProps.Builder.() -> Unit = {}): EmrCreateClusterJsonPathProps = EmrCreateClusterJsonPathProps.Builder().apply(initializer).build()

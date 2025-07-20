@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnDataSource
 
 @Generated
-public fun buildConfluenceDataSourceConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.ConfluenceDataSourceConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDataSource.ConfluenceDataSourceConfigurationProperty =
-    CfnDataSource.ConfluenceDataSourceConfigurationProperty.Builder().apply(initializer).build()
+public fun buildConfluenceDataSourceConfigurationProperty(initializer: @AwsCdkDsl CfnDataSource.ConfluenceDataSourceConfigurationProperty.Builder.() -> Unit = {}): CfnDataSource.ConfluenceDataSourceConfigurationProperty = CfnDataSource.ConfluenceDataSourceConfigurationProperty.Builder().apply(initializer).build()

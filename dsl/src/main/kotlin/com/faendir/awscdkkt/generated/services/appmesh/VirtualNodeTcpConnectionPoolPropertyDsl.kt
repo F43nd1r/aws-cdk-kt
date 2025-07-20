@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnVirtualNode
 
 @Generated
-public fun buildVirtualNodeTcpConnectionPoolProperty(initializer: @AwsCdkDsl
-    CfnVirtualNode.VirtualNodeTcpConnectionPoolProperty.Builder.() -> Unit = {}):
-    CfnVirtualNode.VirtualNodeTcpConnectionPoolProperty =
-    CfnVirtualNode.VirtualNodeTcpConnectionPoolProperty.Builder().apply(initializer).build()
+public fun buildVirtualNodeTcpConnectionPoolProperty(initializer: @AwsCdkDsl CfnVirtualNode.VirtualNodeTcpConnectionPoolProperty.Builder.() -> Unit = {}): CfnVirtualNode.VirtualNodeTcpConnectionPoolProperty = CfnVirtualNode.VirtualNodeTcpConnectionPoolProperty.Builder().apply(initializer).build()

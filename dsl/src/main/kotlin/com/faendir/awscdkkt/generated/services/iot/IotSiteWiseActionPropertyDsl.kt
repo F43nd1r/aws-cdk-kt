@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnTopicRule
 
 @Generated
-public fun buildIotSiteWiseActionProperty(initializer: @AwsCdkDsl
-    CfnTopicRule.IotSiteWiseActionProperty.Builder.() -> Unit = {}):
-    CfnTopicRule.IotSiteWiseActionProperty =
-    CfnTopicRule.IotSiteWiseActionProperty.Builder().apply(initializer).build()
+public fun buildIotSiteWiseActionProperty(initializer: @AwsCdkDsl CfnTopicRule.IotSiteWiseActionProperty.Builder.() -> Unit = {}): CfnTopicRule.IotSiteWiseActionProperty = CfnTopicRule.IotSiteWiseActionProperty.Builder().apply(initializer).build()

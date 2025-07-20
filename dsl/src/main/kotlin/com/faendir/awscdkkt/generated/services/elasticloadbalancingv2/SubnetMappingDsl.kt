@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.SubnetMapping
 
 @Generated
-public fun buildSubnetMapping(initializer: @AwsCdkDsl SubnetMapping.Builder.() -> Unit = {}):
-    SubnetMapping = SubnetMapping.Builder().apply(initializer).build()
+public fun buildSubnetMapping(initializer: @AwsCdkDsl SubnetMapping.Builder.() -> Unit = {}): SubnetMapping = SubnetMapping.Builder().apply(initializer).build()

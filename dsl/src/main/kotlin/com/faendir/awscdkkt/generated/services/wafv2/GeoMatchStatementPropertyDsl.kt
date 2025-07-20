@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
-public fun buildGeoMatchStatementProperty(initializer: @AwsCdkDsl
-    CfnWebACL.GeoMatchStatementProperty.Builder.() -> Unit = {}):
-    CfnWebACL.GeoMatchStatementProperty =
-    CfnWebACL.GeoMatchStatementProperty.Builder().apply(initializer).build()
+public fun buildGeoMatchStatementProperty(initializer: @AwsCdkDsl CfnWebACL.GeoMatchStatementProperty.Builder.() -> Unit = {}): CfnWebACL.GeoMatchStatementProperty = CfnWebACL.GeoMatchStatementProperty.Builder().apply(initializer).build()

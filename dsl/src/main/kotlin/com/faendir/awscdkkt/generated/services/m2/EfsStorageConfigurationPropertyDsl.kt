@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.m2.CfnEnvironment
 
 @Generated
-public fun buildEfsStorageConfigurationProperty(initializer: @AwsCdkDsl
-    CfnEnvironment.EfsStorageConfigurationProperty.Builder.() -> Unit = {}):
-    CfnEnvironment.EfsStorageConfigurationProperty =
-    CfnEnvironment.EfsStorageConfigurationProperty.Builder().apply(initializer).build()
+public fun buildEfsStorageConfigurationProperty(initializer: @AwsCdkDsl CfnEnvironment.EfsStorageConfigurationProperty.Builder.() -> Unit = {}): CfnEnvironment.EfsStorageConfigurationProperty = CfnEnvironment.EfsStorageConfigurationProperty.Builder().apply(initializer).build()

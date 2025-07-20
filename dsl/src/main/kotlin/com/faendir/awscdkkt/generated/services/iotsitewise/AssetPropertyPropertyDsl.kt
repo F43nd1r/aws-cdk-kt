@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotsitewise.CfnAsset
 
 @Generated
-public fun buildAssetPropertyProperty(initializer: @AwsCdkDsl
-    CfnAsset.AssetPropertyProperty.Builder.() -> Unit = {}): CfnAsset.AssetPropertyProperty =
-    CfnAsset.AssetPropertyProperty.Builder().apply(initializer).build()
+public fun buildAssetPropertyProperty(initializer: @AwsCdkDsl CfnAsset.AssetPropertyProperty.Builder.() -> Unit = {}): CfnAsset.AssetPropertyProperty = CfnAsset.AssetPropertyProperty.Builder().apply(initializer).build()

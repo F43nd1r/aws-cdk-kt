@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.odb.CfnCloudVmClusterProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnCloudVmCluster(id: String, initializer: @AwsCdkDsl
-    CfnCloudVmCluster.() -> Unit = {}): CfnCloudVmCluster = CfnCloudVmCluster(this,
-    id).apply(initializer)
+public fun Construct.cfnCloudVmCluster(id: String, initializer: @AwsCdkDsl CfnCloudVmCluster.() -> Unit = {}): CfnCloudVmCluster = CfnCloudVmCluster(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnCloudVmCluster(
@@ -21,6 +19,4 @@ public fun Construct.cfnCloudVmCluster(
 ): CfnCloudVmCluster = CfnCloudVmCluster(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCloudVmCluster(id: String, initializer: @AwsCdkDsl
-    CfnCloudVmCluster.Builder.() -> Unit = {}): CfnCloudVmCluster =
-    CfnCloudVmCluster.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCloudVmCluster(id: String, initializer: @AwsCdkDsl CfnCloudVmCluster.Builder.() -> Unit = {}): CfnCloudVmCluster = CfnCloudVmCluster.Builder.create(this, id).apply(initializer).build()

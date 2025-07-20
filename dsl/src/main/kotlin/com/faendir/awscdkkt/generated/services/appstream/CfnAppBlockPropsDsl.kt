@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appstream.CfnAppBlockProps
 
 @Generated
-public fun buildCfnAppBlockProps(initializer: @AwsCdkDsl CfnAppBlockProps.Builder.() -> Unit = {}):
-    CfnAppBlockProps = CfnAppBlockProps.Builder().apply(initializer).build()
+public fun buildCfnAppBlockProps(initializer: @AwsCdkDsl CfnAppBlockProps.Builder.() -> Unit = {}): CfnAppBlockProps = CfnAppBlockProps.Builder().apply(initializer).build()

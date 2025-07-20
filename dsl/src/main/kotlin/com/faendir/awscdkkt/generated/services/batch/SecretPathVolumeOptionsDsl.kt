@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.SecretPathVolumeOptions
 
 @Generated
-public fun buildSecretPathVolumeOptions(initializer: @AwsCdkDsl
-    SecretPathVolumeOptions.Builder.() -> Unit = {}): SecretPathVolumeOptions =
-    SecretPathVolumeOptions.Builder().apply(initializer).build()
+public fun buildSecretPathVolumeOptions(initializer: @AwsCdkDsl SecretPathVolumeOptions.Builder.() -> Unit = {}): SecretPathVolumeOptions = SecretPathVolumeOptions.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.RequestValidatorOptions
 
 @Generated
-public fun buildRequestValidatorOptions(initializer: @AwsCdkDsl
-    RequestValidatorOptions.Builder.() -> Unit = {}): RequestValidatorOptions =
-    RequestValidatorOptions.Builder().apply(initializer).build()
+public fun buildRequestValidatorOptions(initializer: @AwsCdkDsl RequestValidatorOptions.Builder.() -> Unit = {}): RequestValidatorOptions = RequestValidatorOptions.Builder().apply(initializer).build()

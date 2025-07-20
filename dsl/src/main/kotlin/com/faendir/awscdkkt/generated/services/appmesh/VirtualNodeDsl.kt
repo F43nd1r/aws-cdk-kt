@@ -16,6 +16,4 @@ public fun Construct.virtualNode(
 ): VirtualNode = VirtualNode(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildVirtualNode(id: String, initializer: @AwsCdkDsl
-    VirtualNode.Builder.() -> Unit = {}): VirtualNode = VirtualNode.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildVirtualNode(id: String, initializer: @AwsCdkDsl VirtualNode.Builder.() -> Unit = {}): VirtualNode = VirtualNode.Builder.create(this, id).apply(initializer).build()

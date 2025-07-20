@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnClientVpnEndpoint
 
 @Generated
-public fun buildClientRouteEnforcementOptionsProperty(initializer: @AwsCdkDsl
-    CfnClientVpnEndpoint.ClientRouteEnforcementOptionsProperty.Builder.() -> Unit = {}):
-    CfnClientVpnEndpoint.ClientRouteEnforcementOptionsProperty =
-    CfnClientVpnEndpoint.ClientRouteEnforcementOptionsProperty.Builder().apply(initializer).build()
+public fun buildClientRouteEnforcementOptionsProperty(initializer: @AwsCdkDsl CfnClientVpnEndpoint.ClientRouteEnforcementOptionsProperty.Builder.() -> Unit = {}): CfnClientVpnEndpoint.ClientRouteEnforcementOptionsProperty = CfnClientVpnEndpoint.ClientRouteEnforcementOptionsProperty.Builder().apply(initializer).build()

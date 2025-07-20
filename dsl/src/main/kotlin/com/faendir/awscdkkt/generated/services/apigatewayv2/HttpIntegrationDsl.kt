@@ -16,6 +16,4 @@ public fun Construct.httpIntegration(
 ): HttpIntegration = HttpIntegration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildHttpIntegration(id: String, initializer: @AwsCdkDsl
-    HttpIntegration.Builder.() -> Unit = {}): HttpIntegration = HttpIntegration.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildHttpIntegration(id: String, initializer: @AwsCdkDsl HttpIntegration.Builder.() -> Unit = {}): HttpIntegration = HttpIntegration.Builder.create(this, id).apply(initializer).build()

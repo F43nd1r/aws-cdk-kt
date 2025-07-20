@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnAIGuardrail
 
 @Generated
-public fun buildGuardrailContentFilterConfigProperty(initializer: @AwsCdkDsl
-    CfnAIGuardrail.GuardrailContentFilterConfigProperty.Builder.() -> Unit = {}):
-    CfnAIGuardrail.GuardrailContentFilterConfigProperty =
-    CfnAIGuardrail.GuardrailContentFilterConfigProperty.Builder().apply(initializer).build()
+public fun buildGuardrailContentFilterConfigProperty(initializer: @AwsCdkDsl CfnAIGuardrail.GuardrailContentFilterConfigProperty.Builder.() -> Unit = {}): CfnAIGuardrail.GuardrailContentFilterConfigProperty = CfnAIGuardrail.GuardrailContentFilterConfigProperty.Builder().apply(initializer).build()

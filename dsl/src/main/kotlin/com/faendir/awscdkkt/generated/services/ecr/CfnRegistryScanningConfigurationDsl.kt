@@ -13,10 +13,7 @@ public fun Construct.cfnRegistryScanningConfiguration(
   id: String,
   props: CfnRegistryScanningConfigurationProps,
   initializer: @AwsCdkDsl CfnRegistryScanningConfiguration.() -> Unit = {},
-): CfnRegistryScanningConfiguration = CfnRegistryScanningConfiguration(this, id,
-    props).apply(initializer)
+): CfnRegistryScanningConfiguration = CfnRegistryScanningConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRegistryScanningConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnRegistryScanningConfiguration.Builder.() -> Unit = {}): CfnRegistryScanningConfiguration =
-    CfnRegistryScanningConfiguration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRegistryScanningConfiguration(id: String, initializer: @AwsCdkDsl CfnRegistryScanningConfiguration.Builder.() -> Unit = {}): CfnRegistryScanningConfiguration = CfnRegistryScanningConfiguration.Builder.create(this, id).apply(initializer).build()

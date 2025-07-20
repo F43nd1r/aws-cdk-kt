@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
-public fun buildDestinationProperty(initializer: @AwsCdkDsl
-    CfnBucket.DestinationProperty.Builder.() -> Unit = {}): CfnBucket.DestinationProperty =
-    CfnBucket.DestinationProperty.Builder().apply(initializer).build()
+public fun buildDestinationProperty(initializer: @AwsCdkDsl CfnBucket.DestinationProperty.Builder.() -> Unit = {}): CfnBucket.DestinationProperty = CfnBucket.DestinationProperty.Builder().apply(initializer).build()

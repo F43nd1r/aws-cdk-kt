@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EventBridgePutEventsJsonataProps
 
 @Generated
-public fun buildEventBridgePutEventsJsonataProps(initializer: @AwsCdkDsl
-    EventBridgePutEventsJsonataProps.Builder.() -> Unit = {}): EventBridgePutEventsJsonataProps =
-    EventBridgePutEventsJsonataProps.Builder().apply(initializer).build()
+public fun buildEventBridgePutEventsJsonataProps(initializer: @AwsCdkDsl EventBridgePutEventsJsonataProps.Builder.() -> Unit = {}): EventBridgePutEventsJsonataProps = EventBridgePutEventsJsonataProps.Builder().apply(initializer).build()

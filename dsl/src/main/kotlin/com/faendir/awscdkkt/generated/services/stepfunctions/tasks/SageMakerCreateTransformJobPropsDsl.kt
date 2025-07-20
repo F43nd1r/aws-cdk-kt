@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.SageMakerCreateTransformJobProps
 
 @Generated
-public fun buildSageMakerCreateTransformJobProps(initializer: @AwsCdkDsl
-    SageMakerCreateTransformJobProps.Builder.() -> Unit = {}): SageMakerCreateTransformJobProps =
-    SageMakerCreateTransformJobProps.Builder().apply(initializer).build()
+public fun buildSageMakerCreateTransformJobProps(initializer: @AwsCdkDsl SageMakerCreateTransformJobProps.Builder.() -> Unit = {}): SageMakerCreateTransformJobProps = SageMakerCreateTransformJobProps.Builder().apply(initializer).build()

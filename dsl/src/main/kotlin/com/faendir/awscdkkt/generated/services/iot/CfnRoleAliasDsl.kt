@@ -16,6 +16,4 @@ public fun Construct.cfnRoleAlias(
 ): CfnRoleAlias = CfnRoleAlias(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRoleAlias(id: String, initializer: @AwsCdkDsl
-    CfnRoleAlias.Builder.() -> Unit = {}): CfnRoleAlias = CfnRoleAlias.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnRoleAlias(id: String, initializer: @AwsCdkDsl CfnRoleAlias.Builder.() -> Unit = {}): CfnRoleAlias = CfnRoleAlias.Builder.create(this, id).apply(initializer).build()

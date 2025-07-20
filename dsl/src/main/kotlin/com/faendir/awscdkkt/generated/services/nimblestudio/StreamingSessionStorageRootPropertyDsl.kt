@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.nimblestudio.CfnLaunchProfile
 
 @Generated
-public fun buildStreamingSessionStorageRootProperty(initializer: @AwsCdkDsl
-    CfnLaunchProfile.StreamingSessionStorageRootProperty.Builder.() -> Unit = {}):
-    CfnLaunchProfile.StreamingSessionStorageRootProperty =
-    CfnLaunchProfile.StreamingSessionStorageRootProperty.Builder().apply(initializer).build()
+public fun buildStreamingSessionStorageRootProperty(initializer: @AwsCdkDsl CfnLaunchProfile.StreamingSessionStorageRootProperty.Builder.() -> Unit = {}): CfnLaunchProfile.StreamingSessionStorageRootProperty = CfnLaunchProfile.StreamingSessionStorageRootProperty.Builder().apply(initializer).build()

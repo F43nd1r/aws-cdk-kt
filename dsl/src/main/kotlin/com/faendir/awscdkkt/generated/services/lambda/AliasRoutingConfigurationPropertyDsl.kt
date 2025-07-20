@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.CfnAlias
 
 @Generated
-public fun buildAliasRoutingConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAlias.AliasRoutingConfigurationProperty.Builder.() -> Unit = {}):
-    CfnAlias.AliasRoutingConfigurationProperty =
-    CfnAlias.AliasRoutingConfigurationProperty.Builder().apply(initializer).build()
+public fun buildAliasRoutingConfigurationProperty(initializer: @AwsCdkDsl CfnAlias.AliasRoutingConfigurationProperty.Builder.() -> Unit = {}): CfnAlias.AliasRoutingConfigurationProperty = CfnAlias.AliasRoutingConfigurationProperty.Builder().apply(initializer).build()

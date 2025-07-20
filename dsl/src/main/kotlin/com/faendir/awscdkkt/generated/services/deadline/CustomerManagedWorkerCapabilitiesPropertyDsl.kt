@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.deadline.CfnFleet
 
 @Generated
-public fun buildCustomerManagedWorkerCapabilitiesProperty(initializer: @AwsCdkDsl
-    CfnFleet.CustomerManagedWorkerCapabilitiesProperty.Builder.() -> Unit = {}):
-    CfnFleet.CustomerManagedWorkerCapabilitiesProperty =
-    CfnFleet.CustomerManagedWorkerCapabilitiesProperty.Builder().apply(initializer).build()
+public fun buildCustomerManagedWorkerCapabilitiesProperty(initializer: @AwsCdkDsl CfnFleet.CustomerManagedWorkerCapabilitiesProperty.Builder.() -> Unit = {}): CfnFleet.CustomerManagedWorkerCapabilitiesProperty = CfnFleet.CustomerManagedWorkerCapabilitiesProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloud_assembly_schema.MissingContext
 
 @Generated
-public fun buildMissingContext(initializer: @AwsCdkDsl MissingContext.Builder.() -> Unit = {}):
-    MissingContext = MissingContext.Builder().apply(initializer).build()
+public fun buildMissingContext(initializer: @AwsCdkDsl MissingContext.Builder.() -> Unit = {}): MissingContext = MissingContext.Builder().apply(initializer).build()

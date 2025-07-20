@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.ResourceConfig
 
 @Generated
-public fun buildResourceConfig(initializer: @AwsCdkDsl ResourceConfig.Builder.() -> Unit = {}):
-    ResourceConfig = ResourceConfig.Builder().apply(initializer).build()
+public fun buildResourceConfig(initializer: @AwsCdkDsl ResourceConfig.Builder.() -> Unit = {}): ResourceConfig = ResourceConfig.Builder().apply(initializer).build()

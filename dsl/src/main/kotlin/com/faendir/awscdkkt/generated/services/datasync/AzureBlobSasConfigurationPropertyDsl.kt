@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datasync.CfnLocationAzureBlob
 
 @Generated
-public fun buildAzureBlobSasConfigurationProperty(initializer: @AwsCdkDsl
-    CfnLocationAzureBlob.AzureBlobSasConfigurationProperty.Builder.() -> Unit = {}):
-    CfnLocationAzureBlob.AzureBlobSasConfigurationProperty =
-    CfnLocationAzureBlob.AzureBlobSasConfigurationProperty.Builder().apply(initializer).build()
+public fun buildAzureBlobSasConfigurationProperty(initializer: @AwsCdkDsl CfnLocationAzureBlob.AzureBlobSasConfigurationProperty.Builder.() -> Unit = {}): CfnLocationAzureBlob.AzureBlobSasConfigurationProperty = CfnLocationAzureBlob.AzureBlobSasConfigurationProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnScheduledAction(
 ): CfnScheduledAction = CfnScheduledAction(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnScheduledAction(id: String, initializer: @AwsCdkDsl
-    CfnScheduledAction.Builder.() -> Unit = {}): CfnScheduledAction =
-    CfnScheduledAction.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnScheduledAction(id: String, initializer: @AwsCdkDsl CfnScheduledAction.Builder.() -> Unit = {}): CfnScheduledAction = CfnScheduledAction.Builder.create(this, id).apply(initializer).build()

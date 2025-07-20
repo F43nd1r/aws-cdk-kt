@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.CfnCustomActionType
 
 @Generated
-public fun buildSettingsProperty(initializer: @AwsCdkDsl
-    CfnCustomActionType.SettingsProperty.Builder.() -> Unit = {}):
-    CfnCustomActionType.SettingsProperty =
-    CfnCustomActionType.SettingsProperty.Builder().apply(initializer).build()
+public fun buildSettingsProperty(initializer: @AwsCdkDsl CfnCustomActionType.SettingsProperty.Builder.() -> Unit = {}): CfnCustomActionType.SettingsProperty = CfnCustomActionType.SettingsProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.GlueStartCrawlerRunJsonPathProps
 
 @Generated
-public fun buildGlueStartCrawlerRunJsonPathProps(initializer: @AwsCdkDsl
-    GlueStartCrawlerRunJsonPathProps.Builder.() -> Unit = {}): GlueStartCrawlerRunJsonPathProps =
-    GlueStartCrawlerRunJsonPathProps.Builder().apply(initializer).build()
+public fun buildGlueStartCrawlerRunJsonPathProps(initializer: @AwsCdkDsl GlueStartCrawlerRunJsonPathProps.Builder.() -> Unit = {}): GlueStartCrawlerRunJsonPathProps = GlueStartCrawlerRunJsonPathProps.Builder().apply(initializer).build()

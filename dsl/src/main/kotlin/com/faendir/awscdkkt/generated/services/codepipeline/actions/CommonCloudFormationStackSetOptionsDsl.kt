@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.CommonCloudFormationStackSetOptions
 
 @Generated
-public fun buildCommonCloudFormationStackSetOptions(initializer: @AwsCdkDsl
-    CommonCloudFormationStackSetOptions.Builder.() -> Unit = {}):
-    CommonCloudFormationStackSetOptions =
-    CommonCloudFormationStackSetOptions.Builder().apply(initializer).build()
+public fun buildCommonCloudFormationStackSetOptions(initializer: @AwsCdkDsl CommonCloudFormationStackSetOptions.Builder.() -> Unit = {}): CommonCloudFormationStackSetOptions = CommonCloudFormationStackSetOptions.Builder().apply(initializer).build()

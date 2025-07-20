@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.elasticloadbalancingv2.ApplicationTargetG
 import software.constructs.Construct
 
 @Generated
-public fun Construct.applicationTargetGroup(id: String, initializer: @AwsCdkDsl
-    ApplicationTargetGroup.() -> Unit = {}): ApplicationTargetGroup = ApplicationTargetGroup(this,
-    id).apply(initializer)
+public fun Construct.applicationTargetGroup(id: String, initializer: @AwsCdkDsl ApplicationTargetGroup.() -> Unit = {}): ApplicationTargetGroup = ApplicationTargetGroup(this, id).apply(initializer)
 
 @Generated
 public fun Construct.applicationTargetGroup(
@@ -21,6 +19,4 @@ public fun Construct.applicationTargetGroup(
 ): ApplicationTargetGroup = ApplicationTargetGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildApplicationTargetGroup(id: String, initializer: @AwsCdkDsl
-    ApplicationTargetGroup.Builder.() -> Unit = {}): ApplicationTargetGroup =
-    ApplicationTargetGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildApplicationTargetGroup(id: String, initializer: @AwsCdkDsl ApplicationTargetGroup.Builder.() -> Unit = {}): ApplicationTargetGroup = ApplicationTargetGroup.Builder.create(this, id).apply(initializer).build()

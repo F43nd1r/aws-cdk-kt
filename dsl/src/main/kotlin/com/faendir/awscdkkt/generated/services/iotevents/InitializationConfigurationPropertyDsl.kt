@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotevents.CfnAlarmModel
 
 @Generated
-public fun buildInitializationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAlarmModel.InitializationConfigurationProperty.Builder.() -> Unit = {}):
-    CfnAlarmModel.InitializationConfigurationProperty =
-    CfnAlarmModel.InitializationConfigurationProperty.Builder().apply(initializer).build()
+public fun buildInitializationConfigurationProperty(initializer: @AwsCdkDsl CfnAlarmModel.InitializationConfigurationProperty.Builder.() -> Unit = {}): CfnAlarmModel.InitializationConfigurationProperty = CfnAlarmModel.InitializationConfigurationProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnSimpleAD(
 ): CfnSimpleAD = CfnSimpleAD(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSimpleAD(id: String, initializer: @AwsCdkDsl
-    CfnSimpleAD.Builder.() -> Unit = {}): CfnSimpleAD = CfnSimpleAD.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnSimpleAD(id: String, initializer: @AwsCdkDsl CfnSimpleAD.Builder.() -> Unit = {}): CfnSimpleAD = CfnSimpleAD.Builder.create(this, id).apply(initializer).build()

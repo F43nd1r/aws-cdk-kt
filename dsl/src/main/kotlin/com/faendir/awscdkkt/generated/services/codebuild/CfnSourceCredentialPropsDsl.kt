@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.CfnSourceCredentialProps
 
 @Generated
-public fun buildCfnSourceCredentialProps(initializer: @AwsCdkDsl
-    CfnSourceCredentialProps.Builder.() -> Unit = {}): CfnSourceCredentialProps =
-    CfnSourceCredentialProps.Builder().apply(initializer).build()
+public fun buildCfnSourceCredentialProps(initializer: @AwsCdkDsl CfnSourceCredentialProps.Builder.() -> Unit = {}): CfnSourceCredentialProps = CfnSourceCredentialProps.Builder().apply(initializer).build()

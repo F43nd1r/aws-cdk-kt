@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnStorageLens
 
 @Generated
-public fun buildAdvancedDataProtectionMetricsProperty(initializer: @AwsCdkDsl
-    CfnStorageLens.AdvancedDataProtectionMetricsProperty.Builder.() -> Unit = {}):
-    CfnStorageLens.AdvancedDataProtectionMetricsProperty =
-    CfnStorageLens.AdvancedDataProtectionMetricsProperty.Builder().apply(initializer).build()
+public fun buildAdvancedDataProtectionMetricsProperty(initializer: @AwsCdkDsl CfnStorageLens.AdvancedDataProtectionMetricsProperty.Builder.() -> Unit = {}): CfnStorageLens.AdvancedDataProtectionMetricsProperty = CfnStorageLens.AdvancedDataProtectionMetricsProperty.Builder().apply(initializer).build()

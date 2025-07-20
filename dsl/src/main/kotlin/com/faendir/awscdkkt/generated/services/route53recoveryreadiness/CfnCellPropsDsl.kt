@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53recoveryreadiness.CfnCellProps
 
 @Generated
-public fun buildCfnCellProps(initializer: @AwsCdkDsl CfnCellProps.Builder.() -> Unit = {}):
-    CfnCellProps = CfnCellProps.Builder().apply(initializer).build()
+public fun buildCfnCellProps(initializer: @AwsCdkDsl CfnCellProps.Builder.() -> Unit = {}): CfnCellProps = CfnCellProps.Builder().apply(initializer).build()

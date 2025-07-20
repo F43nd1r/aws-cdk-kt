@@ -16,6 +16,4 @@ public fun Construct.cfnMailManagerRuleSet(
 ): CfnMailManagerRuleSet = CfnMailManagerRuleSet(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMailManagerRuleSet(id: String, initializer: @AwsCdkDsl
-    CfnMailManagerRuleSet.Builder.() -> Unit = {}): CfnMailManagerRuleSet =
-    CfnMailManagerRuleSet.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMailManagerRuleSet(id: String, initializer: @AwsCdkDsl CfnMailManagerRuleSet.Builder.() -> Unit = {}): CfnMailManagerRuleSet = CfnMailManagerRuleSet.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.InspectorEcrImageScanAction
 
 @Generated
-public fun buildInspectorEcrImageScanAction(initializer: @AwsCdkDsl
-    InspectorEcrImageScanAction.Builder.() -> Unit = {}): InspectorEcrImageScanAction =
-    InspectorEcrImageScanAction.Builder.create().apply(initializer).build()
+public fun buildInspectorEcrImageScanAction(initializer: @AwsCdkDsl InspectorEcrImageScanAction.Builder.() -> Unit = {}): InspectorEcrImageScanAction = InspectorEcrImageScanAction.Builder.create().apply(initializer).build()

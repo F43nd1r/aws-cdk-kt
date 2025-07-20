@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.resiliencehub.CfnResiliencyPolicy
 
 @Generated
-public fun buildFailurePolicyProperty(initializer: @AwsCdkDsl
-    CfnResiliencyPolicy.FailurePolicyProperty.Builder.() -> Unit = {}):
-    CfnResiliencyPolicy.FailurePolicyProperty =
-    CfnResiliencyPolicy.FailurePolicyProperty.Builder().apply(initializer).build()
+public fun buildFailurePolicyProperty(initializer: @AwsCdkDsl CfnResiliencyPolicy.FailurePolicyProperty.Builder.() -> Unit = {}): CfnResiliencyPolicy.FailurePolicyProperty = CfnResiliencyPolicy.FailurePolicyProperty.Builder().apply(initializer).build()

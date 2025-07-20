@@ -12,5 +12,4 @@ public fun buildHttpLambdaIntegration(
   id: String,
   handler: IFunction,
   initializer: @AwsCdkDsl HttpLambdaIntegration.Builder.() -> Unit = {},
-): HttpLambdaIntegration = HttpLambdaIntegration.Builder.create(id,
-    handler).apply(initializer).build()
+): HttpLambdaIntegration = HttpLambdaIntegration.Builder.create(id, handler).apply(initializer).build()

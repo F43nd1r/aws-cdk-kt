@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.CfnKeySigningKeyProps
 
 @Generated
-public fun buildCfnKeySigningKeyProps(initializer: @AwsCdkDsl
-    CfnKeySigningKeyProps.Builder.() -> Unit = {}): CfnKeySigningKeyProps =
-    CfnKeySigningKeyProps.Builder().apply(initializer).build()
+public fun buildCfnKeySigningKeyProps(initializer: @AwsCdkDsl CfnKeySigningKeyProps.Builder.() -> Unit = {}): CfnKeySigningKeyProps = CfnKeySigningKeyProps.Builder().apply(initializer).build()

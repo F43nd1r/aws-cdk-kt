@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.SageMakerUpdateEndpointProps
 
 @Generated
-public fun buildSageMakerUpdateEndpointProps(initializer: @AwsCdkDsl
-    SageMakerUpdateEndpointProps.Builder.() -> Unit = {}): SageMakerUpdateEndpointProps =
-    SageMakerUpdateEndpointProps.Builder().apply(initializer).build()
+public fun buildSageMakerUpdateEndpointProps(initializer: @AwsCdkDsl SageMakerUpdateEndpointProps.Builder.() -> Unit = {}): SageMakerUpdateEndpointProps = SageMakerUpdateEndpointProps.Builder().apply(initializer).build()

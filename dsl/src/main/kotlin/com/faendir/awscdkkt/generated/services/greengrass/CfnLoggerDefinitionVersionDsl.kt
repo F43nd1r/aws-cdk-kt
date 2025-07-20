@@ -16,6 +16,4 @@ public fun Construct.cfnLoggerDefinitionVersion(
 ): CfnLoggerDefinitionVersion = CfnLoggerDefinitionVersion(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLoggerDefinitionVersion(id: String, initializer: @AwsCdkDsl
-    CfnLoggerDefinitionVersion.Builder.() -> Unit = {}): CfnLoggerDefinitionVersion =
-    CfnLoggerDefinitionVersion.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLoggerDefinitionVersion(id: String, initializer: @AwsCdkDsl CfnLoggerDefinitionVersion.Builder.() -> Unit = {}): CfnLoggerDefinitionVersion = CfnLoggerDefinitionVersion.Builder.create(this, id).apply(initializer).build()

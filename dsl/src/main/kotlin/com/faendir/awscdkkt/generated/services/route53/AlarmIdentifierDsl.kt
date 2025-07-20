@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.AlarmIdentifier
 
 @Generated
-public fun buildAlarmIdentifier(initializer: @AwsCdkDsl AlarmIdentifier.Builder.() -> Unit = {}):
-    AlarmIdentifier = AlarmIdentifier.Builder().apply(initializer).build()
+public fun buildAlarmIdentifier(initializer: @AwsCdkDsl AlarmIdentifier.Builder.() -> Unit = {}): AlarmIdentifier = AlarmIdentifier.Builder().apply(initializer).build()

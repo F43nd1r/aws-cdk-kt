@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.OriginAccessIdentityProps
 
 @Generated
-public fun buildOriginAccessIdentityProps(initializer: @AwsCdkDsl
-    OriginAccessIdentityProps.Builder.() -> Unit = {}): OriginAccessIdentityProps =
-    OriginAccessIdentityProps.Builder().apply(initializer).build()
+public fun buildOriginAccessIdentityProps(initializer: @AwsCdkDsl OriginAccessIdentityProps.Builder.() -> Unit = {}): OriginAccessIdentityProps = OriginAccessIdentityProps.Builder().apply(initializer).build()

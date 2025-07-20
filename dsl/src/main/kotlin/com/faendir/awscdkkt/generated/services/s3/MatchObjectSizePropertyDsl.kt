@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnStorageLensGroup
 
 @Generated
-public fun buildMatchObjectSizeProperty(initializer: @AwsCdkDsl
-    CfnStorageLensGroup.MatchObjectSizeProperty.Builder.() -> Unit = {}):
-    CfnStorageLensGroup.MatchObjectSizeProperty =
-    CfnStorageLensGroup.MatchObjectSizeProperty.Builder().apply(initializer).build()
+public fun buildMatchObjectSizeProperty(initializer: @AwsCdkDsl CfnStorageLensGroup.MatchObjectSizeProperty.Builder.() -> Unit = {}): CfnStorageLensGroup.MatchObjectSizeProperty = CfnStorageLensGroup.MatchObjectSizeProperty.Builder().apply(initializer).build()

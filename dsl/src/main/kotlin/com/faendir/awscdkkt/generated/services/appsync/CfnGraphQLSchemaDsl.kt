@@ -16,6 +16,4 @@ public fun Construct.cfnGraphQLSchema(
 ): CfnGraphQLSchema = CfnGraphQLSchema(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnGraphQLSchema(id: String, initializer: @AwsCdkDsl
-    CfnGraphQLSchema.Builder.() -> Unit = {}): CfnGraphQLSchema =
-    CfnGraphQLSchema.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnGraphQLSchema(id: String, initializer: @AwsCdkDsl CfnGraphQLSchema.Builder.() -> Unit = {}): CfnGraphQLSchema = CfnGraphQLSchema.Builder.create(this, id).apply(initializer).build()

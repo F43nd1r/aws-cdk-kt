@@ -16,6 +16,4 @@ public fun Construct.cfnLocationEFS(
 ): CfnLocationEFS = CfnLocationEFS(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLocationEFS(id: String, initializer: @AwsCdkDsl
-    CfnLocationEFS.Builder.() -> Unit = {}): CfnLocationEFS = CfnLocationEFS.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnLocationEFS(id: String, initializer: @AwsCdkDsl CfnLocationEFS.Builder.() -> Unit = {}): CfnLocationEFS = CfnLocationEFS.Builder.create(this, id).apply(initializer).build()

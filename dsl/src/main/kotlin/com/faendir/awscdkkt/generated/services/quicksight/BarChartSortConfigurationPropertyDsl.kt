@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildBarChartSortConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.BarChartSortConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.BarChartSortConfigurationProperty =
-    CfnTemplate.BarChartSortConfigurationProperty.Builder().apply(initializer).build()
+public fun buildBarChartSortConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.BarChartSortConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.BarChartSortConfigurationProperty = CfnTemplate.BarChartSortConfigurationProperty.Builder().apply(initializer).build()

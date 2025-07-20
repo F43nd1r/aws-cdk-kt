@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.CfnFleet
 
 @Generated
-public fun buildProxyConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFleet.ProxyConfigurationProperty.Builder.() -> Unit = {}):
-    CfnFleet.ProxyConfigurationProperty =
-    CfnFleet.ProxyConfigurationProperty.Builder().apply(initializer).build()
+public fun buildProxyConfigurationProperty(initializer: @AwsCdkDsl CfnFleet.ProxyConfigurationProperty.Builder.() -> Unit = {}): CfnFleet.ProxyConfigurationProperty = CfnFleet.ProxyConfigurationProperty.Builder().apply(initializer).build()

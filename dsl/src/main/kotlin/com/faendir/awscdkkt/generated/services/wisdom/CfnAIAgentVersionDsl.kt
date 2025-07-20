@@ -16,6 +16,4 @@ public fun Construct.cfnAIAgentVersion(
 ): CfnAIAgentVersion = CfnAIAgentVersion(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAIAgentVersion(id: String, initializer: @AwsCdkDsl
-    CfnAIAgentVersion.Builder.() -> Unit = {}): CfnAIAgentVersion =
-    CfnAIAgentVersion.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAIAgentVersion(id: String, initializer: @AwsCdkDsl CfnAIAgentVersion.Builder.() -> Unit = {}): CfnAIAgentVersion = CfnAIAgentVersion.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildMultiMeasureAttributeMappingProperty(initializer: @AwsCdkDsl
-    CfnPipe.MultiMeasureAttributeMappingProperty.Builder.() -> Unit = {}):
-    CfnPipe.MultiMeasureAttributeMappingProperty =
-    CfnPipe.MultiMeasureAttributeMappingProperty.Builder().apply(initializer).build()
+public fun buildMultiMeasureAttributeMappingProperty(initializer: @AwsCdkDsl CfnPipe.MultiMeasureAttributeMappingProperty.Builder.() -> Unit = {}): CfnPipe.MultiMeasureAttributeMappingProperty = CfnPipe.MultiMeasureAttributeMappingProperty.Builder().apply(initializer).build()

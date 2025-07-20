@@ -16,6 +16,4 @@ public fun Construct.cfnRegistry(
 ): CfnRegistry = CfnRegistry(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRegistry(id: String, initializer: @AwsCdkDsl
-    CfnRegistry.Builder.() -> Unit = {}): CfnRegistry = CfnRegistry.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnRegistry(id: String, initializer: @AwsCdkDsl CfnRegistry.Builder.() -> Unit = {}): CfnRegistry = CfnRegistry.Builder.create(this, id).apply(initializer).build()

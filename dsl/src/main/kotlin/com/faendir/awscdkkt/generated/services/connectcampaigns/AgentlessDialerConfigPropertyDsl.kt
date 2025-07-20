@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connectcampaigns.CfnCampaign
 
 @Generated
-public fun buildAgentlessDialerConfigProperty(initializer: @AwsCdkDsl
-    CfnCampaign.AgentlessDialerConfigProperty.Builder.() -> Unit = {}):
-    CfnCampaign.AgentlessDialerConfigProperty =
-    CfnCampaign.AgentlessDialerConfigProperty.Builder().apply(initializer).build()
+public fun buildAgentlessDialerConfigProperty(initializer: @AwsCdkDsl CfnCampaign.AgentlessDialerConfigProperty.Builder.() -> Unit = {}): CfnCampaign.AgentlessDialerConfigProperty = CfnCampaign.AgentlessDialerConfigProperty.Builder().apply(initializer).build()

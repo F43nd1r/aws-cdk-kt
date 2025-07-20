@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datasync.CfnTask
 
 @Generated
-public fun buildS3Property(initializer: @AwsCdkDsl CfnTask.S3Property.Builder.() -> Unit = {}):
-    CfnTask.S3Property = CfnTask.S3Property.Builder().apply(initializer).build()
+public fun buildS3Property(initializer: @AwsCdkDsl CfnTask.S3Property.Builder.() -> Unit = {}): CfnTask.S3Property = CfnTask.S3Property.Builder().apply(initializer).build()

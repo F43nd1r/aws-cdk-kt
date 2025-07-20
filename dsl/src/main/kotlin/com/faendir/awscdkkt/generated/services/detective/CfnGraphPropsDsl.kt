@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.detective.CfnGraphProps
 
 @Generated
-public fun buildCfnGraphProps(initializer: @AwsCdkDsl CfnGraphProps.Builder.() -> Unit = {}):
-    CfnGraphProps = CfnGraphProps.Builder().apply(initializer).build()
+public fun buildCfnGraphProps(initializer: @AwsCdkDsl CfnGraphProps.Builder.() -> Unit = {}): CfnGraphProps = CfnGraphProps.Builder().apply(initializer).build()

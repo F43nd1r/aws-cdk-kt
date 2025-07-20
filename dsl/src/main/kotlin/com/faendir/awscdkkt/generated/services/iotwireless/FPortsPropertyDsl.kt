@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotwireless.CfnWirelessDevice
 
 @Generated
-public fun buildFPortsProperty(initializer: @AwsCdkDsl
-    CfnWirelessDevice.FPortsProperty.Builder.() -> Unit = {}): CfnWirelessDevice.FPortsProperty =
-    CfnWirelessDevice.FPortsProperty.Builder().apply(initializer).build()
+public fun buildFPortsProperty(initializer: @AwsCdkDsl CfnWirelessDevice.FPortsProperty.Builder.() -> Unit = {}): CfnWirelessDevice.FPortsProperty = CfnWirelessDevice.FPortsProperty.Builder().apply(initializer).build()

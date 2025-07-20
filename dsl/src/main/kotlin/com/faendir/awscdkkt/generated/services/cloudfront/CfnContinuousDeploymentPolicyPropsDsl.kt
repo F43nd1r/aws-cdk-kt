@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnContinuousDeploymentPolicyProps
 
 @Generated
-public fun buildCfnContinuousDeploymentPolicyProps(initializer: @AwsCdkDsl
-    CfnContinuousDeploymentPolicyProps.Builder.() -> Unit = {}): CfnContinuousDeploymentPolicyProps
-    = CfnContinuousDeploymentPolicyProps.Builder().apply(initializer).build()
+public fun buildCfnContinuousDeploymentPolicyProps(initializer: @AwsCdkDsl CfnContinuousDeploymentPolicyProps.Builder.() -> Unit = {}): CfnContinuousDeploymentPolicyProps = CfnContinuousDeploymentPolicyProps.Builder().apply(initializer).build()

@@ -13,11 +13,7 @@ public fun Construct.cfnClientVpnTargetNetworkAssociation(
   id: String,
   props: CfnClientVpnTargetNetworkAssociationProps,
   initializer: @AwsCdkDsl CfnClientVpnTargetNetworkAssociation.() -> Unit = {},
-): CfnClientVpnTargetNetworkAssociation = CfnClientVpnTargetNetworkAssociation(this, id,
-    props).apply(initializer)
+): CfnClientVpnTargetNetworkAssociation = CfnClientVpnTargetNetworkAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnClientVpnTargetNetworkAssociation(id: String, initializer: @AwsCdkDsl
-    CfnClientVpnTargetNetworkAssociation.Builder.() -> Unit = {}):
-    CfnClientVpnTargetNetworkAssociation = CfnClientVpnTargetNetworkAssociation.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnClientVpnTargetNetworkAssociation(id: String, initializer: @AwsCdkDsl CfnClientVpnTargetNetworkAssociation.Builder.() -> Unit = {}): CfnClientVpnTargetNetworkAssociation = CfnClientVpnTargetNetworkAssociation.Builder.create(this, id).apply(initializer).build()

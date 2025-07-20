@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnIdentityPool
 
 @Generated
-public fun buildCognitoStreamsProperty(initializer: @AwsCdkDsl
-    CfnIdentityPool.CognitoStreamsProperty.Builder.() -> Unit = {}):
-    CfnIdentityPool.CognitoStreamsProperty =
-    CfnIdentityPool.CognitoStreamsProperty.Builder().apply(initializer).build()
+public fun buildCognitoStreamsProperty(initializer: @AwsCdkDsl CfnIdentityPool.CognitoStreamsProperty.Builder.() -> Unit = {}): CfnIdentityPool.CognitoStreamsProperty = CfnIdentityPool.CognitoStreamsProperty.Builder().apply(initializer).build()

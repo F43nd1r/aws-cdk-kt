@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.CfnUsagePlan
 
 @Generated
-public fun buildQuotaSettingsProperty(initializer: @AwsCdkDsl
-    CfnUsagePlan.QuotaSettingsProperty.Builder.() -> Unit = {}): CfnUsagePlan.QuotaSettingsProperty
-    = CfnUsagePlan.QuotaSettingsProperty.Builder().apply(initializer).build()
+public fun buildQuotaSettingsProperty(initializer: @AwsCdkDsl CfnUsagePlan.QuotaSettingsProperty.Builder.() -> Unit = {}): CfnUsagePlan.QuotaSettingsProperty = CfnUsagePlan.QuotaSettingsProperty.Builder().apply(initializer).build()

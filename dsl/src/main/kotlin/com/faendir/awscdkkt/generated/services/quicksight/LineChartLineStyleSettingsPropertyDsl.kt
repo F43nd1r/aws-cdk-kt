@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildLineChartLineStyleSettingsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.LineChartLineStyleSettingsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.LineChartLineStyleSettingsProperty =
-    CfnTemplate.LineChartLineStyleSettingsProperty.Builder().apply(initializer).build()
+public fun buildLineChartLineStyleSettingsProperty(initializer: @AwsCdkDsl CfnTemplate.LineChartLineStyleSettingsProperty.Builder.() -> Unit = {}): CfnTemplate.LineChartLineStyleSettingsProperty = CfnTemplate.LineChartLineStyleSettingsProperty.Builder().apply(initializer).build()

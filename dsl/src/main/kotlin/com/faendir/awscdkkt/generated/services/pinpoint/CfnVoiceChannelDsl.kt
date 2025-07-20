@@ -16,6 +16,4 @@ public fun Construct.cfnVoiceChannel(
 ): CfnVoiceChannel = CfnVoiceChannel(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVoiceChannel(id: String, initializer: @AwsCdkDsl
-    CfnVoiceChannel.Builder.() -> Unit = {}): CfnVoiceChannel = CfnVoiceChannel.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnVoiceChannel(id: String, initializer: @AwsCdkDsl CfnVoiceChannel.Builder.() -> Unit = {}): CfnVoiceChannel = CfnVoiceChannel.Builder.create(this, id).apply(initializer).build()

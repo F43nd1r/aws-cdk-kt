@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.StageSynthesisOptions
 
 @Generated
-public fun buildStageSynthesisOptions(initializer: @AwsCdkDsl
-    StageSynthesisOptions.Builder.() -> Unit = {}): StageSynthesisOptions =
-    StageSynthesisOptions.Builder().apply(initializer).build()
+public fun buildStageSynthesisOptions(initializer: @AwsCdkDsl StageSynthesisOptions.Builder.() -> Unit = {}): StageSynthesisOptions = StageSynthesisOptions.Builder().apply(initializer).build()

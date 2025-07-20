@@ -13,11 +13,7 @@ public fun Construct.cfnMicrosoftTeamsChannelConfiguration(
   id: String,
   props: CfnMicrosoftTeamsChannelConfigurationProps,
   initializer: @AwsCdkDsl CfnMicrosoftTeamsChannelConfiguration.() -> Unit = {},
-): CfnMicrosoftTeamsChannelConfiguration = CfnMicrosoftTeamsChannelConfiguration(this, id,
-    props).apply(initializer)
+): CfnMicrosoftTeamsChannelConfiguration = CfnMicrosoftTeamsChannelConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMicrosoftTeamsChannelConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnMicrosoftTeamsChannelConfiguration.Builder.() -> Unit = {}):
-    CfnMicrosoftTeamsChannelConfiguration =
-    CfnMicrosoftTeamsChannelConfiguration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMicrosoftTeamsChannelConfiguration(id: String, initializer: @AwsCdkDsl CfnMicrosoftTeamsChannelConfiguration.Builder.() -> Unit = {}): CfnMicrosoftTeamsChannelConfiguration = CfnMicrosoftTeamsChannelConfiguration.Builder.create(this, id).apply(initializer).build()

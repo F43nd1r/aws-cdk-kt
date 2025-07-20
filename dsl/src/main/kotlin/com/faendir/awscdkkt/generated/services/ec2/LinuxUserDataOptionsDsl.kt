@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.LinuxUserDataOptions
 
 @Generated
-public fun buildLinuxUserDataOptions(initializer: @AwsCdkDsl LinuxUserDataOptions.Builder.() -> Unit
-    = {}): LinuxUserDataOptions = LinuxUserDataOptions.Builder().apply(initializer).build()
+public fun buildLinuxUserDataOptions(initializer: @AwsCdkDsl LinuxUserDataOptions.Builder.() -> Unit = {}): LinuxUserDataOptions = LinuxUserDataOptions.Builder().apply(initializer).build()

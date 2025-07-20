@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrCreateCluster
 
 @Generated
-public fun buildOnDemandProvisioningSpecificationProperty(initializer: @AwsCdkDsl
-    EmrCreateCluster.OnDemandProvisioningSpecificationProperty.Builder.() -> Unit = {}):
-    EmrCreateCluster.OnDemandProvisioningSpecificationProperty =
-    EmrCreateCluster.OnDemandProvisioningSpecificationProperty.Builder().apply(initializer).build()
+public fun buildOnDemandProvisioningSpecificationProperty(initializer: @AwsCdkDsl EmrCreateCluster.OnDemandProvisioningSpecificationProperty.Builder.() -> Unit = {}): EmrCreateCluster.OnDemandProvisioningSpecificationProperty = EmrCreateCluster.OnDemandProvisioningSpecificationProperty.Builder().apply(initializer).build()

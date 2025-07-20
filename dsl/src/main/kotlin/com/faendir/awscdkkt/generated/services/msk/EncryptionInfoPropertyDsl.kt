@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.msk.CfnCluster
 
 @Generated
-public fun buildEncryptionInfoProperty(initializer: @AwsCdkDsl
-    CfnCluster.EncryptionInfoProperty.Builder.() -> Unit = {}): CfnCluster.EncryptionInfoProperty =
-    CfnCluster.EncryptionInfoProperty.Builder().apply(initializer).build()
+public fun buildEncryptionInfoProperty(initializer: @AwsCdkDsl CfnCluster.EncryptionInfoProperty.Builder.() -> Unit = {}): CfnCluster.EncryptionInfoProperty = CfnCluster.EncryptionInfoProperty.Builder().apply(initializer).build()

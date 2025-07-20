@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnEC2Fleet
 
 @Generated
-public fun buildTargetCapacitySpecificationRequestProperty(initializer: @AwsCdkDsl
-    CfnEC2Fleet.TargetCapacitySpecificationRequestProperty.Builder.() -> Unit = {}):
-    CfnEC2Fleet.TargetCapacitySpecificationRequestProperty =
-    CfnEC2Fleet.TargetCapacitySpecificationRequestProperty.Builder().apply(initializer).build()
+public fun buildTargetCapacitySpecificationRequestProperty(initializer: @AwsCdkDsl CfnEC2Fleet.TargetCapacitySpecificationRequestProperty.Builder.() -> Unit = {}): CfnEC2Fleet.TargetCapacitySpecificationRequestProperty = CfnEC2Fleet.TargetCapacitySpecificationRequestProperty.Builder().apply(initializer).build()

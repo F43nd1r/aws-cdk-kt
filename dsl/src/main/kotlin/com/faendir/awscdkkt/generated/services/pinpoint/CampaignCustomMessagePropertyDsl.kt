@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnCampaign
 
 @Generated
-public fun buildCampaignCustomMessageProperty(initializer: @AwsCdkDsl
-    CfnCampaign.CampaignCustomMessageProperty.Builder.() -> Unit = {}):
-    CfnCampaign.CampaignCustomMessageProperty =
-    CfnCampaign.CampaignCustomMessageProperty.Builder().apply(initializer).build()
+public fun buildCampaignCustomMessageProperty(initializer: @AwsCdkDsl CfnCampaign.CampaignCustomMessageProperty.Builder.() -> Unit = {}): CfnCampaign.CampaignCustomMessageProperty = CfnCampaign.CampaignCustomMessageProperty.Builder().apply(initializer).build()

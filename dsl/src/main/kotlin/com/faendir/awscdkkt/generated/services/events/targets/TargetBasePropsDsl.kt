@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.targets.TargetBaseProps
 
 @Generated
-public fun buildTargetBaseProps(initializer: @AwsCdkDsl TargetBaseProps.Builder.() -> Unit = {}):
-    TargetBaseProps = TargetBaseProps.Builder().apply(initializer).build()
+public fun buildTargetBaseProps(initializer: @AwsCdkDsl TargetBaseProps.Builder.() -> Unit = {}): TargetBaseProps = TargetBaseProps.Builder().apply(initializer).build()

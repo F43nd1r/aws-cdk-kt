@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.iam.CfnOIDCProviderProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnOIDCProvider(id: String, initializer: @AwsCdkDsl CfnOIDCProvider.() -> Unit
-    = {}): CfnOIDCProvider = CfnOIDCProvider(this, id).apply(initializer)
+public fun Construct.cfnOIDCProvider(id: String, initializer: @AwsCdkDsl CfnOIDCProvider.() -> Unit = {}): CfnOIDCProvider = CfnOIDCProvider(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnOIDCProvider(
@@ -20,6 +19,4 @@ public fun Construct.cfnOIDCProvider(
 ): CfnOIDCProvider = CfnOIDCProvider(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnOIDCProvider(id: String, initializer: @AwsCdkDsl
-    CfnOIDCProvider.Builder.() -> Unit = {}): CfnOIDCProvider = CfnOIDCProvider.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnOIDCProvider(id: String, initializer: @AwsCdkDsl CfnOIDCProvider.Builder.() -> Unit = {}): CfnOIDCProvider = CfnOIDCProvider.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.SchemaFile
 
 @Generated
-public fun buildSchemaFile(initializer: @AwsCdkDsl SchemaFile.Builder.() -> Unit = {}): SchemaFile =
-    SchemaFile.Builder.create().apply(initializer).build()
+public fun buildSchemaFile(initializer: @AwsCdkDsl SchemaFile.Builder.() -> Unit = {}): SchemaFile = SchemaFile.Builder.create().apply(initializer).build()

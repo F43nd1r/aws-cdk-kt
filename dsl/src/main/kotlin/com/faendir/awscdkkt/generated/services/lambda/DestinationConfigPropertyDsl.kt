@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.CfnEventSourceMapping
 
 @Generated
-public fun buildDestinationConfigProperty(initializer: @AwsCdkDsl
-    CfnEventSourceMapping.DestinationConfigProperty.Builder.() -> Unit = {}):
-    CfnEventSourceMapping.DestinationConfigProperty =
-    CfnEventSourceMapping.DestinationConfigProperty.Builder().apply(initializer).build()
+public fun buildDestinationConfigProperty(initializer: @AwsCdkDsl CfnEventSourceMapping.DestinationConfigProperty.Builder.() -> Unit = {}): CfnEventSourceMapping.DestinationConfigProperty = CfnEventSourceMapping.DestinationConfigProperty.Builder().apply(initializer).build()

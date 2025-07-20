@@ -16,5 +16,4 @@ public fun Construct.alias(
 ): Alias = Alias(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAlias(id: String, initializer: @AwsCdkDsl Alias.Builder.() -> Unit = {}):
-    Alias = Alias.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildAlias(id: String, initializer: @AwsCdkDsl Alias.Builder.() -> Unit = {}): Alias = Alias.Builder.create(this, id).apply(initializer).build()

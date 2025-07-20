@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnFeatureGroup
 
 @Generated
-public fun buildThroughputConfigProperty(initializer: @AwsCdkDsl
-    CfnFeatureGroup.ThroughputConfigProperty.Builder.() -> Unit = {}):
-    CfnFeatureGroup.ThroughputConfigProperty =
-    CfnFeatureGroup.ThroughputConfigProperty.Builder().apply(initializer).build()
+public fun buildThroughputConfigProperty(initializer: @AwsCdkDsl CfnFeatureGroup.ThroughputConfigProperty.Builder.() -> Unit = {}): CfnFeatureGroup.ThroughputConfigProperty = CfnFeatureGroup.ThroughputConfigProperty.Builder().apply(initializer).build()

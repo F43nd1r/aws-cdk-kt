@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildTreeMapFieldWellsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TreeMapFieldWellsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.TreeMapFieldWellsProperty =
-    CfnTemplate.TreeMapFieldWellsProperty.Builder().apply(initializer).build()
+public fun buildTreeMapFieldWellsProperty(initializer: @AwsCdkDsl CfnTemplate.TreeMapFieldWellsProperty.Builder.() -> Unit = {}): CfnTemplate.TreeMapFieldWellsProperty = CfnTemplate.TreeMapFieldWellsProperty.Builder().apply(initializer).build()

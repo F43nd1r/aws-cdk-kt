@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codestarnotifications.NotificationRuleTargetConfig
 
 @Generated
-public fun buildNotificationRuleTargetConfig(initializer: @AwsCdkDsl
-    NotificationRuleTargetConfig.Builder.() -> Unit = {}): NotificationRuleTargetConfig =
-    NotificationRuleTargetConfig.Builder().apply(initializer).build()
+public fun buildNotificationRuleTargetConfig(initializer: @AwsCdkDsl NotificationRuleTargetConfig.Builder.() -> Unit = {}): NotificationRuleTargetConfig = NotificationRuleTargetConfig.Builder().apply(initializer).build()

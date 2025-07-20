@@ -7,6 +7,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.targets.RedshiftQuery
 
 @Generated
-public fun buildRedshiftQuery(clusterArn: String, initializer: @AwsCdkDsl
-    RedshiftQuery.Builder.() -> Unit = {}): RedshiftQuery =
-    RedshiftQuery.Builder.create(clusterArn).apply(initializer).build()
+public fun buildRedshiftQuery(clusterArn: String, initializer: @AwsCdkDsl RedshiftQuery.Builder.() -> Unit = {}): RedshiftQuery = RedshiftQuery.Builder.create(clusterArn).apply(initializer).build()

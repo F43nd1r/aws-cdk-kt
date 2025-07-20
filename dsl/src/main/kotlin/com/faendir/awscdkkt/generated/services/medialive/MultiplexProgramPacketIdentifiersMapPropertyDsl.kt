@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnMultiplexprogram
 
 @Generated
-public fun buildMultiplexProgramPacketIdentifiersMapProperty(initializer: @AwsCdkDsl
-    CfnMultiplexprogram.MultiplexProgramPacketIdentifiersMapProperty.Builder.() -> Unit = {}):
-    CfnMultiplexprogram.MultiplexProgramPacketIdentifiersMapProperty =
-    CfnMultiplexprogram.MultiplexProgramPacketIdentifiersMapProperty.Builder().apply(initializer).build()
+public fun buildMultiplexProgramPacketIdentifiersMapProperty(initializer: @AwsCdkDsl CfnMultiplexprogram.MultiplexProgramPacketIdentifiersMapProperty.Builder.() -> Unit = {}): CfnMultiplexprogram.MultiplexProgramPacketIdentifiersMapProperty = CfnMultiplexprogram.MultiplexProgramPacketIdentifiersMapProperty.Builder().apply(initializer).build()

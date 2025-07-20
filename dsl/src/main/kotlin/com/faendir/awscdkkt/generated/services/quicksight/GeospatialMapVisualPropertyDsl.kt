@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildGeospatialMapVisualProperty(initializer: @AwsCdkDsl
-    CfnTemplate.GeospatialMapVisualProperty.Builder.() -> Unit = {}):
-    CfnTemplate.GeospatialMapVisualProperty =
-    CfnTemplate.GeospatialMapVisualProperty.Builder().apply(initializer).build()
+public fun buildGeospatialMapVisualProperty(initializer: @AwsCdkDsl CfnTemplate.GeospatialMapVisualProperty.Builder.() -> Unit = {}): CfnTemplate.GeospatialMapVisualProperty = CfnTemplate.GeospatialMapVisualProperty.Builder().apply(initializer).build()

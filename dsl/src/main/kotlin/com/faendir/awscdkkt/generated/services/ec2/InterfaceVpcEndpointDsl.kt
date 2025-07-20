@@ -16,6 +16,4 @@ public fun Construct.interfaceVpcEndpoint(
 ): InterfaceVpcEndpoint = InterfaceVpcEndpoint(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildInterfaceVpcEndpoint(id: String, initializer: @AwsCdkDsl
-    InterfaceVpcEndpoint.Builder.() -> Unit = {}): InterfaceVpcEndpoint =
-    InterfaceVpcEndpoint.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildInterfaceVpcEndpoint(id: String, initializer: @AwsCdkDsl InterfaceVpcEndpoint.Builder.() -> Unit = {}): InterfaceVpcEndpoint = InterfaceVpcEndpoint.Builder.create(this, id).apply(initializer).build()

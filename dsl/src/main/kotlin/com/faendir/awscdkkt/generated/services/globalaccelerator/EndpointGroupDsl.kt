@@ -16,6 +16,4 @@ public fun Construct.endpointGroup(
 ): EndpointGroup = EndpointGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEndpointGroup(id: String, initializer: @AwsCdkDsl
-    EndpointGroup.Builder.() -> Unit = {}): EndpointGroup = EndpointGroup.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildEndpointGroup(id: String, initializer: @AwsCdkDsl EndpointGroup.Builder.() -> Unit = {}): EndpointGroup = EndpointGroup.Builder.create(this, id).apply(initializer).build()

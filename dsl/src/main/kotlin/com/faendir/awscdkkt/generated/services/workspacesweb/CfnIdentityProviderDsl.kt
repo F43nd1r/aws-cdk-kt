@@ -16,6 +16,4 @@ public fun Construct.cfnIdentityProvider(
 ): CfnIdentityProvider = CfnIdentityProvider(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnIdentityProvider(id: String, initializer: @AwsCdkDsl
-    CfnIdentityProvider.Builder.() -> Unit = {}): CfnIdentityProvider =
-    CfnIdentityProvider.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnIdentityProvider(id: String, initializer: @AwsCdkDsl CfnIdentityProvider.Builder.() -> Unit = {}): CfnIdentityProvider = CfnIdentityProvider.Builder.create(this, id).apply(initializer).build()

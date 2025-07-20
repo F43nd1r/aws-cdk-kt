@@ -16,6 +16,4 @@ public fun Construct.connection(
 ): Connection = Connection(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildConnection(id: String, initializer: @AwsCdkDsl
-    Connection.Builder.() -> Unit = {}): Connection = Connection.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildConnection(id: String, initializer: @AwsCdkDsl Connection.Builder.() -> Unit = {}): Connection = Connection.Builder.create(this, id).apply(initializer).build()

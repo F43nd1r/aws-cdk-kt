@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.chatbot.CfnCustomActionProps
 
 @Generated
-public fun buildCfnCustomActionProps(initializer: @AwsCdkDsl CfnCustomActionProps.Builder.() -> Unit
-    = {}): CfnCustomActionProps = CfnCustomActionProps.Builder().apply(initializer).build()
+public fun buildCfnCustomActionProps(initializer: @AwsCdkDsl CfnCustomActionProps.Builder.() -> Unit = {}): CfnCustomActionProps = CfnCustomActionProps.Builder().apply(initializer).build()

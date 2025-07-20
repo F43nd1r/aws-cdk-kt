@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnTransformer
 
 @Generated
-public fun buildTrimStringProperty(initializer: @AwsCdkDsl
-    CfnTransformer.TrimStringProperty.Builder.() -> Unit = {}): CfnTransformer.TrimStringProperty =
-    CfnTransformer.TrimStringProperty.Builder().apply(initializer).build()
+public fun buildTrimStringProperty(initializer: @AwsCdkDsl CfnTransformer.TrimStringProperty.Builder.() -> Unit = {}): CfnTransformer.TrimStringProperty = CfnTransformer.TrimStringProperty.Builder().apply(initializer).build()

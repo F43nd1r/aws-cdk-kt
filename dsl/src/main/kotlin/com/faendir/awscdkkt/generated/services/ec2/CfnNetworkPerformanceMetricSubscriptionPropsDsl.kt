@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnNetworkPerformanceMetricSubscriptionProps
 
 @Generated
-public fun buildCfnNetworkPerformanceMetricSubscriptionProps(initializer: @AwsCdkDsl
-    CfnNetworkPerformanceMetricSubscriptionProps.Builder.() -> Unit = {}):
-    CfnNetworkPerformanceMetricSubscriptionProps =
-    CfnNetworkPerformanceMetricSubscriptionProps.Builder().apply(initializer).build()
+public fun buildCfnNetworkPerformanceMetricSubscriptionProps(initializer: @AwsCdkDsl CfnNetworkPerformanceMetricSubscriptionProps.Builder.() -> Unit = {}): CfnNetworkPerformanceMetricSubscriptionProps = CfnNetworkPerformanceMetricSubscriptionProps.Builder().apply(initializer).build()

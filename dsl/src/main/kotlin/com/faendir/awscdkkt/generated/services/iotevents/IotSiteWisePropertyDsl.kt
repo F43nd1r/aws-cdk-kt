@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotevents.CfnDetectorModel
 
 @Generated
-public fun buildIotSiteWiseProperty(initializer: @AwsCdkDsl
-    CfnDetectorModel.IotSiteWiseProperty.Builder.() -> Unit = {}):
-    CfnDetectorModel.IotSiteWiseProperty =
-    CfnDetectorModel.IotSiteWiseProperty.Builder().apply(initializer).build()
+public fun buildIotSiteWiseProperty(initializer: @AwsCdkDsl CfnDetectorModel.IotSiteWiseProperty.Builder.() -> Unit = {}): CfnDetectorModel.IotSiteWiseProperty = CfnDetectorModel.IotSiteWiseProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnClusterPolicy(
 ): CfnClusterPolicy = CfnClusterPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnClusterPolicy(id: String, initializer: @AwsCdkDsl
-    CfnClusterPolicy.Builder.() -> Unit = {}): CfnClusterPolicy =
-    CfnClusterPolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnClusterPolicy(id: String, initializer: @AwsCdkDsl CfnClusterPolicy.Builder.() -> Unit = {}): CfnClusterPolicy = CfnClusterPolicy.Builder.create(this, id).apply(initializer).build()

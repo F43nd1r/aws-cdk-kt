@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnContainerFleetProps
 
 @Generated
-public fun buildCfnContainerFleetProps(initializer: @AwsCdkDsl
-    CfnContainerFleetProps.Builder.() -> Unit = {}): CfnContainerFleetProps =
-    CfnContainerFleetProps.Builder().apply(initializer).build()
+public fun buildCfnContainerFleetProps(initializer: @AwsCdkDsl CfnContainerFleetProps.Builder.() -> Unit = {}): CfnContainerFleetProps = CfnContainerFleetProps.Builder().apply(initializer).build()

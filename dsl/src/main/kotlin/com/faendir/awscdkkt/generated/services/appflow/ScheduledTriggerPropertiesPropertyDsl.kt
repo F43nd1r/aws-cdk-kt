@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
-public fun buildScheduledTriggerPropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.ScheduledTriggerPropertiesProperty.Builder.() -> Unit = {}):
-    CfnFlow.ScheduledTriggerPropertiesProperty =
-    CfnFlow.ScheduledTriggerPropertiesProperty.Builder().apply(initializer).build()
+public fun buildScheduledTriggerPropertiesProperty(initializer: @AwsCdkDsl CfnFlow.ScheduledTriggerPropertiesProperty.Builder.() -> Unit = {}): CfnFlow.ScheduledTriggerPropertiesProperty = CfnFlow.ScheduledTriggerPropertiesProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.refactorspaces.CfnRoute
 
 @Generated
-public fun buildUriPathRouteInputProperty(initializer: @AwsCdkDsl
-    CfnRoute.UriPathRouteInputProperty.Builder.() -> Unit = {}): CfnRoute.UriPathRouteInputProperty
-    = CfnRoute.UriPathRouteInputProperty.Builder().apply(initializer).build()
+public fun buildUriPathRouteInputProperty(initializer: @AwsCdkDsl CfnRoute.UriPathRouteInputProperty.Builder.() -> Unit = {}): CfnRoute.UriPathRouteInputProperty = CfnRoute.UriPathRouteInputProperty.Builder().apply(initializer).build()

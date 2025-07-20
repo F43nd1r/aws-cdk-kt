@@ -16,6 +16,4 @@ public fun Construct.cfnConsumableResource(
 ): CfnConsumableResource = CfnConsumableResource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnConsumableResource(id: String, initializer: @AwsCdkDsl
-    CfnConsumableResource.Builder.() -> Unit = {}): CfnConsumableResource =
-    CfnConsumableResource.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnConsumableResource(id: String, initializer: @AwsCdkDsl CfnConsumableResource.Builder.() -> Unit = {}): CfnConsumableResource = CfnConsumableResource.Builder.create(this, id).apply(initializer).build()

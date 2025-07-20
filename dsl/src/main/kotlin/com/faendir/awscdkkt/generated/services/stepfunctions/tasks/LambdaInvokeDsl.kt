@@ -16,6 +16,4 @@ public fun Construct.lambdaInvoke(
 ): LambdaInvoke = LambdaInvoke(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildLambdaInvoke(id: String, initializer: @AwsCdkDsl
-    LambdaInvoke.Builder.() -> Unit = {}): LambdaInvoke = LambdaInvoke.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildLambdaInvoke(id: String, initializer: @AwsCdkDsl LambdaInvoke.Builder.() -> Unit = {}): LambdaInvoke = LambdaInvoke.Builder.create(this, id).apply(initializer).build()

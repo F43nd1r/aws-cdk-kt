@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildBedrockGuardrailConfigurationProperty(initializer: @AwsCdkDsl
-    CfnBot.BedrockGuardrailConfigurationProperty.Builder.() -> Unit = {}):
-    CfnBot.BedrockGuardrailConfigurationProperty =
-    CfnBot.BedrockGuardrailConfigurationProperty.Builder().apply(initializer).build()
+public fun buildBedrockGuardrailConfigurationProperty(initializer: @AwsCdkDsl CfnBot.BedrockGuardrailConfigurationProperty.Builder.() -> Unit = {}): CfnBot.BedrockGuardrailConfigurationProperty = CfnBot.BedrockGuardrailConfigurationProperty.Builder().apply(initializer).build()

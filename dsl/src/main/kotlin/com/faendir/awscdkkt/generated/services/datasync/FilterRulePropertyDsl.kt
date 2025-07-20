@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datasync.CfnTask
 
 @Generated
-public fun buildFilterRuleProperty(initializer: @AwsCdkDsl
-    CfnTask.FilterRuleProperty.Builder.() -> Unit = {}): CfnTask.FilterRuleProperty =
-    CfnTask.FilterRuleProperty.Builder().apply(initializer).build()
+public fun buildFilterRuleProperty(initializer: @AwsCdkDsl CfnTask.FilterRuleProperty.Builder.() -> Unit = {}): CfnTask.FilterRuleProperty = CfnTask.FilterRuleProperty.Builder().apply(initializer).build()

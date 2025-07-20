@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.SucceedJsonataProps
 
 @Generated
-public fun buildSucceedJsonataProps(initializer: @AwsCdkDsl SucceedJsonataProps.Builder.() -> Unit =
-    {}): SucceedJsonataProps = SucceedJsonataProps.Builder().apply(initializer).build()
+public fun buildSucceedJsonataProps(initializer: @AwsCdkDsl SucceedJsonataProps.Builder.() -> Unit = {}): SucceedJsonataProps = SucceedJsonataProps.Builder().apply(initializer).build()

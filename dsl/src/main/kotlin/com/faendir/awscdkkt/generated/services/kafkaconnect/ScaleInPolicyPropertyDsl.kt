@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kafkaconnect.CfnConnector
 
 @Generated
-public fun buildScaleInPolicyProperty(initializer: @AwsCdkDsl
-    CfnConnector.ScaleInPolicyProperty.Builder.() -> Unit = {}): CfnConnector.ScaleInPolicyProperty
-    = CfnConnector.ScaleInPolicyProperty.Builder().apply(initializer).build()
+public fun buildScaleInPolicyProperty(initializer: @AwsCdkDsl CfnConnector.ScaleInPolicyProperty.Builder.() -> Unit = {}): CfnConnector.ScaleInPolicyProperty = CfnConnector.ScaleInPolicyProperty.Builder().apply(initializer).build()

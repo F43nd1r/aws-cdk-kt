@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cleanrooms.CfnConfiguredTable
 
 @Generated
-public fun buildSnowflakeTableSchemaProperty(initializer: @AwsCdkDsl
-    CfnConfiguredTable.SnowflakeTableSchemaProperty.Builder.() -> Unit = {}):
-    CfnConfiguredTable.SnowflakeTableSchemaProperty =
-    CfnConfiguredTable.SnowflakeTableSchemaProperty.Builder().apply(initializer).build()
+public fun buildSnowflakeTableSchemaProperty(initializer: @AwsCdkDsl CfnConfiguredTable.SnowflakeTableSchemaProperty.Builder.() -> Unit = {}): CfnConfiguredTable.SnowflakeTableSchemaProperty = CfnConfiguredTable.SnowflakeTableSchemaProperty.Builder().apply(initializer).build()

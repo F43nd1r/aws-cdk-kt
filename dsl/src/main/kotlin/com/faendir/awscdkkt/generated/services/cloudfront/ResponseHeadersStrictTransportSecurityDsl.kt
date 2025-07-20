@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.ResponseHeadersStrictTransportSecurity
 
 @Generated
-public fun buildResponseHeadersStrictTransportSecurity(initializer: @AwsCdkDsl
-    ResponseHeadersStrictTransportSecurity.Builder.() -> Unit = {}):
-    ResponseHeadersStrictTransportSecurity =
-    ResponseHeadersStrictTransportSecurity.Builder().apply(initializer).build()
+public fun buildResponseHeadersStrictTransportSecurity(initializer: @AwsCdkDsl ResponseHeadersStrictTransportSecurity.Builder.() -> Unit = {}): ResponseHeadersStrictTransportSecurity = ResponseHeadersStrictTransportSecurity.Builder().apply(initializer).build()

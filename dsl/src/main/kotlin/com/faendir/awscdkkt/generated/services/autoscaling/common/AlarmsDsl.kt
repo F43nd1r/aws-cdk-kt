@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.common.Alarms
 
 @Generated
-public fun buildAlarms(initializer: @AwsCdkDsl Alarms.Builder.() -> Unit = {}): Alarms =
-    Alarms.Builder().apply(initializer).build()
+public fun buildAlarms(initializer: @AwsCdkDsl Alarms.Builder.() -> Unit = {}): Alarms = Alarms.Builder().apply(initializer).build()

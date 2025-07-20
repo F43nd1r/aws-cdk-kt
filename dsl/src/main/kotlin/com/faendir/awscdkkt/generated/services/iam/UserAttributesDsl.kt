@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.UserAttributes
 
 @Generated
-public fun buildUserAttributes(initializer: @AwsCdkDsl UserAttributes.Builder.() -> Unit = {}):
-    UserAttributes = UserAttributes.Builder().apply(initializer).build()
+public fun buildUserAttributes(initializer: @AwsCdkDsl UserAttributes.Builder.() -> Unit = {}): UserAttributes = UserAttributes.Builder().apply(initializer).build()

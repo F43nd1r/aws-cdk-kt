@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securityhub.CfnInsight
 
 @Generated
-public fun buildDateFilterProperty(initializer: @AwsCdkDsl
-    CfnInsight.DateFilterProperty.Builder.() -> Unit = {}): CfnInsight.DateFilterProperty =
-    CfnInsight.DateFilterProperty.Builder().apply(initializer).build()
+public fun buildDateFilterProperty(initializer: @AwsCdkDsl CfnInsight.DateFilterProperty.Builder.() -> Unit = {}): CfnInsight.DateFilterProperty = CfnInsight.DateFilterProperty.Builder().apply(initializer).build()

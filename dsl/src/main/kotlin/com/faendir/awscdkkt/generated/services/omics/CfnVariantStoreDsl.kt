@@ -16,6 +16,4 @@ public fun Construct.cfnVariantStore(
 ): CfnVariantStore = CfnVariantStore(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVariantStore(id: String, initializer: @AwsCdkDsl
-    CfnVariantStore.Builder.() -> Unit = {}): CfnVariantStore = CfnVariantStore.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnVariantStore(id: String, initializer: @AwsCdkDsl CfnVariantStore.Builder.() -> Unit = {}): CfnVariantStore = CfnVariantStore.Builder.create(this, id).apply(initializer).build()

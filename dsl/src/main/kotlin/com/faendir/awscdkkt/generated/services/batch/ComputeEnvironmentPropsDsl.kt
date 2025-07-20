@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.ComputeEnvironmentProps
 
 @Generated
-public fun buildComputeEnvironmentProps(initializer: @AwsCdkDsl
-    ComputeEnvironmentProps.Builder.() -> Unit = {}): ComputeEnvironmentProps =
-    ComputeEnvironmentProps.Builder().apply(initializer).build()
+public fun buildComputeEnvironmentProps(initializer: @AwsCdkDsl ComputeEnvironmentProps.Builder.() -> Unit = {}): ComputeEnvironmentProps = ComputeEnvironmentProps.Builder().apply(initializer).build()

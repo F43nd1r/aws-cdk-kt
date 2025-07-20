@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.NodegroupProps
 
 @Generated
-public fun buildNodegroupProps(initializer: @AwsCdkDsl NodegroupProps.Builder.() -> Unit = {}):
-    NodegroupProps = NodegroupProps.Builder().apply(initializer).build()
+public fun buildNodegroupProps(initializer: @AwsCdkDsl NodegroupProps.Builder.() -> Unit = {}): NodegroupProps = NodegroupProps.Builder().apply(initializer).build()

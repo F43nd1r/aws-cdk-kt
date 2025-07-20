@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.route53resolver.CfnResolverQueryLoggingCo
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnResolverQueryLoggingConfig(id: String, initializer: @AwsCdkDsl
-    CfnResolverQueryLoggingConfig.() -> Unit = {}): CfnResolverQueryLoggingConfig =
-    CfnResolverQueryLoggingConfig(this, id).apply(initializer)
+public fun Construct.cfnResolverQueryLoggingConfig(id: String, initializer: @AwsCdkDsl CfnResolverQueryLoggingConfig.() -> Unit = {}): CfnResolverQueryLoggingConfig = CfnResolverQueryLoggingConfig(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnResolverQueryLoggingConfig(
@@ -21,6 +19,4 @@ public fun Construct.cfnResolverQueryLoggingConfig(
 ): CfnResolverQueryLoggingConfig = CfnResolverQueryLoggingConfig(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnResolverQueryLoggingConfig(id: String, initializer: @AwsCdkDsl
-    CfnResolverQueryLoggingConfig.Builder.() -> Unit = {}): CfnResolverQueryLoggingConfig =
-    CfnResolverQueryLoggingConfig.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnResolverQueryLoggingConfig(id: String, initializer: @AwsCdkDsl CfnResolverQueryLoggingConfig.Builder.() -> Unit = {}): CfnResolverQueryLoggingConfig = CfnResolverQueryLoggingConfig.Builder.create(this, id).apply(initializer).build()

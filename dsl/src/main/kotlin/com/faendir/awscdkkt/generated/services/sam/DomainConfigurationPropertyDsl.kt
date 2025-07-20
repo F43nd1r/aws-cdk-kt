@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sam.CfnApi
 
 @Generated
-public fun buildDomainConfigurationProperty(initializer: @AwsCdkDsl
-    CfnApi.DomainConfigurationProperty.Builder.() -> Unit = {}): CfnApi.DomainConfigurationProperty
-    = CfnApi.DomainConfigurationProperty.Builder().apply(initializer).build()
+public fun buildDomainConfigurationProperty(initializer: @AwsCdkDsl CfnApi.DomainConfigurationProperty.Builder.() -> Unit = {}): CfnApi.DomainConfigurationProperty = CfnApi.DomainConfigurationProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnService
 
 @Generated
-public fun buildDeploymentCircuitBreakerProperty(initializer: @AwsCdkDsl
-    CfnService.DeploymentCircuitBreakerProperty.Builder.() -> Unit = {}):
-    CfnService.DeploymentCircuitBreakerProperty =
-    CfnService.DeploymentCircuitBreakerProperty.Builder().apply(initializer).build()
+public fun buildDeploymentCircuitBreakerProperty(initializer: @AwsCdkDsl CfnService.DeploymentCircuitBreakerProperty.Builder.() -> Unit = {}): CfnService.DeploymentCircuitBreakerProperty = CfnService.DeploymentCircuitBreakerProperty.Builder().apply(initializer).build()

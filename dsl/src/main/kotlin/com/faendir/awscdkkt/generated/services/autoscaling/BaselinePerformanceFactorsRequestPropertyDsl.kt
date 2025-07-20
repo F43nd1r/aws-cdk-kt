@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.autoscaling.CfnAutoScalingGroup
 
 @Generated
-public fun buildBaselinePerformanceFactorsRequestProperty(initializer: @AwsCdkDsl
-    CfnAutoScalingGroup.BaselinePerformanceFactorsRequestProperty.Builder.() -> Unit = {}):
-    CfnAutoScalingGroup.BaselinePerformanceFactorsRequestProperty =
-    CfnAutoScalingGroup.BaselinePerformanceFactorsRequestProperty.Builder().apply(initializer).build()
+public fun buildBaselinePerformanceFactorsRequestProperty(initializer: @AwsCdkDsl CfnAutoScalingGroup.BaselinePerformanceFactorsRequestProperty.Builder.() -> Unit = {}): CfnAutoScalingGroup.BaselinePerformanceFactorsRequestProperty = CfnAutoScalingGroup.BaselinePerformanceFactorsRequestProperty.Builder().apply(initializer).build()

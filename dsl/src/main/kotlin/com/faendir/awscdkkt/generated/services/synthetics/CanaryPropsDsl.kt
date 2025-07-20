@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.synthetics.CanaryProps
 
 @Generated
-public fun buildCanaryProps(initializer: @AwsCdkDsl CanaryProps.Builder.() -> Unit = {}):
-    CanaryProps = CanaryProps.Builder().apply(initializer).build()
+public fun buildCanaryProps(initializer: @AwsCdkDsl CanaryProps.Builder.() -> Unit = {}): CanaryProps = CanaryProps.Builder().apply(initializer).build()

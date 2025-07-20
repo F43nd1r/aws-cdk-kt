@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.LayerVersionPermission
 
 @Generated
-public fun buildLayerVersionPermission(initializer: @AwsCdkDsl
-    LayerVersionPermission.Builder.() -> Unit = {}): LayerVersionPermission =
-    LayerVersionPermission.Builder().apply(initializer).build()
+public fun buildLayerVersionPermission(initializer: @AwsCdkDsl LayerVersionPermission.Builder.() -> Unit = {}): LayerVersionPermission = LayerVersionPermission.Builder().apply(initializer).build()

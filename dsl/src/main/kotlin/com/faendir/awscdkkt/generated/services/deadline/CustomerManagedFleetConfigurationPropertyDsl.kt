@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.deadline.CfnFleet
 
 @Generated
-public fun buildCustomerManagedFleetConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFleet.CustomerManagedFleetConfigurationProperty.Builder.() -> Unit = {}):
-    CfnFleet.CustomerManagedFleetConfigurationProperty =
-    CfnFleet.CustomerManagedFleetConfigurationProperty.Builder().apply(initializer).build()
+public fun buildCustomerManagedFleetConfigurationProperty(initializer: @AwsCdkDsl CfnFleet.CustomerManagedFleetConfigurationProperty.Builder.() -> Unit = {}): CfnFleet.CustomerManagedFleetConfigurationProperty = CfnFleet.CustomerManagedFleetConfigurationProperty.Builder().apply(initializer).build()

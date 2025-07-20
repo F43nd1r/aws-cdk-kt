@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.Credentials
 
 @Generated
-public fun buildCredentials(initializer: @AwsCdkDsl Credentials.Builder.() -> Unit = {}):
-    Credentials = Credentials.Builder().apply(initializer).build()
+public fun buildCredentials(initializer: @AwsCdkDsl Credentials.Builder.() -> Unit = {}): Credentials = Credentials.Builder().apply(initializer).build()

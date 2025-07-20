@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.imagebuilder.CfnImageRecipeProps
 
 @Generated
-public fun buildCfnImageRecipeProps(initializer: @AwsCdkDsl CfnImageRecipeProps.Builder.() -> Unit =
-    {}): CfnImageRecipeProps = CfnImageRecipeProps.Builder().apply(initializer).build()
+public fun buildCfnImageRecipeProps(initializer: @AwsCdkDsl CfnImageRecipeProps.Builder.() -> Unit = {}): CfnImageRecipeProps = CfnImageRecipeProps.Builder().apply(initializer).build()

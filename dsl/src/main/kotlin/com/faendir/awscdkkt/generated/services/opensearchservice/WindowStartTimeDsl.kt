@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opensearchservice.WindowStartTime
 
 @Generated
-public fun buildWindowStartTime(initializer: @AwsCdkDsl WindowStartTime.Builder.() -> Unit = {}):
-    WindowStartTime = WindowStartTime.Builder().apply(initializer).build()
+public fun buildWindowStartTime(initializer: @AwsCdkDsl WindowStartTime.Builder.() -> Unit = {}): WindowStartTime = WindowStartTime.Builder().apply(initializer).build()

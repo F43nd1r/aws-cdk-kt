@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildPipeTargetTimestreamParametersProperty(initializer: @AwsCdkDsl
-    CfnPipe.PipeTargetTimestreamParametersProperty.Builder.() -> Unit = {}):
-    CfnPipe.PipeTargetTimestreamParametersProperty =
-    CfnPipe.PipeTargetTimestreamParametersProperty.Builder().apply(initializer).build()
+public fun buildPipeTargetTimestreamParametersProperty(initializer: @AwsCdkDsl CfnPipe.PipeTargetTimestreamParametersProperty.Builder.() -> Unit = {}): CfnPipe.PipeTargetTimestreamParametersProperty = CfnPipe.PipeTargetTimestreamParametersProperty.Builder().apply(initializer).build()

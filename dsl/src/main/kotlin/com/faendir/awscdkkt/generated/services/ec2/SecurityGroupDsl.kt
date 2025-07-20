@@ -16,6 +16,4 @@ public fun Construct.securityGroup(
 ): SecurityGroup = SecurityGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildSecurityGroup(id: String, initializer: @AwsCdkDsl
-    SecurityGroup.Builder.() -> Unit = {}): SecurityGroup = SecurityGroup.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildSecurityGroup(id: String, initializer: @AwsCdkDsl SecurityGroup.Builder.() -> Unit = {}): SecurityGroup = SecurityGroup.Builder.create(this, id).apply(initializer).build()

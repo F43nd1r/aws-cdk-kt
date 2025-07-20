@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildInputContextProperty(initializer: @AwsCdkDsl
-    CfnBot.InputContextProperty.Builder.() -> Unit = {}): CfnBot.InputContextProperty =
-    CfnBot.InputContextProperty.Builder().apply(initializer).build()
+public fun buildInputContextProperty(initializer: @AwsCdkDsl CfnBot.InputContextProperty.Builder.() -> Unit = {}): CfnBot.InputContextProperty = CfnBot.InputContextProperty.Builder().apply(initializer).build()

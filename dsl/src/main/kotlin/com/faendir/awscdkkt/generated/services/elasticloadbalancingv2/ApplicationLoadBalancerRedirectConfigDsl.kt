@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.ApplicationLoadBalancerRedirectConfig
 
 @Generated
-public fun buildApplicationLoadBalancerRedirectConfig(initializer: @AwsCdkDsl
-    ApplicationLoadBalancerRedirectConfig.Builder.() -> Unit = {}):
-    ApplicationLoadBalancerRedirectConfig =
-    ApplicationLoadBalancerRedirectConfig.Builder().apply(initializer).build()
+public fun buildApplicationLoadBalancerRedirectConfig(initializer: @AwsCdkDsl ApplicationLoadBalancerRedirectConfig.Builder.() -> Unit = {}): ApplicationLoadBalancerRedirectConfig = ApplicationLoadBalancerRedirectConfig.Builder().apply(initializer).build()

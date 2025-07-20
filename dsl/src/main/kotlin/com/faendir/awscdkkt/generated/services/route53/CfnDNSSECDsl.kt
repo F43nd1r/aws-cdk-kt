@@ -16,5 +16,4 @@ public fun Construct.cfnDNSSEC(
 ): CfnDNSSEC = CfnDNSSEC(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDNSSEC(id: String, initializer: @AwsCdkDsl CfnDNSSEC.Builder.() -> Unit
-    = {}): CfnDNSSEC = CfnDNSSEC.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDNSSEC(id: String, initializer: @AwsCdkDsl CfnDNSSEC.Builder.() -> Unit = {}): CfnDNSSEC = CfnDNSSEC.Builder.create(this, id).apply(initializer).build()

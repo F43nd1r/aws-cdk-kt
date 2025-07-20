@@ -16,6 +16,4 @@ public fun Construct.cfnAgentAlias(
 ): CfnAgentAlias = CfnAgentAlias(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAgentAlias(id: String, initializer: @AwsCdkDsl
-    CfnAgentAlias.Builder.() -> Unit = {}): CfnAgentAlias = CfnAgentAlias.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnAgentAlias(id: String, initializer: @AwsCdkDsl CfnAgentAlias.Builder.() -> Unit = {}): CfnAgentAlias = CfnAgentAlias.Builder.create(this, id).apply(initializer).build()

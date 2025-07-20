@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnFlowAlias
 
 @Generated
-public fun buildFlowAliasConcurrencyConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFlowAlias.FlowAliasConcurrencyConfigurationProperty.Builder.() -> Unit = {}):
-    CfnFlowAlias.FlowAliasConcurrencyConfigurationProperty =
-    CfnFlowAlias.FlowAliasConcurrencyConfigurationProperty.Builder().apply(initializer).build()
+public fun buildFlowAliasConcurrencyConfigurationProperty(initializer: @AwsCdkDsl CfnFlowAlias.FlowAliasConcurrencyConfigurationProperty.Builder.() -> Unit = {}): CfnFlowAlias.FlowAliasConcurrencyConfigurationProperty = CfnFlowAlias.FlowAliasConcurrencyConfigurationProperty.Builder().apply(initializer).build()

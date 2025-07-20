@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnCluster
 
 @Generated
-public fun buildClusterOrchestratorEksConfigProperty(initializer: @AwsCdkDsl
-    CfnCluster.ClusterOrchestratorEksConfigProperty.Builder.() -> Unit = {}):
-    CfnCluster.ClusterOrchestratorEksConfigProperty =
-    CfnCluster.ClusterOrchestratorEksConfigProperty.Builder().apply(initializer).build()
+public fun buildClusterOrchestratorEksConfigProperty(initializer: @AwsCdkDsl CfnCluster.ClusterOrchestratorEksConfigProperty.Builder.() -> Unit = {}): CfnCluster.ClusterOrchestratorEksConfigProperty = CfnCluster.ClusterOrchestratorEksConfigProperty.Builder().apply(initializer).build()

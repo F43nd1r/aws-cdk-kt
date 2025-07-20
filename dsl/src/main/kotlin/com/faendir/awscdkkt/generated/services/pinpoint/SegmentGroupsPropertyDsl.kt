@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnSegment
 
 @Generated
-public fun buildSegmentGroupsProperty(initializer: @AwsCdkDsl
-    CfnSegment.SegmentGroupsProperty.Builder.() -> Unit = {}): CfnSegment.SegmentGroupsProperty =
-    CfnSegment.SegmentGroupsProperty.Builder().apply(initializer).build()
+public fun buildSegmentGroupsProperty(initializer: @AwsCdkDsl CfnSegment.SegmentGroupsProperty.Builder.() -> Unit = {}): CfnSegment.SegmentGroupsProperty = CfnSegment.SegmentGroupsProperty.Builder().apply(initializer).build()

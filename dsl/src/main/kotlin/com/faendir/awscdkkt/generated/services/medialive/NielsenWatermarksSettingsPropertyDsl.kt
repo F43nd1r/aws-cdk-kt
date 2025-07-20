@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildNielsenWatermarksSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.NielsenWatermarksSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.NielsenWatermarksSettingsProperty =
-    CfnChannel.NielsenWatermarksSettingsProperty.Builder().apply(initializer).build()
+public fun buildNielsenWatermarksSettingsProperty(initializer: @AwsCdkDsl CfnChannel.NielsenWatermarksSettingsProperty.Builder.() -> Unit = {}): CfnChannel.NielsenWatermarksSettingsProperty = CfnChannel.NielsenWatermarksSettingsProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.CfnJobDefinition
 
 @Generated
-public fun buildResourceRequirementProperty(initializer: @AwsCdkDsl
-    CfnJobDefinition.ResourceRequirementProperty.Builder.() -> Unit = {}):
-    CfnJobDefinition.ResourceRequirementProperty =
-    CfnJobDefinition.ResourceRequirementProperty.Builder().apply(initializer).build()
+public fun buildResourceRequirementProperty(initializer: @AwsCdkDsl CfnJobDefinition.ResourceRequirementProperty.Builder.() -> Unit = {}): CfnJobDefinition.ResourceRequirementProperty = CfnJobDefinition.ResourceRequirementProperty.Builder().apply(initializer).build()

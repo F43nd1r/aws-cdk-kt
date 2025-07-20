@@ -16,5 +16,4 @@ public fun Construct.volume(
 ): Volume = Volume(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildVolume(id: String, initializer: @AwsCdkDsl Volume.Builder.() -> Unit =
-    {}): Volume = Volume.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildVolume(id: String, initializer: @AwsCdkDsl Volume.Builder.() -> Unit = {}): Volume = Volume.Builder.create(this, id).apply(initializer).build()

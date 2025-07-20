@@ -16,6 +16,4 @@ public fun Construct.cfnExecutionPlan(
 ): CfnExecutionPlan = CfnExecutionPlan(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnExecutionPlan(id: String, initializer: @AwsCdkDsl
-    CfnExecutionPlan.Builder.() -> Unit = {}): CfnExecutionPlan =
-    CfnExecutionPlan.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnExecutionPlan(id: String, initializer: @AwsCdkDsl CfnExecutionPlan.Builder.() -> Unit = {}): CfnExecutionPlan = CfnExecutionPlan.Builder.create(this, id).apply(initializer).build()

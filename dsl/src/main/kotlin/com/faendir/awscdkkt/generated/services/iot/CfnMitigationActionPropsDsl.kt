@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnMitigationActionProps
 
 @Generated
-public fun buildCfnMitigationActionProps(initializer: @AwsCdkDsl
-    CfnMitigationActionProps.Builder.() -> Unit = {}): CfnMitigationActionProps =
-    CfnMitigationActionProps.Builder().apply(initializer).build()
+public fun buildCfnMitigationActionProps(initializer: @AwsCdkDsl CfnMitigationActionProps.Builder.() -> Unit = {}): CfnMitigationActionProps = CfnMitigationActionProps.Builder().apply(initializer).build()

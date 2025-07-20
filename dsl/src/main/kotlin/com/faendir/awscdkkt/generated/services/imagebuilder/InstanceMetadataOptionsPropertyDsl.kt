@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.imagebuilder.CfnInfrastructureConfiguration
 
 @Generated
-public fun buildInstanceMetadataOptionsProperty(initializer: @AwsCdkDsl
-    CfnInfrastructureConfiguration.InstanceMetadataOptionsProperty.Builder.() -> Unit = {}):
-    CfnInfrastructureConfiguration.InstanceMetadataOptionsProperty =
-    CfnInfrastructureConfiguration.InstanceMetadataOptionsProperty.Builder().apply(initializer).build()
+public fun buildInstanceMetadataOptionsProperty(initializer: @AwsCdkDsl CfnInfrastructureConfiguration.InstanceMetadataOptionsProperty.Builder.() -> Unit = {}): CfnInfrastructureConfiguration.InstanceMetadataOptionsProperty = CfnInfrastructureConfiguration.InstanceMetadataOptionsProperty.Builder().apply(initializer).build()

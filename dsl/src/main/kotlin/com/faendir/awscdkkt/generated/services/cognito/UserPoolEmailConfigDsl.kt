@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.UserPoolEmailConfig
 
 @Generated
-public fun buildUserPoolEmailConfig(initializer: @AwsCdkDsl UserPoolEmailConfig.Builder.() -> Unit =
-    {}): UserPoolEmailConfig = UserPoolEmailConfig.Builder().apply(initializer).build()
+public fun buildUserPoolEmailConfig(initializer: @AwsCdkDsl UserPoolEmailConfig.Builder.() -> Unit = {}): UserPoolEmailConfig = UserPoolEmailConfig.Builder().apply(initializer).build()

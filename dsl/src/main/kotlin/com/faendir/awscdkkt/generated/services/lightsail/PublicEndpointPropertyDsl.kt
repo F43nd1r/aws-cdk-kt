@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lightsail.CfnContainer
 
 @Generated
-public fun buildPublicEndpointProperty(initializer: @AwsCdkDsl
-    CfnContainer.PublicEndpointProperty.Builder.() -> Unit = {}):
-    CfnContainer.PublicEndpointProperty =
-    CfnContainer.PublicEndpointProperty.Builder().apply(initializer).build()
+public fun buildPublicEndpointProperty(initializer: @AwsCdkDsl CfnContainer.PublicEndpointProperty.Builder.() -> Unit = {}): CfnContainer.PublicEndpointProperty = CfnContainer.PublicEndpointProperty.Builder().apply(initializer).build()

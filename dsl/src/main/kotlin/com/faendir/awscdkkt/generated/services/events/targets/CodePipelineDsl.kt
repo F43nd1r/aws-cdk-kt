@@ -7,6 +7,4 @@ import software.amazon.awscdk.services.codepipeline.IPipeline
 import software.amazon.awscdk.services.events.targets.CodePipeline
 
 @Generated
-public fun buildCodePipeline(pipeline: IPipeline, initializer: @AwsCdkDsl
-    CodePipeline.Builder.() -> Unit = {}): CodePipeline =
-    CodePipeline.Builder.create(pipeline).apply(initializer).build()
+public fun buildCodePipeline(pipeline: IPipeline, initializer: @AwsCdkDsl CodePipeline.Builder.() -> Unit = {}): CodePipeline = CodePipeline.Builder.create(pipeline).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sam.CfnFunction
 
 @Generated
-public fun buildHttpApiEventProperty(initializer: @AwsCdkDsl
-    CfnFunction.HttpApiEventProperty.Builder.() -> Unit = {}): CfnFunction.HttpApiEventProperty =
-    CfnFunction.HttpApiEventProperty.Builder().apply(initializer).build()
+public fun buildHttpApiEventProperty(initializer: @AwsCdkDsl CfnFunction.HttpApiEventProperty.Builder.() -> Unit = {}): CfnFunction.HttpApiEventProperty = CfnFunction.HttpApiEventProperty.Builder().apply(initializer).build()

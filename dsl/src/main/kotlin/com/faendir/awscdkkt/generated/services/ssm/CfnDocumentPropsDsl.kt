@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssm.CfnDocumentProps
 
 @Generated
-public fun buildCfnDocumentProps(initializer: @AwsCdkDsl CfnDocumentProps.Builder.() -> Unit = {}):
-    CfnDocumentProps = CfnDocumentProps.Builder().apply(initializer).build()
+public fun buildCfnDocumentProps(initializer: @AwsCdkDsl CfnDocumentProps.Builder.() -> Unit = {}): CfnDocumentProps = CfnDocumentProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloud_assembly_schema.ContainerImageAssetCacheOption
 
 @Generated
-public fun buildContainerImageAssetCacheOption(initializer: @AwsCdkDsl
-    ContainerImageAssetCacheOption.Builder.() -> Unit = {}): ContainerImageAssetCacheOption =
-    ContainerImageAssetCacheOption.Builder().apply(initializer).build()
+public fun buildContainerImageAssetCacheOption(initializer: @AwsCdkDsl ContainerImageAssetCacheOption.Builder.() -> Unit = {}): ContainerImageAssetCacheOption = ContainerImageAssetCacheOption.Builder().apply(initializer).build()

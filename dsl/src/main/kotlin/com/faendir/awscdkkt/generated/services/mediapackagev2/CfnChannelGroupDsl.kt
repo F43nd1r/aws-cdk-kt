@@ -16,6 +16,4 @@ public fun Construct.cfnChannelGroup(
 ): CfnChannelGroup = CfnChannelGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnChannelGroup(id: String, initializer: @AwsCdkDsl
-    CfnChannelGroup.Builder.() -> Unit = {}): CfnChannelGroup = CfnChannelGroup.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnChannelGroup(id: String, initializer: @AwsCdkDsl CfnChannelGroup.Builder.() -> Unit = {}): CfnChannelGroup = CfnChannelGroup.Builder.create(this, id).apply(initializer).build()

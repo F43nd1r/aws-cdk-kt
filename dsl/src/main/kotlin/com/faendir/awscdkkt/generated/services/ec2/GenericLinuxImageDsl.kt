@@ -8,6 +8,4 @@ import kotlin.collections.Map
 import software.amazon.awscdk.services.ec2.GenericLinuxImage
 
 @Generated
-public fun buildGenericLinuxImage(amiMap: Map<String, String>, initializer: @AwsCdkDsl
-    GenericLinuxImage.Builder.() -> Unit = {}): GenericLinuxImage =
-    GenericLinuxImage.Builder.create(amiMap).apply(initializer).build()
+public fun buildGenericLinuxImage(amiMap: Map<String, String>, initializer: @AwsCdkDsl GenericLinuxImage.Builder.() -> Unit = {}): GenericLinuxImage = GenericLinuxImage.Builder.create(amiMap).apply(initializer).build()

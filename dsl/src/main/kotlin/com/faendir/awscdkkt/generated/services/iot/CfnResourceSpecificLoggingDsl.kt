@@ -16,6 +16,4 @@ public fun Construct.cfnResourceSpecificLogging(
 ): CfnResourceSpecificLogging = CfnResourceSpecificLogging(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnResourceSpecificLogging(id: String, initializer: @AwsCdkDsl
-    CfnResourceSpecificLogging.Builder.() -> Unit = {}): CfnResourceSpecificLogging =
-    CfnResourceSpecificLogging.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnResourceSpecificLogging(id: String, initializer: @AwsCdkDsl CfnResourceSpecificLogging.Builder.() -> Unit = {}): CfnResourceSpecificLogging = CfnResourceSpecificLogging.Builder.create(this, id).apply(initializer).build()

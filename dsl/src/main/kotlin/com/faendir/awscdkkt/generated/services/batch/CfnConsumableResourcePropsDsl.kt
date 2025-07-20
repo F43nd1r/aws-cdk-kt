@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.CfnConsumableResourceProps
 
 @Generated
-public fun buildCfnConsumableResourceProps(initializer: @AwsCdkDsl
-    CfnConsumableResourceProps.Builder.() -> Unit = {}): CfnConsumableResourceProps =
-    CfnConsumableResourceProps.Builder().apply(initializer).build()
+public fun buildCfnConsumableResourceProps(initializer: @AwsCdkDsl CfnConsumableResourceProps.Builder.() -> Unit = {}): CfnConsumableResourceProps = CfnConsumableResourceProps.Builder().apply(initializer).build()

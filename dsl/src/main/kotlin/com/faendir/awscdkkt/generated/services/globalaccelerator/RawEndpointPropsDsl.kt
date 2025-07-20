@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.globalaccelerator.RawEndpointProps
 
 @Generated
-public fun buildRawEndpointProps(initializer: @AwsCdkDsl RawEndpointProps.Builder.() -> Unit = {}):
-    RawEndpointProps = RawEndpointProps.Builder().apply(initializer).build()
+public fun buildRawEndpointProps(initializer: @AwsCdkDsl RawEndpointProps.Builder.() -> Unit = {}): RawEndpointProps = RawEndpointProps.Builder().apply(initializer).build()

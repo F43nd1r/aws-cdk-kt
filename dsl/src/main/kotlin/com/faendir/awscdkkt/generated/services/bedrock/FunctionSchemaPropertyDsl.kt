@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnAgent
 
 @Generated
-public fun buildFunctionSchemaProperty(initializer: @AwsCdkDsl
-    CfnAgent.FunctionSchemaProperty.Builder.() -> Unit = {}): CfnAgent.FunctionSchemaProperty =
-    CfnAgent.FunctionSchemaProperty.Builder().apply(initializer).build()
+public fun buildFunctionSchemaProperty(initializer: @AwsCdkDsl CfnAgent.FunctionSchemaProperty.Builder.() -> Unit = {}): CfnAgent.FunctionSchemaProperty = CfnAgent.FunctionSchemaProperty.Builder().apply(initializer).build()

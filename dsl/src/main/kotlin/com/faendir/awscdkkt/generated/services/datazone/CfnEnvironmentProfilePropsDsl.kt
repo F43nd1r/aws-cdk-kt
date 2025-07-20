@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnEnvironmentProfileProps
 
 @Generated
-public fun buildCfnEnvironmentProfileProps(initializer: @AwsCdkDsl
-    CfnEnvironmentProfileProps.Builder.() -> Unit = {}): CfnEnvironmentProfileProps =
-    CfnEnvironmentProfileProps.Builder().apply(initializer).build()
+public fun buildCfnEnvironmentProfileProps(initializer: @AwsCdkDsl CfnEnvironmentProfileProps.Builder.() -> Unit = {}): CfnEnvironmentProfileProps = CfnEnvironmentProfileProps.Builder().apply(initializer).build()

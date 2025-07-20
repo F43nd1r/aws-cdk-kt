@@ -16,6 +16,4 @@ public fun Construct.cfnConnectionGroup(
 ): CfnConnectionGroup = CfnConnectionGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnConnectionGroup(id: String, initializer: @AwsCdkDsl
-    CfnConnectionGroup.Builder.() -> Unit = {}): CfnConnectionGroup =
-    CfnConnectionGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnConnectionGroup(id: String, initializer: @AwsCdkDsl CfnConnectionGroup.Builder.() -> Unit = {}): CfnConnectionGroup = CfnConnectionGroup.Builder.create(this, id).apply(initializer).build()

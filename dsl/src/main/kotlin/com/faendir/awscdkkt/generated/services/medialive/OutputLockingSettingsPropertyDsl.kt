@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildOutputLockingSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.OutputLockingSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.OutputLockingSettingsProperty =
-    CfnChannel.OutputLockingSettingsProperty.Builder().apply(initializer).build()
+public fun buildOutputLockingSettingsProperty(initializer: @AwsCdkDsl CfnChannel.OutputLockingSettingsProperty.Builder.() -> Unit = {}): CfnChannel.OutputLockingSettingsProperty = CfnChannel.OutputLockingSettingsProperty.Builder().apply(initializer).build()

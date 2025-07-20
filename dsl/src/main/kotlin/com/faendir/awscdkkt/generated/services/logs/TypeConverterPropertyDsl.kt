@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnTransformer
 
 @Generated
-public fun buildTypeConverterProperty(initializer: @AwsCdkDsl
-    CfnTransformer.TypeConverterProperty.Builder.() -> Unit = {}):
-    CfnTransformer.TypeConverterProperty =
-    CfnTransformer.TypeConverterProperty.Builder().apply(initializer).build()
+public fun buildTypeConverterProperty(initializer: @AwsCdkDsl CfnTransformer.TypeConverterProperty.Builder.() -> Unit = {}): CfnTransformer.TypeConverterProperty = CfnTransformer.TypeConverterProperty.Builder().apply(initializer).build()

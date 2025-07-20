@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildPipeLogConfigurationProperty(initializer: @AwsCdkDsl
-    CfnPipe.PipeLogConfigurationProperty.Builder.() -> Unit = {}):
-    CfnPipe.PipeLogConfigurationProperty =
-    CfnPipe.PipeLogConfigurationProperty.Builder().apply(initializer).build()
+public fun buildPipeLogConfigurationProperty(initializer: @AwsCdkDsl CfnPipe.PipeLogConfigurationProperty.Builder.() -> Unit = {}): CfnPipe.PipeLogConfigurationProperty = CfnPipe.PipeLogConfigurationProperty.Builder().apply(initializer).build()

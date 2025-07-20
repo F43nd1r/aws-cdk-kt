@@ -16,6 +16,4 @@ public fun Construct.cfnLoadBalancerTlsCertificate(
 ): CfnLoadBalancerTlsCertificate = CfnLoadBalancerTlsCertificate(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLoadBalancerTlsCertificate(id: String, initializer: @AwsCdkDsl
-    CfnLoadBalancerTlsCertificate.Builder.() -> Unit = {}): CfnLoadBalancerTlsCertificate =
-    CfnLoadBalancerTlsCertificate.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLoadBalancerTlsCertificate(id: String, initializer: @AwsCdkDsl CfnLoadBalancerTlsCertificate.Builder.() -> Unit = {}): CfnLoadBalancerTlsCertificate = CfnLoadBalancerTlsCertificate.Builder.create(this, id).apply(initializer).build()

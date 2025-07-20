@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.omics.CfnVariantStoreProps
 
 @Generated
-public fun buildCfnVariantStoreProps(initializer: @AwsCdkDsl CfnVariantStoreProps.Builder.() -> Unit
-    = {}): CfnVariantStoreProps = CfnVariantStoreProps.Builder().apply(initializer).build()
+public fun buildCfnVariantStoreProps(initializer: @AwsCdkDsl CfnVariantStoreProps.Builder.() -> Unit = {}): CfnVariantStoreProps = CfnVariantStoreProps.Builder().apply(initializer).build()

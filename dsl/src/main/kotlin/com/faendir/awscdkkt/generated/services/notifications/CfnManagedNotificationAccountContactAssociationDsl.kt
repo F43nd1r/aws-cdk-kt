@@ -13,12 +13,7 @@ public fun Construct.cfnManagedNotificationAccountContactAssociation(
   id: String,
   props: CfnManagedNotificationAccountContactAssociationProps,
   initializer: @AwsCdkDsl CfnManagedNotificationAccountContactAssociation.() -> Unit = {},
-): CfnManagedNotificationAccountContactAssociation =
-    CfnManagedNotificationAccountContactAssociation(this, id, props).apply(initializer)
+): CfnManagedNotificationAccountContactAssociation = CfnManagedNotificationAccountContactAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnManagedNotificationAccountContactAssociation(id: String,
-    initializer: @AwsCdkDsl CfnManagedNotificationAccountContactAssociation.Builder.() -> Unit =
-    {}): CfnManagedNotificationAccountContactAssociation =
-    CfnManagedNotificationAccountContactAssociation.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnManagedNotificationAccountContactAssociation(id: String, initializer: @AwsCdkDsl CfnManagedNotificationAccountContactAssociation.Builder.() -> Unit = {}): CfnManagedNotificationAccountContactAssociation = CfnManagedNotificationAccountContactAssociation.Builder.create(this, id).apply(initializer).build()

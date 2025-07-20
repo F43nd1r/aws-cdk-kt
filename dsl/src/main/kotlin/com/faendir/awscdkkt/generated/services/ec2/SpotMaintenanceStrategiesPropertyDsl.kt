@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnSpotFleet
 
 @Generated
-public fun buildSpotMaintenanceStrategiesProperty(initializer: @AwsCdkDsl
-    CfnSpotFleet.SpotMaintenanceStrategiesProperty.Builder.() -> Unit = {}):
-    CfnSpotFleet.SpotMaintenanceStrategiesProperty =
-    CfnSpotFleet.SpotMaintenanceStrategiesProperty.Builder().apply(initializer).build()
+public fun buildSpotMaintenanceStrategiesProperty(initializer: @AwsCdkDsl CfnSpotFleet.SpotMaintenanceStrategiesProperty.Builder.() -> Unit = {}): CfnSpotFleet.SpotMaintenanceStrategiesProperty = CfnSpotFleet.SpotMaintenanceStrategiesProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.inspectorv2.CfnCisScanConfigurationProps
 
 @Generated
-public fun buildCfnCisScanConfigurationProps(initializer: @AwsCdkDsl
-    CfnCisScanConfigurationProps.Builder.() -> Unit = {}): CfnCisScanConfigurationProps =
-    CfnCisScanConfigurationProps.Builder().apply(initializer).build()
+public fun buildCfnCisScanConfigurationProps(initializer: @AwsCdkDsl CfnCisScanConfigurationProps.Builder.() -> Unit = {}): CfnCisScanConfigurationProps = CfnCisScanConfigurationProps.Builder().apply(initializer).build()

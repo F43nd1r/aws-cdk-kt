@@ -16,6 +16,4 @@ public fun Construct.sageMakerCreateTransformJob(
 ): SageMakerCreateTransformJob = SageMakerCreateTransformJob(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildSageMakerCreateTransformJob(id: String, initializer: @AwsCdkDsl
-    SageMakerCreateTransformJob.Builder.() -> Unit = {}): SageMakerCreateTransformJob =
-    SageMakerCreateTransformJob.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildSageMakerCreateTransformJob(id: String, initializer: @AwsCdkDsl SageMakerCreateTransformJob.Builder.() -> Unit = {}): SageMakerCreateTransformJob = SageMakerCreateTransformJob.Builder.create(this, id).apply(initializer).build()

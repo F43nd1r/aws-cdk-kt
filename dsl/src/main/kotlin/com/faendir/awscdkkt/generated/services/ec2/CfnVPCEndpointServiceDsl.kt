@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.ec2.CfnVPCEndpointServiceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnVPCEndpointService(id: String, initializer: @AwsCdkDsl
-    CfnVPCEndpointService.() -> Unit = {}): CfnVPCEndpointService = CfnVPCEndpointService(this,
-    id).apply(initializer)
+public fun Construct.cfnVPCEndpointService(id: String, initializer: @AwsCdkDsl CfnVPCEndpointService.() -> Unit = {}): CfnVPCEndpointService = CfnVPCEndpointService(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnVPCEndpointService(
@@ -21,6 +19,4 @@ public fun Construct.cfnVPCEndpointService(
 ): CfnVPCEndpointService = CfnVPCEndpointService(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVPCEndpointService(id: String, initializer: @AwsCdkDsl
-    CfnVPCEndpointService.Builder.() -> Unit = {}): CfnVPCEndpointService =
-    CfnVPCEndpointService.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnVPCEndpointService(id: String, initializer: @AwsCdkDsl CfnVPCEndpointService.Builder.() -> Unit = {}): CfnVPCEndpointService = CfnVPCEndpointService.Builder.create(this, id).apply(initializer).build()

@@ -9,21 +9,14 @@ import software.amazon.awscdk.services.ecs.patterns.NetworkMultipleTargetGroupsF
 import software.constructs.Construct
 
 @Generated
-public fun Construct.networkMultipleTargetGroupsFargateService(id: String, initializer: @AwsCdkDsl
-    NetworkMultipleTargetGroupsFargateService.() -> Unit = {}):
-    NetworkMultipleTargetGroupsFargateService = NetworkMultipleTargetGroupsFargateService(this,
-    id).apply(initializer)
+public fun Construct.networkMultipleTargetGroupsFargateService(id: String, initializer: @AwsCdkDsl NetworkMultipleTargetGroupsFargateService.() -> Unit = {}): NetworkMultipleTargetGroupsFargateService = NetworkMultipleTargetGroupsFargateService(this, id).apply(initializer)
 
 @Generated
 public fun Construct.networkMultipleTargetGroupsFargateService(
   id: String,
   props: NetworkMultipleTargetGroupsFargateServiceProps,
   initializer: @AwsCdkDsl NetworkMultipleTargetGroupsFargateService.() -> Unit = {},
-): NetworkMultipleTargetGroupsFargateService = NetworkMultipleTargetGroupsFargateService(this, id,
-    props).apply(initializer)
+): NetworkMultipleTargetGroupsFargateService = NetworkMultipleTargetGroupsFargateService(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildNetworkMultipleTargetGroupsFargateService(id: String,
-    initializer: @AwsCdkDsl NetworkMultipleTargetGroupsFargateService.Builder.() -> Unit = {}):
-    NetworkMultipleTargetGroupsFargateService =
-    NetworkMultipleTargetGroupsFargateService.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildNetworkMultipleTargetGroupsFargateService(id: String, initializer: @AwsCdkDsl NetworkMultipleTargetGroupsFargateService.Builder.() -> Unit = {}): NetworkMultipleTargetGroupsFargateService = NetworkMultipleTargetGroupsFargateService.Builder.create(this, id).apply(initializer).build()

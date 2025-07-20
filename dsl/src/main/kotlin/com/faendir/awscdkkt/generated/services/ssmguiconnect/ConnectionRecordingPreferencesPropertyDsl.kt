@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssmguiconnect.CfnPreferences
 
 @Generated
-public fun buildConnectionRecordingPreferencesProperty(initializer: @AwsCdkDsl
-    CfnPreferences.ConnectionRecordingPreferencesProperty.Builder.() -> Unit = {}):
-    CfnPreferences.ConnectionRecordingPreferencesProperty =
-    CfnPreferences.ConnectionRecordingPreferencesProperty.Builder().apply(initializer).build()
+public fun buildConnectionRecordingPreferencesProperty(initializer: @AwsCdkDsl CfnPreferences.ConnectionRecordingPreferencesProperty.Builder.() -> Unit = {}): CfnPreferences.ConnectionRecordingPreferencesProperty = CfnPreferences.ConnectionRecordingPreferencesProperty.Builder().apply(initializer).build()

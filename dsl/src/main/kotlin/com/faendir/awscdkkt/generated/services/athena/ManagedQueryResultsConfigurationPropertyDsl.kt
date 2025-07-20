@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.athena.CfnWorkGroup
 
 @Generated
-public fun buildManagedQueryResultsConfigurationProperty(initializer: @AwsCdkDsl
-    CfnWorkGroup.ManagedQueryResultsConfigurationProperty.Builder.() -> Unit = {}):
-    CfnWorkGroup.ManagedQueryResultsConfigurationProperty =
-    CfnWorkGroup.ManagedQueryResultsConfigurationProperty.Builder().apply(initializer).build()
+public fun buildManagedQueryResultsConfigurationProperty(initializer: @AwsCdkDsl CfnWorkGroup.ManagedQueryResultsConfigurationProperty.Builder.() -> Unit = {}): CfnWorkGroup.ManagedQueryResultsConfigurationProperty = CfnWorkGroup.ManagedQueryResultsConfigurationProperty.Builder().apply(initializer).build()

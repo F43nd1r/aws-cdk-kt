@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
-public fun buildReplicationRuleProperty(initializer: @AwsCdkDsl
-    CfnBucket.ReplicationRuleProperty.Builder.() -> Unit = {}): CfnBucket.ReplicationRuleProperty =
-    CfnBucket.ReplicationRuleProperty.Builder().apply(initializer).build()
+public fun buildReplicationRuleProperty(initializer: @AwsCdkDsl CfnBucket.ReplicationRuleProperty.Builder.() -> Unit = {}): CfnBucket.ReplicationRuleProperty = CfnBucket.ReplicationRuleProperty.Builder().apply(initializer).build()

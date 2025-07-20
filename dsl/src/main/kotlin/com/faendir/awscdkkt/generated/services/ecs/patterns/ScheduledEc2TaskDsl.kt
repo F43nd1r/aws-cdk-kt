@@ -16,6 +16,4 @@ public fun Construct.scheduledEc2Task(
 ): ScheduledEc2Task = ScheduledEc2Task(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildScheduledEc2Task(id: String, initializer: @AwsCdkDsl
-    ScheduledEc2Task.Builder.() -> Unit = {}): ScheduledEc2Task =
-    ScheduledEc2Task.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildScheduledEc2Task(id: String, initializer: @AwsCdkDsl ScheduledEc2Task.Builder.() -> Unit = {}): ScheduledEc2Task = ScheduledEc2Task.Builder.create(this, id).apply(initializer).build()

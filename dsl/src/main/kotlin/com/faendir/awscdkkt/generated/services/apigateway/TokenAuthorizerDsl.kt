@@ -16,6 +16,4 @@ public fun Construct.tokenAuthorizer(
 ): TokenAuthorizer = TokenAuthorizer(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildTokenAuthorizer(id: String, initializer: @AwsCdkDsl
-    TokenAuthorizer.Builder.() -> Unit = {}): TokenAuthorizer = TokenAuthorizer.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildTokenAuthorizer(id: String, initializer: @AwsCdkDsl TokenAuthorizer.Builder.() -> Unit = {}): TokenAuthorizer = TokenAuthorizer.Builder.create(this, id).apply(initializer).build()

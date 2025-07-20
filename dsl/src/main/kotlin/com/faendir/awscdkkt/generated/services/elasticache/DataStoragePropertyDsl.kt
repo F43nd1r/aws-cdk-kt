@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticache.CfnServerlessCache
 
 @Generated
-public fun buildDataStorageProperty(initializer: @AwsCdkDsl
-    CfnServerlessCache.DataStorageProperty.Builder.() -> Unit = {}):
-    CfnServerlessCache.DataStorageProperty =
-    CfnServerlessCache.DataStorageProperty.Builder().apply(initializer).build()
+public fun buildDataStorageProperty(initializer: @AwsCdkDsl CfnServerlessCache.DataStorageProperty.Builder.() -> Unit = {}): CfnServerlessCache.DataStorageProperty = CfnServerlessCache.DataStorageProperty.Builder().apply(initializer).build()

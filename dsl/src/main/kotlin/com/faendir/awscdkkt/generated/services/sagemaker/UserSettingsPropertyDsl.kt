@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnUserProfile
 
 @Generated
-public fun buildUserSettingsProperty(initializer: @AwsCdkDsl
-    CfnUserProfile.UserSettingsProperty.Builder.() -> Unit = {}):
-    CfnUserProfile.UserSettingsProperty =
-    CfnUserProfile.UserSettingsProperty.Builder().apply(initializer).build()
+public fun buildUserSettingsProperty(initializer: @AwsCdkDsl CfnUserProfile.UserSettingsProperty.Builder.() -> Unit = {}): CfnUserProfile.UserSettingsProperty = CfnUserProfile.UserSettingsProperty.Builder().apply(initializer).build()

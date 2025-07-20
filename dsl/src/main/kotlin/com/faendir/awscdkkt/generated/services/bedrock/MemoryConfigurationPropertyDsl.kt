@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnAgent
 
 @Generated
-public fun buildMemoryConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAgent.MemoryConfigurationProperty.Builder.() -> Unit = {}):
-    CfnAgent.MemoryConfigurationProperty =
-    CfnAgent.MemoryConfigurationProperty.Builder().apply(initializer).build()
+public fun buildMemoryConfigurationProperty(initializer: @AwsCdkDsl CfnAgent.MemoryConfigurationProperty.Builder.() -> Unit = {}): CfnAgent.MemoryConfigurationProperty = CfnAgent.MemoryConfigurationProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pinpoint.CfnEmailChannelProps
 
 @Generated
-public fun buildCfnEmailChannelProps(initializer: @AwsCdkDsl CfnEmailChannelProps.Builder.() -> Unit
-    = {}): CfnEmailChannelProps = CfnEmailChannelProps.Builder().apply(initializer).build()
+public fun buildCfnEmailChannelProps(initializer: @AwsCdkDsl CfnEmailChannelProps.Builder.() -> Unit = {}): CfnEmailChannelProps = CfnEmailChannelProps.Builder().apply(initializer).build()

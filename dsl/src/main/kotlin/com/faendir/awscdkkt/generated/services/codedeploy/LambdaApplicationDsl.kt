@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.codedeploy.LambdaApplicationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.lambdaApplication(id: String, initializer: @AwsCdkDsl
-    LambdaApplication.() -> Unit = {}): LambdaApplication = LambdaApplication(this,
-    id).apply(initializer)
+public fun Construct.lambdaApplication(id: String, initializer: @AwsCdkDsl LambdaApplication.() -> Unit = {}): LambdaApplication = LambdaApplication(this, id).apply(initializer)
 
 @Generated
 public fun Construct.lambdaApplication(
@@ -21,6 +19,4 @@ public fun Construct.lambdaApplication(
 ): LambdaApplication = LambdaApplication(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildLambdaApplication(id: String, initializer: @AwsCdkDsl
-    LambdaApplication.Builder.() -> Unit = {}): LambdaApplication =
-    LambdaApplication.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildLambdaApplication(id: String, initializer: @AwsCdkDsl LambdaApplication.Builder.() -> Unit = {}): LambdaApplication = LambdaApplication.Builder.create(this, id).apply(initializer).build()

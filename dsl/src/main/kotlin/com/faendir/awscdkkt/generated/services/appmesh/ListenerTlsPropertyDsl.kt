@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnVirtualNode
 
 @Generated
-public fun buildListenerTlsProperty(initializer: @AwsCdkDsl
-    CfnVirtualNode.ListenerTlsProperty.Builder.() -> Unit = {}): CfnVirtualNode.ListenerTlsProperty
-    = CfnVirtualNode.ListenerTlsProperty.Builder().apply(initializer).build()
+public fun buildListenerTlsProperty(initializer: @AwsCdkDsl CfnVirtualNode.ListenerTlsProperty.Builder.() -> Unit = {}): CfnVirtualNode.ListenerTlsProperty = CfnVirtualNode.ListenerTlsProperty.Builder().apply(initializer).build()

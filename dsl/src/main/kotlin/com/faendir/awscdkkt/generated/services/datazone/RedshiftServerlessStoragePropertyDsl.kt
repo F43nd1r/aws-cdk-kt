@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnDataSource
 
 @Generated
-public fun buildRedshiftServerlessStorageProperty(initializer: @AwsCdkDsl
-    CfnDataSource.RedshiftServerlessStorageProperty.Builder.() -> Unit = {}):
-    CfnDataSource.RedshiftServerlessStorageProperty =
-    CfnDataSource.RedshiftServerlessStorageProperty.Builder().apply(initializer).build()
+public fun buildRedshiftServerlessStorageProperty(initializer: @AwsCdkDsl CfnDataSource.RedshiftServerlessStorageProperty.Builder.() -> Unit = {}): CfnDataSource.RedshiftServerlessStorageProperty = CfnDataSource.RedshiftServerlessStorageProperty.Builder().apply(initializer).build()

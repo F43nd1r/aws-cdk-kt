@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3outposts.CfnBucket
 
 @Generated
-public fun buildFilterAndOperatorProperty(initializer: @AwsCdkDsl
-    CfnBucket.FilterAndOperatorProperty.Builder.() -> Unit = {}):
-    CfnBucket.FilterAndOperatorProperty =
-    CfnBucket.FilterAndOperatorProperty.Builder().apply(initializer).build()
+public fun buildFilterAndOperatorProperty(initializer: @AwsCdkDsl CfnBucket.FilterAndOperatorProperty.Builder.() -> Unit = {}): CfnBucket.FilterAndOperatorProperty = CfnBucket.FilterAndOperatorProperty.Builder().apply(initializer).build()

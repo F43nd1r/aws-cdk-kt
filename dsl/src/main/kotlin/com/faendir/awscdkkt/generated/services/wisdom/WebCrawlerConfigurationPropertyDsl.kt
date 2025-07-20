@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnKnowledgeBase
 
 @Generated
-public fun buildWebCrawlerConfigurationProperty(initializer: @AwsCdkDsl
-    CfnKnowledgeBase.WebCrawlerConfigurationProperty.Builder.() -> Unit = {}):
-    CfnKnowledgeBase.WebCrawlerConfigurationProperty =
-    CfnKnowledgeBase.WebCrawlerConfigurationProperty.Builder().apply(initializer).build()
+public fun buildWebCrawlerConfigurationProperty(initializer: @AwsCdkDsl CfnKnowledgeBase.WebCrawlerConfigurationProperty.Builder.() -> Unit = {}): CfnKnowledgeBase.WebCrawlerConfigurationProperty = CfnKnowledgeBase.WebCrawlerConfigurationProperty.Builder().apply(initializer).build()

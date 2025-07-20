@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.CfnEventInvokeConfig
 
 @Generated
-public fun buildOnSuccessProperty(initializer: @AwsCdkDsl
-    CfnEventInvokeConfig.OnSuccessProperty.Builder.() -> Unit = {}):
-    CfnEventInvokeConfig.OnSuccessProperty =
-    CfnEventInvokeConfig.OnSuccessProperty.Builder().apply(initializer).build()
+public fun buildOnSuccessProperty(initializer: @AwsCdkDsl CfnEventInvokeConfig.OnSuccessProperty.Builder.() -> Unit = {}): CfnEventInvokeConfig.OnSuccessProperty = CfnEventInvokeConfig.OnSuccessProperty.Builder().apply(initializer).build()

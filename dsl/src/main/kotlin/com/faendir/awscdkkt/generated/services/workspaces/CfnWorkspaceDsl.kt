@@ -16,6 +16,4 @@ public fun Construct.cfnWorkspace(
 ): CfnWorkspace = CfnWorkspace(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnWorkspace(id: String, initializer: @AwsCdkDsl
-    CfnWorkspace.Builder.() -> Unit = {}): CfnWorkspace = CfnWorkspace.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnWorkspace(id: String, initializer: @AwsCdkDsl CfnWorkspace.Builder.() -> Unit = {}): CfnWorkspace = CfnWorkspace.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnSoftwarePackageVersion
 
 @Generated
-public fun buildPackageVersionArtifactProperty(initializer: @AwsCdkDsl
-    CfnSoftwarePackageVersion.PackageVersionArtifactProperty.Builder.() -> Unit = {}):
-    CfnSoftwarePackageVersion.PackageVersionArtifactProperty =
-    CfnSoftwarePackageVersion.PackageVersionArtifactProperty.Builder().apply(initializer).build()
+public fun buildPackageVersionArtifactProperty(initializer: @AwsCdkDsl CfnSoftwarePackageVersion.PackageVersionArtifactProperty.Builder.() -> Unit = {}): CfnSoftwarePackageVersion.PackageVersionArtifactProperty = CfnSoftwarePackageVersion.PackageVersionArtifactProperty.Builder().apply(initializer).build()

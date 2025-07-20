@@ -16,6 +16,4 @@ public fun Construct.cfnAssetModel(
 ): CfnAssetModel = CfnAssetModel(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAssetModel(id: String, initializer: @AwsCdkDsl
-    CfnAssetModel.Builder.() -> Unit = {}): CfnAssetModel = CfnAssetModel.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnAssetModel(id: String, initializer: @AwsCdkDsl CfnAssetModel.Builder.() -> Unit = {}): CfnAssetModel = CfnAssetModel.Builder.create(this, id).apply(initializer).build()

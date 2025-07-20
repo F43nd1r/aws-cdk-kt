@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.config.CfnStoredQueryProps
 
 @Generated
-public fun buildCfnStoredQueryProps(initializer: @AwsCdkDsl CfnStoredQueryProps.Builder.() -> Unit =
-    {}): CfnStoredQueryProps = CfnStoredQueryProps.Builder().apply(initializer).build()
+public fun buildCfnStoredQueryProps(initializer: @AwsCdkDsl CfnStoredQueryProps.Builder.() -> Unit = {}): CfnStoredQueryProps = CfnStoredQueryProps.Builder().apply(initializer).build()

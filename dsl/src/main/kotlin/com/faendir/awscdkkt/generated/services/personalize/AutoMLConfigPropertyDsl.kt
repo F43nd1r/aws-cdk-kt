@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.personalize.CfnSolution
 
 @Generated
-public fun buildAutoMLConfigProperty(initializer: @AwsCdkDsl
-    CfnSolution.AutoMLConfigProperty.Builder.() -> Unit = {}): CfnSolution.AutoMLConfigProperty =
-    CfnSolution.AutoMLConfigProperty.Builder().apply(initializer).build()
+public fun buildAutoMLConfigProperty(initializer: @AwsCdkDsl CfnSolution.AutoMLConfigProperty.Builder.() -> Unit = {}): CfnSolution.AutoMLConfigProperty = CfnSolution.AutoMLConfigProperty.Builder().apply(initializer).build()

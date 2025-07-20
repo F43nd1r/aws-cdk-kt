@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnFleetMetric
 
 @Generated
-public fun buildAggregationTypeProperty(initializer: @AwsCdkDsl
-    CfnFleetMetric.AggregationTypeProperty.Builder.() -> Unit = {}):
-    CfnFleetMetric.AggregationTypeProperty =
-    CfnFleetMetric.AggregationTypeProperty.Builder().apply(initializer).build()
+public fun buildAggregationTypeProperty(initializer: @AwsCdkDsl CfnFleetMetric.AggregationTypeProperty.Builder.() -> Unit = {}): CfnFleetMetric.AggregationTypeProperty = CfnFleetMetric.AggregationTypeProperty.Builder().apply(initializer).build()

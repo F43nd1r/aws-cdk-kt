@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnNetwork
 
 @Generated
-public fun buildRouteProperty(initializer: @AwsCdkDsl CfnNetwork.RouteProperty.Builder.() -> Unit =
-    {}): CfnNetwork.RouteProperty = CfnNetwork.RouteProperty.Builder().apply(initializer).build()
+public fun buildRouteProperty(initializer: @AwsCdkDsl CfnNetwork.RouteProperty.Builder.() -> Unit = {}): CfnNetwork.RouteProperty = CfnNetwork.RouteProperty.Builder().apply(initializer).build()

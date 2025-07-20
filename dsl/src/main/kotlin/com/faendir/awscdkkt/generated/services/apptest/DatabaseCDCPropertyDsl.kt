@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apptest.CfnTestCase
 
 @Generated
-public fun buildDatabaseCDCProperty(initializer: @AwsCdkDsl
-    CfnTestCase.DatabaseCDCProperty.Builder.() -> Unit = {}): CfnTestCase.DatabaseCDCProperty =
-    CfnTestCase.DatabaseCDCProperty.Builder().apply(initializer).build()
+public fun buildDatabaseCDCProperty(initializer: @AwsCdkDsl CfnTestCase.DatabaseCDCProperty.Builder.() -> Unit = {}): CfnTestCase.DatabaseCDCProperty = CfnTestCase.DatabaseCDCProperty.Builder().apply(initializer).build()

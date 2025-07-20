@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnContinuousDeploymentPolicy
 
 @Generated
-public fun buildContinuousDeploymentPolicyConfigProperty(initializer: @AwsCdkDsl
-    CfnContinuousDeploymentPolicy.ContinuousDeploymentPolicyConfigProperty.Builder.() -> Unit = {}):
-    CfnContinuousDeploymentPolicy.ContinuousDeploymentPolicyConfigProperty =
-    CfnContinuousDeploymentPolicy.ContinuousDeploymentPolicyConfigProperty.Builder().apply(initializer).build()
+public fun buildContinuousDeploymentPolicyConfigProperty(initializer: @AwsCdkDsl CfnContinuousDeploymentPolicy.ContinuousDeploymentPolicyConfigProperty.Builder.() -> Unit = {}): CfnContinuousDeploymentPolicy.ContinuousDeploymentPolicyConfigProperty = CfnContinuousDeploymentPolicy.ContinuousDeploymentPolicyConfigProperty.Builder().apply(initializer).build()

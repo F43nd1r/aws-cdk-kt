@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gameliftstreams.CfnApplication
 
 @Generated
-public fun buildRuntimeEnvironmentProperty(initializer: @AwsCdkDsl
-    CfnApplication.RuntimeEnvironmentProperty.Builder.() -> Unit = {}):
-    CfnApplication.RuntimeEnvironmentProperty =
-    CfnApplication.RuntimeEnvironmentProperty.Builder().apply(initializer).build()
+public fun buildRuntimeEnvironmentProperty(initializer: @AwsCdkDsl CfnApplication.RuntimeEnvironmentProperty.Builder.() -> Unit = {}): CfnApplication.RuntimeEnvironmentProperty = CfnApplication.RuntimeEnvironmentProperty.Builder().apply(initializer).build()

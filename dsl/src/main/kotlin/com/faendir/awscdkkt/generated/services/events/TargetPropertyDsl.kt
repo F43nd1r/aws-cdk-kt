@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.CfnRule
 
 @Generated
-public fun buildTargetProperty(initializer: @AwsCdkDsl CfnRule.TargetProperty.Builder.() -> Unit =
-    {}): CfnRule.TargetProperty = CfnRule.TargetProperty.Builder().apply(initializer).build()
+public fun buildTargetProperty(initializer: @AwsCdkDsl CfnRule.TargetProperty.Builder.() -> Unit = {}): CfnRule.TargetProperty = CfnRule.TargetProperty.Builder().apply(initializer).build()

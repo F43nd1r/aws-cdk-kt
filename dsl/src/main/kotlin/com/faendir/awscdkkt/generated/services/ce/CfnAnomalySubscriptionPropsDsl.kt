@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ce.CfnAnomalySubscriptionProps
 
 @Generated
-public fun buildCfnAnomalySubscriptionProps(initializer: @AwsCdkDsl
-    CfnAnomalySubscriptionProps.Builder.() -> Unit = {}): CfnAnomalySubscriptionProps =
-    CfnAnomalySubscriptionProps.Builder().apply(initializer).build()
+public fun buildCfnAnomalySubscriptionProps(initializer: @AwsCdkDsl CfnAnomalySubscriptionProps.Builder.() -> Unit = {}): CfnAnomalySubscriptionProps = CfnAnomalySubscriptionProps.Builder().apply(initializer).build()

@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.refactorspaces.CfnEnvironmentProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnEnvironment(id: String, initializer: @AwsCdkDsl CfnEnvironment.() -> Unit =
-    {}): CfnEnvironment = CfnEnvironment(this, id).apply(initializer)
+public fun Construct.cfnEnvironment(id: String, initializer: @AwsCdkDsl CfnEnvironment.() -> Unit = {}): CfnEnvironment = CfnEnvironment(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnEnvironment(
@@ -20,6 +19,4 @@ public fun Construct.cfnEnvironment(
 ): CfnEnvironment = CfnEnvironment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEnvironment(id: String, initializer: @AwsCdkDsl
-    CfnEnvironment.Builder.() -> Unit = {}): CfnEnvironment = CfnEnvironment.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnEnvironment(id: String, initializer: @AwsCdkDsl CfnEnvironment.Builder.() -> Unit = {}): CfnEnvironment = CfnEnvironment.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnProjectProfile
 
 @Generated
-public fun buildAwsAccountProperty(initializer: @AwsCdkDsl
-    CfnProjectProfile.AwsAccountProperty.Builder.() -> Unit = {}):
-    CfnProjectProfile.AwsAccountProperty =
-    CfnProjectProfile.AwsAccountProperty.Builder().apply(initializer).build()
+public fun buildAwsAccountProperty(initializer: @AwsCdkDsl CfnProjectProfile.AwsAccountProperty.Builder.() -> Unit = {}): CfnProjectProfile.AwsAccountProperty = CfnProjectProfile.AwsAccountProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnRotationSchedule(
 ): CfnRotationSchedule = CfnRotationSchedule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRotationSchedule(id: String, initializer: @AwsCdkDsl
-    CfnRotationSchedule.Builder.() -> Unit = {}): CfnRotationSchedule =
-    CfnRotationSchedule.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRotationSchedule(id: String, initializer: @AwsCdkDsl CfnRotationSchedule.Builder.() -> Unit = {}): CfnRotationSchedule = CfnRotationSchedule.Builder.create(this, id).apply(initializer).build()

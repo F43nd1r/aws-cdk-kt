@@ -16,6 +16,4 @@ public fun Construct.cfnSecurityProfile(
 ): CfnSecurityProfile = CfnSecurityProfile(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSecurityProfile(id: String, initializer: @AwsCdkDsl
-    CfnSecurityProfile.Builder.() -> Unit = {}): CfnSecurityProfile =
-    CfnSecurityProfile.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSecurityProfile(id: String, initializer: @AwsCdkDsl CfnSecurityProfile.Builder.() -> Unit = {}): CfnSecurityProfile = CfnSecurityProfile.Builder.create(this, id).apply(initializer).build()

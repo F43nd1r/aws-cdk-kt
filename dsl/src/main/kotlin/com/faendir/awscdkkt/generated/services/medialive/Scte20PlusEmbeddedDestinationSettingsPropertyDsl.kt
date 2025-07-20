@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildScte20PlusEmbeddedDestinationSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.Scte20PlusEmbeddedDestinationSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.Scte20PlusEmbeddedDestinationSettingsProperty =
-    CfnChannel.Scte20PlusEmbeddedDestinationSettingsProperty.Builder().apply(initializer).build()
+public fun buildScte20PlusEmbeddedDestinationSettingsProperty(initializer: @AwsCdkDsl CfnChannel.Scte20PlusEmbeddedDestinationSettingsProperty.Builder.() -> Unit = {}): CfnChannel.Scte20PlusEmbeddedDestinationSettingsProperty = CfnChannel.Scte20PlusEmbeddedDestinationSettingsProperty.Builder().apply(initializer).build()

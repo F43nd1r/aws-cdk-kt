@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.CfnMailManagerTrafficPolicy
 
 @Generated
-public fun buildIngressIpv4ExpressionProperty(initializer: @AwsCdkDsl
-    CfnMailManagerTrafficPolicy.IngressIpv4ExpressionProperty.Builder.() -> Unit = {}):
-    CfnMailManagerTrafficPolicy.IngressIpv4ExpressionProperty =
-    CfnMailManagerTrafficPolicy.IngressIpv4ExpressionProperty.Builder().apply(initializer).build()
+public fun buildIngressIpv4ExpressionProperty(initializer: @AwsCdkDsl CfnMailManagerTrafficPolicy.IngressIpv4ExpressionProperty.Builder.() -> Unit = {}): CfnMailManagerTrafficPolicy.IngressIpv4ExpressionProperty = CfnMailManagerTrafficPolicy.IngressIpv4ExpressionProperty.Builder().apply(initializer).build()

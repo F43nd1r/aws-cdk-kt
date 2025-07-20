@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.budgets.CfnBudget
 
 @Generated
-public fun buildAutoAdjustDataProperty(initializer: @AwsCdkDsl
-    CfnBudget.AutoAdjustDataProperty.Builder.() -> Unit = {}): CfnBudget.AutoAdjustDataProperty =
-    CfnBudget.AutoAdjustDataProperty.Builder().apply(initializer).build()
+public fun buildAutoAdjustDataProperty(initializer: @AwsCdkDsl CfnBudget.AutoAdjustDataProperty.Builder.() -> Unit = {}): CfnBudget.AutoAdjustDataProperty = CfnBudget.AutoAdjustDataProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
-public fun buildDashboardVersionDefinitionProperty(initializer: @AwsCdkDsl
-    CfnDashboard.DashboardVersionDefinitionProperty.Builder.() -> Unit = {}):
-    CfnDashboard.DashboardVersionDefinitionProperty =
-    CfnDashboard.DashboardVersionDefinitionProperty.Builder().apply(initializer).build()
+public fun buildDashboardVersionDefinitionProperty(initializer: @AwsCdkDsl CfnDashboard.DashboardVersionDefinitionProperty.Builder.() -> Unit = {}): CfnDashboard.DashboardVersionDefinitionProperty = CfnDashboard.DashboardVersionDefinitionProperty.Builder().apply(initializer).build()

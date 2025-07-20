@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnAIPromptProps
 
 @Generated
-public fun buildCfnAIPromptProps(initializer: @AwsCdkDsl CfnAIPromptProps.Builder.() -> Unit = {}):
-    CfnAIPromptProps = CfnAIPromptProps.Builder().apply(initializer).build()
+public fun buildCfnAIPromptProps(initializer: @AwsCdkDsl CfnAIPromptProps.Builder.() -> Unit = {}): CfnAIPromptProps = CfnAIPromptProps.Builder().apply(initializer).build()

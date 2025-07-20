@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.efs.Acl
 
 @Generated
-public fun buildAcl(initializer: @AwsCdkDsl Acl.Builder.() -> Unit = {}): Acl =
-    Acl.Builder().apply(initializer).build()
+public fun buildAcl(initializer: @AwsCdkDsl Acl.Builder.() -> Unit = {}): Acl = Acl.Builder().apply(initializer).build()

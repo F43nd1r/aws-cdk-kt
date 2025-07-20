@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.redshift.CfnIntegrationProps
 
 @Generated
-public fun buildCfnIntegrationProps(initializer: @AwsCdkDsl CfnIntegrationProps.Builder.() -> Unit =
-    {}): CfnIntegrationProps = CfnIntegrationProps.Builder().apply(initializer).build()
+public fun buildCfnIntegrationProps(initializer: @AwsCdkDsl CfnIntegrationProps.Builder.() -> Unit = {}): CfnIntegrationProps = CfnIntegrationProps.Builder().apply(initializer).build()

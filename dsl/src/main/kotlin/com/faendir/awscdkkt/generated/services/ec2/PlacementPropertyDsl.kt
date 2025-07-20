@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
-public fun buildPlacementProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.PlacementProperty.Builder.() -> Unit = {}):
-    CfnLaunchTemplate.PlacementProperty =
-    CfnLaunchTemplate.PlacementProperty.Builder().apply(initializer).build()
+public fun buildPlacementProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.PlacementProperty.Builder.() -> Unit = {}): CfnLaunchTemplate.PlacementProperty = CfnLaunchTemplate.PlacementProperty.Builder().apply(initializer).build()

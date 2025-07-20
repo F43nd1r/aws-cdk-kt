@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lakeformation.CfnPermissions
 
 @Generated
-public fun buildTableWildcardProperty(initializer: @AwsCdkDsl
-    CfnPermissions.TableWildcardProperty.Builder.() -> Unit = {}):
-    CfnPermissions.TableWildcardProperty =
-    CfnPermissions.TableWildcardProperty.Builder().apply(initializer).build()
+public fun buildTableWildcardProperty(initializer: @AwsCdkDsl CfnPermissions.TableWildcardProperty.Builder.() -> Unit = {}): CfnPermissions.TableWildcardProperty = CfnPermissions.TableWildcardProperty.Builder().apply(initializer).build()

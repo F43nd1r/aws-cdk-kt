@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dms.CfnDataProvider
 
 @Generated
-public fun buildMariaDbSettingsProperty(initializer: @AwsCdkDsl
-    CfnDataProvider.MariaDbSettingsProperty.Builder.() -> Unit = {}):
-    CfnDataProvider.MariaDbSettingsProperty =
-    CfnDataProvider.MariaDbSettingsProperty.Builder().apply(initializer).build()
+public fun buildMariaDbSettingsProperty(initializer: @AwsCdkDsl CfnDataProvider.MariaDbSettingsProperty.Builder.() -> Unit = {}): CfnDataProvider.MariaDbSettingsProperty = CfnDataProvider.MariaDbSettingsProperty.Builder().apply(initializer).build()

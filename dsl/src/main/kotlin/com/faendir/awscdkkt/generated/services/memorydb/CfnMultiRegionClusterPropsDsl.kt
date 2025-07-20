@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.memorydb.CfnMultiRegionClusterProps
 
 @Generated
-public fun buildCfnMultiRegionClusterProps(initializer: @AwsCdkDsl
-    CfnMultiRegionClusterProps.Builder.() -> Unit = {}): CfnMultiRegionClusterProps =
-    CfnMultiRegionClusterProps.Builder().apply(initializer).build()
+public fun buildCfnMultiRegionClusterProps(initializer: @AwsCdkDsl CfnMultiRegionClusterProps.Builder.() -> Unit = {}): CfnMultiRegionClusterProps = CfnMultiRegionClusterProps.Builder().apply(initializer).build()

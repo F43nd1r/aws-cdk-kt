@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.greengrass.CfnLoggerDefinitionProps
 
 @Generated
-public fun buildCfnLoggerDefinitionProps(initializer: @AwsCdkDsl
-    CfnLoggerDefinitionProps.Builder.() -> Unit = {}): CfnLoggerDefinitionProps =
-    CfnLoggerDefinitionProps.Builder().apply(initializer).build()
+public fun buildCfnLoggerDefinitionProps(initializer: @AwsCdkDsl CfnLoggerDefinitionProps.Builder.() -> Unit = {}): CfnLoggerDefinitionProps = CfnLoggerDefinitionProps.Builder().apply(initializer).build()

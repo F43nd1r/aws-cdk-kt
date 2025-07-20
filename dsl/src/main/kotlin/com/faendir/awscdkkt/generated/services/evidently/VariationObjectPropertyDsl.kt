@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.evidently.CfnFeature
 
 @Generated
-public fun buildVariationObjectProperty(initializer: @AwsCdkDsl
-    CfnFeature.VariationObjectProperty.Builder.() -> Unit = {}): CfnFeature.VariationObjectProperty
-    = CfnFeature.VariationObjectProperty.Builder().apply(initializer).build()
+public fun buildVariationObjectProperty(initializer: @AwsCdkDsl CfnFeature.VariationObjectProperty.Builder.() -> Unit = {}): CfnFeature.VariationObjectProperty = CfnFeature.VariationObjectProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediaconnect.CfnFlow
 
 @Generated
-public fun buildFmtpProperty(initializer: @AwsCdkDsl CfnFlow.FmtpProperty.Builder.() -> Unit = {}):
-    CfnFlow.FmtpProperty = CfnFlow.FmtpProperty.Builder().apply(initializer).build()
+public fun buildFmtpProperty(initializer: @AwsCdkDsl CfnFlow.FmtpProperty.Builder.() -> Unit = {}): CfnFlow.FmtpProperty = CfnFlow.FmtpProperty.Builder().apply(initializer).build()

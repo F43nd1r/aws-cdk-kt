@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicediscovery.CfnPrivateDnsNamespace
 
 @Generated
-public fun buildPrivateDnsPropertiesMutableProperty(initializer: @AwsCdkDsl
-    CfnPrivateDnsNamespace.PrivateDnsPropertiesMutableProperty.Builder.() -> Unit = {}):
-    CfnPrivateDnsNamespace.PrivateDnsPropertiesMutableProperty =
-    CfnPrivateDnsNamespace.PrivateDnsPropertiesMutableProperty.Builder().apply(initializer).build()
+public fun buildPrivateDnsPropertiesMutableProperty(initializer: @AwsCdkDsl CfnPrivateDnsNamespace.PrivateDnsPropertiesMutableProperty.Builder.() -> Unit = {}): CfnPrivateDnsNamespace.PrivateDnsPropertiesMutableProperty = CfnPrivateDnsNamespace.PrivateDnsPropertiesMutableProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.deadline.CfnFleet
 
 @Generated
-public fun buildAcceleratorCapabilitiesProperty(initializer: @AwsCdkDsl
-    CfnFleet.AcceleratorCapabilitiesProperty.Builder.() -> Unit = {}):
-    CfnFleet.AcceleratorCapabilitiesProperty =
-    CfnFleet.AcceleratorCapabilitiesProperty.Builder().apply(initializer).build()
+public fun buildAcceleratorCapabilitiesProperty(initializer: @AwsCdkDsl CfnFleet.AcceleratorCapabilitiesProperty.Builder.() -> Unit = {}): CfnFleet.AcceleratorCapabilitiesProperty = CfnFleet.AcceleratorCapabilitiesProperty.Builder().apply(initializer).build()

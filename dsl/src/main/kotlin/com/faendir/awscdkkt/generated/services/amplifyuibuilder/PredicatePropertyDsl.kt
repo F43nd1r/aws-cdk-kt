@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.amplifyuibuilder.CfnComponent
 
 @Generated
-public fun buildPredicateProperty(initializer: @AwsCdkDsl
-    CfnComponent.PredicateProperty.Builder.() -> Unit = {}): CfnComponent.PredicateProperty =
-    CfnComponent.PredicateProperty.Builder().apply(initializer).build()
+public fun buildPredicateProperty(initializer: @AwsCdkDsl CfnComponent.PredicateProperty.Builder.() -> Unit = {}): CfnComponent.PredicateProperty = CfnComponent.PredicateProperty.Builder().apply(initializer).build()

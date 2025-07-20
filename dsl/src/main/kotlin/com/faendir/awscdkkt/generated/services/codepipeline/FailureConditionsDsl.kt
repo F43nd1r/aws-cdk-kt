@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.FailureConditions
 
 @Generated
-public fun buildFailureConditions(initializer: @AwsCdkDsl FailureConditions.Builder.() -> Unit =
-    {}): FailureConditions = FailureConditions.Builder().apply(initializer).build()
+public fun buildFailureConditions(initializer: @AwsCdkDsl FailureConditions.Builder.() -> Unit = {}): FailureConditions = FailureConditions.Builder().apply(initializer).build()

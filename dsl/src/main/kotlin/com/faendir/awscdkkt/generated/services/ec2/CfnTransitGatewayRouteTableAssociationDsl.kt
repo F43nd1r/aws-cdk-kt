@@ -13,11 +13,7 @@ public fun Construct.cfnTransitGatewayRouteTableAssociation(
   id: String,
   props: CfnTransitGatewayRouteTableAssociationProps,
   initializer: @AwsCdkDsl CfnTransitGatewayRouteTableAssociation.() -> Unit = {},
-): CfnTransitGatewayRouteTableAssociation = CfnTransitGatewayRouteTableAssociation(this, id,
-    props).apply(initializer)
+): CfnTransitGatewayRouteTableAssociation = CfnTransitGatewayRouteTableAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTransitGatewayRouteTableAssociation(id: String, initializer: @AwsCdkDsl
-    CfnTransitGatewayRouteTableAssociation.Builder.() -> Unit = {}):
-    CfnTransitGatewayRouteTableAssociation =
-    CfnTransitGatewayRouteTableAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTransitGatewayRouteTableAssociation(id: String, initializer: @AwsCdkDsl CfnTransitGatewayRouteTableAssociation.Builder.() -> Unit = {}): CfnTransitGatewayRouteTableAssociation = CfnTransitGatewayRouteTableAssociation.Builder.create(this, id).apply(initializer).build()

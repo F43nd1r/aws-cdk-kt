@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.rds.CfnDBInstanceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDBInstance(id: String, initializer: @AwsCdkDsl CfnDBInstance.() -> Unit =
-    {}): CfnDBInstance = CfnDBInstance(this, id).apply(initializer)
+public fun Construct.cfnDBInstance(id: String, initializer: @AwsCdkDsl CfnDBInstance.() -> Unit = {}): CfnDBInstance = CfnDBInstance(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnDBInstance(
@@ -20,6 +19,4 @@ public fun Construct.cfnDBInstance(
 ): CfnDBInstance = CfnDBInstance(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDBInstance(id: String, initializer: @AwsCdkDsl
-    CfnDBInstance.Builder.() -> Unit = {}): CfnDBInstance = CfnDBInstance.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnDBInstance(id: String, initializer: @AwsCdkDsl CfnDBInstance.Builder.() -> Unit = {}): CfnDBInstance = CfnDBInstance.Builder.create(this, id).apply(initializer).build()

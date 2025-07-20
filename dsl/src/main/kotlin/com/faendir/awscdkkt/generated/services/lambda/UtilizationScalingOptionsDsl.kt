@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.UtilizationScalingOptions
 
 @Generated
-public fun buildUtilizationScalingOptions(initializer: @AwsCdkDsl
-    UtilizationScalingOptions.Builder.() -> Unit = {}): UtilizationScalingOptions =
-    UtilizationScalingOptions.Builder().apply(initializer).build()
+public fun buildUtilizationScalingOptions(initializer: @AwsCdkDsl UtilizationScalingOptions.Builder.() -> Unit = {}): UtilizationScalingOptions = UtilizationScalingOptions.Builder().apply(initializer).build()

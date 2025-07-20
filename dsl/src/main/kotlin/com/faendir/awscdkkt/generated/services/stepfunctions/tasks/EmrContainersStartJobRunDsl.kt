@@ -16,6 +16,4 @@ public fun Construct.emrContainersStartJobRun(
 ): EmrContainersStartJobRun = EmrContainersStartJobRun(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEmrContainersStartJobRun(id: String, initializer: @AwsCdkDsl
-    EmrContainersStartJobRun.Builder.() -> Unit = {}): EmrContainersStartJobRun =
-    EmrContainersStartJobRun.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildEmrContainersStartJobRun(id: String, initializer: @AwsCdkDsl EmrContainersStartJobRun.Builder.() -> Unit = {}): EmrContainersStartJobRun = EmrContainersStartJobRun.Builder.create(this, id).apply(initializer).build()

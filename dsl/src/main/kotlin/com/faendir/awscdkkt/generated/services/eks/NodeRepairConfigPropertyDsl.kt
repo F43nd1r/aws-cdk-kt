@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.CfnNodegroup
 
 @Generated
-public fun buildNodeRepairConfigProperty(initializer: @AwsCdkDsl
-    CfnNodegroup.NodeRepairConfigProperty.Builder.() -> Unit = {}):
-    CfnNodegroup.NodeRepairConfigProperty =
-    CfnNodegroup.NodeRepairConfigProperty.Builder().apply(initializer).build()
+public fun buildNodeRepairConfigProperty(initializer: @AwsCdkDsl CfnNodegroup.NodeRepairConfigProperty.Builder.() -> Unit = {}): CfnNodegroup.NodeRepairConfigProperty = CfnNodegroup.NodeRepairConfigProperty.Builder().apply(initializer).build()

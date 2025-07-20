@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
-public fun buildSAPODataPaginationConfigProperty(initializer: @AwsCdkDsl
-    CfnFlow.SAPODataPaginationConfigProperty.Builder.() -> Unit = {}):
-    CfnFlow.SAPODataPaginationConfigProperty =
-    CfnFlow.SAPODataPaginationConfigProperty.Builder().apply(initializer).build()
+public fun buildSAPODataPaginationConfigProperty(initializer: @AwsCdkDsl CfnFlow.SAPODataPaginationConfigProperty.Builder.() -> Unit = {}): CfnFlow.SAPODataPaginationConfigProperty = CfnFlow.SAPODataPaginationConfigProperty.Builder().apply(initializer).build()

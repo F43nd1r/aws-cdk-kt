@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnCommand
 
 @Generated
-public fun buildCommandParameterValueProperty(initializer: @AwsCdkDsl
-    CfnCommand.CommandParameterValueProperty.Builder.() -> Unit = {}):
-    CfnCommand.CommandParameterValueProperty =
-    CfnCommand.CommandParameterValueProperty.Builder().apply(initializer).build()
+public fun buildCommandParameterValueProperty(initializer: @AwsCdkDsl CfnCommand.CommandParameterValueProperty.Builder.() -> Unit = {}): CfnCommand.CommandParameterValueProperty = CfnCommand.CommandParameterValueProperty.Builder().apply(initializer).build()

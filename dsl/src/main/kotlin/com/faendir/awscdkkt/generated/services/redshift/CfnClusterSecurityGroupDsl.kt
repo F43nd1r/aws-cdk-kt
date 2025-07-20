@@ -16,6 +16,4 @@ public fun Construct.cfnClusterSecurityGroup(
 ): CfnClusterSecurityGroup = CfnClusterSecurityGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnClusterSecurityGroup(id: String, initializer: @AwsCdkDsl
-    CfnClusterSecurityGroup.Builder.() -> Unit = {}): CfnClusterSecurityGroup =
-    CfnClusterSecurityGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnClusterSecurityGroup(id: String, initializer: @AwsCdkDsl CfnClusterSecurityGroup.Builder.() -> Unit = {}): CfnClusterSecurityGroup = CfnClusterSecurityGroup.Builder.create(this, id).apply(initializer).build()

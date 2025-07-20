@@ -16,6 +16,4 @@ public fun Construct.cfnCollaboration(
 ): CfnCollaboration = CfnCollaboration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCollaboration(id: String, initializer: @AwsCdkDsl
-    CfnCollaboration.Builder.() -> Unit = {}): CfnCollaboration =
-    CfnCollaboration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCollaboration(id: String, initializer: @AwsCdkDsl CfnCollaboration.Builder.() -> Unit = {}): CfnCollaboration = CfnCollaboration.Builder.create(this, id).apply(initializer).build()

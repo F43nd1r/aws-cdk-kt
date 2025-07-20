@@ -12,5 +12,4 @@ public fun buildNestedCloudAssemblyArtifact(
   assembly: CloudAssembly,
   name: String,
   initializer: @AwsCdkDsl NestedCloudAssemblyArtifact.Builder.() -> Unit = {},
-): NestedCloudAssemblyArtifact = NestedCloudAssemblyArtifact.Builder.create(assembly,
-    name).apply(initializer).build()
+): NestedCloudAssemblyArtifact = NestedCloudAssemblyArtifact.Builder.create(assembly, name).apply(initializer).build()

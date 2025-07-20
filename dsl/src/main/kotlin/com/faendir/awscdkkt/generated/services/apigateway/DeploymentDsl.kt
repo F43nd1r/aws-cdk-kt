@@ -16,6 +16,4 @@ public fun Construct.deployment(
 ): Deployment = Deployment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildDeployment(id: String, initializer: @AwsCdkDsl
-    Deployment.Builder.() -> Unit = {}): Deployment = Deployment.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildDeployment(id: String, initializer: @AwsCdkDsl Deployment.Builder.() -> Unit = {}): Deployment = Deployment.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.assetStaging(
 ): AssetStaging = AssetStaging(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAssetStaging(id: String, initializer: @AwsCdkDsl
-    AssetStaging.Builder.() -> Unit = {}): AssetStaging = AssetStaging.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildAssetStaging(id: String, initializer: @AwsCdkDsl AssetStaging.Builder.() -> Unit = {}): AssetStaging = AssetStaging.Builder.create(this, id).apply(initializer).build()

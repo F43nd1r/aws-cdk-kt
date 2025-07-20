@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.OutputBucketConfiguration
 
 @Generated
-public fun buildOutputBucketConfiguration(initializer: @AwsCdkDsl
-    OutputBucketConfiguration.Builder.() -> Unit = {}): OutputBucketConfiguration =
-    OutputBucketConfiguration.Builder().apply(initializer).build()
+public fun buildOutputBucketConfiguration(initializer: @AwsCdkDsl OutputBucketConfiguration.Builder.() -> Unit = {}): OutputBucketConfiguration = OutputBucketConfiguration.Builder().apply(initializer).build()

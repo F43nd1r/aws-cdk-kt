@@ -16,5 +16,4 @@ public fun Construct.trigger(
 ): Trigger = Trigger(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildTrigger(id: String, initializer: @AwsCdkDsl Trigger.Builder.() -> Unit =
-    {}): Trigger = Trigger.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildTrigger(id: String, initializer: @AwsCdkDsl Trigger.Builder.() -> Unit = {}): Trigger = Trigger.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnNetworkInsightsPath(
 ): CfnNetworkInsightsPath = CfnNetworkInsightsPath(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnNetworkInsightsPath(id: String, initializer: @AwsCdkDsl
-    CfnNetworkInsightsPath.Builder.() -> Unit = {}): CfnNetworkInsightsPath =
-    CfnNetworkInsightsPath.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnNetworkInsightsPath(id: String, initializer: @AwsCdkDsl CfnNetworkInsightsPath.Builder.() -> Unit = {}): CfnNetworkInsightsPath = CfnNetworkInsightsPath.Builder.create(this, id).apply(initializer).build()

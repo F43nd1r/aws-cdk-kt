@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.CfnDocumentationPartProps
 
 @Generated
-public fun buildCfnDocumentationPartProps(initializer: @AwsCdkDsl
-    CfnDocumentationPartProps.Builder.() -> Unit = {}): CfnDocumentationPartProps =
-    CfnDocumentationPartProps.Builder().apply(initializer).build()
+public fun buildCfnDocumentationPartProps(initializer: @AwsCdkDsl CfnDocumentationPartProps.Builder.() -> Unit = {}): CfnDocumentationPartProps = CfnDocumentationPartProps.Builder().apply(initializer).build()

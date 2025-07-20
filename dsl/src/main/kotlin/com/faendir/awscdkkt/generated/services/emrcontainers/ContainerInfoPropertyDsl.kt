@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.emrcontainers.CfnVirtualCluster
 
 @Generated
-public fun buildContainerInfoProperty(initializer: @AwsCdkDsl
-    CfnVirtualCluster.ContainerInfoProperty.Builder.() -> Unit = {}):
-    CfnVirtualCluster.ContainerInfoProperty =
-    CfnVirtualCluster.ContainerInfoProperty.Builder().apply(initializer).build()
+public fun buildContainerInfoProperty(initializer: @AwsCdkDsl CfnVirtualCluster.ContainerInfoProperty.Builder.() -> Unit = {}): CfnVirtualCluster.ContainerInfoProperty = CfnVirtualCluster.ContainerInfoProperty.Builder().apply(initializer).build()

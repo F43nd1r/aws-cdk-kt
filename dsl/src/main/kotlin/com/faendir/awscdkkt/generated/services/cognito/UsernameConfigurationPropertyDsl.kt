@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnUserPool
 
 @Generated
-public fun buildUsernameConfigurationProperty(initializer: @AwsCdkDsl
-    CfnUserPool.UsernameConfigurationProperty.Builder.() -> Unit = {}):
-    CfnUserPool.UsernameConfigurationProperty =
-    CfnUserPool.UsernameConfigurationProperty.Builder().apply(initializer).build()
+public fun buildUsernameConfigurationProperty(initializer: @AwsCdkDsl CfnUserPool.UsernameConfigurationProperty.Builder.() -> Unit = {}): CfnUserPool.UsernameConfigurationProperty = CfnUserPool.UsernameConfigurationProperty.Builder().apply(initializer).build()

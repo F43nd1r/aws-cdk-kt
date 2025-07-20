@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.TcpVirtualNodeListenerOptions
 
 @Generated
-public fun buildTcpVirtualNodeListenerOptions(initializer: @AwsCdkDsl
-    TcpVirtualNodeListenerOptions.Builder.() -> Unit = {}): TcpVirtualNodeListenerOptions =
-    TcpVirtualNodeListenerOptions.Builder().apply(initializer).build()
+public fun buildTcpVirtualNodeListenerOptions(initializer: @AwsCdkDsl TcpVirtualNodeListenerOptions.Builder.() -> Unit = {}): TcpVirtualNodeListenerOptions = TcpVirtualNodeListenerOptions.Builder().apply(initializer).build()

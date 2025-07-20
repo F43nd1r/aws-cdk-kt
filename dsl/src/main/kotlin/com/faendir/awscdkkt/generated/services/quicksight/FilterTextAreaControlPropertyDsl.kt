@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildFilterTextAreaControlProperty(initializer: @AwsCdkDsl
-    CfnTemplate.FilterTextAreaControlProperty.Builder.() -> Unit = {}):
-    CfnTemplate.FilterTextAreaControlProperty =
-    CfnTemplate.FilterTextAreaControlProperty.Builder().apply(initializer).build()
+public fun buildFilterTextAreaControlProperty(initializer: @AwsCdkDsl CfnTemplate.FilterTextAreaControlProperty.Builder.() -> Unit = {}): CfnTemplate.FilterTextAreaControlProperty = CfnTemplate.FilterTextAreaControlProperty.Builder().apply(initializer).build()

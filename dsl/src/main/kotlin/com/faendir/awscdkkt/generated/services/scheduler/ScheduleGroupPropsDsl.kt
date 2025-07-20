@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.scheduler.ScheduleGroupProps
 
 @Generated
-public fun buildScheduleGroupProps(initializer: @AwsCdkDsl ScheduleGroupProps.Builder.() -> Unit =
-    {}): ScheduleGroupProps = ScheduleGroupProps.Builder().apply(initializer).build()
+public fun buildScheduleGroupProps(initializer: @AwsCdkDsl ScheduleGroupProps.Builder.() -> Unit = {}): ScheduleGroupProps = ScheduleGroupProps.Builder().apply(initializer).build()

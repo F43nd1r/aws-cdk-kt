@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisanalyticsv2.CfnApplicationReferenceDataSourceProps
 
 @Generated
-public fun buildCfnApplicationReferenceDataSourceProps(initializer: @AwsCdkDsl
-    CfnApplicationReferenceDataSourceProps.Builder.() -> Unit = {}):
-    CfnApplicationReferenceDataSourceProps =
-    CfnApplicationReferenceDataSourceProps.Builder().apply(initializer).build()
+public fun buildCfnApplicationReferenceDataSourceProps(initializer: @AwsCdkDsl CfnApplicationReferenceDataSourceProps.Builder.() -> Unit = {}): CfnApplicationReferenceDataSourceProps = CfnApplicationReferenceDataSourceProps.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnGlobalReplicationGroup(
 ): CfnGlobalReplicationGroup = CfnGlobalReplicationGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnGlobalReplicationGroup(id: String, initializer: @AwsCdkDsl
-    CfnGlobalReplicationGroup.Builder.() -> Unit = {}): CfnGlobalReplicationGroup =
-    CfnGlobalReplicationGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnGlobalReplicationGroup(id: String, initializer: @AwsCdkDsl CfnGlobalReplicationGroup.Builder.() -> Unit = {}): CfnGlobalReplicationGroup = CfnGlobalReplicationGroup.Builder.create(this, id).apply(initializer).build()

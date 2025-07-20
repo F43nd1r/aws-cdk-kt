@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildSmallMultiplesOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.SmallMultiplesOptionsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.SmallMultiplesOptionsProperty =
-    CfnTemplate.SmallMultiplesOptionsProperty.Builder().apply(initializer).build()
+public fun buildSmallMultiplesOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.SmallMultiplesOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.SmallMultiplesOptionsProperty = CfnTemplate.SmallMultiplesOptionsProperty.Builder().apply(initializer).build()

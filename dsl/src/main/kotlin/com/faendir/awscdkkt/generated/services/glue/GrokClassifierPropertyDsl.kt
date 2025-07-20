@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnClassifier
 
 @Generated
-public fun buildGrokClassifierProperty(initializer: @AwsCdkDsl
-    CfnClassifier.GrokClassifierProperty.Builder.() -> Unit = {}):
-    CfnClassifier.GrokClassifierProperty =
-    CfnClassifier.GrokClassifierProperty.Builder().apply(initializer).build()
+public fun buildGrokClassifierProperty(initializer: @AwsCdkDsl CfnClassifier.GrokClassifierProperty.Builder.() -> Unit = {}): CfnClassifier.GrokClassifierProperty = CfnClassifier.GrokClassifierProperty.Builder().apply(initializer).build()

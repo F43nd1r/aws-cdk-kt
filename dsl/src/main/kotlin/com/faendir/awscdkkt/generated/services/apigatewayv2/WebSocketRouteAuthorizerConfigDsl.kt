@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.WebSocketRouteAuthorizerConfig
 
 @Generated
-public fun buildWebSocketRouteAuthorizerConfig(initializer: @AwsCdkDsl
-    WebSocketRouteAuthorizerConfig.Builder.() -> Unit = {}): WebSocketRouteAuthorizerConfig =
-    WebSocketRouteAuthorizerConfig.Builder().apply(initializer).build()
+public fun buildWebSocketRouteAuthorizerConfig(initializer: @AwsCdkDsl WebSocketRouteAuthorizerConfig.Builder.() -> Unit = {}): WebSocketRouteAuthorizerConfig = WebSocketRouteAuthorizerConfig.Builder().apply(initializer).build()

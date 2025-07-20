@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnEndpointConfig
 
 @Generated
-public fun buildDataCaptureConfigProperty(initializer: @AwsCdkDsl
-    CfnEndpointConfig.DataCaptureConfigProperty.Builder.() -> Unit = {}):
-    CfnEndpointConfig.DataCaptureConfigProperty =
-    CfnEndpointConfig.DataCaptureConfigProperty.Builder().apply(initializer).build()
+public fun buildDataCaptureConfigProperty(initializer: @AwsCdkDsl CfnEndpointConfig.DataCaptureConfigProperty.Builder.() -> Unit = {}): CfnEndpointConfig.DataCaptureConfigProperty = CfnEndpointConfig.DataCaptureConfigProperty.Builder().apply(initializer).build()

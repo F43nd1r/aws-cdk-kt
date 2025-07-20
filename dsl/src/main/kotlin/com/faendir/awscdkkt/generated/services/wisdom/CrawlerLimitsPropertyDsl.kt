@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnKnowledgeBase
 
 @Generated
-public fun buildCrawlerLimitsProperty(initializer: @AwsCdkDsl
-    CfnKnowledgeBase.CrawlerLimitsProperty.Builder.() -> Unit = {}):
-    CfnKnowledgeBase.CrawlerLimitsProperty =
-    CfnKnowledgeBase.CrawlerLimitsProperty.Builder().apply(initializer).build()
+public fun buildCrawlerLimitsProperty(initializer: @AwsCdkDsl CfnKnowledgeBase.CrawlerLimitsProperty.Builder.() -> Unit = {}): CfnKnowledgeBase.CrawlerLimitsProperty = CfnKnowledgeBase.CrawlerLimitsProperty.Builder().apply(initializer).build()

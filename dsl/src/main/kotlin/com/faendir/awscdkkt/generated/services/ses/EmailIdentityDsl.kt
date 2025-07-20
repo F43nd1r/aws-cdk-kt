@@ -16,6 +16,4 @@ public fun Construct.emailIdentity(
 ): EmailIdentity = EmailIdentity(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEmailIdentity(id: String, initializer: @AwsCdkDsl
-    EmailIdentity.Builder.() -> Unit = {}): EmailIdentity = EmailIdentity.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildEmailIdentity(id: String, initializer: @AwsCdkDsl EmailIdentity.Builder.() -> Unit = {}): EmailIdentity = EmailIdentity.Builder.create(this, id).apply(initializer).build()

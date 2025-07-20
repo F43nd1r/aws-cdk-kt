@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.JsonSchema
 
 @Generated
-public fun buildJsonSchema(initializer: @AwsCdkDsl JsonSchema.Builder.() -> Unit = {}): JsonSchema =
-    JsonSchema.Builder().apply(initializer).build()
+public fun buildJsonSchema(initializer: @AwsCdkDsl JsonSchema.Builder.() -> Unit = {}): JsonSchema = JsonSchema.Builder().apply(initializer).build()

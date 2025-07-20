@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildComparisonFormatConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ComparisonFormatConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.ComparisonFormatConfigurationProperty =
-    CfnTemplate.ComparisonFormatConfigurationProperty.Builder().apply(initializer).build()
+public fun buildComparisonFormatConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.ComparisonFormatConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.ComparisonFormatConfigurationProperty = CfnTemplate.ComparisonFormatConfigurationProperty.Builder().apply(initializer).build()

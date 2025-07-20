@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.patterns.NetworkListenerProps
 
 @Generated
-public fun buildNetworkListenerProps(initializer: @AwsCdkDsl NetworkListenerProps.Builder.() -> Unit
-    = {}): NetworkListenerProps = NetworkListenerProps.Builder().apply(initializer).build()
+public fun buildNetworkListenerProps(initializer: @AwsCdkDsl NetworkListenerProps.Builder.() -> Unit = {}): NetworkListenerProps = NetworkListenerProps.Builder().apply(initializer).build()

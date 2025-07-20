@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.workspacesweb.CfnDataProtectionSettingsProps
 
 @Generated
-public fun buildCfnDataProtectionSettingsProps(initializer: @AwsCdkDsl
-    CfnDataProtectionSettingsProps.Builder.() -> Unit = {}): CfnDataProtectionSettingsProps =
-    CfnDataProtectionSettingsProps.Builder().apply(initializer).build()
+public fun buildCfnDataProtectionSettingsProps(initializer: @AwsCdkDsl CfnDataProtectionSettingsProps.Builder.() -> Unit = {}): CfnDataProtectionSettingsProps = CfnDataProtectionSettingsProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.imagebuilder.CfnDistributionConfiguration
 
 @Generated
-public fun buildSsmParameterConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDistributionConfiguration.SsmParameterConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDistributionConfiguration.SsmParameterConfigurationProperty =
-    CfnDistributionConfiguration.SsmParameterConfigurationProperty.Builder().apply(initializer).build()
+public fun buildSsmParameterConfigurationProperty(initializer: @AwsCdkDsl CfnDistributionConfiguration.SsmParameterConfigurationProperty.Builder.() -> Unit = {}): CfnDistributionConfiguration.SsmParameterConfigurationProperty = CfnDistributionConfiguration.SsmParameterConfigurationProperty.Builder().apply(initializer).build()

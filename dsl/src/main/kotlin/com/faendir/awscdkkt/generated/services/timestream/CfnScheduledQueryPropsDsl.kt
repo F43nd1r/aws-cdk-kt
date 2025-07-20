@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.timestream.CfnScheduledQueryProps
 
 @Generated
-public fun buildCfnScheduledQueryProps(initializer: @AwsCdkDsl
-    CfnScheduledQueryProps.Builder.() -> Unit = {}): CfnScheduledQueryProps =
-    CfnScheduledQueryProps.Builder().apply(initializer).build()
+public fun buildCfnScheduledQueryProps(initializer: @AwsCdkDsl CfnScheduledQueryProps.Builder.() -> Unit = {}): CfnScheduledQueryProps = CfnScheduledQueryProps.Builder().apply(initializer).build()

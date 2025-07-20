@@ -16,6 +16,4 @@ public fun Construct.cfnGroupMembership(
 ): CfnGroupMembership = CfnGroupMembership(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnGroupMembership(id: String, initializer: @AwsCdkDsl
-    CfnGroupMembership.Builder.() -> Unit = {}): CfnGroupMembership =
-    CfnGroupMembership.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnGroupMembership(id: String, initializer: @AwsCdkDsl CfnGroupMembership.Builder.() -> Unit = {}): CfnGroupMembership = CfnGroupMembership.Builder.create(this, id).apply(initializer).build()

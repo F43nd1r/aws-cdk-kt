@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnVirtualNode
 
 @Generated
-public fun buildHttpTimeoutProperty(initializer: @AwsCdkDsl
-    CfnVirtualNode.HttpTimeoutProperty.Builder.() -> Unit = {}): CfnVirtualNode.HttpTimeoutProperty
-    = CfnVirtualNode.HttpTimeoutProperty.Builder().apply(initializer).build()
+public fun buildHttpTimeoutProperty(initializer: @AwsCdkDsl CfnVirtualNode.HttpTimeoutProperty.Builder.() -> Unit = {}): CfnVirtualNode.HttpTimeoutProperty = CfnVirtualNode.HttpTimeoutProperty.Builder().apply(initializer).build()

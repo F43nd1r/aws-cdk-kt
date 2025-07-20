@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloudassembly.schema.ContextLookupRoleOptions
 
 @Generated
-public fun buildContextLookupRoleOptions(initializer: @AwsCdkDsl
-    ContextLookupRoleOptions.Builder.() -> Unit = {}): ContextLookupRoleOptions =
-    ContextLookupRoleOptions.Builder().apply(initializer).build()
+public fun buildContextLookupRoleOptions(initializer: @AwsCdkDsl ContextLookupRoleOptions.Builder.() -> Unit = {}): ContextLookupRoleOptions = ContextLookupRoleOptions.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnSecurityProfile
 
 @Generated
-public fun buildMetricToRetainProperty(initializer: @AwsCdkDsl
-    CfnSecurityProfile.MetricToRetainProperty.Builder.() -> Unit = {}):
-    CfnSecurityProfile.MetricToRetainProperty =
-    CfnSecurityProfile.MetricToRetainProperty.Builder().apply(initializer).build()
+public fun buildMetricToRetainProperty(initializer: @AwsCdkDsl CfnSecurityProfile.MetricToRetainProperty.Builder.() -> Unit = {}): CfnSecurityProfile.MetricToRetainProperty = CfnSecurityProfile.MetricToRetainProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.externalService(
 ): ExternalService = ExternalService(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildExternalService(id: String, initializer: @AwsCdkDsl
-    ExternalService.Builder.() -> Unit = {}): ExternalService = ExternalService.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildExternalService(id: String, initializer: @AwsCdkDsl ExternalService.Builder.() -> Unit = {}): ExternalService = ExternalService.Builder.create(this, id).apply(initializer).build()

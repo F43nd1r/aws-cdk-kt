@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSource
 
 @Generated
-public fun buildIdentityCenterConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.IdentityCenterConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDataSource.IdentityCenterConfigurationProperty =
-    CfnDataSource.IdentityCenterConfigurationProperty.Builder().apply(initializer).build()
+public fun buildIdentityCenterConfigurationProperty(initializer: @AwsCdkDsl CfnDataSource.IdentityCenterConfigurationProperty.Builder.() -> Unit = {}): CfnDataSource.IdentityCenterConfigurationProperty = CfnDataSource.IdentityCenterConfigurationProperty.Builder().apply(initializer).build()

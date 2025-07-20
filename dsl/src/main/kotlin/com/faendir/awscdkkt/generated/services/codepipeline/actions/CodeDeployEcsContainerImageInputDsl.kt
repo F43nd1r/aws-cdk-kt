@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.CodeDeployEcsContainerImageInput
 
 @Generated
-public fun buildCodeDeployEcsContainerImageInput(initializer: @AwsCdkDsl
-    CodeDeployEcsContainerImageInput.Builder.() -> Unit = {}): CodeDeployEcsContainerImageInput =
-    CodeDeployEcsContainerImageInput.Builder().apply(initializer).build()
+public fun buildCodeDeployEcsContainerImageInput(initializer: @AwsCdkDsl CodeDeployEcsContainerImageInput.Builder.() -> Unit = {}): CodeDeployEcsContainerImageInput = CodeDeployEcsContainerImageInput.Builder().apply(initializer).build()

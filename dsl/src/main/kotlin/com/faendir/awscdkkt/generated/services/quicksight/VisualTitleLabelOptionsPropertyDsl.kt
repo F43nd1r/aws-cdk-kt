@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildVisualTitleLabelOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.VisualTitleLabelOptionsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.VisualTitleLabelOptionsProperty =
-    CfnTemplate.VisualTitleLabelOptionsProperty.Builder().apply(initializer).build()
+public fun buildVisualTitleLabelOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.VisualTitleLabelOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.VisualTitleLabelOptionsProperty = CfnTemplate.VisualTitleLabelOptionsProperty.Builder().apply(initializer).build()

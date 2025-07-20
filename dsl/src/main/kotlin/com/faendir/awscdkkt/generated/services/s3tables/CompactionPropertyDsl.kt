@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3tables.CfnTable
 
 @Generated
-public fun buildCompactionProperty(initializer: @AwsCdkDsl
-    CfnTable.CompactionProperty.Builder.() -> Unit = {}): CfnTable.CompactionProperty =
-    CfnTable.CompactionProperty.Builder().apply(initializer).build()
+public fun buildCompactionProperty(initializer: @AwsCdkDsl CfnTable.CompactionProperty.Builder.() -> Unit = {}): CfnTable.CompactionProperty = CfnTable.CompactionProperty.Builder().apply(initializer).build()

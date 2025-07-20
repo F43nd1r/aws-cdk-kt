@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.HttpHealthCheckOptions
 
 @Generated
-public fun buildHttpHealthCheckOptions(initializer: @AwsCdkDsl
-    HttpHealthCheckOptions.Builder.() -> Unit = {}): HttpHealthCheckOptions =
-    HttpHealthCheckOptions.Builder().apply(initializer).build()
+public fun buildHttpHealthCheckOptions(initializer: @AwsCdkDsl HttpHealthCheckOptions.Builder.() -> Unit = {}): HttpHealthCheckOptions = HttpHealthCheckOptions.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.PassJsonPathProps
 
 @Generated
-public fun buildPassJsonPathProps(initializer: @AwsCdkDsl PassJsonPathProps.Builder.() -> Unit =
-    {}): PassJsonPathProps = PassJsonPathProps.Builder().apply(initializer).build()
+public fun buildPassJsonPathProps(initializer: @AwsCdkDsl PassJsonPathProps.Builder.() -> Unit = {}): PassJsonPathProps = PassJsonPathProps.Builder().apply(initializer).build()

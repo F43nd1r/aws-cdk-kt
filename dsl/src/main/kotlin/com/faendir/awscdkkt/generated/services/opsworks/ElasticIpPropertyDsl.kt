@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opsworks.CfnStack
 
 @Generated
-public fun buildElasticIpProperty(initializer: @AwsCdkDsl
-    CfnStack.ElasticIpProperty.Builder.() -> Unit = {}): CfnStack.ElasticIpProperty =
-    CfnStack.ElasticIpProperty.Builder().apply(initializer).build()
+public fun buildElasticIpProperty(initializer: @AwsCdkDsl CfnStack.ElasticIpProperty.Builder.() -> Unit = {}): CfnStack.ElasticIpProperty = CfnStack.ElasticIpProperty.Builder().apply(initializer).build()

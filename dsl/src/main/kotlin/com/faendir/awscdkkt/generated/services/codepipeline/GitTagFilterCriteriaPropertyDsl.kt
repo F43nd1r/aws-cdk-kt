@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.CfnPipeline
 
 @Generated
-public fun buildGitTagFilterCriteriaProperty(initializer: @AwsCdkDsl
-    CfnPipeline.GitTagFilterCriteriaProperty.Builder.() -> Unit = {}):
-    CfnPipeline.GitTagFilterCriteriaProperty =
-    CfnPipeline.GitTagFilterCriteriaProperty.Builder().apply(initializer).build()
+public fun buildGitTagFilterCriteriaProperty(initializer: @AwsCdkDsl CfnPipeline.GitTagFilterCriteriaProperty.Builder.() -> Unit = {}): CfnPipeline.GitTagFilterCriteriaProperty = CfnPipeline.GitTagFilterCriteriaProperty.Builder().apply(initializer).build()

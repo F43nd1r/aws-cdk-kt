@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnEnvironmentBlueprintConfiguration
 
 @Generated
-public fun buildRegionalParameterProperty(initializer: @AwsCdkDsl
-    CfnEnvironmentBlueprintConfiguration.RegionalParameterProperty.Builder.() -> Unit = {}):
-    CfnEnvironmentBlueprintConfiguration.RegionalParameterProperty =
-    CfnEnvironmentBlueprintConfiguration.RegionalParameterProperty.Builder().apply(initializer).build()
+public fun buildRegionalParameterProperty(initializer: @AwsCdkDsl CfnEnvironmentBlueprintConfiguration.RegionalParameterProperty.Builder.() -> Unit = {}): CfnEnvironmentBlueprintConfiguration.RegionalParameterProperty = CfnEnvironmentBlueprintConfiguration.RegionalParameterProperty.Builder().apply(initializer).build()

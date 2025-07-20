@@ -16,6 +16,4 @@ public fun Construct.cfnTagOptionAssociation(
 ): CfnTagOptionAssociation = CfnTagOptionAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTagOptionAssociation(id: String, initializer: @AwsCdkDsl
-    CfnTagOptionAssociation.Builder.() -> Unit = {}): CfnTagOptionAssociation =
-    CfnTagOptionAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTagOptionAssociation(id: String, initializer: @AwsCdkDsl CfnTagOptionAssociation.Builder.() -> Unit = {}): CfnTagOptionAssociation = CfnTagOptionAssociation.Builder.create(this, id).apply(initializer).build()

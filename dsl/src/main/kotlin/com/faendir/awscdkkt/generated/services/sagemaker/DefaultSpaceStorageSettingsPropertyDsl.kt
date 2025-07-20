@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnUserProfile
 
 @Generated
-public fun buildDefaultSpaceStorageSettingsProperty(initializer: @AwsCdkDsl
-    CfnUserProfile.DefaultSpaceStorageSettingsProperty.Builder.() -> Unit = {}):
-    CfnUserProfile.DefaultSpaceStorageSettingsProperty =
-    CfnUserProfile.DefaultSpaceStorageSettingsProperty.Builder().apply(initializer).build()
+public fun buildDefaultSpaceStorageSettingsProperty(initializer: @AwsCdkDsl CfnUserProfile.DefaultSpaceStorageSettingsProperty.Builder.() -> Unit = {}): CfnUserProfile.DefaultSpaceStorageSettingsProperty = CfnUserProfile.DefaultSpaceStorageSettingsProperty.Builder().apply(initializer).build()

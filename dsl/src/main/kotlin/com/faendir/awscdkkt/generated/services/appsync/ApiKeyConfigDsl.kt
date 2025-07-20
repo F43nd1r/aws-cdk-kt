@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.ApiKeyConfig
 
 @Generated
-public fun buildApiKeyConfig(initializer: @AwsCdkDsl ApiKeyConfig.Builder.() -> Unit = {}):
-    ApiKeyConfig = ApiKeyConfig.Builder().apply(initializer).build()
+public fun buildApiKeyConfig(initializer: @AwsCdkDsl ApiKeyConfig.Builder.() -> Unit = {}): ApiKeyConfig = ApiKeyConfig.Builder().apply(initializer).build()

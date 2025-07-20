@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.CsvOptions
 
 @Generated
-public fun buildCsvOptions(initializer: @AwsCdkDsl CsvOptions.Builder.() -> Unit = {}): CsvOptions =
-    CsvOptions.Builder().apply(initializer).build()
+public fun buildCsvOptions(initializer: @AwsCdkDsl CsvOptions.Builder.() -> Unit = {}): CsvOptions = CsvOptions.Builder().apply(initializer).build()

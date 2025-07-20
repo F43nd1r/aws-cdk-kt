@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnNotebookInstance
 
 @Generated
-public fun buildInstanceMetadataServiceConfigurationProperty(initializer: @AwsCdkDsl
-    CfnNotebookInstance.InstanceMetadataServiceConfigurationProperty.Builder.() -> Unit = {}):
-    CfnNotebookInstance.InstanceMetadataServiceConfigurationProperty =
-    CfnNotebookInstance.InstanceMetadataServiceConfigurationProperty.Builder().apply(initializer).build()
+public fun buildInstanceMetadataServiceConfigurationProperty(initializer: @AwsCdkDsl CfnNotebookInstance.InstanceMetadataServiceConfigurationProperty.Builder.() -> Unit = {}): CfnNotebookInstance.InstanceMetadataServiceConfigurationProperty = CfnNotebookInstance.InstanceMetadataServiceConfigurationProperty.Builder().apply(initializer).build()

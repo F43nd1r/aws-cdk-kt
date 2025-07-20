@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.synthetics.CfnCanary
 
 @Generated
-public fun buildBaseScreenshotProperty(initializer: @AwsCdkDsl
-    CfnCanary.BaseScreenshotProperty.Builder.() -> Unit = {}): CfnCanary.BaseScreenshotProperty =
-    CfnCanary.BaseScreenshotProperty.Builder().apply(initializer).build()
+public fun buildBaseScreenshotProperty(initializer: @AwsCdkDsl CfnCanary.BaseScreenshotProperty.Builder.() -> Unit = {}): CfnCanary.BaseScreenshotProperty = CfnCanary.BaseScreenshotProperty.Builder().apply(initializer).build()

@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.batch.UnmanagedComputeEnvironmentProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.unmanagedComputeEnvironment(id: String, initializer: @AwsCdkDsl
-    UnmanagedComputeEnvironment.() -> Unit = {}): UnmanagedComputeEnvironment =
-    UnmanagedComputeEnvironment(this, id).apply(initializer)
+public fun Construct.unmanagedComputeEnvironment(id: String, initializer: @AwsCdkDsl UnmanagedComputeEnvironment.() -> Unit = {}): UnmanagedComputeEnvironment = UnmanagedComputeEnvironment(this, id).apply(initializer)
 
 @Generated
 public fun Construct.unmanagedComputeEnvironment(
@@ -21,6 +19,4 @@ public fun Construct.unmanagedComputeEnvironment(
 ): UnmanagedComputeEnvironment = UnmanagedComputeEnvironment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildUnmanagedComputeEnvironment(id: String, initializer: @AwsCdkDsl
-    UnmanagedComputeEnvironment.Builder.() -> Unit = {}): UnmanagedComputeEnvironment =
-    UnmanagedComputeEnvironment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildUnmanagedComputeEnvironment(id: String, initializer: @AwsCdkDsl UnmanagedComputeEnvironment.Builder.() -> Unit = {}): UnmanagedComputeEnvironment = UnmanagedComputeEnvironment.Builder.create(this, id).apply(initializer).build()

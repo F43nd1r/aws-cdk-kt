@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.customerprofiles.CfnDomainProps
 
 @Generated
-public fun buildCfnDomainProps(initializer: @AwsCdkDsl CfnDomainProps.Builder.() -> Unit = {}):
-    CfnDomainProps = CfnDomainProps.Builder().apply(initializer).build()
+public fun buildCfnDomainProps(initializer: @AwsCdkDsl CfnDomainProps.Builder.() -> Unit = {}): CfnDomainProps = CfnDomainProps.Builder().apply(initializer).build()

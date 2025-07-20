@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediatailor.CfnPlaybackConfiguration
 
 @Generated
-public fun buildAdConditioningConfigurationProperty(initializer: @AwsCdkDsl
-    CfnPlaybackConfiguration.AdConditioningConfigurationProperty.Builder.() -> Unit = {}):
-    CfnPlaybackConfiguration.AdConditioningConfigurationProperty =
-    CfnPlaybackConfiguration.AdConditioningConfigurationProperty.Builder().apply(initializer).build()
+public fun buildAdConditioningConfigurationProperty(initializer: @AwsCdkDsl CfnPlaybackConfiguration.AdConditioningConfigurationProperty.Builder.() -> Unit = {}): CfnPlaybackConfiguration.AdConditioningConfigurationProperty = CfnPlaybackConfiguration.AdConditioningConfigurationProperty.Builder().apply(initializer).build()

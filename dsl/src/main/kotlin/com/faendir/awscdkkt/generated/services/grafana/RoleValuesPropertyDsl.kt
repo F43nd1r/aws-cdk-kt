@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.grafana.CfnWorkspace
 
 @Generated
-public fun buildRoleValuesProperty(initializer: @AwsCdkDsl
-    CfnWorkspace.RoleValuesProperty.Builder.() -> Unit = {}): CfnWorkspace.RoleValuesProperty =
-    CfnWorkspace.RoleValuesProperty.Builder().apply(initializer).build()
+public fun buildRoleValuesProperty(initializer: @AwsCdkDsl CfnWorkspace.RoleValuesProperty.Builder.() -> Unit = {}): CfnWorkspace.RoleValuesProperty = CfnWorkspace.RoleValuesProperty.Builder().apply(initializer).build()

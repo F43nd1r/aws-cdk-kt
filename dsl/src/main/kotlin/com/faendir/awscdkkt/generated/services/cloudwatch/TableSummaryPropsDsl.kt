@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.TableSummaryProps
 
 @Generated
-public fun buildTableSummaryProps(initializer: @AwsCdkDsl TableSummaryProps.Builder.() -> Unit =
-    {}): TableSummaryProps = TableSummaryProps.Builder().apply(initializer).build()
+public fun buildTableSummaryProps(initializer: @AwsCdkDsl TableSummaryProps.Builder.() -> Unit = {}): TableSummaryProps = TableSummaryProps.Builder().apply(initializer).build()

@@ -16,5 +16,4 @@ public fun Construct.resolver(
 ): Resolver = Resolver(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildResolver(id: String, initializer: @AwsCdkDsl Resolver.Builder.() -> Unit =
-    {}): Resolver = Resolver.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildResolver(id: String, initializer: @AwsCdkDsl Resolver.Builder.() -> Unit = {}): Resolver = Resolver.Builder.create(this, id).apply(initializer).build()

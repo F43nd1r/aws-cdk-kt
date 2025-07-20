@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnKnowledgeBase
 
 @Generated
-public fun buildAppIntegrationsConfigurationProperty(initializer: @AwsCdkDsl
-    CfnKnowledgeBase.AppIntegrationsConfigurationProperty.Builder.() -> Unit = {}):
-    CfnKnowledgeBase.AppIntegrationsConfigurationProperty =
-    CfnKnowledgeBase.AppIntegrationsConfigurationProperty.Builder().apply(initializer).build()
+public fun buildAppIntegrationsConfigurationProperty(initializer: @AwsCdkDsl CfnKnowledgeBase.AppIntegrationsConfigurationProperty.Builder.() -> Unit = {}): CfnKnowledgeBase.AppIntegrationsConfigurationProperty = CfnKnowledgeBase.AppIntegrationsConfigurationProperty.Builder().apply(initializer).build()

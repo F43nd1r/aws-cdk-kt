@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fsx.CfnVolume
 
 @Generated
-public fun buildUserAndGroupQuotasProperty(initializer: @AwsCdkDsl
-    CfnVolume.UserAndGroupQuotasProperty.Builder.() -> Unit = {}):
-    CfnVolume.UserAndGroupQuotasProperty =
-    CfnVolume.UserAndGroupQuotasProperty.Builder().apply(initializer).build()
+public fun buildUserAndGroupQuotasProperty(initializer: @AwsCdkDsl CfnVolume.UserAndGroupQuotasProperty.Builder.() -> Unit = {}): CfnVolume.UserAndGroupQuotasProperty = CfnVolume.UserAndGroupQuotasProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.HttpVirtualNodeListenerOptions
 
 @Generated
-public fun buildHttpVirtualNodeListenerOptions(initializer: @AwsCdkDsl
-    HttpVirtualNodeListenerOptions.Builder.() -> Unit = {}): HttpVirtualNodeListenerOptions =
-    HttpVirtualNodeListenerOptions.Builder().apply(initializer).build()
+public fun buildHttpVirtualNodeListenerOptions(initializer: @AwsCdkDsl HttpVirtualNodeListenerOptions.Builder.() -> Unit = {}): HttpVirtualNodeListenerOptions = HttpVirtualNodeListenerOptions.Builder().apply(initializer).build()

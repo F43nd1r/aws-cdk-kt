@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appstream.CfnDirectoryConfigProps
 
 @Generated
-public fun buildCfnDirectoryConfigProps(initializer: @AwsCdkDsl
-    CfnDirectoryConfigProps.Builder.() -> Unit = {}): CfnDirectoryConfigProps =
-    CfnDirectoryConfigProps.Builder().apply(initializer).build()
+public fun buildCfnDirectoryConfigProps(initializer: @AwsCdkDsl CfnDirectoryConfigProps.Builder.() -> Unit = {}): CfnDirectoryConfigProps = CfnDirectoryConfigProps.Builder().apply(initializer).build()

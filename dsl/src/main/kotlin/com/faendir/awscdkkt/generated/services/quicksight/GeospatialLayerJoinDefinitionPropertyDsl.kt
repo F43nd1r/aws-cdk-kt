@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
-public fun buildGeospatialLayerJoinDefinitionProperty(initializer: @AwsCdkDsl
-    CfnDashboard.GeospatialLayerJoinDefinitionProperty.Builder.() -> Unit = {}):
-    CfnDashboard.GeospatialLayerJoinDefinitionProperty =
-    CfnDashboard.GeospatialLayerJoinDefinitionProperty.Builder().apply(initializer).build()
+public fun buildGeospatialLayerJoinDefinitionProperty(initializer: @AwsCdkDsl CfnDashboard.GeospatialLayerJoinDefinitionProperty.Builder.() -> Unit = {}): CfnDashboard.GeospatialLayerJoinDefinitionProperty = CfnDashboard.GeospatialLayerJoinDefinitionProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.accessEntry(
 ): AccessEntry = AccessEntry(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAccessEntry(id: String, initializer: @AwsCdkDsl
-    AccessEntry.Builder.() -> Unit = {}): AccessEntry = AccessEntry.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildAccessEntry(id: String, initializer: @AwsCdkDsl AccessEntry.Builder.() -> Unit = {}): AccessEntry = AccessEntry.Builder.create(this, id).apply(initializer).build()

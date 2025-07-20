@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.config.CfnRemediationConfiguration
 
 @Generated
-public fun buildExecutionControlsProperty(initializer: @AwsCdkDsl
-    CfnRemediationConfiguration.ExecutionControlsProperty.Builder.() -> Unit = {}):
-    CfnRemediationConfiguration.ExecutionControlsProperty =
-    CfnRemediationConfiguration.ExecutionControlsProperty.Builder().apply(initializer).build()
+public fun buildExecutionControlsProperty(initializer: @AwsCdkDsl CfnRemediationConfiguration.ExecutionControlsProperty.Builder.() -> Unit = {}): CfnRemediationConfiguration.ExecutionControlsProperty = CfnRemediationConfiguration.ExecutionControlsProperty.Builder().apply(initializer).build()

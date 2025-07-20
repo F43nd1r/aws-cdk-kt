@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.CfnRestApi
 
 @Generated
-public fun buildEndpointConfigurationProperty(initializer: @AwsCdkDsl
-    CfnRestApi.EndpointConfigurationProperty.Builder.() -> Unit = {}):
-    CfnRestApi.EndpointConfigurationProperty =
-    CfnRestApi.EndpointConfigurationProperty.Builder().apply(initializer).build()
+public fun buildEndpointConfigurationProperty(initializer: @AwsCdkDsl CfnRestApi.EndpointConfigurationProperty.Builder.() -> Unit = {}): CfnRestApi.EndpointConfigurationProperty = CfnRestApi.EndpointConfigurationProperty.Builder().apply(initializer).build()

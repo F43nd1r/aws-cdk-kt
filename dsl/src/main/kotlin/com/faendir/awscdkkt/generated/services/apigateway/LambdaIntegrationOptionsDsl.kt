@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.LambdaIntegrationOptions
 
 @Generated
-public fun buildLambdaIntegrationOptions(initializer: @AwsCdkDsl
-    LambdaIntegrationOptions.Builder.() -> Unit = {}): LambdaIntegrationOptions =
-    LambdaIntegrationOptions.Builder().apply(initializer).build()
+public fun buildLambdaIntegrationOptions(initializer: @AwsCdkDsl LambdaIntegrationOptions.Builder.() -> Unit = {}): LambdaIntegrationOptions = LambdaIntegrationOptions.Builder().apply(initializer).build()

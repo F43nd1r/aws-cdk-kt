@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.CfnCluster
 
 @Generated
-public fun buildOutpostConfigProperty(initializer: @AwsCdkDsl
-    CfnCluster.OutpostConfigProperty.Builder.() -> Unit = {}): CfnCluster.OutpostConfigProperty =
-    CfnCluster.OutpostConfigProperty.Builder().apply(initializer).build()
+public fun buildOutpostConfigProperty(initializer: @AwsCdkDsl CfnCluster.OutpostConfigProperty.Builder.() -> Unit = {}): CfnCluster.OutpostConfigProperty = CfnCluster.OutpostConfigProperty.Builder().apply(initializer).build()

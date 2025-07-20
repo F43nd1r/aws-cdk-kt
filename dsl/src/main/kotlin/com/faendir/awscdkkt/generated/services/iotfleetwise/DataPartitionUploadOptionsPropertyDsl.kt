@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotfleetwise.CfnCampaign
 
 @Generated
-public fun buildDataPartitionUploadOptionsProperty(initializer: @AwsCdkDsl
-    CfnCampaign.DataPartitionUploadOptionsProperty.Builder.() -> Unit = {}):
-    CfnCampaign.DataPartitionUploadOptionsProperty =
-    CfnCampaign.DataPartitionUploadOptionsProperty.Builder().apply(initializer).build()
+public fun buildDataPartitionUploadOptionsProperty(initializer: @AwsCdkDsl CfnCampaign.DataPartitionUploadOptionsProperty.Builder.() -> Unit = {}): CfnCampaign.DataPartitionUploadOptionsProperty = CfnCampaign.DataPartitionUploadOptionsProperty.Builder().apply(initializer).build()

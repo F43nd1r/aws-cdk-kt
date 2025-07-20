@@ -13,11 +13,7 @@ public fun Construct.cfnIPAMResourceDiscoveryAssociation(
   id: String,
   props: CfnIPAMResourceDiscoveryAssociationProps,
   initializer: @AwsCdkDsl CfnIPAMResourceDiscoveryAssociation.() -> Unit = {},
-): CfnIPAMResourceDiscoveryAssociation = CfnIPAMResourceDiscoveryAssociation(this, id,
-    props).apply(initializer)
+): CfnIPAMResourceDiscoveryAssociation = CfnIPAMResourceDiscoveryAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnIPAMResourceDiscoveryAssociation(id: String, initializer: @AwsCdkDsl
-    CfnIPAMResourceDiscoveryAssociation.Builder.() -> Unit = {}):
-    CfnIPAMResourceDiscoveryAssociation = CfnIPAMResourceDiscoveryAssociation.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnIPAMResourceDiscoveryAssociation(id: String, initializer: @AwsCdkDsl CfnIPAMResourceDiscoveryAssociation.Builder.() -> Unit = {}): CfnIPAMResourceDiscoveryAssociation = CfnIPAMResourceDiscoveryAssociation.Builder.create(this, id).apply(initializer).build()

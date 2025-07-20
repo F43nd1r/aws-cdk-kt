@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apptest.CfnTestCase
 
 @Generated
-public fun buildFileMetadataProperty(initializer: @AwsCdkDsl
-    CfnTestCase.FileMetadataProperty.Builder.() -> Unit = {}): CfnTestCase.FileMetadataProperty =
-    CfnTestCase.FileMetadataProperty.Builder().apply(initializer).build()
+public fun buildFileMetadataProperty(initializer: @AwsCdkDsl CfnTestCase.FileMetadataProperty.Builder.() -> Unit = {}): CfnTestCase.FileMetadataProperty = CfnTestCase.FileMetadataProperty.Builder().apply(initializer).build()

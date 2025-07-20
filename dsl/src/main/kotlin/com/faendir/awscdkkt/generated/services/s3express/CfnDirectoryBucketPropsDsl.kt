@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3express.CfnDirectoryBucketProps
 
 @Generated
-public fun buildCfnDirectoryBucketProps(initializer: @AwsCdkDsl
-    CfnDirectoryBucketProps.Builder.() -> Unit = {}): CfnDirectoryBucketProps =
-    CfnDirectoryBucketProps.Builder().apply(initializer).build()
+public fun buildCfnDirectoryBucketProps(initializer: @AwsCdkDsl CfnDirectoryBucketProps.Builder.() -> Unit = {}): CfnDirectoryBucketProps = CfnDirectoryBucketProps.Builder().apply(initializer).build()

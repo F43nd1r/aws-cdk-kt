@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnStorageLens
 
 @Generated
-public fun buildPrefixLevelProperty(initializer: @AwsCdkDsl
-    CfnStorageLens.PrefixLevelProperty.Builder.() -> Unit = {}): CfnStorageLens.PrefixLevelProperty
-    = CfnStorageLens.PrefixLevelProperty.Builder().apply(initializer).build()
+public fun buildPrefixLevelProperty(initializer: @AwsCdkDsl CfnStorageLens.PrefixLevelProperty.Builder.() -> Unit = {}): CfnStorageLens.PrefixLevelProperty = CfnStorageLens.PrefixLevelProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.CfnPipeline
 
 @Generated
-public fun buildInputArtifactProperty(initializer: @AwsCdkDsl
-    CfnPipeline.InputArtifactProperty.Builder.() -> Unit = {}): CfnPipeline.InputArtifactProperty =
-    CfnPipeline.InputArtifactProperty.Builder().apply(initializer).build()
+public fun buildInputArtifactProperty(initializer: @AwsCdkDsl CfnPipeline.InputArtifactProperty.Builder.() -> Unit = {}): CfnPipeline.InputArtifactProperty = CfnPipeline.InputArtifactProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
-public fun buildMarketoDestinationPropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.MarketoDestinationPropertiesProperty.Builder.() -> Unit = {}):
-    CfnFlow.MarketoDestinationPropertiesProperty =
-    CfnFlow.MarketoDestinationPropertiesProperty.Builder().apply(initializer).build()
+public fun buildMarketoDestinationPropertiesProperty(initializer: @AwsCdkDsl CfnFlow.MarketoDestinationPropertiesProperty.Builder.() -> Unit = {}): CfnFlow.MarketoDestinationPropertiesProperty = CfnFlow.MarketoDestinationPropertiesProperty.Builder().apply(initializer).build()

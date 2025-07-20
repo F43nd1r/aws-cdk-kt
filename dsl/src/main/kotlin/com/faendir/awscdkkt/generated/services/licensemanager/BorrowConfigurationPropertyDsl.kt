@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.licensemanager.CfnLicense
 
 @Generated
-public fun buildBorrowConfigurationProperty(initializer: @AwsCdkDsl
-    CfnLicense.BorrowConfigurationProperty.Builder.() -> Unit = {}):
-    CfnLicense.BorrowConfigurationProperty =
-    CfnLicense.BorrowConfigurationProperty.Builder().apply(initializer).build()
+public fun buildBorrowConfigurationProperty(initializer: @AwsCdkDsl CfnLicense.BorrowConfigurationProperty.Builder.() -> Unit = {}): CfnLicense.BorrowConfigurationProperty = CfnLicense.BorrowConfigurationProperty.Builder().apply(initializer).build()

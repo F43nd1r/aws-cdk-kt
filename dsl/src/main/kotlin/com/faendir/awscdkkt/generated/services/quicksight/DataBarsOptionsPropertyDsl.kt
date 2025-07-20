@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildDataBarsOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DataBarsOptionsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.DataBarsOptionsProperty =
-    CfnTemplate.DataBarsOptionsProperty.Builder().apply(initializer).build()
+public fun buildDataBarsOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.DataBarsOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.DataBarsOptionsProperty = CfnTemplate.DataBarsOptionsProperty.Builder().apply(initializer).build()

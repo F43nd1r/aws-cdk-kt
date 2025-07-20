@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildSheetControlInfoIconLabelOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.SheetControlInfoIconLabelOptionsProperty.Builder.() -> Unit = {}):
-    CfnTemplate.SheetControlInfoIconLabelOptionsProperty =
-    CfnTemplate.SheetControlInfoIconLabelOptionsProperty.Builder().apply(initializer).build()
+public fun buildSheetControlInfoIconLabelOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.SheetControlInfoIconLabelOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.SheetControlInfoIconLabelOptionsProperty = CfnTemplate.SheetControlInfoIconLabelOptionsProperty.Builder().apply(initializer).build()

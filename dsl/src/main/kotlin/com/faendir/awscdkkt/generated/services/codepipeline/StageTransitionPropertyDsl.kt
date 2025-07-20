@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.CfnPipeline
 
 @Generated
-public fun buildStageTransitionProperty(initializer: @AwsCdkDsl
-    CfnPipeline.StageTransitionProperty.Builder.() -> Unit = {}):
-    CfnPipeline.StageTransitionProperty =
-    CfnPipeline.StageTransitionProperty.Builder().apply(initializer).build()
+public fun buildStageTransitionProperty(initializer: @AwsCdkDsl CfnPipeline.StageTransitionProperty.Builder.() -> Unit = {}): CfnPipeline.StageTransitionProperty = CfnPipeline.StageTransitionProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnCustomEntityTypeProps
 
 @Generated
-public fun buildCfnCustomEntityTypeProps(initializer: @AwsCdkDsl
-    CfnCustomEntityTypeProps.Builder.() -> Unit = {}): CfnCustomEntityTypeProps =
-    CfnCustomEntityTypeProps.Builder().apply(initializer).build()
+public fun buildCfnCustomEntityTypeProps(initializer: @AwsCdkDsl CfnCustomEntityTypeProps.Builder.() -> Unit = {}): CfnCustomEntityTypeProps = CfnCustomEntityTypeProps.Builder().apply(initializer).build()

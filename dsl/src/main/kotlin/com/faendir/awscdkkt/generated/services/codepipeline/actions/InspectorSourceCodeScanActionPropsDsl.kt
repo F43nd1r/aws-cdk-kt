@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.InspectorSourceCodeScanActionProps
 
 @Generated
-public fun buildInspectorSourceCodeScanActionProps(initializer: @AwsCdkDsl
-    InspectorSourceCodeScanActionProps.Builder.() -> Unit = {}): InspectorSourceCodeScanActionProps
-    = InspectorSourceCodeScanActionProps.Builder().apply(initializer).build()
+public fun buildInspectorSourceCodeScanActionProps(initializer: @AwsCdkDsl InspectorSourceCodeScanActionProps.Builder.() -> Unit = {}): InspectorSourceCodeScanActionProps = InspectorSourceCodeScanActionProps.Builder().apply(initializer).build()

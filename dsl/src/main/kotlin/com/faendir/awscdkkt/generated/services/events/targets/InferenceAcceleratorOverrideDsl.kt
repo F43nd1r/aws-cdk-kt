@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.targets.InferenceAcceleratorOverride
 
 @Generated
-public fun buildInferenceAcceleratorOverride(initializer: @AwsCdkDsl
-    InferenceAcceleratorOverride.Builder.() -> Unit = {}): InferenceAcceleratorOverride =
-    InferenceAcceleratorOverride.Builder().apply(initializer).build()
+public fun buildInferenceAcceleratorOverride(initializer: @AwsCdkDsl InferenceAcceleratorOverride.Builder.() -> Unit = {}): InferenceAcceleratorOverride = InferenceAcceleratorOverride.Builder().apply(initializer).build()

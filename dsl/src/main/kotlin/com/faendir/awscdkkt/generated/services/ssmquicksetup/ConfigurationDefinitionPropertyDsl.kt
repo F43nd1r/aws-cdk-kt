@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssmquicksetup.CfnConfigurationManager
 
 @Generated
-public fun buildConfigurationDefinitionProperty(initializer: @AwsCdkDsl
-    CfnConfigurationManager.ConfigurationDefinitionProperty.Builder.() -> Unit = {}):
-    CfnConfigurationManager.ConfigurationDefinitionProperty =
-    CfnConfigurationManager.ConfigurationDefinitionProperty.Builder().apply(initializer).build()
+public fun buildConfigurationDefinitionProperty(initializer: @AwsCdkDsl CfnConfigurationManager.ConfigurationDefinitionProperty.Builder.() -> Unit = {}): CfnConfigurationManager.ConfigurationDefinitionProperty = CfnConfigurationManager.ConfigurationDefinitionProperty.Builder().apply(initializer).build()

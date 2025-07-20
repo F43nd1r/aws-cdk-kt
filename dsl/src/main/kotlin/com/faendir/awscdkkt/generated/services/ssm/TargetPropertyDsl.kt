@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssm.CfnMaintenanceWindowTask
 
 @Generated
-public fun buildTargetProperty(initializer: @AwsCdkDsl
-    CfnMaintenanceWindowTask.TargetProperty.Builder.() -> Unit = {}):
-    CfnMaintenanceWindowTask.TargetProperty =
-    CfnMaintenanceWindowTask.TargetProperty.Builder().apply(initializer).build()
+public fun buildTargetProperty(initializer: @AwsCdkDsl CfnMaintenanceWindowTask.TargetProperty.Builder.() -> Unit = {}): CfnMaintenanceWindowTask.TargetProperty = CfnMaintenanceWindowTask.TargetProperty.Builder().apply(initializer).build()

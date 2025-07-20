@@ -16,6 +16,4 @@ public fun Construct.cfnMultiplex(
 ): CfnMultiplex = CfnMultiplex(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMultiplex(id: String, initializer: @AwsCdkDsl
-    CfnMultiplex.Builder.() -> Unit = {}): CfnMultiplex = CfnMultiplex.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnMultiplex(id: String, initializer: @AwsCdkDsl CfnMultiplex.Builder.() -> Unit = {}): CfnMultiplex = CfnMultiplex.Builder.create(this, id).apply(initializer).build()

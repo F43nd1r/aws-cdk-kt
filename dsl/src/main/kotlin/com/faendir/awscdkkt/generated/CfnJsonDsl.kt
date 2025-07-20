@@ -16,5 +16,4 @@ public fun Construct.cfnJson(
 ): CfnJson = CfnJson(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnJson(id: String, initializer: @AwsCdkDsl CfnJson.Builder.() -> Unit =
-    {}): CfnJson = CfnJson.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnJson(id: String, initializer: @AwsCdkDsl CfnJson.Builder.() -> Unit = {}): CfnJson = CfnJson.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.applicationLoadBalancer(
 ): ApplicationLoadBalancer = ApplicationLoadBalancer(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildApplicationLoadBalancer(id: String, initializer: @AwsCdkDsl
-    ApplicationLoadBalancer.Builder.() -> Unit = {}): ApplicationLoadBalancer =
-    ApplicationLoadBalancer.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildApplicationLoadBalancer(id: String, initializer: @AwsCdkDsl ApplicationLoadBalancer.Builder.() -> Unit = {}): ApplicationLoadBalancer = ApplicationLoadBalancer.Builder.create(this, id).apply(initializer).build()

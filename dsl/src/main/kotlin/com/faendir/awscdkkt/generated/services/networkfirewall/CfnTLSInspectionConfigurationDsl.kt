@@ -16,6 +16,4 @@ public fun Construct.cfnTLSInspectionConfiguration(
 ): CfnTLSInspectionConfiguration = CfnTLSInspectionConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTLSInspectionConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnTLSInspectionConfiguration.Builder.() -> Unit = {}): CfnTLSInspectionConfiguration =
-    CfnTLSInspectionConfiguration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTLSInspectionConfiguration(id: String, initializer: @AwsCdkDsl CfnTLSInspectionConfiguration.Builder.() -> Unit = {}): CfnTLSInspectionConfiguration = CfnTLSInspectionConfiguration.Builder.create(this, id).apply(initializer).build()

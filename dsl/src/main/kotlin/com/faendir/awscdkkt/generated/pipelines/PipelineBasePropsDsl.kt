@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.pipelines.PipelineBaseProps
 
 @Generated
-public fun buildPipelineBaseProps(initializer: @AwsCdkDsl PipelineBaseProps.Builder.() -> Unit =
-    {}): PipelineBaseProps = PipelineBaseProps.Builder().apply(initializer).build()
+public fun buildPipelineBaseProps(initializer: @AwsCdkDsl PipelineBaseProps.Builder.() -> Unit = {}): PipelineBaseProps = PipelineBaseProps.Builder().apply(initializer).build()

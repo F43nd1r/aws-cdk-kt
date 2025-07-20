@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pcaconnectorad.CfnTemplate
 
 @Generated
-public fun buildValidityPeriodProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ValidityPeriodProperty.Builder.() -> Unit = {}): CfnTemplate.ValidityPeriodProperty
-    = CfnTemplate.ValidityPeriodProperty.Builder().apply(initializer).build()
+public fun buildValidityPeriodProperty(initializer: @AwsCdkDsl CfnTemplate.ValidityPeriodProperty.Builder.() -> Unit = {}): CfnTemplate.ValidityPeriodProperty = CfnTemplate.ValidityPeriodProperty.Builder().apply(initializer).build()

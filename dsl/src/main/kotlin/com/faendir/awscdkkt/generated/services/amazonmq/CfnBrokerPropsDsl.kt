@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.amazonmq.CfnBrokerProps
 
 @Generated
-public fun buildCfnBrokerProps(initializer: @AwsCdkDsl CfnBrokerProps.Builder.() -> Unit = {}):
-    CfnBrokerProps = CfnBrokerProps.Builder().apply(initializer).build()
+public fun buildCfnBrokerProps(initializer: @AwsCdkDsl CfnBrokerProps.Builder.() -> Unit = {}): CfnBrokerProps = CfnBrokerProps.Builder().apply(initializer).build()

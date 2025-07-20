@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnConnectorProfile
 
 @Generated
-public fun buildDynatraceConnectorProfilePropertiesProperty(initializer: @AwsCdkDsl
-    CfnConnectorProfile.DynatraceConnectorProfilePropertiesProperty.Builder.() -> Unit = {}):
-    CfnConnectorProfile.DynatraceConnectorProfilePropertiesProperty =
-    CfnConnectorProfile.DynatraceConnectorProfilePropertiesProperty.Builder().apply(initializer).build()
+public fun buildDynatraceConnectorProfilePropertiesProperty(initializer: @AwsCdkDsl CfnConnectorProfile.DynatraceConnectorProfilePropertiesProperty.Builder.() -> Unit = {}): CfnConnectorProfile.DynatraceConnectorProfilePropertiesProperty = CfnConnectorProfile.DynatraceConnectorProfilePropertiesProperty.Builder().apply(initializer).build()

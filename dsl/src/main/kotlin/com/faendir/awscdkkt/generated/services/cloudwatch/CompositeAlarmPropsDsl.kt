@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.CompositeAlarmProps
 
 @Generated
-public fun buildCompositeAlarmProps(initializer: @AwsCdkDsl CompositeAlarmProps.Builder.() -> Unit =
-    {}): CompositeAlarmProps = CompositeAlarmProps.Builder().apply(initializer).build()
+public fun buildCompositeAlarmProps(initializer: @AwsCdkDsl CompositeAlarmProps.Builder.() -> Unit = {}): CompositeAlarmProps = CompositeAlarmProps.Builder().apply(initializer).build()

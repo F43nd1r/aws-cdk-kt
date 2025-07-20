@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnDomain
 
 @Generated
-public fun buildDockerSettingsProperty(initializer: @AwsCdkDsl
-    CfnDomain.DockerSettingsProperty.Builder.() -> Unit = {}): CfnDomain.DockerSettingsProperty =
-    CfnDomain.DockerSettingsProperty.Builder().apply(initializer).build()
+public fun buildDockerSettingsProperty(initializer: @AwsCdkDsl CfnDomain.DockerSettingsProperty.Builder.() -> Unit = {}): CfnDomain.DockerSettingsProperty = CfnDomain.DockerSettingsProperty.Builder().apply(initializer).build()

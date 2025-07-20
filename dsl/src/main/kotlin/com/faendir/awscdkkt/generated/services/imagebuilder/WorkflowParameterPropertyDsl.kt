@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.imagebuilder.CfnImagePipeline
 
 @Generated
-public fun buildWorkflowParameterProperty(initializer: @AwsCdkDsl
-    CfnImagePipeline.WorkflowParameterProperty.Builder.() -> Unit = {}):
-    CfnImagePipeline.WorkflowParameterProperty =
-    CfnImagePipeline.WorkflowParameterProperty.Builder().apply(initializer).build()
+public fun buildWorkflowParameterProperty(initializer: @AwsCdkDsl CfnImagePipeline.WorkflowParameterProperty.Builder.() -> Unit = {}): CfnImagePipeline.WorkflowParameterProperty = CfnImagePipeline.WorkflowParameterProperty.Builder().apply(initializer).build()

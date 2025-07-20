@@ -16,5 +16,4 @@ public fun Construct.cfnTag(
 ): CfnTag = CfnTag(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnTag(id: String, initializer: @AwsCdkDsl CfnTag.Builder.() -> Unit =
-    {}): CfnTag = CfnTag.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnTag(id: String, initializer: @AwsCdkDsl CfnTag.Builder.() -> Unit = {}): CfnTag = CfnTag.Builder.create(this, id).apply(initializer).build()

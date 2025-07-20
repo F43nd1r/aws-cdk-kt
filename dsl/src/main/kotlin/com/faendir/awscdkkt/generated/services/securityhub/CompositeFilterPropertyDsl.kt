@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.securityhub.CfnAutomationRuleV2
 
 @Generated
-public fun buildCompositeFilterProperty(initializer: @AwsCdkDsl
-    CfnAutomationRuleV2.CompositeFilterProperty.Builder.() -> Unit = {}):
-    CfnAutomationRuleV2.CompositeFilterProperty =
-    CfnAutomationRuleV2.CompositeFilterProperty.Builder().apply(initializer).build()
+public fun buildCompositeFilterProperty(initializer: @AwsCdkDsl CfnAutomationRuleV2.CompositeFilterProperty.Builder.() -> Unit = {}): CfnAutomationRuleV2.CompositeFilterProperty = CfnAutomationRuleV2.CompositeFilterProperty.Builder().apply(initializer).build()

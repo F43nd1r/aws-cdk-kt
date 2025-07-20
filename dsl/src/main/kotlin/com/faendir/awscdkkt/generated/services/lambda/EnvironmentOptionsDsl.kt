@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.EnvironmentOptions
 
 @Generated
-public fun buildEnvironmentOptions(initializer: @AwsCdkDsl EnvironmentOptions.Builder.() -> Unit =
-    {}): EnvironmentOptions = EnvironmentOptions.Builder().apply(initializer).build()
+public fun buildEnvironmentOptions(initializer: @AwsCdkDsl EnvironmentOptions.Builder.() -> Unit = {}): EnvironmentOptions = EnvironmentOptions.Builder().apply(initializer).build()

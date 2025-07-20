@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kendra.CfnDataSource
 
 @Generated
-public fun buildConfluenceBlogConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDataSource.ConfluenceBlogConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDataSource.ConfluenceBlogConfigurationProperty =
-    CfnDataSource.ConfluenceBlogConfigurationProperty.Builder().apply(initializer).build()
+public fun buildConfluenceBlogConfigurationProperty(initializer: @AwsCdkDsl CfnDataSource.ConfluenceBlogConfigurationProperty.Builder.() -> Unit = {}): CfnDataSource.ConfluenceBlogConfigurationProperty = CfnDataSource.ConfluenceBlogConfigurationProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrContainersDeleteVirtualClusterJsonataProps
 
 @Generated
-public fun buildEmrContainersDeleteVirtualClusterJsonataProps(initializer: @AwsCdkDsl
-    EmrContainersDeleteVirtualClusterJsonataProps.Builder.() -> Unit = {}):
-    EmrContainersDeleteVirtualClusterJsonataProps =
-    EmrContainersDeleteVirtualClusterJsonataProps.Builder().apply(initializer).build()
+public fun buildEmrContainersDeleteVirtualClusterJsonataProps(initializer: @AwsCdkDsl EmrContainersDeleteVirtualClusterJsonataProps.Builder.() -> Unit = {}): EmrContainersDeleteVirtualClusterJsonataProps = EmrContainersDeleteVirtualClusterJsonataProps.Builder().apply(initializer).build()

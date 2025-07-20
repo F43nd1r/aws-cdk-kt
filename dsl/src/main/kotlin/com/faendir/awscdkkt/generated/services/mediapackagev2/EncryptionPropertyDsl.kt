@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediapackagev2.CfnOriginEndpoint
 
 @Generated
-public fun buildEncryptionProperty(initializer: @AwsCdkDsl
-    CfnOriginEndpoint.EncryptionProperty.Builder.() -> Unit = {}):
-    CfnOriginEndpoint.EncryptionProperty =
-    CfnOriginEndpoint.EncryptionProperty.Builder().apply(initializer).build()
+public fun buildEncryptionProperty(initializer: @AwsCdkDsl CfnOriginEndpoint.EncryptionProperty.Builder.() -> Unit = {}): CfnOriginEndpoint.EncryptionProperty = CfnOriginEndpoint.EncryptionProperty.Builder().apply(initializer).build()

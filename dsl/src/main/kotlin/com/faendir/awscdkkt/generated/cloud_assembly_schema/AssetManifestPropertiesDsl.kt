@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloud_assembly_schema.AssetManifestProperties
 
 @Generated
-public fun buildAssetManifestProperties(initializer: @AwsCdkDsl
-    AssetManifestProperties.Builder.() -> Unit = {}): AssetManifestProperties =
-    AssetManifestProperties.Builder().apply(initializer).build()
+public fun buildAssetManifestProperties(initializer: @AwsCdkDsl AssetManifestProperties.Builder.() -> Unit = {}): AssetManifestProperties = AssetManifestProperties.Builder().apply(initializer).build()

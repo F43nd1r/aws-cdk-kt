@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildReplicationProperty(initializer: @AwsCdkDsl
-    CfnBot.ReplicationProperty.Builder.() -> Unit = {}): CfnBot.ReplicationProperty =
-    CfnBot.ReplicationProperty.Builder().apply(initializer).build()
+public fun buildReplicationProperty(initializer: @AwsCdkDsl CfnBot.ReplicationProperty.Builder.() -> Unit = {}): CfnBot.ReplicationProperty = CfnBot.ReplicationProperty.Builder().apply(initializer).build()

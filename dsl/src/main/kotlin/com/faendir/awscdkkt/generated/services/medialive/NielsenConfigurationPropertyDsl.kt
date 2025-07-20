@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildNielsenConfigurationProperty(initializer: @AwsCdkDsl
-    CfnChannel.NielsenConfigurationProperty.Builder.() -> Unit = {}):
-    CfnChannel.NielsenConfigurationProperty =
-    CfnChannel.NielsenConfigurationProperty.Builder().apply(initializer).build()
+public fun buildNielsenConfigurationProperty(initializer: @AwsCdkDsl CfnChannel.NielsenConfigurationProperty.Builder.() -> Unit = {}): CfnChannel.NielsenConfigurationProperty = CfnChannel.NielsenConfigurationProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.CloudFormationCreateReplaceChangeSetActionProps
 
 @Generated
-public fun buildCloudFormationCreateReplaceChangeSetActionProps(initializer: @AwsCdkDsl
-    CloudFormationCreateReplaceChangeSetActionProps.Builder.() -> Unit = {}):
-    CloudFormationCreateReplaceChangeSetActionProps =
-    CloudFormationCreateReplaceChangeSetActionProps.Builder().apply(initializer).build()
+public fun buildCloudFormationCreateReplaceChangeSetActionProps(initializer: @AwsCdkDsl CloudFormationCreateReplaceChangeSetActionProps.Builder.() -> Unit = {}): CloudFormationCreateReplaceChangeSetActionProps = CloudFormationCreateReplaceChangeSetActionProps.Builder().apply(initializer).build()

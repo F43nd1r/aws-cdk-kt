@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVerifiedAccessInstanceProps
 
 @Generated
-public fun buildCfnVerifiedAccessInstanceProps(initializer: @AwsCdkDsl
-    CfnVerifiedAccessInstanceProps.Builder.() -> Unit = {}): CfnVerifiedAccessInstanceProps =
-    CfnVerifiedAccessInstanceProps.Builder().apply(initializer).build()
+public fun buildCfnVerifiedAccessInstanceProps(initializer: @AwsCdkDsl CfnVerifiedAccessInstanceProps.Builder.() -> Unit = {}): CfnVerifiedAccessInstanceProps = CfnVerifiedAccessInstanceProps.Builder().apply(initializer).build()

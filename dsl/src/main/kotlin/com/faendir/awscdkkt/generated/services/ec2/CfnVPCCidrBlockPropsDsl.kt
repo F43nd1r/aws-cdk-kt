@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVPCCidrBlockProps
 
 @Generated
-public fun buildCfnVPCCidrBlockProps(initializer: @AwsCdkDsl CfnVPCCidrBlockProps.Builder.() -> Unit
-    = {}): CfnVPCCidrBlockProps = CfnVPCCidrBlockProps.Builder().apply(initializer).build()
+public fun buildCfnVPCCidrBlockProps(initializer: @AwsCdkDsl CfnVPCCidrBlockProps.Builder.() -> Unit = {}): CfnVPCCidrBlockProps = CfnVPCCidrBlockProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediatailor.CfnPlaybackConfiguration
 
 @Generated
-public fun buildAdsInteractionLogProperty(initializer: @AwsCdkDsl
-    CfnPlaybackConfiguration.AdsInteractionLogProperty.Builder.() -> Unit = {}):
-    CfnPlaybackConfiguration.AdsInteractionLogProperty =
-    CfnPlaybackConfiguration.AdsInteractionLogProperty.Builder().apply(initializer).build()
+public fun buildAdsInteractionLogProperty(initializer: @AwsCdkDsl CfnPlaybackConfiguration.AdsInteractionLogProperty.Builder.() -> Unit = {}): CfnPlaybackConfiguration.AdsInteractionLogProperty = CfnPlaybackConfiguration.AdsInteractionLogProperty.Builder().apply(initializer).build()

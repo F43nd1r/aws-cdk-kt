@@ -16,6 +16,4 @@ public fun Construct.cfnSubscription(
 ): CfnSubscription = CfnSubscription(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSubscription(id: String, initializer: @AwsCdkDsl
-    CfnSubscription.Builder.() -> Unit = {}): CfnSubscription = CfnSubscription.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnSubscription(id: String, initializer: @AwsCdkDsl CfnSubscription.Builder.() -> Unit = {}): CfnSubscription = CfnSubscription.Builder.create(this, id).apply(initializer).build()

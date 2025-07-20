@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.actions.WorkMail
 
 @Generated
-public fun buildWorkMail(initializer: @AwsCdkDsl WorkMail.Builder.() -> Unit = {}): WorkMail =
-    WorkMail.Builder.create().apply(initializer).build()
+public fun buildWorkMail(initializer: @AwsCdkDsl WorkMail.Builder.() -> Unit = {}): WorkMail = WorkMail.Builder.create().apply(initializer).build()

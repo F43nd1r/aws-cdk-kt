@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVerifiedAccessInstance
 
 @Generated
-public fun buildS3Property(initializer: @AwsCdkDsl
-    CfnVerifiedAccessInstance.S3Property.Builder.() -> Unit = {}):
-    CfnVerifiedAccessInstance.S3Property =
-    CfnVerifiedAccessInstance.S3Property.Builder().apply(initializer).build()
+public fun buildS3Property(initializer: @AwsCdkDsl CfnVerifiedAccessInstance.S3Property.Builder.() -> Unit = {}): CfnVerifiedAccessInstance.S3Property = CfnVerifiedAccessInstance.S3Property.Builder().apply(initializer).build()

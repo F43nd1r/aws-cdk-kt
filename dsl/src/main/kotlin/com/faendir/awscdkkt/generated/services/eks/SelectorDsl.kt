@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.Selector
 
 @Generated
-public fun buildSelector(initializer: @AwsCdkDsl Selector.Builder.() -> Unit = {}): Selector =
-    Selector.Builder().apply(initializer).build()
+public fun buildSelector(initializer: @AwsCdkDsl Selector.Builder.() -> Unit = {}): Selector = Selector.Builder().apply(initializer).build()

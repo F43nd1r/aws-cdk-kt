@@ -16,6 +16,4 @@ public fun Construct.cfnCloudFormationProduct(
 ): CfnCloudFormationProduct = CfnCloudFormationProduct(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCloudFormationProduct(id: String, initializer: @AwsCdkDsl
-    CfnCloudFormationProduct.Builder.() -> Unit = {}): CfnCloudFormationProduct =
-    CfnCloudFormationProduct.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCloudFormationProduct(id: String, initializer: @AwsCdkDsl CfnCloudFormationProduct.Builder.() -> Unit = {}): CfnCloudFormationProduct = CfnCloudFormationProduct.Builder.create(this, id).apply(initializer).build()

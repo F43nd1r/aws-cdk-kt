@@ -16,6 +16,4 @@ public fun Construct.cnameRecord(
 ): CnameRecord = CnameRecord(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCnameRecord(id: String, initializer: @AwsCdkDsl
-    CnameRecord.Builder.() -> Unit = {}): CnameRecord = CnameRecord.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCnameRecord(id: String, initializer: @AwsCdkDsl CnameRecord.Builder.() -> Unit = {}): CnameRecord = CnameRecord.Builder.create(this, id).apply(initializer).build()

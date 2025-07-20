@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.CallAwsServiceJsonPathProps
 
 @Generated
-public fun buildCallAwsServiceJsonPathProps(initializer: @AwsCdkDsl
-    CallAwsServiceJsonPathProps.Builder.() -> Unit = {}): CallAwsServiceJsonPathProps =
-    CallAwsServiceJsonPathProps.Builder().apply(initializer).build()
+public fun buildCallAwsServiceJsonPathProps(initializer: @AwsCdkDsl CallAwsServiceJsonPathProps.Builder.() -> Unit = {}): CallAwsServiceJsonPathProps = CallAwsServiceJsonPathProps.Builder().apply(initializer).build()

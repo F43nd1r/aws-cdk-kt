@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildTopBottomMoversComputationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TopBottomMoversComputationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.TopBottomMoversComputationProperty =
-    CfnTemplate.TopBottomMoversComputationProperty.Builder().apply(initializer).build()
+public fun buildTopBottomMoversComputationProperty(initializer: @AwsCdkDsl CfnTemplate.TopBottomMoversComputationProperty.Builder.() -> Unit = {}): CfnTemplate.TopBottomMoversComputationProperty = CfnTemplate.TopBottomMoversComputationProperty.Builder().apply(initializer).build()

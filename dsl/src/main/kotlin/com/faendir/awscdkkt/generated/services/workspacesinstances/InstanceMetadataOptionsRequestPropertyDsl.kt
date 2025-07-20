@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.workspacesinstances.CfnWorkspaceInstance
 
 @Generated
-public fun buildInstanceMetadataOptionsRequestProperty(initializer: @AwsCdkDsl
-    CfnWorkspaceInstance.InstanceMetadataOptionsRequestProperty.Builder.() -> Unit = {}):
-    CfnWorkspaceInstance.InstanceMetadataOptionsRequestProperty =
-    CfnWorkspaceInstance.InstanceMetadataOptionsRequestProperty.Builder().apply(initializer).build()
+public fun buildInstanceMetadataOptionsRequestProperty(initializer: @AwsCdkDsl CfnWorkspaceInstance.InstanceMetadataOptionsRequestProperty.Builder.() -> Unit = {}): CfnWorkspaceInstance.InstanceMetadataOptionsRequestProperty = CfnWorkspaceInstance.InstanceMetadataOptionsRequestProperty.Builder().apply(initializer).build()

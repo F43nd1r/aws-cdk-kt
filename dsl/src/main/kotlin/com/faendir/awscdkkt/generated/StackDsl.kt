@@ -12,12 +12,10 @@ import software.constructs.Construct
 public fun stack(initializer: @AwsCdkDsl Stack.() -> Unit = {}): Stack = Stack().apply(initializer)
 
 @Generated
-public fun Construct.stack(initializer: @AwsCdkDsl Stack.() -> Unit = {}): Stack =
-    Stack(this).apply(initializer)
+public fun Construct.stack(initializer: @AwsCdkDsl Stack.() -> Unit = {}): Stack = Stack(this).apply(initializer)
 
 @Generated
-public fun Construct.stack(id: String, initializer: @AwsCdkDsl Stack.() -> Unit = {}): Stack =
-    Stack(this, id).apply(initializer)
+public fun Construct.stack(id: String, initializer: @AwsCdkDsl Stack.() -> Unit = {}): Stack = Stack(this, id).apply(initializer)
 
 @Generated
 public fun Construct.stack(
@@ -27,13 +25,10 @@ public fun Construct.stack(
 ): Stack = Stack(this, id, props).apply(initializer)
 
 @Generated
-public fun buildStack(initializer: @AwsCdkDsl Stack.Builder.() -> Unit = {}): Stack =
-    Stack.Builder.create().apply(initializer).build()
+public fun buildStack(initializer: @AwsCdkDsl Stack.Builder.() -> Unit = {}): Stack = Stack.Builder.create().apply(initializer).build()
 
 @Generated
-public fun Construct.buildStack(initializer: @AwsCdkDsl Stack.Builder.() -> Unit = {}): Stack =
-    Stack.Builder.create(this).apply(initializer).build()
+public fun Construct.buildStack(initializer: @AwsCdkDsl Stack.Builder.() -> Unit = {}): Stack = Stack.Builder.create(this).apply(initializer).build()
 
 @Generated
-public fun Construct.buildStack(id: String, initializer: @AwsCdkDsl Stack.Builder.() -> Unit = {}):
-    Stack = Stack.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildStack(id: String, initializer: @AwsCdkDsl Stack.Builder.() -> Unit = {}): Stack = Stack.Builder.create(this, id).apply(initializer).build()

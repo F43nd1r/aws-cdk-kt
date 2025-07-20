@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.GitHubSourceVariables
 
 @Generated
-public fun buildGitHubSourceVariables(initializer: @AwsCdkDsl
-    GitHubSourceVariables.Builder.() -> Unit = {}): GitHubSourceVariables =
-    GitHubSourceVariables.Builder().apply(initializer).build()
+public fun buildGitHubSourceVariables(initializer: @AwsCdkDsl GitHubSourceVariables.Builder.() -> Unit = {}): GitHubSourceVariables = GitHubSourceVariables.Builder().apply(initializer).build()

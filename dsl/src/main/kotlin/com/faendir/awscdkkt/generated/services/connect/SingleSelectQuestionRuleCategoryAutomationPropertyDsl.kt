@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnEvaluationForm
 
 @Generated
-public fun buildSingleSelectQuestionRuleCategoryAutomationProperty(initializer: @AwsCdkDsl
-    CfnEvaluationForm.SingleSelectQuestionRuleCategoryAutomationProperty.Builder.() -> Unit = {}):
-    CfnEvaluationForm.SingleSelectQuestionRuleCategoryAutomationProperty =
-    CfnEvaluationForm.SingleSelectQuestionRuleCategoryAutomationProperty.Builder().apply(initializer).build()
+public fun buildSingleSelectQuestionRuleCategoryAutomationProperty(initializer: @AwsCdkDsl CfnEvaluationForm.SingleSelectQuestionRuleCategoryAutomationProperty.Builder.() -> Unit = {}): CfnEvaluationForm.SingleSelectQuestionRuleCategoryAutomationProperty = CfnEvaluationForm.SingleSelectQuestionRuleCategoryAutomationProperty.Builder().apply(initializer).build()

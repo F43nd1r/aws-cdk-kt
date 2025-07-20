@@ -16,6 +16,4 @@ public fun Construct.snsPublish(
 ): SnsPublish = SnsPublish(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildSnsPublish(id: String, initializer: @AwsCdkDsl
-    SnsPublish.Builder.() -> Unit = {}): SnsPublish = SnsPublish.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildSnsPublish(id: String, initializer: @AwsCdkDsl SnsPublish.Builder.() -> Unit = {}): SnsPublish = SnsPublish.Builder.create(this, id).apply(initializer).build()

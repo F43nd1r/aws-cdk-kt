@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.DlqDestinationConfig
 
 @Generated
-public fun buildDlqDestinationConfig(initializer: @AwsCdkDsl DlqDestinationConfig.Builder.() -> Unit
-    = {}): DlqDestinationConfig = DlqDestinationConfig.Builder().apply(initializer).build()
+public fun buildDlqDestinationConfig(initializer: @AwsCdkDsl DlqDestinationConfig.Builder.() -> Unit = {}): DlqDestinationConfig = DlqDestinationConfig.Builder().apply(initializer).build()

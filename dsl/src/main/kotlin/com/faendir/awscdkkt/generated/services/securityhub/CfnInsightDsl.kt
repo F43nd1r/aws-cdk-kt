@@ -16,6 +16,4 @@ public fun Construct.cfnInsight(
 ): CfnInsight = CfnInsight(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnInsight(id: String, initializer: @AwsCdkDsl
-    CfnInsight.Builder.() -> Unit = {}): CfnInsight = CfnInsight.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnInsight(id: String, initializer: @AwsCdkDsl CfnInsight.Builder.() -> Unit = {}): CfnInsight = CfnInsight.Builder.create(this, id).apply(initializer).build()

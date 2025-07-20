@@ -7,6 +7,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cxapi.CloudAssembly
 
 @Generated
-public fun buildCloudAssembly(directory: String, initializer: @AwsCdkDsl
-    CloudAssembly.Builder.() -> Unit = {}): CloudAssembly =
-    CloudAssembly.Builder.create(directory).apply(initializer).build()
+public fun buildCloudAssembly(directory: String, initializer: @AwsCdkDsl CloudAssembly.Builder.() -> Unit = {}): CloudAssembly = CloudAssembly.Builder.create(directory).apply(initializer).build()

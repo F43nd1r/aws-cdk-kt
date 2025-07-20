@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVPCEndpointProps
 
 @Generated
-public fun buildCfnVPCEndpointProps(initializer: @AwsCdkDsl CfnVPCEndpointProps.Builder.() -> Unit =
-    {}): CfnVPCEndpointProps = CfnVPCEndpointProps.Builder().apply(initializer).build()
+public fun buildCfnVPCEndpointProps(initializer: @AwsCdkDsl CfnVPCEndpointProps.Builder.() -> Unit = {}): CfnVPCEndpointProps = CfnVPCEndpointProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3tables.CfnTable
 
 @Generated
-public fun buildSnapshotManagementProperty(initializer: @AwsCdkDsl
-    CfnTable.SnapshotManagementProperty.Builder.() -> Unit = {}):
-    CfnTable.SnapshotManagementProperty =
-    CfnTable.SnapshotManagementProperty.Builder().apply(initializer).build()
+public fun buildSnapshotManagementProperty(initializer: @AwsCdkDsl CfnTable.SnapshotManagementProperty.Builder.() -> Unit = {}): CfnTable.SnapshotManagementProperty = CfnTable.SnapshotManagementProperty.Builder().apply(initializer).build()

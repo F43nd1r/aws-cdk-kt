@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.identitypool.IdentityPoolProps
 
 @Generated
-public fun buildIdentityPoolProps(initializer: @AwsCdkDsl IdentityPoolProps.Builder.() -> Unit =
-    {}): IdentityPoolProps = IdentityPoolProps.Builder().apply(initializer).build()
+public fun buildIdentityPoolProps(initializer: @AwsCdkDsl IdentityPoolProps.Builder.() -> Unit = {}): IdentityPoolProps = IdentityPoolProps.Builder().apply(initializer).build()

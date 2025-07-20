@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.MySqlInstanceEngineProps
 
 @Generated
-public fun buildMySqlInstanceEngineProps(initializer: @AwsCdkDsl
-    MySqlInstanceEngineProps.Builder.() -> Unit = {}): MySqlInstanceEngineProps =
-    MySqlInstanceEngineProps.Builder().apply(initializer).build()
+public fun buildMySqlInstanceEngineProps(initializer: @AwsCdkDsl MySqlInstanceEngineProps.Builder.() -> Unit = {}): MySqlInstanceEngineProps = MySqlInstanceEngineProps.Builder().apply(initializer).build()

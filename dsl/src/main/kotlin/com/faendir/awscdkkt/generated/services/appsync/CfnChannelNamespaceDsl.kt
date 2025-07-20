@@ -16,6 +16,4 @@ public fun Construct.cfnChannelNamespace(
 ): CfnChannelNamespace = CfnChannelNamespace(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnChannelNamespace(id: String, initializer: @AwsCdkDsl
-    CfnChannelNamespace.Builder.() -> Unit = {}): CfnChannelNamespace =
-    CfnChannelNamespace.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnChannelNamespace(id: String, initializer: @AwsCdkDsl CfnChannelNamespace.Builder.() -> Unit = {}): CfnChannelNamespace = CfnChannelNamespace.Builder.create(this, id).apply(initializer).build()

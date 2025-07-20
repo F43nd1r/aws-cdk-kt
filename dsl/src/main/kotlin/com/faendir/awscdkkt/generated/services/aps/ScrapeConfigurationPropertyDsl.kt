@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.aps.CfnScraper
 
 @Generated
-public fun buildScrapeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnScraper.ScrapeConfigurationProperty.Builder.() -> Unit = {}):
-    CfnScraper.ScrapeConfigurationProperty =
-    CfnScraper.ScrapeConfigurationProperty.Builder().apply(initializer).build()
+public fun buildScrapeConfigurationProperty(initializer: @AwsCdkDsl CfnScraper.ScrapeConfigurationProperty.Builder.() -> Unit = {}): CfnScraper.ScrapeConfigurationProperty = CfnScraper.ScrapeConfigurationProperty.Builder().apply(initializer).build()

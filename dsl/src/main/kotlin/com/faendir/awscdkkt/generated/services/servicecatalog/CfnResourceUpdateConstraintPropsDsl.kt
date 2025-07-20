@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicecatalog.CfnResourceUpdateConstraintProps
 
 @Generated
-public fun buildCfnResourceUpdateConstraintProps(initializer: @AwsCdkDsl
-    CfnResourceUpdateConstraintProps.Builder.() -> Unit = {}): CfnResourceUpdateConstraintProps =
-    CfnResourceUpdateConstraintProps.Builder().apply(initializer).build()
+public fun buildCfnResourceUpdateConstraintProps(initializer: @AwsCdkDsl CfnResourceUpdateConstraintProps.Builder.() -> Unit = {}): CfnResourceUpdateConstraintProps = CfnResourceUpdateConstraintProps.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnPackagingConfiguration(
 ): CfnPackagingConfiguration = CfnPackagingConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPackagingConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnPackagingConfiguration.Builder.() -> Unit = {}): CfnPackagingConfiguration =
-    CfnPackagingConfiguration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPackagingConfiguration(id: String, initializer: @AwsCdkDsl CfnPackagingConfiguration.Builder.() -> Unit = {}): CfnPackagingConfiguration = CfnPackagingConfiguration.Builder.create(this, id).apply(initializer).build()

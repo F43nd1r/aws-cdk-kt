@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnTransformer
 
 @Generated
-public fun buildDateTimeConverterProperty(initializer: @AwsCdkDsl
-    CfnTransformer.DateTimeConverterProperty.Builder.() -> Unit = {}):
-    CfnTransformer.DateTimeConverterProperty =
-    CfnTransformer.DateTimeConverterProperty.Builder().apply(initializer).build()
+public fun buildDateTimeConverterProperty(initializer: @AwsCdkDsl CfnTransformer.DateTimeConverterProperty.Builder.() -> Unit = {}): CfnTransformer.DateTimeConverterProperty = CfnTransformer.DateTimeConverterProperty.Builder().apply(initializer).build()

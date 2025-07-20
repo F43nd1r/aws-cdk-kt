@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnGatewayRoute
 
 @Generated
-public fun buildGrpcGatewayRouteActionProperty(initializer: @AwsCdkDsl
-    CfnGatewayRoute.GrpcGatewayRouteActionProperty.Builder.() -> Unit = {}):
-    CfnGatewayRoute.GrpcGatewayRouteActionProperty =
-    CfnGatewayRoute.GrpcGatewayRouteActionProperty.Builder().apply(initializer).build()
+public fun buildGrpcGatewayRouteActionProperty(initializer: @AwsCdkDsl CfnGatewayRoute.GrpcGatewayRouteActionProperty.Builder.() -> Unit = {}): CfnGatewayRoute.GrpcGatewayRouteActionProperty = CfnGatewayRoute.GrpcGatewayRouteActionProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnMultiplexProps
 
 @Generated
-public fun buildCfnMultiplexProps(initializer: @AwsCdkDsl CfnMultiplexProps.Builder.() -> Unit =
-    {}): CfnMultiplexProps = CfnMultiplexProps.Builder().apply(initializer).build()
+public fun buildCfnMultiplexProps(initializer: @AwsCdkDsl CfnMultiplexProps.Builder.() -> Unit = {}): CfnMultiplexProps = CfnMultiplexProps.Builder().apply(initializer).build()

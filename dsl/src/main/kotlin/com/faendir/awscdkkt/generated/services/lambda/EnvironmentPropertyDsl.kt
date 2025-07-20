@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.CfnFunction
 
 @Generated
-public fun buildEnvironmentProperty(initializer: @AwsCdkDsl
-    CfnFunction.EnvironmentProperty.Builder.() -> Unit = {}): CfnFunction.EnvironmentProperty =
-    CfnFunction.EnvironmentProperty.Builder().apply(initializer).build()
+public fun buildEnvironmentProperty(initializer: @AwsCdkDsl CfnFunction.EnvironmentProperty.Builder.() -> Unit = {}): CfnFunction.EnvironmentProperty = CfnFunction.EnvironmentProperty.Builder().apply(initializer).build()

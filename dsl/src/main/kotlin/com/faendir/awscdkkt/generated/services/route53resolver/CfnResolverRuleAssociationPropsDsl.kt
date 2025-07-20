@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53resolver.CfnResolverRuleAssociationProps
 
 @Generated
-public fun buildCfnResolverRuleAssociationProps(initializer: @AwsCdkDsl
-    CfnResolverRuleAssociationProps.Builder.() -> Unit = {}): CfnResolverRuleAssociationProps =
-    CfnResolverRuleAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnResolverRuleAssociationProps(initializer: @AwsCdkDsl CfnResolverRuleAssociationProps.Builder.() -> Unit = {}): CfnResolverRuleAssociationProps = CfnResolverRuleAssociationProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.config.CfnRemediationConfiguration
 
 @Generated
-public fun buildRemediationParameterValueProperty(initializer: @AwsCdkDsl
-    CfnRemediationConfiguration.RemediationParameterValueProperty.Builder.() -> Unit = {}):
-    CfnRemediationConfiguration.RemediationParameterValueProperty =
-    CfnRemediationConfiguration.RemediationParameterValueProperty.Builder().apply(initializer).build()
+public fun buildRemediationParameterValueProperty(initializer: @AwsCdkDsl CfnRemediationConfiguration.RemediationParameterValueProperty.Builder.() -> Unit = {}): CfnRemediationConfiguration.RemediationParameterValueProperty = CfnRemediationConfiguration.RemediationParameterValueProperty.Builder().apply(initializer).build()

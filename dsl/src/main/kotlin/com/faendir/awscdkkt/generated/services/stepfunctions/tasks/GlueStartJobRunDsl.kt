@@ -16,6 +16,4 @@ public fun Construct.glueStartJobRun(
 ): GlueStartJobRun = GlueStartJobRun(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildGlueStartJobRun(id: String, initializer: @AwsCdkDsl
-    GlueStartJobRun.Builder.() -> Unit = {}): GlueStartJobRun = GlueStartJobRun.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildGlueStartJobRun(id: String, initializer: @AwsCdkDsl GlueStartJobRun.Builder.() -> Unit = {}): GlueStartJobRun = GlueStartJobRun.Builder.create(this, id).apply(initializer).build()

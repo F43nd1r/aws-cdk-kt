@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnInput
 
 @Generated
-public fun buildMediaConnectFlowRequestProperty(initializer: @AwsCdkDsl
-    CfnInput.MediaConnectFlowRequestProperty.Builder.() -> Unit = {}):
-    CfnInput.MediaConnectFlowRequestProperty =
-    CfnInput.MediaConnectFlowRequestProperty.Builder().apply(initializer).build()
+public fun buildMediaConnectFlowRequestProperty(initializer: @AwsCdkDsl CfnInput.MediaConnectFlowRequestProperty.Builder.() -> Unit = {}): CfnInput.MediaConnectFlowRequestProperty = CfnInput.MediaConnectFlowRequestProperty.Builder().apply(initializer).build()

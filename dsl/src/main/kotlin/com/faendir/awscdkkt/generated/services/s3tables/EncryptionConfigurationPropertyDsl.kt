@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3tables.CfnTableBucket
 
 @Generated
-public fun buildEncryptionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTableBucket.EncryptionConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTableBucket.EncryptionConfigurationProperty =
-    CfnTableBucket.EncryptionConfigurationProperty.Builder().apply(initializer).build()
+public fun buildEncryptionConfigurationProperty(initializer: @AwsCdkDsl CfnTableBucket.EncryptionConfigurationProperty.Builder.() -> Unit = {}): CfnTableBucket.EncryptionConfigurationProperty = CfnTableBucket.EncryptionConfigurationProperty.Builder().apply(initializer).build()

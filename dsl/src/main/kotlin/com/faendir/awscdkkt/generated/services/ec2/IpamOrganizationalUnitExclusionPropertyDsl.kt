@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnIPAM
 
 @Generated
-public fun buildIpamOrganizationalUnitExclusionProperty(initializer: @AwsCdkDsl
-    CfnIPAM.IpamOrganizationalUnitExclusionProperty.Builder.() -> Unit = {}):
-    CfnIPAM.IpamOrganizationalUnitExclusionProperty =
-    CfnIPAM.IpamOrganizationalUnitExclusionProperty.Builder().apply(initializer).build()
+public fun buildIpamOrganizationalUnitExclusionProperty(initializer: @AwsCdkDsl CfnIPAM.IpamOrganizationalUnitExclusionProperty.Builder.() -> Unit = {}): CfnIPAM.IpamOrganizationalUnitExclusionProperty = CfnIPAM.IpamOrganizationalUnitExclusionProperty.Builder().apply(initializer).build()

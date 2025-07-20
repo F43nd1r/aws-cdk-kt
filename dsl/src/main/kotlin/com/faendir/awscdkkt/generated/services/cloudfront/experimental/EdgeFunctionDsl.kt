@@ -16,6 +16,4 @@ public fun Construct.edgeFunction(
 ): EdgeFunction = EdgeFunction(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEdgeFunction(id: String, initializer: @AwsCdkDsl
-    EdgeFunction.Builder.() -> Unit = {}): EdgeFunction = EdgeFunction.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildEdgeFunction(id: String, initializer: @AwsCdkDsl EdgeFunction.Builder.() -> Unit = {}): EdgeFunction = EdgeFunction.Builder.create(this, id).apply(initializer).build()

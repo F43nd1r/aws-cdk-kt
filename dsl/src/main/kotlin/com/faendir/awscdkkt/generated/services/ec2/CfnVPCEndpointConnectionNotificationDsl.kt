@@ -13,11 +13,7 @@ public fun Construct.cfnVPCEndpointConnectionNotification(
   id: String,
   props: CfnVPCEndpointConnectionNotificationProps,
   initializer: @AwsCdkDsl CfnVPCEndpointConnectionNotification.() -> Unit = {},
-): CfnVPCEndpointConnectionNotification = CfnVPCEndpointConnectionNotification(this, id,
-    props).apply(initializer)
+): CfnVPCEndpointConnectionNotification = CfnVPCEndpointConnectionNotification(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVPCEndpointConnectionNotification(id: String, initializer: @AwsCdkDsl
-    CfnVPCEndpointConnectionNotification.Builder.() -> Unit = {}):
-    CfnVPCEndpointConnectionNotification = CfnVPCEndpointConnectionNotification.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnVPCEndpointConnectionNotification(id: String, initializer: @AwsCdkDsl CfnVPCEndpointConnectionNotification.Builder.() -> Unit = {}): CfnVPCEndpointConnectionNotification = CfnVPCEndpointConnectionNotification.Builder.create(this, id).apply(initializer).build()

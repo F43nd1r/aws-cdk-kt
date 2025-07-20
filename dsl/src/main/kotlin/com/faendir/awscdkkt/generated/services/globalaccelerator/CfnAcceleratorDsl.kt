@@ -16,6 +16,4 @@ public fun Construct.cfnAccelerator(
 ): CfnAccelerator = CfnAccelerator(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAccelerator(id: String, initializer: @AwsCdkDsl
-    CfnAccelerator.Builder.() -> Unit = {}): CfnAccelerator = CfnAccelerator.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnAccelerator(id: String, initializer: @AwsCdkDsl CfnAccelerator.Builder.() -> Unit = {}): CfnAccelerator = CfnAccelerator.Builder.create(this, id).apply(initializer).build()

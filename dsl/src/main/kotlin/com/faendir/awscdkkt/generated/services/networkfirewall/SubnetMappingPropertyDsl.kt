@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkfirewall.CfnVpcEndpointAssociation
 
 @Generated
-public fun buildSubnetMappingProperty(initializer: @AwsCdkDsl
-    CfnVpcEndpointAssociation.SubnetMappingProperty.Builder.() -> Unit = {}):
-    CfnVpcEndpointAssociation.SubnetMappingProperty =
-    CfnVpcEndpointAssociation.SubnetMappingProperty.Builder().apply(initializer).build()
+public fun buildSubnetMappingProperty(initializer: @AwsCdkDsl CfnVpcEndpointAssociation.SubnetMappingProperty.Builder.() -> Unit = {}): CfnVpcEndpointAssociation.SubnetMappingProperty = CfnVpcEndpointAssociation.SubnetMappingProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnFlowVersion
 
 @Generated
-public fun buildMetadataConfigurationForRerankingProperty(initializer: @AwsCdkDsl
-    CfnFlowVersion.MetadataConfigurationForRerankingProperty.Builder.() -> Unit = {}):
-    CfnFlowVersion.MetadataConfigurationForRerankingProperty =
-    CfnFlowVersion.MetadataConfigurationForRerankingProperty.Builder().apply(initializer).build()
+public fun buildMetadataConfigurationForRerankingProperty(initializer: @AwsCdkDsl CfnFlowVersion.MetadataConfigurationForRerankingProperty.Builder.() -> Unit = {}): CfnFlowVersion.MetadataConfigurationForRerankingProperty = CfnFlowVersion.MetadataConfigurationForRerankingProperty.Builder().apply(initializer).build()

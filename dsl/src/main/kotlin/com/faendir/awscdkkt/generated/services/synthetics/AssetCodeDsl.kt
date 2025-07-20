@@ -7,5 +7,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.synthetics.AssetCode
 
 @Generated
-public fun buildAssetCode(assetPath: String, initializer: @AwsCdkDsl AssetCode.Builder.() -> Unit =
-    {}): AssetCode = AssetCode.Builder.create(assetPath).apply(initializer).build()
+public fun buildAssetCode(assetPath: String, initializer: @AwsCdkDsl AssetCode.Builder.() -> Unit = {}): AssetCode = AssetCode.Builder.create(assetPath).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
-public fun buildInventoryConfigurationProperty(initializer: @AwsCdkDsl
-    CfnBucket.InventoryConfigurationProperty.Builder.() -> Unit = {}):
-    CfnBucket.InventoryConfigurationProperty =
-    CfnBucket.InventoryConfigurationProperty.Builder().apply(initializer).build()
+public fun buildInventoryConfigurationProperty(initializer: @AwsCdkDsl CfnBucket.InventoryConfigurationProperty.Builder.() -> Unit = {}): CfnBucket.InventoryConfigurationProperty = CfnBucket.InventoryConfigurationProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.requestAuthorizer(
 ): RequestAuthorizer = RequestAuthorizer(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildRequestAuthorizer(id: String, initializer: @AwsCdkDsl
-    RequestAuthorizer.Builder.() -> Unit = {}): RequestAuthorizer =
-    RequestAuthorizer.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildRequestAuthorizer(id: String, initializer: @AwsCdkDsl RequestAuthorizer.Builder.() -> Unit = {}): RequestAuthorizer = RequestAuthorizer.Builder.create(this, id).apply(initializer).build()

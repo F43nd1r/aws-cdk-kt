@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cxapi.AssemblyBuildOptions
 
 @Generated
-public fun buildAssemblyBuildOptions(initializer: @AwsCdkDsl AssemblyBuildOptions.Builder.() -> Unit
-    = {}): AssemblyBuildOptions = AssemblyBuildOptions.Builder().apply(initializer).build()
+public fun buildAssemblyBuildOptions(initializer: @AwsCdkDsl AssemblyBuildOptions.Builder.() -> Unit = {}): AssemblyBuildOptions = AssemblyBuildOptions.Builder().apply(initializer).build()

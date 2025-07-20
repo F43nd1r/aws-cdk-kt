@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3express.CfnDirectoryBucket
 
 @Generated
-public fun buildLifecycleConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDirectoryBucket.LifecycleConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDirectoryBucket.LifecycleConfigurationProperty =
-    CfnDirectoryBucket.LifecycleConfigurationProperty.Builder().apply(initializer).build()
+public fun buildLifecycleConfigurationProperty(initializer: @AwsCdkDsl CfnDirectoryBucket.LifecycleConfigurationProperty.Builder.() -> Unit = {}): CfnDirectoryBucket.LifecycleConfigurationProperty = CfnDirectoryBucket.LifecycleConfigurationProperty.Builder().apply(initializer).build()

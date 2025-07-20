@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.apigateway.CfnClientCertificateProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnClientCertificate(id: String, initializer: @AwsCdkDsl
-    CfnClientCertificate.() -> Unit = {}): CfnClientCertificate = CfnClientCertificate(this,
-    id).apply(initializer)
+public fun Construct.cfnClientCertificate(id: String, initializer: @AwsCdkDsl CfnClientCertificate.() -> Unit = {}): CfnClientCertificate = CfnClientCertificate(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnClientCertificate(
@@ -21,6 +19,4 @@ public fun Construct.cfnClientCertificate(
 ): CfnClientCertificate = CfnClientCertificate(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnClientCertificate(id: String, initializer: @AwsCdkDsl
-    CfnClientCertificate.Builder.() -> Unit = {}): CfnClientCertificate =
-    CfnClientCertificate.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnClientCertificate(id: String, initializer: @AwsCdkDsl CfnClientCertificate.Builder.() -> Unit = {}): CfnClientCertificate = CfnClientCertificate.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.ExecuteFileOptions
 
 @Generated
-public fun buildExecuteFileOptions(initializer: @AwsCdkDsl ExecuteFileOptions.Builder.() -> Unit =
-    {}): ExecuteFileOptions = ExecuteFileOptions.Builder().apply(initializer).build()
+public fun buildExecuteFileOptions(initializer: @AwsCdkDsl ExecuteFileOptions.Builder.() -> Unit = {}): ExecuteFileOptions = ExecuteFileOptions.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.OutputDataConfig
 
 @Generated
-public fun buildOutputDataConfig(initializer: @AwsCdkDsl OutputDataConfig.Builder.() -> Unit = {}):
-    OutputDataConfig = OutputDataConfig.Builder().apply(initializer).build()
+public fun buildOutputDataConfig(initializer: @AwsCdkDsl OutputDataConfig.Builder.() -> Unit = {}): OutputDataConfig = OutputDataConfig.Builder().apply(initializer).build()

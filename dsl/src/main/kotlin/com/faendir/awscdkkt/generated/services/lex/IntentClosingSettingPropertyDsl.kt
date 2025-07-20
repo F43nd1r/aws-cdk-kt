@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildIntentClosingSettingProperty(initializer: @AwsCdkDsl
-    CfnBot.IntentClosingSettingProperty.Builder.() -> Unit = {}):
-    CfnBot.IntentClosingSettingProperty =
-    CfnBot.IntentClosingSettingProperty.Builder().apply(initializer).build()
+public fun buildIntentClosingSettingProperty(initializer: @AwsCdkDsl CfnBot.IntentClosingSettingProperty.Builder.() -> Unit = {}): CfnBot.IntentClosingSettingProperty = CfnBot.IntentClosingSettingProperty.Builder().apply(initializer).build()

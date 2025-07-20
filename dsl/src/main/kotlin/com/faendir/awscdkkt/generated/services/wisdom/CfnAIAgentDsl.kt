@@ -16,6 +16,4 @@ public fun Construct.cfnAIAgent(
 ): CfnAIAgent = CfnAIAgent(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAIAgent(id: String, initializer: @AwsCdkDsl
-    CfnAIAgent.Builder.() -> Unit = {}): CfnAIAgent = CfnAIAgent.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnAIAgent(id: String, initializer: @AwsCdkDsl CfnAIAgent.Builder.() -> Unit = {}): CfnAIAgent = CfnAIAgent.Builder.create(this, id).apply(initializer).build()

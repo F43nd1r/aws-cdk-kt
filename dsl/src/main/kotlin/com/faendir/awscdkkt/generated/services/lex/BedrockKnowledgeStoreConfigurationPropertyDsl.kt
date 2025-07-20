@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildBedrockKnowledgeStoreConfigurationProperty(initializer: @AwsCdkDsl
-    CfnBot.BedrockKnowledgeStoreConfigurationProperty.Builder.() -> Unit = {}):
-    CfnBot.BedrockKnowledgeStoreConfigurationProperty =
-    CfnBot.BedrockKnowledgeStoreConfigurationProperty.Builder().apply(initializer).build()
+public fun buildBedrockKnowledgeStoreConfigurationProperty(initializer: @AwsCdkDsl CfnBot.BedrockKnowledgeStoreConfigurationProperty.Builder.() -> Unit = {}): CfnBot.BedrockKnowledgeStoreConfigurationProperty = CfnBot.BedrockKnowledgeStoreConfigurationProperty.Builder().apply(initializer).build()

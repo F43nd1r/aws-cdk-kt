@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildHlsWebdavSettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.HlsWebdavSettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.HlsWebdavSettingsProperty =
-    CfnChannel.HlsWebdavSettingsProperty.Builder().apply(initializer).build()
+public fun buildHlsWebdavSettingsProperty(initializer: @AwsCdkDsl CfnChannel.HlsWebdavSettingsProperty.Builder.() -> Unit = {}): CfnChannel.HlsWebdavSettingsProperty = CfnChannel.HlsWebdavSettingsProperty.Builder().apply(initializer).build()

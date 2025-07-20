@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.SecurityGroupProps
 
 @Generated
-public fun buildSecurityGroupProps(initializer: @AwsCdkDsl SecurityGroupProps.Builder.() -> Unit =
-    {}): SecurityGroupProps = SecurityGroupProps.Builder().apply(initializer).build()
+public fun buildSecurityGroupProps(initializer: @AwsCdkDsl SecurityGroupProps.Builder.() -> Unit = {}): SecurityGroupProps = SecurityGroupProps.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.ReceiptFilterProps
 
 @Generated
-public fun buildReceiptFilterProps(initializer: @AwsCdkDsl ReceiptFilterProps.Builder.() -> Unit =
-    {}): ReceiptFilterProps = ReceiptFilterProps.Builder().apply(initializer).build()
+public fun buildReceiptFilterProps(initializer: @AwsCdkDsl ReceiptFilterProps.Builder.() -> Unit = {}): ReceiptFilterProps = ReceiptFilterProps.Builder().apply(initializer).build()

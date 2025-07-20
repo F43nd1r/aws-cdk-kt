@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.StageOptions
 
 @Generated
-public fun buildStageOptions(initializer: @AwsCdkDsl StageOptions.Builder.() -> Unit = {}):
-    StageOptions = StageOptions.Builder().apply(initializer).build()
+public fun buildStageOptions(initializer: @AwsCdkDsl StageOptions.Builder.() -> Unit = {}): StageOptions = StageOptions.Builder().apply(initializer).build()

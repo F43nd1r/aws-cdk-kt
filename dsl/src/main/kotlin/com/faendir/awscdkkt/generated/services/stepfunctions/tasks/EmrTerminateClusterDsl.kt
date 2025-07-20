@@ -16,6 +16,4 @@ public fun Construct.emrTerminateCluster(
 ): EmrTerminateCluster = EmrTerminateCluster(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEmrTerminateCluster(id: String, initializer: @AwsCdkDsl
-    EmrTerminateCluster.Builder.() -> Unit = {}): EmrTerminateCluster =
-    EmrTerminateCluster.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildEmrTerminateCluster(id: String, initializer: @AwsCdkDsl EmrTerminateCluster.Builder.() -> Unit = {}): EmrTerminateCluster = EmrTerminateCluster.Builder.create(this, id).apply(initializer).build()

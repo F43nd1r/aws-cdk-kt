@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildSingleMeasureMappingProperty(initializer: @AwsCdkDsl
-    CfnPipe.SingleMeasureMappingProperty.Builder.() -> Unit = {}):
-    CfnPipe.SingleMeasureMappingProperty =
-    CfnPipe.SingleMeasureMappingProperty.Builder().apply(initializer).build()
+public fun buildSingleMeasureMappingProperty(initializer: @AwsCdkDsl CfnPipe.SingleMeasureMappingProperty.Builder.() -> Unit = {}): CfnPipe.SingleMeasureMappingProperty = CfnPipe.SingleMeasureMappingProperty.Builder().apply(initializer).build()

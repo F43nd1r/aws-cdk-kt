@@ -16,6 +16,4 @@ public fun Construct.cfnEgressOnlyInternetGateway(
 ): CfnEgressOnlyInternetGateway = CfnEgressOnlyInternetGateway(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnEgressOnlyInternetGateway(id: String, initializer: @AwsCdkDsl
-    CfnEgressOnlyInternetGateway.Builder.() -> Unit = {}): CfnEgressOnlyInternetGateway =
-    CfnEgressOnlyInternetGateway.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnEgressOnlyInternetGateway(id: String, initializer: @AwsCdkDsl CfnEgressOnlyInternetGateway.Builder.() -> Unit = {}): CfnEgressOnlyInternetGateway = CfnEgressOnlyInternetGateway.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnDataCatalog(
 ): CfnDataCatalog = CfnDataCatalog(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDataCatalog(id: String, initializer: @AwsCdkDsl
-    CfnDataCatalog.Builder.() -> Unit = {}): CfnDataCatalog = CfnDataCatalog.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnDataCatalog(id: String, initializer: @AwsCdkDsl CfnDataCatalog.Builder.() -> Unit = {}): CfnDataCatalog = CfnDataCatalog.Builder.create(this, id).apply(initializer).build()

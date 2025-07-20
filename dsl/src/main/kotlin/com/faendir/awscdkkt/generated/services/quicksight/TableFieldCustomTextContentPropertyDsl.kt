@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildTableFieldCustomTextContentProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TableFieldCustomTextContentProperty.Builder.() -> Unit = {}):
-    CfnTemplate.TableFieldCustomTextContentProperty =
-    CfnTemplate.TableFieldCustomTextContentProperty.Builder().apply(initializer).build()
+public fun buildTableFieldCustomTextContentProperty(initializer: @AwsCdkDsl CfnTemplate.TableFieldCustomTextContentProperty.Builder.() -> Unit = {}): CfnTemplate.TableFieldCustomTextContentProperty = CfnTemplate.TableFieldCustomTextContentProperty.Builder().apply(initializer).build()

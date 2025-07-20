@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.comprehend.CfnFlywheel
 
 @Generated
-public fun buildEntityRecognitionConfigProperty(initializer: @AwsCdkDsl
-    CfnFlywheel.EntityRecognitionConfigProperty.Builder.() -> Unit = {}):
-    CfnFlywheel.EntityRecognitionConfigProperty =
-    CfnFlywheel.EntityRecognitionConfigProperty.Builder().apply(initializer).build()
+public fun buildEntityRecognitionConfigProperty(initializer: @AwsCdkDsl CfnFlywheel.EntityRecognitionConfigProperty.Builder.() -> Unit = {}): CfnFlywheel.EntityRecognitionConfigProperty = CfnFlywheel.EntityRecognitionConfigProperty.Builder().apply(initializer).build()

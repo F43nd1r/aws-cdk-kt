@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnSchemaVersionMetadataProps
 
 @Generated
-public fun buildCfnSchemaVersionMetadataProps(initializer: @AwsCdkDsl
-    CfnSchemaVersionMetadataProps.Builder.() -> Unit = {}): CfnSchemaVersionMetadataProps =
-    CfnSchemaVersionMetadataProps.Builder().apply(initializer).build()
+public fun buildCfnSchemaVersionMetadataProps(initializer: @AwsCdkDsl CfnSchemaVersionMetadataProps.Builder.() -> Unit = {}): CfnSchemaVersionMetadataProps = CfnSchemaVersionMetadataProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudformation.CfnLambdaHook
 
 @Generated
-public fun buildTargetFiltersProperty(initializer: @AwsCdkDsl
-    CfnLambdaHook.TargetFiltersProperty.Builder.() -> Unit = {}):
-    CfnLambdaHook.TargetFiltersProperty =
-    CfnLambdaHook.TargetFiltersProperty.Builder().apply(initializer).build()
+public fun buildTargetFiltersProperty(initializer: @AwsCdkDsl CfnLambdaHook.TargetFiltersProperty.Builder.() -> Unit = {}): CfnLambdaHook.TargetFiltersProperty = CfnLambdaHook.TargetFiltersProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudformation.CfnStackSetProps
 
 @Generated
-public fun buildCfnStackSetProps(initializer: @AwsCdkDsl CfnStackSetProps.Builder.() -> Unit = {}):
-    CfnStackSetProps = CfnStackSetProps.Builder().apply(initializer).build()
+public fun buildCfnStackSetProps(initializer: @AwsCdkDsl CfnStackSetProps.Builder.() -> Unit = {}): CfnStackSetProps = CfnStackSetProps.Builder().apply(initializer).build()

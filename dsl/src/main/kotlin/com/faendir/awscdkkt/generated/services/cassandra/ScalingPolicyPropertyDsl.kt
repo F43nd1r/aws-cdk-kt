@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cassandra.CfnTable
 
 @Generated
-public fun buildScalingPolicyProperty(initializer: @AwsCdkDsl
-    CfnTable.ScalingPolicyProperty.Builder.() -> Unit = {}): CfnTable.ScalingPolicyProperty =
-    CfnTable.ScalingPolicyProperty.Builder().apply(initializer).build()
+public fun buildScalingPolicyProperty(initializer: @AwsCdkDsl CfnTable.ScalingPolicyProperty.Builder.() -> Unit = {}): CfnTable.ScalingPolicyProperty = CfnTable.ScalingPolicyProperty.Builder().apply(initializer).build()

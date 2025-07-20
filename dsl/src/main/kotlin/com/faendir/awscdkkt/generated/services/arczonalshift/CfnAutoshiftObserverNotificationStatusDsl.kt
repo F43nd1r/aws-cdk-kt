@@ -13,11 +13,7 @@ public fun Construct.cfnAutoshiftObserverNotificationStatus(
   id: String,
   props: CfnAutoshiftObserverNotificationStatusProps,
   initializer: @AwsCdkDsl CfnAutoshiftObserverNotificationStatus.() -> Unit = {},
-): CfnAutoshiftObserverNotificationStatus = CfnAutoshiftObserverNotificationStatus(this, id,
-    props).apply(initializer)
+): CfnAutoshiftObserverNotificationStatus = CfnAutoshiftObserverNotificationStatus(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAutoshiftObserverNotificationStatus(id: String, initializer: @AwsCdkDsl
-    CfnAutoshiftObserverNotificationStatus.Builder.() -> Unit = {}):
-    CfnAutoshiftObserverNotificationStatus =
-    CfnAutoshiftObserverNotificationStatus.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAutoshiftObserverNotificationStatus(id: String, initializer: @AwsCdkDsl CfnAutoshiftObserverNotificationStatus.Builder.() -> Unit = {}): CfnAutoshiftObserverNotificationStatus = CfnAutoshiftObserverNotificationStatus.Builder.create(this, id).apply(initializer).build()

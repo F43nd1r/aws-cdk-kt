@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.customresources.ProviderProps
 
 @Generated
-public fun buildProviderProps(initializer: @AwsCdkDsl ProviderProps.Builder.() -> Unit = {}):
-    ProviderProps = ProviderProps.Builder().apply(initializer).build()
+public fun buildProviderProps(initializer: @AwsCdkDsl ProviderProps.Builder.() -> Unit = {}): ProviderProps = ProviderProps.Builder().apply(initializer).build()

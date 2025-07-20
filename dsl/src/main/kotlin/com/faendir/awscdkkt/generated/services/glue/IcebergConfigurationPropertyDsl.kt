@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnTableOptimizer
 
 @Generated
-public fun buildIcebergConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTableOptimizer.IcebergConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTableOptimizer.IcebergConfigurationProperty =
-    CfnTableOptimizer.IcebergConfigurationProperty.Builder().apply(initializer).build()
+public fun buildIcebergConfigurationProperty(initializer: @AwsCdkDsl CfnTableOptimizer.IcebergConfigurationProperty.Builder.() -> Unit = {}): CfnTableOptimizer.IcebergConfigurationProperty = CfnTableOptimizer.IcebergConfigurationProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnDistribution
 
 @Generated
-public fun buildStatusCodesProperty(initializer: @AwsCdkDsl
-    CfnDistribution.StatusCodesProperty.Builder.() -> Unit = {}):
-    CfnDistribution.StatusCodesProperty =
-    CfnDistribution.StatusCodesProperty.Builder().apply(initializer).build()
+public fun buildStatusCodesProperty(initializer: @AwsCdkDsl CfnDistribution.StatusCodesProperty.Builder.() -> Unit = {}): CfnDistribution.StatusCodesProperty = CfnDistribution.StatusCodesProperty.Builder().apply(initializer).build()

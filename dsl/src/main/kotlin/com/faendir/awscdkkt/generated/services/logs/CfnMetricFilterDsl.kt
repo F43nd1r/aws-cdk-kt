@@ -16,6 +16,4 @@ public fun Construct.cfnMetricFilter(
 ): CfnMetricFilter = CfnMetricFilter(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMetricFilter(id: String, initializer: @AwsCdkDsl
-    CfnMetricFilter.Builder.() -> Unit = {}): CfnMetricFilter = CfnMetricFilter.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnMetricFilter(id: String, initializer: @AwsCdkDsl CfnMetricFilter.Builder.() -> Unit = {}): CfnMetricFilter = CfnMetricFilter.Builder.create(this, id).apply(initializer).build()

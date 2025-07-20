@@ -9,19 +9,14 @@ import software.amazon.awscdk.services.ecs.patterns.NetworkLoadBalancedFargateSe
 import software.constructs.Construct
 
 @Generated
-public fun Construct.networkLoadBalancedFargateService(id: String, initializer: @AwsCdkDsl
-    NetworkLoadBalancedFargateService.() -> Unit = {}): NetworkLoadBalancedFargateService =
-    NetworkLoadBalancedFargateService(this, id).apply(initializer)
+public fun Construct.networkLoadBalancedFargateService(id: String, initializer: @AwsCdkDsl NetworkLoadBalancedFargateService.() -> Unit = {}): NetworkLoadBalancedFargateService = NetworkLoadBalancedFargateService(this, id).apply(initializer)
 
 @Generated
 public fun Construct.networkLoadBalancedFargateService(
   id: String,
   props: NetworkLoadBalancedFargateServiceProps,
   initializer: @AwsCdkDsl NetworkLoadBalancedFargateService.() -> Unit = {},
-): NetworkLoadBalancedFargateService = NetworkLoadBalancedFargateService(this, id,
-    props).apply(initializer)
+): NetworkLoadBalancedFargateService = NetworkLoadBalancedFargateService(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildNetworkLoadBalancedFargateService(id: String, initializer: @AwsCdkDsl
-    NetworkLoadBalancedFargateService.Builder.() -> Unit = {}): NetworkLoadBalancedFargateService =
-    NetworkLoadBalancedFargateService.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildNetworkLoadBalancedFargateService(id: String, initializer: @AwsCdkDsl NetworkLoadBalancedFargateService.Builder.() -> Unit = {}): NetworkLoadBalancedFargateService = NetworkLoadBalancedFargateService.Builder.create(this, id).apply(initializer).build()

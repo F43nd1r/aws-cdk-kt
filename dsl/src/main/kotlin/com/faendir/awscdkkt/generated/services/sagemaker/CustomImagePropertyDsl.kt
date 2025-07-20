@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnUserProfile
 
 @Generated
-public fun buildCustomImageProperty(initializer: @AwsCdkDsl
-    CfnUserProfile.CustomImageProperty.Builder.() -> Unit = {}): CfnUserProfile.CustomImageProperty
-    = CfnUserProfile.CustomImageProperty.Builder().apply(initializer).build()
+public fun buildCustomImageProperty(initializer: @AwsCdkDsl CfnUserProfile.CustomImageProperty.Builder.() -> Unit = {}): CfnUserProfile.CustomImageProperty = CfnUserProfile.CustomImageProperty.Builder().apply(initializer).build()

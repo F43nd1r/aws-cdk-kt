@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrAddStepJsonataProps
 
 @Generated
-public fun buildEmrAddStepJsonataProps(initializer: @AwsCdkDsl
-    EmrAddStepJsonataProps.Builder.() -> Unit = {}): EmrAddStepJsonataProps =
-    EmrAddStepJsonataProps.Builder().apply(initializer).build()
+public fun buildEmrAddStepJsonataProps(initializer: @AwsCdkDsl EmrAddStepJsonataProps.Builder.() -> Unit = {}): EmrAddStepJsonataProps = EmrAddStepJsonataProps.Builder().apply(initializer).build()

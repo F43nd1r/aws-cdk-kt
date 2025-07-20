@@ -16,6 +16,4 @@ public fun Construct.cfnPublishingDestination(
 ): CfnPublishingDestination = CfnPublishingDestination(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPublishingDestination(id: String, initializer: @AwsCdkDsl
-    CfnPublishingDestination.Builder.() -> Unit = {}): CfnPublishingDestination =
-    CfnPublishingDestination.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPublishingDestination(id: String, initializer: @AwsCdkDsl CfnPublishingDestination.Builder.() -> Unit = {}): CfnPublishingDestination = CfnPublishingDestination.Builder.create(this, id).apply(initializer).build()

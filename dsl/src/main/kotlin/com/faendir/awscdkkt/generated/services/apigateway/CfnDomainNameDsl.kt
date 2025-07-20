@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.apigateway.CfnDomainNameProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDomainName(id: String, initializer: @AwsCdkDsl CfnDomainName.() -> Unit =
-    {}): CfnDomainName = CfnDomainName(this, id).apply(initializer)
+public fun Construct.cfnDomainName(id: String, initializer: @AwsCdkDsl CfnDomainName.() -> Unit = {}): CfnDomainName = CfnDomainName(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnDomainName(
@@ -20,6 +19,4 @@ public fun Construct.cfnDomainName(
 ): CfnDomainName = CfnDomainName(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDomainName(id: String, initializer: @AwsCdkDsl
-    CfnDomainName.Builder.() -> Unit = {}): CfnDomainName = CfnDomainName.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnDomainName(id: String, initializer: @AwsCdkDsl CfnDomainName.Builder.() -> Unit = {}): CfnDomainName = CfnDomainName.Builder.create(this, id).apply(initializer).build()

@@ -16,5 +16,4 @@ public fun Construct.wait(
 ): Wait = Wait(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildWait(id: String, initializer: @AwsCdkDsl Wait.Builder.() -> Unit = {}):
-    Wait = Wait.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildWait(id: String, initializer: @AwsCdkDsl Wait.Builder.() -> Unit = {}): Wait = Wait.Builder.create(this, id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnInternetGatewayProps
 
 @Generated
-public fun buildCfnInternetGatewayProps(initializer: @AwsCdkDsl
-    CfnInternetGatewayProps.Builder.() -> Unit = {}): CfnInternetGatewayProps =
-    CfnInternetGatewayProps.Builder().apply(initializer).build()
+public fun buildCfnInternetGatewayProps(initializer: @AwsCdkDsl CfnInternetGatewayProps.Builder.() -> Unit = {}): CfnInternetGatewayProps = CfnInternetGatewayProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.redshiftserverless.CfnSnapshot
 
 @Generated
-public fun buildSnapshotProperty(initializer: @AwsCdkDsl
-    CfnSnapshot.SnapshotProperty.Builder.() -> Unit = {}): CfnSnapshot.SnapshotProperty =
-    CfnSnapshot.SnapshotProperty.Builder().apply(initializer).build()
+public fun buildSnapshotProperty(initializer: @AwsCdkDsl CfnSnapshot.SnapshotProperty.Builder.() -> Unit = {}): CfnSnapshot.SnapshotProperty = CfnSnapshot.SnapshotProperty.Builder().apply(initializer).build()

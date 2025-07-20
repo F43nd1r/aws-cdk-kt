@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnFeatureGroup
 
 @Generated
-public fun buildFeatureDefinitionProperty(initializer: @AwsCdkDsl
-    CfnFeatureGroup.FeatureDefinitionProperty.Builder.() -> Unit = {}):
-    CfnFeatureGroup.FeatureDefinitionProperty =
-    CfnFeatureGroup.FeatureDefinitionProperty.Builder().apply(initializer).build()
+public fun buildFeatureDefinitionProperty(initializer: @AwsCdkDsl CfnFeatureGroup.FeatureDefinitionProperty.Builder.() -> Unit = {}): CfnFeatureGroup.FeatureDefinitionProperty = CfnFeatureGroup.FeatureDefinitionProperty.Builder().apply(initializer).build()

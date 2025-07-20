@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnTaskTemplate
 
 @Generated
-public fun buildFieldIdentifierProperty(initializer: @AwsCdkDsl
-    CfnTaskTemplate.FieldIdentifierProperty.Builder.() -> Unit = {}):
-    CfnTaskTemplate.FieldIdentifierProperty =
-    CfnTaskTemplate.FieldIdentifierProperty.Builder().apply(initializer).build()
+public fun buildFieldIdentifierProperty(initializer: @AwsCdkDsl CfnTaskTemplate.FieldIdentifierProperty.Builder.() -> Unit = {}): CfnTaskTemplate.FieldIdentifierProperty = CfnTaskTemplate.FieldIdentifierProperty.Builder().apply(initializer).build()

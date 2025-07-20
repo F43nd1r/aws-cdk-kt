@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.transfer.CfnAgreementProps
 
 @Generated
-public fun buildCfnAgreementProps(initializer: @AwsCdkDsl CfnAgreementProps.Builder.() -> Unit =
-    {}): CfnAgreementProps = CfnAgreementProps.Builder().apply(initializer).build()
+public fun buildCfnAgreementProps(initializer: @AwsCdkDsl CfnAgreementProps.Builder.() -> Unit = {}): CfnAgreementProps = CfnAgreementProps.Builder().apply(initializer).build()

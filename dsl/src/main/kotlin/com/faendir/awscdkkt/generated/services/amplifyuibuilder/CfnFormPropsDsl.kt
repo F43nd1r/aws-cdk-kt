@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.amplifyuibuilder.CfnFormProps
 
 @Generated
-public fun buildCfnFormProps(initializer: @AwsCdkDsl CfnFormProps.Builder.() -> Unit = {}):
-    CfnFormProps = CfnFormProps.Builder().apply(initializer).build()
+public fun buildCfnFormProps(initializer: @AwsCdkDsl CfnFormProps.Builder.() -> Unit = {}): CfnFormProps = CfnFormProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3outposts.CfnAccessPoint
 
 @Generated
-public fun buildVpcConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAccessPoint.VpcConfigurationProperty.Builder.() -> Unit = {}):
-    CfnAccessPoint.VpcConfigurationProperty =
-    CfnAccessPoint.VpcConfigurationProperty.Builder().apply(initializer).build()
+public fun buildVpcConfigurationProperty(initializer: @AwsCdkDsl CfnAccessPoint.VpcConfigurationProperty.Builder.() -> Unit = {}): CfnAccessPoint.VpcConfigurationProperty = CfnAccessPoint.VpcConfigurationProperty.Builder().apply(initializer).build()

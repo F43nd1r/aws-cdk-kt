@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.omics.CfnSequenceStoreProps
 
 @Generated
-public fun buildCfnSequenceStoreProps(initializer: @AwsCdkDsl
-    CfnSequenceStoreProps.Builder.() -> Unit = {}): CfnSequenceStoreProps =
-    CfnSequenceStoreProps.Builder().apply(initializer).build()
+public fun buildCfnSequenceStoreProps(initializer: @AwsCdkDsl CfnSequenceStoreProps.Builder.() -> Unit = {}): CfnSequenceStoreProps = CfnSequenceStoreProps.Builder().apply(initializer).build()

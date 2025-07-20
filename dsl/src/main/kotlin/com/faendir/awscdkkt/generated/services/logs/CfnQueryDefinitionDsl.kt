@@ -16,6 +16,4 @@ public fun Construct.cfnQueryDefinition(
 ): CfnQueryDefinition = CfnQueryDefinition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnQueryDefinition(id: String, initializer: @AwsCdkDsl
-    CfnQueryDefinition.Builder.() -> Unit = {}): CfnQueryDefinition =
-    CfnQueryDefinition.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnQueryDefinition(id: String, initializer: @AwsCdkDsl CfnQueryDefinition.Builder.() -> Unit = {}): CfnQueryDefinition = CfnQueryDefinition.Builder.create(this, id).apply(initializer).build()

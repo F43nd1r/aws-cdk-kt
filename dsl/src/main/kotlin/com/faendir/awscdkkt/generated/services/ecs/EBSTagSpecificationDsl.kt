@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.EBSTagSpecification
 
 @Generated
-public fun buildEBSTagSpecification(initializer: @AwsCdkDsl EBSTagSpecification.Builder.() -> Unit =
-    {}): EBSTagSpecification = EBSTagSpecification.Builder().apply(initializer).build()
+public fun buildEBSTagSpecification(initializer: @AwsCdkDsl EBSTagSpecification.Builder.() -> Unit = {}): EBSTagSpecification = EBSTagSpecification.Builder().apply(initializer).build()

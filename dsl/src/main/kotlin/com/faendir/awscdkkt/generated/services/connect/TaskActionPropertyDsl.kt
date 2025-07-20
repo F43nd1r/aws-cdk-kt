@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.connect.CfnRule
 
 @Generated
-public fun buildTaskActionProperty(initializer: @AwsCdkDsl
-    CfnRule.TaskActionProperty.Builder.() -> Unit = {}): CfnRule.TaskActionProperty =
-    CfnRule.TaskActionProperty.Builder().apply(initializer).build()
+public fun buildTaskActionProperty(initializer: @AwsCdkDsl CfnRule.TaskActionProperty.Builder.() -> Unit = {}): CfnRule.TaskActionProperty = CfnRule.TaskActionProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnOrganizationalUnit(
 ): CfnOrganizationalUnit = CfnOrganizationalUnit(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnOrganizationalUnit(id: String, initializer: @AwsCdkDsl
-    CfnOrganizationalUnit.Builder.() -> Unit = {}): CfnOrganizationalUnit =
-    CfnOrganizationalUnit.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnOrganizationalUnit(id: String, initializer: @AwsCdkDsl CfnOrganizationalUnit.Builder.() -> Unit = {}): CfnOrganizationalUnit = CfnOrganizationalUnit.Builder.create(this, id).apply(initializer).build()

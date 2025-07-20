@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
-public fun buildTargetObjectKeyFormatProperty(initializer: @AwsCdkDsl
-    CfnBucket.TargetObjectKeyFormatProperty.Builder.() -> Unit = {}):
-    CfnBucket.TargetObjectKeyFormatProperty =
-    CfnBucket.TargetObjectKeyFormatProperty.Builder().apply(initializer).build()
+public fun buildTargetObjectKeyFormatProperty(initializer: @AwsCdkDsl CfnBucket.TargetObjectKeyFormatProperty.Builder.() -> Unit = {}): CfnBucket.TargetObjectKeyFormatProperty = CfnBucket.TargetObjectKeyFormatProperty.Builder().apply(initializer).build()

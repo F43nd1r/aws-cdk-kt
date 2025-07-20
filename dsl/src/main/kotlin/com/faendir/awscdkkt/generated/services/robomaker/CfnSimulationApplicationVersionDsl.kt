@@ -13,10 +13,7 @@ public fun Construct.cfnSimulationApplicationVersion(
   id: String,
   props: CfnSimulationApplicationVersionProps,
   initializer: @AwsCdkDsl CfnSimulationApplicationVersion.() -> Unit = {},
-): CfnSimulationApplicationVersion = CfnSimulationApplicationVersion(this, id,
-    props).apply(initializer)
+): CfnSimulationApplicationVersion = CfnSimulationApplicationVersion(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSimulationApplicationVersion(id: String, initializer: @AwsCdkDsl
-    CfnSimulationApplicationVersion.Builder.() -> Unit = {}): CfnSimulationApplicationVersion =
-    CfnSimulationApplicationVersion.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSimulationApplicationVersion(id: String, initializer: @AwsCdkDsl CfnSimulationApplicationVersion.Builder.() -> Unit = {}): CfnSimulationApplicationVersion = CfnSimulationApplicationVersion.Builder.create(this, id).apply(initializer).build()

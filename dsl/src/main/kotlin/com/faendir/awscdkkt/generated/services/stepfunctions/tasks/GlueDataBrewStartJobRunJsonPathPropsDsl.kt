@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.GlueDataBrewStartJobRunJsonPathProps
 
 @Generated
-public fun buildGlueDataBrewStartJobRunJsonPathProps(initializer: @AwsCdkDsl
-    GlueDataBrewStartJobRunJsonPathProps.Builder.() -> Unit = {}):
-    GlueDataBrewStartJobRunJsonPathProps =
-    GlueDataBrewStartJobRunJsonPathProps.Builder().apply(initializer).build()
+public fun buildGlueDataBrewStartJobRunJsonPathProps(initializer: @AwsCdkDsl GlueDataBrewStartJobRunJsonPathProps.Builder.() -> Unit = {}): GlueDataBrewStartJobRunJsonPathProps = GlueDataBrewStartJobRunJsonPathProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnWebExperience
 
 @Generated
-public fun buildIdentityProviderConfigurationProperty(initializer: @AwsCdkDsl
-    CfnWebExperience.IdentityProviderConfigurationProperty.Builder.() -> Unit = {}):
-    CfnWebExperience.IdentityProviderConfigurationProperty =
-    CfnWebExperience.IdentityProviderConfigurationProperty.Builder().apply(initializer).build()
+public fun buildIdentityProviderConfigurationProperty(initializer: @AwsCdkDsl CfnWebExperience.IdentityProviderConfigurationProperty.Builder.() -> Unit = {}): CfnWebExperience.IdentityProviderConfigurationProperty = CfnWebExperience.IdentityProviderConfigurationProperty.Builder().apply(initializer).build()

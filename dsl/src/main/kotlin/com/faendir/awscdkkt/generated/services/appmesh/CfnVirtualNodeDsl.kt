@@ -16,6 +16,4 @@ public fun Construct.cfnVirtualNode(
 ): CfnVirtualNode = CfnVirtualNode(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVirtualNode(id: String, initializer: @AwsCdkDsl
-    CfnVirtualNode.Builder.() -> Unit = {}): CfnVirtualNode = CfnVirtualNode.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnVirtualNode(id: String, initializer: @AwsCdkDsl CfnVirtualNode.Builder.() -> Unit = {}): CfnVirtualNode = CfnVirtualNode.Builder.create(this, id).apply(initializer).build()

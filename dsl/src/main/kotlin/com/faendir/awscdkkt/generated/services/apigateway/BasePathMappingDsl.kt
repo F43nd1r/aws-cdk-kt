@@ -16,6 +16,4 @@ public fun Construct.basePathMapping(
 ): BasePathMapping = BasePathMapping(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildBasePathMapping(id: String, initializer: @AwsCdkDsl
-    BasePathMapping.Builder.() -> Unit = {}): BasePathMapping = BasePathMapping.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildBasePathMapping(id: String, initializer: @AwsCdkDsl BasePathMapping.Builder.() -> Unit = {}): BasePathMapping = BasePathMapping.Builder.create(this, id).apply(initializer).build()

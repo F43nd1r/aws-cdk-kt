@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnTopicRule
 
 @Generated
-public fun buildDynamoDBActionProperty(initializer: @AwsCdkDsl
-    CfnTopicRule.DynamoDBActionProperty.Builder.() -> Unit = {}):
-    CfnTopicRule.DynamoDBActionProperty =
-    CfnTopicRule.DynamoDBActionProperty.Builder().apply(initializer).build()
+public fun buildDynamoDBActionProperty(initializer: @AwsCdkDsl CfnTopicRule.DynamoDBActionProperty.Builder.() -> Unit = {}): CfnTopicRule.DynamoDBActionProperty = CfnTopicRule.DynamoDBActionProperty.Builder().apply(initializer).build()

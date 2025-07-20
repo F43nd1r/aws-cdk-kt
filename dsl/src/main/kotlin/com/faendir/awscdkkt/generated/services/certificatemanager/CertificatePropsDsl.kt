@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.certificatemanager.CertificateProps
 
 @Generated
-public fun buildCertificateProps(initializer: @AwsCdkDsl CertificateProps.Builder.() -> Unit = {}):
-    CertificateProps = CertificateProps.Builder().apply(initializer).build()
+public fun buildCertificateProps(initializer: @AwsCdkDsl CertificateProps.Builder.() -> Unit = {}): CertificateProps = CertificateProps.Builder().apply(initializer).build()

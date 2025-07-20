@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.CodeBuildStartBuildBatchJsonPathProps
 
 @Generated
-public fun buildCodeBuildStartBuildBatchJsonPathProps(initializer: @AwsCdkDsl
-    CodeBuildStartBuildBatchJsonPathProps.Builder.() -> Unit = {}):
-    CodeBuildStartBuildBatchJsonPathProps =
-    CodeBuildStartBuildBatchJsonPathProps.Builder().apply(initializer).build()
+public fun buildCodeBuildStartBuildBatchJsonPathProps(initializer: @AwsCdkDsl CodeBuildStartBuildBatchJsonPathProps.Builder.() -> Unit = {}): CodeBuildStartBuildBatchJsonPathProps = CodeBuildStartBuildBatchJsonPathProps.Builder().apply(initializer).build()

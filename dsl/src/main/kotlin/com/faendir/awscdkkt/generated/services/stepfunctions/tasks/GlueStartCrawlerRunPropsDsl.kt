@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.GlueStartCrawlerRunProps
 
 @Generated
-public fun buildGlueStartCrawlerRunProps(initializer: @AwsCdkDsl
-    GlueStartCrawlerRunProps.Builder.() -> Unit = {}): GlueStartCrawlerRunProps =
-    GlueStartCrawlerRunProps.Builder().apply(initializer).build()
+public fun buildGlueStartCrawlerRunProps(initializer: @AwsCdkDsl GlueStartCrawlerRunProps.Builder.() -> Unit = {}): GlueStartCrawlerRunProps = GlueStartCrawlerRunProps.Builder().apply(initializer).build()

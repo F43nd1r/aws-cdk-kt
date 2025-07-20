@@ -16,6 +16,4 @@ public fun Construct.cfnDataQualityJobDefinition(
 ): CfnDataQualityJobDefinition = CfnDataQualityJobDefinition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDataQualityJobDefinition(id: String, initializer: @AwsCdkDsl
-    CfnDataQualityJobDefinition.Builder.() -> Unit = {}): CfnDataQualityJobDefinition =
-    CfnDataQualityJobDefinition.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDataQualityJobDefinition(id: String, initializer: @AwsCdkDsl CfnDataQualityJobDefinition.Builder.() -> Unit = {}): CfnDataQualityJobDefinition = CfnDataQualityJobDefinition.Builder.create(this, id).apply(initializer).build()

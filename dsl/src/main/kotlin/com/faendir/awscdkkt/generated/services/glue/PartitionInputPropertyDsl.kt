@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnPartition
 
 @Generated
-public fun buildPartitionInputProperty(initializer: @AwsCdkDsl
-    CfnPartition.PartitionInputProperty.Builder.() -> Unit = {}):
-    CfnPartition.PartitionInputProperty =
-    CfnPartition.PartitionInputProperty.Builder().apply(initializer).build()
+public fun buildPartitionInputProperty(initializer: @AwsCdkDsl CfnPartition.PartitionInputProperty.Builder.() -> Unit = {}): CfnPartition.PartitionInputProperty = CfnPartition.PartitionInputProperty.Builder().apply(initializer).build()

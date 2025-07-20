@@ -16,6 +16,4 @@ public fun Construct.gatewayRoute(
 ): GatewayRoute = GatewayRoute(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildGatewayRoute(id: String, initializer: @AwsCdkDsl
-    GatewayRoute.Builder.() -> Unit = {}): GatewayRoute = GatewayRoute.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildGatewayRoute(id: String, initializer: @AwsCdkDsl GatewayRoute.Builder.() -> Unit = {}): GatewayRoute = GatewayRoute.Builder.create(this, id).apply(initializer).build()

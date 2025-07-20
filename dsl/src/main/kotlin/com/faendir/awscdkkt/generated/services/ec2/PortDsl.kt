@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.Port
 
 @Generated
-public fun buildPort(initializer: @AwsCdkDsl Port.Builder.() -> Unit = {}): Port =
-    Port.Builder.create().apply(initializer).build()
+public fun buildPort(initializer: @AwsCdkDsl Port.Builder.() -> Unit = {}): Port = Port.Builder.create().apply(initializer).build()

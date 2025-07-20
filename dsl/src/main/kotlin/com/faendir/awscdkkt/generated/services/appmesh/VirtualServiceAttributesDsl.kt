@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.VirtualServiceAttributes
 
 @Generated
-public fun buildVirtualServiceAttributes(initializer: @AwsCdkDsl
-    VirtualServiceAttributes.Builder.() -> Unit = {}): VirtualServiceAttributes =
-    VirtualServiceAttributes.Builder().apply(initializer).build()
+public fun buildVirtualServiceAttributes(initializer: @AwsCdkDsl VirtualServiceAttributes.Builder.() -> Unit = {}): VirtualServiceAttributes = VirtualServiceAttributes.Builder().apply(initializer).build()

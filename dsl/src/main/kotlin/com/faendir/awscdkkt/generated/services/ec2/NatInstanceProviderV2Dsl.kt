@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.NatInstanceProviderV2
 
 @Generated
-public fun buildNatInstanceProviderV2(initializer: @AwsCdkDsl
-    NatInstanceProviderV2.Builder.() -> Unit = {}): NatInstanceProviderV2 =
-    NatInstanceProviderV2.Builder.create().apply(initializer).build()
+public fun buildNatInstanceProviderV2(initializer: @AwsCdkDsl NatInstanceProviderV2.Builder.() -> Unit = {}): NatInstanceProviderV2 = NatInstanceProviderV2.Builder.create().apply(initializer).build()

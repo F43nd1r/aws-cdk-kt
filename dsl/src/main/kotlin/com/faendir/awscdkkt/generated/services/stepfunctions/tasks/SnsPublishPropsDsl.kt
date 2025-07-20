@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.SnsPublishProps
 
 @Generated
-public fun buildSnsPublishProps(initializer: @AwsCdkDsl SnsPublishProps.Builder.() -> Unit = {}):
-    SnsPublishProps = SnsPublishProps.Builder().apply(initializer).build()
+public fun buildSnsPublishProps(initializer: @AwsCdkDsl SnsPublishProps.Builder.() -> Unit = {}): SnsPublishProps = SnsPublishProps.Builder().apply(initializer).build()

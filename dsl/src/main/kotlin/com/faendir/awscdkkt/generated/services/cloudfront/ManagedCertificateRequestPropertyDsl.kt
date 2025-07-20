@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnDistributionTenant
 
 @Generated
-public fun buildManagedCertificateRequestProperty(initializer: @AwsCdkDsl
-    CfnDistributionTenant.ManagedCertificateRequestProperty.Builder.() -> Unit = {}):
-    CfnDistributionTenant.ManagedCertificateRequestProperty =
-    CfnDistributionTenant.ManagedCertificateRequestProperty.Builder().apply(initializer).build()
+public fun buildManagedCertificateRequestProperty(initializer: @AwsCdkDsl CfnDistributionTenant.ManagedCertificateRequestProperty.Builder.() -> Unit = {}): CfnDistributionTenant.ManagedCertificateRequestProperty = CfnDistributionTenant.ManagedCertificateRequestProperty.Builder().apply(initializer).build()

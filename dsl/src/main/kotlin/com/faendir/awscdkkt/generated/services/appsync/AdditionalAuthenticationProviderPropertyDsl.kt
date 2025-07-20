@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.CfnGraphQLApi
 
 @Generated
-public fun buildAdditionalAuthenticationProviderProperty(initializer: @AwsCdkDsl
-    CfnGraphQLApi.AdditionalAuthenticationProviderProperty.Builder.() -> Unit = {}):
-    CfnGraphQLApi.AdditionalAuthenticationProviderProperty =
-    CfnGraphQLApi.AdditionalAuthenticationProviderProperty.Builder().apply(initializer).build()
+public fun buildAdditionalAuthenticationProviderProperty(initializer: @AwsCdkDsl CfnGraphQLApi.AdditionalAuthenticationProviderProperty.Builder.() -> Unit = {}): CfnGraphQLApi.AdditionalAuthenticationProviderProperty = CfnGraphQLApi.AdditionalAuthenticationProviderProperty.Builder().apply(initializer).build()

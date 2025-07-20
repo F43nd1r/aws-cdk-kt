@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sns.CfnTopicProps
 
 @Generated
-public fun buildCfnTopicProps(initializer: @AwsCdkDsl CfnTopicProps.Builder.() -> Unit = {}):
-    CfnTopicProps = CfnTopicProps.Builder().apply(initializer).build()
+public fun buildCfnTopicProps(initializer: @AwsCdkDsl CfnTopicProps.Builder.() -> Unit = {}): CfnTopicProps = CfnTopicProps.Builder().apply(initializer).build()

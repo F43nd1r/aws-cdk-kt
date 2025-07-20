@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.JobDriver
 
 @Generated
-public fun buildJobDriver(initializer: @AwsCdkDsl JobDriver.Builder.() -> Unit = {}): JobDriver =
-    JobDriver.Builder().apply(initializer).build()
+public fun buildJobDriver(initializer: @AwsCdkDsl JobDriver.Builder.() -> Unit = {}): JobDriver = JobDriver.Builder().apply(initializer).build()

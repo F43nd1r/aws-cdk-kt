@@ -16,5 +16,4 @@ public fun Construct.cfnSkill(
 ): CfnSkill = CfnSkill(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSkill(id: String, initializer: @AwsCdkDsl CfnSkill.Builder.() -> Unit =
-    {}): CfnSkill = CfnSkill.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSkill(id: String, initializer: @AwsCdkDsl CfnSkill.Builder.() -> Unit = {}): CfnSkill = CfnSkill.Builder.create(this, id).apply(initializer).build()

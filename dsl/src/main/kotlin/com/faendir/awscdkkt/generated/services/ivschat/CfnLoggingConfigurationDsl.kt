@@ -16,6 +16,4 @@ public fun Construct.cfnLoggingConfiguration(
 ): CfnLoggingConfiguration = CfnLoggingConfiguration(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLoggingConfiguration(id: String, initializer: @AwsCdkDsl
-    CfnLoggingConfiguration.Builder.() -> Unit = {}): CfnLoggingConfiguration =
-    CfnLoggingConfiguration.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLoggingConfiguration(id: String, initializer: @AwsCdkDsl CfnLoggingConfiguration.Builder.() -> Unit = {}): CfnLoggingConfiguration = CfnLoggingConfiguration.Builder.create(this, id).apply(initializer).build()

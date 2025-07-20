@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.scheduler.CfnSchedule
 
 @Generated
-public fun buildCapacityProviderStrategyItemProperty(initializer: @AwsCdkDsl
-    CfnSchedule.CapacityProviderStrategyItemProperty.Builder.() -> Unit = {}):
-    CfnSchedule.CapacityProviderStrategyItemProperty =
-    CfnSchedule.CapacityProviderStrategyItemProperty.Builder().apply(initializer).build()
+public fun buildCapacityProviderStrategyItemProperty(initializer: @AwsCdkDsl CfnSchedule.CapacityProviderStrategyItemProperty.Builder.() -> Unit = {}): CfnSchedule.CapacityProviderStrategyItemProperty = CfnSchedule.CapacityProviderStrategyItemProperty.Builder().apply(initializer).build()

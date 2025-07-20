@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kafkaconnect.CfnConnector
 
 @Generated
-public fun buildApacheKafkaClusterProperty(initializer: @AwsCdkDsl
-    CfnConnector.ApacheKafkaClusterProperty.Builder.() -> Unit = {}):
-    CfnConnector.ApacheKafkaClusterProperty =
-    CfnConnector.ApacheKafkaClusterProperty.Builder().apply(initializer).build()
+public fun buildApacheKafkaClusterProperty(initializer: @AwsCdkDsl CfnConnector.ApacheKafkaClusterProperty.Builder.() -> Unit = {}): CfnConnector.ApacheKafkaClusterProperty = CfnConnector.ApacheKafkaClusterProperty.Builder().apply(initializer).build()

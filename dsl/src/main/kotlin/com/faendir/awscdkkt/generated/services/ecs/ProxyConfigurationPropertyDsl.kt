@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnTaskDefinition
 
 @Generated
-public fun buildProxyConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTaskDefinition.ProxyConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTaskDefinition.ProxyConfigurationProperty =
-    CfnTaskDefinition.ProxyConfigurationProperty.Builder().apply(initializer).build()
+public fun buildProxyConfigurationProperty(initializer: @AwsCdkDsl CfnTaskDefinition.ProxyConfigurationProperty.Builder.() -> Unit = {}): CfnTaskDefinition.ProxyConfigurationProperty = CfnTaskDefinition.ProxyConfigurationProperty.Builder().apply(initializer).build()

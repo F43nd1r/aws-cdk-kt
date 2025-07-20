@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssmguiconnect.CfnPreferences
 
 @Generated
-public fun buildRecordingDestinationsProperty(initializer: @AwsCdkDsl
-    CfnPreferences.RecordingDestinationsProperty.Builder.() -> Unit = {}):
-    CfnPreferences.RecordingDestinationsProperty =
-    CfnPreferences.RecordingDestinationsProperty.Builder().apply(initializer).build()
+public fun buildRecordingDestinationsProperty(initializer: @AwsCdkDsl CfnPreferences.RecordingDestinationsProperty.Builder.() -> Unit = {}): CfnPreferences.RecordingDestinationsProperty = CfnPreferences.RecordingDestinationsProperty.Builder().apply(initializer).build()

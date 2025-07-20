@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssmincidents.CfnResponsePlan
 
 @Generated
-public fun buildChatChannelProperty(initializer: @AwsCdkDsl
-    CfnResponsePlan.ChatChannelProperty.Builder.() -> Unit = {}):
-    CfnResponsePlan.ChatChannelProperty =
-    CfnResponsePlan.ChatChannelProperty.Builder().apply(initializer).build()
+public fun buildChatChannelProperty(initializer: @AwsCdkDsl CfnResponsePlan.ChatChannelProperty.Builder.() -> Unit = {}): CfnResponsePlan.ChatChannelProperty = CfnResponsePlan.ChatChannelProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cleanroomsml.CfnTrainingDataset
 
 @Generated
-public fun buildDataSourceProperty(initializer: @AwsCdkDsl
-    CfnTrainingDataset.DataSourceProperty.Builder.() -> Unit = {}):
-    CfnTrainingDataset.DataSourceProperty =
-    CfnTrainingDataset.DataSourceProperty.Builder().apply(initializer).build()
+public fun buildDataSourceProperty(initializer: @AwsCdkDsl CfnTrainingDataset.DataSourceProperty.Builder.() -> Unit = {}): CfnTrainingDataset.DataSourceProperty = CfnTrainingDataset.DataSourceProperty.Builder().apply(initializer).build()

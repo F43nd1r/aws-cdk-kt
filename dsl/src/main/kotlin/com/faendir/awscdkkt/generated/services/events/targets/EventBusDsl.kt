@@ -7,5 +7,4 @@ import software.amazon.awscdk.services.events.IEventBus
 import software.amazon.awscdk.services.events.targets.EventBus
 
 @Generated
-public fun buildEventBus(eventBus: IEventBus, initializer: @AwsCdkDsl EventBus.Builder.() -> Unit =
-    {}): EventBus = EventBus.Builder.create(eventBus).apply(initializer).build()
+public fun buildEventBus(eventBus: IEventBus, initializer: @AwsCdkDsl EventBus.Builder.() -> Unit = {}): EventBus = EventBus.Builder.create(eventBus).apply(initializer).build()

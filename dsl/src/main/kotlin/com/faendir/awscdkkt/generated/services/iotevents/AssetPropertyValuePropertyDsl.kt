@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotevents.CfnDetectorModel
 
 @Generated
-public fun buildAssetPropertyValueProperty(initializer: @AwsCdkDsl
-    CfnDetectorModel.AssetPropertyValueProperty.Builder.() -> Unit = {}):
-    CfnDetectorModel.AssetPropertyValueProperty =
-    CfnDetectorModel.AssetPropertyValueProperty.Builder().apply(initializer).build()
+public fun buildAssetPropertyValueProperty(initializer: @AwsCdkDsl CfnDetectorModel.AssetPropertyValueProperty.Builder.() -> Unit = {}): CfnDetectorModel.AssetPropertyValueProperty = CfnDetectorModel.AssetPropertyValueProperty.Builder().apply(initializer).build()

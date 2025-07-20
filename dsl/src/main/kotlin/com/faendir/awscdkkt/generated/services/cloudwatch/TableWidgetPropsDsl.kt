@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.TableWidgetProps
 
 @Generated
-public fun buildTableWidgetProps(initializer: @AwsCdkDsl TableWidgetProps.Builder.() -> Unit = {}):
-    TableWidgetProps = TableWidgetProps.Builder().apply(initializer).build()
+public fun buildTableWidgetProps(initializer: @AwsCdkDsl TableWidgetProps.Builder.() -> Unit = {}): TableWidgetProps = TableWidgetProps.Builder().apply(initializer).build()

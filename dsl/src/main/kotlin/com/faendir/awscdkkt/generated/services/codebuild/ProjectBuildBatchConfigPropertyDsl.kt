@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codebuild.CfnProject
 
 @Generated
-public fun buildProjectBuildBatchConfigProperty(initializer: @AwsCdkDsl
-    CfnProject.ProjectBuildBatchConfigProperty.Builder.() -> Unit = {}):
-    CfnProject.ProjectBuildBatchConfigProperty =
-    CfnProject.ProjectBuildBatchConfigProperty.Builder().apply(initializer).build()
+public fun buildProjectBuildBatchConfigProperty(initializer: @AwsCdkDsl CfnProject.ProjectBuildBatchConfigProperty.Builder.() -> Unit = {}): CfnProject.ProjectBuildBatchConfigProperty = CfnProject.ProjectBuildBatchConfigProperty.Builder().apply(initializer).build()

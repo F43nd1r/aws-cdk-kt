@@ -16,6 +16,4 @@ public fun Construct.databaseClusterFromSnapshot(
 ): DatabaseClusterFromSnapshot = DatabaseClusterFromSnapshot(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildDatabaseClusterFromSnapshot(id: String, initializer: @AwsCdkDsl
-    DatabaseClusterFromSnapshot.Builder.() -> Unit = {}): DatabaseClusterFromSnapshot =
-    DatabaseClusterFromSnapshot.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildDatabaseClusterFromSnapshot(id: String, initializer: @AwsCdkDsl DatabaseClusterFromSnapshot.Builder.() -> Unit = {}): DatabaseClusterFromSnapshot = DatabaseClusterFromSnapshot.Builder.create(this, id).apply(initializer).build()

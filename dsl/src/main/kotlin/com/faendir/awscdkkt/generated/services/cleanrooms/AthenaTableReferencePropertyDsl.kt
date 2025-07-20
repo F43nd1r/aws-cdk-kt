@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cleanrooms.CfnConfiguredTable
 
 @Generated
-public fun buildAthenaTableReferenceProperty(initializer: @AwsCdkDsl
-    CfnConfiguredTable.AthenaTableReferenceProperty.Builder.() -> Unit = {}):
-    CfnConfiguredTable.AthenaTableReferenceProperty =
-    CfnConfiguredTable.AthenaTableReferenceProperty.Builder().apply(initializer).build()
+public fun buildAthenaTableReferenceProperty(initializer: @AwsCdkDsl CfnConfiguredTable.AthenaTableReferenceProperty.Builder.() -> Unit = {}): CfnConfiguredTable.AthenaTableReferenceProperty = CfnConfiguredTable.AthenaTableReferenceProperty.Builder().apply(initializer).build()

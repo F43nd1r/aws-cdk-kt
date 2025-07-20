@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iottwinmaker.CfnComponentType
 
 @Generated
-public fun buildCompositeComponentTypeProperty(initializer: @AwsCdkDsl
-    CfnComponentType.CompositeComponentTypeProperty.Builder.() -> Unit = {}):
-    CfnComponentType.CompositeComponentTypeProperty =
-    CfnComponentType.CompositeComponentTypeProperty.Builder().apply(initializer).build()
+public fun buildCompositeComponentTypeProperty(initializer: @AwsCdkDsl CfnComponentType.CompositeComponentTypeProperty.Builder.() -> Unit = {}): CfnComponentType.CompositeComponentTypeProperty = CfnComponentType.CompositeComponentTypeProperty.Builder().apply(initializer).build()

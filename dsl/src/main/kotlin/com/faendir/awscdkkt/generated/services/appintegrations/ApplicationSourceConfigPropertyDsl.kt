@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appintegrations.CfnApplication
 
 @Generated
-public fun buildApplicationSourceConfigProperty(initializer: @AwsCdkDsl
-    CfnApplication.ApplicationSourceConfigProperty.Builder.() -> Unit = {}):
-    CfnApplication.ApplicationSourceConfigProperty =
-    CfnApplication.ApplicationSourceConfigProperty.Builder().apply(initializer).build()
+public fun buildApplicationSourceConfigProperty(initializer: @AwsCdkDsl CfnApplication.ApplicationSourceConfigProperty.Builder.() -> Unit = {}): CfnApplication.ApplicationSourceConfigProperty = CfnApplication.ApplicationSourceConfigProperty.Builder().apply(initializer).build()

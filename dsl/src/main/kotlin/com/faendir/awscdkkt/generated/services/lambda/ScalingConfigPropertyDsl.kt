@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.CfnEventSourceMapping
 
 @Generated
-public fun buildScalingConfigProperty(initializer: @AwsCdkDsl
-    CfnEventSourceMapping.ScalingConfigProperty.Builder.() -> Unit = {}):
-    CfnEventSourceMapping.ScalingConfigProperty =
-    CfnEventSourceMapping.ScalingConfigProperty.Builder().apply(initializer).build()
+public fun buildScalingConfigProperty(initializer: @AwsCdkDsl CfnEventSourceMapping.ScalingConfigProperty.Builder.() -> Unit = {}): CfnEventSourceMapping.ScalingConfigProperty = CfnEventSourceMapping.ScalingConfigProperty.Builder().apply(initializer).build()

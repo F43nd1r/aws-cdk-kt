@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildReferenceLineDynamicDataConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ReferenceLineDynamicDataConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.ReferenceLineDynamicDataConfigurationProperty =
-    CfnTemplate.ReferenceLineDynamicDataConfigurationProperty.Builder().apply(initializer).build()
+public fun buildReferenceLineDynamicDataConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.ReferenceLineDynamicDataConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.ReferenceLineDynamicDataConfigurationProperty = CfnTemplate.ReferenceLineDynamicDataConfigurationProperty.Builder().apply(initializer).build()

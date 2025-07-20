@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.guardduty.CfnDetector
 
 @Generated
-public fun buildCFNScanEc2InstanceWithFindingsConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDetector.CFNScanEc2InstanceWithFindingsConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDetector.CFNScanEc2InstanceWithFindingsConfigurationProperty =
-    CfnDetector.CFNScanEc2InstanceWithFindingsConfigurationProperty.Builder().apply(initializer).build()
+public fun buildCFNScanEc2InstanceWithFindingsConfigurationProperty(initializer: @AwsCdkDsl CfnDetector.CFNScanEc2InstanceWithFindingsConfigurationProperty.Builder.() -> Unit = {}): CfnDetector.CFNScanEc2InstanceWithFindingsConfigurationProperty = CfnDetector.CFNScanEc2InstanceWithFindingsConfigurationProperty.Builder().apply(initializer).build()

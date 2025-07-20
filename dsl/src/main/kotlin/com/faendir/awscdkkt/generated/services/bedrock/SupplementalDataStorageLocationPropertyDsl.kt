@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnKnowledgeBase
 
 @Generated
-public fun buildSupplementalDataStorageLocationProperty(initializer: @AwsCdkDsl
-    CfnKnowledgeBase.SupplementalDataStorageLocationProperty.Builder.() -> Unit = {}):
-    CfnKnowledgeBase.SupplementalDataStorageLocationProperty =
-    CfnKnowledgeBase.SupplementalDataStorageLocationProperty.Builder().apply(initializer).build()
+public fun buildSupplementalDataStorageLocationProperty(initializer: @AwsCdkDsl CfnKnowledgeBase.SupplementalDataStorageLocationProperty.Builder.() -> Unit = {}): CfnKnowledgeBase.SupplementalDataStorageLocationProperty = CfnKnowledgeBase.SupplementalDataStorageLocationProperty.Builder().apply(initializer).build()

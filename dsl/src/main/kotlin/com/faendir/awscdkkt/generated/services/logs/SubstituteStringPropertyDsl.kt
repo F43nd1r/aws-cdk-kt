@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnTransformer
 
 @Generated
-public fun buildSubstituteStringProperty(initializer: @AwsCdkDsl
-    CfnTransformer.SubstituteStringProperty.Builder.() -> Unit = {}):
-    CfnTransformer.SubstituteStringProperty =
-    CfnTransformer.SubstituteStringProperty.Builder().apply(initializer).build()
+public fun buildSubstituteStringProperty(initializer: @AwsCdkDsl CfnTransformer.SubstituteStringProperty.Builder.() -> Unit = {}): CfnTransformer.SubstituteStringProperty = CfnTransformer.SubstituteStringProperty.Builder().apply(initializer).build()

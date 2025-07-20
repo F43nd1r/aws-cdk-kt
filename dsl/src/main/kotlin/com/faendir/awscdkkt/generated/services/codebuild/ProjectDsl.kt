@@ -16,5 +16,4 @@ public fun Construct.project(
 ): Project = Project(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildProject(id: String, initializer: @AwsCdkDsl Project.Builder.() -> Unit =
-    {}): Project = Project.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildProject(id: String, initializer: @AwsCdkDsl Project.Builder.() -> Unit = {}): Project = Project.Builder.create(this, id).apply(initializer).build()

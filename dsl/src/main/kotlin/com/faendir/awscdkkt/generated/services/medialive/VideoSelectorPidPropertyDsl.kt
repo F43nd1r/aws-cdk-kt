@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildVideoSelectorPidProperty(initializer: @AwsCdkDsl
-    CfnChannel.VideoSelectorPidProperty.Builder.() -> Unit = {}):
-    CfnChannel.VideoSelectorPidProperty =
-    CfnChannel.VideoSelectorPidProperty.Builder().apply(initializer).build()
+public fun buildVideoSelectorPidProperty(initializer: @AwsCdkDsl CfnChannel.VideoSelectorPidProperty.Builder.() -> Unit = {}): CfnChannel.VideoSelectorPidProperty = CfnChannel.VideoSelectorPidProperty.Builder().apply(initializer).build()

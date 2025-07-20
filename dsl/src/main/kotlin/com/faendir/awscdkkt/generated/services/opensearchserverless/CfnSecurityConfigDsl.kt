@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.opensearchserverless.CfnSecurityConfigPro
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnSecurityConfig(id: String, initializer: @AwsCdkDsl
-    CfnSecurityConfig.() -> Unit = {}): CfnSecurityConfig = CfnSecurityConfig(this,
-    id).apply(initializer)
+public fun Construct.cfnSecurityConfig(id: String, initializer: @AwsCdkDsl CfnSecurityConfig.() -> Unit = {}): CfnSecurityConfig = CfnSecurityConfig(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnSecurityConfig(
@@ -21,6 +19,4 @@ public fun Construct.cfnSecurityConfig(
 ): CfnSecurityConfig = CfnSecurityConfig(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSecurityConfig(id: String, initializer: @AwsCdkDsl
-    CfnSecurityConfig.Builder.() -> Unit = {}): CfnSecurityConfig =
-    CfnSecurityConfig.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSecurityConfig(id: String, initializer: @AwsCdkDsl CfnSecurityConfig.Builder.() -> Unit = {}): CfnSecurityConfig = CfnSecurityConfig.Builder.create(this, id).apply(initializer).build()

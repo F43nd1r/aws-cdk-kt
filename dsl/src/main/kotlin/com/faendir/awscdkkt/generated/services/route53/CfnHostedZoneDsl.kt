@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.route53.CfnHostedZoneProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnHostedZone(id: String, initializer: @AwsCdkDsl CfnHostedZone.() -> Unit =
-    {}): CfnHostedZone = CfnHostedZone(this, id).apply(initializer)
+public fun Construct.cfnHostedZone(id: String, initializer: @AwsCdkDsl CfnHostedZone.() -> Unit = {}): CfnHostedZone = CfnHostedZone(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnHostedZone(
@@ -20,6 +19,4 @@ public fun Construct.cfnHostedZone(
 ): CfnHostedZone = CfnHostedZone(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnHostedZone(id: String, initializer: @AwsCdkDsl
-    CfnHostedZone.Builder.() -> Unit = {}): CfnHostedZone = CfnHostedZone.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnHostedZone(id: String, initializer: @AwsCdkDsl CfnHostedZone.Builder.() -> Unit = {}): CfnHostedZone = CfnHostedZone.Builder.create(this, id).apply(initializer).build()

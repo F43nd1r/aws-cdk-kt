@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnTransitGatewayMulticastDomainAssociationProps
 
 @Generated
-public fun buildCfnTransitGatewayMulticastDomainAssociationProps(initializer: @AwsCdkDsl
-    CfnTransitGatewayMulticastDomainAssociationProps.Builder.() -> Unit = {}):
-    CfnTransitGatewayMulticastDomainAssociationProps =
-    CfnTransitGatewayMulticastDomainAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnTransitGatewayMulticastDomainAssociationProps(initializer: @AwsCdkDsl CfnTransitGatewayMulticastDomainAssociationProps.Builder.() -> Unit = {}): CfnTransitGatewayMulticastDomainAssociationProps = CfnTransitGatewayMulticastDomainAssociationProps.Builder().apply(initializer).build()

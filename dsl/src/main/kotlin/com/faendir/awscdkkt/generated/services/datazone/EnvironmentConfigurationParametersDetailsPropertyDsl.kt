@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnProjectProfile
 
 @Generated
-public fun buildEnvironmentConfigurationParametersDetailsProperty(initializer: @AwsCdkDsl
-    CfnProjectProfile.EnvironmentConfigurationParametersDetailsProperty.Builder.() -> Unit = {}):
-    CfnProjectProfile.EnvironmentConfigurationParametersDetailsProperty =
-    CfnProjectProfile.EnvironmentConfigurationParametersDetailsProperty.Builder().apply(initializer).build()
+public fun buildEnvironmentConfigurationParametersDetailsProperty(initializer: @AwsCdkDsl CfnProjectProfile.EnvironmentConfigurationParametersDetailsProperty.Builder.() -> Unit = {}): CfnProjectProfile.EnvironmentConfigurationParametersDetailsProperty = CfnProjectProfile.EnvironmentConfigurationParametersDetailsProperty.Builder().apply(initializer).build()

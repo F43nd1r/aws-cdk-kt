@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CfnVirtualGateway
 
 @Generated
-public fun buildVirtualGatewayClientPolicyProperty(initializer: @AwsCdkDsl
-    CfnVirtualGateway.VirtualGatewayClientPolicyProperty.Builder.() -> Unit = {}):
-    CfnVirtualGateway.VirtualGatewayClientPolicyProperty =
-    CfnVirtualGateway.VirtualGatewayClientPolicyProperty.Builder().apply(initializer).build()
+public fun buildVirtualGatewayClientPolicyProperty(initializer: @AwsCdkDsl CfnVirtualGateway.VirtualGatewayClientPolicyProperty.Builder.() -> Unit = {}): CfnVirtualGateway.VirtualGatewayClientPolicyProperty = CfnVirtualGateway.VirtualGatewayClientPolicyProperty.Builder().apply(initializer).build()

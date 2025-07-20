@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnCluster
 
 @Generated
-public fun buildClusterLifeCycleConfigProperty(initializer: @AwsCdkDsl
-    CfnCluster.ClusterLifeCycleConfigProperty.Builder.() -> Unit = {}):
-    CfnCluster.ClusterLifeCycleConfigProperty =
-    CfnCluster.ClusterLifeCycleConfigProperty.Builder().apply(initializer).build()
+public fun buildClusterLifeCycleConfigProperty(initializer: @AwsCdkDsl CfnCluster.ClusterLifeCycleConfigProperty.Builder.() -> Unit = {}): CfnCluster.ClusterLifeCycleConfigProperty = CfnCluster.ClusterLifeCycleConfigProperty.Builder().apply(initializer).build()

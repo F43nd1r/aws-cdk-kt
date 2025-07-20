@@ -16,6 +16,4 @@ public fun Construct.cfnInstanceConnectEndpoint(
 ): CfnInstanceConnectEndpoint = CfnInstanceConnectEndpoint(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnInstanceConnectEndpoint(id: String, initializer: @AwsCdkDsl
-    CfnInstanceConnectEndpoint.Builder.() -> Unit = {}): CfnInstanceConnectEndpoint =
-    CfnInstanceConnectEndpoint.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnInstanceConnectEndpoint(id: String, initializer: @AwsCdkDsl CfnInstanceConnectEndpoint.Builder.() -> Unit = {}): CfnInstanceConnectEndpoint = CfnInstanceConnectEndpoint.Builder.create(this, id).apply(initializer).build()

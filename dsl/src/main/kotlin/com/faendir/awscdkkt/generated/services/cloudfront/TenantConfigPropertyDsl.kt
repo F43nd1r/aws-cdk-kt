@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnDistribution
 
 @Generated
-public fun buildTenantConfigProperty(initializer: @AwsCdkDsl
-    CfnDistribution.TenantConfigProperty.Builder.() -> Unit = {}):
-    CfnDistribution.TenantConfigProperty =
-    CfnDistribution.TenantConfigProperty.Builder().apply(initializer).build()
+public fun buildTenantConfigProperty(initializer: @AwsCdkDsl CfnDistribution.TenantConfigProperty.Builder.() -> Unit = {}): CfnDistribution.TenantConfigProperty = CfnDistribution.TenantConfigProperty.Builder().apply(initializer).build()

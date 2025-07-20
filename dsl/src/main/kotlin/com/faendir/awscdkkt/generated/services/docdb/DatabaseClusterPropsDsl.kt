@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.docdb.DatabaseClusterProps
 
 @Generated
-public fun buildDatabaseClusterProps(initializer: @AwsCdkDsl DatabaseClusterProps.Builder.() -> Unit
-    = {}): DatabaseClusterProps = DatabaseClusterProps.Builder().apply(initializer).build()
+public fun buildDatabaseClusterProps(initializer: @AwsCdkDsl DatabaseClusterProps.Builder.() -> Unit = {}): DatabaseClusterProps = DatabaseClusterProps.Builder().apply(initializer).build()

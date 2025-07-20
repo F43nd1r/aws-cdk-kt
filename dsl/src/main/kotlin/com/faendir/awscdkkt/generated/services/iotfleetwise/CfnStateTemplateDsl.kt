@@ -16,6 +16,4 @@ public fun Construct.cfnStateTemplate(
 ): CfnStateTemplate = CfnStateTemplate(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnStateTemplate(id: String, initializer: @AwsCdkDsl
-    CfnStateTemplate.Builder.() -> Unit = {}): CfnStateTemplate =
-    CfnStateTemplate.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnStateTemplate(id: String, initializer: @AwsCdkDsl CfnStateTemplate.Builder.() -> Unit = {}): CfnStateTemplate = CfnStateTemplate.Builder.create(this, id).apply(initializer).build()

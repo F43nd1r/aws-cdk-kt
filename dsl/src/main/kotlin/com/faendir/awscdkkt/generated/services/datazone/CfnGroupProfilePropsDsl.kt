@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnGroupProfileProps
 
 @Generated
-public fun buildCfnGroupProfileProps(initializer: @AwsCdkDsl CfnGroupProfileProps.Builder.() -> Unit
-    = {}): CfnGroupProfileProps = CfnGroupProfileProps.Builder().apply(initializer).build()
+public fun buildCfnGroupProfileProps(initializer: @AwsCdkDsl CfnGroupProfileProps.Builder.() -> Unit = {}): CfnGroupProfileProps = CfnGroupProfileProps.Builder().apply(initializer).build()

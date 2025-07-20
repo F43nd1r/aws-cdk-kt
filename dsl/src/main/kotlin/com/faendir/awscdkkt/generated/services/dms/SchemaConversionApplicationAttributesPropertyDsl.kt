@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dms.CfnMigrationProject
 
 @Generated
-public fun buildSchemaConversionApplicationAttributesProperty(initializer: @AwsCdkDsl
-    CfnMigrationProject.SchemaConversionApplicationAttributesProperty.Builder.() -> Unit = {}):
-    CfnMigrationProject.SchemaConversionApplicationAttributesProperty =
-    CfnMigrationProject.SchemaConversionApplicationAttributesProperty.Builder().apply(initializer).build()
+public fun buildSchemaConversionApplicationAttributesProperty(initializer: @AwsCdkDsl CfnMigrationProject.SchemaConversionApplicationAttributesProperty.Builder.() -> Unit = {}): CfnMigrationProject.SchemaConversionApplicationAttributesProperty = CfnMigrationProject.SchemaConversionApplicationAttributesProperty.Builder().apply(initializer).build()

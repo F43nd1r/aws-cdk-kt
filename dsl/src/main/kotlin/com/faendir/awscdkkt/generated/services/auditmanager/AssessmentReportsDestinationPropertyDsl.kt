@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.auditmanager.CfnAssessment
 
 @Generated
-public fun buildAssessmentReportsDestinationProperty(initializer: @AwsCdkDsl
-    CfnAssessment.AssessmentReportsDestinationProperty.Builder.() -> Unit = {}):
-    CfnAssessment.AssessmentReportsDestinationProperty =
-    CfnAssessment.AssessmentReportsDestinationProperty.Builder().apply(initializer).build()
+public fun buildAssessmentReportsDestinationProperty(initializer: @AwsCdkDsl CfnAssessment.AssessmentReportsDestinationProperty.Builder.() -> Unit = {}): CfnAssessment.AssessmentReportsDestinationProperty = CfnAssessment.AssessmentReportsDestinationProperty.Builder().apply(initializer).build()

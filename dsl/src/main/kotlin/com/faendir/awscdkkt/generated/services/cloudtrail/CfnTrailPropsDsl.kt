@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudtrail.CfnTrailProps
 
 @Generated
-public fun buildCfnTrailProps(initializer: @AwsCdkDsl CfnTrailProps.Builder.() -> Unit = {}):
-    CfnTrailProps = CfnTrailProps.Builder().apply(initializer).build()
+public fun buildCfnTrailProps(initializer: @AwsCdkDsl CfnTrailProps.Builder.() -> Unit = {}): CfnTrailProps = CfnTrailProps.Builder().apply(initializer).build()

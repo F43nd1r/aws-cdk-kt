@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sam.CfnApiProps
 
 @Generated
-public fun buildCfnApiProps(initializer: @AwsCdkDsl CfnApiProps.Builder.() -> Unit = {}):
-    CfnApiProps = CfnApiProps.Builder().apply(initializer).build()
+public fun buildCfnApiProps(initializer: @AwsCdkDsl CfnApiProps.Builder.() -> Unit = {}): CfnApiProps = CfnApiProps.Builder().apply(initializer).build()

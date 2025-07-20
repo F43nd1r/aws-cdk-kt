@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.stepfunctions.ParallelProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.parallel(id: String, initializer: @AwsCdkDsl Parallel.() -> Unit = {}):
-    Parallel = Parallel(this, id).apply(initializer)
+public fun Construct.parallel(id: String, initializer: @AwsCdkDsl Parallel.() -> Unit = {}): Parallel = Parallel(this, id).apply(initializer)
 
 @Generated
 public fun Construct.parallel(
@@ -20,5 +19,4 @@ public fun Construct.parallel(
 ): Parallel = Parallel(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildParallel(id: String, initializer: @AwsCdkDsl Parallel.Builder.() -> Unit =
-    {}): Parallel = Parallel.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildParallel(id: String, initializer: @AwsCdkDsl Parallel.Builder.() -> Unit = {}): Parallel = Parallel.Builder.create(this, id).apply(initializer).build()

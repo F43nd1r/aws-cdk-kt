@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnAnycastIpList
 
 @Generated
-public fun buildTagsProperty(initializer: @AwsCdkDsl
-    CfnAnycastIpList.TagsProperty.Builder.() -> Unit = {}): CfnAnycastIpList.TagsProperty =
-    CfnAnycastIpList.TagsProperty.Builder().apply(initializer).build()
+public fun buildTagsProperty(initializer: @AwsCdkDsl CfnAnycastIpList.TagsProperty.Builder.() -> Unit = {}): CfnAnycastIpList.TagsProperty = CfnAnycastIpList.TagsProperty.Builder().apply(initializer).build()

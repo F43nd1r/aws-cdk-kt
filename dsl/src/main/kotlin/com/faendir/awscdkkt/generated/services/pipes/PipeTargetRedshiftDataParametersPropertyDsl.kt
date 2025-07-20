@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildPipeTargetRedshiftDataParametersProperty(initializer: @AwsCdkDsl
-    CfnPipe.PipeTargetRedshiftDataParametersProperty.Builder.() -> Unit = {}):
-    CfnPipe.PipeTargetRedshiftDataParametersProperty =
-    CfnPipe.PipeTargetRedshiftDataParametersProperty.Builder().apply(initializer).build()
+public fun buildPipeTargetRedshiftDataParametersProperty(initializer: @AwsCdkDsl CfnPipe.PipeTargetRedshiftDataParametersProperty.Builder.() -> Unit = {}): CfnPipe.PipeTargetRedshiftDataParametersProperty = CfnPipe.PipeTargetRedshiftDataParametersProperty.Builder().apply(initializer).build()

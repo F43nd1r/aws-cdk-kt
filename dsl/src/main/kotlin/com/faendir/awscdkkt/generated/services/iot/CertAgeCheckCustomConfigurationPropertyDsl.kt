@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnAccountAuditConfiguration
 
 @Generated
-public fun buildCertAgeCheckCustomConfigurationProperty(initializer: @AwsCdkDsl
-    CfnAccountAuditConfiguration.CertAgeCheckCustomConfigurationProperty.Builder.() -> Unit = {}):
-    CfnAccountAuditConfiguration.CertAgeCheckCustomConfigurationProperty =
-    CfnAccountAuditConfiguration.CertAgeCheckCustomConfigurationProperty.Builder().apply(initializer).build()
+public fun buildCertAgeCheckCustomConfigurationProperty(initializer: @AwsCdkDsl CfnAccountAuditConfiguration.CertAgeCheckCustomConfigurationProperty.Builder.() -> Unit = {}): CfnAccountAuditConfiguration.CertAgeCheckCustomConfigurationProperty = CfnAccountAuditConfiguration.CertAgeCheckCustomConfigurationProperty.Builder().apply(initializer).build()

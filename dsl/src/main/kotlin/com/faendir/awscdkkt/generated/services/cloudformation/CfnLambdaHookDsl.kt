@@ -16,6 +16,4 @@ public fun Construct.cfnLambdaHook(
 ): CfnLambdaHook = CfnLambdaHook(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLambdaHook(id: String, initializer: @AwsCdkDsl
-    CfnLambdaHook.Builder.() -> Unit = {}): CfnLambdaHook = CfnLambdaHook.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnLambdaHook(id: String, initializer: @AwsCdkDsl CfnLambdaHook.Builder.() -> Unit = {}): CfnLambdaHook = CfnLambdaHook.Builder.create(this, id).apply(initializer).build()

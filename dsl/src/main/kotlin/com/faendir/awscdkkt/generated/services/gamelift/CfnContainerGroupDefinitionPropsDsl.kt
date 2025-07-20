@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnContainerGroupDefinitionProps
 
 @Generated
-public fun buildCfnContainerGroupDefinitionProps(initializer: @AwsCdkDsl
-    CfnContainerGroupDefinitionProps.Builder.() -> Unit = {}): CfnContainerGroupDefinitionProps =
-    CfnContainerGroupDefinitionProps.Builder().apply(initializer).build()
+public fun buildCfnContainerGroupDefinitionProps(initializer: @AwsCdkDsl CfnContainerGroupDefinitionProps.Builder.() -> Unit = {}): CfnContainerGroupDefinitionProps = CfnContainerGroupDefinitionProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildSectionAfterPageBreakProperty(initializer: @AwsCdkDsl
-    CfnTemplate.SectionAfterPageBreakProperty.Builder.() -> Unit = {}):
-    CfnTemplate.SectionAfterPageBreakProperty =
-    CfnTemplate.SectionAfterPageBreakProperty.Builder().apply(initializer).build()
+public fun buildSectionAfterPageBreakProperty(initializer: @AwsCdkDsl CfnTemplate.SectionAfterPageBreakProperty.Builder.() -> Unit = {}): CfnTemplate.SectionAfterPageBreakProperty = CfnTemplate.SectionAfterPageBreakProperty.Builder().apply(initializer).build()

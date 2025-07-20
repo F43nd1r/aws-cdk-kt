@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotwireless.CfnServiceProfile
 
 @Generated
-public fun buildLoRaWANServiceProfileProperty(initializer: @AwsCdkDsl
-    CfnServiceProfile.LoRaWANServiceProfileProperty.Builder.() -> Unit = {}):
-    CfnServiceProfile.LoRaWANServiceProfileProperty =
-    CfnServiceProfile.LoRaWANServiceProfileProperty.Builder().apply(initializer).build()
+public fun buildLoRaWANServiceProfileProperty(initializer: @AwsCdkDsl CfnServiceProfile.LoRaWANServiceProfileProperty.Builder.() -> Unit = {}): CfnServiceProfile.LoRaWANServiceProfileProperty = CfnServiceProfile.LoRaWANServiceProfileProperty.Builder().apply(initializer).build()

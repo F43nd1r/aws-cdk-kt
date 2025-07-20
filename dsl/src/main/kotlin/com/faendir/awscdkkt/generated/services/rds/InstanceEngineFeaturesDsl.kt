@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.InstanceEngineFeatures
 
 @Generated
-public fun buildInstanceEngineFeatures(initializer: @AwsCdkDsl
-    InstanceEngineFeatures.Builder.() -> Unit = {}): InstanceEngineFeatures =
-    InstanceEngineFeatures.Builder().apply(initializer).build()
+public fun buildInstanceEngineFeatures(initializer: @AwsCdkDsl InstanceEngineFeatures.Builder.() -> Unit = {}): InstanceEngineFeatures = InstanceEngineFeatures.Builder().apply(initializer).build()

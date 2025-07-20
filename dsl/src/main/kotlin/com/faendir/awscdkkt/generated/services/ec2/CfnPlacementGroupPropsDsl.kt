@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnPlacementGroupProps
 
 @Generated
-public fun buildCfnPlacementGroupProps(initializer: @AwsCdkDsl
-    CfnPlacementGroupProps.Builder.() -> Unit = {}): CfnPlacementGroupProps =
-    CfnPlacementGroupProps.Builder().apply(initializer).build()
+public fun buildCfnPlacementGroupProps(initializer: @AwsCdkDsl CfnPlacementGroupProps.Builder.() -> Unit = {}): CfnPlacementGroupProps = CfnPlacementGroupProps.Builder().apply(initializer).build()

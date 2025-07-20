@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.MathExpressionOptions
 
 @Generated
-public fun buildMathExpressionOptions(initializer: @AwsCdkDsl
-    MathExpressionOptions.Builder.() -> Unit = {}): MathExpressionOptions =
-    MathExpressionOptions.Builder().apply(initializer).build()
+public fun buildMathExpressionOptions(initializer: @AwsCdkDsl MathExpressionOptions.Builder.() -> Unit = {}): MathExpressionOptions = MathExpressionOptions.Builder().apply(initializer).build()

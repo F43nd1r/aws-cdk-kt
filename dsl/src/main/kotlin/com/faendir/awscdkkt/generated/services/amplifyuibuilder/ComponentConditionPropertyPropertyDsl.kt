@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.amplifyuibuilder.CfnComponent
 
 @Generated
-public fun buildComponentConditionPropertyProperty(initializer: @AwsCdkDsl
-    CfnComponent.ComponentConditionPropertyProperty.Builder.() -> Unit = {}):
-    CfnComponent.ComponentConditionPropertyProperty =
-    CfnComponent.ComponentConditionPropertyProperty.Builder().apply(initializer).build()
+public fun buildComponentConditionPropertyProperty(initializer: @AwsCdkDsl CfnComponent.ComponentConditionPropertyProperty.Builder.() -> Unit = {}): CfnComponent.ComponentConditionPropertyProperty = CfnComponent.ComponentConditionPropertyProperty.Builder().apply(initializer).build()

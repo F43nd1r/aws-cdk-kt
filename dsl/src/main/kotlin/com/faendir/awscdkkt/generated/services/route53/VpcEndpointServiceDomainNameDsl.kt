@@ -16,6 +16,4 @@ public fun Construct.vpcEndpointServiceDomainName(
 ): VpcEndpointServiceDomainName = VpcEndpointServiceDomainName(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildVpcEndpointServiceDomainName(id: String, initializer: @AwsCdkDsl
-    VpcEndpointServiceDomainName.Builder.() -> Unit = {}): VpcEndpointServiceDomainName =
-    VpcEndpointServiceDomainName.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildVpcEndpointServiceDomainName(id: String, initializer: @AwsCdkDsl VpcEndpointServiceDomainName.Builder.() -> Unit = {}): VpcEndpointServiceDomainName = VpcEndpointServiceDomainName.Builder.create(this, id).apply(initializer).build()

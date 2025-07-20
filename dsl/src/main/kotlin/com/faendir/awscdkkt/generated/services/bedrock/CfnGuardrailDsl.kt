@@ -16,6 +16,4 @@ public fun Construct.cfnGuardrail(
 ): CfnGuardrail = CfnGuardrail(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnGuardrail(id: String, initializer: @AwsCdkDsl
-    CfnGuardrail.Builder.() -> Unit = {}): CfnGuardrail = CfnGuardrail.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnGuardrail(id: String, initializer: @AwsCdkDsl CfnGuardrail.Builder.() -> Unit = {}): CfnGuardrail = CfnGuardrail.Builder.create(this, id).apply(initializer).build()

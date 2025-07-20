@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iottwinmaker.CfnSceneProps
 
 @Generated
-public fun buildCfnSceneProps(initializer: @AwsCdkDsl CfnSceneProps.Builder.() -> Unit = {}):
-    CfnSceneProps = CfnSceneProps.Builder().apply(initializer).build()
+public fun buildCfnSceneProps(initializer: @AwsCdkDsl CfnSceneProps.Builder.() -> Unit = {}): CfnSceneProps = CfnSceneProps.Builder().apply(initializer).build()

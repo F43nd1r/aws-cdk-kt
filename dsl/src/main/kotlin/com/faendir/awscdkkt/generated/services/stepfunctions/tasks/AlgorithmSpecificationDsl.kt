@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.AlgorithmSpecification
 
 @Generated
-public fun buildAlgorithmSpecification(initializer: @AwsCdkDsl
-    AlgorithmSpecification.Builder.() -> Unit = {}): AlgorithmSpecification =
-    AlgorithmSpecification.Builder().apply(initializer).build()
+public fun buildAlgorithmSpecification(initializer: @AwsCdkDsl AlgorithmSpecification.Builder.() -> Unit = {}): AlgorithmSpecification = AlgorithmSpecification.Builder().apply(initializer).build()

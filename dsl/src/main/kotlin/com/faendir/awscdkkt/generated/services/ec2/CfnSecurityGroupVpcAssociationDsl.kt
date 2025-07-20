@@ -13,10 +13,7 @@ public fun Construct.cfnSecurityGroupVpcAssociation(
   id: String,
   props: CfnSecurityGroupVpcAssociationProps,
   initializer: @AwsCdkDsl CfnSecurityGroupVpcAssociation.() -> Unit = {},
-): CfnSecurityGroupVpcAssociation = CfnSecurityGroupVpcAssociation(this, id,
-    props).apply(initializer)
+): CfnSecurityGroupVpcAssociation = CfnSecurityGroupVpcAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSecurityGroupVpcAssociation(id: String, initializer: @AwsCdkDsl
-    CfnSecurityGroupVpcAssociation.Builder.() -> Unit = {}): CfnSecurityGroupVpcAssociation =
-    CfnSecurityGroupVpcAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSecurityGroupVpcAssociation(id: String, initializer: @AwsCdkDsl CfnSecurityGroupVpcAssociation.Builder.() -> Unit = {}): CfnSecurityGroupVpcAssociation = CfnSecurityGroupVpcAssociation.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.SageMakerCreateEndpointJsonataProps
 
 @Generated
-public fun buildSageMakerCreateEndpointJsonataProps(initializer: @AwsCdkDsl
-    SageMakerCreateEndpointJsonataProps.Builder.() -> Unit = {}):
-    SageMakerCreateEndpointJsonataProps =
-    SageMakerCreateEndpointJsonataProps.Builder().apply(initializer).build()
+public fun buildSageMakerCreateEndpointJsonataProps(initializer: @AwsCdkDsl SageMakerCreateEndpointJsonataProps.Builder.() -> Unit = {}): SageMakerCreateEndpointJsonataProps = SageMakerCreateEndpointJsonataProps.Builder().apply(initializer).build()

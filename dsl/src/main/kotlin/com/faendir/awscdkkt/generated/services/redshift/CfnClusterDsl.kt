@@ -16,6 +16,4 @@ public fun Construct.cfnCluster(
 ): CfnCluster = CfnCluster(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCluster(id: String, initializer: @AwsCdkDsl
-    CfnCluster.Builder.() -> Unit = {}): CfnCluster = CfnCluster.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnCluster(id: String, initializer: @AwsCdkDsl CfnCluster.Builder.() -> Unit = {}): CfnCluster = CfnCluster.Builder.create(this, id).apply(initializer).build()

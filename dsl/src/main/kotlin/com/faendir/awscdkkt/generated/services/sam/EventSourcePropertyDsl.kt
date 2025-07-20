@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sam.CfnStateMachine
 
 @Generated
-public fun buildEventSourceProperty(initializer: @AwsCdkDsl
-    CfnStateMachine.EventSourceProperty.Builder.() -> Unit = {}):
-    CfnStateMachine.EventSourceProperty =
-    CfnStateMachine.EventSourceProperty.Builder().apply(initializer).build()
+public fun buildEventSourceProperty(initializer: @AwsCdkDsl CfnStateMachine.EventSourceProperty.Builder.() -> Unit = {}): CfnStateMachine.EventSourceProperty = CfnStateMachine.EventSourceProperty.Builder().apply(initializer).build()

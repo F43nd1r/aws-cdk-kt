@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssm.CfnPatchBaseline
 
 @Generated
-public fun buildPatchFilterProperty(initializer: @AwsCdkDsl
-    CfnPatchBaseline.PatchFilterProperty.Builder.() -> Unit = {}):
-    CfnPatchBaseline.PatchFilterProperty =
-    CfnPatchBaseline.PatchFilterProperty.Builder().apply(initializer).build()
+public fun buildPatchFilterProperty(initializer: @AwsCdkDsl CfnPatchBaseline.PatchFilterProperty.Builder.() -> Unit = {}): CfnPatchBaseline.PatchFilterProperty = CfnPatchBaseline.PatchFilterProperty.Builder().apply(initializer).build()

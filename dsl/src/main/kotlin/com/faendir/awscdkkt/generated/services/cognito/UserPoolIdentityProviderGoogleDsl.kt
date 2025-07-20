@@ -13,10 +13,7 @@ public fun Construct.userPoolIdentityProviderGoogle(
   id: String,
   props: UserPoolIdentityProviderGoogleProps,
   initializer: @AwsCdkDsl UserPoolIdentityProviderGoogle.() -> Unit = {},
-): UserPoolIdentityProviderGoogle = UserPoolIdentityProviderGoogle(this, id,
-    props).apply(initializer)
+): UserPoolIdentityProviderGoogle = UserPoolIdentityProviderGoogle(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildUserPoolIdentityProviderGoogle(id: String, initializer: @AwsCdkDsl
-    UserPoolIdentityProviderGoogle.Builder.() -> Unit = {}): UserPoolIdentityProviderGoogle =
-    UserPoolIdentityProviderGoogle.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildUserPoolIdentityProviderGoogle(id: String, initializer: @AwsCdkDsl UserPoolIdentityProviderGoogle.Builder.() -> Unit = {}): UserPoolIdentityProviderGoogle = UserPoolIdentityProviderGoogle.Builder.create(this, id).apply(initializer).build()

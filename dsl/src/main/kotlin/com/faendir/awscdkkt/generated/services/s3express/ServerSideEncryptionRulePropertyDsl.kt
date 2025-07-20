@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3express.CfnDirectoryBucket
 
 @Generated
-public fun buildServerSideEncryptionRuleProperty(initializer: @AwsCdkDsl
-    CfnDirectoryBucket.ServerSideEncryptionRuleProperty.Builder.() -> Unit = {}):
-    CfnDirectoryBucket.ServerSideEncryptionRuleProperty =
-    CfnDirectoryBucket.ServerSideEncryptionRuleProperty.Builder().apply(initializer).build()
+public fun buildServerSideEncryptionRuleProperty(initializer: @AwsCdkDsl CfnDirectoryBucket.ServerSideEncryptionRuleProperty.Builder.() -> Unit = {}): CfnDirectoryBucket.ServerSideEncryptionRuleProperty = CfnDirectoryBucket.ServerSideEncryptionRuleProperty.Builder().apply(initializer).build()

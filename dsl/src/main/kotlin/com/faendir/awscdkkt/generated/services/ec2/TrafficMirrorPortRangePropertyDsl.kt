@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnTrafficMirrorFilterRule
 
 @Generated
-public fun buildTrafficMirrorPortRangeProperty(initializer: @AwsCdkDsl
-    CfnTrafficMirrorFilterRule.TrafficMirrorPortRangeProperty.Builder.() -> Unit = {}):
-    CfnTrafficMirrorFilterRule.TrafficMirrorPortRangeProperty =
-    CfnTrafficMirrorFilterRule.TrafficMirrorPortRangeProperty.Builder().apply(initializer).build()
+public fun buildTrafficMirrorPortRangeProperty(initializer: @AwsCdkDsl CfnTrafficMirrorFilterRule.TrafficMirrorPortRangeProperty.Builder.() -> Unit = {}): CfnTrafficMirrorFilterRule.TrafficMirrorPortRangeProperty = CfnTrafficMirrorFilterRule.TrafficMirrorPortRangeProperty.Builder().apply(initializer).build()

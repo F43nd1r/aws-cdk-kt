@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.panorama.CfnPackageVersionProps
 
 @Generated
-public fun buildCfnPackageVersionProps(initializer: @AwsCdkDsl
-    CfnPackageVersionProps.Builder.() -> Unit = {}): CfnPackageVersionProps =
-    CfnPackageVersionProps.Builder().apply(initializer).build()
+public fun buildCfnPackageVersionProps(initializer: @AwsCdkDsl CfnPackageVersionProps.Builder.() -> Unit = {}): CfnPackageVersionProps = CfnPackageVersionProps.Builder().apply(initializer).build()

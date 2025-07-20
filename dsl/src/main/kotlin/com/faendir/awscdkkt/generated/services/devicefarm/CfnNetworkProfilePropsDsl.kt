@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.devicefarm.CfnNetworkProfileProps
 
 @Generated
-public fun buildCfnNetworkProfileProps(initializer: @AwsCdkDsl
-    CfnNetworkProfileProps.Builder.() -> Unit = {}): CfnNetworkProfileProps =
-    CfnNetworkProfileProps.Builder().apply(initializer).build()
+public fun buildCfnNetworkProfileProps(initializer: @AwsCdkDsl CfnNetworkProfileProps.Builder.() -> Unit = {}): CfnNetworkProfileProps = CfnNetworkProfileProps.Builder().apply(initializer).build()

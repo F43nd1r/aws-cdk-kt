@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrModifyInstanceGroupByNameJsonataProps
 
 @Generated
-public fun buildEmrModifyInstanceGroupByNameJsonataProps(initializer: @AwsCdkDsl
-    EmrModifyInstanceGroupByNameJsonataProps.Builder.() -> Unit = {}):
-    EmrModifyInstanceGroupByNameJsonataProps =
-    EmrModifyInstanceGroupByNameJsonataProps.Builder().apply(initializer).build()
+public fun buildEmrModifyInstanceGroupByNameJsonataProps(initializer: @AwsCdkDsl EmrModifyInstanceGroupByNameJsonataProps.Builder.() -> Unit = {}): EmrModifyInstanceGroupByNameJsonataProps = EmrModifyInstanceGroupByNameJsonataProps.Builder().apply(initializer).build()

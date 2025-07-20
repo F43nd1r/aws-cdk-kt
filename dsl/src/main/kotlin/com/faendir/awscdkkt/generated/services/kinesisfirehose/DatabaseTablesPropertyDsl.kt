@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
-public fun buildDatabaseTablesProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.DatabaseTablesProperty.Builder.() -> Unit = {}):
-    CfnDeliveryStream.DatabaseTablesProperty =
-    CfnDeliveryStream.DatabaseTablesProperty.Builder().apply(initializer).build()
+public fun buildDatabaseTablesProperty(initializer: @AwsCdkDsl CfnDeliveryStream.DatabaseTablesProperty.Builder.() -> Unit = {}): CfnDeliveryStream.DatabaseTablesProperty = CfnDeliveryStream.DatabaseTablesProperty.Builder().apply(initializer).build()

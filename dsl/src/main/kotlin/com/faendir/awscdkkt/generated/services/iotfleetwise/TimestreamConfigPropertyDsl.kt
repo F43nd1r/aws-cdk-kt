@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotfleetwise.CfnCampaign
 
 @Generated
-public fun buildTimestreamConfigProperty(initializer: @AwsCdkDsl
-    CfnCampaign.TimestreamConfigProperty.Builder.() -> Unit = {}):
-    CfnCampaign.TimestreamConfigProperty =
-    CfnCampaign.TimestreamConfigProperty.Builder().apply(initializer).build()
+public fun buildTimestreamConfigProperty(initializer: @AwsCdkDsl CfnCampaign.TimestreamConfigProperty.Builder.() -> Unit = {}): CfnCampaign.TimestreamConfigProperty = CfnCampaign.TimestreamConfigProperty.Builder().apply(initializer).build()

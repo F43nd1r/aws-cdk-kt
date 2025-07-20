@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.osis.CfnPipeline
 
 @Generated
-public fun buildVpcAttachmentOptionsProperty(initializer: @AwsCdkDsl
-    CfnPipeline.VpcAttachmentOptionsProperty.Builder.() -> Unit = {}):
-    CfnPipeline.VpcAttachmentOptionsProperty =
-    CfnPipeline.VpcAttachmentOptionsProperty.Builder().apply(initializer).build()
+public fun buildVpcAttachmentOptionsProperty(initializer: @AwsCdkDsl CfnPipeline.VpcAttachmentOptionsProperty.Builder.() -> Unit = {}): CfnPipeline.VpcAttachmentOptionsProperty = CfnPipeline.VpcAttachmentOptionsProperty.Builder().apply(initializer).build()

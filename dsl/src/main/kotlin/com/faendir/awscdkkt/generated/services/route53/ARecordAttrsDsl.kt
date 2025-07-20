@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53.ARecordAttrs
 
 @Generated
-public fun buildARecordAttrs(initializer: @AwsCdkDsl ARecordAttrs.Builder.() -> Unit = {}):
-    ARecordAttrs = ARecordAttrs.Builder().apply(initializer).build()
+public fun buildARecordAttrs(initializer: @AwsCdkDsl ARecordAttrs.Builder.() -> Unit = {}): ARecordAttrs = ARecordAttrs.Builder().apply(initializer).build()

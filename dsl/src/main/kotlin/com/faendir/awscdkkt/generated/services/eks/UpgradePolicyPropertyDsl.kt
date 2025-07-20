@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.CfnCluster
 
 @Generated
-public fun buildUpgradePolicyProperty(initializer: @AwsCdkDsl
-    CfnCluster.UpgradePolicyProperty.Builder.() -> Unit = {}): CfnCluster.UpgradePolicyProperty =
-    CfnCluster.UpgradePolicyProperty.Builder().apply(initializer).build()
+public fun buildUpgradePolicyProperty(initializer: @AwsCdkDsl CfnCluster.UpgradePolicyProperty.Builder.() -> Unit = {}): CfnCluster.UpgradePolicyProperty = CfnCluster.UpgradePolicyProperty.Builder().apply(initializer).build()

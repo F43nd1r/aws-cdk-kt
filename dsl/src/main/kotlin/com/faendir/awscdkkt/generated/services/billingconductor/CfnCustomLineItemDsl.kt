@@ -16,6 +16,4 @@ public fun Construct.cfnCustomLineItem(
 ): CfnCustomLineItem = CfnCustomLineItem(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCustomLineItem(id: String, initializer: @AwsCdkDsl
-    CfnCustomLineItem.Builder.() -> Unit = {}): CfnCustomLineItem =
-    CfnCustomLineItem.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCustomLineItem(id: String, initializer: @AwsCdkDsl CfnCustomLineItem.Builder.() -> Unit = {}): CfnCustomLineItem = CfnCustomLineItem.Builder.create(this, id).apply(initializer).build()

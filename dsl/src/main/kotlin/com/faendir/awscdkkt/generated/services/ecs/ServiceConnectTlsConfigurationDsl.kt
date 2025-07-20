@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.ServiceConnectTlsConfiguration
 
 @Generated
-public fun buildServiceConnectTlsConfiguration(initializer: @AwsCdkDsl
-    ServiceConnectTlsConfiguration.Builder.() -> Unit = {}): ServiceConnectTlsConfiguration =
-    ServiceConnectTlsConfiguration.Builder().apply(initializer).build()
+public fun buildServiceConnectTlsConfiguration(initializer: @AwsCdkDsl ServiceConnectTlsConfiguration.Builder.() -> Unit = {}): ServiceConnectTlsConfiguration = ServiceConnectTlsConfiguration.Builder().apply(initializer).build()

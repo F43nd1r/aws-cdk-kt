@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildTreeMapSortConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TreeMapSortConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.TreeMapSortConfigurationProperty =
-    CfnTemplate.TreeMapSortConfigurationProperty.Builder().apply(initializer).build()
+public fun buildTreeMapSortConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.TreeMapSortConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.TreeMapSortConfigurationProperty = CfnTemplate.TreeMapSortConfigurationProperty.Builder().apply(initializer).build()

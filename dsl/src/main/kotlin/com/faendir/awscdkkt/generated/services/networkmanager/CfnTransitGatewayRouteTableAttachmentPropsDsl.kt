@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkmanager.CfnTransitGatewayRouteTableAttachmentProps
 
 @Generated
-public fun buildCfnTransitGatewayRouteTableAttachmentProps(initializer: @AwsCdkDsl
-    CfnTransitGatewayRouteTableAttachmentProps.Builder.() -> Unit = {}):
-    CfnTransitGatewayRouteTableAttachmentProps =
-    CfnTransitGatewayRouteTableAttachmentProps.Builder().apply(initializer).build()
+public fun buildCfnTransitGatewayRouteTableAttachmentProps(initializer: @AwsCdkDsl CfnTransitGatewayRouteTableAttachmentProps.Builder.() -> Unit = {}): CfnTransitGatewayRouteTableAttachmentProps = CfnTransitGatewayRouteTableAttachmentProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.DynamoDeleteItemJsonPathProps
 
 @Generated
-public fun buildDynamoDeleteItemJsonPathProps(initializer: @AwsCdkDsl
-    DynamoDeleteItemJsonPathProps.Builder.() -> Unit = {}): DynamoDeleteItemJsonPathProps =
-    DynamoDeleteItemJsonPathProps.Builder().apply(initializer).build()
+public fun buildDynamoDeleteItemJsonPathProps(initializer: @AwsCdkDsl DynamoDeleteItemJsonPathProps.Builder.() -> Unit = {}): DynamoDeleteItemJsonPathProps = DynamoDeleteItemJsonPathProps.Builder().apply(initializer).build()

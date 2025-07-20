@@ -16,6 +16,4 @@ public fun Construct.apiMapping(
 ): ApiMapping = ApiMapping(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildApiMapping(id: String, initializer: @AwsCdkDsl
-    ApiMapping.Builder.() -> Unit = {}): ApiMapping = ApiMapping.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildApiMapping(id: String, initializer: @AwsCdkDsl ApiMapping.Builder.() -> Unit = {}): ApiMapping = ApiMapping.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.secretsmanager.SecretRotationProps
 
 @Generated
-public fun buildSecretRotationProps(initializer: @AwsCdkDsl SecretRotationProps.Builder.() -> Unit =
-    {}): SecretRotationProps = SecretRotationProps.Builder().apply(initializer).build()
+public fun buildSecretRotationProps(initializer: @AwsCdkDsl SecretRotationProps.Builder.() -> Unit = {}): SecretRotationProps = SecretRotationProps.Builder().apply(initializer).build()

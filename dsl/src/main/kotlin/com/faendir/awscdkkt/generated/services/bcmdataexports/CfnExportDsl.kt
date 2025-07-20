@@ -16,5 +16,4 @@ public fun Construct.cfnExport(
 ): CfnExport = CfnExport(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnExport(id: String, initializer: @AwsCdkDsl CfnExport.Builder.() -> Unit
-    = {}): CfnExport = CfnExport.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnExport(id: String, initializer: @AwsCdkDsl CfnExport.Builder.() -> Unit = {}): CfnExport = CfnExport.Builder.create(this, id).apply(initializer).build()

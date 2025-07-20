@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotwireless.CfnWirelessDevice
 
 @Generated
-public fun buildSessionKeysAbpV11Property(initializer: @AwsCdkDsl
-    CfnWirelessDevice.SessionKeysAbpV11Property.Builder.() -> Unit = {}):
-    CfnWirelessDevice.SessionKeysAbpV11Property =
-    CfnWirelessDevice.SessionKeysAbpV11Property.Builder().apply(initializer).build()
+public fun buildSessionKeysAbpV11Property(initializer: @AwsCdkDsl CfnWirelessDevice.SessionKeysAbpV11Property.Builder.() -> Unit = {}): CfnWirelessDevice.SessionKeysAbpV11Property = CfnWirelessDevice.SessionKeysAbpV11Property.Builder().apply(initializer).build()

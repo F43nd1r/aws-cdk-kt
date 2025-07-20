@@ -13,10 +13,7 @@ public fun Construct.cfnClusterSecurityGroupIngress(
   id: String,
   props: CfnClusterSecurityGroupIngressProps,
   initializer: @AwsCdkDsl CfnClusterSecurityGroupIngress.() -> Unit = {},
-): CfnClusterSecurityGroupIngress = CfnClusterSecurityGroupIngress(this, id,
-    props).apply(initializer)
+): CfnClusterSecurityGroupIngress = CfnClusterSecurityGroupIngress(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnClusterSecurityGroupIngress(id: String, initializer: @AwsCdkDsl
-    CfnClusterSecurityGroupIngress.Builder.() -> Unit = {}): CfnClusterSecurityGroupIngress =
-    CfnClusterSecurityGroupIngress.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnClusterSecurityGroupIngress(id: String, initializer: @AwsCdkDsl CfnClusterSecurityGroupIngress.Builder.() -> Unit = {}): CfnClusterSecurityGroupIngress = CfnClusterSecurityGroupIngress.Builder.create(this, id).apply(initializer).build()

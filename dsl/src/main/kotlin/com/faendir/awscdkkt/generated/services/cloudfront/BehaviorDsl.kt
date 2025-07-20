@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.Behavior
 
 @Generated
-public fun buildBehavior(initializer: @AwsCdkDsl Behavior.Builder.() -> Unit = {}): Behavior =
-    Behavior.Builder().apply(initializer).build()
+public fun buildBehavior(initializer: @AwsCdkDsl Behavior.Builder.() -> Unit = {}): Behavior = Behavior.Builder().apply(initializer).build()

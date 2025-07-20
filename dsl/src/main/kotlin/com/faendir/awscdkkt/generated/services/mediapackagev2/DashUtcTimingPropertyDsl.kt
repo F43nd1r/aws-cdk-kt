@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediapackagev2.CfnOriginEndpoint
 
 @Generated
-public fun buildDashUtcTimingProperty(initializer: @AwsCdkDsl
-    CfnOriginEndpoint.DashUtcTimingProperty.Builder.() -> Unit = {}):
-    CfnOriginEndpoint.DashUtcTimingProperty =
-    CfnOriginEndpoint.DashUtcTimingProperty.Builder().apply(initializer).build()
+public fun buildDashUtcTimingProperty(initializer: @AwsCdkDsl CfnOriginEndpoint.DashUtcTimingProperty.Builder.() -> Unit = {}): CfnOriginEndpoint.DashUtcTimingProperty = CfnOriginEndpoint.DashUtcTimingProperty.Builder().apply(initializer).build()

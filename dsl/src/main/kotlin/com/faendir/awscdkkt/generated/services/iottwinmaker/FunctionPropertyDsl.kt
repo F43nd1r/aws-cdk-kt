@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iottwinmaker.CfnComponentType
 
 @Generated
-public fun buildFunctionProperty(initializer: @AwsCdkDsl
-    CfnComponentType.FunctionProperty.Builder.() -> Unit = {}): CfnComponentType.FunctionProperty =
-    CfnComponentType.FunctionProperty.Builder().apply(initializer).build()
+public fun buildFunctionProperty(initializer: @AwsCdkDsl CfnComponentType.FunctionProperty.Builder.() -> Unit = {}): CfnComponentType.FunctionProperty = CfnComponentType.FunctionProperty.Builder().apply(initializer).build()

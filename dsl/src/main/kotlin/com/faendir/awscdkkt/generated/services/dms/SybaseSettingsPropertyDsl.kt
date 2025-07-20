@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dms.CfnEndpoint
 
 @Generated
-public fun buildSybaseSettingsProperty(initializer: @AwsCdkDsl
-    CfnEndpoint.SybaseSettingsProperty.Builder.() -> Unit = {}): CfnEndpoint.SybaseSettingsProperty
-    = CfnEndpoint.SybaseSettingsProperty.Builder().apply(initializer).build()
+public fun buildSybaseSettingsProperty(initializer: @AwsCdkDsl CfnEndpoint.SybaseSettingsProperty.Builder.() -> Unit = {}): CfnEndpoint.SybaseSettingsProperty = CfnEndpoint.SybaseSettingsProperty.Builder().apply(initializer).build()

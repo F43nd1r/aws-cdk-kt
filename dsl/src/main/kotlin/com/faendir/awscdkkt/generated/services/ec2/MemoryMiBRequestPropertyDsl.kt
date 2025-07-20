@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnSpotFleet
 
 @Generated
-public fun buildMemoryMiBRequestProperty(initializer: @AwsCdkDsl
-    CfnSpotFleet.MemoryMiBRequestProperty.Builder.() -> Unit = {}):
-    CfnSpotFleet.MemoryMiBRequestProperty =
-    CfnSpotFleet.MemoryMiBRequestProperty.Builder().apply(initializer).build()
+public fun buildMemoryMiBRequestProperty(initializer: @AwsCdkDsl CfnSpotFleet.MemoryMiBRequestProperty.Builder.() -> Unit = {}): CfnSpotFleet.MemoryMiBRequestProperty = CfnSpotFleet.MemoryMiBRequestProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.route53recoverycontrol.CfnSafetyRule
 
 @Generated
-public fun buildGatingRuleProperty(initializer: @AwsCdkDsl
-    CfnSafetyRule.GatingRuleProperty.Builder.() -> Unit = {}): CfnSafetyRule.GatingRuleProperty =
-    CfnSafetyRule.GatingRuleProperty.Builder().apply(initializer).build()
+public fun buildGatingRuleProperty(initializer: @AwsCdkDsl CfnSafetyRule.GatingRuleProperty.Builder.() -> Unit = {}): CfnSafetyRule.GatingRuleProperty = CfnSafetyRule.GatingRuleProperty.Builder().apply(initializer).build()

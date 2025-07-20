@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildPipeTargetBatchJobParametersProperty(initializer: @AwsCdkDsl
-    CfnPipe.PipeTargetBatchJobParametersProperty.Builder.() -> Unit = {}):
-    CfnPipe.PipeTargetBatchJobParametersProperty =
-    CfnPipe.PipeTargetBatchJobParametersProperty.Builder().apply(initializer).build()
+public fun buildPipeTargetBatchJobParametersProperty(initializer: @AwsCdkDsl CfnPipe.PipeTargetBatchJobParametersProperty.Builder.() -> Unit = {}): CfnPipe.PipeTargetBatchJobParametersProperty = CfnPipe.PipeTargetBatchJobParametersProperty.Builder().apply(initializer).build()

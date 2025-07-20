@@ -16,6 +16,4 @@ public fun Construct.cfnConnectPeer(
 ): CfnConnectPeer = CfnConnectPeer(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnConnectPeer(id: String, initializer: @AwsCdkDsl
-    CfnConnectPeer.Builder.() -> Unit = {}): CfnConnectPeer = CfnConnectPeer.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnConnectPeer(id: String, initializer: @AwsCdkDsl CfnConnectPeer.Builder.() -> Unit = {}): CfnConnectPeer = CfnConnectPeer.Builder.create(this, id).apply(initializer).build()

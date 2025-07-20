@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.CfnListenerRule
 
 @Generated
-public fun buildAuthenticateOidcConfigProperty(initializer: @AwsCdkDsl
-    CfnListenerRule.AuthenticateOidcConfigProperty.Builder.() -> Unit = {}):
-    CfnListenerRule.AuthenticateOidcConfigProperty =
-    CfnListenerRule.AuthenticateOidcConfigProperty.Builder().apply(initializer).build()
+public fun buildAuthenticateOidcConfigProperty(initializer: @AwsCdkDsl CfnListenerRule.AuthenticateOidcConfigProperty.Builder.() -> Unit = {}): CfnListenerRule.AuthenticateOidcConfigProperty = CfnListenerRule.AuthenticateOidcConfigProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opsworks.CfnLayer
 
 @Generated
-public fun buildRecipesProperty(initializer: @AwsCdkDsl CfnLayer.RecipesProperty.Builder.() -> Unit
-    = {}): CfnLayer.RecipesProperty = CfnLayer.RecipesProperty.Builder().apply(initializer).build()
+public fun buildRecipesProperty(initializer: @AwsCdkDsl CfnLayer.RecipesProperty.Builder.() -> Unit = {}): CfnLayer.RecipesProperty = CfnLayer.RecipesProperty.Builder().apply(initializer).build()

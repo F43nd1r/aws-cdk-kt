@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.secretsmanager.RotationScheduleProps
 
 @Generated
-public fun buildRotationScheduleProps(initializer: @AwsCdkDsl
-    RotationScheduleProps.Builder.() -> Unit = {}): RotationScheduleProps =
-    RotationScheduleProps.Builder().apply(initializer).build()
+public fun buildRotationScheduleProps(initializer: @AwsCdkDsl RotationScheduleProps.Builder.() -> Unit = {}): RotationScheduleProps = RotationScheduleProps.Builder().apply(initializer).build()

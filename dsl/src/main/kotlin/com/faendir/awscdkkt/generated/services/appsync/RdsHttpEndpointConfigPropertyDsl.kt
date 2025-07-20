@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.CfnDataSource
 
 @Generated
-public fun buildRdsHttpEndpointConfigProperty(initializer: @AwsCdkDsl
-    CfnDataSource.RdsHttpEndpointConfigProperty.Builder.() -> Unit = {}):
-    CfnDataSource.RdsHttpEndpointConfigProperty =
-    CfnDataSource.RdsHttpEndpointConfigProperty.Builder().apply(initializer).build()
+public fun buildRdsHttpEndpointConfigProperty(initializer: @AwsCdkDsl CfnDataSource.RdsHttpEndpointConfigProperty.Builder.() -> Unit = {}): CfnDataSource.RdsHttpEndpointConfigProperty = CfnDataSource.RdsHttpEndpointConfigProperty.Builder().apply(initializer).build()

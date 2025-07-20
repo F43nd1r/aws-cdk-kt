@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnMessageTemplate
 
 @Generated
-public fun buildSystemAttributesProperty(initializer: @AwsCdkDsl
-    CfnMessageTemplate.SystemAttributesProperty.Builder.() -> Unit = {}):
-    CfnMessageTemplate.SystemAttributesProperty =
-    CfnMessageTemplate.SystemAttributesProperty.Builder().apply(initializer).build()
+public fun buildSystemAttributesProperty(initializer: @AwsCdkDsl CfnMessageTemplate.SystemAttributesProperty.Builder.() -> Unit = {}): CfnMessageTemplate.SystemAttributesProperty = CfnMessageTemplate.SystemAttributesProperty.Builder().apply(initializer).build()

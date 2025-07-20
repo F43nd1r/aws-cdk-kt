@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnTopicRule
 
 @Generated
-public fun buildCloudwatchMetricActionProperty(initializer: @AwsCdkDsl
-    CfnTopicRule.CloudwatchMetricActionProperty.Builder.() -> Unit = {}):
-    CfnTopicRule.CloudwatchMetricActionProperty =
-    CfnTopicRule.CloudwatchMetricActionProperty.Builder().apply(initializer).build()
+public fun buildCloudwatchMetricActionProperty(initializer: @AwsCdkDsl CfnTopicRule.CloudwatchMetricActionProperty.Builder.() -> Unit = {}): CfnTopicRule.CloudwatchMetricActionProperty = CfnTopicRule.CloudwatchMetricActionProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rekognition.CfnStreamProcessorProps
 
 @Generated
-public fun buildCfnStreamProcessorProps(initializer: @AwsCdkDsl
-    CfnStreamProcessorProps.Builder.() -> Unit = {}): CfnStreamProcessorProps =
-    CfnStreamProcessorProps.Builder().apply(initializer).build()
+public fun buildCfnStreamProcessorProps(initializer: @AwsCdkDsl CfnStreamProcessorProps.Builder.() -> Unit = {}): CfnStreamProcessorProps = CfnStreamProcessorProps.Builder().apply(initializer).build()

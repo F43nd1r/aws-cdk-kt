@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sns.LoggingConfig
 
 @Generated
-public fun buildLoggingConfig(initializer: @AwsCdkDsl LoggingConfig.Builder.() -> Unit = {}):
-    LoggingConfig = LoggingConfig.Builder().apply(initializer).build()
+public fun buildLoggingConfig(initializer: @AwsCdkDsl LoggingConfig.Builder.() -> Unit = {}): LoggingConfig = LoggingConfig.Builder().apply(initializer).build()

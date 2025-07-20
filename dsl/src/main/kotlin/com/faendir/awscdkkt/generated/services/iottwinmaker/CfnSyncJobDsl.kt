@@ -16,6 +16,4 @@ public fun Construct.cfnSyncJob(
 ): CfnSyncJob = CfnSyncJob(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSyncJob(id: String, initializer: @AwsCdkDsl
-    CfnSyncJob.Builder.() -> Unit = {}): CfnSyncJob = CfnSyncJob.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnSyncJob(id: String, initializer: @AwsCdkDsl CfnSyncJob.Builder.() -> Unit = {}): CfnSyncJob = CfnSyncJob.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.callAwsService(
 ): CallAwsService = CallAwsService(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCallAwsService(id: String, initializer: @AwsCdkDsl
-    CallAwsService.Builder.() -> Unit = {}): CallAwsService = CallAwsService.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCallAwsService(id: String, initializer: @AwsCdkDsl CallAwsService.Builder.() -> Unit = {}): CallAwsService = CallAwsService.Builder.create(this, id).apply(initializer).build()

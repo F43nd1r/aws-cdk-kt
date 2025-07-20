@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codedeploy.CfnDeploymentConfig
 
 @Generated
-public fun buildTimeBasedCanaryProperty(initializer: @AwsCdkDsl
-    CfnDeploymentConfig.TimeBasedCanaryProperty.Builder.() -> Unit = {}):
-    CfnDeploymentConfig.TimeBasedCanaryProperty =
-    CfnDeploymentConfig.TimeBasedCanaryProperty.Builder().apply(initializer).build()
+public fun buildTimeBasedCanaryProperty(initializer: @AwsCdkDsl CfnDeploymentConfig.TimeBasedCanaryProperty.Builder.() -> Unit = {}): CfnDeploymentConfig.TimeBasedCanaryProperty = CfnDeploymentConfig.TimeBasedCanaryProperty.Builder().apply(initializer).build()

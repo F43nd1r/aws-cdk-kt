@@ -16,6 +16,4 @@ public fun Construct.cfnPreparedStatement(
 ): CfnPreparedStatement = CfnPreparedStatement(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPreparedStatement(id: String, initializer: @AwsCdkDsl
-    CfnPreparedStatement.Builder.() -> Unit = {}): CfnPreparedStatement =
-    CfnPreparedStatement.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPreparedStatement(id: String, initializer: @AwsCdkDsl CfnPreparedStatement.Builder.() -> Unit = {}): CfnPreparedStatement = CfnPreparedStatement.Builder.create(this, id).apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.applicationListenerRule(
 ): ApplicationListenerRule = ApplicationListenerRule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildApplicationListenerRule(id: String, initializer: @AwsCdkDsl
-    ApplicationListenerRule.Builder.() -> Unit = {}): ApplicationListenerRule =
-    ApplicationListenerRule.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildApplicationListenerRule(id: String, initializer: @AwsCdkDsl ApplicationListenerRule.Builder.() -> Unit = {}): ApplicationListenerRule = ApplicationListenerRule.Builder.create(this, id).apply(initializer).build()

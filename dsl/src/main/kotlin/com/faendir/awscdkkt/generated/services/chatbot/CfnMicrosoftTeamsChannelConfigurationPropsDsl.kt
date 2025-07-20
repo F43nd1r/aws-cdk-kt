@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.chatbot.CfnMicrosoftTeamsChannelConfigurationProps
 
 @Generated
-public fun buildCfnMicrosoftTeamsChannelConfigurationProps(initializer: @AwsCdkDsl
-    CfnMicrosoftTeamsChannelConfigurationProps.Builder.() -> Unit = {}):
-    CfnMicrosoftTeamsChannelConfigurationProps =
-    CfnMicrosoftTeamsChannelConfigurationProps.Builder().apply(initializer).build()
+public fun buildCfnMicrosoftTeamsChannelConfigurationProps(initializer: @AwsCdkDsl CfnMicrosoftTeamsChannelConfigurationProps.Builder.() -> Unit = {}): CfnMicrosoftTeamsChannelConfigurationProps = CfnMicrosoftTeamsChannelConfigurationProps.Builder().apply(initializer).build()

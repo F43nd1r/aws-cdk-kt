@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.aps.CfnScraper
 
 @Generated
-public fun buildSourceProperty(initializer: @AwsCdkDsl CfnScraper.SourceProperty.Builder.() -> Unit
-    = {}): CfnScraper.SourceProperty =
-    CfnScraper.SourceProperty.Builder().apply(initializer).build()
+public fun buildSourceProperty(initializer: @AwsCdkDsl CfnScraper.SourceProperty.Builder.() -> Unit = {}): CfnScraper.SourceProperty = CfnScraper.SourceProperty.Builder().apply(initializer).build()

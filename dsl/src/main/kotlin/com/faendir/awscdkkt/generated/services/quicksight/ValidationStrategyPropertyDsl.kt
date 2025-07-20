@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildValidationStrategyProperty(initializer: @AwsCdkDsl
-    CfnTemplate.ValidationStrategyProperty.Builder.() -> Unit = {}):
-    CfnTemplate.ValidationStrategyProperty =
-    CfnTemplate.ValidationStrategyProperty.Builder().apply(initializer).build()
+public fun buildValidationStrategyProperty(initializer: @AwsCdkDsl CfnTemplate.ValidationStrategyProperty.Builder.() -> Unit = {}): CfnTemplate.ValidationStrategyProperty = CfnTemplate.ValidationStrategyProperty.Builder().apply(initializer).build()

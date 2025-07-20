@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.AnomalyDetectionMetricOptions
 
 @Generated
-public fun buildAnomalyDetectionMetricOptions(initializer: @AwsCdkDsl
-    AnomalyDetectionMetricOptions.Builder.() -> Unit = {}): AnomalyDetectionMetricOptions =
-    AnomalyDetectionMetricOptions.Builder().apply(initializer).build()
+public fun buildAnomalyDetectionMetricOptions(initializer: @AwsCdkDsl AnomalyDetectionMetricOptions.Builder.() -> Unit = {}): AnomalyDetectionMetricOptions = AnomalyDetectionMetricOptions.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicecatalog.CfnTagOptionAssociationProps
 
 @Generated
-public fun buildCfnTagOptionAssociationProps(initializer: @AwsCdkDsl
-    CfnTagOptionAssociationProps.Builder.() -> Unit = {}): CfnTagOptionAssociationProps =
-    CfnTagOptionAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnTagOptionAssociationProps(initializer: @AwsCdkDsl CfnTagOptionAssociationProps.Builder.() -> Unit = {}): CfnTagOptionAssociationProps = CfnTagOptionAssociationProps.Builder().apply(initializer).build()

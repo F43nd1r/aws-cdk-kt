@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.emr.CfnStudioSessionMappingProps
 
 @Generated
-public fun buildCfnStudioSessionMappingProps(initializer: @AwsCdkDsl
-    CfnStudioSessionMappingProps.Builder.() -> Unit = {}): CfnStudioSessionMappingProps =
-    CfnStudioSessionMappingProps.Builder().apply(initializer).build()
+public fun buildCfnStudioSessionMappingProps(initializer: @AwsCdkDsl CfnStudioSessionMappingProps.Builder.() -> Unit = {}): CfnStudioSessionMappingProps = CfnStudioSessionMappingProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.CfnGlobalCluster
 
 @Generated
-public fun buildGlobalEndpointProperty(initializer: @AwsCdkDsl
-    CfnGlobalCluster.GlobalEndpointProperty.Builder.() -> Unit = {}):
-    CfnGlobalCluster.GlobalEndpointProperty =
-    CfnGlobalCluster.GlobalEndpointProperty.Builder().apply(initializer).build()
+public fun buildGlobalEndpointProperty(initializer: @AwsCdkDsl CfnGlobalCluster.GlobalEndpointProperty.Builder.() -> Unit = {}): CfnGlobalCluster.GlobalEndpointProperty = CfnGlobalCluster.GlobalEndpointProperty.Builder().apply(initializer).build()

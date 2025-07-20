@@ -13,10 +13,7 @@ public fun Construct.cfnVerifiedAccessTrustProvider(
   id: String,
   props: CfnVerifiedAccessTrustProviderProps,
   initializer: @AwsCdkDsl CfnVerifiedAccessTrustProvider.() -> Unit = {},
-): CfnVerifiedAccessTrustProvider = CfnVerifiedAccessTrustProvider(this, id,
-    props).apply(initializer)
+): CfnVerifiedAccessTrustProvider = CfnVerifiedAccessTrustProvider(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVerifiedAccessTrustProvider(id: String, initializer: @AwsCdkDsl
-    CfnVerifiedAccessTrustProvider.Builder.() -> Unit = {}): CfnVerifiedAccessTrustProvider =
-    CfnVerifiedAccessTrustProvider.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnVerifiedAccessTrustProvider(id: String, initializer: @AwsCdkDsl CfnVerifiedAccessTrustProvider.Builder.() -> Unit = {}): CfnVerifiedAccessTrustProvider = CfnVerifiedAccessTrustProvider.Builder.create(this, id).apply(initializer).build()

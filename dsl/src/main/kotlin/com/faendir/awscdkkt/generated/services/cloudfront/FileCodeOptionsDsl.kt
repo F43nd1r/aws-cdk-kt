@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.FileCodeOptions
 
 @Generated
-public fun buildFileCodeOptions(initializer: @AwsCdkDsl FileCodeOptions.Builder.() -> Unit = {}):
-    FileCodeOptions = FileCodeOptions.Builder().apply(initializer).build()
+public fun buildFileCodeOptions(initializer: @AwsCdkDsl FileCodeOptions.Builder.() -> Unit = {}): FileCodeOptions = FileCodeOptions.Builder().apply(initializer).build()

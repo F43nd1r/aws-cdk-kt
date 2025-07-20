@@ -16,6 +16,4 @@ public fun Construct.sqsSendMessage(
 ): SqsSendMessage = SqsSendMessage(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildSqsSendMessage(id: String, initializer: @AwsCdkDsl
-    SqsSendMessage.Builder.() -> Unit = {}): SqsSendMessage = SqsSendMessage.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildSqsSendMessage(id: String, initializer: @AwsCdkDsl SqsSendMessage.Builder.() -> Unit = {}): SqsSendMessage = SqsSendMessage.Builder.create(this, id).apply(initializer).build()

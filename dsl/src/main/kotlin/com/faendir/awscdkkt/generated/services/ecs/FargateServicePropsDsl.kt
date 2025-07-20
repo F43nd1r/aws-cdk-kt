@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.FargateServiceProps
 
 @Generated
-public fun buildFargateServiceProps(initializer: @AwsCdkDsl FargateServiceProps.Builder.() -> Unit =
-    {}): FargateServiceProps = FargateServiceProps.Builder().apply(initializer).build()
+public fun buildFargateServiceProps(initializer: @AwsCdkDsl FargateServiceProps.Builder.() -> Unit = {}): FargateServiceProps = FargateServiceProps.Builder().apply(initializer).build()

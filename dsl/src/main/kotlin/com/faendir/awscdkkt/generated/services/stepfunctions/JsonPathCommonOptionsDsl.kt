@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.JsonPathCommonOptions
 
 @Generated
-public fun buildJsonPathCommonOptions(initializer: @AwsCdkDsl
-    JsonPathCommonOptions.Builder.() -> Unit = {}): JsonPathCommonOptions =
-    JsonPathCommonOptions.Builder().apply(initializer).build()
+public fun buildJsonPathCommonOptions(initializer: @AwsCdkDsl JsonPathCommonOptions.Builder.() -> Unit = {}): JsonPathCommonOptions = JsonPathCommonOptions.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.verifiedpermissions.CfnPolicyTemplateProps
 
 @Generated
-public fun buildCfnPolicyTemplateProps(initializer: @AwsCdkDsl
-    CfnPolicyTemplateProps.Builder.() -> Unit = {}): CfnPolicyTemplateProps =
-    CfnPolicyTemplateProps.Builder().apply(initializer).build()
+public fun buildCfnPolicyTemplateProps(initializer: @AwsCdkDsl CfnPolicyTemplateProps.Builder.() -> Unit = {}): CfnPolicyTemplateProps = CfnPolicyTemplateProps.Builder().apply(initializer).build()

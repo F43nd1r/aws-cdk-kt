@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnAIGuardrail
 
 @Generated
-public fun buildGuardrailContextualGroundingFilterConfigProperty(initializer: @AwsCdkDsl
-    CfnAIGuardrail.GuardrailContextualGroundingFilterConfigProperty.Builder.() -> Unit = {}):
-    CfnAIGuardrail.GuardrailContextualGroundingFilterConfigProperty =
-    CfnAIGuardrail.GuardrailContextualGroundingFilterConfigProperty.Builder().apply(initializer).build()
+public fun buildGuardrailContextualGroundingFilterConfigProperty(initializer: @AwsCdkDsl CfnAIGuardrail.GuardrailContextualGroundingFilterConfigProperty.Builder.() -> Unit = {}): CfnAIGuardrail.GuardrailContextualGroundingFilterConfigProperty = CfnAIGuardrail.GuardrailContextualGroundingFilterConfigProperty.Builder().apply(initializer).build()

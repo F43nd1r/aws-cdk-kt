@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opsworks.CfnStack
 
 @Generated
-public fun buildChefConfigurationProperty(initializer: @AwsCdkDsl
-    CfnStack.ChefConfigurationProperty.Builder.() -> Unit = {}): CfnStack.ChefConfigurationProperty
-    = CfnStack.ChefConfigurationProperty.Builder().apply(initializer).build()
+public fun buildChefConfigurationProperty(initializer: @AwsCdkDsl CfnStack.ChefConfigurationProperty.Builder.() -> Unit = {}): CfnStack.ChefConfigurationProperty = CfnStack.ChefConfigurationProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.PasswordPolicy
 
 @Generated
-public fun buildPasswordPolicy(initializer: @AwsCdkDsl PasswordPolicy.Builder.() -> Unit = {}):
-    PasswordPolicy = PasswordPolicy.Builder().apply(initializer).build()
+public fun buildPasswordPolicy(initializer: @AwsCdkDsl PasswordPolicy.Builder.() -> Unit = {}): PasswordPolicy = PasswordPolicy.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wisdom.CfnAIGuardrailProps
 
 @Generated
-public fun buildCfnAIGuardrailProps(initializer: @AwsCdkDsl CfnAIGuardrailProps.Builder.() -> Unit =
-    {}): CfnAIGuardrailProps = CfnAIGuardrailProps.Builder().apply(initializer).build()
+public fun buildCfnAIGuardrailProps(initializer: @AwsCdkDsl CfnAIGuardrailProps.Builder.() -> Unit = {}): CfnAIGuardrailProps = CfnAIGuardrailProps.Builder().apply(initializer).build()

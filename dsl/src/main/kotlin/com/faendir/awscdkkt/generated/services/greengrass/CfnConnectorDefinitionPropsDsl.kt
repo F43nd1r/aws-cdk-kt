@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.greengrass.CfnConnectorDefinitionProps
 
 @Generated
-public fun buildCfnConnectorDefinitionProps(initializer: @AwsCdkDsl
-    CfnConnectorDefinitionProps.Builder.() -> Unit = {}): CfnConnectorDefinitionProps =
-    CfnConnectorDefinitionProps.Builder().apply(initializer).build()
+public fun buildCfnConnectorDefinitionProps(initializer: @AwsCdkDsl CfnConnectorDefinitionProps.Builder.() -> Unit = {}): CfnConnectorDefinitionProps = CfnConnectorDefinitionProps.Builder().apply(initializer).build()

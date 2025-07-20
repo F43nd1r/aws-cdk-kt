@@ -16,5 +16,4 @@ public fun Construct.httpStage(
 ): HttpStage = HttpStage(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildHttpStage(id: String, initializer: @AwsCdkDsl HttpStage.Builder.() -> Unit
-    = {}): HttpStage = HttpStage.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildHttpStage(id: String, initializer: @AwsCdkDsl HttpStage.Builder.() -> Unit = {}): HttpStage = HttpStage.Builder.create(this, id).apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.WebSocketApiProps
 
 @Generated
-public fun buildWebSocketApiProps(initializer: @AwsCdkDsl WebSocketApiProps.Builder.() -> Unit =
-    {}): WebSocketApiProps = WebSocketApiProps.Builder().apply(initializer).build()
+public fun buildWebSocketApiProps(initializer: @AwsCdkDsl WebSocketApiProps.Builder.() -> Unit = {}): WebSocketApiProps = WebSocketApiProps.Builder().apply(initializer).build()

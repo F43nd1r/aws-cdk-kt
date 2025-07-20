@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
-public fun buildGeospatialStaticFileSourceProperty(initializer: @AwsCdkDsl
-    CfnDashboard.GeospatialStaticFileSourceProperty.Builder.() -> Unit = {}):
-    CfnDashboard.GeospatialStaticFileSourceProperty =
-    CfnDashboard.GeospatialStaticFileSourceProperty.Builder().apply(initializer).build()
+public fun buildGeospatialStaticFileSourceProperty(initializer: @AwsCdkDsl CfnDashboard.GeospatialStaticFileSourceProperty.Builder.() -> Unit = {}): CfnDashboard.GeospatialStaticFileSourceProperty = CfnDashboard.GeospatialStaticFileSourceProperty.Builder().apply(initializer).build()

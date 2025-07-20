@@ -16,6 +16,4 @@ public fun Construct.cfnApplicationOutputV2(
 ): CfnApplicationOutputV2 = CfnApplicationOutputV2(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnApplicationOutputV2(id: String, initializer: @AwsCdkDsl
-    CfnApplicationOutputV2.Builder.() -> Unit = {}): CfnApplicationOutputV2 =
-    CfnApplicationOutputV2.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnApplicationOutputV2(id: String, initializer: @AwsCdkDsl CfnApplicationOutputV2.Builder.() -> Unit = {}): CfnApplicationOutputV2 = CfnApplicationOutputV2.Builder.create(this, id).apply(initializer).build()

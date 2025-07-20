@@ -16,6 +16,4 @@ public fun Construct.databaseCluster(
 ): DatabaseCluster = DatabaseCluster(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildDatabaseCluster(id: String, initializer: @AwsCdkDsl
-    DatabaseCluster.Builder.() -> Unit = {}): DatabaseCluster = DatabaseCluster.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildDatabaseCluster(id: String, initializer: @AwsCdkDsl DatabaseCluster.Builder.() -> Unit = {}): DatabaseCluster = DatabaseCluster.Builder.create(this, id).apply(initializer).build()

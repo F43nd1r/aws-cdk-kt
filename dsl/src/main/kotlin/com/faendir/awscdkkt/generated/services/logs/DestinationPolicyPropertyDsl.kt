@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnDeliveryDestination
 
 @Generated
-public fun buildDestinationPolicyProperty(initializer: @AwsCdkDsl
-    CfnDeliveryDestination.DestinationPolicyProperty.Builder.() -> Unit = {}):
-    CfnDeliveryDestination.DestinationPolicyProperty =
-    CfnDeliveryDestination.DestinationPolicyProperty.Builder().apply(initializer).build()
+public fun buildDestinationPolicyProperty(initializer: @AwsCdkDsl CfnDeliveryDestination.DestinationPolicyProperty.Builder.() -> Unit = {}): CfnDeliveryDestination.DestinationPolicyProperty = CfnDeliveryDestination.DestinationPolicyProperty.Builder().apply(initializer).build()

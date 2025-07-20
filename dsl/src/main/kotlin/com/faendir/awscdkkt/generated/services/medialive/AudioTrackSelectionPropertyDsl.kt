@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildAudioTrackSelectionProperty(initializer: @AwsCdkDsl
-    CfnChannel.AudioTrackSelectionProperty.Builder.() -> Unit = {}):
-    CfnChannel.AudioTrackSelectionProperty =
-    CfnChannel.AudioTrackSelectionProperty.Builder().apply(initializer).build()
+public fun buildAudioTrackSelectionProperty(initializer: @AwsCdkDsl CfnChannel.AudioTrackSelectionProperty.Builder.() -> Unit = {}): CfnChannel.AudioTrackSelectionProperty = CfnChannel.AudioTrackSelectionProperty.Builder().apply(initializer).build()

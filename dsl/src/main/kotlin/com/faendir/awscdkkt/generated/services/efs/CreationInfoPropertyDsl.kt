@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.efs.CfnAccessPoint
 
 @Generated
-public fun buildCreationInfoProperty(initializer: @AwsCdkDsl
-    CfnAccessPoint.CreationInfoProperty.Builder.() -> Unit = {}):
-    CfnAccessPoint.CreationInfoProperty =
-    CfnAccessPoint.CreationInfoProperty.Builder().apply(initializer).build()
+public fun buildCreationInfoProperty(initializer: @AwsCdkDsl CfnAccessPoint.CreationInfoProperty.Builder.() -> Unit = {}): CfnAccessPoint.CreationInfoProperty = CfnAccessPoint.CreationInfoProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDashboard
 
 @Generated
-public fun buildGeospatialLayerItemProperty(initializer: @AwsCdkDsl
-    CfnDashboard.GeospatialLayerItemProperty.Builder.() -> Unit = {}):
-    CfnDashboard.GeospatialLayerItemProperty =
-    CfnDashboard.GeospatialLayerItemProperty.Builder().apply(initializer).build()
+public fun buildGeospatialLayerItemProperty(initializer: @AwsCdkDsl CfnDashboard.GeospatialLayerItemProperty.Builder.() -> Unit = {}): CfnDashboard.GeospatialLayerItemProperty = CfnDashboard.GeospatialLayerItemProperty.Builder().apply(initializer).build()

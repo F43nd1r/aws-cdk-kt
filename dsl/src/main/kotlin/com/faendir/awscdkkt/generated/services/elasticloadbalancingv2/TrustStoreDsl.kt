@@ -16,6 +16,4 @@ public fun Construct.trustStore(
 ): TrustStore = TrustStore(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildTrustStore(id: String, initializer: @AwsCdkDsl
-    TrustStore.Builder.() -> Unit = {}): TrustStore = TrustStore.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildTrustStore(id: String, initializer: @AwsCdkDsl TrustStore.Builder.() -> Unit = {}): TrustStore = TrustStore.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cleanrooms.CfnMembership
 
 @Generated
-public fun buildMembershipModelInferencePaymentConfigProperty(initializer: @AwsCdkDsl
-    CfnMembership.MembershipModelInferencePaymentConfigProperty.Builder.() -> Unit = {}):
-    CfnMembership.MembershipModelInferencePaymentConfigProperty =
-    CfnMembership.MembershipModelInferencePaymentConfigProperty.Builder().apply(initializer).build()
+public fun buildMembershipModelInferencePaymentConfigProperty(initializer: @AwsCdkDsl CfnMembership.MembershipModelInferencePaymentConfigProperty.Builder.() -> Unit = {}): CfnMembership.MembershipModelInferencePaymentConfigProperty = CfnMembership.MembershipModelInferencePaymentConfigProperty.Builder().apply(initializer).build()

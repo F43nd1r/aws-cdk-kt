@@ -13,11 +13,7 @@ public fun Construct.cfnApplicationCloudWatchLoggingOption(
   id: String,
   props: CfnApplicationCloudWatchLoggingOptionProps,
   initializer: @AwsCdkDsl CfnApplicationCloudWatchLoggingOption.() -> Unit = {},
-): CfnApplicationCloudWatchLoggingOption = CfnApplicationCloudWatchLoggingOption(this, id,
-    props).apply(initializer)
+): CfnApplicationCloudWatchLoggingOption = CfnApplicationCloudWatchLoggingOption(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnApplicationCloudWatchLoggingOption(id: String, initializer: @AwsCdkDsl
-    CfnApplicationCloudWatchLoggingOption.Builder.() -> Unit = {}):
-    CfnApplicationCloudWatchLoggingOption =
-    CfnApplicationCloudWatchLoggingOption.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnApplicationCloudWatchLoggingOption(id: String, initializer: @AwsCdkDsl CfnApplicationCloudWatchLoggingOption.Builder.() -> Unit = {}): CfnApplicationCloudWatchLoggingOption = CfnApplicationCloudWatchLoggingOption.Builder.create(this, id).apply(initializer).build()

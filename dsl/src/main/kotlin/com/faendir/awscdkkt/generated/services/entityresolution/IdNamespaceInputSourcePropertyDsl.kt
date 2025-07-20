@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.entityresolution.CfnIdNamespace
 
 @Generated
-public fun buildIdNamespaceInputSourceProperty(initializer: @AwsCdkDsl
-    CfnIdNamespace.IdNamespaceInputSourceProperty.Builder.() -> Unit = {}):
-    CfnIdNamespace.IdNamespaceInputSourceProperty =
-    CfnIdNamespace.IdNamespaceInputSourceProperty.Builder().apply(initializer).build()
+public fun buildIdNamespaceInputSourceProperty(initializer: @AwsCdkDsl CfnIdNamespace.IdNamespaceInputSourceProperty.Builder.() -> Unit = {}): CfnIdNamespace.IdNamespaceInputSourceProperty = CfnIdNamespace.IdNamespaceInputSourceProperty.Builder().apply(initializer).build()

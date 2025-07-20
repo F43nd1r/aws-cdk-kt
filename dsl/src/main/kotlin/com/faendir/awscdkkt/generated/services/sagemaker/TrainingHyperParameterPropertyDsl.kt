@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnModelCard
 
 @Generated
-public fun buildTrainingHyperParameterProperty(initializer: @AwsCdkDsl
-    CfnModelCard.TrainingHyperParameterProperty.Builder.() -> Unit = {}):
-    CfnModelCard.TrainingHyperParameterProperty =
-    CfnModelCard.TrainingHyperParameterProperty.Builder().apply(initializer).build()
+public fun buildTrainingHyperParameterProperty(initializer: @AwsCdkDsl CfnModelCard.TrainingHyperParameterProperty.Builder.() -> Unit = {}): CfnModelCard.TrainingHyperParameterProperty = CfnModelCard.TrainingHyperParameterProperty.Builder().apply(initializer).build()

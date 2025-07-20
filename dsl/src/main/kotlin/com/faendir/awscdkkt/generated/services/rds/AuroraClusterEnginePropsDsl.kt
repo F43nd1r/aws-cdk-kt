@@ -9,9 +9,6 @@ import kotlin.Suppress
 import kotlin.Unit
 import software.amazon.awscdk.services.rds.AuroraClusterEngineProps
 
-@Deprecated(message =
-    "software.amazon.awscdk.services.rds.AuroraClusterEngineProps is deprecated in CDK.")
+@Deprecated(message = "software.amazon.awscdk.services.rds.AuroraClusterEngineProps is deprecated in CDK.")
 @Generated
-public fun buildAuroraClusterEngineProps(initializer: @AwsCdkDsl
-    AuroraClusterEngineProps.Builder.() -> Unit = {}): AuroraClusterEngineProps =
-    AuroraClusterEngineProps.Builder().apply(initializer).build()
+public fun buildAuroraClusterEngineProps(initializer: @AwsCdkDsl AuroraClusterEngineProps.Builder.() -> Unit = {}): AuroraClusterEngineProps = AuroraClusterEngineProps.Builder().apply(initializer).build()

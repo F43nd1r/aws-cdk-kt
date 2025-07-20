@@ -16,6 +16,4 @@ public fun Construct.cfnOriginEndpointPolicy(
 ): CfnOriginEndpointPolicy = CfnOriginEndpointPolicy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnOriginEndpointPolicy(id: String, initializer: @AwsCdkDsl
-    CfnOriginEndpointPolicy.Builder.() -> Unit = {}): CfnOriginEndpointPolicy =
-    CfnOriginEndpointPolicy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnOriginEndpointPolicy(id: String, initializer: @AwsCdkDsl CfnOriginEndpointPolicy.Builder.() -> Unit = {}): CfnOriginEndpointPolicy = CfnOriginEndpointPolicy.Builder.create(this, id).apply(initializer).build()

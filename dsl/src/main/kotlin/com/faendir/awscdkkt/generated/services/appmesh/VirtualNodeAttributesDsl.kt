@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.VirtualNodeAttributes
 
 @Generated
-public fun buildVirtualNodeAttributes(initializer: @AwsCdkDsl
-    VirtualNodeAttributes.Builder.() -> Unit = {}): VirtualNodeAttributes =
-    VirtualNodeAttributes.Builder().apply(initializer).build()
+public fun buildVirtualNodeAttributes(initializer: @AwsCdkDsl VirtualNodeAttributes.Builder.() -> Unit = {}): VirtualNodeAttributes = VirtualNodeAttributes.Builder().apply(initializer).build()

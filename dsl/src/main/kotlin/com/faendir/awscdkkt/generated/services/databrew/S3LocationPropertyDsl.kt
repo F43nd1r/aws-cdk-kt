@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.databrew.CfnRecipe
 
 @Generated
-public fun buildS3LocationProperty(initializer: @AwsCdkDsl
-    CfnRecipe.S3LocationProperty.Builder.() -> Unit = {}): CfnRecipe.S3LocationProperty =
-    CfnRecipe.S3LocationProperty.Builder().apply(initializer).build()
+public fun buildS3LocationProperty(initializer: @AwsCdkDsl CfnRecipe.S3LocationProperty.Builder.() -> Unit = {}): CfnRecipe.S3LocationProperty = CfnRecipe.S3LocationProperty.Builder().apply(initializer).build()

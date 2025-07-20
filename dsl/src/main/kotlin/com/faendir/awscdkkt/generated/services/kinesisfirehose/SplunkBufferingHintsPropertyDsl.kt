@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
-public fun buildSplunkBufferingHintsProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.SplunkBufferingHintsProperty.Builder.() -> Unit = {}):
-    CfnDeliveryStream.SplunkBufferingHintsProperty =
-    CfnDeliveryStream.SplunkBufferingHintsProperty.Builder().apply(initializer).build()
+public fun buildSplunkBufferingHintsProperty(initializer: @AwsCdkDsl CfnDeliveryStream.SplunkBufferingHintsProperty.Builder.() -> Unit = {}): CfnDeliveryStream.SplunkBufferingHintsProperty = CfnDeliveryStream.SplunkBufferingHintsProperty.Builder().apply(initializer).build()

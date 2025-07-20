@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.BedrockInvokeModelJsonPathProps
 
 @Generated
-public fun buildBedrockInvokeModelJsonPathProps(initializer: @AwsCdkDsl
-    BedrockInvokeModelJsonPathProps.Builder.() -> Unit = {}): BedrockInvokeModelJsonPathProps =
-    BedrockInvokeModelJsonPathProps.Builder().apply(initializer).build()
+public fun buildBedrockInvokeModelJsonPathProps(initializer: @AwsCdkDsl BedrockInvokeModelJsonPathProps.Builder.() -> Unit = {}): BedrockInvokeModelJsonPathProps = BedrockInvokeModelJsonPathProps.Builder().apply(initializer).build()

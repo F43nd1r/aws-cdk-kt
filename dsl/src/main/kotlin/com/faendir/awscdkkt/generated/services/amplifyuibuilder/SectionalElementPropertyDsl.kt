@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.amplifyuibuilder.CfnForm
 
 @Generated
-public fun buildSectionalElementProperty(initializer: @AwsCdkDsl
-    CfnForm.SectionalElementProperty.Builder.() -> Unit = {}): CfnForm.SectionalElementProperty =
-    CfnForm.SectionalElementProperty.Builder().apply(initializer).build()
+public fun buildSectionalElementProperty(initializer: @AwsCdkDsl CfnForm.SectionalElementProperty.Builder.() -> Unit = {}): CfnForm.SectionalElementProperty = CfnForm.SectionalElementProperty.Builder().apply(initializer).build()

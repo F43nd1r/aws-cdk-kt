@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnClassifierProps
 
 @Generated
-public fun buildCfnClassifierProps(initializer: @AwsCdkDsl CfnClassifierProps.Builder.() -> Unit =
-    {}): CfnClassifierProps = CfnClassifierProps.Builder().apply(initializer).build()
+public fun buildCfnClassifierProps(initializer: @AwsCdkDsl CfnClassifierProps.Builder.() -> Unit = {}): CfnClassifierProps = CfnClassifierProps.Builder().apply(initializer).build()

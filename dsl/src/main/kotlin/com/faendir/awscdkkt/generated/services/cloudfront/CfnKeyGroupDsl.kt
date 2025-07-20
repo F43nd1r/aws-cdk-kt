@@ -16,6 +16,4 @@ public fun Construct.cfnKeyGroup(
 ): CfnKeyGroup = CfnKeyGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnKeyGroup(id: String, initializer: @AwsCdkDsl
-    CfnKeyGroup.Builder.() -> Unit = {}): CfnKeyGroup = CfnKeyGroup.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnKeyGroup(id: String, initializer: @AwsCdkDsl CfnKeyGroup.Builder.() -> Unit = {}): CfnKeyGroup = CfnKeyGroup.Builder.create(this, id).apply(initializer).build()

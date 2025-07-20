@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cleanrooms.CfnPrivacyBudgetTemplateProps
 
 @Generated
-public fun buildCfnPrivacyBudgetTemplateProps(initializer: @AwsCdkDsl
-    CfnPrivacyBudgetTemplateProps.Builder.() -> Unit = {}): CfnPrivacyBudgetTemplateProps =
-    CfnPrivacyBudgetTemplateProps.Builder().apply(initializer).build()
+public fun buildCfnPrivacyBudgetTemplateProps(initializer: @AwsCdkDsl CfnPrivacyBudgetTemplateProps.Builder.() -> Unit = {}): CfnPrivacyBudgetTemplateProps = CfnPrivacyBudgetTemplateProps.Builder().apply(initializer).build()

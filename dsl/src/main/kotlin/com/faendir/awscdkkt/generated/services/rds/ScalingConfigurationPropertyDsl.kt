@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.CfnDBCluster
 
 @Generated
-public fun buildScalingConfigurationProperty(initializer: @AwsCdkDsl
-    CfnDBCluster.ScalingConfigurationProperty.Builder.() -> Unit = {}):
-    CfnDBCluster.ScalingConfigurationProperty =
-    CfnDBCluster.ScalingConfigurationProperty.Builder().apply(initializer).build()
+public fun buildScalingConfigurationProperty(initializer: @AwsCdkDsl CfnDBCluster.ScalingConfigurationProperty.Builder.() -> Unit = {}): CfnDBCluster.ScalingConfigurationProperty = CfnDBCluster.ScalingConfigurationProperty.Builder().apply(initializer).build()

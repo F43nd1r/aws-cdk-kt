@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.odb.CfnCloudExadataInfrastructureProps
 
 @Generated
-public fun buildCfnCloudExadataInfrastructureProps(initializer: @AwsCdkDsl
-    CfnCloudExadataInfrastructureProps.Builder.() -> Unit = {}): CfnCloudExadataInfrastructureProps
-    = CfnCloudExadataInfrastructureProps.Builder().apply(initializer).build()
+public fun buildCfnCloudExadataInfrastructureProps(initializer: @AwsCdkDsl CfnCloudExadataInfrastructureProps.Builder.() -> Unit = {}): CfnCloudExadataInfrastructureProps = CfnCloudExadataInfrastructureProps.Builder().apply(initializer).build()

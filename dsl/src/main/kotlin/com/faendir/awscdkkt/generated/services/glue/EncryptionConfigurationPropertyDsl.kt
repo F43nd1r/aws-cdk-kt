@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnSecurityConfiguration
 
 @Generated
-public fun buildEncryptionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnSecurityConfiguration.EncryptionConfigurationProperty.Builder.() -> Unit = {}):
-    CfnSecurityConfiguration.EncryptionConfigurationProperty =
-    CfnSecurityConfiguration.EncryptionConfigurationProperty.Builder().apply(initializer).build()
+public fun buildEncryptionConfigurationProperty(initializer: @AwsCdkDsl CfnSecurityConfiguration.EncryptionConfigurationProperty.Builder.() -> Unit = {}): CfnSecurityConfiguration.EncryptionConfigurationProperty = CfnSecurityConfiguration.EncryptionConfigurationProperty.Builder().apply(initializer).build()

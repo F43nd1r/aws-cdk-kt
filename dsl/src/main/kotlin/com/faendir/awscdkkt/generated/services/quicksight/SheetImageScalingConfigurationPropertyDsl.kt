@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildSheetImageScalingConfigurationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.SheetImageScalingConfigurationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.SheetImageScalingConfigurationProperty =
-    CfnTemplate.SheetImageScalingConfigurationProperty.Builder().apply(initializer).build()
+public fun buildSheetImageScalingConfigurationProperty(initializer: @AwsCdkDsl CfnTemplate.SheetImageScalingConfigurationProperty.Builder.() -> Unit = {}): CfnTemplate.SheetImageScalingConfigurationProperty = CfnTemplate.SheetImageScalingConfigurationProperty.Builder().apply(initializer).build()

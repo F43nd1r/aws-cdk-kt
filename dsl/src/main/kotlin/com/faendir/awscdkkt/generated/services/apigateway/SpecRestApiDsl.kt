@@ -16,6 +16,4 @@ public fun Construct.specRestApi(
 ): SpecRestApi = SpecRestApi(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildSpecRestApi(id: String, initializer: @AwsCdkDsl
-    SpecRestApi.Builder.() -> Unit = {}): SpecRestApi = SpecRestApi.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildSpecRestApi(id: String, initializer: @AwsCdkDsl SpecRestApi.Builder.() -> Unit = {}): SpecRestApi = SpecRestApi.Builder.create(this, id).apply(initializer).build()

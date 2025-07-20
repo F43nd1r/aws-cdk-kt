@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.omics.CfnAnnotationStore
 
 @Generated
-public fun buildTsvStoreOptionsProperty(initializer: @AwsCdkDsl
-    CfnAnnotationStore.TsvStoreOptionsProperty.Builder.() -> Unit = {}):
-    CfnAnnotationStore.TsvStoreOptionsProperty =
-    CfnAnnotationStore.TsvStoreOptionsProperty.Builder().apply(initializer).build()
+public fun buildTsvStoreOptionsProperty(initializer: @AwsCdkDsl CfnAnnotationStore.TsvStoreOptionsProperty.Builder.() -> Unit = {}): CfnAnnotationStore.TsvStoreOptionsProperty = CfnAnnotationStore.TsvStoreOptionsProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.CfnTrustStoreRevocationProps
 
 @Generated
-public fun buildCfnTrustStoreRevocationProps(initializer: @AwsCdkDsl
-    CfnTrustStoreRevocationProps.Builder.() -> Unit = {}): CfnTrustStoreRevocationProps =
-    CfnTrustStoreRevocationProps.Builder().apply(initializer).build()
+public fun buildCfnTrustStoreRevocationProps(initializer: @AwsCdkDsl CfnTrustStoreRevocationProps.Builder.() -> Unit = {}): CfnTrustStoreRevocationProps = CfnTrustStoreRevocationProps.Builder().apply(initializer).build()

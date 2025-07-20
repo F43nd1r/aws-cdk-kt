@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.medialive.CfnChannel
 
 @Generated
-public fun buildArchiveS3SettingsProperty(initializer: @AwsCdkDsl
-    CfnChannel.ArchiveS3SettingsProperty.Builder.() -> Unit = {}):
-    CfnChannel.ArchiveS3SettingsProperty =
-    CfnChannel.ArchiveS3SettingsProperty.Builder().apply(initializer).build()
+public fun buildArchiveS3SettingsProperty(initializer: @AwsCdkDsl CfnChannel.ArchiveS3SettingsProperty.Builder.() -> Unit = {}): CfnChannel.ArchiveS3SettingsProperty = CfnChannel.ArchiveS3SettingsProperty.Builder().apply(initializer).build()

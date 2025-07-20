@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnThingGroup
 
 @Generated
-public fun buildAttributePayloadProperty(initializer: @AwsCdkDsl
-    CfnThingGroup.AttributePayloadProperty.Builder.() -> Unit = {}):
-    CfnThingGroup.AttributePayloadProperty =
-    CfnThingGroup.AttributePayloadProperty.Builder().apply(initializer).build()
+public fun buildAttributePayloadProperty(initializer: @AwsCdkDsl CfnThingGroup.AttributePayloadProperty.Builder.() -> Unit = {}): CfnThingGroup.AttributePayloadProperty = CfnThingGroup.AttributePayloadProperty.Builder().apply(initializer).build()

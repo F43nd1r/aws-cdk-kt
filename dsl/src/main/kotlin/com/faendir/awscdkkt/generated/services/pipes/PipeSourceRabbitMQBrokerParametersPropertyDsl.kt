@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildPipeSourceRabbitMQBrokerParametersProperty(initializer: @AwsCdkDsl
-    CfnPipe.PipeSourceRabbitMQBrokerParametersProperty.Builder.() -> Unit = {}):
-    CfnPipe.PipeSourceRabbitMQBrokerParametersProperty =
-    CfnPipe.PipeSourceRabbitMQBrokerParametersProperty.Builder().apply(initializer).build()
+public fun buildPipeSourceRabbitMQBrokerParametersProperty(initializer: @AwsCdkDsl CfnPipe.PipeSourceRabbitMQBrokerParametersProperty.Builder.() -> Unit = {}): CfnPipe.PipeSourceRabbitMQBrokerParametersProperty = CfnPipe.PipeSourceRabbitMQBrokerParametersProperty.Builder().apply(initializer).build()

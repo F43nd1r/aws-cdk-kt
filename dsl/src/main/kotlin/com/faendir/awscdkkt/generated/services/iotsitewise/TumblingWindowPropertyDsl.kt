@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotsitewise.CfnAssetModel
 
 @Generated
-public fun buildTumblingWindowProperty(initializer: @AwsCdkDsl
-    CfnAssetModel.TumblingWindowProperty.Builder.() -> Unit = {}):
-    CfnAssetModel.TumblingWindowProperty =
-    CfnAssetModel.TumblingWindowProperty.Builder().apply(initializer).build()
+public fun buildTumblingWindowProperty(initializer: @AwsCdkDsl CfnAssetModel.TumblingWindowProperty.Builder.() -> Unit = {}): CfnAssetModel.TumblingWindowProperty = CfnAssetModel.TumblingWindowProperty.Builder().apply(initializer).build()

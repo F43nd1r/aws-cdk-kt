@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnTransformer
 
 @Generated
-public fun buildCopyValueEntryProperty(initializer: @AwsCdkDsl
-    CfnTransformer.CopyValueEntryProperty.Builder.() -> Unit = {}):
-    CfnTransformer.CopyValueEntryProperty =
-    CfnTransformer.CopyValueEntryProperty.Builder().apply(initializer).build()
+public fun buildCopyValueEntryProperty(initializer: @AwsCdkDsl CfnTransformer.CopyValueEntryProperty.Builder.() -> Unit = {}): CfnTransformer.CopyValueEntryProperty = CfnTransformer.CopyValueEntryProperty.Builder().apply(initializer).build()

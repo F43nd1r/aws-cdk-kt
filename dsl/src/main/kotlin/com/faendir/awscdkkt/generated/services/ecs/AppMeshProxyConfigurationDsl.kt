@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.AppMeshProxyConfiguration
 
 @Generated
-public fun buildAppMeshProxyConfiguration(initializer: @AwsCdkDsl
-    AppMeshProxyConfiguration.Builder.() -> Unit = {}): AppMeshProxyConfiguration =
-    AppMeshProxyConfiguration.Builder.create().apply(initializer).build()
+public fun buildAppMeshProxyConfiguration(initializer: @AwsCdkDsl AppMeshProxyConfiguration.Builder.() -> Unit = {}): AppMeshProxyConfiguration = AppMeshProxyConfiguration.Builder.create().apply(initializer).build()

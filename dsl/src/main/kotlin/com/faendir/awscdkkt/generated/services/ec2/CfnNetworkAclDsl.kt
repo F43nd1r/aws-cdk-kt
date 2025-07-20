@@ -16,6 +16,4 @@ public fun Construct.cfnNetworkAcl(
 ): CfnNetworkAcl = CfnNetworkAcl(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnNetworkAcl(id: String, initializer: @AwsCdkDsl
-    CfnNetworkAcl.Builder.() -> Unit = {}): CfnNetworkAcl = CfnNetworkAcl.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnNetworkAcl(id: String, initializer: @AwsCdkDsl CfnNetworkAcl.Builder.() -> Unit = {}): CfnNetworkAcl = CfnNetworkAcl.Builder.create(this, id).apply(initializer).build()

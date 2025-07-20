@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.EmrCreateClusterJsonataProps
 
 @Generated
-public fun buildEmrCreateClusterJsonataProps(initializer: @AwsCdkDsl
-    EmrCreateClusterJsonataProps.Builder.() -> Unit = {}): EmrCreateClusterJsonataProps =
-    EmrCreateClusterJsonataProps.Builder().apply(initializer).build()
+public fun buildEmrCreateClusterJsonataProps(initializer: @AwsCdkDsl EmrCreateClusterJsonataProps.Builder.() -> Unit = {}): EmrCreateClusterJsonataProps = EmrCreateClusterJsonataProps.Builder().apply(initializer).build()

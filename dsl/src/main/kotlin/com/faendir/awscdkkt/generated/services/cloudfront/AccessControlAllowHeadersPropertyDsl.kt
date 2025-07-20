@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.CfnResponseHeadersPolicy
 
 @Generated
-public fun buildAccessControlAllowHeadersProperty(initializer: @AwsCdkDsl
-    CfnResponseHeadersPolicy.AccessControlAllowHeadersProperty.Builder.() -> Unit = {}):
-    CfnResponseHeadersPolicy.AccessControlAllowHeadersProperty =
-    CfnResponseHeadersPolicy.AccessControlAllowHeadersProperty.Builder().apply(initializer).build()
+public fun buildAccessControlAllowHeadersProperty(initializer: @AwsCdkDsl CfnResponseHeadersPolicy.AccessControlAllowHeadersProperty.Builder.() -> Unit = {}): CfnResponseHeadersPolicy.AccessControlAllowHeadersProperty = CfnResponseHeadersPolicy.AccessControlAllowHeadersProperty.Builder().apply(initializer).build()

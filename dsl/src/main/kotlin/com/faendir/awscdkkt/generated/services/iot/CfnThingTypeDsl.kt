@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.iot.CfnThingTypeProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnThingType(id: String, initializer: @AwsCdkDsl CfnThingType.() -> Unit = {}):
-    CfnThingType = CfnThingType(this, id).apply(initializer)
+public fun Construct.cfnThingType(id: String, initializer: @AwsCdkDsl CfnThingType.() -> Unit = {}): CfnThingType = CfnThingType(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnThingType(
@@ -20,6 +19,4 @@ public fun Construct.cfnThingType(
 ): CfnThingType = CfnThingType(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnThingType(id: String, initializer: @AwsCdkDsl
-    CfnThingType.Builder.() -> Unit = {}): CfnThingType = CfnThingType.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnThingType(id: String, initializer: @AwsCdkDsl CfnThingType.Builder.() -> Unit = {}): CfnThingType = CfnThingType.Builder.create(this, id).apply(initializer).build()

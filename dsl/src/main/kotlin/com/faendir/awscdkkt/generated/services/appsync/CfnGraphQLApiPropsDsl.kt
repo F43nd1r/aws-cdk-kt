@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.CfnGraphQLApiProps
 
 @Generated
-public fun buildCfnGraphQLApiProps(initializer: @AwsCdkDsl CfnGraphQLApiProps.Builder.() -> Unit =
-    {}): CfnGraphQLApiProps = CfnGraphQLApiProps.Builder().apply(initializer).build()
+public fun buildCfnGraphQLApiProps(initializer: @AwsCdkDsl CfnGraphQLApiProps.Builder.() -> Unit = {}): CfnGraphQLApiProps = CfnGraphQLApiProps.Builder().apply(initializer).build()

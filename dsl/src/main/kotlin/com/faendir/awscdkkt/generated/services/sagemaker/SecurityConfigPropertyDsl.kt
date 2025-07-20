@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnModelPackage
 
 @Generated
-public fun buildSecurityConfigProperty(initializer: @AwsCdkDsl
-    CfnModelPackage.SecurityConfigProperty.Builder.() -> Unit = {}):
-    CfnModelPackage.SecurityConfigProperty =
-    CfnModelPackage.SecurityConfigProperty.Builder().apply(initializer).build()
+public fun buildSecurityConfigProperty(initializer: @AwsCdkDsl CfnModelPackage.SecurityConfigProperty.Builder.() -> Unit = {}): CfnModelPackage.SecurityConfigProperty = CfnModelPackage.SecurityConfigProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.aliasTargetInstance(
 ): AliasTargetInstance = AliasTargetInstance(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAliasTargetInstance(id: String, initializer: @AwsCdkDsl
-    AliasTargetInstance.Builder.() -> Unit = {}): AliasTargetInstance =
-    AliasTargetInstance.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildAliasTargetInstance(id: String, initializer: @AwsCdkDsl AliasTargetInstance.Builder.() -> Unit = {}): AliasTargetInstance = AliasTargetInstance.Builder.create(this, id).apply(initializer).build()

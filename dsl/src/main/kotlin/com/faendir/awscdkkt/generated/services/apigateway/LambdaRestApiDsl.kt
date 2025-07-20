@@ -16,6 +16,4 @@ public fun Construct.lambdaRestApi(
 ): LambdaRestApi = LambdaRestApi(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildLambdaRestApi(id: String, initializer: @AwsCdkDsl
-    LambdaRestApi.Builder.() -> Unit = {}): LambdaRestApi = LambdaRestApi.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildLambdaRestApi(id: String, initializer: @AwsCdkDsl LambdaRestApi.Builder.() -> Unit = {}): LambdaRestApi = LambdaRestApi.Builder.create(this, id).apply(initializer).build()

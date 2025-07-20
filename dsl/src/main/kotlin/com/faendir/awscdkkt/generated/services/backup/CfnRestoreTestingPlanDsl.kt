@@ -16,6 +16,4 @@ public fun Construct.cfnRestoreTestingPlan(
 ): CfnRestoreTestingPlan = CfnRestoreTestingPlan(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnRestoreTestingPlan(id: String, initializer: @AwsCdkDsl
-    CfnRestoreTestingPlan.Builder.() -> Unit = {}): CfnRestoreTestingPlan =
-    CfnRestoreTestingPlan.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnRestoreTestingPlan(id: String, initializer: @AwsCdkDsl CfnRestoreTestingPlan.Builder.() -> Unit = {}): CfnRestoreTestingPlan = CfnRestoreTestingPlan.Builder.create(this, id).apply(initializer).build()

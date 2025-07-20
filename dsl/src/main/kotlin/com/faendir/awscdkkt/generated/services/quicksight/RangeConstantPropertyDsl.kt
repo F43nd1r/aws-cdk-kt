@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTopic
 
 @Generated
-public fun buildRangeConstantProperty(initializer: @AwsCdkDsl
-    CfnTopic.RangeConstantProperty.Builder.() -> Unit = {}): CfnTopic.RangeConstantProperty =
-    CfnTopic.RangeConstantProperty.Builder().apply(initializer).build()
+public fun buildRangeConstantProperty(initializer: @AwsCdkDsl CfnTopic.RangeConstantProperty.Builder.() -> Unit = {}): CfnTopic.RangeConstantProperty = CfnTopic.RangeConstantProperty.Builder().apply(initializer).build()

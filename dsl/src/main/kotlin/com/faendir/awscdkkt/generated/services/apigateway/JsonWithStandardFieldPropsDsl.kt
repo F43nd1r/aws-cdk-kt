@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.JsonWithStandardFieldProps
 
 @Generated
-public fun buildJsonWithStandardFieldProps(initializer: @AwsCdkDsl
-    JsonWithStandardFieldProps.Builder.() -> Unit = {}): JsonWithStandardFieldProps =
-    JsonWithStandardFieldProps.Builder().apply(initializer).build()
+public fun buildJsonWithStandardFieldProps(initializer: @AwsCdkDsl JsonWithStandardFieldProps.Builder.() -> Unit = {}): JsonWithStandardFieldProps = JsonWithStandardFieldProps.Builder().apply(initializer).build()

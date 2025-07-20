@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
-public fun buildCustomRequestHandlingProperty(initializer: @AwsCdkDsl
-    CfnWebACL.CustomRequestHandlingProperty.Builder.() -> Unit = {}):
-    CfnWebACL.CustomRequestHandlingProperty =
-    CfnWebACL.CustomRequestHandlingProperty.Builder().apply(initializer).build()
+public fun buildCustomRequestHandlingProperty(initializer: @AwsCdkDsl CfnWebACL.CustomRequestHandlingProperty.Builder.() -> Unit = {}): CfnWebACL.CustomRequestHandlingProperty = CfnWebACL.CustomRequestHandlingProperty.Builder().apply(initializer).build()

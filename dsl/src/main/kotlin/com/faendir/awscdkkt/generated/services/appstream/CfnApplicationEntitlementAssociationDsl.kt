@@ -13,11 +13,7 @@ public fun Construct.cfnApplicationEntitlementAssociation(
   id: String,
   props: CfnApplicationEntitlementAssociationProps,
   initializer: @AwsCdkDsl CfnApplicationEntitlementAssociation.() -> Unit = {},
-): CfnApplicationEntitlementAssociation = CfnApplicationEntitlementAssociation(this, id,
-    props).apply(initializer)
+): CfnApplicationEntitlementAssociation = CfnApplicationEntitlementAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnApplicationEntitlementAssociation(id: String, initializer: @AwsCdkDsl
-    CfnApplicationEntitlementAssociation.Builder.() -> Unit = {}):
-    CfnApplicationEntitlementAssociation = CfnApplicationEntitlementAssociation.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnApplicationEntitlementAssociation(id: String, initializer: @AwsCdkDsl CfnApplicationEntitlementAssociation.Builder.() -> Unit = {}): CfnApplicationEntitlementAssociation = CfnApplicationEntitlementAssociation.Builder.create(this, id).apply(initializer).build()

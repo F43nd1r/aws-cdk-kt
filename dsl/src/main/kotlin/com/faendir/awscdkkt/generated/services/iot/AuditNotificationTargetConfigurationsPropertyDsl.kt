@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnAccountAuditConfiguration
 
 @Generated
-public fun buildAuditNotificationTargetConfigurationsProperty(initializer: @AwsCdkDsl
-    CfnAccountAuditConfiguration.AuditNotificationTargetConfigurationsProperty.Builder.() -> Unit =
-    {}): CfnAccountAuditConfiguration.AuditNotificationTargetConfigurationsProperty =
-    CfnAccountAuditConfiguration.AuditNotificationTargetConfigurationsProperty.Builder().apply(initializer).build()
+public fun buildAuditNotificationTargetConfigurationsProperty(initializer: @AwsCdkDsl CfnAccountAuditConfiguration.AuditNotificationTargetConfigurationsProperty.Builder.() -> Unit = {}): CfnAccountAuditConfiguration.AuditNotificationTargetConfigurationsProperty = CfnAccountAuditConfiguration.AuditNotificationTargetConfigurationsProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.AssetStagingProps
 
 @Generated
-public fun buildAssetStagingProps(initializer: @AwsCdkDsl AssetStagingProps.Builder.() -> Unit =
-    {}): AssetStagingProps = AssetStagingProps.Builder().apply(initializer).build()
+public fun buildAssetStagingProps(initializer: @AwsCdkDsl AssetStagingProps.Builder.() -> Unit = {}): AssetStagingProps = AssetStagingProps.Builder().apply(initializer).build()

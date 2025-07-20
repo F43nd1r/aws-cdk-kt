@@ -13,10 +13,7 @@ public fun Construct.cfnPortfolioProductAssociation(
   id: String,
   props: CfnPortfolioProductAssociationProps,
   initializer: @AwsCdkDsl CfnPortfolioProductAssociation.() -> Unit = {},
-): CfnPortfolioProductAssociation = CfnPortfolioProductAssociation(this, id,
-    props).apply(initializer)
+): CfnPortfolioProductAssociation = CfnPortfolioProductAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnPortfolioProductAssociation(id: String, initializer: @AwsCdkDsl
-    CfnPortfolioProductAssociation.Builder.() -> Unit = {}): CfnPortfolioProductAssociation =
-    CfnPortfolioProductAssociation.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnPortfolioProductAssociation(id: String, initializer: @AwsCdkDsl CfnPortfolioProductAssociation.Builder.() -> Unit = {}): CfnPortfolioProductAssociation = CfnPortfolioProductAssociation.Builder.create(this, id).apply(initializer).build()

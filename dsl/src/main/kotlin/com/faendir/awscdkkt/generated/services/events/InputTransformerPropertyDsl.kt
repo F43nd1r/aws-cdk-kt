@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.events.CfnRule
 
 @Generated
-public fun buildInputTransformerProperty(initializer: @AwsCdkDsl
-    CfnRule.InputTransformerProperty.Builder.() -> Unit = {}): CfnRule.InputTransformerProperty =
-    CfnRule.InputTransformerProperty.Builder().apply(initializer).build()
+public fun buildInputTransformerProperty(initializer: @AwsCdkDsl CfnRule.InputTransformerProperty.Builder.() -> Unit = {}): CfnRule.InputTransformerProperty = CfnRule.InputTransformerProperty.Builder().apply(initializer).build()

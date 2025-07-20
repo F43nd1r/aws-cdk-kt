@@ -16,6 +16,4 @@ public fun Construct.cfnFuotaTask(
 ): CfnFuotaTask = CfnFuotaTask(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnFuotaTask(id: String, initializer: @AwsCdkDsl
-    CfnFuotaTask.Builder.() -> Unit = {}): CfnFuotaTask = CfnFuotaTask.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnFuotaTask(id: String, initializer: @AwsCdkDsl CfnFuotaTask.Builder.() -> Unit = {}): CfnFuotaTask = CfnFuotaTask.Builder.create(this, id).apply(initializer).build()

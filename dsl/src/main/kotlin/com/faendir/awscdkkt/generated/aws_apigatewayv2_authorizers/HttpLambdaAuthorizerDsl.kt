@@ -12,5 +12,4 @@ public fun buildHttpLambdaAuthorizer(
   id: String,
   handler: IFunction,
   initializer: @AwsCdkDsl HttpLambdaAuthorizer.Builder.() -> Unit = {},
-): HttpLambdaAuthorizer = HttpLambdaAuthorizer.Builder.create(id,
-    handler).apply(initializer).build()
+): HttpLambdaAuthorizer = HttpLambdaAuthorizer.Builder.create(id, handler).apply(initializer).build()

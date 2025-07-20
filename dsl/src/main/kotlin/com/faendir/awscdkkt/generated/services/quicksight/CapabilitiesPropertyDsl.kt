@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnCustomPermissions
 
 @Generated
-public fun buildCapabilitiesProperty(initializer: @AwsCdkDsl
-    CfnCustomPermissions.CapabilitiesProperty.Builder.() -> Unit = {}):
-    CfnCustomPermissions.CapabilitiesProperty =
-    CfnCustomPermissions.CapabilitiesProperty.Builder().apply(initializer).build()
+public fun buildCapabilitiesProperty(initializer: @AwsCdkDsl CfnCustomPermissions.CapabilitiesProperty.Builder.() -> Unit = {}): CfnCustomPermissions.CapabilitiesProperty = CfnCustomPermissions.CapabilitiesProperty.Builder().apply(initializer).build()

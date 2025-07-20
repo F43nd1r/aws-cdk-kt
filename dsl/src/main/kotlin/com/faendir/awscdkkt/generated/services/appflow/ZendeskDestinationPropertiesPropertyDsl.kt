@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appflow.CfnFlow
 
 @Generated
-public fun buildZendeskDestinationPropertiesProperty(initializer: @AwsCdkDsl
-    CfnFlow.ZendeskDestinationPropertiesProperty.Builder.() -> Unit = {}):
-    CfnFlow.ZendeskDestinationPropertiesProperty =
-    CfnFlow.ZendeskDestinationPropertiesProperty.Builder().apply(initializer).build()
+public fun buildZendeskDestinationPropertiesProperty(initializer: @AwsCdkDsl CfnFlow.ZendeskDestinationPropertiesProperty.Builder.() -> Unit = {}): CfnFlow.ZendeskDestinationPropertiesProperty = CfnFlow.ZendeskDestinationPropertiesProperty.Builder().apply(initializer).build()

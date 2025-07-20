@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apptest.CfnTestCase
 
 @Generated
-public fun buildTargetDatabaseMetadataProperty(initializer: @AwsCdkDsl
-    CfnTestCase.TargetDatabaseMetadataProperty.Builder.() -> Unit = {}):
-    CfnTestCase.TargetDatabaseMetadataProperty =
-    CfnTestCase.TargetDatabaseMetadataProperty.Builder().apply(initializer).build()
+public fun buildTargetDatabaseMetadataProperty(initializer: @AwsCdkDsl CfnTestCase.TargetDatabaseMetadataProperty.Builder.() -> Unit = {}): CfnTestCase.TargetDatabaseMetadataProperty = CfnTestCase.TargetDatabaseMetadataProperty.Builder().apply(initializer).build()

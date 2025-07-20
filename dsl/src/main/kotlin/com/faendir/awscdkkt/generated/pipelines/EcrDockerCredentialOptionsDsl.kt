@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.pipelines.EcrDockerCredentialOptions
 
 @Generated
-public fun buildEcrDockerCredentialOptions(initializer: @AwsCdkDsl
-    EcrDockerCredentialOptions.Builder.() -> Unit = {}): EcrDockerCredentialOptions =
-    EcrDockerCredentialOptions.Builder().apply(initializer).build()
+public fun buildEcrDockerCredentialOptions(initializer: @AwsCdkDsl EcrDockerCredentialOptions.Builder.() -> Unit = {}): EcrDockerCredentialOptions = EcrDockerCredentialOptions.Builder().apply(initializer).build()

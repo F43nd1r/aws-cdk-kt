@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildTableOptionsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.TableOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.TableOptionsProperty =
-    CfnTemplate.TableOptionsProperty.Builder().apply(initializer).build()
+public fun buildTableOptionsProperty(initializer: @AwsCdkDsl CfnTemplate.TableOptionsProperty.Builder.() -> Unit = {}): CfnTemplate.TableOptionsProperty = CfnTemplate.TableOptionsProperty.Builder().apply(initializer).build()

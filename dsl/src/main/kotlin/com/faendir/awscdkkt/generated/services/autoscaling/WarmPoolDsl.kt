@@ -16,5 +16,4 @@ public fun Construct.warmPool(
 ): WarmPool = WarmPool(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildWarmPool(id: String, initializer: @AwsCdkDsl WarmPool.Builder.() -> Unit =
-    {}): WarmPool = WarmPool.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildWarmPool(id: String, initializer: @AwsCdkDsl WarmPool.Builder.() -> Unit = {}): WarmPool = WarmPool.Builder.create(this, id).apply(initializer).build()

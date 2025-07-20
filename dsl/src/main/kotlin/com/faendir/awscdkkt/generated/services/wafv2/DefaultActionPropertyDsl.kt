@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
-public fun buildDefaultActionProperty(initializer: @AwsCdkDsl
-    CfnWebACL.DefaultActionProperty.Builder.() -> Unit = {}): CfnWebACL.DefaultActionProperty =
-    CfnWebACL.DefaultActionProperty.Builder().apply(initializer).build()
+public fun buildDefaultActionProperty(initializer: @AwsCdkDsl CfnWebACL.DefaultActionProperty.Builder.() -> Unit = {}): CfnWebACL.DefaultActionProperty = CfnWebACL.DefaultActionProperty.Builder().apply(initializer).build()

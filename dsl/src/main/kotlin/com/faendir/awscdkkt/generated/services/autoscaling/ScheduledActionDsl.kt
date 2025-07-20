@@ -16,6 +16,4 @@ public fun Construct.scheduledAction(
 ): ScheduledAction = ScheduledAction(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildScheduledAction(id: String, initializer: @AwsCdkDsl
-    ScheduledAction.Builder.() -> Unit = {}): ScheduledAction = ScheduledAction.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildScheduledAction(id: String, initializer: @AwsCdkDsl ScheduledAction.Builder.() -> Unit = {}): ScheduledAction = ScheduledAction.Builder.create(this, id).apply(initializer).build()

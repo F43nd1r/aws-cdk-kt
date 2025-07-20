@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fsx.LustreMaintenanceTimeProps
 
 @Generated
-public fun buildLustreMaintenanceTimeProps(initializer: @AwsCdkDsl
-    LustreMaintenanceTimeProps.Builder.() -> Unit = {}): LustreMaintenanceTimeProps =
-    LustreMaintenanceTimeProps.Builder().apply(initializer).build()
+public fun buildLustreMaintenanceTimeProps(initializer: @AwsCdkDsl LustreMaintenanceTimeProps.Builder.() -> Unit = {}): LustreMaintenanceTimeProps = LustreMaintenanceTimeProps.Builder().apply(initializer).build()

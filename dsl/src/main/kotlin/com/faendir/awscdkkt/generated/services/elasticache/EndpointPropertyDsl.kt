@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticache.CfnServerlessCache
 
 @Generated
-public fun buildEndpointProperty(initializer: @AwsCdkDsl
-    CfnServerlessCache.EndpointProperty.Builder.() -> Unit = {}):
-    CfnServerlessCache.EndpointProperty =
-    CfnServerlessCache.EndpointProperty.Builder().apply(initializer).build()
+public fun buildEndpointProperty(initializer: @AwsCdkDsl CfnServerlessCache.EndpointProperty.Builder.() -> Unit = {}): CfnServerlessCache.EndpointProperty = CfnServerlessCache.EndpointProperty.Builder().apply(initializer).build()

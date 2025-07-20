@@ -12,5 +12,4 @@ public fun buildWebSocketLambdaAuthorizer(
   id: String,
   handler: IFunction,
   initializer: @AwsCdkDsl WebSocketLambdaAuthorizer.Builder.() -> Unit = {},
-): WebSocketLambdaAuthorizer = WebSocketLambdaAuthorizer.Builder.create(id,
-    handler).apply(initializer).build()
+): WebSocketLambdaAuthorizer = WebSocketLambdaAuthorizer.Builder.create(id, handler).apply(initializer).build()

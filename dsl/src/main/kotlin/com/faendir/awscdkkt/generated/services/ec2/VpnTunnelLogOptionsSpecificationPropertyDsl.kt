@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVPNConnection
 
 @Generated
-public fun buildVpnTunnelLogOptionsSpecificationProperty(initializer: @AwsCdkDsl
-    CfnVPNConnection.VpnTunnelLogOptionsSpecificationProperty.Builder.() -> Unit = {}):
-    CfnVPNConnection.VpnTunnelLogOptionsSpecificationProperty =
-    CfnVPNConnection.VpnTunnelLogOptionsSpecificationProperty.Builder().apply(initializer).build()
+public fun buildVpnTunnelLogOptionsSpecificationProperty(initializer: @AwsCdkDsl CfnVPNConnection.VpnTunnelLogOptionsSpecificationProperty.Builder.() -> Unit = {}): CfnVPNConnection.VpnTunnelLogOptionsSpecificationProperty = CfnVPNConnection.VpnTunnelLogOptionsSpecificationProperty.Builder().apply(initializer).build()

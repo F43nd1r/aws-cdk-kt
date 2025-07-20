@@ -16,6 +16,4 @@ public fun Construct.cfnCarrierGateway(
 ): CfnCarrierGateway = CfnCarrierGateway(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCarrierGateway(id: String, initializer: @AwsCdkDsl
-    CfnCarrierGateway.Builder.() -> Unit = {}): CfnCarrierGateway =
-    CfnCarrierGateway.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCarrierGateway(id: String, initializer: @AwsCdkDsl CfnCarrierGateway.Builder.() -> Unit = {}): CfnCarrierGateway = CfnCarrierGateway.Builder.create(this, id).apply(initializer).build()

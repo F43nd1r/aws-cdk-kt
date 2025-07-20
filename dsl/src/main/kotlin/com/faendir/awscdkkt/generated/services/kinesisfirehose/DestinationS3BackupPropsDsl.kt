@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.DestinationS3BackupProps
 
 @Generated
-public fun buildDestinationS3BackupProps(initializer: @AwsCdkDsl
-    DestinationS3BackupProps.Builder.() -> Unit = {}): DestinationS3BackupProps =
-    DestinationS3BackupProps.Builder().apply(initializer).build()
+public fun buildDestinationS3BackupProps(initializer: @AwsCdkDsl DestinationS3BackupProps.Builder.() -> Unit = {}): DestinationS3BackupProps = DestinationS3BackupProps.Builder().apply(initializer).build()

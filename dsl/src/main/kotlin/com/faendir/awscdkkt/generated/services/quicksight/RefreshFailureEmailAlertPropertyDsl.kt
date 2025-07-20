@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
-public fun buildRefreshFailureEmailAlertProperty(initializer: @AwsCdkDsl
-    CfnDataSet.RefreshFailureEmailAlertProperty.Builder.() -> Unit = {}):
-    CfnDataSet.RefreshFailureEmailAlertProperty =
-    CfnDataSet.RefreshFailureEmailAlertProperty.Builder().apply(initializer).build()
+public fun buildRefreshFailureEmailAlertProperty(initializer: @AwsCdkDsl CfnDataSet.RefreshFailureEmailAlertProperty.Builder.() -> Unit = {}): CfnDataSet.RefreshFailureEmailAlertProperty = CfnDataSet.RefreshFailureEmailAlertProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.appsyncFunction(
 ): AppsyncFunction = AppsyncFunction(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAppsyncFunction(id: String, initializer: @AwsCdkDsl
-    AppsyncFunction.Builder.() -> Unit = {}): AppsyncFunction = AppsyncFunction.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildAppsyncFunction(id: String, initializer: @AwsCdkDsl AppsyncFunction.Builder.() -> Unit = {}): AppsyncFunction = AppsyncFunction.Builder.create(this, id).apply(initializer).build()

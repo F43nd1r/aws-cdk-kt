@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.CfnListener
 
 @Generated
-public fun buildListenerAttributeProperty(initializer: @AwsCdkDsl
-    CfnListener.ListenerAttributeProperty.Builder.() -> Unit = {}):
-    CfnListener.ListenerAttributeProperty =
-    CfnListener.ListenerAttributeProperty.Builder().apply(initializer).build()
+public fun buildListenerAttributeProperty(initializer: @AwsCdkDsl CfnListener.ListenerAttributeProperty.Builder.() -> Unit = {}): CfnListener.ListenerAttributeProperty = CfnListener.ListenerAttributeProperty.Builder().apply(initializer).build()

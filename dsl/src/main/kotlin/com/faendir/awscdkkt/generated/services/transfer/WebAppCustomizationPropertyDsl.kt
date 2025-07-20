@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.transfer.CfnWebApp
 
 @Generated
-public fun buildWebAppCustomizationProperty(initializer: @AwsCdkDsl
-    CfnWebApp.WebAppCustomizationProperty.Builder.() -> Unit = {}):
-    CfnWebApp.WebAppCustomizationProperty =
-    CfnWebApp.WebAppCustomizationProperty.Builder().apply(initializer).build()
+public fun buildWebAppCustomizationProperty(initializer: @AwsCdkDsl CfnWebApp.WebAppCustomizationProperty.Builder.() -> Unit = {}): CfnWebApp.WebAppCustomizationProperty = CfnWebApp.WebAppCustomizationProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.deadline.CfnFleetProps
 
 @Generated
-public fun buildCfnFleetProps(initializer: @AwsCdkDsl CfnFleetProps.Builder.() -> Unit = {}):
-    CfnFleetProps = CfnFleetProps.Builder().apply(initializer).build()
+public fun buildCfnFleetProps(initializer: @AwsCdkDsl CfnFleetProps.Builder.() -> Unit = {}): CfnFleetProps = CfnFleetProps.Builder().apply(initializer).build()

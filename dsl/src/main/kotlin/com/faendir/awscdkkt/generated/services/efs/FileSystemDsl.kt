@@ -16,6 +16,4 @@ public fun Construct.fileSystem(
 ): FileSystem = FileSystem(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildFileSystem(id: String, initializer: @AwsCdkDsl
-    FileSystem.Builder.() -> Unit = {}): FileSystem = FileSystem.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildFileSystem(id: String, initializer: @AwsCdkDsl FileSystem.Builder.() -> Unit = {}): FileSystem = FileSystem.Builder.create(this, id).apply(initializer).build()

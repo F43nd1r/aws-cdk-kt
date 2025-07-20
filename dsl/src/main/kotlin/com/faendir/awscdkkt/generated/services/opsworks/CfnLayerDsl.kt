@@ -16,5 +16,4 @@ public fun Construct.cfnLayer(
 ): CfnLayer = CfnLayer(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnLayer(id: String, initializer: @AwsCdkDsl CfnLayer.Builder.() -> Unit =
-    {}): CfnLayer = CfnLayer.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnLayer(id: String, initializer: @AwsCdkDsl CfnLayer.Builder.() -> Unit = {}): CfnLayer = CfnLayer.Builder.create(this, id).apply(initializer).build()

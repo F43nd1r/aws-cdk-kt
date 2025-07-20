@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3.CfnBucket
 
 @Generated
-public fun buildMetadataTableConfigurationProperty(initializer: @AwsCdkDsl
-    CfnBucket.MetadataTableConfigurationProperty.Builder.() -> Unit = {}):
-    CfnBucket.MetadataTableConfigurationProperty =
-    CfnBucket.MetadataTableConfigurationProperty.Builder().apply(initializer).build()
+public fun buildMetadataTableConfigurationProperty(initializer: @AwsCdkDsl CfnBucket.MetadataTableConfigurationProperty.Builder.() -> Unit = {}): CfnBucket.MetadataTableConfigurationProperty = CfnBucket.MetadataTableConfigurationProperty.Builder().apply(initializer).build()

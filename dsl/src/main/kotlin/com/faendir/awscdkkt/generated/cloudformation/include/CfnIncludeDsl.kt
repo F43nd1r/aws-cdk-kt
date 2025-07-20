@@ -16,6 +16,4 @@ public fun Construct.cfnInclude(
 ): CfnInclude = CfnInclude(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnInclude(id: String, initializer: @AwsCdkDsl
-    CfnInclude.Builder.() -> Unit = {}): CfnInclude = CfnInclude.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnInclude(id: String, initializer: @AwsCdkDsl CfnInclude.Builder.() -> Unit = {}): CfnInclude = CfnInclude.Builder.create(this, id).apply(initializer).build()

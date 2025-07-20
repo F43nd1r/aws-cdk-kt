@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.LambdaActionConfig
 
 @Generated
-public fun buildLambdaActionConfig(initializer: @AwsCdkDsl LambdaActionConfig.Builder.() -> Unit =
-    {}): LambdaActionConfig = LambdaActionConfig.Builder().apply(initializer).build()
+public fun buildLambdaActionConfig(initializer: @AwsCdkDsl LambdaActionConfig.Builder.() -> Unit = {}): LambdaActionConfig = LambdaActionConfig.Builder().apply(initializer).build()

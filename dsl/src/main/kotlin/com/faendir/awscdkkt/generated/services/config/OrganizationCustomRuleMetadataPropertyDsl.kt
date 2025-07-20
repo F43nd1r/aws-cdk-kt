@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.config.CfnOrganizationConfigRule
 
 @Generated
-public fun buildOrganizationCustomRuleMetadataProperty(initializer: @AwsCdkDsl
-    CfnOrganizationConfigRule.OrganizationCustomRuleMetadataProperty.Builder.() -> Unit = {}):
-    CfnOrganizationConfigRule.OrganizationCustomRuleMetadataProperty =
-    CfnOrganizationConfigRule.OrganizationCustomRuleMetadataProperty.Builder().apply(initializer).build()
+public fun buildOrganizationCustomRuleMetadataProperty(initializer: @AwsCdkDsl CfnOrganizationConfigRule.OrganizationCustomRuleMetadataProperty.Builder.() -> Unit = {}): CfnOrganizationConfigRule.OrganizationCustomRuleMetadataProperty = CfnOrganizationConfigRule.OrganizationCustomRuleMetadataProperty.Builder().apply(initializer).build()

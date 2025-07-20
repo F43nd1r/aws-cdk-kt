@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.redshift.CfnClusterParameterGroup
 
 @Generated
-public fun buildParameterProperty(initializer: @AwsCdkDsl
-    CfnClusterParameterGroup.ParameterProperty.Builder.() -> Unit = {}):
-    CfnClusterParameterGroup.ParameterProperty =
-    CfnClusterParameterGroup.ParameterProperty.Builder().apply(initializer).build()
+public fun buildParameterProperty(initializer: @AwsCdkDsl CfnClusterParameterGroup.ParameterProperty.Builder.() -> Unit = {}): CfnClusterParameterGroup.ParameterProperty = CfnClusterParameterGroup.ParameterProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.sagemaker.CfnCluster
 
 @Generated
-public fun buildClusterEbsVolumeConfigProperty(initializer: @AwsCdkDsl
-    CfnCluster.ClusterEbsVolumeConfigProperty.Builder.() -> Unit = {}):
-    CfnCluster.ClusterEbsVolumeConfigProperty =
-    CfnCluster.ClusterEbsVolumeConfigProperty.Builder().apply(initializer).build()
+public fun buildClusterEbsVolumeConfigProperty(initializer: @AwsCdkDsl CfnCluster.ClusterEbsVolumeConfigProperty.Builder.() -> Unit = {}): CfnCluster.ClusterEbsVolumeConfigProperty = CfnCluster.ClusterEbsVolumeConfigProperty.Builder().apply(initializer).build()

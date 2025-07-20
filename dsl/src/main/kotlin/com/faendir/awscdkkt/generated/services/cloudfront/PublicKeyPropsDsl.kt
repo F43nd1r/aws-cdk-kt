@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudfront.PublicKeyProps
 
 @Generated
-public fun buildPublicKeyProps(initializer: @AwsCdkDsl PublicKeyProps.Builder.() -> Unit = {}):
-    PublicKeyProps = PublicKeyProps.Builder().apply(initializer).build()
+public fun buildPublicKeyProps(initializer: @AwsCdkDsl PublicKeyProps.Builder.() -> Unit = {}): PublicKeyProps = PublicKeyProps.Builder().apply(initializer).build()

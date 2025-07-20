@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.AppSyncAuthProvider
 
 @Generated
-public fun buildAppSyncAuthProvider(initializer: @AwsCdkDsl AppSyncAuthProvider.Builder.() -> Unit =
-    {}): AppSyncAuthProvider = AppSyncAuthProvider.Builder().apply(initializer).build()
+public fun buildAppSyncAuthProvider(initializer: @AwsCdkDsl AppSyncAuthProvider.Builder.() -> Unit = {}): AppSyncAuthProvider = AppSyncAuthProvider.Builder().apply(initializer).build()

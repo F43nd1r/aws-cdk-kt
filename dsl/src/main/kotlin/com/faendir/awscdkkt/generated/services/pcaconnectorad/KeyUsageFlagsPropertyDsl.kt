@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pcaconnectorad.CfnTemplate
 
 @Generated
-public fun buildKeyUsageFlagsProperty(initializer: @AwsCdkDsl
-    CfnTemplate.KeyUsageFlagsProperty.Builder.() -> Unit = {}): CfnTemplate.KeyUsageFlagsProperty =
-    CfnTemplate.KeyUsageFlagsProperty.Builder().apply(initializer).build()
+public fun buildKeyUsageFlagsProperty(initializer: @AwsCdkDsl CfnTemplate.KeyUsageFlagsProperty.Builder.() -> Unit = {}): CfnTemplate.KeyUsageFlagsProperty = CfnTemplate.KeyUsageFlagsProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.verifiedpermissions.CfnPolicyStore
 
 @Generated
-public fun buildValidationSettingsProperty(initializer: @AwsCdkDsl
-    CfnPolicyStore.ValidationSettingsProperty.Builder.() -> Unit = {}):
-    CfnPolicyStore.ValidationSettingsProperty =
-    CfnPolicyStore.ValidationSettingsProperty.Builder().apply(initializer).build()
+public fun buildValidationSettingsProperty(initializer: @AwsCdkDsl CfnPolicyStore.ValidationSettingsProperty.Builder.() -> Unit = {}): CfnPolicyStore.ValidationSettingsProperty = CfnPolicyStore.ValidationSettingsProperty.Builder().apply(initializer).build()

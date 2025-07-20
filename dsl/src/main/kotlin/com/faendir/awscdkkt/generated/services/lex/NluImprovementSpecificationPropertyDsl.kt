@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildNluImprovementSpecificationProperty(initializer: @AwsCdkDsl
-    CfnBot.NluImprovementSpecificationProperty.Builder.() -> Unit = {}):
-    CfnBot.NluImprovementSpecificationProperty =
-    CfnBot.NluImprovementSpecificationProperty.Builder().apply(initializer).build()
+public fun buildNluImprovementSpecificationProperty(initializer: @AwsCdkDsl CfnBot.NluImprovementSpecificationProperty.Builder.() -> Unit = {}): CfnBot.NluImprovementSpecificationProperty = CfnBot.NluImprovementSpecificationProperty.Builder().apply(initializer).build()

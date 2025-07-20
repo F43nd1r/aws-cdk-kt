@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.applicationsignals.CfnServiceLevelObjective
 
 @Generated
-public fun buildMetricDataQueryProperty(initializer: @AwsCdkDsl
-    CfnServiceLevelObjective.MetricDataQueryProperty.Builder.() -> Unit = {}):
-    CfnServiceLevelObjective.MetricDataQueryProperty =
-    CfnServiceLevelObjective.MetricDataQueryProperty.Builder().apply(initializer).build()
+public fun buildMetricDataQueryProperty(initializer: @AwsCdkDsl CfnServiceLevelObjective.MetricDataQueryProperty.Builder.() -> Unit = {}): CfnServiceLevelObjective.MetricDataQueryProperty = CfnServiceLevelObjective.MetricDataQueryProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnResourceVersion(
 ): CfnResourceVersion = CfnResourceVersion(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnResourceVersion(id: String, initializer: @AwsCdkDsl
-    CfnResourceVersion.Builder.() -> Unit = {}): CfnResourceVersion =
-    CfnResourceVersion.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnResourceVersion(id: String, initializer: @AwsCdkDsl CfnResourceVersion.Builder.() -> Unit = {}): CfnResourceVersion = CfnResourceVersion.Builder.create(this, id).apply(initializer).build()

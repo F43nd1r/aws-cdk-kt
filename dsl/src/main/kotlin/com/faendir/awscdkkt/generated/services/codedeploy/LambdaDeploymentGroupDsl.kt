@@ -16,6 +16,4 @@ public fun Construct.lambdaDeploymentGroup(
 ): LambdaDeploymentGroup = LambdaDeploymentGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildLambdaDeploymentGroup(id: String, initializer: @AwsCdkDsl
-    LambdaDeploymentGroup.Builder.() -> Unit = {}): LambdaDeploymentGroup =
-    LambdaDeploymentGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildLambdaDeploymentGroup(id: String, initializer: @AwsCdkDsl LambdaDeploymentGroup.Builder.() -> Unit = {}): LambdaDeploymentGroup = LambdaDeploymentGroup.Builder.create(this, id).apply(initializer).build()

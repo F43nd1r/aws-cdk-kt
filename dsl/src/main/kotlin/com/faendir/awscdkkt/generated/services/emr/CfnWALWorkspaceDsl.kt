@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.emr.CfnWALWorkspaceProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnWALWorkspace(id: String, initializer: @AwsCdkDsl CfnWALWorkspace.() -> Unit
-    = {}): CfnWALWorkspace = CfnWALWorkspace(this, id).apply(initializer)
+public fun Construct.cfnWALWorkspace(id: String, initializer: @AwsCdkDsl CfnWALWorkspace.() -> Unit = {}): CfnWALWorkspace = CfnWALWorkspace(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnWALWorkspace(
@@ -20,6 +19,4 @@ public fun Construct.cfnWALWorkspace(
 ): CfnWALWorkspace = CfnWALWorkspace(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnWALWorkspace(id: String, initializer: @AwsCdkDsl
-    CfnWALWorkspace.Builder.() -> Unit = {}): CfnWALWorkspace = CfnWALWorkspace.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnWALWorkspace(id: String, initializer: @AwsCdkDsl CfnWALWorkspace.Builder.() -> Unit = {}): CfnWALWorkspace = CfnWALWorkspace.Builder.create(this, id).apply(initializer).build()

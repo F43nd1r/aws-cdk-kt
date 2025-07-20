@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.ElasticBeanstalkDeployActionProps
 
 @Generated
-public fun buildElasticBeanstalkDeployActionProps(initializer: @AwsCdkDsl
-    ElasticBeanstalkDeployActionProps.Builder.() -> Unit = {}): ElasticBeanstalkDeployActionProps =
-    ElasticBeanstalkDeployActionProps.Builder().apply(initializer).build()
+public fun buildElasticBeanstalkDeployActionProps(initializer: @AwsCdkDsl ElasticBeanstalkDeployActionProps.Builder.() -> Unit = {}): ElasticBeanstalkDeployActionProps = ElasticBeanstalkDeployActionProps.Builder().apply(initializer).build()

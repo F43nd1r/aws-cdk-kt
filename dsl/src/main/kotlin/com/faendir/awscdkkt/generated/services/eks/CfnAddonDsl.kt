@@ -16,5 +16,4 @@ public fun Construct.cfnAddon(
 ): CfnAddon = CfnAddon(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAddon(id: String, initializer: @AwsCdkDsl CfnAddon.Builder.() -> Unit =
-    {}): CfnAddon = CfnAddon.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAddon(id: String, initializer: @AwsCdkDsl CfnAddon.Builder.() -> Unit = {}): CfnAddon = CfnAddon.Builder.create(this, id).apply(initializer).build()

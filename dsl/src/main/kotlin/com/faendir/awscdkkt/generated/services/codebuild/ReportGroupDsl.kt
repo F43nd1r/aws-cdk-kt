@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.codebuild.ReportGroupProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.reportGroup(id: String, initializer: @AwsCdkDsl ReportGroup.() -> Unit = {}):
-    ReportGroup = ReportGroup(this, id).apply(initializer)
+public fun Construct.reportGroup(id: String, initializer: @AwsCdkDsl ReportGroup.() -> Unit = {}): ReportGroup = ReportGroup(this, id).apply(initializer)
 
 @Generated
 public fun Construct.reportGroup(
@@ -20,6 +19,4 @@ public fun Construct.reportGroup(
 ): ReportGroup = ReportGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildReportGroup(id: String, initializer: @AwsCdkDsl
-    ReportGroup.Builder.() -> Unit = {}): ReportGroup = ReportGroup.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildReportGroup(id: String, initializer: @AwsCdkDsl ReportGroup.Builder.() -> Unit = {}): ReportGroup = ReportGroup.Builder.create(this, id).apply(initializer).build()

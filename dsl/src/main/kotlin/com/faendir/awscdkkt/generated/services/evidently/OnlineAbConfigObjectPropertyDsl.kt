@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.evidently.CfnExperiment
 
 @Generated
-public fun buildOnlineAbConfigObjectProperty(initializer: @AwsCdkDsl
-    CfnExperiment.OnlineAbConfigObjectProperty.Builder.() -> Unit = {}):
-    CfnExperiment.OnlineAbConfigObjectProperty =
-    CfnExperiment.OnlineAbConfigObjectProperty.Builder().apply(initializer).build()
+public fun buildOnlineAbConfigObjectProperty(initializer: @AwsCdkDsl CfnExperiment.OnlineAbConfigObjectProperty.Builder.() -> Unit = {}): CfnExperiment.OnlineAbConfigObjectProperty = CfnExperiment.OnlineAbConfigObjectProperty.Builder().apply(initializer).build()

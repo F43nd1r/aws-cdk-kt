@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cloudwatch.VerticalAnnotation
 
 @Generated
-public fun buildVerticalAnnotation(initializer: @AwsCdkDsl VerticalAnnotation.Builder.() -> Unit =
-    {}): VerticalAnnotation = VerticalAnnotation.Builder().apply(initializer).build()
+public fun buildVerticalAnnotation(initializer: @AwsCdkDsl VerticalAnnotation.Builder.() -> Unit = {}): VerticalAnnotation = VerticalAnnotation.Builder().apply(initializer).build()

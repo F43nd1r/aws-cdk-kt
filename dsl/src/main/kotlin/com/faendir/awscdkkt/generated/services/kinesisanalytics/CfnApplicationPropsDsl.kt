@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisanalytics.CfnApplicationProps
 
 @Generated
-public fun buildCfnApplicationProps(initializer: @AwsCdkDsl CfnApplicationProps.Builder.() -> Unit =
-    {}): CfnApplicationProps = CfnApplicationProps.Builder().apply(initializer).build()
+public fun buildCfnApplicationProps(initializer: @AwsCdkDsl CfnApplicationProps.Builder.() -> Unit = {}): CfnApplicationProps = CfnApplicationProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.JenkinsProviderAttributes
 
 @Generated
-public fun buildJenkinsProviderAttributes(initializer: @AwsCdkDsl
-    JenkinsProviderAttributes.Builder.() -> Unit = {}): JenkinsProviderAttributes =
-    JenkinsProviderAttributes.Builder().apply(initializer).build()
+public fun buildJenkinsProviderAttributes(initializer: @AwsCdkDsl JenkinsProviderAttributes.Builder.() -> Unit = {}): JenkinsProviderAttributes = JenkinsProviderAttributes.Builder().apply(initializer).build()

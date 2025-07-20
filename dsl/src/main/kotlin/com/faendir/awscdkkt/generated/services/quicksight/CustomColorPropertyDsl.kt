@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildCustomColorProperty(initializer: @AwsCdkDsl
-    CfnTemplate.CustomColorProperty.Builder.() -> Unit = {}): CfnTemplate.CustomColorProperty =
-    CfnTemplate.CustomColorProperty.Builder().apply(initializer).build()
+public fun buildCustomColorProperty(initializer: @AwsCdkDsl CfnTemplate.CustomColorProperty.Builder.() -> Unit = {}): CfnTemplate.CustomColorProperty = CfnTemplate.CustomColorProperty.Builder().apply(initializer).build()

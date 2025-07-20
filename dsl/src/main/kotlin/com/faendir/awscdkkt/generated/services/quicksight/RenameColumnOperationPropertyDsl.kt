@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSet
 
 @Generated
-public fun buildRenameColumnOperationProperty(initializer: @AwsCdkDsl
-    CfnDataSet.RenameColumnOperationProperty.Builder.() -> Unit = {}):
-    CfnDataSet.RenameColumnOperationProperty =
-    CfnDataSet.RenameColumnOperationProperty.Builder().apply(initializer).build()
+public fun buildRenameColumnOperationProperty(initializer: @AwsCdkDsl CfnDataSet.RenameColumnOperationProperty.Builder.() -> Unit = {}): CfnDataSet.RenameColumnOperationProperty = CfnDataSet.RenameColumnOperationProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dlm.CfnLifecyclePolicy
 
 @Generated
-public fun buildCrossRegionCopyActionProperty(initializer: @AwsCdkDsl
-    CfnLifecyclePolicy.CrossRegionCopyActionProperty.Builder.() -> Unit = {}):
-    CfnLifecyclePolicy.CrossRegionCopyActionProperty =
-    CfnLifecyclePolicy.CrossRegionCopyActionProperty.Builder().apply(initializer).build()
+public fun buildCrossRegionCopyActionProperty(initializer: @AwsCdkDsl CfnLifecyclePolicy.CrossRegionCopyActionProperty.Builder.() -> Unit = {}): CfnLifecyclePolicy.CrossRegionCopyActionProperty = CfnLifecyclePolicy.CrossRegionCopyActionProperty.Builder().apply(initializer).build()

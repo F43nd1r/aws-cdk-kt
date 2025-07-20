@@ -16,6 +16,4 @@ public fun Construct.cfnDBInstance(
 ): CfnDBInstance = CfnDBInstance(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDBInstance(id: String, initializer: @AwsCdkDsl
-    CfnDBInstance.Builder.() -> Unit = {}): CfnDBInstance = CfnDBInstance.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnDBInstance(id: String, initializer: @AwsCdkDsl CfnDBInstance.Builder.() -> Unit = {}): CfnDBInstance = CfnDBInstance.Builder.create(this, id).apply(initializer).build()

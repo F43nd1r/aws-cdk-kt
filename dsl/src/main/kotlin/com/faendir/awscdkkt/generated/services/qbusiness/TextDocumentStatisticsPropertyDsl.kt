@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.qbusiness.CfnIndex
 
 @Generated
-public fun buildTextDocumentStatisticsProperty(initializer: @AwsCdkDsl
-    CfnIndex.TextDocumentStatisticsProperty.Builder.() -> Unit = {}):
-    CfnIndex.TextDocumentStatisticsProperty =
-    CfnIndex.TextDocumentStatisticsProperty.Builder().apply(initializer).build()
+public fun buildTextDocumentStatisticsProperty(initializer: @AwsCdkDsl CfnIndex.TextDocumentStatisticsProperty.Builder.() -> Unit = {}): CfnIndex.TextDocumentStatisticsProperty = CfnIndex.TextDocumentStatisticsProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.MethodDeploymentOptions
 
 @Generated
-public fun buildMethodDeploymentOptions(initializer: @AwsCdkDsl
-    MethodDeploymentOptions.Builder.() -> Unit = {}): MethodDeploymentOptions =
-    MethodDeploymentOptions.Builder().apply(initializer).build()
+public fun buildMethodDeploymentOptions(initializer: @AwsCdkDsl MethodDeploymentOptions.Builder.() -> Unit = {}): MethodDeploymentOptions = MethodDeploymentOptions.Builder().apply(initializer).build()

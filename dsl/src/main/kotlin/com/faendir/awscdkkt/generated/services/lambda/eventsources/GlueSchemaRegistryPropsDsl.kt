@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.eventsources.GlueSchemaRegistryProps
 
 @Generated
-public fun buildGlueSchemaRegistryProps(initializer: @AwsCdkDsl
-    GlueSchemaRegistryProps.Builder.() -> Unit = {}): GlueSchemaRegistryProps =
-    GlueSchemaRegistryProps.Builder().apply(initializer).build()
+public fun buildGlueSchemaRegistryProps(initializer: @AwsCdkDsl GlueSchemaRegistryProps.Builder.() -> Unit = {}): GlueSchemaRegistryProps = GlueSchemaRegistryProps.Builder().apply(initializer).build()

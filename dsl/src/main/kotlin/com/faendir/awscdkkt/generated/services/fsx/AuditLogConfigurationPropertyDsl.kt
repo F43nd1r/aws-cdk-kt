@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fsx.CfnFileSystem
 
 @Generated
-public fun buildAuditLogConfigurationProperty(initializer: @AwsCdkDsl
-    CfnFileSystem.AuditLogConfigurationProperty.Builder.() -> Unit = {}):
-    CfnFileSystem.AuditLogConfigurationProperty =
-    CfnFileSystem.AuditLogConfigurationProperty.Builder().apply(initializer).build()
+public fun buildAuditLogConfigurationProperty(initializer: @AwsCdkDsl CfnFileSystem.AuditLogConfigurationProperty.Builder.() -> Unit = {}): CfnFileSystem.AuditLogConfigurationProperty = CfnFileSystem.AuditLogConfigurationProperty.Builder().apply(initializer).build()

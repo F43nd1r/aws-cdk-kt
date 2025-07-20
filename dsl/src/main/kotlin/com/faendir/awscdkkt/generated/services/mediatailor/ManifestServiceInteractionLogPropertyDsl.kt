@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.mediatailor.CfnPlaybackConfiguration
 
 @Generated
-public fun buildManifestServiceInteractionLogProperty(initializer: @AwsCdkDsl
-    CfnPlaybackConfiguration.ManifestServiceInteractionLogProperty.Builder.() -> Unit = {}):
-    CfnPlaybackConfiguration.ManifestServiceInteractionLogProperty =
-    CfnPlaybackConfiguration.ManifestServiceInteractionLogProperty.Builder().apply(initializer).build()
+public fun buildManifestServiceInteractionLogProperty(initializer: @AwsCdkDsl CfnPlaybackConfiguration.ManifestServiceInteractionLogProperty.Builder.() -> Unit = {}): CfnPlaybackConfiguration.ManifestServiceInteractionLogProperty = CfnPlaybackConfiguration.ManifestServiceInteractionLogProperty.Builder().apply(initializer).build()

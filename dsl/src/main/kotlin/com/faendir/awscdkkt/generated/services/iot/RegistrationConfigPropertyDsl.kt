@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnCACertificate
 
 @Generated
-public fun buildRegistrationConfigProperty(initializer: @AwsCdkDsl
-    CfnCACertificate.RegistrationConfigProperty.Builder.() -> Unit = {}):
-    CfnCACertificate.RegistrationConfigProperty =
-    CfnCACertificate.RegistrationConfigProperty.Builder().apply(initializer).build()
+public fun buildRegistrationConfigProperty(initializer: @AwsCdkDsl CfnCACertificate.RegistrationConfigProperty.Builder.() -> Unit = {}): CfnCACertificate.RegistrationConfigProperty = CfnCACertificate.RegistrationConfigProperty.Builder().apply(initializer).build()

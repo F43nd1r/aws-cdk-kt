@@ -16,6 +16,4 @@ public fun Construct.cfnResolver(
 ): CfnResolver = CfnResolver(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnResolver(id: String, initializer: @AwsCdkDsl
-    CfnResolver.Builder.() -> Unit = {}): CfnResolver = CfnResolver.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnResolver(id: String, initializer: @AwsCdkDsl CfnResolver.Builder.() -> Unit = {}): CfnResolver = CfnResolver.Builder.create(this, id).apply(initializer).build()

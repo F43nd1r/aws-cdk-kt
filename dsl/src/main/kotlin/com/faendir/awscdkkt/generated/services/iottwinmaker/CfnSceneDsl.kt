@@ -16,5 +16,4 @@ public fun Construct.cfnScene(
 ): CfnScene = CfnScene(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnScene(id: String, initializer: @AwsCdkDsl CfnScene.Builder.() -> Unit =
-    {}): CfnScene = CfnScene.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnScene(id: String, initializer: @AwsCdkDsl CfnScene.Builder.() -> Unit = {}): CfnScene = CfnScene.Builder.create(this, id).apply(initializer).build()

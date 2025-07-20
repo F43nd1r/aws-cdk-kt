@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.cloud_assembly_schema.TestCase
 
 @Generated
-public fun buildTestCase(initializer: @AwsCdkDsl TestCase.Builder.() -> Unit = {}): TestCase =
-    TestCase.Builder().apply(initializer).build()
+public fun buildTestCase(initializer: @AwsCdkDsl TestCase.Builder.() -> Unit = {}): TestCase = TestCase.Builder().apply(initializer).build()

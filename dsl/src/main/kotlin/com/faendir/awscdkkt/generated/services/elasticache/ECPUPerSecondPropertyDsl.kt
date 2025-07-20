@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticache.CfnServerlessCache
 
 @Generated
-public fun buildECPUPerSecondProperty(initializer: @AwsCdkDsl
-    CfnServerlessCache.ECPUPerSecondProperty.Builder.() -> Unit = {}):
-    CfnServerlessCache.ECPUPerSecondProperty =
-    CfnServerlessCache.ECPUPerSecondProperty.Builder().apply(initializer).build()
+public fun buildECPUPerSecondProperty(initializer: @AwsCdkDsl CfnServerlessCache.ECPUPerSecondProperty.Builder.() -> Unit = {}): CfnServerlessCache.ECPUPerSecondProperty = CfnServerlessCache.ECPUPerSecondProperty.Builder().apply(initializer).build()

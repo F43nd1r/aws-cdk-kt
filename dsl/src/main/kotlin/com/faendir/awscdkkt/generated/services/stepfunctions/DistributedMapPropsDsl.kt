@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.DistributedMapProps
 
 @Generated
-public fun buildDistributedMapProps(initializer: @AwsCdkDsl DistributedMapProps.Builder.() -> Unit =
-    {}): DistributedMapProps = DistributedMapProps.Builder().apply(initializer).build()
+public fun buildDistributedMapProps(initializer: @AwsCdkDsl DistributedMapProps.Builder.() -> Unit = {}): DistributedMapProps = DistributedMapProps.Builder().apply(initializer).build()

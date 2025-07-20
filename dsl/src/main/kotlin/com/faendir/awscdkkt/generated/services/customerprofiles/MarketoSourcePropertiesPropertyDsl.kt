@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.customerprofiles.CfnIntegration
 
 @Generated
-public fun buildMarketoSourcePropertiesProperty(initializer: @AwsCdkDsl
-    CfnIntegration.MarketoSourcePropertiesProperty.Builder.() -> Unit = {}):
-    CfnIntegration.MarketoSourcePropertiesProperty =
-    CfnIntegration.MarketoSourcePropertiesProperty.Builder().apply(initializer).build()
+public fun buildMarketoSourcePropertiesProperty(initializer: @AwsCdkDsl CfnIntegration.MarketoSourcePropertiesProperty.Builder.() -> Unit = {}): CfnIntegration.MarketoSourcePropertiesProperty = CfnIntegration.MarketoSourcePropertiesProperty.Builder().apply(initializer).build()

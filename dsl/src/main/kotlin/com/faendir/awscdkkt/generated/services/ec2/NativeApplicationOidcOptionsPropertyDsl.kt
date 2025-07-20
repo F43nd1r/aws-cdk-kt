@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnVerifiedAccessTrustProvider
 
 @Generated
-public fun buildNativeApplicationOidcOptionsProperty(initializer: @AwsCdkDsl
-    CfnVerifiedAccessTrustProvider.NativeApplicationOidcOptionsProperty.Builder.() -> Unit = {}):
-    CfnVerifiedAccessTrustProvider.NativeApplicationOidcOptionsProperty =
-    CfnVerifiedAccessTrustProvider.NativeApplicationOidcOptionsProperty.Builder().apply(initializer).build()
+public fun buildNativeApplicationOidcOptionsProperty(initializer: @AwsCdkDsl CfnVerifiedAccessTrustProvider.NativeApplicationOidcOptionsProperty.Builder.() -> Unit = {}): CfnVerifiedAccessTrustProvider.NativeApplicationOidcOptionsProperty = CfnVerifiedAccessTrustProvider.NativeApplicationOidcOptionsProperty.Builder().apply(initializer).build()

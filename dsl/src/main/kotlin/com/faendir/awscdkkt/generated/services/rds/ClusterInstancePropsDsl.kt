@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.ClusterInstanceProps
 
 @Generated
-public fun buildClusterInstanceProps(initializer: @AwsCdkDsl ClusterInstanceProps.Builder.() -> Unit
-    = {}): ClusterInstanceProps = ClusterInstanceProps.Builder().apply(initializer).build()
+public fun buildClusterInstanceProps(initializer: @AwsCdkDsl ClusterInstanceProps.Builder.() -> Unit = {}): ClusterInstanceProps = ClusterInstanceProps.Builder().apply(initializer).build()

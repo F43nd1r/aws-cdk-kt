@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnSubnetRouteTableAssociationProps
 
 @Generated
-public fun buildCfnSubnetRouteTableAssociationProps(initializer: @AwsCdkDsl
-    CfnSubnetRouteTableAssociationProps.Builder.() -> Unit = {}):
-    CfnSubnetRouteTableAssociationProps =
-    CfnSubnetRouteTableAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnSubnetRouteTableAssociationProps(initializer: @AwsCdkDsl CfnSubnetRouteTableAssociationProps.Builder.() -> Unit = {}): CfnSubnetRouteTableAssociationProps = CfnSubnetRouteTableAssociationProps.Builder().apply(initializer).build()

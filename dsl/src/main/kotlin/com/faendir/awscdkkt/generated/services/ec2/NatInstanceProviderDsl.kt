@@ -9,8 +9,6 @@ import kotlin.Suppress
 import kotlin.Unit
 import software.amazon.awscdk.services.ec2.NatInstanceProvider
 
-@Deprecated(message =
-    "software.amazon.awscdk.services.ec2.NatInstanceProvider is deprecated in CDK.")
+@Deprecated(message = "software.amazon.awscdk.services.ec2.NatInstanceProvider is deprecated in CDK.")
 @Generated
-public fun buildNatInstanceProvider(initializer: @AwsCdkDsl NatInstanceProvider.Builder.() -> Unit =
-    {}): NatInstanceProvider = NatInstanceProvider.Builder.create().apply(initializer).build()
+public fun buildNatInstanceProvider(initializer: @AwsCdkDsl NatInstanceProvider.Builder.() -> Unit = {}): NatInstanceProvider = NatInstanceProvider.Builder.create().apply(initializer).build()

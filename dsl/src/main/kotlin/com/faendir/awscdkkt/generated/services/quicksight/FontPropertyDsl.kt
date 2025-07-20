@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTheme
 
 @Generated
-public fun buildFontProperty(initializer: @AwsCdkDsl CfnTheme.FontProperty.Builder.() -> Unit = {}):
-    CfnTheme.FontProperty = CfnTheme.FontProperty.Builder().apply(initializer).build()
+public fun buildFontProperty(initializer: @AwsCdkDsl CfnTheme.FontProperty.Builder.() -> Unit = {}): CfnTheme.FontProperty = CfnTheme.FontProperty.Builder().apply(initializer).build()

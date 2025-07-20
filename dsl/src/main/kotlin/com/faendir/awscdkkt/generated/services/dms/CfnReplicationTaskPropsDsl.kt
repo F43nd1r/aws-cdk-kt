@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dms.CfnReplicationTaskProps
 
 @Generated
-public fun buildCfnReplicationTaskProps(initializer: @AwsCdkDsl
-    CfnReplicationTaskProps.Builder.() -> Unit = {}): CfnReplicationTaskProps =
-    CfnReplicationTaskProps.Builder().apply(initializer).build()
+public fun buildCfnReplicationTaskProps(initializer: @AwsCdkDsl CfnReplicationTaskProps.Builder.() -> Unit = {}): CfnReplicationTaskProps = CfnReplicationTaskProps.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.ColumnRestriction
 
 @Generated
-public fun buildColumnRestriction(initializer: @AwsCdkDsl ColumnRestriction.Builder.() -> Unit =
-    {}): ColumnRestriction = ColumnRestriction.Builder().apply(initializer).build()
+public fun buildColumnRestriction(initializer: @AwsCdkDsl ColumnRestriction.Builder.() -> Unit = {}): ColumnRestriction = ColumnRestriction.Builder().apply(initializer).build()

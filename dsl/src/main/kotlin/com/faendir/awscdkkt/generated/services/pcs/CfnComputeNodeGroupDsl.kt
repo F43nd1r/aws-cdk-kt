@@ -16,6 +16,4 @@ public fun Construct.cfnComputeNodeGroup(
 ): CfnComputeNodeGroup = CfnComputeNodeGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnComputeNodeGroup(id: String, initializer: @AwsCdkDsl
-    CfnComputeNodeGroup.Builder.() -> Unit = {}): CfnComputeNodeGroup =
-    CfnComputeNodeGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnComputeNodeGroup(id: String, initializer: @AwsCdkDsl CfnComputeNodeGroup.Builder.() -> Unit = {}): CfnComputeNodeGroup = CfnComputeNodeGroup.Builder.create(this, id).apply(initializer).build()

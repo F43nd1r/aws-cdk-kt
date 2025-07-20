@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnDimensionProps
 
 @Generated
-public fun buildCfnDimensionProps(initializer: @AwsCdkDsl CfnDimensionProps.Builder.() -> Unit =
-    {}): CfnDimensionProps = CfnDimensionProps.Builder().apply(initializer).build()
+public fun buildCfnDimensionProps(initializer: @AwsCdkDsl CfnDimensionProps.Builder.() -> Unit = {}): CfnDimensionProps = CfnDimensionProps.Builder().apply(initializer).build()

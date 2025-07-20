@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssmcontacts.CfnRotation
 
 @Generated
-public fun buildWeeklySettingProperty(initializer: @AwsCdkDsl
-    CfnRotation.WeeklySettingProperty.Builder.() -> Unit = {}): CfnRotation.WeeklySettingProperty =
-    CfnRotation.WeeklySettingProperty.Builder().apply(initializer).build()
+public fun buildWeeklySettingProperty(initializer: @AwsCdkDsl CfnRotation.WeeklySettingProperty.Builder.() -> Unit = {}): CfnRotation.WeeklySettingProperty = CfnRotation.WeeklySettingProperty.Builder().apply(initializer).build()

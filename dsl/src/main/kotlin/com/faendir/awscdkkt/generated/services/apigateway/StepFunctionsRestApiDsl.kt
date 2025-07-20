@@ -16,6 +16,4 @@ public fun Construct.stepFunctionsRestApi(
 ): StepFunctionsRestApi = StepFunctionsRestApi(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildStepFunctionsRestApi(id: String, initializer: @AwsCdkDsl
-    StepFunctionsRestApi.Builder.() -> Unit = {}): StepFunctionsRestApi =
-    StepFunctionsRestApi.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildStepFunctionsRestApi(id: String, initializer: @AwsCdkDsl StepFunctionsRestApi.Builder.() -> Unit = {}): StepFunctionsRestApi = StepFunctionsRestApi.Builder.create(this, id).apply(initializer).build()

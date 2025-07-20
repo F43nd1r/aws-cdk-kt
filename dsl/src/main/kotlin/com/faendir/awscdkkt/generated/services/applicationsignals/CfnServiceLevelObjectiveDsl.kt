@@ -16,6 +16,4 @@ public fun Construct.cfnServiceLevelObjective(
 ): CfnServiceLevelObjective = CfnServiceLevelObjective(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnServiceLevelObjective(id: String, initializer: @AwsCdkDsl
-    CfnServiceLevelObjective.Builder.() -> Unit = {}): CfnServiceLevelObjective =
-    CfnServiceLevelObjective.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnServiceLevelObjective(id: String, initializer: @AwsCdkDsl CfnServiceLevelObjective.Builder.() -> Unit = {}): CfnServiceLevelObjective = CfnServiceLevelObjective.Builder.create(this, id).apply(initializer).build()

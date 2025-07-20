@@ -16,6 +16,4 @@ public fun Construct.cfnAssistant(
 ): CfnAssistant = CfnAssistant(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAssistant(id: String, initializer: @AwsCdkDsl
-    CfnAssistant.Builder.() -> Unit = {}): CfnAssistant = CfnAssistant.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnAssistant(id: String, initializer: @AwsCdkDsl CfnAssistant.Builder.() -> Unit = {}): CfnAssistant = CfnAssistant.Builder.create(this, id).apply(initializer).build()

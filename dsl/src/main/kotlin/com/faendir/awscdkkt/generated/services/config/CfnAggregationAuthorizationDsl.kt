@@ -16,6 +16,4 @@ public fun Construct.cfnAggregationAuthorization(
 ): CfnAggregationAuthorization = CfnAggregationAuthorization(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnAggregationAuthorization(id: String, initializer: @AwsCdkDsl
-    CfnAggregationAuthorization.Builder.() -> Unit = {}): CfnAggregationAuthorization =
-    CfnAggregationAuthorization.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnAggregationAuthorization(id: String, initializer: @AwsCdkDsl CfnAggregationAuthorization.Builder.() -> Unit = {}): CfnAggregationAuthorization = CfnAggregationAuthorization.Builder.create(this, id).apply(initializer).build()

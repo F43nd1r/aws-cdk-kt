@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkmanager.CfnDirectConnectGatewayAttachmentProps
 
 @Generated
-public fun buildCfnDirectConnectGatewayAttachmentProps(initializer: @AwsCdkDsl
-    CfnDirectConnectGatewayAttachmentProps.Builder.() -> Unit = {}):
-    CfnDirectConnectGatewayAttachmentProps =
-    CfnDirectConnectGatewayAttachmentProps.Builder().apply(initializer).build()
+public fun buildCfnDirectConnectGatewayAttachmentProps(initializer: @AwsCdkDsl CfnDirectConnectGatewayAttachmentProps.Builder.() -> Unit = {}): CfnDirectConnectGatewayAttachmentProps = CfnDirectConnectGatewayAttachmentProps.Builder().apply(initializer).build()

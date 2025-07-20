@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.kinesisvideo.CfnSignalingChannelProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnSignalingChannel(id: String, initializer: @AwsCdkDsl
-    CfnSignalingChannel.() -> Unit = {}): CfnSignalingChannel = CfnSignalingChannel(this,
-    id).apply(initializer)
+public fun Construct.cfnSignalingChannel(id: String, initializer: @AwsCdkDsl CfnSignalingChannel.() -> Unit = {}): CfnSignalingChannel = CfnSignalingChannel(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnSignalingChannel(
@@ -21,6 +19,4 @@ public fun Construct.cfnSignalingChannel(
 ): CfnSignalingChannel = CfnSignalingChannel(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnSignalingChannel(id: String, initializer: @AwsCdkDsl
-    CfnSignalingChannel.Builder.() -> Unit = {}): CfnSignalingChannel =
-    CfnSignalingChannel.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnSignalingChannel(id: String, initializer: @AwsCdkDsl CfnSignalingChannel.Builder.() -> Unit = {}): CfnSignalingChannel = CfnSignalingChannel.Builder.create(this, id).apply(initializer).build()

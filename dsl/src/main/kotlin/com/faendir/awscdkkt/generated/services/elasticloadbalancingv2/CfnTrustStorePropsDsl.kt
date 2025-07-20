@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.CfnTrustStoreProps
 
 @Generated
-public fun buildCfnTrustStoreProps(initializer: @AwsCdkDsl CfnTrustStoreProps.Builder.() -> Unit =
-    {}): CfnTrustStoreProps = CfnTrustStoreProps.Builder().apply(initializer).build()
+public fun buildCfnTrustStoreProps(initializer: @AwsCdkDsl CfnTrustStoreProps.Builder.() -> Unit = {}): CfnTrustStoreProps = CfnTrustStoreProps.Builder().apply(initializer).build()

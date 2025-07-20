@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.AuthorizationConfig
 
 @Generated
-public fun buildAuthorizationConfig(initializer: @AwsCdkDsl AuthorizationConfig.Builder.() -> Unit =
-    {}): AuthorizationConfig = AuthorizationConfig.Builder().apply(initializer).build()
+public fun buildAuthorizationConfig(initializer: @AwsCdkDsl AuthorizationConfig.Builder.() -> Unit = {}): AuthorizationConfig = AuthorizationConfig.Builder().apply(initializer).build()

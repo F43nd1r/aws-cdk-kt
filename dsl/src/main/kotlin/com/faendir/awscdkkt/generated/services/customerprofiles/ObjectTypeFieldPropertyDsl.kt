@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.customerprofiles.CfnObjectType
 
 @Generated
-public fun buildObjectTypeFieldProperty(initializer: @AwsCdkDsl
-    CfnObjectType.ObjectTypeFieldProperty.Builder.() -> Unit = {}):
-    CfnObjectType.ObjectTypeFieldProperty =
-    CfnObjectType.ObjectTypeFieldProperty.Builder().apply(initializer).build()
+public fun buildObjectTypeFieldProperty(initializer: @AwsCdkDsl CfnObjectType.ObjectTypeFieldProperty.Builder.() -> Unit = {}): CfnObjectType.ObjectTypeFieldProperty = CfnObjectType.ObjectTypeFieldProperty.Builder().apply(initializer).build()

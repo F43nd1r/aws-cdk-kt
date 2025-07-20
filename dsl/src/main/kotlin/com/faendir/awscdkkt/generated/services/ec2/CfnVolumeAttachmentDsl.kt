@@ -16,6 +16,4 @@ public fun Construct.cfnVolumeAttachment(
 ): CfnVolumeAttachment = CfnVolumeAttachment(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnVolumeAttachment(id: String, initializer: @AwsCdkDsl
-    CfnVolumeAttachment.Builder.() -> Unit = {}): CfnVolumeAttachment =
-    CfnVolumeAttachment.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnVolumeAttachment(id: String, initializer: @AwsCdkDsl CfnVolumeAttachment.Builder.() -> Unit = {}): CfnVolumeAttachment = CfnVolumeAttachment.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildCustomActionSetParametersOperationProperty(initializer: @AwsCdkDsl
-    CfnTemplate.CustomActionSetParametersOperationProperty.Builder.() -> Unit = {}):
-    CfnTemplate.CustomActionSetParametersOperationProperty =
-    CfnTemplate.CustomActionSetParametersOperationProperty.Builder().apply(initializer).build()
+public fun buildCustomActionSetParametersOperationProperty(initializer: @AwsCdkDsl CfnTemplate.CustomActionSetParametersOperationProperty.Builder.() -> Unit = {}): CfnTemplate.CustomActionSetParametersOperationProperty = CfnTemplate.CustomActionSetParametersOperationProperty.Builder().apply(initializer).build()

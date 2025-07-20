@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.CliCredentialsStackSynthesizerProps
 
 @Generated
-public fun buildCliCredentialsStackSynthesizerProps(initializer: @AwsCdkDsl
-    CliCredentialsStackSynthesizerProps.Builder.() -> Unit = {}):
-    CliCredentialsStackSynthesizerProps =
-    CliCredentialsStackSynthesizerProps.Builder().apply(initializer).build()
+public fun buildCliCredentialsStackSynthesizerProps(initializer: @AwsCdkDsl CliCredentialsStackSynthesizerProps.Builder.() -> Unit = {}): CliCredentialsStackSynthesizerProps = CliCredentialsStackSynthesizerProps.Builder().apply(initializer).build()

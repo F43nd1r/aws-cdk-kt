@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.deadline.CfnQueueLimitAssociationProps
 
 @Generated
-public fun buildCfnQueueLimitAssociationProps(initializer: @AwsCdkDsl
-    CfnQueueLimitAssociationProps.Builder.() -> Unit = {}): CfnQueueLimitAssociationProps =
-    CfnQueueLimitAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnQueueLimitAssociationProps(initializer: @AwsCdkDsl CfnQueueLimitAssociationProps.Builder.() -> Unit = {}): CfnQueueLimitAssociationProps = CfnQueueLimitAssociationProps.Builder().apply(initializer).build()

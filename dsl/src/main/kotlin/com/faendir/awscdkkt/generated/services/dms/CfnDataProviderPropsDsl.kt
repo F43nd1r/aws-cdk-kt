@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dms.CfnDataProviderProps
 
 @Generated
-public fun buildCfnDataProviderProps(initializer: @AwsCdkDsl CfnDataProviderProps.Builder.() -> Unit
-    = {}): CfnDataProviderProps = CfnDataProviderProps.Builder().apply(initializer).build()
+public fun buildCfnDataProviderProps(initializer: @AwsCdkDsl CfnDataProviderProps.Builder.() -> Unit = {}): CfnDataProviderProps = CfnDataProviderProps.Builder().apply(initializer).build()

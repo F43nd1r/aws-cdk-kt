@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.emrserverless.CfnApplication
 
 @Generated
-public fun buildPrometheusMonitoringConfigurationProperty(initializer: @AwsCdkDsl
-    CfnApplication.PrometheusMonitoringConfigurationProperty.Builder.() -> Unit = {}):
-    CfnApplication.PrometheusMonitoringConfigurationProperty =
-    CfnApplication.PrometheusMonitoringConfigurationProperty.Builder().apply(initializer).build()
+public fun buildPrometheusMonitoringConfigurationProperty(initializer: @AwsCdkDsl CfnApplication.PrometheusMonitoringConfigurationProperty.Builder.() -> Unit = {}): CfnApplication.PrometheusMonitoringConfigurationProperty = CfnApplication.PrometheusMonitoringConfigurationProperty.Builder().apply(initializer).build()

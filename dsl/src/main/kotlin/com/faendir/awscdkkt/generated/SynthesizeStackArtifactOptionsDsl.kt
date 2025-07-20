@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.SynthesizeStackArtifactOptions
 
 @Generated
-public fun buildSynthesizeStackArtifactOptions(initializer: @AwsCdkDsl
-    SynthesizeStackArtifactOptions.Builder.() -> Unit = {}): SynthesizeStackArtifactOptions =
-    SynthesizeStackArtifactOptions.Builder().apply(initializer).build()
+public fun buildSynthesizeStackArtifactOptions(initializer: @AwsCdkDsl SynthesizeStackArtifactOptions.Builder.() -> Unit = {}): SynthesizeStackArtifactOptions = SynthesizeStackArtifactOptions.Builder().apply(initializer).build()

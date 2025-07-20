@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.CallApiGatewayHttpApiEndpointJsonPathProps
 
 @Generated
-public fun buildCallApiGatewayHttpApiEndpointJsonPathProps(initializer: @AwsCdkDsl
-    CallApiGatewayHttpApiEndpointJsonPathProps.Builder.() -> Unit = {}):
-    CallApiGatewayHttpApiEndpointJsonPathProps =
-    CallApiGatewayHttpApiEndpointJsonPathProps.Builder().apply(initializer).build()
+public fun buildCallApiGatewayHttpApiEndpointJsonPathProps(initializer: @AwsCdkDsl CallApiGatewayHttpApiEndpointJsonPathProps.Builder.() -> Unit = {}): CallApiGatewayHttpApiEndpointJsonPathProps = CallApiGatewayHttpApiEndpointJsonPathProps.Builder().apply(initializer).build()

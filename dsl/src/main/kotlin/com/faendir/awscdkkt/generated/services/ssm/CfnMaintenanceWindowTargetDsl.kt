@@ -16,6 +16,4 @@ public fun Construct.cfnMaintenanceWindowTarget(
 ): CfnMaintenanceWindowTarget = CfnMaintenanceWindowTarget(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnMaintenanceWindowTarget(id: String, initializer: @AwsCdkDsl
-    CfnMaintenanceWindowTarget.Builder.() -> Unit = {}): CfnMaintenanceWindowTarget =
-    CfnMaintenanceWindowTarget.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnMaintenanceWindowTarget(id: String, initializer: @AwsCdkDsl CfnMaintenanceWindowTarget.Builder.() -> Unit = {}): CfnMaintenanceWindowTarget = CfnMaintenanceWindowTarget.Builder.create(this, id).apply(initializer).build()

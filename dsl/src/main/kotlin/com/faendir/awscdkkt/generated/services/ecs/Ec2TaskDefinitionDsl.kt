@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.ecs.Ec2TaskDefinitionProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.ec2TaskDefinition(id: String, initializer: @AwsCdkDsl
-    Ec2TaskDefinition.() -> Unit = {}): Ec2TaskDefinition = Ec2TaskDefinition(this,
-    id).apply(initializer)
+public fun Construct.ec2TaskDefinition(id: String, initializer: @AwsCdkDsl Ec2TaskDefinition.() -> Unit = {}): Ec2TaskDefinition = Ec2TaskDefinition(this, id).apply(initializer)
 
 @Generated
 public fun Construct.ec2TaskDefinition(
@@ -21,6 +19,4 @@ public fun Construct.ec2TaskDefinition(
 ): Ec2TaskDefinition = Ec2TaskDefinition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEc2TaskDefinition(id: String, initializer: @AwsCdkDsl
-    Ec2TaskDefinition.Builder.() -> Unit = {}): Ec2TaskDefinition =
-    Ec2TaskDefinition.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildEc2TaskDefinition(id: String, initializer: @AwsCdkDsl Ec2TaskDefinition.Builder.() -> Unit = {}): Ec2TaskDefinition = Ec2TaskDefinition.Builder.create(this, id).apply(initializer).build()

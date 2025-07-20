@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.aps.CfnWorkspace
 
 @Generated
-public fun buildQueryLoggingConfigurationProperty(initializer: @AwsCdkDsl
-    CfnWorkspace.QueryLoggingConfigurationProperty.Builder.() -> Unit = {}):
-    CfnWorkspace.QueryLoggingConfigurationProperty =
-    CfnWorkspace.QueryLoggingConfigurationProperty.Builder().apply(initializer).build()
+public fun buildQueryLoggingConfigurationProperty(initializer: @AwsCdkDsl CfnWorkspace.QueryLoggingConfigurationProperty.Builder.() -> Unit = {}): CfnWorkspace.QueryLoggingConfigurationProperty = CfnWorkspace.QueryLoggingConfigurationProperty.Builder().apply(initializer).build()

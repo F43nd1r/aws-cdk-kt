@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.opensearchservice.EbsOptions
 
 @Generated
-public fun buildEbsOptions(initializer: @AwsCdkDsl EbsOptions.Builder.() -> Unit = {}): EbsOptions =
-    EbsOptions.Builder().apply(initializer).build()
+public fun buildEbsOptions(initializer: @AwsCdkDsl EbsOptions.Builder.() -> Unit = {}): EbsOptions = EbsOptions.Builder().apply(initializer).build()

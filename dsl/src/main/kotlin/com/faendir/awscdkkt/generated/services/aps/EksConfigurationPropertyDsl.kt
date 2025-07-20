@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.aps.CfnScraper
 
 @Generated
-public fun buildEksConfigurationProperty(initializer: @AwsCdkDsl
-    CfnScraper.EksConfigurationProperty.Builder.() -> Unit = {}):
-    CfnScraper.EksConfigurationProperty =
-    CfnScraper.EksConfigurationProperty.Builder().apply(initializer).build()
+public fun buildEksConfigurationProperty(initializer: @AwsCdkDsl CfnScraper.EksConfigurationProperty.Builder.() -> Unit = {}): CfnScraper.EksConfigurationProperty = CfnScraper.EksConfigurationProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.verifiedpermissions.CfnIdentitySource
 
 @Generated
-public fun buildCognitoUserPoolConfigurationProperty(initializer: @AwsCdkDsl
-    CfnIdentitySource.CognitoUserPoolConfigurationProperty.Builder.() -> Unit = {}):
-    CfnIdentitySource.CognitoUserPoolConfigurationProperty =
-    CfnIdentitySource.CognitoUserPoolConfigurationProperty.Builder().apply(initializer).build()
+public fun buildCognitoUserPoolConfigurationProperty(initializer: @AwsCdkDsl CfnIdentitySource.CognitoUserPoolConfigurationProperty.Builder.() -> Unit = {}): CfnIdentitySource.CognitoUserPoolConfigurationProperty = CfnIdentitySource.CognitoUserPoolConfigurationProperty.Builder().apply(initializer).build()

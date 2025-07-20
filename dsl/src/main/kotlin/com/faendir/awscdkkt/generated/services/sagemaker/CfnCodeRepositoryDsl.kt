@@ -16,6 +16,4 @@ public fun Construct.cfnCodeRepository(
 ): CfnCodeRepository = CfnCodeRepository(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCodeRepository(id: String, initializer: @AwsCdkDsl
-    CfnCodeRepository.Builder.() -> Unit = {}): CfnCodeRepository =
-    CfnCodeRepository.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnCodeRepository(id: String, initializer: @AwsCdkDsl CfnCodeRepository.Builder.() -> Unit = {}): CfnCodeRepository = CfnCodeRepository.Builder.create(this, id).apply(initializer).build()

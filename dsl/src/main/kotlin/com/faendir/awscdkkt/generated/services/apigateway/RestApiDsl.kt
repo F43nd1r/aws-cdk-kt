@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.apigateway.RestApiProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.restApi(id: String, initializer: @AwsCdkDsl RestApi.() -> Unit = {}): RestApi =
-    RestApi(this, id).apply(initializer)
+public fun Construct.restApi(id: String, initializer: @AwsCdkDsl RestApi.() -> Unit = {}): RestApi = RestApi(this, id).apply(initializer)
 
 @Generated
 public fun Construct.restApi(
@@ -20,5 +19,4 @@ public fun Construct.restApi(
 ): RestApi = RestApi(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildRestApi(id: String, initializer: @AwsCdkDsl RestApi.Builder.() -> Unit =
-    {}): RestApi = RestApi.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildRestApi(id: String, initializer: @AwsCdkDsl RestApi.Builder.() -> Unit = {}): RestApi = RestApi.Builder.create(this, id).apply(initializer).build()

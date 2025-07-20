@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.CfnNodegroup
 
 @Generated
-public fun buildUpdateConfigProperty(initializer: @AwsCdkDsl
-    CfnNodegroup.UpdateConfigProperty.Builder.() -> Unit = {}): CfnNodegroup.UpdateConfigProperty =
-    CfnNodegroup.UpdateConfigProperty.Builder().apply(initializer).build()
+public fun buildUpdateConfigProperty(initializer: @AwsCdkDsl CfnNodegroup.UpdateConfigProperty.Builder.() -> Unit = {}): CfnNodegroup.UpdateConfigProperty = CfnNodegroup.UpdateConfigProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnTopicRuleProps
 
 @Generated
-public fun buildCfnTopicRuleProps(initializer: @AwsCdkDsl CfnTopicRuleProps.Builder.() -> Unit =
-    {}): CfnTopicRuleProps = CfnTopicRuleProps.Builder().apply(initializer).build()
+public fun buildCfnTopicRuleProps(initializer: @AwsCdkDsl CfnTopicRuleProps.Builder.() -> Unit = {}): CfnTopicRuleProps = CfnTopicRuleProps.Builder().apply(initializer).build()

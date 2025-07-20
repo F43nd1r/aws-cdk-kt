@@ -16,6 +16,4 @@ public fun Construct.containerDefinition(
 ): ContainerDefinition = ContainerDefinition(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildContainerDefinition(id: String, initializer: @AwsCdkDsl
-    ContainerDefinition.Builder.() -> Unit = {}): ContainerDefinition =
-    ContainerDefinition.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildContainerDefinition(id: String, initializer: @AwsCdkDsl ContainerDefinition.Builder.() -> Unit = {}): ContainerDefinition = ContainerDefinition.Builder.create(this, id).apply(initializer).build()

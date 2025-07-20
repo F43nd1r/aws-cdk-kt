@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.proton.CfnServiceTemplateProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnServiceTemplate(id: String, initializer: @AwsCdkDsl
-    CfnServiceTemplate.() -> Unit = {}): CfnServiceTemplate = CfnServiceTemplate(this,
-    id).apply(initializer)
+public fun Construct.cfnServiceTemplate(id: String, initializer: @AwsCdkDsl CfnServiceTemplate.() -> Unit = {}): CfnServiceTemplate = CfnServiceTemplate(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnServiceTemplate(
@@ -21,6 +19,4 @@ public fun Construct.cfnServiceTemplate(
 ): CfnServiceTemplate = CfnServiceTemplate(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnServiceTemplate(id: String, initializer: @AwsCdkDsl
-    CfnServiceTemplate.Builder.() -> Unit = {}): CfnServiceTemplate =
-    CfnServiceTemplate.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnServiceTemplate(id: String, initializer: @AwsCdkDsl CfnServiceTemplate.Builder.() -> Unit = {}): CfnServiceTemplate = CfnServiceTemplate.Builder.create(this, id).apply(initializer).build()

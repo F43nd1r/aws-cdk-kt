@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnContainerGroupDefinition
 
 @Generated
-public fun buildPortConfigurationProperty(initializer: @AwsCdkDsl
-    CfnContainerGroupDefinition.PortConfigurationProperty.Builder.() -> Unit = {}):
-    CfnContainerGroupDefinition.PortConfigurationProperty =
-    CfnContainerGroupDefinition.PortConfigurationProperty.Builder().apply(initializer).build()
+public fun buildPortConfigurationProperty(initializer: @AwsCdkDsl CfnContainerGroupDefinition.PortConfigurationProperty.Builder.() -> Unit = {}): CfnContainerGroupDefinition.PortConfigurationProperty = CfnContainerGroupDefinition.PortConfigurationProperty.Builder().apply(initializer).build()

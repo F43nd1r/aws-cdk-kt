@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lambda.CfnFunction
 
 @Generated
-public fun buildImageConfigProperty(initializer: @AwsCdkDsl
-    CfnFunction.ImageConfigProperty.Builder.() -> Unit = {}): CfnFunction.ImageConfigProperty =
-    CfnFunction.ImageConfigProperty.Builder().apply(initializer).build()
+public fun buildImageConfigProperty(initializer: @AwsCdkDsl CfnFunction.ImageConfigProperty.Builder.() -> Unit = {}): CfnFunction.ImageConfigProperty = CfnFunction.ImageConfigProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecr.assets.DockerImageAssetProps
 
 @Generated
-public fun buildDockerImageAssetProps(initializer: @AwsCdkDsl
-    DockerImageAssetProps.Builder.() -> Unit = {}): DockerImageAssetProps =
-    DockerImageAssetProps.Builder().apply(initializer).build()
+public fun buildDockerImageAssetProps(initializer: @AwsCdkDsl DockerImageAssetProps.Builder.() -> Unit = {}): DockerImageAssetProps = DockerImageAssetProps.Builder().apply(initializer).build()

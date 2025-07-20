@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.ec2.VpcProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.vpc(id: String, initializer: @AwsCdkDsl Vpc.() -> Unit = {}): Vpc = Vpc(this,
-    id).apply(initializer)
+public fun Construct.vpc(id: String, initializer: @AwsCdkDsl Vpc.() -> Unit = {}): Vpc = Vpc(this, id).apply(initializer)
 
 @Generated
 public fun Construct.vpc(
@@ -20,5 +19,4 @@ public fun Construct.vpc(
 ): Vpc = Vpc(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildVpc(id: String, initializer: @AwsCdkDsl Vpc.Builder.() -> Unit = {}): Vpc
-    = Vpc.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildVpc(id: String, initializer: @AwsCdkDsl Vpc.Builder.() -> Unit = {}): Vpc = Vpc.Builder.create(this, id).apply(initializer).build()

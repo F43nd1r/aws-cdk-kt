@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
-public fun buildNetworkBandwidthGbpsProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.NetworkBandwidthGbpsProperty.Builder.() -> Unit = {}):
-    CfnLaunchTemplate.NetworkBandwidthGbpsProperty =
-    CfnLaunchTemplate.NetworkBandwidthGbpsProperty.Builder().apply(initializer).build()
+public fun buildNetworkBandwidthGbpsProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.NetworkBandwidthGbpsProperty.Builder.() -> Unit = {}): CfnLaunchTemplate.NetworkBandwidthGbpsProperty = CfnLaunchTemplate.NetworkBandwidthGbpsProperty.Builder().apply(initializer).build()

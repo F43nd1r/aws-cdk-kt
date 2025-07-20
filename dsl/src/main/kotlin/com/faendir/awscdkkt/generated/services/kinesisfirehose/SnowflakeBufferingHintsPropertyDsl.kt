@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kinesisfirehose.CfnDeliveryStream
 
 @Generated
-public fun buildSnowflakeBufferingHintsProperty(initializer: @AwsCdkDsl
-    CfnDeliveryStream.SnowflakeBufferingHintsProperty.Builder.() -> Unit = {}):
-    CfnDeliveryStream.SnowflakeBufferingHintsProperty =
-    CfnDeliveryStream.SnowflakeBufferingHintsProperty.Builder().apply(initializer).build()
+public fun buildSnowflakeBufferingHintsProperty(initializer: @AwsCdkDsl CfnDeliveryStream.SnowflakeBufferingHintsProperty.Builder.() -> Unit = {}): CfnDeliveryStream.SnowflakeBufferingHintsProperty = CfnDeliveryStream.SnowflakeBufferingHintsProperty.Builder().apply(initializer).build()

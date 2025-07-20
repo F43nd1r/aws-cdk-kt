@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.MeshProps
 
 @Generated
-public fun buildMeshProps(initializer: @AwsCdkDsl MeshProps.Builder.() -> Unit = {}): MeshProps =
-    MeshProps.Builder().apply(initializer).build()
+public fun buildMeshProps(initializer: @AwsCdkDsl MeshProps.Builder.() -> Unit = {}): MeshProps = MeshProps.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.gamelift.CfnContainerFleet
 
 @Generated
-public fun buildConnectionPortRangeProperty(initializer: @AwsCdkDsl
-    CfnContainerFleet.ConnectionPortRangeProperty.Builder.() -> Unit = {}):
-    CfnContainerFleet.ConnectionPortRangeProperty =
-    CfnContainerFleet.ConnectionPortRangeProperty.Builder().apply(initializer).build()
+public fun buildConnectionPortRangeProperty(initializer: @AwsCdkDsl CfnContainerFleet.ConnectionPortRangeProperty.Builder.() -> Unit = {}): CfnContainerFleet.ConnectionPortRangeProperty = CfnContainerFleet.ConnectionPortRangeProperty.Builder().apply(initializer).build()

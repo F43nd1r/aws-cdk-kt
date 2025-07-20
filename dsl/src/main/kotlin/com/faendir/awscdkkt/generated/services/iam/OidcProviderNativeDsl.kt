@@ -16,6 +16,4 @@ public fun Construct.oidcProviderNative(
 ): OidcProviderNative = OidcProviderNative(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildOidcProviderNative(id: String, initializer: @AwsCdkDsl
-    OidcProviderNative.Builder.() -> Unit = {}): OidcProviderNative =
-    OidcProviderNative.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildOidcProviderNative(id: String, initializer: @AwsCdkDsl OidcProviderNative.Builder.() -> Unit = {}): OidcProviderNative = OidcProviderNative.Builder.create(this, id).apply(initializer).build()

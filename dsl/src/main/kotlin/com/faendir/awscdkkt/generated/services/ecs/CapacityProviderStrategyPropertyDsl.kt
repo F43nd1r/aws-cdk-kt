@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.CfnClusterCapacityProviderAssociations
 
 @Generated
-public fun buildCapacityProviderStrategyProperty(initializer: @AwsCdkDsl
-    CfnClusterCapacityProviderAssociations.CapacityProviderStrategyProperty.Builder.() -> Unit =
-    {}): CfnClusterCapacityProviderAssociations.CapacityProviderStrategyProperty =
-    CfnClusterCapacityProviderAssociations.CapacityProviderStrategyProperty.Builder().apply(initializer).build()
+public fun buildCapacityProviderStrategyProperty(initializer: @AwsCdkDsl CfnClusterCapacityProviderAssociations.CapacityProviderStrategyProperty.Builder.() -> Unit = {}): CfnClusterCapacityProviderAssociations.CapacityProviderStrategyProperty = CfnClusterCapacityProviderAssociations.CapacityProviderStrategyProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.customerprofiles.CfnEventTrigger
 
 @Generated
-public fun buildEventTriggerDimensionProperty(initializer: @AwsCdkDsl
-    CfnEventTrigger.EventTriggerDimensionProperty.Builder.() -> Unit = {}):
-    CfnEventTrigger.EventTriggerDimensionProperty =
-    CfnEventTrigger.EventTriggerDimensionProperty.Builder().apply(initializer).build()
+public fun buildEventTriggerDimensionProperty(initializer: @AwsCdkDsl CfnEventTrigger.EventTriggerDimensionProperty.Builder.() -> Unit = {}): CfnEventTrigger.EventTriggerDimensionProperty = CfnEventTrigger.EventTriggerDimensionProperty.Builder().apply(initializer).build()

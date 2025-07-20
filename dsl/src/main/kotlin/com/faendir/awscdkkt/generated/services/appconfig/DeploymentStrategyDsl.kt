@@ -16,6 +16,4 @@ public fun Construct.deploymentStrategy(
 ): DeploymentStrategy = DeploymentStrategy(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildDeploymentStrategy(id: String, initializer: @AwsCdkDsl
-    DeploymentStrategy.Builder.() -> Unit = {}): DeploymentStrategy =
-    DeploymentStrategy.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildDeploymentStrategy(id: String, initializer: @AwsCdkDsl DeploymentStrategy.Builder.() -> Unit = {}): DeploymentStrategy = DeploymentStrategy.Builder.create(this, id).apply(initializer).build()

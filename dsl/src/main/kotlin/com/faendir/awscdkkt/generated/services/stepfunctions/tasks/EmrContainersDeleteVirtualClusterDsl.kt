@@ -13,10 +13,7 @@ public fun Construct.emrContainersDeleteVirtualCluster(
   id: String,
   props: EmrContainersDeleteVirtualClusterProps,
   initializer: @AwsCdkDsl EmrContainersDeleteVirtualCluster.() -> Unit = {},
-): EmrContainersDeleteVirtualCluster = EmrContainersDeleteVirtualCluster(this, id,
-    props).apply(initializer)
+): EmrContainersDeleteVirtualCluster = EmrContainersDeleteVirtualCluster(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEmrContainersDeleteVirtualCluster(id: String, initializer: @AwsCdkDsl
-    EmrContainersDeleteVirtualCluster.Builder.() -> Unit = {}): EmrContainersDeleteVirtualCluster =
-    EmrContainersDeleteVirtualCluster.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildEmrContainersDeleteVirtualCluster(id: String, initializer: @AwsCdkDsl EmrContainersDeleteVirtualCluster.Builder.() -> Unit = {}): EmrContainersDeleteVirtualCluster = EmrContainersDeleteVirtualCluster.Builder.create(this, id).apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.timestream.CfnScheduledQuery
 
 @Generated
-public fun buildNotificationConfigurationProperty(initializer: @AwsCdkDsl
-    CfnScheduledQuery.NotificationConfigurationProperty.Builder.() -> Unit = {}):
-    CfnScheduledQuery.NotificationConfigurationProperty =
-    CfnScheduledQuery.NotificationConfigurationProperty.Builder().apply(initializer).build()
+public fun buildNotificationConfigurationProperty(initializer: @AwsCdkDsl CfnScheduledQuery.NotificationConfigurationProperty.Builder.() -> Unit = {}): CfnScheduledQuery.NotificationConfigurationProperty = CfnScheduledQuery.NotificationConfigurationProperty.Builder().apply(initializer).build()

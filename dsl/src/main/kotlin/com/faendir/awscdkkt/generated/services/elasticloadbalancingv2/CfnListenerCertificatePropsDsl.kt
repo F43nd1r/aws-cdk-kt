@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.elasticloadbalancingv2.CfnListenerCertificateProps
 
 @Generated
-public fun buildCfnListenerCertificateProps(initializer: @AwsCdkDsl
-    CfnListenerCertificateProps.Builder.() -> Unit = {}): CfnListenerCertificateProps =
-    CfnListenerCertificateProps.Builder().apply(initializer).build()
+public fun buildCfnListenerCertificateProps(initializer: @AwsCdkDsl CfnListenerCertificateProps.Builder.() -> Unit = {}): CfnListenerCertificateProps = CfnListenerCertificateProps.Builder().apply(initializer).build()

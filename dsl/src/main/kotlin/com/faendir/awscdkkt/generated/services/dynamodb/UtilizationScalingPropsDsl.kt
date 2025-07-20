@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.dynamodb.UtilizationScalingProps
 
 @Generated
-public fun buildUtilizationScalingProps(initializer: @AwsCdkDsl
-    UtilizationScalingProps.Builder.() -> Unit = {}): UtilizationScalingProps =
-    UtilizationScalingProps.Builder().apply(initializer).build()
+public fun buildUtilizationScalingProps(initializer: @AwsCdkDsl UtilizationScalingProps.Builder.() -> Unit = {}): UtilizationScalingProps = UtilizationScalingProps.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.waf.regional.CfnWebACL
 
 @Generated
-public fun buildRuleProperty(initializer: @AwsCdkDsl CfnWebACL.RuleProperty.Builder.() -> Unit =
-    {}): CfnWebACL.RuleProperty = CfnWebACL.RuleProperty.Builder().apply(initializer).build()
+public fun buildRuleProperty(initializer: @AwsCdkDsl CfnWebACL.RuleProperty.Builder.() -> Unit = {}): CfnWebACL.RuleProperty = CfnWebACL.RuleProperty.Builder().apply(initializer).build()

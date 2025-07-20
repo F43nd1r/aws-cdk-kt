@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnIPAMResourceDiscoveryAssociationProps
 
 @Generated
-public fun buildCfnIPAMResourceDiscoveryAssociationProps(initializer: @AwsCdkDsl
-    CfnIPAMResourceDiscoveryAssociationProps.Builder.() -> Unit = {}):
-    CfnIPAMResourceDiscoveryAssociationProps =
-    CfnIPAMResourceDiscoveryAssociationProps.Builder().apply(initializer).build()
+public fun buildCfnIPAMResourceDiscoveryAssociationProps(initializer: @AwsCdkDsl CfnIPAMResourceDiscoveryAssociationProps.Builder.() -> Unit = {}): CfnIPAMResourceDiscoveryAssociationProps = CfnIPAMResourceDiscoveryAssociationProps.Builder().apply(initializer).build()

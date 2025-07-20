@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.cognito.CfnUserPoolProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnUserPool(id: String, initializer: @AwsCdkDsl CfnUserPool.() -> Unit = {}):
-    CfnUserPool = CfnUserPool(this, id).apply(initializer)
+public fun Construct.cfnUserPool(id: String, initializer: @AwsCdkDsl CfnUserPool.() -> Unit = {}): CfnUserPool = CfnUserPool(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnUserPool(
@@ -20,6 +19,4 @@ public fun Construct.cfnUserPool(
 ): CfnUserPool = CfnUserPool(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnUserPool(id: String, initializer: @AwsCdkDsl
-    CfnUserPool.Builder.() -> Unit = {}): CfnUserPool = CfnUserPool.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnUserPool(id: String, initializer: @AwsCdkDsl CfnUserPool.Builder.() -> Unit = {}): CfnUserPool = CfnUserPool.Builder.create(this, id).apply(initializer).build()

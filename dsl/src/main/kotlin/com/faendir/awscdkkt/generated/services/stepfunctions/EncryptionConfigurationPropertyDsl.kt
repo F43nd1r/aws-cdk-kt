@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.CfnStateMachine
 
 @Generated
-public fun buildEncryptionConfigurationProperty(initializer: @AwsCdkDsl
-    CfnStateMachine.EncryptionConfigurationProperty.Builder.() -> Unit = {}):
-    CfnStateMachine.EncryptionConfigurationProperty =
-    CfnStateMachine.EncryptionConfigurationProperty.Builder().apply(initializer).build()
+public fun buildEncryptionConfigurationProperty(initializer: @AwsCdkDsl CfnStateMachine.EncryptionConfigurationProperty.Builder.() -> Unit = {}): CfnStateMachine.EncryptionConfigurationProperty = CfnStateMachine.EncryptionConfigurationProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.emrCancelStep(
 ): EmrCancelStep = EmrCancelStep(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEmrCancelStep(id: String, initializer: @AwsCdkDsl
-    EmrCancelStep.Builder.() -> Unit = {}): EmrCancelStep = EmrCancelStep.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildEmrCancelStep(id: String, initializer: @AwsCdkDsl EmrCancelStep.Builder.() -> Unit = {}): EmrCancelStep = EmrCancelStep.Builder.create(this, id).apply(initializer).build()

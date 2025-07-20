@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.bedrock.CfnGuardrail
 
 @Generated
-public fun buildPiiEntityConfigProperty(initializer: @AwsCdkDsl
-    CfnGuardrail.PiiEntityConfigProperty.Builder.() -> Unit = {}):
-    CfnGuardrail.PiiEntityConfigProperty =
-    CfnGuardrail.PiiEntityConfigProperty.Builder().apply(initializer).build()
+public fun buildPiiEntityConfigProperty(initializer: @AwsCdkDsl CfnGuardrail.PiiEntityConfigProperty.Builder.() -> Unit = {}): CfnGuardrail.PiiEntityConfigProperty = CfnGuardrail.PiiEntityConfigProperty.Builder().apply(initializer).build()

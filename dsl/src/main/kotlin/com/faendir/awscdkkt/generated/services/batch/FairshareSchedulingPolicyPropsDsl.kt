@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.FairshareSchedulingPolicyProps
 
 @Generated
-public fun buildFairshareSchedulingPolicyProps(initializer: @AwsCdkDsl
-    FairshareSchedulingPolicyProps.Builder.() -> Unit = {}): FairshareSchedulingPolicyProps =
-    FairshareSchedulingPolicyProps.Builder().apply(initializer).build()
+public fun buildFairshareSchedulingPolicyProps(initializer: @AwsCdkDsl FairshareSchedulingPolicyProps.Builder.() -> Unit = {}): FairshareSchedulingPolicyProps = FairshareSchedulingPolicyProps.Builder().apply(initializer).build()

@@ -16,5 +16,4 @@ public fun Construct.cfnQueue(
 ): CfnQueue = CfnQueue(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnQueue(id: String, initializer: @AwsCdkDsl CfnQueue.Builder.() -> Unit =
-    {}): CfnQueue = CfnQueue.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnQueue(id: String, initializer: @AwsCdkDsl CfnQueue.Builder.() -> Unit = {}): CfnQueue = CfnQueue.Builder.create(this, id).apply(initializer).build()

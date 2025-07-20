@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.CodeCommitSourceVariables
 
 @Generated
-public fun buildCodeCommitSourceVariables(initializer: @AwsCdkDsl
-    CodeCommitSourceVariables.Builder.() -> Unit = {}): CodeCommitSourceVariables =
-    CodeCommitSourceVariables.Builder().apply(initializer).build()
+public fun buildCodeCommitSourceVariables(initializer: @AwsCdkDsl CodeCommitSourceVariables.Builder.() -> Unit = {}): CodeCommitSourceVariables = CodeCommitSourceVariables.Builder().apply(initializer).build()

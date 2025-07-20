@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnCACertificateProps
 
 @Generated
-public fun buildCfnCACertificateProps(initializer: @AwsCdkDsl
-    CfnCACertificateProps.Builder.() -> Unit = {}): CfnCACertificateProps =
-    CfnCACertificateProps.Builder().apply(initializer).build()
+public fun buildCfnCACertificateProps(initializer: @AwsCdkDsl CfnCACertificateProps.Builder.() -> Unit = {}): CfnCACertificateProps = CfnCACertificateProps.Builder().apply(initializer).build()

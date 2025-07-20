@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.CfnLambdaHook
 
 @Generated
-public fun buildStackRolesProperty(initializer: @AwsCdkDsl
-    CfnLambdaHook.StackRolesProperty.Builder.() -> Unit = {}): CfnLambdaHook.StackRolesProperty =
-    CfnLambdaHook.StackRolesProperty.Builder().apply(initializer).build()
+public fun buildStackRolesProperty(initializer: @AwsCdkDsl CfnLambdaHook.StackRolesProperty.Builder.() -> Unit = {}): CfnLambdaHook.StackRolesProperty = CfnLambdaHook.StackRolesProperty.Builder().apply(initializer).build()

@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kendra.CfnIndex
 
 @Generated
-public fun buildJwtTokenTypeConfigurationProperty(initializer: @AwsCdkDsl
-    CfnIndex.JwtTokenTypeConfigurationProperty.Builder.() -> Unit = {}):
-    CfnIndex.JwtTokenTypeConfigurationProperty =
-    CfnIndex.JwtTokenTypeConfigurationProperty.Builder().apply(initializer).build()
+public fun buildJwtTokenTypeConfigurationProperty(initializer: @AwsCdkDsl CfnIndex.JwtTokenTypeConfigurationProperty.Builder.() -> Unit = {}): CfnIndex.JwtTokenTypeConfigurationProperty = CfnIndex.JwtTokenTypeConfigurationProperty.Builder().apply(initializer).build()

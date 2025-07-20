@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.s3objectlambda.CfnAccessPoint
 
 @Generated
-public fun buildContentTransformationProperty(initializer: @AwsCdkDsl
-    CfnAccessPoint.ContentTransformationProperty.Builder.() -> Unit = {}):
-    CfnAccessPoint.ContentTransformationProperty =
-    CfnAccessPoint.ContentTransformationProperty.Builder().apply(initializer).build()
+public fun buildContentTransformationProperty(initializer: @AwsCdkDsl CfnAccessPoint.ContentTransformationProperty.Builder.() -> Unit = {}): CfnAccessPoint.ContentTransformationProperty = CfnAccessPoint.ContentTransformationProperty.Builder().apply(initializer).build()

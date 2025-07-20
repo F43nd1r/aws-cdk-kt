@@ -16,6 +16,4 @@ public fun Construct.cfnOrganizationConfigRule(
 ): CfnOrganizationConfigRule = CfnOrganizationConfigRule(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnOrganizationConfigRule(id: String, initializer: @AwsCdkDsl
-    CfnOrganizationConfigRule.Builder.() -> Unit = {}): CfnOrganizationConfigRule =
-    CfnOrganizationConfigRule.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnOrganizationConfigRule(id: String, initializer: @AwsCdkDsl CfnOrganizationConfigRule.Builder.() -> Unit = {}): CfnOrganizationConfigRule = CfnOrganizationConfigRule.Builder.create(this, id).apply(initializer).build()

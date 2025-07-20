@@ -7,6 +7,4 @@ import kotlin.Unit
 import software.amazon.awscdk.aws_apigatewayv2_integrations.WebSocketAwsIntegration
 
 @Generated
-public fun buildWebSocketAwsIntegration(id: String, initializer: @AwsCdkDsl
-    WebSocketAwsIntegration.Builder.() -> Unit = {}): WebSocketAwsIntegration =
-    WebSocketAwsIntegration.Builder.create(id).apply(initializer).build()
+public fun buildWebSocketAwsIntegration(id: String, initializer: @AwsCdkDsl WebSocketAwsIntegration.Builder.() -> Unit = {}): WebSocketAwsIntegration = WebSocketAwsIntegration.Builder.create(id).apply(initializer).build()

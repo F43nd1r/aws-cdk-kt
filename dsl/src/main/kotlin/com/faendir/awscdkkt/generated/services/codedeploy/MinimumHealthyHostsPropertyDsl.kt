@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codedeploy.CfnDeploymentConfig
 
 @Generated
-public fun buildMinimumHealthyHostsProperty(initializer: @AwsCdkDsl
-    CfnDeploymentConfig.MinimumHealthyHostsProperty.Builder.() -> Unit = {}):
-    CfnDeploymentConfig.MinimumHealthyHostsProperty =
-    CfnDeploymentConfig.MinimumHealthyHostsProperty.Builder().apply(initializer).build()
+public fun buildMinimumHealthyHostsProperty(initializer: @AwsCdkDsl CfnDeploymentConfig.MinimumHealthyHostsProperty.Builder.() -> Unit = {}): CfnDeploymentConfig.MinimumHealthyHostsProperty = CfnDeploymentConfig.MinimumHealthyHostsProperty.Builder().apply(initializer).build()

@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.VolumeProps
 
 @Generated
-public fun buildVolumeProps(initializer: @AwsCdkDsl VolumeProps.Builder.() -> Unit = {}):
-    VolumeProps = VolumeProps.Builder().apply(initializer).build()
+public fun buildVolumeProps(initializer: @AwsCdkDsl VolumeProps.Builder.() -> Unit = {}): VolumeProps = VolumeProps.Builder().apply(initializer).build()

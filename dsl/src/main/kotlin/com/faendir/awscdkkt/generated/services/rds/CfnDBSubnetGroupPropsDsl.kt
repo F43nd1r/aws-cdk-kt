@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.CfnDBSubnetGroupProps
 
 @Generated
-public fun buildCfnDBSubnetGroupProps(initializer: @AwsCdkDsl
-    CfnDBSubnetGroupProps.Builder.() -> Unit = {}): CfnDBSubnetGroupProps =
-    CfnDBSubnetGroupProps.Builder().apply(initializer).build()
+public fun buildCfnDBSubnetGroupProps(initializer: @AwsCdkDsl CfnDBSubnetGroupProps.Builder.() -> Unit = {}): CfnDBSubnetGroupProps = CfnDBSubnetGroupProps.Builder().apply(initializer).build()

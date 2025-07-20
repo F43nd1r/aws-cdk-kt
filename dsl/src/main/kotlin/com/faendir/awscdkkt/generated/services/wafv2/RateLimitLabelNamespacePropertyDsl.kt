@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.wafv2.CfnWebACL
 
 @Generated
-public fun buildRateLimitLabelNamespaceProperty(initializer: @AwsCdkDsl
-    CfnWebACL.RateLimitLabelNamespaceProperty.Builder.() -> Unit = {}):
-    CfnWebACL.RateLimitLabelNamespaceProperty =
-    CfnWebACL.RateLimitLabelNamespaceProperty.Builder().apply(initializer).build()
+public fun buildRateLimitLabelNamespaceProperty(initializer: @AwsCdkDsl CfnWebACL.RateLimitLabelNamespaceProperty.Builder.() -> Unit = {}): CfnWebACL.RateLimitLabelNamespaceProperty = CfnWebACL.RateLimitLabelNamespaceProperty.Builder().apply(initializer).build()

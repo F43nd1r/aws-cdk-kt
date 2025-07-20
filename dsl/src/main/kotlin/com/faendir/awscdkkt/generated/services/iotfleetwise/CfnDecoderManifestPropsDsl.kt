@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iotfleetwise.CfnDecoderManifestProps
 
 @Generated
-public fun buildCfnDecoderManifestProps(initializer: @AwsCdkDsl
-    CfnDecoderManifestProps.Builder.() -> Unit = {}): CfnDecoderManifestProps =
-    CfnDecoderManifestProps.Builder().apply(initializer).build()
+public fun buildCfnDecoderManifestProps(initializer: @AwsCdkDsl CfnDecoderManifestProps.Builder.() -> Unit = {}): CfnDecoderManifestProps = CfnDecoderManifestProps.Builder().apply(initializer).build()

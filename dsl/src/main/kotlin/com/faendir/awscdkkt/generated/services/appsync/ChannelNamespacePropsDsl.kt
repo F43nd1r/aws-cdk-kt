@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appsync.ChannelNamespaceProps
 
 @Generated
-public fun buildChannelNamespaceProps(initializer: @AwsCdkDsl
-    ChannelNamespaceProps.Builder.() -> Unit = {}): ChannelNamespaceProps =
-    ChannelNamespaceProps.Builder().apply(initializer).build()
+public fun buildChannelNamespaceProps(initializer: @AwsCdkDsl ChannelNamespaceProps.Builder.() -> Unit = {}): ChannelNamespaceProps = ChannelNamespaceProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apptest.CfnTestCase
 
 @Generated
-public fun buildCompareActionProperty(initializer: @AwsCdkDsl
-    CfnTestCase.CompareActionProperty.Builder.() -> Unit = {}): CfnTestCase.CompareActionProperty =
-    CfnTestCase.CompareActionProperty.Builder().apply(initializer).build()
+public fun buildCompareActionProperty(initializer: @AwsCdkDsl CfnTestCase.CompareActionProperty.Builder.() -> Unit = {}): CfnTestCase.CompareActionProperty = CfnTestCase.CompareActionProperty.Builder().apply(initializer).build()

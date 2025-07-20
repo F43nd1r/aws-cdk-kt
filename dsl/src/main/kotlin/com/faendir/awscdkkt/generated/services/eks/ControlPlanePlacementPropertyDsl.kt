@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.CfnCluster
 
 @Generated
-public fun buildControlPlanePlacementProperty(initializer: @AwsCdkDsl
-    CfnCluster.ControlPlanePlacementProperty.Builder.() -> Unit = {}):
-    CfnCluster.ControlPlanePlacementProperty =
-    CfnCluster.ControlPlanePlacementProperty.Builder().apply(initializer).build()
+public fun buildControlPlanePlacementProperty(initializer: @AwsCdkDsl CfnCluster.ControlPlanePlacementProperty.Builder.() -> Unit = {}): CfnCluster.ControlPlanePlacementProperty = CfnCluster.ControlPlanePlacementProperty.Builder().apply(initializer).build()

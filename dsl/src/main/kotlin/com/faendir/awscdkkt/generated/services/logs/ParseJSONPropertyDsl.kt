@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnTransformer
 
 @Generated
-public fun buildParseJSONProperty(initializer: @AwsCdkDsl
-    CfnTransformer.ParseJSONProperty.Builder.() -> Unit = {}): CfnTransformer.ParseJSONProperty =
-    CfnTransformer.ParseJSONProperty.Builder().apply(initializer).build()
+public fun buildParseJSONProperty(initializer: @AwsCdkDsl CfnTransformer.ParseJSONProperty.Builder.() -> Unit = {}): CfnTransformer.ParseJSONProperty = CfnTransformer.ParseJSONProperty.Builder().apply(initializer).build()

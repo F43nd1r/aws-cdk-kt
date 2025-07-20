@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.datazone.CfnDataSource
 
 @Generated
-public fun buildGlueRunConfigurationInputProperty(initializer: @AwsCdkDsl
-    CfnDataSource.GlueRunConfigurationInputProperty.Builder.() -> Unit = {}):
-    CfnDataSource.GlueRunConfigurationInputProperty =
-    CfnDataSource.GlueRunConfigurationInputProperty.Builder().apply(initializer).build()
+public fun buildGlueRunConfigurationInputProperty(initializer: @AwsCdkDsl CfnDataSource.GlueRunConfigurationInputProperty.Builder.() -> Unit = {}): CfnDataSource.GlueRunConfigurationInputProperty = CfnDataSource.GlueRunConfigurationInputProperty.Builder().apply(initializer).build()

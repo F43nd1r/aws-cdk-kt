@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.stepfunctions.tasks.GlueStartJobRunProps
 
 @Generated
-public fun buildGlueStartJobRunProps(initializer: @AwsCdkDsl GlueStartJobRunProps.Builder.() -> Unit
-    = {}): GlueStartJobRunProps = GlueStartJobRunProps.Builder().apply(initializer).build()
+public fun buildGlueStartJobRunProps(initializer: @AwsCdkDsl GlueStartJobRunProps.Builder.() -> Unit = {}): GlueStartJobRunProps = GlueStartJobRunProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.rds.ServerlessClusterAttributes
 
 @Generated
-public fun buildServerlessClusterAttributes(initializer: @AwsCdkDsl
-    ServerlessClusterAttributes.Builder.() -> Unit = {}): ServerlessClusterAttributes =
-    ServerlessClusterAttributes.Builder().apply(initializer).build()
+public fun buildServerlessClusterAttributes(initializer: @AwsCdkDsl ServerlessClusterAttributes.Builder.() -> Unit = {}): ServerlessClusterAttributes = ServerlessClusterAttributes.Builder().apply(initializer).build()

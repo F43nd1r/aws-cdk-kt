@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.applicationsignals.CfnServiceLevelObjective
 
 @Generated
-public fun buildDimensionProperty(initializer: @AwsCdkDsl
-    CfnServiceLevelObjective.DimensionProperty.Builder.() -> Unit = {}):
-    CfnServiceLevelObjective.DimensionProperty =
-    CfnServiceLevelObjective.DimensionProperty.Builder().apply(initializer).build()
+public fun buildDimensionProperty(initializer: @AwsCdkDsl CfnServiceLevelObjective.DimensionProperty.Builder.() -> Unit = {}): CfnServiceLevelObjective.DimensionProperty = CfnServiceLevelObjective.DimensionProperty.Builder().apply(initializer).build()

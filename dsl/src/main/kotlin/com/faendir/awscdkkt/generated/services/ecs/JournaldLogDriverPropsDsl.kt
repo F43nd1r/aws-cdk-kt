@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ecs.JournaldLogDriverProps
 
 @Generated
-public fun buildJournaldLogDriverProps(initializer: @AwsCdkDsl
-    JournaldLogDriverProps.Builder.() -> Unit = {}): JournaldLogDriverProps =
-    JournaldLogDriverProps.Builder().apply(initializer).build()
+public fun buildJournaldLogDriverProps(initializer: @AwsCdkDsl JournaldLogDriverProps.Builder.() -> Unit = {}): JournaldLogDriverProps = JournaldLogDriverProps.Builder().apply(initializer).build()

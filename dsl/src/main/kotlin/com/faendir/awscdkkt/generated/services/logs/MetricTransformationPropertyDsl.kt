@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.logs.CfnMetricFilter
 
 @Generated
-public fun buildMetricTransformationProperty(initializer: @AwsCdkDsl
-    CfnMetricFilter.MetricTransformationProperty.Builder.() -> Unit = {}):
-    CfnMetricFilter.MetricTransformationProperty =
-    CfnMetricFilter.MetricTransformationProperty.Builder().apply(initializer).build()
+public fun buildMetricTransformationProperty(initializer: @AwsCdkDsl CfnMetricFilter.MetricTransformationProperty.Builder.() -> Unit = {}): CfnMetricFilter.MetricTransformationProperty = CfnMetricFilter.MetricTransformationProperty.Builder().apply(initializer).build()

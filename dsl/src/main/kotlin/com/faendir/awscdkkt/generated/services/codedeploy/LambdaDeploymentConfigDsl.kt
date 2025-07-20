@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.codedeploy.LambdaDeploymentConfigProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.lambdaDeploymentConfig(id: String, initializer: @AwsCdkDsl
-    LambdaDeploymentConfig.() -> Unit = {}): LambdaDeploymentConfig = LambdaDeploymentConfig(this,
-    id).apply(initializer)
+public fun Construct.lambdaDeploymentConfig(id: String, initializer: @AwsCdkDsl LambdaDeploymentConfig.() -> Unit = {}): LambdaDeploymentConfig = LambdaDeploymentConfig(this, id).apply(initializer)
 
 @Generated
 public fun Construct.lambdaDeploymentConfig(
@@ -21,6 +19,4 @@ public fun Construct.lambdaDeploymentConfig(
 ): LambdaDeploymentConfig = LambdaDeploymentConfig(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildLambdaDeploymentConfig(id: String, initializer: @AwsCdkDsl
-    LambdaDeploymentConfig.Builder.() -> Unit = {}): LambdaDeploymentConfig =
-    LambdaDeploymentConfig.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildLambdaDeploymentConfig(id: String, initializer: @AwsCdkDsl LambdaDeploymentConfig.Builder.() -> Unit = {}): LambdaDeploymentConfig = LambdaDeploymentConfig.Builder.create(this, id).apply(initializer).build()

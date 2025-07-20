@@ -16,5 +16,4 @@ public fun Construct.eksCall(
 ): EksCall = EksCall(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildEksCall(id: String, initializer: @AwsCdkDsl EksCall.Builder.() -> Unit =
-    {}): EksCall = EksCall.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildEksCall(id: String, initializer: @AwsCdkDsl EksCall.Builder.() -> Unit = {}): EksCall = EksCall.Builder.create(this, id).apply(initializer).build()

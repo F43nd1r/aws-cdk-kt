@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.eks.CfnCluster
 
 @Generated
-public fun buildProviderProperty(initializer: @AwsCdkDsl
-    CfnCluster.ProviderProperty.Builder.() -> Unit = {}): CfnCluster.ProviderProperty =
-    CfnCluster.ProviderProperty.Builder().apply(initializer).build()
+public fun buildProviderProperty(initializer: @AwsCdkDsl CfnCluster.ProviderProperty.Builder.() -> Unit = {}): CfnCluster.ProviderProperty = CfnCluster.ProviderProperty.Builder().apply(initializer).build()

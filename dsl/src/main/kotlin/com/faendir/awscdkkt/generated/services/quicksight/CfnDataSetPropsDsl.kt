@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnDataSetProps
 
 @Generated
-public fun buildCfnDataSetProps(initializer: @AwsCdkDsl CfnDataSetProps.Builder.() -> Unit = {}):
-    CfnDataSetProps = CfnDataSetProps.Builder().apply(initializer).build()
+public fun buildCfnDataSetProps(initializer: @AwsCdkDsl CfnDataSetProps.Builder.() -> Unit = {}): CfnDataSetProps = CfnDataSetProps.Builder().apply(initializer).build()

@@ -9,9 +9,7 @@ import software.amazon.awscdk.services.medialive.CfnInputSecurityGroupProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnInputSecurityGroup(id: String, initializer: @AwsCdkDsl
-    CfnInputSecurityGroup.() -> Unit = {}): CfnInputSecurityGroup = CfnInputSecurityGroup(this,
-    id).apply(initializer)
+public fun Construct.cfnInputSecurityGroup(id: String, initializer: @AwsCdkDsl CfnInputSecurityGroup.() -> Unit = {}): CfnInputSecurityGroup = CfnInputSecurityGroup(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnInputSecurityGroup(
@@ -21,6 +19,4 @@ public fun Construct.cfnInputSecurityGroup(
 ): CfnInputSecurityGroup = CfnInputSecurityGroup(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnInputSecurityGroup(id: String, initializer: @AwsCdkDsl
-    CfnInputSecurityGroup.Builder.() -> Unit = {}): CfnInputSecurityGroup =
-    CfnInputSecurityGroup.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnInputSecurityGroup(id: String, initializer: @AwsCdkDsl CfnInputSecurityGroup.Builder.() -> Unit = {}): CfnInputSecurityGroup = CfnInputSecurityGroup.Builder.create(this, id).apply(initializer).build()

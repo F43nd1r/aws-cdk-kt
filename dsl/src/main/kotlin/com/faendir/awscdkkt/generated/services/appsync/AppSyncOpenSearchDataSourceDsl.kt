@@ -16,6 +16,4 @@ public fun Construct.appSyncOpenSearchDataSource(
 ): AppSyncOpenSearchDataSource = AppSyncOpenSearchDataSource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAppSyncOpenSearchDataSource(id: String, initializer: @AwsCdkDsl
-    AppSyncOpenSearchDataSource.Builder.() -> Unit = {}): AppSyncOpenSearchDataSource =
-    AppSyncOpenSearchDataSource.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildAppSyncOpenSearchDataSource(id: String, initializer: @AwsCdkDsl AppSyncOpenSearchDataSource.Builder.() -> Unit = {}): AppSyncOpenSearchDataSource = AppSyncOpenSearchDataSource.Builder.create(this, id).apply(initializer).build()

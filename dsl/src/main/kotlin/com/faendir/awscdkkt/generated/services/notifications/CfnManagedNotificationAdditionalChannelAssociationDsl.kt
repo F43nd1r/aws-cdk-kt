@@ -13,12 +13,7 @@ public fun Construct.cfnManagedNotificationAdditionalChannelAssociation(
   id: String,
   props: CfnManagedNotificationAdditionalChannelAssociationProps,
   initializer: @AwsCdkDsl CfnManagedNotificationAdditionalChannelAssociation.() -> Unit = {},
-): CfnManagedNotificationAdditionalChannelAssociation =
-    CfnManagedNotificationAdditionalChannelAssociation(this, id, props).apply(initializer)
+): CfnManagedNotificationAdditionalChannelAssociation = CfnManagedNotificationAdditionalChannelAssociation(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnManagedNotificationAdditionalChannelAssociation(id: String,
-    initializer: @AwsCdkDsl CfnManagedNotificationAdditionalChannelAssociation.Builder.() -> Unit =
-    {}): CfnManagedNotificationAdditionalChannelAssociation =
-    CfnManagedNotificationAdditionalChannelAssociation.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnManagedNotificationAdditionalChannelAssociation(id: String, initializer: @AwsCdkDsl CfnManagedNotificationAdditionalChannelAssociation.Builder.() -> Unit = {}): CfnManagedNotificationAdditionalChannelAssociation = CfnManagedNotificationAdditionalChannelAssociation.Builder.create(this, id).apply(initializer).build()

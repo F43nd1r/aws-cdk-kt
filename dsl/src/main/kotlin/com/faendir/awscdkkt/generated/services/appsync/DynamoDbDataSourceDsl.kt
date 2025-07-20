@@ -16,6 +16,4 @@ public fun Construct.dynamoDbDataSource(
 ): DynamoDbDataSource = DynamoDbDataSource(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildDynamoDbDataSource(id: String, initializer: @AwsCdkDsl
-    DynamoDbDataSource.Builder.() -> Unit = {}): DynamoDbDataSource =
-    DynamoDbDataSource.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildDynamoDbDataSource(id: String, initializer: @AwsCdkDsl DynamoDbDataSource.Builder.() -> Unit = {}): DynamoDbDataSource = DynamoDbDataSource.Builder.create(this, id).apply(initializer).build()

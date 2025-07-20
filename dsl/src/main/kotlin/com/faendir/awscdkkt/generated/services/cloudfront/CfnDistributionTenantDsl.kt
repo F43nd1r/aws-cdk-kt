@@ -16,6 +16,4 @@ public fun Construct.cfnDistributionTenant(
 ): CfnDistributionTenant = CfnDistributionTenant(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDistributionTenant(id: String, initializer: @AwsCdkDsl
-    CfnDistributionTenant.Builder.() -> Unit = {}): CfnDistributionTenant =
-    CfnDistributionTenant.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnDistributionTenant(id: String, initializer: @AwsCdkDsl CfnDistributionTenant.Builder.() -> Unit = {}): CfnDistributionTenant = CfnDistributionTenant.Builder.create(this, id).apply(initializer).build()

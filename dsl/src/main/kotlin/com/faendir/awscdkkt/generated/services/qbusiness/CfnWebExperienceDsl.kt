@@ -16,6 +16,4 @@ public fun Construct.cfnWebExperience(
 ): CfnWebExperience = CfnWebExperience(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnWebExperience(id: String, initializer: @AwsCdkDsl
-    CfnWebExperience.Builder.() -> Unit = {}): CfnWebExperience =
-    CfnWebExperience.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnWebExperience(id: String, initializer: @AwsCdkDsl CfnWebExperience.Builder.() -> Unit = {}): CfnWebExperience = CfnWebExperience.Builder.create(this, id).apply(initializer).build()

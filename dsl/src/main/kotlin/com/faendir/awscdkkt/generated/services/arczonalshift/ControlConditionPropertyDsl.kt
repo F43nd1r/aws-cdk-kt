@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.arczonalshift.CfnZonalAutoshiftConfiguration
 
 @Generated
-public fun buildControlConditionProperty(initializer: @AwsCdkDsl
-    CfnZonalAutoshiftConfiguration.ControlConditionProperty.Builder.() -> Unit = {}):
-    CfnZonalAutoshiftConfiguration.ControlConditionProperty =
-    CfnZonalAutoshiftConfiguration.ControlConditionProperty.Builder().apply(initializer).build()
+public fun buildControlConditionProperty(initializer: @AwsCdkDsl CfnZonalAutoshiftConfiguration.ControlConditionProperty.Builder.() -> Unit = {}): CfnZonalAutoshiftConfiguration.ControlConditionProperty = CfnZonalAutoshiftConfiguration.ControlConditionProperty.Builder().apply(initializer).build()

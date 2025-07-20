@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.aps.CfnScraperProps
 
 @Generated
-public fun buildCfnScraperProps(initializer: @AwsCdkDsl CfnScraperProps.Builder.() -> Unit = {}):
-    CfnScraperProps = CfnScraperProps.Builder().apply(initializer).build()
+public fun buildCfnScraperProps(initializer: @AwsCdkDsl CfnScraperProps.Builder.() -> Unit = {}): CfnScraperProps = CfnScraperProps.Builder().apply(initializer).build()

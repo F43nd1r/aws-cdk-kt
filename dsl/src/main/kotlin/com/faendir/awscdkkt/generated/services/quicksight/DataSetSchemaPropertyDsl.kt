@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildDataSetSchemaProperty(initializer: @AwsCdkDsl
-    CfnTemplate.DataSetSchemaProperty.Builder.() -> Unit = {}): CfnTemplate.DataSetSchemaProperty =
-    CfnTemplate.DataSetSchemaProperty.Builder().apply(initializer).build()
+public fun buildDataSetSchemaProperty(initializer: @AwsCdkDsl CfnTemplate.DataSetSchemaProperty.Builder.() -> Unit = {}): CfnTemplate.DataSetSchemaProperty = CfnTemplate.DataSetSchemaProperty.Builder().apply(initializer).build()

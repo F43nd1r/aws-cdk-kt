@@ -16,6 +16,4 @@ public fun Construct.cfnDatabase(
 ): CfnDatabase = CfnDatabase(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnDatabase(id: String, initializer: @AwsCdkDsl
-    CfnDatabase.Builder.() -> Unit = {}): CfnDatabase = CfnDatabase.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnDatabase(id: String, initializer: @AwsCdkDsl CfnDatabase.Builder.() -> Unit = {}): CfnDatabase = CfnDatabase.Builder.create(this, id).apply(initializer).build()

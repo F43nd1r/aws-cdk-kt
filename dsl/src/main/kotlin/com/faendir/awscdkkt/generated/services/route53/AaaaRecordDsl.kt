@@ -16,6 +16,4 @@ public fun Construct.aaaaRecord(
 ): AaaaRecord = AaaaRecord(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildAaaaRecord(id: String, initializer: @AwsCdkDsl
-    AaaaRecord.Builder.() -> Unit = {}): AaaaRecord = AaaaRecord.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildAaaaRecord(id: String, initializer: @AwsCdkDsl AaaaRecord.Builder.() -> Unit = {}): AaaaRecord = AaaaRecord.Builder.create(this, id).apply(initializer).build()

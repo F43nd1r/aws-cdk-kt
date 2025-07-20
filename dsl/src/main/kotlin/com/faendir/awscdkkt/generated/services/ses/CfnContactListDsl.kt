@@ -9,8 +9,7 @@ import software.amazon.awscdk.services.ses.CfnContactListProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnContactList(id: String, initializer: @AwsCdkDsl CfnContactList.() -> Unit =
-    {}): CfnContactList = CfnContactList(this, id).apply(initializer)
+public fun Construct.cfnContactList(id: String, initializer: @AwsCdkDsl CfnContactList.() -> Unit = {}): CfnContactList = CfnContactList(this, id).apply(initializer)
 
 @Generated
 public fun Construct.cfnContactList(
@@ -20,6 +19,4 @@ public fun Construct.cfnContactList(
 ): CfnContactList = CfnContactList(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnContactList(id: String, initializer: @AwsCdkDsl
-    CfnContactList.Builder.() -> Unit = {}): CfnContactList = CfnContactList.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnContactList(id: String, initializer: @AwsCdkDsl CfnContactList.Builder.() -> Unit = {}): CfnContactList = CfnContactList.Builder.create(this, id).apply(initializer).build()

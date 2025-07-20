@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.WebSocketRouteProps
 
 @Generated
-public fun buildWebSocketRouteProps(initializer: @AwsCdkDsl WebSocketRouteProps.Builder.() -> Unit =
-    {}): WebSocketRouteProps = WebSocketRouteProps.Builder().apply(initializer).build()
+public fun buildWebSocketRouteProps(initializer: @AwsCdkDsl WebSocketRouteProps.Builder.() -> Unit = {}): WebSocketRouteProps = WebSocketRouteProps.Builder().apply(initializer).build()

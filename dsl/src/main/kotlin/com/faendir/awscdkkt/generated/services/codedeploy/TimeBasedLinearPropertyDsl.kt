@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codedeploy.CfnDeploymentConfig
 
 @Generated
-public fun buildTimeBasedLinearProperty(initializer: @AwsCdkDsl
-    CfnDeploymentConfig.TimeBasedLinearProperty.Builder.() -> Unit = {}):
-    CfnDeploymentConfig.TimeBasedLinearProperty =
-    CfnDeploymentConfig.TimeBasedLinearProperty.Builder().apply(initializer).build()
+public fun buildTimeBasedLinearProperty(initializer: @AwsCdkDsl CfnDeploymentConfig.TimeBasedLinearProperty.Builder.() -> Unit = {}): CfnDeploymentConfig.TimeBasedLinearProperty = CfnDeploymentConfig.TimeBasedLinearProperty.Builder().apply(initializer).build()

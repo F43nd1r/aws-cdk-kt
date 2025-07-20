@@ -16,6 +16,4 @@ public fun Construct.logRetention(
 ): LogRetention = LogRetention(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildLogRetention(id: String, initializer: @AwsCdkDsl
-    LogRetention.Builder.() -> Unit = {}): LogRetention = LogRetention.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildLogRetention(id: String, initializer: @AwsCdkDsl LogRetention.Builder.() -> Unit = {}): LogRetention = LogRetention.Builder.create(this, id).apply(initializer).build()

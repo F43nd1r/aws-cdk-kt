@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.quicksight.CfnTemplate
 
 @Generated
-public fun buildFilterSelectableValuesProperty(initializer: @AwsCdkDsl
-    CfnTemplate.FilterSelectableValuesProperty.Builder.() -> Unit = {}):
-    CfnTemplate.FilterSelectableValuesProperty =
-    CfnTemplate.FilterSelectableValuesProperty.Builder().apply(initializer).build()
+public fun buildFilterSelectableValuesProperty(initializer: @AwsCdkDsl CfnTemplate.FilterSelectableValuesProperty.Builder.() -> Unit = {}): CfnTemplate.FilterSelectableValuesProperty = CfnTemplate.FilterSelectableValuesProperty.Builder().apply(initializer).build()

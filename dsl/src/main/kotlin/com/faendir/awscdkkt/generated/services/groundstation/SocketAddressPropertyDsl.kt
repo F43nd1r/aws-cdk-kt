@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.groundstation.CfnDataflowEndpointGroup
 
 @Generated
-public fun buildSocketAddressProperty(initializer: @AwsCdkDsl
-    CfnDataflowEndpointGroup.SocketAddressProperty.Builder.() -> Unit = {}):
-    CfnDataflowEndpointGroup.SocketAddressProperty =
-    CfnDataflowEndpointGroup.SocketAddressProperty.Builder().apply(initializer).build()
+public fun buildSocketAddressProperty(initializer: @AwsCdkDsl CfnDataflowEndpointGroup.SocketAddressProperty.Builder.() -> Unit = {}): CfnDataflowEndpointGroup.SocketAddressProperty = CfnDataflowEndpointGroup.SocketAddressProperty.Builder().apply(initializer).build()

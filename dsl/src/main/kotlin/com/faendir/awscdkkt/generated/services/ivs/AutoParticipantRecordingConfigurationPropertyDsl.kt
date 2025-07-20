@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ivs.CfnStage
 
 @Generated
-public fun buildAutoParticipantRecordingConfigurationProperty(initializer: @AwsCdkDsl
-    CfnStage.AutoParticipantRecordingConfigurationProperty.Builder.() -> Unit = {}):
-    CfnStage.AutoParticipantRecordingConfigurationProperty =
-    CfnStage.AutoParticipantRecordingConfigurationProperty.Builder().apply(initializer).build()
+public fun buildAutoParticipantRecordingConfigurationProperty(initializer: @AwsCdkDsl CfnStage.AutoParticipantRecordingConfigurationProperty.Builder.() -> Unit = {}): CfnStage.AutoParticipantRecordingConfigurationProperty = CfnStage.AutoParticipantRecordingConfigurationProperty.Builder().apply(initializer).build()

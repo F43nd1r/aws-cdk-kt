@@ -16,5 +16,4 @@ public fun Construct.tableV2(
 ): TableV2 = TableV2(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildTableV2(id: String, initializer: @AwsCdkDsl TableV2.Builder.() -> Unit =
-    {}): TableV2 = TableV2.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildTableV2(id: String, initializer: @AwsCdkDsl TableV2.Builder.() -> Unit = {}): TableV2 = TableV2.Builder.create(this, id).apply(initializer).build()

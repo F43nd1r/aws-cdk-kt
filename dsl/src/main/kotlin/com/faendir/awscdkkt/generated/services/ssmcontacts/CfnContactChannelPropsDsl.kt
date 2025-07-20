@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ssmcontacts.CfnContactChannelProps
 
 @Generated
-public fun buildCfnContactChannelProps(initializer: @AwsCdkDsl
-    CfnContactChannelProps.Builder.() -> Unit = {}): CfnContactChannelProps =
-    CfnContactChannelProps.Builder().apply(initializer).build()
+public fun buildCfnContactChannelProps(initializer: @AwsCdkDsl CfnContactChannelProps.Builder.() -> Unit = {}): CfnContactChannelProps = CfnContactChannelProps.Builder().apply(initializer).build()

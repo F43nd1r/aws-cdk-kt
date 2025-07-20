@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.kafkaconnect.CfnCustomPlugin
 
 @Generated
-public fun buildCustomPluginFileDescriptionProperty(initializer: @AwsCdkDsl
-    CfnCustomPlugin.CustomPluginFileDescriptionProperty.Builder.() -> Unit = {}):
-    CfnCustomPlugin.CustomPluginFileDescriptionProperty =
-    CfnCustomPlugin.CustomPluginFileDescriptionProperty.Builder().apply(initializer).build()
+public fun buildCustomPluginFileDescriptionProperty(initializer: @AwsCdkDsl CfnCustomPlugin.CustomPluginFileDescriptionProperty.Builder.() -> Unit = {}): CfnCustomPlugin.CustomPluginFileDescriptionProperty = CfnCustomPlugin.CustomPluginFileDescriptionProperty.Builder().apply(initializer).build()

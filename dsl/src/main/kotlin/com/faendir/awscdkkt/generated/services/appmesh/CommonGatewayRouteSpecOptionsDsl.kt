@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.appmesh.CommonGatewayRouteSpecOptions
 
 @Generated
-public fun buildCommonGatewayRouteSpecOptions(initializer: @AwsCdkDsl
-    CommonGatewayRouteSpecOptions.Builder.() -> Unit = {}): CommonGatewayRouteSpecOptions =
-    CommonGatewayRouteSpecOptions.Builder().apply(initializer).build()
+public fun buildCommonGatewayRouteSpecOptions(initializer: @AwsCdkDsl CommonGatewayRouteSpecOptions.Builder.() -> Unit = {}): CommonGatewayRouteSpecOptions = CommonGatewayRouteSpecOptions.Builder().apply(initializer).build()

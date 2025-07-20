@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.codepipeline.actions.CodeBuildActionProps
 
 @Generated
-public fun buildCodeBuildActionProps(initializer: @AwsCdkDsl CodeBuildActionProps.Builder.() -> Unit
-    = {}): CodeBuildActionProps = CodeBuildActionProps.Builder().apply(initializer).build()
+public fun buildCodeBuildActionProps(initializer: @AwsCdkDsl CodeBuildActionProps.Builder.() -> Unit = {}): CodeBuildActionProps = CodeBuildActionProps.Builder().apply(initializer).build()

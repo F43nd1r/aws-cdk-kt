@@ -16,6 +16,4 @@ public fun Construct.cfnConformancePack(
 ): CfnConformancePack = CfnConformancePack(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnConformancePack(id: String, initializer: @AwsCdkDsl
-    CfnConformancePack.Builder.() -> Unit = {}): CfnConformancePack =
-    CfnConformancePack.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnConformancePack(id: String, initializer: @AwsCdkDsl CfnConformancePack.Builder.() -> Unit = {}): CfnConformancePack = CfnConformancePack.Builder.create(this, id).apply(initializer).build()

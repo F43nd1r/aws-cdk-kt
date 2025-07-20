@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.efs.CfnFileSystem
 
 @Generated
-public fun buildReplicationDestinationProperty(initializer: @AwsCdkDsl
-    CfnFileSystem.ReplicationDestinationProperty.Builder.() -> Unit = {}):
-    CfnFileSystem.ReplicationDestinationProperty =
-    CfnFileSystem.ReplicationDestinationProperty.Builder().apply(initializer).build()
+public fun buildReplicationDestinationProperty(initializer: @AwsCdkDsl CfnFileSystem.ReplicationDestinationProperty.Builder.() -> Unit = {}): CfnFileSystem.ReplicationDestinationProperty = CfnFileSystem.ReplicationDestinationProperty.Builder().apply(initializer).build()

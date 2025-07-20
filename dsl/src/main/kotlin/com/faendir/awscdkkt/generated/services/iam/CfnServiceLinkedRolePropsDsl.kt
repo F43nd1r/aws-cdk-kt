@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iam.CfnServiceLinkedRoleProps
 
 @Generated
-public fun buildCfnServiceLinkedRoleProps(initializer: @AwsCdkDsl
-    CfnServiceLinkedRoleProps.Builder.() -> Unit = {}): CfnServiceLinkedRoleProps =
-    CfnServiceLinkedRoleProps.Builder().apply(initializer).build()
+public fun buildCfnServiceLinkedRoleProps(initializer: @AwsCdkDsl CfnServiceLinkedRoleProps.Builder.() -> Unit = {}): CfnServiceLinkedRoleProps = CfnServiceLinkedRoleProps.Builder().apply(initializer).build()

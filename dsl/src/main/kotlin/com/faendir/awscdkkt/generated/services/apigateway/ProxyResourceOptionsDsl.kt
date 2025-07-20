@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigateway.ProxyResourceOptions
 
 @Generated
-public fun buildProxyResourceOptions(initializer: @AwsCdkDsl ProxyResourceOptions.Builder.() -> Unit
-    = {}): ProxyResourceOptions = ProxyResourceOptions.Builder().apply(initializer).build()
+public fun buildProxyResourceOptions(initializer: @AwsCdkDsl ProxyResourceOptions.Builder.() -> Unit = {}): ProxyResourceOptions = ProxyResourceOptions.Builder().apply(initializer).build()

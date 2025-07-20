@@ -7,6 +7,4 @@ import kotlin.Unit
 import software.amazon.awscdk.pipelines.ConfirmPermissionsBroadening
 
 @Generated
-public fun buildConfirmPermissionsBroadening(id: String, initializer: @AwsCdkDsl
-    ConfirmPermissionsBroadening.Builder.() -> Unit = {}): ConfirmPermissionsBroadening =
-    ConfirmPermissionsBroadening.Builder.create(id).apply(initializer).build()
+public fun buildConfirmPermissionsBroadening(id: String, initializer: @AwsCdkDsl ConfirmPermissionsBroadening.Builder.() -> Unit = {}): ConfirmPermissionsBroadening = ConfirmPermissionsBroadening.Builder.create(id).apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.cognito.CfnIdentityPoolPrincipalTagProps
 
 @Generated
-public fun buildCfnIdentityPoolPrincipalTagProps(initializer: @AwsCdkDsl
-    CfnIdentityPoolPrincipalTagProps.Builder.() -> Unit = {}): CfnIdentityPoolPrincipalTagProps =
-    CfnIdentityPoolPrincipalTagProps.Builder().apply(initializer).build()
+public fun buildCfnIdentityPoolPrincipalTagProps(initializer: @AwsCdkDsl CfnIdentityPoolPrincipalTagProps.Builder.() -> Unit = {}): CfnIdentityPoolPrincipalTagProps = CfnIdentityPoolPrincipalTagProps.Builder().apply(initializer).build()

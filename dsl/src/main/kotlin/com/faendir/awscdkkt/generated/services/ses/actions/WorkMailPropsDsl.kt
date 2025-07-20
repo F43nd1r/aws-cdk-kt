@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ses.actions.WorkMailProps
 
 @Generated
-public fun buildWorkMailProps(initializer: @AwsCdkDsl WorkMailProps.Builder.() -> Unit = {}):
-    WorkMailProps = WorkMailProps.Builder().apply(initializer).build()
+public fun buildWorkMailProps(initializer: @AwsCdkDsl WorkMailProps.Builder.() -> Unit = {}): WorkMailProps = WorkMailProps.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkfirewall.CfnRuleGroup
 
 @Generated
-public fun buildReferenceSetsProperty(initializer: @AwsCdkDsl
-    CfnRuleGroup.ReferenceSetsProperty.Builder.() -> Unit = {}): CfnRuleGroup.ReferenceSetsProperty
-    = CfnRuleGroup.ReferenceSetsProperty.Builder().apply(initializer).build()
+public fun buildReferenceSetsProperty(initializer: @AwsCdkDsl CfnRuleGroup.ReferenceSetsProperty.Builder.() -> Unit = {}): CfnRuleGroup.ReferenceSetsProperty = CfnRuleGroup.ReferenceSetsProperty.Builder().apply(initializer).build()

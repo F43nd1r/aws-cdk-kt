@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.GatewayVpcEndpointProps
 
 @Generated
-public fun buildGatewayVpcEndpointProps(initializer: @AwsCdkDsl
-    GatewayVpcEndpointProps.Builder.() -> Unit = {}): GatewayVpcEndpointProps =
-    GatewayVpcEndpointProps.Builder().apply(initializer).build()
+public fun buildGatewayVpcEndpointProps(initializer: @AwsCdkDsl GatewayVpcEndpointProps.Builder.() -> Unit = {}): GatewayVpcEndpointProps = GatewayVpcEndpointProps.Builder().apply(initializer).build()

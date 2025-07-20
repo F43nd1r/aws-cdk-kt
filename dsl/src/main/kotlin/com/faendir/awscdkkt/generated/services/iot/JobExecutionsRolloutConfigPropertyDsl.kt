@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.iot.CfnJobTemplate
 
 @Generated
-public fun buildJobExecutionsRolloutConfigProperty(initializer: @AwsCdkDsl
-    CfnJobTemplate.JobExecutionsRolloutConfigProperty.Builder.() -> Unit = {}):
-    CfnJobTemplate.JobExecutionsRolloutConfigProperty =
-    CfnJobTemplate.JobExecutionsRolloutConfigProperty.Builder().apply(initializer).build()
+public fun buildJobExecutionsRolloutConfigProperty(initializer: @AwsCdkDsl CfnJobTemplate.JobExecutionsRolloutConfigProperty.Builder.() -> Unit = {}): CfnJobTemplate.JobExecutionsRolloutConfigProperty = CfnJobTemplate.JobExecutionsRolloutConfigProperty.Builder().apply(initializer).build()

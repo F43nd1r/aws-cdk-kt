@@ -16,6 +16,4 @@ public fun Construct.cfnIntelligentPromptRouter(
 ): CfnIntelligentPromptRouter = CfnIntelligentPromptRouter(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnIntelligentPromptRouter(id: String, initializer: @AwsCdkDsl
-    CfnIntelligentPromptRouter.Builder.() -> Unit = {}): CfnIntelligentPromptRouter =
-    CfnIntelligentPromptRouter.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildCfnIntelligentPromptRouter(id: String, initializer: @AwsCdkDsl CfnIntelligentPromptRouter.Builder.() -> Unit = {}): CfnIntelligentPromptRouter = CfnIntelligentPromptRouter.Builder.create(this, id).apply(initializer).build()

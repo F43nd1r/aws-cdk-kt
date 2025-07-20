@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apigatewayv2.BatchHttpRouteOptions
 
 @Generated
-public fun buildBatchHttpRouteOptions(initializer: @AwsCdkDsl
-    BatchHttpRouteOptions.Builder.() -> Unit = {}): BatchHttpRouteOptions =
-    BatchHttpRouteOptions.Builder().apply(initializer).build()
+public fun buildBatchHttpRouteOptions(initializer: @AwsCdkDsl BatchHttpRouteOptions.Builder.() -> Unit = {}): BatchHttpRouteOptions = BatchHttpRouteOptions.Builder().apply(initializer).build()

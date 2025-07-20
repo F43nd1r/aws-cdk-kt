@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.pipes.CfnPipe
 
 @Generated
-public fun buildCloudwatchLogsLogDestinationProperty(initializer: @AwsCdkDsl
-    CfnPipe.CloudwatchLogsLogDestinationProperty.Builder.() -> Unit = {}):
-    CfnPipe.CloudwatchLogsLogDestinationProperty =
-    CfnPipe.CloudwatchLogsLogDestinationProperty.Builder().apply(initializer).build()
+public fun buildCloudwatchLogsLogDestinationProperty(initializer: @AwsCdkDsl CfnPipe.CloudwatchLogsLogDestinationProperty.Builder.() -> Unit = {}): CfnPipe.CloudwatchLogsLogDestinationProperty = CfnPipe.CloudwatchLogsLogDestinationProperty.Builder().apply(initializer).build()

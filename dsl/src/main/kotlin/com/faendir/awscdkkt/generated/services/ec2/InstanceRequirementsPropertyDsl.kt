@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.ec2.CfnLaunchTemplate
 
 @Generated
-public fun buildInstanceRequirementsProperty(initializer: @AwsCdkDsl
-    CfnLaunchTemplate.InstanceRequirementsProperty.Builder.() -> Unit = {}):
-    CfnLaunchTemplate.InstanceRequirementsProperty =
-    CfnLaunchTemplate.InstanceRequirementsProperty.Builder().apply(initializer).build()
+public fun buildInstanceRequirementsProperty(initializer: @AwsCdkDsl CfnLaunchTemplate.InstanceRequirementsProperty.Builder.() -> Unit = {}): CfnLaunchTemplate.InstanceRequirementsProperty = CfnLaunchTemplate.InstanceRequirementsProperty.Builder().apply(initializer).build()

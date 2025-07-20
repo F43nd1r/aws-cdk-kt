@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.servicecatalog.CloudFormationProductVersion
 
 @Generated
-public fun buildCloudFormationProductVersion(initializer: @AwsCdkDsl
-    CloudFormationProductVersion.Builder.() -> Unit = {}): CloudFormationProductVersion =
-    CloudFormationProductVersion.Builder().apply(initializer).build()
+public fun buildCloudFormationProductVersion(initializer: @AwsCdkDsl CloudFormationProductVersion.Builder.() -> Unit = {}): CloudFormationProductVersion = CloudFormationProductVersion.Builder().apply(initializer).build()

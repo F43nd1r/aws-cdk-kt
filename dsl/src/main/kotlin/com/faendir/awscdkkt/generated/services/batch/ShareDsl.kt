@@ -6,5 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.batch.Share
 
 @Generated
-public fun buildShare(initializer: @AwsCdkDsl Share.Builder.() -> Unit = {}): Share =
-    Share.Builder().apply(initializer).build()
+public fun buildShare(initializer: @AwsCdkDsl Share.Builder.() -> Unit = {}): Share = Share.Builder().apply(initializer).build()

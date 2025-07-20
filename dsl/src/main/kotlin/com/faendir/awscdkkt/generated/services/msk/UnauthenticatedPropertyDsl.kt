@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.msk.CfnCluster
 
 @Generated
-public fun buildUnauthenticatedProperty(initializer: @AwsCdkDsl
-    CfnCluster.UnauthenticatedProperty.Builder.() -> Unit = {}): CfnCluster.UnauthenticatedProperty
-    = CfnCluster.UnauthenticatedProperty.Builder().apply(initializer).build()
+public fun buildUnauthenticatedProperty(initializer: @AwsCdkDsl CfnCluster.UnauthenticatedProperty.Builder.() -> Unit = {}): CfnCluster.UnauthenticatedProperty = CfnCluster.UnauthenticatedProperty.Builder().apply(initializer).build()

@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.comprehend.CfnFlywheel
 
 @Generated
-public fun buildVpcConfigProperty(initializer: @AwsCdkDsl
-    CfnFlywheel.VpcConfigProperty.Builder.() -> Unit = {}): CfnFlywheel.VpcConfigProperty =
-    CfnFlywheel.VpcConfigProperty.Builder().apply(initializer).build()
+public fun buildVpcConfigProperty(initializer: @AwsCdkDsl CfnFlywheel.VpcConfigProperty.Builder.() -> Unit = {}): CfnFlywheel.VpcConfigProperty = CfnFlywheel.VpcConfigProperty.Builder().apply(initializer).build()

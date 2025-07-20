@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.glue.CfnTable
 
 @Generated
-public fun buildSkewedInfoProperty(initializer: @AwsCdkDsl
-    CfnTable.SkewedInfoProperty.Builder.() -> Unit = {}): CfnTable.SkewedInfoProperty =
-    CfnTable.SkewedInfoProperty.Builder().apply(initializer).build()
+public fun buildSkewedInfoProperty(initializer: @AwsCdkDsl CfnTable.SkewedInfoProperty.Builder.() -> Unit = {}): CfnTable.SkewedInfoProperty = CfnTable.SkewedInfoProperty.Builder().apply(initializer).build()

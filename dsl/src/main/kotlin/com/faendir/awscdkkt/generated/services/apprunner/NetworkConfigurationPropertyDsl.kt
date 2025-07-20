@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.apprunner.CfnService
 
 @Generated
-public fun buildNetworkConfigurationProperty(initializer: @AwsCdkDsl
-    CfnService.NetworkConfigurationProperty.Builder.() -> Unit = {}):
-    CfnService.NetworkConfigurationProperty =
-    CfnService.NetworkConfigurationProperty.Builder().apply(initializer).build()
+public fun buildNetworkConfigurationProperty(initializer: @AwsCdkDsl CfnService.NetworkConfigurationProperty.Builder.() -> Unit = {}): CfnService.NetworkConfigurationProperty = CfnService.NetworkConfigurationProperty.Builder().apply(initializer).build()

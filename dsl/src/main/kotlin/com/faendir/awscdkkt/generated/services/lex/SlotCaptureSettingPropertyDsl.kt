@@ -6,6 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.lex.CfnBot
 
 @Generated
-public fun buildSlotCaptureSettingProperty(initializer: @AwsCdkDsl
-    CfnBot.SlotCaptureSettingProperty.Builder.() -> Unit = {}): CfnBot.SlotCaptureSettingProperty =
-    CfnBot.SlotCaptureSettingProperty.Builder().apply(initializer).build()
+public fun buildSlotCaptureSettingProperty(initializer: @AwsCdkDsl CfnBot.SlotCaptureSettingProperty.Builder.() -> Unit = {}): CfnBot.SlotCaptureSettingProperty = CfnBot.SlotCaptureSettingProperty.Builder().apply(initializer).build()

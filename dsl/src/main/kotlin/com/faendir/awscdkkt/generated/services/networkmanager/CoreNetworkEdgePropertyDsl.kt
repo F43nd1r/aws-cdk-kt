@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.networkmanager.CfnCoreNetwork
 
 @Generated
-public fun buildCoreNetworkEdgeProperty(initializer: @AwsCdkDsl
-    CfnCoreNetwork.CoreNetworkEdgeProperty.Builder.() -> Unit = {}):
-    CfnCoreNetwork.CoreNetworkEdgeProperty =
-    CfnCoreNetwork.CoreNetworkEdgeProperty.Builder().apply(initializer).build()
+public fun buildCoreNetworkEdgeProperty(initializer: @AwsCdkDsl CfnCoreNetwork.CoreNetworkEdgeProperty.Builder.() -> Unit = {}): CfnCoreNetwork.CoreNetworkEdgeProperty = CfnCoreNetwork.CoreNetworkEdgeProperty.Builder().apply(initializer).build()

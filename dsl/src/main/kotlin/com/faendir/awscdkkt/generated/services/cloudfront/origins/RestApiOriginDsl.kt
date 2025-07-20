@@ -7,6 +7,4 @@ import software.amazon.awscdk.services.apigateway.RestApiBase
 import software.amazon.awscdk.services.cloudfront.origins.RestApiOrigin
 
 @Generated
-public fun buildRestApiOrigin(restApi: RestApiBase, initializer: @AwsCdkDsl
-    RestApiOrigin.Builder.() -> Unit = {}): RestApiOrigin =
-    RestApiOrigin.Builder.create(restApi).apply(initializer).build()
+public fun buildRestApiOrigin(restApi: RestApiBase, initializer: @AwsCdkDsl RestApiOrigin.Builder.() -> Unit = {}): RestApiOrigin = RestApiOrigin.Builder.create(restApi).apply(initializer).build()

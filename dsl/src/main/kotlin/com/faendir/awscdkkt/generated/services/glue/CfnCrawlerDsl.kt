@@ -16,6 +16,4 @@ public fun Construct.cfnCrawler(
 ): CfnCrawler = CfnCrawler(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnCrawler(id: String, initializer: @AwsCdkDsl
-    CfnCrawler.Builder.() -> Unit = {}): CfnCrawler = CfnCrawler.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnCrawler(id: String, initializer: @AwsCdkDsl CfnCrawler.Builder.() -> Unit = {}): CfnCrawler = CfnCrawler.Builder.create(this, id).apply(initializer).build()

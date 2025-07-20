@@ -16,5 +16,4 @@ public fun Construct.txtRecord(
 ): TxtRecord = TxtRecord(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildTxtRecord(id: String, initializer: @AwsCdkDsl TxtRecord.Builder.() -> Unit
-    = {}): TxtRecord = TxtRecord.Builder.create(this, id).apply(initializer).build()
+public fun Construct.buildTxtRecord(id: String, initializer: @AwsCdkDsl TxtRecord.Builder.() -> Unit = {}): TxtRecord = TxtRecord.Builder.create(this, id).apply(initializer).build()

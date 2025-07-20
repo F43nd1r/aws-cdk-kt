@@ -6,7 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.fms.CfnPolicy
 
 @Generated
-public fun buildSecurityServicePolicyDataProperty(initializer: @AwsCdkDsl
-    CfnPolicy.SecurityServicePolicyDataProperty.Builder.() -> Unit = {}):
-    CfnPolicy.SecurityServicePolicyDataProperty =
-    CfnPolicy.SecurityServicePolicyDataProperty.Builder().apply(initializer).build()
+public fun buildSecurityServicePolicyDataProperty(initializer: @AwsCdkDsl CfnPolicy.SecurityServicePolicyDataProperty.Builder.() -> Unit = {}): CfnPolicy.SecurityServicePolicyDataProperty = CfnPolicy.SecurityServicePolicyDataProperty.Builder().apply(initializer).build()

@@ -16,6 +16,4 @@ public fun Construct.cfnNamedQuery(
 ): CfnNamedQuery = CfnNamedQuery(this, id, props).apply(initializer)
 
 @Generated
-public fun Construct.buildCfnNamedQuery(id: String, initializer: @AwsCdkDsl
-    CfnNamedQuery.Builder.() -> Unit = {}): CfnNamedQuery = CfnNamedQuery.Builder.create(this,
-    id).apply(initializer).build()
+public fun Construct.buildCfnNamedQuery(id: String, initializer: @AwsCdkDsl CfnNamedQuery.Builder.() -> Unit = {}): CfnNamedQuery = CfnNamedQuery.Builder.create(this, id).apply(initializer).build()
