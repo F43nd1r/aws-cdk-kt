@@ -22,7 +22,7 @@ dependencies {
 
 val javadocJar = tasks.register<Jar>("javadocJar") {
     group = "documentation"
-    from(tasks["dokkaJavadoc"])
+    from(tasks["dokkaGenerate"])
     archiveClassifier.set("javadoc")
 }
 
@@ -106,17 +106,15 @@ tasks.register("isNewRelease") {
     }
 }
 
-val createReleaseTag by tasks.registering {
-    doLast {
-        exec {
-            workingDir(rootProject.rootDir)
-            commandLine("git", "tag", "-a", "v$version", "-m", "Create version $version")
-        }
-        exec {
-            workingDir(rootProject.rootDir)
-            commandLine("git", "push", "--tags")
-        }
-    }
+val pushReleaseTag = tasks.registering(Exec::class) {
+    workingDir = rootProject.rootDir
+    commandLine = listOf("git", "push", "--tags")
+}
+
+val createReleaseTag by tasks.registering(Exec::class) {
+    workingDir = rootProject.rootDir
+    commandLine = listOf("git", "tag", "-a", "v$version", "-m", "Create version $version")
+    finalizedBy(pushReleaseTag)
 }
 
 tasks.publish.configure {

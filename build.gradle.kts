@@ -4,21 +4,12 @@ plugins {
     alias(libs.plugins.dokka)
 }
 
-tasks.register("build") {
-    group = "build"
-}
-
 tasks.register("publish") {
     group = "publishing"
     subprojects {
         tasks.findByName("publish")?.let { dependsOn(it) }
     }
     dependsOn("closeAndReleaseSonatypeStagingRepository")
-}
-
-tasks.register<Delete>("clean") {
-    group = "build"
-    delete = setOf(layout.buildDirectory)
 }
 
 nexusPublishing {
