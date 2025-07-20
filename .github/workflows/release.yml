@@ -24,7 +24,7 @@ jobs:
           fetch-depth: 0
           ref: ${{ github.ref }}
       - name: Generate DSL
-        uses: burrunan/gradle-cache-action@v2
+        uses: burrunan/gradle-cache-action@v3
         with:
           arguments: :dsl-generator:run
       - name: Commit and push changes
@@ -36,12 +36,12 @@ jobs:
           author_name: github-actions
           author_email: 41898282+github-actions[bot]@users.noreply.github.com
       - name: Test
-        uses: burrunan/gradle-cache-action@v2
+        uses: burrunan/gradle-cache-action@v3
         with:
           arguments: :example:run
       - name: Is New Release
         id: isNewRelease
-        uses: burrunan/gradle-cache-action@v2
+        uses: burrunan/gradle-cache-action@v3
         with:
           arguments: isNewRelease
         env:
@@ -54,7 +54,7 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
       - name: Publish
-        uses: burrunan/gradle-cache-action@v2
+        uses: burrunan/gradle-cache-action@v3
         if: steps.isNewRelease.outcome == 'success'
         with:
           arguments: :publish
