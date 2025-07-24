@@ -3,7 +3,7 @@ package com.faendir.awscdkkt.generated.services.logs
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.logs.CfnTransformer
+import software.amazon.awscdk.services.logs.RenameKeyEntryProperty
 
 @Generated
-public fun buildRenameKeyEntryProperty(initializer: @AwsCdkDsl CfnTransformer.RenameKeyEntryProperty.Builder.() -> Unit = {}): CfnTransformer.RenameKeyEntryProperty = CfnTransformer.RenameKeyEntryProperty.Builder().apply(initializer).build()
+public fun buildRenameKeyEntryProperty(initializer: @AwsCdkDsl RenameKeyEntryProperty.Builder.() -> Unit = {}): RenameKeyEntryProperty = RenameKeyEntryProperty.Builder().apply(initializer).build()
