@@ -3,7 +3,7 @@ package com.faendir.awscdkkt.generated.services.sagemaker
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.sagemaker.CfnMonitoringSchedule
+import software.amazon.awscdk.services.sagemaker.CfnProcessingJob
 
 @Generated
-public fun buildVpcConfigProperty(initializer: @AwsCdkDsl CfnMonitoringSchedule.VpcConfigProperty.Builder.() -> Unit = {}): CfnMonitoringSchedule.VpcConfigProperty = CfnMonitoringSchedule.VpcConfigProperty.Builder().apply(initializer).build()
+public fun buildVpcConfigProperty(initializer: @AwsCdkDsl CfnProcessingJob.VpcConfigProperty.Builder.() -> Unit = {}): CfnProcessingJob.VpcConfigProperty = CfnProcessingJob.VpcConfigProperty.Builder().apply(initializer).build()

@@ -9,6 +9,9 @@ import software.amazon.awscdk.services.ivs.CfnPlaybackRestrictionPolicyProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnPlaybackRestrictionPolicy(id: String, initializer: @AwsCdkDsl CfnPlaybackRestrictionPolicy.() -> Unit = {}): CfnPlaybackRestrictionPolicy = CfnPlaybackRestrictionPolicy(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnPlaybackRestrictionPolicy(
   id: String,
   props: CfnPlaybackRestrictionPolicyProps,

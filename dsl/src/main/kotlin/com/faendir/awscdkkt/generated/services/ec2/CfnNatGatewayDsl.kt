@@ -9,6 +9,9 @@ import software.amazon.awscdk.services.ec2.CfnNatGatewayProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnNatGateway(id: String, initializer: @AwsCdkDsl CfnNatGateway.() -> Unit = {}): CfnNatGateway = CfnNatGateway(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnNatGateway(
   id: String,
   props: CfnNatGatewayProps,

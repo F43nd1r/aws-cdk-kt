@@ -3,7 +3,7 @@ package com.faendir.awscdkkt.generated.services.sagemaker
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.sagemaker.CfnMonitoringSchedule
+import software.amazon.awscdk.services.sagemaker.CfnProcessingJob
 
 @Generated
-public fun buildStoppingConditionProperty(initializer: @AwsCdkDsl CfnMonitoringSchedule.StoppingConditionProperty.Builder.() -> Unit = {}): CfnMonitoringSchedule.StoppingConditionProperty = CfnMonitoringSchedule.StoppingConditionProperty.Builder().apply(initializer).build()
+public fun buildStoppingConditionProperty(initializer: @AwsCdkDsl CfnProcessingJob.StoppingConditionProperty.Builder.() -> Unit = {}): CfnProcessingJob.StoppingConditionProperty = CfnProcessingJob.StoppingConditionProperty.Builder().apply(initializer).build()

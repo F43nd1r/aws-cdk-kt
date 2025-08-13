@@ -9,6 +9,9 @@ import software.amazon.awscdk.services.sagemaker.CfnClusterProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnCluster(id: String, initializer: @AwsCdkDsl CfnCluster.() -> Unit = {}): CfnCluster = CfnCluster(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnCluster(
   id: String,
   props: CfnClusterProps,
