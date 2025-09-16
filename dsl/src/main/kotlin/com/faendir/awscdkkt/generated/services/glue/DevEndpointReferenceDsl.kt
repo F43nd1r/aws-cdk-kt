@@ -1,0 +1,9 @@
+package com.faendir.awscdkkt.generated.services.glue
+
+import com.faendir.awscdkkt.AwsCdkDsl
+import javax.`annotation`.Generated
+import kotlin.Unit
+import software.amazon.awscdk.services.glue.DevEndpointReference
+
+@Generated
+public fun buildDevEndpointReference(initializer: @AwsCdkDsl DevEndpointReference.Builder.() -> Unit = {}): DevEndpointReference = DevEndpointReference.Builder().apply(initializer).build()
