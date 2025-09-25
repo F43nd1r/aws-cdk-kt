@@ -9,6 +9,9 @@ import software.amazon.awscdk.services.servicecatalog.CfnPortfolioProductAssocia
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnPortfolioProductAssociation(id: String, initializer: @AwsCdkDsl CfnPortfolioProductAssociation.() -> Unit = {}): CfnPortfolioProductAssociation = CfnPortfolioProductAssociation(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnPortfolioProductAssociation(
   id: String,
   props: CfnPortfolioProductAssociationProps,
