@@ -9,9 +9,6 @@ import software.amazon.awscdk.services.s3.CfnAccessGrantsLocationProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnAccessGrantsLocation(id: String, initializer: @AwsCdkDsl CfnAccessGrantsLocation.() -> Unit = {}): CfnAccessGrantsLocation = CfnAccessGrantsLocation(this, id).apply(initializer)
-
-@Generated
 public fun Construct.cfnAccessGrantsLocation(
   id: String,
   props: CfnAccessGrantsLocationProps,

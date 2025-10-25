@@ -9,6 +9,9 @@ import software.amazon.awscdk.services.servicecatalog.CfnTagOptionAssociationPro
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnTagOptionAssociation(id: String, initializer: @AwsCdkDsl CfnTagOptionAssociation.() -> Unit = {}): CfnTagOptionAssociation = CfnTagOptionAssociation(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnTagOptionAssociation(
   id: String,
   props: CfnTagOptionAssociationProps,
