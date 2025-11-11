@@ -9,6 +9,9 @@ import software.amazon.awscdk.services.ec2.CfnVolumeProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnVolume(id: String, initializer: @AwsCdkDsl CfnVolume.() -> Unit = {}): CfnVolume = CfnVolume(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnVolume(
   id: String,
   props: CfnVolumeProps,
