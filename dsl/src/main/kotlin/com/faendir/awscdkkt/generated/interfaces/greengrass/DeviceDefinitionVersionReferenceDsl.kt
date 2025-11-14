@@ -1,0 +1,9 @@
+package com.faendir.awscdkkt.generated.interfaces.greengrass
+
+import com.faendir.awscdkkt.AwsCdkDsl
+import javax.`annotation`.Generated
+import kotlin.Unit
+import software.amazon.awscdk.interfaces.greengrass.DeviceDefinitionVersionReference
+
+@Generated
+public fun buildDeviceDefinitionVersionReference(initializer: @AwsCdkDsl DeviceDefinitionVersionReference.Builder.() -> Unit = {}): DeviceDefinitionVersionReference = DeviceDefinitionVersionReference.Builder().apply(initializer).build()

@@ -1,0 +1,9 @@
+package com.faendir.awscdkkt.generated.interfaces.quicksight
+
+import com.faendir.awscdkkt.AwsCdkDsl
+import javax.`annotation`.Generated
+import kotlin.Unit
+import software.amazon.awscdk.interfaces.quicksight.AnalysisReference
+
+@Generated
+public fun buildAnalysisReference(initializer: @AwsCdkDsl AnalysisReference.Builder.() -> Unit = {}): AnalysisReference = AnalysisReference.Builder().apply(initializer).build()

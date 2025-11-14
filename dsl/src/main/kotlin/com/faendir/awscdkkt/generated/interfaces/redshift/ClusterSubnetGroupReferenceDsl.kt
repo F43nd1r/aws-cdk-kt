@@ -1,0 +1,9 @@
+package com.faendir.awscdkkt.generated.interfaces.redshift
+
+import com.faendir.awscdkkt.AwsCdkDsl
+import javax.`annotation`.Generated
+import kotlin.Unit
+import software.amazon.awscdk.interfaces.redshift.ClusterSubnetGroupReference
+
+@Generated
+public fun buildClusterSubnetGroupReference(initializer: @AwsCdkDsl ClusterSubnetGroupReference.Builder.() -> Unit = {}): ClusterSubnetGroupReference = ClusterSubnetGroupReference.Builder().apply(initializer).build()

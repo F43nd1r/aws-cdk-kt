@@ -1,0 +1,9 @@
+package com.faendir.awscdkkt.generated.interfaces.ec2
+
+import com.faendir.awscdkkt.AwsCdkDsl
+import javax.`annotation`.Generated
+import kotlin.Unit
+import software.amazon.awscdk.interfaces.ec2.RouteServerPropagationReference
+
+@Generated
+public fun buildRouteServerPropagationReference(initializer: @AwsCdkDsl RouteServerPropagationReference.Builder.() -> Unit = {}): RouteServerPropagationReference = RouteServerPropagationReference.Builder().apply(initializer).build()

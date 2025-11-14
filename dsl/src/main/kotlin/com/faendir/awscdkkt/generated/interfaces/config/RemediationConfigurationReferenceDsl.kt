@@ -1,0 +1,9 @@
+package com.faendir.awscdkkt.generated.interfaces.config
+
+import com.faendir.awscdkkt.AwsCdkDsl
+import javax.`annotation`.Generated
+import kotlin.Unit
+import software.amazon.awscdk.interfaces.config.RemediationConfigurationReference
+
+@Generated
+public fun buildRemediationConfigurationReference(initializer: @AwsCdkDsl RemediationConfigurationReference.Builder.() -> Unit = {}): RemediationConfigurationReference = RemediationConfigurationReference.Builder().apply(initializer).build()

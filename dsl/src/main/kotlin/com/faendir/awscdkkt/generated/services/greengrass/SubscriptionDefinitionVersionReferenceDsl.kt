@@ -1,9 +1,0 @@
-package com.faendir.awscdkkt.generated.services.greengrass
-
-import com.faendir.awscdkkt.AwsCdkDsl
-import javax.`annotation`.Generated
-import kotlin.Unit
-import software.amazon.awscdk.services.greengrass.SubscriptionDefinitionVersionReference
-
-@Generated
-public fun buildSubscriptionDefinitionVersionReference(initializer: @AwsCdkDsl SubscriptionDefinitionVersionReference.Builder.() -> Unit = {}): SubscriptionDefinitionVersionReference = SubscriptionDefinitionVersionReference.Builder().apply(initializer).build()
