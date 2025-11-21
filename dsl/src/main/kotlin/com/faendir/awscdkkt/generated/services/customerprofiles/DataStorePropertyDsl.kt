@@ -6,4 +6,4 @@ import kotlin.Unit
 import software.amazon.awscdk.services.customerprofiles.CfnDomain
 
 @Generated
-public fun buildReadinessProperty(initializer: @AwsCdkDsl CfnDomain.ReadinessProperty.Builder.() -> Unit = {}): CfnDomain.ReadinessProperty = CfnDomain.ReadinessProperty.Builder().apply(initializer).build()
+public fun buildDataStoreProperty(initializer: @AwsCdkDsl CfnDomain.DataStoreProperty.Builder.() -> Unit = {}): CfnDomain.DataStoreProperty = CfnDomain.DataStoreProperty.Builder().apply(initializer).build()
