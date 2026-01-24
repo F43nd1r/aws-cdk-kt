@@ -1,4 +1,4 @@
-@file:Generated(value = ["Generated based on CDK v2.235.1"])
+@file:Generated(value = ["Generated based on CDK v2.236.0"])
 
 package com.faendir.awscdkkt.generated
 
