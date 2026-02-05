@@ -1,5 +1,5 @@
 [versions]
-kotlin = "2.3.0"
+kotlin = "2.3.10"
 dokka = "2.1.0"
 kotlinPoet = "2.2.0"
 kotlinBard = "0.6.0"
