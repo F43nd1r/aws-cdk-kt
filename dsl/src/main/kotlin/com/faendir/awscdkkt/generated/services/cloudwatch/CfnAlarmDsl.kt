@@ -9,6 +9,9 @@ import software.amazon.awscdk.services.cloudwatch.CfnAlarmProps
 import software.constructs.Construct
 
 @Generated
+public fun Construct.cfnAlarm(id: String, initializer: @AwsCdkDsl CfnAlarm.() -> Unit = {}): CfnAlarm = CfnAlarm(this, id).apply(initializer)
+
+@Generated
 public fun Construct.cfnAlarm(
   id: String,
   props: CfnAlarmProps,

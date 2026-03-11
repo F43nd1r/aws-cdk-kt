@@ -1,0 +1,9 @@
+package com.faendir.awscdkkt.generated.services.bedrockagentcore
+
+import com.faendir.awscdkkt.AwsCdkDsl
+import javax.`annotation`.Generated
+import kotlin.Unit
+import software.amazon.awscdk.services.bedrockagentcore.CfnEvaluator
+
+@Generated
+public fun buildBedrockEvaluatorModelConfigProperty(initializer: @AwsCdkDsl CfnEvaluator.BedrockEvaluatorModelConfigProperty.Builder.() -> Unit = {}): CfnEvaluator.BedrockEvaluatorModelConfigProperty = CfnEvaluator.BedrockEvaluatorModelConfigProperty.Builder().apply(initializer).build()
