@@ -8,19 +8,19 @@ jobs:
 
     steps:
       - name: Setup Java
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v4.8.0
         with:
           distribution: 'temurin'
           java-version: '11'
       - name: Checkout
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
         with:
           ref: ${{ github.ref }}
       - name: Generate DSL
-        uses: burrunan/gradle-cache-action@v3
+        uses: burrunan/gradle-cache-action@v3.0.2
         with:
           arguments: :dsl-generator:run
       - name: Test
-        uses: burrunan/gradle-cache-action@v3
+        uses: burrunan/gradle-cache-action@v3.0.2
         with:
           arguments: :example:run
