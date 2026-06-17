@@ -9,9 +9,6 @@ import software.amazon.awscdk.services.observabilityadmin.CfnTelemetryEnrichment
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnTelemetryEnrichment(id: String, initializer: @AwsCdkDsl CfnTelemetryEnrichment.() -> Unit = {}): CfnTelemetryEnrichment = CfnTelemetryEnrichment(this, id).apply(initializer)
-
-@Generated
 public fun Construct.cfnTelemetryEnrichment(
   id: String,
   props: CfnTelemetryEnrichmentProps,
