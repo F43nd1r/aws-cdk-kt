@@ -3,7 +3,7 @@ package com.faendir.awscdkkt.generated.services.cognito
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.cognito.CfnUserPool
+import software.amazon.awscdk.services.cognito.CfnUserPoolRegionalConfigurationAttachment
 
 @Generated
-public fun buildEmailConfigurationProperty(initializer: @AwsCdkDsl CfnUserPool.EmailConfigurationProperty.Builder.() -> Unit = {}): CfnUserPool.EmailConfigurationProperty = CfnUserPool.EmailConfigurationProperty.Builder().apply(initializer).build()
+public fun buildEmailConfigurationProperty(initializer: @AwsCdkDsl CfnUserPoolRegionalConfigurationAttachment.EmailConfigurationProperty.Builder.() -> Unit = {}): CfnUserPoolRegionalConfigurationAttachment.EmailConfigurationProperty = CfnUserPoolRegionalConfigurationAttachment.EmailConfigurationProperty.Builder().apply(initializer).build()
