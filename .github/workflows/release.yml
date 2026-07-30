@@ -28,7 +28,7 @@ jobs:
         with:
           arguments: :dsl-generator:run
       - name: Commit and push changes
-        uses: EndBug/add-and-commit@v9.1.4
+        uses: EndBug/add-and-commit@v10.0.0
         with:
           add: 'dsl/src/main/kotlin'
           message: 'Update DSL'
