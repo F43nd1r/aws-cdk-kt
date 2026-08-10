@@ -3,7 +3,7 @@ package com.faendir.awscdkkt.generated.services.sagemaker
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.sagemaker.CfnModelPackage
+import software.amazon.awscdk.services.sagemaker.CfnTransformJob
 
 @Generated
-public fun buildTransformResourcesProperty(initializer: @AwsCdkDsl CfnModelPackage.TransformResourcesProperty.Builder.() -> Unit = {}): CfnModelPackage.TransformResourcesProperty = CfnModelPackage.TransformResourcesProperty.Builder().apply(initializer).build()
+public fun buildTransformResourcesProperty(initializer: @AwsCdkDsl CfnTransformJob.TransformResourcesProperty.Builder.() -> Unit = {}): CfnTransformJob.TransformResourcesProperty = CfnTransformJob.TransformResourcesProperty.Builder().apply(initializer).build()

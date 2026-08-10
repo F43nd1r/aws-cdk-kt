@@ -3,7 +3,7 @@ package com.faendir.awscdkkt.generated.services.sagemaker
 import com.faendir.awscdkkt.AwsCdkDsl
 import javax.`annotation`.Generated
 import kotlin.Unit
-import software.amazon.awscdk.services.sagemaker.CfnEndpointConfig
+import software.amazon.awscdk.services.sagemaker.CfnTransformJob
 
 @Generated
-public fun buildDataCaptureConfigProperty(initializer: @AwsCdkDsl CfnEndpointConfig.DataCaptureConfigProperty.Builder.() -> Unit = {}): CfnEndpointConfig.DataCaptureConfigProperty = CfnEndpointConfig.DataCaptureConfigProperty.Builder().apply(initializer).build()
+public fun buildDataCaptureConfigProperty(initializer: @AwsCdkDsl CfnTransformJob.DataCaptureConfigProperty.Builder.() -> Unit = {}): CfnTransformJob.DataCaptureConfigProperty = CfnTransformJob.DataCaptureConfigProperty.Builder().apply(initializer).build()

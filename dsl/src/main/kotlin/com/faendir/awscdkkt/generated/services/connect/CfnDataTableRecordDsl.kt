@@ -9,9 +9,6 @@ import software.amazon.awscdk.services.connect.CfnDataTableRecordProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDataTableRecord(id: String, initializer: @AwsCdkDsl CfnDataTableRecord.() -> Unit = {}): CfnDataTableRecord = CfnDataTableRecord(this, id).apply(initializer)
-
-@Generated
 public fun Construct.cfnDataTableRecord(
   id: String,
   props: CfnDataTableRecordProps,
