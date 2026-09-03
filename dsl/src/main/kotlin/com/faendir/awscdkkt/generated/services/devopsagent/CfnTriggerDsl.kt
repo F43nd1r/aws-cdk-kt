@@ -1,0 +1,19 @@
+package com.faendir.awscdkkt.generated.services.devopsagent
+
+import com.faendir.awscdkkt.AwsCdkDsl
+import javax.`annotation`.Generated
+import kotlin.String
+import kotlin.Unit
+import software.amazon.awscdk.services.devopsagent.CfnTrigger
+import software.amazon.awscdk.services.devopsagent.CfnTriggerProps
+import software.constructs.Construct
+
+@Generated
+public fun Construct.cfnTrigger(
+  id: String,
+  props: CfnTriggerProps,
+  initializer: @AwsCdkDsl CfnTrigger.() -> Unit = {},
+): CfnTrigger = CfnTrigger(this, id, props).apply(initializer)
+
+@Generated
+public fun Construct.buildCfnTrigger(id: String, initializer: @AwsCdkDsl CfnTrigger.Builder.() -> Unit = {}): CfnTrigger = CfnTrigger.Builder.create(this, id).apply(initializer).build()

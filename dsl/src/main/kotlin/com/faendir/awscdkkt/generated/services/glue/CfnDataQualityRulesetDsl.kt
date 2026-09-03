@@ -9,9 +9,6 @@ import software.amazon.awscdk.services.glue.CfnDataQualityRulesetProps
 import software.constructs.Construct
 
 @Generated
-public fun Construct.cfnDataQualityRuleset(id: String, initializer: @AwsCdkDsl CfnDataQualityRuleset.() -> Unit = {}): CfnDataQualityRuleset = CfnDataQualityRuleset(this, id).apply(initializer)
-
-@Generated
 public fun Construct.cfnDataQualityRuleset(
   id: String,
   props: CfnDataQualityRulesetProps,

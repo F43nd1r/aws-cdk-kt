@@ -1,0 +1,19 @@
+package com.faendir.awscdkkt.generated.services.eks
+
+import com.faendir.awscdkkt.AwsCdkDsl
+import javax.`annotation`.Generated
+import kotlin.String
+import kotlin.Unit
+import software.amazon.awscdk.services.eks.CfnCertificateAuthority
+import software.amazon.awscdk.services.eks.CfnCertificateAuthorityProps
+import software.constructs.Construct
+
+@Generated
+public fun Construct.cfnCertificateAuthority(
+  id: String,
+  props: CfnCertificateAuthorityProps,
+  initializer: @AwsCdkDsl CfnCertificateAuthority.() -> Unit = {},
+): CfnCertificateAuthority = CfnCertificateAuthority(this, id, props).apply(initializer)
+
+@Generated
+public fun Construct.buildCfnCertificateAuthority(id: String, initializer: @AwsCdkDsl CfnCertificateAuthority.Builder.() -> Unit = {}): CfnCertificateAuthority = CfnCertificateAuthority.Builder.create(this, id).apply(initializer).build()
