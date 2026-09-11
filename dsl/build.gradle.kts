@@ -12,7 +12,7 @@ version = "${libs.versions.cdk.get()}-$version"
 
 kotlin {
     jvmToolchain {
-        languageVersion.set(JavaLanguageVersion.of(11))
+        languageVersion.set(JavaLanguageVersion.of(17))
     }
 }
 
@@ -87,7 +87,8 @@ signing {
     sign(publishing.publications["maven"])
 }
 
-val downloadReleaseMetadata by tasks.registering(Download::class) {
+val downloadReleaseMetadata = tasks.register<Download>("downloadReleaseMetadata") {
+    description = "Download metadata of previous releases"
     src("https://maven.pkg.github.com/F43nd1r/aws-cdk-kt/com/faendir/awscdkkt/dsl/maven-metadata.xml")
     dest(project.layout.buildDirectory.dir("release-metadata"))
     username(githubUser)
@@ -96,6 +97,7 @@ val downloadReleaseMetadata by tasks.registering(Download::class) {
 }
 
 tasks.register("isNewRelease") {
+    description = "Check if this would be a new release. Throws if not."
     dependsOn(downloadReleaseMetadata)
     doLast {
         val metadata = downloadReleaseMetadata.get().outputFiles.single().readText()
@@ -106,12 +108,13 @@ tasks.register("isNewRelease") {
     }
 }
 
-val pushReleaseTag = tasks.registering(Exec::class) {
+val pushReleaseTag = tasks.register<Exec>("pushReleaseTag") {
+    description = "Push git release tags"
     workingDir = rootProject.rootDir
     commandLine = listOf("git", "push", "--tags")
 }
 
-val createReleaseTag by tasks.registering(Exec::class) {
+val createReleaseTag = tasks.register<Exec>("createReleaseTag") {
     workingDir = rootProject.rootDir
     commandLine = listOf("git", "tag", "-a", "v$version", "-m", "Create version $version")
     finalizedBy(pushReleaseTag)
