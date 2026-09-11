@@ -7,7 +7,7 @@ plugins {
 
 kotlin {
     jvmToolchain {
-        languageVersion.set(JavaLanguageVersion.of(11))
+        languageVersion.set(JavaLanguageVersion.of(17))
     }
 }
 
@@ -26,7 +26,8 @@ application {
 
 tasks {
     run.configure {
-        val dir = "${project.projects.dsl.dependencyProject.projectDir}/src/main/kotlin"
+        val dir = project(project.projects.dsl.path).layout.projectDirectory.dir("src/main/kotlin")
+        println(dir)
         args(dir, libs.versions.cdk.get())
         doFirst {
             file("$dir/com/faendir/awscdkkt/generated").deleteRecursively()
